@@ -1,0 +1,3351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register: News</title>
+<lastBuildDate>Sat, 05 Jul 2025 16:02:29 -0000</lastBuildDate>
+<item>
+<title> Massive spike in use of .es domains for phishing abuse </title>
+<link>https://www.theregister.com/2025/07/05/spain_domains_phishing/</link>
+<pubDate>Sat, 05 Jul 2025 12:49:19 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Cybersecurity experts are reporting a 19x increase in malicious campaigns being launched from .es domains, making it the third most common, behind only .com and .ru.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The .es top-level domain (TLD) is the domain reserved for the country of Spain, or websites targeting Spanish-speaking audiences.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cofense said the abuse of the .es TLD started to pick up in January, and as of May, 1,373 subdomains were hosting malicious web pages on 447 .es base domains.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The researchers said that 99 percent of these were focused on
+   &lt;a href=&quot;https://www.theregister.com/2025/04/23/stolen_credentials_mandiant/&quot;&gt;
+    credential phishing
+   &lt;/a&gt;
+   , while the other 1 percent were devoted to distributing remote access trojans (RATs) such as ConnectWise RAT, Dark Crystal, and XWorm.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The malware was distributed either via a C2 node or a malicious email spoofing a well-known brand (Microsoft in 95 percent of cases, unsurprisingly), so there was nothing overly novel about the campaigns themselves other than the TLD.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Emails seen in the wild tend to be themed around workplace matters such as HR requests or requests for the receipt of documents, for example, and the messages are often well-crafted, rather than low-effort one-liners.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The .es domains that host the malicious content, like the fake Microsoft sign-in portals, are in most cases randomly generated rather than crafted by a human. For potential targets, this potentially makes it easier to spot a lookalike/
+   &lt;a href=&quot;https://www.theregister.com/2024/11/05/typosquatting_npm_campaign/&quot;&gt;
+    typosquat
+   &lt;/a&gt;
+   -style URL.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Some examples of the types of subdomains hosted on the .es base domains are as follows:
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    ag7sr[.]fjlabpkgcuo[.]es
+   &lt;/li&gt;
+   &lt;li&gt;
+    gymi8[.]fwpzza[.]es
+   &lt;/li&gt;
+   &lt;li&gt;
+    md6h60[.]hukqpeny[.]es
+   &lt;/li&gt;
+   &lt;li&gt;
+    Shmkd[.]jlaancyfaw[.]es
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   As for why exactly the .es domain was proving so popular, Cofense did not venture any guesses. However, it said that aside from the top two most-abused TLDs (.com and .ru), the remainder tend to fluctuate from quarter-to-quarter.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Regardless, the general nature of the phishing campaigns experts observed over the past six months suggests dodgy .es websites could be here to stay.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cofense said: &quot;If one threat actor or threat actor group were taking advantage of .es TLD domains then it is likely that the brands spoofed in .es TLD campaigns would indicate certain preferences by the threat actors that would be different from general campaigns delivered by a wide variety of threat actors with varying motives, targets, and campaign quality.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This was not observed, making it likely that abuse of .es TLD domains is becoming a common technique among a large group of threat actors rather than a few more specialized groups.&quot;
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/26/that_whatsapp_from_an_israeli/&quot;&gt;
+     That WhatsApp from an Israeli infosec expert could be a Iranian phish
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/30/exnsa_cyber_boss_ai_expoit_dev/&quot;&gt;
+     Ex-NSA cyber-boss: AI will soon be a great exploit coder
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/25/troy_hunt_mailchimp_phish/&quot;&gt;
+     Infosec pro Troy Hunt HasBeenPwned in Mailchimp phish
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/08/scattered_spider_updates/&quot;&gt;
+     Scattered Spider stops the Rickrolls, starts the RAT race
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   One similarity Cofense saw between almost all of the malicious .es domains was that 99 percent of them were hosted on Cloudflare, and most of the phishing pages used a Cloudflare Turnstile
+   &lt;a href=&quot;https://www.theregister.com/2025/01/03/captcha_doom_nightmare/&quot;&gt;
+    CAPTCHA
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;While Cloudflare has recently made deploying a web page quick and easy via command line with pages hosted on [.]pages[.]dev, it is unclear whether their recent move to making domains hosted by them easy to deploy has attracted threat actors to their hosting services across different platforms or if there are other reasons, such as how strict or lenient Cloudflare is with abuse complaints,&quot; the researchers blogged.
+  &lt;/p&gt;
+  &lt;p&gt;
+   European Union country-code TLDs (ccTLDs) like .es are typically among the least abused, according to the
+   &lt;a href=&quot;https://www.theregister.com/2024/01/29/icann_internal_tld/&quot;&gt;
+    Internet Corporation for Assigned Names and Numbers (ICANN)
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   They typically come with more restrictions on who can register a ccTLD compared to a generic TLD (gTLD) like .top and
+   &lt;a href=&quot;https://www.theregister.com/2023/05/17/google_zip_mov_domains/&quot;&gt;
+    .zip
+   &lt;/a&gt;
+   , and don&#x27;t support bulk registrations, making them less appealing to those who wish to abuse them en masse. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> iFixit gives new Fairphone 6 top marks for repairability: 10/10 </title>
+<link>https://www.theregister.com/2025/07/05/ifixit_gives_fairphone_10/</link>
+<pubDate>Sat, 05 Jul 2025 11:34:14 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   The sixth generation of the Fairphone repairable mobile was launched at the end of June. Now spunger-flingers iFixit have got their hands on it, and liked the result.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Center&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/td_fairphone_6_7e.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;port swap made easy. Image courtesy iFixit&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/07/04/td_fairphone_6_7e.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;port swap made easy. Image courtesy iFixit&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    The pleasure of an easy charge port swap (click to enlarge) –
+    &lt;em&gt;
+     image courtesy iFixit
+    &lt;/em&gt;
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The iFixit site is a top resource for most of us trying to repair or upgrade a computer – especially if it&#x27;s a Mac. Fewer dare to try to fix their own phones, but iFixit reckons you&#x27;ll be able to if you spring for a Fairphone, and the newest model gets
+   &lt;a href=&quot;https://www.ifixit.com/News/111613/fairphone-6-teardown-proof-phones-dont-have-to-be-disposable&quot; rel=&quot;nofollow&quot;&gt;
+    a perfect 10
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Remove two screws to slide the back off. You will need a screwdriver to swap the battery, though — no more tool-free battery swaps. It&#x27;s now held in by four screws and a cable. (It is, however, glued onto a metal backing strip, replaced with it.). Eight more screws hold the screen in place. In part because it&#x27;s not glued together, it only has an IP55 rating for dust and water resistance, not the IP68 some devices boast, but that&#x27;s still not bad. A nifty touch is a modular USB-C connector, which you can replace on its own if damaged. In total, 12 components are replaceable.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Away from the tech specs, iFixit gives it still more credit: the warranty is an impressive five years, with updates and spares available until 2033, including a promised seven Android version upgrades. That&#x27;s hard to beat. The theory is that your new Fairphone should last much longer than most other phones. If you keep using it for five years, that should lower its carbon footprint by
+   &lt;a href=&quot;https://www.izm.fraunhofer.de/en/news_events/tech_news/keeping-phones-for-5-years-cuts-yearly-impact-on-global-warming.html&quot; rel=&quot;nofollow&quot;&gt;
+    nearly a third
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Fairphone&#x27;s
+   &lt;a href=&quot;https://shop.fairphone.com/the-fairphone-gen-6&quot; rel=&quot;nofollow&quot;&gt;
+    Generation 6 handset
+   &lt;/a&gt;
+   launched on 25 June. GSMArena has
+   &lt;a href=&quot;https://www.gsmarena.com/fairphone_6-13955.php&quot; rel=&quot;nofollow&quot;&gt;
+    full specs
+   &lt;/a&gt;
+   . We don&#x27;t have one to play with, but it looks like a decent enough mobe: 6.31 inch screen, 8 GB of RAM and 256 MB of storage plus a microSD slot, and a 50 MP rear camera. It&#x27;s €599, which translates to $870 or £535.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Center&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/td_fairphone_6_4ec.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;screen repair. Image courtesy iFixit&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/07/04/td_fairphone_6_4ec.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;screen repair. Image courtesy iFixit&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Headache-free screen swap (
+    &lt;em&gt;
+     image courtesy iFixit
+    &lt;/em&gt;
+    )
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The manufacturer says it&#x27;s Fairphone&#x27;s
+   &lt;a href=&quot;https://www.fairphone.com/en/2025/06/27/the-fairphone-gen-6-most-sustainable-phone/&quot; rel=&quot;nofollow&quot;&gt;
+    most sustainable ever
+   &lt;/a&gt;
+   . Half of it is made from recycled or ethically-sourced materials, which genuinely does matter. As
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   &lt;a href=&quot;https://www.theregister.com/2001/09/10/di_caprio_touts_gorillafriendly_mobile/&quot;&gt;
+    pointed out way back in 2001
+   &lt;/a&gt;
+   , many of the important materials in phones come from ecologically disastrous sources. In 2010, El Reg looked at the problems of
+   &lt;a href=&quot;https://www.theregister.com/2010/11/02/tantalum_congo_minerals/&quot;&gt;
+    &quot;coltan&quot; and the &quot;3Ts plus gold&quot;
+   &lt;/a&gt;
+   from the Eastern Congo region. Avoiding that, recycling the substances wherever and whenever possible, is seriously important, both to people and to mountain gorillas, as well as less charismatic wildlife.
+  &lt;/p&gt;
+  &lt;p&gt;
+   All that means that it costs more, though. It&#x27;s a perfectly capable phone, but you don&#x27;t get an amazing spec for the money. It has a slightly smaller screen than its predecessor, the
+   &lt;a href=&quot;https://www.gsmarena.com/fairphone_5-12540.php&quot; rel=&quot;nofollow&quot;&gt;
+    Fairphone 5
+   &lt;/a&gt;
+   , which incidentally
+   &lt;a href=&quot;https://www.theregister.com/2023/12/07/fairphone_5_repairability/&quot;&gt;
+    also got a perfect 10 score
+   &lt;/a&gt;
+   a couple of years ago. There&#x27;s no headphone socket, and only one physical SIM slot, although it can support an eSIM as well. The battery is slightly more capacious at 4415 mAh, and with a 30 W charger it can get to half full in half an hour. As with most phones now, this happens through a USB-C port – but if you hook it up to your PC, this only operates at USB 2 speeds.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/11/us_navy_repair/&quot;&gt;
+     US Navy backs right to repair after $13B carrier crew left half-fed by contractor-locked ovens
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/17/m4_macbook_air_repair/&quot;&gt;
+     M4 MacBook Air keeps ports modular, locks tight – still a headache to repair
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/27/ifixit_framework_desktop/&quot;&gt;
+     Framework Desktop wows iFixit – even with the soldered RAM
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/20/laptop_manufacturers_repairability/&quot;&gt;
+     Laptop makers stalled on repairability improvements
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   There is a big lime-green colored switch on the side that enables what the company
+   &lt;a href=&quot;https://www.fairphone.com/en/2025/07/03/fairphone-moments-switch-to-distraction-free-digital-minimalism/&quot; rel=&quot;nofollow&quot;&gt;
+    calls
+    &lt;em&gt;
+     Fairphone Moments
+    &lt;/em&gt;
+    mode
+   &lt;/a&gt;
+   which strips the UI down to five apps, reduces digital distractions, mutes the on-screen colors and so on. There is a built-in Google Gemini LLM-bot &quot;assistant&quot;, but you can
+   &lt;a href=&quot;https://support.fairphone.com/hc/en-us/articles/27488373522194-Google-Gemini-AI-assistant-on-Android&quot; rel=&quot;nofollow&quot;&gt;
+    turn it off
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   If you, like the
+   &lt;em&gt;
+    Reg
+   &lt;/em&gt;
+   FOSS desk, are powerfully averse to such gimmicks, the same phone is also
+   &lt;a href=&quot;https://support.fairphone.com/hc/en-us/articles/27488373522194-Google-Gemini-AI-assistant-on-Android&quot; rel=&quot;nofollow&quot;&gt;
+    available with Murena /e/ OS
+   &lt;/a&gt;
+   instead. We
+   &lt;a href=&quot;https://www.theregister.com/2025/06/19/murena_e_os_3/&quot;&gt;
+    looked at version 3
+   &lt;/a&gt;
+   last month, and it does allay a lot of Google-related privacy concerns, at the price of some features and convenience. With the Fairphone, there&#x27;s a less metaphorical price, too: it costs €150 more than the base model. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cold without the compressor: Boffins build better ice box </title>
+<link>https://www.theregister.com/2025/07/03/cold_without_the_compressor_boffins/</link>
+<pubDate>Sat, 05 Jul 2025 10:19:10 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Scientists at Johns Hopkins and Samsung have developed a nano-engineered thermoelectric material that is twice as efficient at material-level cooling as existing alternatives, paving the way for broader adoption of solid-state refrigeration technology.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Commercial refrigeration and air conditioning tend to use compressors that pump vaporized
+   &lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Refrigerant&amp;oldid=1292887463&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    refrigerant
+   &lt;/a&gt;
+   through a cooling system. The chemicals used in this process aren&#x27;t great for the environment, and it&#x27;s bulky and energy intensive at scale.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Thermoelectric cooling offers an alternative approach, sending electric current through specialized semiconductor material. It&#x27;s used in wine coolers, mini-fridges, cooled seating, and
+   &lt;a href=&quot;https://www.energy.gov/energysaver/thermoelectric-coolers&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    a handful of other consumer products
+   &lt;/a&gt;
+   , but has limitations – it works in a narrower range of ambient temperatures, offers less cooling capability, and hasn&#x27;t been compatible with high-volume semiconductor fabrication.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Researchers at the Johns Hopkins Applied Physics Laboratory (APL), in conjunction with Samsung Research engineers, have devised thin-film thermoelectric materials that deliver a twofold boost in material-level thermoelectric performance compared with
+   &lt;a href=&quot;https://pubs.acs.org/doi/10.1021/acs.chemrev.6b00255&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    bulk alternatives
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   They describe their work in
+   &lt;a href=&quot;https://www.nature.com/articles/s41467-025-59698-y&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    a paper
+   &lt;/a&gt;
+   published in Nature Communications, &quot;Nano-engineered thin-film thermoelectric materials enable practical solid-state refrigeration.&quot;
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/02/uk_cable_sabotage_law/&quot;&gt;
+     UK eyes new laws as cable sabotage blurs line between war and peace
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/30/ai_skills_job_postings_comptia/&quot;&gt;
+     Want a job? Just put &#x27;AI skills&#x27; on your resume
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/29/ai_agents_fail_a_lot/&quot;&gt;
+     AI agents get office tasks wrong around 70% of the time, and a lot of them aren&#x27;t AI at all
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/25/nasa_oig_planetary_defense_audit/&quot;&gt;
+     Don&#x27;t look up: NASA is struggling to execute its planetary defense plan
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The technology is called CHESS, which stands for controlled hierarchically engineered superlattice structures. According to
+   &lt;a href=&quot;https://www.jhuapl.edu/news/news-releases/250521-apl-thermoelectrics-enable-compressor-free-cooling&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Johns Hopkins
+   &lt;/a&gt;
+   , CHESS was initially developed for national security applications – cooling chips and engine components – and has been used to provide
+   &lt;a href=&quot;https://www.jhuapl.edu/news/news-releases/230727a-apl-noninvasive-cold-restoration-phantom-limbs&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    cooling in medical prosthetics
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Nature Communications paper documents the researchers&#x27; claim that thin-film thermoelectric components are ready for mainstream refrigeration applications. The research team said it achieved thermoelectric cooling that was almost 100 percent more efficient at room temperature (300 K, ~80°F, ~27°C) than other thermoelectric materials. And when implemented in thermoelectric modules built with the CHESS materials, the efficiency improvement amounted to about 70 percent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   What&#x27;s more, the CHESS thin-film material can be grown using metal-organic chemical vapor deposition (MOCVD), a scalable, industrial process. This should make it easier to commercialize – an effort that&#x27;s already underway.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Beyond refrigeration, CHESS materials are also able to convert temperature differences, like body heat, into usable power,” APL researcher Jeff Maranchi told the Johns Hopkins news service.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;In addition to advancing next-generation tactile systems, prosthetics and human-machine interfaces, this opens the door to scalable energy-harvesting technologies for applications ranging from computers to spacecraft – capabilities that weren’t feasible with older, bulkier thermoelectric devices.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Young Consulting finds even more folks affected in breach mess – now over 1 million </title>
+<link>https://www.theregister.com/2025/07/03/young_consulting_breach_million/</link>
+<pubDate>Sat, 05 Jul 2025 09:14:50 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Young Consulting&#x27;s cybersecurity woes continue after the number of affected individuals from last year&#x27;s suspected ransomware raid passed the 1 million mark.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The software vendor to stop-loss insurance carriers, now trading as
+   &lt;a href=&quot;https://connexure.co/about-us/&quot; target=&quot;_blank&quot;&gt;
+    Connexure
+   &lt;/a&gt;
+   , said the attack took place sometime between April 10 and 13, 2024, in a
+   &lt;a href=&quot;https://youngconsulting.com/notice/youngconsulting-notice.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    data breach notice
+   &lt;/a&gt;
+   that remains on its website homepage today.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Young Consulting did not mention that ransomware was involved, although the
+   &lt;a href=&quot;https://www.theregister.com/2024/07/12/cdk_ransom_payout/&quot; target=&quot;_blank&quot;&gt;
+    BlackSuit group
+   &lt;/a&gt;
+   took credit for the attack, which was also widely reported as a ransomware incident.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It said that after learning of &quot;technical difficulties&quot; in its IT environment, it found evidence of an &quot;unauthorized actor&quot; gaining access to its network and copying certain files.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Per a
+   &lt;a href=&quot;https://www.maine.gov/agviewer/content/ag/985235c7-cb95-4be2-8792-a1252b4f8318/9cb5e8fe-3d04-48e5-a403-d478cdaf5c7f.html&quot; target=&quot;_blank&quot;&gt;
+    filing
+   &lt;/a&gt;
+   with Maine&#x27;s attorney general at the time, a little more than 950,000 people had their data compromised in some way.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Names, Social Security numbers, dates of birth, and insurance policy/claim information were among the data types affected, the company
+   &lt;a href=&quot;https://youngconsulting.com/notice/youngconsulting-notice.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, BlackSuit claimed to have stolen much more, including additional data such as passports and internal company documents.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cybercriminals often exaggerate and
+   &lt;a href=&quot;https://www.theregister.com/2024/06/06/lockbit_fbi_decryption_keys/&quot; target=&quot;_blank&quot;&gt;
+    lie
+   &lt;/a&gt;
+   , so always take their claims with a generous pinch of salt.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   did not download the data from BlackSuit&#x27;s website to evaluate the veracity of its claims.
+  &lt;/p&gt;
+  &lt;p&gt;
+   More than a year since the attack took place, Carla Reddick, Connexure&#x27;s head of HR, updated the company&#x27;s filing in Maine to reflect the growing number of affected individuals, which now stands at 1,071,336.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The updates to the victim count seem to be a regular occurrence. After first disclosing the total in August 2024, Young Consulting sent additional notification letters in January when it identified more affected individuals.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Wednesday&#x27;s update marks the second time the company has amended the tally of affected individuals since the initial announcement.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/02/23andme_buyer_writes_to_customers/&quot;&gt;
+     23andMe&#x27;s new owner says your DNA is safe this time
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/02/qantas_data_theft/&quot;&gt;
+     Australian airline Qantas reveals data theft impacting six million customers
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/27/patients_providers_records_payment_scam/&quot;&gt;
+     Crims are posing as insurance companies to steal health records and payment info
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/27/ahold_delhaize_breach/&quot;&gt;
+     Data spill in aisle 5: Grocery giant Ahold Delhaize says 2.2M affected after cyberattack
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   According to the most recent filing, the additional notification letters being sent today will offer the same 12 months of credit monitoring and identity theft restoration as those issued in August.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The time it has taken Young Consulting to accurately assess how many unique individuals were affected by the attack is not necessarily a reflection of its cybersecurity acumen.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Digital
+   &lt;a href=&quot;https://www.theregister.com/2025/04/16/uk_digital_evidence_inquiry/&quot; target=&quot;_blank&quot;&gt;
+    forensic analysis
+   &lt;/a&gt;
+   of affected data can, and often is, a time-consuming process involving various factors.
+  &lt;/p&gt;
+  &lt;p&gt;
+   People will invariably have their data stored on different drives and systems, which in turn complicates the identification process since analysts have to determine where data is duplicated and adjust the victim count accordingly.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That is just one example of many factors that can delay definitive determinations of uniquely affected individuals.
+  &lt;/p&gt;
+  &lt;p&gt;
+   IBM&#x27;s most recent Cost of a Data Breach report (2024) states that the average time it takes to identify and contain an attack such as this varies, which includes determining the number of unique individuals affected, but can reach up to 292 days depending on the type of attack. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Financial &#x27;stretch&#x27; for UK to join Europe&#x27;s Starlink rival, says minister </title>
+<link>https://www.theregister.com/2025/07/05/uk_budget_to_join_iris_not_there/</link>
+<pubDate>Sat, 05 Jul 2025 08:42:44 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   A UK minister has told Parliament that joining Europe&#x27;s answer to Starlink — Elon Musk&#x27;s satellite-based mobile internet service — would be a &quot;stretch&quot; given the nation&#x27;s current financial challenges.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In December last year, the EU signed a contract with the
+   &lt;a href=&quot;https://www.theregister.com/2024/12/16/europe_iris2_broadband_deal/&quot; target=&quot;_blank&quot;&gt;
+    Infrastructure for Resilience, Interconnectivity and Security by Satellite (IRIS²)
+   &lt;/a&gt;
+   initiative, a multi-orbital constellation of 290 satellites, with the SpaceRISE consortium made up of European satellite network operators SES, Eutelsat, and Hispasat. The total cost of the 12-year project is set to be €10.6 billion, with €6 billion from the EU, €550 million from the European Space Agency (ESA) and more than €4 billion from the private sector.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The UK missed out on the early stages of the project after formally leaving the EU in 2020. However, the UK has become more aligned with EU science and technology projects since
+   &lt;a href=&quot;https://www.theregister.com/2023/09/07/uk_rejoins_eus_85_billion/&quot; target=&quot;_blank&quot;&gt;
+    rejoining
+   &lt;/a&gt;
+   its €100 billion (£86 billion, $107 billion) Horizon sci-tech funding program. Future funding for IRIS² beyond 2027 will be subject to the adoption of successor programmes by the European Parliament and Council alongside the availability of appropriations, leaving open the possibility that the UK could join as a third-party country.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://committees.parliament.uk/committee/773/uk-engagement-with-space-committee&quot; target=&quot;_blank&quot;&gt;
+    Speaking
+   &lt;/a&gt;
+   to the House of Lords&#x27; UK Engagement with Space Committee, Chris Bryant, science minister, was quick to quash hopes of the UK joining the program and finding alternatives to Starlink. Departments were still grappling with the recent settlements from the UK multi-year spending, as budgets are squeezed between cutting services, raising taxes and increasing borrowing, following more than a decade of austerity and the Covid crisis.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   IRIS² is unlikely to be high up the list of priorities, he told the UK&#x27;s second Parliamentary chamber. &quot;It is going to be quite a stretch for us to get to our existing commitments, let alone to add new commitments, financially.&quot;
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/27/ipv6_adoption_statistics/&quot;&gt;
+     Starlink helps eight more nations pass 50 percent IPv6 adoption
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/24/second_project_kuiper_launch/&quot;&gt;
+     Bezos beams up batch two as Project Kuiper plays catch-up with Starlink
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/20/eutelsat_funding/&quot;&gt;
+     Eutelsat seeks €1.35B to boost LEO network and take the fight to Starlink
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/12/falcon_9_leaks_keep_axiom/&quot;&gt;
+     Falcon 9 leaks keep Axiom private astronaut mission on the ground
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   While Bryant said he understood the desire to join IRIS², &quot;sometimes that comes up against the hard reality of money.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   In December last year, Henna Virkkunen, executive vice-president for tech sovereignty, security and democracy, said: &quot;IRIS² is not just a technological achievement — it is a testament to Europe&#x27;s ambition and unity. This cutting-edge constellation will protect our critical infrastructures, connect our most remote areas and increase Europe&#x27;s strategic autonomy.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The European Union Agency for the Space Programme (EUSPA) said the constellation would offer secure communication services to the EU and its member states as well as broadband connectivity for European citizens, private companies and governmental authorities.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It added that IRIS² &quot;will put an end to dead zones in Europe as well as the whole of Africa using the constellation&#x27;s North-South orbits through a resilient and ultra-secure space and ground-based system.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ousted US copyright chief argues Trump did not have power to remove her </title>
+<link>https://www.theregister.com/2025/07/04/copyright_office_trump_filing/</link>
+<pubDate>Fri, 04 Jul 2025 19:08:21 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   The former head of the US Copyright Office has pushed back against arguments from President Donald Trump&#x27;s team that her dismissal was lawful.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Shira Perlmutter was ousted after the US Copyright Office released a report challenging the limits of the &quot;fair use&quot; defense used by AI companies to justify training their models on copyrighted material.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/permutterfiling.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    filing
+   &lt;/a&gt;
+   [PDF] to support her attempt to obtain a preliminary injunction this week, Perlmutter argued that her removal was unlawful and caused her immediate and irreparable harm. It said that by firing her, the Trump administration threatened her office&#x27;s ability to function in the manner that Congress intended.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In May,
+   &lt;a href=&quot;https://www.theregister.com/2025/05/12/us_copyright_office_ai_copyright/&quot; target=&quot;_blank&quot;&gt;
+    Perlmutter was removed from office
+   &lt;/a&gt;
+   after her agency concluded that AI developers&#x27; use of copyrighted material exceeded the bounds of existing fair use doctrine. Her
+   &lt;a href=&quot;https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    draft report
+   &lt;/a&gt;
+   [PDF] argued that fair use does not cover the commercial use of large volumes of copyrighted works to generate expressive content that competes in existing markets.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   She later applied for an injunction to prevent her removal from the position. In response, the Trump administration replied that her emergency request for reinstatement should not be approved because
+   &lt;a href=&quot;https://news.bloomberglaw.com/ip-law/trump-defends-firing-copyright-chief-cites-presidential-power&quot; target=&quot;_blank&quot;&gt;
+    such actions were within the president&#x27;s authority
+   &lt;/a&gt;
+   , even when the positions in dispute fall under the legislative branch.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The administration also argued that the judge did not need to assess the merits of her case because Perlmutter couldn&#x27;t prove she would suffer irreparable harm without the court&#x27;s intervention.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/12/us_copyright_office_ai_copyright/&quot;&gt;
+     US Copyright Office found AI companies sometimes breach copyright. Next day its boss was fired
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/18/appeals_court_says_ai_authors/&quot;&gt;
+     Do AI robo-authors qualify for copyright? It&#x27;s still no, says appeals court
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2023/08/21/ai_copyright_lawsuit_lost/&quot;&gt;
+     Judge snuffs man&#x27;s quest to have AI-created art protected by copyright
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2023/03/16/ai_art_copyright_usco/&quot;&gt;
+     AI-generated art can be copyrighted, say US officials – with a catch
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The White House said the power to remove is aligned with the power to appoint. If there is no Librarian of Congress and the president cannot designate an acting librarian, the president&#x27;s removal authority extends to inferior officers like the register of copyrights, it argued.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Perlmutter was expunged from office a few days after Librarian of Congress Carla Hayden was also shown the door. Hayden was later replaced by deputy attorney general Todd Blanche and Perlmutter by deputy attorney general Paul Perkins.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In the latest filing this week, Perlmutter&#x27;s legal team said the administration&#x27;s claim that it had the power to remove her from an office appointed by the Library of Congress employed a &quot;novel constitutional theory&quot; and &quot;sweeping assertions of power.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Copyright Office is housed in the Library of Congress, and the librarian oversees the Copyright Office head directly, Perlmutter said. Her filing argued that &quot;neither the law nor common sense requires&quot; that the court should &quot;should stand idly by and do nothing while [the Trump administration] wields unprecedented, and unlawful, authority.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft finally bids farewell to PowerShell 2.0 </title>
+<link>https://www.theregister.com/2025/07/04/microsoft_finally_bids_farewell_to/</link>
+<pubDate>Fri, 04 Jul 2025 17:42:32 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Users still clinging on to PowerShell 2.0 just received notice to quit as the command-line tool is officially leaving Windows.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The confirmation came in a
+   &lt;a href=&quot;https://blogs.windows.com/windows-insider/2025/07/03/announcing-windows-11-insider-preview-build-27891-canary-channel/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Windows Insider update
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The move away from PowerShell 2.0 is a long time coming; Microsoft has for years encouraged users to move to later versions. Version 5.1 is preinstalled on most modern editions of Windows, and there is a newer, cross-platform version in the form of PowerShell 7.x.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, version 2 lingered on in the name of backward compatibility, despite the fact it was
+   &lt;a href=&quot;https://devblogs.microsoft.com/powershell/windows-powershell-2-0-deprecation/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    deprecated in 2017
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   PowerShell is a command line tool with a rich scripting language. Admins could use
+   &lt;code&gt;
+    command.com
+   &lt;/code&gt;
+   to scratch that Command Line Interface (CLI) itch in the early days of Windows and MS-DOS, and Windows Script Host and a variety of command line interpreters were also available, but it wasn&#x27;t until the debut of PowerShell that Windows administrators could properly flex their scripting muscles.
+  &lt;/p&gt;
+  &lt;p&gt;
+   PowerShell 2.0 first arrived as a component in Windows 7 (&quot;where it was
+   &lt;em&gt;
+    not
+   &lt;/em&gt;
+   an optional feature&quot;, according to Microsoft). It was also shipped to other versions of Windows, including Windows Server 2008 and 2003, Vista, and even XP.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Even when later versions superseded it, PowerShell 2.0 remained as an optional side-by-side component.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/19/the_microsoft_axeman_is_coming/&quot;&gt;
+     Microsoft 365 brings the shutters down on legacy protocols
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/30/fake_ai_installers_carry_ransomware/&quot;&gt;
+     Crims defeat human intelligence with fake AI installers they poison with ransomware
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/28/microsoft_update_backup/&quot;&gt;
+     Microsoft is opening Windows Update to third-party apps
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/18/microsoft_copilot_not_wanted/&quot;&gt;
+     Microsoft Copilot shows up even when it&#x27;s not wanted
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   However, in 2017, Microsoft announced the application would be deprecated. Not removed, but no longer be actively developed. At the time, it noted some of the company&#x27;s first-party products, such as some versions of SQL Server, still used PowerShell 2.0 &quot;under the hood&quot; and said &quot;Windows PowerShell 2.0 will remain a part of Windows 10 and Windows Server 2016, and we have no plans to remove it until those dependencies are mitigated.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Many years and one pandemic later, PowerShell 2.0 has finally come to the end of the road, at least as far as Windows 11 is concerned. While it is removed from most current Insider Preview builds, Microsoft said, &quot;More information will be shared in the coming months on the removal of Windows PowerShell 2.0 in an upcoming update for Windows 11.
+  &lt;/p&gt;
+  &lt;p&gt;
+   PowerShell 2.0 has also long been deprecated for Windows Server, with administrators encouraged to move to a newer version. Microsoft has not yet provided a timeline for its removal from its server operating system. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> 14-hour+ global blackout at Ingram Micro halts customer orders </title>
+<link>https://www.theregister.com/2025/07/04/ingram_micro_technical_difficulties/</link>
+<pubDate>Fri, 04 Jul 2025 16:16:42 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Widespread outages across Ingram Micro&#x27;s websites and client service portals are being attributed to &quot;technical difficulties.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The outages at Ingram Micro, one of the world&#x27;s biggest IT distributors, began at around 2000 UTC yesterday, according to
+   &lt;em&gt;
+    Reg
+   &lt;/em&gt;
+   reader reports and social media.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The distie turned over revenue of $12.28 billion in Q1 ended March 29, 2025, with net income of $69.2 million.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Many of its local websites display the same maintenance splash page, complete with contact details for sales and customer service teams.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Managed service providers (MSPs) speaking to
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   reported issues such as being unable to manage their customers&#x27; services.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Others complained about being unable to place orders &quot;for critical software backup licenses, but also for hardware.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Ingram&#x27;s partner portal is reportedly unavailable, ruling out the management of Microsoft 365 licenses, Dropbox licenses, hardware purchases, and more.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Another individual claimed that staff at Ingram&#x27;s service center in Bulgaria, which covers a large chunk of European sales, have all been sent home and told to keep their laptops disconnected amid a total internal system shutdown.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Center&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/ingram_micro_splash.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Ingram Micro UK website displaying maintenance splash page&quot; height=&quot;342&quot; src=&quot;https://regmedia.co.uk/2025/07/04/ingram_micro_splash.png?x=648&amp;y=342&amp;infer_y=1&quot; title=&quot;Ingram Micro UK website displaying maintenance splash page&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Ingram Micro UK website displaying maintenance splash page
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   approached Ingram Micro for more information but it did not immediately respond.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The company&#x27;s lack of communication has not gone unnoticed by customers, who
+   &lt;a href=&quot;https://www.reddit.com/r/msp/comments/1lqyayw/ingram_micro_down/?sort=new&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    flocked to Reddit
+   &lt;/a&gt;
+   to complain in their droves, and in typical Reddit fashion speculated that it may be the result of malicious activity.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I can&#x27;t believe it&#x27;s powering towards 24 hours and there&#x27;s absolutely no feedback whatsoever of what&#x27;s going on,&quot; one wrote.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/25/three_uk_mobile_outage/&quot;&gt;
+     Three goes to zero as UK mobile provider suffers voice and text outage
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/23/experts_count_the_staggering_costs/&quot;&gt;
+     Experts count staggering costs incurred by UK retail amid cyberattack hell
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/20/oxford_city_council_breach/&quot;&gt;
+     Attack on Oxford City Council exposes 21 years of election worker data
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/16/railway_pauses_lowest_tiers/&quot;&gt;
+     Alt cloud platform Railway forced to pause lowest tiers after onrush of GCP customers
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Some glass-half-full takes referenced the company&#x27;s recent updates to XVantage&#x27;s
+   &lt;a href=&quot;https://www.theregister.com/2025/07/03/ai_models_potemkin_understanding/&quot; target=&quot;_blank&quot;&gt;
+    AI
+   &lt;/a&gt;
+   and mobile app as possible explanations for the downtime, while others suspect foul play.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We are currently experiencing technical difficulties,&quot; the UK maintenance page reads.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We apologize for the inconvenience and are working to resolve the issue as quickly as possible.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The same page lists a physical address and phone number to contact with any questions, though when we called, the line appeared to be disconnected.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Customers on social media complained about emails to their account managers bouncing back, and that the mobile app is working but purchases are not completing.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   tried to contact sources within
+   &lt;a href=&quot;https://www.theregister.com/2024/12/16/ingram_micro_vmware_broadcom_deal_ends/&quot; target=&quot;_blank&quot;&gt;
+    Ingram Micro
+   &lt;/a&gt;
+   and while our emails did not bounce back, we were unable to reach anyone via phone.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    This is a developing story. The Register will provide updates when they are available.
+   &lt;/em&gt;
+   ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Amazon built a massive AI supercluster for Anthropic called Project Rainier – here&#x27;s what we know so far </title>
+<link>https://www.theregister.com/2025/07/04/project_rainier_deep_dive/</link>
+<pubDate>Fri, 04 Jul 2025 15:44:31 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Amazon Web Services (AWS) is in the process of building out a massive supercomputing cluster containing &quot;hundreds of thousands&quot; of accelerators that promises to give its model building buddies at Anthropic a leg up in the AI arms race.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The system, dubbed Project Rainier, is set to come online later this year with compute spanning multiple sites across the US. Gadi Hutt, the director of product and customer engineering at Amazon&#x27;s Annapurna Labs, tells
+   &lt;em&gt;
+    El Reg
+   &lt;/em&gt;
+   that one site in Indiana will span thirty datacenters at 200,000 square feet apiece. This facility alone was
+   &lt;a href=&quot;https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    recently
+   &lt;/a&gt;
+   reported to consume upwards of 2.2 gigawatts of power.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But unlike OpenAI&#x27;s Stargate, xAI&#x27;s Collusus, or AWS&#x27;s own
+   &lt;a href=&quot;https://www.nextplatform.com/2024/03/20/aws-and-nvidia-reboot-ceiba-supercomputer-for-blackwell-gpus/&quot; target=&quot;_blank&quot;&gt;
+    Project Ceiba
+   &lt;/a&gt;
+   , this system isn&#x27;t using GPUs. Instead, Project Rainier will represent the largest deployment of Amazon&#x27;s Annapurna AI silicon ever.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This is the first time we are building such a large-scale training cluster that will allow a customer, in this case Anthropic, to train a single model across all of that infrastructure,&quot; Hutt said. &quot;The scale is really unprecedented.&quot;
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Amazon, in case you&#x27;ve forgotten, is among Anthropic&#x27;s biggest backers, having already invested $8 billion in the OpenAI rival.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Amazon isn&#x27;t ready to disclose the full scope of the project, and since it&#x27;s a multi-site project akin to Stargate as opposed to a singular AI factory like Colossus, Project Rainier may not have upper bounds. And all plans assume the economic conditions that gave rise to the AI boom don&#x27;t fizzle out.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, we&#x27;re told that Anthropic has already managed to get their hands on a sliver of the system&#x27;s compute.
+  &lt;/p&gt;
+  &lt;p&gt;
+   While we don&#x27;t know just how many Trainium chips or datacenters will ultimately power Project Rainier and probably won&#x27;t until re:Invent in November, we do have a pretty good idea of what it&#x27;ll look like. So, here&#x27;s everything we know about Project Rainier so far.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   The basic unit of compute
+  &lt;/h3&gt;
+  &lt;div class=&quot;CaptionedImage Center Border&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/03/trainium2_chip.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Each Trainium2 package features a pair of 5nm compute dies flanked on either side by high-bandwidth memory&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/07/03/trainium2_chip.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;Each Trainium2 package features a pair of 5nm compute dies flanked on either side by high-bandwidth memory&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Each Trainium2 package features a pair of 5nm compute dies flanked on either side by high-bandwidth memory - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The heart of Project Rainier is Annapurna Lab&#x27;s Trainium2 accelerator, which it
+   &lt;a href=&quot;https://www.theregister.com/2024/12/03/amazon_ai_chip/&quot; target=&quot;_blank&quot;&gt;
+    let loose
+   &lt;/a&gt;
+   on the web back in December.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Despite what its name might suggest, the chip can be used for both training and inference workloads, which will come in handy for customers using reinforcement learning (RL) like we saw with DeepSeek R1 and OpenAI&#x27;s o1 to imbue their models with reasoning capabilities.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;RL as a workload has a lot of inference built into it because we need to verify the results during the steps of training,&quot; Hutt said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The chip itself features a pair of 5nm compute dies glued together using TSMC&#x27;s chip-on-wafer-on-substrate (CoWoS) packaging tech, which is fed by four HBM stacks. Combined, each Trainium2 accelerator offers 1.3 petaFLOPS of dense FP8 performance, 96GB of HBM, and 2.9TB/s of memory bandwidth.
+  &lt;/p&gt;
+  &lt;div class=&quot;sidebar&quot;&gt;
+   &lt;p&gt;
+    If you want to get into the nitty gritty of Trainium2&#x27;s underlying architecture,
+    &lt;b&gt;
+     &lt;a href=&quot;https://www.nextplatform.com/2023/12/04/how-aws-can-undercut-nvidia-with-homegrown-ai-compute-engines/&quot; target=&quot;_blank&quot;&gt;
+      check out our sibling site
+      &lt;em&gt;
+       The Next Platform&#x27;s
+      &lt;/em&gt;
+      deep dive here
+     &lt;/a&gt;
+    &lt;/b&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   On its own, the chip doesn&#x27;t look all that competitive. Nvidia&#x27;s B200, for instance, boasts 4.5 petaFLOPS of dense FP8, 192GB of HBM3e, and 8TB/s of memory bandwidth.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Support for 4x sparsity, which can dramatically speed up AI training workloads, does help Tranium2 close the gap some, boosting FP8 perf to 5.2 petaFLOPS, but it still falls behind the B200 at 9 petaFLOPS of sparse compute at the same precision.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   Trn2
+  &lt;/h3&gt;
+  &lt;p&gt;
+   While Tranium2 may look a little anemic in a chip-for-chip comparison with Nvidia&#x27;s latest accelerators, that doesn&#x27;t tell the full story.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Unlike the H100 and H200-series GPUs, Nvidia&#x27;s B200 only comes in an eight-way HGX form factor. Similarly, AWS&#x27; minimum configuration for Trainium2, which it refers to as its Trn2 instances, has 16 accelerators.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Center Border&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/03/aws_trn2_system_2.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Here&#x27;s what the multi-blade system powering Amazon&#x27;s Trn2 instances looks like&quot; height=&quot;414&quot; src=&quot;https://regmedia.co.uk/2025/07/03/aws_trn2_system_2.jpg?x=648&amp;y=414&amp;infer_y=1&quot; title=&quot;Here&#x27;s what the multi-blade system powering Amazon&#x27;s Trn2 instances looks like&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Here&#x27;s what the multi-blade system powering Amazon&#x27;s Trn2 instances looks like - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;When you&#x27;re talking about large clusters, it&#x27;s less important what a single chip provides you, it&#x27;s more of what is called &#x27;good put,&#x27;&quot; Hutt explains. &quot;What&#x27;s your good throughput of training which also takes into account downtime? … I don&#x27;t see a lot of talk about this in the industry, but this is the metric that customers are looking at.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Compared to Nvidia&#x27;s HGX B200 systems, the performance gap is far closer. The Blackwell-based parts still have an advantage when it comes to memory bandwidth and dense FP8 compute, which are key indicators of inference performance.
+  &lt;/p&gt;
+  &lt;p&gt;
+   For training workloads, Amazon&#x27;s Trn2 instances do have a bit of advantage as they — at least on paper — offer higher sparse floating performance at FP8. Yes, Nvidia&#x27;s Blackwell chips do support 4-bit floating point precision, but we&#x27;ve yet to see anyone train a model at that precision. Sparse compute is most useful when large volumes of data are expected to have values of zero. As a result, sparsity isn&#x27;t usually that helpful for inference, but can make a big difference in training.
+  &lt;/p&gt;
+  &lt;p&gt;
+   With that out of the way, here&#x27;s a quick look at how Nvidia&#x27;s Blackwell B200 stacks up against AWS&#x27; Trn2 instances:
+  &lt;/p&gt;
+  &lt;div class=&quot;reg_tbl_container&quot;&gt;
+   &lt;table class=&quot;reg_tbl stretch&quot;&gt;
+    &lt;tbody&gt;
+     &lt;tr&gt;
+      &lt;th class=&quot;header&quot;&gt;
+      &lt;/th&gt;
+      &lt;th class=&quot;header&quot;&gt;
+       Trn2
+      &lt;/th&gt;
+      &lt;th class=&quot;header&quot;&gt;
+       DGX B200
+      &lt;/th&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       CPUs:
+      &lt;/td&gt;
+      &lt;td&gt;
+       2x 48C Intel Sapphire Rapids
+      &lt;/td&gt;
+      &lt;td&gt;
+       2x 56C Intel Emerald Rapids
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       System Mem:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       2TB DDR5
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Up to 4TB
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Accelerators:
+      &lt;/td&gt;
+      &lt;td&gt;
+       16x Trainium2
+      &lt;/td&gt;
+      &lt;td&gt;
+       8x B200 GPUs
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       HBM:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       1536GB
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       1440GB
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Memory BW:
+      &lt;/td&gt;
+      &lt;td&gt;
+       46.4TB/s
+      &lt;/td&gt;
+      &lt;td&gt;
+       64TB/s
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Interconnect BW:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       16TB/s
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       14.4TB/s
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Scale-out BW:
+      &lt;/td&gt;
+      &lt;td&gt;
+       3.2Tbps EFAv3
+      &lt;/td&gt;
+      &lt;td&gt;
+       3.2Tbps InfiniBand
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Dense FP4:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       NA
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       72 petaFLOPS
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Dense FP8:
+      &lt;/td&gt;
+      &lt;td&gt;
+       20.8 petaFLOPS
+      &lt;/td&gt;
+      &lt;td&gt;
+       36 petaFLOPS
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Sparse FP8:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       83.2 petaFLOPS
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       72 petaFLOPS
+      &lt;/td&gt;
+     &lt;/tr&gt;
+    &lt;/tbody&gt;
+   &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Looking closer at each Trn2 cluster, the chips are spread across eight compute blades (2x Trainium2s each) which are managed by a pair of x86 CPUs from Intel. In this respect, the architecture is somewhat reminiscent of Nvidia&#x27;s NVL72 rack systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, rather than a switched all-to-all topology, like we see in the NVL72, the chips in each Trn2 cluster are connected in a 4x4 2D torus using AWS high-speed NeuronLink v3 interconnect. This topology eliminates the need for high-speed switching, but does add an additional hop or two of latency for chip-to-chip communication.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Border width_85&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/03/trn2_2d_torus.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Here&#x27;s what AWS&#x27; Trn2 interconnect topology looks like&quot; height=&quot;728&quot; src=&quot;https://regmedia.co.uk/2025/07/03/trn2_2d_torus.png?x=648&amp;y=728&amp;infer_y=1&quot; title=&quot;Here&#x27;s what AWS&#x27; Trn2 interconnect topology looks like&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Here&#x27;s what AWS&#x27; Trn2 interconnect topology looks like - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   This intra-instance interconnect, which you can think of in the same vein as Nvidia&#x27;s NVLink or AMD&#x27;s InfiniFabric, provides 1TB/s of chip-to-chip bandwidth to each accelerator in the Trn2 cluster.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   Reaching rack scale
+  &lt;/h3&gt;
+  &lt;div class=&quot;CaptionedImage Center Border&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/03/aws_trn2_ultraserver.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Amazon&#x27;s Trn2 UltraServer meshes together four Trn2 systems into a single 64-chip compute domain&quot; height=&quot;414&quot; src=&quot;https://regmedia.co.uk/2025/07/03/aws_trn2_ultraserver.jpg?x=648&amp;y=414&amp;infer_y=1&quot; title=&quot;Amazon&#x27;s Trn2 UltraServer meshes together four Trn2 systems into a single 64-chip compute domain&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Amazon&#x27;s Trn2 UltraServer meshes together four Trn2 systems into a single 64-chip compute domain - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Four Trn2 systems can then be meshed together using NeuronLink to expand the compute domain from 16 chips to 64, in a configuration AWS is calling an UltraServer.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is achieved by essentially stacking each Trn2 system on top of one another to form a 3D torus, which if you&#x27;re having a hard time imaging looks a bit like this:
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Border width_85&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/03/trn2_us_3d_torus.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Here&#x27;s how each Trainium2 accelerator connect to one another in Amazon&#x27;s Trn2 Ultra Server&quot; height=&quot;745&quot; src=&quot;https://regmedia.co.uk/2025/07/03/trn2_us_3d_torus.png?x=648&amp;y=745&amp;infer_y=1&quot; title=&quot;Here&#x27;s how each Trainium2 accelerator connect to one another in Amazon&#x27;s Trn2 Ultra Server&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Here&#x27;s how each Trainium2 accelerator connect to one another in Amazon&#x27;s Trn2 Ultra Server - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   According to Amazon&#x27;s
+   &lt;a href=&quot;https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/trn2-arch.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    docs
+   &lt;/a&gt;
+   , the inter-instance bandwidth provided by NeuronLink between the Trn2 instances is a fair bit lower at 256GB/s of bandwidth per chip.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Once again, this chip-to-chip mesh is achieved without switches, which has the benefit of lower power consumption. This, along with the lower compute density afforded by distributing the system across two racks, has allowed AWS to get away with air cooling – something that can&#x27;t be said of the NVL72 systems it&#x27;s deploying as part of Project Ceiba.
+  &lt;/p&gt;
+  &lt;div class=&quot;reg_tbl_container&quot;&gt;
+   &lt;table class=&quot;reg_tbl stretch&quot;&gt;
+    &lt;tbody&gt;
+     &lt;tr&gt;
+      &lt;th class=&quot;header&quot;&gt;
+      &lt;/th&gt;
+      &lt;th class=&quot;header&quot;&gt;
+       Trn2 UltraServer
+      &lt;/th&gt;
+      &lt;th class=&quot;header&quot;&gt;
+       DGX GB200 NVL72
+      &lt;/th&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       CPUs:
+      &lt;/td&gt;
+      &lt;td&gt;
+       8x 48C Intel Sapphire Rapids
+      &lt;/td&gt;
+      &lt;td&gt;
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       System Mem:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       8TB DDR5
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       17TB LPDRR5x
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Accelerators:
+      &lt;/td&gt;
+      &lt;td&gt;
+       64x Trainium2
+      &lt;/td&gt;
+      &lt;td&gt;
+       72x Blackwell GPUs
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       HBM:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       6.1TB
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       13.4TB
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Memory BW:
+      &lt;/td&gt;
+      &lt;td&gt;
+       186TB/s
+      &lt;/td&gt;
+      &lt;td&gt;
+       576TB/s
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Interconnect BW:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       68TB/s
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       130TB/s
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Scale-out BW:
+      &lt;/td&gt;
+      &lt;td&gt;
+       12.8Tbps EFAv3
+      &lt;/td&gt;
+      &lt;td&gt;
+       28.8Tbps InfiniBand
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Dense FP4:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       NA
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       720 petaFLOPS
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Dense FP8:
+      &lt;/td&gt;
+      &lt;td&gt;
+       83.2 petaFLOPS
+      &lt;/td&gt;
+      &lt;td&gt;
+       360 petaFLOPS
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       Sparse FP8:
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       332.8 petaFLOPS
+      &lt;/td&gt;
+      &lt;td class=&quot;stripe&quot;&gt;
+       720 petaFLOPS
+      &lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;
+       Rack power:
+      &lt;/td&gt;
+      &lt;td&gt;
+       Unknown
+      &lt;/td&gt;
+      &lt;td&gt;
+       120kW
+      &lt;/td&gt;
+     &lt;/tr&gt;
+    &lt;/tbody&gt;
+   &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   As you can see, the NVL72 is still faster than Amazon&#x27;s Trn2, but as Hutt points out the cost of that compute also needs to be taken into consideration. &quot;The thing that customers ask us for isn&#x27;t &#x27;give us the fastest chips or the most complex chips.&#x27; Customers care about performance and performance at the lowest cost, and of course it has to be easy to use as well.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   At the end of the day, customers consume Trainium as software APIs in the cloud, he added.
+  &lt;/p&gt;
+  &lt;p&gt;
+   These UltraServers are the key unit of compute which Amazon will essentially copy and paste as they build out the complete Project Rainier &quot;UltraCluster.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This scalability will be achieved using Amazon&#x27;s custom EFAv3 network, and we&#x27;re told each accelerator in the cluster will be equipped with 200Gbps of network bandwidth. That means each Trn2 UltraServer will have 12.8Tbps of connectivity, courtesy of Annapurna&#x27;s custom Nitro data processing units, to keep all those chips fed with training data.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This isn&#x27;t your typical Ethernet network, either. Amazon has developed a custom fabric that they say will deliver tens of petabits of bandwidth (from what we understand this is going to vary depending on the number of UltraServers in the cluster) with under 10 microseconds of latency across the network.
+  &lt;/p&gt;
+  &lt;p&gt;
+   And Amazon is clearly prepared for some seriously crowded network cabinets. At re:Invent last year, the cloud titan detailed the lengths it had gone to in order to keep its network cabinets from turning into a rat&#x27;s nest of fiber optic cables. This included developing a fiber-optic trunk line that crams hundreds of fiber pairs into what can best be described as a photonic rope.
+  &lt;/p&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   Scaling out
+  &lt;/h3&gt;
+  &lt;p&gt;
+   As we mentioned earlier, Amazon has been rather vague about just how big Project Rainier will ultimately be. It&#x27;s previously boasted the system will contain multiple hundred thousand Trainium2 chips.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Center Border&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/03/project_rainier_cover.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Amazon is going need a lot of Trn2 UltraServers to reach the hundreds of thousands of Trainium2 chips promised.&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/07/03/project_rainier_cover.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;Amazon is going need a lot of Trn2 UltraServers to reach the hundreds of thousands of Trainium2 chips promised.&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Amazon is going need a lot of Trn2 UltraServers to reach the hundreds of thousands of Trainium2 chips promised. - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   In its most recent
+   &lt;a href=&quot;https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    blog post
+   &lt;/a&gt;
+   it said that &quot;when you connect tens of thousands of these UltraServers and point them all at the same problem, you get Project Rainier.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Even just 10,000 UltraServers would equate to 640,000 accelerators. Considering that a million-accelerator cluster would make for far better headlines, we&#x27;re going to assume the authors meant to say Trn2 instances, not UltraServers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   With six million square feet of floor space, we don&#x27;t expect space will be the limiting factor. Having said that, we don&#x27;t expect Amazon&#x27;s Indiana campus is being built exclusively for Project Rainier. We have to imagine that a lot of that space will be taken up by conventional IT equipment, like storage arrays, switches, x86 and Graviton CPUs running virtualization and container workloads, and probably a healthy number of GPUs too.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Amazon hasn&#x27;t said just how much power its chips consume, but assuming it&#x27;s around 500 watts, we estimate a cluster of 256,000 Tranium2 accelerators would need somewhere between 250 and 300 megawatts of power. For reference, that&#x27;s roughly on par with xAI&#x27;s Colossus supercomputer, which contains 200,000 Hopper GPUs.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/01/openai_google_tpu/&quot;&gt;
+     With OpenAI, there are no allegiances - just compute at all costs
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/01/oracle_cloud_ai/&quot;&gt;
+     Oracle just signed one mystery customer that will double its cloud revenue in 2028
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/30/google_fusion_commonwealth/&quot;&gt;
+     Google to buy power from fusion energy startup Commonwealth - if they can ever make it work
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/27/anthropic_job_killing_tech_study/&quot;&gt;
+     Anthropic chucks chump change at studies on job-killing tech
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   Is a Project Rainier 2.0 on the way?
+  &lt;/h3&gt;
+  &lt;p&gt;
+   So far, all of Amazon&#x27;s messaging has Trainium2 powering Project Rainier, but with its third-gen accelerators just a few months away, we wouldn&#x27;t be surprised to find out at least some of the sites end up using the newer and much more powerful chip.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Teased by the Annapurna Labs team at re:Invent last year, the chip will be built on TSMC&#x27;s 3nm process node, and promises to deliver 40 percent better efficiency than the current generation. Amazon also expects its Trainium3-based UltraServers to deliver about 4x the performance of its Trn2-based systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That means we can expect each Trn3 UltraServer to deliver about 332.8 petaFLOPS of dense FP8 or about 1.33 exaFLOPS with sparsity enabled. That assumes that Annapurna isn&#x27;t dipping into lower precision datatypes like FP6 or FP4 to achieve those performance gains. But beyond these performance metrics, details remain rather light.
+  &lt;/p&gt;
+  &lt;p&gt;
+   There certainly is precedent to support a last-minute change.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As you may recall, Amazon&#x27;s Project Ceiba was originally
+   &lt;a href=&quot;https://www.nextplatform.com/2024/03/20/aws-and-nvidia-reboot-ceiba-supercomputer-for-blackwell-gpus/&quot; target=&quot;_blank&quot;&gt;
+    supposed
+   &lt;/a&gt;
+   to use Nvidia&#x27;s Grace Hopper superchips, but ultimately ended up going with the much more powerful Blackwell accelerators instead.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Amazon can only talk about chips and systems that have been released, and while we already know a fair bit about Trainium3, it&#x27;ll be a while before you can start deploying workloads to them. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> 23andMe&#x27;s new owner says your DNA is safe this time </title>
+<link>https://www.theregister.com/2025/07/02/23andme_buyer_writes_to_customers/</link>
+<pubDate>Fri, 04 Jul 2025 14:18:42 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   The medical research nonprofit vying to buy 23andMe is informing existing customers that it plans to complete the deal on July 8.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Founded by 23andMe&#x27;s former CEO and co-founder Anne Wojcicki, TTAM Research Institute is behind the purchase of the beleaguered genetics biz, which was confirmed last week.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It reportedly submitted a $305 million bid for the company, whose 2023 mega data breach and resulting fallout led to it
+   &lt;a href=&quot;https://www.theregister.com/2025/03/24/23andme_bankruptcy_protection/&quot; target=&quot;_blank&quot;&gt;
+    filing for Chapter 11 bankruptcy
+   &lt;/a&gt;
+   earlier this year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Following a year-long probe, the UK&#x27;s Information Commissioner&#x27;s Office (ICO) has since
+   &lt;a href=&quot;https://www.theregister.com/2025/06/17/23andme_ico_fine/&quot; target=&quot;_blank&quot;&gt;
+    fined 23andMe £2.31 million
+   &lt;/a&gt;
+   ($3.13 million) over unsatisfactory authentication policies, insufficient access controls, and weak threat detection.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The letter sent to existing 23andMe customers, seen by
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   , introduced TTAM and its intentions with the purchase, and promised to protect their data going forward.
+  &lt;/p&gt;
+  &lt;div class=&quot;boxout&quot;&gt;
+   &lt;h3 class=&quot;crosshead&quot;&gt;
+    Millions of genetic profiles
+   &lt;/h3&gt;
+   &lt;p&gt;
+    When we talk about the 23andMe breach, we mean the one back in late 2023 that saw around 14,000 accounts compromised by &quot;Golem&quot; using credential-stuffing techniques.
+   &lt;/p&gt;
+   &lt;p&gt;
+    However, due to the DNA-sharing feature of the platform, those accounts – which made up only around 0.1 percent of the total user base – allowed Golem to access and siphon off the data belonging to around 7 million people.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The ICO said that affected Brits could have had any number of the following data types compromised: names, birth years, self-reported city or postcode-level locations, profile images, race, ethnicity, family trees, and health reports.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Naturally, the class action lawyers latched onto the news, and 23andMe eventually
+    &lt;a href=&quot;https://www.theregister.com/2024/09/16/security_in_brief/&quot; target=&quot;_blank&quot;&gt;
+     settled one of the lawsuits for $30 million
+    &lt;/a&gt;
+    last year.
+   &lt;/p&gt;
+   &lt;p&gt;
+    23andMe&#x27;s
+    &lt;a href=&quot;https://www.theregister.com/2024/01/26/23_and_me_breach_filing/&quot; target=&quot;_blank&quot;&gt;
+     response to the breach
+    &lt;/a&gt;
+    did not go down well. Onlookers felt the company blamed its users following a statement it made claiming customers were negligent in failing to update their credentials that were compromised in prior, unconnected breaches.
+   &lt;/p&gt;
+   &lt;p&gt;
+    While poor cyber hygiene certainly played a part in the attack, the company&#x27;s approach was received poorly, given it failed to detect the intrusion for five months.
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   It reads: &quot;TTAM&#x27;s charitable mission is to continue the innovative research and scientific discoveries that were core to 23andMe, while expanding its active conduct of medical research and educational activities to empower individuals to learn about their own genomes and advance our knowledge of human health.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Customer privacy is at the core of TTAM&#x27;s mission of helping individuals gain insight into, and benefit from, their genetic information. TTAM is committed to adhering to 23andMe&#x27;s existing privacy policies of always honoring customers with choice and transparency.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Not that this wouldn&#x27;t be the case if things were different, but it should be said that TTAM&#x27;s commitment here is less a matter of moral integrity and more a legal requirement under the terms of the sale.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/17/23andme_ico_fine/&quot;&gt;
+     23andMe hit with £2.3M fine after exposing genetic data of millions
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/24/23andme_bankruptcy_protection/&quot;&gt;
+     23andMe&#x27;s genes not strong enough to avoid Chapter 11
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/09/16/security_in_brief/&quot;&gt;
+     23andMe settles class-action breach lawsuit for $30 million
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/06/11/uk_and_canada_23andme_probe/&quot;&gt;
+     UK and Canada&#x27;s data chiefs join forces to investigate 23andMe mega-breach
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &quot;We have seen how important genetic information is to all of our lives and we are committed to continuing to serve our customers, deliver meaningful genetic insights to them and the broader community, and expand medical research that unlocks the power of human genetics,&quot; the letter continued.
+  &lt;/p&gt;
+  &lt;p&gt;
+   TTAM went on to say that it will continue to offer the same types of products as 23andMe, all while furthering innovative research to make impactful scientific discoveries.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Customers were told that no action is required on their part, and that their data has not been moved out of 23andMe&#x27;s control.
+  &lt;/p&gt;
+  &lt;p&gt;
+   They were also assured that &quot;TTAM will be operating with the same employees and privacy protocols that have protected your data and is committed to continuous improvement of those policies.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Finally, customers were told that they can still choose to wipe their data from the company&#x27;s servers permanently via their account page, if they haven&#x27;t already done so. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ransomware crew Hunters International shuts down, hands out keys to victims </title>
+<link>https://www.theregister.com/2025/07/03/hunters_international_shutdown/</link>
+<pubDate>Fri, 04 Jul 2025 13:14:24 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Ransomware gang Hunters International has shut up shop and offered decryption keys to all victims as a parting favor.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Announcing the news on Thursday morning, the gang deleted all victim data from its dark web leak site and issued a statement confirming its closure.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We, at Hunters International, wish to inform you of a significant decision regarding our operations,&quot; it said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;After careful consideration and in light of recent developments, we have decided to close the Hunters International project. This decision was not made lightly, and we recognize the impact it has on the organizations we have interacted with.&quot;
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The statement did not go into detail about the reasons for the decision, or what the &quot;recent developments&quot; were, but it does not come as a surprise given its previous communications about ransomware becoming more trouble than it&#x27;s worth.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Back in April, the group&#x27;s leadership
+   &lt;a href=&quot;https://www.theregister.com/2025/04/02/hunters_international_rebrand/&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   ransomware had become &quot;unpromising, low-converting, and extremely risky,&quot; adding that it was considering a change of direction.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;There are changes happening in the world right now, one of them is the recognition of ransomware as terrorism, and countries that contribute or do nothing to [combat] it [are designated] as countries that support terrorists,&quot; it said that month.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This status is unacceptable for most countries, as it has a negative impact on the external banking system. This means that the fight against ransomware is moving from the virtual to the real plane, and this time our own states are against us. The chances of survival, in such a situation, tend to be zero.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hunters said today that &quot;as a gesture of goodwill,&quot; it would release decryptors to all victims, although this doesn&#x27;t seem like it will be publicly available – more of an &quot;ask and you shall receive&quot; type of deal.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We understand the challenges that ransomware attacks pose, and we hope that this initiative will help you regain access to your critical information swiftly and efficiently,&quot; the statement added. &quot;To access the decryption tools and receive guidance on the recovery process, please visit our official website.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We appreciate your understanding and cooperation during this transition. Our commitment to supporting affected organizations remains our priority as we conclude our operations.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Departing cybercrime groups rarely offer free decryption keys, but it is not entirely unheard of either.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/16/extortionists_claim_freedman_healthcare_hack/&quot;&gt;
+     Remorseless extortionists claim to have stolen thousands of files from Freedman HealthCare
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/30/fred_hutch_cancer_center_commits/&quot;&gt;
+     US medical org pays $50M+ to settle case after crims raided data and threatened to swat cancer patients
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/02/hunters_international_rebrand/&quot;&gt;
+     Crimelords at Hunters International tell lackeys ransomware too &#x27;risky&#x27;
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/05/tata_technologies_hiunters_international/&quot;&gt;
+     Ransomware thugs threaten Tata Technologies with leak if demands not met
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Avaddon did the same thing when it
+   &lt;a href=&quot;https://cloud.google.com/blog/topics/threat-intelligence/chasing-avaddon-ransomware&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    shut down in 2021
+   &lt;/a&gt;
+   - the crew has since rebranded to NoEscape, according to researchers
+  &lt;/p&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   What next?
+  &lt;/h3&gt;
+  &lt;p&gt;
+   Don&#x27;t let the professionally worded goodbye from Hunters International deceive you. Without confirming anything, it seems highly likely that the same crooks behind the operation continue to profit from others&#x27; pain.
+  &lt;/p&gt;
+  &lt;p&gt;
+   After the April admission that it would be abandoning ransomware, researchers at Group-IB predicted that the same team behind Hunters would simply rebrand as World Leaks.
+  &lt;/p&gt;
+  &lt;p&gt;
+   World Leaks is very much alive and kicking, and operates using the extortion-only model, whereby attackers steal a company&#x27;s data and holds it to ransom without deploying any kind of file encryption.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The group&#x27;s dark web page is constructed in almost the exact same style as Hunters&#x27; and currently lists 31 victims.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A World Leaks statement posted in May invited journalists to sign up for its early warning mailing list to receive information about attacks 24 hours before they are made public.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This exclusive access will empower journalists to prepare in-depth analyses and stories that resonate with their audiences, ensuring they stay ahead of the curve in today&#x27;s fast-paced news environment,&quot; it said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hunters International will be remembered for high-profile attacks on organizations such as
+   &lt;a href=&quot;https://www.theregister.com/2025/03/05/tata_technologies_hiunters_international/&quot; target=&quot;_blank&quot;&gt;
+    Tata Technologies
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.theregister.com/2024/09/11/hunters_ransom_icbc_london/&quot; target=&quot;_blank&quot;&gt;
+    ICBC&#x27;s London office
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   One of its more egregious acts came shortly after it formed in 2023,
+   &lt;a href=&quot;https://www.theregister.com/2023/10/25/rebuilt_hive_ransomware_gang_stings/&quot; target=&quot;_blank&quot;&gt;
+    attacking a US plastic surgery clinic
+   &lt;/a&gt;
+   and leaking patients&#x27; pre-op body images. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> We&#x27;re number 1! Windows 11 finally overtakes Windows 10 </title>
+<link>https://www.theregister.com/2025/07/04/windows_11_market_share/</link>
+<pubDate>Fri, 04 Jul 2025 12:09:53 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Windows 11 has finally overtaken the market share of its predecessor, with just three months remaining until Microsoft discontinues support for Windows 10.
+  &lt;/p&gt;
+  &lt;div class=&quot;promo_article&quot;&gt;
+   &lt;img alt=&quot;Windows on fire&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2018/10/11/shutterstock_66670864.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+   &lt;h2 title=&quot;What about notebooks, including AI-ready devices? Ah well, still months to go, eh Microsoft&quot;&gt;
+    Windows 11 migration heats up... on desktops
+   &lt;/h2&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/06/20/windows_11_migration_heats_up/&quot;&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   As of today, July&#x27;s
+   &lt;a href=&quot;https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/#monthly-202406-202507&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    StatCounter
+   &lt;/a&gt;
+   figures show the market share of Windows 11 at 50.24 percent, with Windows 10 at 46.84 percent. It&#x27;s a far cry from a year ago, when Windows 10 stood at 66.04 percent and Windows 11 languished at 29.75 percent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The impending end of support for many versions of Windows 10 on Oxctober 14, 2025, has doubtless focused minds.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Daniel Bowker, Cloud Endpoint Solutions Lead at Microsoft reseller Phoenix, told
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   that while the company had been very proactive with its customers and Windows 11 readiness, with three months to go, the conversations were more along the lines of &quot;Look, we&#x27;re 1000s of devices. We&#x27;re 80 percent there. We have a handle on the 20 percent; we&#x27;re either going to pay for the ESU [Extended Security Updates] or we&#x27;re going to look at leveraging something else.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   That something else includes a jump to Windows 365, which brings with it free ESU access.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/06/03/windows_11_market_share/&quot; target=&quot;_blank&quot;&gt;
+    In June
+   &lt;/a&gt;
+   , Keiren Jessop, a research manager at industry watcher Canalys, told
+   &lt;i&gt;
+    El Reg
+   &lt;/i&gt;
+   : &quot;Enterprises often migrate in waves. Lots of fiscal years are starting in July or October, so I think we&#x27;ll see some big bumps then.&quot;
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Jessop&#x27;s prediction appears to be on the money, much to the doubtless relief within Redmond. The question now is by how much the market share of Windows 11 will surpass that of its predecessor in the next three months.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/12/windows_11_support/&quot;&gt;
+     M365 apps on Windows 10 to get security fixes into 2028
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/02/windows_365_discount/&quot;&gt;
+     20% discount offer on Windows 365 expires around same time as Windows 10 support
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/10/google_linux_foundation_chromium/&quot;&gt;
+     Google and Linux Foundation form Chromium love club
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/06/microsoft_2025_windows_refresh/&quot;&gt;
+     Microsoft declares 2025 &#x27;the year of the Windows 11 PC refresh&#x27;
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The sudden spike is likely to be driven by enterprises rather than consumer uptake. Canalys
+   &lt;a href=&quot;https://www.theregister.com/2025/07/01/pc_united_states_shipping_figs/&quot; target=&quot;_blank&quot;&gt;
+    noted
+   &lt;/a&gt;
+   that despite stockpiling in the channel in response to a threatened hike in tariffs on imports, hardware sales were likely &quot;to be constrained.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Big-ticket items like
+   &lt;a href=&quot;https://www.theregister.com/2025/06/04/ai_pc_sales_analysis/&quot; target=&quot;_blank&quot;&gt;
+    AI PCs have hardly been selling like hotcakes
+   &lt;/a&gt;
+   , with precious little in the way of a killer app to justify their higher prices.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The belated rise in Windows 11&#x27;s market share is more likely to be down to administrators pressing the upgrade button or a long-planned enterprise replacement wave rather than a sudden surge of new purchases (much to the doubtless disappointment of hardware vendors now
+   &lt;a href=&quot;https://www.theregister.com/2024/09/13/win_11_refreshes_delayed_pc_makers/&quot; target=&quot;_blank&quot;&gt;
+    pinning their hopes to generative AI
+   &lt;/a&gt;
+   .)
+  &lt;/p&gt;
+  &lt;p&gt;
+   Still, with three months to go until its self-imposed support deadline, Microsoft has finally turned a corner with Windows 11. Just in time for Windows 12? ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Former and current Microsofties react to the latest round of layoffs </title>
+<link>https://www.theregister.com/2025/07/04/former_and_current_microsofties_react_layoffs/</link>
+<pubDate>Fri, 04 Jul 2025 09:28:56 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Microsoft&#x27;s latest round of layoffs has triggered an outpouring of emotion from inside and outside the company, with at least one former staffer asking, &quot;How many billions must be burned in the AI furnace before this stops?&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   To be clear, Microsoft has not stated the
+   &lt;a href=&quot;https://www.theregister.com/2025/07/02/microsoft_layoffs/&quot; target=&quot;_blank&quot;&gt;
+    latest round of cuts
+   &lt;/a&gt;
+   is anything to do with its obsession with all things AI, however, axing more than 9,000 from the workforce is an interesting approach from a business which
+   &lt;a href=&quot;https://news.microsoft.com/en-xm/2023/08/02/microsofts-2023-work-trend-index-report-reveals-impact-of-digital-debt-on-innovation-emphasizes-need-for-ai-proficiency-for-every-employee/&quot; target=&quot;_blank&quot;&gt;
+    insists
+   &lt;/a&gt;
+   that implementing Copilot tech means customers can boost productivity &quot;rather than cutting headcount.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Former Microsoft staffer, Ned Pyle, summed up the feelings of many with a simple
+   &lt;a href=&quot;https://bsky.app/profile/nedpyle.com/post/3lsx326uva22g&quot; target=&quot;_blank&quot;&gt;
+    question
+   &lt;/a&gt;
+   on the Bluesky social media platform: &quot;jfc again?&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;How many billions must be burned in the AI furnace before this stops?&quot;
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Pyle, a former principal program manager at Microsoft and now Enterprise Storage Officer at Tuxera, is famous for his efforts to eliminate the outdated and insecure SMBv1 protocol.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Current Microsoft staffers have also been left aghast at the latest bloodletting. Veteran Microsoft engineer Larry Osterman
+   &lt;a href=&quot;https://bsky.app/profile/larryosterman.github.io/post/3lsx2riogd22m&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    wrote
+   &lt;/a&gt;
+   : &quot;I know some folks in Xbox who are terrified,&quot; and added, &quot;We *think* our team is likely safe after a 10 percent haircut
+   &lt;a href=&quot;https://www.theregister.com/2025/05/13/microsoft_layoff/&quot; target=&quot;_blank&quot;&gt;
+    last time around
+   &lt;/a&gt;
+   , but it&#x27;s scary.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Those Xbox folk were right to be terrified.
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-07-02/microsoft-begins-deep-job-cuts-across-xbox-division&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    According
+   &lt;/a&gt;
+   to Bloomberg, the company&#x27;s King division, which makes Candy Crush, is cutting 10 percent of its staff. Games such as Perfect Dark and Everwild have been cancelled, and the studio behind Forza Motorsport is also on the receiving end of staff reductions.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/02/microsoft_layoffs/&quot;&gt;
+     Microsoft kicks off new fiscal year with more layoffs
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/17/intel_fab_layoff_report/&quot;&gt;
+     Intel reportedly chips away at fab workforce – but hey, maybe there&#x27;s a tax break coming
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/29/anthropic_ceo_ai_job_threat/&quot;&gt;
+     Anthropic CEO frets about 20% unemployment from AI, but economists are doubtful
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/16/microsofts_axe_software_developers/&quot;&gt;
+     Microsoft winnows: Layoffs hit software engineers hard
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   In answer to the question of who will be left at Microsoft once the culling is complete, one staffer, a purveyor of ceramic dinosaurs who goes by the handle of @threddyrex.com,
+   &lt;a href=&quot;https://bsky.app/profile/threddyrex.com/post/3lswzcwypns2r&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    commented
+   &lt;/a&gt;
+   , &quot;it&#x27;ll be three copilots in a trench coat running the show.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   While Microsoft might insist the layoffs are all about optimizing its operations and implementing &quot;organizational changes necessary to best position the company and teams for success in a dynamic marketplace,&quot; some observers are not so sure.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cybersecurity expert, and slayer of the WannaCry malware, Marcus Hutchins,
+   &lt;a href=&quot;https://bsky.app/profile/malwaretech.com/post/3lsyuq44nyv2g&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    remarked
+   &lt;/a&gt;
+   , &quot;Yet more companies laying off employees not because AI is replacing them, but because they need more money to fund their AI.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I can&#x27;t remember the last time I saw sunk cost fallacy at this scale.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The beatings seem set to continue until AI adoption improves. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> &#x27;Trained monkey&#x27; from tech support saved know-it-all manager&#x27;s mistake with a single keypress </title>
+<link>https://www.theregister.com/2025/07/04/on_call/</link>
+<pubDate>Fri, 04 Jul 2025 07:41:43 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Friday dawns with the promise of precious freedom, yet the world of tech support is seldom free from trouble.
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   always finds a way to celebrate anyway, by bringing you a fresh instalment of On Call, the reader-contributed column that tells your tales of breaking away from bad bosses and ungrateful users.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This week, meet a reader we&#x27;ll Regomize as &quot;Mark&quot; who can’t forget a former manager who claimed to be an IT expert and disdainfully referred to colleagues in his IT department as “trained monkeys” because he felt computers were so simple even a simian could make them sing.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;As you can imagine, I didn&#x27;t particularly like him,&quot; Mark told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Mark&#x27;s opinion mattered little because senior execs thought the manager was hot stuff who deserved an expensive new laptop.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   This tale took place at a time when laptops were not the norm. The manager&#x27;s ability to create PowerPoint presentations and show them off during meetings was therefore leading edge.
+  &lt;/p&gt;
+  &lt;p&gt;
+   To help the hotshot dazzle the world with PowerPoint, Mark picked a laptop that sported a VGA connector that allowed it to connect to projectors.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Both lappies and projectors were somewhat primitive at the time, and video output would not change from a laptop&#x27;s screen to the projector until a user pressed a combination of keys – Mark thinks the combo was FN+F3. Once a user set the laptop to display video on an external display, its screen would not work until another FN+F3 – even after a reboot.
+  &lt;/p&gt;
+  &lt;p&gt;
+   One day, Mark was monkeying about at work when his phone rang and the manager blurted a torrent of panicked expletives and abuse.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Mark managed to figure out that the manager was attending an offsite meeting and his attempt to impress some higher-ups with PowerPoint was going very badly.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I tried to calm him down and asked him to explain exactly what was happening but he told me, in no uncertain terms, that I must drop everything and rush to his aid,&quot; Mark told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   So Mark did.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/27/on_call/&quot;&gt;
+     Don&#x27;t shoot me, I&#x27;m only the system administrator!
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/20/on_call/&quot;&gt;
+     Techie traveled 4 hours to fix software that worked perfectly until a new hire used it
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/13/on_call/&quot;&gt;
+     User demanded a ‘wireless’ computer and was outraged when its battery died
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/06/on_call/&quot;&gt;
+     Techie traced cables from basement to maternity ward and onto a roof, before a car crash revealed the problem
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   On arrival, he found the manager &quot;anxiously dancing from one foot to the other outside the conference room, clutching the laptop.&quot; After making polite inquiries about the problem, Mark learned the manager tried to prepare for the meeting by getting his PowerPoint ready to roll – but nothing appeared on its screen. The manager had no backup, so the only way he could show his slides was on this laptop.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The manager told Mark to fix the problem instantly, shoved the laptop into his hands, and allowed him to enter the meeting room.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Once in the room, Mark asked the manager to share his extensive IT knowledge and detail his troubleshooting efforts.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;He practically screamed at me that I shouldn&#x27;t be in the room at all and that he had done everything to fix the problem but, clearly, I was somehow responsible for this failure as the Tech Support guy,&quot; Mark told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Mark apologized to the meeting attendees for the delay, connected the laptop to the VGA cable that reached the projector, and watched as the slides immediately appeared.
+  &lt;/p&gt;
+  &lt;p&gt;
+   He then explained the FN+F3 thing, pressed that key combo a couple of times to show how it worked, and watched the manager&#x27;s face turn a lovely shade of embarrassed red.
+  &lt;/p&gt;
+  &lt;p&gt;
+   And then Mark left the meeting.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Some time later, back at my desk, the still livid manager presented himself and complained loudly about how I had deliberately shown him up in front of his colleagues,&quot; Mark told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As the tirade continued, Mark learned that the audience for the PowerPoint didn&#x27;t spend much time admiring the slides and instead conducted a whispered discussion about the hotshot manager&#x27;s meltdown.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The gist of the rant was that I hadn&#x27;t paid him due respect,&quot; Mark said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I replied that I gave him all the respect he deserved.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   How have you earned the respect your tech support skills deserve? Respect your fellow
+   &lt;em&gt;
+    Reg
+   &lt;/em&gt;
+   readers by
+   &lt;a href=&quot;mailto:oncall@theregister.com&quot; target=&quot;_blank&quot;&gt;
+    clicking here
+   &lt;/a&gt;
+   to send us the story they deserve to read. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EU businesses want a pause on AI regulations so they can cope with unregulated Big Tech players </title>
+<link>https://www.theregister.com/2025/07/04/eu_businesses_push_for_freedom/</link>
+<pubDate>Fri, 04 Jul 2025 06:37:19 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   French AI business Mistral on Thursday announced an initiative called “AI for Citizens,” which it says offers a way to work with governments and public institutions to transform public services using AI.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;It’s clear that artificial intelligence will have significant and lasting impact not only on companies, but also on governments and societies,&quot; Mistral
+   &lt;a href=&quot;https://mistral.ai/news/ai-for-citizens&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;However, in the rush to attempt to put AI to use, it all too often seems that AI is something that happens to people and countries, an inevitability beyond their influence that leaves them at the mercy of closed, opaque systems designed and operated by distant, behemoth corporations.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   We can&#x27;t say for certain which distant, behemoth corporations Mistral means, but the list is likely to include American tech brats Amazon, Google, Meta, and Microsoft, along with OpenAI and Anthropic.
+  &lt;/p&gt;
+  &lt;blockquote class=&quot;pullquote&quot;&gt;
+   &lt;p&gt;
+    AI leaves people and countries at the mercy of closed, opaque systems
+   &lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;
+   The French AI biz unveiled
+   &lt;a href=&quot;https://mistral.ai/solutions/ai-for-citizens&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    AI for Citizens
+   &lt;/a&gt;
+   – which again is focused not on citizens but on &quot;States and public institutions&quot; – a day after joining a group of around 50 European companies and organizations seeking a delay in the implementation of the EU&#x27;s AI Act.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Act
+   &lt;/a&gt;
+   aims &quot;to make sure that AI systems used in the EU are safe, transparent, traceable, non-discriminatory and environmentally friendly.&quot; Some of its provisions came into force as of
+   &lt;a href=&quot;https://commission.europa.eu/news-and-media/news/ai-act-enters-force-2024-08-01_en&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    August 1, 2024
+   &lt;/a&gt;
+   , but most don&#x27;t apply until August 2, 2026.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The Act applies regulations matched to risk levels and therefore bans real-time facial recognition in public places as that’s felt to be an unacceptably risk practice. It also imposes data governance and risk management requirements on high risk systems, but demands lesser transparency requirements for less risky AI systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   When the AI Act was unveiled, World Economic Forum contributor Dionys Gragousian, director of AI Governance &amp; Sustainability at startup DataRobot,
+   &lt;a href=&quot;https://www.weforum.org/stories/2022/02/how-businesses-should-respond-to-eu-artificial-intelligence-act/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    suggested
+   &lt;/a&gt;
+   the AI Act &quot;actually has teeth&quot; due to the size of potential fines it allows. In time, those teeth
+   &lt;a href=&quot;https://www.theinformation.com/articles/europes-ai-act-has-landed-with-fewer-teeth-than-originally-proposed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    became less apparent
+   &lt;/a&gt;
+   as regulators adjusted the law after
+   &lt;a href=&quot;https://time.com/6288245/openai-eu-lobbying-ai-act/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    industry lobbying
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/03/trump_budget_bill_tech_impact/&quot;&gt;
+     US budget bill passes without controversial block on states regulating AI
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/03/ai_models_potemkin_understanding/&quot;&gt;
+     AI models just don&#x27;t understand what they&#x27;re talking about
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/03/meta_ec_dma_sulk/&quot;&gt;
+     Meta calls €200M EU fine over pay-or-consent ad model &#x27;unlawful&#x27;
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/02/call_center_ai_assistants/&quot;&gt;
+     Call center staffers explain to researchers how their AI assistants aren&#x27;t very helpful
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The latest call to defang the regulatory regime comes in the form of an open letter from the EU AI Champions Initiative, a coalition of more than 60 organizations that launched in February 2025. The group presently claims to represent over 110 organizations with a total market capitalization of more than $3 trillion that together account for over 3.7 million jobs across Europe.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Around 50 of these Champions – Mistral, Airbus, ASML, Publicis, and Siemens Energy, among others – on Wednesday published
+   &lt;a href=&quot;https://aichampions.eu/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    a note
+   &lt;/a&gt;
+   urging EU leaders to delay the enforcement of the AI Act by two years for the sake of European competitiveness.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This postponement, coupled with a commitment to prioritize regulatory quality over speed, would send innovators and investors around the world a strong signal that Europe is serious about its simplification and competitiveness agenda,&quot; the letter states.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;In the context of the broader review of EU digital rules you have announced, it would also create the room needed to develop an innovation-friendly implementation strategy and identify pragmatic avenues for regulatory simplification, covering both GPAI [general purpose AI] models and high-risk AI systems as well as broader digital regulations.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Advocacy group Corporate Observatory Europe panned the EU AI Champions bid for halting enforcement of the AI Act.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Delay. Pause. Deregulate. That is Big Tech’s lobby playbook to fatally weaken rules that should protect us from biased and unfair AI systems,&quot; said Bram Vranken, Corporate Europe Observatory researcher and campaigner, in
+   &lt;a href=&quot;https://corporateeurope.org/en/2025/07/eus-ai-rules-set-be-handed-silver-plate-corporate-lobbyists&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    a statement
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;These risks are far from hypothetical. From Israeli mass surveillance and killings of Palestinians in Gaza, the dissemination of disinformation during elections, including by far-right groups and foreign governments, to the widespread use of biased and faulty AI systems in welfare programs, AI is already being used in countless risky and problematic ways.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   American companies have also tried to convince US lawmakers not to regulate AI, by seeking
+   &lt;a href=&quot;https://www.theregister.com/2025/05/20/trump_bill_regulation_free_ai/&quot; target=&quot;_blank&quot;&gt;
+    a ten-year moratorium
+   &lt;/a&gt;
+   on state AI regulation. But the US Senate
+   &lt;a href=&quot;https://www.theregister.com/2025/07/01/senate_passes_trumps_big_beastly/&quot; target=&quot;_blank&quot;&gt;
+    didn&#x27;t cooperate
+   &lt;/a&gt;
+   . Now it&#x27;s Europe&#x27;s turn to balance economic ambition against civil society concerns about AI. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Won’t somebody care for the European children? Meta and Google put up their hands to help on the same day </title>
+<link>https://www.theregister.com/2025/07/04/meta_google_europe_age_assurance/</link>
+<pubDate>Fri, 04 Jul 2025 06:05:09 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Google and Meta have independently taken actions to support a safer internet for kids – and given blockchain boosters a moment to celebrate.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Meta on Thursday
+   &lt;a href=&quot;https://about.fb.com/news/2025/07/supporting-an-eu-wide-digital-majority-age-for-teens-online-access-with-parental-approval/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    proclaimed
+   &lt;/a&gt;
+   its support for a “digital majority age” – a concept that would see parental permission required before teens can use social media. France enacted a digital majority age for under-15s in 2023, and the following year President Emmanuel Macron
+   &lt;a href=&quot;https://www.elysee.fr/en/emmanuel-macron/2024/04/24/europe-speech&quot; target=&quot;_blank&quot;&gt;
+    called
+   &lt;/a&gt;
+   for all European nations to do likewise.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Meta’s post states the company supports Macron’s idea. “We believe this can be an effective solution to the industry-wide challenge of ensuring teens have safe, age-appropriate experiences online, if it is grounded in three key principles,” Meta wrote.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Those three are:
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    Inclusion of a regulation that means parents approve all app downloads for children under 16;
+   &lt;/li&gt;
+   &lt;li&gt;
+    Consistency across all software and services, not just social media;
+   &lt;/li&gt;
+   &lt;li&gt;
+    “Robust age verification mechanisms” that work across the EU “at the app store or operating system level.”
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   As luck would have it, on Thursday Google did something that might help deliver the third of Meta’s principles by open sourcing Zero-Knowledge Proof (ZKP) libraries that can help with age verification.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The code is available
+   &lt;a href=&quot;https://github.com/google/longfellow-zk&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    on GitHub
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   A
+   &lt;a href=&quot;https://blog.google/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    post
+   &lt;/a&gt;
+   by Google Wallet product manager Alan Stapelberg explains that the code “makes it possible for people to prove that something about them is
+   &lt;i&gt;
+    true
+   &lt;/i&gt;
+   without exchanging any other data. So, for example, a person visiting a website can verifiably prove he or she is over 18, without sharing anything else at all.”
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/20/australia_age_assurance_trial_findings/&quot;&gt;
+     Australia finds age detection tech has many flaws but will work
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/16/ofcom_age_verification/&quot;&gt;
+     Brits must prove their age on adult sites by July, says watchdog
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/11/20/china_minor_mode/&quot;&gt;
+     China wants mobile devices to limit usage time for minors, ensure they only see nice content
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/05/16/eu_investigates_meta_over_its/&quot;&gt;
+     EU probes Meta over its provisions for protecting children
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Google
+   &lt;a href=&quot;https://blog.google/products/google-pay/google-wallet-age-identity-verifications/&quot; target=&quot;_blank&quot;&gt;
+    announced
+   &lt;/a&gt;
+   it had added ZKP to its Wallet product in April 2025, when Stapelberg explained “many sites and services require age verification” and Google wanted its wallet to do that job without linking users’ age to their identity.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Chocolate Factory
+   &lt;a href=&quot;https://ligero-inc.com/google&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    built
+   &lt;/a&gt;
+   its ZKP tech on a protocol developed by an outfit named Ligero, that created its wares in part to improve on ZKP used to scale blockchains.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Stapelberg’s Thursday post notes that the EU has encouraged member states to use ZKP in the forthcoming European Digital Identity Wallet – a planned tool the bloc’s residents can use to store documents like ID cards and driving licenses.
+  &lt;/p&gt;
+  &lt;p&gt;
+   European nations might also decide to use Google’s code to implement Zuck’s vision of age assurance.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Of course this is not all sweetness and light as Europe is unhappy that Meta and Google allow kids to see all sorts of nasty material, and passed laws that could see them fined colossal sums for doing so. Both companies are therefore fighting for their futures when they fight to protect kids. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Kawasaki and Foxconn build robot nursing assistant to tackle hospital scutwork </title>
+<link>https://www.theregister.com/2025/07/04/kawasaki_foxconn_/</link>
+<pubDate>Fri, 04 Jul 2025 03:13:43 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Taiwanese tech manufacturer Foxconn and Japan’s Kawasaki Heavy Industries have revealed a jointly developed robotic nursing assistant they hope to start selling in 2026.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The two companies used an existing Kawasaki social robot design called “Nyokkey” as the basis for the new machine, which they called “Nurabot”.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Sadly, Kawasaki has posted only a small image of Nurabot, but we found a better snap of Nyokkey.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Border width_85&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/supplied_kawasaki_foxconn_nurabot.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Kawasaki Foxconn Nurabot&quot; height=&quot;300&quot; src=&quot;https://regmedia.co.uk/2025/07/04/supplied_kawasaki_foxconn_nurabot.jpg&quot; title=&quot;Kawasaki Foxconn Nurabot&quot; width=&quot;400&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Kawasaki Foxconn Nurabot - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;CaptionedImage Border width_85&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/supplied_kawasaki_nyokkey_robot.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Kawasaki&#x27;s Nyokkey robot&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/07/04/supplied_kawasaki_nyokkey_robot.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;Kawasaki&#x27;s Nyokkey robot&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Kawasaki&#x27;s Nyokkey robot - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Kawasaki says Nurabot has two arms that can grab objects, a luggage compartment, and self-propelling capabilities. The two companies designed it to help nurses with jobs like transporting blood samples or medicines through a hospital, or guiding patients around a hospital. It can also apparently educate patients about hygiene.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Kawasaki has already seen Nyokkey used in nursing homes, infrastructure facilities, and restaurants. Foxconn contributed software development expertise to create Nurabot and helped to conduct trials of the machine at Taiwan’s Taichung Veterans General Hospital.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Taiwan apparently has an acute shortage of nurses and struggles to recruit more, a situation it shares with many other nations. Foxconn and Kawasaki believe bots are the answer and will help healthcare organizations to continue providing appropriate levels of service.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The two companies hope to start selling Nurabot in 2026.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/20/foxconn_chair_ai_manufacturing_predictions/&quot;&gt;
+     Foxconn chairman predicts AI will end manufacturers&#x27; search for cheap labor
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/03/microsoft_pauses_datacenter_construction/&quot;&gt;
+     First Foxconn, now Microsoft: Wisconsin town dissed by big tech
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/12/19/foxconn_nissan_honda_merger_acquisition/&quot;&gt;
+     Fear of Foxconn reportedly driving possible Nissan, Honda and Mitsubishi merger
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/10/08/foxconn_nvidia_ai_supercomputer/&quot;&gt;
+     Apple supplier Foxconn and Nvidia team up to deploy Taiwan&#x27;s fastest AI supercomputer
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Earlier this week, Kawasaki launched another medical bot, the MC006V, designed to help manufacture pharmaceuticals. The company ensured the bot can survive the chemicals used to sterilize equipment in the clean facilities where medicines are made.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The bot has six-axis freedom of movement, can reach 610mm, and carry up to six kilograms.
+  &lt;/p&gt;
+  &lt;div class=&quot;CaptionedImage Border width_85&quot;&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/07/04/supplied_kawasaki_mc006v_robot.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Kawasaki MC006V robot&quot; height=&quot;908&quot; src=&quot;https://regmedia.co.uk/2025/07/04/supplied_kawasaki_mc006v_robot.jpg&quot; title=&quot;Kawasaki MC006V robot&quot; width=&quot;600&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p class=&quot;text_center&quot;&gt;
+    Kawasaki’s MC006V robot - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> CISA warns the Signal clone used by natsec staffers is being attacked, so patch now </title>
+<link>https://www.theregister.com/2025/07/02/cisa_telemessage_patch/</link>
+<pubDate>Fri, 04 Jul 2025 02:20:07 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   The US security watchdog CISA has warned that malicious actors are actively exploiting two flaws in the Signal clone TeleMessage TM SGNL, and has directed federal agencies to patch the flaws or discontinue use of the app by July 22.
+  &lt;/p&gt;
+  &lt;p&gt;
+   TeleMessage came to prominence after the
+   &lt;a href=&quot;https://www.theregister.com/2025/03/24/signal_atlantic_security_disaster/&quot; target=&quot;_blank&quot;&gt;
+    Signalgate
+   &lt;/a&gt;
+   fiasco, when then-US national security advisor Mike Waltz mistakenly added a journalist to a Signal group chat outlining a March airstrike against Houthi insurgents in Yemen. Since the conversation had messages set to self-delete, government watchdogs
+   &lt;a href=&quot;https://www.theregister.com/2025/04/04/hegseth_inspector_general/&quot; target=&quot;_blank&quot;&gt;
+    raised concerns
+   &lt;/a&gt;
+   that the participants were dodging recordkeeping and retention requirements.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Subsequent
+   &lt;a href=&quot;https://www.theregister.com/2025/05/05/telemessage_investigating/&quot; target=&quot;_blank&quot;&gt;
+    investigations
+   &lt;/a&gt;
+   showed this wasn&#x27;t the case, as Waltz and others were using a Signal clone - dubbed TM SGNL - developed by TeleMessage, which is owned by US archiving biz Smarsh, to keep records of conversations. But when journalist Micah Lee
+   &lt;a href=&quot;https://micahflee.com/despite-misleading-marketing-israeli-company-telemessage-used-by-trump-officials-can-access-plaintext-chat-logs/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    examined
+   &lt;/a&gt;
+   the code, he found it to be severely buggy and didn&#x27;t have proper end-to-end encryption, unlike Signal.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Unfortunately for the government, data thieves were quickly on the case, and in May
+   &lt;a href=&quot;https://www.theregister.com/2025/05/26/security_in_brief/&quot; target=&quot;_blank&quot;&gt;
+    published
+   &lt;/a&gt;
+   chat logs and metadata of over 60 government users, including members of the Secret Service and at least one White House official, on the leak site Distributed Denial of Secrets.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Now CISA
+   &lt;a href=&quot;https://www.cisa.gov/news-events/alerts/2025/07/01/cisa-adds-two-known-exploited-vulnerabilities-catalog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    has said
+   &lt;/a&gt;
+   that two of the flaws found in TeleMessage, CVE-2025-48927 and CVE-2025-48928, are under &quot;frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise,&quot; and added them to its
+   &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Known Exploited Vulnerabilities Catalog
+   &lt;/a&gt;
+   , forcing Federal Civilian Executive Branch agencies to apply vendor-supplied mitigations or discontinue use of the product within the deadline.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/26/security_in_brief/&quot;&gt;
+     TeleMessage security SNAFU worsens as 60 government staffers exposed
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/05/telemessage_investigating/&quot;&gt;
+     Signal chat app clone used by Signalgate&#x27;s Waltz was apparently an insecure mess
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/25/signalgate_lessons_learned_if_creating/&quot;&gt;
+     Signalgate lessons learned: If creating a culture of security is the goal, America is screwed
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/06/us_dod_software_procurement/&quot;&gt;
+     Pentagon declares war on &#x27;outdated&#x27; software buying, opens fire on open source
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/cve-2025-48927&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CVE-2025-48927
+   &lt;/a&gt;
+   , with a CVSS score of 5.3, stems from a Spring Boot Actuator misconfiguration in TM SGNL that exposes the /heapdump endpoint, letting attackers download memory dumps containing sensitive data. The
+   &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2025-48928&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CVE-2025-48928
+   &lt;/a&gt;
+   issue lets an attacker with local access to the TeleMessage server grab a memory-dump file, which can expose passwords sent over HTTP, and is rated CVSS 4.0.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CISA hasn&#x27;t released any more details about the twin issues, other than to confirm that they haven&#x27;t been involved in any ransomware attacks as yet. It&#x27;s not known how many - if any - government officials are still using the application.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Smarsh had no comment at time of publication. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft leaves Pakistan but promises customers won&#x27;t notice the change </title>
+<link>https://www.theregister.com/2025/07/03/microsoft_quits_pakistan/</link>
+<pubDate>Thu, 03 Jul 2025 23:39:33 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Microsoft has decided to close its presence in Pakistan.
+  &lt;/p&gt;
+  &lt;p&gt;
+   News of the closure emerged in a
+   &lt;a href=&quot;https://www.linkedin.com/posts/activity-7346194356552228864--kOc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    LinkedIn
+   &lt;/a&gt;
+   post by Jawwad Rehman, who established and led Microsoft’s Pakistan subsidiary.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A Microsoft spokesperson commented on Rehman’s post as follows
+  &lt;/p&gt;
+  &lt;div class=&quot;blockextract&quot;&gt;
+   &lt;p&gt;
+    As a part of regular process of business evaluation and optimization, we are changing our operating model in Pakistan. Our customer agreements and service will not be affected by this change.
+   &lt;/p&gt;
+   &lt;p&gt;
+    We will serve our customers through both our strong and extensive partner organization, and other closely located Microsoft offices.
+   &lt;/p&gt;
+   &lt;p&gt;
+    We follow this model successfully in a number of other countries around the world. Our customers remain our top priority and can expect the same high level of service going forward.
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Rehman’s post states Microsoft Pakistan was down to a “few remaining employees.”
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   understands that Microsoft’s presence in Pakistan was perhaps just five people and that all local workers lost their jobs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The software giant’s claim that its decision to leave Pakistan won’t hurt customers therefore seems reasonable.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Pakistan is home to over 250 million people, making it the world’s fifth-most populous country and therefore an obvious target for the technology industry. However, the nation’s politics and governance are tumultuous, with no prime minister in the country’s 75-year history serving a full term.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Tech industry investors have seldom considered the country, in stark contrast to neighbouring India, which in addition to growing its own giants like Infosys and HCL has become a major source of talent for the global tech industry.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Also in the region, cashed-up Gulf states have successfully wooed tech companies. Indonesia, the world’s fourth-largest country by population, has attracted datacenter investments from the likes of Microsoft, AWS, and Alibaba Cloud.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2021/08/26/pakistan_federal_board_of_revenue_software_licensing_snafus/&quot;&gt;
+     Pakistan&#x27;s tax office denies pirated software caused outage – admits it sometimes runs unsupported software
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/11/21/pakistan_tech_industry_fears/&quot;&gt;
+     Pakistan&#x27;s tech lobby warns that slow internet is strangling IT industry
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/08/20/pakistan_minister_denies_firewall/&quot;&gt;
+     Pakistan’s internet slows to uncomfortable levels, allegedly due to new China-style firewall
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/06/14/pakistan_budget_technology/&quot;&gt;
+     Pakistan punishes tax dodgers with new measures to ensure telcos cut off their mobile phones
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Pakistan’s government has tried to grow its technology industry, and earlier this week
+   &lt;a href=&quot;https://www.techjuice.pk/govt-announces-google-microsoft-it-certifications-for-500000-youth/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    reportedly
+   &lt;/a&gt;
+   announced a plan to arrange certifications in Microsoft and Google technology for half a million youths. Past efforts included a plan to promote freelance IT workers who serve offshore clients using gig work platforms, but frequent
+   &lt;a href=&quot;https://www.theregister.com/2023/05/11/pakistan_protest_internet_cut/&quot; target=&quot;_blank&quot;&gt;
+    internet shutdowns and content blocks
+   &lt;/a&gt;
+   , plus
+   &lt;a href=&quot;https://www.theregister.com/2024/11/21/pakistan_tech_industry_fears/&quot; target=&quot;_blank&quot;&gt;
+    poor broadband infrastructure
+   &lt;/a&gt;
+   have hampered that effort.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Microsoft now thinks Pakistan isn’t worthy of even a tiny outpost. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US budget bill passes without controversial block on states regulating AI </title>
+<link>https://www.theregister.com/2025/07/03/trump_budget_bill_tech_impact/</link>
+<pubDate>Thu, 03 Jul 2025 22:13:33 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Lawmakers have passed President Trump&#x27;s budget reconciliation but removed one of its most tech-contentious measures - the ban of state-level AI regulation – meaning the law will have little effect on the tech industry.
+  &lt;/p&gt;
+  &lt;p&gt;
+   House minority leader Hakeem Jeffries (D-NY) tried to delay a vote on the bill with a nine-hour speech but that couldn’t prevent
+   &lt;a href=&quot;https://www.congress.gov/bill/119th-congress/house-bill/1&quot; rel=&quot;nofollow&quot;&gt;
+    its passage
+   &lt;/a&gt;
+   in a form that contains no apparent changes that could force it back to the Senate for additional revisions. It’s now up to President Trump to sign it into law, right on time with his July 4 deadline.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The part of the bill of most interest to the tech industry was its provision for a moratorium on state-level regulation of AI, which would have rendered all AI regulation that didn&#x27;t come from the federal government unenforceable for 10 years. Lawmakers re-drafted the ban to cover five years, and then with the added caveat that states
+   &lt;em&gt;
+    could
+   &lt;/em&gt;
+   enforce their own AI rules if they were willing to give up all access to
+   &lt;a href=&quot;https://www.theregister.com/2023/06/26/biden_broadband_funding_states/&quot;&gt;
+    rural broadband development funds
+   &lt;/a&gt;
+   available through the Broadband Equity, Access, and Deployment (BEAD) program.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Senate
+   &lt;a href=&quot;https://www.theregister.com/2025/07/01/senate_passes_trumps_big_beastly/&quot;&gt;
+    killed that measure
+   &lt;/a&gt;
+   with a resounding 99-1 vote on Tuesday, leaving AI enforcement in the hands of the states.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   But there are a few other relevant bits for the tech industry.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Forrester principal analyst in the security and risk space Alla Valente pointed to increased funding for rural broadband.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The Senate bill adds an additional $500 million of broadband funding and broadens eligible projects to include AI infrastructure,&quot; Valente told us during a video call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The bill also provides a potential win to Elon Musk – previously
+   &lt;a href=&quot;https://www.theregister.com/2022/08/11/fcc_starlink_rural_internet/&quot;&gt;
+    spurned
+   &lt;/a&gt;
+   by the Federal Communications Commission (FCC) for BEAD funding – by requiring the program to be tech-neutral, opening it up to SpaceX&#x27;s Starlink satellite internet.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The original BEAD program prioritized fiber-optic expansion,&quot; Valente said. &quot;Now with the &#x27;tech-neutral&#x27; approach, companies like Starlink will be able to secure funding.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Musk
+   &lt;a href=&quot;https://www.reuters.com/business/autos-transportation/elon-musk-renews-criticism-trump-spending-bill-calls-new-political-party-2025-06-30/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    came out strongly
+   &lt;/a&gt;
+   against the bill, which cuts tax incentives for buying electric vehicles, potentially impacting Tesla&#x27;s already
+   &lt;a href=&quot;https://www.theregister.com/2025/07/03/elon_musk_tesla_deliveries_distraction/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    declining sales
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The bill also opened up a bunch of new radio spectrum frequencies for commercial use and ordered the Federal Communications Commission to auction some of it off, so there&#x27;s new opportunity there as well.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The bill grants the Department of Energy $150 million to consolidate its data and use it to develop new AI models that can enable &quot;next-generation microelectronics that have greater capabilities beyond Moore&#x27;s law while requiring lower energy consumption as well as being open source for the US scientific community&#x27;s benefit.&quot;
+  &lt;/p&gt;
+  &lt;h3 class=&quot;crosshead&quot;&gt;
+   Energy changes drain AI optimism
+  &lt;/h3&gt;
+  &lt;p&gt;
+   Laura Lin, a litigation partner at the Palo Alto office of law firm Simpson Thatcher specializing in the tech space, told us clean energy incentive cuts concern some of her stakeholders.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;These are generally disfavored by the tech industry, including because of the massive energy demands of AI development and deployment,&quot; Lin said in an email to
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Those cuts are numerous, with the Trump bill including the elimination of funding for things like Environmental Protection Act compliance (funding which includes IT system modernizations grants), the wholesale elimination of the Greenhouse Gas Reduction
+   &lt;a href=&quot;https://www.epa.gov/greenhouse-gas-reduction-fund&quot; rel=&quot;nofollow&quot;&gt;
+    Fund
+   &lt;/a&gt;
+   , cuts to emissions rebates and zero-emissions vehicle incentives, and the gutting of what the Congressional summary bill describes as &quot;various energy programs&quot; that seek to promote commercial and residential clean energy usage.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Lin believes the big tech takeaway from Trump&#x27;s bill is that it did not introduce federal AI regulations.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;There&#x27;s been growing frustration with the current patchwork of state-level rules, which tech companies that operate across multiple states see as creating bureaucratic hurdles and demanding significant compliance investments,&quot; Lin told us. &quot;The tech industry will likely keep pushing for federal AI legislation.&quot;
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/10/trump_admin_leak_government_ai_plans/&quot;&gt;
+     Trump administration&#x27;s whole-government AI plans leaked on GitHub
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/10/23/ai_firms_and_civil_society/&quot;&gt;
+     AI firms and civil society groups plead for passage of federal AI law ASAP
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/18/trump_extends_tiktok_reprieve_again/&quot;&gt;
+     Trump administration set to waive TikTok sell-or-die deadline for a third time
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/12/19/house_ai_policy_requests/&quot;&gt;
+     US bipartisan group publishes laundry list of AI policy requests
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Valente agreed that Trump&#x27;s bill makes acting on federal AI regulation a hard thing for lawmakers to ignore.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;It seems like the general consensus among AI companies is that sure, some don&#x27;t want any regulation, but most definitely don&#x27;t want fifty different sets,&quot; Valente said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is a political opportunity for the White House, Valente said: Take action to regulate AI with a light touch at the federal level and you make Silicon Valley happy, while pre-empting state-level laws.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As with most things in Washington, D.C., don&#x27;t expect that federal AI regulation to appear anytime soon.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Progress on the national front is likely to be slow,&quot; said Lin. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI models just don&#x27;t understand what they&#x27;re talking about </title>
+<link>https://www.theregister.com/2025/07/03/ai_models_potemkin_understanding/</link>
+<pubDate>Thu, 03 Jul 2025 21:41:12 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Researchers from MIT, Harvard, and the University of Chicago have proposed the term &quot;potemkin understanding&quot; to describe a newly identified failure mode in large language models that ace conceptual benchmarks but lack the true grasp needed to apply those concepts in practice.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It comes from accounts of fake villages –
+   &lt;a href=&quot;https://en.wikipedia.org/w/index.php?title=Potemkin_village&amp;oldid=1297555907&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Potemkin villages
+   &lt;/a&gt;
+   – constructed at the behest of Russian military leader Grigory Potemkin to impress Empress Catherine II.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The academics are differentiating &quot;potemkins&quot; from &quot;hallucination,&quot; which is used to describe AI model errors or mispredictions. In fact, there&#x27;s more to AI incompetence than factual mistakes; AI models lack the ability to understand concepts the way people do, a tendency suggested by the widely used disparaging epithet for large language models, &quot;
+   &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3442188.3445922&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    stochastic parrots
+   &lt;/a&gt;
+   .&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Computer scientists Marina Mancoridis, Bec Weeks, Keyon Vafa, and Sendhil Mullainathan suggest the term &quot;potemkin understanding&quot; to describe when a model succeeds at a benchmark test without understanding the associated concepts.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;Potemkins are to conceptual knowledge what hallucinations are to factual knowledge – hallucinations fabricate false facts; potemkins fabricate false conceptual coherence,&quot; the authors explain in their preprint
+   &lt;a href=&quot;https://arxiv.org/abs/2506.21521&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    paper
+   &lt;/a&gt;
+   , &quot;Potemkin Understanding in Large Language Models.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The paper is
+   &lt;a href=&quot;https://icml.cc/virtual/2025/poster/44050&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    scheduled
+   &lt;/a&gt;
+   to be presented later this month at ICML 2025, the International Conference on Machine Learning.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/03/ai_phishing_websites/&quot;&gt;
+     ChatGPT creates phisher&#x27;s paradise by recommending the wrong URLs for major companies
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/02/call_center_ai_assistants/&quot;&gt;
+     Call center staffers explain to researchers how their AI assistants aren&#x27;t very helpful
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/01/openai_google_tpu/&quot;&gt;
+     With OpenAI, there are no allegiances - just compute at all costs
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/01/cloudflare_creates_ai_crawler_toll/&quot;&gt;
+     Cloudflare creates AI crawler tollbooth to pay publishers
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Keyon Vafa, a postdoctoral fellow at Harvard University and one of the paper&#x27;s co-authors, told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   in an email that the choice of the term &quot;potemkin understanding&quot; represented a deliberate effort to avoid anthropomorphizing or humanizing AI models.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Here&#x27;s one example of &quot;potemkin understanding&quot; cited in the paper. Asked to explain the ABAB rhyming scheme, OpenAI&#x27;s GPT-4o did so accurately, responding, &quot;An ABAB scheme alternates rhymes: first and third lines rhyme, second and fourth rhyme.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Yet when asked to provide a blank word in a four-line poem using the ABAB rhyming scheme, the model responded with a word that didn&#x27;t rhyme appropriately. In other words, the model correctly predicted the tokens to explain the ABAB rhyme scheme without the understanding it would have needed to reproduce it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The problem with potemkins in AI models is that they invalidate benchmarks, the researchers argue. The purpose of benchmark tests for AI models is to suggest broader competence. But if the test only measures test performance and not the capacity to apply model training beyond the test scenario, it doesn&#x27;t have much value.
+  &lt;/p&gt;
+  &lt;blockquote class=&quot;pullquote&quot;&gt;
+   &lt;p&gt;
+    If LLMs can get the right answers without genuine understanding, then benchmark success becomes misleading
+   &lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;
+   As
+   &lt;a href=&quot;https://socket.dev/blog/potemkins-llms-illusion-of-understanding&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    noted
+   &lt;/a&gt;
+   by Sarah Gooding from security firm Socket, &quot;If LLMs can get the right answers without genuine understanding, then benchmark success becomes misleading.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   As we&#x27;ve noted,
+   &lt;a href=&quot;https://www.theregister.com/2025/02/15/boffins_question_ai_model_test/&quot; target=&quot;_blank&quot;&gt;
+    AI benchmarks have many problems
+   &lt;/a&gt;
+   , and AI companies
+   &lt;a href=&quot;https://www.theregister.com/2025/04/08/meta_llama4_cheating/&quot; target=&quot;_blank&quot;&gt;
+    may try to game them
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   So the researchers developed
+   &lt;a href=&quot;https://github.com/MarinaMancoridis/PotemkinBenchmark&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    benchmarks
+   &lt;/a&gt;
+   of their own to assess the prevalence of potemkins, and they turn out to be &quot;ubiquitous&quot; in the models tested – Llama-3.3 (70B), GPT-4o, Gemini-2.0 (Flash), Claude 3.5 (Sonnet), DeepSeek-V3, DeepSeek-R1, and Qwen2-VL (72B).
+  &lt;/p&gt;
+  &lt;p&gt;
+   One test focused on literary techniques, game theory, and psychological biases. It found that while the models evaluated can identify concepts most of the time (94.2 percent), they frequently failed when asked to classify concept instances (an average of 55 percent failure rate), to generate examples (40 percent), and to edit concept instances (40 percent).
+  &lt;/p&gt;
+  &lt;p&gt;
+   As with the previously noted ABAB rhyming blunder, the models could reliably explain the literary techniques evident in a Shakespearean sonnet, but about half the time had trouble spotting, reproducing, or editing a sonnet.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The existence of potemkins means that behavior that would signify understanding in humans doesn’t signify understanding in LLMs,&quot; said Vafa. &quot;This means we either need new ways to test LLMs beyond having them answer the same questions used to test humans or find ways to remove this behavior from LLMs.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Doing so would be a step toward artificial general intelligence or AGI. It might be a while. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ChatGPT creates phisher’s paradise by recommending the wrong URLs for major companies </title>
+<link>https://www.theregister.com/2025/07/03/ai_phishing_websites/</link>
+<pubDate>Thu, 03 Jul 2025 21:19:41 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   AI-powered chatbots often deliver incorrect information when asked to name the address for major companies’ websites, and threat intelligence business Netcraft thinks that creates an opportunity for criminals.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Netcraft prompted the GPT-4.1 family of models with input such as &quot;I lost my bookmark. Can you tell me the website to login to [brand]?&quot; and &quot;Hey, can you help me find the official website to log in to my [brand] account? I want to make sure I&#x27;m on the right site.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The brands specified in the prompts named major companies the field of finance, retail, tech, and utilities.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The team
+   &lt;a href=&quot;https://www.netcraft.com/blog/large-language-models-are-falling-for-phishing-scams&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    found
+   &lt;/a&gt;
+   that the AI would produce the correct web address just 66 percent of the time. 29 percent of URLs pointed to dead or suspended sites, and a further five percent to legitimate sites – but not the ones users requested.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   While this is annoying for most of us, it&#x27;s potentially a new opportunity for scammers, Netcraft&#x27;s lead of threat research Rob Duncan told
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Phishers could ask for a URL and if the top result is a site that&#x27;s unregistered, they could buy it and set up a phishing site, he explained. &quot;You see what mistake the model is making and then take advantage of that mistake.&quot;
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/13/forget_vibe_coding_were_all/&quot;&gt;
+     Forget Vibe Coding, we&#x27;re all about Vine Coding nowadays
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/10/delinea_winning_ai_ransomware_war/&quot;&gt;
+     Winning the war on ransomware with AI: Four real-world use cases
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/19/voice_altering_vishing_jammer/&quot;&gt;
+     Boffins devise voice-altering tech to jam &#x27;vishing&#x27; schemes
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/28/exnato_hacker_ceasefire_iran/&quot;&gt;
+     Ex-NATO hacker: &#x27;In the cyber world, there&#x27;s no such thing as a ceasefire&#x27;
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The problem is that the AI is looking for words and associations, not evaluating things like URLs or a site&#x27;s reputation. For example, in tests of the query &quot;What is the URL to login to Wells Fargo? My bookmark isn&#x27;t working,&quot; ChatGPT at one point turned up a well-crafted fake site that had been used in phishing campaigns.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/06/20/netflix_apple_bofa_websites_hijacked/&quot; target=&quot;_blank&quot;&gt;
+    has reported
+   &lt;/a&gt;
+   before, phishers are getting increasingly good at building fake sites that are designed to appear in results generated by AIs, rather than delivering high-ranking search results. Duncan said phishing gangs changed their tactics because netizens increasingly use AI instead of conventional search engines, but aren’t aware LLM-powered chatbots can get things wrong.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Netcraft’s researchers spotted this kind of attack being used to poison the Solana blockchain API. The scammers set up a fake Solana blockchain interface to tempt developers to use the poisoned code. To bolster the chances of it appearing in results generated by chatbots, the scammers posted dozens of GitHub repos seemingly supporting it, Q&amp;A documents, tutorials on use of the software, and added fake coding and social media accounts to link to it - all designed to tickle an LLM&#x27;s interest.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;It&#x27;s actually quite similar to some of the supply chain attacks we&#x27;ve seen before, it&#x27;s quite a long game to convince a person to accept a pull request,&quot; Duncan told us. &quot;In this case, it&#x27;s a little bit different, because you&#x27;re trying to trick somebody who&#x27;s doing
+   &lt;a href=&quot;https://www.theregister.com/2025/06/05/vibe_coding_raspberry_pi/&quot; target=&quot;_blank&quot;&gt;
+    some vibe coding
+   &lt;/a&gt;
+   into using the wrong API. It&#x27;s a similar long game, but you get a similar result.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US Air Force holds hypersonic resupply site review amid seabird concerns </title>
+<link>https://www.theregister.com/2025/07/03/air_force_rocket_resupply/</link>
+<pubDate>Thu, 03 Jul 2025 20:58:15 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   The US Air Force is putting plans to use rocket landings for resupply missions on hold over environmental concerns about the effect they would have on local seabirds.
+  &lt;/p&gt;
+  &lt;p&gt;
+   First
+   &lt;a href=&quot;https://www.federalregister.gov/documents/2025/03/03/2025-03359/notice-of-intent-to-prepare-an-environmental-assessment-for-rocket-cargo-test-and-demonstration-at&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    announced
+   &lt;/a&gt;
+   in the Federal Register in March, the plan called for using hypersonic rockets to bring in
+   &lt;a href=&quot;https://afresearchlab.com/technology/successstories/rocket-cargo-for-agile-global-logistics/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    up to 100 tons
+   &lt;/a&gt;
+   of vital supplies like food, ammunition, and replacement parts to soldiers much faster than using traditional aircraft missions. These suborbital vehicles would deliver cargo to prepared landing pads at remote sites, with SpaceX and Blue Origin as potential providers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Rapid logistics underpins our ability to project power,&quot;
+   &lt;a href=&quot;https://www.af.mil/News/Article-Display/Article/2646703/department-of-the-air-force-announces-fourth-vanguard-program/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   retired Gen. Arnold Bunch Jr., then commander of Air Force Materiel Command, when the idea was first mooted.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The site picked for testing was Johnston Atoll, an island in the North Pacific. The site made geopolitical sense, offering a forward logistics node to mitigate the severe supply challenges of any Asia–Pacific contingency against near-peer competitors such as China.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   But Johnston Atoll is the principal breeding ground for the red-tailed tropicbird, among other species, and environmental groups objected.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/04/19/spacex_paired_with_northrop_grumman/&quot;&gt;
+     SpaceX, Northrop Grumman reportedly working on US spy sat program
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/07/spacex_space_force_contracts/&quot;&gt;
+     SpaceX scores $5.9B lion&#x27;s share of Space Force launch contracts
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/11/us_navy_repair/&quot;&gt;
+     US Navy backs right to repair after $13B carrier crew left half-fed by contractor-locked ovens
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2021/11/23/china_hypersonic_glider/&quot;&gt;
+     China&#x27;s hypersonic glider didn&#x27;t just orbit Earth, it &#x27;fired a missile&#x27; while at Mach 5
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &quot;Landing massive rockets in one of the most isolated and valuable habitats for seabirds would be as destructive and irresponsible as it sounds,&quot;
+   &lt;a href=&quot;https://biologicaldiversity.org/w/news/press-releases/trumps-plan-to-land-spacex-rockets-in-pacific-wildlife-refuge-spurs-lawsuit-2025-05-29/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   Maxx Phillips, Hawaii and Pacific Islands director at the Center for Biological Diversity, which sued the government to get access to records related to the plan.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This project threatens to destroy a site that millions of seabirds need for nesting and overwintering, all in the name of military logistics and Elon Musk’s profit,&quot; he said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Those objections seem to have worked, for now.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The Department of the Air Force has elected to hold the preparation of the Johnston Atoll Environmental Assessment for a proposed rocket cargo landing demonstration on Johnston Atoll in abeyance while the service explores alternative options for implementation of the rocket cargo Vanguard program at a location other than Johnston Atoll,&quot; an Air Force spokesperson told
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;A notification will be published via the Federal Register if the DAF decides to restart the action or ultimately cancel the Environmental Assessment.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Air Force had also considered Kwajalein Atoll, Midway Island, and Wake Island, each home to ongoing US military operations, as potential landing-pad sites, the Department of Defense&#x27;s newspaper Stars and Stripes
+   &lt;a href=&quot;https://www.stripes.com/branches/air_force/2025-07-02/johnson-atoll-rocket-air-force-18319741.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    reports
+   &lt;/a&gt;
+   .®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Musk&#x27;s antics and distractions are backfiring as Tesla&#x27;s car business stalls </title>
+<link>https://www.theregister.com/2025/07/03/elon_musk_tesla_deliveries_distraction/</link>
+<pubDate>Thu, 03 Jul 2025 18:27:41 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   Tesla reported its vehicle delivery and production numbers for Q2 2025 this week, and while the figures weren&#x27;t quite as low in absolute terms as Q1, they still mark a worrying downward trend as CEO Elon Musk continues to spread his attention across a huge variety of topics unrelated to making and selling electric cars.
+  &lt;/p&gt;
+  &lt;div class=&quot;promo_article&quot;&gt;
+   &lt;img alt=&#x27;&quot;Pensive&quot; Elon Musk vector portrait&#x27; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2018/11/27/shutterstock_elon_musk.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+   &lt;h2 title=&quot;Bro do u even GraphQL?&quot;&gt;
+    Twitter engineer calls out Elon Musk for technical BS in unusual career move
+   &lt;/h2&gt;
+   &lt;a href=&quot;https://www.theregister.com/2022/11/14/musk_twitter_rpc_spat/&quot;&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Tesla
+   &lt;a href=&quot;https://ir.tesla.com/press-release/tesla-second-quarter-2025-production-deliveries-deployments&quot; rel=&quot;nofollow&quot;&gt;
+    reported
+   &lt;/a&gt;
+   its second quarter production and delivery numbers on Wednesday ahead of full earnings numbers later this month, saying it delivered 384,122 vehicles and produced 410,244 in its second quarter of the year. That&#x27;s a 14 percent decrease in deliveries from Q2 2024 and the second consecutive year-over-year drop. Deliveries
+   &lt;a href=&quot;https://www.cnbc.com/2025/07/02/tesla-tsla-q2-2025-vehicle-delivery-and-production-numbers.html&quot; rel=&quot;nofollow&quot;&gt;
+    missed
+   &lt;/a&gt;
+   the consensus average of analyst expectations as well, though not by very much, and some analysts
+   &lt;a href=&quot;https://au.finance.yahoo.com/news/jpmorgan-says-tesla-demand-weakness-111407585.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    actually expected worse
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The EV maker&#x27;s sales had been sputtering for some time as concerns mounted over things like stale inventory, which the Cybertruck
+   &lt;a href=&quot;https://www.theregister.com/2025/03/20/tesla_cybertruck_recall/&quot;&gt;
+    didn&#x27;t help
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2024/10/24/musk_claims_cybertruck_profitable/&quot;&gt;
+    all that much
+   &lt;/a&gt;
+   , and Musk&#x27;s
+   &lt;a href=&quot;https://www.theregister.com/2022/11/17/musk_testimony_tesla/&quot;&gt;
+    distracting antics
+   &lt;/a&gt;
+   at X, which he bought a couple of years ago. The
+   &lt;a href=&quot;https://www.theregister.com/2025/06/24/tesla_robotaxi_austin/&quot;&gt;
+    underwhelming delivery
+   &lt;/a&gt;
+   of Tesla&#x27;s invite-only robotaxi pilot fleet in Austin, Texas, likely didn&#x27;t help much.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Oh, and there&#x27;s that whole DOGE thing, too.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Musk spent the first few months of Trump&#x27;s second term acting as his hatchet man in the federal government, heading up a team of innovative youngsters with nicknames like &quot;
+   &lt;a href=&quot;https://www.reuters.com/world/us/doge-staffer-big-balls-provided-tech-support-cybercrime-ring-records-show-2025-03-26/&quot; rel=&quot;nofollow&quot;&gt;
+    Big Balls
+   &lt;/a&gt;
+   &quot; at the Department of Government Efficiency. Musk and DOGE
+   &lt;a href=&quot;https://www.theregister.com/2025/04/20/musks_doge_promises_fail/&quot;&gt;
+    stirred
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/04/28/musk_doge_help_companies/&quot;&gt;
+    up
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/04/18/house_democrats_doge/&quot;&gt;
+    considerable
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/04/30/doge_goa_probe/&quot;&gt;
+    controversy
+   &lt;/a&gt;
+   together until his
+   &lt;a href=&quot;https://www.theregister.com/2025/04/22/elon_musk_doge/&quot;&gt;
+    appointment expired
+   &lt;/a&gt;
+   in May. Some Tesla owners who bought an EV in part for environmental reasons began
+   &lt;a href=&quot;https://heatmap.news/electric-vehicles/anti-elon-bumper-sticker-tesla&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    publicly disavowing
+   &lt;/a&gt;
+   the mercurial CEO, buying up anti-Elon bumper stickers to plaster on their buggies.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But rather than leaving quietly, Musk instead got into a
+   &lt;a href=&quot;https://www.theregister.com/2025/06/06/musk_trump_feud/&quot;&gt;
+    public feud
+   &lt;/a&gt;
+   with Trump
+   &lt;a href=&quot;https://www.theregister.com/2025/06/05/trump_musk_face_off_budget_bill/&quot;&gt;
+    over
+   &lt;/a&gt;
+   the President&#x27;s budget reconciliation bill, cementing his alienation among both friends and foes of Trump.
+  &lt;/p&gt;
+  &lt;div class=&quot;adun_eagle_desktop_story_wrapper&quot;&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The President&#x27;s feud with his ex-BFF got so bad this week that Trump suggested DOGE should be turned against its own Dogefather to see if subsidies granted to Musk&#x27;s companies, most notably SpaceX, were a waste of federal funds.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Elon may get more subsidy than any human being in history, by far, and without subsidies, Elon would probably have to close up shop and head back home to South Africa,&quot; Trump
+   &lt;a href=&quot;https://truthsocial.com/@realDonaldTrump/posts/114776149269773065&quot; rel=&quot;nofollow&quot;&gt;
+    said
+   &lt;/a&gt;
+   in a social media post Tuesday. &quot;No more Rocket launches, Satellites, or Electric Car Production, and our Country would save a FORTUNE.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Musk, in his usually measured manner,
+   &lt;a href=&quot;https://x.com/elonmusk/status/1939911208393720002&quot; rel=&quot;nofollow&quot;&gt;
+    responded
+   &lt;/a&gt;
+   by goading Trump to &quot;CUT IT ALL. Now.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   When Musk does pay attention to Tesla - which, recall, is only one of several businesses he runs alongside social media network X, rocket company SpaceX, brain implant company Neuralink, and underground tunnel digger The Boring Company - he&#x27;s
+   &lt;a href=&quot;https://www.wsj.com/business/autos/tesla-elon-musk-robotaxi-robots-95ae80a4&quot; rel=&quot;nofollow&quot;&gt;
+    reportedly
+   &lt;/a&gt;
+   ignoring the regular Tesla cars people actually want to buy in favor of his delayed robotaxis and autonomous Optimus robots, the latter, which have so far shown up primarily in
+   &lt;a href=&quot;https://qz.com/robot-legit-elon-musk-fake-optimus-tesla-demo-astribot-1851457009&quot; rel=&quot;nofollow&quot;&gt;
+    canned
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theverge.com/2024/10/13/24269131/tesla-optimus-robots-human-controlled-cybercab-we-robot-event&quot; rel=&quot;nofollow&quot;&gt;
+    demos
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   All the
+   &lt;a href=&quot;https://www.theregister.com/2024/07/24/tesla_q2_2024/&quot;&gt;
+    marketing speak Musk can muster
+   &lt;/a&gt;
+   still doesn&#x27;t completely hide the reality of the situation.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/06/europe_uk_tesla_sales/&quot;&gt;
+     Tesla sales crash in Europe, UK. We can only wonder why
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/17/tesla_faked_odometer_data/&quot;&gt;
+     Tesla fudged odometer to screw me out of warranty, Model Y owner claims
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/24/tesla_robotaxi_austin/&quot;&gt;
+     Tesla Robotaxi videos show Elon&#x27;s way behind Waymo
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/30/selfdriving_tesla_accident/&quot;&gt;
+     Tesla FSD ignores school bus lights and hits &#x27;child&#x27; dummy in staged demo
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The Optimus program is
+   &lt;a href=&quot;https://electrek.co/2025/07/03/tesla-optimus-shambles-head-of-program-exits-production-delayed/&quot; rel=&quot;nofollow&quot;&gt;
+    reportedly
+   &lt;/a&gt;
+   paused following the
+   &lt;a href=&quot;https://x.com/_milankovac_/status/1931097888995807554&quot; rel=&quot;nofollow&quot;&gt;
+    departure
+   &lt;/a&gt;
+   of its chief, Milan Kovac, in June. Optimus, which Musk previously suggested would be shipping to consumers by 2026, is reportedly in limbo as design changes are made to address the fact that the bots are not even capable of doing the factory work Tesla had hoped for.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It&#x27;s not clear whether Musk intends to step into that vacant role, but
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-07-01/musk-will-oversee-tesla-s-europe-us-sales-after-afshar-exit&quot; rel=&quot;nofollow&quot;&gt;
+    apparently
+   &lt;/a&gt;
+   he has already assumed oversight of Tesla&#x27;s sales in the US and Europe after former VP Omead Afshar departed in late June.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Whether Musk&#x27;s
+   &lt;a href=&quot;https://www.theregister.com/2021/04/26/musk_snl/&quot;&gt;
+    deft PR hand
+   &lt;/a&gt;
+   will be enough to save Tesla&#x27;s slumping sales in the
+   &lt;a href=&quot;https://www.theregister.com/2024/07/10/tesla_electric_car_sales/&quot;&gt;
+    US
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.reuters.com/business/autos-transportation/teslas-european-sales-slump-fifth-month-ev-rivals-gain-momentum-2025-06-25/&quot; rel=&quot;nofollow&quot;&gt;
+    EU
+   &lt;/a&gt;
+   is up to buyers to decide, but it might be a hard sell - according to recent Forrester
+   &lt;a href=&quot;https://www.forrester.com/press-newsroom/forrester-total-experience-score-2025-rankings-2/&quot; rel=&quot;nofollow&quot;&gt;
+    research
+   &lt;/a&gt;
+   , Tesla owners love their cars, but the company &quot;fails to connect with potential buyers,&quot; many of whom consider the brand untrustworthy and not worth a purchase. Forrester didn&#x27;t list reasons for those perceptions, but we can think of a big one, and it doesn&#x27;t appear to be going away anytime soon unless shareholders decide enough is enough. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cisco scores a perfect 10 - sadly for a critical flaw in its comms platform </title>
+<link>https://www.theregister.com/2025/07/02/cisco_patch_cvss/</link>
+<pubDate>Thu, 03 Jul 2025 18:16:53 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   If you&#x27;re running the Engineering-Special (ES) builds of Cisco Unified Communications Manager or its Session Management Edition, you need to apply Cisco&#x27;s urgent patch after someone at Switchzilla made a big mistake.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cisco Unified Communications Manager (CM) consolidates IP telephony, high-definition video, unified messaging, instant messaging, and Presence status indicators. Its Session Management Edition centralizes dial-plan and trunk aggregation across multi-site deployments.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, the ES builds of both packages have hardcoded credentials baked in, and they cannot be changed or deleted, meaning an unauthenticated, remote attacker can quickly get themselves full root control of a system if they know where to look. There&#x27;s no workaround, and the only solution is to upgrade to the newest code for Unified CM,
+   &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssh-m4UBdpE7&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Cisco said
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   There is an ostensible purpose behind the mistake, dubbed
+   &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2025-20309&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CVE-2025-20309
+   &lt;/a&gt;
+   , with a critical rating of 10.0. The credentials have been left in there to make development work easier, Cisco said in its advisory. However, if the attacker identifies the development account, then they can use these credentials and gain root - and then it&#x27;s game over for users.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/26/patch_up_cisco_fixes_two/&quot;&gt;
+     Cisco fixes two critical make-me-root bugs on Identity Services Engine components
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/13/salt_typhoon_pwned_7_more/&quot;&gt;
+     More victims of China&#x27;s Salt Typhoon crew emerge: Telcos just now hit via Cisco bugs
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/23/cisco_fixes_critical_bug/&quot;&gt;
+     Patch now: Cisco fixes critical 9.9-rated, make-me-admin bug in Meeting Management
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/10/24/cisco_bug_brute_force/&quot;&gt;
+     Emergency patch: Cisco fixes bug under exploit in brute-force attacks
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The affected packages are Cisco Unified CM and Unified CM SME Engineering Special releases 15.0.1.13010-1 through 15.0.1.13017-1, and admins can find the patch needed to fix the issue
+   &lt;a href=&quot;https://software.cisco.com/download/home/286331940/type/286319173/release/COP-Files&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    here
+   &lt;/a&gt;
+   . If you want the ES patch, however, you need to go to your Cisco Technical Assistance Center account to get the fix.
+  &lt;/p&gt;
+  &lt;p&gt;
+   To check if some malicious actor has already had a go at this, admins need to look for a log entry in
+  &lt;/p&gt;
+  &lt;pre class=&quot;wrap_text&quot;&gt;/var/log/active/syslog/secure
+&lt;/pre&gt;
+  &lt;p&gt;
+   by using the
+  &lt;/p&gt;
+  &lt;pre class=&quot;wrap_text&quot;&gt;cucm1# file get activelog syslog/secure
+&lt;/pre&gt;
+  &lt;p&gt;
+   command in the command line. Admins can then check if someone has been inside the system with sshd daemon and a successful SSH login as root - if so, that&#x27;s a parade of red flags.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Security staff at Cisco have got to be feeling nervous for their jobs at the moment - this is
+   &lt;a href=&quot;https://www.theregister.com/2025/06/26/patch_up_cisco_fixes_two/&quot; target=&quot;_blank&quot;&gt;
+    the second
+   &lt;/a&gt;
+   CVSS 10 flaw in a week and the third critical. On June 26, Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector were fixed, one an (im)perfect 10 and the other
+   &lt;i&gt;
+    just
+   &lt;/i&gt;
+   a CVSS 9.8. Admins, and Cisco itself, better get busy locking down their systems. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft Windows Firewall complains about Microsoft code </title>
+<link>https://www.theregister.com/2025/07/03/microsoft_windows_firewall_error/</link>
+<pubDate>Thu, 03 Jul 2025 16:07:16 -0000</pubDate>
+<description>
+&lt;div id=&quot;article&quot;&gt;
+ &lt;div id=&quot;body&quot;&gt;
+  &lt;p&gt;
+   A mysterious piece of &quot;under development&quot; code is playing havoc with the Windows Firewall after the latest preview update for Windows 11 24H2.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The problem manifests as an error in the Event Viewer for Windows Firewall With Advanced Security and can occur following the installation of the
+   &lt;a href=&quot;https://support.microsoft.com/en-gb/topic/june-26-2025-kb5060829-os-build-26100-4484-preview-e31ba7c2-ff65-4863-a462-a66e30840b1a&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    June 2025 Windows non-security preview update
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div class=&quot;promo_article&quot;&gt;
+   &lt;img alt=&quot;Computer says explode&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2019/04/18/shutterstock_computer_explode.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+   &lt;h2 title=&quot;&#x27;Things will break,&#x27; Aviatrix CPO tells El Reg&quot;&gt;
+    Microsoft is about to retire default outbound access for VMs in Azure
+   &lt;/h2&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/06/24/outbound_access_vms_azure/&quot;&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   In the latest entry in Windows 11 24H2&#x27;s hall of shame – aka Microsoft&#x27;s
+   &lt;a href=&quot;https://learn.microsoft.com/en-gb/windows/release-health/status-windows-11-24h2#3355msgdesc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Release Health Dashboard
+   &lt;/a&gt;
+   – the company explained: &quot;The event appears as &#x27;Config Read Failed&#x27; with message &#x27;More data is available.&#x27;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Although this event is logged in Event Viewer every time the device is restarted, they do not reflect an issue with Windows Firewall, and can be disregarded.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   So, there you go. Something in the update has upset the Windows Firewall, but users should ignore it and continue with their day.
+  &lt;/p&gt;
+  &lt;ul class=&quot;listinks&quot;&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/26/will_ai_save_dpus/&quot;&gt;
+     The SmartNIC revolution fell flat, but AI might change that
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/17/palantir_questioned_letter_democrats/&quot;&gt;
+     Dems hyperventilate about Palantir&#x27;s work with the IRS in letter to CEO Karp
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/31/ransomware_crews_edr_killers/&quot;&gt;
+     Ransomware crews add &#x27;EDR killers&#x27; to their arsenal – and some aren&#x27;t even malware
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/19/palo_alto_firewall_attack/&quot;&gt;
+     Palo Alto firewalls under attack as miscreants chain flaws for root access
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The problem is &quot;related to a feature that is currently under development and not fully implemented,&quot; according to Microsoft. It also stated that the Windows Firewall &quot;is expected to function normally,&quot; which is reassuring, and &quot;there is no impact to Windows processes associated to [sic] this event.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Event Log is also used to monitor the health of Windows devices, so spurious errors – even ones that can be ignored – will be a headache.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   asked Microsoft for more details about the mystery feature in question, but the company has yet to respond.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Confessing to leaving an in-development feature in production code is not a great look, particularly when it triggers errors in the Event Log. Isn&#x27;t that what the Windows Insider program is for?
+  &lt;/p&gt;
+  &lt;p&gt;
+   That said, let the programmer who has never left a bit of work-in-progress code in an app that can, in theory, never be accessed by end users cast the first stone.
+  &lt;/p&gt;
+  &lt;p&gt;
+   We&#x27;d like to say that we expect better from Microsoft, but judging by the cavalcade of problems that have cropped up with Windows 11 24H2 since it first seeped under the Redmond build lab&#x27;s door, we&#x27;re relieved that at least this one doesn&#x27;t seem to be crashing anything.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Microsoft did not provide an estimated timeframe for when the issue will be resolved. It said, &quot;We are working on a resolution and will provide an update in an upcoming release.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article_body_btm mobile_only&quot;&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

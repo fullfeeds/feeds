@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC: News</title>
+<lastBuildDate>Sat, 05 Jul 2025 16:02:46 -0000</lastBuildDate>
+<item>
+<title> digiLab and KAUST: AI Digital Twin Coral Restoration in the Red Sea </title>
+<link>https://insidehpc.com/2025/07/digilab-and-kaust-in-ai-digital-twin-coral-restoration-partnership/</link>
+<pubDate>Thu, 03 Jul 2025 16:18:11 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;264&quot; sizes=&quot;(max-width: 527px) 100vw, 527px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/kaust-coral-restoration-project-2-1-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/kaust-coral-restoration-project-2-1-0725.png 527w, https://insidehpc.com/wp-content/uploads/2025/07/kaust-coral-restoration-project-2-1-0725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/kaust-coral-restoration-project-2-1-0725-300x150.png 300w&quot; width=&quot;527&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  digiLab announced a partnership with the King Abdullah University of Science and Technology (KAUST) to develop an AI-enabled digital twin platform to support the KAUST Coral Restoration Initiative (KCRI) in the Kingdom of Saudi Arabia.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot; dir=&quot;ltr&quot;&gt;
+  This initiative, part of the KAUST Coral Restoration Initiative (KCRI), leverages digiLab’s AI capabilities for coral monitoring and restoration strategies across a 100-hectare reefscape in the Red Sea. By focusing on the development and integration of advanced AI solutions, digiLab said it seeks to “transforming traditional coral restoration methodologies.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI integration is led by digiLab co-founder, Dr. Anhad Sandhu with support from Dr Liz Goergen, Head of Monitoring Visualisations and Database Management at KCRI . The two-year program’s goal is to use AI to fast track reef restoration and conservation, at scale, for the first time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI solutions are designed to tackle critical aspects of coral resilience, such as thermal tolerance and growth. Such solutions remain critical  to revolutionise how coral resilience is understood and enhanced in response to changing environmental conditions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  digiLab said the AI solutions reduce the time required for coral assessments and increase the accuracy of data that can be retrieved from environmental stressors, such as temperature and light crucial for the propagation and survival of coral species.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot; dir=&quot;ltr&quot;&gt;
+  digiLab and KAUST said integration of AI in this project “demonstrates a scalable model for environmental conservation efforts, offering insights and methodologies that can be adapted globally to protect and restore vital reef ecosystems in the face of continued environmental challenges.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; dir=&quot;ltr&quot;&gt;
+  Using advanced AI, scientists on the project can now closely simulate and predict the behaviour of the real-world reefscape in real-time. This capability allows for easy and accessible monitoring of the coral reef ecosystem in nurseries on land and in the sea. AI tools delve into the ecosystem to uncover crucial data, such as algae growth and signs of disease.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot; dir=&quot;ltr&quot;&gt;
+  The
+  &lt;a href=&quot;https://www.kaust.edu.sa/html/reefscape/&quot;&gt;
+   KCRI
+  &lt;/a&gt;
+  project is a demonstration of coral restoration that integrates international expertise with pioneering propagation, planting and monitoring approaches to accelerate solutions for reef ecosystems at a time of unprecedented environmental change. The project focuses on restoring and enhancing coral reefs through a large-scale coral nursery system to support coral propagation and natural reproduction, with KAUST planning to plant two million corals around the reefscape by 2030, the nurseries must be efficient. At peak capacity, the sea based nurseries will produce 100,000 corals a year, with the primary land based nursery producing 400,000.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot; dir=&quot;ltr&quot;&gt;
+  digiLab will assist KAUST in three areas:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-12&quot; dir=&quot;ltr&quot;&gt;
+   &lt;p class=&quot;ai-optimize-13&quot; dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Coral Measurement – digiLab is assisting KAUST with computer vision by developing an analysis pipeline to enable more efficient video monitoring. By collaborating with KAUST’s team, digiLab’s AI aims to reduce monitoring time of corals from 2 months to 2 weeks, enabling faster and more comprehensive tracking.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-14&quot; dir=&quot;ltr&quot;&gt;
+   &lt;p class=&quot;ai-optimize-15&quot; dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Sensor Placement – digiLab’s innovative sensor placement system augments the data collection, using machine learning to assess optimal sensor placement. Enhancing efficiency and reducing costs by reducing the number of sensors and time needed for data collection, whilst maintaining accuracy in monitoring vital statistics, including temperature, dissolved oxygen, photosynthetic active radiation, wind and tide.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-16&quot; dir=&quot;ltr&quot;&gt;
+   &lt;p class=&quot;ai-optimize-17&quot; dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    chatReef – The full digital twin is projected to reach 22 petabytes (22m gigabytes) in size, making data-driven decision-making challenging. To provide an intelligent way of searching the data within the system and maximise the value of the data, digiLab is integrating its agentic LLM platform to interact with the vast unstructured and structured data within the digital twin.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-18&quot; dir=&quot;ltr&quot;&gt;
+  Speaking about the project,
+  &lt;a href=&quot;https://www.digilab.co.uk/&quot;&gt;
+   digiLab
+  &lt;/a&gt;
+  Co-founder Anhad Sandhu said, “digiLab’s partnership with KAUST on the world’s largest coral restoration project marks a significant milestone in the application of AI technology to solve the world’s challenges. digiLab is supporting revolutionary methods for coral reef monitoring and restoration by developing these AI models for the reefscape’s digital twin. This collaboration not only showcases digiLab’s expertise in enabling AI models in complex systems, but also demonstrates the company’s commitment to addressing critical environmental challenges.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-19&quot; dir=&quot;ltr&quot;&gt;
+  Professor Dave Suggett, KCRI Director, said, “The KAUST Coral Restoration Initiative represents a significant step towards more effective restoration of reefs globally. By partnering with digiLab to develop an AI-enabled digital twin of the reefscape, we are pioneering innovative approaches to upscale coral management efforts, including restoration decision-making. This collaboration allows us to leverage cutting-edge AI technology to monitor, predict, and optimise our restoration strategies in real-time, potentially revolutionising how we approach coral reef conservation on a global scale. Our partnership exemplifies our commitment to catalysing positive societal and global outcomes through world-leading research and technological innovation that integrates diverse sectors.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot; dir=&quot;ltr&quot;&gt;
+  Dr Liz Goergen, Head of Monitoring, Visualizations and Database Management at KCRI, said, “Coral reef restoration has never been done at the scale which we are planning. Therefore, to accurately and efficiently plan, monitor and measure the progress and success of a project of this scale, we needed to look outside our typical coral reef restoration and monitoring toolbox. Partnerships such as this allow us to optimize our processes, leading to greater learnings and to the development of tools not only for our project, but for the greater restoration and coral reef communities.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

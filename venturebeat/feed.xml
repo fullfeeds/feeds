@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>VentureBeat: News</title>
+<lastBuildDate>Sat, 05 Jul 2025 16:02:22 -0000</lastBuildDate>
+<item>
+<title> Sakana AI’s TreeQuest: Deploy multi-model teams that outperform individual LLMs by 30% </title>
+<link>https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/</link>
+<pubDate>Thu, 03 Jul 2025 22:02:35 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Image credit: VentureBeat with ChatGPT&quot; class=&quot;skip-lazy&quot; height=&quot;500&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-3-2025-09_58_19-PM.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Image credit: VentureBeat with ChatGPT
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Japanese AI lab
+  &lt;a href=&quot;https://sakana.ai/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Sakana AI
+  &lt;/a&gt;
+  has introduced a new technique that allows multiple large language models (LLMs) to cooperate on a single task, effectively creating a “dream team” of AI agents. The method, called
+  &lt;a href=&quot;https://arxiv.org/abs/2503.04412&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Multi-LLM AB-MCTS
+  &lt;/a&gt;
+  , enables models to perform trial-and-error and combine their unique strengths to solve problems that are too complex for any individual model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For enterprises, this approach provides a means to develop more robust and capable AI systems. Instead of being locked into a single provider or model, businesses could dynamically leverage the best aspects of different frontier models, assigning the right AI for the right part of a task to achieve superior results.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-power-of-collective-intelligence&quot;&gt;
+  The power of collective intelligence
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Frontier AI models are evolving rapidly. However, each model has its own distinct strengths and weaknesses derived from its unique training data and architecture. One might excel at coding, while another excels at creative writing. Sakana AI’s researchers argue that these differences are not a bug, but a feature.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We see these biases and varied aptitudes not as limitations, but as precious resources for creating collective intelligence,” the researchers state in their
+  &lt;a href=&quot;https://sakana.ai/ab-mcts/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  . They believe that just as humanity’s greatest achievements come from diverse teams, AI systems can also achieve more by working together. “By pooling their intelligence, AI systems can solve problems that are insurmountable for any single model.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-thinking-longer-at-inference-time&quot;&gt;
+  Thinking longer at inference time
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Sakana AI’s new algorithm is an “inference-time scaling” technique (also referred to as “
+  &lt;a href=&quot;https://venturebeat.com/ai/how-test-time-scaling-unlocks-hidden-reasoning-abilities-in-small-language-models-and-allows-them-to-outperform-llms/&quot;&gt;
+   test-time scaling
+  &lt;/a&gt;
+  ”), an area of research that has become very popular in the past year. While most of the focus in AI has been on “training-time scaling” (making models bigger and training them on larger datasets), inference-time scaling improves performance by allocating more computational resources after a model is already trained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One common approach involves using reinforcement learning to prompt models to generate longer, more detailed
+  &lt;a href=&quot;https://venturebeat.com/ai/dont-believe-reasoning-models-chains-of-thought-says-anthropic/&quot;&gt;
+   chain-of-thought
+  &lt;/a&gt;
+  (CoT) sequences, as seen in popular models such as OpenAI o3 and
+  &lt;a href=&quot;https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/&quot;&gt;
+   DeepSeek-R1
+  &lt;/a&gt;
+  . Another, simpler method is repeated sampling, where the model is given the same prompt multiple times to generate a variety of potential solutions, similar to a brainstorming session. Sakana AI’s work combines and advances these ideas.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our framework offers a smarter, more strategic version of Best-of-N (aka repeated sampling),” Takuya Akiba, research scientist at Sakana AI and co-author of the paper, told VentureBeat. “It complements reasoning techniques like long CoT through RL. By dynamically selecting the search strategy and the appropriate LLM, this approach maximizes performance within a limited number of LLM calls, delivering better results on complex tasks.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-how-adaptive-branching-search-works&quot;&gt;
+  How adaptive branching search works
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The core of the new method is an algorithm called Adaptive Branching Monte Carlo Tree Search (AB-MCTS). It enables an LLM to effectively perform trial-and-error by intelligently balancing two different search strategies: “searching deeper” and “searching wider.” Searching deeper involves taking a promising answer and repeatedly refining it, while searching wider means generating completely new solutions from scratch. AB-MCTS combines these approaches, allowing the system to improve a good idea but also to pivot and try something new if it hits a dead end or discovers another promising direction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To accomplish this, the system uses
+  &lt;a href=&quot;https://en.wikipedia.org/wiki/Monte_Carlo_tree_search&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Monte Carlo Tree Search
+  &lt;/a&gt;
+  (MCTS), a decision-making algorithm famously used by
+  &lt;a href=&quot;https://venturebeat.com/ai/google-deepmind-alphazero-chess-shogi-go/&quot;&gt;
+   DeepMind’s AlphaGo
+  &lt;/a&gt;
+  . At each step, AB-MCTS uses probability models to decide whether it’s more strategic to refine an existing solution or generate a new one.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3013775&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;422&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png 3130w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=300,158 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=768,406 768w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=800,422 800w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=1536,811 1536w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=2048,1082 2048w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=400,211 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=750,396 750w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=578,305 578w, https://venturebeat.com/wp-content/uploads/2025/07/image_ac751e.png?resize=930,491 930w&quot; width=&quot;800&quot;/&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   &lt;em&gt;
+    Different test-time scaling strategies Source: Sakana AI
+   &lt;/em&gt;
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The researchers took this a step further with Multi-LLM AB-MCTS, which not only decides “what” to do (refine vs. generate) but also “which” LLM should do it. At the start of a task, the system doesn’t know which model is best suited for the problem. It begins by trying a balanced mix of available LLMs and, as it progresses, learns which models are more effective, allocating more of the workload to them over time.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-putting-the-ai-dream-team-to-the-test&quot;&gt;
+  Putting the AI ‘dream team’ to the test
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The researchers tested their Multi-LLM AB-MCTS system on the
+  &lt;a href=&quot;https://arcprize.org/blog/arc-agi-2-technical-report&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   ARC-AGI-2 benchmark
+  &lt;/a&gt;
+  . ARC (Abstraction and Reasoning Corpus) is designed to test a human-like ability to solve novel visual reasoning problems, making it notoriously difficult for AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team used a combination of frontier models, including
+  &lt;a href=&quot;https://venturebeat.com/ai/openai-launches-o3-and-o4-mini-ai-models-that-think-with-images-and-use-tools-autonomously/&quot;&gt;
+   o4-mini
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://venturebeat.com/ai/beyond-benchmarks-gemini-2-5-pro-is-probably-the-best-reasoning-model-yet/&quot;&gt;
+   Gemini 2.5 Pro
+  &lt;/a&gt;
+  , and DeepSeek-R1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The collective of models was able to find correct solutions for over 30% of the 120 test problems, a score that significantly outperformed any of the models working alone. The system demonstrated the ability to dynamically assign the best model for a given problem. On tasks where a clear path to a solution existed, the algorithm quickly identified the most effective LLM and used it more frequently.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large&quot;&gt;
+  &lt;img alt=&quot;AB-MCTS vs individual models (source: Sakana AI)&quot; class=&quot;wp-image-3013776&quot; decoding=&quot;async&quot; height=&quot;414&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png 2048w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=300,155 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=768,398 768w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=800,414 800w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=1536,796 1536w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=400,207 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=750,389 750w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=578,299 578w, https://venturebeat.com/wp-content/uploads/2025/07/image_fae32e.png?resize=930,482 930w&quot; width=&quot;800&quot;/&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   &lt;em&gt;
+    AB-MCTS vs individual models Source: Sakana AI
+   &lt;/em&gt;
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  More impressively, the team observed instances where the models solved problems that were previously impossible for any single one of them. In one case, a solution generated by the o4-mini model was incorrect. However, the system passed this flawed attempt to DeepSeek-R1 and Gemini-2.5 Pro, which were able to analyze the error, correct it, and ultimately produce the right answer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This demonstrates that Multi-LLM AB-MCTS can flexibly combine frontier models to solve previously unsolvable problems, pushing the limits of what is achievable by using LLMs as a collective intelligence,” the researchers write.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large&quot;&gt;
+  &lt;img alt=&quot;AB-MTCS can select different models at different stages of solving a problem (source: Sakana AI)&quot; class=&quot;wp-image-3013777&quot; decoding=&quot;async&quot; height=&quot;170&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png 2048w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=300,64 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=768,163 768w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=800,170 800w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=1536,326 1536w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=400,85 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=750,159 750w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=578,122 578w, https://venturebeat.com/wp-content/uploads/2025/07/image_579cf6.png?resize=930,197 930w&quot; width=&quot;800&quot;/&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   &lt;em&gt;
+    AB-MTCS can select different models at different stages of solving a problem Source: Sakana AI
+   &lt;/em&gt;
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  “In addition to the individual pros and cons of each model, the tendency to hallucinate can vary significantly among them,” Akiba said. “By creating an ensemble with a model that is less likely to hallucinate, it could be possible to achieve the best of both worlds: powerful logical capabilities and strong groundedness. Since hallucination is a major issue in a business context, this approach could be valuable for its mitigation.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-from-research-to-real-world-applications&quot;&gt;
+  From research to real-world applications
+ &lt;/h2&gt;
+ &lt;p&gt;
+  To help developers and businesses apply this technique, Sakana AI has released the underlying algorithm as an open-source framework called
+  &lt;a href=&quot;https://github.com/SakanaAI/treequest&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   TreeQuest
+  &lt;/a&gt;
+  , available under an Apache 2.0 license (usable for commercial purposes). TreeQuest provides a flexible API, allowing users to implement Multi-LLM AB-MCTS for their own tasks with custom scoring and logic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “While we are in the early stages of applying AB-MCTS to specific business-oriented problems, our research reveals significant potential in several areas,” Akiba said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond the ARC-AGI-2 benchmark, the team was able to successfully apply AB-MCTS to tasks like complex algorithmic coding and improving the accuracy of machine learning models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AB-MCTS could also be highly effective for problems that require iterative trial-and-error, such as optimizing performance metrics of existing software,” Akiba said. “For example, it could be used to automatically find ways to improve the response latency of a web service.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The release of a practical, open-source tool could pave the way for a new class of more powerful and reliable enterprise AI applications.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Dust hits $6M ARR helping enterprises build AI agents that actually do stuff instead of just talking </title>
+<link>https://venturebeat.com/ai/dust-hits-6m-arr-helping-enterprises-build-ai-agents-that-actually-do-stuff-instead-of-just-talking/</link>
+<pubDate>Thu, 03 Jul 2025 17:01:04 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Credit: VentureBeat made with Midjourney&quot; class=&quot;skip-lazy&quot; height=&quot;420&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/nuneybits_Vector_art_of_a_retro_computer_screen_glowing_compute_0ba79846-6ee0-4d39-bd64-c2917ebd5c9d.webp?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Credit: VentureBeat made with Midjourney
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://dust.tt/&quot;&gt;
+   Dust
+  &lt;/a&gt;
+  , a two-year-old artificial intelligence platform that helps enterprises build AI agents capable of completing entire business workflows, has reached $6 million in annual revenue — a six-fold increase from $1 million just one year ago. The company’s rapid growth signals a shift in enterprise AI adoption from simple chatbots toward sophisticated systems that can take concrete actions across business applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The San Francisco-based startup announced Thursday that it has been selected as part of Anthropic’s “Powered by Claude” ecosystem, highlighting a new category of AI companies building specialized enterprise tools on top of frontier language models rather than developing their own AI systems from scratch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Users want more than just conversational interfaces,” said Gabriel Hubert, CEO and co-founder of Dust, in an interview with VentureBeat. “Instead of generating a draft, they want to create the actual document automatically. Rather than getting meeting summaries, they need CRM records updated without manual intervention.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dust’s platform goes far beyond the chatbot-style AI tools that dominated early enterprise adoption. Instead of simply answering questions, Dust’s AI agents can automatically create GitHub issues, schedule calendar meetings, update customer records, and even push code reviews based on internal coding standards–all while maintaining enterprise-grade security protocols.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-how-ai-agents-turn-sales-calls-into-automated-github-tickets-and-crm-updates&quot;&gt;
+  How AI agents turn sales calls into automated GitHub tickets and CRM updates
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The company’s approach becomes clear through a concrete example Hubert described: a business-to-business sales company using multiple Dust agents to process sales call transcripts. One agent analyzes which sales arguments resonated with prospects and automatically updates battle cards in Salesforce. Simultaneously, another agent identifies customer feature requests, maps them to the product roadmap, and in some cases, automatically generates GitHub tickets for small features deemed ready for development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Each call transcript is going to be analyzed by multiple agents,” Hubert explained. “You’ll have a sales battle card optimizer agent that’s going to look at the arguments the salesperson made, which ones were powerful and seem to resonate with the prospect, and that’s going to go and feed into a process on the Salesforce side.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This level of automation is enabled by the
+  &lt;a href=&quot;https://www.anthropic.com/news/model-context-protocol&quot;&gt;
+   Model Context Protocol (MCP)
+  &lt;/a&gt;
+  , a new standard developed by Anthropic that allows AI systems to securely connect with external data sources and applications. Guillaume Princen, Head of EMEA at Anthropic, described MCP as “like a USB-C connector between AI models and apps,” enabling agents to access company data while maintaining security boundaries.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-why-claude-and-mcp-are-powering-the-next-wave-of-enterprise-ai-automation&quot;&gt;
+  Why Claude and MCP are powering the next wave of enterprise AI automation
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Dust’s success reflects broader changes in how enterprises are approaching AI implementation. Rather than building custom models, companies like Dust are leveraging increasingly capable foundation models — particularly Anthropic’s Claude 4 suite — and combining them with specialized orchestration software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We just want to give our customers access to the best models,” Hubert said. “And I think right now, Anthropic is early in the lead, especially on coding related models.” The company charges customers $40-50 per user per month and serves thousands of workspaces ranging from small startups to large enterprises with thousands of employees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic’s Claude models have seen particularly strong adoption for coding tasks, with the company reporting 300% growth in Claude Code usage over the past four weeks following the release of its latest Claude 4 models. “Opus 4 is the most powerful model for coding in the world,” Princen noted. “We were already leading the coding race. We’re reinforcing that.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-enterprise-security-gets-complex-when-ai-agents-can-actually-take-action&quot;&gt;
+  Enterprise security gets complex when AI agents can actually take action
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The shift toward AI agents that can take real actions across business systems introduces new security complexities that didn’t exist with simple chatbot implementations. Dust addresses this through what Hubert calls a “native permissioning layer” that separates data access rights from agent usage rights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Permission creation, as well as data &amp; tool management is part of the onboarding experience to mitigate sensitive data exposure when AI agents operate across multiple business systems,” the company explains in technical documentation. This becomes critical when agents have the ability to create GitHub issues, update CRM records, or modify documents across an organization’s technology stack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company implements enterprise-grade infrastructure with Anthropic’s Zero Data Retention policies, ensuring that sensitive business information processed by AI agents isn’t stored by the model provider. This addresses a key concern for enterprises considering AI adoption at scale.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-rise-of-ai-native-startups-building-on-foundation-models-instead-of-creating-their-own&quot;&gt;
+  The rise of AI-native startups building on foundation models instead of creating their own
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Dust’s growth is part of what Anthropic calls an emerging ecosystem of “AI native startups”—companies that fundamentally couldn’t exist without advanced AI capabilities. These firms are building businesses not by developing their own AI models, but by creating sophisticated applications on top of existing foundation models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “These companies have a very, very strong sense of what their end customers need and want for that specific use case,” Princen explained. “We’re providing the tools for them to kind of build and adapt their product to those specific customers and use cases they’re looking for.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This approach represents a significant shift in the AI industry’s structure. Instead of every company needing to develop its own AI capabilities, specialized platforms like Dust can provide the orchestration layer that makes powerful AI models useful for specific business applications.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-what-dust-s-6m-revenue-growth-signals-about-the-future-of-enterprise-software&quot;&gt;
+  What Dust’s $6M revenue growth signals about the future of enterprise software
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The success of companies like Dust suggests that the enterprise AI market is moving beyond the experimental phase toward practical implementation. Rather than replacing human workers wholesale, these systems are designed to eliminate routine tasks and context-switching between applications, allowing employees to focus on higher-value activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “By providing universal AI primitives that make all company workflows more intelligent as well as a proper permissioning system, we are setting the foundations for an agent operating system that is future-proof,” Hubert said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company’s customer base includes organizations convinced that AI will fundamentally change business operations. “The common thread between all customers is that they’re pretty stemmed towards the future and convinced that this technology is going to change a lot of things,” Hubert noted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As AI models become more capable and protocols like MCP mature, the distinction between AI tools that simply provide information and those that take action is likely to become a key differentiator in the enterprise market. Dust’s rapid revenue growth suggests that businesses are willing to pay premium prices for AI systems that can complete real work rather than just assist with it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The implications extend beyond individual companies to the broader structure of enterprise software. If AI agents can seamlessly integrate and automate workflows across disconnected business applications, it could reshape how organizations think about software procurement and workflow design—potentially reducing the complexity that has long plagued enterprise technology stacks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Perhaps the most telling sign of this transformation is how naturally Hubert describes AI agents not as tools, but as digital employees that show up to work every day. In a business world that has spent decades connecting systems with APIs and integration platforms, companies like Dust are proving that the future might not require connecting everything—just teaching AI to navigate the chaos we’ve already built.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
