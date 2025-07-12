@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 12 Jul 2025 17:03:20 -0000</lastBuildDate>
+<item>
+<title> At ISC 2025: HPE Talks All Things ‘At Scale’ – AI Factories, Data Centers, Top 500 HPC, Cloud </title>
+<link>https://insidehpc.com/2025/07/at-isc-2025-hpe-talks-all-things-at-scale-ai-factories-data-centers-top-500-hpc-cloud/</link>
+<pubDate>Fri, 11 Jul 2025 20:00:02 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;epyt-video-wrapper fluid-width-video-wrapper&quot; style=&quot;padding-top: 56.25% !important;&quot;&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  At ISC 2025 in Hamburg, we stopped by the HPE booth to catch up on the big picture of HPE’s advanced computing strategy.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  In this interview, we spoke with HPE’s Tami Wessley, Product Marketing Leader for HPC / AI Factories and Solutions, and Ben Bennett, Director, HPC Strategic Marketing.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  In our far-ranging conversation, we cover how HPE’s work at the top of the supercomputing industry – including the top three-ranked supercomputers in the world – has impacted its position in the data center server market, which in turn impacts its work support AI at scale and the rapidly growing AI factory sector. We look at such topics as edge-to-core-to-cloud, rack and power infrastructure, new developments in liquid cooling (such as 100 percent fanless systems), and the company’s partnerships with suppliers of CPUs, GPUs and other accelerators.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AWS Announces AI Servers with NVIDIA Blackwell </title>
+<link>https://insidehpc.com/2025/07/aws-announces-ai-servers-with-nvidia-blackwell/</link>
+<pubDate>Fri, 11 Jul 2025 18:00:28 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;293&quot; sizes=&quot;(max-width: 587px) 100vw, 587px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/aws-nvidia-logos-2-1-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/aws-nvidia-logos-2-1-0725.png 587w, https://insidehpc.com/wp-content/uploads/2025/07/aws-nvidia-logos-2-1-0725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/aws-nvidia-logos-2-1-0725-300x150.png 300w&quot; width=&quot;587&quot;/&gt;
+ &lt;/div&gt;
+ &lt;footer class=&quot;ai-optimize-introduction&quot; data-lb-comp=&quot;aws-blog:share-dialog&quot; data-lb-comp-registered=&quot;true&quot;&gt;
+  Amazon Web Services announced general availability of P6e-GB200 UltraServers with NVIDIA Grace Blackwell Superchips. The servers are designed for training and deploying the large-scale AI models, and they follow the launch earlier this year of
+  &lt;a href=&quot;https://aws.amazon.com/ec2/instance-types/p6/&quot; rel=&quot;noopener noreferrer&quot; style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot; target=&quot;_blank&quot;&gt;
+   P6-B200 instances
+  &lt;/a&gt;
+  , also with NVIDIA Blackwell GPUs, for AI and high-performance computing workloads.
+ &lt;/footer&gt;
+ &lt;footer data-lb-comp=&quot;aws-blog:share-dialog&quot; data-lb-comp-registered=&quot;true&quot;&gt;
+  &lt;p class=&quot;ai-optimize-12&quot;&gt;
+   The new servers are AWS’s most powerful GPU offering, according to David Brown, vice president, AWS Compute &amp; Machine Learnng Services. They feature up to 72 NVIDIA Blackwell GPUs interconnected using fifth-generation NVIDIA NVLink — all functioning as a single compute unit, Brown said.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-12&quot;&gt;
+   Each UltraServer delivers 360 petaflops of FP8 compute and 13.4 TB of total high bandwidth GPU memory (HBM3e). Brown said this is more than 20 times the compute and over 11 times the memory in a single NVLink domain compared to P5en instances. P6e-GB200 UltraServers support up to 28.8 Tbps aggregate bandwidth of fourth-generation Elastic Fabric Adapter (EFAv4) networking.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-12&quot;&gt;
+   Each P6-B200 instance provides 8 NVIDIA Blackwell GPUs interconnected using NVLink with 1.4 TB of high bandwidth GPU memory, up to 3.2 Tbps of EFAv4 networking, and fifth-generation Intel Xeon Scalable processors. P6-B200 instances offer up to 2.25 times the GPU TFLOPs, 1.27 times the GPU memory size, and 1.6 times the GPU memory bandwidth compared to P5en instances.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-13&quot;&gt;
+   AWS said P6e-GB200 UltraServers are suited for compute- and memory-intensive AI workloads, such as training and deploying frontier models at the trillion-parameter scale. The NVIDIA GB200 NVL72 architecture achieves efficiencies by reducing communication overhead between GPU nodes. For inference workloads, the ability to fully contain trillion-parameter models within a single NVLink domain means faster, more consistent response times at scale, AWS said.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-13&quot;&gt;
+   When combined with optimization techniques such as disaggregated serving with NVIDIA Dynamo, the large domain size of GB200 NVL72 architecture delivers inference efficiencies for various model architectures, such as mixture of experts models. Brown said GB200 NVL72 is particularly powerful when you need to handle extra-large context windows or run high-concurrency applications in real time.
+  &lt;/p&gt;
+ &lt;/footer&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  :Imagine a system that can explore multiple approaches to complex problems, drawing on its understanding of vast amounts of data, from scientific datasets to source code to business documents, and reasoning through the possibilities in real time,” Brown stated in a blog post. “This lightning-fast reasoning isn’t waiting on the horizon. It’s happening today in our customers’ AI production environments. The scale of the AI systems that our customers are building today—across drug discovery, enterprise search, software development, and more—is truly remarkable. And there’s much more ahead.”
+ &lt;/p&gt;
+ &lt;section class=&quot;blog-post-content lb-rtxt&quot;&gt;
+  &lt;p class=&quot;ai-optimize-21&quot;&gt;
+   Brown said P6e-GB200 UltraServers have been deployed in third-generation EC2 UltraClusters, which creates a single fabric for AWS’s largest data centers. Third-generation UltraClusters cut power consumption by up to 40 percent and reduce cabling requirements by more than 80 percent, improving efficiency and reducing potential points of failure, according to Brown.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-22&quot;&gt;
+   AWS uses
+   &lt;a href=&quot;https://aws.amazon.com/hpc/efa/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+    Elastic Fabric Adapter
+   &lt;/a&gt;
+   (EFA) with its Scalable Reliable Datagram protocol, which routes traffic across multiple network paths, built to maintain smooth operation even during congestion or failures. Brown said P6e-GB200 and P6-B200 instances with EFAv4 show up to 18 percent faster collective communications in distributed training compared to P5en instances that use EFAv3.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-24&quot;&gt;
+   While P6-B200 instances are air-cooled, P6e-GB200 UltraServers use liquid cooling, enabling higher compute density in large NVLink domain architectures, according to AWS. P6e-GB200 servers provide configurable liquid-to-chip cooling in both new and existing data centers, “so we can support both liquid-cooled accelerators and air-cooled network and storage infrastructure in the same facility.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-34&quot;&gt;
+   P6e-GB200 UltraServers will also be available through NVIDIA DGX Cloud. DGX Cloud is a unified AI platform with NVIDIA’s AI software stack.
+  &lt;/p&gt;
+ &lt;/section&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Canadian Scientists Use D-Wave in Quantum-AI Simulations </title>
+<link>https://insidehpc.com/2025/07/canadian-scientists-use-d-wave-in-quantum-ai-simulations/</link>
+<pubDate>Thu, 10 Jul 2025 20:00:54 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;350&quot; sizes=&quot;(max-width: 700px) 100vw, 700px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/03/d-wave-annealing-quantum-computing-chip-2-1-0325.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/03/d-wave-annealing-quantum-computing-chip-2-1-0325.png 700w, https://insidehpc.com/wp-content/uploads/2025/03/d-wave-annealing-quantum-computing-chip-2-1-0325-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/03/d-wave-annealing-quantum-computing-chip-2-1-0325-300x150.png 300w&quot; width=&quot;700&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  Newswise — WATERLOO, ON and VANCOUVER, BC – A team of scientists from Canadian particle accelerator center TRIUMF and the Perimeter Institute for Theoretical Physics have unveiled what they say is “transformative research that merges quantum computing techniques with advanced AI to model complex simulations in a fast, accurate and energy-efficient way.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot; style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot;&gt;
+  Traditional simulations of particle collisions are already both time-consuming and costly, often running on massive supercomputers for weeks or months. By leveraging quantum processes and technology
+  &lt;a href=&quot;https://www.dwavequantum.com/&quot;&gt;
+   D-Wave Quantum Inc.
+  &lt;/a&gt;
+  , the researchers were able to create a new “quantum-assisted” generative model capable of running simulations and open new opportunities to cost-effectively analyze rapidly growing data sets.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot;&gt;
+  The research,
+  &lt;a href=&quot;https://rdcu.be/evFNY&quot; rel=&quot;noopener noreferrer&quot; style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot; target=&quot;_blank&quot;&gt;
+   published today
+  &lt;/a&gt;
+  in
+  &lt;em style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot;&gt;
+   npj Quantum Information
+  &lt;/em&gt;
+  , is part of an effort to create the tools needed to accommodate upgrades to CERN’s particle accelerator, the Large Hadron Collider (LHC), and alleviate a computational bottleneck that would impact researchers all over the world.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  “This is a uniquely Canadian success story,” said Wojciech Fedorko, Deputy Department Head, Scientific Computing at
+  &lt;a href=&quot;https://triumf.ca/&quot;&gt;
+   TRIUMF
+  &lt;/a&gt;
+  . “Uniting the expertise from our country’s research institutions and industry leaders has not only advanced our ability to carry out fundamental research, but also demonstrated Canada’s ability to lead the world in quantum and AI innovation.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  “Our method shows that quantum and AI technologies developed here in Canada can solve real-world scientific bottlenecks,” said Javier Toledo-Marín, joint appointee at TRIUMF and Perimeter Institute. “By combining deep learning with quantum technology, we are forging a new path for both theoretical experimentation
+  &lt;em&gt;
+   and
+  &lt;/em&gt;
+  technological application.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  In addition to TRIUMF and Perimeter, contributions to the published research came from the National Research Council of Canada (NRC), the University of British Columbia and the University of Virginia, showcasing not only the wealth of research talent and scientific ingenuity across the country, but also the international collaboration that places Canada at the forefront of worldwide scientific innovation.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Registration Open for SC25 in St. Louis, Nov. 16-21 </title>
+<link>https://insidehpc.com/2025/07/registration-open-for-sc25-in-st-louis-nov-16-21/</link>
+<pubDate>Thu, 10 Jul 2025 19:39:12 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;453&quot; sizes=&quot;(max-width: 906px) 100vw, 906px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/sc25-registration-2-1-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/sc25-registration-2-1-0725.png 906w, https://insidehpc.com/wp-content/uploads/2025/07/sc25-registration-2-1-0725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/sc25-registration-2-1-0725-300x150.png 300w, https://insidehpc.com/wp-content/uploads/2025/07/sc25-registration-2-1-0725-768x384.png 768w&quot; width=&quot;906&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  The annual Supercomputing Conference, SC25, is now open for registration.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  This year’s event will be held in St. Louis from Sunday, Nov. 16 to Friday, Nov. 21.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  &lt;a href=&quot;https://sc25.supercomputing.org/2025/07/ignition-sc25-registrations-are-go/&quot;&gt;
+   More information can be found here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Denodo Announces Deep Research AI Capability </title>
+<link>https://insidehpc.com/2025/07/denodo-announces-deep-research-ai-capability/</link>
+<pubDate>Thu, 10 Jul 2025 19:27:37 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;259&quot; sizes=&quot;(max-width: 518px) 100vw, 518px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/denodo-logo-2-1-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/denodo-logo-2-1-0725.png 518w, https://insidehpc.com/wp-content/uploads/2025/07/denodo-logo-2-1-0725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/denodo-logo-2-1-0725-300x150.png 300w&quot; width=&quot;518&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot;&gt;
+  PALO ALTO, Calif. July 7, 2025 – Data management company Denodo announced the availability of the Denodo DeepQuery capability, as a private preview, enabling generative AI to go beyond retrieving facts to investigating, synthesizing, and explaining its reasoning.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot;&gt;
+  Denodo also announced the availability of Model Context Protocol (MCP) support as part of the Denodo AI SDK.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  Built to address complex, open-ended business questions, DeepQuery will leverage live access to a wide spectrum of governed enterprise data across systems, departments, and formats. Unlike traditional GenAI solutions, which rephrase existing content, DeepQuery, a deep research capability, will analyze complex, open questions and search across multiple systems and sources to deliver well-structured, explainable answers rooted in real-time information. To help users operate this new capability to better understand complex current events and situations, DeepQuery will also leverage external data sources to extend and enrich enterprise data with publicly available data, external applications, and data from trading partners.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  DeepQuery, beyond what’s possible using traditional generative AI (GenAI) chat or retrieval augmented generation (RAG), will enable users to ask complex, cross-functional questions that would typically take analysts days to answer—questions like, “Why did fund outflows spike last quarter?” or “What’s driving changes in customer retention across regions?” Rather than piecing together reports and data exports, DeepQuery will connect to live, governed data across different systems, apply expert-level reasoning, and deliver answers in minutes.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  Slated to be packaged with the Denodo AI SDK, which streamlines AI application development with pre-built APIs, DeepQuery is being developed as a fully extensible component of the Denodo Platform, enabling developers and AI teams to build, experiment with, and integrate deep research capabilities into their own agents, copilots, or domain-specific applications.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  “With DeepQuery, Denodo is demonstrating forward-thinking in advancing the capabilities of AI,” said Stewart Bond, Research VP, Data Intelligence and Integration Software at IDC. “DeepQuery, driven by deep research advances, will deliver more accurate AI responses that will also be fully explainable.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  Large language models (LLMs), business intelligence tools, and other applications are beginning to offer deep research capabilities based on public Web data; pre-indexed, data-lakehouse-specific data; or document-based retrieval, but only Denodo is developing deep research capabilities, in the form of DeepQuery, that are grounded in enterprise data across all systems, data that is delivered in real-time, structured, and governed. These capabilities are enabled by the Denodo Platform’s logical approach to data management, supported by a strong data virtualization foundation.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  Denodo DeepQuery is currently available in a private preview mode. Denodo is inviting select organizations to join its AI Accelerator Program, which offers early access to DeepQuery capabilities, as well as the opportunity to collaborate with our product team to shape the future of enterprise GenAI.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  “As a Denodo partner, we’re always looking for ways to provide our clients with a competitive edge,” said Nagaraj Sastry, Senior Vice President, Data and Analytics at Encora. “Denodo DeepQuery gives us exactly that. Its ability to leverage real-time, governed enterprise data for deep, contextualized insights sets it apart. This means we can help our customers move beyond general AI queries to truly intelligent analysis, empowering them to make faster, more informed decisions and accelerating their AI journey.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  &lt;a href=&quot;https://www.denodo.com/en&quot;&gt;
+   Denodo
+  &lt;/a&gt;
+  also announced support of Model Context Protocol (MCP), and an MCP Server implementation is now included in the latest version of the Denodo AI SDK. As a result, all AI agents and apps based on the Denodo AI SDK can be integrated with any MCP-compliant client, providing customers with a trusted data foundation for their agentic AI ecosystems based on open standards.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-19&quot;&gt;
+  “AI’s true potential in the enterprise lies not just in generating responses, but in understanding the full context behind them,” said Angel Viña, CEO and Founder of Denodo. “With DeepQuery, we’re unlocking that potential by combining generative AI with real-time, governed access to the entire corporate data ecosystem, no matter where that data resides. Unlike siloed solutions tied to a single store, DeepQuery leverages enriched, unified semantics across distributed sources, allowing AI to reason, explain, and act on data with unprecedented depth and accuracy.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

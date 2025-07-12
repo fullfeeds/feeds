@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>Next Platform</title>
+<lastBuildDate>Sat, 12 Jul 2025 17:02:46 -0000</lastBuildDate>
+<item>
+<title> Will Companies Build Or Buy Their GenAI Models? </title>
+<link>https://www.nextplatform.com/2025/07/10/will-companies-build-or-buy-their-genai-models/#respond</link>
+<pubDate>Fri, 11 Jul 2025 04:06:38 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content clearfix&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;img alt=&quot;&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2020/01/ab_ai-brain-circuit-1030x438.jpg&quot; title=&quot;ab_ai-brain-circuit&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  One of the biggest questions that enterprises, governments, academic institutions, and HPC centers the world over are going to have to answer very soon – if they have not made the decision already – is if they are going to train their own AI models and the inference software stacks that make them useful or just buy them from third parties and get to work integrating AI with their applications a lot faster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the big model makers like OpenAI, Anthropic, xAI, Google, Alibaba, and DeepSeek are spending enormous funds training AI models with ever-growing data token counts and parameters to make their models smarter, most organizations have very specific needs and fairly limited amounts of specialized data relevant to their own operations, which means we can expect for spending on generalized models as well as on specialized domain-specific models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is certainly a pattern we have seen with other kinds of enterprise software over the decades, with general back office accounting in the mainframe era evolving into a sophisticated stack on industry-specific suites that encapsulate the business logic of a manufacturer, a distributor, a retailer, and so forth across the myriad industry segments that comprise a modern economy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is something that the prognosticators at Gartner expect to happen with generative AI models, although admittedly it will take time for the differentiated models to be created and adopted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the data just released by Gartner, its analysts expect for end user spending on GenAI models to hit $14.2 billion in 2025, nearly a factor of 2.5X higher than spending on commercial GenAI models last year, which added up to $5.7 billion in spending.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We have added the GenAI model spending to a previous analysis of
+  &lt;a href=&quot;https://www.nextplatform.com/2025/01/23/genai-boom-datacenter-spending-forecast-raised-again/&quot;&gt;
+   overall IT spending we did back in January
+  &lt;/a&gt;
+  and GenAI spending based on Gartner data
+  &lt;a href=&quot;https://www.nextplatform.com/2025/04/02/a-second-opinion-on-future-genai-spending/&quot;&gt;
+   that we did back in April of this year
+  &lt;/a&gt;
+  . Take a look:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;http://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update.jpg&quot; rel=&quot;attachment wp-att-146017&quot;&gt;
+   &lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-146017&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;561&quot; sizes=&quot;(max-width: 642px) 100vw, 642px&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update.jpg&quot; srcset=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update.jpg 642w, https://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update-600x524.jpg 600w&quot; width=&quot;642&quot;/&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As you can see, spending on third party GenAI models was pretty thin back in 2023, at only $1.4 billion, but grew by a factor of 4.2X in 2024. It is hard to say how it might grow in the coming years, but we think there are some pretty wide error bars that anyone has to use as they make their prognostications. A lot will depend on how the future of GenAI models are architected, and if some other approach takes the market by storm, as many predict it will.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If mixture of expert models with multimodal capabilities turn out to be more accurate than humongous one-shot, blurty models as were the norm until fairly recently and can be trained on relatively small clusters and inferred on similar iron, provided that their creators license them at a reasonable price and provide industry-specific – if not organization-specific – versions of their foundation models, then the market for third party GenAI models should take off.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But if training gets a lot cheaper and models can be run on even smaller clusters, then organizations might just train their own models and set up their own inference farms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And if training models takes so much infrastructure that most companies cannot afford to do it – or even get their hands on the GPUs or XPUs to do it – then companies will spend a lot of money on third party AI models and the model makers will get rich and recoup at least some of the enormous sums of money they have put into creating models over the past five years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What Gartner has said definitively is that by 2027, half of the models used by enterprises will be domain specific, up from 1 percent of models (as gauged by revenue we presume) in 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What we can see from the table above also is that the share of GenAI software spending accounted for by the GenAI models themselves is growing as the years go by, rising from 25.2 percent in 2023 to an expected 38.2 percent in 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of course, all of this money counting by Gartner misses how much money is being spent by the model makers today to create their models, and how much will be spent by other organizations if they start building their models. A very large portion of enterprise software over the decades was created in house and not by third parties, and this huge investment never gets counted by the Gartners and IDCs of the world. And yet, there it is.
+ &lt;/p&gt;
+ &lt;!-- QUIZ HERE --&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Will Companies Build Or Buy Their GenAI Models? </title>
+<link>https://www.nextplatform.com/2025/07/10/will-companies-build-or-buy-their-genai-models/</link>
+<pubDate>Fri, 11 Jul 2025 04:06:35 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content clearfix&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;img alt=&quot;&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2020/01/ab_ai-brain-circuit-1030x438.jpg&quot; title=&quot;ab_ai-brain-circuit&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  One of the biggest questions that enterprises, governments, academic institutions, and HPC centers the world over are going to have to answer very soon – if they have not made the decision already – is if they are going to train their own AI models and the inference software stacks that make them useful or just buy them from third parties and get to work integrating AI with their applications a lot faster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the big model makers like OpenAI, Anthropic, xAI, Google, Alibaba, and DeepSeek are spending enormous funds training AI models with ever-growing data token counts and parameters to make their models smarter, most organizations have very specific needs and fairly limited amounts of specialized data relevant to their own operations, which means we can expect for spending on generalized models as well as on specialized domain-specific models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is certainly a pattern we have seen with other kinds of enterprise software over the decades, with general back office accounting in the mainframe era evolving into a sophisticated stack on industry-specific suites that encapsulate the business logic of a manufacturer, a distributor, a retailer, and so forth across the myriad industry segments that comprise a modern economy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is something that the prognosticators at Gartner expect to happen with generative AI models, although admittedly it will take time for the differentiated models to be created and adopted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the data just released by Gartner, its analysts expect for end user spending on GenAI models to hit $14.2 billion in 2025, nearly a factor of 2.5X higher than spending on commercial GenAI models last year, which added up to $5.7 billion in spending.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We have added the GenAI model spending to a previous analysis of
+  &lt;a href=&quot;https://www.nextplatform.com/2025/01/23/genai-boom-datacenter-spending-forecast-raised-again/&quot;&gt;
+   overall IT spending we did back in January
+  &lt;/a&gt;
+  and GenAI spending based on Gartner data
+  &lt;a href=&quot;https://www.nextplatform.com/2025/04/02/a-second-opinion-on-future-genai-spending/&quot;&gt;
+   that we did back in April of this year
+  &lt;/a&gt;
+  . Take a look:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;http://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update.jpg&quot; rel=&quot;attachment wp-att-146017&quot;&gt;
+   &lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-146017&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;561&quot; sizes=&quot;(max-width: 642px) 100vw, 642px&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update.jpg&quot; srcset=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update.jpg 642w, https://www.nextplatform.com/wp-content/uploads/2025/07/gartner-genai-spending-table-2025-update-600x524.jpg 600w&quot; width=&quot;642&quot;/&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As you can see, spending on third party GenAI models was pretty thin back in 2023, at only $1.4 billion, but grew by a factor of 4.2X in 2024. It is hard to say how it might grow in the coming years, but we think there are some pretty wide error bars that anyone has to use as they make their prognostications. A lot will depend on how the future of GenAI models are architected, and if some other approach takes the market by storm, as many predict it will.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If mixture of expert models with multimodal capabilities turn out to be more accurate than humongous one-shot, blurty models as were the norm until fairly recently and can be trained on relatively small clusters and inferred on similar iron, provided that their creators license them at a reasonable price and provide industry-specific – if not organization-specific – versions of their foundation models, then the market for third party GenAI models should take off.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But if training gets a lot cheaper and models can be run on even smaller clusters, then organizations might just train their own models and set up their own inference farms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And if training models takes so much infrastructure that most companies cannot afford to do it – or even get their hands on the GPUs or XPUs to do it – then companies will spend a lot of money on third party AI models and the model makers will get rich and recoup at least some of the enormous sums of money they have put into creating models over the past five years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What Gartner has said definitively is that by 2027, half of the models used by enterprises will be domain specific, up from 1 percent of models (as gauged by revenue we presume) in 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What we can see from the table above also is that the share of GenAI software spending accounted for by the GenAI models themselves is growing as the years go by, rising from 25.2 percent in 2023 to an expected 38.2 percent in 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of course, all of this money counting by Gartner misses how much money is being spent by the model makers today to create their models, and how much will be spent by other organizations if they start building their models. A very large portion of enterprise software over the decades was created in house and not by third parties, and this huge investment never gets counted by the Gartners and IDCs of the world. And yet, there it is.
+ &lt;/p&gt;
+ &lt;!-- QUIZ HERE --&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Sizing Up AWS “Blackwell” GPU Systems Against Prior GPUs And Trainiums </title>
+<link>https://www.nextplatform.com/2025/07/10/sizing-up-aws-blackwell-gpu-systems-against-prior-gpus-and-trainiums/#respond</link>
+<pubDate>Thu, 10 Jul 2025 20:54:37 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content clearfix&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;img alt=&quot;&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/aws-ec2-p6e-gb200-instance-758x438.jpg&quot; title=&quot;aws-ec2-p6e-gb200-instance&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  This week, Amazon Web Services announced the availability of its first UltraServer pre-configured supercomputers based on Nvidia’s “Grace” CG100 CPUs and its “Blackwell” B200 GPUs in what is called a GB200 NVL72 shared GPU memory configuration. These machines are known as the U-P6e instances, and come in full rack and half rack configurations, actually, and they complement the existing P6-B200 instances that were unveiled last December at the re:Invent 2024 conference and that became generally available on May 15.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the case of both the P6 and P6e instances, NVLink 5 ports on the GPUs and on the NVLink Switch 4 GPU memory sharing switches are used to gang up GPUs into large shared memory compute complexes similar to the NUMA clusters that have been around for CPU servers for more than two and a half decades. Other non-NUMA shared memory architectures are older than non-uniform memory access techniques, such as symmetric multiprocessing, or SMP, but none scale as far as NUMA does on CPUs, which pushed up to 128 and 256 CPUs in a shared memory cluster back in the days of single-core processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the P6e instances based on the Nvidia NVL72 design,
+  &lt;a href=&quot;https://www.nextplatform.com/2024/03/19/how-nvidia-blackwell-systems-attack-1-trillion-parameter-ai-models/&quot;&gt;
+   which we detailed here
+  &lt;/a&gt;
+  , the GPU memory domain stretches across 72 GPU sockets, and the Blackwell chip has two GPU chiplets per socket, so the memory domain is really 144 devices in a single rack. AWS is selling UltraServers with either 72 or 36 Blackwell B200 sockets as a memory domain, and presumably this is done virtually and not physically so the instance size can be configured on the fly. These machines have a Grace CPU paired with every two Blackwell B200 GPUs, and the whole shebang is liquid-cooled, which is one of the reasons why the B200 GPUs are being overclocked by 11 percent and deliver that much more raw compute performance for AI workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The P6 instances used more standard HGX-B200 server nodes, which are not overclocked and which create a GPU memory domain that spans eight sockets. The P6 instances use Intel Xeon 6 processors as their host compute engines, with two CPUs for every eight Blackwell B200 GPUs, and the resulting compute complexes are half as dense as the GB200 NVL72 systems and therefore can still be air cooled.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With these two Blackwell systems now available on the AWS cloud and pricing information available, this is a perfect time to do some price/performance analysis on the Blackwell instances versus prior generations of “Hopper” H100 and H200 GPUs and even earlier instances based on “Ampere” A100 and “Volta” V100 GPUs that are still available for rent on the AWS cloud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The instances and UltraServer rackscale configurations that we examined are sold under what AWS calls EC2 Capacity Blocks, which as the name suggests is a way to reserve and buy preconfigured UltraClusters that range in size from one instance or UltraServer to up to 64 instances or racks for up to six month terms up to eight weeks in advance of when you need the capacity. It is a funky version of a reserved instance sold in bigger chunks as a single unit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just for fun, we took the EC2 Capacity Block configurations and also found the setups that had on-demand pricing to see how these compare in cost all the way back to P2 instances based on Nvidia Volta GPUs and P3 instances based on Ampere GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So without future ado, here is the mother of all spreadsheets for the EC2 Capacity Blocks, with pricing shown across regions around the globe where they are available, including Nvidia GPU instances as well as AWS Trainium1 and Trainium2 instances:
+ &lt;/p&gt;
+ &lt;p&gt;
+  There is a lot to take in there. To get a sense of how the price/performance stacks up, we added peak theoretical performance with FP16, FP8 or INT8, and FP4 precisions. We ignored FP64 and FP32 precision for the purposes of this comparison, realizing full well that sometimes higher precision calculations are used with AI models and are certainly used with HPC simulation. These performance ratings are for dense math, not sparse matrices, which can double the effective numerical throughput of the devices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We decided that a 90-day rental was representative of what it would take to train a fairly large model, but nothing crazy. This scale of instance cost makes for a nice dividend into which the performance in teraflops that the divisor chops it into.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A lot of things jump out of this monster table, but the first one that we saw, and which we highlighted in bold, is that AWS charges a 25 percent premium for GPU instances based on Hopper H100 and H200 GPUs that are served from its US West Northern California region. It is tough to get power and datacenter space in Silicon Valley, which is why you see so many new goodies being installed in the Oregon area of the US West region. The US East region is anchored around Ashburn, Virginia, and it still gets a lot of goodies first, including the UltraServer P6e rackscale system based on the GB200 NVL72 design. The US East region in Ohio gets its share of new stuff, too, including Trainium1 and Trainium2 clusters, as you see.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We think of FP16 performance as a kind of baseline for AI accelerators, and then FP8 and FP4 precision as an important further accelerator for models that can be trained using lower resolution data and still not sacrifice the accuracy of the model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you look at FP16 performance of the rackscale GB200 NVL72 system versus the HGX-B200 systems, which do not scale nearly as far, the rackscale machine – which requires liquid cooling and is a bit of a beast to install – only carries a 17 percent increase in a unit of performance the way AWS is renting it. This is not much of a premium at all, really, and it is in line with what you would expect given the density of the system and the power and cooling issues the density of the GB200 NVL72 causes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other thing you will see is that the H100 and H200 devices have the same peak theoretical performance, but the H100 that AWS has installed is an earlier one with only 80 GB of HBM3 capacity while the H200 has 141 GB of HBM3 capacity. AWS is charging a 10 percent premium for this memory and the higher bandwidth that comes with it. That H100 with 80 GB of HBM3 has 3.35 TB/sec of bandwidth, while the H200 with 141 GB of HBM3E provides 4.8 TB/sec of bandwidth. For a lot of workloads, this extra memory capacity and bandwidth can nearly double the actual performance of AI training. You might have expected for AWS to charge more of a premium for the H200 instances than it does.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The EC2 Capacity Blocks can still be acquired using Ampere A100 GPU accelerators, and it is interesting to note that on a per-GPU basis, the H200 is 3.07X more expensive than an A100, but it delivers 3.17X more FP16 performance per GPU. When you do the math, renting an A100 with 40 GB of HBM2 memory for 90 days through Capacity Blocks costs $10.21 per teraflops, compared to $9.88 per teraflops for the H100. Which you would only do if you could not get H100s or H200s or B200s. The A100 with 80 GB of HBM2 memory costs $12.78 per teraflops. (All of these prices are for regions outside of Northern California.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  At FP16 precision, the full-scale NVL72 machine in the P6e instance with 72 Blackwell B200 GPUs as well as the half rack with 36 Blackwell B200s costs $9.14 per teraflops to rent for 90 days, and will cost $1.65 million and $822,856, respectively, for those three months. The P6-B200 instances with the smaller memory domains cost $7.81 per teraflops over 90 days at FP16 precision, and given that these are air-cooled with a smaller memory domain, this stands to reason.  The wonder is that the liquid cooled GB200 NVL72 machines do not cost more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you look at FP8 performance, all of the cost per teraflops are cut in half, and with the Blackwells, the ability to calculate in FP4 format cuts the cost of a teraflops in half again. The net result is that if you change your model to take advantage of FP4 performance, you can either rent one quarter of the machinery to get the same work done at one quarter of the cost, or you can spend the same money and train a model that is four times larger.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now look at the bottom of the table with Trainium. It takes twice as many Trainium1 AI accelerators, which are designed by AWS, to beat the Nvidia A100 by around 22 percent in terms of raw FP16 throughput. With Trainium2, the performance on FP16 was increased by 3.5X and performance on FP8 was increased by 6.8X while the HBM capacity was boosted by 3X but the cost per teraflops only went up by 7.4 percent at FP16 resolution. The addition of FP8 cut the price of a teraflops at FP8 precision to a mere $3.72, which is less than the $3.91 per teraflops of the HGX-B200 nodes AWS is renting as the P6 instance and even smaller than the $4.57 per teraflops that AWS is charging for the GB200 NVL72 instances. The Trainium2 does not have FP4 support, which means when it comes to raw cost, Nvidia has the advantage for those AI application that can run at FP4 resolution and not lose accuracy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, if you look at On-Demand pricing on AWS, the Trainium1 chips are still available out there and they are considerably more expensive than the Blackwell B200 instances that are rented on demand. Take a look:
+ &lt;/p&gt;
+ &lt;p&gt;
+  What is immediately obvious in this table is that the ancient accelerator instances based on K40, V100, and A100 GPUs have very low cost and therefore very low capital outlay, which looks attractive, but if you look at the cost of a teraflops of FP16 oomph,
+  &lt;em&gt;
+   these are
+  &lt;/em&gt;
+  &lt;em&gt;
+   terrible
+  &lt;/em&gt;
+  in an economic sense, and have a much bigger gap with new iron sold under the EC2 Capacity Block plans. And if you compare these ancient GPUs running in FP16 mode with Blackwells running in FP4 mode, it is downright silly to consider using this older iron except possibly in an absolute emergency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Clearly, if you need to rent instances on demand, rent Blackwells and run in FP4 mode. If you do that, the cost of FP16 performance is 9 percent lower and with the downshifting of precision two gears, you can boost the performance by 4X and improve the bang for the buck by 4.4X.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Moore’s Law is only really alive in the guise of shrinking precision, not so much in shrinking transistors. FP2 anyone? And as some have said, there is no point in FP1. . . .
+ &lt;/p&gt;
+ &lt;!-- QUIZ HERE --&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Sizing Up AWS “Blackwell” GPU Systems Against Prior GPUs And Trainiums </title>
+<link>https://www.nextplatform.com/2025/07/10/sizing-up-aws-blackwell-gpu-systems-against-prior-gpus-and-trainiums/</link>
+<pubDate>Thu, 10 Jul 2025 20:54:34 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content clearfix&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;img alt=&quot;&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/aws-ec2-p6e-gb200-instance-758x438.jpg&quot; title=&quot;aws-ec2-p6e-gb200-instance&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  This week, Amazon Web Services announced the availability of its first UltraServer pre-configured supercomputers based on Nvidia’s “Grace” CG100 CPUs and its “Blackwell” B200 GPUs in what is called a GB200 NVL72 shared GPU memory configuration. These machines are known as the U-P6e instances, and come in full rack and half rack configurations, actually, and they complement the existing P6-B200 instances that were unveiled last December at the re:Invent 2024 conference and that became generally available on May 15.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the case of both the P6 and P6e instances, NVLink 5 ports on the GPUs and on the NVLink Switch 4 GPU memory sharing switches are used to gang up GPUs into large shared memory compute complexes similar to the NUMA clusters that have been around for CPU servers for more than two and a half decades. Other non-NUMA shared memory architectures are older than non-uniform memory access techniques, such as symmetric multiprocessing, or SMP, but none scale as far as NUMA does on CPUs, which pushed up to 128 and 256 CPUs in a shared memory cluster back in the days of single-core processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the P6e instances based on the Nvidia NVL72 design,
+  &lt;a href=&quot;https://www.nextplatform.com/2024/03/19/how-nvidia-blackwell-systems-attack-1-trillion-parameter-ai-models/&quot;&gt;
+   which we detailed here
+  &lt;/a&gt;
+  , the GPU memory domain stretches across 72 GPU sockets, and the Blackwell chip has two GPU chiplets per socket, so the memory domain is really 144 devices in a single rack. AWS is selling UltraServers with either 72 or 36 Blackwell B200 sockets as a memory domain, and presumably this is done virtually and not physically so the instance size can be configured on the fly. These machines have a Grace CPU paired with every two Blackwell B200 GPUs, and the whole shebang is liquid-cooled, which is one of the reasons why the B200 GPUs are being overclocked by 11 percent and deliver that much more raw compute performance for AI workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The P6 instances used more standard HGX-B200 server nodes, which are not overclocked and which create a GPU memory domain that spans eight sockets. The P6 instances use Intel Xeon 6 processors as their host compute engines, with two CPUs for every eight Blackwell B200 GPUs, and the resulting compute complexes are half as dense as the GB200 NVL72 systems and therefore can still be air cooled.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With these two Blackwell systems now available on the AWS cloud and pricing information available, this is a perfect time to do some price/performance analysis on the Blackwell instances versus prior generations of “Hopper” H100 and H200 GPUs and even earlier instances based on “Ampere” A100 and “Volta” V100 GPUs that are still available for rent on the AWS cloud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The instances and UltraServer rackscale configurations that we examined are sold under what AWS calls EC2 Capacity Blocks, which as the name suggests is a way to reserve and buy preconfigured UltraClusters that range in size from one instance or UltraServer to up to 64 instances or racks for up to six month terms up to eight weeks in advance of when you need the capacity. It is a funky version of a reserved instance sold in bigger chunks as a single unit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just for fun, we took the EC2 Capacity Block configurations and also found the setups that had on-demand pricing to see how these compare in cost all the way back to P2 instances based on Nvidia Volta GPUs and P3 instances based on Ampere GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So without future ado, here is the mother of all spreadsheets for the EC2 Capacity Blocks, with pricing shown across regions around the globe where they are available, including Nvidia GPU instances as well as AWS Trainium1 and Trainium2 instances:
+ &lt;/p&gt;
+ &lt;p&gt;
+  There is a lot to take in there. To get a sense of how the price/performance stacks up, we added peak theoretical performance with FP16, FP8 or INT8, and FP4 precisions. We ignored FP64 and FP32 precision for the purposes of this comparison, realizing full well that sometimes higher precision calculations are used with AI models and are certainly used with HPC simulation. These performance ratings are for dense math, not sparse matrices, which can double the effective numerical throughput of the devices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We decided that a 90-day rental was representative of what it would take to train a fairly large model, but nothing crazy. This scale of instance cost makes for a nice dividend into which the performance in teraflops that the divisor chops it into.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A lot of things jump out of this monster table, but the first one that we saw, and which we highlighted in bold, is that AWS charges a 25 percent premium for GPU instances based on Hopper H100 and H200 GPUs that are served from its US West Northern California region. It is tough to get power and datacenter space in Silicon Valley, which is why you see so many new goodies being installed in the Oregon area of the US West region. The US East region is anchored around Ashburn, Virginia, and it still gets a lot of goodies first, including the UltraServer P6e rackscale system based on the GB200 NVL72 design. The US East region in Ohio gets its share of new stuff, too, including Trainium1 and Trainium2 clusters, as you see.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We think of FP16 performance as a kind of baseline for AI accelerators, and then FP8 and FP4 precision as an important further accelerator for models that can be trained using lower resolution data and still not sacrifice the accuracy of the model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you look at FP16 performance of the rackscale GB200 NVL72 system versus the HGX-B200 systems, which do not scale nearly as far, the rackscale machine – which requires liquid cooling and is a bit of a beast to install – only carries a 17 percent increase in a unit of performance the way AWS is renting it. This is not much of a premium at all, really, and it is in line with what you would expect given the density of the system and the power and cooling issues the density of the GB200 NVL72 causes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other thing you will see is that the H100 and H200 devices have the same peak theoretical performance, but the H100 that AWS has installed is an earlier one with only 80 GB of HBM3 capacity while the H200 has 141 GB of HBM3 capacity. AWS is charging a 10 percent premium for this memory and the higher bandwidth that comes with it. That H100 with 80 GB of HBM3 has 3.35 TB/sec of bandwidth, while the H200 with 141 GB of HBM3E provides 4.8 TB/sec of bandwidth. For a lot of workloads, this extra memory capacity and bandwidth can nearly double the actual performance of AI training. You might have expected for AWS to charge more of a premium for the H200 instances than it does.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The EC2 Capacity Blocks can still be acquired using Ampere A100 GPU accelerators, and it is interesting to note that on a per-GPU basis, the H200 is 3.07X more expensive than an A100, but it delivers 3.17X more FP16 performance per GPU. When you do the math, renting an A100 with 40 GB of HBM2 memory for 90 days through Capacity Blocks costs $10.21 per teraflops, compared to $9.88 per teraflops for the H100. Which you would only do if you could not get H100s or H200s or B200s. The A100 with 80 GB of HBM2 memory costs $12.78 per teraflops. (All of these prices are for regions outside of Northern California.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  At FP16 precision, the full-scale NVL72 machine in the P6e instance with 72 Blackwell B200 GPUs as well as the half rack with 36 Blackwell B200s costs $9.14 per teraflops to rent for 90 days, and will cost $1.65 million and $822,856, respectively, for those three months. The P6-B200 instances with the smaller memory domains cost $7.81 per teraflops over 90 days at FP16 precision, and given that these are air-cooled with a smaller memory domain, this stands to reason.  The wonder is that the liquid cooled GB200 NVL72 machines do not cost more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you look at FP8 performance, all of the cost per teraflops are cut in half, and with the Blackwells, the ability to calculate in FP4 format cuts the cost of a teraflops in half again. The net result is that if you change your model to take advantage of FP4 performance, you can either rent one quarter of the machinery to get the same work done at one quarter of the cost, or you can spend the same money and train a model that is four times larger.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now look at the bottom of the table with Trainium. It takes twice as many Trainium1 AI accelerators, which are designed by AWS, to beat the Nvidia A100 by around 22 percent in terms of raw FP16 throughput. With Trainium2, the performance on FP16 was increased by 3.5X and performance on FP8 was increased by 6.8X while the HBM capacity was boosted by 3X but the cost per teraflops only went up by 7.4 percent at FP16 resolution. The addition of FP8 cut the price of a teraflops at FP8 precision to a mere $3.72, which is less than the $3.91 per teraflops of the HGX-B200 nodes AWS is renting as the P6 instance and even smaller than the $4.57 per teraflops that AWS is charging for the GB200 NVL72 instances. The Trainium2 does not have FP4 support, which means when it comes to raw cost, Nvidia has the advantage for those AI application that can run at FP4 resolution and not lose accuracy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, if you look at On-Demand pricing on AWS, the Trainium1 chips are still available out there and they are considerably more expensive than the Blackwell B200 instances that are rented on demand. Take a look:
+ &lt;/p&gt;
+ &lt;p&gt;
+  What is immediately obvious in this table is that the ancient accelerator instances based on K40, V100, and A100 GPUs have very low cost and therefore very low capital outlay, which looks attractive, but if you look at the cost of a teraflops of FP16 oomph,
+  &lt;em&gt;
+   these are
+  &lt;/em&gt;
+  &lt;em&gt;
+   terrible
+  &lt;/em&gt;
+  in an economic sense, and have a much bigger gap with new iron sold under the EC2 Capacity Block plans. And if you compare these ancient GPUs running in FP16 mode with Blackwells running in FP4 mode, it is downright silly to consider using this older iron except possibly in an absolute emergency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Clearly, if you need to rent instances on demand, rent Blackwells and run in FP4 mode. If you do that, the cost of FP16 performance is 9 percent lower and with the downshifting of precision two gears, you can boost the performance by 4X and improve the bang for the buck by 4.4X.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Moore’s Law is only really alive in the guise of shrinking precision, not so much in shrinking transistors. FP2 anyone? And as some have said, there is no point in FP1. . . .
+ &lt;/p&gt;
+ &lt;!-- QUIZ HERE --&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

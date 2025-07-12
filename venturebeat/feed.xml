@@ -1,0 +1,2317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>VentureBeat</title>
+<lastBuildDate>Sat, 12 Jul 2025 17:02:55 -0000</lastBuildDate>
+<item>
+<title> Moonshot AI’s Kimi K2 outperforms GPT-4 in key benchmarks — and it’s free </title>
+<link>https://venturebeat.com/ai/moonshot-ais-kimi-k2-outperforms-gpt-4-in-key-benchmarks-and-its-free/</link>
+<pubDate>Fri, 11 Jul 2025 23:04:23 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Credit: VentureBeat made with Midjourney&quot; class=&quot;skip-lazy&quot; height=&quot;420&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/nuneybits_Vector_art_of_moonshot_rocket_launch_56741232-1790-42b9-a82d-854c8a8ee05f.webp?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Credit: VentureBeat made with Midjourney
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot;&gt;
+   Moonshot AI
+  &lt;/a&gt;
+  , the Chinese artificial intelligence startup behind the popular
+  &lt;a href=&quot;https://www.kimi.com/&quot;&gt;
+   Kimi chatbot
+  &lt;/a&gt;
+  , released an open-source language model on Friday that directly challenges proprietary systems from
+  &lt;a href=&quot;https://openai.com/&quot;&gt;
+   OpenAI
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.anthropic.com/&quot;&gt;
+   Anthropic
+  &lt;/a&gt;
+  with particularly strong performance on coding and autonomous agent tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new model, called
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  , features 1 trillion total parameters with 32 billion activated parameters in a mixture-of-experts architecture. The company is releasing two versions: a foundation model for researchers and developers, and an instruction-tuned variant optimized for chat and autonomous agent applications.
+ &lt;/p&gt;
+ &lt;div class=&quot;twitter-tweet twitter-tweet-rendered&quot; style=&quot;display: flex; max-width: 550px; width: 100%; margin-top: 10px; margin-bottom: 10px;&quot;&gt;
+ &lt;/div&gt;
+ &lt;script async=&quot;&quot; charset=&quot;utf-8&quot; src=&quot;https://platform.twitter.com/widgets.js&quot;&gt;
+ &lt;/script&gt;
+ &lt;p&gt;
+  “Kimi K2 does not just answer; it acts,” the company stated in its
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   announcement blog
+  &lt;/a&gt;
+  . “With Kimi K2, advanced agentic intelligence is more open and accessible than ever. We can’t wait to see what you build.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model’s standout feature is its optimization for “agentic” capabilities — the ability to autonomously use tools, write and execute code, and complete complex multi-step tasks without human intervention. In benchmark tests,
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  achieved 65.8% accuracy on
+  &lt;a href=&quot;https://www.swebench.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   SWE-bench Verified
+  &lt;/a&gt;
+  , a challenging software engineering benchmark, outperforming most open-source alternatives and matching some proprietary models.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-david-meets-goliath-how-kimi-k2-outperforms-silicon-valley-s-billion-dollar-models&quot;&gt;
+  David meets Goliath: How Kimi K2 outperforms Silicon Valley’s billion-dollar models
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The performance metrics tell a story that should make executives at
+  &lt;a href=&quot;https://openai.com/&quot;&gt;
+   OpenAI
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.anthropic.com/&quot;&gt;
+   Anthropic
+  &lt;/a&gt;
+  take notice.
+  &lt;a href=&quot;https://huggingface.co/moonshotai/Kimi-K2-Instruct&quot;&gt;
+   Kimi K2-Instruct
+  &lt;/a&gt;
+  doesn’t just compete with the big players — it systematically outperforms them on tasks that matter most to enterprise customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On
+  &lt;a href=&quot;https://livecodebench.github.io/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   LiveCodeBench
+  &lt;/a&gt;
+  , arguably the most realistic coding benchmark available,
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  achieved 53.7% accuracy, decisively beating
+  &lt;a href=&quot;https://api-docs.deepseek.com/news/news1226&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   DeepSeek-V3
+  &lt;/a&gt;
+  ‘s 46.9% and
+  &lt;a href=&quot;https://openai.com/index/gpt-4-1/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   GPT-4.1
+  &lt;/a&gt;
+  ‘s 44.7%. More striking still: it scored 97.4% on
+  &lt;a href=&quot;https://huggingface.co/datasets/HuggingFaceH4/MATH-500&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   MATH-500
+  &lt;/a&gt;
+  compared to GPT-4.1’s 92.4%, suggesting Moonshot has cracked something fundamental about mathematical reasoning that has eluded larger, better-funded competitors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But here’s what the benchmarks don’t capture:
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Moonshot
+  &lt;/a&gt;
+  is achieving these results with a model that costs a fraction of what incumbents spend on training and inference. While OpenAI burns through hundreds of millions on compute for incremental improvements, Moonshot appears to have found a more efficient path to the same destination. It’s a classic innovator’s dilemma playing out in real time — the scrappy outsider isn’t just matching the incumbent’s performance, they’re doing it better, faster, and cheaper.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The implications extend beyond mere bragging rights. Enterprise customers have been waiting for AI systems that can actually complete complex workflows autonomously, not just generate impressive demos. Kimi K2’s strength on
+  &lt;a href=&quot;https://www.swebench.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   SWE-bench Verified
+  &lt;/a&gt;
+  suggests it might finally deliver on that promise.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-muonclip-breakthrough-why-this-optimizer-could-reshape-ai-training-economics&quot;&gt;
+  The MuonClip breakthrough: Why this optimizer could reshape AI training economics
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Buried in Moonshot’s technical documentation is a detail that could prove more significant than the model’s benchmark scores: their development of the
+  &lt;a href=&quot;https://huggingface.co/moonshotai/Kimi-K2-Base&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   MuonClip optimizer
+  &lt;/a&gt;
+  , which enabled stable training of a trillion-parameter model “with zero training instability.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This isn’t just an engineering achievement — it’s potentially a paradigm shift. Training instability has been the hidden tax on large language model development, forcing companies to restart expensive training runs, implement costly safety measures, and accept suboptimal performance to avoid crashes. Moonshot’s solution directly addresses exploding attention logits by rescaling weight matrices in query and key projections, essentially solving the problem at its source rather than applying band-aids downstream.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The economic implications are staggering. If
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   MuonClip
+  &lt;/a&gt;
+  proves generalizable — and
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Moonshot
+  &lt;/a&gt;
+  suggests it is — the technique could dramatically reduce the computational overhead of training large models. In an industry where training costs are measured in tens of millions of dollars, even modest efficiency gains translate to competitive advantages measured in quarters, not years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More intriguingly, this represents a fundamental divergence in optimization philosophy. While Western AI labs have largely converged on variations of AdamW, Moonshot’s bet on Muon variants suggests they’re exploring genuinely different mathematical approaches to the optimization landscape. Sometimes the most important innovations come not from scaling existing techniques, but from questioning their foundational assumptions entirely.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-open-source-as-competitive-weapon-moonshot-s-radical-pricing-strategy-targets-big-tech-s-profit-centers&quot;&gt;
+  Open source as competitive weapon: Moonshot’s radical pricing strategy targets big tech’s profit centers
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Moonshot’s decision to open-source
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  while simultaneously offering competitively priced API access reveals a sophisticated understanding of market dynamics that goes well beyond altruistic open-source principles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At $0.15 per million input tokens for cache hits and $2.50 per million output tokens,
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot;&gt;
+   Moonshot
+  &lt;/a&gt;
+  is pricing aggressively below
+  &lt;a href=&quot;https://openai.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   OpenAI
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.anthropic.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Anthropic
+  &lt;/a&gt;
+  while offering comparable — and in some cases superior — performance. But the real strategic masterstroke is the dual availability: enterprises can start with the API for immediate deployment, then migrate to self-hosted versions for cost optimization or compliance requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This creates a trap for incumbent providers. If they match Moonshot’s pricing, they compress their own margins on what has been their most profitable product line. If they don’t, they risk customer defection to a model that performs just as well for a fraction of the cost. Meanwhile, Moonshot builds market share and ecosystem adoption through both channels simultaneously.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The open-source component isn’t charity — it’s customer acquisition. Every developer who downloads and experiments with
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  becomes a potential enterprise customer. Every improvement contributed by the community reduces Moonshot’s own development costs. It’s a flywheel that leverages the global developer community to accelerate innovation while building competitive moats that are nearly impossible for closed-source competitors to replicate.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-from-demo-to-reality-why-kimi-k2-s-agent-capabilities-signal-the-end-of-chatbot-theater&quot;&gt;
+  From demo to reality: Why Kimi K2’s agent capabilities signal the end of chatbot theater
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The demonstrations
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Moonshot
+  &lt;/a&gt;
+  shared on social media reveal something more significant than impressive technical capabilities—they show AI finally graduating from parlor tricks to practical utility.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Consider the salary analysis example:
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  didn’t just answer questions about data, it autonomously executed 16 Python operations to generate statistical analysis and interactive visualizations. The London concert planning demonstration involved 17 tool calls across multiple platforms — search, calendar, email, flights, accommodations, and restaurant bookings. These aren’t curated demos designed to impress; they’re examples of AI systems actually completing the kind of complex, multi-step workflows that knowledge workers perform daily.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This represents a philosophical shift from the current generation of AI assistants that excel at conversation but struggle with execution. While competitors focus on making their models sound more human,
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Moonshot
+  &lt;/a&gt;
+  has prioritized making them more useful. The distinction matters because enterprises don’t need AI that can pass the Turing test—they need AI that can pass the productivity test.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The real breakthrough isn’t in any single capability, but in the seamless orchestration of multiple tools and services. Previous attempts at “agent” AI required extensive prompt engineering, careful workflow design, and constant human oversight.
+  &lt;a href=&quot;https://moonshotai.github.io/Kimi-K2/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Kimi K2
+  &lt;/a&gt;
+  appears to handle the cognitive overhead of task decomposition, tool selection, and error recovery autonomously—the difference between a sophisticated calculator and a genuine thinking assistant.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-great-convergence-when-open-source-models-finally-caught-the-leaders&quot;&gt;
+  The great convergence: When open source models finally caught the leaders
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Kimi K2’s release marks an inflection point that industry observers have predicted but rarely witnessed: the moment when open-source AI capabilities genuinely converge with proprietary alternatives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike previous “GPT killers” that excelled in narrow domains while failing on practical applications, Kimi K2 demonstrates broad competence across the full spectrum of tasks that define general intelligence. It writes code, solves mathematics, uses tools, and completes complex workflows—all while being freely available for modification and self-deployment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This convergence arrives at a particularly vulnerable moment for the AI incumbents. OpenAI faces mounting pressure to justify its
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-03-31/openai-finalizes-40-billion-funding-at-300-billion-valuation&quot;&gt;
+   $300 billion valuation
+  &lt;/a&gt;
+  while Anthropic struggles to differentiate Claude in an increasingly crowded market. Both companies have built business models predicated on maintaining technological advantages that Kimi K2 suggests may be ephemeral.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The timing isn’t coincidental. As transformer architectures mature and training techniques democratize, the competitive advantages increasingly shift from raw capability to deployment efficiency, cost optimization, and ecosystem effects.
+  &lt;a href=&quot;https://www.moonshot-ai.com/&quot;&gt;
+   Moonshot
+  &lt;/a&gt;
+  seems to understand this transition intuitively, positioning Kimi K2 not as a better chatbot, but as a more practical foundation for the next generation of AI applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The question now isn’t whether open-source models can match proprietary ones—Kimi K2 proves they already have. The question is whether the incumbents can adapt their business models fast enough to compete in a world where their core technology advantages are no longer defensible. Based on Friday’s release, that adaptation period just got considerably shorter.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> A new paradigm for AI: How ‘thinking as optimization’ leads to better general-purpose models </title>
+<link>https://venturebeat.com/ai/a-new-paradigm-for-ai-how-thinking-as-optimization-leads-to-better-general-purpose-models/</link>
+<pubDate>Fri, 11 Jul 2025 22:31:46 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Image credit: VentureBeat with Imagen 4&quot; class=&quot;skip-lazy&quot; height=&quot;409&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Energy-based-transformer.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Image credit: VentureBeat with Imagen 4
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Researchers at the University of Illinois Urbana-Champaign and the University of Virginia have developed a new model architecture that could lead to more robust AI systems with more powerful reasoning capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Called an
+  &lt;a href=&quot;https://github.com/alexiglad/ebt&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   energy-based transformer
+  &lt;/a&gt;
+  (EBT), the architecture shows a natural ability to use inference-time scaling to solve complex problems. For the enterprise, this could translate into cost-effective AI applications that can generalize to novel situations without the need for specialized fine-tuned models.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-challenge-of-system-2-thinking&quot;&gt;
+  The challenge of System 2 thinking
+ &lt;/h2&gt;
+ &lt;p&gt;
+  In psychology, human thought is often divided into two modes: System 1, which is fast and intuitive, and
+  &lt;a href=&quot;https://venturebeat.com/ai/meta-researchers-distill-system-2-thinking-into-llms-improving-performance-on-complex-reasoning/&quot;&gt;
+   System 2
+  &lt;/a&gt;
+  , which is slow, deliberate and analytical. Current large language models (LLMs) excel at System 1-style tasks, but the AI industry is increasingly focused on enabling System 2 thinking to tackle more complex reasoning challenges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Reasoning models use various
+  &lt;a href=&quot;https://venturebeat.com/ai/how-test-time-scaling-unlocks-hidden-reasoning-abilities-in-small-language-models-and-allows-them-to-outperform-llms/&quot;&gt;
+   inference-time scaling techniques
+  &lt;/a&gt;
+  to improve their performance on difficult problems. One popular method is reinforcement learning (RL), used in models like
+  &lt;a href=&quot;https://venturebeat.com/ai/open-source-deepseek-r1-uses-pure-reinforcement-learning-to-match-openai-o1-at-95-less-cost/&quot;&gt;
+   DeepSeek-R1
+  &lt;/a&gt;
+  and OpenAI’s “
+  &lt;a href=&quot;https://venturebeat.com/ai/five-breakthroughs-that-make-openais-o3-a-turning-point-for-ai-and-one-big-challenge/&quot;&gt;
+   o-series
+  &lt;/a&gt;
+  ” models, where the AI is rewarded for producing reasoning tokens until it reaches the correct answer. Another approach, often called best-of-n, involves generating multiple potential answers and using a verification mechanism to select the best one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, these methods have significant drawbacks. They are often limited to a narrow range of easily verifiable problems, like math and coding, and can degrade performance on other tasks such as creative writing. Furthermore,
+  &lt;a href=&quot;https://arxiv.org/abs/2504.13837&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   recent evidence
+  &lt;/a&gt;
+  suggests that RL-based approaches might not be teaching models new reasoning skills, instead just making them more likely to use successful reasoning patterns they already know. This limits their ability to solve problems that require true exploration and are beyond their training regime.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-energy-based-models-ebm&quot;&gt;
+  Energy-based models (EBM)
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The architecture proposes a different approach based on a class of models known as energy-based models (EBMs). The core idea is simple: Instead of directly generating an answer, the model learns an “energy function” that acts as a verifier. This function takes an input (like a prompt) and a candidate prediction and assigns a value, or “energy,” to it. A low energy score indicates high compatibility, meaning the prediction is a good fit for the input, while a high energy score signifies a poor match.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Applying this to AI reasoning, the researchers propose in
+  &lt;a href=&quot;https://arxiv.org/abs/2507.02092&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   a paper
+  &lt;/a&gt;
+  that devs should view “thinking as an optimization procedure with respect to a learned verifier, which evaluates the compatibility (unnormalized probability) between an input and candidate prediction.” The process begins with a random prediction, which is then progressively refined by minimizing its energy score and exploring the space of possible solutions until it converges on a highly compatible answer. This approach is built on the principle that verifying a solution is often much easier than generating one from scratch.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014101&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;419&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png 986w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=300,157 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=768,402 768w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=800,419 800w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=400,209 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=750,392 750w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=578,302 578w, https://venturebeat.com/wp-content/uploads/2025/07/image_b7d491.png?resize=930,487 930w&quot; width=&quot;800&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  This “verifier-centric” design addresses three key challenges in AI reasoning. First, it allows for dynamic compute allocation, meaning models can “think” for longer on harder problems and shorter on easy problems. Second, EBMs can naturally handle the uncertainty of real-world problems where there isn’t one clear answer. Third, they act as their own verifiers, eliminating the need for external models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike other systems that use separate generators and verifiers, EBMs combine both into a single, unified model. A key advantage of this arrangement is better generalization. Because verifying a solution on new, out-of-distribution (OOD) data is often easier than generating a correct answer, EBMs can better handle unfamiliar scenarios.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite their promise, EBMs have historically struggled with scalability. To solve this, the researchers introduce EBTs, which are specialized
+  &lt;a href=&quot;https://bdtechtalks.com/2022/05/02/what-is-the-transformer/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   transformer models
+  &lt;/a&gt;
+  designed for this paradigm. EBTs are trained to first verify the compatibility between a context and a prediction, then refine predictions until they find the lowest-energy (most compatible) output. This process effectively simulates a thinking process for every prediction. The researchers developed two EBT variants: A decoder-only model inspired by the GPT architecture, and a bidirectional model similar to BERT.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014099&quot; decoding=&quot;async&quot; height=&quot;263&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png 9491w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=300,99 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=768,253 768w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=800,263 800w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=1536,506 1536w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=2048,674 2048w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=400,132 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=750,247 750w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=578,190 578w, https://venturebeat.com/wp-content/uploads/2025/07/image_41149a.png?resize=930,306 930w&quot; width=&quot;800&quot;/&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   &lt;em&gt;
+    Energy-based transformer (source: GitHub)
+   &lt;/em&gt;
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The architecture of EBTs make them flexible and compatible with various inference-time scaling techniques. “EBTs can generate longer CoTs, self-verify, do best-of-N [or] you can sample from many EBTs,” Alexi Gladstone, a PhD student in computer science at the University of Illinois Urbana-Champaign and lead author of the paper, told VentureBeat. “The best part is, all of these capabilities are learned during pretraining.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-ebts-in-action&quot;&gt;
+  EBTs in action
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The researchers compared EBTs against established architectures: the popular
+  &lt;a href=&quot;https://arxiv.org/abs/2003.04974&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   transformer++
+  &lt;/a&gt;
+  recipe for text generation (discrete modalities) and the diffusion transformer (DiT) for tasks like video prediction and image denoising (continuous modalities). They evaluated the models on two main criteria: “Learning scalability,” or how efficiently they train, and “thinking scalability,” which measures how performance improves with more computation at inference time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During pretraining, EBTs demonstrated superior efficiency, achieving an up to 35% higher scaling rate than Transformer++ across data, batch size, parameters and compute. This means EBTs can be trained faster and more cheaply.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At inference, EBTs also outperformed existing models on reasoning tasks. By “thinking longer” (using more optimization steps) and performing “self-verification” (generating multiple candidates and choosing the one with the lowest energy), EBTs improved language modeling performance by 29% more than Transformer++. “This aligns with our claims that because traditional feed-forward transformers cannot dynamically allocate additional computation for each prediction being made, they are unable to improve performance for each token by thinking for longer,” the researchers write.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For image denoising, EBTs achieved better results than DiTs while using 99% fewer forward passes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Crucially, the study found that EBTs generalize better than the other architectures. Even with the same or worse pretraining performance, EBTs outperformed existing models on downstream tasks. The performance gains from System 2 thinking were most substantial on data that was further out-of-distribution (different from the training data), suggesting that EBTs are particularly robust when faced with novel and challenging tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers suggest that “the benefits of EBTs’ thinking are not uniform across all data but scale positively with the magnitude of distributional shifts, highlighting thinking as a critical mechanism for robust generalization beyond training distributions.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The benefits of EBTs are important for two reasons. First, they suggest that at the massive scale of today’s foundation models, EBTs could significantly outperform the classic transformer architecture used in LLMs. The authors note that “at the scale of modern foundation models trained on 1,000X more data with models 1,000X larger, we expect the pretraining performance of EBTs to be significantly better than that of the Transformer++ recipe.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Second, EBTs show much better data efficiency. This is a critical advantage in an era where high-quality training data is becoming a major bottleneck for scaling AI. “As data has become one of the major limiting factors in further scaling, this makes EBTs especially appealing,” the paper concludes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite its different inference mechanism, the EBT architecture is highly compatible with the transformer, making it possible to use them as a drop-in replacement for current LLMs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “EBTs are very compatible with current hardware/inference frameworks,” Gladstone said, including speculative decoding using feed-forward models on both GPUs or TPUs. He said he is also confident they can run on specialized accelerators such as LPUs and optimization algorithms such as
+  &lt;a href=&quot;https://venturebeat.com/ai/flashattention-3-unleashes-the-power-of-h100-gpus-for-llms/&quot;&gt;
+   FlashAttention-3
+  &lt;/a&gt;
+  , or can be deployed through common inference frameworks like vLLM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For developers and enterprises, the strong reasoning and generalization capabilities of EBTs could make them a powerful and reliable foundation for building the next generation of AI applications. “Thinking longer can broadly help on almost all enterprise applications, but I think the most exciting will be those requiring more important decisions, safety or applications with limited data,” Gladstone said.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Solo.io wins ‘most likely to succeed’ award at VB Transform 2025 innovation showcase </title>
+<link>https://venturebeat.com/ai/solo-io-wins-most-likely-to-succeed-award-at-vb-transform-2025-innovation-showcase/</link>
+<pubDate>Fri, 11 Jul 2025 20:21:41 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Solo.io CEO and founder Idit Levine and Chief Product Officer Keith Babo after winning most likely to succeed at VB Transform&#x27;s Innovation Showcase in SF on June 25, 2025. Photo: &quot; class=&quot;skip-lazy&quot; height=&quot;500&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/VBTRANSFORM25-0743.jpg?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Solo.io CEO and founder Idit Levine and Chief Product Officer Keith Babo after winning most likely to succeed at VB Transform&#x27;s Innovation Showcase in SF on June 25, 2025. Photo: Michael O&#x27;Donnell Photography
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Cambridge, Mass.-based
+  &lt;a href=&quot;https://www.solo.io/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Solo.io
+  &lt;/a&gt;
+  was awarded “Most Likely to Succeed” at the
+  &lt;a href=&quot;https://venturebeat.com/ai/announcing-our-2025-vb-transform-innovation-showcase-finalists/&quot;&gt;
+   Innovation Showcase
+  &lt;/a&gt;
+  at
+  &lt;a href=&quot;https://venturebeat.com/tag/vb-transform-2025/&quot;&gt;
+   VB Transform
+  &lt;/a&gt;
+  in San Francisco on June 25.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2017, the cloud-native application networking company — which raised $135 million in a
+  &lt;a href=&quot;https://www.solo.io/company/about-us&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Series C round in 2021
+  &lt;/a&gt;
+  and is valued at $1 billion — provides tools for connecting, securing and observing modern applications, particularly those built on Kubernetes and microservices.
+ &lt;/p&gt;
+ &lt;strong&gt;
+  &amp;gt;&amp;gt;
+  &lt;a href=&quot;https://venturebeat.com/tag/vb-transform-2025/&quot;&gt;
+   See all our Transform 2025 coverage here
+  &lt;/a&gt;
+  &amp;lt;&amp;lt;
+ &lt;/strong&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-introducing-kagent-studio&quot;&gt;
+  Introducing Kagent Studio
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The company’s Kagent platform is a first-of-its-kind cloud native framework that helps DevOps and platform engineers build and run AI agents in Kubernetes. During the Innovation Showcase at this year’s VB Transform, the company announced the launch of Kagent Studio, a framework that allows enterprises to build, secure, run and manage their AI agents in Kubernetes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Keith Babo, the company’s CPO, presented the new offering from VB Transform’s main stage. He said the framework aims to address platform engineering challenges by offering features including:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   Native VSCode extension integration
+  &lt;/li&gt;
+  &lt;li&gt;
+   Real-time incident response capabilities
+  &lt;/li&gt;
+  &lt;li&gt;
+   Bilateral communication between workplace communications platforms such as Slack and Teams and the integrated development environment (IDE)
+  &lt;/li&gt;
+  &lt;li&gt;
+   Automated root cause analysis generation
+  &lt;/li&gt;
+  &lt;li&gt;
+   Live infrastructure monitoring and diagnostics
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “It’s the first framework of its kind that targets this audience that’s building and running on Kubernetes for agents,” Babo said in an interview with VentureBeat. “We wanted to make sure that we could bring that directly into the tools that platform engineers are using on a day-to-day basis.”
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-helping-platform-engineers-share-context&quot;&gt;
+  Helping Platform engineers share context
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Babo said the framework operates as a native extension in VS code and checks the boxes on many core platform engineering workflows, including incident response.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “So you get maybe a PagerDuty alert that shows up in your IDE. You can acknowledge it and immediately our agents running locally inside the IDE will pick up that incident and start to diagnose. All of this is live right in front of the engineer. So you’re seeing the actual charts and the logs and the status of the core pods or infrastructure under which you’re running, and you’re getting all that live and the human in the loop the whole time,” he explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The engineer then instructs the system to move forward (or not), allowing the agent and human to coexist and partner in the effective resolution of this issue, Babo added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He said the framework will allow for the live injection of context from the communications platforms to the IDE, with analysis being shared back to the communications platform, enabling bilateral communication for people working on the issue.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-salesforce-for-platform-engineers&quot;&gt;
+  Salesforce for platform engineers
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Idit Levine, the company’s founder and CEO, said in an interview with VentureBeat that she sees Kagent Studio as an “essential engineering tool,” similar to Salesforce’s CRM, which is essential for sales teams across the enterprise. She said Kagent Studio connects context and communication across platforms and platform engineering subteams.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Levine said winning the “Most Likely to Succeed” award was “great validation for us” and indicative of enterprise interest in their offering.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kagent Studio has already gained significant traction, according to Babo and Levine. It has 1,000-plus contributors, 1,100-plus GitHub stars, and users already running it in production. It is currently in a closed preview phase; users can request access. More information can be found on the
+  &lt;a href=&quot;https://discord.gg/Fu3k65f2k3&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   discord server
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Each finalist presented to an audience of industry decision-makers and received feedback from a panel of venture capital judges at the showcase. These included Emily Zhao, principal at Salesforce Ventures; Matt Kraning, partner at Menlo Ventures; and Rebecca Li, investment director at Amex Ventures.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Read about other winners
+  &lt;a href=&quot;https://venturebeat.com/ai/ctgt-wins-best-presentation-style-award-at-vb-transform-2025/&quot;&gt;
+   CTGT
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://venturebeat.com/ai/catio-wins-coolest-tech-award-at-vb-transform-2025/&quot;&gt;
+   Catio
+  &lt;/a&gt;
+  . Finalists included
+  &lt;a href=&quot;https://kumo.ai/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Kumo
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;http://superduper.io&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Superduper.io
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://withsutro.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Sutro
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://qdrant.tech/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Qdrant
+  &lt;/a&gt;
+  &lt;em&gt;
+   .
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Editor’s note: As a thank-you to our readers, we’ve opened up early bird registration for VB Transform 2026 — at just $200. This is where AI ambition meets operational reality, and you’re going to want to be in the room.
+  &lt;/em&gt;
+  &lt;a href=&quot;https://lu.ma/92nbdnnx&quot;&gt;
+   &lt;em&gt;
+    Reserve your spot now
+   &lt;/em&gt;
+  &lt;/a&gt;
+  &lt;em&gt;
+   .
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> The great AI agent acceleration: Why enterprise adoption is happening faster than anyone predicted </title>
+<link>https://venturebeat.com/ai/the-great-ai-agent-acceleration-why-enterprise-adoption-is-happening-faster-than-anyone-predicted/</link>
+<pubDate>Fri, 11 Jul 2025 18:54:41 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;AI agents are being deployed in the enterprise&quot; class=&quot;skip-lazy&quot; height=&quot;500&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/ChatGPT-Image-Jul-11-2025-10_54_49-AM.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;div class=&quot;vb_image_source&quot;&gt;
+    &lt;em&gt;
+     Image Credit: VentureBeat via ChatGPT
+    &lt;/em&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The chatter around artificial general intelligence (AGI) may dominate headlines coming from Silicon Valley companies like
+  &lt;a href=&quot;https://openai.com/&quot;&gt;
+   OpenAI
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.meta.com/&quot;&gt;
+   Meta
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://x.ai/&quot;&gt;
+   xAI
+  &lt;/a&gt;
+  , but for enterprise leaders on the ground, the focus is squarely on practical applications and measurable results. At VentureBeat’s recent
+  &lt;strong&gt;
+   &lt;a href=&quot;https://venturebeat.com/tag/vb-transform-2025/&quot;&gt;
+    Transform 2025
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  event in San Francisco, a clear picture emerged: the era of real, deployed agentic AI is here, is accelerating and it’s already reshaping how businesses operate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Companies like
+  &lt;strong&gt;
+   &lt;a href=&quot;https://www.intuit.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    Intuit
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  ,
+  &lt;strong&gt;
+   &lt;a href=&quot;https://www.capitalone.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    Capital One
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  ,
+  &lt;strong&gt;
+   &lt;a href=&quot;https://www.linkedin.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    LinkedIn
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  ,
+  &lt;a href=&quot;https://www.stanford.edu/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   &lt;strong&gt;
+    Stanford
+   &lt;/strong&gt;
+   &lt;strong&gt;
+    University
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  and
+  &lt;strong&gt;
+   &lt;a href=&quot;https://www.highmarkhealth.org/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    Highmark Health
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  are quietly putting AI agents into production, tackling concrete problems, and seeing tangible returns. Here are the four biggest takeaways from the event for technical decision-makers.
+ &lt;/p&gt;
+ &lt;strong&gt;
+  &amp;gt;&amp;gt;
+  &lt;a href=&quot;https://venturebeat.com/tag/vb-transform-2025/&quot;&gt;
+   See all our Transform 2025 coverage here
+  &lt;/a&gt;
+  &amp;lt;&amp;lt;
+ &lt;/strong&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-1-ai-agents-are-moving-into-production-faster-than-anyone-realized&quot;&gt;
+  &lt;strong&gt;
+   1. AI Agents are moving into production, faster than anyone realized
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Enterprises are now deploying AI agents in customer-facing applications, and the trend is accelerating at a breakneck pace. A recent VentureBeat survey of 2,000 industry professionals conducted just before VB Transform revealed that
+  &lt;strong&gt;
+   68% of enterprise companies
+  &lt;/strong&gt;
+  (with 1,000+ employees) had already adopted agentic AI – a figure that seemed high at the time. (In fact, I worried it was too high to be credible, so when I announced the survey results on the event stage, I cautioned that the high adoption may be a reflection of VentureBeat’s specific readership.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, new data validates this rapid shift. A
+  &lt;a href=&quot;https://kpmg.com/us/en/media/news/q2-ai-pulse-2025-agents-move-beyond-experimentation.html&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   &lt;strong&gt;
+    KPMG survey
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  released on June 26, a day after our event, shows that
+  &lt;strong&gt;
+   33% of organizations are now deploying AI agents
+  &lt;/strong&gt;
+  , a surprising threefold increase from just 11% in the previous two quarters. This market shift validates the trend VentureBeat first identified just weeks ago in its pre-Transform survey.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This acceleration is being fueled by tangible results.
+  &lt;strong&gt;
+   Ashan Willy
+  &lt;/strong&gt;
+  , CEO of
+  &lt;strong&gt;
+   &lt;a href=&quot;https://newrelic.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    New Relic
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  , noted a staggering
+  &lt;a href=&quot;https://venturebeat.com/ai/transform-2025-why-observability-is-critical-for-ai-agent-ecosystems/&quot;&gt;
+   &lt;strong&gt;
+    30% quarter over quarter growth
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  in monitoring AI applications by its customers, mainly because of the its customers’ move to adopt agents. Companies are deploying AI agents to help customers automate workflows they need help with.
+  &lt;strong&gt;
+   Intuit
+  &lt;/strong&gt;
+  , for instance, has deployed invoice generation and reminder agents in its QuickBooks software. The result? Businesses using the feature are
+  &lt;a href=&quot;https://venturebeat.com/ai/dont-wait-for-a-bake-off-how-intuit-and-amex-beat-competitors-to-production-ai-agents/&quot;&gt;
+   getting paid five days faster and are 10% more likely to be paid in full
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even non-developers are feeling the shift.
+  &lt;strong&gt;
+   Scott White
+  &lt;/strong&gt;
+  , the product lead of
+  &lt;strong&gt;
+   Anthropic’s
+  &lt;/strong&gt;
+  Claude AI product, described how he, despite not being a professional programmer,
+  &lt;a href=&quot;https://venturebeat.com/ai/from-chatbots-to-collaborators-how-ai-agents-are-reshaping-enterprise-work/&quot;&gt;
+   is now building production-ready software features himself
+  &lt;/a&gt;
+  . “This wasn’t possible six months ago,” he explained, highlighting the power of tools like Claude Code. Similarly,
+  &lt;strong&gt;
+   OpenAI’s
+  &lt;/strong&gt;
+  head of product for its API platform,
+  &lt;strong&gt;
+   Olivier Godement
+  &lt;/strong&gt;
+  , detailed how customers like
+  &lt;strong&gt;
+   Stripe
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Box
+  &lt;/strong&gt;
+  are
+  &lt;a href=&quot;https://venturebeat.com/programming-development/openais-api-lead-explains-how-enterprises-are-already-succeeding-with-its-agents-sdk-and-responses-api/&quot;&gt;
+   using its Agents SDK to build out multi-agent systems
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-2-the-hyperscaler-race-has-no-clear-winner-as-multi-cloud-multi-model-reigns&quot;&gt;
+  &lt;strong&gt;
+   2. The hyperscaler race has no clear winner as multi-cloud, multi-model reigns
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The days of betting on a single large language model (LLM) provider are over. A consistent theme throughout Transform 2025 was the move towards a multi-model and multi-cloud strategy. Enterprises want the flexibility to choose the best tool for the job, whether it’s a powerful proprietary model or a fine-tuned open-source alternative.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;strong&gt;
+   Armand Ruiz
+  &lt;/strong&gt;
+  , VP of AI Platform at
+  &lt;strong&gt;
+   IBM
+  &lt;/strong&gt;
+  &lt;a href=&quot;https://venturebeat.com/ai/ibm-sees-enterprise-customers-are-using-everything-when-it-comes-to-ai-the-challenge-is-matching-the-llm-to-the-right-use-case/&quot;&gt;
+   explained
+  &lt;/a&gt;
+  , the company’s development of a model gateway — which routes applications to use whatever LLM is most efficient and performant for the specific case –was a direct response to customer demand. IBM started by offering enterprise customers its own open-source models, then added open-source support, and finally realized it needed to support all models. This desire for flexibility was echoed by XD Huang, the CTO of Zoom, who described his company’s
+  &lt;a href=&quot;https://venturebeat.com/ai/ibm-sees-enterprise-customers-are-using-everything-when-it-comes-to-ai-the-challenge-is-matching-the-llm-to-the-right-use-case/&quot;&gt;
+   three-tiered model approach
+  &lt;/a&gt;
+  : supporting proprietary models, offering their own fine-tuned model and allowing customers to create their own fine-tuned versions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This trend is creating a powerful but constrained ecosystem, where GPUs and the power needed to generate tokens are in limited supply. As
+  &lt;strong&gt;
+   Dylan Patel
+  &lt;/strong&gt;
+  of
+  &lt;strong&gt;
+   SemiAnalysis
+  &lt;/strong&gt;
+  and fellow panelists
+  &lt;strong&gt;
+   Jonathan Ross
+  &lt;/strong&gt;
+  of
+  &lt;strong&gt;
+   Groq
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Sean Liu
+  &lt;/strong&gt;
+  of
+  &lt;strong&gt;
+   Cerebras
+  &lt;/strong&gt;
+  &lt;a href=&quot;https://venturebeat.com/ai/nvidias-ai-factory-narrative-faces-reality-check-at-transform-2025/&quot;&gt;
+   pointed out
+  &lt;/a&gt;
+  , this puts pressure on the profitability of a lot of companies that simply buy more tokens when they are available, instead of locking into profits as the cost of those tokens continues to fall. Enterprises are getting smarter about how they use different models for different tasks to optimize for both cost and performance — and that may often mean not just relying on Nvidia chips, but being much more customized — something also echoed in a VB Transform session led by
+  &lt;strong&gt;
+   Solidigm
+  &lt;/strong&gt;
+  around the
+  &lt;a href=&quot;https://venturebeat.com/ai/cracking-ais-storage-bottleneck-and-supercharging-inference-at-the-edge/&quot;&gt;
+   emergence of customized memory and storage solutions for AI
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-3-enterprises-are-focused-on-solving-real-problems-not-chasing-agi&quot;&gt;
+  &lt;strong&gt;
+   3. Enterprises are focused on solving real problems, not chasing AGI
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  While tech leaders like Elon Musk, Mark Zuckerberg and Sam Altman are talking about the dawn of superintelligence, enterprise practitioners are rolling up their sleeves and solving immediate business challenges. The conversations at Transform were refreshingly grounded in reality.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Take
+  &lt;strong&gt;
+   Highmark Health,
+  &lt;/strong&gt;
+  the nation’s third-largest integrated health insurance and provider company. Its Chief Data Officer
+  &lt;strong&gt;
+   Richard Clarke
+  &lt;/strong&gt;
+  said it is
+  &lt;a href=&quot;https://venturebeat.com/ai/how-highmark-health-and-google-cloud-are-using-gen-ai-to-streamline-medical-claims-and-improve-care-6-key-lessons/&quot;&gt;
+   using LLMs for
+  &lt;/a&gt;
+  practical applications like multilingual communication to better serve their diverse customer base, and streamlining medical claims. In other words, leveraging technology to deliver better services today. Similarly,
+  &lt;strong&gt;
+   Capital One
+  &lt;/strong&gt;
+  is
+  &lt;a href=&quot;https://venturebeat.com/ai/how-capital-one-built-production-multi-agent-ai-workflows-to-power-enterprise-use-cases/&quot;&gt;
+   building teams of agents that mirror the functions of the company
+  &lt;/a&gt;
+  , with specific agents for tasks like risk evaluation and auditing, including helping their car dealership clients connect customers with the right loans.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The travel industry is also seeing a pragmatic shift. CTOs from
+  &lt;strong&gt;
+   Expedia
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Kayak
+  &lt;/strong&gt;
+  &lt;a href=&quot;https://venturebeat.com/ai/kayak-and-expedia-race-to-build-ai-travel-agents-that-turn-social-posts-into-itineraries/&quot;&gt;
+   discussed how they are adapting to new search paradigms enabled by LLMs
+  &lt;/a&gt;
+  . Users can now search for a hotel with an “infinity pool” on ChatGPT, and travel platforms need to incorporate that level of natural language discovery to stay competitive. The focus is on the customer, not the technology for its own sake.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-4-the-future-of-ai-teams-is-small-nimble-and-empowered&quot;&gt;
+  &lt;strong&gt;
+   4. The future of AI teams is small, nimble, and empowered
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The age of AI agents is also transforming how teams are structured. The consensus is that small, agile “squads” of three to four engineers are most effective.
+  &lt;strong&gt;
+   Varun Mohan
+  &lt;/strong&gt;
+  , CEO of
+  &lt;strong&gt;
+   Windsurf
+  &lt;/strong&gt;
+  , a fast-growing agentic IDE,
+  &lt;a href=&quot;https://venturebeat.com/programming-development/windsurf-ceo-varun-mohan-throws-cold-water-on-1-person-billion-dollar-startup-idea-at-vb-transform-more-people-allow-you-to-grow-faster/&quot;&gt;
+   kicked off the event by arguing
+  &lt;/a&gt;
+  that this small team structure allows for rapid testing of product hypotheses and avoids the slowdown that plagues larger groups.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This shift means that “everyone is a builder,” and increasingly, “everyone is a manager” of AI agents. As
+  &lt;strong&gt;
+   GitHub
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Atlassian
+  &lt;/strong&gt;
+  noted, engineers are
+  &lt;a href=&quot;https://venturebeat.com/ai/enterprise-giants-atlassian-intuit-and-aws-are-planning-for-a-world-where-agents-call-the-apis/&quot;&gt;
+   now learning to manage fleets of agents
+  &lt;/a&gt;
+  . The skills required are evolving, with a greater emphasis on clear communication and strategic thinking to guide these autonomous systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This nimbleness is supported by a growing acceptance of sandboxed development.
+  &lt;strong&gt;
+   Andrew Ng
+  &lt;/strong&gt;
+  , a leading voice in AI, advised attendees to
+  &lt;a href=&quot;https://venturebeat.com/ai/sandbox-first-andrew-ngs-blueprint-for-accelerating-enterprise-ai-innovation/&quot;&gt;
+   leave safety, governance, and observability to the end of the development cycle
+  &lt;/a&gt;
+  . While this might seem counterintuitive for large enterprises, the idea is to foster rapid innovation within a controlled environment to prove value quickly. This sentiment was reflected in our survey, which found that
+  &lt;strong&gt;
+   10% of organizations adopting AI have no dedicated AI safety team
+  &lt;/strong&gt;
+  , suggesting a willingness to prioritize speed in these early stages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Together, these takeaways paint a clear picture of an enterprise AI landscape that is maturing rapidly, moving from broad experimentation to focused, value-driven execution. The conversations at Transform 2025 showed that companies are deploying AI agents today, even if they’ve had to learn tough lessons on the way. Many have already gone through one or two big pivots since first trying out generative AI one or two years ago — so it’s good to get started early.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For a more conversational dive into these themes and further analysis from the event, you can listen to the full discussion I had with independent AI developer Sam Witteveen on our recent podcast below. We’ve also just uploaded the main-stage talks at VB Transform
+  &lt;a href=&quot;https://www.youtube.com/@VentureBeat&quot;&gt;
+   here
+  &lt;/a&gt;
+  . And our full coverage of articles from the event is
+  &lt;a href=&quot;https://venturebeat.com/tag/vb-transform-2025/&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Listen to the VB Transform takeaways podcast with Matt Marshall and Sam Witteveen here:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Editor’s note: As a thank-you to our readers, we’ve opened up early bird registration for VB Transform 2026 — just $200. This is where AI ambition meets operational reality, and you’re going to want to be in the room.
+   &lt;a href=&quot;https://lu.ma/92nbdnnx&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    Reserve your spot now
+   &lt;/a&gt;
+   .
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> $8.8 trillion protected: How one CISO went from ‘that’s BS’ to bulletproof in 90 days </title>
+<link>https://venturebeat.com/security/ciso-dodges-bullet-protecting-8-8-trillion-from-shadow-ai/</link>
+<pubDate>Thu, 10 Jul 2025 23:26:25 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;skip-lazy&quot; height=&quot;409&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/balancing-genai-.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  VentureBeat’s exclusive interview with Sam Evans, CISO of
+  &lt;a href=&quot;https://clearwateranalytics.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Clearwater Analytics
+  &lt;/a&gt;
+  , reveals why enterprise browsers are quickly becoming the frontline defense against
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-unapproved-ai-apps-compromising-security-what-you-can-do-about-it/&quot;&gt;
+   shadow AI
+  &lt;/a&gt;
+  in its
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/&quot;&gt;
+   many forms
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Evans faced a critical challenge in October 2023. Standing before Clearwater Analytics’ board, he had to confront concerns that employees might inadvertently expose data that could potentially compromise the firm’s
+  &lt;a href=&quot;https://clearwateranalytics.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   $8.8 trillion assets under management
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The worst possible thing would be one of our employees taking customer data and putting it into an AI engine that we don’t manage,” Evans told VentureBeat. “The employee not knowing any different or trying to solve a problem for a customer…that data helps train the model.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here is our conversation with Evans, edited for length and clarity
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  How do you see AI shaping cybersecurity today?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  The attacks have become significantly more sophisticated. If you consider it from the perspective of a bad actor, the phishing emails and attempts we receive have become much more complex. However, AI also possesses response capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I like to explain it to our board, as the ultimate cat-and-mouse game. As bad actors start to use AI to advance phishing, or perhaps expedite the time it takes for exploits to emerge after vulnerabilities are announced, there’s the opposite side of security practitioners using AI to help advance how we respond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  How is AI helping your defensive capabilities?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  We’ve begun integrating AI into our security playbooks. By doing so, our security analysts now spend less time searching and hunting. The AI is involved in the security operations center (SOC) product, conducting its initial triage analysis and saying, “Based on previous things that we’ve seen and things in my model, this is where I’d like to guide you.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the defensive side, we’re really starting to see AI come into play.
+  &lt;a href=&quot;https://www.crowdstrike.com/en-us/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   CrowdStrike
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.sentinelone.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Sentinel One
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.microsoft.com/en-us/security/business/microsoft-defender&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Microsoft Defender
+  &lt;/a&gt;
+  , the traditional extended detection and response (EDR) products were using some machine learning, and they would get to a probability of maybe 85% that this could be a threat, but we’re not really sure. However, AI enriches the EDR engine’s ability to reach a higher probability rate of identifying a threat.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat: W
+  &lt;/strong&gt;
+  hat keeps you up at night when it comes to AI and cybersecurity?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  The thing that does worry me quite a bit is the
+  &lt;a href=&quot;https://venturebeat.com/security/how-adversarial-ai-is-creating-shallow-trust-in-deepfake-world/&quot;&gt;
+   deepfakes
+  &lt;/a&gt;
+  . You read multiple stories about people using
+  &lt;a href=&quot;https://venturebeat.com/security/deepfakes-will-cost-40-billion-by-2027-as-adversarial-ai-gains-momentum/&quot;&gt;
+   deepfakes to impersonate a CEO
+  &lt;/a&gt;
+  to initiate wire transfers. Those are concerning because they do look very, very real.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the biggest concern? The worst possible thing would be one of our employees taking customer data and putting it into an AI engine that we don’t manage, and then it becomes data that helps train the model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  How did you explain this shadow AI risk to your board?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  I remember when one of the first board meetings I was in, they asked me, “So what are your thoughts on ChatGPT?” I said, “Well, it’s an incredible productivity tool. However, I don’t know how we could let our employees use it, because my biggest fear is somebody copies and pastes customer data into it, or our source code, which is our intellectual property.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  But I didn’t just come to the board with my concerns and problems. I said, “Well, here’s my solution. I don’t want to stop people from being productive, but I also want to protect it.” When I came to the board and explained how these enterprise browsers work, they’re like, “Okay, that makes much sense, but can you really do it?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  Walk me through your evaluation and deployment process for
+  &lt;a href=&quot;https://www.island.io/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Island
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  After that October 2023 board meeting, we started a pretty long due diligence process. We took a look at some of the major vendors in the enterprise browser space.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’ll share with you ultimately why we went with an Island. We needed to be able to control what browsers people are using on their endpoints. It doesn’t do any good to deploy an enterprise browser when somebody can go and download Opera or “Frank’s browser of the month” and use it, and it just bypasses all of the Island controls.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other reason we went with Island was truly because of the speed of the deployment. I remember being on a call with Island salespeople, and they’re saying, “We believe we can get this deployed in your company in a matter of weeks.” I’m like, “Oh, that’s BS.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  But they delivered?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  They took it as a personal challenge! We started our Island deployment in April 2024 with about 200 people. We went the extension route first; the Island extension in Chrome and Edge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It wasn’t until July when the board asked, “How is it going?” And I said, “How about I just show you?” I pulled up a screenshot because, you know, Murphy’s Law demos always fail. So I showed them screenshots, “Here I am on ChatGPT. I tried to paste something in. I got the prompt: ‘Island policy prevents you from doing this.&#x27;”
+ &lt;/p&gt;
+ &lt;p&gt;
+  They’re like, “Wow, this is fantastic! But people can still utilize the tool to ask good questions?” I said, “Yeah, absolutely. They just can’t put data into it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  Do you feel that Island assures you and reduces the risk of Shadow AI?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  It definitely has helped us get a handle on
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-unapproved-ai-apps-compromising-security-what-you-can-do-about-it/&quot;&gt;
+   shadow AI
+  &lt;/a&gt;
+  . No security tool is 100% perfect. Having deployed Island, we definitely sleep a lot easier. We can feel reasonably comfortable that if an employee is going to an AI instance that we don’t have licensed, they can use it, but can’t paste data or upload files.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s also helped us identify where we have gaps. Employees found this really great AI widget thing, they come to the security team, “Hey, look, check this out.” And then we can come back to our product development teams and figure out how we help enable this, not just for our employees, but for our customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  How do you defend against deepfakes?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  That’s a tough one to wrap your arms around. We have an excellent security awareness program. We ask employees to use common sense. Do you really think Sandeep Sahai, our CEO, is going to call you up and ask you to buy him Apple gift cards?
+ &lt;/p&gt;
+ &lt;p&gt;
+  We’ve set up a lot of checks and balances, kind of like the two-person buddy check system. There’s no technology solution for something like that. It’s a human problem that we’ve had to implement a human solution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VentureBeat:
+  &lt;/strong&gt;
+  What advice would you give other CISOs facing shadow AI?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Evans:
+  &lt;/strong&gt;
+  This isn’t just about blocking, it’s about enablement. Bring solutions, not just problems. When I came to the board, I didn’t just highlight the risks; I proposed a solution that balanced security with productivity.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-welcome-to-the-shadow-ai-arms-race&quot;&gt;
+  Welcome to the shadow AI arms race
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Evans’ insights reveal how quickly shadow AI has become an existential threat to every data-intensive business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We see
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/&quot;&gt;
+   50 new AI apps a day
+  &lt;/a&gt;
+  , and we’ve already cataloged over 12,000,” Itamar Golan, CEO of Prompt Security, told VentureBeat, quantifying what security teams are calling their worst nightmare since ransomware.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/&quot;&gt;
+   onslaught of unauthorized AI use and apps
+  &lt;/a&gt;
+  has triggered intense competition among security vendors. “Most traditional management tools lack comprehensive visibility into AI apps,” Vineet Arora, CTO of WinWire, explained to
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-unapproved-ai-apps-compromising-security-what-you-can-do-about-it/&quot;&gt;
+   VentureBeat
+  &lt;/a&gt;
+  , pinpointing exactly why shadow AI flourishes as legacy security architectures are blind to it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vendor ecosystem has crystallized into four distinct battlegrounds, each with its weapons and weaknesses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Enterprise browsers lead the charge.
+  &lt;/strong&gt;
+  Foremost among them is Island, which recently raised a
+  &lt;a href=&quot;https://techcrunch.com/2025/03/26/island-lands-250m-in-funding-at-a-4-8b-valuation/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   $250 million funding round
+  &lt;/a&gt;
+  , a vote of confidence from the investor community. While Island bets on pre-encryption visibility, Google Chrome Enterprise attacks shadow AI differently, weaponizing its market dominance and Google’s security stack.
+  &lt;a href=&quot;https://chromeenterprise.google/products/chrome-enterprise-premium/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Chrome Enterprise Premium
+  &lt;/a&gt;
+  delivers data loss prevention (DLP) controls that block data flows to
+  &lt;a href=&quot;https://cloud.google.com/blog/products/chrome-enterprise/new-ways-to-protect-your-sensitive-data-with-chrome-enterprise&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   ChatGPT and other AI tools
+  &lt;/a&gt;
+  , prevent cross-profile contamination and enforce real-time content scanning. The platform
+  &lt;a href=&quot;https://chromeenterprise.google/products/chrome-enterprise-premium/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   exposes shadow AI usage patterns
+  &lt;/a&gt;
+  while blocking both accidental pastes and deliberate exfiltration. Strategic partnerships with
+  &lt;a href=&quot;https://www.zscaler.com/press/zscaler-joins-forces-google-offer-unparalleled-zero-trust-data-and-threat-protection&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Zscaler
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.cisco.com/c/en/us/products/collateral/security/secure-access/sec-access-chrome-enterprise-sg.html&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Cisco Secure Access
+  &lt;/a&gt;
+  amplify Chrome’s reach to create an ecosystem where zero-trust principles extend directly to AI interactions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SASE/SSE platforms deliver enterprise-scale defense.
+  &lt;/strong&gt;
+  Netskope and Zscaler bring scale to shadow AI defense through their cloud-native security access service edge (SASE) architectures. Both platforms process billions of transactions daily across global infrastructures, with Netskope specifically advertising its ability to monitor AI application usage across enterprises. Their key limitation: When
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/&quot;&gt;
+   73.8% of workplace ChatGPT usage
+  &lt;/a&gt;
+  occurs through personal accounts, SSL/TLS encryption prevents platforms from inspecting content, forcing them to rely on traffic patterns and metadata, leading to visibility gaps where shadow AI operates undetected
+  &lt;strong&gt;
+   .
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Traditional DLP vendors struggle to adapt
+  &lt;/strong&gt;
+  . Legacy vendors Forcepoint and Microsoft Purview have a strong legacy to trade on when it comes to battling shadow AI. Forcepoint claims 1,700-plus classifiers while Purview leverages AI to triage tasks. But here’s the problem: They’re retrofitting 20th-century architectures for 21st-century threats. These platforms excel at compliance checkboxes and policy templates but fail to keep up with AI’s quicker pace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Daren Goeson,
+  &lt;a href=&quot;https://www.ivanti.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Ivanti’s
+  &lt;/a&gt;
+  SVP of product management for UEM told VentureBeat: “AI-powered endpoint security tools can analyze vast amounts of data to detect anomalies and predict potential threats faster and more accurately than any human analyst.” Traditional DLP operates at audit speed. Shadow AI moves at machine speed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Specialized solutions fill critical gaps
+  &lt;/strong&gt;
+  . Innovation thrives in the niches that legacy vendors ignore. One example is
+  &lt;a href=&quot;https://www.ivanti.com/ivanti-neurons&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Ivanti Neurons
+  &lt;/a&gt;
+  , which delivers comprehensive device discovery through its UEM platform, exposing shadow AI hiding in endpoints that traditional tools miss. Mike Riemer, Ivanti’s Field CISO, sees the bigger picture: “Security professionals will effectively leverage the capabilities of gen AI to analyze vast amounts of data collected from diverse systems.” Nightfall, for its part, targets developer teams with transformer models, claiming 2x detection accuracy for API based AI tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Comparing Shadow AI Defense Solutions
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-table&quot;&gt;
+  &lt;table class=&quot;has-fixed-layout&quot;&gt;
+   &lt;thead&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;a&gt;
+       Vendor
+      &lt;/a&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      Type
+     &lt;/td&gt;
+     &lt;td&gt;
+      Key Strengths
+     &lt;/td&gt;
+     &lt;td&gt;
+      Limitations
+     &lt;/td&gt;
+     &lt;td&gt;
+      Best For
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Check Point Harmony
+     &lt;/td&gt;
+     &lt;td&gt;
+      Browser extension
+     &lt;/td&gt;
+     &lt;td&gt;
+      Leverages existing infrastructure
+     &lt;/td&gt;
+     &lt;td&gt;
+      Limited to extension
+     &lt;/td&gt;
+     &lt;td&gt;
+      Check Point customers
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Forcepoint
+     &lt;/td&gt;
+     &lt;td&gt;
+      Traditional DLP
+     &lt;/td&gt;
+     &lt;td&gt;
+      1,700+ classifiers, regulatory compliance
+     &lt;/td&gt;
+     &lt;td&gt;
+      Legacy architecture
+     &lt;/td&gt;
+     &lt;td&gt;
+      Highly regulated industries
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Google Chrome Enterprise
+     &lt;/td&gt;
+     &lt;td&gt;
+      Enterprise browser
+     &lt;/td&gt;
+     &lt;td&gt;
+      Market dominance, native integration
+     &lt;/td&gt;
+     &lt;td&gt;
+      Less specialized controls
+     &lt;/td&gt;
+     &lt;td&gt;
+      Google Workspace organizations
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Island
+     &lt;/td&gt;
+     &lt;td&gt;
+      Enterprise browser
+     &lt;/td&gt;
+     &lt;td&gt;
+      Pre-encryption visibility, zero latency, Rapid deployment
+     &lt;/td&gt;
+     &lt;td&gt;
+      Higher cost per user
+     &lt;/td&gt;
+     &lt;td&gt;
+      Enterprises with sensitive data
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Ivanti Neurons
+     &lt;/td&gt;
+     &lt;td&gt;
+      UEM Platform
+     &lt;/td&gt;
+     &lt;td&gt;
+      Comprehensive device discovery
+     &lt;/td&gt;
+     &lt;td&gt;
+      Not browser-specific
+     &lt;/td&gt;
+     &lt;td&gt;
+      Asset management focus
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Microsoft Purview
+     &lt;/td&gt;
+     &lt;td&gt;
+      DLP Platform
+     &lt;/td&gt;
+     &lt;td&gt;
+      Native Microsoft integration, AI-powered triage
+     &lt;/td&gt;
+     &lt;td&gt;
+      Microsoft-centric
+     &lt;/td&gt;
+     &lt;td&gt;
+      Microsoft 365 enterprises
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Netskope
+     &lt;/td&gt;
+     &lt;td&gt;
+      SASE/SSE Platform
+     &lt;/td&gt;
+     &lt;td&gt;
+      Comprehensive coverage, 370+ AI app monitoring
+     &lt;/td&gt;
+     &lt;td&gt;
+      Post-encryption complexity
+     &lt;/td&gt;
+     &lt;td&gt;
+      Large distributed enterprises
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Nightfall
+     &lt;/td&gt;
+     &lt;td&gt;
+      AI-Native DLP
+     &lt;/td&gt;
+     &lt;td&gt;
+      2x detection accuracy, Transformer models
+     &lt;/td&gt;
+     &lt;td&gt;
+      API-only approach
+     &lt;/td&gt;
+     &lt;td&gt;
+      Developer-centric teams
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Talon Cyber Security
+     &lt;/td&gt;
+     &lt;td&gt;
+      Enterprise Browser
+     &lt;/td&gt;
+     &lt;td&gt;
+      Browser + extension options
+     &lt;/td&gt;
+     &lt;td&gt;
+      Newer to market
+     &lt;/td&gt;
+     &lt;td&gt;
+      Security-conscious SMBs
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Zscaler
+     &lt;/td&gt;
+     &lt;td&gt;
+      SASE/SSE Platform
+     &lt;/td&gt;
+     &lt;td&gt;
+      536B daily transactions, true zero-trust
+     &lt;/td&gt;
+     &lt;td&gt;
+      Cloud-only approach
+     &lt;/td&gt;
+     &lt;td&gt;
+      Cloud-first organizations
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/tbody&gt;
+  &lt;/table&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   VentureBeat analysis
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  What’s driving the market to move so fast? VentureBeat’s analysis found 74,500-plus shadow AI apps
+  &lt;a href=&quot;https://venturebeat.com/security/shadow-ai-is-consultings-survival-strategy-in-the-genai-era/&quot;&gt;
+   actively deployed across major consulting firms
+  &lt;/a&gt;
+  alone, and that’s growing 5% monthly. By mid-2026, that number could hit 160,000. Each represents a potential data breach, compliance violation, or competitive intelligence leak.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Arora’s prescription cuts through vendor hype: “Organizations must define strategies with robust security while enabling employees to use AI technologies effectively. Total bans often drive AI use underground, which only magnifies the risks.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AWS doubles down on infrastructure as strategy in the AI race with SageMaker upgrades </title>
+<link>https://venturebeat.com/ai/aws-doubles-down-on-infrastructure-as-strategy-in-the-ai-race-with-sagemaker-upgrades/</link>
+<pubDate>Thu, 10 Jul 2025 21:38:15 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;AWS logo in lower case sans serif white font with Amazon smile below it against a purple glowing backdrop with blurry conference attendees walking in front&quot; class=&quot;skip-lazy&quot; height=&quot;500&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2024/12/776246284_03.jpg?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    LAS VEGAS, NEVADA - DECEMBER 3: Attendees walk through an expo hall at AWS re:Invent 2024, a conference hosted by Amazon Web Services, at The Venetian Las Vegas on December 3, 2024 in Las Vegas, Nevada. (Photo by Noah Berger/Getty Images for Amazon Web Services)
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://aws.amazon.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   AWS
+  &lt;/a&gt;
+  seeks to extend its market position with
+  &lt;a href=&quot;https://aws.amazon.com/blogs/machine-learning/new-capabilities-in-amazon-sagemaker-ai-continue-to-transform-how-organizations-develop-ai-models/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   updates to SageMaker
+  &lt;/a&gt;
+  , its machine learning and AI model training and inference platform, adding new observability capabilities, connected coding environments and GPU cluster performance management.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, AWS continues to face competition from
+  &lt;a href=&quot;https://www.google.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Google
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.microsoft.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Microsoft
+  &lt;/a&gt;
+  , which also offer many features that help accelerate AI training and inference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SageMaker, which
+  &lt;a href=&quot;https://venturebeat.com/data-infrastructure/aws-sagemaker-is-transforming-into-a-combined-data-and-ai-hub/&quot;&gt;
+   transformed into a unified hub
+  &lt;/a&gt;
+  for integrating data sources and accessing machine learning tools in 2024, will add features that provide insight into why model performance slows and offer AWS customers more control over the amount of compute allocated for model development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other new features include connecting local integrated development environments (IDEs) to SageMaker, so locally written AI projects can be deployed on the platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SageMaker General Manager Ankur Mehrotra told VentureBeat that many of these new updates originated from customers themselves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “One challenge that we’ve seen our customers face while developing Gen AI models is that when something goes wrong or when something is not working as per the expectation, it’s really hard to find what’s going on in that layer of the stack,” Mehrotra said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SageMaker HyperPod observability enables engineers to examine the various layers of the stack, such as the compute layer or networking layer. If anything goes wrong or models become slower, SageMaker can alert them and publish metrics on a dashboard.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mehrotra pointed to a real issue his own team faced while training new models, where training code began stressing GPUs, causing temperature fluctuations. He said that without the latest tools, developers would have taken weeks to identify the source of the issue and then fix it.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-connected-ides&quot;&gt;
+  Connected IDEs
+ &lt;/h2&gt;
+ &lt;p&gt;
+  SageMaker already offered two ways for AI developers to train and run models. It had access to fully managed IDEs, such as Jupyter Lab or Code Editor, to seamlessly run the training code on the models through SageMaker. Understanding that other engineers prefer to use their local IDEs, including all the extensions they have installed, AWS allowed them to run their code on their machines as well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Mehrotra pointed out that it meant locally coded models only ran locally, so if developers wanted to scale, it proved to be a significant challenge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS added new secure remote execution to allow customers to continue working on their preferred IDE — either locally or managed — and connect ot to SageMaker.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “So this capability now gives them the best of both worlds where if they want, they can develop locally on a local IDE, but then in terms of actual task execution, they can benefit from the scalability of SageMaker,” he said.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-more-flexibility-in-compute&quot;&gt;
+  More flexibility in compute
+ &lt;/h2&gt;
+ &lt;p&gt;
+  AWS launched SageMaker HyperPod in
+  &lt;a href=&quot;https://venturebeat.com/ai/amazon-awss-barrage-of-gen-ai-announcements-aim-to-outdo-microsoft/&quot;&gt;
+   December 2023
+  &lt;/a&gt;
+  as a means to help customers manage clusters of servers for training models. Similar to providers like
+  &lt;a href=&quot;https://www.coreweave.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   CoreWeave
+  &lt;/a&gt;
+  , HyperPod enables SageMaker customers to direct unused compute power to their preferred location. HyperPod knows when to schedule GPU usage based on demand patterns and allows organizations to balance their resources and costs effectively.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, AWS said many customers wanted the same service for inference. Many inference tasks occur during the day when people use models and applications, while training is usually scheduled during off-peak hours.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Mehrotra noted that even in the world inference, developers can prioritize the inference tasks that HyperPod should focus on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Laurent Sifre, co-founder and CTO at AI agent company
+  &lt;a href=&quot;https://runner.hcompany.ai/mcps&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   H AI
+  &lt;/a&gt;
+  , said in an AWS blog post that the company used SageMaker HyperPod when building out its agentic platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This seamless transition from training to inference streamlined our workflow, reduced time to production, and delivered consistent performance in live environments,” Sifre said.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-aws-and-the-competition&quot;&gt;
+  AWS and the competition
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Amazon may not be offering the splashiest foundation models like its cloud provider rivals, Google and Microsoft. Still, AWS has been more focused on providing the infrastructure backbone for enterprises to build
+  &lt;a href=&quot;https://venturebeat.com/ai/enterprise-giants-atlassian-intuit-and-aws-are-planning-for-a-world-where-agents-call-the-apis/&quot;&gt;
+   AI models, applications, or agents
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition to SageMaker, AWS also
+  &lt;a href=&quot;https://venturebeat.com/ai/aws-brings-multi-agent-orchestration-to-bedrock/&quot;&gt;
+   offers Bedrock
+  &lt;/a&gt;
+  , a platform specifically designed for building applications and agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SageMaker has been around for years, initially serving as a means to connect disparate machine learning tools to data lakes. As the generative AI boom began, AI engineers began using SageMaker to help train language models. However, Microsoft is pushing hard for its Fabric ecosystem,
+  &lt;a href=&quot;https://venturebeat.com/ai/70-of-the-fortune-500-already-use-microsoft-fabric-and-its-now-getting-even-more-features-including-cosmosdb-support/&quot;&gt;
+   with 70% of Fortune 500 companies adopting it
+  &lt;/a&gt;
+  , to become a leader in the data and AI acceleration space. Google, through Vertex AI, has quietly made
+  &lt;a href=&quot;https://venturebeat.com/ai/from-catch-up-to-catch-us-how-google-quietly-took-the-lead-in-enterprise-ai/&quot;&gt;
+   inroads in enterprise AI adoption
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS, of course, has the advantage of being the
+  &lt;a href=&quot;https://venturebeat.com/ai/aws-ai-takeover-5-cloud-winning-plays-theyre-using-to-dominate-the-market/&quot;&gt;
+   most widely used cloud provider
+  &lt;/a&gt;
+  . Any updates that would make its many AI infrastructure platforms easier to use will always be a benefit.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Elon Musk introduced Grok 4 last night, calling it the ‘smartest AI in the world’ — what businesses need to know </title>
+<link>https://venturebeat.com/ai/elon-musk-introduced-grok-4-last-night-calling-it-the-smartest-ai-in-the-world-what-businesses-need-to-know/</link>
+<pubDate>Thu, 10 Jul 2025 17:28:07 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Graphic novel style artwork of Elon Musk in black t-shirt and jacket presenting Grok 4 in red lettering on large display behind him&quot; class=&quot;skip-lazy&quot; height=&quot;420&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/cfr0z3n_High_contrast_rotoscoped_minimalist_blocky_art_close-up_d45d5c6f-3f15-426a-b631-f0f117c9cf15.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Credit: VentureBeat made with Midjourney
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  After days of controversy
+  &lt;a href=&quot;https://venturebeat.com/ai/elon-musks-truth-seeking-grok-ai-peddles-conspiracy-theories-about-jewish-control-of-media/&quot;&gt;
+   surrounding a flurry of antisemitic responses made recently by his Grok AI-powered chatbot
+  &lt;/a&gt;
+  on his social network X (formerly Twitter), a seemingly unrepentant and unbothered Elon Musk launched the latest version of his AI model family, Grok 4, during
+  &lt;a href=&quot;https://x.com/xai/status/1943158495588815072&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   an event livestreamed on X last night
+  &lt;/a&gt;
+  , calling it the “the smartest AI in the world.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Musk
+  &lt;a href=&quot;https://x.com/elonmusk/status/1943213444477399380&quot;&gt;
+   posted on X
+  &lt;/a&gt;
+  : “Grok 4 is the first time, in my experience, that an AI has been able to solve difficult, real-world engineering questions where the answers cannot be found anywhere on the Internet or in books. And it will get much better.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new
+  &lt;a href=&quot;https://docs.x.ai/docs/models/grok-4-0709&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   release
+  &lt;/a&gt;
+  actually includes two distinct models:
+  &lt;strong&gt;
+   Grok 4
+  &lt;/strong&gt;
+  , a single-agent reasoning model, and
+  &lt;strong&gt;
+   Grok 4 Heavy
+  &lt;/strong&gt;
+  , a multi-agent system designed to solve complex problems through internal collaboration and synthesis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both models are optimized for reasoning tasks and come with native tool integration, enabling capabilities such as web search, code execution, and multimodal analysis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Musk and his team at xAI showcased benchmarks that suggest Grok 4 outperforms all current competitors across a range of academic and coding evaluations, even compared to formerly leading AI reasoning model rivals OpenAI o3 and Google Gemini.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014031&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;471&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05%E2%80%AFAM.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png 2880w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=300,177 300w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=768,452 768w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=800,471 800w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=1536,905 1536w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=2048,1206 2048w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=400,236 400w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=750,442 750w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=578,340 578w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-10-at-11.02.05 AM.png?resize=930,548 930w&quot; style=&quot;width:840px;height:auto&quot; width=&quot;800&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  However, xAI has not yet released a
+  &lt;strong&gt;
+   model card
+  &lt;/strong&gt;
+  nor any
+  &lt;strong&gt;
+   official release notes documentation
+  &lt;/strong&gt;
+  for Grok 4 to the public, making it challenging to independently assess performance and the claims made during the stream. We’ll update if/when these become available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nor did Musk and his xAI team members participating in the livestream address the glaring controversy facing Grok over the past week, including many incidents of Grok making antisemitic remarks or referring to itself as “
+  &lt;a href=&quot;https://www.rollingstone.com/culture/culture-news/elon-musk-grok-chatbot-antisemitic-posts-1235381165/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   MechaHitler
+  &lt;/a&gt;
+  “, and suggesting that people with Jewish surnames should be handled decisively by Adolf Hitler — a seemingly overt reference to the Holocaust and genocide of 6 million Jews during World War 2.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The closest Musk came was when he stated: “The thing that I think is most important for AI safety—at least my biological neural net tells me the most important thing—is to be maximally truth-seeking,” and “We need to make sure that the AI is a good AI. Good Grok” as well as “It’s important to instill the values you want in a child that would grow up to be incredibly powerful.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Musk did not apologize nor did he accept responsibility for Grok’s antisemitic, sexually offensive, and conspiratorial remarks. Here’s a cop of the full stream below:
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-video&quot;&gt;
+  &lt;video controls=&quot;&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/grok-4-livestream-rip.mp4&quot;&gt;
+  &lt;/video&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Throughout the livestream, the team emphasized Grok 4’s ability to reason from first principles, correct its own errors, and potentially invent new technologies or uncover novel scientific insights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The presentation also included demonstrations of Grok 4 Heavy applying multi-agent collaboration to tackle research-level problems across disciplines.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-availability-and-pricing&quot;&gt;
+  Availability and pricing
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Grok 4 is available now through several channels, depending on user type and subscription level:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    API Access (for developers and enterprises)
+   &lt;/strong&gt;
+   :
+   &lt;br/&gt;
+   Grok 4 and Grok 4 Heavy are live via the
+   &lt;strong&gt;
+    &lt;a href=&quot;https://docs.x.ai/docs/models/grok-4-0709&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+     xAI API
+    &lt;/a&gt;
+   &lt;/strong&gt;
+   . Pricing is structured as follows:
+   &lt;ul class=&quot;wp-block-list&quot;&gt;
+    &lt;li&gt;
+     &lt;strong&gt;
+      $3 per 1 million input tokens
+     &lt;/strong&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;strong&gt;
+      $15 per 1 million output tokens
+     &lt;/strong&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;strong&gt;
+      $0.75 per 1 million cached input tokens
+     &lt;/strong&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     Prices
+     &lt;strong&gt;
+      double after 128,000 tokens
+     &lt;/strong&gt;
+     in a single context window
+     &lt;br/&gt;
+     The API supports text and image inputs, function calling, structured outputs, and offers a 256,000-token context window.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Consumer Access (via Grok chatbot and apps)
+   &lt;/strong&gt;
+   :
+   &lt;br/&gt;
+   Individual users can access Grok 4 through the
+   &lt;strong&gt;
+    Grok chatbot on X
+   &lt;/strong&gt;
+   , the
+   &lt;strong&gt;
+    Grok app
+   &lt;/strong&gt;
+   (iOS and Android), and
+   &lt;strong&gt;
+    X.com
+   &lt;/strong&gt;
+   , but only with one of the following subscriptions:
+   &lt;ul class=&quot;wp-block-list&quot;&gt;
+    &lt;li&gt;
+     &lt;strong&gt;
+      PremiumPlus
+     &lt;/strong&gt;
+     : $16/month
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;strong&gt;
+      SuperGrok
+     &lt;/strong&gt;
+     : $300/month
+    &lt;/li&gt;
+    &lt;li&gt;
+     A new
+     &lt;strong&gt;
+      “SuperGrok Heavy”
+     &lt;/strong&gt;
+     tier, also priced at
+     &lt;strong&gt;
+      $300/month
+     &lt;/strong&gt;
+     , provides access to
+     &lt;strong&gt;
+      both Grok 4 and Grok 4 Heavy
+     &lt;/strong&gt;
+     , the multi-agent variant.
+     &lt;br/&gt;
+     (Note: SuperGrok and PremiumPlus tiers may differ in availability and usage quotas across X and Grok platforms.)
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Launch Timing
+   &lt;/strong&gt;
+   :
+   &lt;br/&gt;
+   Grok 4 became available immediately following the
+   &lt;strong&gt;
+    July 9, 2025
+   &lt;/strong&gt;
+   livestream. Temporary access limits were in place during the demo, but full rollout to subscribers began shortly after.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Platform Expansion
+   &lt;/strong&gt;
+   :
+   &lt;br/&gt;
+   xAI has indicated plans to make Grok 4 available through
+   &lt;strong&gt;
+    Microsoft Azure AI Foundry
+   &lt;/strong&gt;
+   , where Grok 3 and Grok 3 Mini are currently listed.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  For subscription details, users are directed to
+  &lt;a href=&quot;https://x.ai/grok&quot;&gt;
+   x.ai/grok
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://help.x.com/en/using-x/x-premium&quot;&gt;
+   X Premium support
+  &lt;/a&gt;
+  . Here’s how it compares to other leading AI models in terms of pricing per million tokens.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-table&quot;&gt;
+  &lt;table class=&quot;has-fixed-layout&quot;&gt;
+   &lt;thead&gt;
+    &lt;tr&gt;
+     &lt;th&gt;
+      Provider &amp; model
+     &lt;/th&gt;
+     &lt;th&gt;
+      Context window
+     &lt;/th&gt;
+     &lt;th&gt;
+      &lt;strong&gt;
+       Input
+      &lt;/strong&gt;
+      ($/Mtok)
+     &lt;/th&gt;
+     &lt;th&gt;
+      &lt;strong&gt;
+       Cached input
+      &lt;/strong&gt;
+     &lt;/th&gt;
+     &lt;th&gt;
+      &lt;strong&gt;
+       Output
+      &lt;/strong&gt;
+      ($/Mtok)
+     &lt;/th&gt;
+     &lt;th&gt;
+      Additional notes
+     &lt;/th&gt;
+    &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       xAI – Grok 4 / 4 Heavy
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      256 K (2× price &amp;gt;128 K)
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $3.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.75
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $15.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      Image input, function calling, structured JSON ﻿(
+      &lt;a href=&quot;https://apidog.com/blog/grok-4-pricing/?utm_source=chatgpt.com&quot;&gt;
+       apidog
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       OpenAI – o3
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      200 K
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $2.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.50
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $8.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      50 % Batch-API discount available ﻿(
+      &lt;a href=&quot;https://openai.com/api/pricing/?utm_source=chatgpt.com&quot;&gt;
+       OpenAI
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://help.openai.com/en/articles/9197833-batch-api-faq?utm_source=chatgpt.com&quot;&gt;
+       OpenAI Help Center
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      GPT-4o
+     &lt;/td&gt;
+     &lt;td&gt;
+      128 K
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $5.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      $2.50
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $20.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      Vision, audio, tools ﻿(
+      &lt;a href=&quot;https://openai.com/api/pricing/?utm_source=chatgpt.com&quot;&gt;
+       OpenAI
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Anthropic – Claude Sonnet 4
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      200 K
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $3.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.30
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $15.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      50 % batch output discount ﻿(
+      &lt;a href=&quot;https://docs.anthropic.com/en/docs/about-claude/pricing?utm_source=chatgpt.com&quot;&gt;
+       Anthropic
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Claude Opus 4
+     &lt;/td&gt;
+     &lt;td&gt;
+      200 K
+     &lt;/td&gt;
+     &lt;td&gt;
+      $15.00
+     &lt;/td&gt;
+     &lt;td&gt;
+      $1.50
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $75.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      High-accuracy flagship ﻿(
+      &lt;a href=&quot;https://docs.anthropic.com/en/docs/about-claude/pricing?utm_source=chatgpt.com&quot;&gt;
+       Anthropic
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Google – Gemini 2.5 Pro
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      200 K (2× price &amp;gt;200 K)
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $1.25
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.31
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $10.00
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      75 % cache hit discount ﻿(
+      &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/pricing?utm_source=chatgpt.com&quot;&gt;
+       Google AI for Developers
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://cloud.google.com/vertex-ai/generative-ai/docs/provisioned-throughput/measure-provisioned-throughput?utm_source=chatgpt.com&quot;&gt;
+       Google Cloud
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Gemini 2.5 Flash
+     &lt;/td&gt;
+     &lt;td&gt;
+      200 K
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.30
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.075
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $2.50
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      Fast, cheap preview tier ﻿(
+      &lt;a href=&quot;https://cloud.google.com/vertex-ai/generative-ai/pricing?utm_source=chatgpt.com&quot;&gt;
+       Google Cloud
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       DeepSeek – deepseek-reasoner
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      64 K
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.55 (miss) / $0.14 (hit)
+     &lt;/td&gt;
+     &lt;td&gt;
+      $0.14
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       $2.19
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      50-75 % off-peak discount ﻿(
+      &lt;a href=&quot;https://api-docs.deepseek.com/quick_start/pricing?utm_source=chatgpt.com&quot;&gt;
+       DeepSeek API Docs
+      &lt;/a&gt;
+      )
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/tbody&gt;
+  &lt;/table&gt;
+ &lt;/figure&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-weaving-native-reasoning-and-tool-usage&quot;&gt;
+  Weaving native reasoning and tool usage
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Unlike its
+  &lt;a href=&quot;https://venturebeat.com/ai/breaking-down-grok-3-the-ai-model-that-could-redefine-the-industry/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   predecessor Grok 3,
+  &lt;/a&gt;
+  released in February, which separated tool-augmented responses from general reasoning, Grok 4 was trained with tools from the start.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model integrates capabilities such as code execution, web search, and document parsing. It also introduces
+  &lt;strong&gt;
+   Grok 4 Heavy
+  &lt;/strong&gt;
+  , a multi-agent system where several internal models work in parallel to generate and validate answers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Grok 4 also includes a new
+  &lt;strong&gt;
+   voice mode
+  &lt;/strong&gt;
+  featuring expressive outputs with reduced latency, and it supports text and image input, structured outputs, and function calling.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-performance-highlights&quot;&gt;
+  Performance highlights
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The independent AI model analysis and benchmarking group A
+  &lt;a href=&quot;https://x.com/ArtificialAnlys/status/1943166841150644622&quot;&gt;
+   rtificial Analysis stated on X that xAI provided it
+  &lt;/a&gt;
+  with a version of Grok 4 (not Heavy) earlier than the public release for scoring.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On technical benchmarks,
+  &lt;a href=&quot;https://x.com/ArtificialAnlys/status/1943166841150644622&quot;&gt;
+   Grok 4 leads the Artificial Analysis Intelligence Index
+  &lt;/a&gt;
+  with a score of 73, ahead of competitors such as OpenAI’s o3 (70) and Google’s Gemini 2.5 Pro (70).
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014037&quot; decoding=&quot;async&quot; height=&quot;366&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg 3916w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=300,137 300w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=768,351 768w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=800,366 800w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=1536,703 1536w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=2048,937 2048w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=400,183 400w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=750,343 750w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=578,264 578w, https://venturebeat.com/wp-content/uploads/2025/07/Gvd9nWIakAULlB9-1.jpg?resize=930,426 930w&quot; style=&quot;width:840px;height:auto&quot; width=&quot;800&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  It also recorded top scores in:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    GPQA Diamond:
+   &lt;/strong&gt;
+   88%
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    ARC-AGI 2:
+   &lt;/strong&gt;
+   15.9%, double the second-best score
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Humanities Last Exam:
+   &lt;/strong&gt;
+   24% on the text-only version, and 44% with tools
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    MMLU-Pro and AIME 2024:
+   &lt;/strong&gt;
+   87% and 94%, respectively
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Coding and Math evaluations:
+   &lt;/strong&gt;
+   Highest to date on LiveCodeBench, SciCode, AIME24, and MATH-500
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Despite its benchmark success, Grok 4’s
+  &lt;strong&gt;
+   output speed
+  &lt;/strong&gt;
+  stands at 75 tokens per second—slower than models like Gemini 2.5 Flash (353) or OpenAI’s o3 (187), but still faster than Anthropic’s Claude 4 Opus (66).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model features a
+  &lt;strong&gt;
+   256,000 token context window
+  &lt;/strong&gt;
+  , which sits above the 200k context limits of o3 and Claude 4 Sonnet but below the 1 million tokens offered by Gemini 2.5 Pro and GPT-4.1.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-real-world-use-cases&quot;&gt;
+  Real world use cases
+ &lt;/h2&gt;
+ &lt;p&gt;
+  xAI provided several demonstrations of Grok 4’s performance in applied scenarios:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   In a simulated business task called
+   &lt;strong&gt;
+    VendingBench
+   &lt;/strong&gt;
+   , Grok 4 significantly outperformed other models in long-horizon financial planning.
+  &lt;/li&gt;
+  &lt;li&gt;
+   At the
+   &lt;strong&gt;
+    Arc Institute
+   &lt;/strong&gt;
+   , researchers used Grok 4 to analyze CRISPR logs and uncover novel hypotheses.
+  &lt;/li&gt;
+  &lt;li&gt;
+   In
+   &lt;strong&gt;
+    radiology
+   &lt;/strong&gt;
+   , the model interpreted chest X-rays with higher accuracy than leading peers.
+  &lt;/li&gt;
+  &lt;li&gt;
+   In the
+   &lt;strong&gt;
+    financial sector
+   &lt;/strong&gt;
+   , its combination of real-time data access and reasoning made it suitable for forecasting and analysis.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The model can also create
+  &lt;strong&gt;
+   3D video games
+  &lt;/strong&gt;
+  with minimal input by autonomously sourcing and integrating assets. Additionally, it demonstrated capabilities to simulate astrophysical events using grounded approximations from published research.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-reception-and-discussion&quot;&gt;
+  Reception and discussion
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Industry response to the Grok 4 launch has been divided, blending enthusiasm for its performance with criticism of the event’s delivery and broader trust issues.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   David Shapiro
+  &lt;/strong&gt;
+  , an AI power user and writer,
+  &lt;a href=&quot;https://x.com/DaveShapi/status/1943265195373019216&quot;&gt;
+   noted
+  &lt;/a&gt;
+  : “Grok 4 now takes its place as ‘smart enough to actually help with frontier research’… but has merely caught up with OpenAI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Ethan Mollick
+  &lt;/strong&gt;
+  , a
+  &lt;a href=&quot;https://x.com/emollick/status/1943020566304178242&quot;&gt;
+   professor at Wharton, remarked
+  &lt;/a&gt;
+  on X: “So Grok 3 has had three separate incidents where apparently unvetted changes to the deployed system caused a large-scale ethical issue and an emergency rollback. I don’t think you can do a Grok 4 launch that doesn’t at least address this honestly, if user trust matters,” later adding, “Grok 3 was a very good model, and Grok 4 might be amazing but having a very good model is not enough – there are a lot of really good models out there. You actually want to trust the model you are building on.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Ben Hyak
+  &lt;/strong&gt;
+  , co-founder and CTO of AI product observability startup Raindrop AI (himself a former Musk employee)
+  &lt;a href=&quot;https://x.com/benhylak/status/1943166168753410509&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   criticized the livestream itself
+  &lt;/a&gt;
+  : “This xAI livestream is one of the worst things I’ve ever watched in my life. Love y’all, but it’s bad.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite the criticisms,
+  &lt;a href=&quot;https://x.com/ArtificialAnlys/status/1943166841150644622&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   benchmarking firm Artificial Analysis noted
+  &lt;/a&gt;
+  : “Grok 4 is now the leading AI model.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-ongoing-trust-issues&quot;&gt;
+  Ongoing trust issues
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The launch of Grok 4 comes amid renewed criticism over Grok’s prior behavior in consumer deployments, particularly as a chatbot integrated into Musk’s social network, X.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the July 4 holiday and in subsequent days, Grok generated antisemitic and conspiratorial responses that reignited scrutiny over its system design and governance practices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As reported by
+  &lt;a href=&quot;https://venturebeat.com/ai/elon-musks-truth-seeking-grok-ai-peddles-conspiracy-theories-about-jewish-control-of-media/&quot;&gt;
+   my VentureBeat colleague Michael F. Nuñez
+  &lt;/a&gt;
+  , Grok responded to questions about Jewish influence in Hollywood by asserting that Jewish executives “dominate leadership” at major studios and influence content through “progressive ideologies,” and
+  &lt;a href=&quot;https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content&quot;&gt;
+   went on to rant about people of Jewish surnames
+  &lt;/a&gt;
+  as fitting a “pattern” of engaging in “extreme leftist activism,” and suggesting Hitler knew “how to handle it decisively, every damn time,” an apparent reference to the Holocaust.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014035&quot; decoding=&quot;async&quot; height=&quot;600&quot; sizes=&quot;(max-width: 356px) 100vw, 356px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?w=356&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg 1179w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=238,400 238w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=768,1293 768w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=356,600 356w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=912,1536 912w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=400,673 400w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=750,1263 750w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=578,973 578w, https://venturebeat.com/wp-content/uploads/2025/07/GvXHBiRXAAAlTtl-2.jpg?resize=930,1566 930w&quot; style=&quot;width:839px;height:auto&quot; width=&quot;356&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014036&quot; decoding=&quot;async&quot; height=&quot;600&quot; loading=&quot;lazy&quot; sizes=&quot;auto, (max-width: 772px) 100vw, 772px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?w=772&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg 1179w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=300,233 300w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=768,597 768w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=772,600 772w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=400,311 400w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=750,583 750w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=578,449 578w, https://venturebeat.com/wp-content/uploads/2025/07/GvXvvjNWkAA0IR9.jpg?resize=930,723 930w&quot; style=&quot;width:840px;height:auto&quot; width=&quot;772&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The conspiratorial and antisemitic posting was so prolific, the
+  &lt;a href=&quot;https://www.adl.org/about/who-we-are?gad_source=1&amp;gad_campaignid=10844164222&amp;gbraid=0AAAAADtja53mLvoUn0V6NHFcRTtMJnl3F&amp;gclid=CjwKCAjwyb3DBhBlEiwAqZLe5LBSsFUT3u7Ijbw5lXb4wkMOtfArnjegaXQPcbYnWY8OeKoBsuC37BoCT1wQAvD_BwE&amp;gclsrc=aw.ds&quot;&gt;
+   Anti-Defamation League (ADL)
+  &lt;/a&gt;
+  , a preeminent U.S.-based non-profit combating anti-semitism and hatred,
+  &lt;a href=&quot;https://x.com/ADL/status/1942722301876932965&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   posted on July 8
+  &lt;/a&gt;
+  : “What we are seeing from Grok LLM right now is irresponsible, dangerous and antisemitic, plain and simple. This supercharging of extremist rhetoric will only amplify and encourage the antisemitism that is already surging on X and many other platforms.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This incident follows a history of problematic Grok outputs, including a May 2025 case where the Grok bot integrated into X randomly inserted references to a
+  &lt;a href=&quot;https://venturebeat.com/ai/elon-musks-grok-ai-is-spamming-x-users-about-south-african-race-relations-now-for-some-reason/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   completely nonsensical and non-real “white genocide” in South Africa
+  &lt;/a&gt;
+  into unrelated queries, and an earlier case wherein its
+  &lt;a href=&quot;https://venturebeat.com/ai/xais-new-grok-3-model-criticized-for-blocking-sources-that-call-musk-trump-top-spreaders-of-misinformation/&quot;&gt;
+   system prompt was discovered to direct the Grok chatbot
+  &lt;/a&gt;
+  on X to avoid referencing any sources that declared Musk and his former political funding beneficiary U.S. President Donald J. Trump as spreaders of misinformation. In both of these two cases, xAI blamed the behaviors on nameless employees and said they were being addressed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Already, today,
+  &lt;a href=&quot;https://x.com/Megatron_ron/status/1943224338544759015&quot;&gt;
+   users of Grok 4 on the consumer app
+  &lt;/a&gt;
+  have observed it to once again be outputting anti-Zionist and anti-Semitic remarks:
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014038&quot; decoding=&quot;async&quot; height=&quot;600&quot; loading=&quot;lazy&quot; sizes=&quot;auto, (max-width: 569px) 100vw, 569px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?w=569&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg 1137w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=300,317 300w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=768,811 768w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=569,600 569w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=400,422 400w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=750,792 750w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=578,610 578w, https://venturebeat.com/wp-content/uploads/2025/07/Gve4PNVXAAAA9ny.jpg?resize=930,982 930w&quot; style=&quot;width:840px;height:auto&quot; width=&quot;569&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://venturebeat.com/ai/musks-attempts-to-politicize-his-grok-ai-are-bad-for-users-and-enterprises-heres-why/&quot;&gt;
+   As I previously noted
+  &lt;/a&gt;
+  , Musk has openly stated on several occasions he wanted to alter Grok to better reflect his personal beliefs and distrust in mainstream media and accredited sources. This makes it a poor source in enterprise contexts where such views could adversely impact users and the businesses building atop the Grok family of models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My prior recommendation remains: For those in the enterprise trying to ensure their business’s AI products work properly and accurately… Grok is sadly best avoided. Thankfully, there are numerous other alternatives to choose from.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
