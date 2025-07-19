@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 19 Jul 2025 17:15:56 -0000</lastBuildDate>
+<item>
+<title> From Reactive to Proactive: The Rise of Agentic AI </title>
+<link>https://insideainews.com/2025/07/17/from-reactive-to-proactive-the-rise-of-agentic-ai/</link>
+<pubDate>Sat, 19 Jul 2025 11:02:25 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;257&quot; sizes=&quot;(max-width: 564px) 100vw, 564px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/exxact-logo-2-1-dark-background-0725.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/exxact-logo-2-1-dark-background-0725.png 564w, https://insideainews.com/wp-content/uploads/2025/07/exxact-logo-2-1-dark-background-0725-150x68.png 150w, https://insideainews.com/wp-content/uploads/2025/07/exxact-logo-2-1-dark-background-0725-300x137.png 300w&quot; width=&quot;564&quot;/&gt;
+ &lt;/div&gt;
+ &lt;h3 class=&quot;ai-optimize-7&quot;&gt;
+  Introduction
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot;&gt;
+  AI is evolving from reactive tools into proactive, autonomous systems. Agentic AI represents this leap—enabling AI agents to reason, plan, and execute tasks independently. These systems go beyond input-response models, using perception and logic to solve complex problems without step-by-step human instruction.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  &lt;a href=&quot;https://www.exxactcorp.com/category/Deep-Learning-AI-Servers?page=1&amp;utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=Agentic%20AI%20inside%20HPC&quot;&gt;
+   Exxact NVIDIA GPU Solutions
+  &lt;/a&gt;
+  , powered by NVIDIA® AI, deliver the infrastructure needed to build and run these intelligent agents. Leveraging NVIDIA’s leading AI Enterprise software and accelerated computing, businesses can deploy sophisticated AI agents that autonomously analyze data, devise strategies, and complete tasks.
+ &lt;/p&gt;
+ &lt;h3 class=&quot;ai-optimize-10&quot;&gt;
+  What is Agentic AI?
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  Agentic AI consists of autonomous, goal-driven agents capable of navigating complex environments. Unlike traditional AI that only responds to commands, these agents independently make decisions, adapt to feedback, and pursue outcomes using APIs, generative AI tools, and closed-loop learning.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  Agentic AI is quickly being deployed across sectors—from customer service and marketing to healthcare and R&amp;D—boosting efficiency and giving businesses a competitive edge.
+ &lt;/p&gt;
+ &lt;h3 class=&quot;ai-optimize-13&quot;&gt;
+  Key characteristics:
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  &lt;strong&gt;
+   Goal-Oriented Problem Solving:
+  &lt;/strong&gt;
+  AI agents think through structured steps to address goals using reasoning, not just surface-level outputs.
+ &lt;/p&gt;
+ &lt;div class=&quot;wp-caption alignright&quot; id=&quot;attachment_36879&quot; style=&quot;width: 459px&quot;&gt;
+  &lt;img alt=&quot;&quot; aria-describedby=&quot;caption-attachment-36879&quot; class=&quot;wp-image-36879&quot; decoding=&quot;async&quot; height=&quot;292&quot; sizes=&quot;(max-width: 449px) 100vw, 449px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-1024x666.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-1024x666.png 1024w, https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-150x98.png 150w, https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-300x195.png 300w, https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-768x500.png 768w, https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-1536x999.png 1536w, https://insideainews.com/wp-content/uploads/2025/07/exxact-ai-servers-071626-2048x1332.png 2048w&quot; width=&quot;449&quot;/&gt;
+  &lt;p class=&quot;wp-caption-text&quot; id=&quot;caption-attachment-36879&quot;&gt;
+   Exxact NVIDIA GPU Solutions
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  &lt;strong&gt;
+   Contextual Awareness:
+  &lt;/strong&gt;
+  They analyze environments, deconstruct tasks, and iterate strategies using feedback to improve performance.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  &lt;strong&gt;
+   Domain Specialization:
+  &lt;/strong&gt;
+  With specific knowledge, agents can operate in fields like legal services, medicine, and enterprise workflows.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  &lt;strong&gt;
+   Autonomous Workflow Execution:
+  &lt;/strong&gt;
+  Capable of completing multi-step tasks, agents drive end-to-end automation beyond simple assistance.
+ &lt;/p&gt;
+ &lt;h3 class=&quot;ai-optimize-18&quot;&gt;
+  Core Components of Agentic AI
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-19&quot;&gt;
+  Agentic AI systems are built on four foundational elements:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  &lt;strong&gt;
+   Perception:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-21&quot;&gt;
+   Using data inputs (APIs, IoT, NLP) to understand the environment.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-22&quot;&gt;
+  &lt;strong&gt;
+   Planning &amp; Reasoning:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-23&quot;&gt;
+   Goal decomposition turns complex objectives into smaller steps.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-24&quot;&gt;
+   Simulated action sequences help find optimal strategies using generative AI.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-25&quot;&gt;
+  &lt;strong&gt;
+   Action Execution:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-26&quot;&gt;
+   Performs operations autonomously using tools, APIs, and software systems.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-27&quot;&gt;
+   Generates content, code, or documents as needed, verifying those tasks align with overall goals.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-28&quot;&gt;
+  &lt;strong&gt;
+   Learning &amp; Adaptation:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-29&quot;&gt;
+   Agents evolve using reinforcement learning and feedback loops for improved decision-making.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h3 class=&quot;ai-optimize-30&quot;&gt;
+  Building Agentic AI with NVIDIA and Exxact
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-31&quot;&gt;
+  NVIDIA AI is the world’s most advanced accelerated platform for Agentic AI, and
+  &lt;a href=&quot;https://www.exxactcorp.com/?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=Agentic%20AI%20and%20insideHPC%20article&quot;&gt;
+   Exxact
+  &lt;/a&gt;
+  builds certified systems optimized for it. Through NVIDIA AI Enterprise and powerful developer platforms, organizations can deploy AI agents reliably and at scale.
+ &lt;/p&gt;
+ &lt;h3 class=&quot;ai-optimize-32&quot;&gt;
+  NVIDIA Technologies for Agentic AI
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-33&quot;&gt;
+  &lt;strong&gt;
+   NVIDIA AI Enterprise:
+  &lt;/strong&gt;
+  A full-stack software platform that supports building, deploying, and managing enterprise-grade AI, optimized for both on-prem and cloud environments.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-34&quot;&gt;
+  &lt;strong&gt;
+   NVIDIA NIM™:
+  &lt;/strong&gt;
+  Prebuilt microservices that enable instant deployment of high-performance AI model inference across various infrastructures. Easily integrates with both open-source and proprietary models for agent development.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-35&quot;&gt;
+  &lt;strong&gt;
+   NVIDIA NeMo™:
+  &lt;/strong&gt;
+  A framework for developing and fine-tuning large language models. NeMo helps teams curate data, evaluate models, and maintain intelligent agents with robust guardrails and continuous optimization.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-36&quot;&gt;
+  &lt;strong&gt;
+   NVIDIA AI Blueprints:
+  &lt;/strong&gt;
+  End-to-end, reference workflows that jumpstart development with libraries, SDKs, reference code, and tools to accelerate AI deployment across industries.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-37&quot;&gt;
+  &lt;strong&gt;
+   NVIDIA-Certified Systems™ from Exxact:
+  &lt;/strong&gt;
+  Whether deploying small-scale workstations or enterprise-grade 4U+ GPU servers, Exxact’s systems are fine-tuned for Agentic AI workloads using NVIDIA’s suite of tools.
+ &lt;/p&gt;
+ &lt;h3 class=&quot;ai-optimize-38&quot;&gt;
+  Real-World Applications of Agentic AI
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-39&quot;&gt;
+  Agentic AI is reshaping how organizations operate by automating complex tasks with minimal human oversight:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-40&quot;&gt;
+  &lt;strong&gt;
+   Autonomous Research:
+  &lt;/strong&gt;
+  Synthesizing large datasets to generate summaries, hypotheses, and suggest experiment designs.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-41&quot;&gt;
+  &lt;strong&gt;
+   Healthcare:
+  &lt;/strong&gt;
+  Continuously analyzes patient data to support diagnosis, personalize treatment, and manage administrative workflows.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-42&quot;&gt;
+  &lt;strong&gt;
+   Supply Chain Management:
+  &lt;/strong&gt;
+  AI agents predict demand, optimize inventory, and identify cost-saving opportunities by responding to real-time data.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-43&quot;&gt;
+  &lt;strong&gt;
+   Cybersecurity:
+  &lt;/strong&gt;
+  Agents detect network threats and respond automatically, improving defense mechanisms.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-44&quot;&gt;
+  &lt;strong&gt;
+   Customer Service:
+  &lt;/strong&gt;
+  Next-generation AI chatbots can make informed decisions, cite policies, and direct users effectively across support channels.
+ &lt;/p&gt;
+ &lt;h3 class=&quot;ai-optimize-45&quot;&gt;
+  Conclusion
+ &lt;/h3&gt;
+ &lt;p class=&quot;ai-optimize-46&quot;&gt;
+  Agentic AI is transforming AI from a reactive assistant into a fully independent problem solver. With the ability to plan, reason, learn, and execute, these systems unlock new levels of productivity and innovation.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-47&quot;&gt;
+  To harness this potential, businesses need robust, scalable infrastructure—and that’s where NVIDIA’s AI Enterprise platform, combined with
+  &lt;a href=&quot;https://www.exxactcorp.com/?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=Agentic%20AI%20and%20insideHPC%20article&quot;&gt;
+   Exxact
+  &lt;/a&gt;
+  ’s certified systems, comes in. Solutions built on NVIDIA NIM, NeMo, and AI Blueprints provide the foundation to formulate, deploy, and scale AI agents across industries.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-48&quot;&gt;
+  As Agentic AI continues to evolve, it will drive the future of automation and decision-making across every field—from healthcare and cybersecurity to customer service and beyond.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DDN Takes on GPU Waste with KV Cache Performance for AI Reasoning </title>
+<link>https://insidehpc.com/2025/07/ddn-eliminates-gpu-waste-spiral-with-industry-leading-kv-cache-performance-for-ai-reasoning/</link>
+<pubDate>Fri, 18 Jul 2025 20:23:44 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/DDN-logo-2-1-1023-1024x512.png&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;hero-section type-inner indent-top indent-bottom-medium&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+   &lt;div class=&quot;hero-section-content&quot;&gt;
+    &lt;div class=&quot;hero-info&quot;&gt;
+     &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+      CHATSWORTH, Calif. — July 18, 2025
+      &lt;span style=&quot;font-size: 16px;&quot;&gt;
+       DDN today unveiled performance benchmarks that the company said demonstrates how its AI-optimized DDN Infinia platform eliminates GPU waste and delivers the fastest Time to First Token (TTFT) in the industry for advanced AI reasoning workloads.
+      &lt;/span&gt;
+     &lt;/p&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;indent-bottom&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+   &lt;div class=&quot;article-section&quot;&gt;
+    &lt;div class=&quot;article-holder&quot;&gt;
+     &lt;article class=&quot;article content&quot;&gt;
+      &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot;&gt;
+       As AI models evolve from simple chatbots into complex reasoning systems capable of parsing million-token contexts, organizations are facing a new economic challenge: the hidden cost of context. Each millisecond of latency compounds across millions of interactions, creating a spiral of inefficiency, lost revenue, and underutilized infrastructure.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-9&quot;&gt;
+       “Every time your AI system recomputes context instead of caching it, you’re paying a GPU tax — wasting cycles that could be accelerating outcomes or serving more users,” said Sven Oehme, CTO at DDN. “With DDN Infinia, we’re turning that cost center into a performance advantage.”
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-10&quot;&gt;
+       “I think the most important thing we need to understand — AI is a business of intelligence and DDN helps us maximize our GPUs and store intelligence and do it in a very scalable manner,” said Vikram Sinha, President Director &amp; CEO of Indosat Ooredoo Hutchison. “It really helps us do it at a TCO level, which is very, very competitive — and that is why we choose DDN.”
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-12&quot;&gt;
+       AI leaders such as NVIDIA have stated that agentic AI workloads require 100x more compute than traditional models. As context windows expand from 128K tokens to over 1M, the burden on GPU infrastructure skyrockets — unless KV cache strategies are deployed effectively.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-13&quot;&gt;
+       Recent DDN benchmarks highlight the delta:
+      &lt;/p&gt;
+      &lt;ul class=&quot;wp-block-list&quot;&gt;
+       &lt;li class=&quot;ai-optimize-14&quot;&gt;
+        Traditional recompute approach (112K token context): 57 seconds processing time
+       &lt;/li&gt;
+       &lt;li class=&quot;ai-optimize-15&quot;&gt;
+        DDN Infinia with KV Cache: 2.1 seconds loading time
+       &lt;/li&gt;
+       &lt;li class=&quot;ai-optimize-16&quot;&gt;
+        Result: Over 27X faster performance
+       &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;ai-optimize-17&quot;&gt;
+       This isn’t just a performance win — it’s a fundamental shift in the economics of AI inference at scale. Traditional AI systems waste vast amounts of GPU cycles repeatedly reprocessing the same context for every prompt or user interaction. This inefficiency creates what DDN refers to as the GPU waste spiral—a compounding drag on performance, cost, and energy usage.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-18&quot;&gt;
+       DDN’s key-value (KV) cache architecture breaks this cycle by intelligently storing and reusing previously computed context data. This reduces the need to reload and reprocess tokens, cutting input token costs by up to 75%. For enterprises running 1,000 concurrent AI inference pipelines, this translates to as much as $80,000 in daily GPU savings—a staggering amount when multiplied across thousands of interactions and 24/7 operations. By removing this hidden cost layer, DDN not only accelerates response times but also unlocks new levels of economic viability for scaling generative AI in real-world production environments.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-20&quot;&gt;
+       Without KV cache, returning customers who resume conversations hours or days later force AI systems to reprocess entire histories — burning 10+ seconds per interaction and thousands of GPU cycles. With DDN Infinia, those cached contexts are instantly accessible, maintaining relevance and real-time responsiveness.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-22&quot;&gt;
+       Engineered for next-generation AI workloads, DDN Infinia offers:
+      &lt;/p&gt;
+      &lt;ul class=&quot;wp-block-list&quot;&gt;
+       &lt;li class=&quot;ai-optimize-23&quot;&gt;
+        Sub-Millisecond Latency: Under 1ms vs. 300–500ms in traditional cloud storage
+       &lt;/li&gt;
+       &lt;li class=&quot;ai-optimize-24&quot;&gt;
+        Massive Concurrency: Consistent 100K+ AI calls per second
+       &lt;/li&gt;
+       &lt;li class=&quot;ai-optimize-25&quot;&gt;
+        Seamless NVIDIA Integration: Purpose-built for H100s, GB200s, DPUs and more
+       &lt;/li&gt;
+       &lt;li class=&quot;ai-optimize-26&quot;&gt;
+        IO500-Proven Leadership: Consistently ranked among the highest-performing data platforms globally
+       &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;ai-optimize-28&quot;&gt;
+       With the rapid rise of Retrieval-Augmented Generation (RAG), LLM agents, and multi-modal AI systems, inference is now a real-time, high-throughput operation. DDN’s elastic, GPU-optimized platform ensures AI infrastructure can scale with context growth — not be crippled by it.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-29&quot;&gt;
+       “This is a strategic inflection point,” said Alex Bouzari, CEO and co-founder of DDN. “In AI, speed isn’t just about performance — it’s about economics. DDN enables organizations to operate faster, smarter, and more cost-effectively at every step of the AI pipeline.”
+      &lt;/p&gt;
+     &lt;/article&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> £225M HPE-NVIDIA ‘Isambard-AI’ Supercomputer Launched in UK </title>
+<link>https://insidehpc.com/2025/07/225m-hpe-nvidia-isambard-ai-supercomputer-launched-in-uk/</link>
+<pubDate>Fri, 18 Jul 2025 19:50:33 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;407&quot; sizes=&quot;(max-width: 814px) 100vw, 814px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/isambard-ai-system-2-1-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/isambard-ai-system-2-1-0725.png 814w, https://insidehpc.com/wp-content/uploads/2025/07/isambard-ai-system-2-1-0725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/isambard-ai-system-2-1-0725-300x150.png 300w, https://insidehpc.com/wp-content/uploads/2025/07/isambard-ai-system-2-1-0725-768x384.png 768w&quot; width=&quot;814&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot;&gt;
+  Bristol, UK — The £225m new Isambard-AI facility, developed by the University of Bristol in partnership with HPE and NVIDIA, has been launched.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  The supercomputer, which is built and run by the Bristol Centre for Supercomputing (BriCS), and based at NCC on the Bristol and Bath Science Park, was officially launched by Peter Kyle, the Secretary of State for Science, Innovation, and Technology.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot; style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot;&gt;
+  Named after engineer Isambard Kingdom Brunel – a nod to the region’s historic contributions to engineering and innovation – Isambard-AI is powered by more than 5,400 NVIDIA GH200 Grace Hopper Superchips and HPE Cray EX supercomputer technology.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-15&quot; style=&quot;--tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000;&quot;&gt;
+  It the 6th fastest supercomputer in Europe and the 4th greenest in the world according to the Green500 list. Built to be energy efficient, the facility uses zero carbon electricity. It has been built in a low-carbon, modular data centre that utilises HPE’s 100 percent fan-less, direct liquid cooling technology to deliver up to 90 percent reduction in cooling power consumption. There is also potential to recycle the waste heat output for nearby homes and businesses.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  It is part of the UK Government’s AI Research Resource (AIRR), intended to boost the country’s AI capabilities. Isambard-AI, alongside the Dawn supercomputer at the University of Cambridge, will see the UK’s compute capacity increase to 23 AI ExaFLOPs – the equivalent of everyone in the UK spending 85,000 years doing what the full AIRR will do in one second. “That means everyone in the UK would have needed to start calculating more than 80,000 years before Stonehenge was built – without taking a break,” the university said in its announcement.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  Named ‘AI University of the Year’ in 2024, the university will also be training the AI pioneers of the future by offering a fully-funded Government-backed master’s degree in artificial intelligence through the Spärck AI scholarship.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  Professor Evelyn Welch, Vice-Chancellor and President of the University of Bristol, said: “This is a pivotal moment for AI in the UK and the University of Bristol is proud to be at the heart of it. We have a long history of AI research, innovation and education and now we are home to the UK’s most powerful AI supercomputer.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-19&quot;&gt;
+  “Together with HPE and NVIDIA, we have delivered this remarkable national facility at pace, in just under 24 months. Due to its impressive power, working at speeds 100,000 times faster than an average laptop, we will soon see Isambard AI deliver transformational research and breakthroughs that will ultimately improve people’s lives.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  The team at the Bristol Centre for Supercomputing (BriCS) has used its experience, combined with the latest modular data centre techniques, to complete in under two years what usually takes four to five years, progressing the Isambard-AI project at unprecedented pace.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-21&quot;&gt;
+  Professor Simon McIntosh-Smith, Director of the Bristol Centre for Supercomputing, said: “Isambard-AI places Bristol at the centre of the AI revolution, spearheading AI innovation and scientific discovery in important areas such as drug discovery and climate research.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-22&quot;&gt;
+  “I’m incredibly proud of our team and how we’ve worked so closely with partners to develop this national facility which will establish Bristol and the UK as an international hub for AI research.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-23&quot;&gt;
+  Today’s launch follows the Technology Secretary launching a ten-year plan to boost the country’s AI compute capacity. This will increase the UK’s ability to deliver the next generation of game-changing breakthroughs while building up the strengths of Britain’s wider AI sector.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-24&quot;&gt;
+  Secretary of State for Science, Innovation, and Technology, Peter Kyle said: “Today we put the most powerful computer system in the country into the hands of British researchers and entrepreneurs. Isambard-AI doesn’t just close the gap with our international competitors – it propels the UK to the forefront of AI discovery.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-25&quot;&gt;
+  “With our AI Research Resource now fully up and running, the UK is home to the raw computational horsepower that will save lives, create jobs, and help us reach net zero ambitions faster.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-26&quot;&gt;
+  “This is our Plan for Change in action, building the compute infrastructure that makes Britain a magnet for the world’s brightest minds and boldest ideas. The breakthroughs
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-27&quot;&gt;
+  delivered by the AI Research Resource will define the next decade, from AI tools that spot cancer earlier, to materials that help make clean energy cheaper than fossil fuels.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-28&quot;&gt;
+  Researchers at the University of Bristol are using Isambard-AI to help analyse recordings from wearable cameras and other smart devices to help people perform tasks better at home – something which holds immense promise for assisting dementia patients in the future.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-29&quot;&gt;
+  Videos contain far more information than images or text, but research in video understanding has been limited due to the hardware needs of handling the sheer volume of such data. This new capability of Isambard-AI is opening up exciting possibilities, including capturing footage directly from individuals in the early stages of dementia and training an AI model to help trigger stronger memories later on.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-30&quot;&gt;
+  Other examples of research enabled by the supercomputer include using AI to analyse MRI scans – meaning cases of cancer can be identified sooner and patients can then be given personalised treatment plans; improving our understanding of over 30 key proteins involved in a number of diseases to help develop future treatments; and the monitoring and analysis of dairy cattle herds to detect changes in social behaviour which can serve as early indicators of subclinical diseases.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-31&quot;&gt;
+  John Josephakis, Global Vice President of Business Development for HPC and Supercomputing at NVIDIA, said: “Isambard-AI supercomputer is a vital national asset, providing researchers and innovators with advanced AI and high-performance computing resources.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-32&quot;&gt;
+  “The system is a step toward establishing sovereign AI capabilities and will accelerate breakthroughs in areas like climate science, healthcare, and data analytics to drive scientific discovery and economic growth.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-33&quot;&gt;
+  Richard Oldfield, CEO of NCC, said: “Hosting Isambard gives us the opportunity to harness world class digital and AI research, applying it across the product lifecycle to transform UK industry. We are accelerating the development of better products and processes to deliver stronger outcomes. That’s how we drive economic growth.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-34&quot;&gt;
+  Applications are now open for researchers and SMEs to use Isambard-AI, with more than 80 teams having already applied – demonstrating huge demand for this step-change in UK compute capability.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Q.ANT Raises €62M for Photonic Processing </title>
+<link>https://insidehpc.com/2025/07/q-ant-raises-e62m-for-photonic-processing/</link>
+<pubDate>Fri, 18 Jul 2025 18:55:39 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;149&quot; sizes=&quot;(max-width: 298px) 100vw, 298px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225.png 298w, https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225-150x75.png 150w&quot; width=&quot;298&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  Stuttgart, Germany – July 17, 2025 – Photonic processing company Q.ANT announced a €62 million Series A financing round to accelerate the commercialization of its energy-efficient photonic processors for artificial intelligence (AI) and high-performance computing (HPC). The round is co-led by Cherry Ventures, UVC Partners and imec.xpand with participation from additional deep tech investors, including L-Bank, Verve Ventures, Grazia Equity, EXF Alpha of Venionaire Capital, LEA Partners, Onsight Ventures, and TRUMPF.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  This investment ranks among Europe’s most significant deep tech funding rounds, laying the foundation for a fundamental shift in how AI is computed. As AI infrastructure scales globally, traditional chip technology (CMOS) reaches its physical limits, performance stagnates, and electricity demand is reaching untenable levels. A report from the International Energy Agency (IEA) estimates that by 2026, data center energy use is expected to surpass the entire annual electricity
+  &lt;br/&gt;
+  consumption of Japan1.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  Q.ANT is addressing this issue with a radically different paradigm: computing with light instead of electricity, which opens the door to significantly higher performance and energy savings.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  In just five years, Q.ANT has brought to maturity what experts have pursued for decades: the world’s first commercial photonic processor for real-world AI and HPC workloads – executing complex AI operations much faster while saving significant amounts of energy. Built on Thin-Film Lithium Niobate (TFLN), the Q.ANT Native
+  &lt;br/&gt;
+  Processing Server integrates seamlessly into today’s data centers as a plug-in co-processor. Real-world tests promise up to 30 times energy efficiency, 50 times performance improvement, and the potential to increase data center capacity by 100 times – all without the need for complex active cooling systems. Q.ANT is the
+  &lt;br/&gt;
+  industry’s first photonic processing company to offer this level of performance, accuracy, and industry integration in one sustainable solution.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  “Q.ANT was founded with a bold vision: to redefine the way the world computes by using light instead of electricity,” said Dr. Michael Förtsch, founder and CEO of Q.ANT. “This investment proves that Europe has both the ambition and the capital to lead – and gives us the strong partners we need to pursue our mission and help shape the future of computing.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  Q.ANT was founded by Michael Förtsch as a spin-off from TRUMPF in 2018, developing independently light-based data processing.
+  &lt;br/&gt;
+  Strategic Alliance for International Expansion This funding will enable Q.ANT to scale production, advance development of next-generation photonic processors, grow its team across disciplines, and expand to the US to support a growing number of customer deployments. In addition, Q.ANT strengthens its advisory board with two semiconductor experts: Hermann Hauser, founder of ARM and Hermann Eul former member of the Infineon Management Board and former CVP
+  &lt;br/&gt;
+  &amp; GM of Intel, whose combined expertise in semiconductor scaling, industrialization and global commercialization will be instrumental in Q.ANT’s next phase.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Q.ANT’s photonic chips stand to radically reduce data center operating costs while delivering the breakthrough performance demanded by next-generation AI and high-performance computing,” said Christian Meermann, Founding Partner at Cherry Ventures. “With early commercial momentum and a world-class team of deep tech experts, Q.ANT is uniquely positioned to redefine the trillion-dollar data center semiconductor landscape. We’re proud to back them in building the future of computing.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What impressed us about Q.ANT was the clarity of its vision and its ability to consistently deliver on it,” said Andreas Unseld, General Partner at UVC Partners. “Q.ANT is not only pioneering a new computing architecture, but doing so in a way that addresses the urgent need for more sustainable AI infrastructure. That combination of deep tech capability and long-term relevance made this an easy decision for us.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Classical CMOS processors are approaching their physical and architectural limits – where further gains through parallelization and smaller structures yield only marginal improvements. In contrast, photonic computing represents a fundamentally new paradigm with immense, largely untapped scaling potential. Q.ANT has solved the core challenges of this technology and is well positioned to define the future of highperformance computing,” said Cyril Vancura, Partner at imec.xpand.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  Q.ANT is on a mission to redefine the future of AI infrastructure. By 2030, the company aims to make its photonic processing technology a foundational pillar of global AI systems, radically enhancing scalability and energy efficiency. With a focus on seamless market integration, Q.ANT’s Photonic Native Processing Server (NPS) is now available for early access evaluation and delivered in an easy-to-deploy, industry-standard format that is natively compatible with today’s programming languages and AI software ecosystems. The Q.ANT NPS uses less energy, eliminates on-chip heat and delivers higher compute density, paving the way for a new era of
+  &lt;br/&gt;
+  high-performance, sustainable computing.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Duda Unveils Full-Stack AI for Web Professionals </title>
+<link>https://insideainews.com/2025/07/18/duda-unveils-full-stack-ai-for-web-professionals/</link>
+<pubDate>Fri, 18 Jul 2025 18:33:23 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-data-shutterstock-1987973402-0923-1024x512.jpg&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;ai-optimize-introduction&quot;&gt;
+  BOULDER, Colo., July 17, 2025 – Duda, a white label website building platform for agencies and SaaS companies, today revealed new AI capabilities empowering web professionals to create the next generation of web experiences. Duda Copilot, a Model Context Protocol (MCP) Server, AI-Powered Widget Builder, and the ability to create a site from a file will enable agencies and SaaS platforms to better serve their clients with high-performing websites at scale. Duda is the first platform to integrate llms.txt across all existing and future published websites, ensuring that its clients’ one million sites are fully optimized for both traditional search engines and emerging AI-driven search experiences.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  In the era of AI, agencies must evolve from service providers to strategic partners who drive value through integrated digital marketing strategies and sophisticated, transactional websites. Over the past two years, Duda has been leading this transformation with a holistic approach to AI adoption. In 2023, it introduced powerful AI Assistant capabilities designed to accelerate time-consuming copy and SEO with AI tools that brought artificial intelligence directly into the editing experience and allowed agencies to optimize entire sites for SEO with one click.
+  &lt;p&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  In 2024, Duda expanded its possibilities, enabling designers to generate everything from individual sections to fully built websites in seconds. This year, Duda took a bold step beyond the editor, launching AI tools that streamline client onboarding and accelerate site creation from the very first interaction. Today, every second website being built on Duda uses AI to move faster, build smarter, and deliver more.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  When building a website, 35% of Duda users begin with content in the form of a client brief or a complete copy document. Additionally, 65% of text edits are performed by copy-and-pasting content directly into the text widget. Duda’s File-to-Site feature reimagines both of these flows, helping agencies save time by eliminating repetitive copy-and-paste tasks and centralizing their process into one unified space. Designers can generate sites based on the exact copy contained within the document, or use AI to translate a client brief into a stunning, hyper-relevant website in seconds. They can drag-and-drop that text into the editor; streamlining the design process while maintaining complete control over the design.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  AI-Powered Widget Builder
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Even for seasoned coders, AI tools can dramatically speed up development, turning a design or idea into fully functional widget code using Duda’s JavaScript API. These AI models understand the full Duda documentation and can generate reusable, scalable widgets that are easy for site owners to use. Whether building a list with complex button actions or integrating external services like weather or stock data, AI helps both developers and non-developers build them faster and with fewer errors. Users can begin with a visual design and quickly bring it to life as a functional widget or simply describe the desired widget to the AI Assistant using natural language until the widget is built.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Model Context Protocol Server
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Duda’s MCP server is a powerful new way to interact with sites using natural language and favored AI assistants, like Claude and Cursor. With MCP, users can securely perform real actions on their Duda account, such as adding clients, publishing blogs, generating new collections, and checking form submissions, all without ever leaving the chat. It is similar to giving AI a direct line to the website tools; safe, streamlined, and built for efficiency. MCP works like a universal connector between AI and digital tools, unlocking everything from real-time reporting to bulk blog publishing and multi-step automations. Whether managing one site or hundreds, this new protocol opens the door to faster workflows and smarter automation, all from a simple prompt.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Duda Copilot
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Duda’s AI Copilot is a conversational assistant built right into the platform, designed to help web professionals work faster, smarter, and with less effort. It is context-aware and understands individual challenges of what the user is working on, and provides tailored guidance for a range of tasks; from creating sites and managing existing ones to updating content and helping with the everyday needs of scaling a business. Copilot can be accessed from the account or site dashboard through a simple chat interface. It’s designed to reduce repetitive tasks and busy work, freeing up the team to focus on strategy, creativity, and delivering top-tier results for clients.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Duda is adding llms.txt to all published and future websites on their platform, telling AI exactly what the website is about in a clean, structured language. Similar to robots,txt from the SEO era, it was developed for Large Language Models and references the actual content of the website rather than HTML. It includes the meta descriptions of each page, a list of live URLs such as blog posts and native store products &amp; categories. Thanks to this feature, AI tools will be more likely to show a client’s business accurately, link to the site’s real content and represent the brand professionally.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “AI is rapidly reshaping how people discover, engage with, and build websites. At Duda, we see this not as disruption, but as a huge opportunity for web professionals,” said Itai Sadan, Co-founder and CEO of Duda, “And we’re excited to release AI tools that empower agencies and SaaS platforms to build smarter and faster, evolve alongside the web, and stay ahead of their clients’ needs.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  The new releases will be rolled out throughout July and August 2025.
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPE and Quantum: The Quest for an Integrated Classical-Quantum Infrastructure </title>
+<link>https://insidehpc.com/2025/07/hpe-and-quantum-the-quest-for-an-integrated-classical-quantum-infrastructure/</link>
+<pubDate>Fri, 18 Jul 2025 16:32:27 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;wp-caption alignright&quot; id=&quot;attachment_96743&quot; style=&quot;width: 517px&quot;&gt;
+  &lt;img alt=&quot;&quot; aria-describedby=&quot;caption-attachment-96743&quot; class=&quot;wp-image-96743&quot; decoding=&quot;async&quot; height=&quot;285&quot; sizes=&quot;(max-width: 507px) 100vw, 507px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/kirk-bresniker-presentation-0725-1024x576.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/kirk-bresniker-presentation-0725-1024x576.jpg 1024w, https://insidehpc.com/wp-content/uploads/2025/07/kirk-bresniker-presentation-0725-150x84.jpg 150w, https://insidehpc.com/wp-content/uploads/2025/07/kirk-bresniker-presentation-0725-300x169.jpg 300w, https://insidehpc.com/wp-content/uploads/2025/07/kirk-bresniker-presentation-0725-768x432.jpg 768w, https://insidehpc.com/wp-content/uploads/2025/07/kirk-bresniker-presentation-0725.jpg 1280w&quot; width=&quot;507&quot;/&gt;
+  &lt;p class=&quot;wp-caption-text&quot; id=&quot;caption-attachment-96743&quot;&gt;
+   Kirk Bresniker
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  Last year at SC24, when
+  &lt;a href=&quot;https://www.youtube.com/watch?v=C_R8XZNL6iU&quot;&gt;
+   we first heard about HPE’s quantum strategy
+  &lt;/a&gt;
+  – which could be summed up as “
+  &lt;em&gt;
+   when the quantum community delivers something useful, we’ll be there with a supercomputer-qubits plug-in”
+  &lt;/em&gt;
+  – we thought it very clever. For one, it supports the notion that quantum won’t so much supplant HPC as work alongside it, handling workloads for which it is best suited, complementing and augmenting HPC.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  For another, the strategy seemed like a low-risk, no-lose proposition. Let the quantum people beat their brains out trying to get quantum to work, then all HPE has to do is hook it up to an HPE-Cray EX supercomputer.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  But at HPE’s recent Discover 2025 conference in Las Vegas we learned more about HPE’s quantum project, and it turns out our initial impression did not, in every respect, grasp the scope and complexity of HPE’s undertaking.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  In fact, some of the smartest people at HPE are beating
+  &lt;em&gt;
+   their
+  &lt;/em&gt;
+  brains out preparing HPE supercomputers to work in tandem with quantum, in whatever modality/ies that emerge from the quantum community.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  The goal is to develop a heterogenous HPC-quantum infrastructure that works in an integrated, harmonious fashion, assigning workloads to appropriate architectures and modalities, exchanging massive data sets across HPC and quantum environme nt and delivering a powerhouse computing capability taking on problems beyond anything imaginable today. This is no easy feat.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  HPE’s quantum strategy is the result of a reappraisal, a change in stance from non-participant from about 2011 to 2021 to active participant since then. It’s due in part to their acquisitions of SGI, in 2016, and Cray in 2019, which thrust HPE into the upper reaches of the supercomputing market and put HPE among customers that not only wanted things like exascale-class HPC, they also were interested in the next big things in HPC – including quantum.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  Between the frequency of quantum questions raised at customer meetings and the growing quantum R&amp;D investments in venture-backed quantum start-ups and established technology companies, HPE came to embrace the notion that quantum is probably an inevitability, and beginning about four years ago, the company was back in the quantum arena.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  “You think about HPE at that time (before 2016), we weren’t talking to the top of the supercomputing industry,” Kirk Bresniker, HPE Labs chief architect, an HPE Fellow and vice president, told us last month at Discover.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  “We weren’t in the position to compete for those premier HPC solutions. Then after Cray and SGI, we formed a community (with those companies and their customers), and really, it’s a testament to how that community jelled and then delivered those exascale systems on time and were accepted,” he said. “That also gave us a new perspective. It was time to come back to this (quantum) conversation, they’ve been asking questions for 10 years, and they deserved a better answer than we were giving them.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  Bresniker appears to have the right disposition for this project. He exudes not just smarts but also energetic optimism and good humor, valuable traits for anyone working in the head splitting, counter-reality of quantum, where things can be two different things at once and nothing happens in expected ways.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  The strategy he and his HPE colleagues have been pursuing parallels an effort begun in 2024 by the U.S. Defense Advanced Research Projects Agency’s
+  &lt;a href=&quot;https://www.darpa.mil/research/programs/quantum-benchmarking-initiative&quot;&gt;
+   DARPA Quantum Benchmarking Initiative (QBI)
+  &lt;/a&gt;
+  *. HPE is one of nearly 20 quantum computing companies chosen to enter the program’s stage in which they will characterize their unique concepts for creating a useful, fault-tolerant quantum computer within a decade.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  QBI,
+  &lt;a href=&quot;https://www.darpa.mil/news/2024/quantum-computing-prototype&quot;&gt;
+   which kicked off in July 2024
+  &lt;/a&gt;
+  , aims to determine if it’s possible to build a quantum computer faster than has been generally predictions and intends  to validate whether any quantum approach can achieve utility-scale operation (i.e., its computational value exceeds its cost) by the year 2033.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-96746&quot; decoding=&quot;async&quot; height=&quot;378&quot; sizes=&quot;(max-width: 795px) 100vw, 795px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/hpe-quantum-strategy-slide-0725-1.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/hpe-quantum-strategy-slide-0725-1.png 965w, https://insidehpc.com/wp-content/uploads/2025/07/hpe-quantum-strategy-slide-0725-1-150x71.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/hpe-quantum-strategy-slide-0725-1-300x143.png 300w, https://insidehpc.com/wp-content/uploads/2025/07/hpe-quantum-strategy-slide-0725-1-768x365.png 768w&quot; width=&quot;795&quot;/&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  HPE’s quantum strategy has four interrelated parts, all of them reflecting more not so much an agnostic approach to constructing a classical-quantum infrastructure, it could be called all-embracing or, Bresniker’s term, “inclusive.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-19&quot;&gt;
+  &lt;em&gt;
+   Unified Workflow:
+  &lt;/em&gt;
+  This is enabling HPE-Cray supercomputers to work alongside quantum systems regardless of processor type, including CPU, GPU, FOGA or QPU (quantum processing unit). The supercomputer and the quantum system should be integrated seamlessly into a working whole.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  “I don’t want to have people having to research individual disciplines and have a million tools, a million steps,” Bresniker said. “I want to understand across these very complex modalities, across something that not only has been integrated and has to be calibrated and is in the real time ecosystem. How do I get the most out of the QPU without everyone having to get a graduate degree in quantum mechanics? That’s the challenge.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-21&quot;&gt;
+  This part of the strategy is necessary given the current, immature state of quantum skills.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-22&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;alignleft size-large wp-image-96744&quot; decoding=&quot;async&quot; height=&quot;200&quot; loading=&quot;lazy&quot; sizes=&quot;auto, (max-width: 200px) 100vw, 200px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/hpe-labs-logo-0725.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/hpe-labs-logo-0725.jpg 200w, https://insidehpc.com/wp-content/uploads/2025/07/hpe-labs-logo-0725-150x150.jpg 150w&quot; width=&quot;200&quot;/&gt;
+  “We anticipate a future generation of quantum natives,” Bresniker said. “I don’t know if they’re in pre-school or first grade right now, but eventually, in a decade or two, we’ll have people who are probabilistic quantum computing natives. Until then, we need to make progress. We need to make today more productive. And that’s what the unified workflow program is all about.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-23&quot;&gt;
+  &lt;em&gt;
+   Distributed Quantum Simulation:
+  &lt;/em&gt;
+  HPE wants to use state-of-the-art supercomputing to design not only better qubits but also quantum-classical hybrid systems.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-24&quot;&gt;
+  “It can take a problem and break it apart into a digital twin and tell me, ‘OK, this is necessarily a quantum piece, and you should put this half of the problem in a trapped ion. When you put this half of the problem in a superconducting qubit, we have great classical approximations.’
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-25&quot;&gt;
+  “We want understand how we create that hybrid system,” Bresniker said. “The good thing about having that environment is it can tell us when we achieve a combination hybrid quantum-classical system, and what will it take.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-26&quot;&gt;
+  This will help reveal whether the classical/quantum combination “is worth it, or should we use the simulation capability to tell the quantum hardware across six figures of merit on this particular type of qubit, that if you tweak this one a little bit … here’s what will open up as far as applications.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-27&quot;&gt;
+  &lt;em&gt;
+   Quantum-Inspired Accelerators:
+  &lt;/em&gt;
+  The third piece of the strategy is closely related to the first – HPE isn’t themselves developing quantum processors, but they are developing classical, low physics based accelerators that work with quantum processors.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-28&quot;&gt;
+  “I said we weren’t going to blow the dust off” HPE’s QPU-related work from circa 2010 (which focused on nitrogen-vacancy in the diamond lattice), Bresniker said, “we’re letting other people (at quantum companies) who do that work on that.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-29&quot;&gt;
+  The team at HPE Labs is working on data communications technologies between classical systems and quantum, things like large-scale integrated photonics and Picojoules per bit for communication of classical data.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-30&quot;&gt;
+  “Now they’re understanding how to re-purpose those same elements, inferometers, the diffraction equations, the microring resonators,” he said. “This technology is right in the middle of where quantum also is, it’s a parallel solve – a parallel solve is quantum physics based accelerators, classical physics based accelerators, and then unified workflow.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-31&quot;&gt;
+  The point being: neither HPE nor its customers “…have to make one bet. I get to look over that entire field. Because, frankly, I don’t care if it is a superconducting qubit, a trapped ion qubit, a classical physics-based accelerator or whatever – whatever it takes to get an enterprise outcome out of these systems and begin to prepare the enterprise to capitalize on this technology is what I want.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-32&quot;&gt;
+  &lt;em&gt;
+   Physics-Based Generative AI:
+  &lt;/em&gt;
+  The fourth part of the strategy relates to solving large-scale logistics problem, the proverbial traveling salesman problem, also called “NP-hard optimization problems,” and HPE’s effort to build in several complementary ways of attacking them, be it with quantum or physic-based large language models or quantum-inspired  classical HPC.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-33&quot;&gt;
+  When, presumably, the time arrives for HPE supercomputers to work alongside quantum, the best means of solving the problem will be assigned the job in real time.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-34&quot;&gt;
+  “This is utilizing physics-based accelerators to solve some of the same problems that quantum aspires to,” Bresniker said. “… here’s a gigantic binary equation with all those ‘ands, ors, nots,’ so which of the millions of inputs would have to be set in order for it to be true? …
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-35&quot;&gt;
+  “You can also begin to use this to evaluate propositional logic, and this is where we’re talking about adding a new faculty. LLMs are fantastic at interpolation, at inductive reasoning… What they aren’t capable of doing is deductive reasoning, they’re not capable of extrapolation. They’re not capable of evaluating a general purpose first order logic equation and give you that satisfiability.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-36&quot;&gt;
+  That’s the fourth pillar, “using quantum-inspired classical, and eventually perhaps also classical” (on these problems). I actually don’t care which one is the right one to solve the job as long as we can connect them to interesting problems for enterprise. And in addition to the logistic problems, we also want to attach them to deep reasoning problems. So adding that ability for deep reasoning, that ability to evaluate deep propositional logic theorems and evaluate which ones are satisfied, which ones are unsatisfiable and which ones are valid, and that’s really that fourth pillar, using the quantum inspired classical for satisfiability problems.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-37&quot;&gt;
+  &lt;em&gt;
+   &lt;br/&gt;
+   * QBI participating companies: Alice &amp; Bob — Cambridge, MA, and Paris, (superconducting cat qubits); Atlantic Quantum — Cambridge, MA (fluxonium qubits with co-located cryogenic controls); Atom Computing — Boulder (scalable arrays of neutral atoms); Diraq — Sydney with operations in Palo Alto and Boston (silicon CMOS spin qubits); HPE; IBM — (quantum computing with modular superconducting processors); IonQ — College Park, MD (trapped-ion quantum computing); Nord Quantique — Sherbrooke, Quebec, (superconducting qubits with bosonic error correction); Oxford Ionics — Oxford and Boulder (trapped-ions); Photonic Inc. — Vancouver, BC, (optically-linked silicon spin qubits); Quantinuum — Broomfield, CO (trapped-ion quantum charged coupled device architecture); Quantum Motion — London (MOS-based silicon spin qubits); QuEra Computing — Boston (neutral atom qubits), Rigetti Computing — Berkeley (superconducting tunable transmon qubits); Silicon Quantum Computing Pty. Ltd. — Sydney (precision atom qubits in silicon); Xanadu — Toronto (photonic quantum computing)
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> GigaIO Raises $21M in Series B Round </title>
+<link>https://insidehpc.com/2025/07/gigaio-raises-21m-in-series-b-round/</link>
+<pubDate>Thu, 17 Jul 2025 18:31:19 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;p class=&quot;ai-optimize-9 ai-optimize-introduction&quot;&gt;
+  Carlsbad, California, July 17 2025 – GigaIO, a provider of scalable infrastructure for AI inferencing, today announced it has raised $21 million in the first tranche of its Series B financing.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9 ai-optimize-introduction&quot;&gt;
+  The round was led by Impact Venture Capital, with participation from CerraCap Ventures, G Vision Capital, Mark IV Capital, and SourceCode Cerberus.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  The new funding will enable GigaIO to expand production of its flagship products SuperNODE and Gryf™ and accelerate innovation with a clear focus on AI inferencing. Funding will be used to:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-11&quot;&gt;
+   Ramp up production of SuperNODE, the most cost-effective and energy-efficient infrastructure designed for AI inferencing at scale.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-12&quot;&gt;
+   Accelerate the deployment of Gryf, the world’s first carry-on suitcase-sized AI inferencing supercomputer, which brings datacenter-class computing power directly to the edge.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-13&quot;&gt;
+   Invest in new product development to broaden GigaIO’s technology offerings.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-14&quot;&gt;
+   Expand the sales and marketing teams to serve the increasing demand for vendor-agnostic AI infrastructure.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  “We are thrilled to achieve this milestone with the support of Impact Venture Capital and our investors,” said Alan Benjamin, CEO of GigaIO. “With SuperNODE and Gryf, we have created a new paradigm for cost-effective and power-efficient AI inferencing infrastructure. Our vendor-agnostic platform uniquely frees customers from dependency on single-source AI chips and architectures. Whether it’s GPUs from NVIDIA and AMD or new AI chips from innovators like Tenstorrent and d-Matrix, GigaIO enables customers to leverage the best technologies without vendor lock-in. This funding gives us the fuel to move faster and meet the surging demand.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  GigaIO’s patented FabreX™ AI memory fabric architecture enables the scale-up and dynamic composition of compute, GPU, storage, and networking resources — unlocking performance and cost efficiencies that traditional architectures are unable to deliver. As AI models grow larger and more complex, FabreX provides the flexibility needed to scale infrastructure on demand, at the rack level and beyond.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  “GigaIO’s innovative infrastructure is precisely what businesses need to harness the transformative power of AI,” said Jack Crawford, Founding General Partner at Impact Venture Capital. “As enterprises and cloud providers race to deploy AI at scale, GigaIO delivers a uniquely flexible, cost-effective, and energy-efficient solution that accelerates time to insight. We believe
+  &lt;a href=&quot;http://www.gigaio.com/&quot;&gt;
+   GigaIO
+  &lt;/a&gt;
+  has assembled a world-class team and is poised to become a foundational pillar of tomorrow’s AI-powered infrastructure, and we’re proud to back their vision.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  GigaIO plans to complete a second close of the Series B in the coming months, citing continued strong interest from strategic and financial investors. Rockefeller Capital Management’s Investment Banking division served as the exclusive advisor to GigaIO in the transaction.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Synopsys Completes Acquisition of Ansys </title>
+<link>https://insidehpc.com/2025/07/synopsys-completes-acquisition-of-ansys/</link>
+<pubDate>Thu, 17 Jul 2025 18:31:14 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;165&quot; sizes=&quot;(max-width: 331px) 100vw, 331px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/12/synopsis-logo-2-1-1224.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/12/synopsis-logo-2-1-1224.png 331w, https://insidehpc.com/wp-content/uploads/2024/12/synopsis-logo-2-1-1224-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2024/12/synopsis-logo-2-1-1224-300x150.png 300w&quot; width=&quot;331&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  &lt;span class=&quot;legendSpanClass&quot;&gt;
+   &lt;span class=&quot;xn-location&quot;&gt;
+    SUNNYVALE, Calif.
+   &lt;/span&gt;
+  &lt;/span&gt;
+  ,
+  &lt;span class=&quot;legendSpanClass&quot;&gt;
+   &lt;span class=&quot;xn-chron&quot;&gt;
+    July 17, 2025
+   &lt;/span&gt;
+  &lt;/span&gt;
+  — Synopsys (Nasdaq: SNPS) today announced the completion of its acquisition of Ansys. The transaction, which was announced on
+  &lt;span class=&quot;xn-chron&quot;&gt;
+   January 16, 2024
+  &lt;/span&gt;
+  , combines leaders in silicon design, IP and simulation and analysis to enable customers to rapidly innovate AI-powered products. Synopsys is now positioned to win in an expanded
+  &lt;span class=&quot;xn-money&quot;&gt;
+   $31 billion
+  &lt;/span&gt;
+  total addressable market (TAM).
+  &lt;sup&gt;
+   1
+  &lt;/sup&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  “Today marks a transformational milestone for Synopsys. For decades, Synopsys has been delivering breakthroughs in silicon design and IP that have fueled chip innovation,” said president and CEO of Synopsys,
+  &lt;span class=&quot;xn-person&quot;&gt;
+   Sassine Ghazi
+  &lt;/span&gt;
+  . “The increasing complexity of developing intelligent systems demands design solutions with a deeper integration of electronics and physics, enhanced by AI. With Ansys’ leading system simulation and analysis solutions now part of Synopsys, we can maximize the capabilities of engineering teams broadly, igniting their innovation from silicon to systems.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  Former Ansys president, CEO, and board member Ajei Gopal and former Ansys board member
+  &lt;span class=&quot;xn-person&quot;&gt;
+   Ravi Vijayaraghavan
+  &lt;/span&gt;
+  are joining Synopsys’ board of directors, effective immediately.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  “For half a century, Ansys has enabled innovators across industries to push boundaries with the predictive power of simulation and analysis,” said Gopal. “Our companies have a common culture, a successful longstanding partnership, and now a united mission to empower innovators to drive human advancement. I look forward to serving this mission as a member of the Synopsys board and expect a swift, successful integration.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  Synopsys remains dedicated to helping engineers innovate, reduce time-to-market and costs, and improve product quality by delivering unprecedented insights into how their products will perform in the real world. And, united with Ansys, Synopsys can now deliver holistic system design solutions for customers in industries spanning semiconductors, high-tech, automotive, aerospace, industrial, and more.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  Synopsys expects to deliver the first set of integrated capabilities in the first half of 2026 that fuse multiphysics across the full EDA stack, including for multi-die advanced packaging. The combined roadmap also includes integrated solutions to advance testing and virtualization of complex, intelligent systems for automotive and other industries.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  This combination bolsters
+  &lt;a href=&quot;http://www.synopsys.com&quot;&gt;
+   Synopsys
+  &lt;/a&gt;
+  ‘ strong financial position with projected margin expansion and greater unlevered free cash flow generation, enabling rapid deleveraging over a period of two years. Ansys common stock will no longer be listed for trading on the NASDAQ stock market.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  &lt;b&gt;
+   Other Resources
+  &lt;/b&gt;
+ &lt;/p&gt;
+ &lt;ul type=&quot;disc&quot;&gt;
+  &lt;li class=&quot;ai-optimize-14&quot;&gt;
+   &lt;a href=&quot;https://c212.net/c/link/?t=0&amp;l=en&amp;o=4470273-1&amp;h=1375267917&amp;u=https%3A%2F%2Fwww.synopsys.com%2Fsynopsys-ansys-united.html&amp;a=Video+message+from%C2%A0Sassine+Ghazi&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+    Video message from Sassine Ghazi
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-15&quot;&gt;
+   &lt;a href=&quot;https://c212.net/c/link/?t=0&amp;l=en&amp;o=4470273-1&amp;h=2869797915&amp;u=https%3A%2F%2Fwww.synopsys.com%2Fsynopsys-ansys-united.html&amp;a=Synopsys+Blog%3A+%27Re-engineering+Engineering+from+Silicon+to+Systems%27&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+    Synopsys Blog: ‘Re-engineering Engineering from Silicon to Systems’
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Open Flash Platform Storage Initiative Aims to Cut AI Infrastructure Costs by 50% </title>
+<link>https://insideainews.com/2025/07/15/open-flash-platform-initiative-aims-to-cut-ai-infrastructure-costs-by-50/</link>
+<pubDate>Thu, 17 Jul 2025 17:35:09 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;230&quot; sizes=&quot;(max-width: 460px) 100vw, 460px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/open-flash-platform-logo-2-1-0725.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/open-flash-platform-logo-2-1-0725.png 460w, https://insideainews.com/wp-content/uploads/2025/07/open-flash-platform-logo-2-1-0725-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/open-flash-platform-logo-2-1-0725-300x150.png 300w&quot; width=&quot;460&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  Today, the Open Flash Platform (OFP) initiative was launched with inaugural members Hammerspace, the Linux community, Los Alamos National Laboratory, ScaleFlux, SK Hynix, and
+  &lt;a href=&quot;https://xsightsys.com/&quot;&gt;
+   Xsight Systems
+  &lt;/a&gt;
+  . OCP intends to address requirements from the next wave of data storage for AI.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  “The convergence of data creation associated with emerging AI applications coupled with limitations around power availability, hot data centers, and data center space constraints means we need to take a blank-slate approach to building AI data infrastructure,” OFP said in its announcement.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  A decade ago, NVMe unleashed flash as the performance tier by disintermediating legacy storage busses and controllers.  Now, OFP unlocks flash as the capacity tier by disintermediating storage servers and proprietary software stacks. OFP leverages open standards and open source—specifically parallel NFS and standard Linux—to place flash directly on the storage network.  Open, standards-based solutions inevitably prevail. By delivering an order of magnitude greater capacity density, substantial power savings and much lower TCO, OFP accelerates that inevitability.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  Current solutions are inherently tied to a storage server model that demands excessive resources to drive performance and capability. Designs from all current all-flash vendors are not optimized to facilitate the best in flash density, and tie solutions to the operating life of a processor (typically five years) vs. the operating life of flash (typically eight years). These storage servers also introduce proprietary data structures that fragment data environments by introducing new silos, resulting in a proliferation of data copies, and adding licensing costs to every node.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  OFP advocates an open, standards-based approach which includes several elements:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li class=&quot;ai-optimize-12&quot;&gt;
+   Flash devices – conceived around, but not limited to, QLC flash for its density. Flash sourcing should be flexible to enable customers to purchase NAND from various fabs, potentially through controller partners or direct module design, avoiding single-vendor lock-in.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-13&quot;&gt;
+   IPUs/DPUs – have matured to a point that they can replace much more resource intensive processors for serving data. Both lower cost and lower power requirements mean a much more efficient component for data services.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-14&quot;&gt;
+   OFP cartridge – a cartridge contains all of the essential hardware to store and serve data in a form factor that is optimized for low power consumption and flash density.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-15&quot;&gt;
+   OFP trays – An OFP tray fits a number of OFP cartridges and supplies power distribution and fitment for various data center rack designs.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-16&quot;&gt;
+   Linux Operating System – OFP utilizes standard
+   &lt;a href=&quot;https://www.linuxfoundation.org/&quot;&gt;
+    Linux
+   &lt;/a&gt;
+   running stock NFS to supply data services from each cartridge.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  “Our goals are not modest and there is a lot of work in store, but by leveraging open designs and industry standard components as a community, this initiative will result in enormous improvements in data storage efficiency,”
+  &lt;a href=&quot;https://openflashplatform.org/#partner&quot;&gt;
+   OFP
+  &lt;/a&gt;
+  said.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  “Power efficiency isn’t optional; it’s the only way to scale AI. Period. The Open Flash Platform removes the shackles of legacy storage, making it possible to store exabytes using less than 50 kilowatts, vs yesterday’s megawatts. That’s not incremental, it’s radical,” said Hao Zhong, CEO &amp; Co-Founder of
+  &lt;a href=&quot;https://scaleflux.com/&quot;&gt;
+   ScaleFlux
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-22&quot;&gt;
+  “Agility is everything for AI — and only open, standards-based storage keeps you free to adapt fast, control costs, and lower power use,” said Gary Grider, Director of HPC,
+  &lt;a href=&quot;https://www.lanl.gov/&quot;&gt;
+   Los Alamos National Lab
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-24&quot;&gt;
+  “Flash will be the next driving force for the AI era. To unleash its full potential, storage systems must evolve. We believe that open and standards-based architectures like OFP can maximize the full potential of flash-based storage systems by significantly improving power efficiency and removing barriers to scale,” said Hoshik Kim, SVP, Head of Memory Systems Research at
+  &lt;a href=&quot;https://www.skhynix.com/&quot;&gt;
+   SK hynix
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-30&quot;&gt;
+  “Open, standards-based solutions inevitably prevail. By delivering 10x greater capacity density and a 50 percent lower TCO, OFP accelerates that inevitability,” said David Flynn, Founder and CEO,
+  &lt;a href=&quot;http://www.hammerspace.com/&quot;&gt;
+   Hammerspace
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

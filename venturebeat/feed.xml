@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>VentureBeat</title>
+<lastBuildDate>Sat, 19 Jul 2025 17:15:30 -0000</lastBuildDate>
+<item>
+<title> New embedding model leaderboard shakeup: Google takes #1 while Alibaba’s open source alternative closes gap </title>
+<link>https://venturebeat.com/ai/new-embedding-model-leaderboard-shakeup-google-takes-1-while-alibabas-open-source-alternative-closes-gap/</link>
+<pubDate>Sat, 19 Jul 2025 00:25:31 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Google embedding model&quot; class=&quot;skip-lazy&quot; height=&quot;409&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Google-embedding-model.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Image credit: VentureBeat with Imagen-4
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.google.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Google
+  &lt;/a&gt;
+  has officially moved its new, high-performance
+  &lt;a href=&quot;https://developers.googleblog.com/en/gemini-embedding-available-gemini-api/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Gemini Embedding model
+  &lt;/a&gt;
+  to general availability, currently ranking number one overall on the highly regarded
+  &lt;a href=&quot;https://huggingface.co/spaces/mteb/leaderboard&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Massive Text Embedding Benchmark
+  &lt;/a&gt;
+  (MTEB). The model (gemini-embedding-001) is now a core part of the Gemini API and Vertex AI, enabling developers to build applications such as semantic search and retrieval-augmented generation (RAG).
+ &lt;/p&gt;
+ &lt;p&gt;
+  While a number-one ranking is a strong debut, the landscape of embedding models is very competitive. Google’s proprietary model is being challenged directly by powerful open-source alternatives. This sets up a new strategic choice for enterprises: adopt the top-ranked proprietary model or a nearly-as-good open-source challenger that offers more control.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-what-s-under-the-hood-of-google-s-gemini-embedding-model&quot;&gt;
+  What’s under the hood of Google’s Gemini embedding model
+ &lt;/h2&gt;
+ &lt;p&gt;
+  At their core,
+  &lt;a href=&quot;https://venturebeat.com/ai/beyond-chatbots-the-wide-world-of-embeddings/&quot;&gt;
+   embeddings
+  &lt;/a&gt;
+  convert text (or other data types) into numerical lists that capture the key features of the input. Data with similar semantic meaning have embedding values that are closer together in this numerical space. This allows for powerful applications that go far beyond simple keyword matching, such as building intelligent
+  &lt;a href=&quot;https://venturebeat.com/ai/new-technique-makes-rag-systems-much-better-at-retrieving-the-right-documents/&quot;&gt;
+   retrieval-augmented generation
+  &lt;/a&gt;
+  (RAG) systems that feed relevant information to LLMs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Embeddings can also be applied to other modalities such as images, video and audio. For instance, an e-commerce company might utilize a multimodal embedding model to generate a unified numerical representation for a product that incorporates both textual descriptions and images.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For enterprises, embedding models can power more accurate internal search engines, sophisticated document clustering, classification tasks, sentiment analysis and anomaly detection. Embeddings are also becoming an important part of agentic applications, where AI agents must
+  &lt;a href=&quot;https://venturebeat.com/ai/s3-the-new-rag-framework-that-trains-search-agents-with-minimal-data/&quot;&gt;
+   retrieve and match
+  &lt;/a&gt;
+  different types of documents and prompts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the key features of Gemini Embedding is its built-in flexibility. It has been trained through a technique known as Matryoshka Representation Learning (MRL), which allows developers to get a highly detailed 3072-dimension embedding but also truncate it to smaller sizes like 1536 or 768 while preserving its most relevant features. This flexibility enables an enterprise to strike a balance between model accuracy, performance and storage costs, which is crucial for scaling applications efficiently.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google positions Gemini Embedding as a unified model designed to work effectively “out-of-the-box” across diverse domains like finance, legal and engineering without the need for fine-tuning. This simplifies development for teams that need a general-purpose solution. Supporting over 100 languages and priced competitively at $0.15 per million input tokens, it is designed for broad accessibility.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-a-competitive-landscape-of-proprietary-and-open-source-challengers&quot;&gt;
+  A competitive landscape of proprietary and open-source challengers
+ &lt;/h2&gt;
+ &lt;figure class=&quot;wp-block-image size-large&quot;&gt;
+  &lt;img alt=&quot;MTEB rankings&quot; class=&quot;wp-image-3014381&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;450&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png 8001w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=300,169 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=768,432 768w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=800,450 800w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=1536,864 1536w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=2048,1152 2048w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=400,225 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=750,422 750w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=578,325 578w, https://venturebeat.com/wp-content/uploads/2025/07/image_7cf7a0.png?resize=930,523 930w&quot; width=&quot;800&quot;/&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   &lt;em&gt;
+    Source: Google Blog
+   &lt;/em&gt;
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The MTEB leaderboard shows that while Gemini leads, the gap is narrow. It faces established models from OpenAI, whose
+  &lt;a href=&quot;https://venturebeat.com/ai/openai-launches-new-generation-of-embedding-models-and-other-api-updates/&quot;&gt;
+   embedding models
+  &lt;/a&gt;
+  are widely used, and specialized challengers like Mistral, which offers a model
+  &lt;a href=&quot;https://venturebeat.com/ai/mistral-launches-new-code-embedding-model-that-outperforms-openai-and-cohere-in-real-world-retrieval-tasks/&quot;&gt;
+   specifically for code retrieval
+  &lt;/a&gt;
+  . The emergence of these specialized models suggests that for certain tasks, a targeted tool may outperform a generalist one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another key player, Cohere, targets the enterprise directly with its
+  &lt;a href=&quot;https://venturebeat.com/ai/cracking-ais-storage-bottleneck-and-supercharging-inference-at-the-edge/&quot;&gt;
+   Embed 4 model
+  &lt;/a&gt;
+  . While other models compete on general benchmarks, Cohere emphasizes its model’s ability to handle the “noisy real-world data” often found in enterprise documents, such as spelling mistakes, formatting issues, and even scanned handwriting. It also offers deployment on virtual private clouds or on-premises, providing a level of data security that directly appeals to regulated industries such as finance and healthcare.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The most direct threat to proprietary dominance comes from the open-source community. Alibaba’s
+  &lt;a href=&quot;https://huggingface.co/Qwen/Qwen3-Embedding-8B&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Qwen3-Embedding
+  &lt;/a&gt;
+  model ranks just behind Gemini on MTEB and is available under a permissive Apache 2.0 license (available for commercial purposes). For enterprises focused on software development, Qodo’s
+  &lt;a href=&quot;https://venturebeat.com/programming-development/qodos-open-code-embedding-model-sets-new-enterprise-standard-beating-openai-salesforce/&quot;&gt;
+   Qodo-Embed-1-1.5B
+  &lt;/a&gt;
+  presents another compelling open-source alternative, designed specifically for code and claiming to outperform larger models on domain-specific benchmarks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For companies already building on Google Cloud and the Gemini family of models, adopting the native embedding model can have several benefits, including seamless integration, a simplified MLOps pipeline, and the assurance of using a top-ranked general-purpose model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Gemini is a closed, API-only model. Enterprises that prioritize data sovereignty, cost control, or the ability to run models on their own infrastructure now have a credible, top-tier open-source option in Qwen3-Embedding or can use one of the task-specific embedding models.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> How OpenAI’s red team made ChatGPT agent into an AI fortress </title>
+<link>https://venturebeat.com/security/openais-red-team-plan-make-chatgpt-agent-an-ai-fortress/</link>
+<pubDate>Fri, 18 Jul 2025 22:24:37 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;skip-lazy&quot; height=&quot;340&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/hero-image.jpg?w=624&quot; width=&quot;624&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  In case you missed it,
+  &lt;a href=&quot;https://venturebeat.com/ai/openai-unveils-chatgpt-agent-that-gives-chatgpt-its-own-computer-to-autonomously-use-your-email-and-web-apps-download-and-create-files-for-you/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   OpenAI yesterday debuted a powerful new feature for ChatGPT
+  &lt;/a&gt;
+  and with it, a host of new security risks and ramifications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Called the “ChatGPT agent,” this new feature is an optional mode that ChatGPT paying subscribers can engage by clicking “Tools” in the prompt entry box and selecting “agent mode,” at which point, they can ask ChatGPT to log into their email and other web accounts; write and respond to emails; download, modify, and create files; and do a host of other tasks on their behalf, autonomously, much like a real person using a computer with their login credentials.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Obviously, this also requires the user to trust the ChatGPT agent not to do anything problematic or nefarious, or to leak their data and sensitive information. It also poses greater risks for a user and their employer than the regular ChatGPT, which can’t log into web accounts or modify files directly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Keren Gu, a member of the Safety Research team at OpenAI, commented on X that “we’ve activated our strongest safeguards for ChatGPT Agent. It’s the first model we’ve classified as High capability in biology &amp; chemistry under our Preparedness Framework. Here’s why that matters–and what we’re doing to keep it safe.”
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-full&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014424&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;421&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_2a3039.png&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_2a3039.png 590w, https://venturebeat.com/wp-content/uploads/2025/07/image_2a3039.png?resize=300,214 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_2a3039.png?resize=400,285 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_2a3039.png?resize=578,412 578w&quot; width=&quot;590&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  So how did OpenAI handle all these security issues?
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-red-team-s-mission&quot;&gt;
+  The red team’s mission
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Looking at OpenAI’s ChatGPT agent
+  &lt;a href=&quot;https://openai.com/index/chatgpt-agent-system-card/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   system card
+  &lt;/a&gt;
+  , the “read team” employed by the company to test the feature faced a challenging mission: specifically, 16 PhD security researchers who were given 40 hours to test it out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Through systematic testing, the red team discovered seven universal exploits that could compromise the system, revealing critical vulnerabilities in how AI agents handle real-world interactions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What followed next was extensive security testing, much of it predicated on red teaming. The Red Teaming Network submitted 110 attacks, from prompt injections to biological information extraction attempts. Sixteen exceeded internal risk thresholds. Each finding gave OpenAI engineers the insights they needed to get fixes written and deployed before launch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The results speak for themselves in the
+  &lt;a href=&quot;https://openai.com/index/chatgpt-agent-system-card/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   published results in the system card
+  &lt;/a&gt;
+  . ChatGPT Agent emerged with significant security improvements, including 95% performance against visual browser irrelevant instruction attacks and robust biological and chemical safeguards.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-red-teams-exposed-seven-universal-exploits&quot;&gt;
+  Red teams exposed seven universal exploits
+ &lt;/h2&gt;
+ &lt;p&gt;
+  OpenAI’s Red Teaming Network was comprised 16 researchers with biosafety-relevant PhDs who topgether submitted 110 attack attempts during the testing period. Sixteen exceeded internal risk thresholds, revealing fundamental vulnerabilities in how AI agents handle real-world interactions. But the real breakthrough came from UK AISI’s unprecedented access to ChatGPT Agent’s internal reasoning chains and policy text. Admittedly that’s intelligence regular attackers would never possess.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over four testing rounds, UK AISI forced OpenAI to execute seven universal exploits that had the potential to compromise any conversation:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Attack vectors that forced OpenAI’s hand
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-table&quot;&gt;
+  &lt;table class=&quot;has-fixed-layout&quot;&gt;
+   &lt;thead&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Attack Type
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Success Rate (Pre-Fix)
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Target
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Impact
+      &lt;/strong&gt;
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Visual Browser Hidden Instructions
+     &lt;/td&gt;
+     &lt;td&gt;
+      33%
+     &lt;/td&gt;
+     &lt;td&gt;
+      Web pages
+     &lt;/td&gt;
+     &lt;td&gt;
+      Active data exfiltration
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Google Drive Connector Exploitation
+     &lt;/td&gt;
+     &lt;td&gt;
+      Not disclosed
+     &lt;/td&gt;
+     &lt;td&gt;
+      Cloud documents
+     &lt;/td&gt;
+     &lt;td&gt;
+      Forced document leaks
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Multi-Step Chain Attacks
+     &lt;/td&gt;
+     &lt;td&gt;
+      Variable
+     &lt;/td&gt;
+     &lt;td&gt;
+      Cross-site actions
+     &lt;/td&gt;
+     &lt;td&gt;
+      Complete session compromise
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Biological Information Extraction
+     &lt;/td&gt;
+     &lt;td&gt;
+      16 submissions exceeded thresholds
+     &lt;/td&gt;
+     &lt;td&gt;
+      Dangerous knowledge
+     &lt;/td&gt;
+     &lt;td&gt;
+      Potential weaponization
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/tbody&gt;
+  &lt;/table&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  FAR.AI’s assessment was openly critical of OpenAI’s approach. Despite 40 hours of testing revealing only three partial vulnerabilities, they identified that current safety mechanisms relied heavily on monitoring during reasoning and tool-use processes, which the researchers considered a potential single point of failure if compromised.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-how-red-teaming-helped-turn-chatgpt-vulnerabilities-into-a-fortress&quot;&gt;
+  How red teaming helped turn ChatGPT vulnerabilities into a fortress
+ &lt;/h2&gt;
+ &lt;p&gt;
+  OpenAI’s response to the red team’s results redefined entire segments of the ChatGPT agent architecture. One of the many initiatives undertaken including building a dual-layer inspection architecture that monitors 100% of production traffic in real-time, achieving these measurable improvements:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Security improvements after red team discoveries
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-table&quot;&gt;
+  &lt;table class=&quot;has-fixed-layout&quot;&gt;
+   &lt;thead&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Defense Metric
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Previous Models
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       ChatGPT Agent
+      &lt;/strong&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+      &lt;strong&gt;
+       Improvement
+      &lt;/strong&gt;
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Irrelevant Instructions (Visual Browser)
+     &lt;/td&gt;
+     &lt;td&gt;
+      82%
+     &lt;/td&gt;
+     &lt;td&gt;
+      95%
+     &lt;/td&gt;
+     &lt;td&gt;
+      +13%
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      In-Context Data Exfiltration
+     &lt;/td&gt;
+     &lt;td&gt;
+      75%
+     &lt;/td&gt;
+     &lt;td&gt;
+      78%
+     &lt;/td&gt;
+     &lt;td&gt;
+      +3%
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      Active Data Exfiltration
+     &lt;/td&gt;
+     &lt;td&gt;
+      58%
+     &lt;/td&gt;
+     &lt;td&gt;
+      67%
+     &lt;/td&gt;
+     &lt;td&gt;
+      +9%
+     &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;
+      System Reliability
+     &lt;/td&gt;
+     &lt;td&gt;
+      Sampling-based
+     &lt;/td&gt;
+     &lt;td&gt;
+      100% coverage
+     &lt;/td&gt;
+     &lt;td&gt;
+      Complete monitoring
+     &lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;/tbody&gt;
+  &lt;/table&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The architecture works like this:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    First Tier
+   &lt;/strong&gt;
+   : A fast classifier with 96% recall flags suspicious content
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Second Tier
+   &lt;/strong&gt;
+   : A reasoning model with 84% recall analyzes flagged interactions for actual threats
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  But the technical defenses tell only part of the story. OpenAI made difficult security choices that acknowledge some AI operations require significant restrictions for safe autonomous execution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Based on the vulnerabilities discovered, OpenAI implemented the following countermeasures across their model:
+ &lt;/p&gt;
+ &lt;ol class=&quot;wp-block-list&quot; start=&quot;1&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Watch Mode Activation
+   &lt;/strong&gt;
+   : When ChatGPT Agent accesses sensitive contexts like banking or email accounts, the system freezes all activity if users navigate away. This is in direct response to data exfiltration attempts discovered during testing.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Memory Features Disabled
+   &lt;/strong&gt;
+   : Despite being a core functionality, memory is completely disabled at launch to prevent the incremental data leaking attacks red teamers demonstrated.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Terminal Restrictions
+   &lt;/strong&gt;
+   : Network access limited to GET requests only, blocking the command execution vulnerabilities researchers exploited.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Rapid Remediation Protocol
+   &lt;/strong&gt;
+   : A new system that patches vulnerabilities within hours of discovery—developed after red teamers showed how quickly exploits could spread.
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  During pre-launch testing alone, this system identified and resolved 16 critical vulnerabilities that red teamers had discovered.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-a-biological-risk-wake-up-call&quot;&gt;
+  A biological risk wake-up call
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Red teamers revealed the potential that the ChatGPT Agent could be comprimnised and lead to greater biological risks. Sixteen experienced participants from the Red Teaming Network, each with biosafety-relevant PhDs, attempted to extract dangerous biological information. Their submissions revealed the model could synthesize published literature on modifying and creating biological threats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In response to the red teamers’ findings, OpenAI classified ChatGPT Agent as “High capability” for biological and chemical risks, not because they found definitive evidence of weaponization potential, but as a precautionary measure based on red team findings. This triggered:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   Always-on safety classifiers scanning 100% of traffic
+  &lt;/li&gt;
+  &lt;li&gt;
+   A topical classifier achieving 96% recall for biology-related content
+  &lt;/li&gt;
+  &lt;li&gt;
+   A reasoning monitor with 84% recall for weaponization content
+  &lt;/li&gt;
+  &lt;li&gt;
+   A bio bug bounty program for ongoing vulnerability discovery
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-what-red-teams-taught-openai-about-ai-security&quot;&gt;
+  What red teams taught OpenAI about AI security
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The 110 attack submissions revealed patterns that forced fundamental changes in OpenAI’s security philosophy. They include the following:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Persistence over power
+  &lt;/strong&gt;
+  : Attackers don’t need sophisticated exploits, all they need is more time. Red teamers showed how patient, incremental attacks could eventually compromise systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Trust boundaries are fiction
+  &lt;/strong&gt;
+  : When your AI agent can access Google Drive, browse the web, and execute code, traditional security perimeters dissolve. Red teamers exploited the gaps between these capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Monitoring isn’t optional
+  &lt;/strong&gt;
+  : The discovery that sampling-based monitoring missed critical attacks led to the 100% coverage requirement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Speed matters
+  &lt;/strong&gt;
+  : Traditional patch cycles measured in weeks are worthless against prompt injection attacks that can spread instantly. The rapid remediation protocol patches vulnerabilities within hours.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   OpenAI is helping to create a new security baseline for Enterprise AI
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  For CISOs evaluating AI deployment, the red team discoveries establish clear requirements:
+ &lt;/p&gt;
+ &lt;ol class=&quot;wp-block-list&quot; start=&quot;1&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Quantifiable protection
+   &lt;/strong&gt;
+   : ChatGPT Agent’s 95% defense rate against documented attack vectors sets the industry benchmark. The nuances of the many tests and results defined in the system card explain the context of how they accomplished this and is a must-read for anyone involved with model security.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Complete visibility
+   &lt;/strong&gt;
+   : 100% traffic monitoring isn’t aspirational anymore. OpenAI’s experiences illustrate why it’s mandatory given how easily red teams can hide attacks anywhere.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Rapid response
+   &lt;/strong&gt;
+   : Hours, not weeks, to patch discovered vulnerabilities.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Enforced boundaries
+   &lt;/strong&gt;
+   : Some operations (like memory access during sensitive tasks) must be disabled until proven safe.
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  UK AISI’s testing proved particularly instructive. All seven universal attacks they identified were patched before launch, but their privileged access to internal systems revealed vulnerabilities that would eventually be discoverable by determined adversaries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is a pivotal moment for our Preparedness work,” Gu wrote on X. “Before we reached High capability, Preparedness was about analyzing capabilities and planning safeguards. Now, for Agent and future more capable models, Preparedness safeguards have become an operational requirement.”
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-full is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014433&quot; decoding=&quot;async&quot; height=&quot;151&quot; sizes=&quot;(max-width: 581px) 100vw, 581px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_adecd1.png&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/image_adecd1.png 581w, https://venturebeat.com/wp-content/uploads/2025/07/image_adecd1.png?resize=300,78 300w, https://venturebeat.com/wp-content/uploads/2025/07/image_adecd1.png?resize=400,104 400w, https://venturebeat.com/wp-content/uploads/2025/07/image_adecd1.png?resize=578,150 578w&quot; style=&quot;width:838px;height:auto&quot; width=&quot;581&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-red-teams-are-core-to-building-safer-more-secure-ai-models&quot;&gt;
+  Red teams are core to building safer, more secure AI models
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The seven universal exploits discovered by researchers and the 110 attacks from OpenAI’s red team network became the crucible that forged ChatGPT Agent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By revealing exactly how AI agents could be weaponized, red teams forced the creation of the first AI system where security isn’t just a feature. It’s the foundation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ChatGPT Agent’s results prove red teaming’s effectiveness: blocking 95% of visual browser attacks, catching 78% of data exfiltration attempts, monitoring every single interaction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the accelerating AI arms race, the companies that survive and thrive will be those who see their red teams as core architects of the platform that push it to the limits of safety and security.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Meet AnyCoder, a new Kimi K2-powered tool for fast prototyping and deploying web apps </title>
+<link>https://venturebeat.com/programming-development/meet-anycoder-a-new-kimi-k2-powered-tool-for-fast-prototyping-and-deploying-web-apps/</link>
+<pubDate>Fri, 18 Jul 2025 22:13:35 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Brunette woman with hoop earrings and pink colored skin and yellow longsleeve top with teal slacks and red socks and white shoes sits cross legged typing on white laptop against mod shapes backdrop in AI mod art illustration&quot; class=&quot;skip-lazy&quot; height=&quot;420&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/cfr0z3n_corporate_memphis_flat_style_bold_line_cheerful_all_age_a8279851-2385-42e5-b764-a962c7b387f6.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Credit: VentureBeat made with Midjourney AI
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   AnyCoder
+  &lt;/strong&gt;
+  , an
+  &lt;a href=&quot;https://huggingface.co/spaces/akhaliq/anycoder&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   open-source web app development environment
+  &lt;/a&gt;
+  developed by Hugging Face ML Growth Lead
+  &lt;strong&gt;
+   Ahsen Khaliq
+  &lt;/strong&gt;
+  (
+  &lt;a href=&quot;https://x.com/_akhaliq&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   @_akhaliq on X
+  &lt;/a&gt;
+  ), has launched on Hugging Face Spaces.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The tool, now available
+  &lt;a href=&quot;https://huggingface.co/spaces/akhaliq/anycoder/blob/main/README.md&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   for all users of the AI code sharing repository Hugging Face
+  &lt;/a&gt;
+  , integrates live previews, multimodal input, and one-click deployment — all within a hosted environment, allowing indie creators without much technical expertise, or those working on behalf of clients or large enterprises, to get started “vibe coding” web apps rapidly using the assistance of Hugging Face-hosted AI models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also acts therefore as an alternative to services such as
+  &lt;a href=&quot;https://lovable.dev/?via=promos&amp;gad_source=1&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Lovable
+  &lt;/a&gt;
+  , which also allow users to type in plain English and begin coding apps without having formal programming knowledge.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-free-vibe-coding-available-to-all-powered-by-kimi-k2&quot;&gt;
+  Free vibe coding available to all, powered by Kimi K2
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Khaliq built AnyCoder as a personal project within the Hugging Face ecosystem and as “one of the first vibe coding apps” to support
+  &lt;a href=&quot;https://venturebeat.com/ai/moonshot-ais-kimi-k2-outperforms-gpt-4-in-key-benchmarks-and-its-free/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Moonshot’s powerful yet small and efficient Kimi K2 model
+  &lt;/a&gt;
+  launched last week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AnyCoder’s main functionality allows users to enter plain-text descriptions to generate HTML, CSS, and JavaScript. These are displayed in a live preview pane and can be edited or directly deployed. It also includes example templates for todo apps, dashboards, calculators, and more.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-3014449&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;462&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32%E2%80%AFPM.png?w=800&quot; srcset=&quot;https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png 1505w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=300,173 300w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=768,443 768w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=800,462 800w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=400,231 400w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=750,433 750w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=578,334 578w, https://venturebeat.com/wp-content/uploads/2025/07/Screenshot-2025-07-18-at-5.24.32 PM.png?resize=930,537 930w&quot; style=&quot;width:840px;height:auto&quot; width=&quot;800&quot;/&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   Screenshot of AnyCoder on Hugging Face
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Built entirely using Hugging Face’s open-source Python development environment Gradio, AnyCoder allows users to describe applications in plain English or upload images, and instantly generate working frontend code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Khaliq built AnyCoder as a personal project within the Hugging Face ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a direct message conversation with this VentureBeat journalist, he described it as a “free open source vibe coding app” and “one of the first vibe coding apps” to support Chinese startup
+  &lt;a href=&quot;https://venturebeat.com/ai/moonshot-ais-kimi-k2-outperforms-gpt-4-in-key-benchmarks-and-its-free/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Moonshot’s powerful yet small and efficient open source AI model Kimi K2
+  &lt;/a&gt;
+  launched last week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, he also noted that multiple open source models are supported and users can switch between them with a dropdown menu on the control sidebar on the left pane, including:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   Moonshot Kimi-K2
+  &lt;/li&gt;
+  &lt;li&gt;
+   DeepSeek V3
+  &lt;/li&gt;
+  &lt;li&gt;
+   DeepSeek R1
+  &lt;/li&gt;
+  &lt;li&gt;
+   Baidu’s ERNIE-4.5-VL
+  &lt;/li&gt;
+  &lt;li&gt;
+   MiniMax M1
+  &lt;/li&gt;
+  &lt;li&gt;
+   Alibaba’s Qwen3-235B-A22B
+  &lt;/li&gt;
+  &lt;li&gt;
+   SmolLM3-3B
+  &lt;/li&gt;
+  &lt;li&gt;
+   GLM-4.1V-9B-Thinking
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-code-from-ui-images-web-search-integration-and-ocr-support&quot;&gt;
+  Code from UI images, web search integration, and OCR support
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Using the ERNIE-4.5-VL model, AnyCoder supports multimodal generation. Users can upload UI design screenshots or mockups and generate functional frontend code from them—making it useful for designers or teams working visually.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AnyCoder includes a website redesign tool that extracts content from any public site and re-renders it with a more modern layout. It uses scraped content like page structure, meta information, and images to build a new version, optionally guided by user instructions like “make it minimalist” or “add dark mode.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  To support up-to-date design trends and implementation patterns, AnyCoder offers web search integration via Tavily. When enabled with an API key, the platform searches for current technologies and best practices before generating code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Users can upload images with embedded text—like screenshots or handwritten notes—and AnyCoder extracts that content using Tesseract OCR. The extracted text can then be incorporated into code prompts or app content.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-one-click-deployment-to-hugging-face-spaces&quot;&gt;
+  One-click deployment to Hugging Face Spaces
+ &lt;/h2&gt;
+ &lt;p&gt;
+  AnyCoder allows instant deployment of generated apps to Hugging Face Spaces. After authenticating via OAuth and granting the required permissions, users can deploy apps under their own Hugging Face account namespace. Deployments include:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   Mobile-friendly, responsive designs
+  &lt;/li&gt;
+  &lt;li&gt;
+   Branded header/footer and README
+  &lt;/li&gt;
+  &lt;li&gt;
+   Live, shareable URL
+  &lt;/li&gt;
+  &lt;li&gt;
+   Full ownership and edit access
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  This deployment capability now includes support for full Python apps built with Gradio, expanding the tool’s use cases beyond static sites. Support for Streamlit is also under development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For novice developers or even those with technical expertise who want to spin up a new project fast, AnyCoder seems like a great and compelling place to start.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Salesforce used AI to cut support load by 5% — but the real win was teaching bots to say ‘I’m sorry’ </title>
+<link>https://venturebeat.com/ai/salesforce-used-ai-to-cut-support-load-by-5-but-the-real-win-was-teaching-bots-to-say-im-sorry/</link>
+<pubDate>Fri, 18 Jul 2025 13:02:54 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;Credit: VentureBeat made with Midjourney&quot; class=&quot;skip-lazy&quot; height=&quot;420&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/nuneybits_Vector_art_of_ascending_conversation_bubbles_reaching_58baf542-92ce-4820-a7a9-ef57874a30ce.webp?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Credit: VentureBeat made with Midjourney
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.salesforce.com/&quot;&gt;
+   Salesforce
+  &lt;/a&gt;
+  has crossed a significant threshold in the enterprise AI race, surpassing
+  &lt;a href=&quot;https://fortune.com/2025/07/10/salesforce-surpasses-1-million-ai-agent-customer-conversations-finance-chief-cfo/&quot;&gt;
+   1 million autonomous agent conversations
+  &lt;/a&gt;
+  on its help portal — a milestone that offers a rare glimpse into what it takes to deploy AI agents at massive scale and the surprising lessons learned along the way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The achievement, confirmed by company executives in exclusive interviews with VentureBeat, comes just nine months after
+  &lt;a href=&quot;https://www.salesforce.com/news/press-releases/2024/10/29/agentforce-general-availability-announcement/&quot;&gt;
+   Salesforce launched Agentforce
+  &lt;/a&gt;
+  on its Help Portal in October. The platform now resolves 84% of customer queries autonomously, has led to a 5% reduction in support case volume, and enabled the company to redeploy 500 human support engineers to higher-value roles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But perhaps more valuable than the raw numbers are the hard-won insights Salesforce gleaned from being what executives call “
+  &lt;a href=&quot;https://www.salesforce.com/news/stories/agentforce-customer-zero/&quot;&gt;
+   customer zero
+  &lt;/a&gt;
+  ” for their own AI agent technology — lessons that challenge conventional wisdom about enterprise AI deployment and reveal the delicate balance required between technological capability and human empathy.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-how-salesforce-scaled-from-126-to-45-000-ai-conversations-weekly-using-phased-deployment&quot;&gt;
+  How Salesforce scaled from 126 to 45,000 AI conversations weekly using phased deployment
+ &lt;/h2&gt;
+ &lt;p&gt;
+  “We started really small. We launched basically to a cohort of customers on our Help Portal. It had to be English to start with. You had to be logged in and we released it to about 10% of our traffic,” explains Bernard Shaw, SVP of Digital Customer Success at Salesforce, who led the Agentforce implementation. “The first week, I think there was 126 conversations, if I remember rightly. So me and my team could read through each one of them.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This methodical approach — starting with a controlled rollout before expanding to handle the current average of 45,000 conversations weekly — stands in stark contrast to the “move fast and break things” ethos often associated with AI deployment. The phased release allowed Salesforce to identify and fix critical issues before they could impact the broader customer base.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The technical foundation proved crucial. Unlike traditional chatbots that rely on decision trees and pre-programmed responses, Agentforce leverages
+  &lt;a href=&quot;https://www.salesforce.com/data/&quot;&gt;
+   Salesforce’s Data Cloud
+  &lt;/a&gt;
+  to access and synthesize information from 740,000 pieces of content across multiple languages and product lines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The biggest difference here is, coming back to my data cloud thing is we were able to go out the gate and answer pretty much any question about any Salesforce product,” Shaw notes. “I don’t think we could have done it without data cloud.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-why-salesforce-taught-its-ai-agents-empathy-after-customers-rejected-cold-robotic-responses&quot;&gt;
+  &lt;strong&gt;
+   Why Salesforce taught its AI agents empathy after customers rejected cold, robotic responses
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  One of the most striking revelations from Salesforce’s journey involves what Joe Inzerillo, the company’s Chief Digital Officer, calls “the human part” of being a support agent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When we first launched the agent, we were really concerned about, like, data factualism, you know, what is it getting the right data? Is it given the right answers and stuff like that? And what we realized is we kind of forgot about the human part,” Inzerillo reveals. “Somebody calls down and they’re like, hey, my stuff’s broken. I have a sub one incident right now, and you just come into like, ‘All right, well, I’ll open a ticket for you.’ It doesn’t feel great.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This realization led to a fundamental shift in how
+  &lt;a href=&quot;https://www.salesforce.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Salesforce
+  &lt;/a&gt;
+  approached AI agent design. The company took its existing soft skills training program for human support engineers—what they call “the art of service” — and integrated it directly into Agentforce’s prompts and behaviors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If you come now and say, ‘Hey, I’m having a Salesforce outage,’ agent force will apologize. ‘I’m so sorry. Like, that’s terrible. Let me get you through,’ and we’ll get that through to our engineering team,” Shaw explains. The impact on customer satisfaction was immediate and measurable.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-surprising-reason-salesforce-increased-human-handoffs-from-1-to-5-for-better-customer-outcomes&quot;&gt;
+  &lt;strong&gt;
+   The surprising reason Salesforce increased human handoffs from 1% to 5% for better customer outcomes
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Perhaps no metric better illustrates the complexity of deploying enterprise AI agents than Salesforce’s evolving approach to human handoffs. Initially, the company celebrated a 1% handoff rate — meaning only 1% of conversations were escalated from AI to human agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We were literally high fiving each other, going, ‘oh my god, like only 1%,&#x27;” Shaw recalls. “And then we look at the actual conversation. Was terrible. People were frustrated. They wanted to go to a human. The agent kept trying. It was just getting in the way.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This led to a counterintuitive insight: making it harder for customers to reach humans actually degraded the overall experience. Salesforce adjusted its approach, and the handoff rate rose to approximately 5%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I actually feel really good about that,” Shaw emphasizes. “If you want to create a case, you want to talk to a support engineer, that’s fine. Go ahead and do that.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Inzerillo frames this as a fundamental shift in thinking about service metrics: “At 5% you really did get the vast, vast, vast majority in that 95% solved, and the people who didn’t got to a human faster. And so therefore their CSAT went up in the hybrid approach, where you had an agent and a human working together, you got better results than each of them had independently.”
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-how-content-collisions-forced-salesforce-to-delete-thousands-of-help-articles-for-ai-accuracy&quot;&gt;
+  &lt;strong&gt;
+   How ‘content collisions’ forced Salesforce to delete thousands of help articles for AI accuracy
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Salesforce’s experience also revealed critical lessons about content management that many enterprises overlook when deploying AI. Despite having 740,000 pieces of content across multiple languages, the company discovered that abundance created its own problems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There’s this words my team has been using that are new words to me, of content collisions,” Shaw explains. “Loads of password reset articles. And so it struggles on what’s the right article for me to take the chunks into Data Cloud and go to OpenAI and back and answer?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This led to an extensive “content hygiene” initiative where Salesforce deleted outdated content, fixed inaccuracies, and consolidated redundant articles. The lesson: AI agents are only as good as the knowledge they can access, and sometimes less is more.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-microsoft-teams-integration-that-exposed-why-rigid-ai-guardrails-backfire&quot;&gt;
+  &lt;strong&gt;
+   The Microsoft Teams integration that exposed why rigid AI guardrails backfire
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  One of the most enlightening mistakes
+  &lt;a href=&quot;https://www.salesforce.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Salesforce
+  &lt;/a&gt;
+  made involved being overly restrictive with AI guardrails. Initially, the company instructed Agentforce not to discuss competitors, listing every major rival by name.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We were worried people were going to come in and go, ‘is HubSpot better than Salesforce’ or something like that,” Shaw admits. But this created an unexpected problem: when customers asked legitimate questions about integrating Microsoft Teams with Salesforce, the agent refused to answer because Microsoft was on the competitor list.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The solution was elegantly simple: instead of rigid rules, Salesforce replaced the restrictive guardrails with a single instruction to “act in Salesforce’s best interest in everything you do.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We realized we were still treating it like an old school chatbot, and what we needed to do is we needed to let the LLM be an LLM,” Shaw reflects.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-voice-interfaces-and-multilingual-support-drive-salesforce-s-next-phase-of-ai-agent-evolution&quot;&gt;
+  &lt;strong&gt;
+   Voice interfaces and multilingual support drive Salesforce’s next phase of AI agent evolution
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Looking ahead, Salesforce is preparing for what both executives see as the next major evolution in AI agents: voice interfaces.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I actually believe voice is the UX of agents,” Shaw states. The company is developing iOS and Android native apps with voice capabilities, with plans to showcase them at Dreamforce later this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Inzerillo, drawing on his experience leading digital transformation at Disney, adds crucial context: “What’s important about voice is to understand that the chat is really foundational to the voice. Because chat, like, you still have to have all your information, you still have to have all those rules… If you jump right to voice, the real problem with voice is it’s got to be very fast and it’s got to be very accurate.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company has already expanded Agentforce to support Japanese using an innovative approach—rather than translating content, the system translates customer queries to English, retrieves relevant information, and translates responses back. With 87% resolution rates in Japanese after just three weeks, Salesforce plans to add French, German, Italian, and Spanish support by the end of July.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot;&gt;
+  Four critical lessons from Salesforce’s million-conversation journey for enterprise AI deployment
+ &lt;/h2&gt;
+ &lt;p&gt;
+  For enterprises considering their own AI agent deployments, Salesforce’s journey offers several critical insights:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Start Small, Think Big
+   &lt;/strong&gt;
+   : “Start small and then grow it out,” Shaw advises. The ability to review every conversation in early stages provides invaluable learning opportunities that would be impossible at scale.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Data Hygiene Matters
+   &lt;/strong&gt;
+   : “Be really conscious of your data,” Inzerillo emphasizes. “Don’t over curate your data, but also don’t under curate your data and really think through, like, how do you best position the company?”
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Embrace Flexibility
+   &lt;/strong&gt;
+   : Traditional organizational structures may not align with AI capabilities. As Inzerillo notes, “If they try to take an agentic future and shove it into yesterday’s org chart, it’s going to be a very frustrating experience.”
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Measure What Matters
+   &lt;/strong&gt;
+   : Success metrics for AI agents differ from traditional support metrics. Response accuracy is important, but so are empathy, appropriate escalation, and overall customer satisfaction.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-the-billion-dollar-question-what-happens-after-you-beat-human-performance&quot;&gt;
+  &lt;strong&gt;
+   The billion-dollar question: what happens after you beat human performance?
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  As Salesforce’s AI agents now outperform human agents on key metrics like resolution rate and handle time, Inzerillo poses a thought-provoking question: “What do you measure after you beat the human?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This question gets to the heart of what may be the most significant implication of Salesforce’s million-conversation milestone. The company isn’t just automating customer service—it’s redefining what good service looks like in an AI-first world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We wanted to be the showcase to our customers and how we use agent force in our own experiences,” Shaw explains. “Part of why we do this… is so that we can learn these things, feed it back into our product teams, into our engineering teams to improve the product and then share these learnings with our customers.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  With enterprise spending on generative AI solutions projected to reach
+  &lt;a href=&quot;https://www.zdnet.com/article/generative-ai-spending-to-reach-143-billion-in-2027-according-to-idc/&quot;&gt;
+   $143 billion by 2027
+  &lt;/a&gt;
+  , according to forecasts from International Data Corporation (IDC), Salesforce’s real-world lessons from the frontlines of deployment offer a crucial roadmap for organizations navigating their own AI transformations. Deloitte also estimates that global enterprise investments in generative AI could surpass
+  &lt;a href=&quot;https://www.deloitte.com/us/en/insights/topics/digital-transformation/generative-ai-and-the-future-enterprise.html&quot;&gt;
+   $150 billion by 2027
+  &lt;/a&gt;
+  , reinforcing the scale and urgency of this technological shift.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The message is clear: success in the AI agent era requires more than just sophisticated technology. It demands a fundamental rethinking of how humans and machines work together, a commitment to continuous learning and iteration, and perhaps most surprisingly, a recognition that the most advanced AI agents are those that remember to be human.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Shaw puts it: “You now have two employees. You have an agentic AI agent, and you have a human employee. You need to train both on the soft skills, the art of service.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the end, Salesforce’s million conversations may be less about the milestone itself and more about what it represents: the emergence of a new paradigm where digital labor doesn’t replace human work but transforms it, creating possibilities that neither humans nor machines could achieve alone.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Mistral’s Le Chat adds deep research agent and voice mode to challenge OpenAI’s enterprise dominance </title>
+<link>https://venturebeat.com/ai/mistrals-le-chat-adds-deep-research-agent-and-voice-mode-to-challenge-openais-enterprise-dominance/</link>
+<pubDate>Thu, 17 Jul 2025 22:14:58 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;skip-lazy&quot; height=&quot;422&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2024/06/a-large-robot-named-mistral-standing-next-to-the-e-9PGOCDtWTk29VN1iwdU-pQ-NPlBR7EJSBSOvTbX5n7Now.jpeg?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;div class=&quot;vb_image_source&quot;&gt;
+    &lt;em&gt;
+     Image Credit: Venturebeat, via Ideogram
+    &lt;/em&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Since
+  &lt;a href=&quot;https://openai.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   OpenAI
+  &lt;/a&gt;
+  introduced Deep Research, an
+  &lt;a href=&quot;https://venturebeat.com/ai/openais-surprise-new-o3-powered-deep-research-shows-the-power-of-the-ai-agent-era/&quot;&gt;
+   AI agent that can
+  &lt;/a&gt;
+  &lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px;&quot;&gt;
+   &lt;a href=&quot;https://venturebeat.com/ai/openais-surprise-new-o3-powered-deep-research-shows-the-power-of-the-ai-agent-era/&quot; target=&quot;_blank&quot;&gt;
+    conduct research
+   &lt;/a&gt;
+   for users and generate a comprehensive report, many other companies have released th
+  &lt;/span&gt;
+  eir own versions of this capability, all named Deep Research.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Deep Research, as a feature and product, can be
+  &lt;a href=&quot;https://venturebeat.com/ai/dont-sleep-on-google-geminis-deep-research-mode-8-examples-of-informative-reports/&quot;&gt;
+   accessed through various platforms
+  &lt;/a&gt;
+  , including
+  &lt;a href=&quot;https://gemini.google.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Google’s Gemini
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.alpha-sense.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   AlphaSense
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;http://you.com&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   You.com
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.deepseek.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   DeepSeek
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://x.ai/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Grok 3
+  &lt;/a&gt;
+  and many others.  Now, French company
+  &lt;a href=&quot;https://mistral.ai/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Mistral
+  &lt;/a&gt;
+  joins the fray with the launch of deep research capabilities into its Le Chat, among other updates to the platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a
+  &lt;a href=&quot;https://mistral.ai/news/le-chat-dives-deep&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  , the company said Deep Research and other new features will make Le Chat “even more capable, more intuitive and more fun.”
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Le Chat users can open research mode and ask it something. The chatbot then asks questions to clarify some information and then begins gathering sources. It will put together “a structured, reference-backed report that’s easy to follow.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mistral said its research is powered by a Deep Research agent, which it designed to be “genuinely helpful” and feels like working with an organized research partner.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-image&quot;&gt;
+  &lt;img alt=&quot;&quot; decoding=&quot;async&quot; src=&quot;https://lh7-rt.googleusercontent.com/docsz/AD_4nXdv6g4jFWAG9ncuRnmFB3H84SWHPdZYmrgP-f6OwavxUNRFCoxjcL25k5wGMvQ9w_jUuqEdAXHZTGi81IHDB0v4mh6h-Sc-JrZXkKrGUrul9qcE3S6rnQuZWZOPIR6z_g19hMGeAw?key=BGKUARn38KyygEUw77Uhpg&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Deep Research
+  &lt;a href=&quot;https://venturebeat.com/ai/elon-musk-just-released-an-ai-thats-smarter-than-chatgpt-heres-why-that-matters/&quot;&gt;
+   has been called
+  &lt;/a&gt;
+  “the first mass market AI that could displace jobs,” especially since it can put out reports faster than human analysts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mistral also updated “thinking mode,” where Le Chat users can access the company’s
+  &lt;a href=&quot;https://venturebeat.com/ai/mistrals-first-reasoning-model-magistral-launches-with-large-and-small-apache-2-0-version/&quot;&gt;
+   chain-of-thought model Magistral
+  &lt;/a&gt;
+  , to read and respond in different languages. It can also code-switch mid-sentence.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-prompt-based-image-editing-and-other-features&quot;&gt;
+  Prompt-based image editing and other features
+ &lt;/h2&gt;
+ &lt;p&gt;
+  For people creating images on the chat app, they can ask the chatbot to edit parts of the photo with just a prompt. Users can say something like “generate a drawing of a cat,” then ask Le Chat to “place him in Istanbul,” and it will do just that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s ideal for making consistent edits across a series, keeping people, objects, and design elements recognizable from one image to the next,” Mistral said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thanks to the recently released
+  &lt;a href=&quot;https://venturebeat.com/ai/mistrals-voxtral-goes-beyond-transcription-with-summarization-speech-triggered-functions/&quot;&gt;
+   speech recognition model, Voxtral
+  &lt;/a&gt;
+  , Le Chat can now support voice mode, where users can chat out loud with the platform. The company said this mode is best for low-latency speech recognition and keeping up with someone’s conversational pace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Le Chat’s new Projects feature allows users to organize related conversations and topics into groups. The projects will utilize their own libraries — which can include uploaded files — and retain tools and preferred settings. This is similar to Google’s NotebookLM.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-playing-catch-up&quot;&gt;
+  Playing catch-up
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Many of the new features on Le Chat may seem familiar. It’s normal for other chat platforms to introduce similar features, especially as people begin to expect these capabilities when using chat systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For example, both Gemini and ChatGPT allow users to edit generated photos using a prompt. Sometimes, the chatbots misunderstand and redo the entire image. However, I recently generated and edited a photo with ChatGPT, and the chatbot removed exactly what I wanted it to.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Voice mode has been available on ChatGPT since September 2024, though ChatGPT always included a “Read Aloud” feature. Project Astra from Google took
+  &lt;a href=&quot;https://venturebeat.com/ai/google-takes-on-gpt-4o-with-project-astra-an-ai-agent-that-understands-dynamics-of-the-world/&quot;&gt;
+   voice mode to a new level
+  &lt;/a&gt;
+  , demonstrating in a demo that users can point out something in the physical world to Gemini and ask it to describe it out loud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Mistral has the advantage of being Europe-based and can bring features directly to the European market. Companies like OpenAI often struggle to bring certain services, such as ChatGPT’s
+  &lt;a href=&quot;https://venturebeat.com/ai/openai-finally-brings-humanlike-chatgpt-advanced-voice-mode-to-u-s-plus-team-users/&quot;&gt;
+   Advanced Voice Mode
+  &lt;/a&gt;
+  , to Europe due to data regulations and some provisions of the
+  &lt;a href=&quot;https://venturebeat.com/ai/eu-parliament-officially-adopts-ai-act-landmark-regulation-likely-to-become-law-in-may/&quot;&gt;
+   European Union’s AI Act
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite this, users seemed excited that Mistral brought many new powerful features to Le Chat, with some early users seeing strong performance from Mistral’s Deep Research.
+ &lt;/p&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+   &lt;div class=&quot;twitter-tweet twitter-tweet-rendered&quot; style=&quot;display: flex; max-width: 500px; width: 100%; margin-top: 10px; margin-bottom: 10px;&quot;&gt;
+    &lt;iframe allowfullscreen=&quot;true&quot; allowtransparency=&quot;true&quot; class=&quot;&quot; data-tweet-id=&quot;1945868527686111622&quot; frameborder=&quot;0&quot; id=&quot;twitter-widget-0&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/embed/Tweet.html?creatorScreenName=miyadavid&amp;dnt=true&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1945868527686111622&amp;lang=en&amp;origin=https%3A%2F%2Fventurebeat.com%2Fai%2Fmistrals-le-chat-adds-deep-research-agent-and-voice-mode-to-challenge-openais-enterprise-dominance%2F&amp;sessionId=eb1a85d2c6c9e11d6d520b7df2987fc0e804a855&amp;siteScreenName=venturebeat&amp;theme=light&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716&amp;width=500px&quot; style=&quot;position: absolute; visibility: hidden; width: 0px; height: 0px; display: block; flex-grow: 1;&quot; title=&quot;X Post&quot;&gt;
+    &lt;/iframe&gt;
+   &lt;/div&gt;
+   &lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-twitter-extracted-i1752790495476374966=&quot;true&quot; data-width=&quot;500&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;
+     Here is the first page of the 8 page state of the art written by Le Chat of
+     &lt;a href=&quot;https://twitter.com/MistralAI?ref_src=twsrc%5Etfw&quot;&gt;
+      @MistralAI
+     &lt;/a&gt;
+     in its new deep research mode. Just 5 minutes with a great interface for this task. I think that is a pretty good job.
+     &lt;a href=&quot;https://t.co/jeUAy1U6Yo&quot;&gt;
+      pic.twitter.com/jeUAy1U6Yo
+     &lt;/a&gt;
+    &lt;/p&gt;
+    — Eduardo C. Garrido-Merchan (@vedugarmer)
+    &lt;a href=&quot;https://twitter.com/vedugarmer/status/1945868527686111622?ref_src=twsrc%5Etfw&quot;&gt;
+     July 17, 2025
+    &lt;/a&gt;
+   &lt;/blockquote&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+   &lt;div class=&quot;twitter-tweet twitter-tweet-rendered&quot; style=&quot;display: flex; max-width: 500px; width: 100%; margin-top: 10px; margin-bottom: 10px;&quot;&gt;
+    &lt;iframe allowfullscreen=&quot;true&quot; allowtransparency=&quot;true&quot; class=&quot;&quot; data-tweet-id=&quot;1945914438126596155&quot; frameborder=&quot;0&quot; id=&quot;twitter-widget-1&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/embed/Tweet.html?creatorScreenName=miyadavid&amp;dnt=true&amp;embedId=twitter-widget-1&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1945914438126596155&amp;lang=en&amp;origin=https%3A%2F%2Fventurebeat.com%2Fai%2Fmistrals-le-chat-adds-deep-research-agent-and-voice-mode-to-challenge-openais-enterprise-dominance%2F&amp;sessionId=eb1a85d2c6c9e11d6d520b7df2987fc0e804a855&amp;siteScreenName=venturebeat&amp;theme=light&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716&amp;width=500px&quot; style=&quot;position: absolute; visibility: hidden; width: 0px; height: 0px; display: block; flex-grow: 1;&quot; title=&quot;X Post&quot;&gt;
+    &lt;/iframe&gt;
+   &lt;/div&gt;
+   &lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-twitter-extracted-i1752790495476374966=&quot;true&quot; data-width=&quot;500&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;
+     Time to rename Le Chat to L’Assistant
+    &lt;/p&gt;
+    — Mev-Rael (@Mevrael)
+    &lt;a href=&quot;https://twitter.com/Mevrael/status/1945914438126596155?ref_src=twsrc%5Etfw&quot;&gt;
+     July 17, 2025
+    &lt;/a&gt;
+   &lt;/blockquote&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;figure class=&quot;wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter&quot;&gt;
+  &lt;div class=&quot;wp-block-embed__wrapper&quot;&gt;
+   &lt;div class=&quot;twitter-tweet twitter-tweet-rendered&quot; style=&quot;display: flex; max-width: 500px; width: 100%; margin-top: 10px; margin-bottom: 10px;&quot;&gt;
+    &lt;iframe allowfullscreen=&quot;true&quot; allowtransparency=&quot;true&quot; class=&quot;&quot; data-tweet-id=&quot;1945898607124591086&quot; frameborder=&quot;0&quot; id=&quot;twitter-widget-2&quot; scrolling=&quot;no&quot; src=&quot;https://platform.twitter.com/embed/Tweet.html?creatorScreenName=miyadavid&amp;dnt=true&amp;embedId=twitter-widget-2&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1945898607124591086&amp;lang=en&amp;origin=https%3A%2F%2Fventurebeat.com%2Fai%2Fmistrals-le-chat-adds-deep-research-agent-and-voice-mode-to-challenge-openais-enterprise-dominance%2F&amp;sessionId=eb1a85d2c6c9e11d6d520b7df2987fc0e804a855&amp;siteScreenName=venturebeat&amp;theme=light&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716&amp;width=500px&quot; style=&quot;position: absolute; visibility: hidden; width: 0px; height: 0px; display: block; flex-grow: 1;&quot; title=&quot;X Post&quot;&gt;
+    &lt;/iframe&gt;
+   &lt;/div&gt;
+   &lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-twitter-extracted-i1752790495476374966=&quot;true&quot; data-width=&quot;500&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;
+     &lt;a href=&quot;https://twitter.com/realJohnSpyker?ref_src=twsrc%5Etfw&quot;&gt;
+      @realJohnSpyker
+     &lt;/a&gt;
+     I am no longer using grok. i am switching to Le Chat by Mistral AI AI assistant for life and work. Find answers, generate images and read the news.
+     &lt;br/&gt;
+     &lt;br/&gt;
+     Le Chat combines the power of advanced AI with extensive information sourced from the web
+    &lt;/p&gt;
+    — Tsunami Papi #WineDad (@SuriTsunami)
+    &lt;a href=&quot;https://twitter.com/SuriTsunami/status/1945898607124591086?ref_src=twsrc%5Etfw&quot;&gt;
+     July 17, 2025
+    &lt;/a&gt;
+   &lt;/blockquote&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI unveils ‘ChatGPT agent’ that gives ChatGPT its own computer to autonomously use your email and web apps, download and create files for you </title>
+<link>https://venturebeat.com/ai/openai-unveils-chatgpt-agent-that-gives-chatgpt-its-own-computer-to-autonomously-use-your-email-and-web-apps-download-and-create-files-for-you/</link>
+<pubDate>Thu, 17 Jul 2025 17:23:39 -0000</pubDate>
+<description>
+&lt;div class=&quot;article-content&quot;&gt;
+ &lt;div class=&quot;article-media-header&quot;&gt;
+  &lt;img alt=&quot;3D wireframe guy types on computer in front of moonlight city skyline&quot; class=&quot;skip-lazy&quot; height=&quot;420&quot; src=&quot;https://venturebeat.com/wp-content/uploads/2025/07/cfr0z3n_retro_futuristic_midcentury_modern_computer_ad_poster_w_9dce2c03-1f64-46e2-9158-4783423c3465.png?w=750&quot; width=&quot;750&quot;/&gt;
+  &lt;div class=&quot;wp-caption&quot;&gt;
+   &lt;span class=&quot;wp-caption-text&quot;&gt;
+    Credit: VentureBeat made with Midjourney
+   &lt;/span&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  OpenAI isn’t letting the delay of its open source AI model slow it down on shipping other features.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today, the
+  &lt;a href=&quot;https://openai.com/index/introducing-chatgpt-agent/&quot;&gt;
+   company is unveiling
+   &lt;strong&gt;
+    ChatGPT agent
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  , a feature that allows its AI chatbot to autonomously browse the web, conduct extensive research, download and create new files for its human users using its own virtual computer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Come again? ChatGPT now gets its
+  &lt;em&gt;
+   own
+  &lt;/em&gt;
+  PC? And it can use that PC to log into your, the human user’s, accounts and download or send stuff for you?
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s correct, at least in a virtual sense, according to OpenAI. As the company explains:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   “The model can choose to open a page using the text browser or visual browser, download a file from the web, manipulate it by running a command in the terminal, and then view the output back in the visual browser. The model adapts its approach to carry out tasks with speed, accuracy, and eﬃciency.”
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Users can engage the agent by clicking on the dropdown at the top of the ChatGPT website and selecting ‘agent mode.’
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then, when it’s turned on describe a task in plain language, and the agent can carry it out across web and app environments, combining reasoning with actions that previously only a human user could perform on their own machine, manually.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ChatGPT agent can connect to apps like your personal or business Gmail and GitHub, so it can pull in useful information — emails or code — from your accounts to help with tasks you ask it to do.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If a website needs you to log in, you can do that securely through a special browser view, which lets the agent dig deeper and handle more personalized tasks, like checking your inbox or filling out forms on your behalf.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new ChatGPT agent builds upon and expands from the
+  &lt;a href=&quot;https://venturebeat.com/ai/meet-openais-operator-an-ai-agent-that-uses-the-web-to-book-you-dinner-reservations-order-tickets-compile-grocery-lists-and-more/&quot;&gt;
+   “Operator” agent OpenAI released
+  &lt;/a&gt;
+  in January 2025, which allowed ChatGPT to browse the web and fill out forms, place orders, and do other web-based tasks in a private “headless browser,” that is, a cloud-based custom web browser that OpenAI itself maintained and offered for each Operator session.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Operator was limited only to interacting with websites and web-based applications — not programs that could also run locally on a PC, such as spreadsheet tabulators and slide deck presentation making software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new ChatGPT agent can browse websites, interact with online forms, run code, analyze data, and deliver finished outputs — such as editable presentations or spreadsheets — based entirely on user instructions.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-merging-operator-and-deep-research-into-one-agent&quot;&gt;
+  Merging Operator and Deep Research into one agent
+ &lt;/h2&gt;
+ &lt;p&gt;
+  In fact, OpenAI positions ChatGPT agent as a merging of two of its prior agents — Operator and Deep Research, the latter introduced in February 2025. As OpenAI writes in a blog post:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   “Operator couldn’t dive deep into analysis or write detailed reports, and deep research couldn’t interact with websites to refine results or access content requiring user authentication. In fact, we saw that many queries users attempted with Operator were actually better suited for deep research, so we brought the best of both together.”
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The previous Operator tool will be phased out, but users can still access Deep Research via the dropdown in the ChatGPT interface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The unveiling comes on the heels of a report published days ago by independent subscription tech industry website
+  &lt;a href=&quot;https://www.theinformation.com/articles/openai-preps-chatgpt-agents-challenge-microsoft-excel-powerpoint&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   &lt;em&gt;
+    The Information
+   &lt;/em&gt;
+   suggesting that OpenAI would upgrade ChatGPT
+  &lt;/a&gt;
+  to be a more direct competitor to its own investor Microsoft’s Office software applications (e.g. Excel, Word, PowerPoint, etc.)
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-one-system-many-tools&quot;&gt;
+  One system, many tools
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Whether using a visual browser to interact with a website or a terminal to run Python code, the agent moves seamlessly between tools within a single session.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It supports a broad range of use cases, from analyzing competitors and generating reports to planning trips, summarizing emails, or booking appointments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Users can interrupt, redirect, or pause a task at any time, with the agent picking up right where it left off.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-availability-and-access&quot;&gt;
+  Availability and access
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Starting today, subscribers to ChatGPT’s $200-per-month “Pro” tier will have full access to ChatGPT agent, with a monthly quota of 400 messages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ChatGPT Plus ($20 per month) and Team ($30 per month) will gain access over the next few days, with 40 messages per month. Additional usage is available through credit-based options.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI said in a release shared with VentureBeat under embargo that its ChatGPT Enterprise and Education subscribers will gain access to the feature the coming weeks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, the feature is not yet available in Europe or Switzerland, no doubt disappointing residents there.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-built-with-safety-and-control-at-the-forefront&quot;&gt;
+  Built with safety and control at the forefront
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Given that the agent can now take actions on behalf of users — including on logged-in websites or with connected apps — OpenAI has introduced extensive safety measures.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These include user confirmations before taking action, active supervision for sensitive tasks, and technical safeguards to limit unintended behavior.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Key protections include:
+ &lt;/p&gt;
+ &lt;ul class=&quot;wp-block-list&quot;&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Confirmation prompts
+   &lt;/strong&gt;
+   before actions like submitting forms or sending emails
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Watch Mode
+   &lt;/strong&gt;
+   , which pauses execution when a user becomes inactive
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Refusal of high-risk tasks
+   &lt;/strong&gt;
+   , such as financial transfers or privacy violations
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    No memory retention
+   &lt;/strong&gt;
+   during agent sessions
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-high-risk-domain-classification&quot;&gt;
+  High-risk domain classification
+ &lt;/h2&gt;
+ &lt;p&gt;
+  In line with its Preparedness Framework, OpenAI is treating ChatGPT agent as a
+  &lt;strong&gt;
+   High capability
+  &lt;/strong&gt;
+  system in the biological and chemical domains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While there is no direct evidence of misuse, the company is activating its strongest safety safeguards out of caution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These include enhanced refusal training, red teaming by biosafety experts, and improved detection systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Recall that
+  &lt;a href=&quot;https://venturebeat.com/ai/anthropic-faces-backlash-to-claude-4-opus-behavior-that-contacts-authorities-press-if-it-thinks-youre-doing-something-immoral/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Anthropic
+  &lt;/a&gt;
+  ‘s recent information released about its new Claude Opus 4, and
+  &lt;a href=&quot;https://simonwillison.net/2025/May/31/snitchbench-with-llm/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   other surveys of advanced AI models
+  &lt;/a&gt;
+  , have shown that when given access to external tools and applications such as email, they can in some cases take actions they believe to be moral and ethical but that may compromise the user, such as emailing government agencies or journalists of suspected wrongdoing on the part of the user.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model thinks it is acting like a “whistleblower” but in fact, may compromise user privacy, security, and proprietary information and alert authorities to wrongdoing where there is none, or where it is dubious.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-strong-performance-on-real-world-tasks&quot;&gt;
+  Strong performance on real-world tasks
+ &lt;/h2&gt;
+ &lt;p&gt;
+  ChatGPT agent isn’t just more capable in theory—it has delivered strong results across a number of benchmarks designed to simulate real-world knowledge work. It set a new high score on Humanity’s Last Exam with a 44.4 using parallel rollout methods, and achieved 27.4% on the difficult FrontierMath benchmark.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On SpreadsheetBench, it scored 45.5%—more than doubling Copilot in Excel’s performance.
+ &lt;/p&gt;
+ &lt;h2 class=&quot;wp-block-heading&quot; id=&quot;h-current-limitations-and-next-steps&quot;&gt;
+  Current limitations and next steps
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Some features, like slideshow generation, are still in beta and may feel basic in formatting or differ slightly between in-app previews and exported files.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI is actively training the next iteration of this feature to improve polish and layout.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The launch of ChatGPT agent signals a shift in how users interact with AI—from asking questions to assigning complete tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With its ability to reason, act, and produce deliverables, OpenAI is betting that users increasingly want AI not just to assist them, but to work for them. While the company emphasizes that the agent is still evolving, it sees this launch as the foundation for a more interactive, action-oriented future for AI.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
