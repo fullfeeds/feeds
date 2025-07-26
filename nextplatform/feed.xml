@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>Next Platform</title>
+<lastBuildDate>Sat, 26 Jul 2025 17:36:43 -0000</lastBuildDate>
+<item>
+<title> Intel Puts The Process Horse Back In Front Of The Foundry Cart </title>
+<link>https://www.nextplatform.com/2025/07/25/intel-puts-the-process-horse-back-in-front-of-the-foundry-cart/#respond</link>
+<pubDate>Fri, 25 Jul 2025 20:17:52 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content clearfix&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;img alt=&quot;&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/02/Intel-xeon-6-p-cores-logo-1030x438.jpg&quot; title=&quot;Intel-xeon-6-p-cores-logo&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  It is beginning to look like Intel plans to milk the impending 18A manufacturing process for a long time. The 18A process is akin to a refined 2 nanometer process, which is funny because Intel never delivered a 2 nanometer process out of its fabs. In any event, 18A might stick around long enough for rival Taiwan Semiconductor Manufacturing Co to open up some gaps again that give it a substantial advantage when it comes to etching silicon wafers if Intel can’t get outside customers for its future 14A process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel famously flubbed its initial 10 nanometer and 7 nanometer processes, and that gave rival AMD the jump in the server CPU market and also meant that Intel could not field GPU accelerators that could compete against Nvidia and AMD GPUs. Intel skipped 5 nanometer and 4 nanometer processes, is using a mix of Intel 7 and Intel 3 (sorta like 3 nanometers) for the “Granite Rapids” Xeon 6 server processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It has been a rough ride for the Intel Foundry and the PC and server chip divisions of Intel that depend on it for manufacturing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And now, new chief executive officer Lip-Bu Tan is staring down a tough situation. If enough customers don’t sign up to use its 14A process, then it cannot upgrade foundries or build new ones that will pump out 14A chips. (The A is short for “angstrom,” which is one-tenth of a nanometer and which is also roughly the width of the electron cloud of a hydrogen atom.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  The die is already cast for the Intel 18A process, and we will see how Intel’s product groups as well as a handful of outside customers make use of it and how it compares to TSMC N3, N2, and A16 processes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 18A process uses a gate-all-around FET transistor design called RibbonFET as well as its PowerVia backside power delivery. With the 14A process, Intel will move to High-NA lithography (which has a reticle limit that is half the size of the current extreme ultraviolet (EUV), but allows for further shrinking of transistors and therefore more performance per area and less power consumed. It is looking like 14A is coming in maybe 2027. Intel doesn’t talk about the 10A process anymore, but it was due around 2028 or 2029 and is obviously using something akin to 1 nanometer transistor dimensions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A lot of heads nodded and then a lot of eyebrows no doubt raised when Tan said this on the call with Wall Street analysts going over the numbers for Intel’s second quarter of 2025:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “A key aspect of prudently pursuing our foundry ambition is also making sure we maintain sensible optionality for our internal product teams. They will continue to work closely with both internal and external foundry partners. They will do their homework and make process and supplier decisions based on what is best for our end customers against criteria of performance, cost, yield, and time to market.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Our external foundry strategy has always been rooted in the economic reality of semiconductor manufacturing. Up to and through Intel 18A, we could generate a reasonable return on our investments with only Intel Products. The increase in capital cost at Intel 14A make it clear that we need both Intel Products and a meaningful external customer to drive acceptable returns on our deployed capital – and I will only invest when I’m confident those returns exist.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “I am intimately familiar with the foundry and fabless ecosystem. Having helped create it over the last two decades, I am using that experience to put Intel Foundry on a more solid footing for the future. I will do so while being prudent with our capital and ensure we can deliver attractive returns on the investment we make.”
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  The upshot, as Tan explained, is that Intel learned a lot from mistakes it made with the 18A process, which is ramping now with first shipments expected at the end of this year, to improve 14A. Specifically, customers and partners are engaging early enough with 14A that they can contribute to its improvement, which was not the case with 18A. But even if 14A is great, Intel needs commitments from outside customers to use it – and that means fairly soon, given how long it takes to build out fab capacity – before it will invest in equipment to make 14A chips. Intel’s own plan, according to Tan, is to use 18A for the next three generations of Intel processors and then to ramp to 14A in 2028 and 2029; there are two external customers in the works for 14A at this point, but no commitments as yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dave Zinsner, Intel’s chief financial officer, said that peak 18A shipments for internal Intel products would not even peak until “the beginning of the next decade.” The 10 nanometer Intel 7 process is still being used for many Intel products – both for servers and PCs – and in fact there is tightness of supply right now, just to show you how long a process can linger.  At this point 18A doesn’t have external customers, but it could depending on cost and capacity availability at TSMC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Contrast this with TSMC. TSMC’s N3 is in volume production across many different variations and uses the last of TSMC’s FinFET 3D transistor designs. It went into volume production in late 2022, and variants came online in 2023 and early 2024. N2 moved to gate-all-around FET transistors and begins shipping at the end of this year, just like Intel’s 18A. But TSMC is not sitting tight for three years with N2 and waiting for A16 and A14 some years hence. A16 is on track for volume production in the second half of next year, with an A14 kicker coming in 2028. That’s when we might see Intel 14A – if it can hold onto those two customers. And if it can grow the number of customers because yields are good and fab capacity can be built in time, then Intel Foundry could stop hemorrhaging money.
+  &lt;em&gt;
+   Maybe
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This line from
+  &lt;a href=&quot;https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm&quot;&gt;
+   the 10-Q report
+  &lt;/a&gt;
+  to the US Securities and Exchange Commission for Q2 2025 is probably what made Wall Street jumpy today about Intel:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “We are focused on the continued development of Intel 14A, the next generation node beyond Intel 18A and Intel 18A-P, and on securing a significant external customer for such node. However, if we are unable to secure a significant external customer and meet important customer milestones for Intel 14A, we face the prospect that it will not be economical to develop and manufacture Intel 14A and successor leading-edge nodes on a go-forward basis. In such event, we may pause or discontinue our pursuit of Intel 14A and successor nodes and various of our manufacturing expansion projects. While we continue to evaluate Intel 14A for use in future Intel products and our plan includes an initial product designed to utilize Intel 14A, at present we are maintaining the option to design future Intel products requiring nodes with performance beyond Intel 18A and Intel 18A-P to be produced internally or by an external foundry. If we were to discontinue development of Intel 14A and successor nodes, we expect that a majority of our products would continue to be manufactured in our own facilities utilizing our nodes up to Intel 18A-P through at least 2030.”
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  Well, if that happens, that will be no different than when Intel was stuck at 14 nanometers as AMD and Nvidia were able to shrink transistors in their compute engine designs down to 10 nanometers, 7 nanometers, and 5 nanometers to great advantage. Intel had supply wins for a while, but it doesn’t last as your competitors get access to better chip making.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A complicating factor – or perhaps not – is that Intel is rolling out another round of job cuts, and the technical and economic situation that Intel is in will make it that much harder to retain key talent to drive its roadmap forward.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://newsroom.intel.com/corporate/lip-bu-tan-steps-in-the-right-direction&quot;&gt;
+   In a letter to Intel employees
+  &lt;/a&gt;
+  that was made public, Tan said that the company would be cutting another 15 percent from the Intel workforce before the end of 2025, brining down its employee count to around 75,000 worldwide. In June last year, Intel had 116,500 employees plus another 5,300 in Mobileye, Altera, and other subsidiaries that have been spun off plus another 3,500 still in the flash business that was sold to SK Hynix. Intel had already shed 24,900 employees in the past year, cutting its management layers in half and shutting down various lines and projects. With these cuts, Intel will have shed 35.6 percent of its workers in a year and a half.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is hard for any company to do, and morale has no doubt suffered. But what is clear from the financials is that Intel cannot just build foundries and hope the customers will come. This ain’t
+  &lt;em&gt;
+   Fabs Of Dreams
+  &lt;/em&gt;
+  anymore. Well, excepting maybe for TSMC, which
+  &lt;a href=&quot;https://www.nextplatform.com/2025/07/18/how-long-before-half-of-tsmcs-sales-are-driven-by-ai/&quot;&gt;
+   is undergoing a massive buildout of foundry capacity in the United States and Taiwan.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is what happens when your foundry doesn’t keep at the cutting edge and you also miss out on the AI wave – the two are not just related, but intertwined like a DNA strand, of course.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;http://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter.jpg&quot; rel=&quot;attachment wp-att-146060&quot;&gt;
+   &lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-146060&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;453&quot; sizes=&quot;(max-width: 695px) 100vw, 695px&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter.jpg&quot; srcset=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter.jpg 695w, https://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter-600x391.jpg 600w&quot; width=&quot;695&quot;/&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  With all of that as a backdrop, let’s take a look at Intel’s Q2. In the June quarter, the Data Center &amp; AI group had $3.94 billion in sales, up 3.5 percent, and operating income was up by a factor of 2.6X to $633 million thanks to job cuts done last year. That was with a $361 million write-off of Gaudi AI accelerator inventories. The 10-Q said that DCAI had a 13 percent increase in server product volumes, driven largely by an increase in hyperscaler and cloud builder demand, even as server average selling prices fell by 8 percent due to competitive pressures (presumably from AMD and maybe Broadcom and Marvell and Nvidia.) The same pattern was seen in Q1 2025, Intel said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Client Computing Group, which makes PC processors, posted $7.87 billion in sales, down 3.3 percent, with an operating profit of $2.05 billion, down 22.3 percent. AMD is putting on pressure here for sure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Altera,
+  &lt;a href=&quot;https://www.nextplatform.com/2025/04/15/why-did-silver-lake-buy-a-majority-stake-in-intels-altera-fpga-business/&quot;&gt;
+   which is in the process of being bought by Silver Lake Partners
+  &lt;/a&gt;
+  , is now part of Intel’s Others category and it brought in $448 million in sales, up 24.1 percent from a year ago. Operating income was not given for this line of business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel Foundry had $4.42 billion in sales, up 3.2 percent year on year, but had an operating loss of $3.17 billion. This loss was exacerbated by an $800 million impairment charge for equipment that cannot be repurposed and that has to be written off because there are no customers to use it – not even Intel itself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since the beginning of 2023, when Intel started breaking out Intel Foundry financials separately as the Intel’s product groups had to pay a fair price for their chip etchings, the foundry business has generated $45.5 billion in revenues, but $25.8 billion in cumulative losses against that revenue. The trends are getting worse, not better, as the current foundries are underutilized. The 18A ramp has a chance to reverse this, if the Intel chip designs for future PCs and servers are innovative enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But there will be some more pain in the meantime. In the letter, Tan said that Intel was further slowing its foundry buildout in Ohio and that it is ceasing foundry projects in Germany and Poland. Assembly and test operations in Costa Rica will be moved to Vietnam and Malaysia, although some design engineers will remain in Costa Rica.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the datacenter business, Tan hopes to hire a new general manager for DCAI soon after
+  &lt;a href=&quot;https://www.nextplatform.com/2025/02/10/intel-datacenter-chief-departs-to-run-nokia-now-what/&quot;&gt;
+   Justin Hotard left to become chief executive officer of Nokia
+  &lt;/a&gt;
+  back in February, and said that simultaneous multithreading (SMT), which was removed in the Xeon E-core designs, will be reintroduced because it put Intel at a competitive disadvantage when it was missing. (We would say that AMD’s way of cramming twice as many cores into a Zen c variant by halving the L3 cache size was smarter and SMT was less of an issue.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for the AI market, we do not expect Intel to have much enthusiasm for trying to catch up to AMD, much less Nvidia, with new GPU or XPU designs, particularly those aimed at AI training for massive models. Here is the rough outline of the AI strategy at Intel:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “We will focus our AI efforts on developing a cohesive silicon, system, and software stack strategy. In the past, we have approached AI with a traditional, silicon- and training-centric mindset. This needs to change – and we have already started incubating new capabilities while attracting new talent.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “As we make this shift, we will concentrate our efforts on areas we can disrupt and differentiate, like inference and agentic AI. Our starting point will be emerging AI workloads – then we will work backward to design software, systems and silicon that enable the best customer outcomes. We have a lot of work underway, and will be sharing more about our plans in the coming months.”
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  That seems like a tough task. But reviving IBM, Apple, Microsoft, and AMD were not easy tasks, either. And here they all are, making money again. Intel still has a chance, and Tan is making the tough calls to make this financially possible. The chance might be pretty slim, we admit. But a market craves competition – and it will pay for it.
+ &lt;/p&gt;
+ &lt;!-- QUIZ HERE --&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel Puts The Process Horse Back In Front Of The Foundry Cart </title>
+<link>https://www.nextplatform.com/2025/07/25/intel-puts-the-process-horse-back-in-front-of-the-foundry-cart/</link>
+<pubDate>Fri, 25 Jul 2025 20:17:49 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content clearfix&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;img alt=&quot;&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/02/Intel-xeon-6-p-cores-logo-1030x438.jpg&quot; title=&quot;Intel-xeon-6-p-cores-logo&quot;/&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  It is beginning to look like Intel plans to milk the impending 18A manufacturing process for a long time. The 18A process is akin to a refined 2 nanometer process, which is funny because Intel never delivered a 2 nanometer process out of its fabs. In any event, 18A might stick around long enough for rival Taiwan Semiconductor Manufacturing Co to open up some gaps again that give it a substantial advantage when it comes to etching silicon wafers if Intel can’t get outside customers for its future 14A process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel famously flubbed its initial 10 nanometer and 7 nanometer processes, and that gave rival AMD the jump in the server CPU market and also meant that Intel could not field GPU accelerators that could compete against Nvidia and AMD GPUs. Intel skipped 5 nanometer and 4 nanometer processes, is using a mix of Intel 7 and Intel 3 (sorta like 3 nanometers) for the “Granite Rapids” Xeon 6 server processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It has been a rough ride for the Intel Foundry and the PC and server chip divisions of Intel that depend on it for manufacturing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And now, new chief executive officer Lip-Bu Tan is staring down a tough situation. If enough customers don’t sign up to use its 14A process, then it cannot upgrade foundries or build new ones that will pump out 14A chips. (The A is short for “angstrom,” which is one-tenth of a nanometer and which is also roughly the width of the electron cloud of a hydrogen atom.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  The die is already cast for the Intel 18A process, and we will see how Intel’s product groups as well as a handful of outside customers make use of it and how it compares to TSMC N3, N2, and A16 processes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 18A process uses a gate-all-around FET transistor design called RibbonFET as well as its PowerVia backside power delivery. With the 14A process, Intel will move to High-NA lithography (which has a reticle limit that is half the size of the current extreme ultraviolet (EUV), but allows for further shrinking of transistors and therefore more performance per area and less power consumed. It is looking like 14A is coming in maybe 2027. Intel doesn’t talk about the 10A process anymore, but it was due around 2028 or 2029 and is obviously using something akin to 1 nanometer transistor dimensions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A lot of heads nodded and then a lot of eyebrows no doubt raised when Tan said this on the call with Wall Street analysts going over the numbers for Intel’s second quarter of 2025:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “A key aspect of prudently pursuing our foundry ambition is also making sure we maintain sensible optionality for our internal product teams. They will continue to work closely with both internal and external foundry partners. They will do their homework and make process and supplier decisions based on what is best for our end customers against criteria of performance, cost, yield, and time to market.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Our external foundry strategy has always been rooted in the economic reality of semiconductor manufacturing. Up to and through Intel 18A, we could generate a reasonable return on our investments with only Intel Products. The increase in capital cost at Intel 14A make it clear that we need both Intel Products and a meaningful external customer to drive acceptable returns on our deployed capital – and I will only invest when I’m confident those returns exist.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “I am intimately familiar with the foundry and fabless ecosystem. Having helped create it over the last two decades, I am using that experience to put Intel Foundry on a more solid footing for the future. I will do so while being prudent with our capital and ensure we can deliver attractive returns on the investment we make.”
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  The upshot, as Tan explained, is that Intel learned a lot from mistakes it made with the 18A process, which is ramping now with first shipments expected at the end of this year, to improve 14A. Specifically, customers and partners are engaging early enough with 14A that they can contribute to its improvement, which was not the case with 18A. But even if 14A is great, Intel needs commitments from outside customers to use it – and that means fairly soon, given how long it takes to build out fab capacity – before it will invest in equipment to make 14A chips. Intel’s own plan, according to Tan, is to use 18A for the next three generations of Intel processors and then to ramp to 14A in 2028 and 2029; there are two external customers in the works for 14A at this point, but no commitments as yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dave Zinsner, Intel’s chief financial officer, said that peak 18A shipments for internal Intel products would not even peak until “the beginning of the next decade.” The 10 nanometer Intel 7 process is still being used for many Intel products – both for servers and PCs – and in fact there is tightness of supply right now, just to show you how long a process can linger.  At this point 18A doesn’t have external customers, but it could depending on cost and capacity availability at TSMC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Contrast this with TSMC. TSMC’s N3 is in volume production across many different variations and uses the last of TSMC’s FinFET 3D transistor designs. It went into volume production in late 2022, and variants came online in 2023 and early 2024. N2 moved to gate-all-around FET transistors and begins shipping at the end of this year, just like Intel’s 18A. But TSMC is not sitting tight for three years with N2 and waiting for A16 and A14 some years hence. A16 is on track for volume production in the second half of next year, with an A14 kicker coming in 2028. That’s when we might see Intel 14A – if it can hold onto those two customers. And if it can grow the number of customers because yields are good and fab capacity can be built in time, then Intel Foundry could stop hemorrhaging money.
+  &lt;em&gt;
+   Maybe
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This line from
+  &lt;a href=&quot;https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm&quot;&gt;
+   the 10-Q report
+  &lt;/a&gt;
+  to the US Securities and Exchange Commission for Q2 2025 is probably what made Wall Street jumpy today about Intel:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “We are focused on the continued development of Intel 14A, the next generation node beyond Intel 18A and Intel 18A-P, and on securing a significant external customer for such node. However, if we are unable to secure a significant external customer and meet important customer milestones for Intel 14A, we face the prospect that it will not be economical to develop and manufacture Intel 14A and successor leading-edge nodes on a go-forward basis. In such event, we may pause or discontinue our pursuit of Intel 14A and successor nodes and various of our manufacturing expansion projects. While we continue to evaluate Intel 14A for use in future Intel products and our plan includes an initial product designed to utilize Intel 14A, at present we are maintaining the option to design future Intel products requiring nodes with performance beyond Intel 18A and Intel 18A-P to be produced internally or by an external foundry. If we were to discontinue development of Intel 14A and successor nodes, we expect that a majority of our products would continue to be manufactured in our own facilities utilizing our nodes up to Intel 18A-P through at least 2030.”
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  Well, if that happens, that will be no different than when Intel was stuck at 14 nanometers as AMD and Nvidia were able to shrink transistors in their compute engine designs down to 10 nanometers, 7 nanometers, and 5 nanometers to great advantage. Intel had supply wins for a while, but it doesn’t last as your competitors get access to better chip making.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A complicating factor – or perhaps not – is that Intel is rolling out another round of job cuts, and the technical and economic situation that Intel is in will make it that much harder to retain key talent to drive its roadmap forward.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://newsroom.intel.com/corporate/lip-bu-tan-steps-in-the-right-direction&quot;&gt;
+   In a letter to Intel employees
+  &lt;/a&gt;
+  that was made public, Tan said that the company would be cutting another 15 percent from the Intel workforce before the end of 2025, brining down its employee count to around 75,000 worldwide. In June last year, Intel had 116,500 employees plus another 5,300 in Mobileye, Altera, and other subsidiaries that have been spun off plus another 3,500 still in the flash business that was sold to SK Hynix. Intel had already shed 24,900 employees in the past year, cutting its management layers in half and shutting down various lines and projects. With these cuts, Intel will have shed 35.6 percent of its workers in a year and a half.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is hard for any company to do, and morale has no doubt suffered. But what is clear from the financials is that Intel cannot just build foundries and hope the customers will come. This ain’t
+  &lt;em&gt;
+   Fabs Of Dreams
+  &lt;/em&gt;
+  anymore. Well, excepting maybe for TSMC, which
+  &lt;a href=&quot;https://www.nextplatform.com/2025/07/18/how-long-before-half-of-tsmcs-sales-are-driven-by-ai/&quot;&gt;
+   is undergoing a massive buildout of foundry capacity in the United States and Taiwan.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is what happens when your foundry doesn’t keep at the cutting edge and you also miss out on the AI wave – the two are not just related, but intertwined like a DNA strand, of course.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;http://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter.jpg&quot; rel=&quot;attachment wp-att-146060&quot;&gt;
+   &lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-146060&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;453&quot; sizes=&quot;(max-width: 695px) 100vw, 695px&quot; src=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter.jpg&quot; srcset=&quot;https://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter.jpg 695w, https://www.nextplatform.com/wp-content/uploads/2025/07/intel-q2-2025-datacenter-600x391.jpg 600w&quot; width=&quot;695&quot;/&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  With all of that as a backdrop, let’s take a look at Intel’s Q2. In the June quarter, the Data Center &amp; AI group had $3.94 billion in sales, up 3.5 percent, and operating income was up by a factor of 2.6X to $633 million thanks to job cuts done last year. That was with a $361 million write-off of Gaudi AI accelerator inventories. The 10-Q said that DCAI had a 13 percent increase in server product volumes, driven largely by an increase in hyperscaler and cloud builder demand, even as server average selling prices fell by 8 percent due to competitive pressures (presumably from AMD and maybe Broadcom and Marvell and Nvidia.) The same pattern was seen in Q1 2025, Intel said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Client Computing Group, which makes PC processors, posted $7.87 billion in sales, down 3.3 percent, with an operating profit of $2.05 billion, down 22.3 percent. AMD is putting on pressure here for sure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Altera,
+  &lt;a href=&quot;https://www.nextplatform.com/2025/04/15/why-did-silver-lake-buy-a-majority-stake-in-intels-altera-fpga-business/&quot;&gt;
+   which is in the process of being bought by Silver Lake Partners
+  &lt;/a&gt;
+  , is now part of Intel’s Others category and it brought in $448 million in sales, up 24.1 percent from a year ago. Operating income was not given for this line of business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel Foundry had $4.42 billion in sales, up 3.2 percent year on year, but had an operating loss of $3.17 billion. This loss was exacerbated by an $800 million impairment charge for equipment that cannot be repurposed and that has to be written off because there are no customers to use it – not even Intel itself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since the beginning of 2023, when Intel started breaking out Intel Foundry financials separately as the Intel’s product groups had to pay a fair price for their chip etchings, the foundry business has generated $45.5 billion in revenues, but $25.8 billion in cumulative losses against that revenue. The trends are getting worse, not better, as the current foundries are underutilized. The 18A ramp has a chance to reverse this, if the Intel chip designs for future PCs and servers are innovative enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But there will be some more pain in the meantime. In the letter, Tan said that Intel was further slowing its foundry buildout in Ohio and that it is ceasing foundry projects in Germany and Poland. Assembly and test operations in Costa Rica will be moved to Vietnam and Malaysia, although some design engineers will remain in Costa Rica.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the datacenter business, Tan hopes to hire a new general manager for DCAI soon after
+  &lt;a href=&quot;https://www.nextplatform.com/2025/02/10/intel-datacenter-chief-departs-to-run-nokia-now-what/&quot;&gt;
+   Justin Hotard left to become chief executive officer of Nokia
+  &lt;/a&gt;
+  back in February, and said that simultaneous multithreading (SMT), which was removed in the Xeon E-core designs, will be reintroduced because it put Intel at a competitive disadvantage when it was missing. (We would say that AMD’s way of cramming twice as many cores into a Zen c variant by halving the L3 cache size was smarter and SMT was less of an issue.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for the AI market, we do not expect Intel to have much enthusiasm for trying to catch up to AMD, much less Nvidia, with new GPU or XPU designs, particularly those aimed at AI training for massive models. Here is the rough outline of the AI strategy at Intel:
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   “We will focus our AI efforts on developing a cohesive silicon, system, and software stack strategy. In the past, we have approached AI with a traditional, silicon- and training-centric mindset. This needs to change – and we have already started incubating new capabilities while attracting new talent.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “As we make this shift, we will concentrate our efforts on areas we can disrupt and differentiate, like inference and agentic AI. Our starting point will be emerging AI workloads – then we will work backward to design software, systems and silicon that enable the best customer outcomes. We have a lot of work underway, and will be sharing more about our plans in the coming months.”
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  That seems like a tough task. But reviving IBM, Apple, Microsoft, and AMD were not easy tasks, either. And here they all are, making money again. Intel still has a chance, and Tan is making the tough calls to make this financially possible. The chance might be pretty slim, we admit. But a market craves competition – and it will pay for it.
+ &lt;/p&gt;
+ &lt;!-- QUIZ HERE --&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 26 Jul 2025 17:37:15 -0000</lastBuildDate>
+<item>
+<title> Q.ANT: Photonic AI Processor Delivered to Leibniz Supercomputing Centre </title>
+<link>https://insidehpc.com/2025/07/q-ant-photonic-ai-processor-goes-into-operation-at-leibniz-supercomputing-centre/</link>
+<pubDate>Fri, 25 Jul 2025 16:06:21 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;149&quot; sizes=&quot;(max-width: 298px) 100vw, 298px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225.png 298w, https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225-150x75.png 150w&quot; width=&quot;298&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-71 ai-optimize-introduction&quot;&gt;
+  Stuttgart/Garching, Germany – July 22, 2025 – Q.ANT announced it has delivered its Native Processing Server (NPS) to the Leibniz Supercomputing Centre (LRZ), “marking the first integration of an analog photonic co-processor into an operational high-performance computing (HPC) environment,” the company said.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-71 ai-optimize-introduction&quot;&gt;
+  “This milestone deployment enables LRZ to evaluate photonic acceleration for artificial intelligence (AI) and simulation workloads – offering a path toward significantly higher performance with drastically lower energy consumption,” Q.ANT said.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-71 ai-optimize-introduction&quot;&gt;
+  The collaboration between Q.ANT and LRZ redefines how data centers approach performance, footprint, energy-efficiency, and system architecture and marks a new chapter in computing – where analog precision, powered by light, addresses the scaling crisis of AI infrastructure., according to Q.ANT.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-72&quot;&gt;
+  “Photonic processors offer a novel and promising path to accelerate AI and simulation workloads, while sharply reducing our environmental footprint. This deployment marks a milestone in our future computing mission to advance energy-efficient AI and high-performance computing,” said Prof. Dr. Dieter Kranzlmüller, Chairman of the Board of Directors of LRZ. “Q.ANT’s NPS integrates easily into our existing infrastructure, allowing us to immediately evaluate its performance. Bringing in future technologies and opening up new avenues for our users would, however, not be possible without the continuous support from both the federal and Bavarian government.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-73&quot;&gt;
+  “Our collaboration with LRZ marks a pivotal milestone: for the first time in history, we’re operating photonic processors in an HPC under practical workloads. With this step, we demonstrate that light-based processors have moved beyond research and into real-world application,” said Dr. Michael Förtsch, CEO of Q.ANT. “This is a decisive step toward integrating photonic computing into the mainstream of next-generation computer architecture by 2030. The long-term commitment of the Ministry for Research, Technology and Space has been instrumental in enabling the breakthroughs that made this success possible.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-75&quot;&gt;
+  Artificial intelligence is increasing computing requirements and pushing high-performance data centres to their limits in terms of power consumption, heat generation and space. Because the photonic chip generates no heat, costly cooling measures are unnecessary. Thanks to the special properties of light, complex calculations can also be performed faster and more efficiently on the photonic processor.  Q.ANT’s photonic technology enables a new class of high-performance, energy-efficient server rack solutions, with:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   Up to 90x lower power consumption per workload, due to the absence of on-chip heat and reduced cooling requirements.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   100x increase in data center capacity enabled by greater computational density and faster execution of complex operations.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   16-bit floating point precision with close to 100 % accuracy for all computational operations on the chip.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   Seamless integration into existing infrastructure via standard PCIe interface and x86 software compatibility – including support for PyTorch, TensorFlow, Keras.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-81&quot;&gt;
+  Q.ANT’s NPS relies on light instead of electricity for complex computing operations – such as training and inferencing AI models. It can be seamlessly integrated into existing data centers and is fully compatible with current hardware and software. Thanks to x86 compatibility, no adjustments to the software stack or changes to the server layout are necessary. The NPS consumes significantly less energy, generates no heat on the chip and enables a higher computing density. With this deployment, LRZ is strengthening its role as a pioneer in the development of energy-efficient high-performance computers.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-83&quot;&gt;
+  The collaboration is aimed at researching hybrid digital-analog architectures for future HPC environments and is funded by the German Federal Ministry of Research, Technology and Space. Deploying Q.ANT’s NPS, LRZ expands this scope to include photonic analog computing, an option that was not technically feasible at the start of the program but made viable by Q.ANT’s advancements in photonics. LRZ will use the Q.ANT NPS to establish new benchmarks and real-world use cases for applications such as climate modeling, real-time medical imaging, or materials simulation for fusion research.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-84&quot;&gt;
+  The first evaluation phase at LRZ involves installing several units of the latest generation Q.ANT NPS, selecting benchmark workloads, and testing real-world applications — particularly in AI inference, computer vision, and physics simulations. Later phases will include second- and third-generation NPS units for deeper evaluation.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-86&quot;&gt;
+  The project was made possible with national funding. The commissioning ceremony was attended by guests from politics and industry. During her welcome address, the Minister for Research, Technology and Space (BMFTR), Dorothee Bär, acknowledged the significance of this milestone for Germany and Europe.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-87&quot;&gt;
+  “Integrating Q.ANT’s photonic processor into the Leibniz Supercomputing Centre ushers in a new computing paradigm, moving it from the laboratory to reality, and takes Europe a decisive step closer to an energy-efficient digital infrastructure. Germany is proud to support groundbreaking innovations that strengthen our scientific leadership and technological sovereignty. We support this collaboration because it demonstrates how public research institutions and private deep tech pioneers can collaborate to shape the future right here in Germany,” said Dorothee Bär, the Federal Minister of Science, Technology, and Space. (To be approved)
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-88&quot;&gt;
+  “Computing with light instead of electricity – what once sounded like science fiction is now becoming reality. For the first time worldwide, a photonic AI accelerator is in operation at a data center here in Garching, Germany: up to 90 percent less energy consumption with 100 times the performance. This shows the tremendous potential of our research institutions – and what becomes possible when science, industry and government join forces.” Markus Blume, Bavarian Minister of Science and the Arts.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-106&quot;&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple and Claris Veteran Nelson Named CIQ CTO </title>
+<link>https://insidehpc.com/2025/07/apple-and-claris-veteran-nelson-named-ciq-cto/</link>
+<pubDate>Fri, 25 Jul 2025 15:43:19 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-1024x512.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-1024x512.png 1024w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-300x150.png 300w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-768x384.png 768w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23.png 873w&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  RENO, Nev. – July 24, 2025 – CIQ, the support and services partner of Rocky Linux, today announced the appointment of Peter Nelson as chief technology officer.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  CIQ said Nelson brings over two decades of product and engineering leadership, most recently serving as vice president of engineering at Apple’s Claris organization and as chief product officer at Bowers &amp; Wilkins.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; dir=&quot;ltr&quot;&gt;
+  As CTO, Nelson will shape CIQ’s technical vision and innovation roadmap, scaling its solutions for performance-intensive workloads that span enterprise Linux, orchestration and AI.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot; dir=&quot;ltr&quot;&gt;
+  “Peter has built and led some of the most high-impact engineering teams in the industry,” said Gregory Kurtzer, founder and CEO at CIQ. “He’s delivered category-defining products across consumer software, enterprise platforms, and embedded systems – all with an uncompromising commitment to user experience, product excellence, and execution. As CIQ scales to power the next era of enterprise AI and HPC, Peter’s leadership will immediately accelerate our innovation and deliver unmatched value to our customers.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot; dir=&quot;ltr&quot;&gt;
+  Before joining CIQ, Nelson led global product and engineering at Claris, overseeing the Claris FileMaker and Claris Connect platforms. Before that, he served as chief product officer at Bowers &amp; Wilkins, steering the transformation of the company’s product and software strategy. He also held engineering leadership roles at Apple, Eva Automation and Caavo, consistently delivering complex, high-quality products on time.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot; dir=&quot;ltr&quot;&gt;
+  “
+  &lt;a href=&quot;https://ciq.com/&quot;&gt;
+   CIQ
+  &lt;/a&gt;
+  is one of the most exciting companies in enterprise software today,” said Nelson. “From Rocky Linux to the broader enterprise platform, the team is building secure, scalable infrastructure that meets the real-world demands of AI and data-intensive computing. I’m honored to join CIQ at this pivotal moment and help drive the next wave of open source innovation.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot; dir=&quot;ltr&quot;&gt;
+  Nelson holds a Bachelor of Science in engineering from Harvey Mudd College and is widely recognized for aligning engineering excellence with strategic product outcomes. He has managed teams across the software stack, from low-level systems to user-facing applications, and has shipped more than a dozen successful products.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC-AI User Forum to Be Held Sept. 3-4 in Reston, VA </title>
+<link>https://insidehpc.com/2025/07/hpc-ai-user-forum-to-be-held-sept-3-4-in-reston-va/</link>
+<pubDate>Fri, 25 Jul 2025 15:20:09 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;500&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324.jpg 1000w, https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324-150x75.jpg 150w, https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324-300x150.jpg 300w, https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324-768x384.jpg 768w&quot; width=&quot;1000&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-48 ai-optimize-introduction&quot;&gt;
+  Hyperion Research announced that registration is open for the 89
+  &lt;sup&gt;
+   th
+  &lt;/sup&gt;
+  HPC/AI User Forum, to be held in Reston, VA, on Wednesday and Thursday, Sept. 3 and 4.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-48 ai-optimize-introduction&quot;&gt;
+  More information can be found at:
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.hpcuserforum.com/s&amp;source=gmail&amp;ust=1753541612896000&amp;usg=AOvVaw0XD0CyitYkLHUa4a13Fhbv&quot; href=&quot;https://www.hpcuserforum.com/s&quot;&gt;
+   https://www.hpcuserforum.com/
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot; style=&quot;font-weight: 400;&quot;&gt;
+  The meeting will have presentations on the evolving AI and HPC sectors as well as a look into how data centers are developing and expanding.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Talks will include topics such as AI and HPC workloads and how they are driving data centers and innovative solutions, new HPC &amp; AI directions in industry, government and academia, trends in the use of clouds to run HPC/AI workloads, HPC site updates, and market updates for AI, HPC, storage and quantum computing. Below is a list of the conference guest speakers, topics, and panels:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Keynotes:
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-10&quot;&gt;
+   Matt Vincent, Editor-in-Chief, Data Center Frontier, Present and Future HPC Trends, Forecast, and Implications Within Data Centers
+   &lt;ul&gt;
+    &lt;li class=&quot;ai-optimize-11&quot;&gt;
+     &lt;em&gt;
+      HPC is now embedded in commercial data centers, coexisting with hyperscale AI infrastructure. This session offers a forward-looking analysis of how these workloads will coexist, collide, and coevolve, shaping the future of computing, energy use, and data center strategy through the end of the decade.
+     &lt;/em&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-12&quot;&gt;
+     &lt;em&gt;
+      From cutting-edge silicon to liquid cooling, and AI workload convergence to regional power infrastructure, this session will present trends defining the next era of high-performance infrastructure.
+     &lt;/em&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-13&quot;&gt;
+   John Garstka, Director, Cyber Warfare, Office of the Deputy Assistant Secretary of Defense for Platform and Weapon Portfolio Management (PWPM), Office of the Under Secretary of Defense for Acquisition and Sustainment (OUSD(A&amp;S))
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-14&quot;&gt;
+   Buddy Rizer, Executive Director, Loudoun County, Virginia, Dept. of Economic Development: Dinner Speaker
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-15&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Presentations include:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot; style=&quot;font-weight: 400;&quot;&gt;
+  How AI and HPC Workloads are Driving Data Centers
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-17&quot;&gt;
+   Matt Vincent, Editor in Chief, Data Center Frontier
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-18&quot;&gt;
+   Buddy Rizer, Executive Director, Loudoun County, Virginia, Dinner Speaker
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-19&quot;&gt;
+   Alex Loddoch, High Performance Computing Strategist, Chevron Corporation
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-20&quot;&gt;
+   John Garstka, Director, Cyber Warfare, Office of the Deputy Assistant Secretary of Defense
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-21&quot;&gt;
+   Dr. Alex Vadati, Program Director, Directorate for Technology, Innovation and Partnerships, NSF
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-22&quot; style=&quot;font-weight: 400;&quot;&gt;
+  New HPC &amp; AI Directions in Industry
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-24&quot;&gt;
+   Rick Arthur, Senior Principal Engineer, Computational Methods Research at GE Aerospace Research
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-25&quot;&gt;
+   Keith Gray, VP Computational Science and Engineering, TotalEnergies
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-26&quot;&gt;
+   Elizabeth L’Heureux, Head of HPC, BP
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-27&quot;&gt;
+   Joseph Swartz, CSCF Program/Chief Architect, Lockheed Martin
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-28&quot; style=&quot;font-weight: 400;&quot;&gt;
+  New HPC &amp; AI Directions Government and Academia
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-30&quot;&gt;
+   Dr. Martin Berzins, Associate Director, Faculty Member, SCI at the University of Utah
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-31&quot;&gt;
+   NSF National Deep Inference Fabric (NDIF)
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-32&quot;&gt;
+   Kevin Murphy, Chief Science Data Officer, New Directions in AI and QC at NASA
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-33&quot;&gt;
+   Thuc Hoang, Director, Office of Advanced Simulation and Computing and Institutional R&amp;D Programs, NNSA
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-34&quot;&gt;
+   Dr. Prem Kumar, Professor, Electrical and Computer Engineering, Northwestern University
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-35&quot;&gt;
+   Ceren Susut, DOE ASCR Associate Director
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-36&quot;&gt;
+   Doug Kothe, Associate Laboratories Director (ALD) for Advanced Science and Technology and Chief Research Officer, Sandia National Laboratories
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-38&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Trends and New Solutions in the Use of Clouds to Run HPC/AI Workloads
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-39&quot;&gt;
+   Jay Boisseau, Advanced Computing Strategist, Google
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-40&quot;&gt;
+   Mark Nossokoff, Research Director, Lead Analyst for Cloud &amp; Storage, Hyperion Research,
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-41&quot;&gt;
+   Dr. Alex Vadati, Program Director, NSF: Programmable Cloud Laboratories
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-43&quot; style=&quot;font-weight: 400;&quot;&gt;
+  New Technologies Updates
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-44&quot;&gt;
+   Innovation Panel: Alice + Bob, CTG Federal, DDN, FedData, Hitachi Vantara, Supermicro, and QuEra
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-45&quot;&gt;
+   Vendor updates from Hammerspace, HPE, Intel, Parallel Works and Weka
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-46&quot;&gt;
+   Bob Sorensen, Senior Vice President of Research and Chief Analyst for Quantum Computing, Hyperion Research, New Developments in the Use of Quantum Computing
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
