@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 02 Aug 2025 16:07:35 -0000</lastBuildDate>
+<item>
+<title> Report: Qualcomm May Return to Data Center AI Chip Market </title>
+<link>https://insidehpc.com/2025/08/report-qualcomm-may-return-to-data-center-ai-chip-market/</link>
+<pubDate>Fri, 01 Aug 2025 17:23:36 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;291&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/qualcomm-logo-2-1-0825.png&quot; width=&quot;659&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot;&gt;
+    Qualcomm, the $39 billion chip design company, may return to the data center chip market, according to
+    &lt;a href=&quot;https://www.theregister.com/2025/07/31/qualcomm_q3_samsung_q2_205/&quot;&gt;
+     a story in The Register
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-8&quot;&gt;
+    “Qualcomm has teased a serious run at the data center market for years and in May CEO Cristiano Amon
+    &lt;a href=&quot;https://www.theregister.com/2025/05/19/qualcomm_datacenter_products/&quot;&gt;
+     told
+    &lt;/a&gt;
+    the Computex conference in Taiwan that he sees ‘CPU changed for the age of AI’ as one way into the market,” the publication reported. “On Wednesday, Amon used Qualcomm’s Q3 earnings call to deliver an update on the company’s datacenter ambitions.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-9&quot;&gt;
+    “As inference games scale, cloud service providers are building dedicated inferencing clusters focused not only on performance, but also efficiency, specifically tokens per dollar and tokens per watt,” the CEO said. “These factors combined with the shift from merchant x86 CPUs to custom ARM compatible CPUs for both cloud computing and AI head node create an entry point for Qualcomm.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-10&quot;&gt;
+    Qualcomm also said it’s in “advanced discussions” with a hyperscale customer that wants to use its silicon in its data centers, according to The Register story.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-11&quot;&gt;
+    On the earnings call, the Qualcomm CEO also said the company is building “a general-purpose CPU” “and is ‘very focused on hyperscalers’ because ‘They have first party workloads for ARM compatible CPU.’”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-12&quot;&gt;
+    He also discussed a separate product for the data center market described as “the head unit for inferencing clusters,” then added “we have been building accelerator cards and we will be building a rack as well.”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> GFT: Wynxx Reduces Time to Launch Financial Institutions’ AI and Cloud Projects </title>
+<link>https://insideainews.com/2025/08/01/gfts-wynxx-reduces-time-to-launch-financial-institutions-ai-and-cloud-projects-by-95/</link>
+<pubDate>Fri, 01 Aug 2025 16:11:57 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;250&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/02/financial-services-wall-street-2-1-shutterstock-2452656115.jpg&quot; width=&quot;500&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p&gt;
+    NEW YORK — Digital transformation company GFT has announced its work to drive U.S. and Canadian financial institutions’ cloud and AI digital transformation projects with Wynxx, its new AI-powered software development product.
+   &lt;/p&gt;
+   &lt;p&gt;
+    As financial institutions modernize their legacy systems, including transitioning to the cloud and deploying new AI use cases across the organization, they are looking for ways to maintain quality while reducing costs. GFT’s Wynxx makes this possible, reducing the amount of time cloud and AI capabilities take to launch by up to 95%. The proprietary AI tool has already enabled a global tier-1 investment bank to reduce the time a cloud deployment development task took from over one month to just one day.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Financial institutions want to take advantage of AI driven efficiencies – but less than 40% have even taken the first step: going all in on cloud environments. This is largely because for most financial institutions, digital transformation projects, like the move to the cloud, are a complex undertaking that require significant developer resources. As a result, these financial institutions are facing challenges as they look to harness the power of AI – which typically relies on centralized cloud ecosystems – to bring a competitive edge by reducing operating costs while enhancing the customer experience.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It’s against this backdrop that GFT is bringing Wynxx to the U.S. and Canada, allowing financial institutions to decrease the developer time and resources required for large scale digital transformation projects. The new product allows financial institutions to significantly drive efficiency in key digital transformation projects, including:
+   &lt;/p&gt;
+   &lt;ul class=&quot;bwlistdisc&quot;&gt;
+    &lt;li&gt;
+     The move from decentralized, legacy systems to a comprehensive cloud environment. GFT partners with leading hyperscalers – including AWS and Google – to deliver a cloud environment that fits each financial institutions’ unique needs. Since cloud deployments take months, or even years to complete in some cases, institutions typically choose to move to the cloud slowly and incrementally. Now, with Wynxx, GFT is able to deliver the same leading cloud transformation services it’s grown a reputation for over 20 years faster, so organizations can spend more time innovating new AI solutions that leverage the cloud infrastructure.
+    &lt;/li&gt;
+    &lt;li&gt;
+     Staying up to date with the latest advancements in automation. Most financial institutions have harnessed some form of automation in workflows – such as fraud prevention, anti money laundering and more in recent years, but these technologies continue to improve over time. Updating older automation tools, though, presents a challenge, especially if there are gaps in code documentation (which explains how the code works). With Wynxx, GFT can now reduce the time required for documentation by over 90%, while ensuring the utmost quality, to reduce complexity in new updates.
+    &lt;/li&gt;
+    &lt;li&gt;
+     Injecting AI into manual, error prone tasks to scale offerings and increase revenue. In recent years, financial offerings like private credit have rapidly increased in demand. But most firms cannot scale their manual credit risk analysis at the rate needed to meet this demand without risking accuracy, and subsequently revenue, in lending decisions. At the same time, building a proprietary AI-credit analysis system, with all of the firm’s internal risk controls and parameters, is often counted out because of the developer hours required. Now, Wynxx enables GFT to build custom software solutions that interact with the financial firm’s existing systems, while taking into account its internal risk preferences and controls – quickly.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    “Over the past 35+ years, GFT has built and maintained a reputation for delivering the effective, custom configured technology financial services need to build their business, offer an enhanced customer experience and streamline operations,” said Christopher Ortiz, Regional CEO North America, UK and APAC at
+    &lt;a href=&quot;https://www.gft.com/us/en&quot;&gt;
+     GFT
+    &lt;/a&gt;
+    . “Now, with Wynxx, we are able to provide the same quality of service our clients have come to expect from us, in a shorter span of time. We look forward to working alongside our clients to solve their most pressing business challenges, now on a timeline that wasn’t previously possible, to foster new avenues for innovation.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    The launch of Wynxx is the latest step in GFT’s plan to become a fully AI-centric company by 2025, where AI will be central to not only the company’s internal operations, but also the services it provides clients.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> Google DeepMind Launches AlphaEarth Foundations Virtual Satellite </title>
+<link>https://insidehpc.com/2025/07/google-deepmind-launches-alphaearth-foundations-virtual-satellite/</link>
+<pubDate>Thu, 31 Jul 2025 20:25:53 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot; data-block-key=&quot;fd0er&quot;&gt;
+   &lt;img alt=&quot;&quot; class=&quot;alignright wp-image-96801&quot; decoding=&quot;async&quot; height=&quot;245&quot; sizes=&quot;(max-width: 429px) 100vw, 429px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725.png 624w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725-150x86.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725-300x171.png 300w&quot; width=&quot;429&quot;/&gt;
+   Google DeepMind has announced the AlphaEarth Foundations, an AI model designed to function like a virtual satellite and to characterize the planet’s terrestrial land and coastal waters by integrating huge amounts of Earth observation data into a unified digital representation, or “
+   &lt;a href=&quot;https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    embedding,
+   &lt;/a&gt;
+   ” that computer systems can process.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-25&quot; data-block-key=&quot;fd0er&quot;&gt;
+   The company said the model integrates petabytes of Earth observation data to generate a unified data representation for global mapping and monitoring
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-7&quot; data-block-key=&quot;fd0er&quot;&gt;
+   The model is intended to provide scientists with a more complete and consistent picture of our planet’s evolution, helping them make more informed decisions on critical issues like food security, deforestation, urban expansion, and water resources.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-8&quot; data-block-key=&quot;da617&quot;&gt;
+   To accelerate research and unlock use cases, Google has released a collection of AlphaEarth Foundations’ annual embeddings as the
+   &lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL#description&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Satellite Embedding dataset
+   &lt;/a&gt;
+   in
+   &lt;a href=&quot;https://earthengine.google.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth Engine
+   &lt;/a&gt;
+   . Over the past year, the company has worked with more than 50 organizations to test this dataset on their real-world applications.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-9&quot; data-block-key=&quot;d088j&quot;&gt;
+   Google said its partners are using the data to better classify unmapped ecosystems, understand agricultural and environmental changes, and increase the accuracy and speed of their mapping work. The following is
+   &lt;a href=&quot;https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/&quot;&gt;
+    a blog
+   &lt;/a&gt;
+   released by Google DeepMind that discusses some of their feedback and the impact of this new technology.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-10&quot; data-block-key=&quot;po06b&quot;&gt;
+   &lt;strong&gt;
+    How AlphaEarth Foundations Works
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-11&quot; data-block-key=&quot;3r6ii&quot;&gt;
+   AlphaEarth Foundations provides a powerful new lens for understanding our planet by solving two major challenges: data overload and inconsistent information.
+  &lt;/p&gt;
+  &lt;div class=&quot;wp-caption alignleft&quot; id=&quot;attachment_96800&quot; style=&quot;width: 457px&quot;&gt;
+   &lt;img alt=&quot;&quot; aria-describedby=&quot;caption-attachment-96800&quot; class=&quot;wp-image-96800&quot; decoding=&quot;async&quot; height=&quot;241&quot; sizes=&quot;(max-width: 447px) 100vw, 447px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725.png 697w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725-150x81.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725-300x162.png 300w&quot; width=&quot;447&quot;/&gt;
+   &lt;p class=&quot;wp-caption-text&quot; id=&quot;caption-attachment-96800&quot;&gt;
+    AlphaEarth Foundations takes non-uniformly sampled frames from a video sequence to index positions in time. credit: Google Mind
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;ai-optimize-12&quot; data-block-key=&quot;cfk18&quot;&gt;
+   First, it combines volumes of information from dozens of different public sources— optical satellite images, radar, 3D laser mapping, climate simulations, and more. It weaves all this information together to analyse the world’s land and coastal waters in sharp, 10×10 meter squares, allowing it to track changes over time with remarkable precision.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-13&quot; data-block-key=&quot;c0lf0&quot;&gt;
+   Second, it makes this data practical to use. The system’s key innovation is its ability to create a highly compact summary for each square. These summaries require 16 times less storage space than those produced by other AI systems that we tested and dramatically reduces the cost of planetary-scale analysis.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-14&quot; data-block-key=&quot;3avp4&quot;&gt;
+   This breakthrough enables scientists to do something that was impossible until now: create detailed, consistent maps of our world, on-demand. Whether they are monitoring crop health, tracking deforestation, or observing new construction, they no longer have to rely on a single satellite passing overhead. They now have a new kind of foundation for geospatial data.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-15&quot; data-block-key=&quot;po06b&quot;&gt;
+   To ensure AlphaEarth Foundations was ready for real-world use, we rigorously tested its performance. When compared against both traditional methods and other AI mapping systems, AlphaEarth Foundations was consistently the most accurate. It excelled at a wide range of tasks over different time periods, including identifying land use and estimating surface properties. Crucially, it achieved this in scenarios when label data was scarce. On average, AlphaEarth Foundations had a 24% lower error rate than the models we tested, demonstrating its superior learning efficiency. Learn more in our
+   &lt;a href=&quot;https://arxiv.org/pdf/2507.22291&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    paper
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-17&quot; data-block-key=&quot;gd6qg&quot;&gt;
+   &lt;strong&gt;
+    Generating Maps with the Satellite Embedding Dataset
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-18&quot; data-block-key=&quot;c52lh&quot;&gt;
+   Powered by AlphaEarth Foundations, the
+   &lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL#description&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Satellite Embedding dataset
+   &lt;/a&gt;
+   in Google Earth Engine is one of the largest of its kind with over 1.4 trillion embedding footprints per year. This collection of annual embeddings is already being used by organizations around the world, including the United Nations’
+   &lt;a href=&quot;https://www.fao.org/home/en&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Food and Agriculture Organization
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://harvardforest.fas.harvard.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Harvard Forest
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://earthobservations.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Group on Earth Observations
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://brasil.mapbiomas.org/en/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    MapBiomas
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://oregonstate.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Oregon State University
+   &lt;/a&gt;
+   , the
+   &lt;a href=&quot;https://sig-gis.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Spatial Informatics Group
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.stanford.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Stanford University
+   &lt;/a&gt;
+   , to create powerful custom maps that drive real-world insights.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-19&quot; data-block-key=&quot;fo1o9&quot;&gt;
+   For example,
+   &lt;a href=&quot;http://www.globalecosystemsatlas.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Global Ecosystems Atlas
+   &lt;/a&gt;
+   , an initiative aiming to create the first comprehensive resource to map and monitor the world’s ecosystems, is using this dataset to help countries classify unmapped ecosystems into categories like
+   &lt;a href=&quot;https://global-ecosystems.org/explore/groups/MT2.1&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    coastal shrublands
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://global-ecosystems.org/explore/groups/T5.5&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    hyper-arid deserts
+   &lt;/a&gt;
+   . This first of its kind resource will play a critical role in helping countries better prioritize conservation areas, optimize restoration efforts, and combat the loss of biodiversity.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-20&quot; data-block-key=&quot;gd6qg&quot;&gt;
+   In Brazil,
+   &lt;a href=&quot;https://brasil.mapbiomas.org/en/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    MapBiomas
+   &lt;/a&gt;
+   is testing the dataset to more deeply understand agricultural and environmental changes across the country. This type of map informs conservation strategies and sustainable development initiatives in critical ecosystems like the Amazon rainforest.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-21&quot; data-block-key=&quot;eikau&quot;&gt;
+   As Tasso Azevedo, founder of MapBiomas said, “The Satellite Embedding dataset can transform the way our team works – we now have new options to make maps that are more accurate, precise and fast to produce – something we would have never been able to do before.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-22&quot; data-block-key=&quot;542er&quot;&gt;
+   Read more about the Satellite Embedding dataset and see tutorials in the
+   &lt;a href=&quot;https://medium.com/google-earth/ai-powered-pixels-introducing-googles-satellite-embedding-dataset-31744c1f4650&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth Engine blog
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-23&quot; data-block-key=&quot;6v6cv&quot;&gt;
+   &lt;strong&gt;
+    Empowering Others with AI
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-24&quot; data-block-key=&quot;9k7e5&quot;&gt;
+   AlphaEarth Foundations represents a significant step forward in understanding the state and dynamics of our changing planet. We’re currently using AlphaEarth Foundations to generate annual embeddings and believe they could be even more useful in the future when combined together with general reasoning LLM agents like Gemini. We are continuing to explore the best ways to apply our model’s time-based capabilities as part of
+   &lt;a href=&quot;http://blog.google/technology/ai/google-earth-ai&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth AI
+   &lt;/a&gt;
+   , our collection of geospatial models and datasets to help tackle the planet’s most critical needs.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google DeepMind Launches AlphaEarth Foundations Virtual Satellite </title>
+<link>https://insideainews.com/2025/07/31/google-deepmind-launches-alphaearth-foundations/</link>
+<pubDate>Thu, 31 Jul 2025 20:01:36 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;312&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/google-earth-ai-2-1-0725.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/google-earth-ai-2-1-0725.png 624w, https://insideainews.com/wp-content/uploads/2025/07/google-earth-ai-2-1-0725-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/google-earth-ai-2-1-0725-300x150.png 300w&quot; width=&quot;624&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p data-block-key=&quot;fd0er&quot;&gt;
+   Google DeepMind has announced the AlphaEarth Foundations, an AI model designed to function like a virtual satellite and to characterize the planet’s terrestrial land and coastal waters by integrating huge amounts of Earth observation data into a unified digital representation, or “
+   &lt;a href=&quot;https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    embedding,
+   &lt;/a&gt;
+   ” that computer systems can process.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;fd0er&quot;&gt;
+   This allows the model to provide scientists with a more complete and consistent picture of our planet’s evolution, helping them make more informed decisions on critical issues like food security, deforestation, urban expansion, and water resources.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;da617&quot;&gt;
+   To accelerate research and unlock use cases, Google has released a collection of AlphaEarth Foundations’ annual embeddings as the
+   &lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL#description&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Satellite Embedding dataset
+   &lt;/a&gt;
+   in
+   &lt;a href=&quot;https://earthengine.google.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth Engine
+   &lt;/a&gt;
+   . Over the past year, the company has worked with more than 50 organizations to test this dataset on their real-world applications.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;d088j&quot;&gt;
+   Google said its partners are using the data to better classify unmapped ecosystems, understand agricultural and environmental changes, and increase the accuracy and speed of their mapping work. The following is
+   &lt;a href=&quot;https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/&quot;&gt;
+    a blog
+   &lt;/a&gt;
+   released by Google DeepMind that discusses some of their feedback and the impact of this new technology.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p data-block-key=&quot;po06b&quot;&gt;
+   &lt;strong&gt;
+    How AlphaEarth Foundations Works
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;3r6ii&quot;&gt;
+   AlphaEarth Foundations provides a powerful new lens for understanding our planet by solving two major challenges: data overload and inconsistent information.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;cfk18&quot;&gt;
+   First, it combines volumes of information from dozens of different public sources— optical satellite images, radar, 3D laser mapping, climate simulations, and more. It weaves all this information together to analyse the world’s land and coastal waters in sharp, 10×10 meter squares, allowing it to track changes over time with remarkable precision.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;c0lf0&quot;&gt;
+   Second, it makes this data practical to use. The system’s key innovation is its ability to create a highly compact summary for each square. These summaries require 16 times less storage space than those produced by other AI systems that we tested and dramatically reduces the cost of planetary-scale analysis.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;3avp4&quot;&gt;
+   This breakthrough enables scientists to do something that was impossible until now: create detailed, consistent maps of our world, on-demand. Whether they are monitoring crop health, tracking deforestation, or observing new construction, they no longer have to rely on a single satellite passing overhead. They now have a new kind of foundation for geospatial data.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p data-block-key=&quot;po06b&quot;&gt;
+   To ensure AlphaEarth Foundations was ready for real-world use, we rigorously tested its performance. When compared against both traditional methods and other AI mapping systems, AlphaEarth Foundations was consistently the most accurate. It excelled at a wide range of tasks over different time periods, including identifying land use and estimating surface properties. Crucially, it achieved this in scenarios when label data was scarce. On average, AlphaEarth Foundations had a 24% lower error rate than the models we tested, demonstrating its superior learning efficiency. Learn more in our
+   &lt;a href=&quot;https://arxiv.org/pdf/2507.22291&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    paper
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p data-block-key=&quot;gd6qg&quot;&gt;
+   &lt;strong&gt;
+    Generating Maps with the Satellite Embedding Dataset
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;c52lh&quot;&gt;
+   Powered by AlphaEarth Foundations, the
+   &lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL#description&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Satellite Embedding dataset
+   &lt;/a&gt;
+   in Google Earth Engine is one of the largest of its kind with over 1.4 trillion embedding footprints per year. This collection of annual embeddings is already being used by organizations around the world, including the United Nations’
+   &lt;a href=&quot;https://www.fao.org/home/en&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Food and Agriculture Organization
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://harvardforest.fas.harvard.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Harvard Forest
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://earthobservations.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Group on Earth Observations
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://brasil.mapbiomas.org/en/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    MapBiomas
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://oregonstate.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Oregon State University
+   &lt;/a&gt;
+   , the
+   &lt;a href=&quot;https://sig-gis.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Spatial Informatics Group
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.stanford.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Stanford University
+   &lt;/a&gt;
+   , to create powerful custom maps that drive real-world insights.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;fo1o9&quot;&gt;
+   For example,
+   &lt;a href=&quot;http://www.globalecosystemsatlas.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Global Ecosystems Atlas
+   &lt;/a&gt;
+   , an initiative aiming to create the first comprehensive resource to map and monitor the world’s ecosystems, is using this dataset to help countries classify unmapped ecosystems into categories like
+   &lt;a href=&quot;https://global-ecosystems.org/explore/groups/MT2.1&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    coastal shrublands
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://global-ecosystems.org/explore/groups/T5.5&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    hyper-arid deserts
+   &lt;/a&gt;
+   . This first of its kind resource will play a critical role in helping countries better prioritize conservation areas, optimize restoration efforts, and combat the loss of biodiversity.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p data-block-key=&quot;gd6qg&quot;&gt;
+   In Brazil,
+   &lt;a href=&quot;https://brasil.mapbiomas.org/en/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    MapBiomas
+   &lt;/a&gt;
+   is testing the dataset to more deeply understand agricultural and environmental changes across the country. This type of map informs conservation strategies and sustainable development initiatives in critical ecosystems like the Amazon rainforest.
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;eikau&quot;&gt;
+   As Tasso Azevedo, founder of MapBiomas said, “The Satellite Embedding dataset can transform the way our team works – we now have new options to make maps that are more accurate, precise and fast to produce – something we would have never been able to do before.”
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;542er&quot;&gt;
+   Read more about the Satellite Embedding dataset and see tutorials in the
+   &lt;a href=&quot;https://medium.com/google-earth/ai-powered-pixels-introducing-googles-satellite-embedding-dataset-31744c1f4650&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth Engine blog
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;6v6cv&quot;&gt;
+   &lt;strong&gt;
+    Empowering Others with AI
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p data-block-key=&quot;9k7e5&quot;&gt;
+   AlphaEarth Foundations represents a significant step forward in understanding the state and dynamics of our changing planet. We’re currently using AlphaEarth Foundations to generate annual embeddings and believe they could be even more useful in the future when combined together with general reasoning LLM agents like Gemini. We are continuing to explore the best ways to apply our model’s time-based capabilities as part of
+   &lt;a href=&quot;http://blog.google/technology/ai/google-earth-ai&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth AI
+   &lt;/a&gt;
+   , our collection of geospatial models and datasets to help tackle the planet’s most critical needs.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Micron Unveils SSDs for AI </title>
+<link>https://insidehpc.com/2025/07/micron-unveils-ssds-for-ai/</link>
+<pubDate>Thu, 31 Jul 2025 18:48:01 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/micron-products-073125-2-1-1024x512.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/micron-products-073125-2-1-1024x512.jpg 1024w, https://insidehpc.com/wp-content/uploads/2025/07/micron-products-073125-2-1-150x75.jpg 150w, https://insidehpc.com/wp-content/uploads/2025/07/micron-products-073125-2-1-300x150.jpg 300w, https://insidehpc.com/wp-content/uploads/2025/07/micron-products-073125-2-1-768x384.jpg 768w, https://insidehpc.com/wp-content/uploads/2025/07/micron-products-073125-2-1.jpg 1500w&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;newsFullTitle ai-optimize-introduction&quot;&gt;
+  &lt;div class=&quot;field field--name-field-nir-news-title field--type-string field--label-hidden&quot;&gt;
+   &lt;div class=&quot;field__item&quot;&gt;
+    BOISE, Idaho — Micron Technology, Inc. (Nasdaq: MU) announced the launch of three data center SSDs built with Micron G9 NAND including what the company said is the first PCIe Gen6 NVMe SSD, industry-leading capacity for an E3.S SSD and the lowest latency mainstream Gen5 SSD for AI data centers, according to Micron.
+    &lt;sup&gt;
+     1
+    &lt;/sup&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;node__content&quot;&gt;
+  &lt;p class=&quot;ai-optimize-16&quot;&gt;
+   The 28 GB/s performance of the 9650 SSD accelerates AI training and inference workloads. During inference, high throughput and ultralow latency are essential to enable real-time data access for large models, such as enterprise agents with extended context windows and retrieval-augmented generation pipelines. The 9650 offers superior performance per watt compared to Gen5 SSDs, achieving up to 25% and 67% better storage energy efficiency for random writes and reads, respectively. The reduction in power consumption and carbon emissions allows data centers to meet sustainability goals while enhancing performance.
+   &lt;sup&gt;
+    2
+   &lt;/sup&gt;
+  &lt;/p&gt;
+  &lt;ul type=&quot;disc&quot;&gt;
+   &lt;li class=&quot;ai-optimize-17&quot;&gt;
+    Gen6 performance:
+    &lt;sup&gt;
+     3
+    &lt;/sup&gt;
+    &lt;ul type=&quot;circle&quot;&gt;
+     &lt;li class=&quot;ai-optimize-18&quot;&gt;
+      Up to 28 GB/s sequential read and 14 GB/s sequential write speeds
+     &lt;/li&gt;
+     &lt;li class=&quot;ai-optimize-19&quot;&gt;
+      Up to 5.5 MIOPS random read and 900 KIOPS random write speeds
+     &lt;/li&gt;
+    &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-20&quot;&gt;
+    FIPS 140-3 Level 2 and Trade Agreement Act (TAA) compliant options help ensure SSDs sold to the U.S. government are manufactured or substantially transformed in the United States or in designated countries.
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-21&quot;&gt;
+    Ecosystem collaborations, including prior public demonstrations with Astera Labs and Broadcom accelerate adoption through proven interoperability.
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-22&quot;&gt;
+    A liquid-cooled E1.S version is available for the most advanced AI servers.
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p class=&quot;ai-optimize-40&quot;&gt;
+   The products are designed to be performant, energy and space efficient, and validated with leading ecosystem partners to streamline qualification and ensure seamless integration, making them the ideal portfolio for the widely divergent needs of AI workloads.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-23&quot;&gt;
+   “With up to 5.5 million IOPS for random reads, the Micron 9650 is purpose-built for AI pipelines’ high-throughput, low-latency demands. This product helps ensure GPUs remain continuously fed with data, minimizing idle cycles and maximizing system efficiency. Combined with Dell’s advanced server architecture, this innovation empowers enterprises to unlock new levels of performance and insight,” said Arunkumar Narayanan, senior vice president of Compute and Networking, Infrastructure Solutions Group (ISG) at Dell Technologies.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-24&quot;&gt;
+   “Advanced AI reasoning workloads require agents to swiftly access massive volumes of business and internet data,” said Kevin Deierling, senior vice president of Networking at NVIDIA. “PCIe Gen6 SSDs like the Micron 9650 provide high-speed data access to support accelerated computing performance and efficiency for AI inference and training.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-26&quot;&gt;
+   The Micron 6600 ION SSD delivers scalability featuring up to 245TBs in a single drive, enabling hyperscale and enterprise data centers to consolidate server infrastructure and build massive AI data lakes — all while reducing storage footprint, energy and carbon emissions. This offering increases storage density up to 67% over the competition and delivers over 88PB per rack using servers,
+   &lt;sup&gt;
+    4
+   &lt;/sup&gt;
+   drastically reducing TCO.
+  &lt;/p&gt;
+  &lt;ul type=&quot;disc&quot;&gt;
+   &lt;li class=&quot;ai-optimize-27&quot;&gt;
+    The industry-leading 122TB E3.S SSD is approximately the size of a deck of cards, providing an incredible 2.4PB of PCIe Gen5 flash storage in a 1U server.
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-28&quot;&gt;
+    The 122TB 6600 ION consumes only 1 watt per 4.9TB, offering 37% better energy efficiency than the three 36TB HDDs required to deliver the same capacity, all in less than a quarter of the space.
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-29&quot;&gt;
+    For storage deployments with 2 exabytes of storage, the 6600 ION delivers up to 3.4 megawatt-hours of daily energy savings over HDDs—which is enough energy to power 124 average U.S. homes every day.
+    &lt;sup&gt;
+     5
+    &lt;/sup&gt;
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-30&quot;&gt;
+    The 6600 ION SSD provides the ultimate in data protection by supporting advanced enterprise-grade security features.
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p class=&quot;ai-optimize-31&quot;&gt;
+   “With Supermicro’s broadest selection of Petascale storage optimized servers supporting up to 36 E3.S SSDs, the Micron 6600 ION enables up to 4.42PB per 2U server delivering the highest density and power efficiency for large capacity AI workloads,” said Michael McNerney, senior vice president, Marketing and Network Security at Supermicro. “Our customers benefit from the collaboration between Supermicro and Micron to provide compact, energy-efficient and TCO-optimized systems.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-32&quot;&gt;
+   “The Micron 6600 ION is a game-changer for AI infrastructure, delivering exceptional capacity and performance that enables
+   &lt;a href=&quot;https://www.globenewswire.com/Tracker?data=DDSb7TwhV6sw0ZNh3aCt3gIAJzNk1zycuYR305vmGXGG1MdJgB-BpGf72eqcaeku7wiXf3oTkJ9i5ersaabiFA==&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+    WEKA
+   &lt;/a&gt;
+   customers to manage and process larger datasets with less infrastructure and lower energy use,” said Ajay Singh, chief product officer at WEKA. “We’re also excited about the Micron 9650 PCIe Gen6 SSD, which pairs perfectly with our Augmented Memory Grid technology, which extends GPU memory by leveraging ultra-fast NVMe to accelerate time to first token, boost token throughput, and help avoid the memory wall in high-throughput inference environments.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-33&quot;&gt;
+   &lt;strong&gt;
+    Micron 7600 SSD: Leading performance for AI inference and mixed workloads
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-34&quot;&gt;
+   The
+   &lt;a href=&quot;https://www.globenewswire.com/Tracker?data=2QQB2sdNjotCRHNFlgT_HtnKgS6zxUcQL1vOTK74XfQv4Pc1EdS2Dq5vowi9waNe6Rm2jnsvuvQpa6MP_-MAseevggObzqwdahSM1vk431XXEcyh55r6zdd7iFnNEdU_rpvzwdQ2hfnTN_sStQgT6Mk0yhsEASURvBsVN1YSRM8=&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+    7600 PCIe Gen5 SSD
+   &lt;/a&gt;
+   offers class-leading performance,
+   &lt;sup&gt;
+    6
+   &lt;/sup&gt;
+   low latency and high-reliability QoS to support predictable, lightning-fast responsiveness for demanding data center workloads like AI transformation, training and inference. Capable of delivering industry-best sub-1 millisecond latency on the taxing RocksDB workload, the 7600 SSD is ideal for workloads where response time is critical. The 7600 SSD provides the right balance of affordability, performance and predictable latency for most data center workloads including AI.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li class=&quot;ai-optimize-35&quot;&gt;
+    With best-in-class sequential reads of 12 GB/s, the 7600 SSD outperforms competitive mainstream SSDs, with up to:
+    &lt;ul&gt;
+     &lt;li class=&quot;ai-optimize-36&quot;&gt;
+      27% better sequential writes with 7 GB/s
+     &lt;/li&gt;
+     &lt;li class=&quot;ai-optimize-37&quot;&gt;
+      5% better random reads with 2.1 MIOPS
+     &lt;/li&gt;
+     &lt;li class=&quot;ai-optimize-38&quot;&gt;
+      100% better random writes with 400 KIOPS
+     &lt;/li&gt;
+    &lt;/ul&gt;
+   &lt;/li&gt;
+   &lt;li class=&quot;ai-optimize-39&quot;&gt;
+    RocksDB workload performance and energy efficiency compared to competitive Gen5 SSDs, as follows:
+    &lt;sup&gt;
+     7
+    &lt;/sup&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-96795&quot; decoding=&quot;async&quot; height=&quot;87&quot; sizes=&quot;(max-width: 891px) 100vw, 891px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/micron-chart-073125-1024x100.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/micron-chart-073125-1024x100.png 1024w, https://insidehpc.com/wp-content/uploads/2025/07/micron-chart-073125-150x15.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/micron-chart-073125-300x29.png 300w, https://insidehpc.com/wp-content/uploads/2025/07/micron-chart-073125-768x75.png 768w, https://insidehpc.com/wp-content/uploads/2025/07/micron-chart-073125.png 1229w&quot; width=&quot;891&quot;/&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-41&quot;&gt;
+   “At CoreWeave, we’re relentlessly focused on pushing the boundaries of performance and helping our customers maximize their infrastructure efficiency,” said Chetan Kapoor, chief product officer at CoreWeave. “The Micron 7600 SSD, with its strong performance and low latency, is a welcome addition that will help our customers scale out to hundreds of gigabytes of data throughput and accelerate their time to market.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-42&quot;&gt;
+   Micron’s vertical integration ensures that each of these SSDs is designed and manufactured with a Micron controller, G9 NAND, DRAM, firmware and manufacturing processes. This integration helps provide exceptional quality and a more reliable, secure supply chain. Additionally, key security features — including hardware root of trust, SPDM 1.2 (attestation) for identity authentication and firmware verification, CNSA 2.0 dual signed PKI/LMS firmware binary, self-encrypting drive (SED) and Micron Secure Execution Environment
+   &lt;sup&gt;
+    8
+   &lt;/sup&gt;
+   — help secure data. OCP 2.6 support is available for the Micron 9650 and 6600 ION SSDs, and the 7600 SSD utilizes OCP 2.5 support.
+   &lt;sup&gt;
+    9
+   &lt;/sup&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-43&quot;&gt;
+   &lt;strong&gt;
+    Availability
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-44&quot;&gt;
+   The 9650 and 7600 SSD samples are shipping now to customers. The 9650 is offered in E3.S and E1.S 9.5mm and 15mm form factors with air-cooled and liquid-cooled options. The 7600 SSD is available in multiple form factors, including E3.S, U.2 and E1.S with air-cooled heat sink options. The 6600 ION 122TB SSD samples are shipping later in the third quarter of calendar year 2025 in E3.S and U.2 form factors. The 245TB SSD version of the 6600 ION SSD is planned to be available in the first half of calendar year 2026.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-45&quot;&gt;
+   Werner will present at the Future of Memory and Storage Summit 2025 with a keynote address on Aug. 5 at 1 p.m. PT. The 9650, 6600 ION and 7600 SSDs — along with
+   &lt;a href=&quot;https://www.micron.com/?srsltid=AfmBOopL5wzLV7iVZfZ_7h7wzXmE26t0PjtWJhS5mShCq0_VV3cMoKh5&quot;&gt;
+    Micron
+   &lt;/a&gt;
+   HBM4, SOCAMM and LPDDR5 memory — will be showcased at Micron’s booth (#107) from Aug. 5-7, highlighting Micron’s extensive portfolio of data center memory and storage products.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-46&quot;&gt;
+   “With the industry’s first PCIe Gen6 SSD, industry-leading capacities and the lowest latency mainstream SSD—all powered by our first-to-market G9 NAND—Micron is not just setting the pace; we are redefining the frontier of data center innovation,” said Jeremy Werner, senior vice president and general manager of Micron’s Core Data Center Business Unit. “This launch cements our leadership in data center SSDs and signals a new era of performance, density and efficiency for our customers.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-47&quot;&gt;
+   &lt;sup&gt;
+    ______________________________
+   &lt;/sup&gt;
+   &lt;br/&gt;
+   &lt;sup&gt;
+    1
+   &lt;/sup&gt;
+   At the time of announcement, no other Gen6 competitive SSDs are available that can provide the same or better performance as the Micron 9650 Gen6 SSD. The 9650 has two times the sequential read performance of the previous-generation 9550. Additionally, the Micron 6600 ION currently provides the highest-capacity solution available in a rack comparison using Micron E3.S drives: 20 SSDs per 1U x 36 servers (36U) x 122TB equals 88.5PB versus similar competitive U.2 form factor SSDs with 24 SSDs per 2U x 18 servers (36U) x 122TB equaling 53PB, leaving 6U for other equipment in each rack. The Micron 7600 SSD has the lowest latency based on competitive testing in Micron labs and has the lowest sub-1ms latency up to QD128 based on RocksDB testing in Micron labs with available drives, per footnote 5.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-48&quot;&gt;
+   &lt;sup&gt;
+    2
+   &lt;/sup&gt;
+   The 9650 has improved energy efficiency with two times the sequential read performance of the 9550 SSD, Micron’s previous-generation drive, with the same 25W maximum power.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-49&quot;&gt;
+   &lt;sup&gt;
+    3
+   &lt;/sup&gt;
+   Learn more details about the Micron 9650 SSD in the available product brief.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-50&quot;&gt;
+   &lt;sup&gt;
+    4
+   &lt;/sup&gt;
+   System comparison based on E3.S and U.2 form factors, preferred by major OEM, using a 20-slot, E3.S-based 1U SSD platform versus 24-slot, U.2-based 2U SSD platform.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-51&quot;&gt;
+   &lt;sup&gt;
+    5
+   &lt;/sup&gt;
+   The 6600 ION 122TB SSD operates at 25W peak power and three 36TB HDDs operate at 10W peak power each. Energy savings are calculated as the difference between the drives running at maximum power. HDD comparison is to 36TB Seagate Exos Mozaic 3+ HDDs. Source:
+   &lt;a href=&quot;https://www.globenewswire.com/Tracker?data=EWpyLd2vyYAL1ErDJHRPgTiypgQqCo-_gIdWa0UsAFCsjGc157LwzJZqIP-UaplrGS4ay9AS5PEF4n22mqo6OASfJ2zLZKWTOC3pJEiQWogPuGnozpjMhRrTaRLH417LiO7lwWX5CYVKTR3ANncY1RqFapH9xFqIMWN-cI3x6Eo=&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+    Seagate Mozaic Platform
+   &lt;/a&gt;
+   . Average home energy consumption is based on the U.S. EIA average of 10,500 kilowatt-hours (kWh) of electricity per year, or 28.8kWh per day, per household.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-52&quot;&gt;
+   &lt;sup&gt;
+    6
+   &lt;/sup&gt;
+   7600 SSD comparisons are based on currently in-production and available Gen5 mainstream data center SSDs from the top five competitive suppliers of OEM data center SSDs by revenue as of May 2025, as per Forward Insights analyst report, “SSD Supplier Status Q1/25.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-53&quot;&gt;
+   &lt;sup&gt;
+    7
+   &lt;/sup&gt;
+   As tested in Micron labs, SSD comparisons are based on currently in-production and available Gen5 high-capacity data center SSDs from the top five competitive suppliers of OEM data center SSDs by revenue as of May 2025, as per Forward Insights analyst report, “SSD Supplier Status Q1/25”.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-54&quot;&gt;
+   &lt;sup&gt;
+    8
+   &lt;/sup&gt;
+   No hardware, software or system can provide absolute security under all conditions. Micron assumes no liability for lost, stolen or corrupted data arising from the use of any Micron products, including those products that incorporate any of the mentioned security features.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-55&quot;&gt;
+   &lt;sup&gt;
+    9
+   &lt;/sup&gt;
+   “The Micron 9650 and 6600 ION data center SSDs comply with most, but not all, requirements of the Open Compute Project Datacenter NVMe SSD Specification 2.6. The 7600 SSD complies with most, but not all, requirements of the Open Compute Project Datacenter NVMe SSD Specification 2.5.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI Agent Finance Startup Ramp Raises $500M </title>
+<link>https://insideainews.com/2025/07/31/ai-agent-finance-startup-ramp-raises-500m/</link>
+<pubDate>Thu, 31 Jul 2025 15:55:55 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;190&quot; sizes=&quot;(max-width: 381px) 100vw, 381px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/ramp-logo-2-1-0725.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/ramp-logo-2-1-0725.png 381w, https://insideainews.com/wp-content/uploads/2025/07/ramp-logo-2-1-0725-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/ramp-logo-2-1-0725-300x150.png 300w&quot; width=&quot;381&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-lg-10 col-lg-offset-1&quot;&gt;
+   &lt;p&gt;
+    AI financial operations staartup Ramp announced its Series E-2, raising
+    &lt;span class=&quot;xn-money&quot;&gt;
+     $500 million
+    &lt;/span&gt;
+    at a
+    &lt;span class=&quot;xn-money&quot;&gt;
+     $22.5 billion
+    &lt;/span&gt;
+    valuation. With this round, New York-based Ramp has raised
+    &lt;span class=&quot;xn-money&quot;&gt;
+     $1.9 billion
+    &lt;/span&gt;
+    in total equity financing. The company said it began generating cash flow earlier this year.
+   &lt;/p&gt;
+   &lt;p&gt;
+    ICONIQ led the round, with continued support from existing investors including all participants from the
+    &lt;span class=&quot;xn-chron&quot;&gt;
+     June 2025
+    &lt;/span&gt;
+    Series E: Founders Fund, D1 Capital Partners, GIC, Coatue, Avenir Growth, Thrive Capital, Khosla Ventures, Sands Capital, 8VC, Lux Capital, Altimeter, Definition Capital, 137 Ventures, General Catalyst, and Stripes. New investors for this round include: Sutter Hill Ventures, Lightspeed Ventures, T. Rowe Price Associates, Inc., GV (Google Ventures), Emerson Collective, Operator Collective, and Pinegrove Capital Partners.
+   &lt;/p&gt;
+   &lt;p&gt;
+    “We’re focused on ensuring our only constraint is the scale of our ambition,” said
+    &lt;span class=&quot;xn-person&quot;&gt;
+     Will Petrie
+    &lt;/span&gt;
+    , Chief Financial Officer at
+    &lt;a href=&quot;http://www.ramp.com&quot;&gt;
+     Ramp
+    &lt;/a&gt;
+    . “We have a fortress balance sheet and an accelerating core business. Both will allow us to play to win as AI reshapes the future of finance.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    Ramp is a financial operations platform designed to save companies time and money by automating tedious, time consuming tasks. Its all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. Over 40,000 customers, from family farms to space startups, have saved
+    &lt;span class=&quot;xn-money&quot;&gt;
+     $10 billion
+    &lt;/span&gt;
+    and 27.5 million hours with Ramp, according to the company, which was founded in 2019.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Exxact Introduces Workstations with AMD Ryzen Threadripper CPUs </title>
+<link>https://insidehpc.com/2025/07/exxact-introduces-workstations-with-amd-ryzen-threadripper-cpus/</link>
+<pubDate>Thu, 31 Jul 2025 13:10:40 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;272&quot; sizes=&quot;(max-width: 544px) 100vw, 544px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/exxact-logo-2-1-071725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/exxact-logo-2-1-071725.png 544w, https://insidehpc.com/wp-content/uploads/2025/07/exxact-logo-2-1-071725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/exxact-logo-2-1-071725-300x150.png 300w&quot; width=&quot;544&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot;&gt;
+  Fremont, CA, July 31, 2025 — Exxact Corporation today announced the release of new workstation configurations powered by the AMD Ryzen Threadripper PRO 9000 WX-Series and AMD Ryzen Threadripper 9000 Series processors.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  The workstations are designed for a range of tasks—from high-end content creation and simulation to scientific analysis and AI development.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  The AMD Threadripper PRO 9000 WX-Series offers up to 96 cores and 192 threads, supporting extreme multitasking and massive parallel workloads.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  The AMD Ryzen Threadripper 9000 Series provides up to 64 cores and 128 threads, delivering exceptional raw performance for users seeking powerful single- and multi-threaded capabilities.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  AMD Threadripper PRO 9000 WX-Series supports up to 2TB of DDR5-6400 memory and 128 PCIe 5.0 lanes, ideal for data-intensive simulations and multi-GPU configurations. The AMD Ryzen Threadripper 9000 Series offers up to 256GB DDR5 memory and up to 96 PCIe 5.0 lanes, perfect for high-performance desktop workstations and rendering systems.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  Featuring higher core counts, improved IPC, and boost clocks up to 5.4 GHz, these processors help professionals accelerate project timelines across industries including animation, CAD, AI, and scientific research.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  AMD Threadripper PRO processors integrate AMD PRO Technologies for manageability, enhanced security, and stability, meeting the needs of corporate IT environments.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-22&quot;&gt;
+  Exxact’s expertly designed systems maximize these processors’ capabilities with advanced thermal solutions, robust power delivery, and workstation-class motherboards to handle the most demanding applications—from cinematic visual effects and game development to large-scale AI workloads.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-23&quot;&gt;
+  “At Exxact, our goal is to provide solutions that unlock potential for innovation and creativity,” said Jason Chen,
+  &lt;a href=&quot;https://www.exxactcorp.com/&quot;&gt;
+   Exxact
+  &lt;/a&gt;
+  Vice President. “By offering workstations powered by either AMD Ryzen Threadripper PRO 9000 WX-Series or AMD Ryzen Threadripper 9000 Series, we give professionals the flexibility to select the performance profile best suited to their specific workload requirements.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-24&quot;&gt;
+  These new Exxact workstations featuring AMD Ryzen Threadripper PRO 9000 WX-Series and AMD Ryzen Threadripper 9000 Series processors are available now, with customizable options to support workflows across content creation, AI, engineering, and research.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> RAVEL Expands Orchestrate AI Software and Launches AI Workload Solution for Supermicro </title>
+<link>https://insideainews.com/2025/07/30/ravel-expands-orchestrate-ai-software-and-launches-ai-workload-solution-for-supermicro/</link>
+<pubDate>Wed, 30 Jul 2025 22:09:30 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;203&quot; sizes=&quot;(max-width: 406px) 100vw, 406px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/ravel-logo-2-1-0424.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/ravel-logo-2-1-0424.png 406w, https://insideainews.com/wp-content/uploads/2025/07/ravel-logo-2-1-0424-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/ravel-logo-2-1-0424-300x150.png 300w&quot; width=&quot;406&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Seattle, July 30, 2025 — RAVEL, an IT and workload orchestration software company, today announced updates to its flagship offering, RAVEL Orchestrate AI, as well as the launch of solutions leveraging Supermicro Turnkey AI Workload Solution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The products are designed to simplify the adoption of scalable AI for organizations across industries, such as data centers, content creation studios, research labs and innovation hubs, and large enterprises.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the adoption of AI and Ggnerative AI continues to transform business, IT operations teams, data scientists and engineers, and creative teams face mounting complexity in deploying and managing compute-intensive AI workloads. The latest updates from RAVEL directly address these challenges by offering intelligent orchestration solutions purpose-built to simplify deployment, execution, and monitoring across the new era of hybrid, multi-cloud, and edge AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Traditional IT tooling is breaking under the weight of modern AI,” said Denise Muyco, Chief Executive Officer at RAVEL. “Orchestrate AI turns siloed tools, manual processes, and hardware sprawl into unified, scalable pipelines purpose-built for creatives, researchers, engineers, and enterprise ops teams, whether they’re just getting started with small-scale deployments or building out refurbished data centers and new AI factories. It’s not just smarter orchestration—it’s orchestration built for the AI era.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  RAVEL Orchestrate AI:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Streamlined AI Workflow Orchestration – Define, schedule, and run complex workloads and infrastructure from a single pane of glass interface.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Scalable Model Deployment Across Any Infrastructure – Automate deployment across cloud, on-prem, and hybrid environments—no manual setup needed.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Intelligent Resource Optimization – Dynamically matches jobs to optimal CPUs/GPUs for better performance, efficiency, load balancing, and energy efficiency.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Native Framework Integration – Works seamlessly with TensorFlow, PyTorch, Hugging Face, ComfyUI, and more—out of the box.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Smart Job Queuing &amp; Prioritization – Schedule and prioritize jobs based on policies, workload demand, and resource availability.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Centralized Monitoring &amp; Management – Track jobs, resources, and performance in real time—ideal for distributed teams and shared infrastructure.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Multi-User Access &amp; Role Controls – Secure workspaces with customizable roles and permissions to isolate users and protect resources.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  To simplify and accelerate AI adoption even further, RAVEL and Supermicro have collaborated on a pre-integrated and AI-optimized infrastructure solution, combining Supermicro’s cutting-edge systems and featuring AMD Ryzen Threadripper PRO CPUs and NVIDIA RTX PRO 6000 Blackwell Workstation Edition GPUs with RAVEL Orchestrate AI. The Supermicro x RAVEL Turnkey AI Workload Solution is enterprise-ready and delivers plug-and-play deployment and modular scalability from workstation to datacenter, with minimal setup and maximum performance. An early design of the solution won “Product of the Year” at NAB 2025 in the AI/ML category.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AMD is empowering the next wave of AI innovation through high-performance computing that scales from desktop to datacenter,” said Andy Parma, Segment Director, MNC Workstation CPU, AMD. “With AMD Ryzen Threadripper PRO processors powering the Supermicro x RAVEL solution, customers gain robust, ready-to-deploy infrastructure that streamlines AI workflows and accelerates time to insight.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  RAVEL Orchestrate AI is now available in early access, and can be tested standalone or as part of the Supermicro x RAVEL Turnkey AI Workload Solution directly through
+  &lt;a href=&quot;https://ravelinc.com/&quot;&gt;
+   RAVEL
+  &lt;/a&gt;
+  and its partners: Cinesys, ECS, and Augur Tech.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Forrester Names Red Hat a Leader in Multicloud Container Platforms </title>
+<link>https://insidehpc.com/2025/07/forrester-names-red-hat-a-leader-in-multicloud-container-platforms/</link>
+<pubDate>Wed, 30 Jul 2025 19:55:06 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1--1024x512.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1--1024x512.png 1024w, https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1--300x150.png 300w, https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1--150x75.png 150w, https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1--768x384.png 768w, https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1-.png 850w&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;rhdc-press-release--body--slug ai-optimize-introduction&quot;&gt;
+  &lt;span class=&quot;rhdc-press-release--body--slug--location&quot;&gt;
+   RALEIGH, N.C.
+  &lt;/span&gt;
+  –
+  &lt;time datetime=&quot;2025-07-30T12:00:00Z&quot;&gt;
+   July 30, 2025
+  &lt;/time&gt;
+  — Red Hat, the world’s leading provider of open source solutions, today announced that it has been named a Leader in
+  &lt;a href=&quot;https://www.redhat.com/en/resources/forrester-wave-multicloud-container-platform&quot;&gt;
+   The Forrester Wave: Multicloud Container Platforms, Q3 2025 report
+  &lt;/a&gt;
+  .
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;rhdc-press-release--body--slug ai-optimize-introduction&quot;&gt;
+  Red Hat scored the highest among evaluated vendors in both the current offering and strategy categories. Red Hat attributes this recognition to its strong execution in the multicloud container platform market.
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p class=&quot;ai-optimize-6&quot; dir=&quot;ltr&quot;&gt;
+   According to the Forrester report, “OpenShift is a good fit for enterprises that prioritize support, reliability, and advanced engineering, particularly in regulated industries such as financial services.” The report also notes that, “customers consistently praise Red Hat’s enterprise-grade offerings and support, especially for managed services…”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-7&quot; dir=&quot;ltr&quot;&gt;
+   Forrester’s analysis found that “Red Hat excels in core Kubernetes areas, offering robust operator options, powerful management, GitOps automation, and flexible interfaces via a GUI or command-line interface (CLI). OpenShift’s SLAs of 99.95% for public cloud managed-service versions showcase Red Hat’s capacity to engineer capabilities beyond those of native public cloud services.” Additionally, it states that, “Developers will find just about everything they need with Red Hat’s above-par scores in developer experience, service and application catalogs, microservices, service mesh, DevOps automation, and integration.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-8&quot; dir=&quot;ltr&quot;&gt;
+   Red Hat is also applying its entire hybrid cloud stack — from the critical Linux foundation of Red Hat Enterprise Linux to optimize model serving and advanced inference — to support generative AI (gen AI) development and operations.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> D-Wave Quantum Announces Cryogenic Packaging Initiative </title>
+<link>https://insidehpc.com/2025/07/d-wave-quantum-announces-initiative-for-cryogenic-packaging/</link>
+<pubDate>Wed, 30 Jul 2025 18:41:54 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023-1024x512.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023-1024x512.png 1024w, https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023-300x151.png 300w, https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023.png 553w&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  PALO ALTO, Calif. – July 30, 2025 – D-Wave Quantum Inc. (NYSE: QBTS) (“D-Wave”) announced a development initiative focused on advanced cryogenic packaging. Designed to advance and scale both gate model and annealing quantum processor development, the initiative is intended to expand the company’s multichip packaging capabilities, equipment, and processes.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  D-Wave said it aims to accelerate its cross-platform technology development efforts while maintaining and expanding fundamental components of its supply chain.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; dir=&quot;ltr&quot;&gt;
+  As part of this initiative, D-Wave is leveraging expertise and processes at the NASA Jet Propulsion Laboratory (“JPL”), a research and development lab federally funded by NASA and managed by Caltech. Harnessing JPL’s superconducting bump-bond process, D-Wave has demonstrated end-to-end superconducting interconnect between chips, work that D-Wave expects will serve as an important foundation for scaling both D-Wave’s annealing architectures and its fluxonium-based gate-model architectures.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; dir=&quot;ltr&quot;&gt;
+  D-Wave believes that superconducting bump bonds will be key to the scalable control of fluxonium and to interconnectivity in multichip quantum processor architectures. D-Wave is also acquiring equipment and developing processes with a goal to increase circuit densities in its pioneering superconducting printed-circuit-board (“PCB”) manufacturing, required for both scaling to larger processors and supporting analog-digital quantum computing technology.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot; dir=&quot;ltr&quot;&gt;
+  “Scaling both annealing and gate-model quantum computers requires high performance packaging,” said Dr. Trevor Lanting, chief development officer at
+  &lt;a href=&quot;https://www.dwavequantum.com/&quot;&gt;
+   D-Wave
+  &lt;/a&gt;
+  . “We believe this strategic initiative will allow us to further extend our leadership position in quantum systems technology development and support our exciting and aggressive product roadmap on the path to 100,000 qubits.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot; dir=&quot;ltr&quot;&gt;
+  Packaging quantum processors involves unique and demanding requirements, including: compatibility with ultra-low temperature operation, extremely low magnetic fields, and fully superconducting interconnects with no interruptions in superconductivity all the way from on-chip circuitry through to external control wiring. D-Wave’s differentiated solution encompasses cryogenic compatible mechanical and electromagnetic design, regularly achieves lower qubit temperatures than most in the industry, and supports coherence times that meet the requirements for error-corrected gate-model quantum computing technology.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NCSA and Ohio Supercomputer Center HPC Take on Atrial Fibrillation </title>
+<link>https://insidehpc.com/2025/07/ncsa-and-ohio-supercomputer-center-hpc-take-on-atrial-fibrillation/</link>
+<pubDate>Wed, 30 Jul 2025 17:52:48 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;figure class=&quot;done&quot;&gt;
+  &lt;figcaption class=&quot;wp-element-caption&quot;&gt;
+   AF is a type of irregular heartbeat in which the upper chambers of the heart – the atria – beat out of synch with the lower chambers. What starts as an occasional occurrence over time becomes permanent. Human studies are difficult to conduct with the level of detail needed to perform the types of tests Moise is simulating.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;div class=&quot;wp-caption alignright&quot; id=&quot;attachment_96786&quot; style=&quot;width: 513px&quot;&gt;
+  &lt;img alt=&quot;&quot; aria-describedby=&quot;caption-attachment-96786&quot; class=&quot;wp-image-96786&quot; decoding=&quot;async&quot; height=&quot;335&quot; sizes=&quot;(max-width: 503px) 100vw, 503px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/nick-moise-afib-research-0725.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/nick-moise-afib-research-0725.jpg 1024w, https://insidehpc.com/wp-content/uploads/2025/07/nick-moise-afib-research-0725-150x100.jpg 150w, https://insidehpc.com/wp-content/uploads/2025/07/nick-moise-afib-research-0725-300x200.jpg 300w, https://insidehpc.com/wp-content/uploads/2025/07/nick-moise-afib-research-0725-768x512.jpg 768w&quot; width=&quot;503&quot;/&gt;
+  &lt;p class=&quot;wp-caption-text&quot; id=&quot;caption-attachment-96786&quot;&gt;
+   Nicolae Moise
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  Nicolae Moise, a research scientist in the Department of Biomedical Engineering at Ohio State University (OSU), is using
+  &lt;a href=&quot;https://www.ncsa.illinois.edu/&quot;&gt;
+   NCSA
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.osc.edu/&quot;&gt;
+   OSC
+  &lt;/a&gt;
+  high-performance computing resources to explore the long-term progression of atrial fibrillation (AF). His work was recently published in
+  &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S2405500X25001628&quot;&gt;
+   JACC: Clinical Electrophysiology
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;div class=&quot;wp-block-image&quot;&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  “We are using cardiac electrophysiology models to investigate how short-term cardiac activity (ms – s timescale) causes long-term changes in cardiac tissue (days – weeks – months),” said Moise. “Our simulations are, to my knowledge, the longest ones to date, simulating up to 24 hours of continuous 2D electrical activity.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  Simulations allow researchers to control every aspect of the heart over a long period of time. How a heart works may seem relatively simple on the surface, but there are a lot of calculations involved in running a simulation at this level of detail of a human heart. That’s where the Center’s resources come into play. Moise used the U.S. National Science Foundation’s
+  &lt;a href=&quot;https://access-ci.org/&quot;&gt;
+   ACCESS
+  &lt;/a&gt;
+  program to get an allocation on NCSA’s
+  &lt;a href=&quot;https://delta.ncsa.illinois.edu/&quot;&gt;
+   Delta
+  &lt;/a&gt;
+  supercomputer to perform the complex heart simulations.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-96784 alignleft&quot; decoding=&quot;async&quot; height=&quot;494&quot; sizes=&quot;(max-width: 355px) 100vw, 355px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-735x1024.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-735x1024.jpg 735w, https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-108x150.jpg 108w, https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-215x300.jpg 215w, https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-768x1070.jpg 768w, https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-1102x1536.jpg 1102w, https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725-1470x2048.jpg 1470w, https://insidehpc.com/wp-content/uploads/2025/07/ncsa-afib-charts-0725.jpg 1837w&quot; width=&quot;355&quot;/&gt;
+  “All 2D simulations were performed using CUDA code, on NCSA and Ohio Supercomputer Center GPUs – this was critical in order to investigate such long timescales,” said Moise. “The NCSA resources we used were specifically NVIDIA GPUs available through Delta. By performing the simulations using CUDA code run on NVIDIA GPUs we were able to speed up our simulations by a factor of ~250. Since our longest simulations in this study take about one week to run, they would have taken on the order of years to be performed on a regular personal computer or laptop.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  Moise’s team uncovered some interesting heart behaviors when afflicted with AF. When a person has a rapid heartbeat, the heart cells adapt to keep calcium levels balanced. This incredible feature of heart cells comes with a significant drawback. The very same adaptations make the heart susceptible to continued arrhythmias or abnormal heartbeats. This creates a vicious cycle where more heart cells adapt to keep calcium levels balanced as the condition continues, which in turn makes the heart more susceptible to arrhythmias, eventually leading to a permanent irregular heartbeat.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  Moise’s work shows why catching AF early and treating it is crucial for heart health. “Our research investigates the most common cardiac arrhythmia, atrial fibrillation, which is a significant cause of cerebral stroke, and thus morbidity and mortality, through computer simulations of the heart’s electrical activity,” said Moise. “This work allows us, for the first time, to track the initiation and long-term progression of this disease, which will ultimately lead to better drugs that prevent or halt its progression.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  Moise’s research has the potential to greatly improve treatment for AF, giving doctors and researchers a new perspective on the mechanisms that lead to its progression. Research like this can also inspire work in similar fields, assisting researchers studying other areas of cardiac health and beyond.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;alignright wp-image-91058&quot; decoding=&quot;async&quot; height=&quot;133&quot; loading=&quot;lazy&quot; sizes=&quot;auto, (max-width: 280px) 100vw, 280px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2023/02/NCSA-logo-0223.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2023/02/NCSA-logo-0223.jpg 194w, https://insidehpc.com/wp-content/uploads/2023/02/NCSA-logo-0223-150x71.jpg 150w&quot; width=&quot;280&quot;/&gt;
+  “We believe that our work opens up a new time dimension in cardiac electrophysiology simulations, showing that day-long simulations (or even more) are technically feasible,” said Moise. “This approach can be applied to a variety of diseases, such as sinoatrial node dysfunctions or arrhythmias caused by myocardial infarction. In addition, this work directly advances research in atrial fibrillation, allowing for the first time to model its long-term progression caused by arrhythmic electrical activity, as well as opening up the potential for testing treatments that directly address intracellular regulation. Finally, more broadly, our work can hopefully inspire other researchers to tackle biological problems that span large timescales.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  In future studies, Moise intends to take the simulation his team developed and introduce possible treatments. The team will also continue to work toward validating their findings through additional experiments. Previous related work was published in
+  &lt;a href=&quot;https://www.cell.com/biophysj/fulltext/S0006-3495(23)00197-2&quot;&gt;
+   Biophysical Journal
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Teramount Raises $50M for Optical Connectivity from AMD, Hitachi, Samsung, Koch </title>
+<link>https://insidehpc.com/2025/07/teramount-raises-50m-for-optical-connectivity-from-amd-hitachi-samsung-koch/</link>
+<pubDate>Wed, 30 Jul 2025 16:39:28 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;309&quot; sizes=&quot;(max-width: 618px) 100vw, 618px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/teramount-logo-2-1-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/teramount-logo-2-1-0725.png 618w, https://insidehpc.com/wp-content/uploads/2025/07/teramount-logo-2-1-0725-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/teramount-logo-2-1-0725-300x150.png 300w&quot; width=&quot;618&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p align=&quot;left&quot; class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  Jerusalem, July 29, 2025 — Teramount, a company focused on fiber-to-chip interconnect solutions, announced it has raised $50 million in financing led by new investor Koch Disruptive Technologies (KDT). Existing investors Grove Ventures and several new strategic investors, including AMD Ventures, Hitachi Ventures, Samsung Catalyst Fund and Wistron, joined the round.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  To meet AI’s escalating performance and power demands, the industry must adopt advanced optical interconnects to pass data between compute and networking components, Teramount said. The company makes this possible with their TeraVerse solution: a detachable, serviceable connector that links optical fibers coming from outside the rack to the silicon photonics chips inside Co-Packaged Optics (CPO) systems.
+ &lt;/p&gt;
+ &lt;p align=&quot;left&quot; class=&quot;ai-optimize-8&quot;&gt;
+  The confidence in Teramount demonstrated by this round is a result of two factors:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-9&quot;&gt;
+   Teramount is rapidly emerging as the de facto industry standard for optical fiber to silicon interconnect solutions, partnering with leading companies in the ecosystem, including foundries, silicon and photonics companies, and outsourced assembly and test (OSAT) vendors.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-10&quot;&gt;
+   The explosive growth in demand for higher performance in AI infrastructure makes optical connectivity an undisputed necessity.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  “This investment, which brings together strong financial and strategic investors, representing important parts of the optical connectivity ecosystem, is a testament to the potential of our technology in AI infrastructure and other high-performance applications,” said Hesham Taha, CEO and co-founder of Teramount. “We are grateful to our new and existing investors for their support.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  “Optical interconnects are critical components of the future of AI infrastructure, and Teramount is poised to be a leading supplier of these solutions,” said Isaac Sigron, managing director at KDT Israel, who will join Teramount’s board of directors. “We are very impressed with the position Teramount has established in the market and its partnerships with key industry players.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  The funding will enable
+  &lt;a href=&quot;https://teramount.com/&quot;&gt;
+   Teramount
+  &lt;/a&gt;
+  to grow its team and scale to volume production, ahead of the market adoption of CPO (co-packaged optics).
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> RAVEL Updates Orchestrate AI Software and Launches AI Workload Solution for Supermicro </title>
+<link>https://insidehpc.com/2025/07/ravel-updates-orchestrate-ai-software-and-launches-ai-workload-solution-for-supermicro/</link>
+<pubDate>Wed, 30 Jul 2025 14:36:56 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;203&quot; sizes=&quot;(max-width: 406px) 100vw, 406px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/04/Ravel-logo-2-1-0424.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/04/Ravel-logo-2-1-0424.png 406w, https://insidehpc.com/wp-content/uploads/2024/04/Ravel-logo-2-1-0424-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2024/04/Ravel-logo-2-1-0424-300x150.png 300w&quot; width=&quot;406&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+  Seattle, July 30, 2025 — RAVEL, an IT and workload orchestration software company, today announced updates to its flagship offering, RAVEL Orchestrate AI, as well as the launch of solutions leveraging Supermicro Turnkey AI Workload Solution.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  The products are designed to simplify the adoption of scalable AI for organizations across industries, such as data centers, content creation studios, research labs and innovation hubs, and large enterprises.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  As the adoption of AI and Ggnerative AI continues to transform business, IT operations teams, data scientists and engineers, and creative teams face mounting complexity in deploying and managing compute-intensive AI workloads. The latest updates from RAVEL directly address these challenges by offering intelligent orchestration solutions purpose-built to simplify deployment, execution, and monitoring across the new era of hybrid, multi-cloud, and edge AI.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  “Traditional IT tooling is breaking under the weight of modern AI,” said Denise Muyco, Chief Executive Officer at RAVEL. “Orchestrate AI turns siloed tools, manual processes, and hardware sprawl into unified, scalable pipelines purpose-built for creatives, researchers, engineers, and enterprise ops teams, whether they’re just getting started with small-scale deployments or building out refurbished data centers and new AI factories. It’s not just smarter orchestration—it’s orchestration built for the AI era.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  RAVEL Orchestrate AI:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-11&quot;&gt;
+   Streamlined AI Workflow Orchestration – Define, schedule, and run complex workloads and infrastructure from a single pane of glass interface.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-12&quot;&gt;
+   Scalable Model Deployment Across Any Infrastructure – Automate deployment across cloud, on-prem, and hybrid environments—no manual setup needed.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-13&quot;&gt;
+   Intelligent Resource Optimization – Dynamically matches jobs to optimal CPUs/GPUs for better performance, efficiency, load balancing, and energy efficiency.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-14&quot;&gt;
+   Native Framework Integration – Works seamlessly with TensorFlow, PyTorch, Hugging Face, ComfyUI, and more—out of the box.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-15&quot;&gt;
+   Smart Job Queuing &amp; Prioritization – Schedule and prioritize jobs based on policies, workload demand, and resource availability.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-16&quot;&gt;
+   Centralized Monitoring &amp; Management – Track jobs, resources, and performance in real time—ideal for distributed teams and shared infrastructure.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-17&quot;&gt;
+   Multi-User Access &amp; Role Controls – Secure workspaces with customizable roles and permissions to isolate users and protect resources.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  To simplify and accelerate AI adoption even further, RAVEL and Supermicro have collaborated on a pre-integrated and AI-optimized infrastructure solution, combining Supermicro’s cutting-edge systems and featuring AMD Ryzen Threadripper PRO CPUs and NVIDIA RTX PRO 6000 Blackwell Workstation Edition GPUs with RAVEL Orchestrate AI. The Supermicro x RAVEL Turnkey AI Workload Solution is enterprise-ready and delivers plug-and-play deployment and modular scalability from workstation to datacenter, with minimal setup and maximum performance. An early design of the solution won “Product of the Year” at NAB 2025 in the AI/ML category.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-19&quot;&gt;
+  “AMD is empowering the next wave of AI innovation through high-performance computing that scales from desktop to datacenter,” said Andy Parma, Segment Director, MNC Workstation CPU, AMD. “With AMD Ryzen Threadripper PRO processors powering the Supermicro x RAVEL solution, customers gain robust, ready-to-deploy infrastructure that streamlines AI workflows and accelerates time to insight.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  RAVEL Orchestrate AI is available in early access, and can be tested standalone or as part of the Supermicro x RAVEL Turnkey AI Workload Solution directly through
+  &lt;a href=&quot;https://ravelinc.com/&quot;&gt;
+   RAVEL
+  &lt;/a&gt;
+  and its partners: Cinesys, ECS, and Augur Tech.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OQC Confirms Gerald Mullally as CEO </title>
+<link>https://insidehpc.com/2025/07/oqc-confirms-gerald-mullally-as-ceo/</link>
+<pubDate>Wed, 30 Jul 2025 14:24:36 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;wpb_row vc_row-fluid vc_row inner_row&quot; data-column-margin=&quot;default&quot; data-midnight=&quot;&quot; id=&quot;fws_6887760e62b2e&quot;&gt;
+  &lt;div class=&quot;row_col_wrap_12_inner col span_12 left&quot;&gt;
+   &lt;div class=&quot;vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone&quot; data-animation=&quot;&quot; data-bg-color=&quot;&quot; data-bg-opacity=&quot;1&quot; data-delay=&quot;0&quot; data-has-bg-color=&quot;false&quot; data-padding-pos=&quot;all&quot;&gt;
+    &lt;div class=&quot;vc_column-inner&quot;&gt;
+     &lt;div class=&quot;wpb_wrapper&quot;&gt;
+      &lt;div class=&quot;nectar-responsive-text nectar-link-underline-effect&quot;&gt;
+       &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+        READING, UK – 28 July 2025 – Oxford Quantum Circuits (OQC) today confirmed the appointment of Gerald Mullally as chief executive officer.
+       &lt;/p&gt;
+       &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+        Mullally has served as interim CEO since June 2024 and now assumes the role permanently, following approval by the Board of Directors.
+       &lt;/p&gt;
+       &lt;p class=&quot;ai-optimize-7&quot;&gt;
+        The company said Mullally’s appointment follows a period of growth under his leadership during which OQC expanded its international footprint, launched its Dimon qubit technology and secured strategic partnerships across government and enterprise.
+       &lt;/p&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_row vc_row-fluid vc_row inner_row&quot; data-column-margin=&quot;default&quot; data-midnight=&quot;&quot; id=&quot;fws_6887760e62ca8&quot;&gt;
+  &lt;div class=&quot;row_col_wrap_12_inner col span_12 left&quot;&gt;
+   &lt;div class=&quot;vc_col-sm-12 wpb_column column_container vc_column_container col child_column padding-3-percent inherit_tablet inherit_phone border_left_desktop_3px border_color_ff8001 border_style_solid&quot; data-animation=&quot;&quot; data-bg-color=&quot;&quot; data-bg-opacity=&quot;1&quot; data-delay=&quot;0&quot; data-has-bg-color=&quot;false&quot; data-padding-pos=&quot;all&quot;&gt;
+    &lt;div class=&quot;vc_column-inner&quot;&gt;
+     &lt;div class=&quot;wpb_wrapper&quot;&gt;
+      &lt;div class=&quot;nectar-responsive-text font_size_desktop_20px font_line_height_1-3 nectar-link-underline-effect&quot;&gt;
+       &lt;p class=&quot;ai-optimize-8&quot;&gt;
+        “Gerald has led OQC with clarity, integrity and conviction over the past 14 months, guiding the company through a critical phase of development,” said Dr Peter Leek, Founder and Chief Science Officer of OQC. “His leadership has brought strategic focus to the business and aligned our scientific breakthroughs with long-term growth.”
+       &lt;/p&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_row vc_row-fluid vc_row inner_row&quot; data-column-margin=&quot;default&quot; data-midnight=&quot;&quot; id=&quot;fws_6887760e62ddd&quot;&gt;
+  &lt;div class=&quot;row_col_wrap_12_inner col span_12 left&quot;&gt;
+   &lt;div class=&quot;vc_col-sm-12 wpb_column column_container vc_column_container col child_column padding-3-percent inherit_tablet inherit_phone border_left_desktop_3px border_color_ff8001 border_style_solid&quot; data-animation=&quot;&quot; data-bg-color=&quot;&quot; data-bg-opacity=&quot;1&quot; data-delay=&quot;0&quot; data-has-bg-color=&quot;false&quot; data-padding-pos=&quot;all&quot;&gt;
+    &lt;div class=&quot;vc_column-inner&quot;&gt;
+     &lt;div class=&quot;wpb_wrapper&quot;&gt;
+      &lt;div class=&quot;nectar-responsive-text font_size_desktop_20px font_line_height_1-3 nectar-link-underline-effect&quot;&gt;
+       &lt;p class=&quot;ai-optimize-9&quot;&gt;
+        “Gerald has provided strong leadership through a period of rapid growth and innovation,” said Jack Boyer OBE, Chair of OQC’s Board of Directors. “He is the right leader to take OQC forward as the company shapes the future of quantum computing on the global stage.”
+       &lt;/p&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_row vc_row-fluid vc_row inner_row&quot; data-column-margin=&quot;default&quot; data-midnight=&quot;&quot; id=&quot;fws_6887760e62f34&quot;&gt;
+  &lt;div class=&quot;row-bg-wrap&quot;&gt;
+   &lt;div class=&quot;row-bg&quot;&gt;
+    “Gerald brings the strategic focus and leadership needed to guide OQC at a critical time,” said Sir Jeremy Fleming, Board Director. “His experience across industry and government is central to OQC’s role in delivering secure, UK-led quantum capability.”
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_text_column wpb_content_element&quot;&gt;
+  &lt;div class=&quot;wpb_wrapper&quot;&gt;
+   &lt;p class=&quot;ai-optimize-12&quot;&gt;
+    Mullally has shaped OQC’s commercial direction with a focus on high-impact, mission-aligned markets – including security, defence, and finance. He has overseen international expansion and helped position OQC as a trusted quantum partner to both government and industry.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_text_column wpb_content_element&quot;&gt;
+  &lt;div class=&quot;wpb_wrapper&quot;&gt;
+   &lt;p class=&quot;ai-optimize-13&quot;&gt;
+    As interim CEO, he oversaw a series of milestones, including:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li class=&quot;ai-optimize-14&quot;&gt;
+     The launch of OQC’s public roadmap, establishing a leadership position in the global race for quantum computing.
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-15&quot;&gt;
+     The introduction of the OQC Dimon, a dual-rail qubit architecture designed for speed, scale, and quality.
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-16&quot;&gt;
+     Strategic growth in financial services, security and defence as the first sectors to realise quantum advantage.
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-17&quot;&gt;
+     Expansion into the United States, with the first-ever quantum computer to be deployed in New York City to deliver low-latency quantum compute directly to Wall Street.
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-18&quot;&gt;
+     A successful Series B investment round, backed by leading global investors including Chevron and Sumitomo Mitsui Trust Bank.
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-19&quot;&gt;
+     The launch of the UK’s first quantum error correction testbed and the world’s first integration into a commercial data centre.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p class=&quot;ai-optimize-20&quot;&gt;
+    Together, these achievements reflect Gerald’s ability to translate vision into execution, advancing OQC’s leadership across technology, markets, and infrastructure.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_row vc_row-fluid vc_row inner_row&quot; data-column-margin=&quot;default&quot; data-midnight=&quot;&quot; id=&quot;fws_6887760e6310b&quot;&gt;
+  &lt;div class=&quot;row-bg-wrap&quot;&gt;
+   &lt;div class=&quot;row-bg&quot;&gt;
+    “Leading OQC is a tremendous honour,” said Gerald Mullally. “We are not only building a world-class quantum company – we’re shaping a new global industry. I’m proud to work with such talented people to realise the profound potential of our core architecture and deliver commercial impact at scale.”
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_text_column wpb_content_element&quot;&gt;
+  &lt;div class=&quot;wpb_wrapper&quot;&gt;
+   &lt;p class=&quot;ai-optimize-22&quot;&gt;
+    Leadership Across Government and Industry
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-23&quot;&gt;
+    Gerald Mullally brings two decades of cross-sector leadership experience to his role as CEO. He has led strategy and technology initiatives across financial services, security, defence and energy, during his time at Accenture and PwC.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-24&quot;&gt;
+    Alongside his commercial background, Gerald spent eight years as a senior official in the UK Prime Minister’s Office and Cabinet Office, where he worked on national security issues. This combination of commercial execution and government insight uniquely positions him to lead OQC through its next phase of global growth.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;wpb_text_column wpb_content_element&quot;&gt;
+  &lt;div class=&quot;wpb_wrapper&quot;&gt;
+   &lt;p class=&quot;ai-optimize-25&quot;&gt;
+    About OQC
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-26&quot;&gt;
+    Oxford Quantum Circuits (OQC) is pioneering the quantum-accelerated world, delivering enterprise-grade quantum systems designed for commercial and strategic advantage. As Europe’s first Quantum-Compute-as-a-Service provider, and the only company integrating quantum in commercial data centres, OQC brings quantum capability to the heart of financial and national infrastructure. Our application-optimised compute empowers customers in finance, security, and defence to solve intractable problems – reshaping industries and strengthening sovereign advantage.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ansys Announces AI-Powered 2025 R2 </title>
+<link>https://insideainews.com/2025/07/29/ansys-announces-ai-powered-2025-r2/</link>
+<pubDate>Tue, 29 Jul 2025 21:53:24 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;240&quot; sizes=&quot;(max-width: 480px) 100vw, 480px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/ansys-logo-2-1.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/ansys-logo-2-1.png 480w, https://insideainews.com/wp-content/uploads/2025/07/ansys-logo-2-1-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/ansys-logo-2-1-300x150.png 300w&quot; width=&quot;480&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  PITTSBURGH, July 29, 2025 – Ansys (NASDAQ: SNPS) today announced 2025 R2, featuring new AI-powered capabilities across the portfolio that accelerate simulation and expand accessibility.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  R2 also delivers enhanced solvers, streamlined workflows, and improved engineering agility with expanded Python compatibility and on-demand cloud computing. Ansys technology drives impact by enabling teams to scale models, explore more innovative design possibilities, and make intelligent product decisions earlier, from next-generation satellites to datacenter design.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  “Ansys simulation is the touchstone of reality when it comes to physics, bridging the theoretical with the experimental,” said Shane Emswiler, senior vice president of products at Ansys. “With over 50 years of expertise in advanced physics computation, 2025 R2 continues to push the envelope by delivering enhancements for smarter, faster, and more complex simulations. Ansys technology provides the framework to make data meaningful through models, metadata, traceability, and standards — empowering more innovative products now and in the future.”
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Ansys 2025 R2 amplifies human ingenuity with AI-driven tools and features that simplify simulation adoption, encourage collaboration, and boost productivity across teams.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Ansys 2025 R2 introduces Ansys Engineering Copilot — a secure, robust, and reliable virtual assistant built on decades of Ansys technical expertise. It delivers AI-driven assistance directly within Ansys products with a consistent, seamless user experience and instant access to a vast knowledge base. This includes AnsysGPT — powered by Azure OpenAI technology — all Ansys websites, thousands of articles, over 800 innovation courses, a global user forum, and enables the creation and tracking of support cases.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  2025 R2 adds AI capabilities across the Ansys portfolio to automatically create, validate, and optimize high-fidelity simulation — speeding model creation, reducing manual effort, and mitigating human error.
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li&gt;
+   Ansys Engineering Copilot is available in Ansys Mechanical, Ansys Discovery, Ansys Fluent, Ansys HFSS, Ansys Electronics Desktop (AEDT) Ansys Scade One, Ansys Speos, Ansys Maxwell, Ansys optiSLang, and Ansys Lumerical products, connecting engineers to engineering expertise with one click
+  &lt;/li&gt;
+  &lt;li&gt;
+   17x faster results for radiation pattern calculations and more precise phased array antenna beam steering simulations with HFSS — critical to applications like 5G/6G, radar sensors, and satellite communications
+  &lt;/li&gt;
+  &lt;li&gt;
+   Seven Ansys products feature built-in AI functionality called AI+ that make simulations easier, faster, and more accessible, including the new Ansys Missions AI+ ODTK tool for orbital accuracy
+  &lt;/li&gt;
+  &lt;li&gt;
+   Integrating optiSLang and the Ansys SimAI platform accelerates dataset creation and AI training
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Combining these capabilities with improved data handling and automation allows organizations to unlock new efficiencies and create streamlined, scalable workflows.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  The latest release advances digital engineering by simplifying data handling and management tasks — boosting efficiency and collaboration across the enterprise. Robust data management strategies enable companies to unlock the full utility of their data throughout the product life cycle, train AI models, and generate synthetic data with confidence. In addition, enhancements in model-based systems engineering (MBSE) enable teams to collaborate from a single source of truth, ensuring digital continuity and cross-team collaboration.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Expanded Python compatibility adds another layer of flexibility, allowing engineers to create customized automation that accelerates workflows, boosts data management, and ensures project repeatability.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  For example, Danfoss Drives, a global leader in energy-efficient motor control solutions, uses Ansys simulation to validate complex system designs, empowering industries to optimize performance, reduce energy consumption, and enhance operational reliability through innovative drive technology.
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li&gt;
+   Over 40 Python libraries within the PyAnsys collection, now featuring PySTK and PyChemkin, which offers a Python interface to Ansys solutions to automate workflows and drives higher productivity and efficiency across applications
+  &lt;/li&gt;
+  &lt;li&gt;
+   Reduce cybersecurity risks by automating threat analysis and vulnerability management in the new web-based, fully cooperative solution Ansys medini Cybersecurity SE
+  &lt;/li&gt;
+  &lt;li&gt;
+   Directly connect software, safety, and simulation in one solution with the SysML v2 web-based platform Ansys System Architecture Modeler (SAM) Enterprise, delivering a comprehensive MBSE methodology​
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Embracing smart automation and comprehensive data management enables teams across the enterprise to work more seamlessly. With advanced computational tools, insights quickly transform into action, empowering teams to execute with confidence and precision.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Solving complex design challenges requires advanced physics models and simulations that replicate real-world conditions. To help customers drive innovation, Ansys continues to enhance its core technology to empower users to achieve significantly faster results and unlock new opportunities in product development.
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li&gt;
+   Faster performance on large transient models with the new mixed solver in Ansys Mechanical, now supporting efficient analysis of thermal changes over time
+  &lt;/li&gt;
+  &lt;li&gt;
+   Eliminate manual setup and improve the speed, rendering, and usability of meshing complex, stacked electronics systems with the new mesh flow in Mechanical
+  &lt;/li&gt;
+  &lt;li&gt;
+   Ansys Rocky and Ansys FreeFlow provide advanced multiphysics capabilities, including thermal, fluid-structure, and electromagnetic coupling for detailed simulations and performance optimization
+  &lt;/li&gt;
+  &lt;li&gt;
+   Ansys PowerX debugging tool significantly reduces design time in semiconductor power devices by quickly identifying parasitic issues, streamlining setup tasks, and enabling efficient 2D meshing
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  This acceleration is further amplified by the flexibility of cloud-based simulation. By leveraging on-demand technologies, businesses can drive digital transformation with ease.
+ &lt;/p&gt;
+ &lt;p style=&quot;font-weight: 400;&quot;&gt;
+  Additional highlights include maximizing computations with cloud technology, high-performance computing (HPC), and GPU-optimized infrastructure. These capabilities allow customers to explore more design possibilities in less time through faster, more scalable simulations. With expanded web-based and on-demand capabilities, engineers can seamlessly access tools, streamline workflows, and push the boundaries of product development beyond the desktop.
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li&gt;
+   Ansys Icepak electronics cooling software gets a powerful boost with GPU acceleration, delivering faster iterations, more simulations, and deeper insights into the most challenging electrothermal applications
+  &lt;/li&gt;
+  &lt;li&gt;
+   Improved meshing capabilities in Ansys Discovery enhance simulation reliability and quality, accelerating time-to-solution and enabling faster, more confident setup with new GPU capabilities
+  &lt;/li&gt;
+  &lt;li&gt;
+   The Ansys Cloud Burst Compute on-demand HPC capability is now available within six Ansys products, including Ansys Speos and Ansys Lumerical FDTD, eliminating the need for setup, IT support, or HPC expertise
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hightouch Announces Venture Investments for AI Agents to Marketers </title>
+<link>https://insideainews.com/2025/07/29/hightouch-announces-venture-investments-for-ai-agents-to-marketers/</link>
+<pubDate>Tue, 29 Jul 2025 21:53:19 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;255&quot; sizes=&quot;(max-width: 514px) 100vw, 514px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/hightouch-logo-2-1-0725.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/hightouch-logo-2-1-0725.png 514w, https://insideainews.com/wp-content/uploads/2025/07/hightouch-logo-2-1-0725-150x74.png 150w, https://insideainews.com/wp-content/uploads/2025/07/hightouch-logo-2-1-0725-300x149.png 300w&quot; width=&quot;514&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN FRANCISCO — Hightouch, a data and AI agent platform for marketers, today announced an investment from Snowflake Ventures and Capital One Ventures. This investment extends Hightouch’s oversubscribed Series C round and fuels a shared vision of how data and AI agents will transform marketing. The funding underscores growing momentum behind agentic AI as the next evolution in marketing technology, and Hightouch as a pioneer in redefining how marketers work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2024, Hightouch introduced the world’s first agentic AI product for lifecycle marketing called AI Decisioning. These agents continuously experiment with messaging, timing, and channel decisions—marketing to every customer as an individual. Enterprises like WHOOP and Fundrise have quickly adopted AI Decisioning to accelerate learning, speed up campaign velocity, and deliver incremental engagement and sales.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By embedding learning and execution directly into the AI Data Cloud, Hightouch is pioneering a new model where marketers work alongside AI agents that adapt in real time, removing manual bottlenecks and reducing dependency on legacy marketing clouds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This investment is a major vote of confidence in our vision for AI-powered marketing,” said Tejas Manohar, Co-CEO and Co-Founder of Hightouch. “We’ve seen incredible traction with AI Decisioning, and this investment enables us to scale faster, deliver even more value to customers, and continue reimagining how businesses personalize experiences through data and AI. The investment from Snowflake Ventures will also help accelerate the development of our joint solutions, further empowering our mutual customers to activate their data and enhance their marketing capabilities.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The additional capital and support from both Snowflake Ventures and Capital One Ventures will fuel Hightouch’s ongoing research and development into how AI agents can transform marketing workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company plans to expand its suite of agents to cover additional marketing use cases, helping marketers move from traditional workflows to rapid, data-driven campaign execution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Hightouch built an innovative, composable approach to unifying data and streamlining workflows that unlocks AI-driven personalization,” said Jon Barad, Partner at Capital One Ventures. “Our investment supports their mission to equip marketers with AI agents that help make campaigns more relevant and impactful.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The investment follows a strong period of growth for Hightouch, as enterprises shift toward warehouse-native architectures and composable marketing technology. Increasingly, Hightouch customers are leveraging Snowflake’s AI Data Cloud and LLM capabilities, like Snowflake Cortex AI, via the Hightouch Composable CDP. In the last year, many have begun to activate AI Decisioning on top of this foundation. This approach gives marketers a direct line to their data and enables new ways of working, unencumbered by the limitations of traditional marketing and data software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Hightouch is pushing the boundaries of what’s possible with AI in marketing for our joint customers,” said Adam Kaufman, Vice President, Global Head of Industry Go to Market, Snowflake. “By building directly on top of Snowflake’s unified platform for data and AI, Hightouch enables marketers to execute faster, with less complexity and more control. We’re excited to support their continued growth and innovation in the AI Data Cloud.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This announcement builds on a strong foundation of collaboration between
+  &lt;a href=&quot;https://hightouch.com/&quot;&gt;
+   Hightouch
+  &lt;/a&gt;
+  and Snowflake, where both companies are committed to empowering customers with modern, composable, AI-driven solutions for data activation.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Datavault AI Debuts AI Agents Built with IBM watsonx.ai </title>
+<link>https://insideainews.com/2025/07/29/datavault-ai-debuts-ai-agents-built-with-ibm-watsonx-ai/</link>
+<pubDate>Tue, 29 Jul 2025 21:53:14 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;225&quot; sizes=&quot;(max-width: 450px) 100vw, 450px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-bits-bytes-data-2-1-shutterstock-1013661232.jpg&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-bits-bytes-data-2-1-shutterstock-1013661232.jpg 450w, https://insideainews.com/wp-content/uploads/2025/04/generic-bits-bytes-data-2-1-shutterstock-1013661232-150x75.jpg 150w, https://insideainews.com/wp-content/uploads/2025/04/generic-bits-bytes-data-2-1-shutterstock-1013661232-300x150.jpg 300w&quot; width=&quot;450&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  BEAVERTON, Ore. — Datavault AI Inc. (Nasdaq: DVLT) today announced the expanded commercialization of its AI agents — DataScore and DataValue — built with IBM watsonx.ai.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IBM is also committing AI engineering and technical support over multiple years to help Datavault expand and accelerate its offerings. The integration is designed to help customers streamline their enterprise financial modeling, risk assessment, and pricing strategies across on-premises, cloud, and hybrid environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Datavault AI is a Platinum partner in IBM’s Partner Plus program, with plans to collaborate on deployment, testing, and development to help accelerate AI adoption across key industries including finance, healthcare, sports, entertainment, and government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Datavault’s solution built with watsonx.ai is designed to help customers streamline their enterprise financial modeling, risk assessment, and pricing strategies across on-premises, cloud, and hybrid environments. As a Platinum IBM Partner, Datavault AI will collaborate with IBM’s sales force and partner network to accelerate Datavault’s customer engagement and buy-in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nathaniel Bradley, CEO of Datavault AI, commented, “We believe this is a strategic inflection point for Datavault AI and marks a significant milestone in our enterprise-scale commercialization roadmap. By integrating IBM watsonx.ai at a technical level and collaborating closely with IBM, we’re positioned to scale our data monetization platform globally.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This collaboration is further strengthened by IBM providing AI engineers and development expertise to accelerate the value of watsonx.ai inside DataScore &amp; DataValue to enhance the value to Datavault customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Biz Dziarmaga, Head of Americas AI Partnerships at IBM, commented, “Bringing our resources to support Datavault’s mission will help drive the data monetization that companies of all sizes can take advantage of. Leveraging IBM’s platforms with Datavault’s innovations presents a compelling value proposition to customers worldwide. Enterprises are increasingly seeking new revenue streams, and our AI-driven platform with Datavault AI helps to provide a scalable path to data monetization.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to McKinsey &amp; Company, generative AI is projected to add between $2.6 trillion and $4.4 trillion annually
+  &lt;sup&gt;
+   1
+  &lt;/sup&gt;
+  across key business applications, making AI-driven automation one of the most significant investment frontiers in enterprise technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Datavault AI has developed a fully integrated AI-powered ecosystem designed to help organizations monetize their data assets through its three flagship AI agents:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Data Vault Bank: A Web 3.0-powered AI engine that will convert enterprise data into structured, tradable assets. Currently being built with IBM, it is expected to be released in October of 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DataScore: A patented AI-driven scoring and risk analysis tool that assesses data quality and ensures compliance with GDPR, CCPA, and other regulatory standards.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DataValue: A patented AI-driven pricing engine that assigns real-world financial valuations to enterprise data, creating new liquidity and trading opportunities​.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additionally, Datavault AI’s patented Data Vault Web 3.0 platform is enhanced by its completed integrations, enabling secure, compliant, and scalable data monetization across industries. The platform continues to evolve with advancements in data indexing, perception, and monetization capabilities.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Steering Through the AI Storm: Enterprise Risk Leadership for the Automation Era </title>
+<link>https://insideainews.com/2025/07/29/steering-through-the-ai-storm-enterprise-risk-leadership-for-the-automation-era/</link>
+<pubDate>Tue, 29 Jul 2025 21:53:09 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img alt=&quot;&quot; class=&quot;wp-image-36683 alignright&quot; decoding=&quot;async&quot; height=&quot;234&quot; sizes=&quot;(max-width: 468px) 100vw, 468px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/04/government-shutterstock-2461777149-2-1.jpg&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/04/government-shutterstock-2461777149-2-1.jpg 512w, https://insideainews.com/wp-content/uploads/2025/04/government-shutterstock-2461777149-2-1-150x75.jpg 150w, https://insideainews.com/wp-content/uploads/2025/04/government-shutterstock-2461777149-2-1-300x150.jpg 300w&quot; width=&quot;468&quot;/&gt;
+  By Gaurav Kapoor, Vice Chairman and Co-Founder of MetricStream
+ &lt;/p&gt;
+ &lt;p&gt;
+  Imagine your business as a vessel charting its course through the dynamic waters of digital transformation. While artificial intelligence is often cast as the storm on the horizon—something to withstand or survive—it is, in truth, the current beneath the surface: swift, forceful, and inescapable. It’s a force accelerating innovation, redrawing organizational maps, and expanding the edge of what’s possible.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But like any current, it can carry an enterprise to new frontiers – or sweep it dangerously off course. Success lies not in resisting it but in mastering the art of navigation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI without clear intent, structure, and oversight is like setting sail without a compass or a capable crew. Risk leaders today are now standing at the helm, faced with a choice:
+  &lt;em&gt;
+   Leave the journey to chance or chart a course with purpose?
+  &lt;/em&gt;
+  For those seeking direction, here’s how to lead with purpose and successfully manage enterprise risk in the AI era.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Why Risk Leaders Must Be Behind the Wheel
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI adoption is outpacing most governance frameworks, so while CIOs and data teams may lead implementation, risk leaders need to take the helm for the broader journey. The implications of AI reach far beyond IT, impacting operations, compliance, ethics and long-term resilience.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just as risk management and cybersecurity became part of the strategic fabric of many organizations, AI is the latest essential thread that requires the same level of structured oversight, shared collaboration, and a mindset of continuous adaptation. This moment calls for risk leaders to move from the sidelines to the forefront as they not only manage risk but also unlock opportunities and enable innovation through intentional foresight and structured oversight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   &lt;img alt=&quot;&quot; class=&quot;alignleft wp-image-36899&quot; decoding=&quot;async&quot; height=&quot;124&quot; sizes=&quot;(max-width: 248px) 100vw, 248px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/metricstream-logo-2-1-0725.jpg&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/metricstream-logo-2-1-0725.jpg 967w, https://insideainews.com/wp-content/uploads/2025/07/metricstream-logo-2-1-0725-150x75.jpg 150w, https://insideainews.com/wp-content/uploads/2025/07/metricstream-logo-2-1-0725-300x150.jpg 300w, https://insideainews.com/wp-content/uploads/2025/07/metricstream-logo-2-1-0725-768x384.jpg 768w&quot; width=&quot;248&quot;/&gt;
+   Mapping the Destination: Intent and Culture as Your Compass
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before setting sail, every captain needs a charted destination. When it comes to AI, that starts by answering a fundamental question:
+  &lt;em&gt;
+   What problem is this AI solving?
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+  &lt;/em&gt;
+  Whether it’s automating a task or enhancing decision-making, AI must be anchored to a clear and specific business outcome. Without that clear and measurable intent, AI becomes directionless. But that alone isn’t enough. The human element, your organization’s culture, is equally important. Culture, after all, is your crew and even the best technology falters if the people using it don’t trust it or understand it. Employees should be engaged early and often with transparency about the “why” behind the technology. Culture must evolve alongside capability. The workforce should be empowered, not replaced. Supported, not surprised. And informed at every step of the journey.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As always, data remains the wind in the sails that will propel your organization forward. Reliable, high quality data fuels transformation, but faulty or flawed information can spin you off course, slow your organization’s progress, or worse, expose your organization to even greater risk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI isn’t magic. It only works when the crew is properly trained, the sailing is clear, and the ship is well built. One misstep, or rushed adoption, and the journey doesn’t just stall, it could capsize.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   We Have Our Destination: Now How to Get There
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once a course is set and alignment is clear, systems and structure must follow. That starts with a robust AI governance framework that continually and proactively scans for legal, ethical, operational, and reputational risks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Establishing a cross-functional AI oversight group is a critical first step. Legal, compliance, tech, HR, and ethics leaders must work together to ensure consistent governance across the organization. Shared signals, transparent reporting, and collective accountability are central to resilient AI operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just as important, business leaders must be able to keep up with evolving global regulations and understand the vulnerabilities and risks that come with emerging technologies. Start small with a single, well-defined use-case, such as continuous risk assessment or third-party risk management. Learn from it, measure outcomes, identify gaps, improve and then scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Each new use case should be treated with the same process as governance, as an ongoing practice: revisit the data, confirm business alignment, and reassess internal and external regulations. Above all, human oversight must remain constant. Even the most advanced AI can’t steer the ship alone. People must be behind the wheel, manning the rigging and course correcting in real time to ensure it stays the course as the waters shift.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Docking the Ship: Leading with Clarity, Courage, and Command
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI is no longer a futuristic idea; it’s today’s current that’s shaping organizations and the evolving business landscape. Organizations that treat it as a siloed project risk drifting into irrelevance and will struggle to remain competitive.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Organizations that integrate AI into their strategic core, supported by risk-aware leadership, will define the next chapter of business innovation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Success won’t belong to those with the flashiest tools, but to those with the clearest purpose, strongest governance, and boldest leadership.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Risk leaders aren’t just there to warn of storms, they are essential to charting a course. At the helm they will steer the enterprise toward opportunity with clarity, courage, and command, all the while ensuring the ship doesn’t just survive the current, but harnesses it to reach the next horizon.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Gaurav Kapoor is Vice Chairman and Co-Founder of
+   &lt;a href=&quot;https://www.metricstream.com/&quot;&gt;
+    MetricStream
+   &lt;/a&gt;
+   , an AI-first governance, risk, and compliance (GRC) solutions company.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NTT DATA and Mistral AI Form Partnership </title>
+<link>https://insidehpc.com/2025/07/ntt-data-and-mistral-ai-form-partnership/</link>
+<pubDate>Tue, 29 Jul 2025 20:41:37 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;250&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/11/generic-ai-generative-ai-2-1-shutterstock-2496403005.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/11/generic-ai-generative-ai-2-1-shutterstock-2496403005.jpg 500w, https://insidehpc.com/wp-content/uploads/2024/11/generic-ai-generative-ai-2-1-shutterstock-2496403005-150x75.jpg 150w, https://insidehpc.com/wp-content/uploads/2024/11/generic-ai-generative-ai-2-1-shutterstock-2496403005-300x150.jpg 300w&quot; width=&quot;500&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  LONDON and PARIS, July 29, 2025 – Digital business and technology services company NTT DATA and generative AI company Mistral AI today announced plans to jointly sell and deploy AI solutions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The companies will combine NTT DATA’s GenAI and IT services portfolio, delivery capabilities and client relationships with Mistral AI’s solutions and generative AI models.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  Initial focus areas include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-10&quot;&gt;
+   Sustainable and Secure AI Co-Development: The companies will develop sustainable and highly secure private AI solutions for organizations in regulated sectors such as financial services, insurance, defense and public sector. The companies will provide end-to-end solutions from infrastructure to business processes powered by AI applications for clients operating on private clouds.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-11&quot;&gt;
+   AI-Driven Innovation for IT Infrastructure &amp; Customer Experience: The companies will pioneer the integration of Mistral AI technologies into NTT DATA’s customer experience platforms, beginning with agentic AI call center solutions in Europe and Asia Pacific. Joint projects could include co-development of LLMs for specific languages, which will further AI innovation tailored to local markets and specialized needs.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-12&quot;&gt;
+   Go-To-Market Expansion: NTT DATA and Mistral AI will jointly develop and execute regional go-to-market strategies tailored to the unique dynamics of countries including France, Luxembourg, Spain, Singapore and Australia. End-to-end AI services will range from use-case development and customization to implementation, support and managed services. Dedicated sales teams will be assigned to address key client needs and priorities.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  To drive innovation and implementation excellence, NTT DATA will establish a Mistral AI Center of Excellence staffed with subject matter experts and dedicated resources. In addition, Mistral AI will launch a technical enablement and certification program for NTT DATA personnel.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  “Collaborating with Mistral AI to bring trustworthy, impactful AI to market aligns with NTT DATA’s mission to accelerate client success and positively impact society through responsible innovation,” said Abhijit Dubey, CEO and Chief AI Officer*, NTT DATA, Inc. “By joining forces with Mistral AI, we will harness the power of high-performing AI models combined with NTT DATA’s comprehensive AI capabilities, including our Smart AI Agent Ecosystem. In doing so, we can assure secure, scalable and sustainable deployments for enterprises across the globe.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  “By collaborating with a global leader in digital transformation like NTT DATA, we will bring our next-generation AI solutions into real-world business applications, with a strong focus on organizations that need the highest standards of data privacy in their AI journey,” said Arthur Mensch, CEO, Mistral AI.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot;&gt;
+  In one of the first joint projects, Dennemeyer, a provider for intellectual property (IP) management, has chosen Mistral AI and NTT DATA to develop an AI-driven application for advanced patent searches and analyses, bringing the technical layers to securely run AI workloads.“Dennemeyer continues to be a driving force in the digital transformation of the IP industry; a key aspect of this is strong partnerships with organizations like Mistral AI and NTT DATA, who bring a deep technical understanding of AI and its integration into business processes,” said Brochmann Laurent, Global Chief Digital Officer, Dennemeyer.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-17&quot;&gt;
+  In another early effort, NTT DATA Luxembourg and
+  &lt;a href=&quot;https://mistral.ai/&quot;&gt;
+   Mistral AI
+  &lt;/a&gt;
+  will co-develop a sovereign platform in Luxembourg for clients in the regulated financial services and insurance industries.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  “This collaboration offers a landmark opportunity to accelerate the adoption of AI across the financial and insurance markets in Luxembourg and beyond,” said Olivier Posty, Head of France and Luxembourg,
+  &lt;a href=&quot;https://www.nttdata.com/global/en/&quot;&gt;
+   NTT DATA
+  &lt;/a&gt;
+  . “Together, we’re creating a full-stack platform that is ready to host critical financial applications.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-20&quot;&gt;
+  &lt;em&gt;
+   * Additional role effective Sept. 1, 2025
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Penguin Solutions Announces Leadership Changes </title>
+<link>https://insidehpc.com/2025/07/penguin-solutions-announces-leadership-changes/</link>
+<pubDate>Tue, 29 Jul 2025 17:30:38 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;225&quot; sizes=&quot;(max-width: 450px) 100vw, 450px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/06/Penguin-Solutions-logo-2-1-0624.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/06/Penguin-Solutions-logo-2-1-0624.png 450w, https://insidehpc.com/wp-content/uploads/2024/06/Penguin-Solutions-logo-2-1-0624-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2024/06/Penguin-Solutions-logo-2-1-0624-300x150.png 300w&quot; width=&quot;450&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot;&gt;
+  MILPITAS, Calif.–Penguin Solutions, Inc. today announced the appointments of SVP and Chief Revenue Officer Tony Frey and SVP of Strategy and Corporate Development Ted Gillick.
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-14&quot;&gt;
+  The company also announced the departure of Pete Manca, SVP and president of Advanced Computing. In the revised organizational structure, this role has been eliminated.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  Frey will take on his role effective August 25. In this role, he will oversee global sales for Penguin Solutions’ Advanced Computing and Integrated Memory segments. Frey brings over 25 years of experience in enterprise technology with an emphasis on data management, cloud computing, and AI enablement. Previously, he served as vice president of global strategic accounts at NetApp and spent nine years in multiple VP enterprise sales roles at Informatica, an AI-powered enterprise cloud data management company.
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot;&gt;
+  Gillick will begin in his role effective August 4. He has more than 20 years of experience in corporate development, investment banking, and strategic planning across the technology sector. Before joining Penguin Solutions, Gillick led global M&amp;A efforts as SVP of corporate development at Dell Technologies. Previously, he was a senior member of the corporate development team at Avid Technology and served as an M&amp;A investment banker at Lehman Brothers and at Barclays Capital.
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-15&quot;&gt;
+  “We are excited to have Tony and Ted join Penguin Solutions as we strengthen our organization for the future,” said President and CEO of Penguin Solutions Mark Adams. “These additions to our leadership team represent another step in our transformation from a legacy holding company organization to a more traditional leadership structure while setting us up for long-term success.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> News Bytes 20260728: US AI Action Plan; STMicro Sensors Acquisition; NVIDIA H20, TSMC and Shifting GPU Export Policy </title>
+<link>https://insideainews.com/2025/07/28/news-bytes-20260728-us-ai-action-plan-stmicro-sensors-acquisition-nvidia-h20-tsmc-and-shifting-gpu-export-policy/</link>
+<pubDate>Mon, 28 Jul 2025 13:14:47 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;251&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023.png 500w, https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023-300x151.png 300w&quot; width=&quot;500&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span class=&quot;mejs-offscreen&quot;&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; class=&quot;mejs-container mejs-container-keyboard-inactive wp-audio-shortcode mejs-audio&quot; id=&quot;mep_0&quot; role=&quot;application&quot; style=&quot;width: 735px; height: 40px; min-width: 275px;&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div class=&quot;mejs-inner&quot;&gt;
+   &lt;div class=&quot;mejs-mediaelement&quot;&gt;
+    &lt;mediaelementwrapper id=&quot;audio-36891-1&quot;&gt;
+     &lt;audio class=&quot;wp-audio-shortcode&quot; id=&quot;audio-36891-1_html5&quot; preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3?_=1&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;mejs-layers&quot;&gt;
+    &lt;div class=&quot;mejs-poster mejs-layer&quot; style=&quot;display: none; width: 100%; height: 100%;&quot;&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;mejs-controls&quot;&gt;
+    &lt;div class=&quot;mejs-button mejs-playpause-button mejs-play&quot;&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; class=&quot;mejs-time mejs-currenttime-container&quot; role=&quot;timer&quot;&gt;
+     &lt;span class=&quot;mejs-currenttime&quot;&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mejs-time-rail&quot;&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; class=&quot;mejs-time-total mejs-time-slider&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span class=&quot;mejs-time-buffering&quot; style=&quot;display: none;&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-loaded&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-current&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-hovered no-hover&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-handle&quot;&gt;
+       &lt;span class=&quot;mejs-time-handle-content&quot;&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-float&quot;&gt;
+       &lt;span class=&quot;mejs-time-float-current&quot;&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span class=&quot;mejs-time-float-corner&quot;&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mejs-time mejs-duration-container&quot;&gt;
+     &lt;span class=&quot;mejs-duration&quot;&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mejs-button mejs-volume-button mejs-mute&quot;&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; class=&quot;mejs-horizontal-volume-slider&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span class=&quot;mejs-offscreen&quot;&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div class=&quot;mejs-horizontal-volume-total&quot;&gt;
+      &lt;div class=&quot;mejs-horizontal-volume-current&quot; style=&quot;left: 0px; width: 100%;&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-horizontal-volume-handle&quot; style=&quot;left: 100%;&quot;&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;size-large wp-image-36892 alignright&quot; decoding=&quot;async&quot; height=&quot;251&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023.png 500w, https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023-150x75.png 150w, https://insideainews.com/wp-content/uploads/2025/07/white-house-logo-2-1-1023-300x151.png 300w&quot; width=&quot;500&quot;/&gt;
+  Good July day to all! The HPC-AI sector rolled forward over the past week generating its usual harvest of news, here’s a fast (6:33) review of recent developments, including:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  – The White House issues a US AI Action Plan
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  – STMicro acquires NXP MEMS sensors for nearly $1 billion
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  – NVIDIA H20, TSMC packaging capacity and changing U.S. GPU export restrictions
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/07/hpc-news-bytes-20250728/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20260728: US AI Action Plan; STMicro Sensors Acquisition; NVIDIA H20, TSMC and Shifting GPU Export Policy </title>
+<link>https://insidehpc.com/2025/07/hpc-news-bytes-20260728-us-ai-action-plan-stmicro-sensors-acquisition-nvidia-h20-tsmc-and-shifting-gpu-export-policy/</link>
+<pubDate>Mon, 28 Jul 2025 13:02:48 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span class=&quot;mejs-offscreen&quot;&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; class=&quot;mejs-container mejs-container-keyboard-inactive wp-audio-shortcode mejs-audio&quot; id=&quot;mep_0&quot; role=&quot;application&quot; style=&quot;width: 735px; height: 40px; min-width: 275px;&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div class=&quot;mejs-inner&quot;&gt;
+   &lt;div class=&quot;mejs-mediaelement&quot;&gt;
+    &lt;mediaelementwrapper id=&quot;audio-96767-1&quot;&gt;
+     &lt;audio class=&quot;wp-audio-shortcode&quot; id=&quot;audio-96767-1_html5&quot; preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3?_=1&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/07/HPCNB_20250728.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;mejs-layers&quot;&gt;
+    &lt;div class=&quot;mejs-poster mejs-layer&quot; style=&quot;display: none; width: 100%; height: 100%;&quot;&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;mejs-controls&quot;&gt;
+    &lt;div class=&quot;mejs-button mejs-playpause-button mejs-play&quot;&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; class=&quot;mejs-time mejs-currenttime-container&quot; role=&quot;timer&quot;&gt;
+     &lt;span class=&quot;mejs-currenttime&quot;&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mejs-time-rail&quot;&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; class=&quot;mejs-time-total mejs-time-slider&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span class=&quot;mejs-time-buffering&quot; style=&quot;display: none;&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-loaded&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-current&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-hovered no-hover&quot;&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-handle&quot;&gt;
+       &lt;span class=&quot;mejs-time-handle-content&quot;&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span class=&quot;mejs-time-float&quot;&gt;
+       &lt;span class=&quot;mejs-time-float-current&quot;&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span class=&quot;mejs-time-float-corner&quot;&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mejs-time mejs-duration-container&quot;&gt;
+     &lt;span class=&quot;mejs-duration&quot;&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mejs-button mejs-volume-button mejs-mute&quot;&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; class=&quot;mejs-horizontal-volume-slider&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span class=&quot;mejs-offscreen&quot;&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div class=&quot;mejs-horizontal-volume-total&quot;&gt;
+      &lt;div class=&quot;mejs-horizontal-volume-current&quot; style=&quot;left: 0px; width: 100%;&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-horizontal-volume-handle&quot; style=&quot;left: 100%;&quot;&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-7&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;size-full wp-image-92784 alignright&quot; decoding=&quot;async&quot; height=&quot;251&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/White-House-logo-2-1-1023.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2023/10/White-House-logo-2-1-1023.png 500w, https://insidehpc.com/wp-content/uploads/2023/10/White-House-logo-2-1-1023-300x151.png 300w, https://insidehpc.com/wp-content/uploads/2023/10/White-House-logo-2-1-1023-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2023/10/White-House-logo-2-1-1023-1024x512.png 1024w&quot; width=&quot;500&quot;/&gt;
+  Good July day to all! The HPC-AI sector rolled forward over the past week generating its usual harvest of news, here’s a fast (6:33) review of recent developments, including:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  – The White House issues a US AI Action Plan
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  – STMicro acquires NXP MEMS sensors for nearly $1 billion
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  – NVIDIA H20, TSMC packaging capacity and changing U.S. GPU export restrictions
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/07/hpc-news-bytes-20250728/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Q.ANT: Photonic AI Processor Delivered to Leibniz Supercomputing Centre </title>
+<link>https://insidehpc.com/2025/07/q-ant-photonic-ai-processor-goes-into-operation-at-leibniz-supercomputing-centre/</link>
+<pubDate>Fri, 25 Jul 2025 16:06:21 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;149&quot; sizes=&quot;(max-width: 298px) 100vw, 298px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225.png 298w, https://insidehpc.com/wp-content/uploads/2025/02/q-ant-logo-2-1-0225-150x75.png 150w&quot; width=&quot;298&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-71 ai-optimize-introduction&quot;&gt;
+  Stuttgart/Garching, Germany – July 22, 2025 – Q.ANT announced it has delivered its Native Processing Server (NPS) to the Leibniz Supercomputing Centre (LRZ), “marking the first integration of an analog photonic co-processor into an operational high-performance computing (HPC) environment,” the company said.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-71 ai-optimize-introduction&quot;&gt;
+  “This milestone deployment enables LRZ to evaluate photonic acceleration for artificial intelligence (AI) and simulation workloads – offering a path toward significantly higher performance with drastically lower energy consumption,” Q.ANT said.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-71 ai-optimize-introduction&quot;&gt;
+  The collaboration between Q.ANT and LRZ redefines how data centers approach performance, footprint, energy-efficiency, and system architecture and marks a new chapter in computing – where analog precision, powered by light, addresses the scaling crisis of AI infrastructure., according to Q.ANT.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-72&quot;&gt;
+  “Photonic processors offer a novel and promising path to accelerate AI and simulation workloads, while sharply reducing our environmental footprint. This deployment marks a milestone in our future computing mission to advance energy-efficient AI and high-performance computing,” said Prof. Dr. Dieter Kranzlmüller, Chairman of the Board of Directors of LRZ. “Q.ANT’s NPS integrates easily into our existing infrastructure, allowing us to immediately evaluate its performance. Bringing in future technologies and opening up new avenues for our users would, however, not be possible without the continuous support from both the federal and Bavarian government.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-73&quot;&gt;
+  “Our collaboration with LRZ marks a pivotal milestone: for the first time in history, we’re operating photonic processors in an HPC under practical workloads. With this step, we demonstrate that light-based processors have moved beyond research and into real-world application,” said Dr. Michael Förtsch, CEO of Q.ANT. “This is a decisive step toward integrating photonic computing into the mainstream of next-generation computer architecture by 2030. The long-term commitment of the Ministry for Research, Technology and Space has been instrumental in enabling the breakthroughs that made this success possible.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-75&quot;&gt;
+  Artificial intelligence is increasing computing requirements and pushing high-performance data centres to their limits in terms of power consumption, heat generation and space. Because the photonic chip generates no heat, costly cooling measures are unnecessary. Thanks to the special properties of light, complex calculations can also be performed faster and more efficiently on the photonic processor.  Q.ANT’s photonic technology enables a new class of high-performance, energy-efficient server rack solutions, with:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   Up to 90x lower power consumption per workload, due to the absence of on-chip heat and reduced cooling requirements.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   100x increase in data center capacity enabled by greater computational density and faster execution of complex operations.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   16-bit floating point precision with close to 100 % accuracy for all computational operations on the chip.
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-76&quot;&gt;
+   Seamless integration into existing infrastructure via standard PCIe interface and x86 software compatibility – including support for PyTorch, TensorFlow, Keras.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-81&quot;&gt;
+  Q.ANT’s NPS relies on light instead of electricity for complex computing operations – such as training and inferencing AI models. It can be seamlessly integrated into existing data centers and is fully compatible with current hardware and software. Thanks to x86 compatibility, no adjustments to the software stack or changes to the server layout are necessary. The NPS consumes significantly less energy, generates no heat on the chip and enables a higher computing density. With this deployment, LRZ is strengthening its role as a pioneer in the development of energy-efficient high-performance computers.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-83&quot;&gt;
+  The collaboration is aimed at researching hybrid digital-analog architectures for future HPC environments and is funded by the German Federal Ministry of Research, Technology and Space. Deploying Q.ANT’s NPS, LRZ expands this scope to include photonic analog computing, an option that was not technically feasible at the start of the program but made viable by Q.ANT’s advancements in photonics. LRZ will use the Q.ANT NPS to establish new benchmarks and real-world use cases for applications such as climate modeling, real-time medical imaging, or materials simulation for fusion research.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-84&quot;&gt;
+  The first evaluation phase at LRZ involves installing several units of the latest generation Q.ANT NPS, selecting benchmark workloads, and testing real-world applications — particularly in AI inference, computer vision, and physics simulations. Later phases will include second- and third-generation NPS units for deeper evaluation.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-86&quot;&gt;
+  The project was made possible with national funding. The commissioning ceremony was attended by guests from politics and industry. During her welcome address, the Minister for Research, Technology and Space (BMFTR), Dorothee Bär, acknowledged the significance of this milestone for Germany and Europe.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-87&quot;&gt;
+  “Integrating Q.ANT’s photonic processor into the Leibniz Supercomputing Centre ushers in a new computing paradigm, moving it from the laboratory to reality, and takes Europe a decisive step closer to an energy-efficient digital infrastructure. Germany is proud to support groundbreaking innovations that strengthen our scientific leadership and technological sovereignty. We support this collaboration because it demonstrates how public research institutions and private deep tech pioneers can collaborate to shape the future right here in Germany,” said Dorothee Bär, the Federal Minister of Science, Technology, and Space. (To be approved)
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-88&quot;&gt;
+  “Computing with light instead of electricity – what once sounded like science fiction is now becoming reality. For the first time worldwide, a photonic AI accelerator is in operation at a data center here in Garching, Germany: up to 90 percent less energy consumption with 100 times the performance. This shows the tremendous potential of our research institutions – and what becomes possible when science, industry and government join forces.” Markus Blume, Bavarian Minister of Science and the Arts.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-106&quot;&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple and Claris Veteran Nelson Named CIQ CTO </title>
+<link>https://insidehpc.com/2025/07/apple-and-claris-veteran-nelson-named-ciq-cto/</link>
+<pubDate>Fri, 25 Jul 2025 15:43:19 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;512&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-1024x512.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-1024x512.png 1024w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-300x150.png 300w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23-768x384.png 768w, https://insidehpc.com/wp-content/uploads/2023/10/CIQ-logo-2-1-10-23.png 873w&quot; width=&quot;1024&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  RENO, Nev. – July 24, 2025 – CIQ, the support and services partner of Rocky Linux, today announced the appointment of Peter Nelson as chief technology officer.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8 ai-optimize-introduction&quot; dir=&quot;ltr&quot;&gt;
+  CIQ said Nelson brings over two decades of product and engineering leadership, most recently serving as vice president of engineering at Apple’s Claris organization and as chief product officer at Bowers &amp; Wilkins.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; dir=&quot;ltr&quot;&gt;
+  As CTO, Nelson will shape CIQ’s technical vision and innovation roadmap, scaling its solutions for performance-intensive workloads that span enterprise Linux, orchestration and AI.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot; dir=&quot;ltr&quot;&gt;
+  “Peter has built and led some of the most high-impact engineering teams in the industry,” said Gregory Kurtzer, founder and CEO at CIQ. “He’s delivered category-defining products across consumer software, enterprise platforms, and embedded systems – all with an uncompromising commitment to user experience, product excellence, and execution. As CIQ scales to power the next era of enterprise AI and HPC, Peter’s leadership will immediately accelerate our innovation and deliver unmatched value to our customers.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-11&quot; dir=&quot;ltr&quot;&gt;
+  Before joining CIQ, Nelson led global product and engineering at Claris, overseeing the Claris FileMaker and Claris Connect platforms. Before that, he served as chief product officer at Bowers &amp; Wilkins, steering the transformation of the company’s product and software strategy. He also held engineering leadership roles at Apple, Eva Automation and Caavo, consistently delivering complex, high-quality products on time.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot; dir=&quot;ltr&quot;&gt;
+  “
+  &lt;a href=&quot;https://ciq.com/&quot;&gt;
+   CIQ
+  &lt;/a&gt;
+  is one of the most exciting companies in enterprise software today,” said Nelson. “From Rocky Linux to the broader enterprise platform, the team is building secure, scalable infrastructure that meets the real-world demands of AI and data-intensive computing. I’m honored to join CIQ at this pivotal moment and help drive the next wave of open source innovation.”
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot; dir=&quot;ltr&quot;&gt;
+  Nelson holds a Bachelor of Science in engineering from Harvey Mudd College and is widely recognized for aligning engineering excellence with strategic product outcomes. He has managed teams across the software stack, from low-level systems to user-facing applications, and has shipped more than a dozen successful products.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC-AI User Forum to Be Held Sept. 3-4 in Reston, VA </title>
+<link>https://insidehpc.com/2025/07/hpc-ai-user-forum-to-be-held-sept-3-4-in-reston-va/</link>
+<pubDate>Fri, 25 Jul 2025 15:20:09 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;500&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324.jpg&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324.jpg 1000w, https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324-150x75.jpg 150w, https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324-300x150.jpg 300w, https://insidehpc.com/wp-content/uploads/2024/03/HPC-User-Forum-logo-2-1-0324-768x384.jpg 768w&quot; width=&quot;1000&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-48 ai-optimize-introduction&quot;&gt;
+  Hyperion Research announced that registration is open for the 89
+  &lt;sup&gt;
+   th
+  &lt;/sup&gt;
+  HPC/AI User Forum, to be held in Reston, VA, on Wednesday and Thursday, Sept. 3 and 4.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-48 ai-optimize-introduction&quot;&gt;
+  More information can be found at:
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.hpcuserforum.com/s&amp;source=gmail&amp;ust=1753541612896000&amp;usg=AOvVaw0XD0CyitYkLHUa4a13Fhbv&quot; href=&quot;https://www.hpcuserforum.com/s&quot;&gt;
+   https://www.hpcuserforum.com/
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-7&quot; style=&quot;font-weight: 400;&quot;&gt;
+  The meeting will have presentations on the evolving AI and HPC sectors as well as a look into how data centers are developing and expanding.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Talks will include topics such as AI and HPC workloads and how they are driving data centers and innovative solutions, new HPC &amp; AI directions in industry, government and academia, trends in the use of clouds to run HPC/AI workloads, HPC site updates, and market updates for AI, HPC, storage and quantum computing. Below is a list of the conference guest speakers, topics, and panels:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Keynotes:
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-10&quot;&gt;
+   Matt Vincent, Editor-in-Chief, Data Center Frontier, Present and Future HPC Trends, Forecast, and Implications Within Data Centers
+   &lt;ul&gt;
+    &lt;li class=&quot;ai-optimize-11&quot;&gt;
+     &lt;em&gt;
+      HPC is now embedded in commercial data centers, coexisting with hyperscale AI infrastructure. This session offers a forward-looking analysis of how these workloads will coexist, collide, and coevolve, shaping the future of computing, energy use, and data center strategy through the end of the decade.
+     &lt;/em&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;ai-optimize-12&quot;&gt;
+     &lt;em&gt;
+      From cutting-edge silicon to liquid cooling, and AI workload convergence to regional power infrastructure, this session will present trends defining the next era of high-performance infrastructure.
+     &lt;/em&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-13&quot;&gt;
+   John Garstka, Director, Cyber Warfare, Office of the Deputy Assistant Secretary of Defense for Platform and Weapon Portfolio Management (PWPM), Office of the Under Secretary of Defense for Acquisition and Sustainment (OUSD(A&amp;S))
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-14&quot;&gt;
+   Buddy Rizer, Executive Director, Loudoun County, Virginia, Dept. of Economic Development: Dinner Speaker
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-15&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Presentations include:
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-16&quot; style=&quot;font-weight: 400;&quot;&gt;
+  How AI and HPC Workloads are Driving Data Centers
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-17&quot;&gt;
+   Matt Vincent, Editor in Chief, Data Center Frontier
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-18&quot;&gt;
+   Buddy Rizer, Executive Director, Loudoun County, Virginia, Dinner Speaker
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-19&quot;&gt;
+   Alex Loddoch, High Performance Computing Strategist, Chevron Corporation
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-20&quot;&gt;
+   John Garstka, Director, Cyber Warfare, Office of the Deputy Assistant Secretary of Defense
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-21&quot;&gt;
+   Dr. Alex Vadati, Program Director, Directorate for Technology, Innovation and Partnerships, NSF
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-22&quot; style=&quot;font-weight: 400;&quot;&gt;
+  New HPC &amp; AI Directions in Industry
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-24&quot;&gt;
+   Rick Arthur, Senior Principal Engineer, Computational Methods Research at GE Aerospace Research
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-25&quot;&gt;
+   Keith Gray, VP Computational Science and Engineering, TotalEnergies
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-26&quot;&gt;
+   Elizabeth L’Heureux, Head of HPC, BP
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-27&quot;&gt;
+   Joseph Swartz, CSCF Program/Chief Architect, Lockheed Martin
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-28&quot; style=&quot;font-weight: 400;&quot;&gt;
+  New HPC &amp; AI Directions Government and Academia
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-30&quot;&gt;
+   Dr. Martin Berzins, Associate Director, Faculty Member, SCI at the University of Utah
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-31&quot;&gt;
+   NSF National Deep Inference Fabric (NDIF)
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-32&quot;&gt;
+   Kevin Murphy, Chief Science Data Officer, New Directions in AI and QC at NASA
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-33&quot;&gt;
+   Thuc Hoang, Director, Office of Advanced Simulation and Computing and Institutional R&amp;D Programs, NNSA
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-34&quot;&gt;
+   Dr. Prem Kumar, Professor, Electrical and Computer Engineering, Northwestern University
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-35&quot;&gt;
+   Ceren Susut, DOE ASCR Associate Director
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-36&quot;&gt;
+   Doug Kothe, Associate Laboratories Director (ALD) for Advanced Science and Technology and Chief Research Officer, Sandia National Laboratories
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-38&quot; style=&quot;font-weight: 400;&quot;&gt;
+  Trends and New Solutions in the Use of Clouds to Run HPC/AI Workloads
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-39&quot;&gt;
+   Jay Boisseau, Advanced Computing Strategist, Google
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-40&quot;&gt;
+   Mark Nossokoff, Research Director, Lead Analyst for Cloud &amp; Storage, Hyperion Research,
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-41&quot;&gt;
+   Dr. Alex Vadati, Program Director, NSF: Programmable Cloud Laboratories
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p class=&quot;ai-optimize-43&quot; style=&quot;font-weight: 400;&quot;&gt;
+  New Technologies Updates
+ &lt;/p&gt;
+ &lt;ul style=&quot;font-weight: 400;&quot;&gt;
+  &lt;li class=&quot;ai-optimize-44&quot;&gt;
+   Innovation Panel: Alice + Bob, CTG Federal, DDN, FedData, Hitachi Vantara, Supermicro, and QuEra
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-45&quot;&gt;
+   Vendor updates from Hammerspace, HPE, Intel, Parallel Works and Weka
+  &lt;/li&gt;
+  &lt;li class=&quot;ai-optimize-46&quot;&gt;
+   Bob Sorensen, Senior Vice President of Research and Chief Analyst for Quantum Computing, Hyperion Research, New Developments in the Use of Quantum Computing
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Trunk Tools Closes $40M Series B for Construction AI </title>
+<link>https://insideainews.com/2025/07/24/trunk-tools-closes-40m-series-b-for-construction-ai/</link>
+<pubDate>Thu, 24 Jul 2025 15:11:25 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;102&quot; sizes=&quot;(max-width: 204px) 100vw, 204px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/07/trunk-tools-logo-2-1-0725.png&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/07/trunk-tools-logo-2-1-0725.png 204w, https://insideainews.com/wp-content/uploads/2025/07/trunk-tools-logo-2-1-0725-150x75.png 150w&quot; width=&quot;204&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NEW YORK – July 24, 2025 – Trunk Tools, the AI-based construction platform, today announced a $40 million Series B funding round led by software investor Insight Partners with participation from Redpoint Ventures, Innovation Endeavors, Stepstone, Liberty Mutual Strategic Ventures, and Prudence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new investment will bring the total funding to $70 million, accelerating the company’s growth and helping to address the construction industry’s productivity losses, which exceed $1 trillion annually.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Built by construction professionals for the realities of the field, Trunk Tools uses advanced AI to organize and provide insight into the millions of documents–drawings, specs, RFIs, schedules, and submittals–generated throughout the lifecycle of a project. The platform enables teams to ask natural-language questions and receive instant, accurate, and actionable answers sourced from the relevant information. Fully autonomous agents are now handling entire workflows that once required human input, while simultaneously connecting data to the project schedule to flag potential issues before they lead to delays or costly rework.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded by CEO Dr. Sarah Buchner, Trunk Tools was born out of her firsthand experience in the construction industry. She began her career as a carpenter at the age of 12 in a small village in Austria and worked her way up to become a superintendent, project manager, and group leader. Frustrated by the daily inefficiencies she witnessed on job sites, she pursued a PhD in civil engineering and data science to address these challenges at scale, ultimately setting out to develop a smarter, more innovative approach to how construction teams work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Construction is the backbone of our global economy and daily life, yet the industry is still bogged down by outdated tools, fragmented systems, and overwhelming bureaucracy,” said Buchner. “We built Trunk Tools to eliminate the guesswork. General-purpose AI simply isn’t advanced enough for an industry built on proprietary data and complex workflows. This new round of funding gives us the resources to bring vertically tailored AI reasoning agents to every job site.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike traditional tools that serve as passive digital repositories, Trunk Tools functions like an intelligent teammate, structuring muddled documentation, proactively flagging risks, and surfacing insights in real time. The company is already deployed on hundreds of construction projects and has scaled revenue 5x over the past six months.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “
+  &lt;a href=&quot;https://trunktools.com/&quot;&gt;
+   Trunk Tools
+  &lt;/a&gt;
+  is helping define a new category of AI with its construction platform,” said Jeff Horing, Co-founder and Managing Director at
+  &lt;a href=&quot;http://insightpartners.com&quot;&gt;
+   Insight Partners
+  &lt;/a&gt;
+  . “Project-level information in the construction industry lives in multiple siloed systems, and accessing that data is a time-consuming and error-prone process for field teams who need it in real time. Sarah and her team of construction tech experts are applying their deep industry experience to address this with modular AI agents.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The $40 million Series B funding will support Trunk Tools in expanding its engineering, product, and go-to-market teams, growing its field enablement program, and continuing to scale the AI platform’s capabilities across increasingly complex projects but also the long tail of the market.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Oak Ridge Reports Largest CFD Simulation Achieved on Frontier </title>
+<link>https://insidehpc.com/2025/07/oak-ridge-reports-largest-cfd-simulation-achieved-on-frontier/</link>
+<pubDate>Thu, 24 Jul 2025 14:59:39 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;389&quot; sizes=&quot;(max-width: 779px) 100vw, 779px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/10/exascale-day-2024-frontier-image-2-1.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2024/10/exascale-day-2024-frontier-image-2-1.png 779w, https://insidehpc.com/wp-content/uploads/2024/10/exascale-day-2024-frontier-image-2-1-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2024/10/exascale-day-2024-frontier-image-2-1-300x150.png 300w, https://insidehpc.com/wp-content/uploads/2024/10/exascale-day-2024-frontier-image-2-1-768x384.png 768w&quot; width=&quot;779&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;&quot; data-animate-in-effect=&quot;none&quot; data-midnight=&quot;light&quot; id=&quot;page-header-wrap&quot;&gt;
+  &lt;div class=&quot;not-loaded hentry&quot; data-alignment=&quot;left&quot; data-alignment-v=&quot;middle&quot; data-animate-in-effect=&quot;none&quot; data-bg-pos=&quot;center&quot; data-height=&quot;400&quot; data-midnight=&quot;light&quot; data-padding-amt=&quot;normal&quot; data-parallax=&quot;0&quot; data-post-hs=&quot;default&quot; data-text-effect=&quot;&quot; id=&quot;page-header-bg&quot;&gt;
+   &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+     &lt;div class=&quot;col span_6 section-title blog-title&quot; data-remove-post-author=&quot;0&quot; data-remove-post-comment-number=&quot;1&quot; data-remove-post-date=&quot;0&quot;&gt;
+      &lt;div class=&quot;inner-wrap&quot;&gt;
+       &lt;p class=&quot;entry-title ai-optimize-6 ai-optimize-introduction&quot;&gt;
+        &lt;span style=&quot;font-size: 16px;&quot;&gt;
+         A team of researchers from the Georgia Institute of Technology conducted the largest-ever computational fluid dynamics, or CFD, simulation of high-speed compressible fluid flows on the Frontier exascale-class supercomputer, according to Oak Ridge National Laboratory, which houses Frontier.
+        &lt;/span&gt;
+       &lt;/p&gt;
+       &lt;p class=&quot;entry-title ai-optimize-6 ai-optimize-introduction&quot;&gt;
+        &lt;span style=&quot;font-size: 16px;&quot;&gt;
+         The research team applied a new computational technique called information geometric regularization, or IGR. They combined it with a unified CPU-GPU memory approach — optimizing memory usage between traditional computer processors (CPUs) and graphics processors (GPUs) — to attain new levels of performance in CFD.
+        &lt;/span&gt;
+       &lt;/p&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;container-wrap no-sidebar&quot; data-midnight=&quot;dark&quot; data-remove-post-author=&quot;0&quot; data-remove-post-comment-number=&quot;1&quot; data-remove-post-date=&quot;0&quot;&gt;
+  &lt;div class=&quot;container main-content&quot;&gt;
+   &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;post-area col span_12 col_last&quot; role=&quot;main&quot;&gt;
+     &lt;article class=&quot;post-49360848 post type-post status-publish format-standard has-post-thumbnail category-featured category-technology tag-cfd tag-computational-fluid-dynamics tag-computer-science tag-frontier&quot; id=&quot;post-49360848&quot;&gt;
+      &lt;div class=&quot;inner-wrap&quot;&gt;
+       &lt;div class=&quot;post-content&quot; data-hide-featured-media=&quot;0&quot;&gt;
+        &lt;div class=&quot;content-inner&quot;&gt;
+         &lt;p class=&quot;ai-optimize-9 ai-optimize-introduction&quot;&gt;
+          The Georgia Tech team
+          &lt;a href=&quot;https://arxiv.org/abs/2505.07392&quot;&gt;
+           simulated an array of 1,500 Mach 14 rocket engines and their interacting exhaust plumes
+          &lt;/a&gt;
+          — modeling airflow at 14 times the speed of sound, where gases behave violently and unpredictably due to extreme pressure and temperature shifts. This simulation achieved a resolution of over 100 trillion grid points, thereby surpassing former records of 10 trillion grid points for a compressible CFD simulation on previous CPU-only supercomputers and 35 trillion for the quite different challenge of
+          &lt;a href=&quot;https://research.gatech.edu/georgia-tech-researchers-achieve-world-record-resolution-turbulence-simulations&quot;&gt;
+           incompressible fluid flow simulated on the GPU-equipped Frontier
+          &lt;/a&gt;
+          by Professor P.K. Yeung’s group, which is also at Georgia Tech.
+         &lt;/p&gt;
+         &lt;p class=&quot;ai-optimize-10&quot;&gt;
+          In addition to the massive increase in resolution and scale, the methodology devised by the Georgia Tech researchers sped up the time to solution four times faster and increased energy efficiency by 5.7 times over current state-of-the-art numerical methods.
+         &lt;/p&gt;
+         &lt;p class=&quot;ai-optimize-11&quot;&gt;
+          “Using this technique, we can simulate much larger problems than before. And not only can they be larger, but our current results suggest they are more accurate,” said Spencer Bryngelson, an assistant professor in Georgia Tech’s College of Computing who led the project with Georgia Tech colleague (and office neighbor) Florian Schäfer, who’s also an assistant professor in computing. “In contrast, P.K.’s incompressible flow simulations had quite different constraints than our compressible ones, and they were limited by costly network communication across all of Frontier. That’s a hard nut to crack. His simulations are, frankly, remarkable.”
+         &lt;/p&gt;
+         &lt;p class=&quot;ai-optimize-12&quot;&gt;
+          source: ORNL’s
+          &lt;span class=&quot;meta-author vcard author&quot;&gt;
+           &lt;span class=&quot;fn&quot;&gt;
+            &lt;a href=&quot;https://www.olcf.ornl.gov/author/turczyncz/&quot; rel=&quot;author&quot; title=&quot;Posts by Coury Turczyn&quot;&gt;
+             Coury Turczyn
+            &lt;/a&gt;
+           &lt;/span&gt;
+          &lt;/span&gt;
+         &lt;/p&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/article&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NNSA Deploys Cornelis CN5000 Fabric for ‘Lynx’ Cluster at Livermore </title>
+<link>https://insidehpc.com/2025/07/nnsa-deploys-cornelis-cn5000-fabric-for-lynx-cluster-at-livermore/</link>
+<pubDate>Thu, 24 Jul 2025 13:31:43 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;278&quot; sizes=&quot;(max-width: 557px) 100vw, 557px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/06/cornelis-logo-2-1-0625.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/06/cornelis-logo-2-1-0625.png 557w, https://insidehpc.com/wp-content/uploads/2025/06/cornelis-logo-2-1-0625-150x75.png 150w, https://insidehpc.com/wp-content/uploads/2025/06/cornelis-logo-2-1-0625-300x150.png 300w&quot; width=&quot;557&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  &lt;span class=&quot;il&quot;&gt;
+   Cornelis
+  &lt;/span&gt;
+  Networks announced that the CN5000 is being deployed by the U.S. Department of Energy’s (DOE) National Nuclear Security Administration to power the 952-node “Lynx” cluster at Lawrence Livermore National Laboratory.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  Chosen for the Commodity Technology Systems (CTS-2) network infrastructure refresh, in partnership with Dell Technologies, CN5000 supports the NNSA’s Advanced Simulation and Computing (ASC) program.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  CN5000 is the result of a three-year collaboration between
+  &lt;span class=&quot;il&quot;&gt;
+   Cornelis
+  &lt;/span&gt;
+  and the NNSA based on requirements defined under the Next-Generation High Performance Computing Network (NG-HPCN) project. CN5000’s Omni-Path architecture delivers breakthrough performance through patented congestion management, advanced link-level innovations, and proven scalability across large-scale deployments.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-18&quot;&gt;
+  This integrated approach is designed for high-speed performance for AI training and simulation workloads.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-9&quot;&gt;
+  CN5000 is an end-to-end, scale-out networking solution built for AI and HPC environments. Purpose-built to overcome compute underutilization and scaling bottlenecks, it delivers lossless data transfer, advanced congestion avoidance, and ultra-low latency.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-10&quot;&gt;
+  “We’re pleased to partner with
+  &lt;span class=&quot;il&quot;&gt;
+   Cornelis
+  &lt;/span&gt;
+  on CN5000 and look forward to leveraging its performance and features to accelerate our mission-critical HPC and AI workloads,” said Matt Leininger, Senior Principal HPC Strategist at LLNL.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-12&quot;&gt;
+  “We are excited about the launch of CN5000 and look forward to the impact of its innovations on future NNSA Commodity Technology and Advanced Technology Systems,” said Stephen Rinehart, Assistant Deputy Administrator for NNSA Advanced Simulation and Computing and Institutional R&amp;D Programs.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-13&quot;&gt;
+  “
+  &lt;span class=&quot;il&quot;&gt;
+   Cornelis
+  &lt;/span&gt;
+  Networks is honored to partner with the NNSA on advanced computing and simulation for the safety and security of nuclear technologies in the U.S. and worldwide,” said Rob Hays, Vice President of Public Sector at
+  &lt;a href=&quot;http://cornelisnetworks.com&quot;&gt;
+   &lt;span class=&quot;il&quot;&gt;
+    Cornelis
+   &lt;/span&gt;
+   Networks
+  &lt;/a&gt;
+  . “With CN5000, we’re helping the DOE accelerate scientific discovery and tackle complex national security challenges.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Why Is Drivenet’s Fabric Scheduled Ethernet the Best InfiniBand Alternative? </title>
+<link>https://insidehpc.com/2025/07/why-is-drivenets-fabric-scheduled-ethernet-the-best-infiniband-alternative/</link>
+<pubDate>Wed, 23 Jul 2025 13:36:52 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;epyt-video-wrapper fluid-width-video-wrapper&quot; style=&quot;padding-top: 56.25% !important;&quot;&gt;
+ &lt;/div&gt;
+ &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot;&gt;
+  [SPONSORED GUEST CONTENT]  Scheduled Ethernet is emerging as a viable alternative to InfiniBand for AI networking. Why? Because of its ability to offer comparable performance but with greater flexibility and cost-effectiveness.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-8&quot;&gt;
+  While InfiniBand excels in high-performance computing and AI workloads with its low latency and high bandwidth, it can be more complex to deploy and manage, and may lead to vendor lock-in.
+ &lt;/p&gt;
+ &lt;p class=&quot;ai-optimize-6&quot;&gt;
+  Drivenet’s
+  &lt;a href=&quot;https://drivenets.com/solutions/ai-networking-solutions/#:~:text=The%20Fabric%20Scheduled%20Ethernet%20(FSE,highest%20performance%2C%20efficiency%20and%20simplicity.&quot;&gt;
+   Fabric Scheduled Ethernet
+  &lt;/a&gt;
+  , on the other hand, leverages the widespread adoption and flexibility of Ethernet, offering a more scalable and adaptable solution for diverse AI and HPC workloads. For more information,
+  &lt;a href=&quot;https://drivenets.com/solutions/ai-networking-solutions/#:~:text=The%20Fabric%20Scheduled%20Ethernet%20(FSE,highest%20performance%2C%20efficiency%20and%20simplicity.&quot;&gt;
+   check this out
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AutoScheduler Receives Investment from Ben Gordon, Founder of Cambridge Capital LLC </title>
+<link>https://insideainews.com/2025/07/22/autoscheduler-receives-investment-from-ben-gordon-founder-of-cambridge-capital-llc/</link>
+<pubDate>Tue, 22 Jul 2025 16:45:26 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;post-image-wrapper&quot;&gt;
+  &lt;img alt=&quot;&quot; class=&quot;attachment-twoone size-twoone wp-post-image&quot; decoding=&quot;async&quot; height=&quot;250&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/06/generic-ai-generative-ai-2-1-shutterstock-2496403005.jpg&quot; srcset=&quot;https://insideainews.com/wp-content/uploads/2025/06/generic-ai-generative-ai-2-1-shutterstock-2496403005.jpg 500w, https://insideainews.com/wp-content/uploads/2025/06/generic-ai-generative-ai-2-1-shutterstock-2496403005-150x75.jpg 150w, https://insideainews.com/wp-content/uploads/2025/06/generic-ai-generative-ai-2-1-shutterstock-2496403005-300x150.jpg 300w&quot; width=&quot;500&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p align=&quot;left&quot;&gt;
+  AUSTIN, Texas, July 22, 2025 — AutoScheduler.AI, an agentic AI warehouse orchestration company, announced that it has received a strategic investment from Benjamin Gordon, a leading investor in logistics and supply chain technology companies. This investment marks a significant milestone in AutoScheduler’s continued growth and commitment to transforming warehouse orchestration through Agentic AI.
+ &lt;/p&gt;
+ &lt;p align=&quot;left&quot;&gt;
+  “Ben Gordon brings unmatched expertise in logistics technology and a proven track record of scaling high-growth supply chain innovators,” says Keith Moore, CEO of AutoScheduler.AI. “Ben understands that we’re entering a new era in warehousing, where Agentic AI enables proactive, intelligent decision-making across operations, driving speed, agility, and performance. This strategic partnership will help us accelerate our roadmap, enhance customer outcomes, and bring Agentic AI warehouse orchestration to even more enterprises.”
+ &lt;/p&gt;
+ &lt;p align=&quot;left&quot;&gt;
+  “In a world where disruptions are the norm, companies need intelligent, responsive systems that can orchestrate warehouse operations in real time and AutoScheduler delivers exactly that and more,” says Benjamin Gordon. “We are impressed with the team, technology, and leadership at the company and look forward to supporting their continued growth.”
+ &lt;/p&gt;
+ &lt;p align=&quot;left&quot;&gt;
+  Benjamin Gordon is Managing Partner of
+  &lt;a href=&quot;http://www.cambridgecapital.com&quot;&gt;
+   Cambridge Capital
+  &lt;/a&gt;
+  , an investor in niche supply chain leaders. He is also Managing Partner of BGSA Holdings LLC (BGSA), an investment banking firm focused on the supply chain industry. Prior to founding BGSA, Ben founded 3PLex and led strategy projects in transportation and technology at Mercer Management consulting. Ben received a Masters in Business Administration from Harvard Business School and a Bachelor of Arts degree from Yale College.
+ &lt;/p&gt;
+ &lt;p align=&quot;left&quot;&gt;
+  &lt;a href=&quot;http://www.AutoScheduler.AI&quot;&gt;
+   AutoScheduler
+  &lt;/a&gt;
+  continues to partner with global brands seeking to modernize warehouse operations and boost efficiencies and productivity within the warehouse environment. The investment will support AutoScheduler’s continued expansion, including enhancements to its product suite, growth of its leadership and engineering teams, and increased go-to-market efforts. Previous investments &amp; follow on investments were also made by core AutoScheduler partners Noro-Moseley Partners and Blue Impact LLC.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
