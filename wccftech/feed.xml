@@ -1,0 +1,2696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>WccfTech</title>
+<lastBuildDate>Sat, 09 Aug 2025 15:51:15 -0000</lastBuildDate>
+<item>
+<title> User Receives Fake MSI RTX 5090 With GPU And VRAM Chips Torn Off PCB; Another Incident Of Fake GPUs Being Supplied To Amazon </title>
+<link>https://wccftech.com/user-receives-msi-rtx-5090-gpu-with-gpu-chip-and-vram-modules-missing-from-the-pcb/</link>
+<pubDate>Sat, 09 Aug 2025 13:17:39 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/MSI-RTX-5090-Fake.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;New graphic card unboxing and internal components with character overlay.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/MSI-RTX-5090-Fake-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/MSI-RTX-5090-Fake-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/MSI-RTX-5090-Fake-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/MSI-RTX-5090-Fake-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/MSI-RTX-5090-Fake.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  It appears that the GPU might have been sent to one of those Chinese Labs, where they rip the GPU and VRAM chips from the RTX 5090s.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Redditor Orders MSI RTX 5090 Ventus 3X From Amazon but Finds No Tamper Seal; Further Investigation Revealed Ripped GPU Chip and VRAM From the PCB
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Once again, we are witnessing the supply of Fake GeForce RTX 5090 GPUs. It shouldn&#x27;t be surprising
+  &lt;a href=&quot;https://wccftech.com/user-gets-scammed-by-buying-a-cheap-rtx-5090-for-2000-but-finds-no-gpu-chip-and-memory-on-pcb/&quot;&gt;
+   since we have seen and reported such fraud multiple times
+  &lt;/a&gt;
+  , but this one looks somewhat familiar with what we reported recently. The GeForce RTX 5090 has a huge demand, particularly for AI in Chinese markets. Due to an official ban in the country, the only way the GPU gets there is by smuggling.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  This Redditor seems to be a victim of such fraud, as his GPU didn&#x27;t have the components, which are usually ripped from the PCB in China. Reddit user u/Nice-Screen-4193 says that he bought a brand new GPU from Amazon FR, &quot;sold and shipped by Amazon&quot;, not just by any third-party seller. However, he became skeptical when he saw no tamper seal on one of the screws at the back. This means the GPU was opened before.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The user still tried to give it a go before investigating further and reported a non-operational state of the GPU. He also states that the PCIe gold finger was looking dull and used. Using a flashlight, he was able to peek underneath the heatsink to find no memory chips under the thermal pads. So, after the disassembly, it was confirmed that not only was it missing the memory chips, but the entire GPU substrate was gone as well. What remained were just the soldering points on the PCB.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is a classic fraud, which could be linked to the
+  &lt;a href=&quot;https://wccftech.com/a-huge-inventory-of-geforce-rtx-5090-are-getting-turned-into-ai-gpus-in-china/&quot;&gt;
+   Chinese labs where thousands of RTX 5090 go under transformation
+  &lt;/a&gt;
+  . They remove the GPU die and the VRAM chips to solder on another custom PCB for deployment in the AI servers. It appears that the empty GPU was sent back in the supply chain cleverly, and ended up with the Reddit user. So, apparently, not even the GPUs, which are sold and shipped by Amazon, are safe from such fraud, but it also shows how common it is.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://wccftech.com/geforce-rtx-5090-reportedly-has-easy-availability-in-china/&quot;&gt;
+   GeForce RTX 5090 reportedly doesn&#x27;t have any problems in being smuggled to China
+  &lt;/a&gt;
+  , and while it&#x27;s one thing to see RTX 5090 being converted into AI GPUs, it&#x27;s even a more serious problem to see fake RTX 5090s getting back into the supply chain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Source:
+  &lt;a href=&quot;https://www.reddit.com/r/pcmasterrace/comments/1mlll7g/received_a_new_msi_5090_from_amazon_fr_gpu_die/&quot; target=&quot;_blank&quot;&gt;
+   Reddit
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD Officially Unveils Radeon RX 7400; 28 Compute Units, 8 GB GDDR6, And TBP Of 55W </title>
+<link>https://wccftech.com/amd-officially-unveils-radeon-rx-7400/</link>
+<pubDate>Sat, 09 Aug 2025 12:12:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Radeon-RX-7400-scaled.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;AMD Radeon RX 7400 graphics card with dynamic red wave design.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Radeon-RX-7400-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Radeon-RX-7400-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Radeon-RX-7400-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Radeon-RX-7400-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Radeon-RX-7400-1920x1080.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  After launching the entry-level PRO W7400 GPU, AMD is back with its gaming variant, bringing identical specifications.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  AMD Launches RDNA 3-Based Radeon RX 7400, Boasting 1792 Shaders, 28 Ray Accelerators, 8 GB GDDR6 Memory Clocked at 10.8 Gbps
+ &lt;/h2&gt;
+ &lt;p&gt;
+  There is hardly any difference in the specifications of the
+  &lt;a href=&quot;https://wccftech.com/amd-silently-launches-radeon-pro-w7400/&quot;&gt;
+   recently launched Radeon PRO W7400
+  &lt;/a&gt;
+  and the Radeon RX 7400, which AMD launched today. Both GPUs are based on the RDNA 3 architecture, and the RX 7400 is a gaming variant of the PRO 7400, targeting the budget segment, offering identical specifications. We recently saw the
+  &lt;a href=&quot;https://wccftech.com/radeon-rx-7400-spotted-on-utoronto/&quot;&gt;
+   Radeon RX 7400 being listed in a budget enterprise desktop PC
+  &lt;/a&gt;
+  by Dell, which suggested that the GPU will feature 8 GB VRAM capacity.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Well, it&#x27;s true as AMD has listed its detailed specifications on the website, bringing 8 GB GDDR6 VRAM, but it will be a slower one compared to the memory found on faster RX 7000 GPUs. Similar to the Radeon PRO W7400, the Radeon RX 7400 also brings 10.8 Gbps memory speed. This results in a memory bandwidth of 173 GB/s, which is roughly 40% lower than the memory bandwidth of the Radeon RX 7600. The latter is its bigger sibling, boasting the same 8 GB / 128-bit memory configuration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The RX 7400 is based on the same NAVI 33 die, found on the RX 7600, but a cut-down version, dropping the shader count to 1792. However, the Radeon RX 7400 is also ray tracing capable, and despite being the slowest, the GPU is the cheapest RX 7000 GPU to support ray tracing, bringing 28 Ray accelerators. Of course, it won&#x27;t be possible to get playable frame rates with this GPU with RT on, particularly when its bigger siblings already struggle even with better specs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Radeon RX 7400 seems to be targeted at the entry-level segment, bringing a single-slot design and a length of just 167mm. It&#x27;s technically the same size as the PRO W7400 and won&#x27;t require any external power connectors due to a TBP of just 55W. So, it will be perfect for pre-built, particularly entry-level solutions, which is why we saw Dell deploying the GPU in its new enterprise desktop PC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AMD hasn&#x27;t announced whether it will be available in the DIY market, but it&#x27;s likely an OEM-specific GPU and should start shipping soon.
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Sources:
+  &lt;a href=&quot;https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7400.html&quot; target=&quot;_blank&quot;&gt;
+   AMD
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.notebookcheck.net/AMD-Radeon-RX-7400-graphics-card-finally-official-and-spotted-inside-Dell-Tower-desktops.1082926.0.html&quot; target=&quot;_blank&quot;&gt;
+   Notebookcheck
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel’s CEO Lip-Bu Tan Responds to Claims Made By President Trump, Reaffirms Commitment to the U.S. Chip Industry &amp; Clears Up the Rumors of Conflict with The Board </title>
+<link>https://wccftech.com/intels-ceo-lip-bu-tan-responds-to-claims-made-by-president-trump/</link>
+<pubDate>Sat, 09 Aug 2025 10:35:27 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan.webp&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Man speaking at a tech conference with logos in the background.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;483&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-728x483.webp&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-728x483.webp 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-542x360.webp 542w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-1456x967.webp 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan.webp 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Intel&#x27;s CEO Lip-Bu Tan
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Intel&#x27;s boss has finally responded to all the recent claims made against him and the company and, more importantly, has reiterated his commitment to the US.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   Intel CEO Refutes Rumors of Ties to Chinese Firms, Reaffirms Commitment to the U.S. Administration
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  In the past few weeks, Intel has been under considerable pressure from the mainstream media, particularly from its CEO&#x27;s previous ties to Chinese firms. Moreover, President Trump&#x27;s recent statement further worsened the situation, making it absolutely necessary for Intel&#x27;s CEO, Lip-Bu Tan, to respond. Now, in a
+  &lt;a href=&quot;https://newsroom.intel.com/corporate/my-commitment-to-you-and-our-company&quot;&gt;
+   letter to the company&#x27;s employees
+  &lt;/a&gt;
+  , CEO Tan has addressed all the claims made against him, and has disclosed that there&#x27;s a lot of misinformation against him and the company revolving over the internet.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   There has been a lot of misinformation circulating about my past roles at Walden International and Cadence Design Systems. I want to be absolutely clear: Over 40+ years in the industry, I’ve built relationships around the world and across our diverse ecosystem – and I have always operated within the highest legal and ethical standards.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  There&#x27;s no doubt that Tan has been
+  &lt;a href=&quot;https://wccftech.com/intel-ceo-lip-bu-tan-his-ties-with-chinese-firms-are-now-being-questioned-by-us-lawmakers/&quot;&gt;
+   involved with Chinese companies for several years
+  &lt;/a&gt;
+  , but before he joined Intel as CEO, reports did say that all his positions were divested. More importantly, Intel&#x27;s CEO has also revealed that the firm is communicating with the Trump administration to clear up all the misconceptions, and this would likely help to clarify President Trump&#x27;s stance, where he previously said CEO Tan is &#x27;highly conflicted&#x27;.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Interestingly, Intel&#x27;s CEO has also cleared out all the rumors
+  &lt;a href=&quot;https://wccftech.com/intel-ceo-lip-bu-tan-fought-chairman-frank-yeary-to-save-firms-chip-manufacturing-business-as-he-argued-for-us-manufacturing-security-says-report/&quot;&gt;
+   concerning his clashes with board members
+  &lt;/a&gt;
+  and revealed that the board is &#x27;fully supportive of the work we are doing to transform our company&#x27;. There was a recent report that Intel&#x27;s Tan and Frank Yeary had been having disagreements since that start, which made the board members stall crucial decisions, including a potential acquisition. Now that CEO Tan has cleared the rumors, internal conflicts aren&#x27;t as big as the markets perceived.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel was having massive issues with its PR machine, especially with it not responding to market rumors at all, but CEO Tan&#x27;s recent statement might give fans confidence in the company.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple’s Lawsuit Against YouTuber Jon Prosser Likely Did Not Faze The Content Creator As He Pushes Out An iPhone 17 Pro Video Showcasing The Flagship’s Design, Camera And Other Details </title>
+<link>https://wccftech.com/apple-lawsuit-against-jon-prosser-pushed-another-iphone-17-pro-video/</link>
+<pubDate>Sat, 09 Aug 2025 09:45:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/iPhone-17-Pro-and-iPhone-17-Pro-Max-7.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Jon Prosser pushes an iPhone 17 Pro video despite Apple&#x27;s lawsuit&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/iPhone-17-Pro-and-iPhone-17-Pro-Max-7-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/iPhone-17-Pro-and-iPhone-17-Pro-Max-7-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/iPhone-17-Pro-and-iPhone-17-Pro-Max-7-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/iPhone-17-Pro-and-iPhone-17-Pro-Max-7-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/iPhone-17-Pro-and-iPhone-17-Pro-Max-7.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Apple&#x27;s lawsuit would have spooked many, but Jon Prosser appears to be fearless - Image credits - fpt.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Sitting on a
+  &lt;a href=&quot;https://wccftech.com/apple-had-133-billion-in-cash-enough-to-acquire-perplexity/&quot;&gt;
+   cash pile of $133 billion
+  &lt;/a&gt;
+  means that Apple has sufficient funds to fill the pockets of an army of lawyers, who will burden individuals and companies with a rubble of lawsuits until the opposing party finally succumbs to the technology giant’s demands. However, Jon Prosser, who has had legal proceedings filed against him for
+  &lt;a href=&quot;https://wccftech.com/apple-sues-jon-prosser-over-allegdly-stealing-trade-secrets-from-development-iphone-including-ios-26-leaks/&quot;&gt;
+   pushing out leaks surrounding iOS 26
+  &lt;/a&gt;
+  , has been defiant and has published a video talking about the iPhone 17 Pro design and other details, which we have talked about in detail below.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Latest speculation explored in the video talks about the possibility of an upgraded tetraprism periscope zoom lens arriving to the iPhone 17 Pro and iPhone 17 Pro Max
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Perhaps the most distinguishing change coming to the iPhone 17 Pro and iPhone 17 Pro Max is the camera bar, covering a massive portion of the rear side of the two flagships, but Apple could introduce this aesthetic makeover for something other than letting future buyers know that they will be flaunting a new device in their hands. According to Prosser, based on the speculation from external, unnamed sources, the camera bar will be present to make room for bigger camera sensors and their respective hardware.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  As the majority of you know, Apple launched the iPhone 16 Pro last year, sporting a tetraprism periscope zoom lens, making it the first time that the iPhone 16 Pro Max was not exclusive to this upgrade. However, the company needs to take a step further if it is going to keep pace with the competition. While the following is not confirmed, Prosser believes that the camera bar will be present so that a bigger periscope zoom lens or a bigger sensor can be added to the top, bringing all sorts of imaging advantages to the table.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The iPhone 17 Pro and iPhone 17 Pro Max will also ship with a 48MP telephoto camera, along with 48MP primary sensors to elevate the photography and videography sessions. While all of these specifications are impressive to hear, Prosser’s intrepid approach of posting another video with Apple’s ongoing lawsuit is a feat that the most daring of individuals can only achieve. If you want to check out the entire clip, it is given up top, and remember to tell us your thoughts in the comments.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Source:
+  &lt;a href=&quot;https://www.youtube.com/watch?v=E6ekN954hVo&quot; target=&quot;_blank&quot;&gt;
+   Jon Prosser
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Tea App Slammed With Ten Lawsuits After Data Breach Leaks Women’s Private Photos And Messages To 4chan, Triggering Outrage, Scandal, And Fierce Demands For Stronger Privacy Protections </title>
+<link>https://wccftech.com/tea-app-slammed-with-ten-lawsuits-after-data-breach-leaks-womens-private-photos-and-messages-to-4chan/</link>
+<pubDate>Sat, 09 Aug 2025 08:10:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/tea-2.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Tea app faces lawsuit for serious breach&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;425&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/tea-2-728x425.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/tea-2-728x425.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/tea-2-564x329.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/tea-2.jpg 1200w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Ten women are suing Tea app for massive data breach
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Tea app, which was marketed as a safe platform for women and a space for sharing dating experiences and letting other women know about abusive men, has one of the most
+  &lt;a href=&quot;https://wccftech.com/tea-dating-app-faces-second-blow-as-private-dms-about-abortions-infidelity-and-personal-details-leak/&quot;&gt;
+   disturbing
+  &lt;/a&gt;
+  privacy breaches in memory. A July 2025 hack leaked sensitive information onto the online forum 4chan that exposed about roughly 72,000 images that included about 13,000 selfies, ID photos, and about 1.1 million private messages. As a result of these huge data violations, the company is now facing ten class-action lawsuits.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Ten women sue Tea app after data breach exposes personal data and photos on 4chan
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Tea, which was once considered a digital safe haven, is now facing class-action lawsuits for failing to fulfill its very purpose. The app now
+  &lt;a href=&quot;https://x.com/dexerto/status/1953495467335020843?s=46&amp;t=veN68jNtTIN27tlyVQjtKg&quot;&gt;
+   faces
+  &lt;/a&gt;
+  ten legal cases filed against it, after the major July cyberattack exposed some of its most sensitive user data. The breach was not only severe but also deeply personal, given that the personal data exposed involved private images and messages that were then leaked onto 4chan, which is a forum known for hosting harmful content. The conversations revealed involved names of alleged abusers and safety warnings, and by spilling these details across the harmful forum, it amplified the security concerns for those who relied on Tea&#x27;s promise of safety.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Plaintiffs accuse the Tea app of negligence and breaching the contract between the user and the platform by failing to notify the users promptly. Some of the lawsuits filed blamed 4chan for its role in spreading the stolen material and pointed out that Elon Musk&#x27;s X platform amplified the circulation of the stolen data. A federal judge in San Francisco has now consolidated five of the federal class-action lawsuits into a single proceeding to simplify the case and avoid conflicting rulings.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Legal analysts say the financial stakes for the platform are high if the Tea app is found to be in violation of privacy and data protection laws. The damages could range between $1,000 to $5000 per affected user, resulting in tens of millions of compensations to be paid, given how widespread the breach was. The reason why this legal processing is vital is that it goes beyond a cybersecurity issue, highlighting the gravity of the situation given how apps like these are meant to protect users, those who have already experienced some kind of abuse, and are already at heightened risk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tea&#x27;s case raises bigger questions regarding the rapid development of AI-driven apps and how often that comes with security as an opportunity cost. It is vital for these systems to ensure privacy and trust, and not have the technology to serve or endanger those who are to be protected. In the wake of this, a new app, TeaOnHer, meant for men to review women, is gaining popularity, but now reports are warning against its serious security vulnerabilities as well.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Mortal Kombat 1 Has Sold 6.2 Million Units, Devs Want to Make It Their Most Balanced Game Yet </title>
+<link>https://wccftech.com/mortal-kombat-1-sold-6-2-million-units-devs-want-most-balanced/</link>
+<pubDate>Sat, 09 Aug 2025 08:10:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/MK1-HD-scaled.jpeg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Two Mortal Kombat 1 fighters in a decorative palace setting, striking dynamic poses.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;409&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/MK1-HD-728x409.jpeg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/MK1-HD-728x409.jpeg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/MK1-HD-564x317.jpeg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/MK1-HD-1456x819.jpeg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/MK1-HD-1920x1080.jpeg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Mortal Kombat 1 has reached a new sales milestone.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Mortal Kombat 1 has sold over 6.2 million units since its launch in September 2023, up from the 5 million milestone announced back in January. The news was delivered
+  &lt;a href=&quot;https://x.com/noobde/status/1953934498066051479&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   on X
+  &lt;/a&gt;
+  by Game Director Ed Boon, who also vowed the studio&#x27;s commitment to making it NetherRealm&#x27;s most balanced game yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To that end, a new Mortal Kombat 1 hotfix has gone live a few hours ago, making various adjustments to playable fighters:
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;h4&gt;
+  Ashrah
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Absolving a Sin with Heaven attacks does 30 damage (up from 20)
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Havik
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   The first hit of Flesh Wound (Back Punch, Back Punch) now hits Mid (was overhead) &amp; the 2nd hit is now overhead (was Mid)
+  &lt;/li&gt;
+  &lt;li&gt;
+   Increased combo damage scaling after Skab Stab (Away + Back Punch, Back Punch, Front Punch + Front Kick)
+  &lt;/li&gt;
+  &lt;li&gt;
+   Destroying Balance (Away + Back Punch, Back Punch, Back Kick) recovery on block and miss increased by 7 frames
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Kenshi
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Heighten Senses (Back Kick, Back Kick) can now be special cancelled
+  &lt;/li&gt;
+  &lt;li&gt;
+   Impaler (Away + Back Punch in Sento Stance) recovers 7 frames faster
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Li Mei
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Calculated (Back Kick, Front Kick, Back Kick) recovers 7 frames faster on hit
+  &lt;/li&gt;
+  &lt;li&gt;
+   (Air) Enhanced Flipping Heel Kick last hit is no longer more negative when Flawless Blocked
+  &lt;/li&gt;
+  &lt;li&gt;
+   Sky Lantern detonated by Nova Blast now hits overhead (was Mid)
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Liu Kang
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Punishing Palm (Front Punch, Back Punch, Front Punch) can be special cancelled
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Rain
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Water Beam &amp; Enhanced Water Beam starts up 3 frames faster
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Reptile
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Dr. Wreckyl (Towards + Back Punch, Front Punch, Front Punch) and Kneet Trick (Towards + Back Punch, Front Punch, Front Kick) are now longer more negative when Flawless Blocked
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Shang Tsung
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Knee Reverser (Back Punch, Back Kick in Young Form) now recovers 3 frames faster
+  &lt;/li&gt;
+  &lt;li&gt;
+   Spin Kick (Towards + Back Kick, Front Kick, Back Kick in Young Form) can now be special cancelled and does 50 damage (down from 70)
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Quan Chi
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Psycho Skull &amp; Enhanced Psycho Skull starts up 5 frames faster
+  &lt;/li&gt;
+  &lt;li&gt;
+   Sorcerer Smack (Front Punch) has 2 more frames of blockstun
+  &lt;/li&gt;
+  &lt;li&gt;
+   Bow Already! (Back Punch, Front Punch, Back Kick) has 5 more frames of hitstun
+  &lt;/li&gt;
+  &lt;li&gt;
+   Best Foot Backward (Down + Towards + Back Kick) now hits overhead (was Mid) and had its hit region adjusted
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Omni-Man
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Earthquake Stomp (Towards + Front Kick) 2nd hit has 5 more frames of blockstun
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Ermac
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Behind You releases opponent 10 frames sooner
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Homelander
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Increased combo damage scaling after Vought Drop, The Seven Slam, &amp; See No Evil (Away + Back Punch, Back Punch, Front Punch + Front Kick)
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Conan
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Fixed a rare issue that could cause Barbarian&#x27;s Blitz &amp; Barbarian&#x27;s Blade to sometimes not hit correctly in trade situations
+  &lt;/li&gt;
+  &lt;li&gt;
+   Barbarian&#x27;s Blitz &amp; Barbarian&#x27;s Blade recover 5 frames faster on hit &amp; miss
+  &lt;/li&gt;
+  &lt;li&gt;
+   Atlantean Bulwark 4th hit has 7 more frames of hit advantage
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  T-1000
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Multiplanar Laceration (Back Kick, Front Kick, Back Kick, Front Kick, Back Kick) 3rd hit now hits Mid (was overhead)
+  &lt;/li&gt;
+  &lt;li&gt;
+   Increased combo damage scaling after Liquiform Suplex &amp; Nasal Pierce (Away + Front Kick, Back Punch, Front Punch + Back Punch)
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Cyrax
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Capture Foam is now destroyed when hit by other projectiles
+  &lt;/li&gt;
+  &lt;li&gt;
+   Close, Mid, &amp; Far Bomb build less meter when performed &amp; do less damage when blocked
+  &lt;/li&gt;
+  &lt;li&gt;
+   Bomb Mistwalk builds less meter when performed &amp; does less damage when blocked
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;h4&gt;
+  Sektor
+ &lt;/h4&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   (Air) Burst Grenade no longer builds meter on miss
+  &lt;/li&gt;
+  &lt;li&gt;
+   (Air) Burst Grenade damage is now 50 (was 60)
+  &lt;/li&gt;
+  &lt;li&gt;
+   (Air) Burst Grenade &amp; (Air) Enhanced Burst Grenade do less damage when blocked
+  &lt;/li&gt;
+  &lt;li&gt;
+   Flamethrower now does 30 damage on first hit (down from 50) and 50 damage on 2nd hit (up from 30)
+  &lt;/li&gt;
+  &lt;li&gt;
+   Enhanced Flamethrower first hit now does 50 damage (down from 90) and 50 damage on 2nd hit (up from 30)
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Mortal Kombat 1 was reviewed well among critics (
+  &lt;a href=&quot;https://wccftech.com/review/mortal-kombat-1/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   it got an 8.5/10 here on Wccftech
+  &lt;/a&gt;
+  ), though it is noticeably slower in sales than its predecessor, Mortal Kombat 11, which reached the remarkable milestone of 15 million units in October 2022, roughly three and a half years after its debut. MK1 still has a year and a half to go, but it seems unlikely it could sell another 8.8 million units, even with deep discounts.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA’s H20 AI Chips Reportedly See ‘Green Light’ From Trump Administration for Export to China After Jensen’s Recent Visit to The White House </title>
+<link>https://wccftech.com/nvidia-h20-ai-chips-reportedly-gets-the-green-light-from-the-trump-administration-for-export-to-china/</link>
+<pubDate>Fri, 08 Aug 2025 23:17:06 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/07/NVIDIA-H20-Hopper-AI-GPU-For-China.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;NVIDIA&#x27;s H20 AI Accelerators Might Face The Next &amp;quot;US Ban&amp;quot;, Team Green Stops Taking New Orders In China 1&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;385&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/07/NVIDIA-H20-Hopper-AI-GPU-For-China-728x385.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/07/NVIDIA-H20-Hopper-AI-GPU-For-China-728x385.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2024/07/NVIDIA-H20-Hopper-AI-GPU-For-China-564x298.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2024/07/NVIDIA-H20-Hopper-AI-GPU-For-China-1456x769.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2024/07/NVIDIA-H20-Hopper-AI-GPU-For-China-1920x1014.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  NVIDIA&#x27;s H20 AI chips are now allowed to be exported to China, as the latest meeting between Jensen Huang and President Trump seems to have worked out.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  NVIDIA&#x27;s H20 AI GPUs Finally Starts to See Licensing Approval From the Commerce Department, Allowing Shipments to China
+ &lt;/h2&gt;
+ &lt;p&gt;
+  For those confused, NVIDIA&#x27;s CEO, Jensen Huang, announced a few weeks ago that the company would be selling its H20 AI chips to China after approval from the Commerce Department, but back then, the Trump administration itself didn&#x27;t give the green light. Now, according to a
+  &lt;a href=&quot;https://www.ft.com/content/e9c52f00-9bde-4840-801e-ba66c792df9e&quot;&gt;
+   report by the FT
+  &lt;/a&gt;
+  , it is revealed that the US has started to issue licenses for NVIDIA&#x27;s H20 AI chips to be shipped out to China, which means that Team Green is now free to export these chips to Beijing, resuming its business in the region, which was halted for several months.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The development comes after NVIDIA&#x27;s
+  &lt;a href=&quot;https://wccftech.com/nvidia-ceo-jensen-huang-meets-president-trump-amidst-talks-of-kill-switches-for-china-ai-gpus/&quot;&gt;
+   Jensen Huang met President Trump a few days ago
+  &lt;/a&gt;
+  , and the license issuance is likely an aftermath of the meeting. It was revealed in a previous report that H20 AI chips were in a massive backlog, mainly
+  &lt;a href=&quot;https://wccftech.com/nvidia-h20-ai-export-license-approval-reportedly-faces-a-backlog-of-a-whopping-30-years/&quot;&gt;
+   due to the delay from the Commerce Department
+  &lt;/a&gt;
+  , and despite Team Green reassuring its commitment to China, no shipments were being approved by the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not only this, but NVIDIA has also dodged a massive hurdle in the H20 AI chip exports to China, which was an
+  &lt;a href=&quot;https://wccftech.com/china-reportedly-launches-an-investigation-into-nvidia-h20-ai-chips/&quot;&gt;
+   impending investigation by a Chinese regulator
+  &lt;/a&gt;
+  . It was claimed that the newer shipments would have security backdoors or location tracking mechanisms within them, but NVIDIA clarified it as well, saying that the firm would never allow such backdoors to exist, despite pressures from US lawmakers. Resuming the China supply chain is Team Green&#x27;s top priority right now.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now that the H20 AI chips are starting to flow into China, it&#x27;s likely that NVIDIA will rely on them until year-end before introducing newer solutions such as the Blackwell B20 or the RTX 6000D GPUs for the domestic markets. The firm currently has around 900,000 units of H20 AI chips in their inventory, which means that they would at least manage to cater to the write-offs made in the previous quarters.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TeamGroup X2 MAX 2TB Portable SSD Review – Blazing Fast Speeds On a USB Stick </title>
+<link>https://wccftech.com/review/teamgroup-x2-max-2tb-portable-ssd-review/</link>
+<pubDate>Fri, 08 Aug 2025 22:52:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;header&gt;
+   Product Info
+  &lt;/header&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     TeamGroup X2 MAX
+    &lt;/h5&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     Price
+    &lt;/h5&gt;
+    &lt;span&gt;
+     $124.99
+    &lt;/span&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Team Group is indeed one of the more appealing brands to consider for your storage needs. While the company has offered an extensive lineup of NVMe SSDs, the X2 MAX is certainly a standout product, and we&#x27;ll discuss why ahead.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The manufacturer has been expanding its product portfolio for several years now, tapping into newer segments such as Gen4 and Gen5-based offerings. However, in the portable category, the company has a rather confined lineup. However, with the X2 MAX, that looks to change, as this marks Team Group&#x27;s first initiative to integrate a portable SSD in a USB form factor with the supported connections. The manufacturer was kind enough to send out a sample of the X2 MAX 2TB portable SSD, and here&#x27;s an extensive review on it.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;h2&gt;
+  TeamGroup X2 MAX 2TB Portable SSD - Dual Drive With Massive Storage Onboard
+ &lt;/h2&gt;
+ &lt;p&gt;
+  SSD on a USB stick is a segment that few manufacturers have tapped into, but if you look at the functionality it brings onboard, the X2 MAX certainly does a great job. More importantly, as the world shifts away from traditional USB sticks due to their storage and speed limitations, Team Group has actually managed to open a new frontier by combining the portability elements of a USB with the performance of an SSD, creating a top-tier product.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before we get into the close-up, here&#x27;s a quick rundown on specifications, detailing each detail of what to expect with this drive, or should I call it  &#x27;USB SSD&#x27;?
+ &lt;/p&gt;
+ &lt;h2&gt;
+  TeamGroup X2 MAX 2TB Portable SSD – Unboxing and Closer Look
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Since the X2 MAX SSD is a tiny product, the packaging itself wasn&#x27;t too big of a deal, but it did have the classy Team Group touch, with the rundown of the speeds of the drive at the front, along with other specifics at the back.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Taking it out of the package, the drive does have a tidy look, with an aluminum alloy casing running all along at both ends. On one side, you get the conventional USB Type-C connection; on the other, there&#x27;s support for Type-A, allowing the X2 MAX to be connected to a wide range of devices, such as desktop PCs, laptops, tablets, and mobile devices. The extensive connectivity range certainly puts the drive on a much more attractive position for consumers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I couldn&#x27;t find any way to open the internals; otherwise, I wouldn&#x27;t have avoided it, but the X2 MAX certainly feels like a top-tier product. Although, we are yet to conclude this without diving into extensive testing, which is up next.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  TeamGroup X2 MAX 2TB Portable SSD – Performance &amp; Comparison
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Well, since we haven&#x27;t reviewed similar flash drives, or should I callthem portable SSDs, compiling real-time tests might be a bit difficult. However, to compare the X2 MAX with industry alternatives, we have compared the read/write speeds of options available and their respective data as disclosed by the manufacturers themselves. Here&#x27;s how it stacks up:
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;header&gt;
+   &lt;h5&gt;
+    Compact USB Stick-Style Portable SSD Speeds (MB/s)
+   &lt;/h5&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      Sequential Read (MB/s)
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      Sequential Write (MB/s)
+     &lt;/span&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      0
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      400
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      800
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      1200
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      1600
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      2000
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      2400
+     &lt;/span&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/header&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       0
+      &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       400
+      &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       800
+      &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       1200
+      &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       1600
+      &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       2000
+      &lt;/span&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       2400
+      &lt;/span&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       TeamGroup X2 MAX
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 1000 
+Sequential Write (MB/s) 900 
+&quot;&gt;
+       &lt;div data-value=&quot;42&quot;&gt;
+        1000
+       &lt;/div&gt;
+       &lt;div data-value=&quot;38&quot;&gt;
+        900
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       Seagate Ultra Compact SSD
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 1000 
+Sequential Write (MB/s) 1000 
+&quot;&gt;
+       &lt;div data-value=&quot;42&quot;&gt;
+        1000
+       &lt;/div&gt;
+       &lt;div data-value=&quot;42&quot;&gt;
+        1000
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       Patriot Transporter Lite
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 1000 
+Sequential Write (MB/s) 1000 
+&quot;&gt;
+       &lt;div data-value=&quot;42&quot;&gt;
+        1000
+       &lt;/div&gt;
+       &lt;div data-value=&quot;42&quot;&gt;
+        1000
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       SK Hynix Tube T31
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 1250 
+Sequential Write (MB/s) 1250 
+&quot;&gt;
+       &lt;div data-value=&quot;53&quot;&gt;
+        1250
+       &lt;/div&gt;
+       &lt;div data-value=&quot;53&quot;&gt;
+        1250
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       Corsair EX100U
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 1600 
+Sequential Write (MB/s) 1500 
+&quot;&gt;
+       &lt;div data-value=&quot;67&quot;&gt;
+        1600
+       &lt;/div&gt;
+       &lt;div data-value=&quot;63&quot;&gt;
+        1500
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       Planck SSD
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 1050 
+Sequential Write (MB/s) 1050 
+&quot;&gt;
+       &lt;div data-value=&quot;44&quot;&gt;
+        1050
+       &lt;/div&gt;
+       &lt;div data-value=&quot;44&quot;&gt;
+        1050
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       iKlips S Nano Touch
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 450 
+Sequential Write (MB/s) 450 
+&quot;&gt;
+       &lt;div data-value=&quot;19&quot;&gt;
+        450
+       &lt;/div&gt;
+       &lt;div data-value=&quot;19&quot;&gt;
+        450
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div&gt;
+      &lt;span&gt;
+       SSK Dual-Drive SSD Stick
+      &lt;/span&gt;
+      &lt;div data-text=&quot;Sequential Read (MB/s) 550 
+Sequential Write (MB/s) 500 
+&quot;&gt;
+       &lt;div data-value=&quot;23&quot;&gt;
+        550
+       &lt;/div&gt;
+       &lt;div data-value=&quot;21&quot;&gt;
+        500
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The above comparison clearly shows that most of the drives with a similar form factor have basically the same speeds, except for the Corsair EX100U, which goes up to 1,600 MB/s. We also include options like the S Nano Touch, which is a tiny version of the X2 Max. Relative to this, it is certain that the X2 MAX does match industry standards in terms of the speeds. However, the one thing that makes TeamGroup stand out here is that it offers both Type-C and Type-A platforms on a single stick, which immensely increases functionality.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Let&#x27;s examine what to expect when transferring hefty files on this particular drive. Since the X2 MAX is different from mainstream NVMe products, we decided to manually test the drive&#x27;s thermals by shifting a 200 GB file from one system to another. The temperatures were recorded at 62 to 65 degrees, which isn&#x27;t that high for a drive that relies on aluminum for heat dissipation. So, if you are worrying about facing thermal issues with such a compact storage drive, I would conclude that you shouldn&#x27;t worry about the X2 MAX at all.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Conclusion - Portable &amp; Highly Functional USB Storage Drive
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The TeamGroup X2 MAX is undoubtedly one of the best drives in this segment. At $124.99 for the 2 TB variant, you get top-tier speeds and durability in the long run. The manufacturer offers some of the best NVMe drives out there, and there&#x27;s no doubt that this USB storage drive is no exception. If you are interested in getting the X2 MAX 2 TB variant, do check out the company&#x27;s official Amazon store
+  &lt;a href=&quot;https://www.amazon.com/dp/B0DRYJ8TX2/?tag=wccftech0a9-20&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;section&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;img alt=&quot;&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/DSC0162-541x360.jpg&quot;/&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;span&gt;
+     9
+    &lt;/span&gt;
+    &lt;h5&gt;
+     WCCFTECH RATING
+    &lt;/h5&gt;
+   &lt;/div&gt;
+   &lt;h2&gt;
+   &lt;/h2&gt;
+  &lt;/div&gt;
+ &lt;/section&gt;
+ &lt;section&gt;
+  &lt;p&gt;
+   Team Group X2 MAX offers incredible speeds in a compact form factor, allowing users to take the drive almost anywhere needed. With the manufacturer&#x27;s extensive experience in the segment, the drive certainly doesn&#x27;t disappoint.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;ul&gt;
+    &lt;h6&gt;
+     Pros
+    &lt;/h6&gt;
+    &lt;li&gt;
+     Great Design
+    &lt;/li&gt;
+    &lt;li&gt;
+     Dual USB Connection
+    &lt;/li&gt;
+    &lt;li&gt;
+     Effective SSD Speeds
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;ul&gt;
+    &lt;h6&gt;
+     Cons
+    &lt;/h6&gt;
+    &lt;li&gt;
+     A Bit Pricey
+    &lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;a href=&quot;&quot; rel=&quot;sponsored nofollow noskim&quot;&gt;
+   Buy for  from Amazon
+  &lt;/a&gt;
+  &lt;span&gt;
+   The links above are affiliate links. As an Amazon Associate, Wccftech.com may
+					earn from qualifying purchases.
+  &lt;/span&gt;
+ &lt;/section&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel’s CEO Lip-Bu Tan Responds to Claims Made By President Trump, Reaffirms Commitment to the U.S. Chip Industry &amp; Clears Up the Rumors of Conflict with The Board </title>
+<link>https://wccftech.com/intel-ceo-lip-bu-tan-responds-to-claims-made-by-president-trump/</link>
+<pubDate>Fri, 08 Aug 2025 16:21:29 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan.webp&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Man speaking at a tech conference with logos in the background.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;483&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-728x483.webp&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-728x483.webp 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-542x360.webp 542w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-1456x967.webp 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan.webp 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Intel&#x27;s CEO Lip-Bu Tan
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Intel&#x27;s boss has finally responded to all the recent claims made against him and the company and, more importantly, has reiterated his commitment to the US.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   Intel CEO Refutes Rumors of Ties to Chinese Firms, Reaffirms Commitment to the U.S. Administration
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  In the past few weeks, Intel has been under considerable pressure from the mainstream media, particularly from its CEO&#x27;s previous ties to Chinese firms. Moreover, President Trump&#x27;s recent statement further worsened the situation, making it absolutely necessary for Intel&#x27;s CEO, Lip-Bu Tan, to respond. Now, in a
+  &lt;a href=&quot;https://newsroom.intel.com/corporate/my-commitment-to-you-and-our-company&quot;&gt;
+   letter to the company&#x27;s employees
+  &lt;/a&gt;
+  , CEO Tan has addressed all the claims made against him, and has disclosed that there&#x27;s a lot of misinformation against him and the company revolving over the internet.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   There has been a lot of misinformation circulating about my past roles at Walden International and Cadence Design Systems. I want to be absolutely clear: Over 40+ years in the industry, I’ve built relationships around the world and across our diverse ecosystem – and I have always operated within the highest legal and ethical standards.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  There&#x27;s no doubt that Tan has been
+  &lt;a href=&quot;https://wccftech.com/intel-ceo-lip-bu-tan-his-ties-with-chinese-firms-are-now-being-questioned-by-us-lawmakers/&quot;&gt;
+   involved with Chinese companies for several years
+  &lt;/a&gt;
+  , but before he joined Intel as CEO, reports did say that all his positions were divested. More importantly, Intel&#x27;s CEO has also revealed that the firm is communicating with the Trump administration to clear up all the misconceptions, and this would likely help to clarify President Trump&#x27;s stance, where he previously said CEO Tan is &#x27;highly conflicted&#x27;.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Interestingly, Intel&#x27;s CEO has also cleared out all the rumors
+  &lt;a href=&quot;https://wccftech.com/intel-ceo-lip-bu-tan-fought-chairman-frank-yeary-to-save-firms-chip-manufacturing-business-as-he-argued-for-us-manufacturing-security-says-report/&quot;&gt;
+   concerning his clashes with board members
+  &lt;/a&gt;
+  and revealed that the board is &#x27;fully supportive of the work we are doing to transform our company&#x27;. There was a recent report that Intel&#x27;s Tan and Frank Yeary had been having disagreements since that start, which made the board members stall crucial decisions, including a potential acquisition. Now that CEO Tan has cleared the rumors, internal conflicts aren&#x27;t as big as the markets perceived.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel was having massive issues with its PR machine, especially with it not responding to market rumors at all, but CEO Tan&#x27;s recent statement might give fans confidence in the company.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD Announces ML-Powered FSR Redstone To Deliver Superior Visuals And Performance On RX 9000 GPUs; Will Be Released Later This Year For FSR v3.1.4 </title>
+<link>https://wccftech.com/amd-announces-ml-powered-fsr-redstone/</link>
+<pubDate>Fri, 08 Aug 2025 16:08:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/AMD-FSR-Redstone-1.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Red car showcasing FSR &#x27;Redstone&#x27; 4 with ML Frame Generation for high FPS gaming performance.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/AMD-FSR-Redstone-1-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/AMD-FSR-Redstone-1-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/AMD-FSR-Redstone-1-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/AMD-FSR-Redstone-1.jpg 1280w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  AMD FSR Redstone brings four different FidelityFX neural rendering features that can enhance the visuals of games using an ML model.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  AMD Readies its ML-Powered Suite Called FSR Redstone for Developers, Bringing Better Visuals and Performance on RX 9000 GPUs; FSR v3.1.4 and Anti-Lag 2 Plugins Rolled Out for UE 5.6
+ &lt;/h2&gt;
+ &lt;p&gt;
+  FSR 3 got a minor update, and now its latest version 3.1.4 is available for download as a part of the FidelityFX SDK 1.1.4. With the new update, AMD has also debuted a new suite of features, which it calls the FSR Redstone. The FSR Redstone is powered by Machine Learning and brings several neural rendering technologies to improve the image quality and performance of games.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The FidelityFX Super Resolution 3.1.4 opens the door for FSR Redstone inclusion later this year, which will arm developers with the ML-powered tech for visual enhancements in games using the Radeon RX 9000 GPUs. FSR Redstone brings four new features, especially crafted for RX 9000 series GPUs, to deliver better ray tracing, visuals, and performance.
+ &lt;/p&gt;
+ &lt;ol&gt;
+  &lt;li&gt;
+   Neural Radiance Caching, which uses an ML model to learn the light behaviour and predict the scenes for efficient real-time global illumination.
+  &lt;/li&gt;
+  &lt;li&gt;
+   ML Ray Regeneration, which is trained on noisy low-sampled renders to predict and filter grainy noise in real time, offering sharper visuals while reducing the overall rendering cost.
+  &lt;/li&gt;
+  &lt;li&gt;
+   ML Super Resolution to reconstruct low-resolution visuals in real time and offer upscaled images.
+  &lt;/li&gt;
+  &lt;li&gt;
+   ML Frame Generation that adds new fake frames between the real rendered ones for higher performance.
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  FSR 3.1.4 will also deliver several bug fixes and bring a digitally signed upgradable DLL for allowing developers to replace the DLL to upgrade the FSR without needing a full game patch. With such functionality, games using the FSR 3.1.4 will be able to support FSR 4 just by replacing the DLL, eliminating exhaustive integration by the developers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, the FSR Redstone isn&#x27;t yet available but will be rolled out later this year, which will equip developers with the latest ML-powered tools. However, AMD has released dedicated Unreal Engine 5.6 plugins for FSR 3.1.4 and Anti-Lag 2 for delivering the latest fixes and reducing the end-to-end system latency, respectively.
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Source:
+  &lt;a href=&quot;https://gpuopen.com/learn/amd-fsr3-ue5-6-redstone/&quot; target=&quot;_blank&quot;&gt;
+   GPUOpen
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> The PlayStation 5 Generation May Finally Be Starting for Real as PS4 Support Is Set to Wind Down by 2026 </title>
+<link>https://wccftech.com/the-playstation-5-generation-may-finally-be-starting-for-real-as-ps4-support-is-set-to-wind-down-by-2026/</link>
+<pubDate>Fri, 08 Aug 2025 15:44:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/PlayStation-5.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;PlayStation 5 console with DualSense controller on blue background.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/PlayStation-5-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/PlayStation-5-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/PlayStation-5-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/PlayStation-5-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/PlayStation-5-1920x1080.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   The PlayStation 5 generation may finally be starting for real with the end of the long cross-gen period
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The PlayStation 5, Xbox Series X|S generation has seen the longest cross-generation period to date, making players feel like the actual new generation never truly began, but next year may mark the end of this long period, with multiple developers looking into dropping PlayStation 4 support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a new report shared by
+  &lt;a href=&quot;https://www.gamesindustry.biz/sonys-confidence-in-playstation-is-well-placed-opinion&quot;&gt;
+   GamesIndustry
+  &lt;/a&gt;
+  , it has been revealed that
+  &lt;a href=&quot;https://wccftech.com/genshin-impact-drops-playstation-4-support/&quot;&gt;
+   HoYoverse dropping PlayStation 4 support for the extremely popular Genshin Impact
+  &lt;/a&gt;
+  isn&#x27;t going to be an isolated move, as
+  &lt;em&gt;
+   &quot;many other operators of major online and live service titles also eyeing up the timeline for dropping PS4 support.&quot;
+  &lt;/em&gt;
+  While some developers are dropping support for the previous generation system due to technical reasons, like in Genshin Impact&#x27;s case, the report suggests that the install bases of the current generation systems are now high enough for some publishers to leave the PlayStation 4 behind and focus their effort on the PlayStation 5 and Xbox Series X|S.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  With Sony&#x27;s system confirmed to have shipped 80.3 million PlayStation 5 units, it&#x27;s not surprising to hear that developers of live service games are finally ready to leave the previous console generation behind. Still, the current console generation finally coming onto its own may be short lived, as rumors abound regarding the next generation systems from Sony and Microsoft which should release between the next couple of years. Going by these rumors, both the PlayStation 6 and Xbox Next will represent a sort of shift for both manufacturers, as Sony is reportedly aiming to offer a
+  &lt;a href=&quot;https://wccftech.com/playstation-6-will-deliver-5-10x-ray-tracing-performance-over-base-ps5-a-4k-120-fps-console-will-be-a-compelling-proposition-at-anything-below-900/&quot;&gt;
+   4K, 120 FPS machine while keeping costs down
+  &lt;/a&gt;
+  , while Microsoft to use the
+  &lt;a href=&quot;https://wccftech.com/xbox-next-magnus-apu-flexibility-compete-pre-built-pcs/&quot;&gt;
+   flexibility offered by the Magnus APU
+  &lt;/a&gt;
+  to deliver a wider range of systems which won&#x27;t necessarily compete with a traditional console, but with gaming PCs. As such, amidst so many challenges, it seems like gaming is going to change quite a bit in the future, and even the concepts of console generations and cross-gen periods may become a thing of the past.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> There’s Actually an Olympics for Humanoid Robots Happening in Beijing Next Week, With Over 500 Robots Competing in Various Sports Events, Including Basketball and Fighting Competitions </title>
+<link>https://wccftech.com/there-actually-an-olympics-for-humanoid-robots-happening-in-beijing-next-week/</link>
+<pubDate>Fri, 08 Aug 2025 15:31:38 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad.png&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Robots playing soccer on a green field, showcasing advanced technology in sports.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad-728x410.png&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad-728x410.png 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad-564x317.png 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad-1456x819.png 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad-1920x1080.png 1920w, https://cdn.wccftech.com/wp-content/uploads/2025/08/dfe27784f5544b3984530e15a11938ad.png 2048w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Image Credits: CGTN
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Well, humanoid robots are taking over the industry as we speak, particularly in China, where a global robot competition is being held for a wide range of activities.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Robots Now Have Their Own Olympics Happening in China, As The Region Sees a Massive Boom With Physical AI
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Physical AI, often called the next big AI segment, has started to see more mainstream status, particularly in China, where many firms and startups are investing heavily. More importantly, these companies aren&#x27;t just manufacturing robots embedded with several functionalities; they are striving to make them accessible for everyone in terms of overall pricing. In order to test them out, Beijing is holding the 2025 World Humanoid Robot Games, which will start next week, and it will feature hundreds of robots competing in various sports.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div data-google-query-id=&quot;CJGdmKfE-44DFeNJwwYdsSI6ZA&quot;&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;svg viewbox=&quot;0 0 1000 1000&quot; x=&quot;0px&quot; xml:space=&quot;preserve&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; y=&quot;0px&quot;&gt;
+      &lt;g&gt;
+       &lt;g&gt;
+        &lt;g&gt;
+         &lt;g&gt;
+          &lt;g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M136.3,652.2v53.5c0,7.9-5.7,13.7-13.7,13.7c-5.5,0-13.1-5.7-13.1-13.7c-11.7,9.8-24.8,13.7-40.4,13.7C30.6,719.3,0,690.7,0,652.2s30.6-69.1,69.1-69.1S136.3,613.7,136.3,652.2z M109.5,652.2c0-22.9-17.5-42.3-40.4-42.3s-42.3,19.4-42.3,42.3s19.4,40.4,42.3,40.4C92,692.5,109.5,675,109.5,652.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M264.6,705.9c0,7.4-6,13.7-13.4,13.7h-84.9c-5.2,0-10.1-3-12.3-7.6c-2.5-4.9-1.9-10.4,1.4-14.5l68.3-87.9h-57.9c-7.4,0-13.4-6.3-13.4-13.7s6-13.4,13.4-13.4h84.9c5.2,0,10.1,2.7,12.3,7.6c2.5,4.6,1.9,10.1-1.4,14.2l-68.3,88.2h57.9C258.6,692.5,264.6,698.5,264.6,705.9z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M408.2,651c0,7.4-6,13.4-13.7,13.4h-94.2c5.7,16.4,21,28.1,39.3,28.1c6.3,0,17.5-0.5,30.6-9c6.3-4.1,14.7-0.3,18,6.3c3.3,6.8-0.3,13.9-6.6,18c-18,12-31.9,11.7-42.1,11.7c-38,0-68.5-30.9-68.5-68.5c0-38,30.6-68.5,68.5-68.5C372.7,582.5,408.2,606.5,408.2,651z M300.4,637.3h78.9c-5.7-19.1-23.2-27.9-39.6-27.9C321.4,609.5,306.1,621.2,300.4,637.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M506.5,596.2c0,7.4-6,13.7-13.7,13.7c-22.9,0-41.5,18.6-41.5,41.5v54.9c0,7.4-6,13.7-13.4,13.7c-7.6,0-13.7-6.3-13.7-13.7v-54.9c0-38,30.9-68.5,68.5-68.5C500.5,582.8,506.5,588.8,506.5,596.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M522.6,706.2v-110c0-7.4,6-13.4,13.7-13.4c7.4,0,13.4,6,13.4,13.4v110c0,7.6-6,13.7-13.4,13.7C528.6,719.8,522.6,713.8,522.6,706.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+            &lt;path d=&quot;M526.7,563.3c-2.5-2.5-4.1-6-4.1-9.6c0-3.5,1.6-7.1,4.1-9.6s6-4.1,9.6-4.1s7.1,1.6,9.6,4.1s3.8,6,3.8,9.6  c0,3.5-1.4,7.1-3.8,9.6c-2.5,2.5-6,3.8-9.6,3.8S529.2,565.8,526.7,563.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M565.8,651c0-38,30.9-68.5,68.5-68.5c38,0,68.5,30.6,68.5,68.5c0,37.7-30.6,68.5-68.5,68.5C596.6,719.5,565.8,688.8,565.8,651z M592.8,651c0,22.7,18.6,41.5,41.5,41.5s41.5-18.8,41.5-41.5c0-22.9-18.6-41.5-41.5-41.5C611.4,609.5,592.8,628.2,592.8,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M856,651v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-22.9-18.6-41.5-41.5-41.5s-41.5,18.6-41.5,41.5v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-38,30.9-68.5,68.5-68.5C825.2,582.5,856,613,856,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+          &lt;/g&gt;
+         &lt;/g&gt;
+        &lt;/g&gt;
+       &lt;/g&gt;
+       &lt;g&gt;
+        &lt;path d=&quot;M607.4,302c0.7,0.9,1.2,1.5,1.6,2.1c8.1,12.3,13.2,25.8,14.5,40.5c1.1,12.7-0.8,25.1-5.7,36.9c-9.3,22.6-25.2,39.3-46.8,50.5c-16.7,8.7-34.5,12.3-53.2,11.1c-21.8-1.3-41.2-8.8-58.1-22.8c-1.5-1.2-2.9-2.5-4.3-3.9c-25.1-25.8-41.5-56.4-48.7-91.7c-2.5-12.3-3.6-24.6-3.6-37.1c0-17.1,0-34.2,0-51.3c0-10.5-1.8-20.7-5.8-30.5c-10.2-25.3-33-43.7-59.8-48.1c-43.8-7.2-81.7,21.4-90.4,60.9c-1.5,6.8-2,13.7-1.6,20.6c0.1,1.8,0.2,3.6,0.2,5.4c-0.9,0.4-1.1-0.2-1.4-0.6c-3.8-5.5-7.2-11.2-10.3-17.2c-7.7-15-12.7-30.9-15.1-47.7c-4.2-30.7,1.3-59.6,16.8-86.4c19.2-33.4,47.5-56,83.6-69c11.1-4,22.6-6.7,34.3-8c12.9-1.5,25.8-1.4,38.6,0.3c15.6,2.1,30.6,6.3,44.8,13.1c3.1,1.5,6.1,3.1,9,4.8c54.5,32.9,93.7,87.4,107.7,149.5c3,13.4,4.9,27,5.5,40.7c0.2,5.1,0.4,10.2,0.4,15.3c0.1,15.9,0.2,31.7,0.3,47.6c0,2.6,0.2,5.3,0.8,7.7c2.7,10.1,9.2,16.6,19.4,18.8c10.1,2.1,18.5-1.1,25.2-8.9c0.3-0.3,0.5-0.7,0.8-1.1C606.5,303.1,606.8,302.8,607.4,302z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M365.6,4.1c-1,0.1-2,0.2-3,0.2c-8.3,0.2-16.5,0.9-24.7,2.2c-23,3.8-44.3,12-63.8,24.8c-22.5,14.7-40.7,33.5-53.9,56.9c-9,15.9-14.8,33-17.5,51.1c-2,13.2-2.3,26.4-0.7,39.6c4.6,37.7,20.6,69.8,46.9,97c10.2,10.5,21.6,19.3,34.1,26.9c10.7,6.5,22.3,10.4,34.9,11.3c20.9,1.5,39.6-4.3,56-17.4c3.4-2.7,6.6-5.5,9.9-8.3c0.6-0.5,1.2-0.9,1.8-1.3c0.8,0.5,0.6,1.1,0.6,1.6c0,3.7,0.1,7.5,0,11.2c-0.1,6.6,0.7,13.1,1.7,19.6c3.1,19.9,9.1,39,18,57.1c9.7,19.8,22.4,37.5,38,53.1c1.7,1.8,3.5,3.5,5.2,5.3c-8.2,7.3-40.8,22-61.5,27.7c-34.6,9.6-69.6,11.3-105,5.1c-36.7-6.5-70-20.9-99.7-43.3C90.9,355.7,63.6,234,111,134.6C135.2,84,173,46.7,223.5,22.4C271.8-0.8,324.4-4.2,365.6,4.1z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M505.4,452c2.7,0.5,5.3,1,7.8,1.4c18.7,3.1,37.1,1.5,54.9-4.9c28.3-10.2,49.6-28.7,63.4-55.5c6.9-13.3,10.2-27.6,10.3-42.5c0.1-15-3.3-29.2-9.6-42.7c-6.4-13.5-15.3-25.1-26.2-35.2c-11.9-10.9-19.6-24.2-23.2-39.9c-9.6-41.7,15.3-82.2,55.4-93.4c27.6-7.7,56.9,0.2,76.8,20.3c25.8,26.1,42.4,57,49.7,93c2.3,11.4,3.6,22.8,3.4,34.4c-0.1,6.3,0,12.7-0.6,19c-1.5,15.2-4.7,30-9.9,44.3c-21,57.7-69.3,101.2-128.7,115.7c-18.1,4.4-36.4,6-55,4.8c-23-1.4-44.9-7.1-65.7-16.9C507.2,453.5,506,453.3,505.4,452z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+       &lt;/g&gt;
+      &lt;/g&gt;
+     &lt;/svg&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  This is indeed a one-of-a-kind event in the world, and it is the first competitive event for robots. It is claimed that more than five hundred humanoid robots from 127 different companies will participate in this event, and it isn&#x27;t just limited to sports. It includes a grand showcase, scenario-based competitions, and sports such as badminton, basketball, table tennis, free fighting, and group dance. The Chinese media outlet CCTV showcased an instance where robots mimic professional athletes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When you look at it, China is rapidly advancing in the humanoid robots space, with many companies filing for pre-IPOs backed by Tencent and Alibaba. The domestic markets are heavily investing in this segment, mainly since China is a dominant manufacturing hub in the world, and the production of humanoid robots requires a lot more than just AI software onboard. Apart from manufacturing, China has been dominating with the prices lately, and the Chinese firm Unitree recently
+  &lt;a href=&quot;https://wccftech.com/for-just-5900-you-can-own-a-chinese-made-unitree-r1-humanoid-robot/&quot;&gt;
+   showcased a robot that was around $6,000
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would be interesting to witness the Olympics for robots, especially when they fight in the ring. While this segment needs a lot more refinement for now, it is safe to say that the future will involve many humanoids around us.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Batman: Arkham Knight Continues to Be A Visually Stunning Game With New HD Texture Pack </title>
+<link>https://wccftech.com/batman-arkham-knight-hd-texture-pack/</link>
+<pubDate>Fri, 08 Aug 2025 15:04:47 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2022/10/WCCFbatmanarkham.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Batman Arkham&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2022/10/WCCFbatmanarkham-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2022/10/WCCFbatmanarkham-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2022/10/WCCFbatmanarkham-768x432.jpg 768w, https://cdn.wccftech.com/wp-content/uploads/2022/10/WCCFbatmanarkham.jpg 1280w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Ten years after its launch, Batman: Arkham Knight finally received an HD texture pack
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The first Batman: Arkham Knight HD texture pack is now available for download, ten years after the game&#x27;s debut on PC and consoles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new texture pack, which has been created by GPUnity in collaboration with other developers such as Neato, Mr. Binks, and Ranger, enhances multiple low-resolution textures with a mix of upscaling and manual work, and the end results go a long way in improving the game&#x27;s visuals at high resolutions. You can download the texture pack from
+  &lt;a href=&quot;https://www.nexusmods.com/batmanarkhamknight/mods/2671&quot;&gt;
+   Nexus Mods
+  &lt;/a&gt;
+  , and check out how the new textures improve the game&#x27;s visuals in the video below.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Batman: Arkham Knight is the last entry in the series developed by Rocksteady. Released back in 2015 on PC, PlayStation 4, and Xbox One, the game is remembered for having been released in a terrible state on PC, requiring
+  &lt;a href=&quot;https://wccftech.com/batman-arkham-knight-gets-new-pc-patch-to-improve-vram-management-november-dlc/&quot;&gt;
+   multiple patches
+  &lt;/a&gt;
+  to fix. The third and final main entry in the series was ported to Nintendo Switch in late 2023, becoming likewise infamous for being one of the worst third-party ports released on the system, running at a whopping
+  &lt;a href=&quot;https://wccftech.com/batman-arkham-knight-embarassing-switch-0-fps/&quot;&gt;
+   0 FPS
+  &lt;/a&gt;
+  in some scenarios. The Nintendo Switch 2 excellent backward compatibility feature, however, allows the game to take advantage of the system&#x27;s specs to
+  &lt;a href=&quot;https://wccftech.com/batman-arkham-knight-fixed-nintendo-switch-2/&quot;&gt;
+   brute force better performance.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  After releasing Batman: Arkham Knight, Rocksteady released Suicide Squad: Kill the Justice League, a live service game that not only failed to deliver an engaging experience but also looked
+  &lt;a href=&quot;https://wccftech.com/suicide-squad-kill-the-justice-league-dated-batman-arkham/&quot;&gt;
+   considerably worse
+  &lt;/a&gt;
+  than the third entry in the studio&#x27;s iconic series. You can learn more about the failed live service game by checking out Nathan&#x27;s
+  &lt;a href=&quot;https://wccftech.com/review/suicide-squad-kill-the-justice-league/&quot;&gt;
+   review.
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Battlefield 6 Crashing Reports Emerge With Configurations Using Intel Arc Alchemist Graphics Cards; Intel Starts Investigations </title>
+<link>https://wccftech.com/battlefield-6-crashing-reports-emerge-with-configurations-using-intel-arc-alchemist-graphics-cards/</link>
+<pubDate>Fri, 08 Aug 2025 13:36:27 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Arc-A770-Battlefield-6.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Intel Arc A770 GPU Limited Edition in Battlefield 6 game scene with soldiers and explosions.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Arc-A770-Battlefield-6-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Arc-A770-Battlefield-6-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Arc-A770-Battlefield-6-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Arc-A770-Battlefield-6-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Arc-A770-Battlefield-6-1920x1080.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Intel Arc A-series GPUs seem to have compatibility issues with the new Battlefield installment. However, Intel has acknowledged the problem and is currently investigating the issue.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Intel Arc A-Series GPUs Are Causing Crashes in Battlefield 6; Intel Says It&#x27;s Working on a New Driver Update to Fix the Problem
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Battlefield 6 open beta has just started, and it has hardly been a day, and we are already seeing reports of the game crashing on specific hardware. Thankfully, it&#x27;s not a widespread issue, but apparently, a lot of Arc A-series GPU owners are facing this. Users with Arc Alchemist discrete GPUs are facing crashes while loading the game or mid-game, and this has led Intel to release its statement on the problem.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   Our team at Intel is aware of the crashing issue some of you are experiencing while playing Battlefield 6 on Intel Arc A-Series discrete GPUs. Rest assured, we&#x27;re on it! We&#x27;re working hard to develop a fix and will be rolling out a driver update to resolve this as soon as possible. Thanks for your patience and keep an eye out for updates.
+  &lt;/p&gt;
+  &lt;p&gt;
+   -
+   &lt;strong&gt;
+    Intel
+   &lt;/strong&gt;
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  If you aren&#x27;t aware of
+  &lt;a href=&quot;https://forums.ea.com/discussions/battlefield-6-beta-technical-issues-en/intel-arc-alchemist-series-a770-16gb-etc-crashing-while-loading-match/12430593&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   EA forums
+  &lt;/a&gt;
+  , there are some users who have reported game crashes with Arc A-series GPUs. One said that the game crashes while the match is loading, and others shared a similar experience. As acknowledged by Intel, these are all Arc A-series GPU owners, and this is what a user reported on
+  &lt;a href=&quot;https://www.reddit.com/r/IntelArc/comments/1mjxg6g/bf6_crashing_how_to_fix/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Reddit
+  &lt;/a&gt;
+  as well. However, the Redditor u/Ok_Tomato_O has found a temporary fix to this problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As per his testing, Battlefield 6 crashes in the &quot;Borderless Mode,&quot; and since the game runs on Borderless mode by default, it&#x27;s common to see the game crashing on Intel A-series GPUs. Once the game is set to Full Screen or Windowed mode, the problem seems to disappear completely. Many users have confirmed that this method works, and before Intel releases a new driver update, we recommend Arc Alchemist discrete GPU owners follow the exact instructions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hopefully, Intel releases a new driver that will fix the problem permanently. As of now, the issue doesn&#x27;t seem to affect the Arc B-Series GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Sources:
+  &lt;a href=&quot;https://community.intel.com/t5/Intel-ARC-Graphics/Battlefield-6-crash-with-Intel-Arc-A-Series/td-p/1708127&quot; target=&quot;_blank&quot;&gt;
+   Intel
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://x.com/Haze2K1/status/1953794879810629918&quot; target=&quot;_blank&quot;&gt;
+   @Haze2K1
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel Is Reportedly Preparing Arc B380; Adds New Battlemage PCI ID to Linux Kernel </title>
+<link>https://wccftech.com/intel-is-reportedly-preparing-arc-b380-adds-new-battlemage-pci-id-to-linux-kernel/</link>
+<pubDate>Fri, 08 Aug 2025 13:03:05 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/08/Intel-Arc-Battlemage-Graphics-Card-Xe2-GPU-_-Main.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Intel&#x27;s Arc Battlemage B580 &amp;quot;Limited Edition&amp;quot; GPU Listed Online For $259 1&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;369&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/08/Intel-Arc-Battlemage-Graphics-Card-Xe2-GPU-_-Main-728x369.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/08/Intel-Arc-Battlemage-Graphics-Card-Xe2-GPU-_-Main-728x369.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2024/08/Intel-Arc-Battlemage-Graphics-Card-Xe2-GPU-_-Main-564x286.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2024/08/Intel-Arc-Battlemage-Graphics-Card-Xe2-GPU-_-Main-1456x738.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2024/08/Intel-Arc-Battlemage-Graphics-Card-Xe2-GPU-_-Main-1920x973.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Intel&#x27;s new offering in the Battlemage lineup is supposedly a budget GPU, which should be succeeding the Arc A380.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Intel Adds 0xE209 PCI ID with BMG G21 to Both Linux Kernel and Mesa; Hints at the Entry-Level Arc B380 GPU With Specs Retained From Arc B50 PRO
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The whereabouts of the Arc B770 might be unknown at the moment, but it appears that Intel may not just be working on a faster mainstream consumer Arc Battlemage GPU but also on an entry-level card. What we are seeing is Intel preparing a new GPU, as was spotted recently in the
+  &lt;a href=&quot;https://lore.kernel.org/all/20250704103527.100178-1-ravi.kumar.vodapalli@intel.com/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Linux Kernel driver patches
+  &lt;/a&gt;
+  with the PCI ID 0xE209.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  This new PCI ID represents a new Arc Battlemage GPU, but for the mainstream consumer lineup. As per the new kernel patches, the newly added PCI ID should now help the driver recognize the new GPU, and the patch appears to be from yesterday. Not only the Linux Kernel, but this ID was mentioned in the
+  &lt;a href=&quot;https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/36668/diffs&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Mesa PCI ID table
+  &lt;/a&gt;
+  as well, clearly mentioning the &quot;BMG G21&quot;, indicating it&#x27;s not the B770.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mesa provides the open-source userspace drivers for handling rendering, compute, and display. With the addition of new PCI ID 0xE209, 3D rendering support for the new GPU is now enabled, and it will also help in running Vulkan and OpenGL apps on the GPU. As per the user
+  &lt;a href=&quot;https://x.com/LasseKrkkinen/status/1953790456438878613&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   @LasseKrkkinen
+  &lt;/a&gt;
+  , this new GPU is supposedly the Intel Arc B50 PRO&#x27;s consumer variant and could possibly be the Arc B380. B380 will be the successor to the Alchemist-based Arc A380, but it will be much superior in specifications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the Arc A380 brings 8 Xe cores, the B380, if based on the B50 PRO&#x27;s specs, will feature 16 Xe2 cores. This is only two Xe2 cores fewer than the Arc B570, a budget GPU in the Battlemage lineup, which could mean that the Arc B380 might be closer to the B570&#x27;s performance. Once again, take this with a grain of salt since this is just speculation based on the leaker&#x27;s report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, considering if it really brings 16 Xe2 cores, then it could be a fantastic entry-level GPU, provided that Intel prices it at &amp;lt;$150. The Arc A380 was launched at $149, and the Arc BA380 could offer an excellent option to gamers at this price tag, since the $100-$200 is often ignored by GPU manufacturers these days.
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Source:
+  &lt;a href=&quot;https://x.com/LasseKrkkinen/status/1953790456438878613&quot; target=&quot;_blank&quot;&gt;
+   @LasseKrkkinen
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Disciples: Domination Is a New Installment in the Dark Fantasy Turn Based Strategy RPG Franchise, Will Debut in 2026 </title>
+<link>https://wccftech.com/disciples-domination-is-a-new-installment-in-the-dark-fantasy-turn-based-strategy-rpg-franchise-will-debut-in-2026/</link>
+<pubDate>Fri, 08 Aug 2025 13:03:02 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Disciples-Domination-HD-scaled.jpeg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Fantasy warrior with wings sits on a throne in a grand hall, holding a sword. Text: Disciples: Domination.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Disciples-Domination-HD-728x410.jpeg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Disciples-Domination-HD-728x410.jpeg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Disciples-Domination-HD-564x317.jpeg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Disciples-Domination-HD-1456x819.jpeg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Disciples-Domination-HD-1920x1080.jpeg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Disciples: Domination, the next entry in the strategy RPG franchise, has been announced.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Publisher Kalypso Media announced Disciples: Domination, a new installment in the dark fantasy turn based strategy RPG franchise. This is the direct sequel to 2021&#x27;s Disciples: Liberation (currently 65% off on Steam), though the developer has changed. Whereas Liberation was made by Canadian developer Frima Studio, Domination is being developed by French developer Artefacts Studio.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The narrative of Disciples: Domination begins fifteen years after the ending of Liberation, when Avyanna freed Nevendaar from the gods&#x27; tyrannical grip. Players will step on Queen Avyanna’s throne and attempt to hold together a crumbling kingdom.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The fire of doubt burns within the Queen, sparked by the weight of the Yllian throne and stoked by dreams of becoming the monsters she once defied and destroyed. Paralyzed by fear and haunted by her own power, her rule begins to crumble, with allies disappearing and abandoning her just as an unknown force spreads strife and madness throughout her realm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Players&#x27; choices will shape the future, whether for salvation or ruin. As they chase the truths behind the ceaseless conflicts, dark magic, and conspiracies infecting the empire, they must also face betrayal, strife, and shadowy schemes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the course of Disciples: Domination, they&#x27;ll get to choose their companions. They can be consulted for guidance on the many choices that will shape the faction&#x27;s reputation and impact how others react to Avyanna&#x27;s rule. In combat, players will lead their army in tactical, grid-based battles with faster pacing, dynamic events, and richer interaction. New skills, faction abilities, and unit synergies deepen the strategic options available, along with the unique system of strengths and weaknesses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Disciples: Domination is set to launch next year on PC, PlayStation 5, and Xbox Series S|X.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Battlefield 6 Beta New Comparison Video Highlights Significant Destruction Mechanics and Physics Improvements Over Battlefield 2042, Rock Solid Performance on PC and Consoles </title>
+<link>https://wccftech.com/battlefield-6-destruction-improvements-battlefield-2042/</link>
+<pubDate>Fri, 08 Aug 2025 12:00:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Battlefield-6-Destruction-comparison.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Soldiers in intense battle scene with weapons, fire, and debris. Tactical military action.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Battlefield-6-Destruction-comparison-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Battlefield-6-Destruction-comparison-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Battlefield-6-Destruction-comparison-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Battlefield-6-Destruction-comparison-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Battlefield-6-Destruction-comparison.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Battlefield 6 seems to be a significant improvement over its predecessor
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Battlefield 6&#x27;s destruction mechanics seem to have been brought to the next level, judging from a fresh comparison video shared online shortly before the early access of the open beta began.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The comparison video put together by
+  &lt;a href=&quot;https://www.youtube.com/@ElAnalistaDeBits&quot;&gt;
+   ElAnalistaDeBits
+  &lt;/a&gt;
+  puts footage featuring the destruction mechanics and pyshics of the upcoming new entry in the series side by side with footage from Battlefield 2042, highlighting significant improvements across the board. You can check out the video below.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div data-google-query-id=&quot;CLX-8piV-44DFUVLwwYdNO0UuA&quot;&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;svg viewbox=&quot;0 0 1000 1000&quot; x=&quot;0px&quot; xml:space=&quot;preserve&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; y=&quot;0px&quot;&gt;
+      &lt;g&gt;
+       &lt;g&gt;
+        &lt;g&gt;
+         &lt;g&gt;
+          &lt;g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M136.3,652.2v53.5c0,7.9-5.7,13.7-13.7,13.7c-5.5,0-13.1-5.7-13.1-13.7c-11.7,9.8-24.8,13.7-40.4,13.7C30.6,719.3,0,690.7,0,652.2s30.6-69.1,69.1-69.1S136.3,613.7,136.3,652.2z M109.5,652.2c0-22.9-17.5-42.3-40.4-42.3s-42.3,19.4-42.3,42.3s19.4,40.4,42.3,40.4C92,692.5,109.5,675,109.5,652.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M264.6,705.9c0,7.4-6,13.7-13.4,13.7h-84.9c-5.2,0-10.1-3-12.3-7.6c-2.5-4.9-1.9-10.4,1.4-14.5l68.3-87.9h-57.9c-7.4,0-13.4-6.3-13.4-13.7s6-13.4,13.4-13.4h84.9c5.2,0,10.1,2.7,12.3,7.6c2.5,4.6,1.9,10.1-1.4,14.2l-68.3,88.2h57.9C258.6,692.5,264.6,698.5,264.6,705.9z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M408.2,651c0,7.4-6,13.4-13.7,13.4h-94.2c5.7,16.4,21,28.1,39.3,28.1c6.3,0,17.5-0.5,30.6-9c6.3-4.1,14.7-0.3,18,6.3c3.3,6.8-0.3,13.9-6.6,18c-18,12-31.9,11.7-42.1,11.7c-38,0-68.5-30.9-68.5-68.5c0-38,30.6-68.5,68.5-68.5C372.7,582.5,408.2,606.5,408.2,651z M300.4,637.3h78.9c-5.7-19.1-23.2-27.9-39.6-27.9C321.4,609.5,306.1,621.2,300.4,637.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M506.5,596.2c0,7.4-6,13.7-13.7,13.7c-22.9,0-41.5,18.6-41.5,41.5v54.9c0,7.4-6,13.7-13.4,13.7c-7.6,0-13.7-6.3-13.7-13.7v-54.9c0-38,30.9-68.5,68.5-68.5C500.5,582.8,506.5,588.8,506.5,596.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M522.6,706.2v-110c0-7.4,6-13.4,13.7-13.4c7.4,0,13.4,6,13.4,13.4v110c0,7.6-6,13.7-13.4,13.7C528.6,719.8,522.6,713.8,522.6,706.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+            &lt;path d=&quot;M526.7,563.3c-2.5-2.5-4.1-6-4.1-9.6c0-3.5,1.6-7.1,4.1-9.6s6-4.1,9.6-4.1s7.1,1.6,9.6,4.1s3.8,6,3.8,9.6  c0,3.5-1.4,7.1-3.8,9.6c-2.5,2.5-6,3.8-9.6,3.8S529.2,565.8,526.7,563.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M565.8,651c0-38,30.9-68.5,68.5-68.5c38,0,68.5,30.6,68.5,68.5c0,37.7-30.6,68.5-68.5,68.5C596.6,719.5,565.8,688.8,565.8,651z M592.8,651c0,22.7,18.6,41.5,41.5,41.5s41.5-18.8,41.5-41.5c0-22.9-18.6-41.5-41.5-41.5C611.4,609.5,592.8,628.2,592.8,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M856,651v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-22.9-18.6-41.5-41.5-41.5s-41.5,18.6-41.5,41.5v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-38,30.9-68.5,68.5-68.5C825.2,582.5,856,613,856,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+          &lt;/g&gt;
+         &lt;/g&gt;
+        &lt;/g&gt;
+       &lt;/g&gt;
+       &lt;g&gt;
+        &lt;path d=&quot;M607.4,302c0.7,0.9,1.2,1.5,1.6,2.1c8.1,12.3,13.2,25.8,14.5,40.5c1.1,12.7-0.8,25.1-5.7,36.9c-9.3,22.6-25.2,39.3-46.8,50.5c-16.7,8.7-34.5,12.3-53.2,11.1c-21.8-1.3-41.2-8.8-58.1-22.8c-1.5-1.2-2.9-2.5-4.3-3.9c-25.1-25.8-41.5-56.4-48.7-91.7c-2.5-12.3-3.6-24.6-3.6-37.1c0-17.1,0-34.2,0-51.3c0-10.5-1.8-20.7-5.8-30.5c-10.2-25.3-33-43.7-59.8-48.1c-43.8-7.2-81.7,21.4-90.4,60.9c-1.5,6.8-2,13.7-1.6,20.6c0.1,1.8,0.2,3.6,0.2,5.4c-0.9,0.4-1.1-0.2-1.4-0.6c-3.8-5.5-7.2-11.2-10.3-17.2c-7.7-15-12.7-30.9-15.1-47.7c-4.2-30.7,1.3-59.6,16.8-86.4c19.2-33.4,47.5-56,83.6-69c11.1-4,22.6-6.7,34.3-8c12.9-1.5,25.8-1.4,38.6,0.3c15.6,2.1,30.6,6.3,44.8,13.1c3.1,1.5,6.1,3.1,9,4.8c54.5,32.9,93.7,87.4,107.7,149.5c3,13.4,4.9,27,5.5,40.7c0.2,5.1,0.4,10.2,0.4,15.3c0.1,15.9,0.2,31.7,0.3,47.6c0,2.6,0.2,5.3,0.8,7.7c2.7,10.1,9.2,16.6,19.4,18.8c10.1,2.1,18.5-1.1,25.2-8.9c0.3-0.3,0.5-0.7,0.8-1.1C606.5,303.1,606.8,302.8,607.4,302z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M365.6,4.1c-1,0.1-2,0.2-3,0.2c-8.3,0.2-16.5,0.9-24.7,2.2c-23,3.8-44.3,12-63.8,24.8c-22.5,14.7-40.7,33.5-53.9,56.9c-9,15.9-14.8,33-17.5,51.1c-2,13.2-2.3,26.4-0.7,39.6c4.6,37.7,20.6,69.8,46.9,97c10.2,10.5,21.6,19.3,34.1,26.9c10.7,6.5,22.3,10.4,34.9,11.3c20.9,1.5,39.6-4.3,56-17.4c3.4-2.7,6.6-5.5,9.9-8.3c0.6-0.5,1.2-0.9,1.8-1.3c0.8,0.5,0.6,1.1,0.6,1.6c0,3.7,0.1,7.5,0,11.2c-0.1,6.6,0.7,13.1,1.7,19.6c3.1,19.9,9.1,39,18,57.1c9.7,19.8,22.4,37.5,38,53.1c1.7,1.8,3.5,3.5,5.2,5.3c-8.2,7.3-40.8,22-61.5,27.7c-34.6,9.6-69.6,11.3-105,5.1c-36.7-6.5-70-20.9-99.7-43.3C90.9,355.7,63.6,234,111,134.6C135.2,84,173,46.7,223.5,22.4C271.8-0.8,324.4-4.2,365.6,4.1z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M505.4,452c2.7,0.5,5.3,1,7.8,1.4c18.7,3.1,37.1,1.5,54.9-4.9c28.3-10.2,49.6-28.7,63.4-55.5c6.9-13.3,10.2-27.6,10.3-42.5c0.1-15-3.3-29.2-9.6-42.7c-6.4-13.5-15.3-25.1-26.2-35.2c-11.9-10.9-19.6-24.2-23.2-39.9c-9.6-41.7,15.3-82.2,55.4-93.4c27.6-7.7,56.9,0.2,76.8,20.3c25.8,26.1,42.4,57,49.7,93c2.3,11.4,3.6,22.8,3.4,34.4c-0.1,6.3,0,12.7-0.6,19c-1.5,15.2-4.7,30-9.9,44.3c-21,57.7-69.3,101.2-128.7,115.7c-18.1,4.4-36.4,6-55,4.8c-23-1.4-44.9-7.1-65.7-16.9C507.2,453.5,506,453.3,505.4,452z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+       &lt;/g&gt;
+      &lt;/g&gt;
+     &lt;/svg&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Besides improving one of the core elements of the series, Battlefield 6 also seems set to deliver solid performance on PC and consoles. As seen in the videos shared by
+  &lt;a href=&quot;https://www.youtube.com/@MxBenchmarkPC/videos&quot;&gt;
+   MxBenchmark PC
+  &lt;/a&gt;
+  , the open beta seems to run very nicely on GPUs ranging from the NVDIA RTX 3080 to the RTX 5070, and even older GPUs like GTX 1060 and RTX 2060 and 3060, as seen in the video provided by
+  &lt;a href=&quot;https://www.youtube.com/watch?v=Ni3mscV8vlI&quot;&gt;
+   Daniel Owen
+  &lt;/a&gt;
+  . On consoles, performance appears to be on point as well, as the open beta holds 60 FPS at all times on the PlayStation 5 Pro, and briefly deeps slightly below the FPS target on Xbox Series X as showcased in the video shared by Xiphos Gaming. As such, it definitely seems like there shouldn&#x27;t be any significant performance issues at launch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Battlefield 6 launches on October 10 on PC, PlayStation 5, Xbox Series X, and Xbox Series S, and it&#x27;s definitely on the way to becoming one of the most successful games of the year, judging by the numbers the
+  &lt;a href=&quot;https://wccftech.com/battlefield-6-beta-surpassed-battlefield-2042-all-time-concurrent-player-count-steam/&quot;&gt;
+   open beta is already pulling
+  &lt;/a&gt;
+  in its early access period. You can learn more about why the game is setting out to be a return to form for the series by checking out Kai&#x27;s
+  &lt;a href=&quot;https://wccftech.com/battlefield-6-hands-on-impressions/&quot;&gt;
+   preview.
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD Ryzen CPU With Dual X3D Chiplets Is Reportedly Fake And Doesn’t Exist </title>
+<link>https://wccftech.com/amd-ryzen-cpu-with-dual-x3d-chiplets-is-reportedly-fake-and-doesnt-exist/</link>
+<pubDate>Fri, 08 Aug 2025 12:00:38 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/06/AMD-Ryzen-9000X3D-Desktop-CPUs.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;AMD Ryzen 9000X3D CPUs To Feature Full Overclocking Support In Addition To New 3D V-Cache Features 1&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/06/AMD-Ryzen-9000X3D-Desktop-CPUs-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/06/AMD-Ryzen-9000X3D-Desktop-CPUs-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2024/06/AMD-Ryzen-9000X3D-Desktop-CPUs-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2024/06/AMD-Ryzen-9000X3D-Desktop-CPUs-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2024/06/AMD-Ryzen-9000X3D-Desktop-CPUs-1920x1080.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Two X3D chiplets don&#x27;t seem to offer significant benefits, and it&#x27;s likely that the report about AMD preparing a dual X3D Ryzen 9000 CPU is untrue.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Ryzen 9000X3D with Dual X3D CCDs Reportedly Does Not Exist; Such a CPU Could Only Bring About 4% Boost in Performance
+ &lt;/h2&gt;
+ &lt;p&gt;
+  One of our previous posts suggested that AMD could be working on a new Ryzen 9000X3D CPU, which is the
+  &lt;a href=&quot;https://wccftech.com/amd-readies-new-3d-v-cache-ryzen-9000-zen-5-desktop-cpus-8-core-96-mb-16-core-192-mb-dual-x3d/&quot;&gt;
+   first-ever chip to feature dual X3D chiplets for both CCDs
+  &lt;/a&gt;
+  . With such a configuration, it would surpass the L3 cache of the Ryzen 9 9950X3D by 64 MB, bringing the total L3 cache capacity to 192 MB. However, the report isn&#x27;t yet official, and as per a leaker, such a CPU doesn&#x27;t exist.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The user &quot;wjm47196&quot; on Chiphell forums (via
+  &lt;a href=&quot;https://x.com/9550pro/status/1953453103522390193&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   @9550pro
+  &lt;/a&gt;
+  ) says that there is no such thing as a &quot;Dual X3D&quot; Ryzen 9000X3D CPU, and the report is untrue. Considering the absence of strong evidence, we would say that the Dual X3D CPU doesn&#x27;t exist at this point. Nonetheless, there is another X3D Ryzen 9000 chip, which is rumored to be a sibling of the Ryzen 7 9800X3D. The specifications look identical to the 9800X3D, which could mean AMD might be working on a CPU like Ryzen 7 9700X3D.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Chiphell user said that it is possible this CPU could get a release next year, but it should feature lower TDP due to slower clocks than the 9800X3D. In comparison with Ryzen 5700X3D and 5800X3D, the 105W TDP was the upper limit for the latter, and therefore, the 5700X3D had the same 105W TDP despite having lower clock speeds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As far as the performance goes, one can expect the 9700X3D to be on the same level as the 9800X3D, particularly in gaming. However, the rumored Ryzen 9000X3D with Dual X3D chiplets wouldn&#x27;t likely bring a big performance boost over the Ryzen 9 9950X3D if it exists. As per
+  &lt;a href=&quot;https://www.3dcenter.org/artikel/launch-analyse-amd-ryzen-9-9900x3d-9950x3d/ryzen-9-9900x3d-9950x3d-seite2&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   3DCenter
+  &lt;/a&gt;
+  , the Dual X3D variant could only bring up to a 4% performance boost over the 9950X3D, which makes deploying a second X3D chiplet useless.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ryzen 9800X3D and 9950X3D both are doing fantastically, even with a single X3D CCD, and an additional 4% boost won&#x27;t justify the cost increase. Also, the presence of Dual X3D chiplets might affect applications that are latency sensitive, essentially lowering the overall benefits of the CPU. Perhaps, Dual X3D CPUs in the Zen 6 lineup will make more sense, but for the Ryzen 9000 series, it won&#x27;t likely be beneficial at all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Source:
+  &lt;a href=&quot;https://www.chiphell.com/forum.php?mod=viewthread&amp;tid=2731600&amp;page=3&amp;authorid=42930&quot; target=&quot;_blank&quot;&gt;
+   Chiphell
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Take-Two CEO Says Mafia: The Old Country Is a ‘Wonderful Premium Title’, Seems to Confirm Judas for 2026 </title>
+<link>https://wccftech.com/take-two-ceo-says-mafia-the-old-country-is-a-wonderful-premium-title-seems-to-confirm-judas-for-2026/</link>
+<pubDate>Fri, 08 Aug 2025 12:00:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Take-Two-Mafia-Judas-scaled.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Take-Two game characters in dramatic scene with Judas neon text overlay.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Take-Two-Mafia-Judas-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Take-Two-Mafia-Judas-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Take-Two-Mafia-Judas-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Take-Two-Mafia-Judas-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Take-Two-Mafia-Judas-1920x1080.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Take-Two CEO Strauss Zelnick talked about the launch of Mafia: The Old Country and the future slate of games, including Judas.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Take-Two reported outstanding results for its first fiscal quarter of 2026, delivering total net bookings of $1.42 billion, up 17% compared to the $1.22 billion registered during last year’s fiscal first quarter. Net bookings from recurrent consumer spending (virtual currency, add-on content, in-game purchases and in-game advertising) also grew 17%, accounting for 83% of total net bookings. The most significant contributors to the record net bookings were NBA 2K25, Grand Theft Auto V and Grand Theft Auto Online, Toon Blast, Match Factory!, Color Block Jam, Empires &amp; Puzzles, Red Dead Redemption 2 and Red Dead Online, Words With Friends, and Toy Blast.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Take-Two CEO Strauss Zelnick was understandably bullish, especially since the publisher has arguably its strongest games lineup on the horizon.
+  &lt;a href=&quot;https://www.gamesindustry.biz/take-twos-strauss-zelnick-on-the-firms-most-robust-release-schedule-and-preparation-for-gta-6s-launch&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Speaking to GamesIndustry.biz
+  &lt;/a&gt;
+  ahead of the financial report, the executive listed a series of games coming next year, and in doing so also included Ken Levine&#x27;s next game, Judas.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   We have a number of releases coming in the next 12 months – it&#x27;s probably our most robust release schedule ever. Obviously, Mafia: The Old Country is available on Steam and console. We have NBA 2K26 coming, Borderlands 4, which I&#x27;m really excited about, and WWE 2K mobile for Netflix. We&#x27;ve got WWE 2K26, then of course, GTA 6.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   We have CSR 3 coming from Zynga, Judas coming from Ghost Story Games, and Project Ethos coming from 2K. It&#x27;s the most robust lineup I&#x27;ve ever been able to talk about this far in advance.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The concept behind Judas, the so-called narrative LEGOs, has been in the works for over a decade. Levine famously hosted a GDC presentation about it in 2014 and then
+  &lt;a href=&quot;https://wccftech.com/ken-levines-new-game-is-small-scale-open-world-sci-fiai-themed/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   discussed it again in late 2015
+  &lt;/a&gt;
+  . The game itself was
+  &lt;a href=&quot;https://wccftech.com/judas-announcement-trailer-bioshock-creator-ken-levine/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   announced
+  &lt;/a&gt;
+  at The Game Awards 2022 and
+  &lt;a href=&quot;https://wccftech.com/judas-is-finally-unveiled-by-bioshock-creator-ken-levine/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   unveiled
+  &lt;/a&gt;
+  about fifteen months later. Just last month, Levine
+  &lt;a href=&quot;https://wccftech.com/bioshock-creator-glad-allowed-design-judas-no-live-service/&quot;&gt;
+   thanked Take-Two
+  &lt;/a&gt;
+  for not forcing Ghost Story Games to add live service elements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That Judas is coming in the next twelve months is great news for the publisher, especially since the actual BioShock successor is
+  &lt;a href=&quot;https://wccftech.com/bioshock-4-reportedly-development-hell-failed-review-narrative-overhaul/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   reportedly in development trouble
+  &lt;/a&gt;
+  and may not materialize for quite a while yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Elsewhere in the
+  &lt;span&gt;
+   GI.biz
+  &lt;/span&gt;
+  interview, Take-Two CEO Strauss Zelnick expressed his strong confidence that Mafia: The Old Country would be successful:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   I feel great about it. It&#x27;s a wonderful premium title, it&#x27;s priced right and it&#x27;s really beautiful.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can read our review of the game
+  &lt;a href=&quot;https://wccftech.com/review/mafia-the-old-country-a-fine-sicilian-mafia-story/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel CEO Lip Bu Tan Fought Chairman Frank Yeary To Save Firm’s Chip Manufacturing Business As He Argued For US Manufacturing Security, Says Report </title>
+<link>https://wccftech.com/intel-ceo-lip-bu-tan-fought-chairman-frank-yeary-to-save-firms-chip-manufacturing-business-as-he-argued-for-us-manufacturing-security-says-report/</link>
+<pubDate>Fri, 08 Aug 2025 11:35:44 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-CEO-Tan-Day1-1-scaled.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;486&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-CEO-Tan-Day1-1-728x486.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-CEO-Tan-Day1-1-728x486.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-CEO-Tan-Day1-1-540x360.jpg 540w, https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-CEO-Tan-Day1-1-1456x971.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-CEO-Tan-Day1-1-1920x1281.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Intel CEO Lip-Bu Tan. Image: Intel Corporation
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Intel CEO Lip-Bu Tan is at odds with the firm&#x27;s chairman Frank Yeary when it comes to the future of the firm&#x27;s chip manufacturing business, reports the Wall Street Journal. Tan, who took over the helm at Intel earlier this year, started his tenure right at the time when the market was rife with rumors of either a spinoff of its manufacturing business or an investment or a joint venture with the Taiwan Semiconductor Manufacturing Company (TSMC). As per the Journal, the spinoff was being pushed by Intel chairman Frank Yeary, who continues to be at odds with Tan regarding the future of Intel&#x27;s manufacturing business.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Intel CEO Lip-Bu Tan Saved The Firm&#x27;s Manufacturing Business, Says Report
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The Intel CEO was thrown into a fresh controversy recently when President Trump demanded that he leave his job at Intel due to connections with Chinese firms. On this front, the Journal&#x27;s report outlines that Tan&#x27;s previous tenure as the CEO of Cadence Design Systems and his venture capital firm&#x27;s investments in China are the reasons behind the president&#x27;s consternation. The now-Intel CEO successfully transformed Cadence during his time at the firm, and to complicate matters for him, Cadence recently pleaded guilty to having provided China with restricted chip design software.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The Journal reports that as soon as Tan took over as Intel&#x27;s CEO, he and Intel president Frank Yeary disagreed about the future of the firm&#x27;s chip manufacturing business. While Yeary wanted to spin off the chip-making business due to high cash burn, Tan insisted that not only is the business key to Intel&#x27;s viability as a chip manufacturing company, but it is also important to ensure America does not become fully reliant on foreign companies for its semiconductor procurement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the
+  &lt;a href=&quot;https://www.wsj.com/tech/intel-ceo-lip-bu-tan-trump-board-9cc08631&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Journal
+  &lt;/a&gt;
+  , Tan&#x27;s efforts to improve Intel&#x27;s balance sheet, which features $50 billion in long and short-term debt with $43 billion in current assets, were also met with resistance. While the Intel CEO had planned to start a multibillion-dollar capital raise in July to improve the balance sheet and to invest in chip fabrication, his efforts were slowed down and pushed to 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel&#x27;s latest earnings report was yet another disaster as the stock lost more than 8% after the report. During the conference call, Tan didn&#x27;t hold back as he remarked that &quot;the capacity investment we made over the last several years were well ahead of demand and were unwise and excessive,&quot; which led to the firm&#x27;s factory footprint to &quot;become needlessly fragmented.&quot; Tan also asserted that he would evaluate internal and external customer feedback and volume commitments before allocating capital expenditure to the next generation 14A chip manufacturing process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel&#x27;s shares have lost 2.2% year-to-date as they have reversed all gains made since Tan&#x27;s appointment. The shares are down by 12.6% since the earnings report, as investors remain unconvinced about any short-term benefits from the firm&#x27;s turnaround plans.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel’s CEO &amp; Board Chairman Frank Yeary Had Been in Disagreement From the Start, Reportedly Stalling a Crucial Acquisition Deal of an AI Firm That Could Have Turned Things Around </title>
+<link>https://wccftech.com/intel-ceo-board-chairman-frank-yeary-had-been-in-disagreement-from-the-start-reportedly-stalling-a-crucial-acquisition-deal/</link>
+<pubDate>Fri, 08 Aug 2025 11:23:22 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan.webp&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Man speaking at a tech conference with logos in the background.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;483&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-728x483.webp&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-728x483.webp 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-542x360.webp 542w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan-1456x967.webp 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Intel-CEO-Lip-Bu-Tan.webp 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Intel&#x27;s top leadership has been in disagreement even since CEO Tan took over the office, and President Trump&#x27;s recent statement has worsened the situation.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Intel&#x27;s Internal Conflicts Have Massively Influenced Business Operations, Putting the Firm Way Behind Competitors
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Internal conflicts in a company, especially at an executive level, aren&#x27;t great, especially for a firm like Intel that is already struggling with its business. In a
+  &lt;a href=&quot;https://www.wsj.com/tech/intel-ceo-lip-bu-tan-trump-board-9cc08631&quot;&gt;
+   report by the Wall Street Journal
+  &lt;/a&gt;
+  , it is revealed that Team Blue&#x27;s CEO, Lip-Bu Tan, has disagreed with the board directors ever since he took over the position. The disagreements initially started on how Intel&#x27;s business units should operate. Still, it evolved to such an extent that Tan couldn&#x27;t raise capital for an acquisition, which would&#x27;ve bolstered the company&#x27;s efforts towards AI.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  When Lip-Bu Tan took over the office, it is claimed that board chairman Frank Yeary had plans to exit the foundry business entirely and spin it out to a separate one, allowing Big Tech to acquire an interest in it. Yeary was also eager to strike a deal with TSMC for the foundry division, which shows that the
+  &lt;a href=&quot;https://wccftech.com/the-trump-administration-is-demanding-that-taiwan-acquire-a-huge-stake-in-intel-for-a-trade-deal/&quot;&gt;
+   Intel-TSMC rumors
+  &lt;/a&gt;
+  we saw a few months ago weren&#x27;t far-fetched. However, CEO Tan wasn&#x27;t in favour of not having a manufacturing unit, claiming that the foundry division is a crucial commitment to the company&#x27;s success and the American cause towards developing homegrown chips.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More importantly, board directors have reportedly stalled an acquisition proposal for an AI business, which was said to allow Intel to compete more aggressively with AMD and NVIDIA. The delay ultimately led to another &quot;publicly traded technology company&quot; to buy the AI firm in discussions, which meant that Team Blue lost another opportunity. The internal conflicts have apparently compromised Intel&#x27;s operations tremendously, to the point where Tan&#x27;s hands are now tied.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Factoring in
+  &lt;a href=&quot;https://wccftech.com/president-trump-calls-out-intels-ceo-lip-bu-tan-to-resign-saying-he-is-highly-conflicted-after-claims-of-chinese-ties/&quot;&gt;
+   President Trump&#x27;s recent statements about Intel&#x27;s CEO
+  &lt;/a&gt;
+  , Lip-Bu Tan&#x27;s current position is complex. The firm needs to restructure its internal politics in order to progress with the business.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Taiwan Is Now Investigating Over A Dozen China-Based Companies For Illicitly Poaching Local Talent </title>
+<link>https://wccftech.com/taiwan-is-now-investigating-over-a-dozen-china-based-companies-for-illicitly-poaching-local-talent/</link>
+<pubDate>Fri, 08 Aug 2025 11:23:20 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Taiwan-China.jpeg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Map highlighting China and Taiwan in red, with prominent labels for both regions.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;452&quot; sizes=&quot;(max-width: 678px) 100vw, 678px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Taiwan-China.jpeg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Taiwan-China.jpeg 678w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Taiwan-China-540x360.jpeg 540w&quot; width=&quot;678&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  As the ongoing de-coupling between China and the collective West accelerates, Chinese companies are adopting increasingly aggressive strategies to gain any possible advantage, going so far as to use front companies to poach Taiwan&#x27;s highly prized talent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To wit, as per a
+  &lt;a href=&quot;https://asia.nikkei.com/business/technology/taiwan-probes-goertek-nvidia-supplier-over-alleged-illegal-talent-poaching&quot;&gt;
+   report
+  &lt;/a&gt;
+  by Nikkei Asia, Taiwan is currently investigating at least 16 Chinese companies for poaching Taiwan&#x27;s prized talent through covert means.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Intetestingly, the list of China-linked companies under investigation in Taiwan includes Victory Giant Tech (Huizhou Co. Ltd.), a supplier of PCBs to NVIDIA. Other notable investigation vectors include the supplier of acoustic components to Google and Meta, Goertek, and China&#x27;s leading display chip design company, Chipone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The investigation Bureau of Taiwan&#x27;s Ministry of Justice has provided additional details on this ongoing investigation via a dedicated
+  &lt;a href=&quot;https://www.mjib.gov.tw/news/Details/1/1116&quot;&gt;
+   press release
+  &lt;/a&gt;
+  , noting with alarm the tactics that many of these China-linked companies employ, which include country of origin obfuscation by &quot;setting up operations in Taiwan as fake Taiwanese or overseas Chinese capital&quot; and routing poached talent to China via fictitious human resource management companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Bureau mobilized 300 personnel for this investigation, leading to the search of 70 distinct premises within Taiwan and the questioning of 120 individuals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of course, the history of Chinese corporate espionage and sabotage in Taiwan is quite entrenched. As per a report released by Taiwan&#x27;s National Security Bureau in early 2025, the country has witnessed a
+  &lt;a href=&quot;https://edition.cnn.com/2025/01/13/china/taiwan-surge-suspected-chinese-espionage-hnk-intl&quot;&gt;
+   300 percent
+  &lt;/a&gt;
+  increase in instances of corporate espionage by China-linked entities, with such cases rising from 16 in 2021 to 64 in 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More recently, China-backed hackers targeted Taiwan&#x27;s semiconductor industry via
+  &lt;a href=&quot;https://www.csoonline.com/article/4024013/china-linked-hackers-target-taiwan-chip-firms-in-a-coordinated-espionage-campaign.html&quot;&gt;
+   elaborate espionage campaigns
+  &lt;/a&gt;
+  , with three such groups of hackers identified between March and June 2025 alone. According to the cyber security firm Proofpoint, these campaigns represented an unprecedented level of coordination and sophistication, with target vectors going beyond semiconductor companies to encompass &quot;individuals at major international investment firms specializing in Taiwanese semiconductor investment analysis.&quot;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hideo Kojima’s Physint Is Still In The Conceptual Phase </title>
+<link>https://wccftech.com/hideo-kojimas-physint-conceptual-phase/</link>
+<pubDate>Fri, 08 Aug 2025 10:45:59 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Physint-Conceptual-Phase.jpeg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Two people shaking hands at event with PlayStation and Kojima Productions logos.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Physint-Conceptual-Phase-728x410.jpeg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Physint-Conceptual-Phase-728x410.jpeg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Physint-Conceptual-Phase-564x317.jpeg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Physint-Conceptual-Phase-1456x819.jpeg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Physint-Conceptual-Phase-1920x1080.jpeg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Physint is still in the conceptual phase, Hideo Kojima himself confirmed
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Physint, Hideo Kojima&#x27;s
+  &lt;a href=&quot;https://wccftech.com/physint-kojima-new-stealth-ip-playstation-transcend-film-video-games/&quot;&gt;
+   return
+  &lt;/a&gt;
+  to the stealth action genre, is not going to be shown anytime soon, as work on the game is still in a very early phase.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking with
+  &lt;a href=&quot;https://www.indiewire.com/features/interviews/death-stranding-2-hideo-kojima-interview-1235143146/&quot;&gt;
+   IndieWire
+  &lt;/a&gt;
+  in a fresh interview, the legendary game director was asked about what he is working on following the release of Death Stranding 2: On the Beach, confirming that work is proceeding on the mysterious
+  &lt;a href=&quot;https://wccftech.com/hideo-kojima-disappointed-industry/&quot;&gt;
+   OD project
+  &lt;/a&gt;
+  , and on Physint, although Kojima-san is working by himself on the latter as it&#x27;s still in the conceptual phase. While this doesn&#x27;t come as a surprise, considering it was made abundantly clear back in May that the game was
+  &lt;a href=&quot;https://wccftech.com/hideo-kojima-stealth-game-physint-is-five-or-six-years-from-release-by-kojimas-estimate/&quot;&gt;
+   five or six years away
+  &lt;/a&gt;
+  by Kojima-san himself, it&#x27;s still a little disappointing to hear that even a first look at the game is really far away.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  With Physint still in the conceptual phase, the mysterious OD project will undoubtedly be Hideo Kojima&#x27;s next project to see the light of day. Following its announcement, very little has been said about the project in development with Microsoft, making some fear that it was cancelled alongside many other projects, including high-profile games like the
+  &lt;a href=&quot;https://wccftech.com/perfect-dark-cancelled-the-initiative-shut-down-microsoft-layoffs/&quot;&gt;
+   Perfect Dark reboot
+  &lt;/a&gt;
+  and an
+  &lt;a href=&quot;https://wccftech.com/zenimax-online-cancelled-mmorpg-story-gameplay-details/&quot;&gt;
+   MMO from the developers of The Elder Scrolls Online
+  &lt;/a&gt;
+  . Thankfully, the project seems to be safe, and
+  &lt;a href=&quot;https://wccftech.com/hideo-kojima-od-xbox-horror-game-still-in-development/&quot;&gt;
+   work is continuing.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Though not a stealth action game in the capacity Physint will likely be, Hideo Kojima&#x27;s latest game, Death Stranding 2: On the Beach, does have
+  &lt;a href=&quot;https://wccftech.com/how-to/death-stranding-2-on-the-beach-make-stealth-and-combat-way-more-enjoyable-with-this-one-game-changing-trick/&quot;&gt;
+   a few mechanics
+  &lt;/a&gt;
+  that bring the Metal Gear Solid series to mind, including some significant improvements for stealth and combat mechanics. You can learn more about the game now out on PlayStation 5 by checking out Kai&#x27;s
+  &lt;a href=&quot;https://wccftech.com/review/death-stranding-2-on-the-beach-review-in-progress-one-more-for-the-road/&quot;&gt;
+   review.
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ninja Gaiden 4 Gets 1 Hour of Stunning New Gameplay; Team Ninja Explains Partnership with PlatinumGames </title>
+<link>https://wccftech.com/ninja-gaiden-4-1-hour-new-gameplay-team-ninja-explains-partnership/</link>
+<pubDate>Fri, 08 Aug 2025 09:06:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/06/Ninja-Gaiden-4.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Ninja Gaiden 4&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/06/Ninja-Gaiden-4-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/06/Ninja-Gaiden-4-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/06/Ninja-Gaiden-4-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/06/Ninja-Gaiden-4-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/06/Ninja-Gaiden-4.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Take a look at this fresh Ninja Gaiden 4 gameplay.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  A new media blast for Ninja Gaiden 4 went out yesterday, and YouTuber GamersPrey has uploaded a full hour of new gameplay with absolutely no commentary attached. It&#x27;s a feast for the eyes of all those fans who feared the franchise was dead. They had every right to believe so, given that the previous entry, Ninja Gaiden 3, launched in 2012 and received middling reviews to boot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, the action series is coming back, and it is doing so with a sort of &#x27;dream collaboration&#x27; between historic developer Team Ninja and fellow Japanese developer PlatinumGames, who is also known for acclaimed action titles like Metal Gear Rising: Revengeance and the Bayonetta franchise.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div data-google-query-id=&quot;CJy-5qPu-o4DFUxNwwYdfxcoaA&quot;&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;svg viewbox=&quot;0 0 1000 1000&quot; x=&quot;0px&quot; xml:space=&quot;preserve&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; y=&quot;0px&quot;&gt;
+      &lt;g&gt;
+       &lt;g&gt;
+        &lt;g&gt;
+         &lt;g&gt;
+          &lt;g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M136.3,652.2v53.5c0,7.9-5.7,13.7-13.7,13.7c-5.5,0-13.1-5.7-13.1-13.7c-11.7,9.8-24.8,13.7-40.4,13.7C30.6,719.3,0,690.7,0,652.2s30.6-69.1,69.1-69.1S136.3,613.7,136.3,652.2z M109.5,652.2c0-22.9-17.5-42.3-40.4-42.3s-42.3,19.4-42.3,42.3s19.4,40.4,42.3,40.4C92,692.5,109.5,675,109.5,652.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M264.6,705.9c0,7.4-6,13.7-13.4,13.7h-84.9c-5.2,0-10.1-3-12.3-7.6c-2.5-4.9-1.9-10.4,1.4-14.5l68.3-87.9h-57.9c-7.4,0-13.4-6.3-13.4-13.7s6-13.4,13.4-13.4h84.9c5.2,0,10.1,2.7,12.3,7.6c2.5,4.6,1.9,10.1-1.4,14.2l-68.3,88.2h57.9C258.6,692.5,264.6,698.5,264.6,705.9z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M408.2,651c0,7.4-6,13.4-13.7,13.4h-94.2c5.7,16.4,21,28.1,39.3,28.1c6.3,0,17.5-0.5,30.6-9c6.3-4.1,14.7-0.3,18,6.3c3.3,6.8-0.3,13.9-6.6,18c-18,12-31.9,11.7-42.1,11.7c-38,0-68.5-30.9-68.5-68.5c0-38,30.6-68.5,68.5-68.5C372.7,582.5,408.2,606.5,408.2,651z M300.4,637.3h78.9c-5.7-19.1-23.2-27.9-39.6-27.9C321.4,609.5,306.1,621.2,300.4,637.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M506.5,596.2c0,7.4-6,13.7-13.7,13.7c-22.9,0-41.5,18.6-41.5,41.5v54.9c0,7.4-6,13.7-13.4,13.7c-7.6,0-13.7-6.3-13.7-13.7v-54.9c0-38,30.9-68.5,68.5-68.5C500.5,582.8,506.5,588.8,506.5,596.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M522.6,706.2v-110c0-7.4,6-13.4,13.7-13.4c7.4,0,13.4,6,13.4,13.4v110c0,7.6-6,13.7-13.4,13.7C528.6,719.8,522.6,713.8,522.6,706.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+            &lt;path d=&quot;M526.7,563.3c-2.5-2.5-4.1-6-4.1-9.6c0-3.5,1.6-7.1,4.1-9.6s6-4.1,9.6-4.1s7.1,1.6,9.6,4.1s3.8,6,3.8,9.6  c0,3.5-1.4,7.1-3.8,9.6c-2.5,2.5-6,3.8-9.6,3.8S529.2,565.8,526.7,563.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M565.8,651c0-38,30.9-68.5,68.5-68.5c38,0,68.5,30.6,68.5,68.5c0,37.7-30.6,68.5-68.5,68.5C596.6,719.5,565.8,688.8,565.8,651z M592.8,651c0,22.7,18.6,41.5,41.5,41.5s41.5-18.8,41.5-41.5c0-22.9-18.6-41.5-41.5-41.5C611.4,609.5,592.8,628.2,592.8,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M856,651v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-22.9-18.6-41.5-41.5-41.5s-41.5,18.6-41.5,41.5v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-38,30.9-68.5,68.5-68.5C825.2,582.5,856,613,856,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+          &lt;/g&gt;
+         &lt;/g&gt;
+        &lt;/g&gt;
+       &lt;/g&gt;
+       &lt;g&gt;
+        &lt;path d=&quot;M607.4,302c0.7,0.9,1.2,1.5,1.6,2.1c8.1,12.3,13.2,25.8,14.5,40.5c1.1,12.7-0.8,25.1-5.7,36.9c-9.3,22.6-25.2,39.3-46.8,50.5c-16.7,8.7-34.5,12.3-53.2,11.1c-21.8-1.3-41.2-8.8-58.1-22.8c-1.5-1.2-2.9-2.5-4.3-3.9c-25.1-25.8-41.5-56.4-48.7-91.7c-2.5-12.3-3.6-24.6-3.6-37.1c0-17.1,0-34.2,0-51.3c0-10.5-1.8-20.7-5.8-30.5c-10.2-25.3-33-43.7-59.8-48.1c-43.8-7.2-81.7,21.4-90.4,60.9c-1.5,6.8-2,13.7-1.6,20.6c0.1,1.8,0.2,3.6,0.2,5.4c-0.9,0.4-1.1-0.2-1.4-0.6c-3.8-5.5-7.2-11.2-10.3-17.2c-7.7-15-12.7-30.9-15.1-47.7c-4.2-30.7,1.3-59.6,16.8-86.4c19.2-33.4,47.5-56,83.6-69c11.1-4,22.6-6.7,34.3-8c12.9-1.5,25.8-1.4,38.6,0.3c15.6,2.1,30.6,6.3,44.8,13.1c3.1,1.5,6.1,3.1,9,4.8c54.5,32.9,93.7,87.4,107.7,149.5c3,13.4,4.9,27,5.5,40.7c0.2,5.1,0.4,10.2,0.4,15.3c0.1,15.9,0.2,31.7,0.3,47.6c0,2.6,0.2,5.3,0.8,7.7c2.7,10.1,9.2,16.6,19.4,18.8c10.1,2.1,18.5-1.1,25.2-8.9c0.3-0.3,0.5-0.7,0.8-1.1C606.5,303.1,606.8,302.8,607.4,302z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M365.6,4.1c-1,0.1-2,0.2-3,0.2c-8.3,0.2-16.5,0.9-24.7,2.2c-23,3.8-44.3,12-63.8,24.8c-22.5,14.7-40.7,33.5-53.9,56.9c-9,15.9-14.8,33-17.5,51.1c-2,13.2-2.3,26.4-0.7,39.6c4.6,37.7,20.6,69.8,46.9,97c10.2,10.5,21.6,19.3,34.1,26.9c10.7,6.5,22.3,10.4,34.9,11.3c20.9,1.5,39.6-4.3,56-17.4c3.4-2.7,6.6-5.5,9.9-8.3c0.6-0.5,1.2-0.9,1.8-1.3c0.8,0.5,0.6,1.1,0.6,1.6c0,3.7,0.1,7.5,0,11.2c-0.1,6.6,0.7,13.1,1.7,19.6c3.1,19.9,9.1,39,18,57.1c9.7,19.8,22.4,37.5,38,53.1c1.7,1.8,3.5,3.5,5.2,5.3c-8.2,7.3-40.8,22-61.5,27.7c-34.6,9.6-69.6,11.3-105,5.1c-36.7-6.5-70-20.9-99.7-43.3C90.9,355.7,63.6,234,111,134.6C135.2,84,173,46.7,223.5,22.4C271.8-0.8,324.4-4.2,365.6,4.1z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M505.4,452c2.7,0.5,5.3,1,7.8,1.4c18.7,3.1,37.1,1.5,54.9-4.9c28.3-10.2,49.6-28.7,63.4-55.5c6.9-13.3,10.2-27.6,10.3-42.5c0.1-15-3.3-29.2-9.6-42.7c-6.4-13.5-15.3-25.1-26.2-35.2c-11.9-10.9-19.6-24.2-23.2-39.9c-9.6-41.7,15.3-82.2,55.4-93.4c27.6-7.7,56.9,0.2,76.8,20.3c25.8,26.1,42.4,57,49.7,93c2.3,11.4,3.6,22.8,3.4,34.4c-0.1,6.3,0,12.7-0.6,19c-1.5,15.2-4.7,30-9.9,44.3c-21,57.7-69.3,101.2-128.7,115.7c-18.1,4.4-36.4,6-55,4.8c-23-1.4-44.9-7.1-65.7-16.9C507.2,453.5,506,453.3,505.4,452z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+       &lt;/g&gt;
+      &lt;/g&gt;
+     &lt;/svg&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Speaking about this partnership in an interview
+  &lt;a href=&quot;https://www.youtube.com/watch?v=ryp7yKdq5Bc&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   with the Iron Lords Podcast
+  &lt;/a&gt;
+  , Game Director Masakazu Hirayama from Team Ninja explained:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Well, for Team Ninja, Ninja Gaiden is a very important IP and title, so we have always wanted to create a new Ninja Gaiden game. Initially, the presidents of our company, Mr. Ono from Team Ninja, and Mr. Inaba from PlatinumGames, who are actually of the same generation and have had ongoing exchanges, discussed whether the two companies could collaborate on something new. Given PlatinumGames’ excellent track record with action games like Nier and Bayonetta, which we respect greatly, we thought it would be a great challenge to work together on a new Ninja Gaiden title. Furthermore, as you mentioned, with support from Phil Spencer at Xbox, the project was able to come together with a three-way collaboration
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://wccftech.com/ninja-gaiden-4-announced-for-pc-and-consoles-with-a-fall-2025-release-window-ninja-gaiden-2-black-now-available/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   Announced
+  &lt;/a&gt;
+  during the Xbox Developer Direct 2025, Ninja Gaiden 4 is slated to launch
+  &lt;a href=&quot;https://wccftech.com/ninja-gaiden-4-october-release-date-announced-with-new-trailer/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   on October 21
+  &lt;/a&gt;
+  for PC, PlayStation 5, and Xbox Series S|X. On PC and Xbox, it will be available day one via Game Pass (the game is going to be published by Xbox Game Studios).
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PlayStation Admits Its Live Service Push Isn’t Going Smoothly, But Vows to Do Better </title>
+<link>https://wccftech.com/playstation-admits-live-service-push-isnt-going-smoothly/</link>
+<pubDate>Fri, 08 Aug 2025 08:17:44 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/08/marathon-HD-scaled.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Marathon Sony PlayStation&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/08/marathon-HD-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2024/08/marathon-HD-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2024/08/marathon-HD-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2024/08/marathon-HD-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2024/08/marathon-HD-1920x1080.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   With Marathon, Sony&#x27;s PlayStation wants to do things right from the start.
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Sony executives shared
+  &lt;span&gt;
+   many details on PlayStation strategies during the
+   &lt;a href=&quot;https://www.irwebmeeting.com/sony/fast/20250807/Hm92pdqE/202603_1q_02_en/03_qa/index.html&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    company&#x27;s Q1 2025 investors call Q&amp;A
+   &lt;/a&gt;
+   . For example, we
+   &lt;a href=&quot;https://wccftech.com/sony-executive-confirms-playstation-moving-platform-business/&quot; target=&quot;_blank&quot;&gt;
+    received confirmation
+   &lt;/a&gt;
+   that there will be a shift from a hardware-centric business model to a platform business model focused on engagement
+  &lt;/span&gt;
+  beyond PlayStation consoles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We also
+  &lt;a href=&quot;https://wccftech.com/marathon-release-march-2026/&quot;&gt;
+   reported
+  &lt;/a&gt;
+  earlier from the Q&amp;A that Bungie&#x27;s Marathon is expected to launch by March 2026. Bungie is set to lose most of its independence as it slowly gets absorbed into PlayStation Studios, despite initial statements at the time of the acquisition. The thorn subject of PlayStation live service games was touched repeatedly during the Q&amp;A, and Sony Chief Financial Officer Lin Tao admitted that the plan (which
+  &lt;a href=&quot;https://wccftech.com/sony-confirms-itll-have-10-live-service-games-by-march-2026/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   originally targeted 10 live service games released by March 2026
+  &lt;/a&gt;
+  ) hasn&#x27;t gone as smoothly as they would have liked. At the same time, she pointed out that it&#x27;s not all doom and gloom, and those lessons will be helpful for future projects.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Last year,
+   &lt;a href=&quot;https://wccftech.com/sony-shuts-down-firewalk-studios-maker-of-concord/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    Concord was canceled
+   &lt;/a&gt;
+   , and this year,
+   &lt;a href=&quot;https://wccftech.com/bungie-announces-marathon-delay-new-release-date-to-be-revealed/&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+    Marathon was postponed
+   &lt;/a&gt;
+   , so somewhat negative news has been coming out. But if you look at the we look at the past five years, five years ago live service games were almost non-existent for PlayStation Studios. Now, we have Helldivers 2, MLB The Show and Gran Turismo 7, and Bungie&#x27;s Destiny 2, so we have these four live services contributing to sales and profits in a stable manner. For Q1 2025, live service ratio was about 40%. For the full year, it&#x27;s a little less, probably between 20 to 30%. So, in terms of the transformation, it&#x27;s not entirely going smoothly, but from a longer term perspective, if you look at the changes over five years, you see that there has definitely been change. Of course, we recognize that there are still issues, many issues, so we should learn the lessons from mistakes and make sure that we introduce live service content where there&#x27;s less waste and it&#x27;s more smooth.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Helldivers 2 is undoubtedly the biggest PlayStation success in the live service segment, but it didn&#x27;t even come from a first-party studio. That alone is telling in how much Sony still has to learn to be successful in this elusive category of gaming. Marathon&#x27;s fate will no doubt mark a pivotal moment - will it soar like Helldivers 2 or flounder right away like Concord? We&#x27;ll know more in a few months.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Tesla Has Reportedly Abandoned Its ‘Ambitious’ Dojo Supercomputer Plans as Project Head Peter Bannon Spins Out His Own AI Startup, Taking the Core Team With Him </title>
+<link>https://wccftech.com/tesla-has-reportedly-abandoned-its-ambitious-dojo-supercomputer-project/</link>
+<pubDate>Thu, 07 Aug 2025 21:55:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2023/09/maxresdefault.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Tesla Dojo Adam Jonas Morgan Stanley&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2023/09/maxresdefault-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2023/09/maxresdefault-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2023/09/maxresdefault-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2023/09/maxresdefault.jpg 1280w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Tesla has abandoned the race for creating its Dojo supercomputers for FSD and other features, as the firm now plans to increase reliance on external partners like NVIDIA.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Tesla Plans To Increase External Spending By Getting Its Chip From the Likes of NVIDIA &amp; AMD
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Well, Tesla&#x27;s Dojo project was one of the first in the market to tap into the supercomputer segment on a more mainstream level. The company had been developing its hardware through partners like TSMC, and the goal was to accumulate as much computing power as possible to enable Tesla&#x27;s FSD, along with other autonomous projects like humanoid robots. Now, based on a
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-07/tesla-disbands-dojo-supercomputer-team-in-blow-to-ai-effort?taid=689518473503b90001c406c4&amp;utm_campaign=trueanthem&amp;utm_content=business&amp;utm_medium=social&amp;utm_source=twitter&quot;&gt;
+   report by Bloomberg
+  &lt;/a&gt;
+  , it is revealed that Tesla is abandoning its Dojo supercomputer plans, as the team lead, Peter Bannon is leaving the company to pursue his own startup, called DensityAI.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  It is claimed that the Dojo team lost around 20 employees to DensityAI. With the dwindling workforce, the remaining employee count has now been shifted to data center projects within the company. More importantly, Tesla will now increase its reliance on external partners such as NVIDIA for its computing needs, so ultimately, the company won&#x27;t compromise on the computing power needed for projects like FSD. Apart from mounting competition in the AI markets, one of the main reasons why Dojo has been abandoned is the massive talent drain the team has faced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report states that Dojo&#x27;s former head, Ganesh Venkataramanan, has founded DensityAI, which will also be joined by several ex-Tesla employees. The drain has convinced Musk to shut off the venture, but given that Musk is highly optimistic about the work being done at xAI, he eventually won&#x27;t face hurdles in his plans to dominate the AI space. xAI is building up massive hyperscalers in the US, which would feed the computing needs necessary for AI-focused features needed for Tesla.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Given that Dojo is abandoned, it would be interesting to see what happens with the
+  &lt;a href=&quot;https://wccftech.com/teslas-samsung-chip-deal-is-likely-worth-more-than-16-5-billion-says-musk-as-he-confirms-the-affair/&quot;&gt;
+   recent contract signed by Tesla and Samsung
+  &lt;/a&gt;
+  for the AI6 chips, which are also part of the company&#x27;s pursuit of AI semiconductors.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nightdive Studios and id Software Shadow Dropped Heretic+Hexen, a Remaster Collection of the Two Magic FPS Classics on PC and Consoles </title>
+<link>https://wccftech.com/heretic-hexen-remaster-nightdive-studios-id-software-quakecon-2025/</link>
+<pubDate>Thu, 07 Aug 2025 20:39:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/HereticHexen.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Heretic and Hexen game art: fantasy battle scenes with warriors, monsters, and dark magic.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;416&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/HereticHexen-728x416.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/HereticHexen-728x416.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/HereticHexen-564x322.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/HereticHexen.jpg 1059w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Heretic+Hexen is a remaster collection of the 90&#x27;s FPS games. Image credit: Bethesda Softworks
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Announced during QuakeCon 2025, id Software and Nightdive Studios have shadow dropped Heretic+Hexen, a remaster collection of the two magic-based FPS games built off the back of id Software&#x27;s DOOM Engine originally developed by Raven Software in 1994 (Heretic) and 1995 (Hexen).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The collection is available right now on PC and all major console platforms, meaning you can grab it on Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5, and Nintendo Switch, though there&#x27;s no specific Nintendo Switch 2 version. For Xbox players, it&#x27;s also available on Xbox Game Pass on PC and consoles, so Game Pass subscribers can download it to their preferred device and begin reliving the mid-90&#x27;s shooters.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div data-google-query-id=&quot;COTTyq3H-Y4DFQIEdwQdg9gtkQ&quot;&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;svg viewbox=&quot;0 0 1000 1000&quot; x=&quot;0px&quot; xml:space=&quot;preserve&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; y=&quot;0px&quot;&gt;
+      &lt;g&gt;
+       &lt;g&gt;
+        &lt;g&gt;
+         &lt;g&gt;
+          &lt;g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M136.3,652.2v53.5c0,7.9-5.7,13.7-13.7,13.7c-5.5,0-13.1-5.7-13.1-13.7c-11.7,9.8-24.8,13.7-40.4,13.7C30.6,719.3,0,690.7,0,652.2s30.6-69.1,69.1-69.1S136.3,613.7,136.3,652.2z M109.5,652.2c0-22.9-17.5-42.3-40.4-42.3s-42.3,19.4-42.3,42.3s19.4,40.4,42.3,40.4C92,692.5,109.5,675,109.5,652.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M264.6,705.9c0,7.4-6,13.7-13.4,13.7h-84.9c-5.2,0-10.1-3-12.3-7.6c-2.5-4.9-1.9-10.4,1.4-14.5l68.3-87.9h-57.9c-7.4,0-13.4-6.3-13.4-13.7s6-13.4,13.4-13.4h84.9c5.2,0,10.1,2.7,12.3,7.6c2.5,4.6,1.9,10.1-1.4,14.2l-68.3,88.2h57.9C258.6,692.5,264.6,698.5,264.6,705.9z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M408.2,651c0,7.4-6,13.4-13.7,13.4h-94.2c5.7,16.4,21,28.1,39.3,28.1c6.3,0,17.5-0.5,30.6-9c6.3-4.1,14.7-0.3,18,6.3c3.3,6.8-0.3,13.9-6.6,18c-18,12-31.9,11.7-42.1,11.7c-38,0-68.5-30.9-68.5-68.5c0-38,30.6-68.5,68.5-68.5C372.7,582.5,408.2,606.5,408.2,651z M300.4,637.3h78.9c-5.7-19.1-23.2-27.9-39.6-27.9C321.4,609.5,306.1,621.2,300.4,637.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M506.5,596.2c0,7.4-6,13.7-13.7,13.7c-22.9,0-41.5,18.6-41.5,41.5v54.9c0,7.4-6,13.7-13.4,13.7c-7.6,0-13.7-6.3-13.7-13.7v-54.9c0-38,30.9-68.5,68.5-68.5C500.5,582.8,506.5,588.8,506.5,596.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M522.6,706.2v-110c0-7.4,6-13.4,13.7-13.4c7.4,0,13.4,6,13.4,13.4v110c0,7.6-6,13.7-13.4,13.7C528.6,719.8,522.6,713.8,522.6,706.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+            &lt;path d=&quot;M526.7,563.3c-2.5-2.5-4.1-6-4.1-9.6c0-3.5,1.6-7.1,4.1-9.6s6-4.1,9.6-4.1s7.1,1.6,9.6,4.1s3.8,6,3.8,9.6  c0,3.5-1.4,7.1-3.8,9.6c-2.5,2.5-6,3.8-9.6,3.8S529.2,565.8,526.7,563.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M565.8,651c0-38,30.9-68.5,68.5-68.5c38,0,68.5,30.6,68.5,68.5c0,37.7-30.6,68.5-68.5,68.5C596.6,719.5,565.8,688.8,565.8,651z M592.8,651c0,22.7,18.6,41.5,41.5,41.5s41.5-18.8,41.5-41.5c0-22.9-18.6-41.5-41.5-41.5C611.4,609.5,592.8,628.2,592.8,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M856,651v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-22.9-18.6-41.5-41.5-41.5s-41.5,18.6-41.5,41.5v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-38,30.9-68.5,68.5-68.5C825.2,582.5,856,613,856,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+          &lt;/g&gt;
+         &lt;/g&gt;
+        &lt;/g&gt;
+       &lt;/g&gt;
+       &lt;g&gt;
+        &lt;path d=&quot;M607.4,302c0.7,0.9,1.2,1.5,1.6,2.1c8.1,12.3,13.2,25.8,14.5,40.5c1.1,12.7-0.8,25.1-5.7,36.9c-9.3,22.6-25.2,39.3-46.8,50.5c-16.7,8.7-34.5,12.3-53.2,11.1c-21.8-1.3-41.2-8.8-58.1-22.8c-1.5-1.2-2.9-2.5-4.3-3.9c-25.1-25.8-41.5-56.4-48.7-91.7c-2.5-12.3-3.6-24.6-3.6-37.1c0-17.1,0-34.2,0-51.3c0-10.5-1.8-20.7-5.8-30.5c-10.2-25.3-33-43.7-59.8-48.1c-43.8-7.2-81.7,21.4-90.4,60.9c-1.5,6.8-2,13.7-1.6,20.6c0.1,1.8,0.2,3.6,0.2,5.4c-0.9,0.4-1.1-0.2-1.4-0.6c-3.8-5.5-7.2-11.2-10.3-17.2c-7.7-15-12.7-30.9-15.1-47.7c-4.2-30.7,1.3-59.6,16.8-86.4c19.2-33.4,47.5-56,83.6-69c11.1-4,22.6-6.7,34.3-8c12.9-1.5,25.8-1.4,38.6,0.3c15.6,2.1,30.6,6.3,44.8,13.1c3.1,1.5,6.1,3.1,9,4.8c54.5,32.9,93.7,87.4,107.7,149.5c3,13.4,4.9,27,5.5,40.7c0.2,5.1,0.4,10.2,0.4,15.3c0.1,15.9,0.2,31.7,0.3,47.6c0,2.6,0.2,5.3,0.8,7.7c2.7,10.1,9.2,16.6,19.4,18.8c10.1,2.1,18.5-1.1,25.2-8.9c0.3-0.3,0.5-0.7,0.8-1.1C606.5,303.1,606.8,302.8,607.4,302z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M365.6,4.1c-1,0.1-2,0.2-3,0.2c-8.3,0.2-16.5,0.9-24.7,2.2c-23,3.8-44.3,12-63.8,24.8c-22.5,14.7-40.7,33.5-53.9,56.9c-9,15.9-14.8,33-17.5,51.1c-2,13.2-2.3,26.4-0.7,39.6c4.6,37.7,20.6,69.8,46.9,97c10.2,10.5,21.6,19.3,34.1,26.9c10.7,6.5,22.3,10.4,34.9,11.3c20.9,1.5,39.6-4.3,56-17.4c3.4-2.7,6.6-5.5,9.9-8.3c0.6-0.5,1.2-0.9,1.8-1.3c0.8,0.5,0.6,1.1,0.6,1.6c0,3.7,0.1,7.5,0,11.2c-0.1,6.6,0.7,13.1,1.7,19.6c3.1,19.9,9.1,39,18,57.1c9.7,19.8,22.4,37.5,38,53.1c1.7,1.8,3.5,3.5,5.2,5.3c-8.2,7.3-40.8,22-61.5,27.7c-34.6,9.6-69.6,11.3-105,5.1c-36.7-6.5-70-20.9-99.7-43.3C90.9,355.7,63.6,234,111,134.6C135.2,84,173,46.7,223.5,22.4C271.8-0.8,324.4-4.2,365.6,4.1z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M505.4,452c2.7,0.5,5.3,1,7.8,1.4c18.7,3.1,37.1,1.5,54.9-4.9c28.3-10.2,49.6-28.7,63.4-55.5c6.9-13.3,10.2-27.6,10.3-42.5c0.1-15-3.3-29.2-9.6-42.7c-6.4-13.5-15.3-25.1-26.2-35.2c-11.9-10.9-19.6-24.2-23.2-39.9c-9.6-41.7,15.3-82.2,55.4-93.4c27.6-7.7,56.9,0.2,76.8,20.3c25.8,26.1,42.4,57,49.7,93c2.3,11.4,3.6,22.8,3.4,34.4c-0.1,6.3,0,12.7-0.6,19c-1.5,15.2-4.7,30-9.9,44.3c-21,57.7-69.3,101.2-128.7,115.7c-18.1,4.4-36.4,6-55,4.8c-23-1.4-44.9-7.1-65.7-16.9C507.2,453.5,506,453.3,505.4,452z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+       &lt;/g&gt;
+      &lt;/g&gt;
+     &lt;/svg&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  It&#x27;ll also soon be playable through
+  &lt;a href=&quot;https://wccftech.com/geforce-now-mafia-the-old-country-titan-quest-ii-stormgate/&quot;&gt;
+   GeForce Now
+  &lt;/a&gt;
+  , though a specific date for its inclusion in the GeForce Now roster has not been confirmed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A nice boon for fans of the games who might&#x27;ve already purchased the digital versions of Heretic and Hexen available on the Xbox Store or Steam is that
+  &lt;a href=&quot;https://slayersclub.bethesda.net/en-US/article/heretic-hexen-release-notes&quot;&gt;
+   a free upgrade is available
+  &lt;/a&gt;
+  for owners of Heretic: Shadow of the Serpent Riders, Hexen: Beyond Heretic, and/or Hexen: Deathkings of the Dark Citadel.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And if you&#x27;re new to both shooters and are picking up the collection to play them for the first time, you&#x27;ll be able to play through the three titles mentioned above, along with two brand new episodes made by Nightdive and id Software, titled: Heretic: Faith Renewed and Hexen: Vestiges of Grandeur.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The remasters feature improved performance on the classic titles with both games playable at a 4K resolution and at 120FPS, a wide range of accessibility options and game balancing options, widescreen support, mod support, and a new Vault section that includes early concept art for the development of both games and some unused sprites for fans of the originals to sink their teeth into.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple’s First Mac Pro Still Has A Year Remaining Before It Completes Its 20-Year Anniversary, But The Tower Form Factor Is Still Adopted To This Day, Even If It No Longer Offers The Same Upgrade Options </title>
+<link>https://wccftech.com/first-mac-pro-is-now-19-years-old/</link>
+<pubDate>Thu, 07 Aug 2025 20:01:45 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Mac-Pro.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Apple&#x27;s first Mac Pro turns 19 years old today&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Mac-Pro-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Mac-Pro-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Mac-Pro-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Mac-Pro-1456x819.jpg 1456w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Mac-Pro.jpg 1920w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Only a year remaining before the first Mac Pro turns 20 years old
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  The ‘trash can’ form factor Mac Pro was quickly abandoned after Apple’s hardware ran into thermal constraints and performance limitations, forcing the company to return to the tower chassis that offered Intel’s Xeon processors, and afterwards, completed the transition to the technology giant’s in-house silicon by getting kitted out with the
+  &lt;a href=&quot;https://wccftech.com/apple-m2-ultra-officially-announced/&quot;&gt;
+   M2 Ultra
+  &lt;/a&gt;
+  . However, what forced Apple to get into the workstation category of computers to hold a decisive advantage over the competition? It was its first Mac Pro, which is now 19 years old at this point, and offered some of the most powerful internals at the time. Fast forward to 2025, and you still get some exceptional specifications, but at the cost of limited upgradability.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  The first Mac Pro was also the beginning of Apple’s transition from PowerPC to Intel processors, with the machine featuring the same premium unibody aluminum chassis
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Intel’s CPUs had shown significantly better‘ performance per watt’ than the PowerPC range, meaning that if Apple wanted to offer the best hardware to customers, it would have to make a switch that others might not be comfortable with, because not everyone is accustomed to change. On August 7, 2006, during Apple’s WWDC keynote, the announcement was made, with the Mac Pro sporting the same design language as the Power Mac M5, but with a revamped interior. As for the brain of the entire system, the Mac Pro was equipped with Intel Xeon 5100-series ‘Woodcrest’ CPUs.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Each chip featured two cores running at 2.60GHz and supported the 64-bit architecture. In total, the Mac Pro could tout a 4-core and 8-thread configuration, which, at the time, offered jaw-dropping multi-core performance, enabling power users to bulldoze through the most demanding of applications. You also got 16GB of DDR2 ECC memory that was populated in eight slots. Each RAM stick operated at a frequency of 667MHz. There were also a ton of expansion options, with users able to add up to four 3.5-inch SATA drive bays, a single 5.25-inch bay that housed Apple’s SuperDrive.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of course, no workstation can be complete without the inclusion of a GPU, and Apple’s first ever Intel Mac Pro was outfitted with an NVIDIA GeForce 7300 that shipped with 256MB of VRAM, making it a massive surprise for those learning about this fact for the first time. Before you ask, it was easy to swap out the existing graphics card for a more capable one. There was a ton of I/O to allow for the expansion of a multitude of peripherals. As for how the Mac Pro got its ‘cheese grater’ moniker, the front side of the case featured perforated holes, a design aspect that is still adopted today in the newer chassis and is a major step-up from the Power Mac G5, which was much noisier.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking at how efficient Apple Silicon is, a tower case like the Mac Pro seems overkill to house these components, and since each unit is costly to make since it requires precise milling and increased raw material, the
+  &lt;a href=&quot;https://wccftech.com/apple-announces-m3-ultra-mac-studio-with-up-to-32-core-cpu-and-80-core-gpu-delivering-twice-as-fast-performance-compared-to-m4-max-chip-and-thunderbolt-5/&quot;&gt;
+   M3 Ultra
+  &lt;/a&gt;
+  is currently exclusive to the Mac Studio. Whether or not Apple will continue to update the Mac Pro is anyone’s guess, but even if it no longer has a place in the Cupertino firm’s lineup, it will always have a place in people’s hearts.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hideo Kojima’s Xbox Horror Game OD Is Still in Development Amid Multiple Project Cancellations at Microsoft </title>
+<link>https://wccftech.com/hideo-kojima-od-xbox-horror-game-still-in-development/</link>
+<pubDate>Thu, 07 Aug 2025 19:23:49 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/OD.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;OD logo for Hideo Kojima game on black background with bold white text.&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/OD-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/OD-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/OD-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/OD.jpg 1200w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Hideo Kojima&#x27;s OD is still in development at Xbox. Image credit: Kojima Productions
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://wccftech.com/microsoft-layoffs-funding-increased-spending-ai-infrastructure/&quot;&gt;
+   Microsoft laying off 9,000+ people
+  &lt;/a&gt;
+  across its whole company resulted in a number of projects being cancelled, including
+  &lt;a href=&quot;https://wccftech.com/spencer-reportedly-loved-playing-zenimax-onlines-new-game-in-march-only-to-cancel-it-in-july/&quot;&gt;
+   a new MMO from ZeniMax Online
+  &lt;/a&gt;
+  , the
+  &lt;a href=&quot;https://wccftech.com/perfect-dark-cancelled-the-initiative-shut-down-microsoft-layoffs/&quot;&gt;
+   Perfect Dark reboot
+  &lt;/a&gt;
+  , Rare&#x27;s
+  &lt;a href=&quot;https://wccftech.com/rare-everwild-cancelled-microsoft-gaming-layoffs/&quot;&gt;
+   Everwild
+  &lt;/a&gt;
+  , and as we just learned earlier today,
+  &lt;a href=&quot;https://wccftech.com/microsoft-reportedly-stopped-contraband-development-avalanche-studios/&quot;&gt;
+   Contraband, from Avalanche Studios
+  &lt;/a&gt;
+  . One game that isn&#x27;t cancelled however, according to a Microsoft spokesperson, is Hideo Kojima&#x27;s horror game he&#x27;s making in collaboration with Xbox, OD.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That news comes from Bloomberg&#x27;s Jason Schreier, who in his reporting on Contraband, asked after the status of OD, which is another project from Microsoft that was announced years ago, though we&#x27;ve heard very little of since. He reports that he was told by a Microsoft spokesperson that OD &quot;
+  &lt;em&gt;
+   is still in development
+  &lt;/em&gt;
+  .&quot;
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div data-google-query-id=&quot;CK7nqay2-Y4DFQ5cAAYdAiIuzg&quot;&gt;
+     &lt;div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;svg viewbox=&quot;0 0 1000 1000&quot; x=&quot;0px&quot; xml:space=&quot;preserve&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; y=&quot;0px&quot;&gt;
+      &lt;g&gt;
+       &lt;g&gt;
+        &lt;g&gt;
+         &lt;g&gt;
+          &lt;g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M136.3,652.2v53.5c0,7.9-5.7,13.7-13.7,13.7c-5.5,0-13.1-5.7-13.1-13.7c-11.7,9.8-24.8,13.7-40.4,13.7C30.6,719.3,0,690.7,0,652.2s30.6-69.1,69.1-69.1S136.3,613.7,136.3,652.2z M109.5,652.2c0-22.9-17.5-42.3-40.4-42.3s-42.3,19.4-42.3,42.3s19.4,40.4,42.3,40.4C92,692.5,109.5,675,109.5,652.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M264.6,705.9c0,7.4-6,13.7-13.4,13.7h-84.9c-5.2,0-10.1-3-12.3-7.6c-2.5-4.9-1.9-10.4,1.4-14.5l68.3-87.9h-57.9c-7.4,0-13.4-6.3-13.4-13.7s6-13.4,13.4-13.4h84.9c5.2,0,10.1,2.7,12.3,7.6c2.5,4.6,1.9,10.1-1.4,14.2l-68.3,88.2h57.9C258.6,692.5,264.6,698.5,264.6,705.9z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M408.2,651c0,7.4-6,13.4-13.7,13.4h-94.2c5.7,16.4,21,28.1,39.3,28.1c6.3,0,17.5-0.5,30.6-9c6.3-4.1,14.7-0.3,18,6.3c3.3,6.8-0.3,13.9-6.6,18c-18,12-31.9,11.7-42.1,11.7c-38,0-68.5-30.9-68.5-68.5c0-38,30.6-68.5,68.5-68.5C372.7,582.5,408.2,606.5,408.2,651z M300.4,637.3h78.9c-5.7-19.1-23.2-27.9-39.6-27.9C321.4,609.5,306.1,621.2,300.4,637.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M506.5,596.2c0,7.4-6,13.7-13.7,13.7c-22.9,0-41.5,18.6-41.5,41.5v54.9c0,7.4-6,13.7-13.4,13.7c-7.6,0-13.7-6.3-13.7-13.7v-54.9c0-38,30.9-68.5,68.5-68.5C500.5,582.8,506.5,588.8,506.5,596.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M522.6,706.2v-110c0-7.4,6-13.4,13.7-13.4c7.4,0,13.4,6,13.4,13.4v110c0,7.6-6,13.7-13.4,13.7C528.6,719.8,522.6,713.8,522.6,706.2z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+            &lt;path d=&quot;M526.7,563.3c-2.5-2.5-4.1-6-4.1-9.6c0-3.5,1.6-7.1,4.1-9.6s6-4.1,9.6-4.1s7.1,1.6,9.6,4.1s3.8,6,3.8,9.6  c0,3.5-1.4,7.1-3.8,9.6c-2.5,2.5-6,3.8-9.6,3.8S529.2,565.8,526.7,563.3z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M565.8,651c0-38,30.9-68.5,68.5-68.5c38,0,68.5,30.6,68.5,68.5c0,37.7-30.6,68.5-68.5,68.5C596.6,719.5,565.8,688.8,565.8,651z M592.8,651c0,22.7,18.6,41.5,41.5,41.5s41.5-18.8,41.5-41.5c0-22.9-18.6-41.5-41.5-41.5C611.4,609.5,592.8,628.2,592.8,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+           &lt;g&gt;
+            &lt;path d=&quot;M856,651v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-22.9-18.6-41.5-41.5-41.5s-41.5,18.6-41.5,41.5v54.9c0,7.6-6,13.7-13.7,13.7c-7.4,0-13.4-6-13.4-13.7V651c0-38,30.9-68.5,68.5-68.5C825.2,582.5,856,613,856,651z&quot; fill=&quot;#979797&quot;&gt;
+            &lt;/path&gt;
+           &lt;/g&gt;
+          &lt;/g&gt;
+         &lt;/g&gt;
+        &lt;/g&gt;
+       &lt;/g&gt;
+       &lt;g&gt;
+        &lt;path d=&quot;M607.4,302c0.7,0.9,1.2,1.5,1.6,2.1c8.1,12.3,13.2,25.8,14.5,40.5c1.1,12.7-0.8,25.1-5.7,36.9c-9.3,22.6-25.2,39.3-46.8,50.5c-16.7,8.7-34.5,12.3-53.2,11.1c-21.8-1.3-41.2-8.8-58.1-22.8c-1.5-1.2-2.9-2.5-4.3-3.9c-25.1-25.8-41.5-56.4-48.7-91.7c-2.5-12.3-3.6-24.6-3.6-37.1c0-17.1,0-34.2,0-51.3c0-10.5-1.8-20.7-5.8-30.5c-10.2-25.3-33-43.7-59.8-48.1c-43.8-7.2-81.7,21.4-90.4,60.9c-1.5,6.8-2,13.7-1.6,20.6c0.1,1.8,0.2,3.6,0.2,5.4c-0.9,0.4-1.1-0.2-1.4-0.6c-3.8-5.5-7.2-11.2-10.3-17.2c-7.7-15-12.7-30.9-15.1-47.7c-4.2-30.7,1.3-59.6,16.8-86.4c19.2-33.4,47.5-56,83.6-69c11.1-4,22.6-6.7,34.3-8c12.9-1.5,25.8-1.4,38.6,0.3c15.6,2.1,30.6,6.3,44.8,13.1c3.1,1.5,6.1,3.1,9,4.8c54.5,32.9,93.7,87.4,107.7,149.5c3,13.4,4.9,27,5.5,40.7c0.2,5.1,0.4,10.2,0.4,15.3c0.1,15.9,0.2,31.7,0.3,47.6c0,2.6,0.2,5.3,0.8,7.7c2.7,10.1,9.2,16.6,19.4,18.8c10.1,2.1,18.5-1.1,25.2-8.9c0.3-0.3,0.5-0.7,0.8-1.1C606.5,303.1,606.8,302.8,607.4,302z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M365.6,4.1c-1,0.1-2,0.2-3,0.2c-8.3,0.2-16.5,0.9-24.7,2.2c-23,3.8-44.3,12-63.8,24.8c-22.5,14.7-40.7,33.5-53.9,56.9c-9,15.9-14.8,33-17.5,51.1c-2,13.2-2.3,26.4-0.7,39.6c4.6,37.7,20.6,69.8,46.9,97c10.2,10.5,21.6,19.3,34.1,26.9c10.7,6.5,22.3,10.4,34.9,11.3c20.9,1.5,39.6-4.3,56-17.4c3.4-2.7,6.6-5.5,9.9-8.3c0.6-0.5,1.2-0.9,1.8-1.3c0.8,0.5,0.6,1.1,0.6,1.6c0,3.7,0.1,7.5,0,11.2c-0.1,6.6,0.7,13.1,1.7,19.6c3.1,19.9,9.1,39,18,57.1c9.7,19.8,22.4,37.5,38,53.1c1.7,1.8,3.5,3.5,5.2,5.3c-8.2,7.3-40.8,22-61.5,27.7c-34.6,9.6-69.6,11.3-105,5.1c-36.7-6.5-70-20.9-99.7-43.3C90.9,355.7,63.6,234,111,134.6C135.2,84,173,46.7,223.5,22.4C271.8-0.8,324.4-4.2,365.6,4.1z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+        &lt;path d=&quot;M505.4,452c2.7,0.5,5.3,1,7.8,1.4c18.7,3.1,37.1,1.5,54.9-4.9c28.3-10.2,49.6-28.7,63.4-55.5c6.9-13.3,10.2-27.6,10.3-42.5c0.1-15-3.3-29.2-9.6-42.7c-6.4-13.5-15.3-25.1-26.2-35.2c-11.9-10.9-19.6-24.2-23.2-39.9c-9.6-41.7,15.3-82.2,55.4-93.4c27.6-7.7,56.9,0.2,76.8,20.3c25.8,26.1,42.4,57,49.7,93c2.3,11.4,3.6,22.8,3.4,34.4c-0.1,6.3,0,12.7-0.6,19c-1.5,15.2-4.7,30-9.9,44.3c-21,57.7-69.3,101.2-128.7,115.7c-18.1,4.4-36.4,6-55,4.8c-23-1.4-44.9-7.1-65.7-16.9C507.2,453.5,506,453.3,505.4,452z&quot; fill=&quot;#979797&quot;&gt;
+        &lt;/path&gt;
+       &lt;/g&gt;
+      &lt;/g&gt;
+     &lt;/svg&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  OD was first announced during
+  &lt;a href=&quot;https://wccftech.com/od-hideo-kojima-horror-game-xbox-revealed-jordan-peele/&quot;&gt;
+   The Game Awards 2023 showcase
+  &lt;/a&gt;
+  , and was such an exciting announcement at the time, that it was the one game out of everything else announced that year that
+  &lt;a href=&quot;https://wccftech.com/kojimas-od-topped-tga-2023-press-coverage-says-fancensus/&quot;&gt;
+   dominated press coverage of TGA 2023
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since then, however, we&#x27;ve heard very little about OD. Kojima has mentioned it and the
+  &lt;a href=&quot;https://wccftech.com/kojima-provides-update-on-death-stranding-2-and-his-many-other-productions/&quot;&gt;
+   work he&#x27;s doing on it in passing
+  &lt;/a&gt;
+  , and has also talked about how his goals with OD is to make something that players have not necessarily seen before. He&#x27;s called it a
+  &lt;a href=&quot;https://wccftech.com/kojima-says-o-d-is-risky-talks-death-stranding-movie-and-physint-crossmedia-plans/&quot;&gt;
+   &quot;
+   &lt;em&gt;
+    risky
+   &lt;/em&gt;
+   &quot; game
+  &lt;/a&gt;
+  that will be
+  &lt;a href=&quot;https://wccftech.com/hideo-kojima-disappointed-industry/&quot;&gt;
+   &quot;
+   &lt;em&gt;
+    divisive
+   &lt;/em&gt;
+   ,&quot;
+  &lt;/a&gt;
+  but at the same time it sounds like he&#x27;s excited to be making something that he knows will push players, something he knows that not everyone will fall head-over-heels for.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Horror-director Jordan Peele is also meant to be working on OD alongside Kojima and Xbox, though what we know about Peele&#x27;s involvement so far is equal to what we know about OD itself, which is very little.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Perhaps now that
+  &lt;a href=&quot;https://wccftech.com/review/death-stranding-2-on-the-beach-review-in-progress-one-more-for-the-road/&quot;&gt;
+   Death Stranding 2: On the Beach
+  &lt;/a&gt;
+  has launched and is on store shelves, we&#x27;ll soon start to hear more about what&#x27;s happening with OD, and get a more official word/sign on if it&#x27;s happening at all.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google Pixel 10’s Striking Indigo Color Leak Channels The Iconic Really Blue Shade With A Contemporary Edge, Merging Timeless Charm And Bold Modern Aesthetics Seamlessly </title>
+<link>https://wccftech.com/google-pixel-10s-striking-indigo-color-leak-channels-the-iconic-really-blue-shade/</link>
+<pubDate>Thu, 07 Aug 2025 18:58:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;figure&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Cover image for the story&quot; href=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Pixel-10-color.jpg&quot; rel=&quot;lightbox&quot;&gt;
+    &lt;img alt=&quot;Pixel 10 leak shows new Indigo color&quot; decoding=&quot;async&quot; fetchpriority=&quot;high&quot; height=&quot;410&quot; sizes=&quot;(max-width: 728px) 100vw, 728px&quot; src=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Pixel-10-color-728x410.jpg&quot; srcset=&quot;https://cdn.wccftech.com/wp-content/uploads/2025/08/Pixel-10-color-728x410.jpg 728w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Pixel-10-color-564x317.jpg 564w, https://cdn.wccftech.com/wp-content/uploads/2025/08/Pixel-10-color.jpg 1200w&quot; width=&quot;728&quot;/&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;
+   Pixel 10’s striking “Indigo” finish rekindles the iconic “Really Blue” charm
+  &lt;/figcaption&gt;
+ &lt;/figure&gt;
+ &lt;p&gt;
+  Google is gearing up to launch its Pixel 10 series, and like with every flagship product, leaks and speculations have given away quite a few
+  &lt;a href=&quot;https://wccftech.com/googles-pixel-10-launch-hits-a-bump-three-key-devices-could-be-delayed/&quot;&gt;
+   details
+  &lt;/a&gt;
+  about the lineup, leaving little for the imagination. The latest one revolves around the tech giant stepping down the nostalgic lane and reviving a rather popular color option for the new models by adding a more daring twist to it. The company is focused on not only introducing features that tend to stand out but also ensuring the devices mark a shift in the strategy that is focusing on being more bold.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Pixel 10&#x27;s &#x27;Indigo&#x27; color leak brings back the iconic &#x27;Really Blue&#x27; vibe – but with a modern twist
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Google appears to be tapping into its nostalgic roots while ensuring there is a fresh element to it. As per a recent leak, the upcoming Pixel 10 will come in a bold new Indigo color that immediately takes us back to the sharp tone introduced in 2016, which became a rather iconic one - &quot;Really Blue.&quot; As per the images shared by
+  &lt;a href=&quot;https://winfuture.de/news,152769.html&quot;&gt;
+   WinFuture
+  &lt;/a&gt;
+  and renowned tipster
+  &lt;a href=&quot;https://x.com/evleaks/status/1953411969232392662?s=19&quot;&gt;
+   Evan Blass
+  &lt;/a&gt;
+  , it looks like the final renders of the device offer a much closer look at how the phone would look like. From glancing at them, it seems that the tech giant is blending its past identity with a modern touch.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The Indigo color on the Pixel 10 is striking for being anything but subtle, as the back panel is done in vivid blue, which helps grab attention due to the contrasting tone on the camera and frame, adding depth and refinement to the overall look of the device. Since many of the tech giants are opting for neutral and pastel choices for their new phones, with the daring Indigo choice, Google is choosing to break the monotony and distinguish itself from the uniform flagships.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As per the leak, the color is to be part of the standard Pixel 10 lineup, and not the Pro or XL models. Along with the Indigo color option, the Pixel 10 is expected to come in Obsidian (Black), Frost (Light Silver/Gray), and Limoncello (Yellow) options as well. If we look at the colorway from a marketing perspective, it tends to help be a differentiating factor, especially when other tech giants are ramping up their efforts in bringing innovation and introducing some fierce features.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If the leak tends to hold any accuracy, the addition of the Indigo color option for the Pixel 10 model could help it become a fan favorite and reflect Google&#x27;s willingness to turn heads again by experimenting.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>

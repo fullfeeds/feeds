@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 09 Aug 2025 15:51:44 -0000</lastBuildDate>
+<item>
+<title> NCSA Wins $26M NGA HPC Contract </title>
+<link>https://insidehpc.com/2025/08/ncsa-wins-26m-nga-hpc-contract/</link>
+<pubDate>Fri, 08 Aug 2025 19:55:37 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/02/NCSA-logo-2-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Aug. 7, 2025 — The National Center for Supercomputing Applications and the University of Illinois Urbana-Champaign were awarded a $25.8 million contract from the U.S. National Geospatial-Intelligence Agency (NGA) for high-performance computing in support of NGA strategic partnerships, advancement of artificial intelligence, and machine learning and logistics for data production on a global scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NGA Director Vice Admiral Frank Whitworth announced the awarded contract in May at the 2025 GEOINT Symposium in St. Louis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NCSA has long partnered with NGA through the
+  &lt;a href=&quot;https://newfrontiers.illinois.edu/&quot;&gt;
+   New Frontiers Initiative
+  &lt;/a&gt;
+  , providing support for geospatial and geo-intelligence research and education through its world-class computing resources and fellowship opportunities, and potentially saving months of time in data processing and analysis. Illinois is also a member of the
+  &lt;a href=&quot;https://taylorgeospatial.org/&quot;&gt;
+   Taylor Geospatial Institute
+  &lt;/a&gt;
+  (TGI) Consortium, while NCSA is the home of TGI’s U.S. National Science Foundation-funded
+  &lt;a href=&quot;https://www.ncsa.illinois.edu/ncsa-to-help-facilitate-tgi-rails/&quot;&gt;
+   Regional AI Learning System
+  &lt;/a&gt;
+  (RAILS) to accelerate geospatial science and discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The New Frontiers Initiative is proud to continue our partnership with the National Geospatial-Intelligence Agency by providing state-of-the-art computing resources to spur innovation and speed to insight in support of NGA’s national priorities,” said William Kramer, executive director of NFI at
+  &lt;a href=&quot;http://illinois.edu/&quot;&gt;
+   Illinois
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new contract is Illinois’ next step in offering technical support and expertise in efforts related to national security and preparedness. Previously, the university and NCSA supported the ArticDEM and EarthDEM project, and research and development efforts with NGA researchers in areas such as gravity modeling, bathymetry and flood inundation. The new contract will help modernize NGA Foundation GEOINT operations, including the creation of geoscience data, terrain, imagery and 3D geospatial-intelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is an important next step in Illinois’ efforts to expand its contribution in national security and preparedness,” Kramer said. “This relationship started over 10 years ago as
+  &lt;a href=&quot;https://www.nga.mil/&quot;&gt;
+   NGA
+  &lt;/a&gt;
+  , Illinois and others worked on ArticDEM, using
+  &lt;a href=&quot;http://www.ncsa.illinois.edu/&quot;&gt;
+   NCSA
+  &lt;/a&gt;
+  ’s
+  &lt;a href=&quot;https://www.ncsa.illinois.edu/research/project-highlights/blue-waters/&quot;&gt;
+   Blue Waters
+  &lt;/a&gt;
+  system and NGA-supplied satellite data to make high-resolution maps of the entire land surface. Illinois’ expertise in high-performance computing, AI and geospatial research continues to help accelerate insight in these areas.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Argonne Scientists Honored for AI-Powered Solar Cell </title>
+<link>https://insidehpc.com/2025/08/argonne-scientists-honored-for-ai-powered-solar-cell/</link>
+<pubDate>Fri, 08 Aug 2025 17:25:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/argonne-horizon-prize-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Scientists from the U.S. Department of Energy’s (DOE) Argonne National Laboratory are part of a group recognized for their advancements in chemistry-aware artificial intelligence software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team has received the 2025 Royal Society of Chemistry’s Materials Chemistry Horizon Prize, the result of a collaborative effort between scientists from Argonne, the University of Cambridge, STFC Rutherford Appleton Laboratory and the Australian National Science and Technology Organisation, along with other partners from around the globe.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Argonne National Laboratory Team:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Paul Coffman, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Jeffrey Elam, Applied Materials
+  &lt;/li&gt;
+  &lt;li&gt;
+   Adrian Pope, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Liliana Stan, Center for Nanoscale Materials
+  &lt;/li&gt;
+  &lt;li&gt;
+   Álvaro Vázquez-Mayagoitia, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Venkat Vishwanath, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Angel Yanguas-Gil, Applied Materials
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Several former Argonne researchers were also part of the team.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Their work resulted in open-source materials databases and language models that have become invaluable resources for the global scientific community. Team leader and University of Cambridge Professor Jacqueline M. Cole fostered a synergistic partnership that has driven significant advancements in the design of organic dye-sensitized solar cells and other emerging technologies aimed at harnessing solar energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Research is a collaborative endeavor. This award recognizes the whole team, everyone who made a significant technical or research contribution. That mix between scientific government entities and universities, there is huge added value in that,” said Cole. ​“It makes a statement to the world that we succeed by working in close partnership, and we’ve done something very tangible and useful with it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Materials Chemistry Horizon Prize has been awarded to the entire 89-member team, with each team member receiving a certificate and individual recognition for their role in the groundbreaking work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Royal Society of Chemistry honored the team for pioneering new
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  -powered tools that make it faster and easier to discover advanced materials. Their open-source software enables researchers worldwide to efficiently explore massive data sets and simulate chemical properties, turning materials discovery from a process of chance into a rational, accelerated pathway, ultimately shortening the ​“molecule-to-market” timeline and helping innovations reach real-world devices and industries faster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The international team, which spans five continents, developed and shared databases,
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsmachine-learning&quot;&gt;
+   machine learning
+  &lt;/a&gt;
+  models and simulation workflows that are already transforming how materials are designed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This recognition is a testament to the power of international partnership and innovation. It highlights the years of dedicated collaboration with Professor Cole’s team and her determination to innovate at the intersection of chemistry, artificial intelligence and computing,” said Álvaro Vázquez-Mayagoitia, a computational scientist at the
+  &lt;a href=&quot;https://www.alcf.anl.gov/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Argonne Leadership Computing Facility
+  &lt;/a&gt;
+  (ALCF) who worked on the project. ​“It acknowledges Professor Cole’s visionary leadership, which has inspired scientists across academia, government and industry on multiple continents to achieve high-impact research outcomes. Our team pushed the boundaries of scientific research and has provided essential tools for researchers worldwide.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vázquez-Mayagoitia played a key role in supporting the team’s research at the ALCF, a DOE Office of Science user facility. ​“In this project, my role was centered in facilitating large-scale simulations and analyzing their results. Our team developed the codes and scripts necessary for rapidly generating a comprehensive dye database, integrating both experimental and simulated data,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team built a high-throughput, automated workflow that combined data mining,
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsmachine-learning&quot;&gt;
+   machine learning
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.anl.gov/science-101/quantum&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   quantum
+  &lt;/a&gt;
+  chemistry simulations to evaluate nearly 10,000 organic dyes. By screening for key properties like molecular structure, polarity and light absorption, they narrowed the pool to five top candidates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We needed one of the best supercomputers in the world, and the ALCF gave us that,” said Cole. ​“Specialized computing allowed us to make
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  predictions that were fast, detailed and comprehensive. That was absolutely essential.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  These predictions were then confirmed through lab experiments and device testing. The project shows how
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  and simulation, when integrated at scale, can dramatically reduce the time it takes to go from design to working technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  tools we built are really a platform technology,” Cole added. ​“We’re already using them in other areas like magnetism,
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsbatteries&quot;&gt;
+   batteries
+  &lt;/a&gt;
+  and optoelectronics.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Center for Nanoscale Materials is one of the five DOE Nanoscale Science Research Centers, premier national user facilities for interdisciplinary research at the nanoscale supported by the DOE Office of Science.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Capacity Raises $92M for Contact Center AI Support Platform, Announces Acquisitions </title>
+<link>https://insideainews.com/2025/08/08/capacity-raises-92m-for-contact-center-ai-support-platform-announces-acquisitions/</link>
+<pubDate>Fri, 08 Aug 2025 17:00:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/03/generic-data-server-room-shutterstock-1034571742-0923.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  St. Louis, August 7, 2025 –  Capacity, the AI-powered support automation platform for contact centers, has announced more than $92 million in investments. Additionally, the company announed  acquisitions of
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://callcriteria.com/&amp;source=gmail&amp;ust=1754755053794000&amp;usg=AOvVaw15S9rwoAKSEg3gJYiatZKW&quot; href=&quot;https://callcriteria.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Call Criteria
+  &lt;/a&gt;
+  and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.verbio.com/&amp;source=gmail&amp;ust=1754755053794000&amp;usg=AOvVaw3xIg5ZWZ162-Vjv5V_AVJN&quot; href=&quot;https://www.verbio.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Verbio Technologies
+  &lt;/a&gt;
+  , expanding Capacity’s capabilities in voice AI, quality assurance (QA) automation and speech analytics.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The new investments in Capacity include $50 million from
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.chicagoatlantic.com/&amp;source=gmail&amp;ust=1754755053794000&amp;usg=AOvVaw1Z0KmR7EtiGAxs1HGdnksd&quot; href=&quot;https://www.chicagoatlantic.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Chicago Atlantic
+  &lt;/a&gt;
+  , a private markets investment firm, and a Series D round close at $42.6 million. The company previously announced an initial $26 million fundraise in its Series D round, which was oversubscribed. Capacity will use the Series D proceeds to continue growth and product innovation as part of a compound startup strategy.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Support is more important than ever for brands across industries, but point solutions can’t effectively solve complex issues,” said David Karandish, CEO, Capacity. “New funding is enabling us to bring together the best technologies in our industry to build a complete, AI-powered support automation platform that helps Contact Centers operate across channels using shared knowledge.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  More than 20,000 businesses rely on Capacity’s AI support automation platform to grow revenue, cut costs and improve customer satisfaction across channels. Capacity has deep experience in knowledge management and Contact Center automation. The acquisitions of Call Criteria and Verbio Technologies signal a significant commitment to delivering the fully integrated tech stack large-scale organizations need to provide superior support.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Companies are under pressure to improve customer experiences while cutting costs. With Call Criteria and Verbio Technologies, we’re strengthening our platform to deliver faster, more personalized and fully automated support,” said Karandish.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Call Criteria offers QA automation tools that analyze Contact Center interactions using speech analytics and generative AI, helping businesses identify coaching opportunities, improve compliance and elevate agent performance.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Traditional QA is slow and subjective,” said Ryan Stomel, CEO of Call Criteria. “Together with Capacity, we’re automating QA to drive meaningful improvements in every customer interaction.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Call Criteria has built strong speech analytics and generative AI technologies that help call centers create a clear path to improving agent performance. When Call Criteria’s tools are fully integrated into our platform, Capacity customers will have access to enhanced agent support capabilities that will reduce costs, increase compliance and importantly – improve customer satisfaction,” said Karandish.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Verbio Technologies, headquartered in Barcelona, Spain, helps enterprises transform customer engagement with Intelligent Voice Virtual Agents. Designed to deliver natural, personalized conversations, these Virtual Agents manage customer interactions, resolve issues and reduce the need for live agent intervention – enhancing both customer satisfaction and operational efficiency.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Voice remains the most critical channel for customer experience and loyalty,” said Alejandro Terradas, co-CEO of Verbio Technologies. “Integrating our voice capabilities with
+  &lt;a href=&quot;http://capacity.com/&quot;&gt;
+   Capacity
+  &lt;/a&gt;
+  ’s platform unlocks next-level customer engagement.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Terradas will join Capacity following the acquisition.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Verbio Technologies has not only built a voice solution with unparalleled conversational capabilities, it is created to scale for enterprise. Together, the Capacity platform will be optimized with greater voice AI technology that personalizes and automates,” said Karandish.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capacity has marked significant growth in 2025 and is now profitable with $60 million of annual recurring revenue.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capacity has raised more than $155 million in both equity and debt across multiple funding rounds and other investments. In addition to investment from Chicago Atlantic, the Series D round of funding included investments from TVC Capital and Toloka.vc., among others.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Call Criteria and Verbio Technologies are Capacity’s 10th and 11th acquisitions in recent years. Talent from both companies will join the Capacity team with nearly 250 team members combined around the world.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The terms of the Call Criteria and Verbio Technologies transactions are confidential.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capacity is led by David Karandish, who co-founded the company and has served as the CEO since inception.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> 8 Years in the Making: Sandia Team Creates Malware Detection Software with Livermore HPC </title>
+<link>https://insidehpc.com/2025/08/8-years-in-the-making-sandia-team-creates-malware-detection-software-with-livermore-hpc/</link>
+<pubDate>Thu, 07 Aug 2025 18:20:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-96847&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/thorium-developers-0825.jpg&quot;/&gt;
+  &lt;p&gt;
+   Sandia team that developed Thorium includes, from right, project lead Evan Roncevich, project manager Kevin Hulin, lead developer Michael Carson and programmers Gavin Baker and Jake Hamzawi. (Photo by Randy Wong)
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  A cybersecurity platform, under development for eight years at Sandia National Laboratories to detect and analyze advanced malware threats, is now publicly available, giving defenders in the public and private sectors access to tools currently used to help safeguard U.S. national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform, known as Thorium, is the product of a yearslong partnership between Sandia and the Cybersecurity and Infrastructure Security Agency. Since 2017, the joint Threat-Focused Reverse Engineering project has produced software analysis tools designed to counter increasingly complex cyber threats targeting government systems and critical infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As attackers continue to deploy more advanced malware, cyber defenders need to integrate a growing arsenal of analysis tools to keep
+ &lt;/p&gt;
+ &lt;p&gt;
+  pace. Thorium addresses that challenge by serving as a central nervous system of this toolset, supporting automation and data processing. It allows cyber analysts to efficiently assess, triage and prioritize threats using a range of commercial, custom and open-source tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thorium builds on decades of cybersecurity research at Sandia. In 2007, the labs launched the Forensic Analysis Repository for Malware database, which has operated continuously since and now stores nearly 300 million malware samples, with projections it may surpass 1 billion within the next decade. FARM relies on Thorium to enable the rapid analysis needed to manage this influx of new samples.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Thorium is the latest iteration in a series of platforms and tools Sandia has developed to automate malware analysis,” lead developer Michael Carson said. “The team has learned a lot over that time, and Thorium is the end result.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Carson, Thorium is “almost infinitely scalable” and built for “massive automation and customization.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://www.independentnews.com/news/livermore_news/sandia-team-creates-software-programs-to-identify-malware/article_ddfd19e4-5ae9-4784-98c2-7c7b6b51cb03.html&quot;&gt;
+   a story in The Independent
+  &lt;/a&gt;
+  , a news pubication covering the Livermore, CA, area, Thorium coding and testing happens at Lawrence Livermore National Laboratory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is where everyone on the team works. It’s where all of the internal high-performance computers we use are located,” Carson told The Independent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandia is also applying machine learning to help process the massive volumes of data collected through the toolset, further accelerating analysis and insights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the release of Thorium as open-source, Sandia hopes to make it easier for organizations to adopt a common foundation for malware analysis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform is built on Google’s Kubernetes container management system, which helps automate the scaling and deployment of software applications. By using an industry-standard format, Thorium allows security teams to develop, package and share tools across the malware analysis community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Enabling easy sharing and integration of malware analysis capabilities is the primary driver for open sourcing the Thorium platform,” capability manager Kevin Hulin said. “By offering a baseline platform for free, we hope tool developers begin adopting it as a standard for how tools are deployed. That way, researchers can spend more time developing tools and less time solving system integration problems.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thorium is available for download through
+  &lt;a href=&quot;https://github.com/cisagov/thorium&quot; rel=&quot;noopener noreferrer&quot;&gt;
+   CISA’s GitHub
+  &lt;/a&gt;
+  repository.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   source: Michael Ellis Langley, Sandia Labs
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Study: Agentic AI Is Advancing but Governance Gap Threatens Consumer Trust </title>
+<link>https://insideainews.com/2025/08/07/study-agentic-ai-is-advancing-but-governance-gap-threatens-consumer-trust/</link>
+<pubDate>Thu, 07 Aug 2025 16:51:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/08/ai-trust-survey-080725.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  San Francisco, Aug. 7, 2025
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   — New data released today by Genesys uncovers a disconnect between how companies govern AI and what consumers need to feel safe using it. While four out of five consumers surveyed said they want clear governance of AI interactions, less than a third (31 percent) of business leaders say their organizations have comprehensive, organization-wide AI policies and oversight in place.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   As agentic AI — autonomous systems that can think, act and make decisions independently — becomes more pervasive in enterprise customer experience (CX) strategies, 91 percent of CX leaders surveyed believe it will empower their organizations to deliver faster, more effective, personalized service. However, the data reveals a complex reality: While enthusiasm is high for the transformative value agentic AI can deliver, governance structures are lagging, posing risks to consumer trust, brand reputation and regulatory compliance.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   “Agentic AI is opening up exciting new possibilities for how organizations serve their customers, but earning consumer trust has to grow alongside that progress,” said Olivier Jouve, chief product officer at Genesys, a cloud AI-powered experience orchestration company. “As these systems take on more responsibility, it’s essential that businesses stay transparent and accountable in how they’re used. With the right guardrails in place from the start, companies can build lasting confidence by responsibly innovating customer experiences that deliver new levels of personalization and effectiveness.”
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&#x27;{&quot;201341983&quot;:0,&quot;335559740&quot;:276}&#x27;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   More than 90 percent of CX leaders surveyed agree that strong governance is critical to: protect brand reputation (91%), build long-term trust and loyalty with customers (91%), and increase consumer comfort with autonomous systems (90%).
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Yet many organizations are still unprepared. Over one-third of CX leaders (35 percent) admit they have little to no formal governance policies in place. Even more concerning, 28% of those without any policy at all still believe their organizations are ready to deploy agentic AI.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   This governance gap becomes more troubling when viewed alongside consumers’ concerns.
+  &lt;/span&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Many remain wary due to a lack of transparency around how their data is used and the absence of clear oversight.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   In fact, clarity on how AI uses their personal data was the number one concern among respondents. Compounding this, 37 percent of consumers believe AI “hallucinates” or fabricates information — a view echoed by 59 percent of CX leaders, who acknowledge that hallucinations pose serious risks to customer loyalty, litigation and brand reputation. This perceived lack of reliability further undermines trust and reinforces the need for safeguards that ensure accuracy and accountability in AI-driven experiences.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   The gap between what leaders know is necessary and what organizations have implemented is especially concerning given the clear demand from consumers for transparency and oversight. This makes it critical for businesses to close the gap before deploying agentic AI at scale.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   While 81 percent of CX leaders trust agentic AI with sensitive customer data, only 36% of consumers feel the same. This disconnect is sharper in higher stakes situations.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Businesses show strong confidence in using agentic AI for critical customer functions: 74 percent of businesses say they’re comfortable using the technology for billing, financial transactions and account security. Consumers, however, are much more hesitant: Only 35 percent are comfortable with agentic AI handling money transfers, 49 percent with resolving billing issues and 50 percent with updating personal information.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Still, the data reveals an important opportunity. More than half of consumers (58 percent) say they don’t care whether their issue is resolved by a human or AI, as long as its handled quickly and completely.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   This signals that CX efficiency and effectiveness can overcome skepticism, but only when paired with transparency and accountability. To close the trust gap and innovate responsibly, organizations must scale in a consumer-centric way
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Methodology:
+   &lt;a href=&quot;https://www.genesys.com/&quot;&gt;
+    Genesys
+   &lt;/a&gt;
+   worked with an independent research firm to survey 4,000 consumers and 1,600 CX and IT decision-makers in more than 10 countries. The survey was conducted in June 2025. Among the business respondents, the industries represented were airlines, automotive, banking, government, healthcare, insurance, manufacturing, media and entertainment, professional services, retail, travel and hospitality, technology, telecommunications, and utilities.
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Survey: Quantum Error Correction Is Critical but Ecosystem Isn’t Ready </title>
+<link>https://insidehpc.com/2025/08/survey-quantum-error-correction-is-critical-but-ecosystem-isnt-ready/</link>
+<pubDate>Thu, 07 Aug 2025 16:25:57 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/07/Riverlane-logo-2-1-0724.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Cambridge, UK | 7th August 2025 — Riverlane has released findings from a global survey of more than 300 quantum professionals and academics, revealing strong demand for quantum error correction (QEC) but widespread lack of readiness across the industry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  QEC is now seen as essential to building useful quantum computers. Key findings from the 2025 QEC Survey include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   95 percent of respondents said QEC is critical to scaling quantum computing
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   99 percent said they are interested in QEC, but more than two-thirds reported lack of training, best practices, or resources as a key barrier
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Only 4 percent plan to build QEC infrastructure entirely in-house
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   The most cited blocker was lack of training (41 percent), followed by unclear best practices (28 percent) and limited resources (28 percent).
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  While companies and governments are embedding QEC into their roadmaps for 2028, the people expected to deliver on those plans are struggling to access the tools and education they need.
+ &lt;/p&gt;
+ &lt;p&gt;
+  QEC is essential for achieving fault tolerance and unlocking scalable quantum computing. Yet today, most progress is happening behind closed doors, with limited access for the broader developer community. This data provides a snapshot of a young, engaged community ready to adopt QEC, but without the means to do so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Riverlane is responding by democratising access to quantum error correction,
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.riverlane.com/press-release/riverlane-expands-qec-capabilities-with-key-hires&amp;source=gmail&amp;ust=1754668741587000&amp;usg=AOvVaw2EETkGzjWNmm0DP0fK003Q&quot; href=&quot;https://www.riverlane.com/press-release/riverlane-expands-qec-capabilities-with-key-hires&quot;&gt;
+   equipping teams with the open tools, knowledge, and guidance
+  &lt;/a&gt;
+  they need to put QEC into practice and accelerate progress across the ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Read the blog summary and access key data here:
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.riverlane.com/blog/quantum-error-correction-is-crucial-but-the-ecosystem-isn-t-ready&amp;source=gmail&amp;ust=1754668741587000&amp;usg=AOvVaw3UMERUAq6n2Sra7WudX2D4&quot; href=&quot;https://www.riverlane.com/blog/quantum-error-correction-is-crucial-but-the-ecosystem-isn-t-ready&quot;&gt;
+    Quantum error correction is crucial, but the ecosystem isn’t ready
+   &lt;/a&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ALCF HPC Workshop Sept. 23-25 and Oct. 7-9 </title>
+<link>https://insidehpc.com/2025/08/alcf-hpc-workshop-sept-23-25-and-oct-7-9/</link>
+<pubDate>Thu, 07 Aug 2025 15:47:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/alcf-workship-080725.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The Argonne Leadership Computing Facility will hold a two-part HPC workshop starting with a virtual event to be held Tuesday-Thursday, Sept. 23-25, followed by hands-on, in-person workshop Wednesday-Friday, Oct. 7-9 at Argonne National Laboratory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Registration information and more details can be found here.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This event is designed to advance ALCF users’ skills in high-performance computing and artificial intelligence. The virtual week (Sept 23-25) covers the fundamentals of building, compiling, and running applications on ALCF systems, and will include overviews for getting started on the Aurora and Polaris supercomputers. This virtual segment is recommended for new users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The in-person week at Argonne (October 7-9) offers in-depth sessions and dedicated hands-on time with ALCF staff and industry experts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Workshop sessions will focus on four key themes:
+ &lt;/p&gt;
+ &lt;p&gt;
+  ALCF Resources (Aurora and Polaris)
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI and Machine Learning
+ &lt;/p&gt;
+ &lt;p&gt;
+  Data Management
+ &lt;/p&gt;
+ &lt;p&gt;
+  Performance Tools and Debuggers
+ &lt;/p&gt;
+ &lt;p&gt;
+  Participants will gain practical experience focusing on porting applications to heterogeneous architectures, optimizing code performance, and developing AI/ML workflows. Participants will also have the opportunity to tour Argonne’s facilities, including the Aurora supercomputer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Important Dates:
+ &lt;/p&gt;
+ &lt;p&gt;
+  September 5: Registration Deadline
+ &lt;/p&gt;
+ &lt;p&gt;
+  September 23-25: Virtual Week
+ &lt;/p&gt;
+ &lt;p&gt;
+  October 7-9: In-Person Workshop at Argonne National Laboratory
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cloudera Acquires Taikun for Managing Kubernetes and Cloud </title>
+<link>https://insidehpc.com/2025/08/cloudera-acquires-taikun-for-managing-kubernetes-and-cloud/</link>
+<pubDate>Thu, 07 Aug 2025 15:09:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/cloudera-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Santa Clara, CA – AI and data platform company
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.cloudera.com/&amp;source=gmail&amp;ust=1754571521926000&amp;usg=AOvVaw2Y7_j3hEuaEPufvV6gnuwN&quot; href=&quot;https://www.cloudera.com/&quot;&gt;
+   Cloudera
+  &lt;/a&gt;
+  announced its acquisition of
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://taikun.cloud/&amp;source=gmail&amp;ust=1754571521926000&amp;usg=AOvVaw0JPCdqU5u5FFLYky7vXyNV&quot; href=&quot;https://taikun.cloud/&quot;&gt;
+   Taikun
+  &lt;/a&gt;
+  , a leading platform provider for managing Kubernetes and cloud infrastructure across hybrid and multi-cloud environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With this move, Cloudera accelerates the deployment and delivery of the complete Cloudera platform, including Data Services and AI anywhere – from the public clouds to on-prem data centers to sovereign and air-gapped environments – all through a unified control plane.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As enterprise IT environments become more complex and distributed, the need for reliable and scalable data infrastructure has become increasingly critical to support core operations and the growing demands of AI workloads. Cloudera is addressing this challenge head on by combining its industry-leading data platform with the acquisition of Taikun’s native Kubernetes capabilities designed to bring simplicity and flexibility to even the most complex environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With Taikun’s technology, Cloudera gains a fully integrated compute layer that unifies deployment and operations across the IT stack, delivering a consistent, cloud-like experience anywhere. This brings several key benefits to customers:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Run anywhere with flexibility and control: Customers can deploy data and AI workloads in the data center, in the cloud, or in hybrid environments without sacrificing performance or freedom of choice. Taikun supports highly-regulated environments such as GovCloud, Sovereign Cloud, and air-gapped data centers, providing best-in-class solutions with cloud, data, and services anywhere, delivering business value and intelligence everywhere.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Streamlined operations with seamless upgrades: The integrated compute layer enables zero-downtime upgrades and tighter resource optimization, helping customers increase efficiency and reduce operational risk, while reducing the total cost of ownership.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Faster adoption of Cloudera and partner technologies: Customers can take a “bring your own engine” approach by easily integrating tools and databases from Cloudera and its broad partner ecosystem – from Cloudera Data Services and popular technologies in Cloudera like Spark, HBase, Ozone, Kafka, and Trino to third-party graph databases and more.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Prepare for the future with a Cloud anywhere architecture: By preserving choice and expanding deployment options, Cloudera ensures long-term flexibility and alignment with customer needs as business mandates evolve.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “This acquisition marks a pivotal step in our mission to bring the cloud experience wherever enterprise data resides,” said Charles Sansbury, CEO,
+  &lt;a href=&quot;https://www.cloudera.com/&quot;&gt;
+   Cloudera
+  &lt;/a&gt;
+  . “By integrating Taikun’s container-native platform in our stack, we are removing operational barriers and enabling our customers to unlock faster insights, make smarter decisions, and drive real-time action in every corner of their business.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As part of the acquisition, Taikun’s engineering team will join Cloudera’s Engineering, Product, and Support organization, bringing deep technical expertise in Kubernetes. Additionally, Taikun, based in the Czech Republic, will be a new European development hub for Cloudera, reinforcing its commitment to innovation across the region.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our acquisition by Cloudera marks a pivotal moment for us,” said Adam Skotnicky, former CEO of Taikun, “Our advanced cloud-native computing platform will enable customers from across the globe to deliver and deploy services and applications seamlessly, whether that’s in the data center or in multi-cloud environments. Only Cloudera is the right organization for us to join during this critical moment for data and AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Organizations are suffering more than ever from fragmented data and application management across diverse infrastructures, increasing complexity, costs, and limiting data/AI initiatives,” said Sanjeev Mohan, Principal, SanjMo. “The result: compromise on workload placement and data analysis. With Cloudera’s acquisition of Taikun and integration in Cloudera’s platform, organizations can now run AI and analytics anywhere their data lives — from cloud to edge — accelerating insights, empowering smarter choices, and driving real-time responses throughout their organization.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This marks Cloudera’s third strategic acquisition in just 14 months, following the purchase of
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.cloudera.com/about/news-and-blogs/press-releases/2024-06-03-cloudera-acquires-verta.html&amp;source=gmail&amp;ust=1754571521926000&amp;usg=AOvVaw0ZvSQh-9-al7UkL8L6LG_t&quot; href=&quot;https://www.cloudera.com/about/news-and-blogs/press-releases/2024-06-03-cloudera-acquires-verta.html&quot;&gt;
+   Verta’s
+  &lt;/a&gt;
+  operational AI platform in May 2024 and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.cloudera.com/about/news-and-blogs/press-releases/2024-11-14-cloudera-to-acquire-octopais-platform.html&amp;source=gmail&amp;ust=1754571521926000&amp;usg=AOvVaw0NW-R2Wvmwxwar4_vBydUG&quot; href=&quot;https://www.cloudera.com/about/news-and-blogs/press-releases/2024-11-14-cloudera-to-acquire-octopais-platform.html&quot;&gt;
+   Octopai’s
+  &lt;/a&gt;
+  data lineage and catalog solution in November 2024. These strategic acquisitions reflect Cloudera’s continued investment in strengthening its platform, ensuring customers have the flexibility to run data and AI workloads wherever it makes the most sense, without compromise.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Quantum: Alice &amp; Bob and Inria Report Efficiency Gains for Magic State Preparation </title>
+<link>https://insidehpc.com/2025/08/quantum-alice-bob-and-inria-report-efficiency-gains-for-magic-state-preparation/</link>
+<pubDate>Wed, 06 Aug 2025 20:12:30 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/03/Alice-Bob-logo-2-1-0324.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Paris – August 6, 2025 –
+  &lt;strong&gt;
+  &lt;/strong&gt;
+  Scientists from Alice &amp; Bob and Inria, France’s national institute for research in digital science and technology, have  submitted a new study for peer review illustrating the most hardware-efficient method to date for producing magic states on superconducting quantum computers, a critical step toward realizing practical quantum computation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Preparing magic states has remained one of the most resource-intensive aspects of quantum computing. This work makes magic state preparation cheaper in terms of qubit requirements and considerably faster, consolidating the roadmap to the universal fault-tolerant gate set needed to run useful quantum applications at scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Their new approach, outlined in the paper “
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/27d4f3b3c94c4d368db01601ca6735d1/2/35fdc12ee6b51c7f66e62e124685854c76838dd7f5512ec7d5cd5704a4ff94d1?cache_buster%3D1754483449&amp;source=gmail&amp;ust=1754596435631000&amp;usg=AOvVaw2LvxDizzF_qyTHz_lcwqAB&quot; href=&quot;https://tracking.us.nylas.com/l/27d4f3b3c94c4d368db01601ca6735d1/2/35fdc12ee6b51c7f66e62e124685854c76838dd7f5512ec7d5cd5704a4ff94d1?cache_buster=1754483449&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Unfolded distillation: very low-cost magic state preparation for biased-noise qubits
+  &lt;/a&gt;
+  ” was recently posted on arXiv. The new code was inspired by existing methods and tailored to work with the company’s cat qubits, which inherently protect against bit flip errors in quantum computations (a ‘noise bias’).
+ &lt;/p&gt;
+ &lt;p&gt;
+  To achieve universal quantum computation with the ability to run any possible quantum algorithm, including those with known speedups over classical ones like Shor’s and Grover’s algorithms, a quantum computer must support a complete set of specific fundamental operations or gates. While some gates can be directly implemented, others require the use of special quantum resources known as
+  &lt;strong&gt;
+   magic states
+  &lt;/strong&gt;
+  . These states must be carefully prepared and manipulated during computation to enable
+  &lt;em&gt;
+   “non-trivial”
+  &lt;/em&gt;
+  operations that cannot otherwise be executed directly, completing the universal gate set. In other words, magic states enable the last gates required to complete the set of operations needed to perform any possible quantum algorithm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   The State of Magic State Research
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Optimal magic state distillation would require complex 3D arrangements of qubits leading to architectures too hard to engineer in solid state QPUs.
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/27d4f3b3c94c4d368db01601ca6735d1/3/984c1e9309da241093a16487cf90df08af42414e94a1008d715c695d1f5285cc?cache_buster%3D1754483449&amp;source=gmail&amp;ust=1754596435631000&amp;usg=AOvVaw3t15Ao_t999eiLfvwU4R2r&quot; href=&quot;https://tracking.us.nylas.com/l/27d4f3b3c94c4d368db01601ca6735d1/3/984c1e9309da241093a16487cf90df08af42414e94a1008d715c695d1f5285cc?cache_buster=1754483449&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Recent research
+  &lt;/a&gt;
+  from Google scientists, theorized that magic state production with low error rates would require just 463 qubits in a novel 2D architecture, combining decades of quantum error correction research and overcoming the 3D architecture challenge to significantly reduce the qubit needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers at Alice &amp; Bob and Inria have managed to “unfold” the 3D code, much like flattening a box, into an even more practical 2D layout. This unfolded code for magic state preparation, internally nicknamed the “Heart Code” for its distinctive shape, is only possible thanks to noise-biased qubits, such as the cat qubits developed by Alice &amp; Bob.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The unfolded code simplifies overall operations and reduces overhead, requiring only 53 qubits to produce one magic state. The result is a remarkable 8.7× reduction in qubit requirements compared to the leading approaches while requiring 5× fewer quantum error correction cycles, making it approximately 5× faster than state-of-the-art superconducting platforms for the same error rate of less than 1 in a million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The most advanced players in quantum have lined up breakthrough after breakthrough to reduce the costs of magic state preparation, and it’s exciting to see how our work further improves the state of the art on noise-biased qubits.” said Diego Ruiz, author of the paper and a Ph.D. student at
+  &lt;a href=&quot;http://www.alice-bob.com&quot;&gt;
+   Alice &amp; Bob
+  &lt;/a&gt;
+  and Inria.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Importantly, this magic state protocol only uses components that are already required for Alice &amp; Bob’s quantum error correction architecture, including both the fundamental operations and the physical cat qubits. Hence, no new developments are needed, and the company can focus on reaching the targeted performance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This research highlights the promising advantages of cat qubits’ noise bias to reduce the hardware overhead needed for useful quantum computing, not only when combined with advanced error codes like LDPC outlined in another
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/27d4f3b3c94c4d368db01601ca6735d1/4/6260b3054e941122873998aee8b72659e2853bf114e9d0f911bd7e712a222fba?cache_buster%3D1754483449&amp;source=gmail&amp;ust=1754596435631000&amp;usg=AOvVaw2fjhzAqmVPms3XtGdvND7M&quot; href=&quot;https://tracking.us.nylas.com/l/27d4f3b3c94c4d368db01601ca6735d1/4/6260b3054e941122873998aee8b72659e2853bf114e9d0f911bd7e712a222fba?cache_buster=1754483449&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   recent paper
+  &lt;/a&gt;
+  by Alice &amp; Bob researchers, but now also in the context of magic state preparation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This looming obstacle to useful quantum computers is finally being solved by the community, with some players even achieving the first proof-of-concept magic state preparation in experimental settings,” said Théau Peronnin, CEO of Alice &amp; Bob. “Capitalizing on the cat qubits, this work further de-risks our roadmap while showcasing the long-term advantages of our universal platform.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cerebras Reports 3,000 Tokens Per Second Inference on OpenAI gpt-oss-120b Model </title>
+<link>https://insidehpc.com/2025/08/cerebras-reports-3000-tokens-per-second-inference-on-openai-gpt-oss-120b-model/</link>
+<pubDate>Wed, 06 Aug 2025 19:46:51 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2022/11/Cerebras-logo-jpeg-black-background.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;p&gt;
+     SUNNYVALE, Calif. &amp; SAN FRANCISCO — Cerebras Systems today announced inference support for gpt-oss-120B, OpenAI’s first open-weight reasoning model, running at record inference speeds of 3,000 tokens per second on the Cerebras AI Inference Cloud, according to Cerebras.
+    &lt;/p&gt;
+    &lt;p&gt;
+     This is the first time an OpenAI model leverages Cerebras’ wafer-scale AI infrastructure to run full-model inference. Cerebras said gpt-oss-120B can be accessed on the Cerebras Cloud with a free API key
+     &lt;a href=&quot;https://cloud.cerebras.ai/?utm_source=linkedin&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+      (cerebras.ai/openai)
+     &lt;/a&gt;
+     .
+    &lt;/p&gt;
+    &lt;p&gt;
+     Built for math, science and code, this 120B-parameter model is on par with top proprietary models like Gemini 2.5 Flash and Claude Opus 4, Cerebras said.
+    &lt;/p&gt;
+    &lt;p&gt;
+     “By eliminating GPU memory bandwidth bottlenecks and communication overhead, Cerebras wafer-scale AI inference delivered a world-record 3,000 tokens per second output speed — a major advance in responsiveness for high-intelligence AI,” the company said. This performance will enable organizations to use Cerebras-powered gpt-oss-120B to build live coding assistants, instant large document Q&amp;A and summarization, and fast agentic research chains, according to Cerebras, which added that “high-intelligence AI reasoning use cases have long wait times on proprietary models running on GPUs – that lag is now dramatically reduced with gpt-oss-120B on Cerebras.”
+    &lt;/p&gt;
+    &lt;p&gt;
+     “OpenAI’s open-weight reasoning model release is a defining moment for the AI community,” said Andrew Feldman, CEO and co-founder of Cerebras. “With gpt-oss-120B, we’re not just breaking speed records—we’re redefining what’s possible. OpenAI on Cerebras delivers frontier intelligence with blistering performance, lower cost, full openness, and plug-and-play ease of use. It’s the ultimate AI platform: smart, fast, affordable, easy to use, and fully open.”
+    &lt;/p&gt;
+    &lt;p&gt;
+     Developers can swap their existing OpenAI endpoints for Cerebras in 15 seconds without refactoring or migration headaches.
+    &lt;/p&gt;
+    &lt;p&gt;
+     The open-weight Apache 2.0 license from OpenAI gives users the ability to fine-tune for their domain, deploy on-prem for sensitive or regulated data, or move freely across clouds.
+    &lt;/p&gt;
+    &lt;p&gt;
+     “Our open models let developers—from solo builders to large enterprise teams—run and customize AI on their own infrastructure, unlocking new possibilities across industries and use cases,” said Dmitry Pimenov, product lead at OpenAI. “Through deployment partners like Cerebras, we’re together able to provide powerful, flexible tools that make it easier than ever to build, innovate, and scale.”
+    &lt;/p&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Vectra AI Introduces MCP Server for Threat Investigations via AI Assistants </title>
+<link>https://insideainews.com/2025/08/06/vectra-ai-introduces-mcp-server-for-threat-investigations-via-ai-assistants/</link>
+<pubDate>Wed, 06 Aug 2025 15:04:02 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/06/generic-ai-generative-ai-2-1-shutterstock-2496403005.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN JOSE – August 6, 2025 – Cybersecurity AI company Vectra AI today announced Vectra AI MCP Server, designed to bring natural language access to the Vectra AI Platform through the Model Context Protocol (MCP).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Currently available as early access to all customers, with more releases to come soon, this tool allows security teams to engage with the Vectra AI Platform through AI assistants like Claude Desktop, Cursor, and others – turning complex threat investigations into intuitive conversations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Security operations teams are embracing AI to work faster and more efficiently, but accessing deep security insights remains a technical and time-consuming process. Analysts often struggle with alert fatigue, fragmented toolsets, and complex workflows that delay response and increase risk. By adopting MCP – a fast-growing open standard that enables AI agents to connect with external data and tools – Vectra AI is breaking down those barriers and making expert-level detection and response accessible through a simple prompt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ‍The Vectra AI MCP Server connects directly to the Vectra AI Platform, enabling analysts and threat hunters to investigate incidents, reconstruct attack timelines, and report on security posture – all through conversational queries. The integration eliminates the need for custom connectors, reduces investigation time, and allows SOC teams to generate context-rich visuals and reports that can be easily shared with leadership. It builds on Vectra AI’s core platform strengths and requires no changes to existing deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ‍“As AI-native workflows reshape the way teams investigate and respond to threats, we’re committed to making our intelligence available wherever and however our customers work,” said Jeff Reed, chief product officer at
+  &lt;a href=&quot;https://www.vectra.ai/&quot;&gt;
+   Vectra AI
+  &lt;/a&gt;
+  . “The launch of our MCP Server is a major step in democratizing security expertise – empowering every analyst with instant access to powerful insights through the AI tools they already use.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  ‍The Vectra AI MCP Server is currently available as early access for preview customers, with more releases to come soon.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> D-Wave Introduces Quantum AI Developer Toolkit </title>
+<link>https://insideainews.com/2025/08/05/d-wave-introduces-quantum-ai-developer-toolkit/</link>
+<pubDate>Tue, 05 Aug 2025 21:07:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/08/d-wave-logo-2-1-0825-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  PALO ALTO, Calif. – August 4, 2025 – D-Wave Quantum Inc. (NYSE: QBTS) announced it has released a collection of offerings to help developers explore quantum artificial intelligence and machine learning innovation, including an open-source quantum AI toolkit and a demo.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Available now for download, the quantum AI toolkit enables developers to integrate quantum computers into ML architectures. The demo illustrates how developers can leverage this toolkit to experiment with using D-Wave quantum processors to generate simple images, reflecting what D-Wave believes is a pivotal step in the development of
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfW20NETwrm0c9w40qdYG/https%253A%252F%252Fwww.dwavequantum.com%252Fsolutions-and-products%252Fquantum-optimization%252Fquantum-ai-landing-page%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw3foi3wS9eCsxI9w4voxnMh&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfW20NETwrm0c9w40qdYG/https%3A%2F%2Fwww.dwavequantum.com%2Fsolutions-and-products%2Fquantum-optimization%2Fquantum-ai-landing-page%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   quantum AI
+  &lt;/a&gt;
+  capabilities.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  By releasing this new set of tools, D-Wave aims to help organizations accelerate the use of annealing quantum computers in a growing set of AI applications. The quantum AI toolkit, part of D-Wave’s
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWu-fuxPd3wVMgf6Ujhg/https%253A%252F%252Fwww.dwavequantum.com%252Fsolutions-and-products%252Focean%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw07zW8Sfko-9wCPhw3d7tBz&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWu-fuxPd3wVMgf6Ujhg/https%3A%2F%2Fwww.dwavequantum.com%2Fsolutions-and-products%2Focean%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Ocean
+  &lt;/a&gt;
+  software suite, provides direct integration between D-Wave’s quantum computers and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWyTU0ZC913ZuAAHSGGK/https%253A%252F%252Fpytorch.org%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw2rSCyCNTIx8p_t8F5PRwjm&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWyTU0ZC913ZuAAHSGGK/https%3A%2F%2Fpytorch.org%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   PyTorch
+  &lt;/a&gt;
+  , a production-grade ML framework widely used to build and train deep learning models. The toolkit includes a PyTorch neural network module for using a quantum computer to build and train ML models known as a restricted Boltzmann machine (RBM).
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Used to learn patterns and connections from complex data sets, RBMs are employed for generative AI tasks such as image recognition and drug discovery. Training RBMs with large datasets can be a computationally complex and time-consuming task that could be well-suited for a quantum computer. By integrating with PyTorch, D-Wave’s new toolkit aims to make it easy for developers to experiment with quantum computing to address computational challenges in training AI models.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “With this new toolkit and demo, D-Wave is enabling developers to build architectures that integrate our annealing quantum processors into a growing set of ML models,” said Dr. Trevor Lanting, chief development officer at D-Wave. “Customers are increasingly asking us for ways to facilitate the exploration of quantum and AI, recognizing the collaborative potential of these two complementary technologies.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  D-Wave continues to advance its quantum AI product roadmap, delivering new solutions to customers while expanding development efforts. The company is working with a growing number of customers on exploratory quantum AI projects including:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Japan Tobacco Inc.: D-Wave has completed a joint proof-of-concept project with the pharmaceutical division of
+    &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWuMjIx7Pzja6QnqUdru/https%253A%252F%252Fwww.dwavequantum.com%252Fcompany%252Fnewsroom%252Fpress-release%252Fjapan-tobacco-and-d-wave-announce-quantum-proof-of-concept-outperforms-classical-results-for-llm-training-in-drug-discovery%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw3NGeC6dm8478bewhAmu1oF&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWuMjIx7Pzja6QnqUdru/https%3A%2F%2Fwww.dwavequantum.com%2Fcompany%2Fnewsroom%2Fpress-release%2Fjapan-tobacco-and-d-wave-announce-quantum-proof-of-concept-outperforms-classical-results-for-llm-training-in-drug-discovery%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+     Japan Tobacco Inc. (JT)
+    &lt;/a&gt;
+    that used D-Wave’s quantum computing technology and AI in the drug discovery process. The quantum proof-of-concept outperformed classical methods for AI model training in drug discovery.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Jülich Supercomputing Centre at Forschungszentrum Jülich:
+    &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWy8fGhmfIIbVwPAud-B/https%253A%252F%252Fjournals.aps.org%252Fprresearch%252Fabstract%252F10.1103%252FPhysRevResearch.4.043013&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw0019S8JFnLWwAjvjfeg2kp&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWy8fGhmfIIbVwPAud-B/https%3A%2F%2Fjournals.aps.org%2Fprresearch%2Fabstract%2F10.1103%2FPhysRevResearch.4.043013&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+     Researchers
+    &lt;/a&gt;
+    used D-Wave’s quantum technology to develop a ML tool that predicts protein-DNA binding with greater accuracy than traditional methods using classical computers. The team integrated quantum computing with support vector machines to achieve improved results in various metrics, significantly enhancing classification performance.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    TRIUMF: Canada’s particle accelerator center and its partner institutions recently published a paper in
+    &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWyvr_KcOHBA4Qj9fWBo/https%253A%252F%252Fwww.nature.com%252Farticles%252Fs41534-025-01040-x&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw0NVNd8c4gfCgvQWTSoKOf2&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWyvr_KcOHBA4Qj9fWBo/https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41534-025-01040-x&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+     npj Quantum Information
+    &lt;/a&gt;
+    showing significant speedups using D-Wave’s quantum computers over classical approaches for simulating high-energy particle-calorimeter interactions—potentially leading to major efficiencies where the AI model is used to create synthetic data.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Organizations looking to explore the integration of quantum computing into AI workloads can apply to the
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWyHR-c4qa4MeQJXX5or/https%253A%252F%252Fwww.dwavequantum.com%252Fquantum-launchpad%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw1pe8BM9r0nerVoF1af9Aib&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWyHR-c4qa4MeQJXX5or/https%3A%2F%2Fwww.dwavequantum.com%2Fquantum-launchpad%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Leap Quantum LaunchPad
+  &lt;/a&gt;
+  program.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Kevin Chern, Senior Benchmarking Researcher at D-Wave, will showcase the toolkit and demo during his presentation titled “An Introduction to Quantum Annealers in Optimization and Machine Learning,” at
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfW2Xl3vwPNFxhgw6AAyi/https%253A%252F%252Fai4.io%252Fvegas%252Fresearch-summit%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw3q5S1o5UqAnLAR_nwJnRnE&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfW2Xl3vwPNFxhgw6AAyi/https%3A%2F%2Fai4.io%2Fvegas%2Fresearch-summit%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   The AI Research Summit at Ai4 2025
+  &lt;/a&gt;
+  , on August 13, 2025 from 11:05 a.m. to 11:25 a.m. PT.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Vertiv Announces Prefabricated Infrastructure for AI, HPC </title>
+<link>https://insidehpc.com/2025/08/vertiv-announces-prefabricated-infrastructure-for-ai-hpc/</link>
+<pubDate>Tue, 05 Aug 2025 20:42:48 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/03/vertiv-logo-2-1-0325.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;span&gt;
+    COLUMBUS, Ohio
+   &lt;/span&gt;
+  &lt;/span&gt;
+  ,
+  &lt;span&gt;
+   &lt;span&gt;
+    Aug. 5, 2025
+   &lt;/span&gt;
+  &lt;/span&gt;
+  — Vertiv (NYSE: VRT) today announced the availability of Vertiv OneCore, a scalable prefabricated solution that integrates Vertiv’s power, thermal, and IT infrastructure technologies into a factory-assembled system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Designed to accelerate high-density data center deployments, Vertiv OneCore is intended to simplify project execution by reducing on-site complexity and compressing timelines. The solution is now available globally for a range of deployments, including enterprise, colocation, sovereign, and neocloud environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vertiv OneCore offers a unified, slab-up turn-key approach that streamlines the process, from design to installation and ready-for-operation, under a single point of contact. The flexible building design leverages proven, prefabricated building blocks, including whitespace fit-outs like Vertiv SmartRun, housed within a Vertiv-provided steel shell. This design simplifies logistics, minimizes on-site labor and complexity, and supports consistent quality, cost, and schedule outcomes. Vertiv Unify provides integrated system visibility and centralized management.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Vertiv OneCore is our answer to the need for reducing complexity and enabling speed in building data center capacity at scale,” said
+  &lt;span&gt;
+   Viktor Petik
+  &lt;/span&gt;
+  , senior vice president of infrastructure solutions at Vertiv. “We know the challenge isn’t just designing for today’s needs but building an adaptable foundation for the future. This solution reduces project complexity by standardizing key components while preserving the flexibility to scale and evolve, expand easily, and integrate new technologies as business and IT requirements evolve.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vertiv OneCore is ideal for data centers with mixed loads or extreme rack densities. Its modular electrical and mechanical designs support parallel manufacturing to enable compressed timelines and reductions in costs. The approach is highly flexible and free from rigid size limitations, enabling customized configurations that maximize usable whitespace and improve airflow for environmental control.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Features include:
+ &lt;/p&gt;
+ &lt;ul type=&quot;disc&quot;&gt;
+  &lt;li&gt;
+   Scalable Power Capacity: Supports 5 to 50 MW in a single block to meet growing energy demands for AI and high-density deployments.
+  &lt;/li&gt;
+  &lt;li&gt;
+   High Rack Density Flexibility: Configurable for 96 to 944 racks, supporting low to extreme densities and enabling tailored designs based on IT requirements.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Integrated Thermal and Power Systems: Delivers energy-efficient, space-saving cooling and power infrastructure with Vertiv’s proven technologies, including a broad range of liquid cooling and advanced heat rejection systems and scalable power management and uninterruptible power supply (UPS) systems.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Concurrent Maintainability: Electrical and thermal systems are designed for availability and system resilience during maintenance or upgrades.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Optimized Site and Environmental Performance: Operates in temperatures from -20°C to 55°C (-4°F to 131°F), supporting robust performance in diverse global climates.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Advanced Redundancy: Includes redundant configuration options for both Primary and Secondary Fluid Networks, as well as options for distributed electrical redundancy.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Broad Voltage Compatibility: Compatible with 11–35 kV medium voltage and 400V–480V 3-phase AC power input, meeting diverse regional standards.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Comprehensive Post-Deployment Service and Support: Backed by Vertiv’s global service organization, customers gain access to expert-led commissioning, proactive maintenance programs, and rapid response capabilities to support long-term performance, availability, and operational efficiency across the full data center lifecycle.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Vertiv OneCore seamlessly integrates Vertiv’s extensive portfolio of power, thermal, and management solutions, including Vertiv Trinergy UPS systems, switchgear, busways, Vertiv CoolChip CDU and perimeter cooling, Vertiv CoolLoop Trim Cooler, Vertiv Liebert AFC chiller, and the Vertiv Unify management system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;http://Vertiv.com&quot;&gt;
+   Vertiv
+  &lt;/a&gt;
+  OneCore solution can also support customer’s sustainability strategies through increased efficiency, reduced power requirements, and a flexible design that can adapt to evolving technology standards.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MLPerf Releases AI Storage v2.0 Benchmark Results </title>
+<link>https://insideainews.com/2025/08/05/mlperf-releases-ai-storage-v2-0-benchmark-results/</link>
+<pubDate>Tue, 05 Aug 2025 19:45:47 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/08/mlperf-logo-2-1-0324.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  San Francisco, CA — MLCommons has announced results for its MLPerf Storage v2.0 benchmark suite, designed to measure the performance of storage systems for machine learning workloads in an architecture-neutral, representative, and reproducible manner. According to MLCommons, the results show that storage systems performance continues to improve rapidly, with tested systems serving roughly twice the number of accelerators than in the v1.0 benchmark round.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To view the results
+  &lt;a href=&quot;https://mlcommons.org/benchmarks/storage/&quot;&gt;
+   visit the Storage benchmark results
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 benchmark adds new tests that replicate checkpointing for AI training systems. The benchmark results provide information for stakeholders who need to configure the frequency of checkpoints to optimize for high performance – particularly at scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As AI training systems have continued to scale up to billions and even trillions of parameters, and the largest clusters of processors have reached one hundred thousand accelerators or more, system failures have become a prominent technical challenge. Because data centers tend to run accelerators at near-maximum utilization for their entire lifecycle, both the accelerators themselves and the supporting hardware (power supplies, memory, cooling systems, etc.) are heavily burdened, minimizing their expected lifetime. This is a chronic issue, especially in large clusters: if the mean time to failure for an accelerator is 50,000 hours, then a 100,000-accelerator cluster running for extended periods at full utilization will likely experience a failure every half-hour. A cluster with one million accelerators would expect to see a failure every three minutes. Worse, because AI training usually involves massively parallel computation where all the accelerators are moving in lockstep on the same iteration of training, a failure of one processor can grind an entire cluster to a halt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is now broadly accepted that saving checkpoints of intermediate training results at regular intervals is essential to keep AI training systems running at high performance. The AI training community has developed mathematical models that can optimize cluster performance and utilization by trading off the overhead of regular checkpoints against the expected frequency and cost of failure recovery (rolling back the computation, restoring the most recent checkpoint, restarting the training from that point, and duplicating the lost work). Those models, however, require accurate data on the scale and performance of the storage systems that are used to implement the checkpointing system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MLPerf Storage v2.0 checkpoint benchmark tests provide precisely that data, and the results from this round suggest that stakeholders procuring AI training systems need to carefully consider the performance of the storage systems they buy, to ensure that they can store and retrieve a cluster’s checkpoints without slowing the system down to an unacceptable level. For a deeper understanding of the issues around storage systems and checkpointing, as well as of the design of the checkpointing benchmarks, we encourage you to read this post from Wes Vaske, a member of the MLPerf Storage working group.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “At the scale of computation being implemented for training large AI models, regular component failures are simply a fact of life,” said Curtis Anderson, MLPerf Storage working group co-chair. “Checkpointing is now a standard practice in these systems to mitigate failures, and we are proud to be providing critical benchmark data on storage systems to allow stakeholders to optimize their training performance. This initial round of checkpoint benchmark results shows us that current storage systems offer a wide range of performance specifications, and not all systems are well-matched to every checkpointing scenario. It also highlights the critical role of software frameworks such as PyTorch and TensorFlow  in coordinating training, checkpointing, and failure recovery, as well as some opportunities for enhancing those frameworks to further improve overall system performance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Continuing from the v1.0 benchmark suite, the v2.0 suite measures storage performance in a diverse set of ML training scenarios. It emulates the storage demands across several scenarios and system configurations covering a range of accelerators, models, and workloads. By simulating the accelerators’ “think time” the benchmark can generate accurate storage patterns without the need to run the actual training, making it more accessible to all. The benchmark focuses the test on a given storage system’s ability to keep pace, as it requires the simulated accelerators to maintain a required level of utilization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 results show that submitted storage systems have substantially increased the number of accelerators they can simultaneously support, roughly twice the number compared to the systems in the v1.0 benchmark.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Everything is scaling up: models, parameters, training datasets, clusters, and accelerators. It’s no surprise to see that storage system providers are innovating to support ever larger scale systems,” said Oana Balmau, MLPerf Storage working group co-chair.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 submissions also included a much more diverse set of technical approaches to delivering high-performance storage for AI training, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  6 local storage solutions;
+ &lt;/p&gt;
+ &lt;p&gt;
+  2 solutions using in-storage accelerators;
+ &lt;/p&gt;
+ &lt;p&gt;
+  13 software-defined solutions;
+ &lt;/p&gt;
+ &lt;p&gt;
+  12 block systems;
+ &lt;/p&gt;
+ &lt;p&gt;
+  16 on-prem shared storage solutions;
+ &lt;/p&gt;
+ &lt;p&gt;
+  2 object stores.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Necessity continues to be the mother of invention: faced with the need to deliver storage solutions that are both high-performance and at unprecedented scale, the technical community has stepped up once again and is innovating at a furious pace,” said Balmau.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MLPerf Storage benchmark was created through a collaborative engineering process by 35 leading storage solution providers and academic research groups across 3 years. The open-source and peer-reviewed benchmark suite offers a level playing field for competition that drives innovation, performance, and energy efficiency for the entire industry. It also provides critical technical information for customers who are procuring and tuning AI training systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 benchmark results, from a broad set of technology providers, reflect the industry’s recognition of the importance of high-performance storage solutions. MLPerf Storage v2.0 includes &amp;gt;200 performance results from 26 submitting organizations: Alluxio, Argonne National Lab, DDN, ExponTech, FarmGPU, H3C, Hammerspace, HPE, JNIST/Huawei, Juicedata, Kingston, KIOXIA, Lightbits Labs, MangoBoost, Micron, Nutanix, Oracle, Quanta Computer, Samsung, Sandisk, Simplyblock, TTA, UBIX, IBM, WDC, and YanRong. The submitters represent seven different countries, demonstrating the value of the MLPerf Storage benchmark to the global community of stakeholders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The MLPerf Storage benchmark has set new records for an MLPerf benchmark, both for the number of organizations participating and the total number of submissions,” said David Kanter, Head of MLPerf at MLCommons. The AI community clearly sees the importance of our work in publishing accurate, reliable, unbiased performance data on storage systems, and it has stepped up globally to be a part of it. I would especially like to welcome first-time submitters Alluxio, ExponTech, FarmGPU, H3C, Kingston, KIOXIA, Oracle, Quanta Computer, Samsung, Sandisk, TTA, UBIX, IBM, and WDC.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This level of participation is a game-changer for benchmarking: it enables us to openly publish more accurate and more representative data on real-world systems,” Kanter continued. That, in turn, gives the stakeholders on the front lines the information and tools they need to succeed at their jobs. The checkpoint benchmark results are an excellent case in point: now that we can measure checkpoint performance, we can think about optimizing it.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> D-Wave Introduces Quantum Developer AI Toolkit </title>
+<link>https://insidehpc.com/2025/08/d-wave-introduces-quantum-developer-ai-toolkit/</link>
+<pubDate>Tue, 05 Aug 2025 19:33:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/03/d-wave-annealing-quantum-computing-chip-2-1-0325.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   PALO ALTO, Calif. – August 4, 2025 – D-Wave Quantum Inc. (NYSE: QBTS) announced it has released a collection of offerings to help developers explore quantum artificial intelligence and machine learning innovation, including an open-source quantum AI toolkit and a demo.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   Available now for download, the quantum AI toolkit enables developers to integrate quantum computers into ML architectures. The demo illustrates how developers can leverage this toolkit to experiment with using D-Wave quantum processors to generate simple images, reflecting what D-Wave believes is a pivotal step in the development of
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfW20NETwrm0c9w40qdYG/https%253A%252F%252Fwww.dwavequantum.com%252Fsolutions-and-products%252Fquantum-optimization%252Fquantum-ai-landing-page%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw3foi3wS9eCsxI9w4voxnMh&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfW20NETwrm0c9w40qdYG/https%3A%2F%2Fwww.dwavequantum.com%2Fsolutions-and-products%2Fquantum-optimization%2Fquantum-ai-landing-page%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    quantum AI
+   &lt;/a&gt;
+   capabilities.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   By releasing this new set of tools, D-Wave aims to help organizations accelerate the use of annealing quantum computers in a growing set of AI applications. The quantum AI toolkit, part of D-Wave’s
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWu-fuxPd3wVMgf6Ujhg/https%253A%252F%252Fwww.dwavequantum.com%252Fsolutions-and-products%252Focean%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw07zW8Sfko-9wCPhw3d7tBz&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWu-fuxPd3wVMgf6Ujhg/https%3A%2F%2Fwww.dwavequantum.com%2Fsolutions-and-products%2Focean%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Ocean
+   &lt;/a&gt;
+   software suite, provides direct integration between D-Wave’s quantum computers and
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWyTU0ZC913ZuAAHSGGK/https%253A%252F%252Fpytorch.org%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw2rSCyCNTIx8p_t8F5PRwjm&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWyTU0ZC913ZuAAHSGGK/https%3A%2F%2Fpytorch.org%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    PyTorch
+   &lt;/a&gt;
+   , a production-grade ML framework widely used to build and train deep learning models. The toolkit includes a PyTorch neural network module for using a quantum computer to build and train ML models known as a restricted Boltzmann machine (RBM).
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   Used to learn patterns and connections from complex data sets, RBMs are employed for generative AI tasks such as image recognition and drug discovery. Training RBMs with large datasets can be a computationally complex and time-consuming task that could be well-suited for a quantum computer. By integrating with PyTorch, D-Wave’s new toolkit aims to make it easy for developers to experiment with quantum computing to address computational challenges in training AI models.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   “With this new toolkit and demo, D-Wave is enabling developers to build architectures that integrate our annealing quantum processors into a growing set of ML models,” said Dr. Trevor Lanting, chief development officer at D-Wave. “Customers are increasingly asking us for ways to facilitate the exploration of quantum and AI, recognizing the collaborative potential of these two complementary technologies.”
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   D-Wave continues to advance its quantum AI product roadmap, delivering new solutions to customers while expanding development efforts. The company is working with a growing number of customers on exploratory quantum AI projects including:
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li dir=&quot;ltr&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+     Japan Tobacco Inc.: D-Wave has completed a joint proof-of-concept project with the pharmaceutical division of
+     &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWuMjIx7Pzja6QnqUdru/https%253A%252F%252Fwww.dwavequantum.com%252Fcompany%252Fnewsroom%252Fpress-release%252Fjapan-tobacco-and-d-wave-announce-quantum-proof-of-concept-outperforms-classical-results-for-llm-training-in-drug-discovery%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw3NGeC6dm8478bewhAmu1oF&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWuMjIx7Pzja6QnqUdru/https%3A%2F%2Fwww.dwavequantum.com%2Fcompany%2Fnewsroom%2Fpress-release%2Fjapan-tobacco-and-d-wave-announce-quantum-proof-of-concept-outperforms-classical-results-for-llm-training-in-drug-discovery%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+      Japan Tobacco Inc. (JT)
+     &lt;/a&gt;
+     that used D-Wave’s quantum computing technology and AI in the drug discovery process. The quantum proof-of-concept outperformed classical methods for AI model training in drug discovery.
+    &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li dir=&quot;ltr&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+     Jülich Supercomputing Centre at Forschungszentrum Jülich:
+     &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWy8fGhmfIIbVwPAud-B/https%253A%252F%252Fjournals.aps.org%252Fprresearch%252Fabstract%252F10.1103%252FPhysRevResearch.4.043013&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw0019S8JFnLWwAjvjfeg2kp&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWy8fGhmfIIbVwPAud-B/https%3A%2F%2Fjournals.aps.org%2Fprresearch%2Fabstract%2F10.1103%2FPhysRevResearch.4.043013&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+      Researchers
+     &lt;/a&gt;
+     used D-Wave’s quantum technology to develop a ML tool that predicts protein-DNA binding with greater accuracy than traditional methods using classical computers. The team integrated quantum computing with support vector machines to achieve improved results in various metrics, significantly enhancing classification performance.
+    &lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li dir=&quot;ltr&quot;&gt;
+    &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+     TRIUMF: Canada’s particle accelerator center and its partner institutions recently published a paper in
+     &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWyvr_KcOHBA4Qj9fWBo/https%253A%252F%252Fwww.nature.com%252Farticles%252Fs41534-025-01040-x&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw0NVNd8c4gfCgvQWTSoKOf2&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWyvr_KcOHBA4Qj9fWBo/https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41534-025-01040-x&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+      npj Quantum Information
+     &lt;/a&gt;
+     showing significant speedups using D-Wave’s quantum computers over classical approaches for simulating high-energy particle-calorimeter interactions—potentially leading to major efficiencies where the AI model is used to create synthetic data.
+    &lt;/p&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   Organizations looking to explore the integration of quantum computing into AI workloads can apply to the
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfWyHR-c4qa4MeQJXX5or/https%253A%252F%252Fwww.dwavequantum.com%252Fquantum-launchpad%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw1pe8BM9r0nerVoF1af9Aib&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfWyHR-c4qa4MeQJXX5or/https%3A%2F%2Fwww.dwavequantum.com%2Fquantum-launchpad%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Leap Quantum LaunchPad
+   &lt;/a&gt;
+   program.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   Kevin Chern, Senior Benchmarking Researcher at D-Wave, will showcase the toolkit and demo during his presentation titled “An Introduction to Quantum Annealers in Optimization and Machine Learning,” at
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://447656dd.streaklinks.com/ChyNfW2Xl3vwPNFxhgw6AAyi/https%253A%252F%252Fai4.io%252Fvegas%252Fresearch-summit%252F&amp;source=gmail&amp;ust=1754499637476000&amp;usg=AOvVaw3q5S1o5UqAnLAR_nwJnRnE&quot; href=&quot;https://447656dd.streaklinks.com/ChyNfW2Xl3vwPNFxhgw6AAyi/https%3A%2F%2Fai4.io%2Fvegas%2Fresearch-summit%2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    The AI Research Summit at Ai4 2025
+   &lt;/a&gt;
+   , on August 13, 2025 from 11:05 a.m. to 11:25 a.m. PT.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD Licenses Arteris Network-on-Chip Interconnect IP </title>
+<link>https://insidehpc.com/2025/08/amd-licenses-arteris-network-on-chip-interconnect-ip/</link>
+<pubDate>Tue, 05 Aug 2025 18:31:16 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/11/isc23-amd-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div data-element_type=&quot;widget&quot; data-id=&quot;4f05496c&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
+  &lt;p&gt;
+   CAMPBELL, Calif. – August 4, 2025 – Arteris, Inc. (Nasdaq: AIP), a provider of semiconductor system IP for accelerating system-on-chip (SoC) creation, today announced AMD (Nasdaq: AMD) has licensed FlexGen network-on-chip (NoC) interconnect IP for its next generation of AI chiplet design.
+  &lt;/p&gt;
+  &lt;p&gt;
+   FlexGen, Arteris’ NoC IP technology, will provide data transport in AMD chiplets powering AI across the company’s portfolio, from data centers to edge and end devices.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The strategic combination and interoperability of Arteris’ FlexGen NoC IP with the AMD Infinity Fabric interconnect underscores the increasing complexity of modern SoCs and chiplet-based architectures, which now require multiple specialized interconnects or NoCs to meet the demands of modern electronic systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “We are excited to collaborate and expand our relationship with AMD, a company recognized globally for its innovation in high performance computing,” said K. Charles Janac, president and CEO of Arteris. “With modern chiplets each having between 5 and 20 interconnect networks for data transport, our FlexGen NoC IP will work hand in hand with AMD’s Infinity Fabric to accelerate the performance and scalability required by today’s most demanding and diverse applications. This latest engagement with AMD exemplifies the transformative impact of Arteris’ NoC technology in delivering next-generation silicon solutions for a wide range of markets from the data center to the edge.”
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div data-element_type=&quot;widget&quot; data-id=&quot;33fdf633&quot; data-widget_type=&quot;testimonial.default&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;p&gt;
+     “AMD is driving innovations that scale AI from cloud to client by continually developing leadership computing technologies and best-in-class IP,” said Mydung Pham
+    &lt;/p&gt;
+    &lt;div&gt;
+     Corporate Vice President Silicon Design Engineering, AMD. “Integrating Arteris’ FlexGen NoC IP technology into a range of AMD chiplets, we can automate interconnect configuration and enable seamless connectivity among SoC components while strengthening the best end-to-end AI compute portfolio in the industry.”
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div data-element_type=&quot;widget&quot; data-id=&quot;a530082&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
+  &lt;p&gt;
+   FlexGen, Arteris’ latest NoC IP, is intended to make designing SoCs more efficient and to optimize wire length, reduce latency, and improve power efficiency, addressing the communication and performance needs of increasingly complex multi-die and chiplet-based designs. FlexGen can be utilized as an independent interconnect solution or in combination with proprietary interconnect technology to accelerate design iterations and time to market schedules.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DDN Touts MLPerf Storage Benchmark Performance </title>
+<link>https://insidehpc.com/2025/08/ddn-touts-mlperf-storage-benchmark-performance/</link>
+<pubDate>Tue, 05 Aug 2025 18:18:43 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/DDN-logo-2-1-1023-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Chatsworth, Calif.  — August 4, 2025 —
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=http://www.ddn.com/&amp;source=gmail&amp;ust=1754502548896000&amp;usg=AOvVaw1vdLKCC-vLJ2Py7iGLyUf2&quot; href=&quot;http://www.ddn.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+  &lt;/a&gt;
+  DDN announced it has set a new benchmark for performance and efficiency with its AI400X3 storage appliance in the latest MLPerf Storage v2.0 benchmarks. Powered by DDN’s EXAScaler parallel file system, the AI400X3 is engineered to accelerate AI workloads.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  For large enterprises, this means faster time-to-insight, lower operational costs, and the ability to scale AI initiatives with confidence—without compromise on performance or sustainability.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “AI at scale demands more than brute force—it requires precision-engineered infrastructure that can deliver relentless performance, efficiency, and reliability,” said Sven Oehme, CTO at DDN.  “With the AI400X3, we’ve achieved exactly that. These MLPerf results prove that DDN can keep pace with—and even outpace—the world’s most advanced GPUs, all within a compact, power-efficient footprint. We’re not just enabling AI—we’re removing the bottlenecks that have held it back.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The MLPerf Storage benchmark tests how well a storage system can keep up with demanding AI workloads—and DDN delivered across the board. The AI400X3 was evaluated in both single-node and multi-node categories, representing real-world scenarios from early-stage deployments to full-scale, distributed AI training. Impressively, in both cases, DDN achieved these results using a single, compact 2U appliance—demonstrating how powerful and efficient modern AI infrastructure can be.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  DDN’s AI400X3 didn’t just perform well—it redefined what’s possible in AI infrastructure. In both single-node and multi-node categories, this compact 2U system delivered fantastic performance, saturating hundreds of simulated H100 GPUs across diverse AI workloads. For teams just getting started, the single-node results highlight how easy it is to unlock powerful performance with minimal infrastructure. For organizations training at scale, the multi-node benchmarks showcase what real-world AI practitioners care about most: consistent, blistering throughput under massive GPU loads. MLPerf’s Storage 2025 benchmark is the industry’s gold standard for measuring how much AI performance you can squeeze from a single storage appliance—and the AI400X3 set a new bar.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Highlights from the MLPerf Storage 2025 submission:
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  In single-node benchmarking, the DDN AI400X3 achieved:
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  ·   The highest performance density on Cosmoflow and Resnet50 training, serving 52 and 208 Simulated H100 GPUs with only a 2u 2400watt appliance.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  ·   IO performance of 30.6GB/s reads and 15.3 GB/s Writes resulting in load and save times of Llama3-8b checkpoints of only 3.4 and 5.7 seconds respectively
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  And in multi-node benchmarking, it achieved:
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  ·   120+ GB/s sustained read throughput for Unet3D H100 training
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  ·   Support for up to 640 simulated H100 GPUs on ResNet50
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  ·   Up to 135 Simulated H100 GPUs on Cosmoflow with the new AI400X3, a 2x improvement over last years results.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  These benchmark results highlight the
+  &lt;a href=&quot;http://www.ddn.com/&quot;&gt;
+   DDN
+  &lt;/a&gt;
+  AI400X3’s ability to deliver consistently high performance across a wide spectrum of AI workloads—even under intensive, multi-node training demands. By ensuring GPUs remain fully utilized with fast, reliable data access, the AI400X3 accelerates model training while enabling frequent checkpointing without compromising performance. The result is improved training efficiency, greater resilience, and reduced overall infrastructure costs.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  With a compact 2U form factor and low power consumption, the AI400X3 is purpose-built to address growing datacenter constraints around space, power, and cooling—making it an ideal choice for organizations scaling AI workloads sustainably.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  DDN has long been recognized as a leader in high-performance AI and HPC infrastructure. Since 2016, NVIDIA has relied exclusively on DDN to power its internal AI clusters, underscoring the company’s role as a trusted partner in driving scalable, real-world AI innovation.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  And by going head-to-head in the industry’s toughest benchmarking gauntlet—MLPerf Storage—DDN is putting facts behind the hype. These results don’t just validate our leadership, they give enterprises and AI innovators the trusted data they need to build faster, train smarter, and deploy with confidence.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MLPerf Releases Storage v2.0 Benchmark Results </title>
+<link>https://insidehpc.com/2025/08/mlperf-releases-storage-v2-0-benchmark-results/</link>
+<pubDate>Tue, 05 Aug 2025 16:39:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/03/MLPerf-logo-2-1-0324.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  San Francisco, CA — MLCommons has announced results for its MLPerf Storage v2.0 benchmark suite, designed to measure the performance of storage systems for machine learning workloads in an architecture-neutral, representative, and reproducible manner. According to MLCommons, the results show that storage systems performance continues to improve rapidly, with tested systems serving roughly twice the number of accelerators than in the v1.0 benchmark round.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To view the results
+  &lt;a href=&quot;https://mlcommons.org/benchmarks/storage/&quot;&gt;
+   visit the Storage benchmark results
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 benchmark adds new tests that replicate checkpointing for AI training systems. The benchmark results provide information for stakeholders who need to configure the frequency of checkpoints to optimize for high performance – particularly at scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As AI training systems have continued to scale up to billions and even trillions of parameters, and the largest clusters of processors have reached one hundred thousand accelerators or more, system failures have become a prominent technical challenge. Because data centers tend to run accelerators at near-maximum utilization for their entire lifecycle, both the accelerators themselves and the supporting hardware (power supplies, memory, cooling systems, etc.) are heavily burdened, minimizing their expected lifetime. This is a chronic issue, especially in large clusters: if the mean time to failure for an accelerator is 50,000 hours, then a 100,000-accelerator cluster running for extended periods at full utilization will likely experience a failure every half-hour. A cluster with one million accelerators would expect to see a failure every three minutes. Worse, because AI training usually involves massively parallel computation where all the accelerators are moving in lockstep on the same iteration of training, a failure of one processor can grind an entire cluster to a halt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is now broadly accepted that saving checkpoints of intermediate training results at regular intervals is essential to keep AI training systems running at high performance. The AI training community has developed mathematical models that can optimize cluster performance and utilization by trading off the overhead of regular checkpoints against the expected frequency and cost of failure recovery (rolling back the computation, restoring the most recent checkpoint, restarting the training from that point, and duplicating the lost work). Those models, however, require accurate data on the scale and performance of the storage systems that are used to implement the checkpointing system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MLPerf Storage v2.0 checkpoint benchmark tests provide precisely that data, and the results from this round suggest that stakeholders procuring AI training systems need to carefully consider the performance of the storage systems they buy, to ensure that they can store and retrieve a cluster’s checkpoints without slowing the system down to an unacceptable level. For a deeper understanding of the issues around storage systems and checkpointing, as well as of the design of the checkpointing benchmarks, we encourage you to read this post from Wes Vaske, a member of the MLPerf Storage working group.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “At the scale of computation being implemented for training large AI models, regular component failures are simply a fact of life,” said Curtis Anderson, MLPerf Storage working group co-chair. “Checkpointing is now a standard practice in these systems to mitigate failures, and we are proud to be providing critical benchmark data on storage systems to allow stakeholders to optimize their training performance. This initial round of checkpoint benchmark results shows us that current storage systems offer a wide range of performance specifications, and not all systems are well-matched to every checkpointing scenario. It also highlights the critical role of software frameworks such as PyTorch and TensorFlow  in coordinating training, checkpointing, and failure recovery, as well as some opportunities for enhancing those frameworks to further improve overall system performance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Continuing from the v1.0 benchmark suite, the v2.0 suite measures storage performance in a diverse set of ML training scenarios. It emulates the storage demands across several scenarios and system configurations covering a range of accelerators, models, and workloads. By simulating the accelerators’ “think time” the benchmark can generate accurate storage patterns without the need to run the actual training, making it more accessible to all. The benchmark focuses the test on a given storage system’s ability to keep pace, as it requires the simulated accelerators to maintain a required level of utilization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 results show that submitted storage systems have substantially increased the number of accelerators they can simultaneously support, roughly twice the number compared to the systems in the v1.0 benchmark.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Everything is scaling up: models, parameters, training datasets, clusters, and accelerators. It’s no surprise to see that storage system providers are innovating to support ever larger scale systems,” said Oana Balmau, MLPerf Storage working group co-chair.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 submissions also included a much more diverse set of technical approaches to delivering high-performance storage for AI training, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  6 local storage solutions;
+ &lt;/p&gt;
+ &lt;p&gt;
+  2 solutions using in-storage accelerators;
+ &lt;/p&gt;
+ &lt;p&gt;
+  13 software-defined solutions;
+ &lt;/p&gt;
+ &lt;p&gt;
+  12 block systems;
+ &lt;/p&gt;
+ &lt;p&gt;
+  16 on-prem shared storage solutions;
+ &lt;/p&gt;
+ &lt;p&gt;
+  2 object stores.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Necessity continues to be the mother of invention: faced with the need to deliver storage solutions that are both high-performance and at unprecedented scale, the technical community has stepped up once again and is innovating at a furious pace,” said Balmau.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MLPerf Storage benchmark was created through a collaborative engineering process by 35 leading storage solution providers and academic research groups across 3 years. The open-source and peer-reviewed benchmark suite offers a level playing field for competition that drives innovation, performance, and energy efficiency for the entire industry. It also provides critical technical information for customers who are procuring and tuning AI training systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The v2.0 benchmark results, from a broad set of technology providers, reflect the industry’s recognition of the importance of high-performance storage solutions. MLPerf Storage v2.0 includes &amp;gt;200 performance results from 26 submitting organizations: Alluxio, Argonne National Lab, DDN, ExponTech, FarmGPU, H3C, Hammerspace, HPE, JNIST/Huawei, Juicedata, Kingston, KIOXIA, Lightbits Labs, MangoBoost, Micron, Nutanix, Oracle, Quanta Computer, Samsung, Sandisk, Simplyblock, TTA, UBIX, IBM, WDC, and YanRong. The submitters represent seven different countries, demonstrating the value of the MLPerf Storage benchmark to the global community of stakeholders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The MLPerf Storage benchmark has set new records for an MLPerf benchmark, both for the number of organizations participating and the total number of submissions,” said David Kanter, Head of MLPerf at MLCommons. The AI community clearly sees the importance of our work in publishing accurate, reliable, unbiased performance data on storage systems, and it has stepped up globally to be a part of it. I would especially like to welcome first-time submitters Alluxio, ExponTech, FarmGPU, H3C, Kingston, KIOXIA, Oracle, Quanta Computer, Samsung, Sandisk, TTA, UBIX, IBM, and WDC.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This level of participation is a game-changer for benchmarking: it enables us to openly publish more accurate and more representative data on real-world systems,” Kanter continued. That, in turn, gives the stakeholders on the front lines the information and tools they need to succeed at their jobs. The checkpoint benchmark results are an excellent case in point: now that we can measure checkpoint performance, we can think about optimizing it.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PCI-SIG Announces PCIe 8.0 Spec to Reach 256 GT/s </title>
+<link>https://insidehpc.com/2025/08/pci-sig-announces-pcie-8-0-spec-to-reach-256-gt-s/</link>
+<pubDate>Tue, 05 Aug 2025 16:25:57 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/12/pci-sig-logo-2-1-1224.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SANTA CLARA, CA. – August 5, 2025 – PCI-SIG today announced the PCI Express (PCIe) 8.0 specification will double the data of the PCIe 7.0 specification to 256.0 GT/s and is planned for release to members by 2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  PCI-SIG technical workgroups will be developing the PCIe 8.0 specification with the following feature objectives:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Delivering 256.0 GT/s raw bit rate and up to 1 TB/s bi-directionally via x16 configuration
+  &lt;/li&gt;
+  &lt;li&gt;
+   Reviewing new connector technology
+  &lt;/li&gt;
+  &lt;li&gt;
+   Confirming latency and FEC targets will be achieved
+  &lt;/li&gt;
+  &lt;li&gt;
+   Ensuring reliability targets are met
+  &lt;/li&gt;
+  &lt;li&gt;
+   Maintaining backwards compatibility with previous generations of PCIe technology
+  &lt;/li&gt;
+  &lt;li&gt;
+   Developing protocol enhancements to improve bandwidth
+  &lt;/li&gt;
+  &lt;li&gt;
+   Continuing to emphasize techniques to reduce power
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “Following this year’s release of the PCIe 7.0 specification, PCI-SIG is excited to announce that the PCIe 8.0 specification will double the data rate to 256 GT/s, maintaining our tradition of doubling bandwidth every three years to support next-generation applications,” said Al Yanes,
+  &lt;a href=&quot;http://www.pcisig.com/&quot;&gt;
+   PCI-SIG
+  &lt;/a&gt;
+  President and Chairperson. “With the increasing data throughput required in AI and other applications, there remains a strong demand for high performance. PCIe technology will continue to deliver a cost-effective, high-bandwidth, and low latency I/O interconnect to meet industry needs.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As artificial intelligence and other data-intensive applications continue to scale rapidly, PCIe technology demand will be sustained in the long run due to its high bandwidth, scalability and power efficiency,” said Reece Hayden, Principal Analyst, ABI Research. “Data center networks are already preparing to implement PCIe 6.0 technology and are showing great interest in the PCIe 7.0 specification. The introduction of the PCIe 8.0 specification further ensures that the industry’s bandwidth requirements will be supported well into the future.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PCIe 8.0 specification is aimed at supporting emerging applications like Artificial Intelligence/Machine Learning, high-speed networking, Edge computing and Quantum computing; and data-intensive markets like automotive, hyperscale data centers, high-performance computing (HPC) and military/aerospace.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Blue J Announces $122M Series D for Gen AI Tax Research Platform </title>
+<link>https://insideainews.com/2025/08/05/blue-j-announces-122m-series-d-for-gen-ai-tax-research-platform/</link>
+<pubDate>Tue, 05 Aug 2025 16:13:43 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/02/ai-and-money-2-1-shutterstock-2488980895.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Toronto – August 4, 2025 –
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/12/3fc1975369513742ea180d0e6fbad7749e884fcb813a278cbba9a1175cec63b3?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw0Pnof1H6OzHCFfaJAKcxwA&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/12/3fc1975369513742ea180d0e6fbad7749e884fcb813a278cbba9a1175cec63b3?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Blue J
+  &lt;/a&gt;
+  , a GenAI tax research platform, today announced it has raised $122 million in U.S. dollars in a Series D funding round led by
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/13/d0de655272c05d0fa8b26f58f873e5b849b3896a0e8f41536442278d0e6ee518?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw1ufsPo--7hGuIy60GrSkq7&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/13/d0de655272c05d0fa8b26f58f873e5b849b3896a0e8f41536442278d0e6ee518?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Oak HC/FT
+  &lt;/a&gt;
+  and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/14/ea0f3863416eaca9139f8d32824fcc729ce022386fb3357b3cb31e40a96c7a24?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw0qysy8zS_PMqGMcljFxHy1&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/14/ea0f3863416eaca9139f8d32824fcc729ce022386fb3357b3cb31e40a96c7a24?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Sapphire Ventures
+  &lt;/a&gt;
+  , with participation from
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/15/1d57e1a3984beb42624c168318711c1cf6a3908d42593f404502c15a0288cb76?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw1zfskP6GzSkiiTL7176Lj7&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/15/1d57e1a3984beb42624c168318711c1cf6a3908d42593f404502c15a0288cb76?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Intrepid Growth Partners
+  &lt;/a&gt;
+  , and previous investors
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/16/fcf9adf904cba80b08567b5ff50bfd67bde37606d3c1256bb0df7a36c308afa6?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw1PO_lPePjJREK0AZu7d-3u&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/16/fcf9adf904cba80b08567b5ff50bfd67bde37606d3c1256bb0df7a36c308afa6?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Ten Coves Capital
+  &lt;/a&gt;
+  and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=http://cpa.com&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw34zefIvGgMbFVdvQZPQaKR&quot; href=&quot;http://cpa.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   CPA.com
+  &lt;/a&gt;
+  . Coming seven months after Blue J’s Series C round, this investment signals a clear market consensus that Blue J is the breakout winner in its category.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’re thrilled to partner with Sapphire Ventures, Oak HC/FT, Ten Coves, CPA.com, and Intrepid Growth Partners — firms with exceptional track records of backing market-defining companies,” said Benjamin Alarie, CEO and co-founder of Blue J. “Their commitment is a powerful endorsement of our vision to transform tax research. With this capital and industry support, we will accelerate innovation and deliver even greater value to tax professionals. We are building the future of tax. This is just the beginning.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Tax research has long been a cumbersome, time-consuming task,” said Allen Miller, Partner at Oak HC/FT. “Blue J has solved this challenge with an elegant AI solution that dramatically accelerates research while raising the bar for accuracy. We believe Blue J will become the new standard for complex tax questions—and we’re proud to support Ben and the team in their next stage of growth.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Blue J is exactly what we look for in vertical AI: deep domain expertise, proprietary data and a product that drives meaningful business impact,” said
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/17/9199bb9769ebcccf6c839ef4c8014761f08777d0e6bbe925a50d631070bfaec1?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw2UNrhCJXl4pu70aGkTyHEo&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/17/9199bb9769ebcccf6c839ef4c8014761f08777d0e6bbe925a50d631070bfaec1?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Cathy Gao
+  &lt;/a&gt;
+  , Partner at Sapphire Ventures and Blue J’s newest board member. “By applying generative AI to decades of tax rulings, Blue J reduces research that once took hours to just minutes. It’s already trusted by enterprise clients, embraced by top firms, and loved by many practitioners. We believe their momentum shows the industry is ready, and we’re proud to back Blue J as they build the operating layer for global tax cognition.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Blue J’s platform leverages advanced generative AI to deliver instant, reliable answers to complex tax questions spanning U.S. federal, state, and local tax (SALT), as well as Canadian and UK tax law. Built on a rigorously curated database of authoritative tax law, Blue J’s system continuously improves by learning from millions of user queries each year. The result: practitioners can navigate even the most challenging tax issues with unmatched confidence and speed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike legacy keyword-based research tools, Blue J lets users ask tax questions conversationally, with no arcane syntax required. The intuitive interface delivers answers in seconds, complete with relevant source citations, making Blue J the industry’s most user-friendly tax research platform. More than 70% of users log in weekly, and Blue J’s Net Promoter Score (NPS) is consistently in the mid-70s.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the first half of 2025, the company more than doubled its revenue and customer base, now serving tens of thousands of tax professionals across thousands of organizations that rely on Blue J for authoritative tax research, analysis, and answers. With the Series D funding, Blue J will further accelerate team expansion, product development, and market reach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company has proudly earned recognition from other generative AI leaders. “Blue J is a leading example of effective AI deployment in one of the most complex information domains,” said Marc Manara, Head of Startups at OpenAI. “By leveraging OpenAI’s latest models, Blue J has elevated the standard for accuracy, trust, and insight in tax research. We’re excited to continue working together at the forefront of innovation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This Series D follows Blue J’s December 2024 Series C and comes during a period of rapid acceleration for the company. Since January 2025, Blue J has grown to over 80 employees and more than doubled its rate of new customer acquisition. With this new investment and market momentum, Blue J is poised to set the new standard for AI-driven tax research as global tax complexity continues to rise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   About Blue J
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2015, Blue J is redefining tax research with generative AI. Trusted by tax professionals across accounting firms, law firms, corporations, and government, Blue J delivers fast, verifiable analysis and answers to even the most complex tax questions—empowering experts to serve with clarity and confidence. With an intuitive conversational interface and a rigorously curated library of authoritative sources, Blue J is transforming how tax professionals work and make decisions. Leading organizations trust Blue J to streamline their research workflow and enhance decision-making accuracy. For more information, visit
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=http://www.bluej.com&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw2HL6cEVps_-19QhlC7ukcr&quot; href=&quot;http://www.bluej.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   www.bluej.com
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   About Oak HC/FT
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oak HC/FT is a venture and growth equity firm specializing in investments in fintech and healthcare. Using partnership as a foundation, Oak HC/FT guides companies and founders at every stage, from seed to growth, to create businesses that make a measurable and lasting impact. Founded in 2014, Oak HC/FT has invested in over 105 portfolio companies and has over $5.3 billion in assets under management. Oak HC/FT is headquartered in Stamford, CT, with an office in San Francisco, CA. Follow Oak HC/FT on LinkedIn and X and learn more at
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/18/4ebf44dfc644960a69a68f2c95bee85011ef7c3f76b19c04cdc850660511618d?cache_buster%3D1754339726&amp;source=gmail&amp;ust=1754426131476000&amp;usg=AOvVaw2w3STXHso2IHTOzgc57xgD&quot; href=&quot;https://tracking.us.nylas.com/l/c5fe58b9b9694ae892a4c661af9a5346/18/4ebf44dfc644960a69a68f2c95bee85011ef7c3f76b19c04cdc850660511618d?cache_buster=1754339726&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   https://www.oakhcft.com/
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   About Sapphire
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sapphire is a global software venture capital firm with over $11 billion in AUM and team members across Austin, London, Menlo Park and San Francisco. For more than two decades, Sapphire has partnered with visionary management teams and venture funds to back companies of consequence. Since its founding, Sapphire has invested in more than 170 companies globally resulting in more than 30 Public Listings and 45 acquisitions. The firm’s investment strategies — Sapphire Ventures, Sapphire Partners and Sapphire Sport — are focused on scaling companies and venture funds, elevating them to become category leaders. Sapphire’s Portfolio Growth team of experienced operators delivers a strategic blend of value-add services, tools and resources designed to support portfolio company leaders as they scale.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Phison and Supermicro Collaborate on Storage for AI and Hyperscale Workloads </title>
+<link>https://insidehpc.com/2025/08/phison-and-supermicro-collaborate-on-storage-for-ai-and-hyperscale-workloads/</link>
+<pubDate>Tue, 05 Aug 2025 15:08:31 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/generic-AI-shutterstock-2-1-2198551419-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN JOSE – August 5, 2025 – Phison Electronics (8299TT), a provider of NAND flash controllers and storage solutions, is collaborating on server solutions with Supermicro for high-density workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers using Supermicro’s Petascale Storage Family will be able to leverage Phison’s 122.88 TB Pascari D205V SSD, featuring an E3.L form factor and Gen5 NVMe performance. “The result is a purpose-built solution to redefine the possibilities of storage density, thermal efficiency, and scalability in enterprise infrastructure,” the companies said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As enterprises tackle infrastructure shifts to support data-intensive workloads such as AI and machine learning training, real-time analytics and cloud-scale storage, striking a balance between high-performance and scalable capacity is more critical than ever. Through this collaboration, Phison will deliver storage solutions to support Supermicro’s Petascale Storage with unmatched capacity per slot, enabling users to reduce total rack space, lower operational costs and simplify infrastructure planning at scale, whether at the edge or in the data center.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The E3.L form factor is part of the broader EDSFF family offered in the Pascari D-Series and is specifically engineered for high-density, high-performance environments and designed to be hot-pluggable and front-accessible. Compared to legacy U.2 and U.3 designs, E3.L offers a longer form factor which unlocks double the capacity compared to E3.S as well as improved airflow and thermal management, making it ideal for AI training clusters, hyperscale environments, and dense edge deployments where cooling and space are critical constraints.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This innovative collaboration with
+  &lt;a href=&quot;https://www.supermicro.com/en/&quot;&gt;
+   Supermicro
+  &lt;/a&gt;
+  sets a precedent to keep pace with the increasing storage demands of tomorrow,” said Michael Wu, GM and President at
+  &lt;a href=&quot;https://www.phison.com/en/&quot;&gt;
+   Phison US
+  &lt;/a&gt;
+  . “Customers can expect their storage solutions to have built-in scalability and cost optimizing features from the drive to the rack architecture.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Pascari D205V and Supermicro solutions will be in Supermicro’s display at FMS booth #846.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Broadcom Ships Jericho4 for Distributed AI Computing across Data Center </title>
+<link>https://insidehpc.com/2025/08/broadcom-ships-jericho4-enabling-distributed-ai-computing-across-data-center/</link>
+<pubDate>Mon, 04 Aug 2025 21:02:22 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;463&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/broadcom-jericho-ethernet-2-1-0825.png&quot; width=&quot;898&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot; style=&quot;font-weight: 400&quot;&gt;
+    PALO ALTO, Calif., Aug. 4, 2025 — Broadcom Inc. (NASDAQ: AVGO), a semiconductor and infrastructure software company, today announced it is now shipping the Jericho4 ethernet fabric router — a platform for distributed AI infrastructure.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot; style=&quot;font-weight: 400&quot;&gt;
+    Designed to interconnect over 1 million XPUs across multiple data centers, Jericho4 breaks through traditional scaling limits with unmatched bandwidth, security, and lossless performance, according to Broadcom.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-10&quot; style=&quot;font-weight: 400&quot;&gt;
+    As AI models grow in size and complexity, the infrastructure requirements exceed the power and physical limits of a single data center. Distributing XPUs across multiple facilities — each provisioned with tens to hundreds of megawatts of power — requires a new class of router, optimized for very high-bandwidth, secure and lossless transport across regional distances.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-11&quot; style=&quot;font-weight: 400&quot;&gt;
+    A single Jericho4 system scales to 36,000 HyperPorts, each operating at 3.2 Tb/s, with deep buffering, line-rate MACsec, and RoCE transport over 100KM+ distances.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-12&quot; style=&quot;font-weight: 400&quot;&gt;
+    Broadcom’s 3.2T HyperPort technology consolidates four 800GE links into a single logical port — eliminating load balancing inefficiencies, boosting utilization by up to 70%, and streamlining traffic flow across large fabrics.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-13&quot; style=&quot;font-weight: 400&quot;&gt;
+    Thanks to deep buffering and intelligent congestion control, Jericho4 ensures lossless RoCE across 100+ km enabling truly distributed AI infrastructure unconstrained by power and space limitations at a single location.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-14&quot; style=&quot;font-weight: 400&quot;&gt;
+    Jericho4 supports MACsec encryption on every port at full speed to protect data moving between data centers, delivering strong security without compromising performance — even at the highest traffic loads.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-15&quot; style=&quot;font-weight: 400&quot;&gt;
+    Manufactured on a 3nm process, Jericho4 features Broadcom’s advanced 200G PAM4 SerDes with industry-leading reach. This eliminates the need for extra components like retimers, resulting in lower power usage, reduced cost, and higher system reliability.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-16&quot; style=&quot;font-weight: 400&quot;&gt;
+    Jericho4 is fully compliant with specifications developed by the Ultra Ethernet Consortium (UEC), ensuring interoperability across open, standards-based Ethernet AI fabrics. This allows seamless integration with a broad ecosystem of UEC-compliant NICs, switches, and software stacks.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-17&quot; style=&quot;font-weight: 400&quot;&gt;
+    “The Jericho4 family is engineered to extend AI-scale Ethernet fabrics beyond individual data centers, supporting congestion-free RoCE and 3.2 Tbps HyperPort for unprecedented interconnect efficiency,” said Ram Velaga, senior vice president and general manager of Broadcom’s Core Switching Group.  “Scale Up Ethernet (SUE), Tomahawk Ultra, Tomahawk 6, and Jericho4 all play a very important role in enabling large scale distributed computing systems within a rack, across racks, and across data centers in an open and interoperable way.”
+   &lt;/p&gt;
+   &lt;p&gt;
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> SNIA Announces Storage.AI </title>
+<link>https://insidehpc.com/2025/08/snia-announces-storage-ai/</link>
+<pubDate>Mon, 04 Aug 2025 20:50:18 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;248&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/snia-logo-2-1-0825.png&quot; width=&quot;496&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-12 ai-optimize-introduction&quot;&gt;
+    Santa Clara, CA., August 4, 2025 – SNIA, a not-for-profit organization for technologies related to handling and optimizing data, today announced Storage.AI, an open standards project designed for efficient data services related to AI workloads. Storage.AI will focus on industry-standard, non-proprietary, and neutral approaches to solving AI-related data problems to optimize the performance, efficiency, and cost-effectiveness of AI workloads.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-13&quot;&gt;
+    Initial industry leaders who have signed on to Storage.AI include AMD, Cisco, DDN, Dell, IBM, Intel, KIOXIA, Microchip, Micron, NetApp, Pure Storage, Samsung, Seagate, Solidigm, and WEKA. In addition to SNIA’s substantial membership, the project will work to build broad ecosystem support with SNIA’s partners, including UEC, NVM Express, OCP, OFA, DMTF, SPEC, and others.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-14&quot;&gt;
+    AI workloads are extraordinarily complex and constrained by issues related to latency, space, power and cooling, memory, and cost. Addressing these problems through an open industry initiative is the fastest path to optimization and adoption. SNIA’s 25+ year track record of developing industry standards, together with its technical accomplishments to accelerate, store, unify, and optimize the compute, movement, and performance of data, makes it uniquely positioned to lead the SNIA Storage.AI data project.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-15&quot;&gt;
+    “The unprecedented demands of AI require a holistic view of the data pipeline, from storage and memory to networking and processing,” said Dr. J Metz, SNIA Chair. “No single company can solve these challenges alone. SNIA’s Storage.AI provides the essential, vendor-neutral framework for the industry to coordinate a wide range of data services, building the efficient, non-proprietary solutions needed to accelerate AI for everyone.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-16&quot;&gt;
+    The Storage.AI project will create an open ecosystem for efficient data services to address the most difficult challenges related to AI workloads, closing current gaps in processing and accessing data. The founding members share common goals. For more information, visit snia.ai.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-19&quot;&gt;
+    “The enterprise technologies powering today’s most demanding AI workloads are only as effective as the data they can access,” said Robert Hormuth, corporate vice president, Data Center Solutions Group, AMD. “As a member of
+    &lt;a href=&quot;storage.ai@snia.org&quot;&gt;
+     Storage.AI
+    &lt;/a&gt;
+    , we’re excited to collaborate with other leaders to give the industry a neutral, open path to fix data bottlenecks and unlock true AI performance.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-21&quot;&gt;
+    “Storage networking has long been a foundational pillar of our customers’ digital infrastructure. As AI continues to expand across the enterprise, integrating robust storage solutions with AI workloads has become increasingly important. In today’s AI-driven landscape, data sets our customers apart, and the performance and reliability of that data are essential to realizing the full benefits of AI.” Jeremy Foster, SVP and GM, Cisco Compute.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-23&quot;&gt;
+    “As AI continues to reshape every industry, the demand for open, scalable, and intelligent data infrastructure has never been greater,” said Santosh Erram, VP of Public Cloud Alliances at DDN. “At DDN, we’re proud to support SNIA’s Storage.AI initiative—an important step toward fostering collaboration, driving interoperability, and setting open standards that enable the AI ecosystem to thrive. By working together, we can unlock faster innovation and more meaningful outcomes for customers and partners across the AI landscape.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-25&quot;&gt;
+    “To fully realize the potential of AI, enterprises must transform raw data into structured, governed knowledge. Storage and Data Engines play a pivotal role in this journey—powering data pipelines from training and continuous learning to agentic outcomes. These engines must evolve rapidly, embracing innovation across flash media, drives, networking, compute and foundational software. Dell Technologies is proud to collaborate with SNIA to advance the technologies and standards that make this transformation possible,” said Rajesh Rajaraman, CTO and VP Dell Storage, Data and Cyber Resilience.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-27&quot;&gt;
+    “Effective data management is fundamental to the performance, quality, and cost-efficiency of AI projects. AI-optimized storage plays a critical role in enabling this, and the industry urgently needs a consistent methodology and interface for consuming AI-optimized storage. IBM is proud to collaborate with SNIA in advancing these standards and solutions,” said Vincent Hsu, IBM Fellow, CTO and VP for IBM Storage.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-29&quot;&gt;
+    “AI workloads are redefining the boundaries of compute and data infrastructure. Storage.AI offers a critical, vendor-neutral foundation that unites innovation across the ecosystem from storage architecture to memory hierarchy, helping to ensure scalable, efficient solutions, purpose-built for the AI era,” said Ronak Singhal, Intel Senior Fellow, Xeon Products.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-33&quot;&gt;
+    “AI workloads demand unprecedented levels of data throughput, efficiency and scalability,” said Karthik Ganesan, Fellow, Storage Solutions Architecture at Micron. “As the leaders in memory and storage products for AI workloads, enabling standards to ensure interoperability is critical to our ability to stay on the leading edge of delivering new solutions like our PCIe Gen6 SSDs. By building Storage.AI together using an open approach, we can speed up innovation and create the data infrastructure AI needs to thrive.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-35&quot;&gt;
+    “AI workloads demand unprecedented efficiency, scalability, and performance from storage solutions,” said Ed Fiore, Vice President and Fellow, Chief Systems Architect at NetApp. “NetApp is committed to delivering innovative storage technologies that optimize AI data pipelines, ensuring seamless data access and management. By joining SNIA’s Storage.AI initiative, we are excited to collaborate with industry leaders to develop open standards that drive interoperability and unlock the full potential of AI. Together, we will accelerate AI advancements and create a robust ecosystem that benefits everyone.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-37&quot;&gt;
+    “Storage.AI highlights the role of data infrastructure and management as organizations evolve, interoperate, and scale for an AI future,” said Rob Lee, Pure Storage CTO. “Pure Storage has long led the storage industry in championing open standards and deep ecosystem integration. As the industry tackles AI-related data challenges to drive real outcomes, Pure Storage sees the foundation in seamless data movement across environments, policy-aware storage orchestration, and a clear focus on ensuring data sovereignty is never a strategic landmine. Artificial intelligence is only as powerful as the data storage platform beneath it, and the future of AI demands modern, scalable infrastructure that is built for flexibility, performance, and governance.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-39&quot;&gt;
+    “As AI workloads require faster and more efficient data processing, a collaborative approach is required to address the storage challenges that come with it,” said Leno Park, Vice President of Storage Solutions Product Planning, Samsung Electronics. “We are excited to join the SNIA Storage.AI initiative and contribute our expertise in memory and storage solutions to help develop industry-standard, non-proprietary approaches that optimize AI performance and efficiency.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-41&quot;&gt;
+    “Hard drive storage is critical to unlocking the full value of data in AI workloads—delivering scalable, efficient and cost-effective solutions that support global innovation,” said Jason Feist, Senior Vice President of Cloud Marketing at Seagate Technology. “By advancing open standards through Storage.AI, Seagate is helping to enable infrastructure growth that meets the increased demand for performance required by the next-gen technology ecosystem.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-45&quot;&gt;
+    “AI is pushing infrastructure to its limits, creating efficiency, power, and scale challenges that require industry-wide solutions. Building on SNIA’s legacy of advancing storage standards, WEKA is excited to join the Storage.AI initiative to help develop open standards that will benefit the entire AI ecosystem,” said Ajay Singh, chief product officer at WEKA. “We’ve long believed that AI needs a new class of data architecture—one that scales with the workload, without compromising performance or resiliency. By working with stakeholders across the entire infrastructure stack, we can better address these core technical challenges and unlock AI’s potential to transform the future of innovation.”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> LLNL Uses HPC to Push Fusion Target Design with AI </title>
+<link>https://insidehpc.com/2025/08/llnl-use-hpc-to-push-fusion-target-design-with-ai/</link>
+<pubDate>Mon, 04 Aug 2025 20:02:10 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;438&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/11/el-capitan-2-1-1124.jpg&quot; width=&quot;876&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+    Researchers at Lawrence Livermore National Laboratory (LLNL) say they have reached a milestone in combining AI with fusion target design by deploying AI agents on two supercomputers to automate and accelerate inertial confinement fusion (ICF) experiments.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-7&quot;&gt;
+    Part of an AI framework called the Multi-Agent Design Assistant (MADA), LLNL scientists and collaborators are merging large language models with simulation tools to interpret natural language prompts from human designers and using the platform to generate full physics simulation decks for LLNL’s 3D multiphysics code,
+    &lt;a href=&quot;https://www.llnl.gov/article/51131/llnl-team-accelerates-multi-physics-simulations-el-capitan-predecessor-systems&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+     MARBL
+    &lt;/a&gt;
+    , which enables the design and analysis of high-energy-density experiments, including ICF.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-8&quot;&gt;
+    In ICF experiments at LLNL’s National Ignition Facility (NIF), fusion energy is produced when the facility’s 192 laser beams converge on a tiny target of deuterium and tritium, creating a fusion chain reaction. The MADA team is using the exascale
+    &lt;a href=&quot;https://www.llnl.gov/news/highlights/el-capitan-high-performance-computing&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+     El Capitan
+    &lt;/a&gt;
+    — the world’s fastest supercomputer at 2.79 exaFLOPs peak — and its smaller sibling
+    &lt;a href=&quot;https://hpc.llnl.gov/hardware/compute-platforms/tuolumne&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+     Tuolumne
+    &lt;/a&gt;
+    , to test the AI system. The framework incorporates what the team calls an Inverse Design Agent (IDA) to engineer new ICF targets.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-9&quot;&gt;
+    Jon Belof, a physicist and principal investigator at LLNL, said the project’s origins date back to 2019. “At the time, we were really interested in the question of what happens if you combine AI with shockwave physics. It was kind of a strange idea — at least a lot of people thought it was,” Belof said. “Interestingly enough, that wound up being the simple part. As large language models have advanced, the notion of having semi-autonomous AI systems working alongside the human for ICF design seemed like a natural next step.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-10&quot;&gt;
+    But as AI rapidly accelerates in capability and accuracy, the MADA team — which includes National Nuclear Security Administration (NNSA) Tri-Lab collaborators at Los Alamos (LANL) and Sandia National Laboratories (SNL) — has since turned that “strange idea” into a sophisticated AI-driven design workflow that is getting results.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-11&quot;&gt;
+    In a recent demonstration, an open-source LLM — fine-tuned on internal documentation for MARBL — successfully took a hand-drawn capsule diagram and a natural language request from a human designer, then produced a complete simulation deck and ran thousands of simulations to explore variations in ICF capsule geometry to come up with a novel target design.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-12&quot;&gt;
+    The AI-driven design paradigm arrives at a critical time for fusion research. Following LLNL’s historic ignition achievement at NIF in Dec. 2022, the Lab has its sights set on developing a robust ignition platform that would open new possibilities for national security applications.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-13&quot;&gt;
+    Belof said tools like MADA — which drastically compresses design cycles and explores vast design spaces — could play a key role in identifying the optimal conditions for scaling up fusion yields. By pairing human insight with AI-driven exploration, LLNL hopes to navigate the complex physics of high-gain implosions faster and more efficiently than ever before.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-14&quot;&gt;
+    “In principle, AI agents offer a way for us to pursue not only 3-4 distinct ICF design concepts at once – but hundreds or possibly thousands,” Belof explained. “Rather than the human running ensembles of simulations, they will be able to run ensembles of ideas. This concept could be massively transformative in nature.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-15&quot;&gt;
+    The heart of the MADA system is its AI “agents” — autonomous software entities composed of two key components: an LLM that can understand and respond to human language, and a specialized “tooling” interface — an executable function that enables the agent to perform domain-specific tasks. For MADA, the agent’s tooling can generate structured simulation input files and launch them on high-performance computing (HPC) systems.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-16&quot;&gt;
+    “We are putting AI in the driver’s seat of a supercomputer, which is something that has never been done before,” Belof said.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-17&quot;&gt;
+    Supporting the Inverse Design Agent is another vital component: the Job Management Agent (JMA). While the IDA handles design generation, the JMA drives execution of large-scale simulation workflows across LLNL’s supercomputers, interacting with the
+    &lt;a href=&quot;https://computing.llnl.gov/projects/flux-building-framework-resource-management&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+     Flux
+    &lt;/a&gt;
+    scheduler and workflow management tools like
+    &lt;a href=&quot;https://computing.llnl.gov/projects/merlin&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+     Merlin
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-18&quot;&gt;
+    The JMA ensures jobs are properly queued, resources are allocated, and simulation outputs are efficiently harvested and returned for downstream analysis. Together, these agents operate in a coordinated fashion — the IDA proposing simulation strategies, and the JMA managing the execution pipeline — forming a seamless loop between AI planning and HPC execution.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-19&quot;&gt;
+    “The Job Management Agent brings AI and HPC together to coordinate agents that handle resource management and workflow optimization at massive scales, giving us a critical advantage as we push toward a robust ignition platform for fusion energy,” said JMA Team Lead Giselle Fernandez.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-20&quot;&gt;
+    This iterative workflow enables an unprecedented level of interactivity between designers and their simulations. Instead of manually coding and launching individual jobs — a process that could take days or weeks — researchers can now explore thousands of design variations in parallel, simply by having a conversation with an AI agent.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-21&quot;&gt;
+    “The agent can then take a capsule diagram and a plain-language prompt like, ‘Explore the effect of changing a certain part of the geometry and translate that into a valid simulation deck for MARBL,” Belof explained. “It then runs that deck, collects results, and can even build a training dataset to power a surrogate model.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-22&quot;&gt;
+    The MADA approach leveraged HPC to run massive ensembles — typically tens of thousands of ICF simulations in a single study — across LLNL’s Tuolumne, the world’s 12
+    &lt;sup&gt;
+     th
+    &lt;/sup&gt;
+    fastest supercomputer. The output of these simulations is then used to train a machine learning model known as PROFESSOR, which can generate instant feedback for designers exploring new capsule geometries.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-23&quot;&gt;
+    “Once trained, the PROFESSOR model generates implosion time histories — radius as a function of time — that change instantaneously when the human designer changes the input geometry,” Belof said. “It’s a powerful new tool to ICF designers that is made possible with AI/machine learning plus HPC.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-24&quot;&gt;
+    By enabling natural language interaction, image interpretation and rapid simulation-to-model pipelines, the MADA project demonstrates how AI can be embedded directly into high-stakes scientific workflows. The result is a new stage of national security design work — one that replaces slow, manual iteration with collaborative AI augmentation.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-25&quot;&gt;
+    The implications could extend far beyond ICF. As more exascale-class systems like El Capitan come online, MADA offers a blueprint for how AI agents could act as digital collaborators in domains ranging from materials discovery to weapons certification.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-26&quot;&gt;
+    “It’s really about enhancing human productivity through AI, in a transformative way,” Belof said. “And I think this project shows that we’re just beginning to tap what’s possible.  AI tools have the potential for allowing us to best allocate resources and help understand tradeoffs that will be needed for the next generation of enhanced fusion facilities.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-27&quot;&gt;
+    NNSA’s Advanced Simulation &amp; Computing program is funding the work. Other LLNL MADA team members include deputy principal investigator Charles Jekel, MARBL Project Lead Rob Rieben, and researchers Will Schill, Meir Shachar and Dane Sterbentz. Nathan Brown of SNL and Ismael Djibrilla Boureima of LANL also contributed to the work.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> News Bytes 20260804: Comparing US, EU, China AI Strategies, AI and Job Losses, Agentic AI at McKinsey, AI Startup Funding Stays Hot </title>
+<link>https://insideainews.com/2025/08/04/news-bytes-20260804-comparing-us-eu-china-ai-strategies-ai-and-job-losses-agentic-ai-at-mckinsey-ai-startup-funding-stays-hot/</link>
+<pubDate>Mon, 04 Aug 2025 19:01:59 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;p&gt;
+   &lt;/p&gt;
+   &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+   &lt;span class=&quot;mejs-offscreen&quot;&gt;
+    Audio Player
+   &lt;/span&gt;
+   &lt;div aria-label=&quot;Audio Player&quot; class=&quot;mejs-container mejs-container-keyboard-inactive wp-audio-shortcode mejs-audio&quot; id=&quot;mep_0&quot; role=&quot;application&quot; style=&quot;width: 735px; height: 40px; min-width: 275px;&quot; tabindex=&quot;0&quot;&gt;
+    &lt;div class=&quot;mejs-inner&quot;&gt;
+     &lt;div class=&quot;mejs-mediaelement&quot;&gt;
+      &lt;mediaelementwrapper id=&quot;audio-36912-1&quot;&gt;
+       &lt;audio class=&quot;wp-audio-shortcode&quot; id=&quot;audio-36912-1_html5&quot; preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3?_=1&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;
+        &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+         &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3&quot;&gt;
+          https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3
+         &lt;/a&gt;
+        &lt;/source&gt;
+       &lt;/audio&gt;
+      &lt;/mediaelementwrapper&gt;
+     &lt;/div&gt;
+     &lt;div class=&quot;mejs-layers&quot;&gt;
+      &lt;div class=&quot;mejs-poster mejs-layer&quot; style=&quot;display: none; width: 100%; height: 100%;&quot;&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div class=&quot;mejs-controls&quot;&gt;
+      &lt;div class=&quot;mejs-button mejs-playpause-button mejs-play&quot;&gt;
+       &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+       &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div aria-live=&quot;off&quot; class=&quot;mejs-time mejs-currenttime-container&quot; role=&quot;timer&quot;&gt;
+       &lt;span class=&quot;mejs-currenttime&quot;&gt;
+        00:00
+       &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-time-rail&quot;&gt;
+       &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; class=&quot;mejs-time-total mejs-time-slider&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+        &lt;span class=&quot;mejs-time-buffering&quot; style=&quot;display: none;&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-loaded&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-current&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-hovered no-hover&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-handle&quot;&gt;
+         &lt;span class=&quot;mejs-time-handle-content&quot;&gt;
+         &lt;/span&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-float&quot;&gt;
+         &lt;span class=&quot;mejs-time-float-current&quot;&gt;
+          00:00
+         &lt;/span&gt;
+         &lt;span class=&quot;mejs-time-float-corner&quot;&gt;
+         &lt;/span&gt;
+        &lt;/span&gt;
+       &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-time mejs-duration-container&quot;&gt;
+       &lt;span class=&quot;mejs-duration&quot;&gt;
+        00:00
+       &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-button mejs-volume-button mejs-mute&quot;&gt;
+       &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+       &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; class=&quot;mejs-horizontal-volume-slider&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+       &lt;span class=&quot;mejs-offscreen&quot;&gt;
+        Use Up/Down Arrow keys to increase or decrease volume.
+       &lt;/span&gt;
+       &lt;div class=&quot;mejs-horizontal-volume-total&quot;&gt;
+        &lt;div class=&quot;mejs-horizontal-volume-current&quot; style=&quot;left: 0px; width: 100%;&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mejs-horizontal-volume-handle&quot; style=&quot;left: 100%;&quot;&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+      &lt;/a&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-6&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;237&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/08/us-china-2-1-shutterstock-1408705082.jpg&quot; width=&quot;474&quot;/&gt;
+    A good August morning to you! The world (at least the world as we see it) continued to revolve around HPC-AI last week, here’s a quick (8:14) discussion of recent developments:
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-7&quot;&gt;
+    – Comparing AI strategies: US, EU, China
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-8&quot;&gt;
+    – AI emerges as a top-five reason for job losses
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-12&quot;&gt;
+    –  Agentic AI at McKinsey
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-9&quot;&gt;
+    – AI startup funding boom continues
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-13&quot;&gt;
+    You can find our podcasts at
+    &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+     insideHPC’s @HPCpodcast page
+    &lt;/a&gt;
+    , on
+    &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+     Twitter
+    &lt;/a&gt;
+    , on
+    &lt;a href=&quot;https://orionx.net/2025/08/hpc-news-bytes-20250804/&quot;&gt;
+     the OrionX.net podcast page
+    &lt;/a&gt;
+    , on
+    &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+     iTunes
+    &lt;/a&gt;
+    and
+    &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+     Google
+    &lt;/a&gt;
+    . Here’s the
+    &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+     the RSS feed
+    &lt;/a&gt;
+    . We’re also available on
+    &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+     Spotify
+    &lt;/a&gt;
+    and
+    &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+     iTunes
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> Chinese Researchers Unveil ‘Brain-Like’ Computer with 2 Billion Pulsed Neurons, 100 Billion Synapses </title>
+<link>https://insidehpc.com/2025/08/chinese-researchers-unveil-brain-like-computer-with-2-billion-pulsed-neurons-100-billion-synapses/</link>
+<pubDate>Mon, 04 Aug 2025 18:12:44 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;512&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/darwin-monkey-supercomputer-2-1-0825-1024x512.jpg&quot; width=&quot;1024&quot;/&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;conTop&quot;&gt;
+    &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot;&gt;
+     &lt;span style=&quot;font-size: 16px;&quot;&gt;
+      The Chinese news outlet XinhuaNet reported on Saturday that
+     &lt;/span&gt;
+     Chinese engineers unveiled  what they call a brain-like computer, dubbed Darwin Monkey, that they say can mimic the workings of a monkey’s brain.
+    &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;conLeft&quot;&gt;
+    &lt;div class=&quot;content&quot; id=&quot;detail&quot;&gt;
+     &lt;div id=&quot;detailContent&quot;&gt;
+      &lt;p class=&quot;ai-optimize-11&quot;&gt;
+       Developed by the national key lab of brain intelligence at Zhejiang University in east China’s Zhejiang Province, the computer is equipped with 960 Darwin 3 chips, the third-generation brain-like neural processing units developed by the lab.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-12&quot;&gt;
+       The resarchers said the chip array supports more than 2 billion pulsed neurons and over 100 billion synapses, “making Darwin Monkey the world’s first brain-like computer to combine advanced thinking abilities with vision, hearing, language and learning functions.”
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-12&quot;&gt;
+       The system, also called Wukong, consumes approximately 2,000 watts of power under typical operating conditions.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-13&quot;&gt;
+       The research team has deployed several intelligent applications on the computer,
+       &lt;a href=&quot;https://english.news.cn/home.htm&quot;&gt;
+        XinhuaNet
+       &lt;/a&gt;
+       stated.
+      &lt;/p&gt;
+      &lt;p class=&quot;ai-optimize-13&quot;&gt;
+       “It can run the DeepSeek brain-like large (AI) model to perform tasks such as logical reasoning, content generation and mathematical problem-solving,”
+       &lt;a href=&quot;https://english.news.cn/20250802/4305a120994d4595b803412ea0065b09/c.html&quot;&gt;
+        the outlet reported
+       &lt;/a&gt;
+       . “Leveraging its powerful neuronal and synaptic resources, the system can also preliminarily simulate animal brains of varying neuron sizes, including those of elegans, zebrafish, mice and macaques, offering new possibilities for brain science research.”
+      &lt;/p&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;p&gt;
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20260804: Comparing US, EU, China AI Strategies, AI and Job Losses, Agentic AI at McKinsey, AI Startup Funding Stays Hot </title>
+<link>https://insidehpc.com/2025/08/hpc-news-bytes-20260804-comparing-us-eu-china-ai-strategies-ai-and-job-losses-agentic-ai-at-mckinsey-ai-startup-funding-stays-hot/</link>
+<pubDate>Mon, 04 Aug 2025 16:00:00 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;p&gt;
+   &lt;/p&gt;
+   &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+   &lt;span class=&quot;mejs-offscreen&quot;&gt;
+    Audio Player
+   &lt;/span&gt;
+   &lt;div aria-label=&quot;Audio Player&quot; class=&quot;mejs-container mejs-container-keyboard-inactive wp-audio-shortcode mejs-audio&quot; id=&quot;mep_0&quot; role=&quot;application&quot; style=&quot;width: 735px; height: 40px; min-width: 275px;&quot; tabindex=&quot;0&quot;&gt;
+    &lt;div class=&quot;mejs-inner&quot;&gt;
+     &lt;div class=&quot;mejs-mediaelement&quot;&gt;
+      &lt;mediaelementwrapper id=&quot;audio-96809-1&quot;&gt;
+       &lt;audio class=&quot;wp-audio-shortcode&quot; id=&quot;audio-96809-1_html5&quot; preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3?_=1&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;
+        &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+         &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3&quot;&gt;
+          https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250804.mp3
+         &lt;/a&gt;
+        &lt;/source&gt;
+       &lt;/audio&gt;
+      &lt;/mediaelementwrapper&gt;
+     &lt;/div&gt;
+     &lt;div class=&quot;mejs-layers&quot;&gt;
+      &lt;div class=&quot;mejs-poster mejs-layer&quot; style=&quot;display: none; width: 100%; height: 100%;&quot;&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div class=&quot;mejs-controls&quot;&gt;
+      &lt;div class=&quot;mejs-button mejs-playpause-button mejs-play&quot;&gt;
+       &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+       &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div aria-live=&quot;off&quot; class=&quot;mejs-time mejs-currenttime-container&quot; role=&quot;timer&quot;&gt;
+       &lt;span class=&quot;mejs-currenttime&quot;&gt;
+        00:00
+       &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-time-rail&quot;&gt;
+       &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; class=&quot;mejs-time-total mejs-time-slider&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+        &lt;span class=&quot;mejs-time-buffering&quot; style=&quot;display: none;&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-loaded&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-current&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-hovered no-hover&quot;&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-handle&quot;&gt;
+         &lt;span class=&quot;mejs-time-handle-content&quot;&gt;
+         &lt;/span&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;mejs-time-float&quot;&gt;
+         &lt;span class=&quot;mejs-time-float-current&quot;&gt;
+          00:00
+         &lt;/span&gt;
+         &lt;span class=&quot;mejs-time-float-corner&quot;&gt;
+         &lt;/span&gt;
+        &lt;/span&gt;
+       &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-time mejs-duration-container&quot;&gt;
+       &lt;span class=&quot;mejs-duration&quot;&gt;
+        00:00
+       &lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;mejs-button mejs-volume-button mejs-mute&quot;&gt;
+       &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+       &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; class=&quot;mejs-horizontal-volume-slider&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+       &lt;span class=&quot;mejs-offscreen&quot;&gt;
+        Use Up/Down Arrow keys to increase or decrease volume.
+       &lt;/span&gt;
+       &lt;div class=&quot;mejs-horizontal-volume-total&quot;&gt;
+        &lt;div class=&quot;mejs-horizontal-volume-current&quot; style=&quot;left: 0px; width: 100%;&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mejs-horizontal-volume-handle&quot; style=&quot;left: 100%;&quot;&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+      &lt;/a&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-6&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;186&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/US-China-2-1-shutterstock-1408705082.jpg&quot; width=&quot;372&quot;/&gt;
+    A good August morning to you! The world (at least the world as we see it) continued to revolve around HPC-AI last week, here’s a quick (8:14) discussion of recent developments:
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-7&quot;&gt;
+    – Comparing AI strategies: US, EU, China
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-8&quot;&gt;
+    – AI emerges as a top-five reason for job losses
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-12&quot;&gt;
+    –  Agentic AI at McKinsey
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-9&quot;&gt;
+    – AI startup funding boom continues
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-13&quot;&gt;
+    You can find our podcasts at
+    &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+     insideHPC’s @HPCpodcast page
+    &lt;/a&gt;
+    , on
+    &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+     Twitter
+    &lt;/a&gt;
+    , on
+    &lt;a href=&quot;https://orionx.net/2025/08/hpc-news-bytes-20250804/&quot;&gt;
+     the OrionX.net podcast page
+    &lt;/a&gt;
+    , on
+    &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+     iTunes
+    &lt;/a&gt;
+    and
+    &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+     Google
+    &lt;/a&gt;
+    . Here’s the
+    &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+     the RSS feed
+    &lt;/a&gt;
+    . We’re also available on
+    &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+     Spotify
+    &lt;/a&gt;
+    and
+    &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+     iTunes
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> Report: Qualcomm May Return to Data Center AI Chip Market </title>
+<link>https://insidehpc.com/2025/08/report-qualcomm-may-return-to-data-center-ai-chip-market/</link>
+<pubDate>Fri, 01 Aug 2025 17:23:36 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;291&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/qualcomm-logo-2-1-0825.png&quot; width=&quot;659&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p class=&quot;ai-optimize-7 ai-optimize-introduction&quot;&gt;
+    Qualcomm, the $39 billion chip design company, may return to the data center chip market, according to
+    &lt;a href=&quot;https://www.theregister.com/2025/07/31/qualcomm_q3_samsung_q2_205/&quot;&gt;
+     a story in The Register
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-8&quot;&gt;
+    “Qualcomm has teased a serious run at the data center market for years and in May CEO Cristiano Amon
+    &lt;a href=&quot;https://www.theregister.com/2025/05/19/qualcomm_datacenter_products/&quot;&gt;
+     told
+    &lt;/a&gt;
+    the Computex conference in Taiwan that he sees ‘CPU changed for the age of AI’ as one way into the market,” the publication reported. “On Wednesday, Amon used Qualcomm’s Q3 earnings call to deliver an update on the company’s datacenter ambitions.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-9&quot;&gt;
+    “As inference games scale, cloud service providers are building dedicated inferencing clusters focused not only on performance, but also efficiency, specifically tokens per dollar and tokens per watt,” the CEO said. “These factors combined with the shift from merchant x86 CPUs to custom ARM compatible CPUs for both cloud computing and AI head node create an entry point for Qualcomm.”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-10&quot;&gt;
+    Qualcomm also said it’s in “advanced discussions” with a hyperscale customer that wants to use its silicon in its data centers, according to The Register story.
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-11&quot;&gt;
+    On the earnings call, the Qualcomm CEO also said the company is building “a general-purpose CPU” “and is ‘very focused on hyperscalers’ because ‘They have first party workloads for ARM compatible CPU.’”
+   &lt;/p&gt;
+   &lt;p class=&quot;ai-optimize-12&quot;&gt;
+    He also discussed a separate product for the data center market described as “the head unit for inferencing clusters,” then added “we have been building accelerator cards and we will be building a rack as well.”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> GFT: Wynxx Reduces Time to Launch Financial Institutions’ AI and Cloud Projects </title>
+<link>https://insideainews.com/2025/08/01/gfts-wynxx-reduces-time-to-launch-financial-institutions-ai-and-cloud-projects-by-95/</link>
+<pubDate>Fri, 01 Aug 2025 16:11:57 -0000</pubDate>
+<description>
+&lt;html&gt;
+ &lt;body&gt;
+  &lt;div class=&quot;entry-content&quot;&gt;
+   &lt;div class=&quot;post-image-wrapper&quot;&gt;
+    &lt;img alt=&quot;&quot; height=&quot;250&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/02/financial-services-wall-street-2-1-shutterstock-2452656115.jpg&quot; width=&quot;500&quot;/&gt;
+   &lt;/div&gt;
+   &lt;p&gt;
+    NEW YORK — Digital transformation company GFT has announced its work to drive U.S. and Canadian financial institutions’ cloud and AI digital transformation projects with Wynxx, its new AI-powered software development product.
+   &lt;/p&gt;
+   &lt;p&gt;
+    As financial institutions modernize their legacy systems, including transitioning to the cloud and deploying new AI use cases across the organization, they are looking for ways to maintain quality while reducing costs. GFT’s Wynxx makes this possible, reducing the amount of time cloud and AI capabilities take to launch by up to 95%. The proprietary AI tool has already enabled a global tier-1 investment bank to reduce the time a cloud deployment development task took from over one month to just one day.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Financial institutions want to take advantage of AI driven efficiencies – but less than 40% have even taken the first step: going all in on cloud environments. This is largely because for most financial institutions, digital transformation projects, like the move to the cloud, are a complex undertaking that require significant developer resources. As a result, these financial institutions are facing challenges as they look to harness the power of AI – which typically relies on centralized cloud ecosystems – to bring a competitive edge by reducing operating costs while enhancing the customer experience.
+   &lt;/p&gt;
+   &lt;p&gt;
+    It’s against this backdrop that GFT is bringing Wynxx to the U.S. and Canada, allowing financial institutions to decrease the developer time and resources required for large scale digital transformation projects. The new product allows financial institutions to significantly drive efficiency in key digital transformation projects, including:
+   &lt;/p&gt;
+   &lt;ul class=&quot;bwlistdisc&quot;&gt;
+    &lt;li&gt;
+     The move from decentralized, legacy systems to a comprehensive cloud environment. GFT partners with leading hyperscalers – including AWS and Google – to deliver a cloud environment that fits each financial institutions’ unique needs. Since cloud deployments take months, or even years to complete in some cases, institutions typically choose to move to the cloud slowly and incrementally. Now, with Wynxx, GFT is able to deliver the same leading cloud transformation services it’s grown a reputation for over 20 years faster, so organizations can spend more time innovating new AI solutions that leverage the cloud infrastructure.
+    &lt;/li&gt;
+    &lt;li&gt;
+     Staying up to date with the latest advancements in automation. Most financial institutions have harnessed some form of automation in workflows – such as fraud prevention, anti money laundering and more in recent years, but these technologies continue to improve over time. Updating older automation tools, though, presents a challenge, especially if there are gaps in code documentation (which explains how the code works). With Wynxx, GFT can now reduce the time required for documentation by over 90%, while ensuring the utmost quality, to reduce complexity in new updates.
+    &lt;/li&gt;
+    &lt;li&gt;
+     Injecting AI into manual, error prone tasks to scale offerings and increase revenue. In recent years, financial offerings like private credit have rapidly increased in demand. But most firms cannot scale their manual credit risk analysis at the rate needed to meet this demand without risking accuracy, and subsequently revenue, in lending decisions. At the same time, building a proprietary AI-credit analysis system, with all of the firm’s internal risk controls and parameters, is often counted out because of the developer hours required. Now, Wynxx enables GFT to build custom software solutions that interact with the financial firm’s existing systems, while taking into account its internal risk preferences and controls – quickly.
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    “Over the past 35+ years, GFT has built and maintained a reputation for delivering the effective, custom configured technology financial services need to build their business, offer an enhanced customer experience and streamline operations,” said Christopher Ortiz, Regional CEO North America, UK and APAC at
+    &lt;a href=&quot;https://www.gft.com/us/en&quot;&gt;
+     GFT
+    &lt;/a&gt;
+    . “Now, with Wynxx, we are able to provide the same quality of service our clients have come to expect from us, in a shorter span of time. We look forward to working alongside our clients to solve their most pressing business challenges, now on a timeline that wasn’t previously possible, to foster new avenues for innovation.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    The launch of Wynxx is the latest step in GFT’s plan to become a fully AI-centric company by 2025, where AI will be central to not only the company’s internal operations, but also the services it provides clients.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+</item>
+<item>
+<title> Google DeepMind Launches AlphaEarth Foundations Virtual Satellite </title>
+<link>https://insidehpc.com/2025/07/google-deepmind-launches-alphaearth-foundations-virtual-satellite/</link>
+<pubDate>Thu, 31 Jul 2025 20:25:53 -0000</pubDate>
+<description>
+&lt;div class=&quot;entry-content&quot;&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-6 ai-optimize-introduction&quot; data-block-key=&quot;fd0er&quot;&gt;
+   &lt;img alt=&quot;&quot; class=&quot;alignright wp-image-96801&quot; decoding=&quot;async&quot; height=&quot;245&quot; sizes=&quot;(max-width: 429px) 100vw, 429px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725.png 624w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725-150x86.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-ai-0725-300x171.png 300w&quot; width=&quot;429&quot;/&gt;
+   Google DeepMind has announced the AlphaEarth Foundations, an AI model designed to function like a virtual satellite and to characterize the planet’s terrestrial land and coastal waters by integrating huge amounts of Earth observation data into a unified digital representation, or “
+   &lt;a href=&quot;https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    embedding,
+   &lt;/a&gt;
+   ” that computer systems can process.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-25&quot; data-block-key=&quot;fd0er&quot;&gt;
+   The company said the model integrates petabytes of Earth observation data to generate a unified data representation for global mapping and monitoring
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-7&quot; data-block-key=&quot;fd0er&quot;&gt;
+   The model is intended to provide scientists with a more complete and consistent picture of our planet’s evolution, helping them make more informed decisions on critical issues like food security, deforestation, urban expansion, and water resources.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-8&quot; data-block-key=&quot;da617&quot;&gt;
+   To accelerate research and unlock use cases, Google has released a collection of AlphaEarth Foundations’ annual embeddings as the
+   &lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL#description&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Satellite Embedding dataset
+   &lt;/a&gt;
+   in
+   &lt;a href=&quot;https://earthengine.google.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth Engine
+   &lt;/a&gt;
+   . Over the past year, the company has worked with more than 50 organizations to test this dataset on their real-world applications.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-9&quot; data-block-key=&quot;d088j&quot;&gt;
+   Google said its partners are using the data to better classify unmapped ecosystems, understand agricultural and environmental changes, and increase the accuracy and speed of their mapping work. The following is
+   &lt;a href=&quot;https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/&quot;&gt;
+    a blog
+   &lt;/a&gt;
+   released by Google DeepMind that discusses some of their feedback and the impact of this new technology.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-10&quot; data-block-key=&quot;po06b&quot;&gt;
+   &lt;strong&gt;
+    How AlphaEarth Foundations Works
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-11&quot; data-block-key=&quot;3r6ii&quot;&gt;
+   AlphaEarth Foundations provides a powerful new lens for understanding our planet by solving two major challenges: data overload and inconsistent information.
+  &lt;/p&gt;
+  &lt;div class=&quot;wp-caption alignleft&quot; id=&quot;attachment_96800&quot; style=&quot;width: 457px&quot;&gt;
+   &lt;img alt=&quot;&quot; aria-describedby=&quot;caption-attachment-96800&quot; class=&quot;wp-image-96800&quot; decoding=&quot;async&quot; height=&quot;241&quot; sizes=&quot;(max-width: 447px) 100vw, 447px&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725.png&quot; srcset=&quot;https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725.png 697w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725-150x81.png 150w, https://insidehpc.com/wp-content/uploads/2025/07/google-earth-diagram-0725-300x162.png 300w&quot; width=&quot;447&quot;/&gt;
+   &lt;p class=&quot;wp-caption-text&quot; id=&quot;caption-attachment-96800&quot;&gt;
+    AlphaEarth Foundations takes non-uniformly sampled frames from a video sequence to index positions in time. credit: Google Mind
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;ai-optimize-12&quot; data-block-key=&quot;cfk18&quot;&gt;
+   First, it combines volumes of information from dozens of different public sources— optical satellite images, radar, 3D laser mapping, climate simulations, and more. It weaves all this information together to analyse the world’s land and coastal waters in sharp, 10×10 meter squares, allowing it to track changes over time with remarkable precision.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-13&quot; data-block-key=&quot;c0lf0&quot;&gt;
+   Second, it makes this data practical to use. The system’s key innovation is its ability to create a highly compact summary for each square. These summaries require 16 times less storage space than those produced by other AI systems that we tested and dramatically reduces the cost of planetary-scale analysis.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-14&quot; data-block-key=&quot;3avp4&quot;&gt;
+   This breakthrough enables scientists to do something that was impossible until now: create detailed, consistent maps of our world, on-demand. Whether they are monitoring crop health, tracking deforestation, or observing new construction, they no longer have to rely on a single satellite passing overhead. They now have a new kind of foundation for geospatial data.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-15&quot; data-block-key=&quot;po06b&quot;&gt;
+   To ensure AlphaEarth Foundations was ready for real-world use, we rigorously tested its performance. When compared against both traditional methods and other AI mapping systems, AlphaEarth Foundations was consistently the most accurate. It excelled at a wide range of tasks over different time periods, including identifying land use and estimating surface properties. Crucially, it achieved this in scenarios when label data was scarce. On average, AlphaEarth Foundations had a 24% lower error rate than the models we tested, demonstrating its superior learning efficiency. Learn more in our
+   &lt;a href=&quot;https://arxiv.org/pdf/2507.22291&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    paper
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-17&quot; data-block-key=&quot;gd6qg&quot;&gt;
+   &lt;strong&gt;
+    Generating Maps with the Satellite Embedding Dataset
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-18&quot; data-block-key=&quot;c52lh&quot;&gt;
+   Powered by AlphaEarth Foundations, the
+   &lt;a href=&quot;https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL#description&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Satellite Embedding dataset
+   &lt;/a&gt;
+   in Google Earth Engine is one of the largest of its kind with over 1.4 trillion embedding footprints per year. This collection of annual embeddings is already being used by organizations around the world, including the United Nations’
+   &lt;a href=&quot;https://www.fao.org/home/en&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Food and Agriculture Organization
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://harvardforest.fas.harvard.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Harvard Forest
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://earthobservations.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Group on Earth Observations
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://brasil.mapbiomas.org/en/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    MapBiomas
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://oregonstate.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Oregon State University
+   &lt;/a&gt;
+   , the
+   &lt;a href=&quot;https://sig-gis.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Spatial Informatics Group
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.stanford.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Stanford University
+   &lt;/a&gt;
+   , to create powerful custom maps that drive real-world insights.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-19&quot; data-block-key=&quot;fo1o9&quot;&gt;
+   For example,
+   &lt;a href=&quot;http://www.globalecosystemsatlas.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Global Ecosystems Atlas
+   &lt;/a&gt;
+   , an initiative aiming to create the first comprehensive resource to map and monitor the world’s ecosystems, is using this dataset to help countries classify unmapped ecosystems into categories like
+   &lt;a href=&quot;https://global-ecosystems.org/explore/groups/MT2.1&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    coastal shrublands
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://global-ecosystems.org/explore/groups/T5.5&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    hyper-arid deserts
+   &lt;/a&gt;
+   . This first of its kind resource will play a critical role in helping countries better prioritize conservation areas, optimize restoration efforts, and combat the loss of biodiversity.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;gdm-rich-text rich-text&quot;&gt;
+  &lt;p class=&quot;ai-optimize-20&quot; data-block-key=&quot;gd6qg&quot;&gt;
+   In Brazil,
+   &lt;a href=&quot;https://brasil.mapbiomas.org/en/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    MapBiomas
+   &lt;/a&gt;
+   is testing the dataset to more deeply understand agricultural and environmental changes across the country. This type of map informs conservation strategies and sustainable development initiatives in critical ecosystems like the Amazon rainforest.
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-21&quot; data-block-key=&quot;eikau&quot;&gt;
+   As Tasso Azevedo, founder of MapBiomas said, “The Satellite Embedding dataset can transform the way our team works – we now have new options to make maps that are more accurate, precise and fast to produce – something we would have never been able to do before.”
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-22&quot; data-block-key=&quot;542er&quot;&gt;
+   Read more about the Satellite Embedding dataset and see tutorials in the
+   &lt;a href=&quot;https://medium.com/google-earth/ai-powered-pixels-introducing-googles-satellite-embedding-dataset-31744c1f4650&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth Engine blog
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-23&quot; data-block-key=&quot;6v6cv&quot;&gt;
+   &lt;strong&gt;
+    Empowering Others with AI
+   &lt;/strong&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;ai-optimize-24&quot; data-block-key=&quot;9k7e5&quot;&gt;
+   AlphaEarth Foundations represents a significant step forward in understanding the state and dynamics of our changing planet. We’re currently using AlphaEarth Foundations to generate annual embeddings and believe they could be even more useful in the future when combined together with general reasoning LLM agents like Gemini. We are continuing to explore the best ways to apply our model’s time-based capabilities as part of
+   &lt;a href=&quot;http://blog.google/technology/ai/google-earth-ai&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Google Earth AI
+   &lt;/a&gt;
+   , our collection of geospatial models and datasets to help tackle the planet’s most critical needs.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
