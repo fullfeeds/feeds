@@ -1,0 +1,2663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 16 Aug 2025 15:42:05 -0000</lastBuildDate>
+<item>
+<title> Report: AI to Drive Data Center Physical Infrastructure Market to $63B by 2029 </title>
+<link>https://insidehpc.com/2025/08/report-ai-to-drive-data-center-infrastructure-market-to-63b-by-2029/</link>
+<pubDate>Fri, 15 Aug 2025 17:03:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/01/disaster-data-center-it-2-1-shutterstock-2471030435-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  REDWOOD CITY, Calif. – August 15, 2025 – According to a report from Dell’Oro Group, the worldwide data center physical infrastructure (DCPI) market is projected to grow at a 15 percent CAGR from 2024 to 2029, reaching $63.1 billion by 2029 as AI-ready capacity accelerates through the mid-decade. This outlook reflects stronger-than-expected deployments to support accelerated computing workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI is reshaping facility design from the rack up—densities are climbing, power is getting smarter, and liquid is moving from niche to necessary,” said Alex Cordovil, Research Director at
+  &lt;a href=&quot;http://www.delloro.com&quot;&gt;
+   Dell’Oro Group
+  &lt;/a&gt;
+  . “Our latest forecast shows the market scaling faster and more broadly than earlier expected, with vendors and operators adapting quickly to new thermal and electrical realities while navigating power constraints pragmatically.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additional highlights from the Data Center Physical Infrastructure 5-Year July 2025 Forecast Report:
+ &lt;/p&gt;
+ &lt;ul type=&quot;disc&quot;&gt;
+  &lt;li&gt;
+   Thermal Management is projected to grow at a 19 percent CAGR by 2029; within it, Direct Liquid Cooling (DLC) is set to surge from $1.1B in 2024 to $5.8B in 2029 as rack densities rise with accelerated computing and DLC asserts itself as the dominant heat technology to dissipate heat out of the rack.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Cabinet PDU &amp; Busway will expand at a 21 percent CAGR; overhead busbars—now the de facto choice for AI halls—are forecast to grow 25 percent CAGR, while RPPs lag at 5 percent CAGR.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Service Providers (cloud &amp; colocation) are set to grow at a 20 percent CAGR through 2029, while Enterprise increases 6 percent CAGR as enterprise leaders favor colocation partners to host AI infrastructure.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Growth is broad-based, with North America leading and EMEA/China peaking around 2026 before moderating; AI sovereignty and export-policy shifts support momentum.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Operators increasingly combine utility ties with on-site generation and other tactics; overall, we expect only a modest impact on capacity expansion from power constraints.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Launches Compact Workstations with Blackwell </title>
+<link>https://insideainews.com/2025/08/15/36949/</link>
+<pubDate>Fri, 15 Aug 2025 16:16:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-36952&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/08/nvidia-rtx-pro-2000-blackwell-1.png&quot;/&gt;
+  &lt;p&gt;
+   NVIDIA RTX Pro 2000 Blackwell
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NVIDIA this week announced the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-4000-sff/&quot;&gt;
+   NVIDIA RTX PRO 4000 Blackwell SFF Edition
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-2000/&quot;&gt;
+   NVIDIA RTX PRO 2000 Blackwell
+  &lt;/a&gt;
+  GPUs in compact form factors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They include fourth-generation RT Cores and fifth-generation Tensor Cores with lower power in half the size of a traditional GPU, the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The new GPUs are designed to bring next-generation performance to a range of professional workflows, providing incredible speedups for engineering, design, content creation, AI and 3D visualization,” said NVIDIA.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Compared with the previous-generation architecture, the RTX PRO 4000 SFF features up to 2.5x higher AI performance, 1.7x higher ray-tracing performance and 1.5x more bandwidth, creating more efficiency with the same 70-watt max power consumption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Targeting mainstream design and AI workflows, the RTX PRO 2000 offers up to 1.6x faster 3D modeling, 1.4x faster computer-aided design (CAD) performance and 1.6x quicker rendering speeds compared with the previous generation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The RTX PRO 2000 GPU’s offer a 1.4x boost in image generation and 2.3x in text generation, designed for faster iteration, rapid prototyping and seamless collaboration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA’s software ecosystem enables creators, developers and enterprises to harness the full power of AI and advanced graphics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/ai-enterprise/&quot;&gt;
+   NVIDIA AI Enterprise software suite
+  &lt;/a&gt;
+  delivers enterprise-grade tools for building, deploying and scaling production AI — from
+  &lt;a href=&quot;https://www.nvidia.com/en-us/glossary/generative-ai/&quot;&gt;
+   generative AI
+  &lt;/a&gt;
+  and computer vision to speech and natural language solutions — on virtually any infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2023/08/NVIDIA_logo_2023.png&quot;/&gt;
+  The
+  &lt;a href=&quot;https://www.nvidia.com/en-us/ai/cosmos/&quot;&gt;
+   NVIDIA Cosmos
+  &lt;/a&gt;
+  platform offers world foundation models optimized for fast, efficient inference and edge deployment, enabling high-performance AI for robotics, automation and physical AI applications. The Cosmos-Reason1-7B model can run seamlessly on the RTX PRO 4000 SFF, delivering powerful physical AI reasoning capabilities to edge devices, compact workstations and industrial systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA’s graphics and visualization tools, including the
+  &lt;a href=&quot;https://developer.nvidia.com/omniverse&quot;&gt;
+   NVIDIA Omniverse
+  &lt;/a&gt;
+  platform, bring generative physical AI and simulation to 3D design teams, facilitating
+  &lt;a href=&quot;https://www.nvidia.com/en-us/glossary/digital-twin/&quot;&gt;
+   digital twins
+  &lt;/a&gt;
+  and visual workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, the Blackwell platform builds on NVIDIA’s ecosystem of powerful development tools,
+  &lt;a href=&quot;https://developer.nvidia.com/gpu-accelerated-libraries&quot;&gt;
+   NVIDIA CUDA-X libraries
+  &lt;/a&gt;
+  , over 6 million developers and close to 6,000 applications to scale performance across thousands of GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Availability
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NVIDIA RTX PRO 2000 Blackwell and NVIDIA RTX PRO 4000 Blackwell SFF Edition GPUs are coming later this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The RTX PRO 2000 is expected to be available from PNY and TD SYNNEX, as well as system builders such as BOXX, Dell Technologies, HP and Lenovo.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NVIDIA RTX PRO 4000 Blackwell SFF Edition is expected to be available from global distribution partners and leading manufacturing partners such as Dell Technologies, HP and Lenovo.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NSF and NVIDIA in $152M AI for Science Partnership </title>
+<link>https://insidehpc.com/2025/08/nsf-and-nvidia-in-152m-ai-for-science-partnership/</link>
+<pubDate>Thu, 14 Aug 2025 21:39:44 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/nsf-nvidia-logo-2-1-0825-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The National Science Foundation today announced a partnership with NVIDIA to develop a set of artificial intelligence-based models for scientific discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NSF will contribute $75 million, with
+  &lt;a data-extlink=&quot;&quot; href=&quot;https://blogs.nvidia.com/blog/national-science-foundation-ai2-open-ai-models&quot; rel=&quot;nofollow&quot;&gt;
+   NVIDIA
+  &lt;/a&gt;
+  providing an additional $77 million, to support the Open Multimodal AI Infrastructure to Accelerate Science (OMAI) project, led by the
+  &lt;a data-extlink=&quot;&quot; href=&quot;https://allenai.org/blog/nsf-nvidia&quot; rel=&quot;nofollow&quot;&gt;
+   Allen Institute for AI
+  &lt;/a&gt;
+  (Ai2). The collaboration will create a fully open suite of advanced AI models specifically designed to support the U.S. scientific community, NFS said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This public-private investment advances priorities set forth in the White House
+  &lt;a href=&quot;https://www.ai.gov/action-plan&quot;&gt;
+   AI Action Plan
+  &lt;/a&gt;
+  to accelerate AI-enabled science and ensure the United States is producing the leading open models that enhance America’s global AI dominance,” NFS said in its announcement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Bringing AI into scientific research has been a game changer,” said Brian Stone, performing the duties of the NSF director. “NSF is proud to partner with NVIDIA to equip America’s scientists with the tools to accelerate breakthroughs. These investments are not just about enabling innovation; they are about securing U.S. global leadership in science and technology and tackling challenges once thought impossible.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The development of AI technologies is advancing rapidly, but the cost of creating and researching powerful AI models has grown beyond the budgets of university labs and federally funded researchers. This growing divide limits the topics that academic researchers can explore, despite their historic role in pioneering many of the foundational breakthroughs that power today’s AI models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With this support, Ai2 will create open-source, multimodal large language models trained on scientific data and literature. These tools will enable America’s researchers and developers to process and analyze research faster, generate code and visualizations, and connect new insights to past discoveries, accelerating breakthroughs across materials science, biology, energy and more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As called for in the AI Action Plan, the Trump administration is committed to ensuring America fosters the leading open-source and open-weight models that set the global standard for business and academic research worldwide,” said Michael Kratsios, director of the White House Office of Science and Technology Policy.” This partnership between NSF and NVIDIA puts the Action Plan to work and demonstrates the power of the American innovation ecosystem. We look forward to the novel research and scientific breakthroughs to come through open-source model development and AI-enabled science.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NSF’s support is provided through its
+  &lt;a href=&quot;https://www.nsf.gov/funding/opportunities/mid-scale-ri-1-mid-scale-research-infrastructure-1&quot;&gt;
+   Mid-Scale Research Infrastructure program
+  &lt;/a&gt;
+  , which funds high-impact, high-reward, community-driven infrastructure that fills the gap between individual research grants and large-scale national facilities. The project will also build a national AI-ready workforce, supporting training efforts that expand participation and expertise beyond traditional tech hubs, strengthening American competitiveness in AI and other critical technologies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI is the engine of modern science — and large, open models for America’s researchers will ignite the next industrial revolution,” said Jensen Huang, founder and CEO of NVIDIA. “In collaboration with NSF and Ai2, we’re accelerating innovation with state-of-the-art infrastructure that empowers U.S. scientists to generate limitless intelligence, making it America’s most powerful and renewable resource.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Initial applications of Ai2’s work will include AI breakthroughs to accelerate the discovery of new materials, improve protein function prediction for biomedical advancements and address core weaknesses in today’s large language models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project will provide a path forward to a future paradigm of AI-accelerated scientific discovery, supporting reliable and rigorous science and building an innovation ecosystem that benefits every American.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Fully-open AI is not just a preference — it’s a necessity,” said Ali Farhadi, CEO of Ai2. “For the U.S. to continue leading the next era of scientific and technological discovery, we must create open, collaborative ecosystems where millions of researchers and developers can work together to improve and expand these systems. This infusion will supercharge the work we do at Ai2 and increase America’s ability to deliver breakthrough AI developments.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NSF and NVIDIA contributions will also support research teams from the University of Washington, the University of Hawaii at Hilo, the University of New Hampshire and the University of New Mexico.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Get more information about the
+  &lt;a href=&quot;https://www.nsf.gov/funding/opportunities/mid-scale-ri-1-mid-scale-research-infrastructure-1&quot;&gt;
+   NSF Mid-Scale Research Infrastructure
+  &lt;/a&gt;
+  program.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> GlobalFoundries Completes Acquisition of MIPS </title>
+<link>https://insidehpc.com/2025/08/globalfoundries-completes-acquisition-of-mips/</link>
+<pubDate>Thu, 14 Aug 2025 20:03:54 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2022/04/GlobalFoundries-040822.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  MALTA, N.Y., Aug. 14, 2025 – GlobalFoundries (Nasdaq: GFS) (GF) today announced that it has completed its acquisition of MIPS, a leading supplier of AI and processor IP. The acquisition strengthens GF’s position as a global leader in differentiated semiconductor manufacturing and enhances its capabilities in AI, edge computing and other high-growth markets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The combination of GF and MIPS brings together decades of expertise in advanced semiconductor manufacturing and processor IP innovation, enabling GF to deliver more differentiated solutions to meet the growing demand for energy-efficient, high-performance computing at the edge and beyond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MIPS is expected to continue to operate as a standalone business within GF, maintaining its licensing model and focusing on serving a broad customer base across diverse technology sectors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  About GF
+ &lt;/p&gt;
+ &lt;p&gt;
+  GlobalFoundries (GF) is a leading manufacturer of essential semiconductors the world relies on to live, work and connect. We innovate and partner with customers to deliver more power-efficient, high-performance products for the automotive, smart mobile devices, internet of things, communications infrastructure and other high-growth markets. With our global manufacturing footprint spanning the U.S., Europe and Asia, GF is a trusted and reliable source for customers around the world. Every day, our talented global team delivers results with an unyielding focus on security, longevity and sustainability. For more information, visit
+  &lt;a href=&quot;https://www.globenewswire.com/Tracker?data=iucbMK6he6SzeSFAJPwImYRq4ThkLUJGv23Gr_Gf_8MDQ9dCqyM0_sAeIkIR2hLwLUmXwHh_5o95-3sscFbi688R1-8_XXKpCfhI533C667O_0aaKB1QKg5UfUVX1Wb0greVAm4JbOYle40xy2GH2mrLHfvhaKQUL_x3Y4rJ7Q2zfoKRvUvJF35Iz6rQOqVAKX8gSSmEzbwcRJ2NkLjP18JRce8BqEQqTKAlMuqkazpZDsT9wFtEzS7kFWTzUQFyGJ_ErG_s1T9SJd6zEX73WdSDhFs0aiIsGjpNCy3NIEqhFzg9wpLwNTJnfNoHpxeU1Qe5rwq52TsTtXyqHuRA9-3i7CaFXNXw5ZMzNHyQee16hBTRpNPFHOyml68N30_-ZRS516CwODIdnSbw9lC4rWb1p5l6f1quk8Siq2PU1EEtxKf_GEHEnK4QS7FElyEGi_65T79e8D5oE42IPvqyycqS7F3NvmIXes8Z5Bfm03AlbycYktd84KJr-FuI8TZAVnnVbynFzViQqYlicX16yb09QAfz8BQVk-LsinhYuDXmA57aABZisQrEGOfm772C0jrGMmBcbMrYMahm96K3R3W5RdlPdrwsCP6BuptVQso=&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   www.gf.com
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> National Labs, DOE and DOD Research Organizations Finalists for R&amp;D 100 Awards </title>
+<link>https://insidehpc.com/2025/08/national-labs-doe-and-dod-research-organizations-finalists-for-rd-100-awards/</link>
+<pubDate>Thu, 14 Aug 2025 19:36:34 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/rd-100-finalists-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  More than a dozen national laboratories and research organizations of the Department of Energy and Department of Defense are among the 158 finalists for R&amp;D World Magazine’s annual R&amp;D 100 Awards. More details
+  &lt;a href=&quot;https://www.rdworldonline.com/the-2025-rd-100-finalists-are-here/&quot;&gt;
+   can be found here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finalists include:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandia National Laboratories
+ &lt;/p&gt;
+ &lt;p&gt;
+  NASA
+ &lt;/p&gt;
+ &lt;p&gt;
+  National Atomic Research Institute
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oak Ridge National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lawrence Livermore National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Argonne National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Los Alamost National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Idaho National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pacific Northwest National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  National Renewable Energy Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  National Energy Technolog Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Savannah River National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  DARPA
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ames National Laboratory
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EDB AI Platform to Be Integrated with NVIDIA </title>
+<link>https://insidehpc.com/2025/08/edb-ai-platform-to-be-integrated-with-nvidia/</link>
+<pubDate>Thu, 14 Aug 2025 18:47:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/data-center-generic-2-1-shutterstock-2463386913.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  WILMINGTON, Del. – AUG 14, 2025— EnterpriseDB announced it is integrating NVIDIA accelerated computing and AI software with EDB’s sovereign data and AI platform, EDB Postgres AI (EDB PG AI).
+ &lt;/p&gt;
+ &lt;p&gt;
+  EDB PG AI, built with NVIDIA accelerating computing and NVIDIA AI Enterprise, enables organizations to build and generate value from AI and data platforms using PostgreSQL. This integration enhances EDB PG AI as a secure, high-performance platform for deploying generative and agentic AI with enterprise-grade governance, observability, and cost efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The combination of NVIDIA AI software, including NVIDIA NIM microservices and NVIDIA NeMo Retriever with EDB Postgres AI delivers measurable outcomes for customers:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   2-3x throughput improvement for data embedding tasks
+  &lt;/li&gt;
+  &lt;li&gt;
+   5-2x throughput improvement for retrieval performance
+  &lt;/li&gt;
+  &lt;li&gt;
+   Up to 30x faster insights from data, driven by optimized AI pipelines
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  This software-defined performance also drives significant cost savings compared to cloud-native AI stacks. EDB, an NVIDIA NPN partner, also gains direct access to
+  &lt;a href=&quot;https://www.nvidia.com/en-us/solutions/ai/&quot;&gt;
+   NVIDIA
+  &lt;/a&gt;
+  ’s latest software innovations and best practices, fueling continuous optimization across the AI Factory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Sovereignty is now the defining factor in enterprise AI success. By integrating NVIDIA AI software into EDB Postgres AI, we’re giving customers the performance and control they need to build secure, agentic AI solutions on their terms, wherever their data lives,” said Nancy Hensley, Chief Product Officer of
+  &lt;a href=&quot;http://www.enterprisedb.com/&quot;&gt;
+   EDB
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Only 13 percent of major enterprises globally are generating sustainable ROI from their agentic and generative AI efforts; however, 90 percent plan to become their own AI and data platforms within the next three years, largely because they treat sovereign AI as mission-critical.  According to global research conducted for EDB in May 2025, this strategic focus on sovereign AI enables them to overcome fragmented infrastructure and take control over their data and AI models—key barriers to mainstream adoption and long-term competitive advantage.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Report: DeepSeek Model Delay Forces Use of NVIDIA GPUs </title>
+<link>https://insidehpc.com/2025/08/report-deepseek-model-delay-forces-use-of-nvidia-gpus/</link>
+<pubDate>Thu, 14 Aug 2025 16:11:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/deepseek-logo-2-1-0225.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The Financial Times reported that DeepSeek was forced to delay the release of its new R2 large language model due to performance problems with Huawei Ascend processors, “highlighting the limits of Beijing’s push to replace US technology,” according to the FT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The publication cites three sources who said Chinese government officials encouraged DeepSeek to use Ascend chips instead of NVIDIA processors after the release early this year of DeepSeek’s R1 model, which rocked the AI world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “But the Chinese start-up encountered persistent technical issues during its R2 training process using Ascend chips,”
+  &lt;a href=&quot;https://www.ft.com/content/eb984646-6320-4bfe-a78d-a1da2274b092&quot;&gt;
+   the FT reported
+  &lt;/a&gt;
+  , “prompting it to use NviNVIDIA dia chips for training and Huawei’s for inference, said the (sources).”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/nvidia-logo-2-1-0525.png&quot;/&gt;
+  The news comes amidst other reports that NVIDIA and AMD GPUs currently allowed for export to China by a recent US export rule change – the NVIDIA H20 and AMD MI308 – are intended to deliver roughly similar power as China’s homegrown GPUs. Also, there are reports that Chinese authorities are asking companies planning to utilize the American-designed GPUs to justify their use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FT article cites sources who say the Huawei processors have stability problems, “slower inter-chip connectivity and inferior software compared with Nvidia’s products.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In an attempt to resolve the problems, a team of Huawei technicians worked with DeepSeek on site, but that a successful training run could not be achieved on the Ascend processors, sources said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FT said DeepSeek’s R2 model could be released “in the coming weeks.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Landbase Acquires Adauris for Inbound Marketing </title>
+<link>https://insideainews.com/2025/08/14/landbase-acquires-adauris-to-bring-vibe-ai-to-inbound-marketing/</link>
+<pubDate>Thu, 14 Aug 2025 12:27:26 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-data-shutterstock-1987973402-0923-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN FRANCISCO – Aug. 14, 2025 – Agentic AI company Landbase today announced its acquisition of Adauris, a startup creating custom intent signals through content generation, leveraged by B2B companies to identify high-intent leads through distributed content.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The acquisition further accelerates Landbase’s expansion into AI-native inbound, with the Adauris team already behind the release of Landbase’s first inbound marketing feature.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This announcement follows Landbase’s $30M Series A and strengthens its position as the first platform to unify outbound and inbound automation. Landbase has seen rapid adoption since its initial launch, and the acquisition of Adauris is the latest in a series of moves to rapidly expand the platform’s capabilities and lead the category in AI GTM. Landbase’s CEO, Daniel Saks, coined the term Vibe AI to describe a new software paradigm where users describe what they want in natural language, and intelligent, agentic systems handle the execution to turn intent into outcomes without the need for complex interfaces or manual workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’re building the future of GTM: intelligent, connected, and deeply multimodal,” said Daniel Saks, CEO of
+  &lt;a href=&quot;https://www.landbase.com/&quot;&gt;
+   Landbase
+  &lt;/a&gt;
+  . “The Adauris team brings the technical depth and GTM insight to supercharge our inbound roadmap. Together, we’re launching high-impact entry points like signal-based LinkedIn publishing and laying the foundation for AI-powered marketing channels that will complement our existing outbound capabilities.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Adauris’ work on content-driven lead generation directly supports Landbase’s vision for signal-based GTM. The Adauris team previously built high-intent signal infrastructure used across niche B2B media networks, reaching 10M+ monthly impressions and identifying 45,000+ prospects per day.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These capabilities will now plug directly into GTM-1 Omni, Landbase’s agentic AI model and orchestration engine — unlocking new signal types that drive both outbound and inbound performance in the Landbase platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the acquisition, Landbase gains a founding team deeply experienced in building inbound infrastructure and growth systems:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Logan Underwood, former Adauris CEO and now Head of Partnerships, will lead the Landbase partner ecosystem, expanding agency collaborations
+  &lt;/li&gt;
+  &lt;li&gt;
+   Tina Haertel, former Adauris COO and now Director of Product, will lead development of Landbase’s inbound marketing capabilities
+  &lt;/li&gt;
+  &lt;li&gt;
+   Griffin Cook, former Adauris CTO, will serve as Engineering Lead for Landbase’s inbound product line
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “We joined Landbase because it’s solving a critical market pain point: providing a unified approach to GTM, and combining inbound and outbound into single omni-channel campaigns,” said Underwood. “We saw the power of Landbase as a customer and a partner, and the impact is undeniable. We couldn’t be more excited to join forces to accelerate the pace of autonomous GTM.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Adauris team has already spearheaded the platform’s first marketing-facing feature for LinkedIn thought leadership posting, which helps GTM teams post signal-based, brand-led content, track real-time buyer engagement, and warm the market — all from within the Landbase platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Everyone wants more visibility, but most teams don’t know what to say or who’s listening,” said Haertel. “This feature makes it easy to publish with purpose and connect content to demand, and it’s just the beginning of Landbase’s inbound roadmap.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is the first of several new marketing features planned for the Landbase platform, as it evolves into the operating system for GTM. Future updates will extend Landbase’s inbound capabilities with more publishing channels, engagement analytics, and signal-based content automation.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SuperOps and AWS to Launch Agentic AI Marketplace in September </title>
+<link>https://insideainews.com/2025/08/14/36939/</link>
+<pubDate>Thu, 14 Aug 2025 12:27:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-ai-shutterstock-2-1-2198551419.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  LAS VEGAS – August 14, 2025 – SuperOps, an AI-powered IT management platform, today announced the launch of its agentic AI marketplace for Managed Service Providers (MSPs) and IT teams, developed in partnership with Amazon Web Services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SuperOps’ AI Agent Marketplace, entering beta this September, is designed as a destination where MSPs can select ready-to-use agents and developers can publish and monetize their work. The marketplace will accelerate the adoption of real-world autonomous agents with solutions for common IT workflows such as ticket triage, alert remediation, and onboarding, according to the companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To drive innovation and implementation across the MSP and IT ecosystem, SuperOps also unveiled two flagship community-driven initiatives:
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       SuperOps Agentic AI Community: An interactive hub where MSPs, IT leaders, and developers can exchange ideas, access resources, and collaborate on advancing agentic AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       SuperHack Hackathon (Powered by AWS): A global developer challenge inviting participants to build autonomous agents for real-world IT use cases. Winning submissions will be featured in the Marketplace, with a total prize pool of up to $100,000 USD.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This launch marks a significant turning point for the IT industry,” said Arvind Parthiban, CEO and Co-founder of SuperOps. “We’re giving MSPs a way to tap into real, autonomous AI that can solve their day-to-day challenges and help them stay ahead. Partnering with AWS makes it possible to scale this across the industry and bring powerful, usable agents into the hands of teams that need them now.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The launch was celebrated with a 200-drone rooftop light show hosted by SuperOps and AWS at Resorts World Las Vegas, where MSPs, developers, and industry analysts gathered for an exclusive preview of the company’s vision for AI in IT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The announcement comes at a pivotal moment for the industry. While interest in AI is at an all-time high, many MSPs still struggle to move beyond the conceptual stages and translate that enthusiasm into action. According to Canalys, 90% of MSPs are exploring AI, yet 61% can’t get past pilot stages, and 77% feel pressure to deliver AI-powered tools to their clients.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://superops.com&quot;&gt;
+   SuperOps
+  &lt;/a&gt;
+  ecosystem is designed to move the industry past experimentation by offering:
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       A community to foster learning and collaboration
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       A challenge to stimulate and surface innovation
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       A marketplace to safely, effectively, and profitably deploy and monetize AI
+ &lt;/p&gt;
+ &lt;p&gt;
+  With AWS providing the backbone for global scalability, performance, and reliability, SuperOps is poised to accelerate how the MSP community builds and operationalizes reliable AI agents in practice.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SuperOps and AWS to Launch Agentic AI Marketplace in September </title>
+<link>https://insidehpc.com/2025/08/superops-and-aws-to-launch-agentic-ai-marketplace-in-september/</link>
+<pubDate>Thu, 14 Aug 2025 12:03:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/generic-AI-shutterstock-2-1-2198551419-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  LAS VEGAS – August 14, 2025 – SuperOps, an AI-powered IT management platform, today announced the launch of its agentic AI marketplace for Managed Service Providers (MSPs) and IT teams, developed in partnership with Amazon Web Services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SuperOps’ AI Agent Marketplace, entering beta this September, is designed as a destination where MSPs can select ready-to-use agents and developers can publish and monetize their work. The marketplace will accelerate the adoption of real-world autonomous agents with solutions for common IT workflows such as ticket triage, alert remediation, and onboarding, according to the companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To drive innovation and implementation across the MSP and IT ecosystem, SuperOps also unveiled two flagship community-driven initiatives:
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       SuperOps Agentic AI Community: An interactive hub where MSPs, IT leaders, and developers can exchange ideas, access resources, and collaborate on advancing agentic AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       SuperHack Hackathon (Powered by AWS): A global developer challenge inviting participants to build autonomous agents for real-world IT use cases. Winning submissions will be featured in the Marketplace, with a total prize pool of up to $100,000 USD.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This launch marks a significant turning point for the IT industry,” said Arvind Parthiban, CEO and Co-founder of SuperOps. “We’re giving MSPs a way to tap into real, autonomous AI that can solve their day-to-day challenges and help them stay ahead. Partnering with AWS makes it possible to scale this across the industry and bring powerful, usable agents into the hands of teams that need them now.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The launch was celebrated with a 200-drone rooftop light show hosted by SuperOps and AWS at Resorts World Las Vegas, where MSPs, developers, and industry analysts gathered for an exclusive preview of the company’s vision for AI in IT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The announcement comes at a pivotal moment for the industry. While interest in AI is at an all-time high, many MSPs still struggle to move beyond the conceptual stages and translate that enthusiasm into action. According to Canalys, 90% of MSPs are exploring AI, yet 61% can’t get past pilot stages, and 77% feel pressure to deliver AI-powered tools to their clients.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://superops.com&quot;&gt;
+   SuperOps
+  &lt;/a&gt;
+  ecosystem will offer:
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       A community to foster learning and collaboration
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       A challenge to stimulate and surface innovation
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       A marketplace to safely, effectively, and profitably deploy and monetize AI
+ &lt;/p&gt;
+ &lt;p&gt;
+  With AWS providing the backbone for global scalability, performance, and reliability, SuperOps is poised to accelerate how the MSP community builds and operationalizes reliable AI agents in practice.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ansys to Offer Access to NVIDIA Omniverse </title>
+<link>https://insidehpc.com/2025/08/ansys-to-offer-access-to-nvidia-omniverse/</link>
+<pubDate>Wed, 13 Aug 2025 20:46:34 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/Ansys-logo-2-1-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    PITTSBURGH, August 12, 2025 – Ansys, part of Synopsys (NASDAQ: SNPS), and NVIDIA signed an agreement to license, sell, and support Omniverse technology embedded in Ansys simulation solutions.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Through its integration of
+    &lt;a href=&quot;https://www.nvidia.com/en-us/omniverse/&quot;&gt;
+     NVIDIA Omniverse
+    &lt;/a&gt;
+    , Ansys will deliver easy access to Omniverse technologies and libraries starting with its CFD and autonomous solutions. From deepening insights into aerodynamics to advancing autonomous vehicle safety and 6G connectivity, this collaboration fuels progress that empowers transformative solutions.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Ansys technology utilizes Universal Scene Description (OpenUSD) to integrate seamlessly with Omniverse technologies, enabling accessible, smooth workflows across diverse simulation applications. By leveraging Omniverse platform capabilities directly from the Ansys interface, teams are empowered to innovate faster, tackle challenges head-on, and achieve research breakthroughs.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The agreement ensures seamless interoperability between diverse computer-aided engineering (CAE) tools, enabling a unified and efficient workflow — critical to large CFD applications. Visualizing fluid dynamics in physically based digital environments enables engineers to analyze complex datasets more intuitively, resulting in smarter, faster design optimization for even the most challenging engineering tasks.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In addition, the integration empowers engineers with high-fidelity outputs, making it easier to develop, train, test, and validate autonomous systems with greater speed and confidence. By automating scenario generation and exploration, it ensures these autonomous systems are continuously validated for safety, precision, efficiency, and reliability.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    “Product development processes are only getting more complex, so modern teams need a virtual environment that allows them to simulate, visualize, iterate, and collaborate,” said Walt Hearn, senior vice president of worldwide sales and customer excellence at
+    &lt;a href=&quot;http://www.synopsys.com/&quot;&gt;
+     Synopsys
+    &lt;/a&gt;
+    . “By integrating advanced Omniverse technologies and libraries, our customers drive innovation in simulation-led workflows, empowering teams to achieve greater efficiency, performance, and scalability.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    Moreover, PyAnsys, a family of Python packages, enables users to customize and automate simulations within their own applications built on NVIDIA Omniverse. One illustrative example highlighting this
+    &lt;a href=&quot;https://www.nvidia.com/en-us/industries/industrial-sector/ansys/&quot;&gt;
+     joint work with NVIDIA
+    &lt;/a&gt;
+    is PyAnsys-Heart, a digital twin of the human heart that unlocks transformative simulation insights through an intuitive speech-to-text interface requiring minimal engineering expertise.
+   &lt;/p&gt;
+   &lt;p&gt;
+    “To address the complexity of modern engineering challenges, industries require precise physical AI models, highly accurate digital twins, accessible high-resolution simulation tools, and physics-accurate virtual environments to solve real-world problems and enable reliable performance predictions,” said Rev Lebaredian, vice president of Omniverse and simulation at NVIDIA. “Combining the predictive power of Ansys solvers with NVIDIA simulation technologies and libraries is a turning point for industries striving to simulate reality with precision.”www.synopsys.com.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DOE Office of Science Accepting Graduate Student Research Awards Applications, Nov. 5 Deadline </title>
+<link>https://insidehpc.com/2025/08/doe-office-of-science-accepting-graduate-student-research-awards-applications-nov-5-deadline/</link>
+<pubDate>Wed, 13 Aug 2025 19:57:07 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/DOE-Office-of-Science-logo-2-1-0124-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Aug. 13, 2025 — The U.S. Department of Energy’s (DOE) Office of Science is pleased to announce that the Office of Science Graduate Student Research (SCGSR) program is now accepting applications for the 2025 solicitation 2 cycle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Applications are due on Wednesday, Nov. 5, 2025, at 5 p.m. ET. More information on the SCGSR program can be found at the
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://links-1.govdelivery.com/CL0/https:%252F%252Fscience.osti.gov%252Fwdts%252Fscgsr%253Futm_medium%3Demail%2526utm_source%3Dgovdelivery/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/WApEm3cPIgnXV3pZb7eQY5KHEt4M7lO_u95DW1eFLbs%3D418&amp;source=gmail&amp;ust=1755189822139000&amp;usg=AOvVaw1HWV62slKeyZoXDo9-H4ww&quot; href=&quot;https://links-1.govdelivery.com/CL0/https:%2F%2Fscience.osti.gov%2Fwdts%2Fscgsr%3Futm_medium=email%26utm_source=govdelivery/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/WApEm3cPIgnXV3pZb7eQY5KHEt4M7lO_u95DW1eFLbs=418&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   SCGSR program website
+  &lt;/a&gt;
+  or by
+  &lt;a href=&quot;mailto:sc.scgsr@science.doe.gov&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   emailing the SCGSR team
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since its inception in 2014, the SCGSR program has provided support to over 1,300 graduate awardees from 170 U.S. universities to conduct thesis research at all 17 DOE national laboratories across the nation. Areas of research include but are not limited to: physics, chemistry, materials science, planetary science, geosciences, biosciences (non-medical), fusion science and engineering, mathematics, computer and computational sciences, engineering, microelectronics, quantum information science, and artificial intelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SCGSR application assistance workshops will be held on September 11, 2025, 2 p.m.–3:30 p.m. ET (
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://links-1.govdelivery.com/CL0/https:%252F%252Fwww.zoomgov.com%252Fmeeting%252Fregister%252F2OR8ZUb9TyCPHzIh_spE2Q%253Futm_medium%3Demail%2526utm_source%3Dgovdelivery%2523%252Fregistration/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/wrPRcHhRbSanFSXf7vgX-P-DhLkS6IzuFF_5__C4tco%3D418&amp;source=gmail&amp;ust=1755189822139000&amp;usg=AOvVaw2l3VeBj3Nk2sbqwjri1jv9&quot; href=&quot;https://links-1.govdelivery.com/CL0/https:%2F%2Fwww.zoomgov.com%2Fmeeting%2Fregister%2F2OR8ZUb9TyCPHzIh_spE2Q%3Futm_medium=email%26utm_source=govdelivery%23%2Fregistration/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/wrPRcHhRbSanFSXf7vgX-P-DhLkS6IzuFF_5__C4tco=418&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;(opens in a new window)&quot;&gt;
+   register on Zoom
+  &lt;/a&gt;
+  for the first workshop) and Thursday, Oct. 9, 2025, 2 p.m.–4:30 p.m. ET (
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://links-1.govdelivery.com/CL0/https:%252F%252Fwww.zoomgov.com%252Fmeeting%252Fregister%252Fc2PENDKgRTyZQNfeO4rSfQ%253Futm_medium%3Demail%2526utm_source%3Dgovdelivery%2523%252Fregistration/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/l-z1rrfI-tEcE-SSaB49PzJ2g7uHyVTKZxI826pOkYk%3D418&amp;source=gmail&amp;ust=1755189822139000&amp;usg=AOvVaw1SD4nTi35_TMDXdFb4S3bS&quot; href=&quot;https://links-1.govdelivery.com/CL0/https:%2F%2Fwww.zoomgov.com%2Fmeeting%2Fregister%2Fc2PENDKgRTyZQNfeO4rSfQ%3Futm_medium=email%26utm_source=govdelivery%23%2Fregistration/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/l-z1rrfI-tEcE-SSaB49PzJ2g7uHyVTKZxI826pOkYk=418&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;(opens in a new window)&quot;&gt;
+   register on Zoom
+  &lt;/a&gt;
+  for the second workshop).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first workshop will provide a general overview of the program and application requirements. It will also include time for attendees to discuss their potential research topics and their alignment with the SCGSR priority areas with managers of each participating program office.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the second workshop, staff members will guide attendees through the application process, answer general questions, provide guidance on proposal writing, and lead discussions with scientists and former awardees. Additionally, the program manager will host virtual office hours every Friday 1:00–2:00 p.m. ET starting on September 26, 2025 via this
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://links-1.govdelivery.com/CL0/https:%252F%252Fwww.zoomgov.com%252Fj%252F1601455897%253Fpwd%3DN1gxe0R2ZBlL6lmPSczrGr5EHq0ltR.1%2526utm_medium%3Demail%2526utm_source%3Dgovdelivery/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/hbHWiXjVXukpWZM7N9nlMtpyU2ZfyINS1ZOxRva1gyE%3D418&amp;source=gmail&amp;ust=1755189822139000&amp;usg=AOvVaw1A9vEMJ2nUcoUhc83TYPdz&quot; href=&quot;https://links-1.govdelivery.com/CL0/https:%2F%2Fwww.zoomgov.com%2Fj%2F1601455897%3Fpwd=N1gxe0R2ZBlL6lmPSczrGr5EHq0ltR.1%26utm_medium=email%26utm_source=govdelivery/1/01000198a40efc02-c7e009c2-d8a5-4ba0-8367-74f58da1ed08-000000/hbHWiXjVXukpWZM7N9nlMtpyU2ZfyINS1ZOxRva1gyE=418&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;(opens in a new window)&quot;&gt;
+   Zoom link
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The SCGSR program provides supplemental awards to outstanding U.S. graduate students for conducting part of their graduate thesis research at a DOE national laboratory in collaboration with a DOE national laboratory scientist.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The goal of the program is to prepare graduate students for scientific and technical careers critically important to the mission of DOE’s Office of Science. The research opportunity will advance the graduate students’ overall graduate theses while providing access to the expertise, resources, and capabilities available at the host DOE national laboratories. In addition, SCGSR awardees may have the opportunity for short international research visits to select prestigious centers to broaden their horizons.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The SCGSR program is sponsored and managed by the Office of Science’s Office of Workforce Development for Teachers and Scientists, in collaboration with the Office of Science’s six research program offices and the DOE isotope R&amp;D and production office, and DOE national laboratories/facilities. Program administration support is provided by the Oak Ridge Institute for Science and Education.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPE Announces Systems with NVIDIA Blackwell and NVIDIA AI Models </title>
+<link>https://insidehpc.com/2025/08/hpe-announces-systems-with-nvidia-blackwell-and-nvidia-ai-models/</link>
+<pubDate>Wed, 13 Aug 2025 19:57:02 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/06/hpe-logo-2-1-0625.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  HOUSTON– HPE (NYSE: HPE) today announced updates to its NVIDIA AI Computing by HPE portfolio designed to enhance integration with NVIDIA AI Enterprise and bring the newest NVIDIA AI models and NVIDIA Blueprints to HPE Private Cloud AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE will also ship HPE ProLiant Compute servers that feature NVIDIA Blackwell accelerated computing to advance generative, agentic and physical AI workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE ProLiant Compute servers accelerated by the NVIDIA Blackwell architecture will be available time-to-market. This includes two NVIDIA RTX PRO Server configurations:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   HPE ProLiant DL385 Gen11 server: Supporting up to two NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs in the new 2U RTX PRO Server form factor, this air-cooled server is well-suited for datacenters tasked with meeting the growing AI demands of the enterprise.
+  &lt;/li&gt;
+  &lt;li&gt;
+   HPE ProLiant Compute DL380a Gen12 server: Supporting up to 8 NVIDIA RTX PRO 6000 GPUs in a 4U form factor, this previously announced configuration will ship in September.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Purpose-built to handle diverse workloads and meet growing enterprise IT demand for GPU-accelerated compute power, HPE ProLiant Compute servers provide organizations with the flexibility and power to innovate across the enterprise, helping unlock new levels of productivity, security, and operational efficiency. HPE ProLiant Compute Gen12 servers feature multi-layered security with HPE Integrated Lights-Out (iLO) 7 Silicon Root of Trust and a secure enclave that enables tamper-resistant protection and quantum-resistant firmware signing. Centralized, cloud-native lifecycle automation delivered through HPE Compute Ops Management reduces IT hours spent on server management by up to 75% and downtime by 4.8 hours per server annually
+  &lt;sup&gt;
+   1
+  &lt;/sup&gt;
+  . Target workloads include generative and agentic AI; along with physical AI, including robotics and industrial use cases; visual computing, such as quality control monitoring and autonomous vehicles; simulation; 3D modeling; digital twins; and enterprise applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE recently announced the next generation of HPE Private Cloud AI that will be available later this year. This includes support for NVIDIA RTX PRO 6000 GPUs with HPE ProLiant Compute Gen12 servers, seamless scalability across GPU generations, air-gapped management, and enterprise multi-tenancy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE Private Cloud AI, a turnkey AI factory solution for the enterprise co-developed with NVIDIA, will support the latest versions of the NVIDIA Nemotron models for agentic AI, Cosmos Reason vision language model (VLM) for physical AI and robotics, and the NVIDIA Blueprint for Video Search and Summarization (VSS 2.4) to build video analytics AI agents that can extract valuable insights from massive columns of video data. Through continuous co-development between HPE and NVIDIA, HPE Private Cloud AI is uniquely designed to deliver the fastest deployment of NVIDIA NIM microservices for the latest AI models and NVIDIA Blueprints—accessible by customers through HPE AI Essentials.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Through the deepest integration with NVIDIA AI accelerated computing, networking, and software, HPE Private Cloud AI enables enterprises to harness the full potential of AI faster while maintaining control over their data. Customers can leverage this high-performance solution to manage the surging demand for AI inferencing and accelerate AI production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “HPE is committed to empowering enterprises with the tools they need to succeed in the age of AI,” said Cheri Williams, senior vice president and general manager for private cloud and flex solutions at
+  &lt;a href=&quot;http://www.hpe.com&quot;&gt;
+   HPE
+  &lt;/a&gt;
+  . “Our collaboration with NVIDIA continues to push the boundaries of innovation, delivering solutions that unlock the value of generative, agentic and physical AI while addressing the unique demands of enterprise workloads. With the combination of HPE ProLiant servers and expanded capabilities in HPE Private Cloud AI, we’re enabling organizations to embrace the future of AI with confidence and agility.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Enterprises need flexible, efficient infrastructure to keep pace with the demands of modern AI,” said Justin Boitano, vice president of enterprise AI at NVIDIA. “With NVIDIA RTX PRO 6000 Blackwell GPUs in HPE’s 2U ProLiant servers, enterprises can accelerate virtually every workload on a single, unified, enterprise-ready platform.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The HPE ProLiant DL385 Gen11 and HPE ProLiant Compute DL380a Gen12 servers featuring NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are orderable today and will begin shipping worldwide September 2, 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE Private Cloud AI support for NVIDIA Nemotron models, Cosmos Reason, and NVIDIA Blueprint for VSS 2.4 will be available during the second half of 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The next generation of HPE Private Cloud AI with NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs will be released in the second half of 2025.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Dell Announces AI Data Platform Advancements with NVIDIA and Elastic </title>
+<link>https://insidehpc.com/2025/08/dell-announces-ai-data-platform-advancements-with-nvidia-and-elastic/</link>
+<pubDate>Wed, 13 Aug 2025 19:32:45 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/03/Dell-Nvidia-logos-2-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  ROUND ROCK, TX —   Dell Technologies (NYSE: DELL) announced updates to the Dell AI Data Platform designed to enhance unstructured data ingestion, transformation, retrieval and compute performance to streamline AI development and deployment.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  The platform’s architecture has specialized storage and data engines designed to help connect AI agents to enterprise data. Together, the Dell AI Data Platform and the
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.nvidia.com/en-us/data-center/ai-data-platform/&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw1jLVYqIe2fZfABqHLdWHHu&quot; href=&quot;https://www.nvidia.com/en-us/data-center/ai-data-platform/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    NVIDIA AI Data Platform
+   &lt;/a&gt;
+  &lt;/u&gt;
+  reference design provide a validated, GPU-accelerated solution that integrates storage engines and data engines with NVIDIA accelerated computing, networking and AI software to power generative AI systems.
+  &lt;p&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  The platform includes a new unstructured data engine, designed to provide real-time, secure access to large-scale unstructured datasets for inferencing, analytics, and intelligent search. This engine, made possible through a new collaboration with open-source search AI company Elastic, will offer customers advanced vector search, semantic retrieval and hybrid keyword search capabilities—key capabilities for powering AI applications. Additionally, the unstructured data engine will leverage built-in GPU acceleration to deliver breakthrough performance.
+  &lt;p&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  The unstructured data engine works alongside the platform’s other tools, like a federated SQL engine for querying scattered structured data, a processing engine for handling large-scale data transformation, and storage designed for fast, AI-ready access.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  As AI becomes increasingly crucial for business-as-usual operations, Dell PowerEdge R7725 and R770 servers featuring
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.nvidia.com/en-us/data-center/rtx-pro-6000-blackwell-server-edition/&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw2KwbzjQmZ7gCw6UP0CEfRd&quot; href=&quot;https://www.nvidia.com/en-us/data-center/rtx-pro-6000-blackwell-server-edition/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs
+   &lt;/a&gt;
+  &lt;/u&gt;
+  provide the mainstream computing foundation for accelerated enterprise workloads, from visual computing, data analytics and virtual workstations, to physical AI and agentic inference. These servers are ideal for running NVIDIA AI reasoning models such as the latest
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw0wMMPA18d73RunZg0GHP6p&quot; href=&quot;https://blogs.nvidia.com/blog/nemotron-cosmos-reasoning-enterprise-physical-ai&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    NVIDIA Nemotron models for agentic AI, as well as NVIDIA Cosmos
+   &lt;/a&gt;
+  &lt;/u&gt;
+  world foundation models for physical AI.
+  &lt;p&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Offering better price for performance for a wide range of enterprise use cases, these air-cooled systems make flexible high-density AI compute more attainable. The NVIDIA RTX PRO 6000 offers enterprises up to six times the token throughput for LLM inference,2 double the capacity for engineering simulation performance3 and can support four times the number of concurrent users compared to the previous generation with support for MIG.
+ &lt;/div&gt;
+ &lt;div&gt;
+  The Dell PowerEdge R7725 server will also be the first 2U server platform to integrate the
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.nvidia.com/en-us/data-center/ai-data-platform/&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw1jLVYqIe2fZfABqHLdWHHu&quot; href=&quot;https://www.nvidia.com/en-us/data-center/ai-data-platform/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    NVIDIA AI Data Platform reference design
+   &lt;/a&gt;
+  &lt;/u&gt;
+  . When the Dell PowerEdge R7725 server featuring NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs is paired with the Dell AI Data Platform and its new unstructured data engine, enterprises can take advantage of a turnkey solution without the need to architect and test their own hardware and software platforms. The combination of the two delivers faster inferencing, more responsive semantic search and support for larger, more complex AI workloads.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Dell Technologies is showcasing how customers can accelerate media production pipelines and power intelligent asset management at scale using the Dell AI Data Platform,
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.nvidia.com/en-us/omniverse/&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw3QGmNxZP5eadj1XSJNej1F&quot; href=&quot;https://www.nvidia.com/en-us/omniverse/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    NVIDIA Omniverse
+   &lt;/a&gt;
+  &lt;/u&gt;
+  software and Dell infrastructure at this year’s SIGGRAPH conference (August 10-14) in Vancouver, Canada. Dell will also feature the new Dell Pro Max high-performance PC portfolio, including laptops, desktops and the upcoming
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.dell.com/en-us/lp/dell-pro-max-nvidia-ai-dev&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw21oQfoDUvStwCs6ij57_2G&quot; href=&quot;https://www.dell.com/en-us/lp/dell-pro-max-nvidia-ai-dev&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Dell Pro Max with GB10
+   &lt;/a&gt;
+  &lt;/u&gt;
+  , a compact AI developer workstation.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “The key to unlocking AI’s full potential lies in breaking down silos and simplifying access to enterprise data,” said Arthur Lewis, president, Infrastructure Solutions Group,
+  &lt;a href=&quot;http://www.delltechnologies.com/&quot;&gt;
+   Dell Technologies
+  &lt;/a&gt;
+  . “Collaborating with industry leaders like NVIDIA and Elastic to advance the Dell AI Data Platform will help organizations accelerate innovation and scale AI with confidence.”
+  &lt;p&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “Enterprises worldwide need infrastructure that handles the growing scale and complexity of AI workloads,” said Justin Boitano, vice president of enterprise AI at NVIDIA. “With NVIDIA RTX PRO 6000 GPUs in new 2U Dell PowerEdge servers, organizations now have a power efficient, accelerated computing platform to power AI applications and storage on NVIDIA Blackwell.”
+  &lt;p&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “Fast, accurate, and context-aware access to unstructured data is key to scaling enterprise AI,” said Ken Exner, Chief Product Officer at Elastic. “With Elasticsearch vector database at the heart of the Dell AI Data Platform’s unstructured data engine, Elastic will bring vector search and hybrid retrieval to a turnkey architecture, enabling natural language search, real-time inferencing, and intelligent asset discovery across massive datasets. Dell’s deep presence in the enterprise makes them a natural partner as we work to help customers deploy AI that’s performant, precise, and production-ready.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Availability
+ &lt;/div&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Unstructured data engine in Dell AI Data Platform will be available later this year.
+   &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Dell PowerEdge R7725 and R770 servers with NVIDIA RTX PRO 6000 GPUs will be globally available later this year.
+   &lt;/div&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;div&gt;
+  Additional Resources
+ &lt;/div&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Blog:
+    &lt;u&gt;
+     &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.dell.com/en-us/blog/dell-ai-data-platform-gets-a-boost-with-nvidia-and-elastic/&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw1i1RjCH3V_2dUn8u6VUs4s&quot; href=&quot;https://www.dell.com/en-us/blog/dell-ai-data-platform-gets-a-boost-with-nvidia-and-elastic/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+      Dell AI Data Platform Gets a Boost with NVIDIA and Elastic
+     &lt;/a&gt;
+    &lt;/u&gt;
+   &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Connect with Dell on
+    &lt;u&gt;
+     &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://twitter.com/delltech&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw1Zt0OGAE5pFzG21UZcw9xg&quot; href=&quot;https://twitter.com/delltech&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+      X
+     &lt;/a&gt;
+    &lt;/u&gt;
+    and
+    &lt;u&gt;
+     &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.linkedin.com/company/delltechnologies/&amp;source=gmail&amp;ust=1755198297839000&amp;usg=AOvVaw2dqAno4Kkub4n-q-HNt8C6&quot; href=&quot;https://www.linkedin.com/company/delltechnologies/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+      LinkedIn
+     &lt;/a&gt;
+    &lt;/u&gt;
+   &lt;/div&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Bright Data Launches The Web MCP for AI Agents Live Web Access </title>
+<link>https://insideainews.com/2025/08/12/bright-data-launches-the-web-mcp-for-ai-agents-live-web-access/</link>
+<pubDate>Tue, 12 Aug 2025 21:52:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2023/10/Data_Pipeline_shutterstock_9623992_special-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NEW YORK [August 12, 2025] – Bright Data, a web data infrastructure company, today announced the launch of a free version of The Web MCP by Bright Data, a infrastructure layer that allows AI agents to interact with the live web without getting blocked. The Web MCP solves one of the most critical limitations in agentic AI: the lack of reliable access to the web content.
+ &lt;/p&gt;
+ &lt;div title=&quot;Page 1&quot;&gt;
+  &lt;p&gt;
+   The Web MCP provides a seamless interface between autonomous AI agents and the open web. It enables real-time interaction across websites, bypassing CAPTCHAs, geo-restrictions, and automated traffic filters, all while returning structured, high-confidence results that agents can act on instantly.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “The internet wasn’t designed for agents, but The Web MCP is. Agents often fail simply because they lack proper access,” said Or Lenchner, CEO of
+   &lt;a href=&quot;https://www.brightdata.com/&quot;&gt;
+    Bright Data
+   &lt;/a&gt;
+   . “By making The Web MCP freely available to the public, we’re opening the gateway to the internet that serves both humans and machines alike.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Web MCP is already powering over 100 million daily agent interactions. Following a successful three-month private beta with 15,000 developers, Bright Data is now making The Web MCP available to the public, including a free tier of 5,000 requests per month that autorenews.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Web MCP is fully compatible with all major LLMs and IDEs, including support for locally hosted models, SSE, and Streamable HTTP. It also works out-of-the-box with frameworks like LangChain, CrewAI, and LlamaIndex.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Web MCP product includes two access modes:
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    ●  Rapid Mode: The default for most agents. Token-efficient and fast, ideal for search and extraction tasks.
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Advanced Mode: Offers remote browser capabilities, structured content retrieval, and site automation, perfect for complex, multi-step tasks. (Available on paid plans.)
+    &lt;p&gt;
+     Key features include:
+    &lt;/p&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    ●  Real-Time Web Access – Pull current data instantly
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Web Unlocker – Bypass CAPTCHAs, bot defenses, geo-fencing
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Browser Control – Automate interaction with dynamic sites
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Structured Data Output – Receive clean JSON results
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Seamless Integration – Plug-and-play for MCP-compatible agents
+    &lt;p&gt;
+     With The Web MCP, Bright Data gives agents the ability to:
+    &lt;/p&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    ●  Book travel or pull pricing data in real-time
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Analyze competitor activity and generate reports
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Monitor regulatory and compliance content
+   &lt;/li&gt;
+   &lt;li&gt;
+    ●  Aggregate healthcare research and drug availability
+   &lt;/li&gt;
+  &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;div title=&quot;Page 2&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;p&gt;
+      ● Track social trends and sentiment for media teams
+     &lt;/p&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hyperion Research Releases Updated HPC User Forum Agenda for Sept. 3-4 Event in Reston, VA </title>
+<link>https://insidehpc.com/2025/08/hyperion-research-releases-updated-hpc-user-forum-agenda-for-sept-3-4-event-in-reston-va/</link>
+<pubDate>Tue, 12 Aug 2025 21:51:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/02/HPC-User-Forum-logo-2-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div data-column-margin=&quot;default&quot; data-midnight=&quot;&quot;&gt;
+  &lt;div&gt;
+   &lt;div data-animation=&quot;&quot; data-bg-color=&quot;&quot; data-bg-cover=&quot;&quot; data-bg-opacity=&quot;1&quot; data-delay=&quot;0&quot; data-has-bg-color=&quot;false&quot; data-hover-bg=&quot;&quot; data-hover-bg-opacity=&quot;1&quot; data-padding-pos=&quot;left-right&quot; data-t-w-inherits=&quot;default&quot;&gt;
+    &lt;div&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+       &lt;div&gt;
+        &lt;p&gt;
+         The upcoming HPC User Forum, to be held Wednesday and Thursday, Sept. 3-4 at the Hyatt Regency in Reston, VA, will have a data center focus. Event host and industry analyst firm Hyperion Research said, “”Data center growth has been massive over the last few years and NVIDIA is projecting a $1 trillion data center build out by 2028. The fall HPC User Forum will look at the trends and best practices for building all sizes of data centers, with presentations from a broad range of data center experts, providers and buyers.”
+        &lt;/p&gt;
+        &lt;p&gt;
+         Event registration information
+         &lt;a href=&quot;https://metroconnections.swoogo.com/falluserforum2025&quot;&gt;
+          can be found here
+         &lt;/a&gt;
+         .
+        &lt;/p&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div data-column-margin=&quot;default&quot; data-midnight=&quot;&quot;&gt;
+  &lt;div&gt;
+   “The User Forum will explore a number of critical AI and HPC topics,” said Hyperion CEO Earl Joseph, “including how AI &amp; HPC workloads are driving government, industrial and academic data centers; user successes in applying HPC and AI to critical problems; new solutions and trends in using clouds for technical computing; new developments in quantum computing; and changes in USG HPC/AI directions.”
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  The updated agenda includes:
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Wednesday, September 3rd
+  &lt;/strong&gt;
+  &lt;br/&gt;
+  7:00 – 8:00 am Registration and Breakfast
+ &lt;/p&gt;
+ &lt;p&gt;
+  8:00 – 8:30 am Welcome/Introductions
+  &lt;br/&gt;
+  • Piyush Mehrotra, Rupak Biswas and Earl Joseph
+  &lt;br/&gt;
+  • HPC Market Update, Earl Joseph, Hyperion Research (Session Leader: Piyush Mehrotra)
+ &lt;/p&gt;
+ &lt;p&gt;
+  8:30 – 9:00 am Designing Centers to Address Cyber Security Requirements, John Garstka, Director, Cyber Warfare Office of the Deputy Assistant Secretary of Defense
+ &lt;/p&gt;
+ &lt;p&gt;
+  9:00 – 10:00 am Present and Future HPC Trends, Forecast, and Implications Within Data Centers, Matt Vincent, Editor in Chief, Data Center Frontier
+ &lt;/p&gt;
+ &lt;p&gt;
+  10:00 – 10:15 am Vendor Update: Hammerspace
+ &lt;/p&gt;
+ &lt;p&gt;
+  10:15 – 10:45 am Break
+ &lt;/p&gt;
+ &lt;p&gt;
+  10:45 – 11:45 am How AI &amp; HPC Workloads are Driving Industrial Data Centers, Part I
+  &lt;br/&gt;
+  • Journey From an On-Prem HPC Environment Into the Cloud, Alex Loddoch, High Performance Computing Strategist, Chevron Corporation
+  &lt;br/&gt;
+  • Gaps and Trajectories of HPC and AI, Rick Arthur, Computational Methods Research at GE Aerospace Research
+ &lt;/p&gt;
+ &lt;p&gt;
+  11:45 – 12:00 pm Vendor Update: Intel
+ &lt;/p&gt;
+ &lt;p&gt;
+  12:00 – 1:00 pm Lunch (Session Leader: David Martin, Argonne National Laboratory)
+ &lt;/p&gt;
+ &lt;p&gt;
+  1:00 – 2:30 pm How AI &amp; HPC Workloads are Driving Industrial Data Centers, Part II
+  &lt;br/&gt;
+  • Addressing the Facilities Requirements for Industrial HPC, Keith Gray, VP Computational Science and Engineering, TotalEnergies
+  &lt;br/&gt;
+  • Cybersecurity in HPC/AI Data Centers, Joe Swartz, CSCF Program/Chief Architect, Lockheed Martin
+  &lt;br/&gt;
+  • How AI &amp; HPC Workloads Are Driving BP, Muhong Zhou, Senior HPC Software Engineer, BP
+ &lt;/p&gt;
+ &lt;p&gt;
+  2:30 – 2:45 pm Vendor Update: HPE
+ &lt;/p&gt;
+ &lt;p&gt;
+  2:45 – 3:15 pm Portable Scalability and Performance at Exascale Using Asynchronous Tasking, Martin Berzins, Associate Director and Faculty Member, SCI at the University of Utah
+ &lt;/p&gt;
+ &lt;p&gt;
+  3:15 – 3:45 pm Break
+ &lt;/p&gt;
+ &lt;p&gt;
+  3:45 – 4:30 pm Trends and New Solutions in the Use of Clouds to Run HPC/AI Workloads
+  &lt;br/&gt;
+  • Programmable Cloud Laboratories, Dr. Alex Vadati, Program Director, NSF
+  &lt;br/&gt;
+  • Google Cloud for Science: Integrating AI and Quantum Computing into Supercomputing-Class Infrastructure for Scientific &amp; Technical Computing, Jay Boisseau, Advanced Computing Strategist, Google
+ &lt;/p&gt;
+ &lt;p&gt;
+  4:30 – 5:00 pm Hype on Hyperscalers? The Rapidly Evolving Landscape of Energy for HighPerformance Computing, Bryan Willson, Executive Director of the Energy Institute, Colorado State University
+ &lt;/p&gt;
+ &lt;p&gt;
+  5:00 – 6:00 pm Break
+ &lt;/p&gt;
+ &lt;p&gt;
+  6:00 – 8:30 pm Dinner Presentation: Buddy Rizer, Executive Director, Loudoun County, Virginia, Department of Economic Development
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Thursday, September 4th
+  &lt;/strong&gt;
+  &lt;br/&gt;
+  7:00 – 8:00 am Registration and Breakfast
+ &lt;/p&gt;
+ &lt;p&gt;
+  8:00 – 8:10 am Welcome/Introductions (Session Leader: Rupak Biswas, NASA)
+ &lt;/p&gt;
+ &lt;p&gt;
+  8:10 – 8:30 am Latest Market Perspective on Running HPC-AI Workloads in the Cloud: Now for Some Quid Pro Quo, Mark Nossokoff, Research Director, Lead Analyst for Cloud &amp; Storage,
+  &lt;br/&gt;
+  Hyperion Research
+ &lt;/p&gt;
+ &lt;p&gt;
+  8:30 – 8:45 am Vendor Update: Weka
+ &lt;/p&gt;
+ &lt;p&gt;
+  8:45 – 10:15 am Quantum Computing, Part I
+  &lt;br/&gt;
+  • Quantum Internet: What Is It, Why Do We Need It, and How Do We Engineer It, Dr. Prem Kumar, AT&amp;T Professor of Information Technology/Joint with Electrical
+  &lt;br/&gt;
+  Engineering, Northwestern University
+  &lt;br/&gt;
+  • Quantum Computing and Applications at DOE’s SQMS Quantum Research Center, Silvia Zorzetti, Principal Engineer and Head of Quantum Computing CoDesign and Communication, Fermilab
+  &lt;br/&gt;
+  • Algorithms for Quantum Computers, Andrew Childs, Professor and Fellow in the Department of Computer Science, University of Maryland
+ &lt;/p&gt;
+ &lt;p&gt;
+  10:15 – 10:40 am Break
+ &lt;/p&gt;
+ &lt;p&gt;
+  10:40 – 12:00 pm Quantum Computing, Part II
+  &lt;br/&gt;
+  • New Directions in Quantum Computing, Christopher Monroe, Gilhuly Family Presidential Distinguished Professor of ECE and Physics, Duke University (tentative)
+  &lt;br/&gt;
+  • Quantum Computing at Google, Salvatore Mandrà, Research Scientist at Google Quantum AI, Google
+  &lt;br/&gt;
+  • 5th Annual Global QC Market Survey: Continued Progress But Changes in the Air, Bob Sorensen, Senior VP of Research and Chief Analyst for Quantum Computing, Hyperion Research
+ &lt;/p&gt;
+ &lt;p&gt;
+  12:00 – 1:00 pm Lunch (Session Leader: TBD)
+ &lt;/p&gt;
+ &lt;p&gt;
+  1:00 – 1:45 pm Technologies Showcase: Alice + Bob, CTG Federal, DDN, FedData, Hitachi Vantara, IBM, QuEra and Supermicro
+ &lt;/p&gt;
+ &lt;p&gt;
+  1:45 – 2:15 pm An Update on NNSA HPC and AI Activities, Thuc Hoang, Deputy Assistant Deputy Administrator, NNSA
+ &lt;/p&gt;
+ &lt;p&gt;
+  2:15 – 2:30 pm Vendor Update: Matthew Shaxted, Parallel Works
+ &lt;/p&gt;
+ &lt;p&gt;
+  2:30 – 3:00 pm Break
+ &lt;/p&gt;
+ &lt;p&gt;
+  3:00 – 3:30 pm AI at DOE, Ray Juneja, DOE Fellow, AI &amp; Energy
+ &lt;/p&gt;
+ &lt;p&gt;
+  3:30 – 4:00 pm From Code to Cosmos: High-End Computing Enables NASA Exploration, Science, and Engineering, Kevin Murphy, Chief Science Data Officer, NASA
+ &lt;/p&gt;
+ &lt;p&gt;
+  4:00 – 4:30 pm Advanced Scientific Computing at DOE, Ceren Susut, DOE ASCR Associate Director
+ &lt;/p&gt;
+ &lt;p&gt;
+  4:30 – 4:35 pm Closing Remarks
+ &lt;/p&gt;
+ &lt;p&gt;
+  4:35 – 5:00 pm Break
+ &lt;/p&gt;
+ &lt;p&gt;
+  5:00 – 7:00 pm Special Event: Networking Time &amp; Cocktail Reception
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Announces RTX PRO Servers With Blackwell </title>
+<link>https://insidehpc.com/2025/08/nvidia-announces-rtx-pro-servers-with-blackwell/</link>
+<pubDate>Tue, 12 Aug 2025 21:29:37 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/nvidia-logo-2-1-0525.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NVIDIA today announced that the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/rtx-pro-6000-blackwell-server-edition/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA RTX PRO™ 6000 Blackwell Server Edition GPU&quot;&gt;
+   NVIDIA RTX PRO 6000 Blackwell Server Edition GPU
+  &lt;/a&gt;
+  is coming to enterprise servers, “speeding the shift from traditional CPU systems to accelerated computing platforms,” the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With these new 2U mainstream servers, enterprises worldwide can harness the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA Blackwell&quot;&gt;
+   NVIDIA Blackwell
+  &lt;/a&gt;
+  architecture in rack-mounted systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Global system partners including Cisco,
+  &lt;a href=&quot;https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~08~dell-ai-data-platform-advancements-help-customers-harness-data-to-power-enterprise-ai.htm#/filter-on/Country:en-us&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Dell Technologies&quot;&gt;
+   Dell Technologies
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.hpe.com/us/en/newsroom/press-release/2025/08/hpe-helps-enterprises-drive-agentic-and-physical-ai-innovation-with-systems-accelerated-by-nvidia-blackwell-and-the-latest-nvidia-ai-models.html&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;HPE&quot;&gt;
+   HPE
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://lenovopress.lenovo.com/lp2278-lenovo-and-nvidia-amplify-their-partnership&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;
+   Lenovo
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://learn-more.supermicro.com/data-center-stories/supermicro-to-enable-enterprise-ai-across-industries-with-2u-nvidia-rtx-pro-server&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Supermicro&quot;&gt;
+   Supermicro
+  &lt;/a&gt;
+  will offer the 2U
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/rtx-pro-server/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA RTX PRO Servers&quot;&gt;
+   NVIDIA RTX PRO Servers
+  &lt;/a&gt;
+  — available in multiple configurations — for enterprise workloads spanning agentic AI, content creation, data analytics, graphics, scientific simulation, as well as industrial and physical AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI is reinventing computing for the first time in 60 years — what started in the cloud is now transforming the architecture of on-premises data centers,” said Jensen Huang, founder and CEO of NVIDIA. “With the world’s leading server providers, we’re making NVIDIA Blackwell RTX PRO Servers the standard platform for enterprise and industrial AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Every year, enterprises buy millions of servers for business workloads. They can now refresh these systems with accelerated servers, as AI becomes increasingly critical to operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RTX PRO Servers bring GPU acceleration to traditional CPU-based workloads like data analytics, simulation, video processing and graphics rendering — delivering up to 45x better performance, which results in 18x higher energy efficiency with lower cost of ownership compared with CPU-only 2U systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA RTX PRO Servers represent a new class of on-premises infrastructure that brings groundbreaking Blackwell performance to enterprise customers building AI factories with space-, power- and cooling-constrained data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These systems also provide the infrastructure backbone for the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/ai-data-platform/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA AI Data Platform&quot;&gt;
+   NVIDIA AI Data Platform
+  &lt;/a&gt;
+  , a customizable reference design for building modern storage systems for enterprise agentic AI. At SIGGRAPH, Dell is announcing updates to the Dell AI Data Platform — integrated with the NVIDIA AI Data Platform reference design — along with Dell PowerEdge R7725 2U servers featuring two RTX PRO 6000 GPUs,
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/ai-enterprise/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA AI Enterprise&quot;&gt;
+   NVIDIA AI Enterprise
+  &lt;/a&gt;
+  software and
+  &lt;a href=&quot;https://www.nvidia.com/en-us/networking/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA networking&quot;&gt;
+   NVIDIA networking
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new 2U mainstream systems join a family of RTX PRO Servers
+  &lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-rtx-pro-servers-speed-trillion-dollar-enterprise-it-industry-transition-to-ai-factories&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;announced in May at COMPUTEX&quot;&gt;
+   announced in May at COMPUTEX
+  &lt;/a&gt;
+  , providing a full spectrum of rack-mounted designs capable of supporting two, four or eight NVIDIA RTX PRO 6000 Blackwell GPUs. The servers are ideal for enterprises looking to optimize performance, efficiency and costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new RTX PRO Servers provide a versatile, high-performance platform for a broad range of applications including AI and machine learning, data analytics, 3D graphics and scientific simulation. These servers incorporate the latest Blackwell architecture innovations, including:
+ &lt;/p&gt;
+ &lt;ul type=&quot;disc&quot;&gt;
+  &lt;li&gt;
+   Fifth-generation Tensor Cores and second-generation Transformer Engine with support for FP4 precision, delivering up to 6x faster inference performance compared with the previous-generation NVIDIA L40S GPU
+  &lt;/li&gt;
+  &lt;li&gt;
+   Fourth-generation
+   &lt;a href=&quot;https://www.nvidia.com/en-us/technologies/rtx/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA RTX&quot;&gt;
+    NVIDIA RTX
+   &lt;/a&gt;
+   technology for photorealistic rendering and visualization to deliver up to 4x higher performance than the L40S GPU
+  &lt;/li&gt;
+  &lt;li&gt;
+   Enterprise-grade scale for multi-user AI deployments, using virtualization and
+   &lt;a href=&quot;https://www.nvidia.com/en-us/technologies/multi-instance-gpu/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA Multi-Instance GPU&quot;&gt;
+    NVIDIA Multi-Instance GPU
+   &lt;/a&gt;
+   technology for four fully isolated instances per GPU
+  &lt;/li&gt;
+  &lt;li&gt;
+   Improved performance per watt for sustainable data center operations
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  RTX PRO Servers running
+  &lt;a href=&quot;https://www.nvidia.com/en-us/omniverse/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA Omniverse&quot;&gt;
+   NVIDIA Omniverse
+  &lt;/a&gt;
+  libraries and
+  &lt;a href=&quot;https://www.nvidia.com/en-us/ai/cosmos/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA Cosmos&quot;&gt;
+   NVIDIA Cosmos
+  &lt;/a&gt;
+  world foundation models enable physical AI developers to build and deploy applications including digital twins for factory and robot simulation or large-scale synthetic data generation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RTX PRO Servers can run simulation and synthetic data generation workflows up to 4x faster than systems with L40S GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, to make spaces smarter and more secure, RTX PRO Servers can now support advanced blueprints — including the latest
+  &lt;a href=&quot;https://build.nvidia.com/nvidia/video-search-and-summarization&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA Blueprint for&quot;&gt;
+   NVIDIA Blueprint for
+  &lt;/a&gt;
+  &lt;a href=&quot;https://build.nvidia.com/nvidia/video-search-and-summarization&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;video search and summarization&quot;&gt;
+   video search and summarization
+  &lt;/a&gt;
+  , part of the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA Metropolis&quot;&gt;
+   NVIDIA Metropolis
+  &lt;/a&gt;
+  platform — as well as vision language models and synthetic data generation extensions to boost productivity and enhance safety across physical AI environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  All RTX PRO Servers are certified for NVIDIA AI Enterprise — the software layer that accelerates and secures AI development and deployment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RTX PRO Servers are ideal for running AI agents that use AI reasoning models to act and automate complex tasks. Such models include Llama Nemotron Super, also announced today, which delivers up to 3x price performance when running with
+  &lt;a href=&quot;https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVFP4&quot;&gt;
+   NVFP4
+  &lt;/a&gt;
+  on a single NVIDIA RTX PRO 6000 GPU compared with FP8 on NVIDIA H100 GPUs. This enables more accurate reasoning at a lower cost.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Blackwell platform builds on NVIDIA’s ecosystem of powerful development tools,
+  &lt;a href=&quot;https://developer.nvidia.com/gpu-accelerated-libraries&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA CUDA-X&quot;&gt;
+   NVIDIA CUDA-X
+  &lt;/a&gt;
+  libraries, over 6 million developers and nearly 6,000 applications to scale performance across thousands of GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Global system makers Cisco, Dell, HPE, Lenovo and Supermicro will offer a wide range of
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/certified-systems/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;NVIDIA-Certified&quot;&gt;
+   NVIDIA-Certified
+  &lt;/a&gt;
+  RTX PRO Servers. Additional data center system partners bringing RTX PRO Servers to market include Advantech, Aetina, Airves, ASRock Rack, ASUS, Compal, Foxconn, GIGABYTE, Inventec, MiTAC Computing, MSI, PEGATRON, Quanta Cloud Technology (QCT), Wistron and Wiwynn.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers can order RTX PRO Servers today from these system makers and channel partners worldwide. Configurations with eight RTX PRO 6000 GPUs in 4U form factors are available now. The 2U mainstream RTX PRO Servers are expected to be available later this year. Learn more about
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/rtx-pro-server/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;RTX PRO Servers&quot;&gt;
+   RTX PRO Servers
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Watch the
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=rFcmv2pXR0w&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;
+   &lt;em&gt;
+    NVIDIA Research special address at SIGGRAPH
+   &lt;/em&gt;
+  &lt;/a&gt;
+  &lt;em&gt;
+   .
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> LLNL Scientists Explore Tsunami Warning System on El Cap Supercomputer </title>
+<link>https://insidehpc.com/2025/08/llnl-scientists-explore-tsunami-warning-system-on-supercomputer/</link>
+<pubDate>Tue, 12 Aug 2025 20:22:23 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/llnl-logo-2-1-0825.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Scientists at Lawrence Livermore National Laboratory (LLNL) have helped develop an advanced, real-time tsunami forecasting system — powered by El Capitan, the world’s fastest supercomputer — that could dramatically improve early warning capabilities for coastal communities near earthquake zones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The exascale El Capitan, which has a theoretical peak performance of 2.79 quintillion calculations per second, was developed with funding from the Advanced Simulation and Computing (ASC) program at the National Nuclear Security Administration (NNSA). As described in a preprint
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtNtGwCOQc-2BZrobr3O90kjnfv-2FcPw4BWAayf1rYKPtkPjNXfI_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HanBOucTPTfM7YCKF5Y4GD0-2FM1KDQ0FzX1s6gLETFImRDRxhjYYo1Px16sxWaCX7eQ39rk9mT92lZFUMMfxJ9pMxsxX9ADXUaemrQmwcsGKy12iWwwMzDVntl5ihGzQkOTE5PnBXMGUSa-2F-2BNvNS-2BsTSIRgIaO65l8XoKasPHvHDz&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw1hOy_YAI6ep2gbk1Tvqu2H&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtNtGwCOQc-2BZrobr3O90kjnfv-2FcPw4BWAayf1rYKPtkPjNXfI_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HanBOucTPTfM7YCKF5Y4GD0-2FM1KDQ0FzX1s6gLETFImRDRxhjYYo1Px16sxWaCX7eQ39rk9mT92lZFUMMfxJ9pMxsxX9ADXUaemrQmwcsGKy12iWwwMzDVntl5ihGzQkOTE5PnBXMGUSa-2F-2BNvNS-2BsTSIRgIaO65l8XoKasPHvHDz&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   paper
+  &lt;/a&gt;
+  selected as a finalist for the 2025
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtOaVcduISYTKzwiQ2ZPgC-2FvQ4qEVK3UVn2vGYFxEEk4SoQJM_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HVC4QxHrS0XX7QCAo4IjsafaaG6H-2FExnUZ9HsMaueDJFtkrXKHwoVATsp-2BLlfCPbS2u3YCVsg2XHCPEeSgiA3MwBof90reMMy6xLvoBCsqI4IwWkGnaIfIo-2BOq8jfbsitpW78-2BS63hz4G7eFGQS85e1rqK5s6yV1Gse5A4-2BJOpSy&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw1htEdNH5Wbfme9OetHbs0b&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtOaVcduISYTKzwiQ2ZPgC-2FvQ4qEVK3UVn2vGYFxEEk4SoQJM_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HVC4QxHrS0XX7QCAo4IjsafaaG6H-2FExnUZ9HsMaueDJFtkrXKHwoVATsp-2BLlfCPbS2u3YCVsg2XHCPEeSgiA3MwBof90reMMy6xLvoBCsqI4IwWkGnaIfIo-2BOq8jfbsitpW78-2BS63hz4G7eFGQS85e1rqK5s6yV1Gse5A4-2BJOpSy&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   ACM Gordon Bell Prize
+  &lt;/a&gt;
+  , researchers at LLNL harnessed the machine’s full computing power in a one-time, offline precomputation step, prior to the system’s transition to classified national security work. The goal: to generate an immense library of physics-based simulations, linking earthquake-induced seafloor motion to resulting tsunami waves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project used more than 43,500 AMD Instinct MI300A Accelerated Processing Units (APUs) to solve extreme-scale acoustic–gravity wave propagation problems, producing a rich dataset that enables real-time tsunami forecasting on much smaller systems. By front-loading the intensive computation work on El Capitan, the team was able to solve an extremely high-fidelity Bayesian inverse problem that makes it possible to generate rapid predictions in seconds — during an actual tsunami — using modest GPU clusters. Researchers said this capability could fundamentally transform the future of early warning systems and save lives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Developed in partnership with the Oden Institute at the University of Texas at Austin (UT Austin) and the Scripps Institution of Oceanography at the University of California, San Diego (UC San Diego), the resulting tsunami “digital twin” models the effects of seafloor earthquake motion using real-time pressure sensor data and advanced physics-based simulations. This dynamic, data-driven
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtNtGwCOQc-2BZrobr3O90kjnfv-2FcPw4BWAayf1rYKPtkPjsWcE_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HVex0foIYpzO1MhtsQ1EjJPaGdCAL475ekyJIMD9nTYwoqm54-2BfVkfdm2hSoxHTuePWuD16bi2K1wgvUinJM1hHLYMTXJUh-2BNNgjOq8yrEDtrqjNg9BGTjXk7UCdBw8hvOVc83RwwfyHHXHh9uL5m0Q2XwfMKiNufyLWx6oTvgjR&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw0Ui-vBFBEEiN4o6dmJGvwk&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtNtGwCOQc-2BZrobr3O90kjnfv-2FcPw4BWAayf1rYKPtkPjsWcE_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HVex0foIYpzO1MhtsQ1EjJPaGdCAL475ekyJIMD9nTYwoqm54-2BfVkfdm2hSoxHTuePWuD16bi2K1wgvUinJM1hHLYMTXJUh-2BNNgjOq8yrEDtrqjNg9BGTjXk7UCdBw8hvOVc83RwwfyHHXHh9uL5m0Q2XwfMKiNufyLWx6oTvgjR&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   system
+  &lt;/a&gt;
+  can infer the earthquake’s impact on the ocean floor and forecast the tsunami’s behavior in real time — complete with uncertainty quantification.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is the first digital twin with this level of complexity that runs in real time,” said LLNL computational mathematician Tzanio Kolev, co-author on the paper. “It combines extreme-scale forward simulation with advanced statistical methods to extract physics-based predictions from sensor data at unprecedented speed.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  By leveraging LLNL’s
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtBBZ0bSk4xFWrC4QLgScmjbrp6ipT3B1x2vMr6EN4T69rVSl_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HRhs-2BR5rTjyjv3Wd-2BU3e54K-2B5eh4W2Ww77ccaqyFG49jqjuMEEIlPmD8wzNM9Dh-2FyINl4fYV5Lkhr-2BjJ815DJoe472qxzxD1PTD2yo-2BzM8LGT0ahoUIBh1uQHEeFKp-2FtqPjov-2BeTLotOSsP2FT6IvSXWNQQ44OOFzgNcS34NDjaD&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw2CEaxdp4XsS0whciOSihPs&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtBBZ0bSk4xFWrC4QLgScmjbrp6ipT3B1x2vMr6EN4T69rVSl_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HRhs-2BR5rTjyjv3Wd-2BU3e54K-2B5eh4W2Ww77ccaqyFG49jqjuMEEIlPmD8wzNM9Dh-2FyINl4fYV5Lkhr-2BjJ815DJoe472qxzxD1PTD2yo-2BzM8LGT0ahoUIBh1uQHEeFKp-2FtqPjov-2BeTLotOSsP2FT6IvSXWNQQ44OOFzgNcS34NDjaD&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Hewlett Packard Enterprise
+  &lt;/a&gt;
+  /
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtH7SCRrQiPYhLuuvJS8aFKhLoD8GAtZjKPHj072gqqNB490X_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HY9VV9G3bLIhGs-2FQB4PcLdURuhz4LQKdpD0-2BZwPW8QsK2vdu31kJ7a5p4JpWL4Ew6YPp4PmUHkaPBW4Azyemzo5-2Fu-2FDOQOlN1THs7DrV138Il-2FRu04X5YfgGE0Ytgo-2FHo3-2BYzs0GzYY9NprMv7tLZH1hf8O5cxsDL0zoZ3NDAyss&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw1tRZPvPj420MJeUlrSDXAA&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtH7SCRrQiPYhLuuvJS8aFKhLoD8GAtZjKPHj072gqqNB490X_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HY9VV9G3bLIhGs-2FQB4PcLdURuhz4LQKdpD0-2BZwPW8QsK2vdu31kJ7a5p4JpWL4Ew6YPp4PmUHkaPBW4Azyemzo5-2Fu-2FDOQOlN1THs7DrV138Il-2FRu04X5YfgGE0Ytgo-2FHo3-2BYzs0GzYY9NprMv7tLZH1hf8O5cxsDL0zoZ3NDAyss&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   AMD
+  &lt;/a&gt;
+  exascale supercomputer
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtF6CmH5-2BAINArwxFY4IQAVWVKZxk04FjSAhEZ0v-2FL1MXKWPAJey3Rp26w3r2EvI3z-2BFtOzrp241oEx8H2OH1r4R1AsQ6-2BVoKuSBtSeIWWsP74C4M_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HThU9J8zdlE5M76CkG7NVLkZ11Scah808UGILZDvQfdpQMaoJyzGg2zuOs-2B6eF-2BAi3DbreU-2BVeVsZw-2BuqNR3sJ-2FARsKGdaxi3THbW4jaWEd1t2ssArAEHBQ6JqgcVclh4eVMdHYO315HRGYgXcR-2BOWJJ7V24I6nKRgLYpBPUpSV1&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw1CLpL_tolYkzU2F2kYXWUv&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtF6CmH5-2BAINArwxFY4IQAVWVKZxk04FjSAhEZ0v-2FL1MXKWPAJey3Rp26w3r2EvI3z-2BFtOzrp241oEx8H2OH1r4R1AsQ6-2BVoKuSBtSeIWWsP74C4M_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HThU9J8zdlE5M76CkG7NVLkZ11Scah808UGILZDvQfdpQMaoJyzGg2zuOs-2B6eF-2BAi3DbreU-2BVeVsZw-2BuqNR3sJ-2FARsKGdaxi3THbW4jaWEd1t2ssArAEHBQ6JqgcVclh4eVMdHYO315HRGYgXcR-2BOWJJ7V24I6nKRgLYpBPUpSV1&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   El Capitan
+  &lt;/a&gt;
+  , in the offline precomputation step, the team was able to solve a billion-parameter Bayesian inverse problem in less than 0.2 seconds, accurately predicting tsunami wave heights at an astounding 10-billion-fold speedup over existing methods.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Researchers said the capability could radically improve emergency response and save lives, forming the backbone of next-generation early warning systems. For near-shore events like a future magnitude 8.0 or larger earthquake along the Cascadia Subduction Zone in the U.S.’s Pacific Northwest, the first destructive waves could reach the coast within 10 minutes — leaving little time for evacuation, researchers said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Conventional tsunami warning systems often rely on seismic and geodetic data to infer earthquake magnitude and location but typically use simplistic models that fail to capture the complexity of fault ruptures, which can lead to false alarms or dangerously late warnings. The team’s approach instead uses data from seafloor pressure sensors and solves a full-physics model of acoustic–gravity wave propagation in the ocean in record time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As seafloor sensor networks, including distributed acoustic sensing, become more widespread along earthquake-prone coasts and computational infrastructure continues to improve, the team sees a clear path to deploying the approach in future tsunami warning systems, resulting in faster, smarter and more reliable emergency alerts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This framework represents a paradigm shift in how we think about early warning systems,” said senior author of the study Omar Ghattas, professor of mechanical engineering and principal faculty in the Oden Institute at UT-Austin. “For the first time, we can combine real-time sensor data with full-physics modeling and uncertainty quantification — fast enough to make decisions before a tsunami reaches the shore. It opens the door to truly predictive, physics-informed emergency response systems across a range of natural hazards.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the heart of the system is
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtM2cNYfYxhUhuyyh1pEwqZKif37tQzSLsh56Sy0XyKWFsQtEiyxID-2BzxMN50wSmgAVt9d-2FTLmGkM6YgDGUc-2F30lOxWjqCGsApKBpY921Ykbz-2BmBasScfaMAPE6Bd7az8Pg-3D-3Ddtsp_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HZCXRZ1IFWcMiSqTcebZquPlrjlm7R8qEdOB2Su-2FwpiMVbKJUQ5Wq9VXiz7YEaJzdyvp9oeRx-2FMC8wy9S7s6Z41UDfU8uExxXSnj-2BmRswUumOmrNABVnTATV2Hg0fXko8f-2BEBolVQSWiTlSe1iXuVji1hBjrfQZLqhCEuNGprIXX&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw19sh-NNlQZ_FJ6b-cDZBnQ&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtM2cNYfYxhUhuyyh1pEwqZKif37tQzSLsh56Sy0XyKWFsQtEiyxID-2BzxMN50wSmgAVt9d-2FTLmGkM6YgDGUc-2F30lOxWjqCGsApKBpY921Ykbz-2BmBasScfaMAPE6Bd7az8Pg-3D-3Ddtsp_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HZCXRZ1IFWcMiSqTcebZquPlrjlm7R8qEdOB2Su-2FwpiMVbKJUQ5Wq9VXiz7YEaJzdyvp9oeRx-2FMC8wy9S7s6Z41UDfU8uExxXSnj-2BmRswUumOmrNABVnTATV2Hg0fXko8f-2BEBolVQSWiTlSe1iXuVji1hBjrfQZLqhCEuNGprIXX&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   MFEM
+  &lt;/a&gt;
+  , LLNL’s open-source finite element library, which enables scalable, GPU-accelerated simulations of many physical phenomena, including acoustic–gravity wave propagation in the ocean. Running these simulations on 43,520 APUs of El Capitan, MFEM performed the most compute-intensive phase — solving the acoustic–gravity wave equations to precompute mappings between ocean-floor motion and sensor data — using a staggering 55.5 trillion degrees of freedom, shattering the previous record for the largest unstructured mesh finite element simulation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “MFEM’s high-order methods and GPU readiness, developed under the ASC program at LLNL and the Department of Energy’s (DOE) Exascale Computing Project, made it possible to scale to the full machine,” Kolev said. “This was really a first-of-its-kind demonstration of how we can use that power not just for raw performance, but also for mission-relevant, time-critical decisions in many MFEM-based
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.hve06tb9LNedgbIdABhtk8QFjBycbT6jMUvd3E-2FtCGA-3D2Ao2_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HQhGLLjd3zV6QR0EPqYt5nOojBng5bmcQOwRUCYqAUkc3pHAVY75WozeMwLSgxcpnUOHQ7C97T2yzOkuwRPYpkvodjpGsIjZxqsi4KC5L-2B5-2BaikVgLoDEVUzbniazXrL4Sx9HkLR0ye-2BavZ3D9O-2BJXLjzpRpa9FITFix-2F-2B-2FZtgSo&amp;source=gmail&amp;ust=1755102951964000&amp;usg=AOvVaw3AWXiC0ysXvMxqqzAS15j9&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.hve06tb9LNedgbIdABhtk8QFjBycbT6jMUvd3E-2FtCGA-3D2Ao2_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2FHbV-2Fseomni9rhasEguBs8mb-2FjACprHRfvoikwPHpdBKuSzDoeDKhAnzTWQiGaEfwa39ooCzUbxlCXCzRLxV1HQhGLLjd3zV6QR0EPqYt5nOojBng5bmcQOwRUCYqAUkc3pHAVY75WozeMwLSgxcpnUOHQ7C97T2yzOkuwRPYpkvodjpGsIjZxqsi4KC5L-2B5-2BaikVgLoDEVUzbniazXrL4Sx9HkLR0ye-2BavZ3D9O-2BJXLjzpRpa9FITFix-2F-2B-2FZtgSo&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   applications
+  &lt;/a&gt;
+  .”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Kolev, once the massive precomputations are complete, the online steps of inferring the seafloor motion and forecasting the tsunami wave heights in real time can be performed on far more modest GPU clusters since the underlying algorithms are designed to map well onto GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This work is important because it shows that we can solve an inverse problem of enormous size —not for 10 or 15 variables, but for millions, or even billions of variables, very quickly,” said Kolev. “In the past, you’d either have a fast model that’s not accurate, or a full-physics model that takes hours or days. Now we’re showing that we can do both — accurate and fast — using principled mathematics and modern computing.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kolev said the Bayesian inversion framework isn’t a “one-off capability” limited to tsunamis and could be applied to a wide range of complex systems — from real-time wildfire tracking and subsurface contaminant tracking to space weather forecasting and even intelligence applications where fast, data-driven decisions are needed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Collaborators included Veselin Dobrev and John Camier of LLNL; Omar Ghattas, Stefan Henneking, Milinda Fernando and Sreeram Venkat of UT-Austin; and Alice-Agnes Gabriel of UC San Diego.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cristin Merritt on Alces Flight’s Sustainable Reality HPC and AI Event, Oct. 7 in London </title>
+<link>https://insidehpc.com/2025/08/cristin-merritt-on-alces-flights-sustainable-reality-hpc-and-ai-event-oct-7-in-london/</link>
+<pubDate>Tue, 12 Aug 2025 17:49:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/cristin-merritt-alces-whpc-0725.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  We recently caught up with Cristin Merritt, well known in the HPC-AI community for her work in support of
+  &lt;a href=&quot;https://womeninhpc.org/&quot;&gt;
+   Women in HPC
+  &lt;/a&gt;
+  and as head of communications for Alces Flight, a UK-based supercomputing-by-subscription company specializing in high performance computing, artificial intelligence, machine learning and analytics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this interview, Cristin provides a preview of
+  &lt;a href=&quot;https://alces-flight.com/&quot;&gt;
+   Alces Flight
+  &lt;/a&gt;
+  ’s upcoming Sustainable Reality event on October 7 at the historic
+  &lt;a href=&quot;https://www.rsc.org/&quot;&gt;
+   Royal Society of Chemistry
+  &lt;/a&gt;
+  at Burlington House in London.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img loading=&quot;lazy&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/sustainable-reality-logo-0825.png&quot;/&gt;
+  Launched in 2023,
+  &lt;a href=&quot;https://alces-flight.com/sr25/&quot;&gt;
+   Sustainable Reality
+  &lt;/a&gt;
+  is an annual community-focused event that explores the four main pillars of supercomputing: hardware, software, people and change management. The event brings together voices from industry and academia to drive practical, collaborative progress toward greener, more efficient, and more inclusive HPC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cristin tells us that this year’s theme is
+  &lt;em&gt;
+   Catalysts for Change,
+  &lt;/em&gt;
+  focusing on our
+  &lt;em&gt;
+  &lt;/em&gt;
+  communities’ need for timely, responsible, and sustainable technology. We’ll hear from commercial and academic voices across the UK and EU, sharing insight on emerging innovations, foundational practices, and what’s next on the horizon.
+  &lt;br/&gt;
+  And for the first time, we’re placing a special spotlight on
+  &lt;em&gt;
+   next-generation leadership
+  &lt;/em&gt;
+  . Through dedicated student presentations, we’re bringing the voices of tomorrow’s technologists and researchers into the conversation today.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Attendance at Sustainable Reality is free, seating is limited. Registration and other details
+  &lt;a href=&quot;https://alces-flight.com/catalysts-for-change-sustainable-reality-returns-october-2025/&quot;&gt;
+   can be found here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Study: Merchant GPUs and Custom Accelerators to Reach $446B, HBM to Exceed $130B by 2029 </title>
+<link>https://insidehpc.com/2025/08/study-merchant-gpus-and-custom-accelerators-to-reach-446b-hbm-to-exceed-130b-by-2029/</link>
+<pubDate>Tue, 12 Aug 2025 16:06:13 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/dellorio-group-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  REDWOOD CITY, Calif. – August 12, 2025 – According to a report by Dell’Oro Group, the global data center accelerator market is projected to reach $446 billion by 2029. Accelerators now account for roughly one-third of total data center capex, making them the single largest driver of growth, the firm said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The worldwide data center IT semiconductor and component market is projected to grow at a 26 percent compound annual growth rate (CAGR) over the next five years, fueled by the continued expansion of AI workloads and the buildout of specialized infrastructure,” said Baron Fung, Senior Research Director at Dell’Oro Group.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI accelerators, including both merchant GPUs and custom silicon, are at the heart of this growth cycle, enabling a wide range of AI and domain specific applications. Hyperscale cloud providers are increasingly investing in custom accelerators to optimize performance and reduce cost, while significant engineering efforts are underway to improve accelerator performance per watt from the chip level to the rack level. Supporting technologies such as High Bandwidth Memory (HBM) are also seeing accelerated growth, with HBM revenue outpacing that of accelerators due to rising memory content per chip. In parallel, demand for high-speed network adapters, enabling accelerator-to-accelerator connectivity in scale-out networks,” said Fung.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additional highlights from the report:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Custom accelerators will account for half of all accelerator shipments by 2029, although merchant GPU revenues will continue to dominate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The HBM market is forecast to exceed $130 billion by 2029.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Ethernet network adapter market for supporting back-end networks in AI compute clusters is projected to grow at a 59 percent CAGR by 2029.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.delloro.com/&quot;&gt;
+   Dell’Oro Group
+  &lt;/a&gt;
+  ’s Data Center IT Semiconductors and Components 5-Year Forecast Report provides analysis of the market with tables covering manufacturers’ revenue, and unit shipments for technologies such as accelerators, CPUs, memory, network interface cards (NICs), storage drives such as HDDs and SSDs.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> iManage Adds Search and AI Assistant Capabilities </title>
+<link>https://insideainews.com/2025/08/12/imanage-adds-search-and-ai-assistant-capabilities/</link>
+<pubDate>Tue, 12 Aug 2025 15:42:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/06/generic-ai-generative-ai-2-1-shutterstock-2496403005.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  CHICAGO – August 11, 2025 – AI company iManage today announced new capabilities that include implementing Model Context Protocol (MCP) support, enabling connection of MCP-compatible AI applications to iManage Cloud without vendor-specific integrations.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  With this interoperability standard for AI, AI applications can automatically discover available content and capabilities in iManage Cloud while respecting existing user permissions and access controls. Enhanced search capabilities in
+  &lt;u&gt;
+   Insight+
+  &lt;/u&gt;
+  is designed to advance how knowledge professionals find answers using natural language. Beyond search, advanced AI assistant functionality delivers contextual answers.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  As iManage prepares to showcase its latest advancements at ILTACON 2025, the company is reinforcing a comprehensive strategy:
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “Customer confidence in AI starts with their organizational knowledge – their documents, emails, and institutional expertise, being secure in iManage Work so professionals can access trusted, traceable AI-powered insights,” said Neil Araujo, CEO of
+  &lt;a href=&quot;https://imanage.com/&quot;&gt;
+   iManage
+  &lt;/a&gt;
+  . “And by embedding intelligence directly into Microsoft 365, professionals benefit from AI without leaving their familiar daily workflows.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Customers See Real-World Results with Ask iManage
+ &lt;/div&gt;
+ &lt;div&gt;
+  iManage delivers best-in-class AI Assistant capabilities through multiple complementary approaches.
+  &lt;u&gt;
+   Ask iManage
+  &lt;/u&gt;
+  , built natively within iManage Work, integrates seamlessly into existing legal workflows with transparent, traceable answers grounded in the organization’s content. Additionally, iManage and Microsoft Copilot integration extends knowledge stored in iManage Work directly into Microsoft applications, allowing legal professionals to intelligently leverage iManage content without leaving their Microsoft environment.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  As market momentum for Ask iManage continues, two of the enhancements ILTACON attendees can see in product demonstrations include:
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Conversational AI – Ask iManage now makes it even easier to get the answers you need – faster and with more clarity. With the release of multi-turn conversations, you can ask follow-ups, dive deeper, and explore ideas naturally. It’s more than just Q&amp;A. It’s a smarter, more intuitive dialogue that works the way you do.
+   &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Enhanced Evidence – Inline citations make it easier than ever to verify what you see. Knowledge professionals can simply hover over a citation to instantly highlight the exact source in the document – while anything generated outside the source is clearly flagged. It’s a simple, powerful way to deliver transparency and build complete confidence in AI.
+   &lt;/div&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;div&gt;
+  Customers are recognizing real impact from leveraging Ask iManage alongside the Wayfinder program, iManage’s industry-leading approach to driving AI user adoption:
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “Ask iManage has become a key part of our AI toolkit, offering far more than basic document Q&amp;A,” said Kirk Scruggs, CIO at
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.bracewell.com/&amp;source=gmail&amp;ust=1755093656021000&amp;usg=AOvVaw14pPV4SFSluIZnt1CYaM4o&quot; href=&quot;https://www.bracewell.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    Bracewell LLP
+   &lt;/a&gt;
+  &lt;/u&gt;
+  . “The Ask Across feature, in particular, has been valuable for security assessments and document synthesis, and we’ve seen strong engagement from teams like litigation. What sets Ask iManage apart is its scalability and user-friendly design. Features like reusable question lists, a saved question library, project-based content organization, and synthesized results make it easy to demonstrate value to users and drive adoption. Not to mention that the support and enablement program from iManage has been excellent – they’ve helped us track value, collect feedback, and build internal champions to drive real business impact.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Knowledge professionals now gain a 360-degree view of their business, clients, and matters with new advancements to Insight+, the next-generation search and knowledge discovery engine built natively in the iManage Cloud. By surfacing insights previously buried across documents and systems, Insight+ empowers professionals to answer complex questions instantly, such as which partners have the highest success rates in specific jurisdictions, or which documents align with a particular legal strategy.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Without the need for additional point solutions, Insight+ delivers fast, trusted results at DMS scale by combining advanced search capabilities,
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://imanage.com/imanage-products/the-imanage-platform/ai/ai-enrichment/&amp;source=gmail&amp;ust=1755093656021000&amp;usg=AOvVaw1eX5EAxzMgIO_MEEbTXYnJ&quot; href=&quot;https://imanage.com/imanage-products/the-imanage-platform/ai/ai-enrichment/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    iManage AI Classification &amp; Enrichment
+   &lt;/a&gt;
+  &lt;/u&gt;
+  , and contextual data from connected business systems.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Two Insight+ features launching at ILTACON include:
+ &lt;/div&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Ask Knowledge, the fastest path to trusted answers – With generative AI in Ask Knowledge, you can search using plain language and get secure, contextual responses grounded in the organization’s expertise.
+   &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Matter Search, connecting your content with context – Matter Search connects content with context revealing trends in profitability, jurisdictional success, precedent, and more, from the data you have today.
+   &lt;/div&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;div&gt;
+  These capabilities deliver AI Confidence by grounding search results in your secure content with traceable, trustworthy insights you can defend.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  iManage continues to scale its 300-strong partner network, supporting rising demand in AI collaboration and fostering deep partnerships with leading technology providers. As an example of this open partner ecosystem philosophy, iManage is implementing MCP support, enabling governed access to iManage content by third party AI applications.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  As a result, iManage customers can now deploy AI applications and intelligent agents that autonomously orchestrate workflows across multiple systems. Instead of knowledge workers manually switching between disconnected applications, AI agents can intelligently coordinate tasks. For example, a knowledge worker can ask an AI agent to ‘review all my client’s commercial lease agreements in the Dallas, TX area within iManage and create follow-up tasks for my associates in their project management application, so they can call landlords if there is no termination clause. Then send calendar invites with a summary table of lease expiry dates.’ The AI agent would seamlessly coordinate across all relevant systems to complete this multi-step workflow while maintaining all security and ethical wall protection.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  iManage is excited to enable clients to securely leverage their knowledge in such complex AI-driven automated workflows, driving unprecedented productivity gains while maintaining the governance and security controls essential to professional services.
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Momentum Announces Additions to Agentic AI Platform </title>
+<link>https://insideainews.com/2025/08/12/momentum-announces-additions-to-agentic-ai-platform/</link>
+<pubDate>Tue, 12 Aug 2025 13:17:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-data-shutterstock-1987973402-0923-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN FRANCISCO, Aug. 12, 2025
+  &lt;strong&gt;
+   –
+  &lt;/strong&gt;
+  AI company Momentum today announced the launch of SmartClips and Account Briefs, two AI-powered tools that expand the company’s Agentic AI platform, equipping revenue teams with intelligent AI agents for deal execution, coaching, and customer retention. SmartClips uses AI to transform sales and customer conversations into short, shareable insights that reach teams within minutes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Account Briefs provides an AI-driven view of account activity, health, and stakeholder engagement. Together, these new tools give go-to-market teams faster access to the insights and context that drive revenue, eliminating hours of manual work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “SmartClips was built to eliminate the hours teams waste scrubbing through recordings for best practices or deal risks,” said Santiago Suarez Ordoñez, co‑founder and CEO of Momentum. “Our customers, including Zscaler, Ramp, 1Password, and Demandbase, are already seeing their CRM hygiene improve drastically and are experiencing productivity gains of three to ten hours per rep each week. Account Briefs takes that efficiency further, giving managers and reps complete deal context in seconds instead of days.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  SmartClips Highlights:
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       AI‑Powered Clip Generation: Captures objections, decision points, and product feedback using customizable Signal prompts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Multi‑Channel Distribution: Delivers clips to Slack, Microsoft Teams, and Momentum’s platform within minutes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Flexible Video Lengths: Adapts clip duration to context, unlike other rigid alternatives in the market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Real‑Time Operational Impact: Generates clips instantly and integrates with Salesforce and Snowflake updates, supported by AI-driven workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Zero Manual Curation: Eliminates the need for enablement teams to sift through calls for training material.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Account Briefs Highlights:
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Complete Deal Timeline: Automatically compiles every customer interaction across calls, emails, and Salesforce.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Risk and Health Analysis: AI identifies deal health signals and potential risks without manual input.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Stakeholder Mapping: Provides visibility into decision makers and influencers across accounts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Interactive AI Chat: Enables natural language queries like “What’s the latest sentiment from customer A”
+ &lt;/p&gt;
+ &lt;p&gt;
+  –       Manager Efficiency: Equips leaders with actionable deal context in seconds, without relying on sales team updates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SmartClips and Account Briefs launch alongside an upgraded Coaching Agent and deeper Microsoft Teams and Outlook integrations, advancing Momentum’s mission to create more business actions that actually creates more revenue and success. Momentum’s Coaching Agent supports customizable methodologies, performance pattern analysis, and automated recommendations, giving managers consistent, data-driven coaching tools. The Microsoft integrations ensure insights, summaries, and signals flow seamlessly into the platforms where teams already work. Powered by the Retropilot agent and batch historical analysis, these innovations unify data, insights, and actions across channels, solidifying Momentum as the only platform delivering true Agentic AI for revenue orchestration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “With the addition of SmartClips, it is like combing Opus Clip with Tiktok but for sales, customer success, and GTM teams,” said Jonathan Kvarfordt, Head of GTM Growth at
+  &lt;a href=&quot;http://www.momentum.io/&quot;&gt;
+   Momentum
+  &lt;/a&gt;
+  . “SmartClips surfaces the most valuable customer moments, and Account Briefs instantly gives teams the intelligence to act on them. When you layer the new products being launched with the rest of Momentum’s AI data orchestration tech, you can experience the true power of AI for your revenue teams”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Momentum’s launch of SmartClips and Account Briefs follows its $13 million Series A led by FirstMark and Stage 2 Capital and a year of 400% ARR growth. The announcement further reinforces Momentum’s recognition among Crunchbase’s Top 300 companies to watch and marks its first major innovation since securing funding.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> News Bytes 20260811: Espionage at TSMC, Intel CEO Told to Quit, Dojo AI Is Done, GenAI and Geopolitics </title>
+<link>https://insideainews.com/2025/08/11/news-bytes-20260811-espionage-at-tsmc-intel-ceo-told-to-quit-dojo-ai-chips-are-done-genai-and-geopolitics/</link>
+<pubDate>Mon, 11 Aug 2025 18:24:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-bits-bytes-data-2-1-shutterstock-1013661232.jpg&quot;/&gt;
+  A good mid-summer morning to you! There have been scandalous news reports of late in the world of HPC-AI, along with other developments of interest, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – TSMC employees accused in 2nm espionage charges
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Trump calls for Intel CEO to resign
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Curtain falls for Tesla’s Dojo supercomputer
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Paper review: Generative AI as a Geopolitical Factor in Industry 5.0
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Cal Berkeley’s David Patterson on federal cuts for research
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Jack Dongarra on supercomputing, AI, quantum and geopolitics
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/08/hpc-news-bytes-20250811/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20260811: Espionage at TSMC, Intel CEO Told to Quit, Dojo Is Done, GenAI and Geopolitics, Dongarra on HPC’s Future </title>
+<link>https://insidehpc.com/2025/08/hpc-news-bytes-20260811-espionage-at-tsmc-intel-ceo-told-to-quit-dojo-is-done-genai-and-geopolitics-dongarra-on-hpcs-future/</link>
+<pubDate>Mon, 11 Aug 2025 15:56:07 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250811.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/@hpcpodcast-logo-w-shahin-doug-images-2-1-0225.png&quot;/&gt;
+  A good mid-summer morning to you! There have been scandalous news reports of late in the world of HPC-AI, along with other developments of interest, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – TSMC employees accused in 2nm espionage charges
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Trump calls for Intel CEO to resign
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Curtain falls for Tesla’s Dojo supercomputer
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Paper review: Generative AI as a Geopolitical Factor in Industry 5.0
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Cal Berkeley’s David Patterson on federal cuts for research
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Jack Dongarra on supercomputing, AI, quantum and geopolitics
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/08/hpc-news-bytes-20250811/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Building AI Factories: Scalable Infrastructure for Intelligence </title>
+<link>https://insidehpc.com/2025/08/building-ai-factories-scalable-infrastructure-for-intelligence/</link>
+<pubDate>Mon, 11 Aug 2025 15:14:22 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/07/exxact-logo-2-1-071725.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   [SPONSORED GUEST ARTICLE]
+  &lt;/em&gt;
+  Artificial intelligence (AI) is transforming how organizations innovate and compete. As enterprises race to unlock new value from data, a new paradigm – the AI Factory – has emerged. Unlike traditional data centers, which passively store and process information, AI Factories are purpose-built environments designed to manufacture intelligence at industrial scale. They drive the entire AI lifecycle, rapidly converting raw data into actionable insights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   From Data Center to AI Factory
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Traditional data center infrastructure often falls short of the needs of today’s AI-driven enterprises. Slow deployment, mounting regulatory requirements, and the shortage of specialized AI expertise hamper organizations looking to scale AI. AI Factories directly address these pain points with an integrated approach that unifies hardware, software, and workflows for accelerated enterprise-ready AI deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Powering the Next Industrial Transformation
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA® is at the forefront of this transformation, pioneering the concept and architecture of the AI Factory. The NVIDIA AI Factory is a full-stack, modular solution that combines:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Accelerated Computing:
+   &lt;/strong&gt;
+   Leveraging the world-leading performance and efficiency of NVIDIA GPUs.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Advanced Networking:
+   &lt;/strong&gt;
+   Ensuring low-latency, high-bandwidth communications essential for massive AI workloads.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Integrated Software Stack:
+   &lt;/strong&gt;
+   Including NVIDIA AI Enterprise and NVIDIA Omniverse™ for robust, scalable, and secure AI development and deployment.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Ecosystem and Validation:
+   &lt;/strong&gt;
+   Collaborating with top partners to ensure component compatibility, future-proofing, and seamless integration.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  These ingredients empower enterprises to accelerate the time to value, achieve high performance with better energy efficiency, and transition easily between cloud and on-premises AI deployments. The modular, validated design ensures organizations can scale their AI environments cost-effectively and without complexity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Exxact with NVIDIA: Delivering Complete AI Factories
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As an Elite Partner in the NVIDIA Partner Network,
+  &lt;a href=&quot;https://www.exxactcorp.com/?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=Inside%20HPC%20AI%20Factory%20Guest%20Article&quot;&gt;
+   Exxact
+  &lt;/a&gt;
+  specializes in transforming the AI Factory vision into customized, production-ready solutions for enterprises. Exxact’s unique value lies in the end-to-end expertise and partnership it brings to customers building their own AI Factories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Exxact’s offerings include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Turnkey, NVIDIA-Certified™ Systems:
+   &lt;/strong&gt;
+   Exxact delivers pre-validated
+   &lt;a href=&quot;https://www.exxactcorp.com/category/Deep-Learning-AI-Servers?utm_source=web+referral&amp;utm_medium=backlink&amp;utm_campaign=Inside+HPC+AI+Factory+Guest+Article&quot;&gt;
+    servers
+   &lt;/a&gt;
+   , clusters, and workstations built on the latest NVIDIA AI and networking solutions, meaning customers receive infrastructure designed for immediate use with full-stack integration and security.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Comprehensive Integration and Customization:
+   &lt;/strong&gt;
+   Exxact helps organizations build AI Factories tailored to their specific needs—including agentic AI, HPC, and simulation workloads—with rack-level design, optimized software stacks, and seamless deployment.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Full-Stack Deployment Services:
+   &lt;/strong&gt;
+   Exxact’s expertise encompasses the entire NVIDIA enterprise platform, including NVIDIA AI Enterprise, NVIDIA Omniverse, and ecosystem partner software—helping customers unify their AI journey on a predictable, scalable, and reliable foundation.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Ongoing Support and Future-Proofing:
+   &lt;/strong&gt;
+   With direct collaboration and certification from NVIDIA,
+   &lt;a href=&quot;https://www.exxactcorp.com/?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=Inside%20HPC%20AI%20Factory%20Guest%20Article&quot;&gt;
+    Exxact
+   &lt;/a&gt;
+   provides ongoing support, ensures software and hardware compatibility, and delivers validated upgrade paths, ensuring your AI investment remains cutting-edge and secure as requirements evolve.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Conclusion
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI Factory is not just a new type of infrastructure; it’s the engine of future enterprise intelligence. With NVIDIA’s comprehensive, validated technology stack and Exxact’s deep integration expertise, organizations can transition from legacy data centers to scalable, high-performance
+  &lt;a href=&quot;https://www.exxactcorp.com/category/Deep-Learning-AI-Servers?utm_source=web+referral&amp;utm_medium=backlink&amp;utm_campaign=Inside+HPC+AI+Factory+Guest+Article&quot;&gt;
+   AI Factories
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NCSA Wins $26M NGA HPC Contract </title>
+<link>https://insidehpc.com/2025/08/ncsa-wins-26m-nga-hpc-contract/</link>
+<pubDate>Fri, 08 Aug 2025 19:55:37 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/02/NCSA-logo-2-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Aug. 7, 2025 — The National Center for Supercomputing Applications and the University of Illinois Urbana-Champaign were awarded a $25.8 million contract from the U.S. National Geospatial-Intelligence Agency (NGA) for high-performance computing in support of NGA strategic partnerships, advancement of artificial intelligence, and machine learning and logistics for data production on a global scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NGA Director Vice Admiral Frank Whitworth announced the awarded contract in May at the 2025 GEOINT Symposium in St. Louis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NCSA has long partnered with NGA through the
+  &lt;a href=&quot;https://newfrontiers.illinois.edu/&quot;&gt;
+   New Frontiers Initiative
+  &lt;/a&gt;
+  , providing support for geospatial and geo-intelligence research and education through its world-class computing resources and fellowship opportunities, and potentially saving months of time in data processing and analysis. Illinois is also a member of the
+  &lt;a href=&quot;https://taylorgeospatial.org/&quot;&gt;
+   Taylor Geospatial Institute
+  &lt;/a&gt;
+  (TGI) Consortium, while NCSA is the home of TGI’s U.S. National Science Foundation-funded
+  &lt;a href=&quot;https://www.ncsa.illinois.edu/ncsa-to-help-facilitate-tgi-rails/&quot;&gt;
+   Regional AI Learning System
+  &lt;/a&gt;
+  (RAILS) to accelerate geospatial science and discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The New Frontiers Initiative is proud to continue our partnership with the National Geospatial-Intelligence Agency by providing state-of-the-art computing resources to spur innovation and speed to insight in support of NGA’s national priorities,” said William Kramer, executive director of NFI at
+  &lt;a href=&quot;http://illinois.edu/&quot;&gt;
+   Illinois
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new contract is Illinois’ next step in offering technical support and expertise in efforts related to national security and preparedness. Previously, the university and NCSA supported the ArticDEM and EarthDEM project, and research and development efforts with NGA researchers in areas such as gravity modeling, bathymetry and flood inundation. The new contract will help modernize NGA Foundation GEOINT operations, including the creation of geoscience data, terrain, imagery and 3D geospatial-intelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is an important next step in Illinois’ efforts to expand its contribution in national security and preparedness,” Kramer said. “This relationship started over 10 years ago as
+  &lt;a href=&quot;https://www.nga.mil/&quot;&gt;
+   NGA
+  &lt;/a&gt;
+  , Illinois and others worked on ArticDEM, using
+  &lt;a href=&quot;http://www.ncsa.illinois.edu/&quot;&gt;
+   NCSA
+  &lt;/a&gt;
+  ’s
+  &lt;a href=&quot;https://www.ncsa.illinois.edu/research/project-highlights/blue-waters/&quot;&gt;
+   Blue Waters
+  &lt;/a&gt;
+  system and NGA-supplied satellite data to make high-resolution maps of the entire land surface. Illinois’ expertise in high-performance computing, AI and geospatial research continues to help accelerate insight in these areas.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Argonne Scientists Honored for AI-Powered Solar Cell </title>
+<link>https://insidehpc.com/2025/08/argonne-scientists-honored-for-ai-powered-solar-cell/</link>
+<pubDate>Fri, 08 Aug 2025 17:25:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/argonne-horizon-prize-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Scientists from the U.S. Department of Energy’s (DOE) Argonne National Laboratory are part of a group recognized for their advancements in chemistry-aware artificial intelligence software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team has received the 2025 Royal Society of Chemistry’s Materials Chemistry Horizon Prize, the result of a collaborative effort between scientists from Argonne, the University of Cambridge, STFC Rutherford Appleton Laboratory and the Australian National Science and Technology Organisation, along with other partners from around the globe.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Argonne National Laboratory Team:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Paul Coffman, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Jeffrey Elam, Applied Materials
+  &lt;/li&gt;
+  &lt;li&gt;
+   Adrian Pope, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Liliana Stan, Center for Nanoscale Materials
+  &lt;/li&gt;
+  &lt;li&gt;
+   Álvaro Vázquez-Mayagoitia, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Venkat Vishwanath, Argonne Leadership Computing Facility
+  &lt;/li&gt;
+  &lt;li&gt;
+   Angel Yanguas-Gil, Applied Materials
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Several former Argonne researchers were also part of the team.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Their work resulted in open-source materials databases and language models that have become invaluable resources for the global scientific community. Team leader and University of Cambridge Professor Jacqueline M. Cole fostered a synergistic partnership that has driven significant advancements in the design of organic dye-sensitized solar cells and other emerging technologies aimed at harnessing solar energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Research is a collaborative endeavor. This award recognizes the whole team, everyone who made a significant technical or research contribution. That mix between scientific government entities and universities, there is huge added value in that,” said Cole. ​“It makes a statement to the world that we succeed by working in close partnership, and we’ve done something very tangible and useful with it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Materials Chemistry Horizon Prize has been awarded to the entire 89-member team, with each team member receiving a certificate and individual recognition for their role in the groundbreaking work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Royal Society of Chemistry honored the team for pioneering new
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  -powered tools that make it faster and easier to discover advanced materials. Their open-source software enables researchers worldwide to efficiently explore massive data sets and simulate chemical properties, turning materials discovery from a process of chance into a rational, accelerated pathway, ultimately shortening the ​“molecule-to-market” timeline and helping innovations reach real-world devices and industries faster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The international team, which spans five continents, developed and shared databases,
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsmachine-learning&quot;&gt;
+   machine learning
+  &lt;/a&gt;
+  models and simulation workflows that are already transforming how materials are designed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This recognition is a testament to the power of international partnership and innovation. It highlights the years of dedicated collaboration with Professor Cole’s team and her determination to innovate at the intersection of chemistry, artificial intelligence and computing,” said Álvaro Vázquez-Mayagoitia, a computational scientist at the
+  &lt;a href=&quot;https://www.alcf.anl.gov/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Argonne Leadership Computing Facility
+  &lt;/a&gt;
+  (ALCF) who worked on the project. ​“It acknowledges Professor Cole’s visionary leadership, which has inspired scientists across academia, government and industry on multiple continents to achieve high-impact research outcomes. Our team pushed the boundaries of scientific research and has provided essential tools for researchers worldwide.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vázquez-Mayagoitia played a key role in supporting the team’s research at the ALCF, a DOE Office of Science user facility. ​“In this project, my role was centered in facilitating large-scale simulations and analyzing their results. Our team developed the codes and scripts necessary for rapidly generating a comprehensive dye database, integrating both experimental and simulated data,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team built a high-throughput, automated workflow that combined data mining,
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsmachine-learning&quot;&gt;
+   machine learning
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.anl.gov/science-101/quantum&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   quantum
+  &lt;/a&gt;
+  chemistry simulations to evaluate nearly 10,000 organic dyes. By screening for key properties like molecular structure, polarity and light absorption, they narrowed the pool to five top candidates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We needed one of the best supercomputers in the world, and the ALCF gave us that,” said Cole. ​“Specialized computing allowed us to make
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  predictions that were fast, detailed and comprehensive. That was absolutely essential.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  These predictions were then confirmed through lab experiments and device testing. The project shows how
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  and simulation, when integrated at scale, can dramatically reduce the time it takes to go from design to working technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsartificial-intelligence&quot;&gt;
+   AI
+  &lt;/a&gt;
+  tools we built are really a platform technology,” Cole added. ​“We’re already using them in other areas like magnetism,
+  &lt;a href=&quot;https://www.energy.gov/science/doe-explainsbatteries&quot;&gt;
+   batteries
+  &lt;/a&gt;
+  and optoelectronics.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Center for Nanoscale Materials is one of the five DOE Nanoscale Science Research Centers, premier national user facilities for interdisciplinary research at the nanoscale supported by the DOE Office of Science.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Capacity Raises $92M for Contact Center AI Support Platform, Announces Acquisitions </title>
+<link>https://insideainews.com/2025/08/08/capacity-raises-92m-for-contact-center-ai-support-platform-announces-acquisitions/</link>
+<pubDate>Fri, 08 Aug 2025 17:00:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/03/generic-data-server-room-shutterstock-1034571742-0923.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  St. Louis, August 7, 2025 –  Capacity, the AI-powered support automation platform for contact centers, has announced more than $92 million in investments. Additionally, the company announed  acquisitions of
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://callcriteria.com/&amp;source=gmail&amp;ust=1754755053794000&amp;usg=AOvVaw15S9rwoAKSEg3gJYiatZKW&quot; href=&quot;https://callcriteria.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Call Criteria
+  &lt;/a&gt;
+  and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.verbio.com/&amp;source=gmail&amp;ust=1754755053794000&amp;usg=AOvVaw3xIg5ZWZ162-Vjv5V_AVJN&quot; href=&quot;https://www.verbio.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Verbio Technologies
+  &lt;/a&gt;
+  , expanding Capacity’s capabilities in voice AI, quality assurance (QA) automation and speech analytics.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The new investments in Capacity include $50 million from
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.chicagoatlantic.com/&amp;source=gmail&amp;ust=1754755053794000&amp;usg=AOvVaw1Z0KmR7EtiGAxs1HGdnksd&quot; href=&quot;https://www.chicagoatlantic.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Chicago Atlantic
+  &lt;/a&gt;
+  , a private markets investment firm, and a Series D round close at $42.6 million. The company previously announced an initial $26 million fundraise in its Series D round, which was oversubscribed. Capacity will use the Series D proceeds to continue growth and product innovation as part of a compound startup strategy.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Support is more important than ever for brands across industries, but point solutions can’t effectively solve complex issues,” said David Karandish, CEO, Capacity. “New funding is enabling us to bring together the best technologies in our industry to build a complete, AI-powered support automation platform that helps Contact Centers operate across channels using shared knowledge.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  More than 20,000 businesses rely on Capacity’s AI support automation platform to grow revenue, cut costs and improve customer satisfaction across channels. Capacity has deep experience in knowledge management and Contact Center automation. The acquisitions of Call Criteria and Verbio Technologies signal a significant commitment to delivering the fully integrated tech stack large-scale organizations need to provide superior support.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Companies are under pressure to improve customer experiences while cutting costs. With Call Criteria and Verbio Technologies, we’re strengthening our platform to deliver faster, more personalized and fully automated support,” said Karandish.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Call Criteria offers QA automation tools that analyze Contact Center interactions using speech analytics and generative AI, helping businesses identify coaching opportunities, improve compliance and elevate agent performance.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Traditional QA is slow and subjective,” said Ryan Stomel, CEO of Call Criteria. “Together with Capacity, we’re automating QA to drive meaningful improvements in every customer interaction.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Call Criteria has built strong speech analytics and generative AI technologies that help call centers create a clear path to improving agent performance. When Call Criteria’s tools are fully integrated into our platform, Capacity customers will have access to enhanced agent support capabilities that will reduce costs, increase compliance and importantly – improve customer satisfaction,” said Karandish.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Verbio Technologies, headquartered in Barcelona, Spain, helps enterprises transform customer engagement with Intelligent Voice Virtual Agents. Designed to deliver natural, personalized conversations, these Virtual Agents manage customer interactions, resolve issues and reduce the need for live agent intervention – enhancing both customer satisfaction and operational efficiency.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Voice remains the most critical channel for customer experience and loyalty,” said Alejandro Terradas, co-CEO of Verbio Technologies. “Integrating our voice capabilities with
+  &lt;a href=&quot;http://capacity.com/&quot;&gt;
+   Capacity
+  &lt;/a&gt;
+  ’s platform unlocks next-level customer engagement.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Terradas will join Capacity following the acquisition.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Verbio Technologies has not only built a voice solution with unparalleled conversational capabilities, it is created to scale for enterprise. Together, the Capacity platform will be optimized with greater voice AI technology that personalizes and automates,” said Karandish.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capacity has marked significant growth in 2025 and is now profitable with $60 million of annual recurring revenue.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capacity has raised more than $155 million in both equity and debt across multiple funding rounds and other investments. In addition to investment from Chicago Atlantic, the Series D round of funding included investments from TVC Capital and Toloka.vc., among others.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Call Criteria and Verbio Technologies are Capacity’s 10th and 11th acquisitions in recent years. Talent from both companies will join the Capacity team with nearly 250 team members combined around the world.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The terms of the Call Criteria and Verbio Technologies transactions are confidential.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capacity is led by David Karandish, who co-founded the company and has served as the CEO since inception.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> 8 Years in the Making: Sandia Team Creates Malware Detection Software with Livermore HPC </title>
+<link>https://insidehpc.com/2025/08/8-years-in-the-making-sandia-team-creates-malware-detection-software-with-livermore-hpc/</link>
+<pubDate>Thu, 07 Aug 2025 18:20:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-96847&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/thorium-developers-0825.jpg&quot;/&gt;
+  &lt;p&gt;
+   Sandia team that developed Thorium includes, from right, project lead Evan Roncevich, project manager Kevin Hulin, lead developer Michael Carson and programmers Gavin Baker and Jake Hamzawi. (Photo by Randy Wong)
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  A cybersecurity platform, under development for eight years at Sandia National Laboratories to detect and analyze advanced malware threats, is now publicly available, giving defenders in the public and private sectors access to tools currently used to help safeguard U.S. national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform, known as Thorium, is the product of a yearslong partnership between Sandia and the Cybersecurity and Infrastructure Security Agency. Since 2017, the joint Threat-Focused Reverse Engineering project has produced software analysis tools designed to counter increasingly complex cyber threats targeting government systems and critical infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As attackers continue to deploy more advanced malware, cyber defenders need to integrate a growing arsenal of analysis tools to keep
+ &lt;/p&gt;
+ &lt;p&gt;
+  pace. Thorium addresses that challenge by serving as a central nervous system of this toolset, supporting automation and data processing. It allows cyber analysts to efficiently assess, triage and prioritize threats using a range of commercial, custom and open-source tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thorium builds on decades of cybersecurity research at Sandia. In 2007, the labs launched the Forensic Analysis Repository for Malware database, which has operated continuously since and now stores nearly 300 million malware samples, with projections it may surpass 1 billion within the next decade. FARM relies on Thorium to enable the rapid analysis needed to manage this influx of new samples.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Thorium is the latest iteration in a series of platforms and tools Sandia has developed to automate malware analysis,” lead developer Michael Carson said. “The team has learned a lot over that time, and Thorium is the end result.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Carson, Thorium is “almost infinitely scalable” and built for “massive automation and customization.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://www.independentnews.com/news/livermore_news/sandia-team-creates-software-programs-to-identify-malware/article_ddfd19e4-5ae9-4784-98c2-7c7b6b51cb03.html&quot;&gt;
+   a story in The Independent
+  &lt;/a&gt;
+  , a news pubication covering the Livermore, CA, area, Thorium coding and testing happens at Lawrence Livermore National Laboratory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is where everyone on the team works. It’s where all of the internal high-performance computers we use are located,” Carson told The Independent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandia is also applying machine learning to help process the massive volumes of data collected through the toolset, further accelerating analysis and insights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the release of Thorium as open-source, Sandia hopes to make it easier for organizations to adopt a common foundation for malware analysis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform is built on Google’s Kubernetes container management system, which helps automate the scaling and deployment of software applications. By using an industry-standard format, Thorium allows security teams to develop, package and share tools across the malware analysis community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Enabling easy sharing and integration of malware analysis capabilities is the primary driver for open sourcing the Thorium platform,” capability manager Kevin Hulin said. “By offering a baseline platform for free, we hope tool developers begin adopting it as a standard for how tools are deployed. That way, researchers can spend more time developing tools and less time solving system integration problems.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thorium is available for download through
+  &lt;a href=&quot;https://github.com/cisagov/thorium&quot; rel=&quot;noopener noreferrer&quot;&gt;
+   CISA’s GitHub
+  &lt;/a&gt;
+  repository.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   source: Michael Ellis Langley, Sandia Labs
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Study: Agentic AI Is Advancing but Governance Gap Threatens Consumer Trust </title>
+<link>https://insideainews.com/2025/08/07/study-agentic-ai-is-advancing-but-governance-gap-threatens-consumer-trust/</link>
+<pubDate>Thu, 07 Aug 2025 16:51:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/08/ai-trust-survey-080725.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  San Francisco, Aug. 7, 2025
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   — New data released today by Genesys uncovers a disconnect between how companies govern AI and what consumers need to feel safe using it. While four out of five consumers surveyed said they want clear governance of AI interactions, less than a third (31 percent) of business leaders say their organizations have comprehensive, organization-wide AI policies and oversight in place.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   As agentic AI — autonomous systems that can think, act and make decisions independently — becomes more pervasive in enterprise customer experience (CX) strategies, 91 percent of CX leaders surveyed believe it will empower their organizations to deliver faster, more effective, personalized service. However, the data reveals a complex reality: While enthusiasm is high for the transformative value agentic AI can deliver, governance structures are lagging, posing risks to consumer trust, brand reputation and regulatory compliance.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   “Agentic AI is opening up exciting new possibilities for how organizations serve their customers, but earning consumer trust has to grow alongside that progress,” said Olivier Jouve, chief product officer at Genesys, a cloud AI-powered experience orchestration company. “As these systems take on more responsibility, it’s essential that businesses stay transparent and accountable in how they’re used. With the right guardrails in place from the start, companies can build lasting confidence by responsibly innovating customer experiences that deliver new levels of personalization and effectiveness.”
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&#x27;{&quot;201341983&quot;:0,&quot;335559740&quot;:276}&#x27;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   More than 90 percent of CX leaders surveyed agree that strong governance is critical to: protect brand reputation (91%), build long-term trust and loyalty with customers (91%), and increase consumer comfort with autonomous systems (90%).
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Yet many organizations are still unprepared. Over one-third of CX leaders (35 percent) admit they have little to no formal governance policies in place. Even more concerning, 28% of those without any policy at all still believe their organizations are ready to deploy agentic AI.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   This governance gap becomes more troubling when viewed alongside consumers’ concerns.
+  &lt;/span&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Many remain wary due to a lack of transparency around how their data is used and the absence of clear oversight.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   In fact, clarity on how AI uses their personal data was the number one concern among respondents. Compounding this, 37 percent of consumers believe AI “hallucinates” or fabricates information — a view echoed by 59 percent of CX leaders, who acknowledge that hallucinations pose serious risks to customer loyalty, litigation and brand reputation. This perceived lack of reliability further undermines trust and reinforces the need for safeguards that ensure accuracy and accountability in AI-driven experiences.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   The gap between what leaders know is necessary and what organizations have implemented is especially concerning given the clear demand from consumers for transparency and oversight. This makes it critical for businesses to close the gap before deploying agentic AI at scale.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   While 81 percent of CX leaders trust agentic AI with sensitive customer data, only 36% of consumers feel the same. This disconnect is sharper in higher stakes situations.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Businesses show strong confidence in using agentic AI for critical customer functions: 74 percent of businesses say they’re comfortable using the technology for billing, financial transactions and account security. Consumers, however, are much more hesitant: Only 35 percent are comfortable with agentic AI handling money transfers, 49 percent with resolving billing issues and 50 percent with updating personal information.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Still, the data reveals an important opportunity. More than half of consumers (58 percent) say they don’t care whether their issue is resolved by a human or AI, as long as its handled quickly and completely.
+  &lt;/span&gt;
+  &lt;span data-ccp-props=&quot;{}&quot;&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   This signals that CX efficiency and effectiveness can overcome skepticism, but only when paired with transparency and accountability. To close the trust gap and innovate responsibly, organizations must scale in a consumer-centric way
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-contrast=&quot;auto&quot;&gt;
+   Methodology:
+   &lt;a href=&quot;https://www.genesys.com/&quot;&gt;
+    Genesys
+   &lt;/a&gt;
+   worked with an independent research firm to survey 4,000 consumers and 1,600 CX and IT decision-makers in more than 10 countries. The survey was conducted in June 2025. Among the business respondents, the industries represented were airlines, automotive, banking, government, healthcare, insurance, manufacturing, media and entertainment, professional services, retail, travel and hospitality, technology, telecommunications, and utilities.
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
