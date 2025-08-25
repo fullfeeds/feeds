@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Mon, 25 Aug 2025 16:53:33 -0000</lastBuildDate>
+<item>
+<title> atNorth Sells HPC-as-a-Service Platform to Advania </title>
+<link>https://insidehpc.com/2025/08/atnorth-sells-hpc-as-a-service-platform-to-advania/</link>
+<pubDate>Fri, 22 Aug 2025 19:43:11 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  Aug. 20, 2025 — atNorth, the Nordic high-density colocation and data center provider, has announced the sale of its High-Performance Computing as a Service platform, Gompute, to IT services business Advania. The acquisition is expected to be completed during the third quarter of 2025, subject to regulatory approvals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.advania.com/&quot;&gt;
+   Advania
+  &lt;/a&gt;
+  is one of atNorth’s long standing customers, with workloads hosted in multiple regions and sites. Originally located at atNorth’s ICE01 site in Reykjavík, Iceland, Advania has expanded its footprint across  Sweden, Finland and most recently to atNorth’s ICE03 data center, in Akureyri, Iceland.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Advania and atNorth are both scaling rapidly, with the former reporting strong growth and expansion in 2024. This arrangement will strengthen the ongoing partnership between the two businesses, with Gompute being strategically aligned with Advania’s focus on building ‘AI-ready’ sovereignty clouds across their locations, while atNorth will continue to host the platform within its state-of-the-art data center sites.
+ &lt;/p&gt;
+ &lt;p&gt;
+  atNorth’s business focus remains the responsible development and operation of world class digital infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Driven by continued growing demand for atNorth’s services, we are sharpening our focus on high-density colocation and build-to-suit data centers,” said
+  &lt;a href=&quot;https://www.atnorth.com/about-atnorth/our-team/&quot;&gt;
+   Eyjólfur Magnús Kristinsson, CEO of atNorth.
+  &lt;/a&gt;
+  “Gompute has played a key role in our HPC journey, and its evolution with Advania marks an exciting next chapter. Advania’s AI-ready sovereign cloud vision aligns seamlessly with the platform, and hosting it in our high-density data centers will enhance our strategic partnership and deliver a powerful solution for the market’s evolving needs.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The acquisition of the Gompute platform is an important milestone in Advania’s journey to deliver sovereign AI services across Northern Europe,” said Hege Störe, CEO of Advania. “I am delighted to welcome Gompute’s talented team to Advania, and together we will build the infrastructure foundation that gives our customers the speed, efficiency and resilience they need for their AI and HPC workloads.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Terabit Ethernet: Rambus Launches Multi-Channel Engine MACsec-IP-364 (+363) </title>
+<link>https://insidehpc.com/2025/08/terabit-ethernet-rambus-launches-multi-channel-engine-macsec-ip-364-363/</link>
+<pubDate>Fri, 22 Aug 2025 19:43:06 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/06/Rambus-logo-2-1-0624.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Aug. 21, 2025 — Rambus has introduced the Multi-Channel Engine MACsec-IP-364 (+363), built for next-generation Ethernet. The company said it delivers full line-rate MACsec and optional IPsec support for 1.6T and 3.2T Ethernet ports, offering a scalable and configurable solution for securing high-speed data traffic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Capabilities
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Full Line-Rate Throughput: Supports 1.6T in 3nm and 3.2T in 3/2nm technologies, with low-power 800G operation in 5nm.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Segmented Data Bus Architecture: Enables multiple packet processing per clock cycle, achieving breakthrough throughput.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Flexible Integration: Supports channelized and port-based data paths, with options for buffering, flow control, and IEEE 1588 timestamping.
+  &lt;/li&gt;
+  &lt;li&gt;
+   High-speed Cryptography: FIPS-ready cryptographic engine supporting AES-ECB, AES-CTR, AES-GCM/GMAC transformations.
+  &lt;/li&gt;
+  &lt;li&gt;
+   MACsec and IPsec Support: Fully compliant with IEEE 802.1AE-2018, with optional IPsec ESP transport/tunnel modes.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The MACsec-IP-364 (+363) engine is ideal for a wide range of applications, including:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Optical PHYs
+  &lt;/li&gt;
+  &lt;li&gt;
+   Switch/router ASICs
+  &lt;/li&gt;
+  &lt;li&gt;
+   NPUs and Smart NICs
+  &lt;/li&gt;
+  &lt;li&gt;
+   5G SoCs
+  &lt;/li&gt;
+  &lt;li&gt;
+   AI infrastructure with network-attached capabilities
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Its multi-channel architecture supports up to 64 ports, with pooled classification and transformation resources that optimize multiport designs. The companion MACsec-IP-363 classifier enables autonomous MACsec processing or can be paired with external classifiers for customized deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The data center landscape is undergoing a seismic shift. Driven by the explosive growth of hyperscale cloud computing, artificial intelligence (AI), and high-performance computing (HPC), Ethernet speeds are accelerating beyond 800G to 1.6T and even 3.2T. This evolution is fueled by breakthroughs in optical connectivity and the adoption of advanced silicon nodes (3nm and 2nm), enabling pluggable optical modules that support applications from short-reach (&amp;lt;10km) to long-haul (&amp;gt;500km),”
+  &lt;a href=&quot;https://www.rambus.com/&quot;&gt;
+   Rambus
+  &lt;/a&gt;
+  said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Ethernet scales to Terabit speeds, the need for robust, low-latency, and power-efficient security solutions be comes paramount. Traditional security architectures based on acceleration struggle to keep pace with these performance demands, creating a critical need for MACsec/IPsec solutions that can be integrated into Ethernet ports and operate at full line-rate across multiport and multi-rate environments.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rambus provides an integration package, including:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Silicon IP and Driver Development Kit
+  &lt;/li&gt;
+  &lt;li&gt;
+   Hardware and programming manuals
+  &lt;/li&gt;
+  &lt;li&gt;
+   IP-XACT register descriptions
+  &lt;/li&gt;
+  &lt;li&gt;
+   UVM verification test bench and test vectors
+  &lt;/li&gt;
+  &lt;li&gt;
+   Setup, simulation, and synthesis scripts
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> RIKEN Teams with Fujitsu and NVIDIA on FugakuNEXT HPC-AI Platform </title>
+<link>https://insidehpc.com/2025/08/riken-teams-with-fujitsu-and-nvidia-on-fugakunext-hpc-ai-platform/</link>
+<pubDate>Fri, 22 Aug 2025 16:29:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  Aug. 22, 2025 — RIKEN is collaborating with Fujitsu Limited and NVIDIA on an initiative to develop “FugakuNEXT,” which RIKEN called Japan’s next-generation flagship supercomputer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RIKEN said the system will be the first flagship supercomputer to adopt GPUs as accelerators, with NVIDIA leading the design for the GPU infrastructure. Fujitsu, which has already been working with RIKEN, will lead the basic system design, compute nodes, and CPUs. As a foundation for high-performance computing infrastructure, the three organizations will work together to build an “AI-HPC platform, according to RIKEN.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FUJITSU-MONAKA-X CPU being designed by Fujitsu, will be an enhanced version of the FUJITSU-MONAKA. With ultra-many cores and extended SIMD functionality providing high scalability, it will deliver performance for HPC applications such as numerical simulations. In addition, by integrating the matrix computation engine (Arm SME) into the CPU, it enables low-latency AI inference processing. When combined with the GPU with high-bandwidth, tightly coupled integration, the system will deliver exceptional performance in AI training and GPU-optimized HPC applications. These advancements will enable the system to address a wide spectrum of computing needs, from general-purpose workloads to numerical simulations and AI processing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The computation accelerator (GPU) designed by NVIDIA will enable performance improvements for HPC applications requiring advanced parallel processing and for AI applications including generative AI whose adoption is rapidly expanding in industry as well as for next-generation applications that integrate AI and HPC, RIKEN said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To further improve application performance, software-side innovations will encompass the use of mixed-precision computing, the use of AI-oriented hardware, such as low-precision computing units for high-precision calculations (e.g., the Ozaki scheme), and algorithmic optimizations including the adoption of surrogate models and PINNs (Physics-Informed Neural Networks) to replace complex computations with AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ultimately, by combining the hardware performance improvements achieved through the joint development by RIKEN, Fujitsu, and NVIDIA with the algorithmic and software innovations driven by their collaboration, the project aims to deliver, within the same approximately 40MW power constraint as during the development of Fugaku, up to a hundredfold overall increase in application performance – comparable to the scale of improvement targeted in the transition from the “K” computer to Fugaku, according to RIKEN. In addition, by advancing AI for science – including AI-driven hypothesis generation and validation, automated code generation, and the automation of physical experiments – the project will seek to accelerate the entire cycle of scientific discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/fugaku-fugakunext-comp-0825.jpg&quot;/&gt;
+  “Aiming for operation around 2030, FugakuNEXT is envisioned to deliver not only the simulation performance pursued by previous supercomputers, but also world-leading capabilities in both simulation and AI, with the two working in close integration as a unified AI-HPC platform,” RIKEN said. “To this end, FugakuNEXT will extend the CPU technologies developed for Fugaku, while incorporating GPUs as accelerators, aiming to maximize execution performance for both simulation and AI applications. At the same time, to continuously generate scientific achievements through the use of next-generation computing infrastructure, it is becoming increasingly important to pursue not only advances in hardware technology, but also comprehensive innovations in software and algorithms.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  RIKEN said the three organizations will combine RIKEN’s strengths in software and algorithm technologies, Fujitsu’s expertise in CPU and system integration technologies, and NVIDIA’s GPU technologies and ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  FugakuNEXT will pursue up to a hundredfold increase in application performance over Fugaku, according to RIKEN. Furthermore, through joint Japan-U.S. efforts in developing FugakuNEXT, the project seeks to establish an “AI-HPC platform” as a new global standard, and to accelerate “AI for Science” – the automation and advancement of research processes such as hypothesis generation and validation. The development of this world-class “AI-HPC platform” will enhance globally competitive domestic technologies and strengthen Japan’s strategic indispensability in the information industry and semiconductor technologies, thereby strengthening its industrial competitiveness.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fugaku delivered approximately a forty-fold increase in hardware performance over its predecessor, the “K computer,” through the adoption of cutting-edge semiconductor technologies and high-performance memory available at the time. Furthermore, through RIKEN’s leadership in enhancing and optimizing applications, performance was accelerated by approximately three-fold, enabling total gains in application performance that exceeded the target of a hundred-fold improvement for certain applications. However, in recent years, the slowdown in performance and power efficiency gains from semiconductor process technology has made it increasingly difficult to achieve significant improvements in hardware performance. Therefore, in addition to advances in hardware, new approaches driven by innovations in software and algorithms are indispensable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  FugakuNEXT will contribute to strengthening Japan’s semiconductor and computing infrastructure, while ensuring national sovereignty in advanced AI technologies and computing platforms. At the same time, it aims to establish a global ecosystem, in both hardware and software, through deployment in the international market. On the hardware side, the system will feature a successor to the general-purpose CPU “FUJITSU-MONAKA”, currently under development by Fujitsu, further evolved into a new CPU tentatively named “FUJITSU- MONAKA-X”, combined with a GPU designed by NVIDIA that emphasizes parallel processing performance and bandwidth as the accelerator. The basic design will explore the adoption of cutting-edge connection technologies between the CPU and GPU, while also considering the incorporation of advanced memory technologies. As a result, FugakuNEXT will target more than a fivefold improvement in hardware performance over Fugaku.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Designed on the basis of advanced technologies from both Japan and the U.S, FugakuNEXT will feature AI-oriented hardware performance exceeding 600 exaFLOPS (EFLOPS) in FP8 precision (sparse), and is expected to become the world’s first “Zetta-scale” system as a supercomputer for HPC. The software, AI models, and applications developed in this project will be made openly available via cloud environments – such as through the “virtual Fugaku” – even prior to the launch of FugakuNEXT system, thereby fostering an ecosystem for high-performance computing infrastructure in the era of AI-simulation convergence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the FugakuNEXT project, alongside hardware development, support for the development of advanced applications is also recognized as a critical component of the initiative. RIKEN will promote GPU porting and optimization support as well as the construction of the FugakuNEXT testbed, leveraging available CPU/GPU systems such as the “AI for Science Development Supercomputer”. In particular, for system design and application co-design incorporating CI/CD/CB technologies, RIKEN will work in collaboration with the U.S. Department of Energy (DOE) under the “Project Arrangement for High-Performance Computing and Artificial Intelligence” between Japan’s Ministry of Education, Culture, Sports, Science and Technology (MEXT) and the DOE. This collaboration will promote the development of a continuous performance evaluation environment through the use of the automated benchmarking environment “Benchpark”,　and will involve close engagement with the broader application community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the software side, RIKEN will lead efforts in close collaboration with universities and research institutions, working together with Fujitsu and NVIDIA to develop advanced environments, such as enabling effective use of AI processing capabilities, preparing libraries that facilitate the acceleration of complex computations through AI, and supporting AI-driven code development and optimization for FugakuNEXT. It will also be important to ensure that commercial applications and a wide variety of open-source software (OSS) run smoothly, and thereby, the software stack developed by RIKEN for Fugaku and the virtual Fugaku will be further advanced and made available for use in FugakuNEXT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In concrete application deployment, fully leveraging the capabilities of next-generation computing infrastructure will require not only improvements in physical simulation but also the integration and optimization of data-driven technologies such as AI. The group led by Associate Professor Kohei Fujita (Earthquake Research Institute, The University of Tokyo / Visiting Researcher at RIKEN) is working to deepen understanding of the mechanisms of earthquake generation, with the ultimate goal of contributing to future disaster prevention and mitigation for earthquakes and tsunamis. By advancing the development of a “multiscale simulator” capable of seamlessly addressing both large-scale crustal deformation and localized seismic motion, it is anticipated that researchers will, for example, be able to use computational models to assess the likelihood of subsequent earthquakes in surrounding areas following a major seismic event.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Efforts are also underway to bring innovation to manufacturing by combining HPC and AI. Traditionally, manufacturing design processes depended largely on human expertise and iterative trial and error. At present, efficiency improvements are being achieved by integrating HPC-based simulations with AI-based pattern recognition and predictive modeling. In the future, AI will be able to learn from high-precision HPC simulations, and the collaboration of AI agents with generative AI is expected to automate the creation of optimal designs that meet multiple requirements – including performance, safety, and cost – enabling rapid and highly competitive product development.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Regarding the development of FugakuNEXT the basic design is scheduled to be completed within fiscal year 2025, with a transition to detailed design from fiscal year 2026. RIKEN envisions establishing an international collaboration framework with leading HPC research institutes worldwide, including those under the U.S. Department of Energy (DOE), to advance the development of software and algorithms, thereby fostering the creation of an ecosystem centered on FugakuNEXT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RIKEN will foster the creation of new applications in emerging scientific and technological domains envisioned for the FugakuNEXT era, including “AI for Science”, and promote application readiness for the accelerators already designated for introduction in FugakuNEXT. These efforts will be accompanied by human resource development initiatives to ensure that tangible results can be achieved as soon as FugakuNEXT enters operation around 2030.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Furthermore, the integration of HPC with quantum computers (QC) is becoming increasingly important in expanding computational frontiers, as applications leveraging quantum utility are already being realized. Anticipating that QC-HPC integration will progress even further by around 2030, when FugakuNEXT is expected to enter operation, RIKEN will work to adapt software stacks developed at RIKEN, universities, research institutions, and companies, so that they can also be utilized in FugakuNEXT to build a hybrid QC-HPC environment.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> The AI Superfactory: NVIDIA’s Multi-Data Center ‘Scale Across’ Ethernet </title>
+<link>https://insidehpc.com/2025/08/the-ai-superfactory-nvidias-multi-data-center-scale-across-ethernet/</link>
+<pubDate>Fri, 22 Aug 2025 15:16:39 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/nvidia-ethernet-slide-1-0825-1024x497.png&quot;/&gt;
+  Tying multiple data centers together into an integrated whole is a hot topic in data center circles. The goal is to achieve performance beyond what a single data center or AI factory can deliver. But with power demands rising, integrating data centers across multiple location where there’s available power makes sense.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But combining data centers into a massive combination while overcoming the networking limitations of off-the-shelf Ethernet — problems such as jitter, high latency and erratic performance — is the challenge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ahead of next week’s Hot Chips 2025 conference in Palo Alto, NVIDIA today announced Spectrum-XGS Ethernet, which the company calls a scale-across technology for combining multiple, distributed data centers into “unified, giga-scale AI super-factories.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA said the Spectrum-X Ethernet networking platform provides 1.6x greater bandwidth density than off-the-shelf Ethernet for multi-tenant, hyperscale AI factories. It comprises NVIDIA Spectrum-X switches and NVIDIA ConnectX-8 SuperNICs, designed to deliver scalability and low latency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The AI industrial revolution is here and giant scale AI factories are the essential infrastructure,” said Jensen Huang, founder and CEO of NVIDIA. “With NVIDIA Spectrum-XGS Ethernet, we add scale-across to scale-up and scale-out capabilities to link data centers across cities, nations and continents into vast, giga-scale AI super-factories.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/04/nvidia-logo-headquarters-2-1-0425-1024x512.jpg&quot;/&gt;
+  The company said Spectrum-XGS Ethernet offers auto-adjusted distance congestion control, latency management and end-to-end telemetry. The offering nearly doubles the performance of the NVIDIA Collective Communications Library, according to NVIDIA, accelerating multi-GPU and multi-node communication to deliver predictable performance across geographically distributed AI clusters. As a result, multiple data centers can operate as a single AI super-factory, fully optimized for long-distance connectivity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new offering also builds on NVIDIA’s partnership with AI hyperscaler CoreWeave, which NVIDIA said will be among the first to connect its data centers with Spectrum-XGS Ethernet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “CoreWeave’s mission is to deliver the most powerful AI infrastructure to innovators everywhere,” said Peter Salanki, co-founder and CTO of CoreWeave. “With NVIDIA Spectrum-XGS, we can connect our data centers into a single, unified supercomputer, giving our customers access to giga-scale AI that will accelerate breakthroughs across every industry.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EDB Says It Cuts Data Center Emissions by up to 87%, Energy Consumption by up to 81% </title>
+<link>https://insidehpc.com/2025/08/edb-says-it-cuts-data-center-emissions-by-up-to-87-energy-consumption-by-up-to-81/</link>
+<pubDate>Thu, 21 Aug 2025 19:12:17 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/edb-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  WILMINGTON, Del.– EnterpriseDB, a sovereign AI and data company, today published new independent research validating dramatic cost savings, energy efficiency, and emissions reductions that its sovereign data platform delivers to enterprise customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Analyzing EDB Postgres AI (EDB PG AI) deployments at three Fortune 500 companies in the financial services sector, the research identified energy consumption reductions up to 81 percent and emissions reductions as high as 87 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More than 95 percent of global enterprises want to be their own AI and data platforms in the next three years (“EDB Sovereignty Matters,” May 2025 research). This shift will put massive pressure on energy grids and IT budgets. Electricity costs already account for 46 percent of total data center spending for enterprises, and demand is projected to increase power consumption at a compound annual growth rate of 45 percent through 2027, according to IDC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the current trajectory, the world’s AI ambitions risk outpacing both the power infrastructure and economic capacity needed to sustain them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Facing these rising costs and concerns, 83 percent of enterprises globally now rank power efficiency among the top three drivers for rethinking data center architectures in the age of agentic AI, according to EDB research,” said Kevin Dallas, CEO at
+  &lt;a href=&quot;http://www.enterprisedb.com&quot;&gt;
+   EDB
+  &lt;/a&gt;
+  . “The leading 13% of AI-driven enterprises already know this. They’re twice as likely to design for energy-efficient model execution. They’re proving it’s possible to optimize energy use without sacrificing performance, agility, or scale.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  An
+  &lt;a href=&quot;https://www.enterprisedb.com/resources/optimizing-data-center-emissions&quot;&gt;
+   independent analysis
+  &lt;/a&gt;
+  conducted by Incendium Consulting, highlights the significant impact EDB PG AI can have on customers’ data center efficiency and environmental sustainability. Of three global financial institutions (EDB customers)—collectively representing one of five organizations in the world, with more than 150 data centers—EDB PG AI reduced emissions by more than 50% on average, with one customer achieving a 94% reduction for its Tier 1 applications and seeing an 81% drop in core usage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “These aren’t theoretical gains. It’s the operational reality now for the world’s largest financial services companies and pinpoints the extraordinary path forward: You
+  &lt;em&gt;
+   can
+  &lt;/em&gt;
+  achieve dramatic reductions in data center emissions and energy with no trade-offs in performance or availability. And in many cases, this comes with dramatic cost reductions as well,” said Dallas.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To give organizations direct visibility into the benefits of optimizing their infrastructure, EDB also launched the
+  &lt;a href=&quot;https://www.enterprisedb.com/calculator/efficiency&quot;&gt;
+   EDB Postgres AI Efficiency Calculator
+  &lt;/a&gt;
+  , an interactive tool that exposes inefficiencies in data estates and quantifies the financial, performance, and environmental impacts of addressing them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The calculator models how EDB PG AI customers can scale their AI and data with a sovereign platform, without the bottleneck of exorbitant costs. It delivers immediate, real-time results through intelligent recommendations, acting like an expert database team. By fine-tuning queries and optimizing performance on the spot, the calculator helps organizations cut costs, boost efficiency, and reduce energy usage without the delays of long-tail optimization plans.
+ &lt;/p&gt;
+ &lt;p&gt;
+  EDB PG AI reduces costs, energy consumption, and emissions by ensuring that compute resources are only utilized when needed. The platform uses an elastic infrastructure that dynamically scales with the demands of complex AI workloads, minimizing idle energy waste. This includes:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Intelligent workload optimization: AI-driven recommendations to proactively optimize core Postgres configurations and reduce the raw compute needed to support critical workloads in minutes without manual effort or database expertise
+  &lt;/li&gt;
+  &lt;li&gt;
+   On-demand AI model serving: Dynamically spins up and down nodes to serve AI models, eliminating energy drain of underutilized infrastructure
+  &lt;/li&gt;
+  &lt;li&gt;
+   Automated AI-readiness: Eliminates inefficient, manual vector index rebuilds for live data, saving substantial compute power and disk I/O
+  &lt;/li&gt;
+  &lt;li&gt;
+   Separation of compute and storage: Independently scales compute resources for analytical workloads and offloads cold data from transactional systems to more cost-effective object storage, reducing overall energy consumption and enhancing efficiency
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  In addition to the power savings from the EDB PG AI software, the hardware used can also contribute to energy efficiency. EDB’s Sovereign Data and AI Factory, designed for on-premises deployment of the EDB PG AI platform, is based on clustered Supermicro Hyper servers that provide industry-leading power efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Strategic relationships with leaders such as Supermicro ensure that enterprises get access to the industry’s most efficient infrastructure, including liquid-cooled systems that can reduce energy usage and GPU-optional environments that adapt to workload needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The future of AI infrastructure isn’t one size fits all. It’s modular, power-aware, and built for choice,” said Dallas. “As energy and performance requirements evolve, enterprises need flexible systems that scale without compromise. That’s what we’re delivering with EDB Postgres AI.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Crusoe Acquires Atero to Accelerate AI Infrastructure </title>
+<link>https://insidehpc.com/2025/08/crusoe-acquires-atero-to-accelerate-ai-infrastructure/</link>
+<pubDate>Thu, 21 Aug 2025 19:12:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/03/crusoe-logo-2-1-0325.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  San Francisco and Tel Aviv – August 21 – AI infrastructure provider Crusoe today announced it has acquired Atero, a company specializing in GPU management and memory optimization for AI workloads.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  This is intended to accelerate the development of Crusoe Cloud’s managed AI services and strengthen its ability to deliver the world’s most reliable, efficient and high-performance AI cloud infrastructure. The acquisition also establishes Crusoe’s first Middle East office in Tel Aviv, Israel, enabling the company to tap into the diverse talent pool and serve new customers across the region. Terms of the deal were not disclosed.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Atero’s proprietary technology dramatically improves GPU utilization, efficiency, and reliability for demanding AI workloads, such as LLM inference. By combining Atero’s deep expertise in AI infrastructure operating systems with the Crusoe Cloud technology stack, Crusoe will deliver a superior user experience that maximizes performance, speed and scalability while optimizing resource and energy consumption for its customers.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “We are excited to welcome the Atero team to Crusoe. Atero’s low-level expertise in high-performance computing infrastructure will be instrumental in Crusoe delivering unmatched performance, scale, reliability and efficiency in our GPU clusters. By optimizing memory utilization, we can ensure our customers have their data in the right place at the right time to maximize GPU utilization rates and get more out of the money they spend on compute,” said Chase Lochmiller, co-founder and CEO of Crusoe. “By establishing our first Middle East office in Tel Aviv, we not only gain access to the incredible workforce across the region, but also the ability to better serve our global community of customers and partners.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Alon Yariv, CEO of Atero, commented, “When we founded Atero, we set out to transform the industry with our technology, and joining
+  &lt;a href=&quot;https://www.crusoe.ai/cloud&quot;&gt;
+   Crusoe
+  &lt;/a&gt;
+  is the fastest path to achieving that mission. We share Crusoe’s vision that vertical integration is the future of the AI infrastructure market, and our team is excited to contribute its expertise to build world-class managed AI services on the Crusoe Cloud platform.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Co-founded in 2024 by CEO Alon Yariv and CTO Omer Landau in Israel, Atero was in stealth mode and raised a seed round from Primary VC in New York and Lool Ventures in Israel. Its deeply technical team will join Crusoe’s engineering team, and together they will accelerate the development of Crusoe Cloud’s managed services offerings.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NEC Announces Robot Control Technology </title>
+<link>https://insidehpc.com/2025/08/nec-announces-robot-control-technology/</link>
+<pubDate>Thu, 21 Aug 2025 19:12:07 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/11/nec-logo-2-1-1124.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Tokyo, August 21, 2025 – NEC Corporation (NEC; TSE: 6701) announced technology that utilizes AI to enable autonomous control of robot movement in complex environments with obstacles. NEC said its in-house demonstrations of this technology have confirmed that a robot’s travel time can be reduced by up to 50 percent compared to conventional methods.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This technology utilizes NEC’s proprietary AI, which has been trained with the knowledge of multiple AIs, to generate optimal travel paths in real time. NEC aims to commercialize this technology by the end of fiscal 2026.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In recent years, automation through the introduction of robots has been progressing in large logistics warehouses and factories due to a decrease in labor forces and the need to improve productivity. However, in existing small- and medium-sized logistics warehouses, where it is difficult to prepare a dedicated environment for robots, and in retail stores, where aisles are narrow and display shelves and products are obstacles, it is difficult to secure paths for robots to move, which has hindered their introduction.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Furthermore, in robot control technology, there has been a trade-off between the time required to predict a path and the quality of the estimated path, and it takes time to estimate optimal routes. Therefore, robot control technology has not been practical in complex environments with many obstacles.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Features of the robot control technology developed by NEC to address these issues, include the following.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    1. Proprietary AI that generates optimal routes in real time
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Traditionally, autonomous robot navigation in environments with numerous obstacles has relied on a combination of AI technologies and methods that generate paths based on predefined rules and procedures. However, there have been challenges in achieving optimal path generation that balances safety and efficiency. Additionally, while combining multiple AI systems can generate more appropriate paths, increasing the number of AI systems tends to prolong processing time and make real-time control more difficult.
+    &lt;a href=&quot;https://www.nec.com/&quot;&gt;
+     NEC
+    &lt;/a&gt;
+    has developed a proprietary AI that can learn the paths generated by multiple AI systems and generate multiple paths at once. This enables the generation of safe and efficient optimal paths even in environments with irregularly placed obstacles, thereby realizing real-time robot control.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    2. 50 percent reduction in robot travel time
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    In simulations on a 50-meter-long test course with randomly placed obstacles, robots using this technology confirmed that the time required to run through the course could be reduced by up to 50% compared to conventional methods. This makes it possible to roughly double the efficiency of robot movement, while ensuring safety and contributing to further improvements in work efficiency on site.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EdgeConneX and Lambda to Build AI Factory Infrastructure in Chicago and Atlanta </title>
+<link>https://insideainews.com/2025/08/21/edgeconnex-and-lambda-to-build-ai-factory-infrastructure-in-chicago-and-atlanta/</link>
+<pubDate>Thu, 21 Aug 2025 17:57:03 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/01/data-center-2-1-0125-shutterstock-2502153963.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  HERNDON, Va. — EdgeConneX, a data center solutions company, announced it is building 30+ megawatts (MW) of data center infrastructure in Chicago and Atlanta with cloud company Lambda.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This dual-city infrastructure development leverages hybrid cooling technologies that combine liquid-to-the-chip direct cooling and air cooling, designed to create a flexible and optimized environment to support advanced AI and cloud workloads. As part of Lambda’s aggressive infrastructure expansion, EdgeConneX is developing a build-to-density, single-tenant 23MW data center in Chicago that will be ready in 2026. In addition, EdgeConneX designed and operates two air-cooled sites for Lambda, in Atlanta (ATL02) and Chicago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lambda delivers artificial intelligence infrastructure, with cloud solutions for AI labs, hyperscalers and enterprises to scale from prototyping and training, to serving billions of users in production. Its collaboration with EdgeConneX represents a strategic advancement for its 2GW+ vision that leads to over a million GPUs deployed by the end of the decade. EdgeConneX’s hybrid cooling design is designed to support the high-power demands of next-generation AI accelerators while ensuring energy efficiency and environmental sustainability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Chicago high-capacity infrastructure is anchored by EdgeConneX Ingenuity next-generation data center solution, specifically engineered to meet the demands of High-Performance Computing (HPC), AI training, and AI inferencing workloads. With its ability to support densities exceeding 600+kW per rack, Ingenuity provides the scalability and flexibility required to power and future-proof Lambda’s innovative AI technologies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our partnership with Lambda underscores our commitment to delivering cutting-edge infrastructure solutions tailored for the AI era. We empower the most demanding AI and HPC workloads with unmatched density and flexibility with Ingenuity’s next-generation AI-ready data center solutions and our liquid cooling capabilities. This solution enables Lambda to lead in AI innovation and advance the future of AI-driven technologies for its cloud and hyperscale customers.” – Don MacNeil, Chief Revenue Officer for EdgeConneX
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our mission at Lambda is to provide future-ready, scalable AI infrastructure that meets the demands of gigawatt-scale AI Factories for training and inferencing, while pushing the boundaries of deployment speed. By partnering with EdgeConneX in multiple locations, we combine cutting-edge data center technology with our world-class AI architectures, ensuring unmatched speed-to-market and evolutivity for our customers.” – Ken Patchett, VP Data Center Infrastructure, Lambda
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lambda’s consistent growth and strategic investments in infrastructure and its orchestration reinforce its position as the trusted AI Infrastructure advisor to the world’s top AI Labs, Enterprises and Hyperscalers. With over a decade of experience co-engineering and deploying high-stake cloud solutions at speed and at scale, Lambda’s teams bring the deepest levels of AI expertise, engineering, management, operations and support – bar none.
+ &lt;/p&gt;
+ &lt;p&gt;
+  EdgeConneX Ingenuity solution is designed to accommodate the diverse and intense workloads of AI-driven applications. It provides the adaptability to maintain operational excellence across GPUs, CPUs, storage, and networking equipment. Lambda’s adoption of this solution underscores its leadership in the AI industry and commitment to leveraging the most advanced technologies available. For more information, please visit
+  &lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.edgeconnex.com&amp;esheet=54310286&amp;newsitemid=20250821014525&amp;lan=en-US&amp;anchor=www.edgeconnex.com&amp;index=8&amp;md5=2fedca393389e7ea5413258e88962e09&quot; rel=&quot;nofollow noopener&quot; shape=&quot;rect&quot; target=&quot;_blank&quot;&gt;
+   www.edgeconnex.com
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Livermore Lab: AI Predicted 2022 Fusion Ignition Shot </title>
+<link>https://insidehpc.com/2025/08/livermore-lab-ai-predicted-2022-fusion-ignition-shot/</link>
+<pubDate>Thu, 21 Aug 2025 17:56:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-96951&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/llnl-national-ignition-center-source-llnl-0825.jpg&quot;/&gt;
+  &lt;p&gt;
+   credit: Lawrence Livermore National Laboratory
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Aug. 21, 2025 — Lawrence Livermore National Laboratory (LLNL) researchers employed an AI-driven model to predict fusion ignition days ahead of the historic 2022 shot, according to a new study in
+  &lt;em&gt;
+   Science
+  &lt;/em&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the paper, LLNL researchers detail how they used physics-informed deep learning and a “cognitive simulation” (or CogSim) framework to forecast the Dec. 5, 2022 fusion experiment at LLNL’s National Ignition Facility (NIF), predicting a greater than 70% probability that it would exceed the energy breakeven point — producing more energy from the fusion reaction than the laser energy used to drive it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This was not a lucky guess,” said Brian Spears, director for LLNL’s AI Innovation Incubator and first author on the paper. “We used a rigorous, data-driven AI framework to quantify the likelihood of ignition before the shot took place and the model, for the first time, predicted we were more likely to ignite than not. It’s a new way of doing science.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Built as part of LLNL’s growing CogSim toolkit — which combines AI with high-performance computing — a machine learning (ML) model developed on LLNL’s Sierra supercomputer was trained on more than 150,000 high-fidelity simulations and multiple years of experimental data from similar deuterium-tritium (DT) fusion implosions performed at NIF.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model produced probabilistic predictions of fusion performance, complete with confidence intervals, and quantified the variability expected in fusion performance, predicting the neutron yield distribution of the upgraded 2.05 MegaJoule (MJ) design (N221204) that successfully demonstrated ignition. The resulting estimate showed a 74% probability of ignition — significantly higher than for previous designs — and the experimental result fell within the predicted yield range.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In this work, we demonstrate a methodology for quantifying uncertainties associated with our most precious NIF experiments – DT high yield attempts,” said corresponding author and LLNL physicist Kelli Humbird. “
+  &lt;a href=&quot;https://www.science.org/doi/10.1126/science.adm8201&quot;&gt;
+   This paper
+  &lt;/a&gt;
+  details our first attempt to take this information we learn by analyzing past experiments and applying it to a proposed experiment to make a prediction, with uncertainties, about the shot outcome. We shared our expectations ahead of time with inertial confinement fusion (ICF) management and were very pleased to see the experimental results fall within our estimates.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The work builds on LLNL’s long-term CogSim for Science effort to fuse ML with physics-based modeling and high-performance computing. The key to scaling the CogSim approach for fusion is the use of “surrogate models” — deep neural networks that emulate LLNL’s radiation hydrodynamics code
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtE74u7c18FMrNqqPwD40g68Ihpzm9-2BLIOBAgKo5DiGCsnWt4h-2F8McowFOysEqBY3lOKa39F1r2iJYItuBR37-2FftCINQHPc-2Bw-2BBxWQgpWxnwh-z6B_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2Fm28tcyonEa-2FsmB0aFqXJgNVSeZs6j5NW2Ug7r-2BnWJokBNlRZ2VftLWYgJ54nfO-2F8xGe9XSraT5XDETVJaeA-2BkVG9CwsPjbFVHLub4UC80oAP0yVVM4hVgpU7xt-2Fv305U0uE4-2FVUXWppc8qQSK8zi4Gxo8hggovcfr7xV-2B75UygDDHdD-2FNu-2BqRl0xHo9hr0ZP-2Bc2lhBvMWeUu5BerxSdgfujw0V0-2BuwRODLqroP9wHuwqlsQCXRcpQeGs0wHj3gaJ&amp;source=gmail&amp;ust=1755880524430000&amp;usg=AOvVaw3_VLb-KoloBIg8p2CVkTwK&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtE74u7c18FMrNqqPwD40g68Ihpzm9-2BLIOBAgKo5DiGCsnWt4h-2F8McowFOysEqBY3lOKa39F1r2iJYItuBR37-2FftCINQHPc-2Bw-2BBxWQgpWxnwh-z6B_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2Fm28tcyonEa-2FsmB0aFqXJgNVSeZs6j5NW2Ug7r-2BnWJokBNlRZ2VftLWYgJ54nfO-2F8xGe9XSraT5XDETVJaeA-2BkVG9CwsPjbFVHLub4UC80oAP0yVVM4hVgpU7xt-2Fv305U0uE4-2FVUXWppc8qQSK8zi4Gxo8hggovcfr7xV-2B75UygDDHdD-2FNu-2BqRl0xHo9hr0ZP-2Bc2lhBvMWeUu5BerxSdgfujw0V0-2BuwRODLqroP9wHuwqlsQCXRcpQeGs0wHj3gaJ&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   HYDRA
+  &lt;/a&gt;
+  , but run orders of magnitude faster. The predictive framework works by modeling shot-to-shot variability in NIF implosions, including factors such as laser precision, capsule imperfections and asymmetries in the laser drive, and propagating those uncertainties through the surrogate HYDRA model. The result is a distribution of predicted outcomes that gives researchers a clearer view of experimental risk and reward.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is a powerful capability not just for predicting performance, but for guiding experimental decisions,” said Spears. “It’s part of our larger push toward cognitive simulation for science — where data, models and machine learning work together to support human judgment.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team used a method called transfer learning to adapt the neural network from a previous shot design using just 57 new simulations, a fraction of what would normally be required. This allowed for rapid prediction within days, a crucial advantage for planning complex, high-stakes experiments, the researchers said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/11/lawrence-livermore-lab-logo-2-1-1124.png&quot;/&gt;
+  The approach has already proven its value in subsequent fusion shots, according to the team. Repeat experiments of the same design fell within the model’s predicted variability, offering a key validation of the method. The modeling capability is also now integrated into LLNL’s standard fusion experiment planning workflows, providing not just a better understanding of what went right in past shots, but a data-driven lens for where to go next.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Since [ignition] we’ve tested the model on many DT experiments that have been fielded at NIF,” Humbird said. “We’re using what we learned in this project to now explicitly design for high-yield, low-variability experiments. This will be particularly useful for shots where we might have external experiments where there is a specific range the yield needs to fall within to have a successful outcome.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead, researchers said the model offers a new way to assess the robustness of proposed fusion designs and could help guide future experiments aimed at boosting performance. While the approach was tailored specifically for ICF, the team notes that the broader framework — combining high-fidelity simulation, experimental data and AI — may have applications in other complex systems where data is limited and experiments are expensive. Additional research would be needed to extend this methodology beyond fusion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The research was supported with funding from the National Nuclear Security Administration. Co-authors include LLNL scientists Scott Brandon, Dan Casey, John Field, Jim Gaffney, Andrea Kritcher, Michael Kruse, Eugene Kur, Bogdan Kustowski, Steve Langer, Dave Munro, Ryan Nora, Luc Peterson, Dave Schlossberg, Paul Springer and Alex Zylstra.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For more information,
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.j69-2FGjMRnP4NNOF3LjDYtHbJZHcIgySgGfQcAFmr078yRYZ1b2NfH4GzbjVPbJivElOH9XQhvWqqJgqP3TZFAtlZpoPG-2Bvf9qT4SW8YLg04vtHe2zgauXypu-2F7J4wGn4y-pE_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2Fm28tcyonEa-2FsmB0aFqXJgNVSeZs6j5NW2Ug7r-2BnWJokBNlRZ2VftLWYgJ54nfO-2F8xGe9XSraT5XDETVJaeA-2BkSx-2BlgE0fODe9PU-2FAM6-2BsylhqE1YU0AH13iwBPQ-2BTo7VfoX-2F5CNNBtoFBl48Q0aTz4rTerBqo0JitZ5iU9Qcv1JofwJlTHYz0JbZrafcMVQrLGJBHn-2B3aeIPb-2Bc92MPeDzMAEH3ogQjk-2FZzlztqfTbVb16c3oRpZo9NbT63YEvXd&amp;source=gmail&amp;ust=1755880524430000&amp;usg=AOvVaw2YmvWrCAe8dGwIkz-YL3Af&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.j69-2FGjMRnP4NNOF3LjDYtHbJZHcIgySgGfQcAFmr078yRYZ1b2NfH4GzbjVPbJivElOH9XQhvWqqJgqP3TZFAtlZpoPG-2Bvf9qT4SW8YLg04vtHe2zgauXypu-2F7J4wGn4y-pE_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhh6QlTJb-2FFeti52ERB78C7uJ-2FT5-2Bu3Yt2FzRssOjAOTBhc885QgBVsUMX-2BqewyCtc-2Fm28tcyonEa-2FsmB0aFqXJgNVSeZs6j5NW2Ug7r-2BnWJokBNlRZ2VftLWYgJ54nfO-2F8xGe9XSraT5XDETVJaeA-2BkSx-2BlgE0fODe9PU-2FAM6-2BsylhqE1YU0AH13iwBPQ-2BTo7VfoX-2F5CNNBtoFBl48Q0aTz4rTerBqo0JitZ5iU9Qcv1JofwJlTHYz0JbZrafcMVQrLGJBHn-2B3aeIPb-2Bc92MPeDzMAEH3ogQjk-2FZzlztqfTbVb16c3oRpZo9NbT63YEvXd&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   click here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Definite Raises $10M for AI-Native Data Stack </title>
+<link>https://insideainews.com/2025/08/21/definite-raises-10m-for-ai-native-data-stack/</link>
+<pubDate>Thu, 21 Aug 2025 15:00:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/08/data-2-1-shutterstock-2491019731.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  WILMINGTON, Del., Aug. 21, 2025 — Definite, a full-stack AI-native data platform, today announced a $10 million seed round led by Costanoa, with participation from Acrew Capital and strategic angels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The funding will accelerate product development and go-to-market hiring as Definite scales adoption among enterprises.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Most companies juggle a costly mix of tools: a warehouse like Snowflake, an ETL service like Fivetran, and a business intelligence platform like Looker. Definite replaces that stack with an AI-native platform that combines a secure data lake, pipelines, and dashboards. Enterprises can connect their tools and get answers in minutes. It’s 10× faster and 10× cheaper than stitching together traditional products that demand a full data team.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Teams shouldn’t need six months, a half-million-dollar budget, and a team of engineers to get answers about their business,” said Mike Ritchie, CEO and founder of Definite. “We built Definite to make analytics radically simpler. With open-source under the hood and AI powering every interaction, we’re giving teams inquiry without the (SQL) queries.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Definite is SOC 2 Type II compliant and built on petabyte-scale, open-source data infrastructure, offering secure, fast, and cost-efficient analytics without vendor lock-in. Early adopters like Perfect and Meet Alfred are using Definite to simplify analytics and make smarter, faster decisions. “We went from zero to data lake in a couple hours and had a high-performance API running minutes later,” said George Papadopoulos, CEO of Meet Alfred.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Time and time again, we see startups pour millions into a modern data stack—only to end up with something that still requires a full data engineering team to get answers,” said John Cowgill, Partner at Costanoa. “
+   &lt;a href=&quot;http://www.definite.app&quot;&gt;
+    Definite
+   &lt;/a&gt;
+   is the answer to that pain: a powerful yet elegant solution that gives business users fast, flexible, and accurate insights without the bottlenecks. It’s exactly what modern teams demand—a powerful data platform that makes ad hoc analytics self-serve and fast without sacrificing trust or depth.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Definite is hiring across engineering and GTM, with a focus on enterprise sales. We are remote-first, high‑autonomy, and on a mission to make powerful data infrastructure accessible to the operators building the future.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Monash University to Build Australian HPC with NVIDIA and Dell </title>
+<link>https://insidehpc.com/2025/08/monash-university-to-build-australian-hpc-maveric-with-nvidia-and-dell/</link>
+<pubDate>Wed, 20 Aug 2025 20:24:14 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/06/monash-maveric-2-1-0625.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Monash University in Australia is developing and deploying MAVERIC, in collaboration with NVIDIA, Dell Technologies and the CDC Data Centres (CDC). The AI supercomputer will use first-in-Australia technology and will be designed to solve complex problems across a vast and multifaceted span of human endeavours.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Monash University Vice-Chancellor and President, Professor Sharon Pickering, said the collaboration with world-leading technology partners is essential in bringing together the expertise needed to strengthen sovereign capabilities right across the research and development pipeline.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We want our people – Monash academics, students and our research partners – to be at the forefront of shaping the future of AI; not just in how it’s applied, but in unlocking entirely new possibilities and innovations. Our focus is on solving real problems and putting AI to work in a meaningful way – from breakthroughs in cancer detection, to redefining what’s possible in preserving the health of our planet for future generations,” Professor Pickering said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Featuring the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/gb200-nvl72/&quot; rel=&quot;external noopener&quot; target=&quot;_blank&quot;&gt;
+   NVIDIA GB200 NVL72
+  &lt;/a&gt;
+  platform, MAVERIC will be purpose-built for large-scale AI and data-intensive workloads. This marks one of the first deployments of this advanced NVIDIA AI infrastructure platform in Australia, placing MAVERIC at the forefront of global AI supercomputing design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Monash will deploy the NVIDIA GB200 NVL72 architecture through Dell Technologies, which integrates NVIDIA accelerated computing,
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/ai-enterprise/&quot; rel=&quot;external noopener&quot; target=&quot;_blank&quot;&gt;
+   NVIDIA AI Enterprise
+  &lt;/a&gt;
+  software and AI frameworks into its high-performance Dell  Integrated Rack Scalable Systems (IRSS), including IR7000 racks with a Dell PowerEdge XE9712 server. Dell’s engineering expertise and integrated solutions will give Monash a robust and efficient platform tailored for AI research at scale, forming a critical foundation for MAVERIC’s advanced computing capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “For almost two decades, Dell Technologies has collaborated with Monash University on innovative technology solutions that allow research projects to reach their full potential. MAVERIC’s AI capabilities, run on Dell AI Factory with NVIDIA, will allow the university to participate in the fight against some of humanity’s biggest challenges, including disease and environmental science. To do so while boosting Australia’s sovereign AI capabilities is a win for the research community and a win for Australia,” said Angela Fox, SVP and Managing Director ANZ, Dell Technologies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CDC, a leading developer, owner and operator of highly secure and connected large-scale data centres in Australia and New Zealand, will house MAVERIC at its data centre in Brooklyn, Melbourne. The GB200 NVL72’s closed-loop liquid-cooling design delivers up to 300× greater water efficiency than traditional air-cooled systems, enabling heat removal without consumptive water use. CDC data centres are designed to operate with no water consumption for primary cooling, which helps save billions of litres of water annually across its campuses. Combined with CDC’s strong alignment with green energy goals, the deployment will support Monash’s commitment to a sustainable, high-impact research infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Monash University’s NVIDIA GB200 NVL72 supercomputer marks a new era for Australian research, empowering scientists and innovators to tackle the world’s toughest challenges with unprecedented AI capabilities and energy efficiency,” said Dennis Ang, senior director ASEAN and ANZ Region, NVIDIA. “Together, we’re building the foundation for breakthroughs that will create new economic opportunities and supercharge the next generation of researchers, developers and startups.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Assistant Minister for Science, Technology and the Digital Economy, Dr Andrew Charlton MP, welcomed today’s announcement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I welcome this collaboration between a great research institution and leading technology companies,” Assistant Minister Charlton said. “I met with NVIDIA today, and they were excited about the prospect of this tech platform being deployed in Australia for the first time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If Australia is going to stay at the cutting edge of research, we need to make sure we are accessing the best technology possible.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This will be key to unlocking growth and productivity in Australia, and ensure Australian researchers continue to be among the best in the world.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  CDC Founder and CEO Greg Boorer said, “This is a great example of how CDC’s next generation liquid cooling technology is helping transform the digital infrastructure of the research and education sector. CDC is proud to support the advancement of Australian research through the hosting of Monash University’s supercomputer MAVERIC. This partnership is a significant step forward in our mission to support the nation’s most critical organisations and institutions in driving the continued prosperity of Australia in an environmentally conscious and sustainable way.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Work to build MAVERIC will commence in 2025 with the platform to be activated in early 2026.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SuperQ Quantum Engages ArcStone Securities for Capital Markets Advisory </title>
+<link>https://insidehpc.com/2025/08/superq-quantum-engages-arcstone-securities-for-capital-markets-advisory/</link>
+<pubDate>Wed, 20 Aug 2025 20:24:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/04/quantum-shutterstock-2507311089-2-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Calgary, Canada – TheNewswire – August 20th, 2025 –
+  &lt;a href=&quot;https://www.superq.co/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   SuperQ Quantum Computing Inc.
+  &lt;/a&gt;
+  (“SuperQ Quantum”, “SuperQ”, or the “Company”) (CSE: QBTQ; Frankfurt: 25X; OTC: ATMGF) a global leader in quantum and supercomputing, announces its formal engagement with ArcStone Canada Inc. (“ArcStone”), a capital markets advisory firm and a subsidiary of ArcStone Securities and Investments Corp.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Under the terms of the agreement, ArcStone will provide SuperQ with comprehensive advisory services, including capital markets planning, institutional investor engagement, and strategic positioning across North American markets. The collaboration is aimed at expanding SuperQ’s visibility within the investment community and reinforcing its long-term commitment to delivering shareholder value through quantum and supercomputing innovation and commercial execution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have a strong belief in the future of Quantum Computing and the capability of SuperQ’s platform and its management team to execute on its growth strategy. There is massive upside to its current value and we are very excited to be a part of this process,” said Michael Astone, CEO of ArcStone. “Our mandate will be to support the Company with institutional coverage, U.S. market access, and provide support on all its capital market initiatives.”, Astone added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our engagement with ArcStone marks a pivotal step in aligning SuperQ’s disruptive technological trajectory with strategic capital markets expertise” says Dr. Muhammad Khan, CEO of SuperQ. “As we rapidly scale our Super™️ platform and establish Super Hubs globally, this partnership ensures that our innovation story is effectively communicated to institutional investors across North America. ArcStone’s leadership in U.S. market access and capital advisory will directly support our mission to deliver transformative quantum ROI and unlock long-term shareholder value” continued Dr. Khan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agreement is effective immediately.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hitachi Vantara’s Virtual Storage Platform One Available in Microsoft Azure Marketplace </title>
+<link>https://insidehpc.com/2025/08/hitachi-vantaras-virtual-storage-platform-one-available-in-microsoft-azure-marketplace/</link>
+<pubDate>Wed, 20 Aug 2025 19:56:49 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/Hitachi-Vantara-logo-2-1-1023-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;span&gt;
+    SANTA CLARA, Calif.
+   &lt;/span&gt;
+  &lt;/span&gt;
+  ,
+  &lt;span&gt;
+   &lt;span&gt;
+    Aug. 19, 2025
+   &lt;/span&gt;
+  &lt;/span&gt;
+  — Hitachi Vantara, the data storage, infrastructure and hybrid cloud management subsidiary of Hitachi, Ltd. (TSE: 6501), today announced the availability of Virtual Storage Platform One Software-Defined Storage (VSP One SDS) in the Microsoft Azure Marketplace, an online store that provides applications and services for use on Azure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hitachi Vantara customers can now utilize the Azure cloud platform, with streamlined deployment and management. The update gives enterprises the ability to manage and protect data across Azure and on-premises systems, with built-in provisioning, compression and replication capabilities that can reduce operational complexity and help control cloud costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This expansion comes as organizations face mounting pressure to do more with less. According to IDC*, 82 percent of cloud buyers said their cloud requires modernization, with challenges such as skills gaps, staffing shortages and the complexity of managing hybrid and multicloud environments. That inefficiency, combined with the rapid growth of data and limited visibility across hybrid environments, has led to billions of dollars in unnecessary spending and a growing push for automation, governance and tighter cost control.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To help address these challenges, VSP One SDS now offers support for Azure, enabling users to provision, manage and protect storage through a single control plane, powered by Hitachi Vantara’s VSP 360 unified management software solution. This centralized management layer simplifies operations across on-premises and cloud environments without the need to retool or rewrite applications. Built-in thin provisioning and enterprise-grade compression can help reduce cloud storage costs by up to 40 percent, while two-way asynchronous replication supports disaster recovery, improves uptime and speeds recovery during outages. These capabilities allow teams to migrate, test and scale workloads across environments without disruption, enabling faster DevOps cycles, more agile infrastructure planning and more resilient business continuity. The platform also delivers always-on availability and high performance at scale, backed by a long-standing track record of trust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Enterprises are under pressure to modernize infrastructure without disrupting what already works,” said
+  &lt;span&gt;
+   Octavian Tanase
+  &lt;/span&gt;
+  , chief product officer,
+  &lt;a href=&quot;http://www.hitachivantara.com&quot;&gt;
+   Hitachi Vantara
+  &lt;/a&gt;
+  . “By bringing VSP One to Microsoft Azure, we’re helping Azure customers extend the value of their existing investments while introducing new levels of resiliency, efficiency and simplicity. Our partner ecosystem plays a critical role in enabling that flexibility by helping organizations move at their own pace while keeping costs and complexity in check.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The addition of Azure support also gives Hitachi Vantara customers and partners greater flexibility and choice when planning and deploying hybrid cloud environments. With Azure cloud integration as a consistent foundation, organizations can enhance protection, improve operational efficiency and maximize the value of existing Hitachi Vantara storage. This seamless connectivity supports a more agile, resilient approach to hybrid IT, backed by trusted partners who can provide the expertise and support needed to simplify implementation and scale at pace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Microsoft Azure Marketplace welcomes Hitachi Vantara’s VSP One, which joins a cloud marketplace landscape offering flexibility and economic value while transacting tens of billions of dollars a year in revenues,” said
+  &lt;span&gt;
+   Jake Zborowski
+  &lt;/span&gt;
+  , general manager, Microsoft Azure Platform at Microsoft Corp. “Thanks to Azure Marketplace and partners like Hitachi Vantara, customers can do more with less by increasing efficiency, buying confidently and spending smarter.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The broader VSP One platform serves as a unified foundation for block, file and object storage across on-premises systems and the cloud. This gives organizations a consistent experience wherever data resides, helping reduce silos, improve visibility and simplify operations in hybrid environments. VSP One is engineered for continuous availability, with a target of 99.999 percent uptime to help minimize downtime and reduce the need for redundant infrastructure. That level of reliability supports native data movement between environments and enables business continuity without the burden of re-architecture or duplication.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These advancements are part of a strategy to unify data operations and simplify management across hybrid and distributed environments through the VSP One platform. It builds on prior support for block and object storage and the launch of VSP 360, which adds centralized automation, visibility and control to help organizations manage data more consistently across cloud and on-premises systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Azure Marketplace is an online market for buying and selling cloud solutions certified to run on Azure. The Azure Marketplace helps connect companies seeking innovative, cloud-based solutions with partners who have developed solutions that are ready to use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;i&gt;
+   *Source: IDC Blog, “Ten Trends That Shaped the Cloud Market in 2024,”
+   &lt;span&gt;
+    February 2025
+   &lt;/span&gt;
+  &lt;/i&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Opinion: Investing in Scientific Software as Ecosystem Infrastructure Should Be a National Imperative </title>
+<link>https://insidehpc.com/2025/08/opinion-investing-in-scientific-software-as-ecosystem-infrastructure-should-be-a-national-imperative/</link>
+<pubDate>Wed, 20 Aug 2025 19:31:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/generic-supercomputer-shutterstock-366600362.jpg&quot;/&gt;
+  By Mike Bernhardt, Founder and CEO,
+  &lt;a href=&quot;https://www.teamlibra.com/&quot;&gt;
+   Team Libra
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   We stand on the edge of a towering precipice, staring down at the wild, uncharted river where AI and high-performance computing converge. Below us, the current surges with breathtaking speed—rapids of innovation, whirlpools of disruption. The world is moving faster than ever, and we can’t just watch from the cliff. To navigate this torrent, we need a skilled crew, a resilient vessel, and the courage to launch. Because once we’re in the water, there’s no turning back.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  To ensure the nation’s socio-economic well-being in this new, uncharted era of artificial intelligence (AI) and high-performance computing (HPC), the rapid and accurate advancement of scientific discovery must be treated not merely as a strategic priority — but as a national imperative.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For decades, while several federal agencies have contributed significantly to advancing computational capabilities, having a positive impact on the nation, one federal agency in particular — the U.S. Department of Energy (DOE) — has provided dedicated leadership and funding to catalyze progress in advanced scientific computing. By harnessing the world’s most powerful computing systems, along with the expertise of many of the world’s brightest scientists and researchers, the DOE has demonstrated a history of success as a good partner with industry, fueling sustained innovation as we’ve seen with Cray, HPE, NVIDIA, and others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This long-term investment has led to major breakthroughs in fusion energy, materials science, national security, and many other areas of national importance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Historically, advances in computer hardware have played a central role in accelerating scientific discovery. But the Department of Energy (DOE) recognized early on that hardware alone isn’t enough. Real progress requires a tightly integrated approach — where hardware innovation is developed in tandem with advanced software systems and tools. The success of the Exascale Computing Project is a testament to that vision. DOE’s leadership not only pushed the boundaries of hardware but also prioritized the development of scalable software and cross-disciplinary teams. By aligning these efforts, the nation’s first exascale systems were ready to deliver scientific breakthroughs from day one. It’s a powerful model—one that deserves to be both repeated and expanded.
+ &lt;/p&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;
+   To make a point, many people I’ve interacted with don’t think of Large Language Models (LLMs) as software. But they are in fact, software. They mark a new class of software — one that combines machine learning, encoded knowledge, and probabilistic reasoning in ways that traditional programs simply can’t. LLMs will play a key role in next-generation scientific, technical, and financial software ecosystems.
+  &lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;p&gt;
+  The National Lab ecosystem serves as a vital bridge — an honest broker uniquely positioned between government, academia, and industry. It understands the distinct roles and needs of each, fostering collaboration while remaining steadfast in its responsibility to the taxpayer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2021/03/Department-of-Energy-DOE-seal.jpg&quot;/&gt;
+  Looking ahead, the central challenge is clear: we must streamline and accelerate the partnering process. In an era defined by rapid change and constant disruption, particularly in scientific and technical computing, our ability to adapt depends on it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we enter a complex and deeply interconnected era—one increasingly shaped by artificial intelligence in all its forms—we must reimagine the foundational role of scientific software. What’s needed is a next-generation ecosystem that brings together the full talent of the scientific and technical computing community to co-develop AI-enabled tools that accelerate cross-disciplinary team science. This is not just an opportunity—it is essential to sustaining the nation’s technological leadership and must be treated as a top funding priority.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The software component of this ecosystem must be funded and nurtured as part of a living ecosystem—one as essential to mission success as the nation’s investments in facilities, instruments, and talent. Recognizing this is not optional; it’s essential. While DOE will most likely lead in this development, this evolution to effectively integrate AI and HPC capabilities must take hold across government, academia, and industry to secure the future of innovation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To make a point, many people I’ve interacted with don’t think of Large Language Models (LLMs) as software. But they are in fact, software. They mark a new class of software — one that combines machine learning, encoded knowledge, and probabilistic reasoning in ways that traditional programs simply can’t. LLMs will play a key role in next-generation scientific, technical, and financial software ecosystems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   AI is not self-evolving in any form that will benefit the nation without proper guidance. The contribution of the human workforce is more important than ever.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the core of a thriving scientific software ecosystem are the cross-disciplinary professionals who develop, maintain, and scale a growing suite of tools and applications—research software engineers, domain scientists, data curators, user interface specialists, and infrastructure architects. Yet these critical roles often fall through the cracks of traditional funding models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To address this gap, expanded funding priorities must recognize and support this essential workforce. Funding sources, whether it be federal agencies or corporate and private investors, must invest in sustainable career paths that embed this critical expertise into long-term programmatic support. Doing so will ensure lasting benefits for the nation’s research enterprise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img loading=&quot;lazy&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2022/12/silicon-photonics-optical-IO-shutterstock_1868106472.jpg&quot;/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Moreover, next-generation research increasingly depends on
+  &lt;strong&gt;
+   heterogeneous computing environments
+  &lt;/strong&gt;
+  —from petascale and exascale platforms to edge devices. Any investments in HPC hardware must be matched, at a minimum, by a proportional commitment to these next-generation software layers that bridge human ingenuity with machine performance. Otherwise, we risk building engines of discovery that are less than effective or unreliable, due to a lack of usable, adaptable, and maintainable user interfaces.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As artificial intelligence and machine learning become deeply embedded in the nation’s scientific workflows—a transformation already well underway—data integrity, provenance, and reproducibility are increasingly viewed as foundational in many sectors. For others, particularly in fiercely competitive environments, speed and agility remain paramount. Rather than creating a conflict, these priorities highlight the need for stronger public-private partnerships on the challenges of AI adoption and implementation. By working together, we can shape AI and HPC software ecosystems that serve both national interests and market innovation—achieving the best of both worlds in a time of rising stakes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, contrary to much of the public discourse that AI can replace or function without human intervention, the various funding organizations must place emphasis on the
+  &lt;strong&gt;
+   adoption curve for humans,
+  &lt;/strong&gt;
+  not just building new systems. AI should be seen and used as a tool to support the human side of the ecosystem. If our software ecosystems are too complex or designed to be used by an elite few, they will fail to have the desired impact. Funding structures should prioritize usability, access, documentation, and training as core deliverables—not peripheral considerations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Government, Industry, and Academia Collaboration in Hardware, Software, and Human Assets is Paramount to the Effective Implementation, Adoption, and Success of Future AI and HPC Systems.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now is the time to reimagine how we support the new era of scientific software development. Rather than relying solely on traditional public funding, AI and HPC stakeholders should explore new strategies and new simplified models that foster collaborative investments among government, academia, and private sectors, with safeguards and incentives. These partnerships could accelerate innovation while strengthening the nation’s technological edge and socio-economic resilience.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Scientific software is far more than an academic concern—it’s a foundational driver of national competitiveness. From accelerating AI-driven breakthroughs in clean energy and materials science to strengthening our agricultural systems and national security, its impact reaches across critical sectors of society.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The question is no longer whether we can afford to invest in a robust scientific software ecosystem, but whether we can afford not to.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   &lt;img loading=&quot;lazy&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/Mike-Bernhardt-0322-e1705931100851-1024x864.jpg&quot;/&gt;
+   Mike Bernhardt is Founder, CEO &amp; Chief Strategist of the marketing and strategic communications firm
+   &lt;a href=&quot;https://www.teamlibra.com/&quot;&gt;
+    Team Libra, LLC
+   &lt;/a&gt;
+   . From 2016-2024, he was Senior Communications Lead and Leadership Advisor for the
+   &lt;a href=&quot;https://www.exascaleproject.org/&quot;&gt;
+    Exascale Computing Project
+   &lt;/a&gt;
+   .
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> IQM to Integrate Quantum Computer into Oak Ridge Lab’s HPC Systems </title>
+<link>https://insidehpc.com/2025/08/iqm-to-integrate-quantum-computer-into-oak-ridge-labs-hpc-systems/</link>
+<pubDate>Tue, 19 Aug 2025 20:31:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/02/IQM-logo-2-1-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  OAK RIDGE, TN and ESPOO, Finland– The Department of Energy’s Oak Ridge National Laboratory (ORNL) today announced it has selected IQM Radiance as its first purchased on-premises quantum computer to be integrated into high-performance computing (HPC) systems at ORNL.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IQM Radiance 20-qubit quantum computer is based on superconducting technology and aimed at accelerating hybrid quantum-classical application development. The quantum computer will be delivered by the third quarter of 2025 and is upgradeable to higher qubit counts in the future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Acquiring an on-premises IQM Radiance supports ORNL’s mission to work towards seamless, tight integration between quantum computing hardware and HPC infrastructure. ORNL’s teams have been recognised for leading quantum-HPC integration efforts in the research community for years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today’s announcement follows an earlier announcement of ORNL’s
+  &lt;a href=&quot;https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=https%3A%2F%2Fwww.olcf.ornl.gov%2Folcf-resources%2Fcompute-systems%2Fquantum-computing-user-program%2F&amp;esheet=54310187&amp;newsitemid=20250819262096&amp;lan=en-US&amp;anchor=Quantum+Computing+User+Program&amp;index=1&amp;md5=01eb99eac1da5079bc76ccfc9fbcc233&quot; rel=&quot;nofollow noopener&quot; shape=&quot;rect&quot; target=&quot;_blank&quot;&gt;
+   Quantum Computing User Program
+  &lt;/a&gt;
+  (QCUP) leveraging the IQM Resonance cloud platform for advanced quantum research.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “ORNL has a decades-long history in high-performance computing and is today one of the leading research institutions in the US for quantum computing,” said Travis Humble, advisor to the QCUP and director of the Quantum Science Center at
+  &lt;a href=&quot;https://www.ornl.gov/&quot;&gt;
+   ORNL
+  &lt;/a&gt;
+  . “IQM’s on-premises installation will allow our researchers hands-on access to cutting-edge quantum computing technology as we explore how quantum computers will be integrated with HPC systems to tackle early quantum advantage.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/12/oak-ridge-lab-logo-2-1-1224-3.png&quot;/&gt;
+  “We are excited that ORNL has selected IQM Radiance as their first-ever purchased on-premises quantum computer,” said Mikko Välimäki, Co-CEO of
+  &lt;a href=&quot;https://meetiqm.com/&quot;&gt;
+   IQM Quantum Computers
+  &lt;/a&gt;
+  . “This further proves that quantum computers are already today highly useful and in demand. Important research can be done to integrate quantum computers with classical hardware and develop the platform for quantum advantage.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since entering the US market, IQM has been leveraging its leading global market position, state-of-the-art technology, and partnerships to drive quantum research, adoption and education.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are committed to supporting ORNL’s pioneering efforts to advance quantum computing across the US. Our shared vision to accelerate the integration of quantum and HPC infrastructure has made this journey incredibly rewarding, and we are just getting started. Our long-term goal is to collaborate closely with ORNL’s researchers in quantum application areas like fluid dynamics, particle physics and electronic structure simulations,” said Jan Goetz, co-founder and co-CEO of IQM.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Orbital Data Center Launching to ISS to Advance Space Computing </title>
+<link>https://insidehpc.com/2025/08/orbital-data-center-launching-to-iss-to-advance-space-computing/</link>
+<pubDate>Tue, 19 Aug 2025 20:07:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/generic-2-1-shutterstock-1846354561-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  KENNEDY SPACE CENTER (FL), Aug 19, 2025
+  &lt;strong&gt;
+   –
+  &lt;/strong&gt;
+  A cutting-edge orbital data center is set to launch to the International Space Station (ISS), marking an important step forward in advancing space-based computing. The project, sponsored by the ISS National Laboratory, will test the system’s ability to provide increased data storage and real-time data processing in space—crucial capabilities for future commercial space stations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The investigation, launching on SpaceX’s 33
+  &lt;sup&gt;
+   rd
+  &lt;/sup&gt;
+  commercial resupply services mission for NASA, is a collaboration between ISS National Lab Commercial Service Provider Axiom Space and open-source software company Red Hat.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the demonstration, the team is testing in-orbit computing on an Axiom data center prototype powered by Red Hat Device Edge. “This technology could enable real-time processing of data close to where it is generated, reducing the need for downlink bandwidth, which is precious in space,” said Tony James, chief architect of science and space at Red Hat. “It could also enable time-sensitive decision making and a bit of autonomy. As experiments are running in space and decisions need to be made, you aren’t having to wait hours or days for information from the ground.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1-.png&quot;/&gt;
+  Research and manufacturing on future commercial space stations will require robust data storage and processing systems, making it critical to develop technologies that support these needs. Computing in space also must overcome challenges such as power constraints, radiation, and isolation from support systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “You need to ensure a space-based software platform has an appropriate level of resistance to damage from harsh conditions and the ability to self-heal with limited or no human intervention,” James said. “The system we are testing addresses those capabilities.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The data center’s software was developed using open-source technology, which encourages collaboration and innovation from developers around the globe. “This demonstration proves that open-source development truly unlocks the world’s potential, even at 400 km above Earth where the space station orbits.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  People have been doing computing in space for decades, but the focus has now shifted to how space-based operations could benefit from more advanced computing, James explained. For example, advanced computing could be used to monitor astronauts’ health on the Moon using spacesuits outfitted with sensors that send data such as heart and breathing rate to a central location. If an anomaly is detected, edge computing could use predictive AI models to help determine if the person has a health issue and needs to return to base. Additionally, developing data centers that successfully operate in space could help improve terrestrial data centers and those used in aircraft by increasing energy efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SpaceX’s 33rd commercial resupply mission for NASA is scheduled to launch no earlier than 3:55 a.m. EDT on Thursday, August 21 from Cape Canaveral Space Force Station in Florida. For additional information on ISS National Lab-sponsored investigations launching on this mission, visit our launch page.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> With Hammerpace and LANL’s Gary Grider at ISC25: Parallel Data Storage for Advanced Simulations </title>
+<link>https://insidehpc.com/2025/08/with-hammerpace-and-lanls-gary-grider-at-isc25-parallel-data-storage-for-advanced-simulations/</link>
+<pubDate>Tue, 19 Aug 2025 20:07:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Parallel file system legend Gary Grider, High Performance Computing Division Leader at Los Alamos National Lab, and Molly Presley, a well-known executive in the high performance storage sector and senior vice president of global marketing at AI data platform vendor Hammerspace, joined us at the ISC 2025 conference in Hamburg.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hammerspace is designed to be a data platform that accelerates AI anywhere. The Hammerspace hybrid cloud data plane unifies data silos into a single global namespace and orchestrates automated data delivery to GPUs and AI models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this interview, Gary and Molly update us on the role of Hammerspace data storage and management technology in supporting the increasingly complex simulation jobs at Los Alamos Lab, including how storage has increasingly become an “active participant” in data pipelines for researchers running large simulations.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Survey: 75% of HR Professionals Use AI </title>
+<link>https://insideainews.com/2025/08/19/survey-75-of-hr-professionals-use-ai/</link>
+<pubDate>Tue, 19 Aug 2025 18:55:00 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/02/storage-data-storage-2-1-shutterstock-1181228215.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  ATLANTA, AUGUST 18, 2025
+  &lt;strong&gt;
+   –
+  &lt;/strong&gt;
+  Human resources leaders are facing challenges using technology innovation to their advantage when it comes to attracting, onboarding, and retaining top talent, according to an Equifax Workforce Solutions (NYSE:EFX) survey. The survey polled over 250 HR executives and professionals at the SHRM25 Conference in San Diego (June 29 – July 1, 2025) found that 50 percent of HR professionals report one of their top challenges is using technology to automate workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As AI and emerging technologies proliferate, HR professionals increasingly want to automate the time-intensive aspects of their days so they can free up more time to focus on the human-first parts of their jobs that lead to more successful employee engagement and retention programs,” said Chris Johnson, Senior Vice President and General Manager of Employer
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://workforce.equifax.com/&amp;source=gmail&amp;ust=1755708591985000&amp;usg=AOvVaw0xCeZczfKk4rX2J2tjnslV&quot; href=&quot;https://workforce.equifax.com/&quot;&gt;
+  &lt;/a&gt;
+  Services, Equifax Workforce Solutions. “As technology changes the way work is completed, everything comes down to your people. HR teams know this, and that’s why they’re prioritizing the use of technology to help automate routine and manual processes so they can streamline tasks for their own teams while also simplifying and enhancing experiences for the employees they serve.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The current job market has proved difficult for many job seekers, leading some to embellish or altogether fabricate their experience or credentials. According to the survey,  71 percent of HR professionals have encountered fabricated or misleading candidate information in the hiring process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These issues were most commonly reported in employment history, educational background and credentials/licenses. Despite the frequency in which fraudulent information is appearing in job applications and resumes, only 1 in 5 (20 percent) HR professionals are “very confident” about their ability to detect fabricated or misleading candidate information.
+  &lt;strong&gt;
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our survey shows that HR is facing new challenges with the prevalence of misleading candidate information in the age of AI-generated resumes,” said Bart Lautenbach, Senior Vice President and General Manager of
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://workforce.equifax.com/verify-information&amp;source=gmail&amp;ust=1755708591985000&amp;usg=AOvVaw10iLhMQQbcpLwHmd6ZxgVy&quot; href=&quot;https://workforce.equifax.com/verify-information&quot;&gt;
+  &lt;/a&gt;
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://workforce.equifax.com/verify-information&amp;source=gmail&amp;ust=1755708591985000&amp;usg=AOvVaw10iLhMQQbcpLwHmd6ZxgVy&quot; href=&quot;https://workforce.equifax.com/verify-information&quot;&gt;
+   Talent
+  &lt;/a&gt;
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://workforce.equifax.com/verify-information&amp;source=gmail&amp;ust=1755708591985000&amp;usg=AOvVaw10iLhMQQbcpLwHmd6ZxgVy&quot; href=&quot;https://workforce.equifax.com/verify-information&quot;&gt;
+  &lt;/a&gt;
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://workforce.equifax.com/verify-information&amp;source=gmail&amp;ust=1755708591985000&amp;usg=AOvVaw10iLhMQQbcpLwHmd6ZxgVy&quot; href=&quot;https://workforce.equifax.com/verify-information&quot;&gt;
+   Solutions
+  &lt;/a&gt;
+  for Equifax Workforce Solutions. “Employers may think they have found a well-qualified candidate, only to learn after a comprehensive background check that this person was significantly exaggerating their experience. Making this mistake can be extremely costly, and organizations can leverage automated employment verifications to help deliver greater ROI on their hiring processes.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  HR leaders know that a bad hire can be costly. With a background check process that includes verifications of employment, education, and criminal history, hiring teams can help ensure a better quality hire. In addition,
+  &lt;a href=&quot;https://www.equifax.com/&quot;&gt;
+   Equifax
+  &lt;/a&gt;
+  research indicates a strong correlation between past and future job tenure. Candidates who frequently left jobs within 60 days repeated this pattern, while those with longer previous tenures were more likely to stay.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While speed-to-hire is a key metric for many HR organizations, less than 12 percent of HR professionals report that their organizations consistently hire candidates quickly. Slower hiring is not just frustrating for the candidate and hiring team, it can lead to companies missing out on top talent, which can have a real impact on business performance and team morale. Similarly, 83% of HR professionals see room for some improvement in their organization’s onboarding process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With innovative technologies, HR teams can help automate key components of the onboarding process, including onboarding and other forms, so they can help improve the new hire experience while keeping up with ever-changing regulatory and compliance demands. With real-time data and automation, HR teams can better ensure they are following important protocols, including background checks and other verifications, allowing them to help improve speed and accuracy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many HR professionals are already taking initiative and looking for ways to incorporate AI and automation into their workflows and address these challenges. Specifically, 76 percent of survey respondents reported using AI to help improve efficiency in hiring and onboarding. However, many HR teams are likely only scratching the surface in leveraging AI to help drive hiring and onboarding efficiencies, placing an increased importance on HR technology vendors to provide expertise and novel solutions.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> LambdaTest Unveils Agent-to-Agent AI Testing Platform </title>
+<link>https://insideainews.com/2025/08/19/lambdatest-unveils-agent-to-agent-ai-testing-platform/</link>
+<pubDate>Tue, 19 Aug 2025 17:24:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/08/lambdatest-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  San Francisco – August 19, 2025 — AI testing platform LambdaTest has launched the private beta release of Agent-to-Agent Testing, a platform designed to validate and assess AI agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the rise of AI agents in developer workflows, the platform is designed to help organizations test and validate AI agents across conversation flows, intent recognition, tone consistency, complex reasoning, and beyond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As enterprises increasingly rely on AI agents to power customer experiences, a critical challenge has emerged: no standard way of testing various AI Agents. These agents interact with users and systems in ways that are dynamic and unpredictable, making it hard to ensure their reliability and performance. Traditional testing methods fall short when the system under test is inherently unpredictable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Organizations need a new, smarter way to test AI applications at scale, which is where Agent-to-Agent Testing comes in. LambdaTest’s Agent-to-Agent Testing platform is the first of its kind. The platform uses a suite of specialized AI testing agents to rigorously validate chat and voice AI agents..
+ &lt;/p&gt;
+ &lt;p&gt;
+  Teams can upload existing requirement documents in various formats, such as text, images, audio, and video, and the system automatically handles multi-modal analysis to generate relevant test scenarios, simulating real-world challenges that could break the AI agent under test. Each scenario includes precise validation criteria and expected responses, evaluated within HyperExecute, LambdaTest’s next-gen test orchestration cloud, delivering up to 70 percent faster test execution than standard automation grids.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform highlights different key metrics like Bias, Completeness, Hallucinations, etc., to help teams analyse the quality of their AI agent
+ &lt;/p&gt;
+ &lt;p&gt;
+  By integrating agentic AI and GenAI technologies, it generates real-world scenarios such as tone of personality agents, data privacy considerations, and executes test cases with unparalleled accuracy. This ensures much broader and more diverse test coverage compared to traditional testing tools. Unlike single-agent systems, LambdaTest’s Agent-to-Agent Testing leverages multiple large language models (LLMs), which the agents use for reasoning and test generation. This multi-agent approach results in a much more comprehensive and detailed test suite, enabling deeper, more robust testing of AI applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Every AI agent you deploy is unique, and that’s both its greatest strength and its biggest risk! As AI applications become more complex, traditional testing approaches simply can’t keep up with the dynamic nature of AI agents,” said Asad Khan, CEO and Co-Founder at
+  &lt;a href=&quot;https://www.lambdatest.com/&quot;&gt;
+   LambdaTest
+  &lt;/a&gt;
+  . ” Our Agent-to-Agent Testing platform thinks like a real user, generating smart, context-aware test scenarios that mimic real-world situations your AI might struggle with. Each test comes with clear validation checkpoints and the responses we’d expect to see.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Enterprises using Agent-to-Agent Testing will experience faster test creation, evaluation of Agents, reduced testing cycles, and significant improvements in test coverage. The multi-agent system can generate a 5 to 10-fold increase in test coverage, providing a more comprehensive view of AI agent performance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Furthermore, the integration with HyperExecute means teams receive rapid feedback, reducing the time between testing and iteration. By automating much of the testing process, companies also reduce their reliance on manual QA efforts, resulting in significant cost savings. With 15 purpose-built AI testing agents ranging from security researchers to compliance validators, LambdaTest Agent-to-Agent testing ensures every deployment is as robust, safe, and reliable as possible. Helping teams ship their AI agents with confidence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Learn more about Agent-to-Agent Testing by LambdaTest here: https://www.lambdatest.com/
+  &lt;wbr&gt;
+   agent-to-agent-testing
+  &lt;/wbr&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  To watch the live unveiling of the platform, join the Testμ Conference 2025 on 20th August, 2025:
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://zwly9k6z.r.us-east-1.awstrack.me/L0/https:%252F%252Fwww.lambdatest.com%252Ftestmuconf-2025/1/01000198c23aad5e-bffcee79-eec4-478d-bb85-6c18fc584d25-000000/jTP3t0MTh3rFYeVi2Zk6wJNT8D4%3D439&amp;source=gmail&amp;ust=1755694105728000&amp;usg=AOvVaw1s5ArmO7p3DHoUgLWK8dS6&quot; href=&quot;https://zwly9k6z.r.us-east-1.awstrack.me/L0/https:%2F%2Fwww.lambdatest.com%2Ftestmuconf-2025/1/01000198c23aad5e-bffcee79-eec4-478d-bb85-6c18fc584d25-000000/jTP3t0MTh3rFYeVi2Zk6wJNT8D4=439&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   https://www.lambdatest.com/
+   &lt;wbr&gt;
+    testmuconf-2025
+   &lt;/wbr&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Data Center Availability Crisis at 2.3% Historic Low </title>
+<link>https://insidehpc.com/2025/08/data-center-availability-crisis-at-2-3-historic-low/</link>
+<pubDate>Mon, 18 Aug 2025 19:21:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/05/generic-HPC-supercomputing-shutterstock-1107716192.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  CHICAGO, August 18, 2025 – The North America data center colocation market has reached a critical tipping point, with vacancy rates plummeting to an unprecedented 2.3 percent amid relentless demand for digital infrastructure, according to JLL, a commercial real estate and investment management company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  JLL’s “North America Data Center Report – Midyear 2025” reveals how, as inventory grows to a record 15.5 GW, the sector continues its explosive growth trajectory while grappling with severe capacity constraints and energy sourcing challenges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Northern Virginia maintains its position as North America’s largest data center market. With 5.6 GW of capacity, it is more than triple the size of Dallas-Fort Worth, the second-largest market at 1.5 GW. The report also highlights how cloud providers and technology companies continue to dominate data center demand, accounting for 65 percent of all leasing activity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The colocation market is experiencing unprecedented demand pressure under an increasingly stressful environment,” said Andy Cvengros, Executive Managing Director, Co-Lead of U.S. Data Center Markets, JLL. “The first half of the year was riddled with disruptions, including the DeepSeek news at the beginning of the year and the potential impact of tariffs on demand and construction. Despite the turbulence, the sector posted another record-shattering performance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The market absorbed an impressive 2.2 GW in H1, with half of this activity concentrated in Northern Virginia (647 MW) and Dallas-Fort Worth (575 MW). Chicago (368 MW) and Austin/San Antonio (291 MW) also showed significant leasing activity, putting the sector on pace to exceed 2024’s record absorption levels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What we’re seeing across primary markets is nothing short of extraordinary,” said Curt Holcomb, Managing Director with JLL’s global Data Center Solutions practice team. “In Dallas-Fort Worth, for example, there is unparalleled competition for limited capacity. Major cloud providers are securing power reservations years in advance, and the development pipeline has expanded to over 1 GW under construction. Meanwhile, Austin has emerged as a genuine Tier 1 market with nearly 921 MW of inventory and another 341 MW under construction, representing a 500 percent growth since 2020.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The construction pipeline has ballooned to 7.8 GW, approximately 10 times the volume from five years ago. Phoenix (1.3 GW) leads development activity followed by Chicago (1.18 GW) and Atlanta (1.11 GW) leading development activity outside Northern Virginia.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More concerning for those seeking space is that 73 percent of all capacity under construction is already preleased. High preleasing has remained consistent for the past two years, signaling meaningful market relief remains years away.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The days of build-it-and-they-will-come are long gone,” said Matt Landek, Division President, U.S. Data Center Work Dynamics, who also leads JLL’s Data Center Project Development and Services. “What we’re seeing now is ‘commit-before-it’s-built-or-you-won’t-get-in.’ This is fundamentally changing how companies approach their data center strategies. Enterprise users who once planned 6 to 12 months in advance are now securing capacity and their facilities and operations teams 18 to 24 months before their intended deployment dates, sometimes even earlier.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  While established markets continue to dominate the landscape, emerging markets are experiencing dramatic growth. Columbus has seen an astounding 1,800 percent growth since 2020, while Austin/San Antonio has grown 500 percent from a smaller base during the same period. These emerging markets are benefiting as power constraints in primary markets push development elsewhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Commercial electricity rates have risen nearly 30 percent since 2020, reaching an average of 9.7 cents/kWh in H1 2025. This increasing cost pressure has driven development toward markets with lower power costs such as Salt Lake City (5.7 cents/kWh) and Denver (6.4 cents/kWh).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The average wait time for a grid connection across the U.S. is now four years. Power delays remain a significant hurdle in alleviating supply constraints. However, there is a silver lining, this obstacle is also preventing a bubble from forming in the sector.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Power has become the new real estate,” said Andrew Batson, Head of U.S. Data Center Research at
+  &lt;a href=&quot;https://www.jll.com/en-us/&quot;&gt;
+   JLL
+  &lt;/a&gt;
+  . “With vacancy effectively at 0 percent, virtually all absorption is the result of preleasing with delivery times extending beyond 12 months. The market has been growing at a remarkable 20 percent CAGR since 2017, and our development pipeline data suggests this pace will continue through 2030, with the colocation market potentially expanding to 42 GW of capacity.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The data center sector continues to solidify its position as one of the most favored real estate asset classes, with market capitalization growth of 161 percent since 2019, second only to industrial properties. This remarkable growth is driven by insatiable tenant demand, limited supply and rising rents, creating a compelling investment thesis that continues to attract new capital to the sector.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There was a significant increase in the amount of capital deployed into data center projects under construction or reaching stabilization in the first half of 2025 compared to the previous year” said Carl Beardsley, Senior Managing Director, Data Center Leader, JLL Capital Markets. “We’re seeing developments with long-term leases achieving up to 85 percent loan-to-cost from senior lenders at competitive spreads, while new entrants to the lending market are pushing greater flexibility in terms, higher leverage options and increasingly creative structures at stabilization.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The debt markets for data centers are experiencing significant expansion, with asset-backed security (ABS) and single-asset single-borrower (SASB) loan activity increasing for the third consecutive year. The first half of 2025 saw 14 ABS deals totaling $7.7 billion and four SASB deals totaling $5.7 billion, substantial increases from the same period in 2024. Meanwhile, asset-level investment sales remained relatively muted at $754 million across 23 transactions in H1 2025, with average cap rates holding steady around 6 percent, comparable to premium industrial and multi-housing properties.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead, JLL anticipates the supply-demand imbalance to persist over the next several years. Projects already under construction are 73 percent preleased, and while an additional 31.6 GW of capacity is planned, that supply will be phased over five years or more. Northern Virginia leads all markets with 5.9 GW planned, followed by Phoenix (4.2 GW), Dallas-Fort Worth (3.9 GW) and Las Vegas/Reno (3.5 GW).
+ &lt;/p&gt;
+ &lt;p&gt;
+  “North America could see $1 trillion of data center development between 2025 and 2030,” Batson added. “Based on our forecast, more than 100 GW of colocation and hyperscale capacity could break ground or deliver over the next five years. These projections do not include the potential upside of quantum computing, which we see as a sector accelerant over the next 5 to 10 years.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The combination of AI adoption, digital transformation initiatives and cloud migration has created a perfect storm of demand that the industry simply cannot meet quickly enough, leading to the current supply crunch and making forward planning more crucial than ever for enterprises seeking data center capacity.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> News Bytes 20250818: DeepSeek Model Training Troubles; RISC-V GPU Startup Seeks Funds </title>
+<link>https://insideainews.com/2025/08/18/news-bytes-20250818-deepseek-model-training-troubles-risc-v-gpu-startup-seeks-funds/</link>
+<pubDate>Mon, 18 Aug 2025 18:58:31 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/04/generic-data-2-1-shutterstock-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  A good August morning to you! It was a geopolitically-weighted week in the world of HPC-AI, here’s a quick (8:29) overview of recent developments, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Will the US government invest in Intel?
+ &lt;/p&gt;
+ &lt;p&gt;
+  – How are Chinese AI chips performing for new LLMs?
+ &lt;/p&gt;
+ &lt;p&gt;
+  – No slowdown in funding for new AI chip startups
+ &lt;/p&gt;
+ &lt;p&gt;
+  – NSF and NVIDIA chip-in for AI for Science
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on the OrionX.net podcast page , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Photonic Computing: Lightmatter Reports 16-Wavelength Bidirectional Link on Single-Mode Optical Fiber </title>
+<link>https://insidehpc.com/2025/08/photonic-computing-lightmatter-reports-16-wavelength-bidirectional-link-on-single-mode-optical-fiber/</link>
+<pubDate>Mon, 18 Aug 2025 17:51:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/12/Lightmatter-logo-2-1-1223-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  MOUNTAIN VIEW, Calif. –Photonic computing company Lightmatter today announced what it called  groundbreaking new in optical communications: a 16-wavelength bidirectional Dense Wavelength Division Multiplexing (DWDM) optical link operating on one strand of standard single-mode (SM) fiber.
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Powered by Lightmatter’s Passage interconnect and Guide laser technologies, the capability “shatters previous limitations in fiber bandwidth density and spectral utilization, setting a new benchmark for high-performance, resilient data center interconnects,” the company said.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    With the rise of complex trillion-parameter Mixture of Experts (MoE) models, scaling AI workloads is increasingly bottlenecked by bandwidth and radix (I/O port count) limitations in data center infrastructure. Lightmatter’s Passage technology delivers an unprecedented 800 Gbps bidirectional bandwidth (400 Gbps transmit and 400 Gbps receive) per single-mode fiber for distances of several hundred meters or more. This achievement advances chip I/O design by simultaneously increasing both radix and bandwidth per fiber compared to existing co-packaged optics (CPO) solutions.
+   &lt;/p&gt;
+   &lt;p&gt;
+    While commercial bidirectional (BiDi) transmission on a single fiber has been limited mainly to two wavelengths, achieving 16 wavelengths (also referred to as “lambdas”) has historically required multiple or specialized fibers. This Lightmatter milestone addresses significant technical challenges related to managing complex wavelength-dependent propagation characteristics, power budget constraints, optical nonlinearity, and mitigating crosstalk and backscattering in a single fiber. Such innovations pave the way for the next major advances in AI model development, which demand more extensive and efficient high-bandwidth networking than exists today.
+   &lt;/p&gt;
+   &lt;p&gt;
+    “Data centers are the new unit of compute in the AI era, with the next 1000X performance gain coming largely from ultra-fast photonic interconnects,” said Nicholas Harris, founder and CEO of Lightmatter. “Our 16-lambda bidirectional link is an architectural leap forward. Hyperscalers can achieve significantly higher bandwidth density with standard single-mode fiber, reducing both capital expenditure and operational complexity, while enabling higher ‘radix’—more connections per XPU or switch.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    “Lightmatter’s innovation arrives at a pivotal moment for hyperscale AI infrastructure. The ability to dramatically increase bandwidth density on existing single-mode fiber, coupled with the technology’s robust thermal performance, is a game-changer for data center scalability and efficiency. This solves one of the most pressing challenges in AI development and brings advanced Co-Packaged Optics a giant step closer to market,” said Alan Weckel, co-founder and analyst, 650 Group.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Lightmatter technology a proprietary closed-loop digital stabilization system that actively compensates for thermal drift, ensuring continuous, low-error transmission over wide temperature fluctuations. In addition, architectural innovations make the Passage 3D CPO platform inherently polarization-insensitive, maintaining robust performance even when the fibers are being handled or subject to mechanical stress. Standard SM fiber, while offering immense bandwidth potential, does not inherently maintain light’s polarization state, unlike specialized and more costly polarization-maintaining (PM) fiber. By achieving polarization insensitivity, Lightmatter enables the use of cost-effective SM fiber for its industry-leading bidirectional DWDM technology.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This combination of unparalleled fiber bandwidth density, efficient spectral utilization, and robust performance makes Lightmatter’s Passage technology foundational for the industry’s transition from electrical to optical interconnects in AI data centers. It empowers customers to accelerate development of larger and more capable AI models with more powerful, efficient, and scalable data centers.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20250818: US to Invest in Intel?; DeepSeek Training Trouble; RISC-V GPU Startup Seeks Funds; NSF-NVIDIA Partnerhip </title>
+<link>https://insidehpc.com/2025/08/hpc-news-bytes-20250818-us-to-invest-in-intel-deepseek-training-trouble-risc-v-gpu-startup-seeks-funds-nsf-nvidia-partnerhip/</link>
+<pubDate>Mon, 18 Aug 2025 14:47:37 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/05/generic-HPC-supercomputing-shutterstock-1107716192.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/08/HPCNB_20250818.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A good August morning to you! It was a geopolitically-weighted week in the world of HPC-AI, here’s a quick (8:29) overview of recent developments, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Will the US government invest in Intel?
+ &lt;/p&gt;
+ &lt;p&gt;
+  – How are Chinese AI chips performing for new LLMs?
+ &lt;/p&gt;
+ &lt;p&gt;
+  – No slowdown in funding for new AI chip startups
+ &lt;/p&gt;
+ &lt;p&gt;
+  – NSF and NVIDIA chip-in for AI for Science
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on the OrionX.net podcast page , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Report: AI to Drive Data Center Physical Infrastructure Market to $63B by 2029 </title>
+<link>https://insidehpc.com/2025/08/report-ai-to-drive-data-center-infrastructure-market-to-63b-by-2029/</link>
+<pubDate>Fri, 15 Aug 2025 17:03:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/01/disaster-data-center-it-2-1-shutterstock-2471030435-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  REDWOOD CITY, Calif. – August 15, 2025 – According to a report from Dell’Oro Group, the worldwide data center physical infrastructure (DCPI) market is projected to grow at a 15 percent CAGR from 2024 to 2029, reaching $63.1 billion by 2029 as AI-ready capacity accelerates through the mid-decade. This outlook reflects stronger-than-expected deployments to support accelerated computing workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI is reshaping facility design from the rack up—densities are climbing, power is getting smarter, and liquid is moving from niche to necessary,” said Alex Cordovil, Research Director at
+  &lt;a href=&quot;http://www.delloro.com&quot;&gt;
+   Dell’Oro Group
+  &lt;/a&gt;
+  . “Our latest forecast shows the market scaling faster and more broadly than earlier expected, with vendors and operators adapting quickly to new thermal and electrical realities while navigating power constraints pragmatically.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additional highlights from the Data Center Physical Infrastructure 5-Year July 2025 Forecast Report:
+ &lt;/p&gt;
+ &lt;ul type=&quot;disc&quot;&gt;
+  &lt;li&gt;
+   Thermal Management is projected to grow at a 19 percent CAGR by 2029; within it, Direct Liquid Cooling (DLC) is set to surge from $1.1B in 2024 to $5.8B in 2029 as rack densities rise with accelerated computing and DLC asserts itself as the dominant heat technology to dissipate heat out of the rack.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Cabinet PDU &amp; Busway will expand at a 21 percent CAGR; overhead busbars—now the de facto choice for AI halls—are forecast to grow 25 percent CAGR, while RPPs lag at 5 percent CAGR.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Service Providers (cloud &amp; colocation) are set to grow at a 20 percent CAGR through 2029, while Enterprise increases 6 percent CAGR as enterprise leaders favor colocation partners to host AI infrastructure.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Growth is broad-based, with North America leading and EMEA/China peaking around 2026 before moderating; AI sovereignty and export-policy shifts support momentum.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Operators increasingly combine utility ties with on-site generation and other tactics; overall, we expect only a modest impact on capacity expansion from power constraints.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Launches Compact Workstations with Blackwell </title>
+<link>https://insideainews.com/2025/08/15/36949/</link>
+<pubDate>Fri, 15 Aug 2025 16:16:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-36952&quot; src=&quot;https://insideainews.com/wp-content/uploads/2025/08/nvidia-rtx-pro-2000-blackwell-1.png&quot;/&gt;
+  &lt;p&gt;
+   NVIDIA RTX Pro 2000 Blackwell
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NVIDIA this week announced the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-4000-sff/&quot;&gt;
+   NVIDIA RTX PRO 4000 Blackwell SFF Edition
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-2000/&quot;&gt;
+   NVIDIA RTX PRO 2000 Blackwell
+  &lt;/a&gt;
+  GPUs in compact form factors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They include fourth-generation RT Cores and fifth-generation Tensor Cores with lower power in half the size of a traditional GPU, the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The new GPUs are designed to bring next-generation performance to a range of professional workflows, providing incredible speedups for engineering, design, content creation, AI and 3D visualization,” said NVIDIA.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Compared with the previous-generation architecture, the RTX PRO 4000 SFF features up to 2.5x higher AI performance, 1.7x higher ray-tracing performance and 1.5x more bandwidth, creating more efficiency with the same 70-watt max power consumption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Targeting mainstream design and AI workflows, the RTX PRO 2000 offers up to 1.6x faster 3D modeling, 1.4x faster computer-aided design (CAD) performance and 1.6x quicker rendering speeds compared with the previous generation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The RTX PRO 2000 GPU’s offer a 1.4x boost in image generation and 2.3x in text generation, designed for faster iteration, rapid prototyping and seamless collaboration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA’s software ecosystem enables creators, developers and enterprises to harness the full power of AI and advanced graphics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/products/ai-enterprise/&quot;&gt;
+   NVIDIA AI Enterprise software suite
+  &lt;/a&gt;
+  delivers enterprise-grade tools for building, deploying and scaling production AI — from
+  &lt;a href=&quot;https://www.nvidia.com/en-us/glossary/generative-ai/&quot;&gt;
+   generative AI
+  &lt;/a&gt;
+  and computer vision to speech and natural language solutions — on virtually any infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2023/08/NVIDIA_logo_2023.png&quot;/&gt;
+  The
+  &lt;a href=&quot;https://www.nvidia.com/en-us/ai/cosmos/&quot;&gt;
+   NVIDIA Cosmos
+  &lt;/a&gt;
+  platform offers world foundation models optimized for fast, efficient inference and edge deployment, enabling high-performance AI for robotics, automation and physical AI applications. The Cosmos-Reason1-7B model can run seamlessly on the RTX PRO 4000 SFF, delivering powerful physical AI reasoning capabilities to edge devices, compact workstations and industrial systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA’s graphics and visualization tools, including the
+  &lt;a href=&quot;https://developer.nvidia.com/omniverse&quot;&gt;
+   NVIDIA Omniverse
+  &lt;/a&gt;
+  platform, bring generative physical AI and simulation to 3D design teams, facilitating
+  &lt;a href=&quot;https://www.nvidia.com/en-us/glossary/digital-twin/&quot;&gt;
+   digital twins
+  &lt;/a&gt;
+  and visual workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, the Blackwell platform builds on NVIDIA’s ecosystem of powerful development tools,
+  &lt;a href=&quot;https://developer.nvidia.com/gpu-accelerated-libraries&quot;&gt;
+   NVIDIA CUDA-X libraries
+  &lt;/a&gt;
+  , over 6 million developers and close to 6,000 applications to scale performance across thousands of GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Availability
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NVIDIA RTX PRO 2000 Blackwell and NVIDIA RTX PRO 4000 Blackwell SFF Edition GPUs are coming later this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The RTX PRO 2000 is expected to be available from PNY and TD SYNNEX, as well as system builders such as BOXX, Dell Technologies, HP and Lenovo.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NVIDIA RTX PRO 4000 Blackwell SFF Edition is expected to be available from global distribution partners and leading manufacturing partners such as Dell Technologies, HP and Lenovo.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NSF and NVIDIA in $152M AI for Science Partnership </title>
+<link>https://insidehpc.com/2025/08/nsf-and-nvidia-in-152m-ai-for-science-partnership/</link>
+<pubDate>Thu, 14 Aug 2025 21:39:44 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/nsf-nvidia-logo-2-1-0825-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The National Science Foundation today announced a partnership with NVIDIA to develop a set of artificial intelligence-based models for scientific discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NSF will contribute $75 million, with
+  &lt;a data-extlink=&quot;&quot; href=&quot;https://blogs.nvidia.com/blog/national-science-foundation-ai2-open-ai-models&quot; rel=&quot;nofollow&quot;&gt;
+   NVIDIA
+  &lt;/a&gt;
+  providing an additional $77 million, to support the Open Multimodal AI Infrastructure to Accelerate Science (OMAI) project, led by the
+  &lt;a data-extlink=&quot;&quot; href=&quot;https://allenai.org/blog/nsf-nvidia&quot; rel=&quot;nofollow&quot;&gt;
+   Allen Institute for AI
+  &lt;/a&gt;
+  (Ai2). The collaboration will create a fully open suite of advanced AI models specifically designed to support the U.S. scientific community, NFS said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This public-private investment advances priorities set forth in the White House
+  &lt;a href=&quot;https://www.ai.gov/action-plan&quot;&gt;
+   AI Action Plan
+  &lt;/a&gt;
+  to accelerate AI-enabled science and ensure the United States is producing the leading open models that enhance America’s global AI dominance,” NFS said in its announcement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Bringing AI into scientific research has been a game changer,” said Brian Stone, performing the duties of the NSF director. “NSF is proud to partner with NVIDIA to equip America’s scientists with the tools to accelerate breakthroughs. These investments are not just about enabling innovation; they are about securing U.S. global leadership in science and technology and tackling challenges once thought impossible.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The development of AI technologies is advancing rapidly, but the cost of creating and researching powerful AI models has grown beyond the budgets of university labs and federally funded researchers. This growing divide limits the topics that academic researchers can explore, despite their historic role in pioneering many of the foundational breakthroughs that power today’s AI models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With this support, Ai2 will create open-source, multimodal large language models trained on scientific data and literature. These tools will enable America’s researchers and developers to process and analyze research faster, generate code and visualizations, and connect new insights to past discoveries, accelerating breakthroughs across materials science, biology, energy and more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As called for in the AI Action Plan, the Trump administration is committed to ensuring America fosters the leading open-source and open-weight models that set the global standard for business and academic research worldwide,” said Michael Kratsios, director of the White House Office of Science and Technology Policy.” This partnership between NSF and NVIDIA puts the Action Plan to work and demonstrates the power of the American innovation ecosystem. We look forward to the novel research and scientific breakthroughs to come through open-source model development and AI-enabled science.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NSF’s support is provided through its
+  &lt;a href=&quot;https://www.nsf.gov/funding/opportunities/mid-scale-ri-1-mid-scale-research-infrastructure-1&quot;&gt;
+   Mid-Scale Research Infrastructure program
+  &lt;/a&gt;
+  , which funds high-impact, high-reward, community-driven infrastructure that fills the gap between individual research grants and large-scale national facilities. The project will also build a national AI-ready workforce, supporting training efforts that expand participation and expertise beyond traditional tech hubs, strengthening American competitiveness in AI and other critical technologies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI is the engine of modern science — and large, open models for America’s researchers will ignite the next industrial revolution,” said Jensen Huang, founder and CEO of NVIDIA. “In collaboration with NSF and Ai2, we’re accelerating innovation with state-of-the-art infrastructure that empowers U.S. scientists to generate limitless intelligence, making it America’s most powerful and renewable resource.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Initial applications of Ai2’s work will include AI breakthroughs to accelerate the discovery of new materials, improve protein function prediction for biomedical advancements and address core weaknesses in today’s large language models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project will provide a path forward to a future paradigm of AI-accelerated scientific discovery, supporting reliable and rigorous science and building an innovation ecosystem that benefits every American.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Fully-open AI is not just a preference — it’s a necessity,” said Ali Farhadi, CEO of Ai2. “For the U.S. to continue leading the next era of scientific and technological discovery, we must create open, collaborative ecosystems where millions of researchers and developers can work together to improve and expand these systems. This infusion will supercharge the work we do at Ai2 and increase America’s ability to deliver breakthrough AI developments.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NSF and NVIDIA contributions will also support research teams from the University of Washington, the University of Hawaii at Hilo, the University of New Hampshire and the University of New Mexico.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Get more information about the
+  &lt;a href=&quot;https://www.nsf.gov/funding/opportunities/mid-scale-ri-1-mid-scale-research-infrastructure-1&quot;&gt;
+   NSF Mid-Scale Research Infrastructure
+  &lt;/a&gt;
+  program.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> GlobalFoundries Completes Acquisition of MIPS </title>
+<link>https://insidehpc.com/2025/08/globalfoundries-completes-acquisition-of-mips/</link>
+<pubDate>Thu, 14 Aug 2025 20:03:54 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2022/04/GlobalFoundries-040822.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  MALTA, N.Y., Aug. 14, 2025 – GlobalFoundries (Nasdaq: GFS) (GF) today announced that it has completed its acquisition of MIPS, a leading supplier of AI and processor IP. The acquisition strengthens GF’s position as a global leader in differentiated semiconductor manufacturing and enhances its capabilities in AI, edge computing and other high-growth markets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The combination of GF and MIPS brings together decades of expertise in advanced semiconductor manufacturing and processor IP innovation, enabling GF to deliver more differentiated solutions to meet the growing demand for energy-efficient, high-performance computing at the edge and beyond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MIPS is expected to continue to operate as a standalone business within GF, maintaining its licensing model and focusing on serving a broad customer base across diverse technology sectors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  About GF
+ &lt;/p&gt;
+ &lt;p&gt;
+  GlobalFoundries (GF) is a leading manufacturer of essential semiconductors the world relies on to live, work and connect. We innovate and partner with customers to deliver more power-efficient, high-performance products for the automotive, smart mobile devices, internet of things, communications infrastructure and other high-growth markets. With our global manufacturing footprint spanning the U.S., Europe and Asia, GF is a trusted and reliable source for customers around the world. Every day, our talented global team delivers results with an unyielding focus on security, longevity and sustainability. For more information, visit
+  &lt;a href=&quot;https://www.globenewswire.com/Tracker?data=iucbMK6he6SzeSFAJPwImYRq4ThkLUJGv23Gr_Gf_8MDQ9dCqyM0_sAeIkIR2hLwLUmXwHh_5o95-3sscFbi688R1-8_XXKpCfhI533C667O_0aaKB1QKg5UfUVX1Wb0greVAm4JbOYle40xy2GH2mrLHfvhaKQUL_x3Y4rJ7Q2zfoKRvUvJF35Iz6rQOqVAKX8gSSmEzbwcRJ2NkLjP18JRce8BqEQqTKAlMuqkazpZDsT9wFtEzS7kFWTzUQFyGJ_ErG_s1T9SJd6zEX73WdSDhFs0aiIsGjpNCy3NIEqhFzg9wpLwNTJnfNoHpxeU1Qe5rwq52TsTtXyqHuRA9-3i7CaFXNXw5ZMzNHyQee16hBTRpNPFHOyml68N30_-ZRS516CwODIdnSbw9lC4rWb1p5l6f1quk8Siq2PU1EEtxKf_GEHEnK4QS7FElyEGi_65T79e8D5oE42IPvqyycqS7F3NvmIXes8Z5Bfm03AlbycYktd84KJr-FuI8TZAVnnVbynFzViQqYlicX16yb09QAfz8BQVk-LsinhYuDXmA57aABZisQrEGOfm772C0jrGMmBcbMrYMahm96K3R3W5RdlPdrwsCP6BuptVQso=&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot;&gt;
+   www.gf.com
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> National Labs, DOE and DOD Research Organizations Finalists for R&amp;D 100 Awards </title>
+<link>https://insidehpc.com/2025/08/national-labs-doe-and-dod-research-organizations-finalists-for-rd-100-awards/</link>
+<pubDate>Thu, 14 Aug 2025 19:36:34 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/rd-100-finalists-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  More than a dozen national laboratories and research organizations of the Department of Energy and Department of Defense are among the 158 finalists for R&amp;D World Magazine’s annual R&amp;D 100 Awards. More details
+  &lt;a href=&quot;https://www.rdworldonline.com/the-2025-rd-100-finalists-are-here/&quot;&gt;
+   can be found here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finalists include:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandia National Laboratories
+ &lt;/p&gt;
+ &lt;p&gt;
+  NASA
+ &lt;/p&gt;
+ &lt;p&gt;
+  National Atomic Research Institute
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oak Ridge National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lawrence Livermore National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Argonne National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Los Alamost National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Idaho National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pacific Northwest National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  National Renewable Energy Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  National Energy Technolog Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  Savannah River National Laboratory
+ &lt;/p&gt;
+ &lt;p&gt;
+  DARPA
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ames National Laboratory
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EDB AI Platform to Be Integrated with NVIDIA </title>
+<link>https://insidehpc.com/2025/08/edb-ai-platform-to-be-integrated-with-nvidia/</link>
+<pubDate>Thu, 14 Aug 2025 18:47:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/data-center-generic-2-1-shutterstock-2463386913.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  WILMINGTON, Del. – AUG 14, 2025— EnterpriseDB announced it is integrating NVIDIA accelerated computing and AI software with EDB’s sovereign data and AI platform, EDB Postgres AI (EDB PG AI).
+ &lt;/p&gt;
+ &lt;p&gt;
+  EDB PG AI, built with NVIDIA accelerating computing and NVIDIA AI Enterprise, enables organizations to build and generate value from AI and data platforms using PostgreSQL. This integration enhances EDB PG AI as a secure, high-performance platform for deploying generative and agentic AI with enterprise-grade governance, observability, and cost efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The combination of NVIDIA AI software, including NVIDIA NIM microservices and NVIDIA NeMo Retriever with EDB Postgres AI delivers measurable outcomes for customers:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   2-3x throughput improvement for data embedding tasks
+  &lt;/li&gt;
+  &lt;li&gt;
+   5-2x throughput improvement for retrieval performance
+  &lt;/li&gt;
+  &lt;li&gt;
+   Up to 30x faster insights from data, driven by optimized AI pipelines
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  This software-defined performance also drives significant cost savings compared to cloud-native AI stacks. EDB, an NVIDIA NPN partner, also gains direct access to
+  &lt;a href=&quot;https://www.nvidia.com/en-us/solutions/ai/&quot;&gt;
+   NVIDIA
+  &lt;/a&gt;
+  ’s latest software innovations and best practices, fueling continuous optimization across the AI Factory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Sovereignty is now the defining factor in enterprise AI success. By integrating NVIDIA AI software into EDB Postgres AI, we’re giving customers the performance and control they need to build secure, agentic AI solutions on their terms, wherever their data lives,” said Nancy Hensley, Chief Product Officer of
+  &lt;a href=&quot;http://www.enterprisedb.com/&quot;&gt;
+   EDB
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Only 13 percent of major enterprises globally are generating sustainable ROI from their agentic and generative AI efforts; however, 90 percent plan to become their own AI and data platforms within the next three years, largely because they treat sovereign AI as mission-critical.  According to global research conducted for EDB in May 2025, this strategic focus on sovereign AI enables them to overcome fragmented infrastructure and take control over their data and AI models—key barriers to mainstream adoption and long-term competitive advantage.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Report: DeepSeek Model Delay Forces Use of NVIDIA GPUs </title>
+<link>https://insidehpc.com/2025/08/report-deepseek-model-delay-forces-use-of-nvidia-gpus/</link>
+<pubDate>Thu, 14 Aug 2025 16:11:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/deepseek-logo-2-1-0225.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The Financial Times reported that DeepSeek was forced to delay the release of its new R2 large language model due to performance problems with Huawei Ascend processors, “highlighting the limits of Beijing’s push to replace US technology,” according to the FT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The publication cites three sources who said Chinese government officials encouraged DeepSeek to use Ascend chips instead of NVIDIA processors after the release early this year of DeepSeek’s R1 model, which rocked the AI world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “But the Chinese start-up encountered persistent technical issues during its R2 training process using Ascend chips,”
+  &lt;a href=&quot;https://www.ft.com/content/eb984646-6320-4bfe-a78d-a1da2274b092&quot;&gt;
+   the FT reported
+  &lt;/a&gt;
+  , “prompting it to use NviNVIDIA dia chips for training and Huawei’s for inference, said the (sources).”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/nvidia-logo-2-1-0525.png&quot;/&gt;
+  The news comes amidst other reports that NVIDIA and AMD GPUs currently allowed for export to China by a recent US export rule change – the NVIDIA H20 and AMD MI308 – are intended to deliver roughly similar power as China’s homegrown GPUs. Also, there are reports that Chinese authorities are asking companies planning to utilize the American-designed GPUs to justify their use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FT article cites sources who say the Huawei processors have stability problems, “slower inter-chip connectivity and inferior software compared with Nvidia’s products.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In an attempt to resolve the problems, a team of Huawei technicians worked with DeepSeek on site, but that a successful training run could not be achieved on the Ascend processors, sources said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FT said DeepSeek’s R2 model could be released “in the coming weeks.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
