@@ -1,0 +1,3543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>TrendForce</title>
+<lastBuildDate>Sat, 30 Aug 2025 17:23:37 -0000</lastBuildDate>
+<item>
+<title> Memory Giants Diverge on HBM Base Die: Micron Reportedly Delays Foundry Shift, Risks Losing Edge </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-memory-giants-diverge-on-hbm-base-die-micron-reportedly-delays-foundry-shift-risks-losing-edge/</link>
+<pubDate>Fri, 29 Aug 2025 09:18:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.ddaily.co.kr/page/view/2025082910521843998&quot;&gt;
+       Digital Daily
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://www.businesspost.co.kr/BP?command=article_view&amp;num=409288&quot;&gt;
+       Business Post
+      &lt;/a&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  With NVIDIA reportedly developing its own HBM base die for 2027 production, the spotlight is on memory giants moving base die manufacturing from DRAM to foundry processes. According to South Korea’s
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ddaily.co.kr/page/view/2025082910521843998&quot;&gt;
+    Digital Daily
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Micron may take the most cautious approach, delaying the shift to foundries until HBM4e due to cost concerns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report explains that up to HBM3e, the base die was manufactured using DRAM processes, as DRAM makers designed the logic themselves and produced it on their own DRAM lines. However, planar DRAM processes lag behind foundry FinFET technology in speed, signal integrity, and power efficiency, prompting memory makers to switch, as noted by Digital Daily.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thus, Digital Daily notes that Samsung and SK hynix are moving base die production to foundry processes starting with HBM4 to tackle heat, signal delay, and power efficiency in high-performance computing. Micron, by contrast, plans to continue producing base dies with DRAM processes through HBM4, shifting to TSMC foundries only with HBM4e, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the move may reflect Micron’s focus on near-term efficiency and cost savings, Digital Daily cautions that the company risks falling behind as a shift to foundry processes becomes inevitable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Analysts note that Samsung and SK hynix are pushing ahead with foundry adoption because performance demands from key GPU customers such as NVIDIA and AMD have already outgrown traditional DRAM processes. Micron’s stance could ultimately weaken its position in competing for performance-driven clients like NVIDIA, as the report points out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Foundry Shift Puts Pressure on Base Die Production Costs
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.businesspost.co.kr/BP?command=article_view&amp;num=409288&quot;&gt;
+    Business Post
+   &lt;/a&gt;
+  &lt;/span&gt;
+  highlights concerns over rising costs as SK hynix and Micron will have to rely on TSMC’s premium foundry services for base die production. The high cost of advanced nodes could push their HBM prices above Samsung’s, which stands to gain a potential cost advantage from in-house production capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Business Post, citing industry sources, logic dies produced by TSMC could account for as much as 20% of SK hynix’s total HBM4 production costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-nvidia-reportedly-eyes-small-scale-hbm-base-die-production-in-2027-rattling-memory-chip-markets/&quot;&gt;
+    [News] NVIDIA Reportedly Eyes Small-Scale HBM Base Die Production in 2027: Rattling Memory, Chip Markets
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2024/12/04/news-sk-hynixs-hbm4-to-use-tsmcs-3nm-base-die/&quot;&gt;
+    [News] SK Hynix’s HBM4 to Use TSMC’s 3nm Base Die
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Micron)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA’s Top 2 Customers Jump to 39% of Sales from 25% Last Year, Raising Client Dependence Concerns </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-nvidias-top-2-customers-jump-to-39-of-sales-from-25-last-year-raising-client-dependence-concerns/</link>
+<pubDate>Fri, 29 Aug 2025 07:16:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;332&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094419/NVIDIA-Jensen-624x332.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094419/NVIDIA-Jensen-624x332.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094419/NVIDIA-Jensen-300x159.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094419/NVIDIA-Jensen-768x408.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094419/NVIDIA-Jensen-1024x544.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.cnbc.com/2025/08/28/nvidias-top-two-mystery-customers-made-up-39percent-of-its-q2-revenue-.html&quot;&gt;
+       CNBC
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.reuters.com/business/nvidia-ceo-says-ai-boom-far-over-after-tepid-sales-forecast-2025-08-28/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/2e217538-c226-4d05-8f74-aaca89a21b33.pdf&quot;&gt;
+       NVIDIA
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  While the public has growing concerns after NVIDIA’s earnings call on H20 related issues and the uncertainties in the Chinese market,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.cnbc.com/2025/08/28/nvidias-top-two-mystery-customers-made-up-39percent-of-its-q2-revenue-.html&quot;&gt;
+    CNBC
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing
+  &lt;span&gt;
+   &lt;a href=&quot;https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/2e217538-c226-4d05-8f74-aaca89a21b33.pdf&quot;&gt;
+    NVIDIA
+   &lt;/a&gt;
+  &lt;/span&gt;
+  ’s 10-Q filing, points out overly client concentration may be another problem. According to the report, two customers accounted for 39% of NVIDIA’s revenue in the quarter ending July.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to NVIDIA’s SEC filing, China’s share of the company’s sales has fallen to 5.9%, down from 12.5% in the April quarter, trailing the U.S. (50.2%), Singapore (21.7%), and Taiwan (18.2%).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, CNBC highlights that “Customer A” accounted for 23% of total revenue in the July quarter, with “Customer B” adding 16%—up sharply from 14% and 11% for the top two customers a year earlier.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, NVIDIA’s latest disclosure has reignited concerns that its fast growth may depend heavily on a handful of major cloud providers, including Microsoft, Amazon, Google, and Oracle, as per CNBC. This aligns with CFO Colette Kress’ remarks, as
+  &lt;a href=&quot;https://www.reuters.com/world/china/nvidia-still-growing-china-uncertainty-clouds-outlook-2025-08-27/&quot;&gt;
+   Reuters
+  &lt;/a&gt;
+  reported she said roughly half of NVIDIA’s $41 billion data center revenue last quarter came from these cloud giants—a critical segment that made up 88% of total Q2 revenue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Who Are NVIDIA’s Mysterious Top Customers?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The disclosure has stirred market speculation about the identities of NVIDIA’s top customers—but they may not be the cloud providers most expect. According to the company, those who buy products directly from NVIDIA are classified as direct customers, including add-in board makers, distributors, ODMs, OEMs, and system integrators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CNBC notes that direct customers can range from original design manufacturers (ODMs) or original equipment manufacturers (OEMs) like Foxconn and Quanta to distributors and system integrators such as Dell. Both “Customer A” and “Customer B” fall into this direct customer category.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As NVIDIA explains, indirect customers are those that buy products through its direct customers. These include cloud service providers (CSPs), consumer internet firms, enterprises, and public sector organizations, the company notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, as CNBC suggests, pinpointing whether any of these cloud providers are the undisclosed Customers A and B is tricky, partly because NVIDIA has flexibility in defining direct versus indirect customers. According to NVIDIA’s filing, one indirect customer—primarily purchasing through Direct Customer A—is estimated to represent 10% or more of total revenue and attributable to the Compute &amp; Networking segment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regardless of who its top clients turn out to be, NVIDIA is poised to take the bulk of spending in the cloud-driven AI data center boom. CEO Jensen Huang told
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/nvidia-ceo-says-ai-boom-far-over-after-tepid-sales-forecast-2025-08-28/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  he expects $3–4 trillion in AI infrastructure investment by the end of the decade, noting that for a data center costing up to $60 billion, NVIDIA could capture around $35 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/28/news-nvidia-growth-risk-looms-as-revenue-expansion-hits-two-year-low-china-hurdles-cloud-outlook/&quot;&gt;
+    [News] NVIDIA Growth Risk Looms as Revenue Expansion Hits Two-Year Low, China Hurdles Cloud Outlook
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-nvidia-reportedly-eyes-small-scale-hbm-base-die-production-in-2027-rattling-memory-chip-markets/&quot;&gt;
+    [News] NVIDIA Reportedly Eyes Small-Scale HBM Base Die Production in 2027: Rattling Memory, Chip Markets
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: NVIDIA’s X)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SMIC 1H25 Net Profit Rises 35.6%, 7nm Capacity Reportedly to Double in 2026 </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-smic-1h25-net-profit-rises-35-6-7nm-capacity-reportedly-to-double-in-2026/</link>
+<pubDate>Fri, 29 Aug 2025 06:53:03 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;350&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2024/08/23164131/SMIC-624x350.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2024/08/23164131/SMIC-624x350.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2024/08/23164131/SMIC-300x168.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2024/08/23164131/SMIC-768x431.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2024/08/23164131/SMIC-1024x575.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.ctee.com.tw/news/20250829700165-430804&quot;&gt;
+        Commercial Times
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://staticpacific.blob.core.windows.net/press-releases-attachments./3915015/HKEX-EPS_20250828_11814264_0.PDF&quot;&gt;
+       SMIC
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://money.udn.com/money/story/5604/8969737?from=edn_next_story&quot;&gt;
+       Economic Daily News
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.ft.com/content/64caeab8-a326-4626-98fb-e1bf665827d3&quot;&gt;
+       Financial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20250829700165-430804&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , China’s leading foundry SMIC delivered a strong performance in the first half of 2025, with revenue reaching US$4.456 billion, up 22% year-on-year. Net profit attributable to shareholders came to US$321 million, a 35.6% increase from a year earlier.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report highlights, wafer foundry business revenue totaled US$4.229 billion during the period, up 24.6% year-on-year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regarding its first-half 2025 performance, SMIC noted that downstream customers in the supply chain have been accelerating procurement and replenishing inventories, while the company has actively worked with customers to ensure shipments. As
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5604/8969737?from=edn_next_story&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  indicates, the company expects this trend to continue into the third quarter of 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fourth quarter is traditionally a low season for the wafer foundry industry, when rush orders and pull-in shipments typically slow. However, as Economic Daily News highlights, SMIC stated in its announcement that since overall capacity remains in short supply, the slowdown will not have a significant impact on the company’s capacity utilization rate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SMIC stated that in the second half of 2025, uncertainties from U.S. tariff policies, geopolitical tensions, and seasonal adjustments in downstream markets will remain a challenge. However, the strengthening trend of supply chain localization is driving more wafer foundry demand back to China, which is expected to continue supporting the company’s performance. The company’s goal for 2025 is to exceed the industry average of its peers, as Economic Daily News indicates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SMIC’s Capacity Expansion Plan
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the meantime, SMIC plans to double its 7-nanometer production capacity next year, the most advanced process currently in mass production in China, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ft.com/content/64caeab8-a326-4626-98fb-e1bf665827d3&quot;&gt;
+    Financial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing sources.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;696&quot; data-start=&quot;373&quot;&gt;
+  Meanwhile, Financial Times reports that China aims to triple its overall AI processor output next year. Citing sources, the report notes that one fab dedicated to manufacturing Huawei’s AI chips is expected to begin production by the end of this year, with two additional plants slated to come online in 2026.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;696&quot; data-start=&quot;373&quot;&gt;
+  As Financial Times further points out, once fully ramped, the combined capacity of these three plants could surpass the current output of comparable lines at SMIC. The report also notes that the expansion will enable smaller Chinese chipmakers such as Cambricon, MetaX, and Biren to secure larger shares of SMIC’s capacity, intensifying competition in China’s rapidly expanding market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/28/news-huaweis-5nm-kunpeng-930-leak-raises-big-question-tsmc-or-smic-behind-it/&quot;&gt;
+    [News] Huawei’s 5nm Kunpeng 930 Leak Raises Big Question: TSMC or SMIC Behind it?
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/28/news-china-reportedly-to-triple-ai-chip-output-next-year-with-fabs-serving-huawei-cutting-nvidia-reliance/&quot;&gt;
+    [News] China Reportedly to Triple AI Chip Output Next Year With Fabs Serving Huawei, Cutting NVIDIA Reliance
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SMIC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel CFO Says Trump Deal Prevents It From Selling Its Loss-Making Foundry </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-intel-cfo-says-trump-deal-prevents-it-from-selling-its-loss-making-foundry/</link>
+<pubDate>Fri, 29 Aug 2025 03:23:30 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/04/01114744/Intel-Lip-Bu-Tan-Intel-Foundry-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/04/01114744/Intel-Lip-Bu-Tan-Intel-Foundry-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/04/01114744/Intel-Lip-Bu-Tan-Intel-Foundry-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/04/01114744/Intel-Lip-Bu-Tan-Intel-Foundry-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/04/01114744/Intel-Lip-Bu-Tan-Intel-Foundry-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.ft.com/content/29fb5020-2b25-429a-b63f-18356b467e7a&quot;&gt;
+       Financial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.reuters.com/business/intel-says-it-received-us-grant-government-says-it-is-still-working-deal-2025-08-28/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ft.com/content/29fb5020-2b25-429a-b63f-18356b467e7a&quot;&gt;
+    Financial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Intel’s chief financial officer said the Trump administration’s investment was intended to prevent the company from selling off its foundry. As the report notes, the government stake effectively locks Intel into a business that has been losing money and that it has repeatedly faced pressure to offload.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The U.S. government has agreed to acquire a 10% stake in Intel. Notably, as the Financial Times highlights, the deal includes a five-year warrant allowing the government to purchase an additional 5% at $20 per share if Intel’s ownership of its foundry business falls below 51%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel CFO David Zinsner said the government’s goal was to stop Intel from spinning off or selling its foundry. Regarding the warrant, he noted there is little chance of Intel reducing its stake below 50% and therefore expects it will ultimately expire, as cited by the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel Foundry lost $13 billion last year as it struggled to compete with rival TSMC and attract outside customers, Financial Times notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   How Intel Sees Its Foundry Future
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/intel-says-it-received-us-grant-government-says-it-is-still-working-deal-2025-08-28/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that Intel has previously signaled it might seek outside investment in its foundry unit and has already set up a separate management board to oversee it. On this prospect, Zinsner said the company would likely prefer a strategic investor over a purely financial one, though he added such a move is still “years away.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Zinsner also said Intel is aiming to secure a major customer next year but remains committed to maintaining “financial discipline” as it develops next-generation manufacturing technologies. He noted that investing in 14A solely for Intel’s internal use would be too costly to provide an “appropriate” return for shareholders, according to Reuters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the government’s direct stake may incentivize potential customers to place greater confidence in Intel, Zinsner notes, as cited by Financial Times.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Current Status of the Intel–U.S. Deal
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel received $5.7 billion in cash as part of the deal negotiated by U.S. President Donald Trump for a 10% stake, Reuters reported. However, White House Press Secretary Karoline Leavitt said the agreement was “still being ironed out by the Department and very much under discussion,” stressing that while the president proposed the deal, the Commerce Secretary is still working to implement it, as the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/26/news-intel-filing-cautions-u-s-stake-could-weigh-on-future-funding-overseas-business/&quot;&gt;
+    [News] Intel Filing Cautions U.S. Stake Could Weigh on Future Funding, Overseas Business
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/25/news-u-s-to-acquire-10-intel-stake-yet-foundry-future-rests-on-customer-demand/&quot;&gt;
+    [News] U.S. to Acquire 10% Intel Stake, Yet Foundry Future Rests on Customer Demand
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Broadcom Reportedly Boosts 2026 CoWoS Orders with Foundries on Strong ASIC Demand </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-broadcom-reportedly-boosts-2026-cowos-orders-with-foundries-on-strong-asic-demand/</link>
+<pubDate>Fri, 29 Aug 2025 02:11:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/14145835/Broadcom-20250714-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/14145835/Broadcom-20250714-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/14145835/Broadcom-20250714-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/14145835/Broadcom-20250714-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/14145835/Broadcom-20250714-1024x682.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.ctee.com.tw/news/20250829700080-439901&quot;&gt;
+        Commercial Times
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        and
+        &lt;a href=&quot;https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-above-estimates-2025-06-05/&quot;&gt;
+         Reuters
+        &lt;/a&gt;
+       &lt;/span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  With NVIDIA’s latest earnings underscoring the AI infrastructure boom, investor focus is also shifting to ASIC demand. According to the
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20250829700080-439901&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Broadcom has lifted its CoWoS packaging orders for next year, a move likely fueled by rising custom chip needs from Google, Meta, and other cloud giants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Commercial Times suggests, foundries are already seeking 2026 forecasts, with Broadcom raising its CoWoS packaging orders for that year. In June,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-above-estimates-2025-06-05/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reported the U.S. chipmaker guided Q3 revenue to around $15.8B, driven by strong demand for networking gear and custom AI chips. Broadcom, as Reuters highlights, designs specialized processors for AI and cloud players such as OpenAI and Google.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Analysts cited by Commercial Times explain that unlike NVIDIA’s general-purpose GPUs, ASICs offer greater design flexibility and can significantly lower total cost of ownership (TCO) when deployed at scale. For instance, Google’s ASIC designs are said to be tuned for social media algorithms, with customers reportedly including xAI and Meta via Google Cloud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Taiwanese IC Design Houses Poised to Benefit
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Commercial Times suggests that Taiwan’s IC design houses—led by MediaTek and TSMC affiliate GUC—are set to benefit in the trend. MediaTek is said to be working closely with Google on ASIC design for its seventh-generation TPU, which will use a 3nm process, six 12-high HBM3E stacks, and CoWoS-L packaging—potentially driving MediaTek’s growth in Q4 2026, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250515-12580.html&quot;&gt;
+   TrendForce
+  &lt;/a&gt;
+  points out, Google leads among US CSPs with its TPU v6 Trillium. Notably, the tech giant has also expanded from a single-supplier model (Broadcom) to a dual-sourcing strategy by partnering with MediaTek to enhance design flexibility, reduce supply chain risk, and support more aggressive adoption of advanced process nodes, as per TrendForce.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, TrendForce notes that Meta, having deployed its first in-house AI accelerator MTIA, is now co-developing MTIA v2 with Broadcom. Commercial Times suggests that TSMC affiliate GUC is also providing turnkey services for multiple cloud players—including Meta’s MTIA v3. Some of these projects are slated for mass production in Q4, with volumes expanding in the first half of 2026, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/04/news-meta-reportedly-teams-up-with-broadcom-taps-quanta-for-next-gen-asic-powered-ai-servers/&quot;&gt;
+    [News] Meta Reportedly Teams Up with Broadcom, Taps Quanta for Next-Gen ASIC-powered AI servers
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/31/news-mediatek-gears-up-for-2nm-tape-out-in-sep-asic-reportedly-to-boost-2026-revenue/&quot;&gt;
+    [News] MediaTek Gears Up for 2nm Tape-Out in Sep; ASIC Reportedly to Boost 2026 Revenue
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Broadcom)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SK hynix Launches Industry-First High-K EMC Mobile DRAM with 3.5x Higher Thermal Conductivity </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-sk-hynix-launches-industry-first-high-k-emc-mobile-dram-with-3-5x-higher-thermal-conductivity/</link>
+<pubDate>Fri, 29 Aug 2025 00:49:38 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;480&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28133148/SK_dram_2-1-624x480.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28133148/SK_dram_2-1-624x480.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28133148/SK_dram_2-1-300x231.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28133148/SK_dram_2-1-768x591.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28133148/SK_dram_2-1-1024x788.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://news.skhynix.com/sk-hynix-starts-supplying-mobile-dram-with-highly-efficient-heat-dissipation/&quot;&gt;
+        SK hynix
+       &lt;/a&gt;
+      &lt;/span&gt;
+      .
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  While performance drop caused by heat has become not only an issue for AI data centers but for smartphones as well, SK hynix announced that it has begun supplying mobile DRAM with industry-first High-K Epoxy Molding Compound, offering highly efficient heat dissipation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to its
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.skhynix.com/sk-hynix-starts-supplying-mobile-dram-with-highly-efficient-heat-dissipation/&quot;&gt;
+    press release
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , with thermal conductivity boosted 3.5 times and vertical thermal resistance reduced by 47%, the new High-K EMC is expected to extend battery life and product longevity by improving smartphone performance while lowering power consumption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  EMC (Epoxy Molding Compound), as SK hynix explains, is a key semiconductor packaging material that shields chips from water, heat, impact, and electrostatic charge, while also serving as a heat dissipation channel. High-K EMC enhances the thermal conductivity of EMC by incorporating Alumina to Silica, the company states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the memory giant points out, most flagship smartphones use a package-on-package (PoP) structure, stacking DRAM onto the application processor to maximize space and boost data transfer speeds. However, this design traps heat inside the DRAM, causing performance drops.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The move, therefore, addresses performance drops caused by heat during fast on-device AI data transfers. Global smartphone makers have welcomed the launch, expecting it to ease overheating issues in high-performance flagship models, according to the company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/25/news-sk-hynix-unveils-worlds-first-321-layer-qlc-nand-targets-1h26-commercial-launch/&quot;&gt;
+    [News] SK hynix Unveils World’s First 321-Layer QLC NAND, Targets 1H26 Commercial Launch
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SK hynix)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> GlobalFoundries Reportedly Cuts U.S. Jobs, Says CHIPS Act Funding Involves No Equity </title>
+<link>https://www.trendforce.com/news/2025/08/29/news-globalfoundries-reportedly-cuts-u-s-jobs-says-chips-act-funding-involves-no-equity/</link>
+<pubDate>Fri, 29 Aug 2025 00:49:33 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28161028/GlobalFoundries-GF-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28161028/GlobalFoundries-GF-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28161028/GlobalFoundries-GF-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28161028/GlobalFoundries-GF-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28161028/GlobalFoundries-GF-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.timesunion.com/business/article/globalfoundries-makes-adjustments-workforce-20884231.php&quot;&gt;
+        Times Union
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        &lt;a href=&quot;https://gf.com/gf-press-release/globalfoundries-expands-partnership-with-apple-to-advance-wireless-connectivity-and-power-management-reinforcing-u-s-chip-manufacturing-leadership/&quot;&gt;
+         GlobalFoundries
+        &lt;/a&gt;
+        , and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.reuters.com/business/chipmaker-globalfoundries-says-chips-act-framework-does-not-involve-equity-2025-08-27/&quot;&gt;
+        Reuters
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.timesunion.com/business/article/globalfoundries-makes-adjustments-workforce-20884231.php&quot;&gt;
+    Times Union
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , chipmaker GlobalFoundries said it has made “adjustments” to its workforce at Fab 8, its plant in Malta, Saratoga County, New York. The report notes that despite the company’s ongoing $16 billion expansion of its manufacturing operations in Malta and at its older facility near Burlington, Vt., there have reportedly been recent layoffs at Fab 8.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It remains unclear how many employees and which roles are affected. The report adds that GlobalFoundries employs about 2,300 people at the Luther Forest Technology Campus in Malta, where Fab 8 is based.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   GlobalFoundries: CHIPS Act Funding “Well Intact,” No Equity Involved
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Aside from the reported layoffs, news of the U.S. government taking a 10% equity stake in Intel has raised concerns for other CHIPS Act recipients, including GlobalFoundries. As
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/chipmaker-globalfoundries-says-chips-act-framework-does-not-involve-equity-2025-08-27/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes, GlobalFoundries said Wednesday that its CHIPS Act funding remains “well intact” and emphasized that the framework does not involve any equity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Times Union, GlobalFoundries has been awarded a $1.5 billion CHIPS Act grant to support expansions in New York and Vermont, including the construction of a second factory in Malta.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Apple Partnership and $16B Plan Bolster GlobalFoundries’ U.S. Push
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier this month,
+  &lt;span&gt;
+   &lt;a href=&quot;https://gf.com/gf-press-release/globalfoundries-expands-partnership-with-apple-to-advance-wireless-connectivity-and-power-management-reinforcing-u-s-chip-manufacturing-leadership/&quot;&gt;
+    GlobalFoundries
+   &lt;/a&gt;
+  &lt;/span&gt;
+  announced a deeper collaboration with Apple to advance semiconductor technologies and strengthen U.S. manufacturing. The partnership will support expanded investment at GF’s semiconductor facility in Malta, New York.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This aligns with GlobalFoundries’ broader U.S. investment strategy. In June,
+  &lt;span&gt;
+   &lt;a href=&quot;https://gf.com/gf-press-release/globalfoundries-announces-16b-u-s-investment-to-reshore-essential-chip-manufacturing-and-accelerate-ai-growth/&quot;&gt;
+    the company
+   &lt;/a&gt;
+  &lt;/span&gt;
+  announced a $16 billion plan to expand semiconductor manufacturing and advanced packaging capabilities across its New York and Vermont facilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250609-12612.html&quot;&gt;
+    TrendForce
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , GlobalFoundries ranked fifth among the world’s top ten foundries in Q1 2025, with revenue falling 13.9% quarter-on-quarter to $1.58 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/06/news-globalfoundries-partners-with-chinese-foundry-for-localized-automotive-grade-cmos-production/&quot;&gt;
+    [News] GlobalFoundries Partners with Chinese Foundry for Localized Automotive-Grade CMOS Production
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/06/05/news-globalfoundries-commits-16b-to-strengthen-u-s-semiconductor-manufacturing/&quot;&gt;
+    [News] GlobalFoundries Commits $16B to Strengthen U.S. Semiconductor Manufacturing
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: GlobalFoundries)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel Faces Another Executive Exodus: Advanced Packaging Director Leaves for Analog Devices </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-intel-faces-another-executive-exodus-advanced-packaging-director-leaves-for-analog-devices/</link>
+<pubDate>Thu, 28 Aug 2025 07:28:33 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2024/02/27101509/Intel-Foundry-IFDC-1-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2024/02/27101509/Intel-Foundry-IFDC-1-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2024/02/27101509/Intel-Foundry-IFDC-1-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2024/02/27101509/Intel-Foundry-IFDC-1-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2024/02/27101509/Intel-Foundry-IFDC-1-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.oregonlive.com/silicon-forest/2025/08/intel-exec-quits-to-run-analog-devices-oregon-factory.html&quot;&gt;
+       Oregon Live
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.eetimes.com/intels-embarrassment-of-riches-advanced-packaging/&quot;&gt;
+       EE Times
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.wsj.com/tech/intel-chip-packaging-expert-takes-job-at-samsung-8d02f148?siteid=yhoof2&quot;&gt;
+       The Wall Street Journal
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.reuters.com/business/three-intel-senior-executives-retire-amid-manufacturing-shake-up-2025-08-01/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  While Intel recently agreed to transfer a 10% stake to the U.S. government, the chipmaker continues to suffer from a wave of veteran executive departures. As per
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.oregonlive.com/silicon-forest/2025/08/intel-exec-quits-to-run-analog-devices-oregon-factory.html&quot;&gt;
+    Oregon Live
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Narahari Ramanuja, a 25-year Intel veteran, is leaving to head Analog Devices’ newly expanded Oregon facility.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, according to his LinkedIn profile, Ramanuja has spent over three years as Intel’s Director of Advanced Packaging Technology Development. As
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.eetimes.com/intels-embarrassment-of-riches-advanced-packaging/&quot;&gt;
+    EE Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  previously reported, Intel’s manufacturing unit is encouraging customers to shift designs from TSMC’s CoWoS to Intel’s Foveros advanced packaging amid tight supply—though the company still has substantial capacity to fill.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ramanuja is set to become Managing Director and General Manager of Analog Devices’ Beaverton FAB, starting in late September, per his LinkedIn profile.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ramanuja is not the only Intel packaging veteran leaving the company. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.wsj.com/tech/intel-chip-packaging-expert-takes-job-at-samsung-8d02f148?siteid=yhoof2&quot;&gt;
+    The Wall Street Journal
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Gang Duan, a longtime Intel expert in chip packaging, has left to join Samsung’s components division. The report highlights Duan’s key contributions to advancing semiconductor packaging technologies, particularly his innovative use of glass materials.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Intel Hit by Executive Turnover
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oregon Live highlights that Oregon has been the epic center of Intel’s recent massive layoffs, which cut about 15,000 jobs in 2024 and another 15,000 just last month. Intel’s Oregon headcount has shrunk by more than 5,400 over the past year, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the company has seen several veteran executives leave amid cost-cutting and restructuring. Oregon Live suggests that Ann Kelleher, head of manufacturing, retired in March, followed by Sanjay Natarajan, VP of factory technology research, in June.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/three-intel-senior-executives-retire-amid-manufacturing-shake-up-2025-08-01/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that three more senior manufacturing executives—including corporate VPs Kaizad Mistry, Ryan Russell, and Gary Patton, corporate VP of the Design Technology Platform organization—are also set to retire.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/21/news-samsung-reportedly-seizes-on-intel-talent-exodus-hiring-glass-substrate-and-packaging-experts/&quot;&gt;
+    [News] Samsung Reportedly Seizes on Intel Talent Exodus, Hiring Glass Substrate and Packaging Experts
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/22/news-intel-reportedly-starts-glass-substrate-licensing-offering-potential-boost-to-samsung-and-absolics/&quot;&gt;
+    [News] Intel Reportedly Starts Glass Substrate Licensing, Offering Potential Boost to Samsung and Absolics
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Samsung Reportedly Weighs Intel Packaging Investment, Glass Substrate Tie-Up to Challenge TSMC </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-samsung-reportedly-weighs-intel-packaging-investment-glass-substrate-tie-up-to-challenge-tsmc/</link>
+<pubDate>Thu, 28 Aug 2025 07:04:26 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/08094951/Samsung-Campus-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/08094951/Samsung-Campus-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/08094951/Samsung-Campus-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/08094951/Samsung-Campus-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/08094951/Samsung-Campus-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.businesspost.co.kr/BP?command=article_view&amp;num=409163&quot;&gt;
+        Business Post
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.etnews.com/20250821000283&quot;&gt;
+        ETNews
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.koreaherald.com/article/10497737&quot;&gt;
+       The Korea Herald
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to South Korean outlet
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.businesspost.co.kr/BP?command=article_view&amp;num=409163&quot;&gt;
+    Business Post
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , sources indicate that Samsung is weighing investment in Intel’s packaging business — an area where Intel has a competitive edge — and is also exploring the use of Intel’s packaging production lines in the U.S.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sources highlight Samsung’s need to enhance its packaging capabilities and note Intel’s strength in this field. The report, citing sources, adds that deeper cooperation with Intel in back-end packaging could help Samsung narrow the gap with TSMC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung has generally outsourced wafers from its front-end processes to OSAT firms for testing and packaging. The report points out that while TSMC also partners with Taiwanese OSAT companies, it maintains the world’s most advanced back-end packaging capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By contrast, Intel lags in front-end node technology but holds strengths in packaging. As the report notes, Intel Foundry is already applying hybrid bonding technology to its 18A  production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hybrid bonding is a packaging method that stacks chips through copper connections instead of bumps. The report notes that although it has not yet been adopted for memory semiconductors like HBM, both Intel and TSMC are already applying it to CPUs and image sensors (CIS).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung and Intel’s foundry partnership may take the form of joint ventures (JVs), involving shared capital, technology, and personnel for equity investment or targeted business projects, as the report indicates, citing sources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Samsung Reportedly Exploring Glass Substrate Collaboration With Intel
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, the report, citing sources, indicates that Samsung and Intel’s cooperation may also extend into next-generation semiconductor glass substrates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel has begun licensing its semiconductor glass substrate technology, allowing other companies to use it, according to South Korean outlet
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.etnews.com/20250821000283&quot;&gt;
+    ETNews
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing industry sources. As Business Post notes, sources highlight that since Intel spent more than a decade developing this technology and has now opened it up, collaboration with Samsung could move forward more smoothly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The South Korean giant is advancing in glass substrates. As Business Post notes, Samsung Electro-Mechanics has hired Kang Doo-an, a former senior Intel engineer with extensive glass substrate expertise, to lead technology analysis and R&amp;D strategy for chip packaging.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Concurrently, Samsung is pushing toward commercialization. The company plans to adopt glass substrate interposers for advanced semiconductors by 2028 to “meet customer demands,” and has already begun operating a pilot line at its Sejong facility, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.koreaherald.com/article/10497737&quot;&gt;
+    The Korea Herald
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing sources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/21/news-samsung-reportedly-seizes-on-intel-talent-exodus-hiring-glass-substrate-and-packaging-experts/&quot;&gt;
+    [News] Samsung Reportedly Seizes on Intel Talent Exodus, Hiring Glass Substrate and Packaging Experts
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/22/news-intel-reportedly-starts-glass-substrate-licensing-offering-potential-boost-to-samsung-and-absolics/&quot;&gt;
+    [News] Intel Reportedly Starts Glass Substrate Licensing, Offering Potential Boost to Samsung and Absolics
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Samsung)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TSMC’s 2nm Leak Update: 3 Engineers Indicted for Stealing Core Tech, Facing Up to 14 Years </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-tsmcs-2nm-leak-update-3-engineers-indicted-for-stealing-core-tech-facing-up-to-14-years/</link>
+<pubDate>Thu, 28 Aug 2025 03:31:50 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/02101953/TSMC-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/02101953/TSMC-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/02101953/TSMC-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/02101953/TSMC-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/02101953/TSMC-1024x682.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://money.udn.com/money/story/5612/8966983&quot;&gt;
+        Economic Daily News
+       &lt;/a&gt;
+      &lt;/span&gt;
+      ,
+      &lt;span&gt;
+       &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5158573&quot;&gt;
+        Liberty Times
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://technews.tw/2025/08/19/tel-tsmc-may-meet-at-semicon/&quot;&gt;
+        TechNews
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Shortly after the TSMC 2nm leak involving former and current staff came to light, Taiwan’s High Prosecutors Office indicted three engineers on August 27 for misappropriating national core technology secrets. Prosecutors are seeking 7–14 year prison terms under national security and trade secret laws, according to the
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5612/8966983&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;span&gt;
+   &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5158573&quot;&gt;
+    Liberty Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  points out, TSMC said the investigation confirmed the defendants violated the company’s data transmission and confidentiality rules by leaking classified information on its 2nm process, The report, citing TSMC’s remarks, adds that twelve pages contained national core technology trade secrets, prompting prosecutors to press charges under national security statutes based on individual criminal violations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The case is especially sensitive—not just due to TSMC’s cutting-edge 2nm process, which is going to enter mass production later this year, but also because a former staffer involved now works for Tokyo Electron (TEL), a key TSMC equipment supplier tied to Rapidus, Japan’s state-backed 2nm competitor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   TSMC 2nm Leak: The Full Story
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Economic Daily News report suggests that Chen, a former yield engineer at TSMC’s Fab 12 who later joined Tokyo Electron’s marketing team, was well-versed in TSMC’s confidentiality rules and supplier secrecy protocols.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Chen allegedly leveraged his connections with current TSMC employees Wu, Ge, and Liao to access classified national core technology files. He then photographed and copied the materials to help TEL enhance its etching equipment and win contracts for TSMC’s 2nm production lines, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  TSMC, according to the Economic Daily News, discovered the breach through internal investigations and filed charges with the High Prosecutors Office on July 8. After intensive interrogations of the three detained defendants and witnesses, plus analysis of digital records and evidence, prosecutors concluded the trio’s guilt was clear, as indicated by the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, following the incident,
+  &lt;span&gt;
+   &lt;a href=&quot;https://technews.tw/2025/08/19/tel-tsmc-may-meet-at-semicon/&quot;&gt;
+    TechNews
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reported that Tokyo Electron President Toshiki Kawai is expected to visit Taiwan in early September to meet with TSMC executives during SEMICON Taiwan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/06/news-tsmcs-2nm-data-leak-exposes-fragile-triangle-tel-rapidus-and-taiwan-japan-chip-clash/&quot;&gt;
+    [News] TSMC’s 2nm Data Leak Exposes Fragile Triangle: TEL, Rapidus, and Taiwan-Japan Semiconductor Clash
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/05/news-tsmc-reportedly-fires-staff-over-suspected-2nm-leak-ahead-of-mass-production/&quot;&gt;
+    [News] TSMC Reportedly Fires Staff over Suspected 2nm Leak Ahead of Mass Production
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: TSMC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> China Reportedly to Triple AI Chip Output Next Year With Fabs Serving Huawei, Cutting NVIDIA Reliance </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-china-reportedly-to-triple-ai-chip-output-next-year-with-fabs-serving-huawei-cutting-nvidia-reliance/</link>
+<pubDate>Thu, 28 Aug 2025 03:08:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/08144143/flag-china-processor-cpu-central-processing-unit-gpu-microchip-motherboard-china-is-world-s-largest-chip-manufacturer-demonstrating-country-s-superiority-global-supply-chain-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/08144143/flag-china-processor-cpu-central-processing-unit-gpu-microchip-motherboard-china-is-world-s-largest-chip-manufacturer-demonstrating-country-s-superiority-global-supply-chain-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/08144143/flag-china-processor-cpu-central-processing-unit-gpu-microchip-motherboard-china-is-world-s-largest-chip-manufacturer-demonstrating-country-s-superiority-global-supply-chain-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/08144143/flag-china-processor-cpu-central-processing-unit-gpu-microchip-motherboard-china-is-world-s-largest-chip-manufacturer-demonstrating-country-s-superiority-global-supply-chain-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/08144143/flag-china-processor-cpu-central-processing-unit-gpu-microchip-motherboard-china-is-world-s-largest-chip-manufacturer-demonstrating-country-s-superiority-global-supply-chain-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.ft.com/content/64caeab8-a326-4626-98fb-e1bf665827d3&quot;&gt;
+       Financial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.cnbc.com/2025/08/27/china-nvidia-rival-cambricon-posts-record-profit-4000percent-revenue-jump.html&quot;&gt;
+        CNBC
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ft.com/content/64caeab8-a326-4626-98fb-e1bf665827d3&quot;&gt;
+    Financial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , China aims to triple its overall AI processor output next year. The report, citing sources, notes that one fab dedicated to manufacturing Huawei’s AI chips is slated to begin production by the end of this year, with two additional plants expected to come online in 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report highlights, the new facilities are intended to supply Huawei, but their ownership remains uncertain, and the company denies plans to build its own fab.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, the report, citing sources, points out that once fully ramped, the combined capacity of these three plants could surpass the current output of comparable lines at Semiconductor Manufacturing International Corporation (SMIC), China’s leading foundry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report, citing sources, also notes that SMIC plans to double its 7-nanometre production capacity next year — the most advanced process currently in mass production in China. While Huawei is at present its largest customer for these processor lines, the report further indicates that this move will allow smaller Chinese chipmakers such as Cambricon, MetaX, and Biren to secure larger shares of SMIC’s capacity, intensifying competition in China’s rapidly expanding market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   China’s AI Chip Drive Gains Momentum with DeepSeek
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report further notes that DeepSeek announced last week its models had adopted an FP8 data format tailored for the next generation of domestic chips, though it did not disclose the supplier. This move is expected to provide a lift to Chinese semiconductor companies such as Cambricon and SMIC, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cambricon reported record earnings in the first half of the year, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.cnbc.com/2025/08/27/china-nvidia-rival-cambricon-posts-record-profit-4000percent-revenue-jump.html&quot;&gt;
+    CNBC
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . The company said revenue surged more than 4,000% year-on-year to 2.88 billion yuan ($402.7 million), while net profit reached an all-time high of 1.04 billion yuan, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Huawei’s 910D and Cambricon’s 690 are regarded as leading products aligned with DeepSeek’s preferred standards, while several smaller Chinese chipmakers are racing to develop their own versions, the report notes. Still, as the Financial Times points out, although DeepSeek has conducted small-scale trials on Chinese chips to demonstrate technical feasibility, its current model training continues to rely on NVIDIA clusters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beijing is stepping up its drive to strengthen China’s AI chip development. As the report highlights, Shanghai-listed Cambricon won approval this year to raise about $600 million, while four smaller AI chipmakers — including Biren and MetaX — aim to go public as early as year-end after securing roughly $3 billion in pre-IPO funding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/21/news-chinas-cambricon-to-raise-rmb-4b-via-a-share-issuance-for-ai-chip-and-software-push/&quot;&gt;
+    [News] China’s Cambricon to Raise RMB 4B via A-Share Issuance for AI Chip and Software Push
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/27/news-is-cambricon-the-next-nvidia-or-unsustainable-growth-story-three-operational-risks-behind-the-epic-rally/&quot;&gt;
+    [News] Is Cambricon the Next NVIDIA or Unsustainable Growth Story? Three Key Risks Behind the Epic Rally
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Growth Risk Looms as Revenue Expansion Hits Two-Year Low, China Hurdles Cloud Outlook </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-nvidia-growth-risk-looms-as-revenue-expansion-hits-two-year-low-china-hurdles-cloud-outlook/</link>
+<pubDate>Thu, 28 Aug 2025 01:56:13 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094938/NVIDIA_CEO-624x351.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094938/NVIDIA_CEO-624x351.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094938/NVIDIA_CEO-300x169.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094938/NVIDIA_CEO-768x432.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/28094938/NVIDIA_CEO-1024x576.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-27/nvidia-gives-lackluster-forecast-stoking-fears-of-ai-slowdown&quot;&gt;
+       Bloomberg
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.cnbc.com/2025/08/27/nvidia-nvda-earnings-report-q2-2026.html&quot;&gt;
+       CNBC
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.reuters.com/world/china/nvidia-still-growing-china-uncertainty-clouds-outlook-2025-08-27/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.ft.com/content/64caeab8-a326-4626-98fb-e1bf665827d3&quot;&gt;
+       Financial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026&quot;&gt;
+       NVIDIA
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Is NVIDIA’s record-breaking AI run starting to crack? Revenue jumped 56% to $46.7 billion in the quarter ending in July, but that was its slowest growth in over two years,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-27/nvidia-gives-lackluster-forecast-stoking-fears-of-ai-slowdown&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.cnbc.com/2025/08/27/nvidia-nvda-earnings-report-q2-2026.html&quot;&gt;
+    CNBC
+   &lt;/a&gt;
+  &lt;/span&gt;
+  note. Analysts cited by the reports caution that cloud giants may be easing data center expansion, while China’s H20 export hurdles linger—two headwinds now dimming the U.S. chip giant’s momentum.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Adjusted profit came in at $1.05 per share in the July quarter, beating Wall Street’s $1.01 estimate, according to Bloomberg.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA forecasts about $54 billion in sales for the October quarter, matching Wall Street’s average view but falling short of some bullish calls for $60 billion, as per Bloomberg. Notably, the report points out that the guidance excludes China data center sales, where U.S. curbs and Beijing’s pressure continue to weigh.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   H20 Update
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026&quot;&gt;
+    NVIDIA
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , there were no H20 sales to China-based customers in the previous quarter. However, it did benefit from a $180 million release of previously reserved H20 inventory, from approximately $650 million in unrestricted H20 sales to a customer outside of China.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Bloomberg notes, NVIDIA has flagged fresh uncertainty over China sales, noting Washington hasn’t finalized a plan to claim 15% of AI chip revenue—a move the company warned could spark lawsuits, raise costs, and hand rivals an edge. The chipmaker estimates $2-5 billion worth of H20 could still head to China, but shipments hinge on U.S. licenses, with only a handful of customers cleared so far, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA faces added risk as China aggressively boosts domestic AI chip production.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ft.com/content/64caeab8-a326-4626-98fb-e1bf665827d3&quot;&gt;
+    Financial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that Chinese chipmakers plan to triple AI processor output in 2026 as Beijing races the U.S. for AI dominance. A fab for Huawei’s AI chips could start by year-end, with two more set to launch next year, sources say.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Data Center Sales Show Signs of Caution
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, NVIDIA’s data center unit posted $41.1 billion in sales in the July quarter, slightly shy of the $41.3 billion expected, Bloomberg notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Analysts cited by the report flagged potential caution among major data center operators, adding that spending could tighten at the margins if near-term AI returns remain hard to quantify.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/world/china/nvidia-still-growing-china-uncertainty-clouds-outlook-2025-08-27/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing NVIDIA CFO Colette Kress, suggests that about half of the company’s data center revenue last quarter came from major cloud providers. Kress also said NVIDIA’s “sovereign AI” push—selling AI chips and software to governments—is on track to bring in $20 billion this year, as per Reuters. The report adds that AI-related spending could drive $3-4 trillion in infrastructure investment by decade’s end, with $600 billion already spent so far in 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, CNBC, citing Kress, notes that $33.8 billion of NVIDIA’s data center revenue came from GPUs, down 1% from Q1FY26 due to $4 billion fewer H20 chip sales. Meanwhile, networking components, used in more complex systems, brought in $7.3 billion in the July quarter—nearly double last year’s figure, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CNBC also notes that Blackwell sales, the company’s new product line launched in May, rose 17% from Q1 and have reached $27 billion, accounting for roughly 70% of data center revenue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/14/news-nvidia-reportedly-denies-rubin-delay-as-amd-mi450-spurs-redesign-speculation/&quot;&gt;
+    [News] NVIDIA Reportedly Denies Rubin Delay as AMD MI450 Spurs Redesign Speculation
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-nvidia-reportedly-eyes-small-scale-hbm-base-die-production-in-2027-rattling-memory-chip-markets/&quot;&gt;
+    [News] NVIDIA Reportedly Eyes Small-Scale HBM Base Die Production in 2027: Rattling Memory, Chip Markets
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: NVIDIA’s X)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> LED Maker Ennostar Disposes of NT$450M Stake in Micro LED Company PlayNitride </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-led-maker-ennostar-disposes-of-nt450m-stake-in-micro-led-company-playnitride/</link>
+<pubDate>Thu, 28 Aug 2025 00:46:32 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/27172006/Ennostar-LED-20250827-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/27172006/Ennostar-LED-20250827-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27172006/Ennostar-LED-20250827-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27172006/Ennostar-LED-20250827-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27172006/Ennostar-LED-20250827-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://money.udn.com/money/story/11162/8964943&quot;&gt;
+       Economic Daily News
+      &lt;/a&gt;
+      &lt;span&gt;
+       an
+      &lt;/span&gt;
+      d
+      &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5157373&quot;&gt;
+       Liberty Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/11162/8964943&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , LED maker Ennostar announced on August 26 that between March 20 and August 26 this year, it disposed of its investment in common shares of Micro LED company PlayNitride, with total transaction value reaching NT$450 million. Ennostar stated that the move was mainly for capital allocation adjustments, asset optimization, and financial structure improvement, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5157373&quot;&gt;
+    Liberty Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Ennostar explained that after the divestment, its subsidiary Lighting Investment no longer holds shares in PlayNitride. However, another subsidiary, Epistar, still owns 9,127,338 shares, with a book value of about NT$1.779 billion, representing a 7.76% stake—indicating that Ennostar remains one of PlayNitride’s key shareholders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ennostar stated that its operations faced challenges in the first half of this year, with losses widening in the second quarter, mainly due to weak consumer demand, inventory adjustments, and fluctuations in the New Taiwan dollar exchange rate, Economic Daily News indicates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amid industry transformation, Ennostar has moved beyond relying solely on LEDs. Notably, as Economic Daily News highlights, the company has joined the silicon photonics industry alliance spearheaded by leading players such as TSMC and ASE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ennostar has set its development priorities for the next decade on two core technologies: optical communications and industrial sensing. The company is actively investing in photonic integrated circuits (PIC), silicon photonics, and co-packaged optics (CPO) to capture opportunities in the AI server and data center markets, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/05/news-taiwan-chip-giants-capitalize-on-cpo-boom-as-mediatek-tsmc-race-ahead-on-serdes/&quot;&gt;
+    [News] Taiwan Chip Giants Capitalize on CPO Boom as MediaTek, TSMC Race Ahead on SerDes
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250224-12483.html&quot;&gt;
+    Ennostar Consolidates Resources to Drive High-Value Optical Semiconductors Applications in 3+1 Key Areas, Says TrendForce
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Ennostar)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Huawei’s 5nm Kunpeng 930 Leak Raises Big Question: TSMC or SMIC Behind it? </title>
+<link>https://www.trendforce.com/news/2025/08/28/news-huaweis-5nm-kunpeng-930-leak-raises-big-question-tsmc-or-smic-behind-it/</link>
+<pubDate>Wed, 27 Aug 2025 23:36:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;423&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/13130226/Huawei-logo-624x423.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/13130226/Huawei-logo-624x423.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13130226/Huawei-logo-300x203.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13130226/Huawei-logo-768x521.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13130226/Huawei-logo-1024x694.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://wccftech.com/teardown-reveals-huawei-fastest-server-chip-the-kunpeng-930/&quot;&gt;
+       Wccftech
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://x.com/Kurnalsalts/status/1959849324462198933&quot;&gt;
+        X
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.techpowerup.com/340316/huaweis-kunpeng-930-is-an-80-core-cpu-made-on-tsmc-n5&quot;&gt;
+       TechPowerUp
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.163.com/dy/article/K7VBK98A0556ECNV.html&quot;&gt;
+        NetEase News
+       &lt;/a&gt;
+       &lt;span&gt;
+        , and
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://news.mydrivers.com/1/1070/1070738.htm&quot;&gt;
+        MyDrivers
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Huawei’s first server CPU, the Kunpeng 920, was introduced in 2019, built on the Arm architecture and the 7nm process. Since then, the industry has closely tracked speculation about its successor, and details have now begun to surface. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://wccftech.com/teardown-reveals-huawei-fastest-server-chip-the-kunpeng-930/&quot;&gt;
+    Wccftech
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , X platform user
+  &lt;span&gt;
+   &lt;a href=&quot;https://x.com/Kurnalsalts/status/1959849324462198933&quot;&gt;
+    @Kurnalsalts
+   &lt;/a&gt;
+  &lt;/span&gt;
+  says they have acquired Huawei’s new Kunpeng 930 server chip and conducted an extensive teardown, revealing significant generational advancements, as the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.techpowerup.com/340316/huaweis-kunpeng-930-is-an-80-core-cpu-made-on-tsmc-n5&quot;&gt;
+    TechPowerUp
+   &lt;/a&gt;
+  &lt;/span&gt;
+  highlights, the Kunpeng 930 reportedly integrates dense compute tiles manufactured on TSMC’s 5nm node with a large I/O die produced at SMIC on a more mature process, possibly 14nm. This hybrid approach, the report notes, enables Huawei to pursue higher SRAM density and core scaling where needed, while assigning I/O and routing to a foundry that can handle volume production and ease supply constraints.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some sources, however, suggest a different manufacturer, as highlighted by Chinese outlet
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.163.com/dy/article/K7VBK98A0556ECNV.html&quot;&gt;
+    NetEase News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.mydrivers.com/1/1070/1070738.htm&quot;&gt;
+    MyDrivers
+   &lt;/a&gt;
+  &lt;/span&gt;
+  further notes that SMIC’s N+3 process reportedly achieves notable transistor density—between TSMC’s N6 and Samsung’s 5nm nodes, roughly equivalent to TSMC’s 5.5nm level.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Rumored Details of Huawei’s Kunpeng 930: Packaging, Architecture, and Connectivity
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, in terms of packaging, Wccftech notes that the chip measures about 77.5mm × 58.0mm, a relatively large size driven by Huawei’s chiplet design, which combines four compute dies with one large I/O die. As the report highlights, the I/O die in this successor is approximately 81.26% larger than that of the Kunpeng 920.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Kunpeng 930 is reportedly built with a total of 120 cores. Each die carries 2MB of L2 cache and shares 91MB of L3 cache. In addition, it reportedly adopts Huawei’s “Mount TaiShan” architecture, built on ARM, Wccftech notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for connectivity, the Kunpeng 930 provides 96 PCIe lanes, supports 16-channel DDR5 memory, and is designed for a dual-socket motherboard platform, enabling dual-CPU configurations, as Wccftech indicates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/26/news-huawei-enters-global-ai-memory-race-with-upcoming-ai-ssd-on-august-27/&quot;&gt;
+    [News] Huawei Enters Global AI Memory Race with Upcoming AI SSD on August 27
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/21/news-china-accelerates-ai-chip-independence-drive-reportedly-aiming-70-self-sufficiency-by-2027/&quot;&gt;
+    [News] China Accelerates AI Chip Independence Drive, Reportedly Aiming 70% Self-Sufficiency by 2027
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Huawei)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Is Cambricon the Next NVIDIA or Unsustainable Growth Story? Three Key Risks Behind the Epic Rally </title>
+<link>https://www.trendforce.com/news/2025/08/27/news-is-cambricon-the-next-nvidia-or-unsustainable-growth-story-three-operational-risks-behind-the-epic-rally/</link>
+<pubDate>Wed, 27 Aug 2025 06:30:33 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;366&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/18164653/Cambricon-China-AI-chip-20250718-624x366.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/18164653/Cambricon-China-AI-chip-20250718-624x366.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/18164653/Cambricon-China-AI-chip-20250718-300x176.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/18164653/Cambricon-China-AI-chip-20250718-768x450.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/18164653/Cambricon-China-AI-chip-20250718-1024x600.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.businesstoday.com.tw/article/category/183009/post/202508270005/&quot;&gt;
+       Business Today
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.scmp.com/tech/big-tech/article/3323173/meet-cambricon-how-two-genius-brothers-created-chinas-potential-rival-nvidia?module=top_story&amp;pgtype=section&quot;&gt;
+       South China Morning Post
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+       &lt;a href=&quot;https://cj.sina.com.cn/articles/view/7583936909/1c409b18d00101kdt2&quot;&gt;
+        Sina
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  China’s AI chip rising star Cambricon has become the market sensation these days, with its market cap briefly hitting RMB 580 billion, surpassing SMIC and even Taiwan’s MediaTek, reports
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.businesstoday.com.tw/article/category/183009/post/202508270005/&quot;&gt;
+    Business Today
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . Dubbed China’s NVIDIA, it trades at an eye-popping trailing 12-month P/E above 4,000—compared with under 60 for NVIDIA—reflecting growing confidence that China is building a homegrown AI ecosystem, according to the
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.scmp.com/tech/big-tech/article/3323173/meet-cambricon-how-two-genius-brothers-created-chinas-potential-rival-nvidia?module=top_story&amp;pgtype=section&quot;&gt;
+    South China Morning Post
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  What’s driving Cambricon’s stock surge, and what hurdles lie ahead? Here’s a quick look at the company’s rise, its founders, products, and key risks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Earnings Boom Gives Cambricon Stock a Lift
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;span&gt;
+   &lt;a href=&quot;https://cj.sina.com.cn/articles/view/7583936909/1c409b18d00101kdt2&quot;&gt;
+    Sina
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes, Cambricon’s stock surge is partly driven by its explosive growth. Q1 2025 revenue already reached RMB 1.11 billion, nearly matching the RMB 1.17 billion recorded for all of 2024, and the company’s H1 2025 revenue soared to RMB 28.81 billion, a 43-fold year-on-year increase, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Profitability has also turned sharply positive. According to Sina, Cambricon reported a net profit of RMB 1.038 billion in H1 2025, compared with a RMB 530 million loss in H1 2024. After swinging to profit in Q4 2024, the company has now posted three consecutive profitable quarters, Sina notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead, Cambricon’s next flagship, Siyuan 690, is expected to rival NVIDIA’s H100 in performance, according to South China Morning Post. Meanwhile, Business Today notes that its 2023-launched Siyuan 590 delivers roughly 80% of NVIDIA’s A100 performance, and is built using China’s domestic 7nm process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2016 by brothers Chen Yunji and Chen Tianshi, both still in their early 40s now, Cambricon has been listed on Shanghai’s STAR Market since 2020, reports South China Morning Post. Hailing from Nanchang, Jiangxi, the brothers trained in the Chinese Academy of Sciences’ elite “genius youth class” before joining its Institute of Computing Technology—one focusing on semiconductors, the other on AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today, the younger Chen serves as Cambricon’s chairman and largest individual shareholder, owning 28.6% of the company, which has made him one of China’s richest people with a personal fortune of US$20 billion, South China Morning Post adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Key Risks: Clients, Geopolitics, Competition
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Sina also flags risks behind Cambricon’s strong earnings: 99.6% of its H1 2025 revenue comes from cloud AI chips, which are almost entirely devoted to large model training and inference, supporting mainstream domestic models like DeepSeek and Qwen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In line with Sina’s view, Business Today points out that Cambricon’s top five clients account for over 94% of sales, with the largest client contributing nearly 80%, which is likely Alibaba or its cloud division. The structure suggests that if even one key client reduces budgets or delays projects, Cambricon could face a significant revenue gap.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Geopolitical tensions pose another major risk. Added to Washington’s trade blacklist in December 2022, Cambricon has been cut off from key U.S. technologies and faces restrictions on using TSMC’s foundry services. Sina notes that to mitigate this, Cambricon has chosen to stockpile inventory and lock production capacity. While this ensures short-term delivery, it also raises capital tie-up, inventory risk, and potential overstock pressure over the medium to long term, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, Business Today highlights China’s fiercely competitive chip market, where rivals often match or exceed international standards. Huawei’s Ascend 910B is already in mass production, slightly outperforming Cambricon with a more mature ecosystem, while Hygon Information is developing chips aimed at rivaling NVIDIA, as per the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cambricon’s future is deeply tied to China’s AI ecosystem. Its meteoric growth represents a high-stakes gamble on the backbone computing power of domestic large models, betting on whether China’s AI industry can truly stand on its own over the next two to three years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2024/12/30/news-ai-chip-firm-cambricon-poised-as-chinas-top-stock-of-2024-with-nearly-400-surge-surpassing-nvidia/&quot;&gt;
+    [News] AI Chip Firm Cambricon Poised as China’s Top Stock of 2024 with Nearly 400% Surge, Surpassing NVIDIA
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2024/09/30/news-china-reportedly-advises-local-companies-to-avoid-nvidias-h20-benefiting-huawei-and-cambricon/&quot;&gt;
+    [News] China Reportedly Advises Local Companies to Avoid NVIDIA’s H20, Benefiting Huawei and Cambricon
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Cambricon)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Meta’s Superintelligence Labs Reportedly Hit by Exits After Aggressive AI Hiring Push </title>
+<link>https://www.trendforce.com/news/2025/08/27/news-metas-superintelligence-labs-reportedly-hit-by-exits-after-aggressive-ai-hiring-push/</link>
+<pubDate>Wed, 27 Aug 2025 06:05:51 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;477&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/04142431/Meta-ceo-624x477.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/04142431/Meta-ceo-624x477.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/04142431/Meta-ceo-300x229.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/04142431/Meta-ceo-768x587.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/04142431/Meta-ceo-1024x783.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.businessinsider.com/meta-superintelligence-team-researchers-exit-ai-push-2025-8&quot;&gt;
+        Business Insider
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.wired.com/story/researchers-leave-meta-superintelligence-labs-openai/&quot;&gt;
+       Wired
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.wsj.com/tech/ai/meta-ai-hiring-freeze-fda6b3c4&quot;&gt;
+        The Wall Street Journal
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.reuters.com/business/meta-signs-over-10-billion-cloud-deal-with-google-source-says-2025-08-21/&quot;&gt;
+        Reuters
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-26/meta-s-louisiana-data-center-to-cost-50-billion-trump-says&quot;&gt;
+       Bloomberg
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  As Meta advances its AI ambitions, its Superintelligence Labs is already encountering early turbulence. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.businessinsider.com/meta-superintelligence-team-researchers-exit-ai-push-2025-8&quot;&gt;
+    Business Insider
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , at least eight employees—including researchers, engineers, and a senior product leader—have departed less than two months after CEO Mark Zuckerberg announced the launch of the new Meta Superintelligence Labs (MSL).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report indicates that most of those who left were veteran staff who had played key roles in building Meta’s core AI infrastructure. The report also notes that the influx of highly paid new hires has fueled tensions, particularly among longtime employees who were at Meta before the superintelligence initiative began.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To build out the new superintelligence unit, Meta has reportedly offered compensation packages worth hundreds of millions of dollars while recruiting talent from firms such as OpenAI and Google DeepMind, the report highlights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alongside company veterans, the recent exits also included newer hires. As the report indicates, citing
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.wired.com/story/researchers-leave-meta-superintelligence-labs-openai/&quot;&gt;
+    Wired
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , researchers Avi Verma and Ethan Knight left MSL in under a month and returned to OpenAI, where they had both previously worked.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   From Talent Rush to Hiring Freeze: Meta’s AI Gamble
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Meta’s aggressive hiring spree is already showing signs of slowing. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.wsj.com/tech/ai/meta-ai-hiring-freeze-fda6b3c4&quot;&gt;
+    The Wall Street Journal
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , sources indicate the company has put a freeze on recruitment in its artificial intelligence division after months of hiring more than 50 AI researchers and engineers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While all of the leading AI companies have been actively hiring talents this year, Meta has been the most aggressive, the report points out. Citing an analyst, Wall Street Journal indicates that the scale of big tech firms’ investments is raising concerns, with some highlighting Meta’s rapidly increasing stock-based compensation costs as a potential risk to shareholder returns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Meta Doubles Down on AI With $10B+ Google Cloud Deal and Data Center Push
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meta is pressing ahead with its AI ambitions despite the hiring freeze. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/meta-signs-over-10-billion-cloud-deal-with-google-source-says-2025-08-21/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , sources say the company has signed a six-year cloud deal with Google worth over $10 billion. Under the agreement, Meta will use Google Cloud’s servers, storage, networking, and related services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-26/meta-s-louisiana-data-center-to-cost-50-billion-trump-says&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that President Donald Trump said Meta plans to invest $50 billion in its massive Louisiana data center. The company, however, has only stated publicly that the investment in the data center will exceed $10 billion, the report points out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/20/news-meta-reshapes-ai-division-in-superintelligence-push-amid-talent-war-and-heavy-spending/&quot;&gt;
+    [News] Meta Reshapes AI Division in Superintelligence Push Amid Talent War and Heavy Spending
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/05/news-metas-poaching-effort-at-ex-openai-ctos-startup-fails-as-ai-talent-war-escalates/&quot;&gt;
+    [News] Meta’s Poaching Effort at Ex-OpenAI CTO’s Startup Fails as AI Talent War Escalates
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Meta)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel’s Clearwater Forest Unveils 18A Backside Power at Hot Chips; TSMC’s Super Power Rail to Follow </title>
+<link>https://www.trendforce.com/news/2025/08/27/news-intels-clearwater-forest-unveils-18a-backside-power-at-hot-chips-tsmcs-super-power-rail-to-follow/</link>
+<pubDate>Wed, 27 Aug 2025 02:55:11 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/27103524/Intel-BSPDN-PowerVia-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/27103524/Intel-BSPDN-PowerVia-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27103524/Intel-BSPDN-PowerVia-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27103524/Intel-BSPDN-PowerVia-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27103524/Intel-BSPDN-PowerVia-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.ctee.com.tw/news/20250827700229-430501&quot;&gt;
+       Commercial Times
+      &lt;/a&gt;
+      ,
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.tomshardware.com/desktops/servers/intel-reveals-288-core-xeon&quot;&gt;
+        Tom’s Hardware
+       &lt;/a&gt;
+      &lt;/span&gt;
+      ,
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.intel.com/content/www/us/en/foundry/process/18a.html&quot;&gt;
+        Intel
+       &lt;/a&gt;
+       &lt;span&gt;
+        and
+        &lt;a href=&quot;https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_A16&quot;&gt;
+         TSMC
+        &lt;/a&gt;
+       &lt;/span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  At Hot Chips 2025 (Aug. 24–26), Intel unveiled its next-generation Xeon processor, Clearwater Forest, which is built on 18A and scheduled for mass production in 2026, according to the
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20250827700229-430501&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, while Intel’s new E-core Xeon integrates 18A with Foveros Direct 3D advanced packaging, Commercial Times highlights that Team Blue will also introduce PowerVia, its backside power delivery technology (BSPDN), in its 18A node.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Intel explains, the industry-first PowerVia technology relocates course pitch metals and bumps to the back side of the die and embeds nano-scale through-silicon vias (nano-TSVs) in every standard cell for efficient power distribution. The new structure, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.intel.com/content/www/us/en/foundry/process/18a.html&quot;&gt;
+    Intel
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , improves standard cell utilization by 5-10% and ISO-power performance by up to 4%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.tomshardware.com/desktops/servers/intel-reveals-288-core-xeon&quot;&gt;
+    Tom’s Hardware
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Clearwater Forest marks one of the first deployments of Intel’s 18A node, built on RibbonFET transistors and backside power delivery. By separating power and signal paths, Intel says the chip uses energy more efficiently and keeps voltage drops low—critical for hyperscalers running massive, power-hungry data centers, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the 18A node will remain primarily for internal products, Intel’s roadmap points to 14A, which will adopt PowerDirect, a direct-contact power delivery method that builds on the PowerVia architecture, according to its
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.intc.com/news-events/press-releases/detail/1739/intel-foundry-gathers-customers-and-partners-outlines&quot;&gt;
+    press release
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   TSMC Super Power Rail Roadmap
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, Commercial Times points out that TSMC is expected to roll out its A16 process—also introducing backside power delivery—in the second half of next year, with supply chain players gearing up. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_A16&quot;&gt;
+    TSMC
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , its A16 node integrates leading nanosheet transistors with innovative Super Power Rail (SPR) solutions, which improves logic density and performance by dedicating front-side routing resources to signals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Compared to TSMC’s N2P process, A16 will provide an 8-10% speed improvement at the same Vdd (positive power supply voltage), a 15-20% power reduction at the same speed, and up to 1.10X chip density, it states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Following A16, TSMC also plans to bring backside power delivery to its next advanced node, A14, slated for production in 2028. However,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.tomshardware.com/tech-industry/tsmc-unveils-1-4nm-technology-2nd-gen-gaa-transistors-full-node-advantages-coming-in-2028&quot;&gt;
+    Tom’s Hardware
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes the first version will launch without BSPDN, with an enhanced version incorporating the technology expected in 2029.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/06/news-intel-18a-yield-reportedly-just-10-at-risk-production-casting-doubt-on-panther-lake-plans/&quot;&gt;
+    [News] Intel 18A Yield Reportedly Just 10% at Risk Production, Casting Doubt on Panther Lake Plans
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/04/24/news-tsmc-tech-symposium-highlights-a14-set-for-2028-launch-9-5-reticle-cowos-arriving-in-2027/&quot;&gt;
+    [News] TSMC Tech Symposium Highlights: A14 Set for 2028 Launch; 9.5 Reticle CoWoS Arriving in 2027
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple Reportedly Plots Bold iPhone Makeover, Foldable Coming in 2026, Boosting TSMC </title>
+<link>https://www.trendforce.com/news/2025/08/27/news-apple-reportedly-plots-bold-iphone-makeover-foldable-coming-in-2026-boosting-tsmc/</link>
+<pubDate>Wed, 27 Aug 2025 02:55:05 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;350&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/27102454/Apple-iPhone-FREEPIK-20250827-624x350.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/27102454/Apple-iPhone-FREEPIK-20250827-624x350.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27102454/Apple-iPhone-FREEPIK-20250827-300x168.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27102454/Apple-iPhone-FREEPIK-20250827-768x430.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/27102454/Apple-iPhone-FREEPIK-20250827-1024x574.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://money.udn.com/money/story/5612/8962510&quot;&gt;
+        Economic Daily News
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.bloomberg.com/news/newsletters/2025-08-24/apple-to-launch-iphone-17-pro-iphone-17-air-in-september-iphone-fold-next-year-mepmzpcj&quot;&gt;
+        Bloomberg
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.ctee.com.tw/news/20250827700437-430501&quot;&gt;
+       Commercial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5612/8962510&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/newsletters/2025-08-24/apple-to-launch-iphone-17-pro-iphone-17-air-in-september-iphone-fold-next-year-mepmzpcj&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , sources indicate that Apple’s upcoming annual product launch will set the stage for three consecutive years of major iPhone redesigns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   iPhone 17 Series Based on TSMC’s N3P
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, the iPhone 17 series, expected to debut this fall, is projected to give TSMC a boost. As highlighted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20250827700437-430501&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , industry sources note that the lineup will consist of four models: iPhone 17, iPhone 17 Air, iPhone 17 Pro, and iPhone 17 Pro Max. The iPhone 17 and iPhone 17 Air will feature the A19 chip, while the Pro and Pro Max models will use the A19 Pro chip— all manufactured on TSMC’s N3P process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Commercial Times also points to other significant upgrades, including indications that the Pro models will adopt vapor chambers in place of graphite sheets to enhance heat dissipation. Memory capacity is likewise set for an upgrade, with the iPhone 17 equipped with 8GB of RAM, while the other three models move up to 12GB.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   From iPhone 17 Air to iPhone 20: Bold Redesigns Ahead
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Economic Daily News, citing Bloomberg, notes, Apple has planned a three-year cycle of major iPhone redesigns, beginning this September with the launch of the ultra-slim iPhone 17 Air. Bloomberg adds that the iPhone 17 Air will also incorporate Apple’s first in-house modem chip, replacing Qualcomm’s versions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report highlights that the truly groundbreaking product will be Apple’s first foldable iPhone, slated for release in 2026 under the internal code name V68. The device is expected to resemble Samsung’s foldables, with a book-style design that unfolds into a small tablet, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250722-12649.html&quot;&gt;
+    TrendForce
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Apple is likely to launch its first foldable phone in the second half of next year, featuring a 5.5-inch external display and a 7.8-inch internal display. If confirmed, Apple’s entry is expected to significantly boost consumer interest and acceptance of foldables, particularly among high-end users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, in 2027, Apple is expected to release its 20th anniversary iPhone. The report indicates that this model will likely feature a curved-glass design, ending the flat-edged look introduced in 2020, and will reportedly be named the “iPhone 20.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/25/news-apples-first-foldable-iphone-set-for-2026-as-hinge-suppliers-from-korea-u-s-and-china-compete/&quot;&gt;
+    [News] Apple’s First Foldable iPhone Set for 2026 as Hinge Suppliers Compete
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250722-12649.html&quot;&gt;
+    Accelerated Brand Expansion Reshapes Foldable Phone Market; Apple’s 2026 Entry May Ignite Industry Breakthrough, Says TrendForce
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nikon Announces Yokohama Plant Closure as Precision Equipment  Business Weakens </title>
+<link>https://www.trendforce.com/news/2025/08/27/news-nikon-announces-yokohama-plant-closure-as-precision-equipment-business-weakens/</link>
+<pubDate>Wed, 27 Aug 2025 00:41:30 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;384&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/26164135/Nikon-20250826-624x384.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/26164135/Nikon-20250826-624x384.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26164135/Nikon-20250826-300x185.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26164135/Nikon-20250826-768x473.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26164135/Nikon-20250826-1024x631.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.jp.nikon.com/company/news/2025/0821_01.html&quot;&gt;
+        Nikon
+       &lt;/a&gt;
+       &lt;span&gt;
+        ,
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.nikkei.com/article/DGXZQOUC214IX0R20C25A8000000/&quot;&gt;
+        Nikkei
+       &lt;/a&gt;
+       &lt;span&gt;
+        ,
+       &lt;/span&gt;
+       &lt;a href=&quot;https://jiweipreview.laoyaoba.com/n/956549&quot;&gt;
+        ijiwei
+       &lt;/a&gt;
+       &lt;span&gt;
+        ,
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.techpowerup.com/339060/nikon-introduces-600x600-mm-substrates-for-advanced-ai-silicon&quot;&gt;
+        TechPowerUp
+       &lt;/a&gt;
+       &lt;span&gt;
+        , and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://xenospectrum.com/nikon-introduces-dsp-100-a-new-weapon-for-the-ai-era/&quot;&gt;
+        &lt;span&gt;
+         XenoSpectrum
+        &lt;/span&gt;
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  On August 21,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.jp.nikon.com/company/news/2025/0821_01.html&quot;&gt;
+    Nikon
+   &lt;/a&gt;
+  &lt;/span&gt;
+  announced plans to shut down its Yokohama Plant on September 30. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.nikkei.com/article/DGXZQOUC214IX0R20C25A8000000/&quot;&gt;
+    Nikkei
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the facility employed about 350 people as of the end of July. These employees will remain with the company, relocating to receiving sites as the plant’s operations are transferred to Nikon’s headquarters in Shinagawa, Tokyo, and to other locations in Kanagawa Prefecture.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Yokohama Plant has been engaged in the development and manufacturing of biological microscopes, industrial equipment, and flat-panel display (FPD) lithography equipment, as Nikkei adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company stated that the closure had already been factored into its consolidated earnings forecast for the fiscal year through March 2026, noting that the overall impact would be limited. Nikon aims to cut costs by consolidating its facilities, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Nikon’s Lithography Business: Historical Role and Current Decline
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The closure carries particular significance, as the Yokohama Plant has played a central role in Nikon’s history since its founding in 1917. As Nikkei highlights, when Nikon became the first Japanese company to commercialize a semiconductor lithography system known as a “stepper” in 1980, the plant helped meet surging demand by taking on part of the production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With lithography equipment at the heart of the Yokohama Plant, the report notes that Nikon has been struggling with financial headwinds, as sales of its semiconductor lithography systems have declined, dragged down by weak demand from major customer Intel, while tariffs imposed under the Trump administration have further pressured earnings.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a result, Nikon’s Precision Equipment Business is projected to record an 8.4% revenue decline in fiscal 2025, with sales expected to reach JPY 185 billion (about US$1.24 billion)—falling below the JPY 200 billion mark for the first time in years, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://jiweipreview.laoyaoba.com/n/956549&quot;&gt;
+    ijiwei
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing the company’s
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.nikon.com/company/ir/ir_library/result/pdf/2025/25_all_e.pdf&quot;&gt;
+    financial report
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Nikon is broadening its focus toward new growth opportunities. For instance, as semiconductor giants embrace fan-out panel-level packaging (FOPLP) for larger, more efficient chip designs, the company has joined the race. In July, it began taking orders for the DSP-100 digital lithography system, designed for 600 mm square panels used in advanced AI chip packaging, according to its
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.nikon.com/company/news/2025/0716_01.html&quot;&gt;
+    press release
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and reports from
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.techpowerup.com/339060/nikon-introduces-600x600-mm-substrates-for-advanced-ai-silicon&quot;&gt;
+    TechPowerUp
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://xenospectrum.com/nikon-introduces-dsp-100-a-new-weapon-for-the-ai-era/&quot;&gt;
+    XenoSpectrum
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/01/news-chip-equipment-giants-tel-kla-flag-weak-china-demand-in-2025-amid-trade-tensions/&quot;&gt;
+    [News] Chipmaking Tool Giants TEL, KLA Flag Weak China Demand in 2025 Amid Trade Tensions
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/21/news-nikon-unveils-dsp-100-system-for-panel-level-packaging-supporting-600mm-panels-with-9x-throughput/&quot;&gt;
+    [News] Nikon Unveils DSP-100 System for Panel-Level Packaging, Supporting 600mm Panels with 9x Throughput
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Nikon)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> U.S. Proposes Major Critical Minerals Update, Adding Copper, Potash, and Silicon to Draft List </title>
+<link>https://www.trendforce.com/news/2025/08/27/news-u-s-proposes-major-critical-minerals-overhaul-adding-copper-potash-and-silicon-to-draft-list/</link>
+<pubDate>Tue, 26 Aug 2025 23:36:15 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/26162134/copper-mining-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/26162134/copper-mining-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26162134/copper-mining-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26162134/copper-mining-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26162134/copper-mining-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.mining.com/us-adds-copper-potash-silicon-in-critical-minerals-list-shake-up/&quot;&gt;
+       Mining.com
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.reuters.com/business/us-interior-department-proposes-adding-copper-critical-minerals-list-2025-08-25/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+       &lt;a href=&quot;https://www.doi.gov/pressreleases/department-interior-releases-draft-2025-list-critical-minerals&quot;&gt;
+        U.S. Department of the Interior
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  In the biggest update since 2018, the U.S. has added copper, potash, and silicon to its draft critical minerals list, as noted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.mining.com/us-adds-copper-potash-silicon-in-critical-minerals-list-shake-up/&quot;&gt;
+    Mining.com
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . As the report highlights, the latest revision now covers 54 minerals, proposing six additions—including copper, silicon, potash, silver, lead, and rhenium—while removing tellurium and arsenic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 2025 draft, as per
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.doi.gov/pressreleases/department-interior-releases-draft-2025-list-critical-minerals&quot;&gt;
+    U.S. Department of the Interior
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , marks the second revision of the Critical Minerals List, first launched under President Trump’s 2017 Executive Order to assess and address U.S. supply chain vulnerabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Mining.com, citing Kendra Russell, chief of staff at the US Geological Survey (USGS), copper and silicon were added due to the severe economic impact potential from supply disruptions.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/us-interior-department-proposes-adding-copper-critical-minerals-list-2025-08-25/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that copper is vital for transportation, defense, and the U.S. power grid—critical infrastructure as demand surges with the growth of data centers and AI. Potash, a potassium-rich salt, is primarily used in fertilizer, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, Mining.com reports that potash was added after updated models flagged potential trade risks from major suppliers, particularly Canada. Silver was included as a safeguard against a low-probability, high-impact supply disruption in Mexico, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tellurium was removed as the U.S. shifted from net importer to exporter with increased domestic production, while arsenic was dropped after revised data showed Peru—not China—dominates production, reducing supply risk, as per the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, Mining.com reports that the 2025 list introduces a new three-tier risk classification system—high, elevated, and moderate—for the first time. With minerals-based industries contributing over $4 trillion to the U.S. economy in 2024, this methodology helps identify which sectors face the greatest vulnerability to supply disruptions, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/09/news-trumps-proposed-50-copper-tariff-what-it-means-for-chips-u-s-imports-and-beyond/&quot;&gt;
+    [News] Trump’s Proposed 50% Copper Tariff: What It Means for Chips, U.S. Imports, and Beyond
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TSMC Reportedly Fast-Tracks U.S. Packaging Plants for 2H26 Construction, 2028 Production </title>
+<link>https://www.trendforce.com/news/2025/08/26/news-tsmc-reportedly-fast-tracks-u-s-packaging-plants-for-2h26-construction-2028-production/</link>
+<pubDate>Tue, 26 Aug 2025 07:16:49 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/06/11132759/TSMC-Arizona-21-624x351.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/06/11132759/TSMC-Arizona-21-624x351.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/06/11132759/TSMC-Arizona-21-300x169.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/06/11132759/TSMC-Arizona-21-768x432.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/06/11132759/TSMC-Arizona-21-1024x576.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=a8169832-0ac8-4c51-8abf-a6cd53cb1b6c&amp;c=MB010000&quot;&gt;
+       MoneyDJ
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+       &lt;a href=&quot;https://www.ctee.com.tw/news/20250728700061-439901&quot;&gt;
+        Commercial Times
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Amid scrutiny over Washington’s 10% stake in Intel, TSMC is pressing ahead with its U.S. expansion.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=a8169832-0ac8-4c51-8abf-a6cd53cb1b6c&amp;c=MB010000&quot;&gt;
+    MoneyDJ
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that site prep is underway for its two advanced packaging plants (AP1, AP2) in Arizona, with construction set to begin in 2H26 and production by 2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report also details TSMC’s plan for the two advanced packaging plants, adding that AP1 will focus on expanding SoIC (System-on-Integrated-Chips) and CoW (Chip on Wafer) technologies, while AP2 will specialize in CoPoS (Chip-on-Panel-on-Substrate) to meet local demand for AI and HPC chip packaging.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20250728700061-439901&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  previously reported, citing sources in the supply chain, TSMC’s U.S. facilities will initially center on SoIC (System-on-Integrated-Chips) and CoW (Chip-on-Wafer), while the back-end oS (on-Substrate) stage will be handled by Amkor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SoIC Clients Lining up
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  MoneyDJ further explains that SoIC represents TSMC’s most advanced packaging technology currently in volume production and will be integrated with CoWoS and eventually CoPoS. The report adds that beyond AMD, Apple, NVIDIA, and Broadcom are also expected to adopt SoIC for their high-end products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Commercial Times suggests that SoIC will likely be adopted in Apple’s next-generation M-series chips. The report also cites sources expecting AMD’s next-generation EPYC processor, Venice, to use TSMC’s 2nm process paired with SoIC packaging.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, NVIDIA’s upcoming Rubin platform, set to debut next year, will also adopt SoIC technology. According to the report, Rubin’s GPU and I/O dies will be manufactured separately—with GPUs produced on N3P and I/O on N5B—then integrated through SoIC to combine two GPUs with one I/O die.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-tsmc-arizona-delivers-2q25-investment-income-as-kumamoto-fab-struggles-with-losses/&quot;&gt;
+    [News] TSMC Arizona Delivers 2Q25 Investment Income; as Kumamoto Fab Struggles with Losses
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/25/news-tsmc-reportedly-delays-kumamoto-2nd-fab-launch-to-2029-amid-u-s-expansion-push/&quot;&gt;
+    [News] TSMC Reportedly Delays Kumamoto 2nd Fab Launch to 2029 Amid U.S. Expansion Push
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: TSMC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Malaysia Unveils First Homegrown AI Chip MARS1000 on 7nm </title>
+<link>https://www.trendforce.com/news/2025/08/26/news-malaysia-unveils-first-homegrown-ai-chip-mars1000-on-7nm/</link>
+<pubDate>Tue, 26 Aug 2025 06:53:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;437&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/26135836/AI-chip-FREEPIK-20250826-624x437.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/26135836/AI-chip-FREEPIK-20250826-624x437.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26135836/AI-chip-FREEPIK-20250826-300x210.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26135836/AI-chip-FREEPIK-20250826-768x538.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/26135836/AI-chip-FREEPIK-20250826-1024x717.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-25/malaysia-unveils-first-ai-device-chip-to-join-global-race&quot;&gt;
+        Bloomberg
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.thestar.com.my/business/business-news/2025/08/25/malaysia-launches-first-local-edge-ai-processor-mars1000&quot;&gt;
+        The Star
+       &lt;/a&gt;
+       &lt;span&gt;
+        ,
+       &lt;/span&gt;
+       &lt;span&gt;
+        and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://udn.com/news/story/7240/8854594&quot;&gt;
+        Economic Daily News
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-08-25/malaysia-unveils-first-ai-device-chip-to-join-global-race&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Malaysia unveiled its own AI processor on Monday, as local designer SkyeChip introduced the MARS1000 at an industry association event.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SkyeChip CEO Fong Swee Kiang said MARS1000 is the country’s first smart IoT chip, which is developed on a 7-nanometer process, according to Malaysian outlet
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.thestar.com.my/business/business-news/2025/08/25/malaysia-launches-first-local-edge-ai-processor-mars1000&quot;&gt;
+    The Star
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . Designed for edge workloads, the MARS1000 supports applications in autonomous robotics, intelligent video analytics, smart cities, industrial automation, and generative AI, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, The Star highlights that the event also featured the launch of EdgeMind, a locally developed Edge AI system by Elliance Sdn Bhd. As noted in the report, a memorandum of understanding was signed in November 2024 by Elliance, SkyeChip, Kaltech, and Estek Automation, marking their strategic collaboration to design and build Malaysia’s first edge AI system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Malaysia’s Expanding Role in Chip Packaging and Data Centers
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Malaysia is already a major player in global semiconductor packaging and serves as a manufacturing base for equipment makers like Lam Research. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-07-11/chip-firms-in-malaysia-pause-investment-plans-on-tariff-angst?srnd=phx-technology&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the country handles roughly 10% of global chip packaging, with electronics accounting for nearly 40% of its exports.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is also emerging as a hub for AI data centers, attracting major investments from companies like Oracle and Microsoft, as Bloomberg points out.
+  &lt;span&gt;
+   &lt;a href=&quot;https://udn.com/news/story/7240/8854594&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  highlights Johor as Malaysia’s largest data center investment zone, ranking ninth in the Asia-Pacific AI data center market, and drawing multinational players including Australian data center giant AirTrunk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Malaysia’s AI Drive Faces U.S. Restrictions
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Officials in Kuala Lumpur are pursuing a multiyear drive to strengthen Malaysia’s capabilities in chip design, wafer fabrication, and AI data centers. Prime Minister Anwar Ibrahim’s government has pledged at least 25 billion ringgit ($6 billion) to move the country up the global value chain, as Bloomberg notes. That effort is being complicated by a Trump administration proposal to restrict AI chip shipments to Malaysia and Thailand, amid concerns that smugglers are using the two countries as transshipment points to channel semiconductors into restricted markets such as China, according to Bloomberg.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/11/news-tariff-uncertainty-could-put-malaysias-chip-expansion-on-ice/&quot;&gt;
+    [News] Tariff Uncertainty Could Put Malaysia’s Chip Expansion on Ice
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/15/news-malaysias-ai-chip-curbs-shake-server-supply-chains-may-hit-super-micro-and-taiwans-wiwynn/&quot;&gt;
+    [News] Malaysia’s AI Chip Curbs Shake Server Supply Chains, May Hit Super Micro and Taiwan’s Wiwynn
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel Filing Cautions U.S. Stake Could Weigh on Future Funding, Overseas Business </title>
+<link>https://www.trendforce.com/news/2025/08/26/news-intel-filing-cautions-u-s-stake-could-weigh-on-future-funding-overseas-business/</link>
+<pubDate>Tue, 26 Aug 2025 03:33:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/04/11100830/Intel-CEO-Tan-Day1-5-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/04/11100830/Intel-CEO-Tan-Day1-5-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/04/11100830/Intel-CEO-Tan-Day1-5-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/04/11100830/Intel-CEO-Tan-Day1-5-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/04/11100830/Intel-CEO-Tan-Day1-5-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.reuters.com/world/china/intel-warns-us-stake-could-hurt-international-sales-future-grants-2025-08-25/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.tomshardware.com/pc-components/cpus/intel-warns-shareholders-that-the-us-governments-10-percent-stake-could-hurt-companys-international-sales&quot;&gt;
+       Tom’s Hardware
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/world/china/intel-warns-us-stake-could-hurt-international-sales-future-grants-2025-08-25/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Intel warned in a securities filing that the U.S. government’s move to convert $11 billion in subsidies into a 9.9% equity stake presents new risks, including potential limits on obtaining future government grants and possible damage to its international business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Future Grants at Risk, Filing Suggests
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by the report, Intel warned that the U.S. government’s 9.9% stake could set a precedent for other government bodies—either by encouraging them to convert existing grants into equity stakes or by making them less willing to provide future funding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Risks to Overseas Operations
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The U.S. government’s stake may also affect Intel’s overseas operations. As cited in the report, the filing warned that Washington’s sizable ownership could subject the company to additional rules or restrictions, including foreign subsidy regulations in other markets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.tomshardware.com/pc-components/cpus/intel-warns-shareholders-that-the-us-governments-10-percent-stake-could-hurt-companys-international-sales&quot;&gt;
+    Tom’s Hardware
+   &lt;/a&gt;
+  &lt;/span&gt;
+  further notes that the company also cautions the deal could trigger lawsuits or political scrutiny, and warns that a change in U.S. political leadership might alter—or even overturn—parts of the agreement, resulting in further repercussions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of Intel’s pressing concerns is its dependence on foreign markets. As noted by Tom’s Hardware, 76% of its $53.1 billion in fiscal 2024 revenue came from outside the U.S. China alone contributed 29% of sales, followed by the U.S. at 24.5%, Singapore at 19.2%, and Taiwan at 14.7%. With the U.S. government now its largest shareholder, the chipmaker is directly tied to Trump’s unpredictable trade and tariff policies—raising the risk of unsettling overseas customers and governments, the report points out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Shareholder Impact and Government Oversight
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, as Reuters notes, the company said that issuing shares to the U.S. government at a discount to the market price would dilute existing shareholders. As cited by the report, the filing further warned that the government’s broader authority over laws and regulations could restrict Intel from pursuing transactions intended to boost shareholder value.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;751&quot; data-start=&quot;145&quot;&gt;
+  The arrangement could also pose risks for Intel. According to Tom’s Hardware, the company’s August 22, 2025 deal with the U.S. government involves $5.7 billion in accelerated CHIPS Act payments and $3.2 billion linked to the Secure Enclave program for defense-related chips. In return, Intel will issue up to 433 million shares—about 275 million once the first funds are received, with another 159 million placed in escrow until Secure Enclave money is disbursed. If those funds are not fully delivered, the government will still receive half of the escrowed shares, while the remainder will be cancelled.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/22/news-trump-reportedly-spares-tsmc-micron-from-equity-grabs-after-chipmakers-ramp-u-s-investment/&quot;&gt;
+    [News] Trump Reportedly Spares TSMC, Micron from Equity Grabs after Chipmakers Ramp U.S. Investment
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/25/news-u-s-to-acquire-10-intel-stake-yet-foundry-future-rests-on-customer-demand/&quot;&gt;
+    [News] U.S. to Acquire 10% Intel Stake, Yet Foundry Future Rests on Customer Demand
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Huawei Enters Global AI Memory Race with Upcoming AI SSD on August 27 </title>
+<link>https://www.trendforce.com/news/2025/08/26/news-huawei-enters-global-ai-memory-race-with-upcoming-ai-ssd-on-august-27/</link>
+<pubDate>Tue, 26 Aug 2025 02:25:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/08135214/Huawei-logo-MWC-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/08135214/Huawei-logo-MWC-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/08135214/Huawei-logo-MWC-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/08135214/Huawei-logo-MWC-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/08135214/Huawei-logo-MWC-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://finance.sina.cn/2025-08-25/detail-infnfiew2224904.d.html?vt=4&amp;cid=76524&amp;node_id=76524&quot;&gt;
+        guancha.cn
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://finance.sina.cn/2025-08-25/detail-infnfiew2224904.d.html?vt=4&amp;cid=76524&amp;node_id=76524&quot;&gt;
+        ,
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.mrjjxw.com/articles/2025-08-26/4029711.html&quot;&gt;
+        National Business Daily
+       &lt;/a&gt;
+      &lt;/span&gt;
+      ,
+      &lt;span&gt;
+       and
+       &lt;a href=&quot;https://www.stcn.com/article/detail/3064797.html&quot;&gt;
+        Securities Times
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Shortly after releasing UCM (Unified Computing Memory)—an AI inference acceleration toolkit designed to reduce China’s HBM reliance—Huawei is making waves again in the memory sector as it plans to unveil a new AI SSD on August 27, according to Chinese media outlets
+  &lt;span&gt;
+   &lt;a href=&quot;https://finance.sina.cn/2025-08-25/detail-infnfiew2224904.d.html?vt=4&amp;cid=76524&amp;node_id=76524&quot;&gt;
+    guancha.cn
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.mrjjxw.com/articles/2025-08-26/4029711.html&quot;&gt;
+    National Business Daily
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report from National Business Daily notes, this move shows Huawei is stepping into the global AI memory race with its latest AI SSD, joining memory giants like Kioxia and Micron. While Kioxia has laid out a mid-to-long-term plan centered on AI-driven storage innovation, SSD expansion, and capital efficiency to strengthen its NAND market position, Micron recently rolled out three AI SSDs, with the Micron 7600 SSD targeting AI inference and mixed workloads, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As per Guancha, unlike consumer SSDs for PCs, Huawei’s product is designed for data centers handling large-scale AI model training and inference, aiming to tackle the so-called “VRAM wall” challenge in AI training and inference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While traditional HBM faces capacity limitations, Huawei’s innovation provides large-capacity SSDs with enhanced data throughput efficiency, significantly boosting AI accelerator card performance and providing stronger support for AI applications, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, National Business Daily suggests that Huawei also plans to partner with integrated system vendors, embedding the new AI SSD into all-in-one AI servers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Huawei’s Memory Breakthrough
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, according to Guancha, China’s DRAM and HBM technologies still lag behind foreign rivals—and face strict U.S. export and manufacturing controls—but domestic NAND flash has made significant strides, boosting the competitiveness of both consumer and enterprise SSDs. Huawei, as per the report, is combining the upcoming AI SSD with self-developed technologies like XtremeLink and SpeedFlex PCB.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is also worth noting that this is not the only memory breakthrough Huawei has been made recently. In mid-August, Huawei launched UCM, AI inference acceleration toolkit centered on KV (Key Value) Cache technology. The system are said to be combining multiple cache optimization algorithms to intelligently manage KV Cache memory data produced during AI processing. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.stcn.com/article/detail/3064797.html&quot;&gt;
+    Securities Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , UCM automatically distributes cached data across HBM, DRAM, and SSD storage based on memory heat patterns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/14/news-deepseek-r2-model-launch-reportedly-delayed-amid-huawei-ascend-chip-hurdles/&quot;&gt;
+    [News] DeepSeek R2 Model Launch Reportedly Delayed Amid Huawei Ascend Chip Hurdles
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/13/news-huawei-unveils-ucm-algorithm-to-cut-hbm-reliance-reportedly-goes-open-source-in-september/&quot;&gt;
+    [News] Huawei Unveils UCM Algorithm to Cut HBM Reliance, Reportedly Goes Open-Source in September
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Huawei)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> U.S. Could Break China’s Grip on Critical Minerals through Mine Waste Recovery, Study Says </title>
+<link>https://www.trendforce.com/news/2025/08/26/news-u-s-could-break-chinas-grip-on-critical-minerals-through-mine-waste-recovery-study-says/</link>
+<pubDate>Tue, 26 Aug 2025 00:39:06 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;415&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/06/10164609/GRINM-advanced-materials-China-rare-earth-624x415.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/06/10164609/GRINM-advanced-materials-China-rare-earth-624x415.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/06/10164609/GRINM-advanced-materials-China-rare-earth-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/06/10164609/GRINM-advanced-materials-China-rare-earth-768x511.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/06/10164609/GRINM-advanced-materials-China-rare-earth-1024x681.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.ft.com/content/29cd7909-a842-45d4-9009-e8891303a99b&quot;&gt;
+       Financial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.science.org/doi/10.1126/science.adw8997&quot;&gt;
+       Science
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.reuters.com/sustainability/climate-energy/us-rare-earth-pricing-system-is-poised-challenge-chinas-dominance-2025-07-14/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.economist.com/leaders/2025/08/13/xi-jinpings-weaponisation-of-rare-earth-elements-will-ultimately-backfire&quot;&gt;
+        The Economist
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ft.com/content/29cd7909-a842-45d4-9009-e8891303a99b&quot;&gt;
+    Financial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , researchers at the Colorado School of Mines said the U.S. could significantly reduce its dependence on China for many vital minerals by recovering byproducts from existing domestic metal mining operations rather than letting them go unused. Their findings were published a couple of days ago in
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.science.org/doi/10.1126/science.adw8997&quot;&gt;
+    Science
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report notes, their research indicates that recovering metals produced as byproducts at active mines, together with current output, could be enough to meet U.S. manufacturing demand for copper, iron, molybdenum, silver, nickel, zinc, and rare earths.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the report also highlights that putting these waste products to better use may be challenging, as much more research, development, and policy support will be required to make it economically viable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As cited in the report, their research shows that for 15 elements — including rare earths, gallium, and germanium — recovering less than 1 percent of the byproducts from U.S. mines could eliminate the need for imports. For another 11 elements, such as lithium, a key battery metal, recovery rates of 1 to 10 percent would be needed to replace imports, according to the research.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In line with this push to reduce reliance on China for rare earths, the U.S. has been stepping up investment to strengthen its domestic supply. In July, the Department of Defense reached an agreement with MP Materials that will make it the company’s largest shareholder, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/mp-materials-partners-with-department-defense-boost-us-rare-earth-magnet-supply-2025-07-10/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . Washington has also introduced a higher pricing system to encourage domestic investment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Industry players are also taking action.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/sustainability/climate-energy/us-rare-earth-pricing-system-is-poised-challenge-chinas-dominance-2025-07-14/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that Apple has signed a USD 500 million deal with MP Materials for rare earth magnets, while
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.economist.com/leaders/2025/08/13/xi-jinpings-weaponisation-of-rare-earth-elements-will-ultimately-backfire&quot;&gt;
+    The Economist
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that about 22 new mining projects are expected to become operational by 2030.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/16/news-u-s-backs-mp-materials-with-price-guarantees-to-curb-chinas-rare-earth-grip-apple-locks-in-supply/&quot;&gt;
+    [News] U.S. Backs MP Materials With Price Guarantees to Curb China’s Rare Earth Grip; Apple Locks In Supply
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/15/news-chinas-rare-earth-gamble-why-export-controls-might-ultimately-lose-its-edge/&quot;&gt;
+    [News] China’s Rare Earth Gamble: Why Export Controls Might Ultimately Lose its Edge
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Grinm Advanced Materials)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Reportedly Plans 2027 HBM Logic Die Design to Gain Supply Chain Leverage Over TSMC, SK hynix </title>
+<link>https://www.trendforce.com/news/2025/08/26/news-nvidia-reportedly-plans-2027-hbm-logic-die-design-to-gain-supply-chain-leverage-over-tsmc-sk-hynix/</link>
+<pubDate>Mon, 25 Aug 2025 23:32:11 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;410&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/18101613/SK-hynix_SK-hynix-Ships-Worlds-First-12-Layer-HBM4-Samples-to-Customers_01--624x410.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/18101613/SK-hynix_SK-hynix-Ships-Worlds-First-12-Layer-HBM4-Samples-to-Customers_01--624x410.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/18101613/SK-hynix_SK-hynix-Ships-Worlds-First-12-Layer-HBM4-Samples-to-Customers_01--300x197.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/18101613/SK-hynix_SK-hynix-Ships-Worlds-First-12-Layer-HBM4-Samples-to-Customers_01--768x505.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/18101613/SK-hynix_SK-hynix-Ships-Worlds-First-12-Layer-HBM4-Samples-to-Customers_01--1024x673.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.hankyung.com/article/202508247936i&quot;&gt;
+       Hankyung
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.sedaily.com/NewsView/2GWP8QI6ZB&quot;&gt;
+       Sedaily
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://zdnet.co.kr/view/?no=20250825102634&quot;&gt;
+       ZDNet
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to South Korean media outlet
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.hankyung.com/article/202508247936i&quot;&gt;
+    Hankyung
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing sources, NVIDIA is working to reinforce its position in the HBM value chain by taking on the design of the “logic die,” a core component of HBM, starting in the second half of 2027, while also planning to diversify where it sources them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report highlights, industry sources see NVIDIA’s strategy as an effort to rebalance its relationship with critical partners like TSMC and SK hynix, curb their negotiating leverage, and keep supply costs in check.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report underscores that SK hynix and other memory manufacturers have so far produced logic dies internally. However, the next generation, HBM4 — entering mass production in the second half of this year — is driving a transition to foundry-based production. SK hynix has tapped TSMC for this role, and industry sources believe Micron is poised to do the same, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Industry sources explain that NVIDIA’s decision to design its own logic dies reflects a bid to reclaim control from memory makers like SK hynix. While it may still need TSMC to fabricate the chips, taking charge of the design gives NVIDIA leverage over specifications and supplier selection, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, as TrendForce observes, NVIDIA will first adopt standard HBM4e in the first half of 2027—supplied by SK hynix on TSMC’s 12nm process—before transitioning to customized HBM4e designs from the second half of 2027 through 2028, with SK hynix supporting production on TSMC’s 3nm node.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   HBM4 Race Heats Up as Suppliers Vie for NVIDIA Orders
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA is also said to be stepping up its scrutiny of SK hynix, its largest HBM supplier. Whereas SK hynix declared its output “fully booked” last year, this time Micron was the first to announce a sell-out. According to the report, industry sources interpret the change as a sign of ongoing negotiations between NVIDIA and SK hynix over supply allocations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the same time,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.sedaily.com/NewsView/2GWP8QI6ZB&quot;&gt;
+    Sedaily
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that Samsung’s HBM4 samples, delivered to NVIDIA last month, have reportedly passed initial prototype and quality tests and are scheduled to enter the “pre-production (PP)” stage by the end of this month. If they clear this last validation step, sources say mass production could begin as early as November or December.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking further ahead,
+  &lt;span&gt;
+   &lt;a href=&quot;https://zdnet.co.kr/view/?no=20250825102634&quot;&gt;
+    ZDNet
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing sources, notes that the decisive phase of the next-generation HBM race may come in the first quarter of next year, when NVIDIA is expected to complete final qualification tests for HBM4 mass production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-nvidia-reportedly-eyes-small-scale-hbm-base-die-production-in-2027-rattling-memory-chip-markets/&quot;&gt;
+    [News] NVIDIA Reportedly Eyes Small-Scale HBM Base Die Production in 2027: Rattling Memory, Chip Markets
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/21/news-samsung-reportedly-passes-nvidia-hbm4-prototype-test-30-hbm3e-price-cut-to-challenge-sk-hynix/&quot;&gt;
+    [News] Samsung Reportedly Passes NVIDIA HBM4 Sample Test, 30% HBM3E Discount to Challenge SK hynix
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SK hynix)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TSMC Reportedly Eliminates Chinese Equipment Use in 2nm Production as U.S. Rules Loom </title>
+<link>https://www.trendforce.com/news/2025/08/25/news-tsmc-reportedly-eliminates-chinese-equipment-use-in-2nm-production-as-u-s-rules-loom/</link>
+<pubDate>Mon, 25 Aug 2025 09:32:18 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2023/10/30105818/TSMC-WAFER-NO6-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2023/10/30105818/TSMC-WAFER-NO6-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2023/10/30105818/TSMC-WAFER-NO6-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2023/10/30105818/TSMC-WAFER-NO6-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2023/10/30105818/TSMC-WAFER-NO6-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://asia.nikkei.com/business/technology/tsmc-cuts-chinese-tools-from-cutting-edge-chip-production-to-avoid-us-ire&quot;&gt;
+       Nikkei
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://asia.nikkei.com/business/technology/tsmc-cuts-chinese-tools-from-cutting-edge-chip-production-to-avoid-us-ire&quot;&gt;
+    Nikkei
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing sources, TSMC is removing Chinese chipmaking equipment from its leading-edge 2nm fabs to guard against potential U.S. restrictions that could disrupt production. As the report notes, sources said the decision was influenced by the prospect of a U.S. regulation that would bar chipmakers receiving American funding from using Chinese manufacturing tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report adds that U.S. lawmakers, led by Sen. Mark Kelly, have proposed the Chip EQUIP Act, which would prohibit recipients of federal subsidies and tax credits from purchasing equipment from “foreign entities of concern,” a label the industry understands to include Chinese suppliers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report points out, Chinese equipment used by TSMC’s earlier advanced chip production lines included etching tools from Advanced Micro-Fabrication Equipment Inc. China (AMEC), one of the country’s leading chip tool makers, as well as systems from Mattson Technology, a former U.S. company acquired by Beijing E-Town Semiconductor Technology in 2016.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the meantime, TSMC is also reviewing all the chipmaking materials and chemicals it uses, aiming to reduce reliance on Chinese supplies in its Taiwan and U.S. operations, according to Nikkei, citing sources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   China’s Semiconductor Equipment Push: Progress and Gaps
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to TrendForce, as China has become the world’s largest semiconductor equipment market, the ongoing expansion of domestic wafer and packaging capacity is fueling strong demand and accelerating the growth of homegrown equipment under the theme of “import substitution and domestic breakthroughs.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  TrendForce points out that China’s semiconductor equipment industry has made progress in areas such as etching, thin-film deposition, and cleaning tools, but it remains well behind global leaders in advanced technologies like lithography, high-end metrology and inspection, and ion implantation. In certain segments, the localization rate of Chinese equipment is still below 10%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-tsmc-arizona-delivers-2q25-investment-income-as-kumamoto-fab-struggles-with-losses/&quot;&gt;
+    [News] TSMC Arizona Delivers 2Q25 Investment Income; as Kumamoto Fab Struggles with Losses
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/22/news-trump-reportedly-spares-tsmc-micron-from-equity-grabs-after-chipmakers-ramp-u-s-investment/&quot;&gt;
+    [News] Trump Reportedly Spares TSMC, Micron from Equity Grabs after Chipmakers Ramp U.S. Investment
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: TSMC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SK hynix Unveils World’s First 321-Layer QLC NAND, Targets 1H26 Commercial Launch </title>
+<link>https://www.trendforce.com/news/2025/08/25/news-sk-hynix-unveils-worlds-first-321-layer-qlc-nand-targets-1h26-commercial-launch/</link>
+<pubDate>Mon, 25 Aug 2025 05:55:29 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;468&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/25120103/SK-hynix-321-layer-QLC-NANA-Flash-20250825-624x468.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/25120103/SK-hynix-321-layer-QLC-NANA-Flash-20250825-624x468.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/25120103/SK-hynix-321-layer-QLC-NANA-Flash-20250825-300x225.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/25120103/SK-hynix-321-layer-QLC-NANA-Flash-20250825-768x576.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/25120103/SK-hynix-321-layer-QLC-NANA-Flash-20250825-1024x768.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://news.skhynix.com/sk-hynix-begins-mass-production-of-321-layer-qlc-nand-flash/&quot;&gt;
+        SK hynix
+       &lt;/a&gt;
+      &lt;/span&gt;
+      .
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.skhynix.com/sk-hynix-begins-mass-production-of-321-layer-qlc-nand-flash/&quot;&gt;
+    SK hynix
+   &lt;/a&gt;
+  &lt;/span&gt;
+  announced that it has developed a 321-layer 2Tb QLC NAND flash and has already begun mass production. According to the company’s press release, this is the world’s first QLC device to exceed 300 layers, setting a new milestone in NAND density. The product is scheduled for release in the first half of 2026, following completion of global customer validation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 321-layer QLC NAND delivers higher capacity and improved performance compared with earlier QLC products. As highlighted in the press release, the new 2Tb device provides twice the capacity of existing solutions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To address potential performance challenges in high-capacity NAND, the company increased the number of planes—independent operating units within a chip—from four to six. As noted in the press release, this change enables greater parallel processing and significantly boosts simultaneous read performance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For this product, data transfer speed has doubled, write performance has improved by up to 56%, and read performance by 18%. The press release also notes that write power efficiency has risen by more than 23%, strengthening its competitiveness in AI data centers where energy efficiency is critical.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SK hynix plans to apply its 321-layer NAND first to PC SSDs, before expanding to enterprise SSDs (eSSD) for data centers and UFS solutions for smartphones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, SK hynix is also targeting the ultra-high-capacity eSSD market for AI servers by leveraging its proprietary 32DP
+  &lt;sup&gt;
+   3
+  &lt;/sup&gt;
+  technology, which doubles integration density through the simultaneous stacking of 32 NAND dies in a single package.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/18/news-nvidia-reportedly-drives-27-of-sk-hynix-revenue-in-1h25-cementing-ai-chip-partnership/&quot;&gt;
+    [News] NVIDIA Reportedly Drives 27% of SK hynix Revenue in 1H25, Cementing AI Chip Partnership
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/07/28/news-sk-hynix-rumored-to-boost-2025-capex-by-30-on-2026-hbm-demand-visibility/&quot;&gt;
+    [News] SK hynix Rumored to Boost 2025 Capex by 30% on 2026 HBM Demand Visibility
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SK hynix)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> U.S. to Acquire 10% Intel Stake, Yet Foundry Future Rests on Customer Demand </title>
+<link>https://www.trendforce.com/news/2025/08/25/news-u-s-to-acquire-10-intel-stake-yet-foundry-future-rests-on-customer-demand/</link>
+<pubDate>Mon, 25 Aug 2025 03:47:13 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;409&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/25105302/Lip-Bu-Tan-and-Intel-governemnt-stakes-20250825-624x409.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/25105302/Lip-Bu-Tan-and-Intel-governemnt-stakes-20250825-624x409.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/25105302/Lip-Bu-Tan-and-Intel-governemnt-stakes-20250825-300x197.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/25105302/Lip-Bu-Tan-and-Intel-governemnt-stakes-20250825-768x503.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/25105302/Lip-Bu-Tan-and-Intel-governemnt-stakes-20250825-1024x671.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.reuters.com/legal/legalindustry/did-trump-save-intel-not-really-2025-08-23/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to&quot;&gt;
+        Intel
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       , and
+       &lt;a href=&quot;https://money.udn.com/money/story/5607/8941014?from=edn_related_storybottom&quot;&gt;
+        Economic Daily News
+       &lt;/a&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p data-end=&quot;623&quot; data-start=&quot;288&quot;&gt;
+  According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/legal/legalindustry/did-trump-save-intel-not-really-2025-08-23/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , President Donald Trump announced on Friday that the U.S. will acquire a 10% stake in Intel through a deal that converts government grants into equity. Under the terms of the agreement, the U.S. government will invest $8.9 billion in Intel common stock, as indicated by a
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to&quot;&gt;
+    press release
+   &lt;/a&gt;
+  &lt;/span&gt;
+  from the company.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;1044&quot; data-start=&quot;625&quot;&gt;
+  However, as the report highlights, analysts caution that the funding alone will not be enough for Intel’s foundry business to thrive. An analyst cited in the report emphasized that Intel’s recovery hinges on securing external customers for its advanced 14A manufacturing process. Without sufficient demand, the analyst added, government support on its own is unlikely to revive Intel’s foundry operations.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;1420&quot; data-start=&quot;1046&quot;&gt;
+  Reuters further underscores that the stake would make the U.S. government Intel’s largest shareholder, though neither Trump nor the company disclosed when the deal would be finalized. An analyst cited by the report also pointed to governance risks, raising questions about how such a structure might affect Intel’s ability to act in the best interests of its shareholders.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;1784&quot; data-start=&quot;1422&quot;&gt;
+  The report also notes that while Washington will not take a seat on Intel’s board and has agreed to align its votes with the board on matters requiring shareholder approval, the arrangement allows for “limited exceptions.” At the same time, it highlights that the government is purchasing its stake at a 17.5% discount to Intel’s closing share price on Friday.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;2028&quot; data-start=&quot;1786&quot;&gt;
+  In addition, the report states that the government will receive a five-year warrant priced at $20 per share, giving it the option to acquire an additional 5% of Intel stock if the company’s ownership of its foundry business falls below 51%.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;2483&quot; data-start=&quot;2030&quot;&gt;
+  &lt;strong data-end=&quot;2087&quot; data-start=&quot;2030&quot;&gt;
+   How U.S. Stake in Intel Could Impact TSMC
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p data-end=&quot;607&quot; data-start=&quot;235&quot;&gt;
+  Notably, regarding TSMC’s position after the U.S. government’s decision to take a stake in Intel, institutional investors cited by
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5607/8941014?from=edn_related_storybottom&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  said the likelihood of TSMC being required to work with Intel in foundry services has decreased, while the risk of technology leakage has also lessened—making the development broadly positive for TSMC.
+ &lt;/p&gt;
+ &lt;p data-end=&quot;861&quot; data-start=&quot;609&quot;&gt;
+  However, Economic Daily News also cautioned that now that Washington has become a shareholder, it will be important to monitor whether the U.S. government requires other tech companies to place orders with U.S. fabs—a move that could weigh on TSMC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/22/news-trump-reportedly-spares-tsmc-micron-from-equity-grabs-after-chipmakers-ramp-u-s-investment/&quot;&gt;
+    [News] Trump Reportedly Spares TSMC, Micron from Equity Grabs after Chipmakers Ramp U.S. Investment
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/15/news-trump-administration-reportedly-mulling-a-stake-in-intel-amid-u-s-manufacturing-push/&quot;&gt;
+    [News] Trump Administration Reportedly Mulling a Stake in Intel Amid U.S. Manufacturing Push
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Lip-Bu Tan’s X)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google’s Hardware Play: AI in Focus, Flip-Style Foldable and Tablet Can Wait </title>
+<link>https://www.trendforce.com/news/2025/08/25/news-googles-hardware-play-ai-in-focus-flip-style-foldable-and-tablet-can-wait/</link>
+<pubDate>Mon, 25 Aug 2025 00:36:57 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;378&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/22150458/Google-Pixel-10-20250822-624x378.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/22150458/Google-Pixel-10-20250822-624x378.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/22150458/Google-Pixel-10-20250822-300x182.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/22150458/Google-Pixel-10-20250822-768x465.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/22150458/Google-Pixel-10-20250822-1024x620.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://technews.tw/2025/08/22/google-flip-tablet&quot;&gt;
+        TechNews
+       &lt;/a&gt;
+       &lt;span&gt;
+        and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.bloomberg.com/news/features/2025-08-21/google-pixel-10-future-of-pixel-google-glasses-interview-with-rick-osterloh?embedded-checkout=true&quot;&gt;
+        Bloomberg
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Google just unveiled its latest Pixel 10 series. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://technews.tw/2025/08/22/google-flip-tablet&quot;&gt;
+    TechNews
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/features/2025-08-21/google-pixel-10-future-of-pixel-google-glasses-interview-with-rick-osterloh?embedded-checkout=true&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the company said it currently has no plans to launch a flip-style foldable and that its tablet project remains on hold.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Pixel Design, AI Push, and Flip-Style Foldables on Hold
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google’s design chief, Ivy Ross, said major visual changes will continue to appear every two to three years in its phones, adding that the company is already finalizing its 2026 phones and has begun developing the 2027 lineup, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report underscores, Google emphasizes that true progress will come less from hardware form and more from the software and connected devices that run alongside it. The report also highlights that AI is now positioned at the heart of Google’s product lineup. Alongside the Pixel 10, the company also introduced a new smartwatch and entry-level earbuds, both powered by Gemini.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When it comes to foldables, Shakil Barkat, who became Google’s devices and services chief last year, said the company—like many consumers—remains dissatisfied with the crease that still appears in the middle of the screen. In addition, though partners Samsung and Motorola have jumped into flip-style phones—where the screen folds vertically like the classic Razr—Google has made clear it will not join that competition, as the report highlights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250819-12679.html&quot;&gt;
+    TrendForce
+   &lt;/a&gt;
+  &lt;/span&gt;
+  ’s latest investigation indicates that Apple’s first foldable device, expected in the second half of 2026, will lift foldable phone penetration from 1.6% in 2025 to over 3% in 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Google’s Future Vision: Glasses in Focus
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, the company suggests that people won’t carry much more than a phone—whatever its form—as every additional product category only adds to the user’s maintenance burden, the report notes. Still, Bloomberg highlights that Google sees potential in emerging categories such as glasses. On glasses, Bloomberg notes, citing company executives, that it remains “TBD” whether Google will release them again, but they stressed the category might play a role in the company’s future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/05/22/news-google-teams-up-with-alibaba-backed-xreal-for-project-aura-second-android-xr-device/&quot;&gt;
+    [News] Google Teams Up with Alibaba-backed Xreal for Project Aura, Second Android XR Device
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250819-12679.html&quot;&gt;
+    Standardized Hinges and Apple’s Entry Expected to Push Foldable Phone Penetration Beyond 3% by 2027, Says TrendForce
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Google)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/selected_topics_semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
