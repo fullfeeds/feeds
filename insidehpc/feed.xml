@@ -1,0 +1,2309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 27 Sep 2025 16:41:00 -0000</lastBuildDate>
+<item>
+<title> Alchip and Ayar Labs Unveil Co-Packaged Optics for AI Datacenter </title>
+<link>https://insidehpc.com/2025/09/alchip-and-ayar-labs-unveil-co-packaged-optics-for-ai-datacenter/</link>
+<pubDate>Fri, 26 Sep 2025 20:07:48 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/12/Ayar-Labs-feature-image-1223-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN JOSE — Sept. 26, 2025 — At the 2025 TSMC North America Open Innovation Platform (OIP) Ecosystem Forum, Alchip Technologies and Ayar Labs, a co-packaged optics (CPO) company , unveiled a CPO solution designed to extend scale-up network connectivity beyond traditional rack boundaries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The joint solution features Ayar Labs’ TeraPHY optical engines co-packaged with Alchip’s advanced solutions on a common substrate, bringing optical I/O directly to the AI accelerator interface. This integration enables more than 100 terabits per second (Tbps) of scale-up bandwidth per accelerator and supports more than 256 optical scale-up ports per device. TeraPHY is also protocol agnostic and is designed to enable flexible integration with customer-designed chiplets and fabrics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This joint offering aims to address data movement bottlenecks that are slowing AI infrastructure by effectively reducing system stall times and enabling next-gen, large, high-performance AI clusters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As AI models and cluster sizes continue to grow, traditional copper interconnects are reaching their physical and energy limits. This is constraining system design, bandwidth, and power efficiency. Latency must be reduced, and radix must be increased if thousands of AI accelerators are to act as one logical device under scale-up networks. By replacing copper with CPO, the Alchip and Ayar Labs solution is designed to deliver extended reach, low latency, power efficiency, and high radix needed for large-scale accelerator deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI cluster scale up networks are bounded by copper connectivity distances. At the same time, network power efficiency is limited by power density and cooling,” explained Erez Shaizaf,
+  &lt;a href=&quot;https://www.alchip.com/&quot;&gt;
+   Alchip
+  &lt;/a&gt;
+  ’s Chief Technical Officer. “This means that we want to optimize space efficiency, but the challenge is that copper doesn’t have the I/O connectivity to put everything together. CPO will break these boundaries.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI has reached an inflection point where traditional interconnects are limiting performance, power, and scalability,” said Vladimir Stojanovic, CTO and co-founder of
+  &lt;a href=&quot;https://www.ayarlabs.com/&quot;&gt;
+   Ayar Labs
+  &lt;/a&gt;
+  . “Our collaboration with Alchip enables a CPO solution for AI scale-up, pioneering new, energy-efficient system architectures that will power innovations for hyperscalers and enterprise AI customers, and accelerate AI proliferation, globally.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The co-packaged solution from Alchip and Ayar Labs enables multi-rack network scale-up without the power and latency penalties of pluggable optics by minimizing electrical trace lengths and placing optical connections close to the compute core. With support for the UCIe™ standard for die-to-die interconnect, and flexible protocol endpoints at the package boundary, design teams can integrate the scale-up fabric solution from Alchip and Ayar Labs alongside existing compute tiles, memory stacks, and accelerators while meeting performance, signal-integrity, and thermal requirements at the package level. The two companies are engaging with selected customers to integrate co-packaged optics into next-generation AI accelerators and scale-up switches. The companies will share additional collateral, reference architectures, and build options with qualified design teams.
+ &lt;/p&gt;
+ &lt;p&gt;
+  View the Alchip and Ayar Labs presentation, “Enabling Next-Gen AI Infrastructure with Co-Packaged Optics and Advanced Packaging,” from the 2025 TSMC North America OIP Ecosystem Forum
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://ayarlabs.com/resources/enabling-next-gen-ai-infrastructure-with-co-packaged-optics-and-advanced-packaging/&amp;source=gmail&amp;ust=1759001665382000&amp;usg=AOvVaw1QBCd4OIkNOTBlpAqPozoF&quot; href=&quot;https://ayarlabs.com/resources/enabling-next-gen-ai-infrastructure-with-co-packaged-optics-and-advanced-packaging/&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Quantum: ‘Optical Tweezers’ Help Caltech Claim 6,100-Qubit Record </title>
+<link>https://insidehpc.com/2025/09/quantum-optical-tweezers-help-caltech-claim-6100-qubit-record/</link>
+<pubDate>Fri, 26 Sep 2025 19:38:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p data-block-key=&quot;uo1ta&quot;&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/caltech-qubit-record-youtube-0925.png&quot;/&gt;
+  Caltech physicists report they have created the largest qubit array assembled to-date: 6,100 neutral-atom qubits trapped in a grid by lasers. Previous arrays of this kind contained only hundreds of qubits.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;uo1ta&quot;&gt;
+  The team used “optical tweezers” — highly focused laser beams — to trap thousands of individual cesium atoms in a grid. To build the array of atoms, the researchers split a laser beam into 12,000 tweezers, which together held 6,100 atoms in a vacuum chamber.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;uo1ta&quot;&gt;
+  “On the screen, we can actually see each qubit as a pinpoint of light,” said Manuel Endres, professor of physics at Caltech. “It’s a striking image of quantum hardware at a large scale.”
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;fudc&quot;&gt;
+  This comes amid a race to scale up quantum computers using various modalities, including those based on superconducting circuits, trapped ions and neutral atoms, as used in the new study.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;eki6q&quot;&gt;
+  “This is an exciting moment for neutral-atom quantum computing,” said Manuel Endres, professor of physics at Caltech. “We can now see a pathway to large error-corrected quantum computers. The building blocks are in place.” Endres is the principal investigator of the research paper published in
+  &lt;em&gt;
+   Nature
+  &lt;/em&gt;
+  (“
+  &lt;a href=&quot;https://www.nature.com/articles/s41586-025-09641-4&quot;&gt;
+   A Tweezer Array with 6100 Highly Coherent Atomic Qubits
+  &lt;/a&gt;
+  ,” also see YouTube video: “
+  &lt;a href=&quot;https://youtu.be/ij_cGdu_0Rk&quot;&gt;
+   Inside the Endres Lab with a 6,100 Qubit Array
+  &lt;/a&gt;
+  “). Three Caltech graduate students led the study: Hannah Manetsch, Gyohei Nomura, and Elie Bataille.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;8isca&quot;&gt;
+  The scientitsts said their research showed that this larger scale did not come at the expense of quality. With more than 6,000 qubits in a single array, the team kept them in superposition for about 13 seconds — nearly 10 times longer than what was possible in previous similar arrays — while manipulating individual qubits with 99.98 percent accuracy.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;8isca&quot;&gt;
+  “Large scale, with more atoms, is often thought to come at the expense of accuracy, but our results show that we can do both,” Nomura said. “Qubits aren’t useful without quality. Now we have quantity and quality.”
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;uo1ta&quot;&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/09/Caltech-california-institute-of-technology-logo-0923.png&quot;/&gt;
+  Quantum computers will need large numbers of qubits to tackle challenging problems in physics, chemistry, and beyond. Unlike classical bits, qubits can exist in two states at once — which is called superposition. This quirk of quantum physics gives quantum computers the potential to perform certain complex calculations better than their classical counterparts, but it also means the qubits are fragile. To compensate, researchers are building quantum computers with extra, redundant qubits to correct any errors. That is why robust quantum computers will require hundreds of thousands of qubits.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;rv5p&quot;&gt;
+  The Caltech team also demonstrated that they could move the atoms hundreds of micrometers across the array while maintaining superposition. The ability to shuttle qubits is a key feature of neutral-atom quantum computers that enables more efficient error correction compared with traditional, hard-wired platforms like superconducting qubits.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;11to4&quot;&gt;
+  Manetsch compares the task of moving the individual atoms while keeping them in a state of superposition to balancing a glass of water while running. “Trying to hold an atom while moving is like trying to not let the glass of water tip over. Trying to also keep the atom in a state of superposition is like being careful to not run so fast that water splashes over,” she says.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;2dg4c&quot;&gt;
+  The next milestone for the field is implementing quantum error correction at the scale of thousands of physical qubits, and this work shows that neutral atoms are a strong candidate to get there. “Quantum computers will have to encode information in a way that’s tolerant to errors, so we can actually do calculations of value,” Bataille says. “Unlike in classical computers, qubits can’t simply be copied due to the so-called no-cloning theorem, so error correction has to rely on more subtle strategies.”
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;dtvlb&quot;&gt;
+  Looking ahead, the researchers plan to link the qubits in their array together in a state of entanglement, where particles become correlated and behave as one. Entanglement is a necessary step for quantum computers to move beyond simply storing information in superposition; entanglement will allow them to begin carrying out full quantum computations.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;dtvlb&quot;&gt;
+  It is also what gives quantum computers their ultimate power—the ability to simulate nature itself, where entanglement shapes the behavior of matter at every scale. The goal is clear: to harness entanglement to unlock new scientific discoveries, from revealing new phases of matter to guiding the design of novel materials and modeling the quantum fields that govern space-time.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;8kuke&quot;&gt;
+  “It’s exciting that we are creating machines to help us learn about the universe in ways that only quantum mechanics can teach us,” Manetsch says.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;4jskk&quot;&gt;
+  The new study was funded by the Gordon and Betty Moore Foundation, the Weston Havens Foundation, the National Science Foundation via its Graduate Research Fellowship Program and the Institute for Quantum Information and Matter (IQIM) at Caltech, the Army Research Oﬃce, the U.S. Department of Energy including its Quantum Systems Accelerator, the Defense Advanced Research Projects Agency, the Air Force Oﬃce for Scientific Research, the Heising-Simons Foundation, and the AWS Quantum Postdoctoral Fellowship.
+ &lt;/p&gt;
+ &lt;p data-block-key=&quot;4jskk&quot;&gt;
+  Other authors include Caltech’s Kon H. Leung, the AWS Quantum senior postdoctoral scholar research associate in physics, as well as former Caltech postdoctoral scholar Xudong Lv, now at the Chinese Academy of Sciences.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DTN Collaborates with NVIDIA on AWS for Weather-Driven Industries </title>
+<link>https://insidehpc.com/2025/09/dtn-collaborates-with-nvidia-on-aws-for-weather-driven-industries/</link>
+<pubDate>Fri, 26 Sep 2025 18:54:00 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  MINNEAPOLIS — DTN, an operational decisioning company for energy, agriculture, and weather-driven industries, announced a collaboration with NVIDIA and Amazon Web Services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Building upon  meteorological knowledge from DTN, NVIDIA from AI and scalable compute infrastructure from AWS, the collaboration is intended to provide improvements in weather prediction accuracy, timeliness, and detail beyond traditional forecasting methods.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “For decades DTN has been at the forefront of weather innovation applied to specifically meet industry challenges,” said Renny Vandewege, DTN GM Weather and Climate Intelligence. “This collaboration opens up a new frontier of operational decisioning for organizations operating in weather-sensitive environments.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  DTN’s approach to weather forecasting leverages an ensemble of public, private and proprietary models to generate high-resolution, industry-specific forecasts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;http://www.dtn.com&quot;&gt;
+   DTN
+  &lt;/a&gt;
+  plugs NVIDIA Earth-2’s AI weather models directly into the weather engine to enhance the deep learning forecast engine that they operate. The DTN data and weighted ensemble utilizes NVIDIA Earth-2 open-source climate digital twin cloud platform, which accelerates climate and weather predictions using interactive AI-based weather simulations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “By integrating NVIDIA Earth-2 into the DTN advanced forecasting engine, we’re enabling industries to access faster, more precise, and more actionable weather insights,” said Dion Harris, senior director of HPC and AI Infrastructure at NVIDIA. “This collaboration showcases how Earth-2 digital twin technology can empower experts like DTN to deliver specialized forecasts that help businesses adapt to a changing climate and make better decisions in real time.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS completes the collaboration with a robust cloud foundation, using Amazon Elastic Compute Cloud (Amazon EC2) instances, and scaling them using AWS Batch. Since 2020, AWS has hosted the DTN global forecasting system, significantly reducing data latency and doubling the frequency of high-resolution forecast generation. With NVIDIA platforms also hosted on AWS, the partnership enables a seamless integration of AI-powered models at supercomputing scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AWS provides the scalable, high-performance infrastructure needed to support today’s most demanding data and AI workloads,” said Ian Colle, Director, Advanced Computing and Simulation at AWS. “By enabling DTN and NVIDIA to run advanced weather models on a unified cloud platform, we’re helping deliver faster, more precise forecasts that businesses and communities can rely on.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Precise AI-driven weather forecasting is already reshaping industries. Farmers receive hyper-local weather data to inform irrigation, pesticide applications, and harvest timing. Refinery operators can anticipate temperature drops hours in advance to adjust supply chains and reduce downtime. Energy managers predict grid stress before it happens, while fleet operators reroute around storm systems in real time—reducing delays and enhancing safety.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This collaboration arrives at a critical time, potentially reducing weather-related economic losses while creating new opportunities for businesses to optimize their operations around more reliable and granular forecasts,” Vandewege added. “The ultimate outcome will be a next-generation weather intelligence platform that transforms how organizations understand, prepare for, and respond to weather conditions across the globe.”
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Limestone Networks and Charg Announce 60-PFlop AI Supercomputer </title>
+<link>https://insideainews.com/2025/09/26/limestone-networks-and-charg-unleash-60-pflop-supercomputer-for-the-ai-era/</link>
+<pubDate>Fri, 26 Sep 2025 16:03:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/09/limestone-networks-logo-2-1-0925.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   DALLAS, Sept. 26, 2025 — Limestone Networks, a bare-metal and cloud infrastructure company, has teamed with GPU cloud platform Charg on a 60-petaflop supercomputer built for AI and advanced enterprise workloads.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The companies said the purpose of the system is to make supercomputing power accessible on demand for researchers, startups, and enterprises racing to train and deploy large-scale AI models.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Charg tapped Limestone to design, build, and run the colocation and global network backbone that fuels the system. Now Limestone is spearheading the GTM push, bringing one of the world’s most powerful GPU clouds directly to market.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Timing is everything. The time is now. Limestone Networks and Charg is delivering one of the largest GPU clusters at scale.” said Preston Gosdin, CEO of Limestone Networks. “Charg brought the GPUs, we brought the global backbone, and together we built a monster. Enterprises, startups, researchers: if you’re ready to push AI past the limit, #LSNMetal-Supercharg’d is open for business.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Under the hood, the system features 200 Gbps HDR InfiniBand fabric, an all-flash storage layer, and upcycled Cray supercomputing chassis engineered for scalability.
+  &lt;/p&gt;
+  &lt;p&gt;
+   At 60 petaflops of raw performance, the deployment ranks among the largest GPU-driven platforms commercially available—capable of accelerating everything from deep learning research to enterprise-scale inference pipelines.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Judd Lindvall, Chief Cloud Officer at Charg  added: “Limestone’s ability to execute complex builds at scale made them the obvious choice. Together, we’re not just building a cloud, we’re redefining high-performance computing.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   The system goes live in early October, with pre-sales now open at LimestoneNetworks
+   &lt;u&gt;
+   &lt;/u&gt;
+   .com. Enterprises, startups, and researchers can lock in early access to supercomputing performance without the hyperscaler overhead.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Limestone Networks, Inc. is a global force in bare metal cloud, colocation, and private cloud – with 20+ points of presence worldwide and more coming online fast. Built on raw performance and ironclad reliability. Limestone gives businesses the power to launch, scale, and dominate without compromise. From startups to global enterprises, mission-critical workloads run harder, faster, and stronger on #LSNMetal.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Charg is a GPU cloud platform built for AI, HPC, and enterprise workloads. With performance, flexibility, and cost-efficiency at its core, Charg is redefining how organizations access and deploy compute power.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HSBC Reports on Quantum-Enabled Algorithmic Trading with IBM </title>
+<link>https://insidehpc.com/2025/09/hsbc-reports-on-quantum-enabled-algorithmic-trading-with-ibm/</link>
+<pubDate>Fri, 26 Sep 2025 15:50:39 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/02/IBM-logo-2-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  25 September 2025 — British bank and financial services company HSBC announced what it said is the world’s first-known empirical evidence of the potential value of current quantum computers for algorithmic bond trading.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Working with a team from IBM, HSBC leveraged an approach that utilized quantum and classical computing resources to deliver up to a 34 percent improvement in predicting how likely a trade would be filled at a quoted price, compared to common classical techniques used in the industry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HSBC and IBM’s trial explored how today’s quantum computers could optimise requests for quote in over-the-counter markets, where financial assets such as bonds are traded between two parties without a centralised exchange or broker. In this process, algorithmic strategies and statistical models estimate how likely a trade is to be filled at a quoted price. The teams validated real and production-scale trading data on multiple IBM quantum computers to predict the probability of winning customer inquiries in the European corporate bond market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The results show the value quantum computers could offer when integrated into the dynamic problems facing the financial services industry, and how they could potentially offer superior solutions over standard methods that use classical computers alone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Philip Intallura, HSBC Group Head of Quantum Technologies, said: “This is a ground-breaking world-first in bond trading. It means we now have a tangible example of how today’s quantum computers could solve a real-world business problem at scale and offer a competitive edge, which will only continue to grow as quantum computers advance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have been relentlessly focused on the near-term application of quantum technology, and given the trial delivered positive results on current quantum computing hardware, we have great confidence we are on the cusp of a new frontier of computing in financial services, rather than something that is far away in the future.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Algorithmic trading in the corporate bond market uses computer models to price customer inquiries in a competitive bidding process. Algorithmic strategies incorporate real-time market conditions and risk estimates to automate this process, which allows traders to focus on larger and more difficult trades. However, the highly complex nature of these factors is where the trial results showed an improvement using quantum computing techniques when compared to classical computers working alone using standard approaches.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jay Gambetta, Vice President IBM Quantum, said: “This exciting exploration shows what becomes possible when deep domain expertise is integrated with cutting-edge algorithm research, and the strengths of classical approaches are combined with the rich computational space offered by quantum computers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Such work is essential to unlock new algorithms and applications that are poised to transform industries as quantum computers scale, and the future of computing takes shape.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Quantum computing is a new branch of computation that uses the laws of quantum mechanics to represent and process information in a space that is exponentially more expansive and dynamic than what classical systems can access. This positions quantum computers to be able to solve certain problems that are out of reach for even the most powerful classical supercomputers operating independently.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this case, IBM Heron was able to augment classical computing workflows to better unravel hidden pricing signals in noisy market data than standard, classical-only approaches in use by HSBC, resulting in strong improvements in the bond trading process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IBM’s quantum computers are available today through the cloud, and Qiskit, an open quantum software stack. Heron is IBM’s latest and highest-performing quantum processor.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Baya Systems Collaborates with Tenstorrent on Subsystem for TT-Ascalon Processors </title>
+<link>https://insidehpc.com/2025/09/baya-systems-collaborates-with-tenstorrent-on-subsystem-for-tt-ascalon-processors/</link>
+<pubDate>Thu, 25 Sep 2025 15:59:45 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/12/tenstorrent-logo-2-1-1224-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Santa Clara, Calif. – September 25, 2025 — Baya Systems, developer of a software-driven, chiplet-ready fabric IP for scalable AI and high-performance computing, today announced: successful interoperability between Baya’s WeaveIP fabric and Tenstorrent’s TT- Ascalon processor portfolio and becoming one of the first members of Tenstorrent’s Open Chiplet Atlas (OCA).
+   &lt;/p&gt;
+   &lt;p&gt;
+    Both companies are working on leveraging Baya’s fabric interoperability within OCA. Together, these milestones underscore their shared vision and commitment to enabling flexible, scalable, and customizable compute systems designed for the next generation of AI and other high-performance applications.
+   &lt;/p&gt;
+   &lt;p&gt;
+    By integrating Baya’s chiplet-ready interconnect IP with Tenstorrent’s RISC-V-based Ascalon cores, system architects can now design and deploy compute platforms that are optimized end-to-end, from core to chiplet to system level. The collaboration brings to life a common vision: agile, software-driven development, optimization, and deployment of state-of-the-art systems.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   Tenstorrent and Baya have
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://bayasystems.com/2025/09/25/risc-v-compute-subsystems-with-tenstorrent-and-baya-systems/&amp;source=gmail&amp;ust=1758900503621000&amp;usg=AOvVaw1Q8QCxnKEhIkbGA77DB7qZ&quot; href=&quot;https://bayasystems.com/2025/09/25/risc-v-compute-subsystems-with-tenstorrent-and-baya-systems/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    jointly published a white paper
+   &lt;/a&gt;
+   with results that illustrate the performance, configurability, and scalability of this combined scalable compute solution. Building on the
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://bayasystems.com/download-tenstorrent-whitepaper/&amp;source=gmail&amp;ust=1758900503621000&amp;usg=AOvVaw2UO91315cLivH9h01ZNW6q&quot; href=&quot;https://bayasystems.com/download-tenstorrent-whitepaper/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+    white paper on AI fabrics
+   &lt;/a&gt;
+   that the companies published in June, the two companies demonstrate how the WeaveIP fabric extends its technical leadership and versatility. Ascalon cores deliver best-in-class performance, both peak and per watt, while Baya’s WeaveIP fabric enables a data-driven system optimization to meet customer needs and dynamically adapt to Tenstorrent’s application requirements, ensuring future-proof scalability. The interoperability demos highlight how customers can design customized compute systems with faster time-to-market and reduced risk.
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+   “We believe in a chiplet future, and interoperability across ecosystems is the only way to get there,” said Keith Witek, COO of
+   &lt;a href=&quot;https://bayasystems.com/&quot;&gt;
+    Tenstorrent
+   &lt;/a&gt;
+   . “Baya’s WeaveIP is an elegant fabric that connects our market beating Ascalon processors in powerful and flexible ways. This is exactly the kind of collaboration that will accelerate innovation in AI and beyond.”
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    Tenstorrent is a leader in driving the RISC-V and AI processing ecosystems and has collaborated with Baya Systems on enabling designers to rapidly innovate and bring ground-breaking silicon platforms to market.
+   &lt;/p&gt;
+   &lt;p&gt;
+    “Tenstorrent is redefining processor architectures for the AI age, and Baya is redefining system interconnects and system design paradigms. Together, we are enabling customers to weave scalable compute systems from proven, interoperable building blocks,” said Dr. Sailesh Kumar, CEO of Baya Systems. “This is a major step toward our mission of democratizing hyper-efficient, data-centric
+    &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://bayasystems.com/glossary/soc/&amp;source=gmail&amp;ust=1758900503622000&amp;usg=AOvVaw2UDxWiOSRxMIsjT-zgtYWY&quot; href=&quot;https://bayasystems.com/glossary/soc/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+     SoC
+    &lt;/a&gt;
+    and multi-chiplet design.”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  As part of the collaboration, Baya Systems will support Tenstorrent’s Open Chiplet Atlas (OCA) ecosystem, ensuring seamless interoperability for customers adopting heterogeneous chiplet solutions. Baya’s WeaverPro design platform was built to help system designers analyze workloads at speed, partition and organize intelligent compute systems that scale across entire compute platforms, from SOCs through chiplets and beyond, while WeaveIP has been designed from the ground up to be chiplet-ready. Together, they provide a foundation for interoperable, scalable, and future-proof multi-die systems. This joint work paves the way for a broader ecosystem of co-optimized IP and compute chiplets, giving system developers more choice and control in crafting differentiated platforms.
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Argonne Advances AI in STEM Education for Workforce Readiness </title>
+<link>https://insidehpc.com/2025/09/argonne-advances-ai-in-stem-education-for-workforce-readiness/</link>
+<pubDate>Thu, 25 Sep 2025 15:46:34 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/10/aurora-hpe-2-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  LEMONT, Ill., Sept. 24, 2025 — On September 19, nearly 200 STEM educators and academic leaders from across Illinois gathered at the U.S. Department of Energy’s (DOE) Argonne National Laboratory for the first AI STEM Education Summit, ​“One Ecosystem, Many Pathways – Building an AI-Ready STEM Workforce.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The summit brought together high school, community college and university professionals to explore how AI is changing scientific discovery and the impact this has on STEM learning. They also discussed how educators can prepare students for the jobs of tomorrow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Participants learned about practical ways AI is used in research, teaching and workforce development. The summit showcased Argonne’s leadership in responsible AI innovation and its focus on building an AI-ready workforce, a national priority for DOE and the United States. Educators, researchers, industry representatives and government officials came together to share ideas and form new partnerships. Attendees left with models, best practices and connections to enhance STEM education and help students navigate an AI-driven world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Argonne is leading the way in AI innovation. The laboratory uses machine learning, data science and high-performance computing to drive scientific breakthroughs and solve real-world problems. Argonne researchers are developing AI tools to create new materials, improve the nation’s energy infrastructure, speed up medical advances and automate scientific experiments. These efforts open new frontiers and help the United States stay competitive in critical fields. Argonne’s new Aurora exascale supercomputer, one of the fastest in the world, is powering breakthroughs in AI research and helping scientists tackle problems at an unprecedented scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Educators and leaders heard from AI experts representing Argonne, Intel and Genetech. They also heard from education professionals from the Education Development Center (EDC), Chicago Public Schools (CPS), the Illinois Mathematics and Science Academy (IMSA), Illinois Tech, Waukesha County Technical College and Chicago State University (CSU). They shared real-world examples of AI’s impact in research and education.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Panel discussions and interactive breakout sessions invited participants to exchange ideas and explore practical strategies for integrating AI into STEM classrooms. A guided tour of the Aurora exascale HPC supercomputer at the Argonne Leadership Computing Facility (ALCF) gave educators a firsthand look at how advanced AI tools are driving innovation and shaping the future of science. They also helped attendees connect classroom learning to real world breakthroughs and inspired new ways to prepare students for tomorrow’s opportunities. The ALCF is a DOE Office of Science user facility.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The success of the AI STEM Education Summit shows the power of collaboration and innovation in preparing the next generation of STEM leaders. The summit served as a launchpad for ongoing partnerships and progress in AI and STEM education. Argonne remains committed to working with educators, researchers and industry leaders to prepare the next generation for an AI-powered future.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cloudera Announces Data Platform Updates </title>
+<link>https://insidehpc.com/2025/09/cloudera-announces-data-platform/</link>
+<pubDate>Thu, 25 Sep 2025 13:24:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/cloudera-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Santa Clara, CA — Sept. 25, 2025 — Cloudera today announced updates to its platform, specifically Cloudera Iceberg REST Catalog and Cloudera Lakehouse Optimizer, both “strengthening the company’s commitment to delivering the best open data lakehouse powered by Iceberg,” the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With these updates, Iceberg REST Catalog provides open interoperability for sharing data seamlessly, while Lakehouse Optimizer ensures data is always optimized and cost-effective for all engines accessing the data, all under Cloudera’s unified governance and security. These enhanced capabilities were unveiled at
+  &lt;a href=&quot;https://www.cloudera.com/events/evolve.html&quot;&gt;
+   &lt;strong&gt;
+    EVOLVE
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.cloudera.com/events/evolve.html&quot;&gt;
+   25 NYC
+  &lt;/a&gt;
+  —Cloudera’s premiere AI and data industry event.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As enterprises race to unlock the power of AI and analytics, they face significant barriers: complex data architectures, siloed platforms, and inconsistent governance. Moving data between systems for analysis or AI training increases costs, introduces security risks, and delays insights. Modern organizations need open, secure, and interoperable data architectures that support data anywhere for AI everywhere and multi-engine analytics without forcing data duplication or vendor lock-in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cloudera is the first and only provider to integrate the Iceberg REST Catalog across a full-lifecycle data and AI platform, enabling secure, zero-copy data sharing and unified governance across any cloud or data center. Cloudera’s new offering solves these challenges by integrating the Iceberg REST Catalog into its platform. This allows third-party engines to access Cloudera-managed data directly—without copying or moving it—and ensures consistent policy enforcement and metadata intelligence in public clouds, data centers, and the edge. Cloudera is the only vendor capable of delivering unified security, governance, and interoperability across the entire data lifecycle—from real-time ingestion and large-scale processing to AI and BI consumption. By extending the power of Apache Iceberg with REST-based access, Cloudera enables enterprises to future-proof their data strategies while retaining control, visibility, and compliance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Following these updates, all
+  &lt;a href=&quot;https://www.cloudera.com/open-source/apache-iceberg.html/#customers&quot;&gt;
+   Cloudera customers on Iceberg
+  &lt;/a&gt;
+  will now benefit from seamless zero-copy interoperability across the ecosystem, enabling connections to leading analytics and AI engines such as Snowflake, Databricks, AWS Athena, AWS EMR, and Salesforce—with full ACID compliance and unified access policies. They will also gain enterprise-grade governance, extending fine-grained access controls, lineage, and auditing to third-party tools through Cloudera’s Shared Data Experience (SDX), which ensures secure data democratization and compliance at scale. In addition, customers will have open metadata access, providing instant discoverability of data assets without being locked into proprietary catalogs, which accelerates AI development and business intelligence with a consistent source of truth.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, these enhancements deliver lower total cost of ownership and faster time to value: customers report up to a 79% reduction in data storage costs while improving visibility across lines of business. For example, a major global satellite customer realized these savings while simultaneously strengthening their AI data pipelines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Cloudera Lakehouse Optimizer is a new, intelligent service that delivers automated optimizations and table maintenance for Apache Iceberg within Cloudera’s lakehouse. It uniquely offers advanced, intelligent optimizations that go beyond basic table maintenance, including tasks like rewriting manifest and position delete files. By intelligently optimizing tables, it eliminates the need for manual data management tasks and operational costs, allowing customers to focus on extracting insights from their data. It’s an open solution, applicable to any Iceberg-compatible engine on any public cloud, and provides unmatched observability and control through a unique user interface that allows for granular policy definition and modification. Policies can be applied to a specific table or an entire catalog, and the service will be the only one of its kind available on-premises in a future release. Internal benchmarks show that this service improves query performance by up to 13x and reduces storage costs by 36%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Cloudera pioneered the Big Data industry, and we are the only platform provider that continues to invest in making the Apache Iceberg open table format enterprise ready,” said Leo Brunnick, Chief Product Officer,
+  &lt;a href=&quot;https://www.cloudera.com/&quot;&gt;
+   Cloudera
+  &lt;/a&gt;
+  . “With today’s news, we continue to deliver on the promise of flexibility, scalability, and uncompromised insights when and where you need them the most. That commitment is why the world’s largest organizations rely on Cloudera to bring AI to their data—wherever it lives.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both Cloudera Data Sharing powered by Iceberg REST Catalog and Cloudera Lakehouse Optimizer are now offered through General Availability. To learn more, visit cloudera.com.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cloudera Integrates with Dell ObjectScale for Private AI Platform </title>
+<link>https://insidehpc.com/2025/09/cloudera-integrates-with-dell-objectscale-for-private-ai-platform/</link>
+<pubDate>Thu, 25 Sep 2025 13:24:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/cloudera-logo-2-1-0825.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Santa Clara, California – Sept 25, 2025:
+  &lt;a href=&quot;https://www.cloudera.com/&quot;&gt;
+  &lt;/a&gt;
+  Cloudera announced the integration of Dell ObjectScale with Cloudera, advancing their
+  &lt;a href=&quot;https://www.cloudera.com/blog/business/ai-in-a-box--experience-the-future-of-private-ai-at-dell-technologies-world-part-1.html&quot;&gt;
+   joint AI-in-a-Box offering
+  &lt;/a&gt;
+  and creating a Private AI platform designed for scale, governance, and economic clarity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This collaboration provides joint customers with a fully validated and integrated data platform, allowing them to run all of Cloudera’s compute engines directly against Dell Technologies ObjectScale storage. Cloudera announced the Private AI platform during Cloudera EVOLVE25—Cloudera’s premier data and AI event—taking place today, September 25 at the Glasshouse NYC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A challenge hindering enterprise AI success is the complexity around where data is located and how to access it. In fact, Cloudera’s latest survey report,
+  &lt;em&gt;
+   The Evolution of AI: The State of Enterprise AI and Data Architecture
+  &lt;/em&gt;
+  —also announced today—found that IT leaders still use a variety of architectures for storage: 63 percent of respondents said private cloud, 52% said public cloud, and 42% said data warehouses. Without the ability to securely and effectively manage 100% of enterprise data, in all forms, wherever it resides, it will be impossible for organizations to apply AI to workloads to make fully informed, strategic decisions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To address these challenges, Cloudera collaborated with Dell to allow joint customers to store all their data–structured and unstructured–in one place and access it quickly and securely. As the only data and AI platform company bringing AI to data anywhere, Cloudera empowers enterprises to organize their data with clear rules, security, and governance. In addition, the collaboration allows Cloudera users to leverage Dell ObjectScale as an S3-compatible object store for AL workloads:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Cloudera AI Workbench: A secure environment for building, training, and refining AI models using governed data.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Cloudera Inference Service: A way to deploy and use these AI models efficiently and affordably at a large scale.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Cloudera Agent Studio: A tool to design and leverage smart AI agents that can automate tasks across business operations.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The combination of Dell’s leadership in AI infrastructure with Cloudera’s secure data platform and AI tools creates a complete Private AI system, offering significant business value. Companies can start using AI faster, achieve lower overall costs and trust their AI systems completely, which is crucial for highly regulated industries. This solution empowers enterprises to tackle the most pressing challenges of AI. It overcomes the hurdles of moving data, makes AI more affordable, simplifies managing AI tasks and deploys Private AI agents with trust and efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Businesses need AI systems that can grow with them, keep data secure, and have clear, predictable costs,” said Abhas Ricky, Chief Strategy Officer,
+  &lt;a href=&quot;https://www.cloudera.com/&quot;&gt;
+   Cloudera
+  &lt;/a&gt;
+  . “Bringing Dell ObjectScale together with Cloudera enables organizations to industrialize AI use cases  using secure data, deploy them efficiently, and create smart agents, all with predictable economics, and without hidden fees. This is the quickest and most reliable way for large companies to put AI to work and create intelligent agents. Cloudera is uniquely positioned to unify governed enterprise data with AI services on modern storage, creating the only Private AI platform that combines governance, performance, and clear economics at an industrial scale.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This collaboration reflects our shared commitment to giving customers more flexibility in managing and scaling their data,” said Travis Vigil, senior vice president, ISG Product Management, Dell Technologies. “With Dell ObjectScale now integrated with Cloudera, we’re helping customers bring storage and AI closer together to empower smarter, faster decision-making that drives business growth.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Quantum: Scientists Say They Have Sidestepped Uncertainty Principle </title>
+<link>https://insidehpc.com/2025/09/quantum-scientists-say-they-have-sidestepped-uncertainty-principle/</link>
+<pubDate>Thu, 25 Sep 2025 11:45:27 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/09/quantum-generic-0924-2-1-shutterstock-2334446277.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Sept. 24, 2025 — Physicists in Australia and Britain report they have reshaped quantum uncertainty to sidestep the restriction imposed by the Heisenberg uncertainty principle – a result that could underpin future ultra-precise sensor technology used in navigation, medicine and astronomy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Heisenberg uncertainty principle, introduced in 1927, says that certain pairs of properties – such as a particle’s position and momentum – can’t be known with unlimited precision at the same time. In other words, there is always a trade-off in uncertainty: the more closely one property is pinned down, the less certainty there is about the other.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In research published today in
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWUT5R8-2BVbgKVJMH3jNmTQMTW8oJMnssnPPnapa3acmatWpEI_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JaftkYmu5ZEWQ9GUP-2BwGJvZTYOBi9SlZ07rGGocwsCR0Twdd1Ruf4HAU3D4bZDJHc-2FWXn0iEWBvowfmr2O-2F50KYxQDo8yO6js74JC1is81oRGXw2SSrUq3qAdodLQkpgwrrT2P9D63Mi3JUr8YDiERYrWl2ILsMJbOjgBZYQLv36&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw1fLvGKJdHFMdXDqMVTWo1M&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWUT5R8-2BVbgKVJMH3jNmTQMTW8oJMnssnPPnapa3acmatWpEI_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JaftkYmu5ZEWQ9GUP-2BwGJvZTYOBi9SlZ07rGGocwsCR0Twdd1Ruf4HAU3D4bZDJHc-2FWXn0iEWBvowfmr2O-2F50KYxQDo8yO6js74JC1is81oRGXw2SSrUq3qAdodLQkpgwrrT2P9D63Mi3JUr8YDiERYrWl2ILsMJbOjgBZYQLv36&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   &lt;em&gt;
+    Science Advances
+   &lt;/em&gt;
+  &lt;/a&gt;
+  , a team led by
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqobCAzrVIj5Yze3HbJM7HWQfa30rS6YCP3BOqAp3DznQPDnKCA6Ds-2FJpFW8FdPCPb6C5nZbAICLZvuDDFtP1MdqiVcr7_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JcRFs-2BVrQLHsyPnl6FbUUUbSMv7Bw7v6x1TK8x4TFO3-2FUM4ZUaw-2FXFWE8BLlCtoqX3dhFMzC-2B3U-2F9IxrGDUUCNHPf9fsDn-2FNq1LAb8tZ1UA0lX-2Bn1Osf5wyfIuz0rUSk1hv7M9M-2BM7HCtgSKjyIzWlpCRR43GwjhEaAiU7vu6dxQ&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw1s3-5s-K3q5mEblyjyyN9s&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqobCAzrVIj5Yze3HbJM7HWQfa30rS6YCP3BOqAp3DznQPDnKCA6Ds-2FJpFW8FdPCPb6C5nZbAICLZvuDDFtP1MdqiVcr7_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JcRFs-2BVrQLHsyPnl6FbUUUbSMv7Bw7v6x1TK8x4TFO3-2FUM4ZUaw-2FXFWE8BLlCtoqX3dhFMzC-2B3U-2F9IxrGDUUCNHPf9fsDn-2FNq1LAb8tZ1UA0lX-2Bn1Osf5wyfIuz0rUSk1hv7M9M-2BM7HCtgSKjyIzWlpCRR43GwjhEaAiU7vu6dxQ&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Dr Tingrei Tan
+  &lt;/a&gt;
+  from the
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqoaO83ngZPBcqSbY-2FdlZNH60sA40_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JRdpdZTuz1o-2B2EitouzvsqwzGjFAtlqrBBMiAr4o5EiZiRM6vBHwp71-2F1ephpQq8ZehjnXopFZoJNIVbXnuML7PhuO1TYmkfkotfrHobRIw-2FNdv4vK180umbbSRcoM-2BN4zOZDjeOPc4JzZL9o8Q3DTtaS-2FDRbEqWIIG4TYurQ6iX&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw3DXtRuRrlC5mUvG3WGja7b&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqoaO83ngZPBcqSbY-2FdlZNH60sA40_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JRdpdZTuz1o-2B2EitouzvsqwzGjFAtlqrBBMiAr4o5EiZiRM6vBHwp71-2F1ephpQq8ZehjnXopFZoJNIVbXnuML7PhuO1TYmkfkotfrHobRIw-2FNdv4vK180umbbSRcoM-2BN4zOZDjeOPc4JzZL9o8Q3DTtaS-2FDRbEqWIIG4TYurQ6iX&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   University of Sydney Nano Institute
+  &lt;/a&gt;
+  and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqobZ-2FMNADU1qxB4iN1AXebgO-2BOwNAIQQQ5rvYbh8nsWys6TnRhnnSGyl1Ww-2B6x64F-2Bk-3D4aH8_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JXS5Bhw6MMcMmzBxT9jBTFG-2FORb9eHIuhzEwMrp0wTr-2BZg4jASLITnj3gRiZxUKY4PFOJJVr7BwPFXc7s6rP8NAM9TjW2B1lG4X9uxrufLI0gED2eGXGNLz9KRSzRkKQnXOf6yJmR7PL8EgmzQpHqRFkMnyHap77teeHEskp1B6b&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw1Ic-TilEcLpg5nXRFBgi--&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqobZ-2FMNADU1qxB4iN1AXebgO-2BOwNAIQQQ5rvYbh8nsWys6TnRhnnSGyl1Ww-2B6x64F-2Bk-3D4aH8_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JXS5Bhw6MMcMmzBxT9jBTFG-2FORb9eHIuhzEwMrp0wTr-2BZg4jASLITnj3gRiZxUKY4PFOJJVr7BwPFXc7s6rP8NAM9TjW2B1lG4X9uxrufLI0gED2eGXGNLz9KRSzRkKQnXOf6yJmR7PL8EgmzQpHqRFkMnyHap77teeHEskp1B6b&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   School of Physics
+  &lt;/a&gt;
+  has shown how to engineer a different trade-off to precisely measure position and momentum at the same time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Think of uncertainty like air in a balloon,” Dr Tan said. “You can’t remove it without popping the balloon, but you can squeeze it around to shift it. That’s effectively what we’ve done. We push the unavoidable quantum uncertainty to places we don’t care about (big, coarse jumps in position and momentum) so the fine details we do care about can be measured more precisely.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers also use the analogy of a clock to explain their findings (see image). Think of a normal clock with two hands: the hour hand and the minute hand. Now imagine the clock only has one hand. If it’s the hour hand, you can tell what hour it is and roughly what minute, but the minute reading will be very imprecise. If the clock only has the minute hand, you can read the minutes very precisely, but you lose track of the larger context – specifically, which hour you’re in. This ‘modular’ measurement sacrifices some global information in exchange for much finer detail.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “By applying this strategy in quantum systems, we can measure the changes in both position and momentum of a particle far more precisely,” said first author
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWQhMMnUEl5KGpHd5ooVhCenMFolXwEaO-2BV5vkqnq13BSUELRE-2BUgMfVS7hYbd6QqFIXQA-2B3P01A4RDO8NKMUdAk-3DgfaE_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JdaB5oEfC1VgICyL4W9DqEkjekVOwpZ5om6AngSRKZKDJxq6UFJULVQAru-2FreE3WGDG71rNUqv9vTcsXY8NW6zObVhsbrNFbiEugukOH4LhzNpls5EoKcxfRdnT9uPq1Tj6jCPYO25sMDrPRNvqN3UdovTj1IpSfonQmKR00EJV-2F&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw0oATWb1oOnnNmByuVkydqi&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWQhMMnUEl5KGpHd5ooVhCenMFolXwEaO-2BV5vkqnq13BSUELRE-2BUgMfVS7hYbd6QqFIXQA-2B3P01A4RDO8NKMUdAk-3DgfaE_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JdaB5oEfC1VgICyL4W9DqEkjekVOwpZ5om6AngSRKZKDJxq6UFJULVQAru-2FreE3WGDG71rNUqv9vTcsXY8NW6zObVhsbrNFbiEugukOH4LhzNpls5EoKcxfRdnT9uPq1Tj6jCPYO25sMDrPRNvqN3UdovTj1IpSfonQmKR00EJV-2F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Dr Christophe Valahu
+  &lt;/a&gt;
+  from the Quantum Control Laboratory team at the University of Sydney. “We give up global information but gain the ability to detect tiny changes with unprecedented sensitivity.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This strategy was
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWRMInTYfi8ZRv9yQeI5axZ7jJ5OmvIPefHBr2njf8UExsw9-2F8TfJhwePNxOqB048FrlUNcvNoaUwWYI3X0wlz2g-3D2fW3_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JR-2BYrxTYVcY7kk8e7SdCgUtq7z4-2FrfbmL1fGtlmwAosV2jVSU-2FrINRcFDjgAtmayeJe6p4WihxV-2FanhCRc0Zbd6i5fdPnPggVzDLzJY3aImsUQJ1m8NIdSzdJc-2BgxeRVQLGaFt0Vl7qpuEG9IY9UNXP5Mai6Px7xRAU5xBj2t5cy&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw1Eq8t9ohvxnlIgRRYgHthK&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWRMInTYfi8ZRv9yQeI5axZ7jJ5OmvIPefHBr2njf8UExsw9-2F8TfJhwePNxOqB048FrlUNcvNoaUwWYI3X0wlz2g-3D2fW3_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JR-2BYrxTYVcY7kk8e7SdCgUtq7z4-2FrfbmL1fGtlmwAosV2jVSU-2FrINRcFDjgAtmayeJe6p4WihxV-2FanhCRc0Zbd6i5fdPnPggVzDLzJY3aImsUQJ1m8NIdSzdJc-2BgxeRVQLGaFt0Vl7qpuEG9IY9UNXP5Mai6Px7xRAU5xBj2t5cy&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   outlined theoretically in 2017
+  &lt;/a&gt;
+  . Here, Dr Tan’s team performed the first experimental demonstration by using a technological approach they had previously developed for error-corrected quantum computers, a result
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqoYYu-2F2JABGYv-2FYtxyFaNKM1TpGTlNhdi2NuS3n09KFc9oHl7J-2BS9vawbDYyCouYn7pRTxfG-2FDzszIQ69Wa9MxlPuCnbx6EGravP7Z44V6iFoFQdxOotm2IHjlfzLgmN4q7sJBjOq4CUkOVltol5MuzKhCSJ_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JfVS4OVkzW6KOrM1ZnIE2RNgVEhFXeU6reMEO6X5h2WKOedMC8XbYcJd-2BemMh-2F6D33LkKhwvscmvw5d7o4h9eSGFqN-2F2UaPYfOJutLzffsBeMPp2-2BiUrs7FT-2FwQtu170RQfFtILsmjf2PbWFJjnMX3U5UClg5C6ayqcWnXRlJnkj&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw3eDKzy8M_p6bHCGCZUOxHj&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWYYm8zbJXsCi8PJ2iKBiqoYYu-2F2JABGYv-2FYtxyFaNKM1TpGTlNhdi2NuS3n09KFc9oHl7J-2BS9vawbDYyCouYn7pRTxfG-2FDzszIQ69Wa9MxlPuCnbx6EGravP7Z44V6iFoFQdxOotm2IHjlfzLgmN4q7sJBjOq4CUkOVltol5MuzKhCSJ_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JfVS4OVkzW6KOrM1ZnIE2RNgVEhFXeU6reMEO6X5h2WKOedMC8XbYcJd-2BemMh-2F6D33LkKhwvscmvw5d7o4h9eSGFqN-2F2UaPYfOJutLzffsBeMPp2-2BiUrs7FT-2FwQtu170RQfFtILsmjf2PbWFJjnMX3U5UClg5C6ayqcWnXRlJnkj&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   recently published in
+   &lt;em&gt;
+    Nature Physics
+   &lt;/em&gt;
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s a neat crossover from quantum computing to sensing,” said co-author
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.i5MFNkUDbt13uNVa2NzRWQ0lOUBZoiSkEkgoOOukgRZ7FMZ4ZNHWImCmsUCX100URroyiCeVy2FtDt3qO33X8Q-3D-3DI6Km_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JeLj-2FHThRmLzn-2B3VVebUBBjpOyPBN67rxXXghvviNTMkY8UT-2BkNYPzY3t0vCgpNiCkAtGCmpgIvBKY1sp55R-2BNGjbndwncbd2k3rPjI1ovndJG-2F3XXquqqJDzmLWV5sCqjv2d-2B37QFb4Vor5OxjVhMjniuj-2B-2FzdHRfQc0tM5t01J&amp;source=gmail&amp;ust=1758731492274000&amp;usg=AOvVaw1UbvaKrLpxSw5do6uCuQjZ&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.i5MFNkUDbt13uNVa2NzRWQ0lOUBZoiSkEkgoOOukgRZ7FMZ4ZNHWImCmsUCX100URroyiCeVy2FtDt3qO33X8Q-3D-3DI6Km_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhWIpZb2NCW4VNBnEOLBoqI8qk7FgU1wDQTup1FaQYWiLH5lq9Aclsw8qHiut8IbVWi9XyF-2BrMrskGW-2BzyP60vMCWa49YUyigT-2BxXjxjolKL0s5jG7IcwzSJUtJDWVLydPio9qXz4gvHClDuUv7Wh9JeLj-2FHThRmLzn-2B3VVebUBBjpOyPBN67rxXXghvviNTMkY8UT-2BkNYPzY3t0vCgpNiCkAtGCmpgIvBKY1sp55R-2BNGjbndwncbd2k3rPjI1ovndJG-2F3XXquqqJDzmLWV5sCqjv2d-2B37QFb4Vor5OxjVhMjniuj-2B-2FzdHRfQc0tM5t01J&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Professor Nicolas Menicucci
+  &lt;/a&gt;
+  , a theorist from RMIT University. “Ideas first designed for robust quantum computers can be repurposed so that sensors pick up weaker signals without being drowned out by quantum noise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Sydney team implemented the sensing protocol using the tiny vibrational motion of a trapped ion – the quantum equivalent of a pendulum. They prepared the ion in “grid states”, a kind of quantum state originally developed for error-corrected quantum computing. With this, they showed that both position and momentum can be measured together with precision beyond the ‘standard quantum limit’ – the best achievable using only classical sensors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We haven’t broken Heisenberg’s principle. Our protocol works entirely within quantum mechanics,” said Dr Ben Baragiola, co-author from RMIT. “The scheme is optimised for small signals, where fine details matter more than coarse ones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ability to detect extremely small changes is important across science and technology. Ultra-precise quantum sensors could sharpen navigation in environments where GPS doesn’t work (such as submarines, underground or spaceflight); enhance biological and medical imaging; monitor materials and gravitational systems; or probe fundamental physics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While still at the laboratory stage, the experiment demonstrates a new framework for future sensing technologies targeted towards measuring tiny signals. Rather than replacing existing approaches, it adds a complementary tool to the quantum-sensing toolbox.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Just as atomic clocks transformed navigation and telecommunications, quantum-enhanced sensors with extreme sensitivity could enable whole new industries,” said Dr Valahu.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This project united experimentalists at the University of Sydney with theorists at RMIT, the University of Melbourne, Macquarie University and the University of Bristol in Britain. It shows how collaboration across institutions and borders can accelerate progress and strengthen Australia’s quantum research community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This work highlights the power of collaboration and the international connections that drive discovery,” Dr Tan said.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> How MiTAC Helps Organizations Scale for Both AI Training and Inference </title>
+<link>https://insidehpc.com/2025/09/how-mitac-helps-organizations-scale-for-both-ai-training-and-inference/</link>
+<pubDate>Thu, 25 Sep 2025 11:32:05 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/mitac-servers-sponsored-article-0925.png&quot;/&gt;
+  &lt;em&gt;
+   [SPONSORED GUEST ARTICLE]
+  &lt;/em&gt;
+  As the demand for AI infrastructure becomes a mainstream trend, companies are facing an unprecedented challenge: how to build a compute core that is both powerful and flexible for AI model training, inference, and large-scale data analytics? The answer may lie in redefining server design to adapt to this “red-hot” wave.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MiTAC Computing, a subsidiary of MiTAC Holdings (TWSE:3706) with over 30 years of server design and manufacturing expertise, addresses the growing demand for AI infrastructure by delivering flexible, customized solutions—ranging from individual servers to full rack and cluster integrations for seamless, large-scale deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Kevin Chang, Director of Product Planning at MiTAC Computing, “Our design philosophy is centered around our customers. They need solutions that are not just technically advanced but also seamlessly integrated, easily scalable, and reliable.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This philosophy guides the creation of MiTAC’s newest servers, the
+  &lt;strong&gt;
+   G4520G6 and G8825Z5
+  &lt;/strong&gt;
+  . These machines are built to serve as foundational, powerful roles for organizations with demanding AI model training and inferencing workloads, along with HPC-class scientific simulations and data analytics. Specifically, the
+  &lt;strong&gt;
+   G4520G6
+  &lt;/strong&gt;
+  provides unparalleled flexibility for diverse AI inference workloads with
+  &lt;strong&gt;
+   Intel’s
+  &lt;/strong&gt;
+  latest CPU, while the
+  &lt;strong&gt;
+   G8825Z5
+  &lt;/strong&gt;
+  is engineered for extreme AI training with
+  &lt;strong&gt;
+   AMD’s
+  &lt;/strong&gt;
+  5th generation EPYC™ processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.mitaccomputing.com/en/spec/Barebones/G4520G6_G4520G6U2BC-N&quot;&gt;
+   &lt;strong&gt;
+    The MiTAC Olympus G4520G6
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  is a high-performance 4U dual-socket server engineered for demanding AI, HPC, and data-intensive workloads with capacity for eight GPUs – featuring NVIDIA’s top-of-the-line RTX PRO™ 6000 Blackwell server edition. Built on dual Intel® Xeon® 6 P-Core processors with TDP support of up to 350W, the system delivers exceptional compute, memory, and I/O capabilities—enabling high-performance, multi-core processing with robust GPU acceleration and parallel processing for demanding AI-driven applications.
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Enhanced Memory Performance
+   &lt;/strong&gt;
+   – Equipped with 32 DDR5 DIMM slots (16 per CPU) and 8 memory channels, supporting up to 8,192GB DDR5 RDIMM/3DS RDIMM at 6400 MT/s for superior memory bandwidth.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Comprehensive GPU Support
+   &lt;/strong&gt;
+   – Supports up to eight full-height, dual-slot NVIDIA H200 NVL, NVIDIA H100 NVL, or NVIDIA L40S for scale-out AI training, machine learning and rendering applications. Featuring the NVIDIA H200 GPU with 141GB of HBM3e memory and nearly 27 petaflops of Floating Point8 deep learning compute, it accelerates AI and HPC workloads with exceptional speed and efficiency.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Connectivity
+   &lt;/strong&gt;
+   – Equipped with three standard PCIe 5.0 x 16 expansion slots and three
+   &lt;a href=&quot;https://www.mitaccomputing.com/en/campaign/OCP2025&quot;&gt;
+    OCP
+   &lt;/a&gt;
+   v3.0 mezzanine slots, the MiTAC G4520G6 platform enables high-performance network connectivity, such as NVIDIA ConnectX NICs, BlueField-3 SuperNICs and DPUs, for clustered computing.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Cooling &amp; Power Efficiency
+   &lt;/strong&gt;
+   – Engineered for superior thermal management, it includes eight hot-swap system fans and four external hot-swap fan modules. Four hot-swap CRPS power supplies provide (3+1) redundancy, delivering up to 9,600W with 80+ Titanium efficiency.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/mitac-computing-logo-0925.png&quot;/&gt;
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MiTAC G4520G6 server is a cutting-edge solution for organizations looking to future-proof their infrastructure with a platform designed to tackle the most demanding workloads in AI, HPC, and data analytics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now let’s look at
+  &lt;a href=&quot;https://www.mitaccomputing.com/en/spec/Barebones/G8825Z5_G8825Z5U2BC-350X-755&quot;&gt;
+   &lt;strong&gt;
+    the MiTAC Olympus G8825Z5
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  , an advanced 8U server powerhouse designed to support large-scale AI infrastructure and high-performance computing environments. Equipped with dual AMD EPYC 9005 CPUs and up to eight AMD Instinct™ MI325X/MI350X Series GPUs, this server is built for demanding AI, machine learning, and deep learning workloads. With the AMD ROCm™ open software stack, it delivers optimized GPU programming, seamless code migration, and a scalable ecosystem for generative AI and HPC applications.
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Massive Memory
+   &lt;/strong&gt;
+   : (12+12) DDR5 RDIMM Slots: Supports up to 6TB of DDR5-6400 memory, ensuring that the server can handle data-intensive AI workloads.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    PCIe Expansion
+   &lt;/strong&gt;
+   : PCIe 5.0 Support – Offers a total of (8) half-height and (4) full-height PCIe 5.0 x16 slots, allowing for flexible expansion and integration of additional accelerators, storage, or networking cards.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    NVMe and M.2 Storage
+   &lt;/strong&gt;
+   : Features (8) hot-swap 2.5″ NVMe U.2 drive bays for ultra-fast data access and (2) NVMe M.2 2280/22110 slots for additional high-speed storage options.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Cooling
+   &lt;/strong&gt;
+   : (15) Hot-Swap Fans – Efficient cooling solution designed to maintain optimal temperature and airflow, ensuring high performance and reliability during intense computational workloads.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Power Supply
+   &lt;/strong&gt;
+   : (4+2) 3300W Hot-Swap Redundant Power Supplies – Ensures reliable power delivery with 80+ Titanium certification, providing energy efficiency and minimizing downtime in mission-critical applications.
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;strong&gt;
+    Form Factor
+   &lt;/strong&gt;
+   : 8U Rackmount – Designed for large-scale data center deployments, the 8U form factor provides ample space for high-performance components while optimizing airflow and cooling.
+  &lt;/li&gt;
+  &lt;li&gt;
+   The MiTAC Olympus G4520G6 and Olympus G8825Z5 are designed to be the staples of organizations’ expanding and demanding data center and AI factory infrastructures. With three decades of systems design and manufacturing experience, MiTAC is ready to help companies turn their AI strategies into reality.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  At this year’s
+  &lt;a href=&quot;https://www.mitaccomputing.com/en/campaign/OCP2025&quot;&gt;
+   OCP
+  &lt;/a&gt;
+  Global and SC Summit, MiTAC will be showcasing new servers for AMD, Intel, and NVIDIA platforms. The highlight is the G4826Z5 AI server, which leverages a high-density liquid cooling solution on the new AMD MI355X GPU architecture. MiTAC will also be demonstrating our end-to-end integration capabilities from servers, racks to clusters, engineered to meet the demands of advanced AI workloads with a focus on efficiency and scalability. We look forward to showing you our latest innovations.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft: In-Chip ‘Microfluidics’ Improves Silicon Cooling 3X </title>
+<link>https://insidehpc.com/2025/09/microsoft-in-chip-microfluidics-improves-silicon-cooling-3x/</link>
+<pubDate>Wed, 24 Sep 2025 19:56:59 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97228&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/microsoft-microfluidics-cooling-0925.jpg&quot;/&gt;
+  &lt;p&gt;
+   Image credit: Dan DeLong for Microsoft
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Microsoft reported today it has successfully tested a new cooling system that removed heat up to three times better than cold plates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The system is called microfluidics, an approach that brings liquid coolant directly inside the silicon. Tiny channels are etched directly on the back of the silicon chip, creating grooves that allow cooling liquid to flow directly onto the chip and more efficiently remove heat,
+  &lt;a href=&quot;https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/&quot;&gt;
+   according to a blog
+  &lt;/a&gt;
+  by Catherine  Bolgar on the Microsoft site. The team used AI to identify the heat signatures on a chip and direct the coolant with more precision.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Most GPUs are cooled with cold plates, which are separated from the heat source by several layers that limit the amount of heat they can remove, Bolgar stated.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Microfluidics would allow for more power-dense designs that will enable more features that customers care about and give better performance in a smaller amount of space,” said Judy Priest, corporate vice president and CTO of Cloud Operations and Innovation at Microsoft. “But we needed to prove the technology and the design worked, and then the very next thing I wanted to do was test reliability.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Microsoft, its lab-scale tests showed microfluidics performed up to three times better than cold plates, depending on workloads and configurations involved. They said the technique also reduced the maximum temperature rise of the silicon inside a GPU by 65 percent, though this will vary by the type of chip. The team expects the cooling technology would also improve power usage effectiveness, a key metric for measuring how energy efficient a data center is and reduce operational costs.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97229&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/judy-priest-microsoft.jpg&quot;/&gt;
+  &lt;p&gt;
+   Judy Priest
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Although microfluidics is not a new concept, getting it to work has been a challenge. It requires ensuring that the channels are deep enough to circulate adequate cooling liquid without clogging while not being so deep as to weaken the silicon such that it risks breaking. The team produced four design iterations in the past year alone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Systems thinking is crucial when developing a technology like microfluidics,” said Husam Alissa, director of systems technology in Cloud Operations and Innovation at Microsoft. “You need to understand systems interactions across silicon, coolant, server and the data center to make the most of it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Getting the grooves right is a challenge. The microchannel dimensions are similar in size to human hair. As part of the prototyping effort, Microsoft collaborated with Swiss startup
+  &lt;a href=&quot;https://corintis.com/&quot;&gt;
+   Corintis
+  &lt;/a&gt;
+  to use AI to help optimize a bio-inspired design to cool chips’ hot spots more efficiently than straight up-and-down channels, which they also tested. The bio-design resembles the veins in a leaf or a butterfly wing – nature has proven adept at finding the most efficient routes to distribute what’s needed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microfluidics also required designing a leak-proof package for the chip, finding the best coolant formula, testing different etching methods and developing a step-by-step process for adding etching to manufacturing the chips.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a next step, Microsoft continues to investigate how microfluidic cooling can be incorporated into future generations of its first-party chips. It will also continue to work with fabrication and silicon partners to bring microfluidics into production across its datacenters, the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Hardware is the foundation of our services,” said Jim Kleewein, technical fellow, Microsoft 365 Core Management. “We all have a vested interest in that foundation – how reliable it is, how cost effective, how fast, how consistent the behavior we can get from it, and how sustainable, to name just a few. Microfluidics improves each of those: cost, reliability, speed, consistency of behavior, sustainability.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SK hynix: HBM4 Development Completed </title>
+<link>https://insideainews.com/2025/09/12/sk-hynix-hbm4-development-completed/</link>
+<pubDate>Wed, 24 Sep 2025 17:07:30 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/09/sk-hynix-logo-2-1-0424.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Seoul, September 12, 2025 – SK hynix Inc. announced it has completed development and finished preparation of a next-generation high-bandwidth memory product HBM4.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company said HBM4 vertically interconnects multiple DRAM chips and increases data processing speed in comparison to conventional DRAM products. There are six generations of HBM, starting with the original HBM which was followed by HBM2, HBM2E, HBM3, HBM3E, and HBM4.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SK hynix said that the company has successfully completed development and has prepared HBM4 mass production to lead the AI era. Through this momentum, the company has once again proven the AI memory leadership in the global market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Completion of HBM4 development will be a new milestone for the industry,” Joohwan Cho, Head of HBM Development at SK hynix, who has led the development, said. “By supplying the product that meets customer needs in performance, power efficiency and reliability in timely manner, the company will fulfill time to market and maintain competitive position.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  With recent increase in AI demand and data processing, the needs for high bandwidth memory for faster system speed are surging. In addition, securing memory power efficiency has emerged as a key requirement for customers as power consumption for data center operation has increased. SK hynix expects HBM4, with increased bandwidth and power efficiency, to be the optimal solution to meet customers’ needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HBM4, of which mass production system has been readied, has the industry’s best data processing speed and power efficiency with the bandwidth doubled through adoption of 2,048 I/O terminals, double from the previous generation, and power efficiency improved by more than 40 percent. The company expects to improve AI service performance by up to 69% when the product is applied, which will lead to solve data bottleneck and significantly reduce data center power costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company has exceeded the JEDEC (Joint Electron Device Engineering Council)standard operating speed(8Gbps) by implementing over 10Gbps(Gigabit per second) operating speed in HBM4.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, the company adopted the Advanced MR-MUF (Mass Reflow Molded Underfill) process in HBM4, which has been proven to be reliable in the market, and the 1bnm process, or the fifth-generation of the 10-nanometer technology, to minimize the risk in mass production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are unveiling the establishment of the world’s first mass production system of HBM4,” Justin Kim, President &amp; Head of AI Infra at
+  &lt;a href=&quot;https://www.skhynix.com/eng/main.do&quot;&gt;
+   SK hynix
+  &lt;/a&gt;
+  , said. “HBM4, a symbolic turning point beyond the AI infrastructure limitations, will be a core product for overcoming technological challenges.” “We will grow into a full-stack AI memory provider by supplying memory products with the best quality and diverse performance required for the AI era in a timely manner.”
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> QuEra and Collaborators Announce Quantum Framework for Algorithmic Fault Tolerance </title>
+<link>https://insidehpc.com/2025/09/quera-and-collaborators-announce-quantum-framework-for-algorithmic-fault-tolerance/</link>
+<pubDate>Wed, 24 Sep 2025 16:53:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/quera-logo-2-1-0525.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  BOSTON — September 24, 2025 — QuEra Computing, a neutral-atom quantum computing company, announced that
+  &lt;em&gt;
+   Nature
+  &lt;/em&gt;
+  has published “Low-Overhead Transversal Fault Tolerance for Universal Quantum Computation,” a paper prepared in collaboration with Harvard and Yale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The research introduces Algorithmic Fault Tolerance (AFT), a new framework that reduces the time overhead of error correction in quantum algorithms. The Nature paper is available here
+  &lt;a href=&quot;https://www.nature.com/articles/s41586-025-09543-5&quot;&gt;
+   https://www.nature.com/articles/s41586-025-09543-5
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neutral atoms have emerged as the leading mature contender to fulfill the tantalizing promise of quantum computing. By using individual atoms as qubits – all perfectly identical – neutral atom computers with large numbers of qubits are significantly easier to build than alternative approaches. The flexibility of rearranging atoms at will allows for new quantum error correction approaches and more efficient algorithms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPC managers considering neutral-atom deployments also delight in the fact that these computers operate at room temperature and do not require expensive and complex cryogenic cooling systems. These are structural advantages of neutral atoms, inherent to the physics of the platform, and they underpin the scalability and practicality of this approach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A common concern with neutral-atom quantum computing is that operations are slower due to qubit shuttling. The new fault tolerance framework shows that the flexible connectivity of neutral atoms can speed up execution of logical algorithms, leading to competitive runtimes—while retaining advantages in scalability, connectivity, and deployment simplicity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Quantum error correction (QEC) safeguards fragile quantum information by encoding a single logical qubit into many physical qubits; the resilience of that encoding is captured by the
+  &lt;em&gt;
+   code distance
+  &lt;/em&gt;
+  (
+  &lt;em&gt;
+   d
+  &lt;/em&gt;
+  ), the smallest number of physical errors that could cause a logical error. Raising
+  &lt;em&gt;
+   d
+  &lt;/em&gt;
+  makes logical errors exponentially rarer, but in standard schemes it also forces hardware to spend roughly
+  &lt;em&gt;
+   d
+  &lt;/em&gt;
+  extra clock cycles per gate on repeated “syndrome-extraction” checks, ballooning runtime.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The newly accepted
+  &lt;em&gt;
+   Nature
+  &lt;/em&gt;
+  paper introduces Transversal Algorithmic Fault Tolerance (AFT)—a framework that reshapes how quantum computers detect and repair errors.  AFT proves that for a broad class of quantum-error-correcting codes—including the popular surface code—one can safely execute each logical layer with just one extraction round (instead of
+  &lt;em&gt;
+   d
+  &lt;/em&gt;
+  rounds) by combining two ideas:
+ &lt;/p&gt;
+ &lt;ol role=&quot;list&quot; start=&quot;1&quot;&gt;
+  &lt;li&gt;
+   Transversal operations.  Logical gates are applied in parallel across matched sets of qubits so that any single-qubit error remains local and cannot cascade through the circuit, simplifying detection and correction.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Correlated decoding.  Instead of treating each syndrome round in isolation, a joint decoder digests the pattern of all relevant measurements, ensuring logical error rates decay exponentially with
+   &lt;em&gt;
+    d
+   &lt;/em&gt;
+   . This result builds upon previous work from Harvard and QuEra, (“Correlated Decoding of Logical Algorithms with Transversal Gates”,
+   &lt;a href=&quot;http://link.aps.org/doi/10.1103/PhysRevLett.133.240602&quot;&gt;
+    http://link.aps.org/doi/10.1103/PhysRevLett.133.240602
+   &lt;/a&gt;
+   ).
+  &lt;/li&gt;
+ &lt;/ol&gt;
+ &lt;p&gt;
+  By combining transversal operations and correlated decoding, AFT ensures that logical error rates still decay exponentially while cutting runtime overhead by a factor of
+  &lt;em&gt;
+   d
+  &lt;/em&gt;
+  —often around 30 or higher in simulations. When mapped onto reconfigurable neutral-atom architectures, this approach enables 10–100× reductions in execution time for large-scale logical algorithms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To illustrate the practical implications, a companion peer-reviewed paper,
+  &lt;em&gt;
+   Resource Analysis of Low-Overhead Transversal Architectures for Reconfigurable Atom Arrays
+  &lt;/em&gt;
+  , applies this framework to Shor’s algorithm. The companion paper is available here (
+  &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3695053.3731039&quot;&gt;
+   https://dl.acm.org/doi/abs/10.1145/3695053.3731039
+  &lt;/a&gt;
+  ).
+ &lt;/p&gt;
+ &lt;ul role=&quot;list&quot;&gt;
+  &lt;li&gt;
+   Algorithmic fault tolerance as a game-changer: AFT shows how reconfigurable neutral-atom arrays can run error-corrected algorithms far more efficiently, transforming scalability prospects.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Concrete illustration via resource analysis: The companion study provides a worked example on Shor’s algorithm, demonstrating how fault-tolerance advances translate into dramatic runtime reductions.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Urgency for stakeholders: These results emphasize the need for government, HPC leaders, and enterprises to account for the accelerating timeline of fault-tolerant quantum computing in strategic planning.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “These groundbreaking results have wide implications beyond any single application,” added Yuval Boger, Chief Commercial Officer at QuEra Computing. “They demonstrate a credible, scalable pathway for neutral-atom systems to deliver practical quantum advantage.”
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Wall Street and the Impact of Agentic AI </title>
+<link>https://insideainews.com/2025/09/24/wall-street-and-the-impact-of-agentic-ai/</link>
+<pubDate>Wed, 24 Sep 2025 16:38:38 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  By Sarah Hoffman, AlphaSense
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/02/ai-and-money-2-1-shutterstock-2488980895.jpg&quot;/&gt;
+  As enterprise AI systems become more advanced, they are moving beyond task automation toward workflow intelligence. On Wall Street, this evolution is playing out where milliseconds can mean millions and decisions can ripple across markets. Financial institutions are beginning to embed agentic AI into core operations to surface insights and accelerate decision-making.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The firms leading the next wave aren’t just adding tools, they’re rethinking workflows to achieve greater speed, precision and accountability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Why Finance Needs Agentic AI Now
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Financial institutions are under constant pressure to make faster decisions in increasingly complex environments. According to an
+  &lt;a href=&quot;https://info.unit4.com/rs/400-HYB-295/images/EUR252651124_Unit4%20InfoBrief_V3%20pdf.pdf?version=0&#x27;%5C&quot;&gt;
+   IDC study
+  &lt;/a&gt;
+  , 26 percent of CFOs cite decision velocity as their top strategic challenge. With analysts and compliance teams overwhelmed by regulatory filings, market volatility and shifting risk indicators, the need for AI that reduces manual effort and accelerates intelligence delivery is more urgent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Agentic AI, while still in the early stages of deployment, is showing promise for moving into decision-critical workflows. As these agents become more embedded, they have the potential to dramatically reduce the time to move from signal to strategy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Agentic AI has the potential to make workflows more proactive, running continuous background analysis and alerting teams before events break, effectively buying decision-makers time and helping them capitalizing on opportunities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Redesigning Workflows
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Isolated automation can yield short-term gains, but the payoff will come from end-to-end redesign. According to
+  &lt;a href=&quot;https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf&quot;&gt;
+   McKinsey’s 2025 research
+  &lt;/a&gt;
+  , the most significant EBIT gains come from companies that embed AI comprehensively into processes. Yet only 1 percent of enterprises operate at true AI maturity, where use cases are vertically integrated into functions like financial analysis, fraud detection, and customer onboarding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For finance executives, this is a call to action: rewire research, risk and reporting functions to allow AI agents to ingest, remember and contextualize data continuously. When agents combine the power of language models with institutional memory, they become valuable collaborators, identifying market shifts, flagging compliance concerns and enabling faster, higher-confidence decisions across the organization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Governance and Auditability
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Embedding agentic AI into workflows is not just a technical challenge, it’s a cultural one. For AI to work alongside traders and researchers, institutions will need to build trust in the AI’s recommendations without eroding healthy skepticism. And trust depends on governance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet according to
+  &lt;a href=&quot;https://www.techrepublic.com/article/news-ai-breach-risks-rise-as-governance-lags/&quot;&gt;
+   IBM’s 2025 Cost of a Data Breach Report
+  &lt;/a&gt;
+  , only 34 percent of organizations with governance frameworks audit for AI misuse, and 63 percent of breached organizations lacked any formal AI governance at all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In finance, where regulatory scrutiny, audit trails and reputational risk are central concerns, leaders must ensure that agentic systems have embedded explainability, continuous oversight and transparent data sourcing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   The Bottom Line
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI’s next frontier isn’t about replacing analysts or automating isolated tasks. It’s about reimagining the workflows that power them. While full-scale deployment is still ahead, agents can connect dots across silos, spot market shifts sooner, flag compliance concerns faster, and ultimately give decision-makers more time to act.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Agentic AI’s greatest promise is what it makes possible for people: the freedom to focus on judgment, strategy and creativity in an environment where every second counts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Sarah Hoffman is Director of Research, AI at
+   &lt;a href=&quot;https://www.alpha-sense.com/&quot;&gt;
+    AlphaSense
+   &lt;/a&gt;
+   , a market intelligence and search platform.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nortek Data Center Cooling Unveils Skidded CDU with Multi-Megawatt Capacity </title>
+<link>https://insidehpc.com/2025/09/nortek-data-center-cooling-unveils-skidded-cdu-with-multi-megawatt-capacity/</link>
+<pubDate>Wed, 24 Sep 2025 16:07:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/nortek-logo-2-1-0925.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  OKLAHOMA CITY, September 24, 2025 –
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.nortekdatacenter.com/&amp;source=gmail&amp;ust=1758643227810000&amp;usg=AOvVaw34Ydg2ydaePYV2ICUmgshv&quot; href=&quot;https://www.nortekdatacenter.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+  &lt;/a&gt;
+  Nortek Data Center Cooling (Nortek DCC), a
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.madisonair.com/&amp;source=gmail&amp;ust=1758643227810000&amp;usg=AOvVaw3OSiP_ei4brm0bXqIPvBWj&quot; href=&quot;https://www.madisonair.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+  &lt;/a&gt;
+  Madison Air company, today announced the launch of its Skidded Coolant Distribution Unit (CDU), a liquid cooling solution engineered for high-density AI, HPC and hyperscalers. Designed to scale beyond 5 megawatts, the skidded CDU delivers precision cooling while reducing on-site labor, accelerating deployment timelines and lowering total cost of ownership.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  With AI workloads driving unprecedented power density, hyperscalers and data center operators are moving beyond traditional one-megawatt, enclosed CDU designs and looking for solutions that can scale efficiently, integrate seamlessly, and support rapid deployment and serviceability. Nortek’s skidded CDUs meet these demands, providing a custom, configurable, and easily serviceable platform that enables operators to optimize performance, reduce on-site labor, and adapt to evolving cooling requirements.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Features:
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Massive Capacity: Configurable from 1MW to over 5 MW in the base offering, with design flexibility to scale beyond 10 MW with interconnected modules.
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Simplified Deployment: Larger skidded systems reduce the number of units required, cutting installation labor and speeding commissioning.
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Custom and Configurable: Customer-
+  &lt;wbr&gt;
+   specific piping, valve, and service access options ensure compatibility with diverse facility designs.
+  &lt;/wbr&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Superior Serviceability: Open-frame design with accessible pumps, filters, and controls streamlines maintenance and minimizes downtime.
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Redundancy Built In: N, 2N, and N+1 configurations available with optional redundant sensors and strainers for reliability.
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Energy Efficiency: Variable-speed pumps and precision controls optimize performance and reduce operating costs.
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Group Control Functionality: Supports seamless manifolding and expansion as facilities grow.
+ &lt;/div&gt;
+ &lt;div&gt;
+  ● Expert Engineering: Purpose-built by thermal cooling specialists with deep domain expertise, delivering solutions that go beyond industry standards.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Nortek DCC’s C-Force, an integrated team of data center-specialized engineers, partners with hyperscalers and operators across the full product and customer lifecycle, delivering deep domain expertise, unprecedented collaboration and co-creation and sustained support throughout the product lifecycle. From concept to commissioning, the team’s agility in manufacturing, supply chain, and engineering enables customers to bring bold, next-generation data center designs to life.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “As data centers move to liquid cooling, we are seeing a shift to move faster, scale smarter, and keep things simple,” said Thomas Steen, CTO of Nortek DCC. “The skidded CDU is all about giving customers that flexibility. It’s bigger, easier to service, and built to scale as capacity and needs grow. Rather than lining up multiple one-megawatt units, operators can now go bigger, simplify installation, and still hit the reliability and performance they need. That’s the practical innovation we’re excited to deliver.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Nortek DCC has also partnered with Empyrion Digital to announce the recent deployment of StatePoint Liquid Cooling Technology at Empyrion’s KR1 Gangnam Data Centre in Seoul, a 29.4 MW AI-ready facility that is also one of the region’s most energy and water-efficient. Delivering a PUE of 1.3 and WUE of 1.6, the modular system integrates seamlessly with direct-to-chip and rear-door liquid cooling solutions. This deployment highlights DCC’s commitment to high-performance, sustainable infrastructure and strengthens its position in Asia’s expanding hyperscale market.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “We are proud to partner with Empyrion Digital to deploy StatePoint at their Gangnam facility,” said Karin Overstreet, CEO of
+  &lt;a href=&quot;https://www.nortekdatacenter.com/&quot;&gt;
+   Nortek DCC
+  &lt;/a&gt;
+  . “StatePoint was designed to meet the intense demands of AI and HPC while cutting energy and water use. This project shows what’s possible when forward-thinking infrastructure meets purpose-built innovation, and we’re excited to help raise the bar for data center sustainability and performance in South Korea.”
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> StorMagic and SNUC Partner for Edge HCI Appliances </title>
+<link>https://insidehpc.com/2025/09/stormagic-and-snuc-partner-for-edge-hci-appliances/</link>
+<pubDate>Tue, 23 Sep 2025 21:05:48 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;gpu supercomputing&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2019/03/shutterstock_480041035.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  BRISTOL, England – 23 September 2025 – StorMagic today announced a new OEM agreement with SNUC under which they will offer solutions combining SNUC’s 2000- and 3000- series extremeEDGE Servers and StorMagic SvHCI.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Available now to global distributors and resellers, the HCI solutions offer shared storage and real-time compute, all in a ruggedized, full-stack hyperconverged infrastructure (HCI) appliance. Easy to install, deploy and manage, the solutions can be configured to match requirements for a customer’s environment, without shelfware or overprovisioning.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “SNUC is excited to partner with StorMagic to deliver flexible solutions built specifically for the world’s most demanding environments,” said Jonny Smith, CEO at
+  &lt;a href=&quot;https://snuc.com/)&quot;&gt;
+   SNUC
+  &lt;/a&gt;
+  . “Combining SNUC’s fanless, rugged, AI-ready edge servers with StorMagic’s simply reliable SvHCI software delivers optimal value in a complete, tightly integrated HCI appliance that is purpose-built for the edge.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  For customers, the joint solution delivers a certified, pre-integrated system that reduces deployment time and keeps ongoing management simple. For distributors and Value Added Resellers (VARs), it opens new opportunities to address demanding environments with an appliance that can be easily bundled with complementary services and support.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “This partnership is about removing barriers for customers who need reliable IT in challenging environments,” said Susan Odle, CEO at
+  &lt;a href=&quot;https://stormagic.com/&quot;&gt;
+   StorMagic
+  &lt;/a&gt;
+  . “By combining SNUC’s rugged servers with StorMagic’s simple and flexible software, we are giving organizations and their partners a proven, cost-effective system that is ready to deploy immediately and easy to manage over time.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Survey Reveals Mixed Corporate Response to Gen AI </title>
+<link>https://insidehpc.com/2025/09/survey-reveals-mixed-corporate-response-to-gen-ai/</link>
+<pubDate>Tue, 23 Sep 2025 20:03:49 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/04/generic-quantum-compute-shutterstock-2198551407-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  AUSTIN, TEXAS Sept. 10, 2025 – Survey results from ABBYY’s State of Intelligent Automation: GenAI Disillusionment report discusses the challenges business leaders are facing as they implement generative AI (GenAI) technology – including the  use other technology to augment outputs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With technologies and changes augmenting the use of GenAI, the survey found that 98% of US businesses ultimately are happy with their GenAI results – seeing better consistency of outputs (58%), better integration into existing workflows (50%), more accurate and reliable results (48%), greater cost efficiency and savings (44%) and increased user trust (42%).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The survey by Opinium Research, commissioned by ABBYY, revealed over a quarter (27%) of US business leaders say training GenAI models was harder than expected. The same number said it was difficult to integrate into their business processes, while 24% said staff misused the tools (the highest globally). In addition, 23% said it was too expensive, 22% did not have proper governance, and a fifth (20%) had problems with hallucinations – when incorrect information is provided.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many US business leaders said they were able to address the challenges by introducing other technologies, with 40% using AI agents, over a third (36%) turning to process intelligence, 31% using document AI, and 23% introducing retrieval augmented generation (RAG). Surprisingly in the US, 33% leaders said tey ask staff to manually check and correct information – the highest globally.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Businesses are spending money on GenAI tools that promise more than they can provide. In some cases, they don’t even need it,” said Maxime Vermeir, Senior Director of AI Strategy at
+  &lt;a href=&quot;http://www.abbyy.com/company&quot;&gt;
+   ABBYY
+  &lt;/a&gt;
+  . “Before moving forward with leveraging GenAI tools or agentic AI, companies need to first evaluate their current processes and create a visibility map of their workflow with data analytics tools such as process intelligence.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vermeir continued, “When training models prove more difficult than expected, pre-trained, purpose-built AI turns out to be the right solution. We’ve helped customers like a global fast-food chain improve the extraction of data from thousands of lease agreements by 82% by using document AI to improve GenAI outputs.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.abbyy.com/resources/report/state-of-intelligent-automation-genai-2025/&quot;&gt;
+   The survey
+  &lt;/a&gt;
+  showed over a fifth of respondents are experiencing “Shadow AI,” with 22% of US business leaders saying that GenAI is only being used in the company because employees use it for personal productivity rather than as part of management-driven initiatives. This means shadow AI is higher in the US than other countries such as the UK (12%) France (19%), Germany (21%) and Australia (17%), although in Singapore 26% of employees admitted to Bring Your Own Software (BYOS).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The research also looked at the reasons behind introducing GenAI, with four in ten (43%) of US business leaders admitting that a driving factor for investment was that employees were already using it on a BYOS basis. This was higher than other regions such as the UK (39%) and France (32%)
+ &lt;/p&gt;
+ &lt;p&gt;
+  More than half (53%) say staff use it to “make them look smarter and more professional”, while 55% say it helps reduce workload and supports creativity. Generally, staff are optimistic about GenAI, with 91% of leaders saying they enjoy positive results. However, in the USA, the biggest bug bear with GenAI is that it can lie. Given a wish list of improvements to GenAI, almost a quarter (23%) of US workers requested GenAI would admit when it didn’t know the answer – this was higher than workers in the UK (15%) and Germany (13%).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ulf Persson, CEO at ABBYY, comments, “GenAI is creating remarkable opportunities to reimagine how work gets done, which is rightfully generating a great deal of excitement. However, ‘shadow AI’, when individuals use commonly available tools like ChatGPT, Grok, or Perplexity without oversight at work, potentially raises serious data privacy and compliance concerns. The corporate benefits of GenAI’s potential is truly unlocked when leaders drive secure, strategic adoption with risk management as a priority.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In terms of investment, 42% of respondents said they have spent between $200k and $1m on AI in the last year, with the average spend in the US being $795k (10% of respondents said they have spent more than $3m). As for budgets next year, the average increase is expected to be 22%, while 9% of respondents will raise budgets by over 50%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Opinium research of 1,200 senior managers or above in companies of 100+ employees in the US, UK, France, Germany, Australia and Singapore. Research undertaken between 20th of June and 8th of July 2025.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Teradata Launches AgentBuilder for Autonomous AI </title>
+<link>https://insidehpc.com/2025/09/teradata-launches-agentbuilder-for-autonomous-ai/</link>
+<pubDate>Tue, 23 Sep 2025 14:02:06 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/teradata-logo-2-1-0925.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  SAN DIEGO – Sept. 23, 2025 – Teradata (NYSE: TDC) today announced the launch of AgentBuilder, a suite of capabilities designed to accelerate development and deployment of autonomous, contextually intelligent AI agents.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Leveraging open-source frameworks and powered by the Teradata AI and knowledge platform, AgentBuilder gives teams the ability to quickly design, operationalize, and manage multi-agent systems that draw on Teradata Vantage’s data, advanced analytics and hybrid infrastructure. The new capabilities also include ready-to-deploy Teradata Agents—task-driven templates that accelerate implementation and deliver rapid impact for complex, domain-specific challenges.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Despite growing interest in agentic AI, there are significant barriers to operationalizing autonomous agents. These include fragmented and siloed data that may lead to hallucinations and unreliable outputs, a lack of embedded business knowledge that limits contextual relevance, performance bottlenecks and inflated costs from prompt-driven workloads, and insufficient governance that can make deployment risky.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  To address these challenges, Teradata’s AgentBuilder offers capabilities for developing and deploying autonomous AI agents. By integrating contextual knowledge, deep domain expertise, and scalable hybrid infrastructure, AgentBuilder empowers organizations to build and manage multiple agents that can operate securely and autonomously across cloud and on-premises environments. For example, Teradata’s new Teradata Agents are specifically designed with domain expertise and task-specific logic, entrenching business context directly into the agent’s behavior to produce more relevant and trustworthy outputs. Powered by Teradata’s comprehensive knowledge platform, AI, and analytics capabilities—including its recently launched
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.teradata.com/press-releases/2025/mcp-server-agentic-ai-at-scale&amp;source=gmail&amp;ust=1758653191715000&amp;usg=AOvVaw0COTBYE316llS5GUaZIoE8&quot; href=&quot;https://www.teradata.com/press-releases/2025/mcp-server-agentic-ai-at-scale&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; title=&quot;https://www.teradata.com/press-releases/2025/mcp-server-agentic-ai-at-scale&quot;&gt;
+    Model Context Protocol (MCP) Server
+   &lt;/a&gt;
+  &lt;/u&gt;
+  —AgentBuilder enables teams to transition from agentic AI experimentation to production, unlocking meaningful business value at scale.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “AgentBuilder represents meaningful progress in advancing agentic AI for the autonomous enterprise,” said Sumeet Arora, Chief Product Officer at
+  &lt;a href=&quot;https://www.teradata.com/&quot;&gt;
+   Teradata
+  &lt;/a&gt;
+  . “By combining the flexibility of open-source frameworks with Teradata’s AI and knowledge platform and our MCP Server, which provides deep semantic access to enterprise data, we’re helping organizations build intelligent agents that are not only autonomous and scalable, but also deeply aligned with their business goals, governance standards, and domain expertise.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “Add to that our seamless support across cloud and on-premises environments, and we’re delivering a level of flexibility, integration, and contextual intelligence that sets Teradata apart. This is not just about data—it’s about delivering trusted, transparent, and complete knowledge to power the next generation of AI,” added Arora.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Building on this foundation, the Teradata MCP Server provides the core infrastructure that powers AgentBuilder’s intelligent agent capabilities. MCP equips developers and AI practitioners with a curated set of prompts, components, and resources that streamline access to the Teradata Vantage platform—enabling agents to query, reason, and act with greater precision. By integrating MCP into AgentBuilder, Teradata ensures that agents are not only context-aware and knowledgeable, but also secure, scalable, and aligned with enterprise standards. This tight coupling accelerates development, enhances reliability, and enables organizations to unlock the full potential of agentic AI across their hybrid environments.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  In this early release, AgentBuilder will support popular open-source frameworks such as Flowise and CrewAI, with LangChain and LangGraph planned to follow. These tools provide flexible, modular building blocks for constructing agent workflows, memory, reasoning, and coordination—essential components for developing autonomous systems. Combined with Teradata’s enterprise-grade scalability, governance, and performance, this approach accelerates the path to real-world, agentic AI applications that continuously learn and evolve their knowledge base.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Teradata AgentBuilder also includes Teradata Agents—pre-built templates for tasks such as churn analysis and system monitoring—designed to help teams quickly adopt agentic AI. These agents address high-value, domain-specific challenges by applying advanced analytics, behavioral data, and contextual awareness to complex operational processes. They deliver explainable, business-aligned outcomes and operate autonomously across business functions. Continuously learning and adaptive, Teradata Agents are ideal for high-impact use cases that demand precision, scalability, and trust.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Examples of Teradata Agents include:
+ &lt;/div&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Teradata SQL agent is an advanced technical agent that converts questions or requests expressed in natural language into SQL queries that can be executed against Teradata data warehouse tables. It can discover schemas and table definitions, and detect, correct, and optimize query statements. This agent can be used with open-source frameworks in a multi-agent system.
+   &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Teradata data science agent is a technical agent offered by Teradata that creates fully executable ML (machine learning) pipelines from natural language requests. It combines the power of LLMs, Teradata MCP tools (part of the MCP Server), and linguistics which helps with multi-step reasoning, contextual understanding, and action execution across the ML workflow steps to generate reports and insights.
+   &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;div role=&quot;presentation&quot;&gt;
+    Teradata monitoring agent is an intelligent automation tool designed to continuously monitor and manage Teradata databases, servers, and sub-systems. By leveraging real-time telemetry and system insights, the agent proactively maintains system health, detects anomalies before they escalate, and optimizes performance across the enterprise.
+   &lt;/div&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;div&gt;
+  Teradata AgentBuilder will be available in private preview in Q4 2025.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  For a special sneak peek of AgentBuilder, including opportunities to be hands-on with it, attend
+  &lt;u&gt;
+   &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.teradata.com/events/possible&amp;source=gmail&amp;ust=1758653191715000&amp;usg=AOvVaw09odUUd97QM6rGo0Pj0AnM&quot; href=&quot;https://www.teradata.com/events/possible&quot; rel=&quot;noreferrer noopener&quot; target=&quot;_blank&quot; title=&quot;https://www.teradata.com/events/possible&quot;&gt;
+    Teradata Possible 2025
+   &lt;/a&gt;
+  &lt;/u&gt;
+  , Oct. 6-8 in Los Angeles.
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA: CUDA Available from Additional 3rd-Party Platforms </title>
+<link>https://insideainews.com/2025/09/12/nvidia-cuda-available-from-additional-3rd-party-platforms/</link>
+<pubDate>Mon, 22 Sep 2025 21:19:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/09/cuda-logo-2-1-0925.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;p&gt;
+      Sept. 11, 2025 — NVIDIA announced  the
+      &lt;a data-wpel-link=&quot;internal&quot; href=&quot;https://developer.nvidia.com/cuda-toolkit&quot; rel=&quot;follow noopener&quot; target=&quot;_self&quot;&gt;
+       CUDA
+      &lt;/a&gt;
+      software stack is being deployed across various operating systems and package managers. The company said it is working with its ecosystem of distribution platforms to allow redistribution of CUDA, including OS providers
+      &lt;a data-wpel-link=&quot;external&quot; href=&quot;https://canonical.com/&quot; rel=&quot;follow external noopener&quot; target=&quot;_blank&quot;&gt;
+       Canonical
+      &lt;/a&gt;
+      ,
+      &lt;a data-wpel-link=&quot;external&quot; href=&quot;https://ciq.com/&quot; rel=&quot;follow external noopener&quot; target=&quot;_blank&quot;&gt;
+       CIQ
+      &lt;/a&gt;
+      , and
+      &lt;a data-wpel-link=&quot;external&quot; href=&quot;https://www.suse.com/&quot; rel=&quot;follow external noopener&quot; target=&quot;_blank&quot;&gt;
+       SUSE
+      &lt;/a&gt;
+      , and developer environment manager
+      &lt;a data-wpel-link=&quot;external&quot; href=&quot;https://flox.dev/cuda/&quot; rel=&quot;follow external noopener&quot; target=&quot;_blank&quot;&gt;
+       Flox
+      &lt;/a&gt;
+      —which enables package manager
+      &lt;a data-wpel-link=&quot;external&quot; href=&quot;https://nixos.wiki/wiki/Nix_package_manager&quot; rel=&quot;follow external noopener&quot; target=&quot;_blank&quot;&gt;
+       Nix
+      &lt;/a&gt;
+      —will redistribute CUDA software directly.
+     &lt;/p&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The company said they can now embed CUDA into their package feeds, which will simplify installation and dependency resolution. “It’s particularly beneficial for incorporating GPU support into complex applications like PyTorch and libraries like OpenCV,” NVIDIA said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Building and deploying applications can be challenging for developers, requiring them to navigate the complex relationship between hardware and software capabilities and compatibility, according to NVIDIA. “Ensuring that each underlying software component is not only installed correctly but also matches the required versions to avoid conflicts can be a time-consuming task, and often leads to deployment delays and operational inefficiencies in application workflows.”
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    This effort augments existing ways developers have CUDA access by letting them obtain the software needed in one location. Additional distributors are coming soon.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Each distribution platform that redistributes CUDA will include:
+   &lt;/p&gt;
+   &lt;ul&gt;
+    &lt;li&gt;
+     &lt;p&gt;
+      Consistent CUDA Toolkit naming: Third-party packages will match NVIDIA naming conventions to avoid confusion in documentation and tutorials.
+     &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;p&gt;
+      Timely CUDA updates: Third-party packages will be updated in a timely manner after NVIDIA official releases to ensure compatibility and reduce QA overhead.
+     &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;p&gt;
+      Continued free access: CUDA itself will remain freely available—even when packaged in paid software. Distributors may charge for access to their packages or software but will not monetize CUDA specifically.
+     &lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+     &lt;p&gt;
+      Comprehensive support options: You can access support via distributors and can also find help via NVIDIA forums or NVIDIA’s developer site, just like always.
+     &lt;/p&gt;
+    &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;p&gt;
+    Obtaining CUDA software from NVIDIA is free, and current avenues to get CUDA remain (they include downloading the
+    &lt;a data-wpel-link=&quot;internal&quot; href=&quot;https://developer.nvidia.com/cuda-downloads&quot; rel=&quot;follow noopener&quot; target=&quot;_self&quot;&gt;
+     CUDA Toolkit
+    &lt;/a&gt;
+    , pulling the
+    &lt;a data-wpel-link=&quot;internal&quot; href=&quot;https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda&quot; rel=&quot;follow noopener&quot; target=&quot;_self&quot;&gt;
+     CUDA container
+    &lt;/a&gt;
+    , installing for Python using pip or conda).
+   &lt;/p&gt;
+   &lt;p&gt;
+    “But the ability for distribution platforms to package CUDA within larger enterprise deployments and software applications allows us to ensure your experience as a developer is simple. You download and install your application, and under the covers, the correct CUDA version is installed, as well,” the company said in a blog by NVIDIA’s
+    &lt;a data-wpel-link=&quot;internal&quot; href=&quot;https://developer.nvidia.com/blog/author/jbentz/&quot; rel=&quot;author follow noopener&quot; target=&quot;_self&quot; title=&quot;Posts by Jonathan Bentz&quot;&gt;
+     Jonathan Bentz
+    &lt;/a&gt;
+    ,
+    &lt;a data-wpel-link=&quot;internal&quot; href=&quot;https://developer.nvidia.com/blog/author/roarmstrong/&quot; rel=&quot;author follow noopener&quot; target=&quot;_self&quot; title=&quot;Posts by Rob Armstrong&quot;&gt;
+     Rob Armstrong
+    &lt;/a&gt;
+    and
+    &lt;a data-wpel-link=&quot;internal&quot; href=&quot;https://developer.nvidia.com/blog/author/anshumanbhat/&quot; rel=&quot;author follow noopener&quot; target=&quot;_self&quot; title=&quot;Posts by Anshuman Bhat&quot;&gt;
+     Anshuman Bhat
+    &lt;/a&gt;
+    . “Working with the NVIDIA ecosystem in this way is a significant milestone in our mission to reduce friction in GPU software deployment. By collaborating with key players across the OS and package management landscape, NVIDIA is ensuring that CUDA remains accessible, consistent, and easy to use—no matter where or how developers choose to build.”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> News Bytes 20250922: NVIDIA’s Intel Stake and the APUs to Come, NVIDIA’s $900M Enfabrica ‘Acqui-Hire’ </title>
+<link>https://insideainews.com/2025/09/22/news-bytes-20250922-nvidias-intel-stake-and-the-apus-to-come-nvidias-900m-enfabrica-acqui-hire/</link>
+<pubDate>Mon, 22 Sep 2025 21:02:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3?_=3&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3?_=3&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/09/cpu-gpu-image-2-1-nvidia-image-0925.png&quot;/&gt;
+  Happy vernal equinox to you! Developments in the world of HPC-AI last week exceeded its high standard for news value, here’s a fast (6:54) run-through of major headlines, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Nvidia’s $5 billion stake in Intel and the coming APU from their partnership (and the possibilities for Intel’s foundry business)
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Nvidia’s nearly billion-dollar buy of Enfabrica interconnect tech talent
+ &lt;/p&gt;
+ &lt;p&gt;
+  – PsiQuantum’s $1 billion round and the quantum investment tsunami
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/09/hpc-news-bytes-20250922/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPE Cray Supercomputer Selected for Environmental Forecasting in New Zealand </title>
+<link>https://insidehpc.com/2025/09/hpe-cray-supercomputer-selected-for-environmental-forecasting-in-new-zealand/</link>
+<pubDate>Mon, 22 Sep 2025 20:28:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/earth-sciences-new-zealand-logo-2-1-0925.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Sept. 22, 2025, AUCKLAND, New Zealand — HPE (NYSE:HPE) today announced that Earth Sciences New Zealand (formally NIWA) of Aotearoa (New Zealand) selected the HPE Cray XD2000, built for AI and simulation workloads, for the organization’s environmental science and of meteorological forecasting.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;p&gt;
+    The system, named Cascade, replaces Earth Sciences New Zealand’s aging high performance computing with a threefold increase in computational power for researchers to run multiple AI-powered simulations simultaneously. The system supports Earth Sciences New Zealand’s mission to strengthen the country’s resilience against weather and climate-related hazards, such as wildfires and flooding.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Cascade is powered by AMD 4th Gen EPYC processors and tightly coupled with HPE GreenLake for File Storage to deliver a simplified storage environment and enable 19 petabytes of data to accelerate local research, faster decision-making and crisis management.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The Cascade system has direct liquid cooling technology that minimizes energy use and water usage and cools the computational cluster, which was architected to allow future expansion. The electricity supplied to the CDC data centre, where Cascade is housed, is generated from 100 percent renewable sources, HPE said.
+   &lt;/p&gt;
+   &lt;p&gt;
+    “We’re thrilled to partner with Earth Sciences New Zealand on this groundbreaking initiative,” said Chris Weber, Vice President and Managing Director, South Pacific at
+    &lt;a href=&quot;http://www.hpe.com&quot;&gt;
+     HPE
+    &lt;/a&gt;
+    . “By delivering advanced HPC and AI capabilities, we’re empowering New Zealand’s leading climate and environmental researchers with the tools they need to drive scientific discovery and tackle some of the most pressing challenges of our time. Importantly, we’re able to maximise energy efficiency through direct liquid cooling and leverage renewable energy. This collaboration showcases the true potential of technology to make a meaningful impact, both locally and globally.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    HPE said Earth Sciences New Zealand’s Cascade is set to be the largest implementation in the Asia Pacific region of HPE GreenLake for File Storage, across both HPC and traditional enterprise computing.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Based in Auckland, Earth Sciences New Zealand is the country’s leading provider of natural and environmental science services. As an island nation, New Zealand faces unique challenges from atmospheric rivers – narrow corridors in the atmosphere that carry large quantities of water vapor and are known to cause major rainfall events.
+   &lt;/p&gt;
+   &lt;p&gt;
+    “This upgrade with HPE Cray XD2000 marks a huge leap forward in our ability to understand and predict the environment around us,” says Dr. Jess Robertson, Chief Scientist – Advanced Technology at Earth Sciences New Zealand. “Enhancing scientific research with the advanced technology solutions gives us the tools to make smarter and safer decisions with confidence for New Zealand in a changing climate.”
+   &lt;/p&gt;
+   &lt;p&gt;
+    Alongside its forecasting capabilities, Earth Sciences New Zealand also supports the country’s low-carbon economy and biodiversity protection, improving water quality, social equity, and regional development.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Cascade is built to operate at full capacity for longer, maximizing scalability and up-time. Cascade will also use real-time data for a forecasting technique referred to as nowcasting, which uses AI to predict short-term, localized weather rapidly, supporting the inclusion of solar and wind in high-frequency energy markets as well as emergency response to fires and extreme weather.
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Says It Will Invest up to $100B in OpenAI </title>
+<link>https://insidehpc.com/2025/09/nvidia-says-it-will-invest-up-to-100b-in-openai/</link>
+<pubDate>Mon, 22 Sep 2025 20:28:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  OpenAI and NVIDIA today announced a partnership to deploy at least 10 gigawatts of NVIDIA systems for OpenAI’s next-generation AI infrastructure to train and run its models in its puruit of superintelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA intends to invest up to $100 billion in OpenAI as new NVIDIA systems are deployed. The first phase is targeted to come online in the second half of 2026 using the NVIDIA Vera Rubin platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “NVIDIA and OpenAI have pushed each other for a decade, from the first DGX supercomputer to the breakthrough of ChatGPT,” said Jensen Huang, founder and CEO of NVIDIA. “This investment and infrastructure partnership mark the next leap forward — deploying 10 gigawatts to power the next era of intelligence.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Everything starts with compute,” said Sam Altman, cofounder and CEO of OpenAI. “Compute infrastructure will be the basis for the economy of the future, and we will utilize what we’re building with NVIDIA to both create new AI breakthroughs and empower people and businesses with them at scale.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’ve been working closely with NVIDIA since the early days of OpenAI,” said Greg Brockman, cofounder and president of OpenAI. “We’ve utilized their platform to create AI systems that hundreds of millions of people use every day. We’re excited to deploy 10 gigawatts of compute with NVIDIA to push back the frontier of intelligence and scale the benefits of this technology to everyone.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI will work with NVIDIA as a preferred strategic compute and networking partner for its AI factory growth plans. OpenAI and NVIDIA will work together to co-optimize their roadmaps for OpenAI’s model and infrastructure software and NVIDIA’s hardware and software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This partnership complements OpenAI and NVIDIAs’ work with a network of collaborators, including Microsoft, Oracle, SoftBank and Stargate partners, focused on building an advanced AI infrastructure.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20250922: NVIDIA’s Intel Stake and APUs to Come, NVIDIA’s $900M Enfabrica ‘Acqui-Hire,’ Quantum Investment Goes Exponential </title>
+<link>https://insidehpc.com/2025/09/hpc-news-bytes-20250922-nvidias-intel-stake-and-apus-to-come-nvidias-900m-enfabrica-talent-buy-quantum-investment-goes-exponential/</link>
+<pubDate>Mon, 22 Sep 2025 16:05:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/09/HPCNB_20250922.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97202&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/cpu-gpu-image-2-1-nvidia-image-0925.png&quot;/&gt;
+  &lt;p&gt;
+   Image credit: NVIDIA
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Happy vernal equinox to you! Developments in the world of HPC-AI last week exceeded its high standard for news value, here’s a fast (6:54) run-through of major headlines, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Nvidia’s $5 billion stake in Intel and the coming APU from their partnership (and the possibilities for Intel’s foundry business)
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Nvidia’s nearly billion-dollar buy of Enfabrica interconnect tech talent
+ &lt;/p&gt;
+ &lt;p&gt;
+  – PsiQuantum’s $1 billion round and the quantum investment tsunami
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/09/hpc-news-bytes-20250922/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Chandrasekaran to Receive ACM Computing Honor </title>
+<link>https://insidehpc.com/2025/09/chandrasekaran-to-receive-acm-computing-honor/</link>
+<pubDate>Fri, 19 Sep 2025 20:15:31 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2021/01/sunita-chandrasekaran-Univ-Delaware-0121.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The University of Delaware announced that Professor Sunita Chandrasekaran has been named winner of the Association for Computing Machinery (ACM)’s SIGHPC Emerging Woman Leader in Technical Computing Award for 2025. The award will be presented at the SC25 Conference this November in St. Louis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Sunita Chandrasekaran exemplifies the spirit of this award, blending technical excellence with community leadership,” said Michela Taufer, chair of the ACM Special Interest Group on High Performance Computing. “Her innovative work on GPU-accelerated, AI-driven workflows is reshaping how we approach exascale computing, while her mentorship and service ensure these advancements uplift the broader HPC community.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As part of the U.S. Department of Energy’s Exascale Computing Project (ECP), Chandrasekaran led the SOLLVE initiative from 2021–2024. Her team prepared Open Multi-Processing (OpenMP), a high-level parallel programming model, to function on Frontier, the world’s first exascale computer, at Oak Ridge National Laboratory in Tennessee.
+ &lt;/p&gt;
+ &lt;p&gt;
+  She also collaborated with an international team to test Frontier’s 37,000+ graphics processing units using PIConGPU, a simulation tool for plasma and laser-plasma physics. These simulations, involving trillions of particles and cells, are vital for advancing cancer radiation therapy and high-energy physics. Such large-scale simulations are now becoming possible with today’s exascale computing, reducing months of work to days.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, she’s exploring the intersection of AI and the high-performance computing that powers it — all while preparing her students for careers in technology and business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chandrasekaran, director of the recently launched
+  &lt;a href=&quot;https://www.udel.edu/udaily/2025/june/artificial-intelligence-first-state-ai-institute-sunita-chandrasekaran/&quot;&gt;
+   First State AI Institute
+  &lt;/a&gt;
+  at UD, is known for her collaborative spirit. Her go-to response when challenges arise: “Let’s work together to figure it out.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Her leadership and mentorship have earned widespread recognition. An associate professor at UD, she holds the David L. and Beverly J.C. Mills Career Development Chair in the Department of Computer and Information Sciences in the College of Engineering. She also serves as vice chair of Delaware’s AI Commission and contributes to the Advanced Scientific Computing Advisory Committee at the U.S. Department of Energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a teacher and mentor, Chandrasekaran emphasizes both technical and interpersonal skills, encouraging students to engage in hackathons, internships and industry collaborations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When we’re working with a company, the students lead the weekly calls,” she said. “Industries observe how they present themselves. I tell my students: Learn the technical skills well — they are the foundation. But social skills are also critical, and you pick those up outside the classroom. That is why networking opportunities also are very important even if you feel awkward about it at first.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chandrasekaran earned her doctorate from Nanyang Technical University in Singapore and her bachelor’s degree from Anna University in India. She joined UD in 2015 after completing postdoctoral research at the University of Houston.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft Standing up $3.3B ‘Most Powerful’ AI Data Center in Wisconsin with $4B Facility to Follow </title>
+<link>https://insidehpc.com/2025/09/microsoft-standing-up-3-3b-state-of-art-ai-data-center-in-wisconsin-with-4b-facility-to-follow/</link>
+<pubDate>Fri, 19 Sep 2025 19:48:17 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97187&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/microsoft-wisconsin-data-center-0925-1024x576.png&quot;/&gt;
+  &lt;p&gt;
+   image credit: Microsoft
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The factory of the future isn’t so much an updated version of a traditional manufacturing plant. Manufacturing automation is happening,but  the factory of the future, according to one consultant, is something else. It’s the AI factory, the scaled up and out data center that will drive IT, drive AI, drive the combination of HPC and AI. These facilities will be built all over the country and constitute a growing industrial sector in the U.S., they will require hundreds of thousands of workers to stand up, equip and maintain them, they will be the beating heart of technical and corporate innovation, they will be a productivity driver and an employment and wealth engine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s the view of Kirk Offel, founder and CEO of
+  &lt;a href=&quot;https://weareoverwatch.com/&quot;&gt;
+   OVERWATCH
+  &lt;/a&gt;
+  Mission Critical, a data center consulting firm based in Austin, Texas. If he’s right, then the mammoth state-of-the-art data center Microsoft is standing up in Wisconsin may have the earmarks of Offel’s vision.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its not-so-modest opinion, Microsoft calls it the world’s most powerful AI data center. In a blog post from company vice chair and president Brad Smith, he calls it “a modern marvel” that is on track to be completed and online in early 2026, “fulfilling our initial $3.3 billion investment pledge. We’ve already begun hiring full-time employees to support its operation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Located in Mount Pleasant, WI, the plant has received an additional $4 billion over the next three years for a second data center of similar scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Smith said a feature of the data center is sustainability. More than 90 percent of it will rely on a closed-loop liquid cooling system that will be filled during construction and recirculated continuously.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The remaining portion of the facility will use outside air for cooling, switching to water on the hottest days, to minimize environmental impact.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97188&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/brad-smith-microsoft-0925.png&quot;/&gt;
+  &lt;p&gt;
+   Brad Smith, Microsoft
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  He said the result is a data center with modest water use, requiring roughly the amount of water a typical restaurant uses annually or what an 18-hole golf course consumes weekly in peak summer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft also will pre-paying for the energy and electrical infrastructure it will use — “ensuring prices remain stable and protecting consumers from future cost increases ….”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We will match every kilowatt hour we consume that comes from a fossil fuel source one for one with carbon-free energy we put back onto the grid,” Smith said. “This includes a new 250 MW solar project in Portage County that is under construction to support this commitment.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He said the data center will house hundreds of thousands of NVIDIA GPUs, operating in clusters connected by enough fiber to wrap the planet four times over. The processors will handle training for frontier AI models — delivering 10 times the performance of today’s fastest supercomputers, according to Smith.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for local economic impact, Smith said that at its peak, Microsoft employed more than 3,000 construction workers, including electricians, plumbers and pipefitters, carpenters, structural iron and steel workers, concrete workers, and Earth movers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Once our first datacenter is fully operational, we will employ around 500 full-time employees, with that number growing to around 800 once the second datacenter is complete,” Smith said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This datacenter is designed to help AI researchers and engineers build the world’s most advanced models, test ideas faster, and do it all more efficiently. It’s not just about running AI — it’s about creating it. This is where the next generation of AI will be trained, setting the stage for breakthroughs that will shape the future. New discoveries in medicine, science, and other critical fields will start right here, with the models we train in Wisconsin.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Takes Surprise Stake in Intel </title>
+<link>https://insidehpc.com/2025/09/nvidias-surprise-stake-in-intel/</link>
+<pubDate>Thu, 18 Sep 2025 20:17:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/nvidia-logo-2-1-0525.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The implications, the possibilities, the sheer surprise of today’s news that NVIDIA has taken a $5 billion stake in Intel came as a shock to the tech system. Wall Street was staggered as well, boosting Intel stock by more than 30 percent not only on NVIDIA’s investment but also on the two companies forming a partnership to develop chips for personal computers and data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A story on
+  &lt;a href=&quot;https://www.msn.com/en-us/news/technology/nvidia-to-invest-5b-in-intel-and-develop-chips-with-onetime-rival/ar-AA1MP7zv?ocid=msedgntp&amp;pc=U531&amp;cvid=68cc2e6cf2ea4deea6ba6a9e446ee2b3&amp;ei=15&quot;&gt;
+   the MSN site
+  &lt;/a&gt;
+  from NBC News quotes stock analyst Dan Ives: “This is a game changer deal for Intel as it now brings them front and center into the AI game. Along with the recent U.S. government investment for 10 percent (in Intel) this has been a golden few weeks for Intel after years of pain and frustration for investors.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ives added that the partnership “further strengthens” the US lead versus China in artificial intelligence. “Intel now goes from a laggard to a catalyst,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel, which has struggled to compete not only in the GPU-AI compute arena but also, increasingly, versus AMD in the x86 CPU sector, now will
+  &lt;a href=&quot;https://www.intc.com/news-events/press-releases/detail/1750/nvidia-and-intel-to-develop-ai-infrastructure-and-personal?ref=thestack.technology&quot;&gt;
+   partner
+  &lt;/a&gt;
+  with NVIDIA on CPU-GPU integration. Intel thus aligns itself NVIDIA’s commanding, 90 percent-plus market share position in GPUs. To date, NVIDIA has integrated its GPUs with Arm-based CPUs with such products as the Grace Hopper Superchip, which utilize Arm-based Neoverse cores.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the deal also has implications for Intel’s currently money-losing foundry business. An
+  &lt;a href=&quot;https://www.thestack.technology/nvidia-rides-to-intels-rescue-with-fab-agreement-5-billion-investment/&quot;&gt;
+   article in The Stack
+  &lt;/a&gt;
+  today reported that “Intel will fab NVIDIA CPUs for data centre hardware and x86 system-on-chips (SOCs) that integrate NVIDIA RTX GPU chiplets for personal computers under a landmark new partnership.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Intel’s leading data center and client computing platforms, combined with our process technology, manufacturing and advanced packaging capabilities, will complement NVIDIA’s AI and accelerated computing leadership to enable new breakthroughs for the industry,” Lip-Bu Tan, CEO of Intel. “We appreciate the confidence Jensen and the NVIDIA team have placed in us with their investment and look forward to the work ahead as we innovate for customers and grow our business.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The news was announced during President Donald Trump’s state visit to the U.K., which also included announcements of major investments by NVIDIA and other tech companies in that country’s AI infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel has been on an increasingly turbulent roller-coaster ride in recent years, highlighted by the surprise resignation of former CEO Pat Gelsinger late last year when he was replaced by Tan. Only last month, President Trump accused Tan of being “highly conflicted” over previous business ties with China, followed quickly by the Trump White House order the federal government to invest $9 billion in Intel.
+ &lt;/p&gt;
+ &lt;p&gt;
+  How that investment relates to NVIDIA’s decision to buy a stake in Intel is unknown. But at a state dinner yesterday at Windsor Castle, Trump, referring to NVIDIA CEO Jensen Huang, jokingly said, “Jensen, you’re taking over the world.”
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MLCommons Releases MLPerf Inference v5.1 Benchmark Results </title>
+<link>https://insideainews.com/2025/09/12/mlcommons-releases-mlperf-inference-v5-1-benchmark-results/</link>
+<pubDate>Wed, 17 Sep 2025 22:29:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/04/mlcommons-logo-2-1-1124.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Today, MLCommons announced new results for its MLPerf Inference v5.1 benchmark suite, tracking the momentum of the AI community and its new capabilities, models, and hardware and software systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To view the results for MLPerf Inference v5.1, visit the
+  &lt;a href=&quot;https://mlcommons.org/benchmarks/inference-datacenter/&quot;&gt;
+   Datacenter
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://mlcommons.org/benchmarks/inference-edge/&quot;&gt;
+   Edge
+  &lt;/a&gt;
+  benchmark results pages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MLPerf Inference benchmark suite is designed to measure how quickly systems can run AI models across a variety of workloads. The open-source and peer-reviewed suite performs system performance benchmarking in an architecture-neutral, representative, and reproducible manner, creating a level playing field for competition that drives innovation, performance, and energy efficiency for the entire industry. It provides critical technical information for customers who are procuring and tuning AI systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This round of MLPerf Inference results sets a record for the number of participants submitting systems for benchmarking at 27. Those submissions include systems using five newly-available processors and improved versions of AI software frameworks. The v5.1 suite introduces three new benchmarks that further challenge AI systems to perform at their peak against modern workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The pace of innovation in AI is breathtaking,” said Scott Wasson, Director of Product Management at MLCommons. “The MLPerf Inference working group has aggressively built new benchmarks to keep pace with this progress. As a result, Inference 5.1 features several new benchmark tests, including DeepSeek-R1 with reasoning, and interactive scenarios with tighter latency requirements for some LLM-based tests. Meanwhile, the submitters to MLPerf Inference 5.1 yet again have produced results demonstrating substantial performance gains over prior rounds.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Llama 2 70B GenAI Test
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Llama 2 70B benchmark continues to be the most popular benchmark in the suite, with 24 submitters in this round.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also gives a clear picture of overall performance improvement in AI systems over time. In some scenarios, the best performing systems improved by as much as 50% over the best system in the 5.0 release just six months ago. This round saw another first: a submission of a heterogeneous system that used software to load-balance an inference workload across different types of accelerators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In response to demand from the community, this round expands the interactive scenario introduced in the previous version, which tests performance under lower latency constraints as required for agentic and other applications of LLMs. The interactive scenarios, now tested for multiple models, saw robust participation from submitters in version 5.1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Three New Tests Introduced
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  MLPerf Inference v5.1 introduces three new benchmarks to the suite: DeepSeek-R1; Llama 3.1 8B; and Whisper Large V3.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DeepSeek R1 is the first “reasoning model” to be added to the suite. Reasoning models are designed to tackle challenging tasks, using a multi-step process to break down problems into smaller pieces in order to produce higher quality responses.  The workload in the test incorporates prompts from five datasets covering mathematics problem-solving, general question answering, and code generation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Reasoning models are an emerging and important area for AI models, with their own unique pattern of processing,” said Miro Hodak, MLPerf Inference working group co-chair. “It’s important to have real data to understand how reasoning models perform on existing and new systems, and MLCommons is stepping up to provide that data. And it’s equally important to thoroughly stress-test the current systems so that we learn their limits; DeepSeek R1 increases the difficulty level of the benchmark suite, giving us new and valuable information.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  More information on the DeepSeek R1 benchmark can be found
+  &lt;a href=&quot;https://mlcommons.org/2025/09/deepseek-inference-5-1/&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Llama 3.1 8B is a smaller LLM useful for tasks such as text summarization in both datacenter and edge scenarios. With the Inference 5.1 release, this model is replacing an older one (GPT-J) but retaining the same dataset, performing the same benchmark task but with a more contemporary model that better reflects the current state of the art. Llama 3.1 8B uses a large context length of 128,000 tokens, whereas GPT-J only used 2048. The test uses the CNN-DailyMail dataset, among the most popular publicly available for text summarization tasks. The Llama 3.1 8B benchmark supports both datacenter and edge systems, with custom workloads for each.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More information on the Llama 3.1 8B benchmark can be found
+  &lt;a href=&quot;https://mlcommons.org/2025/09/small-llm-inference-5-1/&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whisper Large V3 is an open-source speech recognition model built on a transformer-based encoder-decoder architecture. It features high accuracy and multilingual capabilities across a wide range of tasks, including transcription and translation. For the benchmark test it is paired with a modified version of the Librispeech audio dataset. The benchmark supports both datacenter and edge systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “MLPerf Inference benchmarks are live and designed to capture the state of AI deployment across the industry,” said Frank Han, co-chair of the MLPerf Inference Working Group. “This round adds a speech-to-text model, reflecting the need to benchmark beyond large language models. Speech recognition combines language modeling with additional stages like acoustic feature extraction and segmentation, broadening the performance profile and stressing system aspects such as memory bandwidth, latency, and throughput. By including such workloads, MLPerf Inference offers a more holistic and realistic view of AI inference challenges.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  More information on the Whisper Large V3 benchmark can be found
+  &lt;a href=&quot;https://mlcommons.org/2025/09/whisper-inferencev5-1/&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MLPerf Inference 5.1 benchmark received submissions from a total of 27 participating organizations: AMD, ASUSTek, Azure, Broadcom, Cisco, Coreweave, Dell, GATEOverflow, GigaComputing, Google, Hewlett Packard Enterprise, Intel, KRAI, Lambda, Lenovo, MangoBoost, MiTac, Nebius, NVIDIA, Oracle, Quanta Cloud Technology, Red Hat Inc, Single Submitter: Amitash Nanda, Supermicro, TheStage AI, University of Florida, and Vultr.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The results included tests for five newly-available accelerators:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   AMD Instinct MI355X
+  &lt;/li&gt;
+  &lt;li&gt;
+   Intel Arc Pro B60 48GB Turbo
+  &lt;/li&gt;
+  &lt;li&gt;
+   NVIDIA GB300
+  &lt;/li&gt;
+  &lt;li&gt;
+   NVIDIA RTX 4000 Ada-PCIe-20GB
+  &lt;/li&gt;
+  &lt;li&gt;
+   NVIDIA RTX Pro 6000 Blackwell Server Edition
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “This is such an exciting time to be working in the AI community,” said David Kanter, head of MLPerf at
+  &lt;a href=&quot;https://mlcommons.org/&quot;&gt;
+   MLCommons
+  &lt;/a&gt;
+  . “Between the breathtaking pace of innovation and the robust flow of new entrants, stakeholders who are procuring systems have more choices than ever. Our mission with the MLPerf Inference benchmark is to help them make well-informed choices, using trustworthy, relevant performance data for the workloads they care about the most. The field of AI is certainly a moving target, but that makes our work – and our effort to stay on the cutting edge – even more essential.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kanter continued, “We would like to welcome our new submitters for version 5.1:  MiTac, Nebius, Single Submitter: Amitash Nanda, TheStage AI, University of Florida, and Vultr. And I would particularly like to highlight our two participants from academia: Amitash Nanda, and the team from the University of Florida. Both academia and industry have important roles to play in efforts such as ours to advance open, transparent, trustworthy benchmarks. In this round we also received two power submissions, a data center submission from Lenovo and an edge submission from GATEOverflow. MLPerf Power results combine performance results with power measurements to offer a true indication of power-efficient computing. We commend these participants for their submissions and invite broader MLPerf Power participation from the community going forward.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  MLCommons is the world’s leader in AI benchmarking. An open engineering consortium supported by over 125 members and affiliates, MLCommons has a proven record of bringing together academia, industry, and civil society to measure and improve AI. The foundation for MLCommons began with the MLPerf benchmarks in 2018, which rapidly scaled as a set of industry metrics to measure machine learning performance and promote transparency of machine learning techniques. Since then, MLCommons has continued to use collective engineering to build the benchmarks and metrics required for better AI – ultimately helping to evaluate and improve the accuracy, safety, speed, and efficiency of AI technologies.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Partnership Formed for UK AI Infrastructure </title>
+<link>https://insidehpc.com/2025/09/partnership-formed-for-uk-ai-infrastructure/</link>
+<pubDate>Wed, 17 Sep 2025 22:05:29 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/uk-flag-2-1-wikipedia-webp.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  LONDON—Sept. 16, 2025—NVIDIA announced that it is investing in accelerating the AI industrial revolution in the United Kingdom, working with partners including CoreWeave, Microsoft and Nscale to build the nation’s AI infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The companies said by the end of 2026, they will build and operate AI factories that will serve AI models, including those from OpenAI, to enable the U.K.’s sovereign AI goals for building a platform to power innovation, growth and opportunity across the economy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unveiled three months after U.K. Prime Minister Keir Starmer and NVIDIA founder and CEO Jensen Huang announced a collaboration at London Tech Week, this new infrastructure will foster new job opportunities and support strong, secure and sustainable economic growth across the U.K, as well as serve as a platform for groundbreaking research in priority areas agreed in the U.K.-U.S. tech partnership, including medicine and drug discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unveiled in honor of transatlantic technology and trade partnership during U.S. President Donald Trump’s state visit to the U.K., the AI factories will add an up to £11 billion investment in the U.K. with 120,000 NVIDIA Blackwell Ultra GPUs to local data centers — the largest rollout in the country’s history. Furthermore, NVIDIA is enabling U.K. cloud partner Nscale to scale up its global expansion with 300,000 NVIDIA Grace Blackwell GPUs worldwide.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The United Kingdom is building the infrastructure for the AI industrial revolution — advancing science, transforming industries and creating new economic opportunities,” said Huang. “We are at the big bang of intelligence, and the United Kingdom’s Goldilocks ecosystem of world-class expertise, outstanding universities and vibrant industries is uniquely positioned to thrive in the age of AI. With AI supercomputers powering state-of-the-art models locally, a new generation of U.K. researchers, developers and entrepreneurs will drive discovery and build the companies of tomorrow.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In this age of AI, I want the U.K. to be the destination of choice for companies at the forefront of technological change, and renowned for harnessing homegrown talent and building sovereign capability,” said Starmer. “These major announcements mark a decisive step towards the U.K. becoming a world leader in AI, meaning more jobs and investment, more money in people’s pockets and transformed public services — all part of our Plan for Change.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Several new AI factories are being built by NVIDIA partners to transform the nation’s economy and unlock opportunities with AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA Cloud Partner Nscale, the U.K.-based AI infrastructure company, is deploying 300,000 NVIDIA Grace Blackwell GPUs in AI factories across the United States, Portugal and Norway, with 60,000 NVIDIA GPUs now being established in the U.K.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nscale, OpenAI and NVIDIA are establishing Stargate U.K., which will feature NVIDIA Blackwell Ultra GPUs operating in Nscale’s U.K. data centers by 2026, bringing the most advanced U.S. technology to transform the nation’s economy and unlock opportunities with AI. OpenAI is expected to use this NVIDIA infrastructure to serve its models — including its latest and most advanced reasoning model, GPT-5.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Sovereign AI infrastructure is key to national resilience, economic growth and strategic autonomy,” said Josh Payne, CEO of Nscale. “This milestone deepens our commitment to providing critical AI infrastructure for the next industrial revolution.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The U.K. has been a longstanding pioneer of AI and is now home to world-class researchers, millions of ChatGPT users and a government that quickly recognized the potential of this technology,” said Sam Altman, CEO of OpenAI. “Stargate U.K. builds on this foundation to help accelerate scientific breakthroughs, improve productivity and drive economic growth. This partnership reflects our shared vision that with the right infrastructure in place, AI can expand opportunity for people and businesses across the U.K.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nscale and Microsoft also announced plans to build the U.K.’s most powerful supercomputer in Loughton. It is expected to feature more than 24,000 NVIDIA Grace Blackwell Ultra GPUs to provide Microsoft Azure services in the U.K.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are focused on ensuring that both the U.S. and the U.K. remain at the forefront of AI and cloud innovation,” said Satya Nadella, chairman and CEO of Microsoft. “That is why we are partnering with NVIDIA to bring together our global platform with their latest compute, software and network capabilities so innovators across the country have the most powerful tools to shape the future with AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additionally, CoreWeave today announced that it will establish an advanced data center in Scotland with Grace Blackwell Ultra GPUs, powered by renewable energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI innovation and adoption is critical to national competitiveness, and CoreWeave is committed to delivering the infrastructure that makes it possible,” said Michael Intrator, cofounder and CEO of CoreWeave. “This latest phase of CoreWeave investment in the U.K. will bring more advanced infrastructure to data centers across England and Scotland, giving researchers and businesses direct access to cutting-edge resources that strengthen the U.K.’s position in a fast-moving global technology landscape.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, BlackRock, the world’s largest asset manager, recently announced it will invest up to £500 million to modernize U.K. data centers in partnership with Digital Gravity Partners. These data centers will be refurbished to be NVIDIA-ready, enabling them to be equipped with the latest AI hardware to build the infrastructure for the AI industrial revolution — advancing science, transforming industries and creating new economic opportunities in the U.K.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA is also collaborating with U.K. quantum computing pioneers to accelerate technology development across quantum applications, error correction, infrastructure and AI integration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OQC and Digital Realty are establishing a quantum-AI center, working with NVIDIA to deliver the AI supercomputing that will support quantum processors. Based out of Digital Realty’s JFK10 facility in New York City, the OQC GENESIS system in the new center will harness the NVIDIA CUDA-QTM platform to bring together OQC’s quantum computing technology, NVIDIA AI infrastructure and Digital Realty’s data center interconnection and colocation expertise to provide businesses with secure, scalable access to integrated quantum-GPU computing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ORCA Computing, Imperial College London, and the Poznan Supercomputing and Networking Center are announcing hybrid-quantum deep neural networks that combine AI supercomputing with distributed photonic quantum processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The University of Edinburgh is developing GPU-accelerated quantum error-correction software via CUDA-Q. The researchers are planning to benchmark GPU performance against existing CPU implementations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The University of Oxford is using AI to control quantum hardware, bringing precision and adaptability to one of the field’s most complex challenges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And SEEQC, working with the U.K.’s National Quantum Computing Centre, is tightly integrating QPUs and GPUs via a scalable digital interface system, in collaboration with NVIDIA, to incorporate NVIDIA-accelerated decoders for quantum error correction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  TechUK Accelerates Robotics, AI and Workforce Skills in Collaboration With NVIDIA NVIDIA is collaborating with techUK, alongside robotics and automation leader Quanser and training provider QA, to strengthen the U.K.’s robotics and AI ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Through this initiative, techUK will provide a comprehensive program that connects its members, robotics researchers and startups with funding, training and opportunities to collaborate with other industry leaders. NVIDIA will provide support through its NVIDIA AI Technology Center resources and technical expertise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA is also teaming with QA to support the U.K. government’s efforts to prepare its future workforce for the AI industrial revolution. Through the program, QA will provide NVIDIA Deep Learning Institute courses on inference and generative AI, along with access to computing through the NVIDIA DGXTM Cloud platform. This builds upon the AI skills development initiative that the U.K. government and NVIDIA announced in June to support workforce upskilling and reskilling across industry, research and the public sector.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Work to build the U.K.’s AI foundation has already begun, with support from the nation’s rich research and startup ecosystem and technology industry leaders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Built on NVIDIA Grace HopperTM Superchips, Isambard-AI — the U.K.’s most powerful AI supercomputer, based at the University of Bristol, which launched in July — is accelerating national projects including: UK-LLM, a large language model project developed by University College London, Bangor University and NVIDIA; Nightingale AI, a sovereign, multimodal health foundation model developed by Imperial College London and trained on National Health Service data; PolluGen, a new high-resolution pollution dispersion model developed by the University of Manchester; the Ultrasound Foundation Model, led by researchers at Queen Mary University of London; Gen Model in Ego-Sensed World, led by researchers at the University of Bristol; and Electrostatics-aware foundation models, developed by researchers at the University of Cambridge in collaboration with NVIDIA and SCAN — a technology solutions provider with a strong focus on community, education and innovation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA is working with other leading U.K. robotics leaders to advance industries with physical AI, including Extend Robotics, Humanoid, Materials Innovation Factory, The National Robotarium, Opteran, Oxa and Wayve.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many U.K.-based life sciences companies are using NVIDIA technologies to take an AI-first approach to drug discovery, simulating therapies and drug design to achieve faster treatment testing, including: Basecamp Research, CEiSRI — the U.K. Centre of Excellence for In-Silico Regulatory Science and Innovation, based at the University of Manchester — Isomorphic Labs, Peptone, Latent Labs, Relation Therapeutics, Hologen AI — a collaboration between University College London and Kings College London — and Oxford Nanopore.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI model builders and startups are working with NVIDIA to transform the U.K. technology sector with agentic and generative AI tools that advance productivity, from financial large language models to AI voice agents. These model builders include Aveni, ElevenLabs, PolyAI, Recraft, Speechmatics and Synthesia.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Bacula Systems Announces HPCAccelerator for Enterprise HPC Backup </title>
+<link>https://insidehpc.com/2025/09/bacula-systems-announces-hpcaccelerator-for-enterprise-hpc-backup/</link>
+<pubDate>Wed, 17 Sep 2025 21:39:20 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/09/bacula-systems-logo-2-1-0915.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  YVERDON-LES-BAINS, Switzerland, September 17, 2025 – Bacula Systems, high-performance backup and recovery company, today announced HPCAccelerator, a technology for handling massive file systems within its flagship product, Bacula Enterprise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPCAccelerator addresses the challenge in high-performance computing and enterprise environments: protecting and managing data at previously unmanageable scale. This new feature is designed to empower organizations to back up and restore billions of files at unprecedented speed, while maintaining Bacula’s hallmark high security and budget predictability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Bacula Enterprise has always led the market in supporting the world’s most demanding
+  &lt;a href=&quot;https://stats.nwe.io/x/html?final=aHR0cHM6Ly93d3cuYmFjdWxhc3lzdGVtcy5jb20vYmFja3VwLWhwYy8&amp;sig=E1W5QYHArLFrPZ4B3Aq08wtoq_T2E7OqBFoz6giB7vUoMbI1oGHOhLK0oJqrviBw0h1E4-NkEitcoM3inhE9fA&amp;hit%2Csum=WyI1MXhzN3oiLCI1MXhzODAiLCI1MXhzODEiXQ&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+   HPC
+  &lt;/a&gt;
+  environments. HPCAccelerator is a direct response to the increasing data growth faced by our customers, enabling them to shorten backup windows dramatically, while enjoying full cost predictability and uncompromising security,” said Rick Stevens, Senior Vice President of Global Sales at
+  &lt;a href=&quot;https://baculasystems.com/&quot;&gt;
+   Bacula Systems
+  &lt;/a&gt;
+  . “By automating what was once a manual, time-intensive process, HPCAccelerator ensures organizations can scale their infrastructure confidently and efficiently.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Features of Bacula’s HPCAccelerator Technology:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Scalability: Dynamically distributes backup workloads across multiple concurrent workers to handle billions of files with ease.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Speed and Efficiency: Significantly reduces backup times by splitting large workloads into smaller, parallelized processes.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Automation: Eliminates the need for system administrators to manually partition datasets.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Error Reduction: Automation and adaptive scalability minimize human error and optimize resource use.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Compatibility: Works seamlessly with any file system, file server, or NAS environment, and integrates with Bacula’s incremental and other advanced backup features.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    No Capacity-Based Licensing: Unlike most competitors, Bacula never charges by data volume, giving customers complete budget predictability.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  For example, a government laboratory running HPC workloads with billions of files can now use Bacula Enterprise with HPCAccelerator to protect mission-critical data faster and more reliably, without the inefficiencies of manual dataset handling or spiraling license costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “HPCAccelerator is another proof point of Bacula’s relentless focus on delivering solutions uniquely engineered for HPC and large enterprises,” said Jorge Gea, Co-CEO of Bacula Systems. “It ensures that organizations conducting critical research and high-volume operations have a backup solution capable of keeping pace with their data explosion.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bacula Systems will be demonstrating the new HPCAccelerator feature at SC25, the premier international conference for high-performance computing, taking place in the United States this November. Visitors will be able to see firsthand how Bacula Enterprise with HPCAccelerator redefines large-scale backup performance for the HPC community along with its other capabilities with filesystems such as
+  &lt;a href=&quot;https://stats.nwe.io/x/html?final=aHR0cHM6Ly93d3cuYmFjdWxhc3lzdGVtcy5jb20vZ3Bmcy1iYWNrdXAv&amp;sig=mJC1DXfkNN5LRfKGa6Kxer1-ukaFXsaFxr8gaTPH161R-J9sXTLpKSNiSxwJQTESG1dkIYcQtSFM6YmjxJkahA&amp;hit%2Csum=WyI1MXhzODIiLCI1MXhzODMiLCI1MXhzODEiXQ&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;
+   GPFS
+  &lt;/a&gt;
+  and Lustre.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
