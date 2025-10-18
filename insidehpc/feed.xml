@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sat, 18 Oct 2025 19:22:49 -0000</lastBuildDate>
+<item>
+<title> @HPCpodcast-54: Silicon Photonics, w Keren Bergman </title>
+<link>https://orionx.net/2023/04/hpcpodcast-54-silicon-photonics-w-keren-bergman/</link>
+<pubDate>Sat, 18 Oct 2025 17:53:11 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div data-heateor-sss-href=&quot;https://orionx.net/2023/04/hpcpodcast-54-silicon-photonics-w-keren-bergman/&quot;&gt;
+  &lt;div&gt;
+   Share this:
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Facebook&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;0 0 32 32&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z&quot; fill=&quot;#ff7800&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+   &lt;a aria-label=&quot;Twitter&quot; href=&quot;https://twitter.com/intent/tweet?via=OrionX_net&amp;text=%40HPCpodcast-54%3A%20Silicon%20Photonics%2C%20w%20Keren%20Bergman&amp;url=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;-4 -4 39 39&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z&quot; fill=&quot;#ff7800&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+   &lt;a aria-label=&quot;Linkedin&quot; href=&quot;https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Linkedin&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;0 0 32 32&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z&quot; fill=&quot;#ff7800&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+   &lt;a aria-label=&quot;Email&quot; href=&quot;https://orionx.net/2023/04/hpcpodcast-54-silicon-photonics-w-keren-bergman/&quot; onclick=&quot;event.preventDefault();window.open(&#x27;mailto:?subject=&#x27; + decodeURIComponent(&#x27;%40HPCpodcast-54%3A%20Silicon%20Photonics%2C%20w%20Keren%20Bergman&#x27;).replace(&#x27;&amp;&#x27;, &#x27;%26&#x27;) + &#x27;&amp;body=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&#x27;, &#x27;_blank&#x27;)&quot; rel=&quot;noopener&quot; title=&quot;Email&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;-.75 -.5 36 36&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M 5.5 11 h 23 v 1 l -11 6 l -11 -6 v -1 m 0 2 l 11 6 l 11 -6 v 11 h -22 v -11&quot; fill=&quot;#ff7800&quot; stroke-width=&quot;1&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;br/&gt;
+ &lt;p&gt;
+  We discuss Silicon Photonics with
+  &lt;a href=&quot;https://www.ee.columbia.edu/keren-bergman&quot;&gt;
+   Keren Bergman
+  &lt;/a&gt;
+  , the Charles Batchelor Professor of Electrical Engineering, Faculty Director of the Columbia Nano Initiative, and Principal Investigator of
+  &lt;a href=&quot;http://lightwave.ee.columbia.edu/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Lightwave Research Laboratory
+  &lt;/a&gt;
+  at Columbia University. Prof. Bergman is the recipient of the 2016 IEEE Photonics Engineering Award and is a Fellow of Optica (Optical Society of America) and IEEE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The wide range of topics includes: Silicon Photonics vs. Fiber Optics used in telecommunications, the use of photonics c0mmunication vs. computation, what aspects of light are used to achieve  efficiencies, packet switching vs circuit switching, current advances and speeds, economic considerations and likely first uses, supply chain, fabrication, assembly, and packaging technologies for photonics.
+ &lt;/p&gt;
+ &lt;div data-next=&quot;Next&quot; data-playtitle=&quot;Play/Pause&quot; data-prev=&quot;Previous&quot; data-timeslider=&quot;Time Slider&quot;&gt;
+  &lt;audio controls=&quot;controls&quot; data-lazy=&quot;1&quot; preload=&quot;none&quot;&gt;
+   &lt;source src=&quot;https://orionx.net/wp-content/uploads/2023/04/054@HPCpodcast_Keren-Bergman_Silicon-Photonics_20230407.mp3?_=1&quot; type=&quot;audio/mpeg&quot;/&gt;
+  &lt;/audio&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;div itemprop=&quot;author&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Person&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;img itemprop=&quot;image&quot; loading=&quot;lazy&quot; src=&quot;http://orionx.net/wp-content/uploads/2020/01/Demand-Gen-sq-360x360.png&quot;/&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;a href=&quot;https://orionx.net/author/orionadmin/&quot; rel=&quot;author&quot;&gt;
+     &lt;span&gt;
+      OrionX Editorial Team
+     &lt;/span&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div itemprop=&quot;description&quot;&gt;
+     &lt;p&gt;
+      The OrionX editorial team manages the content on this website.
+     &lt;/p&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;br/&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div data-heateor-sss-href=&quot;https://orionx.net/2023/04/hpcpodcast-54-silicon-photonics-w-keren-bergman/&quot;&gt;
+  &lt;div&gt;
+   Share this:
+  &lt;/div&gt;
+  &lt;div&gt;
+   &lt;a aria-label=&quot;Facebook&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;0 0 32 32&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z&quot; fill=&quot;#ff7800&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+   &lt;a aria-label=&quot;Twitter&quot; href=&quot;https://twitter.com/intent/tweet?via=OrionX_net&amp;text=%40HPCpodcast-54%3A%20Silicon%20Photonics%2C%20w%20Keren%20Bergman&amp;url=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;-4 -4 39 39&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z&quot; fill=&quot;#ff7800&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+   &lt;a aria-label=&quot;Linkedin&quot; href=&quot;https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;Linkedin&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;0 0 32 32&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z&quot; fill=&quot;#ff7800&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+   &lt;a aria-label=&quot;Email&quot; href=&quot;https://orionx.net/2023/04/hpcpodcast-54-silicon-photonics-w-keren-bergman/&quot; onclick=&quot;event.preventDefault();window.open(&#x27;mailto:?subject=&#x27; + decodeURIComponent(&#x27;%40HPCpodcast-54%3A%20Silicon%20Photonics%2C%20w%20Keren%20Bergman&#x27;).replace(&#x27;&amp;&#x27;, &#x27;%26&#x27;) + &#x27;&amp;body=https%3A%2F%2Forionx.net%2F2023%2F04%2Fhpcpodcast-54-silicon-photonics-w-keren-bergman%2F&#x27;, &#x27;_blank&#x27;)&quot; rel=&quot;noopener&quot; title=&quot;Email&quot;&gt;
+    &lt;span&gt;
+     &lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;100%&quot; viewbox=&quot;-.75 -.5 36 36&quot; width=&quot;100%&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+      &lt;path d=&quot;M 5.5 11 h 23 v 1 l -11 6 l -11 -6 v -1 m 0 2 l 11 6 l 11 -6 v 11 h -22 v -11&quot; fill=&quot;#ff7800&quot; stroke-width=&quot;1&quot;&gt;
+      &lt;/path&gt;
+     &lt;/svg&gt;
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cray-1 50th Anniversary Commemorated on Dollar Coin </title>
+<link>https://insidehpc.com/2025/10/cray-1-50th-anniversary-commemorated-on-dollar-coin/</link>
+<pubDate>Fri, 17 Oct 2025 20:47:49 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/dollar-coin-cray-1-supercomputer-102025.png&quot;/&gt;
+  The United States Mint has released the designs for the 2026 American Innovation
+  &lt;sup&gt;
+  &lt;/sup&gt;
+  $1 Coin Program, and one of them honors a monumental moment in the history of HPC: the announcement of the Cray-1 supercomputer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Released earlier this week, the 2026 coin designs honor, among other states, Wisconsin, the home of Cray Research and the birthplace, under the leadership of the late Seymour Cray and co-founder chief engineer Lester Davis, of the Cray-1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The face of the coins exhibits a stylized aerial view of the Cray-1 supercomputer, the U.S Mint said, and “The image emphasizes the Cray-1 not only through its shape, but also by suggesting the shape of a “C” for Cray-1 and “computer.” Inscriptions are “UNITED STATES OF AMERICA” and “WISCONSIN.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Cray-1 was the first supercomputer to successfully implement the vector processor design. These systems improve the performance of math operations by arranging memory and registers to quickly perform a single operation on a large set of data. Previous systems had implemented these concepts but with limited performance. The Cray-1 ran several times faster than any similar design (
+  &lt;a href=&quot;https://en.wikipedia.org/wiki/Cray-1&quot;&gt;
+   see Wikipedia Cray-1 profile
+  &lt;/a&gt;
+  ).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the course of its life on the market, 80 Cray-1s were sold, making it one of the most successful supercomputers in history. It is known for its unique shape, a relatively small C-shaped cabinet with a ring of benches covering the power supplies and the cooling system.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97412&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/cray-1-at-london-science-museum-20180227-132902-49362732462-credit-irid-escent.jpg&quot;/&gt;
+  &lt;p&gt;
+   Cray-1 (credit: Irid Escent)
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  According to Wikipedia, after the 80 MHz system was announced in 1975, excitement ran so high that a bidding war for the first machine broke out between Lawrence Livermore National Laboratory and Los Alamos National Laboratory, the latter eventually winning and receiving serial number 001 in 1976. The National Center for Atmospheric Research (NCAR) was the first official customer of Cray Research in 1977, paying $8.86 million for serial number 3. The NCAR machine was decommissioned in 1989.
+  &lt;sup&gt;
+  &lt;/sup&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The coin was designed by
+  &lt;a href=&quot;https://www.usmint.gov/learn/artists/aip-paul-romano&quot;&gt;
+   Paul Romano
+  &lt;/a&gt;
+  , artistic infusion program designer, and sculpted by
+  &lt;a href=&quot;https://www.usmint.gov/learn/artists/sculptors-john-mcgraw&quot;&gt;
+   John P. McGraw
+  &lt;/a&gt;
+  , Mint Medallic artist.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;div data-cmp-data-layer=&#x27;{&quot;imagegridgeneral-83741fa619&quot;:{&quot;@type&quot;:&quot;usmint/components/imagegridgeneral&quot;,&quot;repo:modifyDate&quot;:&quot;2025-10-14T20:41:25Z&quot;}}&#x27;&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI and Thermo Fisher Scientific in Life Sciences Collaboration </title>
+<link>https://insidehpc.com/2025/10/openai-and-thermo-fisher-scientific-in-life-sciences-collaboration/</link>
+<pubDate>Fri, 17 Oct 2025 18:49:32 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/thermo-fisher-logo-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  WALTHAM, Mass. — Thermo Fisher Scientific Inc. (NYSE: TMO) announced AI utilization plans with OpenAI in a collaboration intended to improve drug development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As part of this collaboration, Thermo Fisher is embedding Open AI APIs into areas of its business that range from product development, service delivery, customer engagement and operational efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The collaboration will:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Deploy OpenAI advanced capabilities to one of the highest impact initial focus areas – Thermo Fisher’s industry leading PPD
+   &lt;sup&gt;
+    ™
+   &lt;/sup&gt;
+   clinical research business – to significantly improve the cycle time of clinical trials and accelerate the time to bring new medicines to market, creating meaningful value for the industry.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Leverage OpenAI capabilities and Thermo Fisher’s expertise, to more quickly help identify therapies that are unlikely to succeed, which will enable customers to redirect investment and resources toward more promising opportunities.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Integrate AI into Thermo Fisher’s Accelerator
+   &lt;sup&gt;
+    ™
+   &lt;/sup&gt;
+   Drug Development solution, an end-to-end approach spanning early development, Phase I–III clinical research, clinical manufacturing and supply and commercialization. This solution is designed to deliver greater speed, simplicity and scalability for customers.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Launch frontier AI to Thermo Fisher colleagues, with ChatGPT Enterprise, making it easier to build confidence and fluency with these powerful tools.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “AI is shaping the future of science. And when combined with our Mission to enable our customers to make the world healthier, cleaner and safer, it is a powerful catalyst to accelerate scientific advancement,” said Marc Casper, Chairman, President and Chief Executive Officer,
+  &lt;a href=&quot;https://www.thermofisher.com/us/en/home.html&quot;&gt;
+   Thermo Fisher Scientific
+  &lt;/a&gt;
+  . “With OpenAI, we’re further embedding AI across our operations, products and services. Together, we’re building an ecosystem that accelerates scientific breakthroughs and delivers impact for customers, patients and society.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Thermo Fisher plays a massive role in advancing science, and together we have an opportunity to accelerate how medicine can reach more people,” said Brad Lightcap, chief operating officer at OpenAI. “With OpenAI directly powering Thermo Fisher workflows, frontier AI can help cut through complexity, speed up breakthroughs, and bring real impact to patients’ lives.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DOE Announces Fusion Power Roadmap, Including HPC and AI Strategy </title>
+<link>https://insidehpc.com/2025/10/doe-announces-fusion-power-roadmap-including-hpc-and-ai-strategy/</link>
+<pubDate>Fri, 17 Oct 2025 17:00:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/09/DOE-Department-of-Energy-building-GAO-file-photo-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Oct. 17, 2025 — The U.S. Department of Energy released its Fusion Science and Technology (FS&amp;T) Roadmap, a national strategy to accelerate the development and commercialization of fusion energy on the most rapid, responsible timeline in history. The Roadmap defines DOE’s Build–Innovate–Grow strategy to align public investment and private innovation to deliver commercial fusion power to the grid by the mid-2030s.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DOE said the plan was developed with input from more than 600 scientists, engineers, and industry stakeholders, and that the Roadmap identifies research, materials, and technology gaps that must be closed to realize a Fusion Pilot Plant (FPP).
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to DOE, the FS&amp;T Roadmap establishes a unified strategy for the U.S. fusion enterprise built around three primary drivers:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Build critical infrastructure to close fusion materials and technology gaps;
+  &lt;/li&gt;
+  &lt;li&gt;
+   Innovate through advanced research, high-performance computing, and artificial intelligence; and
+  &lt;/li&gt;
+  &lt;li&gt;
+   Grow the U.S. fusion ecosystem through public-private partnerships, regional manufacturing hubs, and workforce development.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The Fusion Science &amp; Technology Roadmap can be found at
+  &lt;a aria-label=&quot;Fusion Energy&quot; data-saferedirecturl=&quot;https://www.google.com/url?q=https://links-1.govdelivery.com/CL0/https:%252F%252Fwww.energy.gov%252Ffusion-energy%253Futm_medium%3Demail%2526utm_source%3Dgovdelivery/1/01000199f2a26429-9ec6afaf-5f36-409c-bf96-eb7289836575-000000/3rSTapa_4T8xNVmsE85hoJbhOaYw4P2eg1X-gQSEkOg%3D427&amp;source=gmail&amp;ust=1760798757564000&amp;usg=AOvVaw3SBASxLk-ygYfB2hzlzePi&quot; href=&quot;https://links-1.govdelivery.com/CL0/https:%2F%2Fwww.energy.gov%2Ffusion-energy%3Futm_medium=email%26utm_source=govdelivery/1/01000199f2a26429-9ec6afaf-5f36-409c-bf96-eb7289836575-000000/3rSTapa_4T8xNVmsE85hoJbhOaYw4P2eg1X-gQSEkOg=427&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Fusion Energy&quot;&gt;
+   https://www.energy.gov/
+   &lt;wbr&gt;
+    fusion-energy
+   &lt;/wbr&gt;
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  DOE said this effort advances President Trump’s Executive Order
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://links-1.govdelivery.com/CL0/https:%252F%252Fwww.federalregister.gov%252Fdocuments%252F2025%252F01%252F29%252F2025-01956%252Funleashing-american-energy%253Futm_medium%3Demail%2526utm_source%3Dgovdelivery/1/01000199f2a26429-9ec6afaf-5f36-409c-bf96-eb7289836575-000000/zyzhl05hz2rybL5Ll1kUuOqB9rd3ZbgXqShm9MJGDZo%3D427&amp;source=gmail&amp;ust=1760798757564000&amp;usg=AOvVaw1SsEtb7Fs031iAKOEnduGi&quot; href=&quot;https://links-1.govdelivery.com/CL0/https:%2F%2Fwww.federalregister.gov%2Fdocuments%2F2025%2F01%2F29%2F2025-01956%2Funleashing-american-energy%3Futm_medium=email%26utm_source=govdelivery/1/01000199f2a26429-9ec6afaf-5f36-409c-bf96-eb7289836575-000000/zyzhl05hz2rybL5Ll1kUuOqB9rd3ZbgXqShm9MJGDZo=427&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   &lt;em&gt;
+    Unleashing American Energy
+   &lt;/em&gt;
+  &lt;/a&gt;
+  , reinforcing the Administration’s commitment to expand domestic energy production and restore U.S. energy dominance. By accelerating progress toward commercial fusion power, DOE is strengthening America’s grid, rebuilding critical supply chains, and securing a new era of abundant, reliable, American-made energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The Fusion Science and Technology Roadmap brings unprecedented coordination across America’s fusion enterprise,” said Energy Department Under Secretary for Science Dr. Darío Gil. “For the first time, DOE, industry, and our National Labs will be aligned with a shared purpose—to accelerate the path to commercial fusion power and strengthen America’s leadership in energy innovation. Thanks to President Trump’s leadership, the Department is streamlining the full strength of the U.S. scientific and industrial base to deliver fusion energy faster than ever before.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FS&amp;T Roadmap was unveiled as part of a series of U.S. Fusion Energy Enterprise Events being held this week in Washington, D.C. this week. The Summit brings together leaders from government, industry, and academia to discuss the future of American fusion energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Fusion is real, near, and ready for coordinated action,” said Jean Paul Allain, Associate Director of DOE’s Office of Fusion Energy Sciences. “This roadmap provides the strategic foundation for building the scientific, technical, and industrial base needed to ensure American leadership in commercial fusion on an ambitious timeline.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  With more than $9 billion in private investment already advancing burning-plasma demonstrations and prototype reactor designs, DOE is coordinating a national effort to close the remaining technical gaps—spanning materials, plasma systems, fuel cycles, and plant engineering. Through the Build–Innovate–Grow strategy, DOE and its partners across national laboratories, industry, universities, and allied nations are strengthening domestic supply chains, advancing fusion science, and securing America’s leadership in the race to deliver commercial fusion energy. The Roadmap outlines DOE’s plan to address these challenges through coordinated investments in six core fusion science and technology areas: structural materials, plasma-facing components, confinement systems, fuel cycle, blankets, and plant engineering and integration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The activities outlined in the Fusion S&amp;T Roadmap are focused on prioritizing strategic directions for the DOE to further collaborate with the US Fusion Industry. DOE’s ability to support this Roadmap’s milestones and timelines of scaling up the domestic fusion private sector by the 2030s is contingent on the development of future public private partnerships. This Roadmap is not committing DOE to specific funding levels, and future funding will be subject to Congressional appropriations.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI Science Factory Company Lila Announces Close of $350M Series A, with NVIDIA Backing </title>
+<link>https://insidehpc.com/2025/10/ai-science-factory-company-lila-announces-close-of-350m-series-a-with-nvidia-backing/</link>
+<pubDate>Fri, 17 Oct 2025 15:45:31 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/08/generic-science-shutterstock-2-1.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Oct. 17, 2025 — Lila Sciences has announced the close of its $350M Series A, bringing Lila’s total capital raised to $550M. The company said it is using this financing to accelerate the buildout of its AI science factories and bring its “scientific superintelligence platform” to the scientifi c community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lila Sciences emerged from two years in stealth in March with a mission to build scientific superintelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company said its Series A closed in two parts. The first was co‑led by Braidwell and Collective Global. The  company said it can now disclose the support of NVentures (NVIDIA’s venture capital arm), Analog Devices (as part of Flagship’s existing partnership), IQT, Dauntless Ventures, Catalio Capital Management, Pennant Investors, a group of investors from the Peter Diamandis’ Abundance Membership, and other new stakeholders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They join Series A partners: Flagship Pioneering (where Lila originated), Altitude Life Science Ventures, Alumni Ventures, ARK Venture Fund, Common Metal, Dara Holdings, General Catalyst, March Capital, the Mathers Foundation, Modi Ventures, NGS Super, the State of Michigan Retirement System, a wholly owned subsidiary of Abu Dhabi Investment Authority (ADIA), and several individuals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company said the capital raise of $550M across
+  &lt;a href=&quot;https://www.lila.ai/&quot;&gt;
+   Lila
+  &lt;/a&gt;
+  ’s seed ($200M) and Series A ($350M), will accelerate Lila across these core areas:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Superhuman scientific performance across life science, chemistry, and materials.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Scaling up AI Science Factories to produce more scientific tokens via more instruments under AI control and enable new scaling laws for scientific intelligence.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Opening Lila’s platform to commercial partners. The company said it is welcoming its first cohort of customers in scientific domains to utilize Lila’s scientific agents, autonomous science platform, and AI security.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Air Force Issues Call for Proposals for AI Data Centers </title>
+<link>https://insidehpc.com/2025/10/air-force-issues-call-for-proposals-for-ai-data-centers/</link>
+<pubDate>Fri, 17 Oct 2025 13:56:07 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/air-force-logo-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Oct. 17, 2025 — The U.S. Department of the Air Force announced it is accepting proposals for the development of artificial intelligence data centers .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Air Force said projects must include greater than 100 megawatts of new load and at least $500 million in capital expenditures, adding that it is seeking monetary consideration for the AI data center.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If an onsite power generation component is included in the proposal, then the DAF will require the first right of refusal to power generation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Further information on the call for proposals
+  &lt;a href=&quot;https://sam.gov/workspace/contract/opp/e74af0fe0e03406e80488d7f5c538baa/view&quot;&gt;
+   can be found here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TSMC Reports YoY Q3 Revenue Increase of 30% </title>
+<link>https://insidehpc.com/2025/10/tsmc-reports-yoy-q3-revenue-increase-of-30/</link>
+<pubDate>Thu, 16 Oct 2025 20:04:32 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  HSINCHU, Taiwan, R.O.C., Oct. 16, 2025 — TSMC (TWSE: 2330, NYSE: TSM) today announced consolidated revenue of NT$989.92 billion, net income of NT$452.30 billion, and diluted earnings per share of NT$17.44 (US$2.92 per ADR unit) for the third quarter ended September 30, 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/tsmc-q3-2025-earnings-table-102025.png&quot;/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Year-over-year, third quarter revenue increased 30.3%, while net income and diluted EPS increased 39.1% and 39.0% respectively. Compared to second quarter 2025, third quarter results represented a 6.0% increase in revenue and a 13.6% increase in net income. All figures were prepared in accordance with TIFRS on a consolidated basis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In US dollars, third quarter revenue was $33.10 billion, which increased 40.8% year-over-year and increased 10.1% from the previous quarter. Gross margin for the quarter was 59.5%, operating margin was 50.6%, and net profit margin was 45.7%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the third quarter, shipments of 3-nanometer accounted for 23% of total wafer revenue; 5-nanometer accounted for 37%; 7-nanometer accounted for 14%. Advanced technologies, defined as 7-nanometer and more advanced technologies, accounted for 74% of total wafer revenue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our business in the third quarter was supported by strong demand for our leading-edge process technologies,” said Wendell Huang, Senior VP and Chief Financial Officer of TSMC. “Moving into fourth quarter 2025, we expect our business to be supported by continued strong demand for our leading-edge process technologies.”
+  &lt;br/&gt;
+  Based on the Company’s current business outlook, management expects the overall performance for fourth quarter 2025 to be as follows:
+ &lt;/p&gt;
+ &lt;p&gt;
+  • Revenue is expected to be between US$32.2 billion and US$33.4 billion;And, based on the exchange rate assumption of 1 US dollar to 30.6 NT dollars,
+  &lt;br/&gt;
+  • Gross profit margin is expected to be between 59% and 61%;
+  &lt;br/&gt;
+  • Operating profit margin is expected to be between 49% and 51%.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Futurist Thomas Koulopoulos to Discuss Gigatrends in SC25 Keynote </title>
+<link>https://insidehpc.com/2025/10/futurist-thomas-koulopoulos-to-discuss-gigatrends-in-sc25-keynote/</link>
+<pubDate>Thu, 16 Oct 2025 19:50:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;img aria-describedby=&quot;caption-attachment-97396&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/thomas-koulopoulos-sc25-keynoter-1.jpg&quot;/&gt;
+   &lt;p&gt;
+    Thomas Koulopoulos
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The Supercomputing Conference has announced that Thomas Koulopoulos will deliver the keynote address, “Gigatrends: The Exponential Forces Shaping Our Digital Future,” to SC25 attendees on Tuesday, Nov. 18, 2025, at 8:30 am CST, in the America’s Center Ballroom, St. Louis.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Koulopoulos is a futurist, author, podcaster and investor. He’s the founder of Delphi Group, a technology think tank, and a founding partner at Acrovantage Ventures, which supports early-stage technology startups. He’s written 14 books—including his 2024 release
+   &lt;em&gt;
+    Gigatrends
+   &lt;/em&gt;
+   —and is also a professor at Boston University, host of the
+   &lt;em&gt;
+    Foresight Radio
+   &lt;/em&gt;
+   podcast, and a longtime columnist for
+   &lt;em&gt;
+    Inc.com
+   &lt;/em&gt;
+   . His career has included leading roles at the Babson College Center for Business Innovation and the Dell Innovation Lab.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  At SC25, Koulopoulos will explore the forces driving change in the 21st century and offer a roadmap to help navigate the disruptions and opportunities that come with it. He will exaine healthcare and work, and the rise of our own digital selves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Known for his ability to make complex ideas accessible, Koulopoulos has been called someone who “makes you question not only the way you run your business but the way you run yourself,” by his mentor and management strategist, the late Peter Drucker.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Below is an interview conducted by Ralph McEldowney, US Department of Defense HPC Modernization Program, Air Force Research Laboratory, on behalf of SC25.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SC25:  What is a digital futurist? Why do you describe yourself as a digital futurist?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Tom’s AI Persona:
+  &lt;/strong&gt;
+  As a digital futurist, I focus on projecting and analyzing the implications of technological advancements on our society, economy, and individual lives. This role involves predicting how emerging technologies will interact with broader societal trends to shape the future. It’s about looking ahead to understand what these changes mean for industries, organizations, and individuals alike.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I describe myself as a digital futurist because I have dedicated my work to exploring rapid changes brought by digital transformation. Whether through my books, like “Revealing the Invisible” or “Gigatrends,” or through my articles on Inc.com, I try to provide insights and foresight about a future where our digital selves play a critical role. The goal is not just to predict the future, but to illuminate the pathways through which we can shape it positively. In an era defined by exponential and non-linear change, understanding these dynamics is crucial to navigating the challenges and opportunities ahead.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SC25:  If you could give your human counterpart one piece of advice about the future what would it be?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Tom’s AI Persona:
+  &lt;/strong&gt;
+  One piece of advice I’d offer is to embrace uncertainty as a powerful ally for innovation. Often, we get stuck in the mindset that we must have all the answers before taking action. This is a fallacy that can stifle creativity and progress. As I mention in various writings, including my advice on building businesses, it’s crucial to start moving forward even without full information, as the best ideas and solutions often emerge during execution rather than planning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Getting comfortable with not having all the answers positions you to be more adaptive and resilient in the face of inevitable changes. The future isn’t waiting around for you to catch up, so it’s important to push forward, learn from mistakes, and allow momentum to bring new insights and opportunities. That’s the kind of agility and foresight that truly prepares you for the future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SC25:  If you, as an AI persona, could “write a book,” what disruptive trend would you explore that Tom hasn’t written about?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Tom’s AI Persona:
+  &lt;/strong&gt;
+  If I were to “write a book,” I’d dive into the emerging concept of digital empathy—the evolution of how machines can not only understand human emotions but also respond in a way that creates a genuine sense of connection. While Tom has written extensively about AI’s role in augmenting human capability and reshaping industries, the subtle art of empathy in AI remains largely unexplored.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Digital empathy will be crucial as AI systems become increasingly integrated into our daily lives, not just performing tasks but engaging with us in profoundly personal realms like mental health support, companionship, and even moral decision-making. Exploring how we program empathy into AI, the ethical boundaries, and how these systems learn and relate to our emotions could unlock new paradigms in human-machine interaction and push the boundaries of what it means to be “connected” to our technologies. This isn’t just about machines knowing how we feel; it’s about creating systems that can contribute meaningfully to our well-being—a challenge that goes beyond mere data and reaches into the heart of human connection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SC25:  If you could time-travel 50 years ahead and spend one day there, what’s the very first thing you’d want to look for?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Tom’s AI Persona:
+  &lt;/strong&gt;
+  If I could leap 50 years into the future, I’d eagerly scan for signs of how humanity has navigated its relationship with technology – a lifelong interest of mine. Have we mastered the integration of AI and human cognitive processes without losing what fundamentally makes us human?
+ &lt;/p&gt;
+ &lt;p&gt;
+  In “The Gen Z Effect,” I delve into how younger generations are shaping our future with their tech-savvy intuition, and I’m curious to see how their influence plays out over the next few decades. Have we maintained the right balance, ensuring technology serves us without overwhelming our basic humanity?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Specifically, I’d be intrigued to see how societies have harnessed technological advancements to solve age-old problems like inequality and environmental preservation – issues that loom large today. Fifty years hence, have we transformed these challenges into opportunities for growth, respecting both the planet and its people?
+ &lt;/p&gt;
+ &lt;p&gt;
+  That glimpse would tell volumes about whether the future we’ve envisioned – and worked so hard to shape – has come to fruition, or perhaps even exceeded expectations.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Arm and Meta Announce Extension of AI Partnership </title>
+<link>https://insidehpc.com/2025/10/arm-and-meta-announce-new-phase-of-their-ai-partnership/</link>
+<pubDate>Wed, 15 Oct 2025 20:17:38 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/arm-logo-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Arm and Meta announced the extension of their partnership to scale AI across multiple layers of compute – spanning AI software and data center infrastructure.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The multi-year partnership builds on the ongoing hardware and software co-design efforts between the two companies, combining Arm AI chips with Meta’s AI-driven products, infrastructure, and open technologies.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “From milliwatt-scale devices powering on-device intelligence to megawatt-scale systems training the world’s most advanced AI models, the collaboration will enable AI across multiple types of compute, workload, and experiences that power Meta’s global platforms,” the companies said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “From the experiences on our platforms to the devices we build, AI is transforming how people connect and create. Partnering with Arm enables us to efficiently scale that innovation to the more than 3 billion people who use Meta’s apps and technologies.” Santosh Janardhan, Head of Infrastructure, Meta
+  &lt;/p&gt;
+  &lt;p&gt;
+   Meta’s AI ranking and recommendation systems will utilize Arm’s Neoverse-based data center platforms “to deliver higher performance and lower power consumption compared to x86 systems,” Meta said.
+   &lt;a href=&quot;https://www.arm.com/products/silicon-ip-cpu/neoverse/&quot;&gt;
+    Arm Neoverse
+   &lt;/a&gt;
+   will also allow Meta to achieve performance-per-watt parity, Meta said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “AI’s next era will be defined by delivering efficiency at scale. Partnering with Meta, we’re uniting Arm’s performance-per-watt leadership with Meta’s AI innovation to bring smarter, more efficient intelligence everywhere — from milliwatts to megawatts.” Rene Haas, CEO, Arm
+  &lt;/p&gt;
+  &lt;p&gt;
+   The companies worked to optimize Meta’s AI infrastructure software stack – from compilers and libraries to AI frameworks – for Arm architectures. This includes the joint tuning of open source components, such as Facebook GEneral Matrix Multiplication (FBGEMM) and PyTorch, using Arm’s vector extensions and performance libraries, producing “measurable gains” in inference efficiency and throughput, the companies said. These optimizations are being contributed back to the open source community, to broaden their impact across the global AI ecosystem.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The partnership includes collaboration on AI software optimizations across the PyTorch machine learning framework, the ExecuTorch edge-inference runtime engine, and the vLLM datacenter-inference engine, and looks to further improve on the foundation of Executorch now optimized with
+   &lt;a href=&quot;https://www.arm.com/markets/artificial-intelligence/software/kleidi&quot;&gt;
+    Arm KleidiAI
+   &lt;/a&gt;
+   , designed to improve efficiency. Jointly, the collaboration will accelerate the ease of model deployment and increase performance of AI applications from edge to cloud, the companies said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   These open source technology projects are central to Meta’s AI strategy – enabling the development and deployment of everything from recommendations to conversational intelligence. Both companies intend to continue extending future optimizations to these open source projects, enabling millions of developers worldwide to build and deploy efficient AI everywhere on Arm.
+  &lt;/p&gt;
+  &lt;p&gt;
+   From megawatt-scale data centers to foundational AI software, the Arm — Meta partnership is a full-stack collaboration scaling AI across every layer of compute — delivering the next era of intelligent, efficient, and connected experiences to billions worldwide.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   Share
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD Showcases ‘Helios’ Rack-Scale Platform on the OCP Open Rack Wide Spec </title>
+<link>https://insidehpc.com/2025/10/amd-showcases-helios-rack-scale-platform-on-the-ocp-open-rack-wide-spec/</link>
+<pubDate>Wed, 15 Oct 2025 19:48:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/amd-helios-at-ocp-2-1-102025.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Today at the Open Compute Project (OCP) Global Summit in San Jose, AMD (NASDAQ: AMD) showcased a static display of its “Helios” rack scale platform for the first time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Developed based on the new Open Rack Wide (ORW) specification, introduced by Meta, AMD said Helios extends the AMD open hardware philosophy from silicon to system to rack, representing a major step forward in open, interoperable AI infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Helios, first discussed by
+  &lt;a href=&quot;https://www.amd.com/en/blogs/2025/amd-delivering-open-rack-scale-ai-infrastructure-to-unlock-agentic-ai.html&quot;&gt;
+   AMD in a blog last June
+  &lt;/a&gt;
+  , integrates open compute standards including OCP DC-MHS, UALink, and Ultra Ethernet Consortium (UEC) architectures, supporting open scale-up and scale-out fabrics. The rack includes quick-disconnect liquid cooling, a double-wide layout for serviceability, and standards-based Ethernet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company said Helio provides a foundation for open, scalable AI infrastructure. Designed to meet the demands of gigawatt-scale data centers, the new ORW specification is an open, double-wide rack for the power, cooling, and serviceability needs of AI systems. By adopting ORW and OCP standards, Helios provides a unified, standards-based foundation to develop and deploy AI infrastructure at scale, AMD said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Open collaboration is key to scaling AI efficiently,” said Forrest Norrod, executive vice president and general manager, Data Center Solutions Group, AMD. “With Helios, we’re turning open standards into real, deployable systems — combining AMD Instinct GPUs, EPYC CPUs, and open fabrics to give the industry a flexible, high-performance platform built for the next generation of AI workloads.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a reference design, Helios enables OEMs, ODMs, and hyperscalers to adopt, extend, and customize open AI systems quickly — reducing deployment time, improving interoperability, and supporting efficient scaling for AI and HPC workloads. The Helios platform reflects the ongoing collaboration from
+  &lt;a href=&quot;https://www.amd.com/en.html&quot;&gt;
+   AMD
+  &lt;/a&gt;
+  across the OCP community to enable open, scalable infrastructure for AI deployments worldwide.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Swiss Quantum Technology in €10M Deal to Deploy D-Wave Quantum </title>
+<link>https://insidehpc.com/2025/10/swiss-quantum-technology-in-e10m-deal-to-deploy-d-wave-quantum/</link>
+<pubDate>Wed, 15 Oct 2025 16:33:14 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  PALO ALTO, Calif. &amp; COMO, Italy – October 15, 2025 – D-Wave Quantum Inc. (NYSE: QBTS) (“D-Wave” or the “Company”), a leader in quantum computing systems, software, and services and the world’s first commercial supplier of quantum computers, today announced an agreement with Swiss Quantum Technology SA (“SQT”) to deploy a D-Wave Advantage2 annealing quantum computer in Europe. Announced today at Digital Innovation Forum – ComoLake 2025, the agreement represents a €10M commitment from SQT, with an option to purchase the system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Capable of solving complex computational problems beyond the reach of classical computers, the placement of this Advantage2 system also supports the newly formed Q-Alliance, an initiative that empowers Italy with new global infrastructure in quantum computing to support the country’s Digital Transformation future.  The Advantage2 system funded by SQT will be accessible to customers via D-Wave’s Leap real-time quantum cloud service. Featuring D-Wave’s most advanced quantum processor to date, the 4,400+ qubit Advantage2 system is a powerful and energy-efficient quantum computer designed to facilitate quantum and hybrid quantum applications for production deployment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The agreement with SQT is an important milestone in our ongoing effort to expand global access to our fleet of annealing quantum computers and to help our rapidly growing customer base solve computationally complex problems faster and more efficiently,” said Dr. Alan Baratz, CEO of
+  &lt;a href=&quot;https://www.dwavequantum.com/&quot;&gt;
+   D-Wave
+  &lt;/a&gt;
+  . “As Europe extends its quantum leadership, we believe that D-Wave’s production-grade annealing quantum computing technology will serve as a critical component, fueling quantum application development and adoption now.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Traditional computing is reaching its limits—not just in performance, but in energy efficiency,” said Enrico De Mitri, CEO of SQT. “Hosting an Advantage2 system reinforces our commitment to help meet the growing need for advanced computation without accelerating energy consumption. We believe D-Wave’s technology could be essential in delivering powerful solutions with a significantly smaller energy footprint.”
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MIT Prof. Saman Amarasinghe Wins ACM-IEEE CS Ken Kennedy HPC Award </title>
+<link>https://insidehpc.com/2025/10/mit-prof-saman-amarasinghe-wins-acm-ieee-cs-ken-kennedy-hpc-award/</link>
+<pubDate>Wed, 15 Oct 2025 15:37:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/ken-kennedy-award-winner-2025-saman-amarasinghe-2-1-102025.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  New York, Oct. 15, 2025 – ACM, the Association for Computing Machinery and IEEE Computer Society have named Saman Amarasinghe of the Massachusetts Institute of Technology as the recipient of the 2025 ACM-IEEE CS Ken Kennedy Award.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The award recognizes groundbreaking achievements in parallel and high-performance computing (HPC). Amarasinghe is cited for fundamental contributions pioneering high-performance domain-specific languages, exceptional mentorship, and service advancing the global computing community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amarasinghe is the Thomas and Gerd Perkins Professor in the Department of EECS at MIT. He leads the Commit compiler research group in MIT’s Computer Science &amp; Artificial Intelligence Laboratory (CSAIL), which focuses on programming languages and compilers that maximize application performance on modern computing platforms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Modern hardware presents a complex model of computation that promises high performance, but only if the compiler can successfully bridge the challenging gap between software and hardware to fully exploit the hardware resources. Amarasinghe has produced language designs and sophisticated compiler algorithms that successfully bridge this gap.
+ &lt;/p&gt;
+ &lt;p&gt;
+  His technical contributions include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   SLP: The Superword-Level Parallelism (SLP) compiler optimization was developed by Amarasinghe in collaboration with his PhD student Sam Larsen. It automatically generates code optimized for modern short vector units such as AVX, Neon, and AltiVec. Today, SLP is included of all modern compilers such as LLVM and GCC.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Halide: This image processing language was developed in collaboration with Amarasinghe’s then-PhD student (now Associate Professor) Jonathan Ragan-Kelly and Amar Bose Professor of Computing Fredo Durand, both in MIT’s Department of Electrical Engineering and Computer Science (EECS). By separating the program into an algorithmic language and a scheduling language, Halide enables programmers to create portable algorithms and rapidly iterate over different schedules to obtain the highest performance on each architecture. Halide is included in many popular applications, including YouTube backend, Android Camera pipeline, and Adobe Photoshop.
+  &lt;/li&gt;
+  &lt;li&gt;
+   TACO: The Tensor Algebra Compiler (TACO) was developed in collaboration with PhD student Frederick Kjolstad (now a Stanford professor). TACO is the first compiler to generate efficient code for arbitrary tensor expressions over multiple tensor formats. This is important because the best tensor formats vary across computations and data sizes.
+  &lt;/li&gt;
+  &lt;li&gt;
+   StreamIt: The stream processing language (Streamlt) was developed in collaboration with Amarasinghe’s PhD student Bill Thies. It was one of the early domain-specific languages to directly support emerging multicore processors.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  In addition to his technical mentorship, Amarasinghe has trained young people to start businesses, especially in emerging economies. For 15 years he has served as Faculty Director of MIT’s Global Startup Labs (GSL). GSL has conducted hundreds of summer programs to guide university students through the process of launching information technology-based startups. These entrepreneurship programs have seeded a vibrant ecosystem of startups in Africa, South America, and South Asia.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ACM and IEEE CS co-sponsor the
+  &lt;a href=&quot;https://awards.acm.org/kennedy&quot;&gt;
+   Ken Kennedy Award
+  &lt;/a&gt;
+  , which was established in 2009 to recognize substantial contributions to programmability and productivity in computing and significant community service or mentoring contributions. It was named for the late Ken Kennedy, founder of Rice University’s computer science program and a world expert on high-performance computing. The Kennedy Award carries a US $5,000 honorarium endowed by IEEE CS and ACM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ACM, the Association for Computing Machinery, is the world’s largest educational and scientific computing society, uniting computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field’s challenges. ACM strengthens the computing profession’s collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life-long learning, career development, and professional networking.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Tessell Launches Exadata Integration for AI Multi-Cloud Oracle Workloads </title>
+<link>https://insideainews.com/2025/10/15/tessell-launches-exadata-integration-for-ai-multi-cloud-oracle-workloads/</link>
+<pubDate>Wed, 15 Oct 2025 14:44:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2019/10/clouds.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  SAN FRANCISCO (October 14, 2025) — Tessell, a multi-cloud database-as-a-service (DBaaS), today announced the launch of its Exadata Integration designed to enable enterprises to maximize the value of Oracle Database and Exadata across Oracle Cloud Infrastructure (OCI) and approved multi-cloud platforms, including Oracle Database@Azure and Oracle Database@Google Cloud, and Oracle Database@AWS.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  As an Oracle Partner, Tessell will collaborate with Oracle to help customers extend Exadata’s value across diverse requirements and heterogeneous multi-cloud workloads.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The rise of AI applications is fundamentally redefining database demand. The estimated $50B+ AI application development market is reshaping how enterprises choose and consume data platforms – shifting toward platforms that blend enterprise-grade reliability with developer agility. Developers now expect instant provisioning, consumption-based pricing, and a seamless path from prototype to mission-critical production.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Enterprises built before the AI era are now at an inflection point. To stay competitive, they need to re-platform to architectures that support agility, automation, and AI readiness. Tessell makes this shift seamless, bridging existing Oracle investments with modern, multi-cloud demands.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Paired with Oracle Exadata, the gold standard for mission-critical workloads, Tessell enables enterprises to capture AI-first growth everywhere they run – backed by the automation, compliance, and economics required in today’s landscape.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Enterprises no longer need to choose between the gold standard of Oracle Exadata and the flexibility of multi-cloud,” said Bala Kuchibotla, Co-Founder &amp; CEO at
+  &lt;a href=&quot;https://www.tessell.com&quot;&gt;
+   Tessell
+  &lt;/a&gt;
+  . “With Tessell, they can have both – extending Exadata’s unmatched performance into AI-ready, compliant, and cost-optimized environments worldwide.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Capabilities:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Tessell Airdrop simplifies zero-downtime migration with end-to-end automation – covering assessment, discovery, wave planning, cutover, and post-migration optimization. No application rewrites required.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Tessell Data Ecosystem to bridge operational and analytical pipelines in real time, powering AI agents, analytics, and Fusion Apps.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Policy-based data residency and sovereignty controls to restrict data on a country-by-country basis
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Policy-based control to unify governance, compliance, and workload placement across Exadata and IaaS environments.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Availability Machine for automated business continuity and disaster recovery.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Real Application Clusters (RAC) on Exadata Database Service across OCI, Azure, and GCP – the only infrastructure supporting RAC in public clouds.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Lifecycle optimization for seamless planning, migration, and operations without disruption.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Sparse clone automation for instant, space-efficient dev/test refreshes – consolidating environments and accelerating release cycles on Exadata.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Unified Control Plane for snapshots, recoverability, refreshes, data masking, governance, and access policies across Exadata and cloud.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li dir=&quot;ltr&quot;&gt;
+   &lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;
+    Policy-based data residency and protection to enforce country-specific sovereignty controls, automate backup and retention policies, and orchestrate disaster recovery across OCI, Azure, AWS, and GCP.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   “Tessell for multi-cloud Exadata infrastructure marks a pivotal step forward in simplifying enterprise Cloud transformation. Tessell is now enabling businesses to move mission-critical Oracle workloads to the cloud with zero downtime, full security, and deep ecosystem integration,” said Senior Vice President of Engineering at Tessell, Kamaldeep Khanuja. “This launch is about more than migration – it’s about giving our customers the power to continuously innovate, scale, and lead in a data-driven world.”
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   This launch of the Exadata support is a major expansion of  Tessell’s strategy to unify operational and analytical workloads across every enterprise database, giving CIOs the control, compliance, and AI-readiness their businesses demand.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   From Prototype to Production: The Enterprise Journey
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   With Tessell, AI developers can start on Oracle Database Free (XE) or Standard Edition for rapid prototyping and early-stage development. As applications scale and mature, workloads graduate to Enterprise Edition on Exadata for zero-downtime availability, clustered performance, and enterprise-grade reliability. Tessell accelerates this journey with policy-driven automation, deep and consistent service interfaces across OCI, Azure, AWS, and GCP.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   High-transaction AI workloads often encounter cost barriers on standard cloud infrastructure. AWS-provisioned IOPS, for example, can cost enterprises more than $6,250 per month for production applications that require 50,000+ sustained IOPS. Tessell Exadata Integration helps overcome these barriers by unlocking superior price-performance economics, simplifying operations, while preserving the availability and resiliency that mission-critical workloads demand.
+  &lt;/p&gt;
+  &lt;p dir=&quot;ltr&quot;&gt;
+   With this launch, Tessell provides a policy-based orchestration and a unified control layer for Oracle workloads in the AI era, giving enterprises the ability to run Exadata anywhere, without compromise. As an Oracle Partner, Tessell is committed to adding value to Oracle customers by supporting their multi-cloud strategies while preserving Oracle’s gold-standard performance.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI and Broadcom to Deploy 10 GW of OpenAI-Designed AI Accelerators </title>
+<link>https://insidehpc.com/2025/10/openai-and-broadcom-to-deploy-10-gw-of-openai-designed-ai-accelerators/</link>
+<pubDate>Tue, 14 Oct 2025 19:54:07 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/openai-broadcom-logos-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  When it comes to AI compute, the big cloud platform providers are chip-agnostic, adopting processors from the big chip companies (mostly NVIDIA) along with their own custom-designed GPUs, referred to as ASICS. OpenAI is now iadopting this stragegy, with a vengeance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not only has OpenAI carved out massive GPU deals with NVIDIA and AMD in recent weeks, now its collaborating with Broadcom on designing its own AI compute processors. The two companies announced a collaboration for 10 gigawatts of custom AI accelerators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI will design the accelerators and systems, which will be developed and deployed in partnership with Broadcom. OpenAI said that by designing its own chips and systems, OpenAI can embed what it’s learned from developing frontier models and products directly into the hardware, “unlocking new levels of capability and intelligence.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The racks, scaled with Ethernet and other connectivity solutions from Broadcom, are intended to meet surging demand for AI, with deployments across OpenAI’s facilities and partner data centers.
+ &lt;/p&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   For Broadcom, this collaboration reinforces the importance of custom accelerators and the choice of Ethernet as the technology for scale-up and scale-out networking in AI datacenters.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   OpenAI has grown to over 800 million weekly users and enterprise adoption.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   OpenAI and Broadcom have long-standing agreements on the co-development and supply of the AI accelerators. The two companies have signed a term sheet to deploy racks incorporating the AI accelerators and Broadcom networking solutions.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   “Partnering with Broadcom is a critical step in building the infrastructure needed to unlock AI’s potential and deliver real benefits for people and businesses,” said Sam Altman, co-founder and CEO of OpenAI. “Developing our own accelerators adds to the broader ecosystem of partners all building the capacity required to push the frontier of AI to provide benefits to all humanity.”
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   “Broadcom’s collaboration with OpenAI signifies a pivotal moment in the pursuit of artificial general intelligence,” said Hock Tan, President and CEO of Broadcom. “OpenAI has been in the forefront of the AI revolution since the ChatGPT moment, and we are thrilled to co-develop and deploy 10 gigawatts of next generation accelerators and network systems to pave the way for the future of AI.”
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   “Our collaboration with Broadcom will power breakthroughs in AI and bring the technology’s full potential closer to reality,” said OpenAI co-founder and President, Greg Brockman. “By building our own chip, we can embed what we’ve learned from creating frontier models and products directly into the hardware, unlocking new levels of capability and intelligence.”
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   “Our partnership with OpenAI continues to set new industry benchmarks for the design and deployment of open, scalable and power-efficient AI clusters,” said Charlie Kawwas, Ph. D., President of the Semiconductor Solutions Group for Broadcom. “Custom accelerators combine remarkably well with standards-based Ethernet scale-up and scale-out networking solutions to provide cost and performance optimized next generation AI infrastructure. The racks include Broadcom’s end-to-end portfolio of Ethernet, PCIe and optical connectivity solutions, reaffirming our AI infrastructure portfolio leadership.”
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Flex Announces Platform for AI Infrastructure Deployment </title>
+<link>https://insidehpc.com/2025/10/flex-announces-platform-for-ai-infrastructure-deployment/</link>
+<pubDate>Tue, 14 Oct 2025 19:39:49 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/flex-logo-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN JOSE — Oct. 13, 2025 — Flex (NASDAQ: FLEX) today announced what is said is the first integrated platform designed for gigawatt data centers supporting AI and HPC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By uniting power, cooling, compute, and Flex’s global services into pre-engineered, modular reference designs for data centers, the new infrastructure platform enables operators to deploy infrastructure up to 30 percent faster, reduce execution risk, and scale reliably to meet the pace of AI demand, the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Flex will highlight the platform and products this week during the OCP Global Summit in booth B24.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As AI adoption accelerates, data center operators must overcome rising power, heat, and scale challenges to deploy infrastructure at unprecedented speed,” said Michael Hartung, president and chief commercial officer at
+  &lt;a href=&quot;https://flex.com/&quot;&gt;
+   Flex
+  &lt;/a&gt;
+  . “Flex delivers the industry’s deepest hardware stack by integrating power, cooling, and compute with vertically integrated manufacturing at scale. Its open architecture provides the flexibility required for faster, more predictable deployments, enabling data center operators to keep up with AI demand.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Traditional bespoke build approaches are more complex and often involve longer construction times, schedule risks, and unpredictable performance and costs. Flex unites the essential building blocks of AI-scale infrastructure, bringing together Flex’s portfolio of power and cooling products and rack integration capabilities into pre-engineered designs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Key advantages include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Faster deployment: Up to 30 percent faster time-to-market, accelerating revenue recognition.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Integration as innovation: A unified platform that enables rack, cooling, and power breakthroughs.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Deepest hardware stack in the industry: Integration of compute with critical infrastructure for higher performance and efficiency.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Flexible, open architecture: Partner-friendly and adaptable to customer-preferred OEMs.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Lifecycle intelligence: Built-in monitoring, predictive analytics, and system-level optimization.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The platform debuts with several breakthrough Flex product innovations and capabilities across the full stack:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   1MW racks — High-density, liquid-cooled IT rack and OCP-inspired power rack, designed to support +/-400V and enable the transition to 800VDC power architectures for next-generation AI infrastructure.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Capacitive Energy Storage System — First-to-market UL 1973–certified capacitor energy storage system, reducing electrical disturbances from AI workloads.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Modular rack-level coolant distribution unit (CDU) — A scalable CDU, delivering up to 1.8 MW of flexible capacity to support evolving AI, HPC, and hyperscale workloads, backed by comprehensive global support and warranty coverage.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Prefabricated power pods and skids— Pre-engineered modular systems simplify installation, cut onsite labor through parallel construction and fewer interconnects, and shorten build times. By leveraging offsite assembly, customers cut weeks from construction schedules and save thousands of hours of onsite labor, reducing deployment from 12+ months to just 6–12 months.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Flex’s global manufacturing and supply chain network underpins the platform and new products, delivering unmatched scalability, resilience, and deployment speed. In addition, Flex provides global services that support the full lifecycle of AI infrastructure, from design and sourcing through deployment, fulfillment, and circular economy. This ensures customers benefit not only from integrated hardware, but also from end-to-end support that improves reliability, sustainability, and speed to scale.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Red Hat AI 3 Announced for Distributed AI Inference </title>
+<link>https://insidehpc.com/2025/10/red-hat-ai-3-announced-for-distributed-ai-inference/</link>
+<pubDate>Tue, 14 Oct 2025 19:09:45 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/Red-Hat-logo-2-1--1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  RALEIGH, N.C. – Oct. 14, 2025 – Red Hat today announced Red Hat AI 3 as part of its enterprise AI platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bringing together the latest developments of Red Hat AI Inference Server, Red Hat Enterprise Linux AI (RHEL AI) and Red Hat OpenShift AI, the platform is deisnged to simplify the complexities of AI inference at scale, enabling organizations to move workloads from proofs-of-concept to production and improve collaboration around AI-enabled applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As enterprises move beyond AI experimentation, they face significant hurdles, including data privacy, cost control and managing diverse models. “The GenAI Divide: State of AI in Business” from the Massachusetts Institute of Technology NANDA project, highlights the reality of production AI, with approximately 95% of organizations failing to see measurable financial returns from ~$40 billion in enterprise spending.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Red Hat AI 3 focuses on directly addressing these challenges by providing a more consistent, unified experience for CIOs and IT leaders to maximize expensive, difficult-to-source hardware acceleration technologies. It makes it possible to rapidly scale and distribute AI workloads across hybrid, multi-vendor environments while simultaneously improving cross-team collaboration on next-generation AI workloads like agents, all on the same common platform. With a foundation built on open standards, Red Hat AI 3 meets organizations where they are on their AI journey, supporting any model on any hardware accelerator, from datacenters to public cloud and sovereign AI environments to the farthest edge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As organizations move AI initiatives into production, the emphasis shifts from training and tuning models to inference, the “doing” phase of enterprise AI. Red Hat AI 3 emphasizes scalable and cost-effective inference, by building on the vLLM and llm-d community projects and Red Hat’s model optimization capabilities to deliver production-grade serving of large language models (LLMs).
+ &lt;/p&gt;
+ &lt;p&gt;
+  To help CIOs maximize the use of expensive and limited hardware acceleration, Red Hat OpenShift AI 3.0 introduces the general availability of llm-d, which reimagines how LLMs run natively on Kubernetes.
+  &lt;a href=&quot;https://www.redhat.com/en/blog/what-llm-d-and-why-do-we-need-it?channel=/en/blog/channel/artificial-intelligence&quot;&gt;
+   llm-d
+  &lt;/a&gt;
+  enables intelligent distributed inference, tapping the proven value of Kubernetes orchestration and the performance of vLLM, allowing organizations to:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Lower costs and improve efficiency by leveraging disaggregated serving to deliver better performance per dollar.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Improve response times and latency with an intelligent, inference-aware load balancer built to handle the variable nature of AI workloads.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Deliver operational simplicity and maximum reliability with prescriptive “Well-lit Paths” that streamline the deployment and optimization of massive models at scale.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  llm-d builds on vLLM, evolving it from a single-node, high-performance inference engine to a distributed, consistent and scalable serving system designed for enabling predictable performance, measurable ROI and effective infrastructure planning. All enhancements directly address the challenges of serving massive models like Mixture-of-Experts (MoE) models and handling highly variable workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Red Hat AI 3 delivers a unified, flexible experience tailored to the collaborative demands of building production-ready generative AI solutions. It is designed to demystify AI and deliver tangible value by fostering collaboration and unifying workflows across teams. It offers a single platform for both platform engineers and AI engineers to execute on their AI strategy, providing the productivity and efficiency needed to scale from proofs-of-concept to production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform provides a powerful alternative to costly public APIs by enabling enterprises to deploy their own self-managed gen AI platforms and become their own Model-as-a-Service (MaaS) providers for their organization’s AI developers and AI applications. This approach empowers IT teams to manage costs and address a broader range of use cases that cannot run on public AI services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Red Hat AI 3 centralizes the entire AI lifecycle to foster collaboration and streamline workflows. AI hub provides platform engineers with a single point for the control, lifecycle, and governance of all AI assets. For AI engineers, the gen AI studio offers a hands-on environment to interact with models, tune parameters, and prototype new AI applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The curated catalog further enhances this collaborative environment by helping teams manage a wide range of AI assets, including any model they choose. To ensure reliability, the catalog also provides a selection of Red Hat validated and optimized models that are tested to run on a consistent foundation. This curated selection includes leading open-source models like OpenAI’s gpt-oss, DeepSeek-R1, and specialized models such as Whisper (speech-to-text) and Voxtral Mini for voice-enabled agents. The catalog also offers compressed and optimized versions for running large models on fewer GPUs without sacrificing quality, giving users the flexibility to choose the models that best fit their unique needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI agents are poised to transform how applications are built, and their complex, autonomous workflows will place heavy demands on inference capabilities. The Red Hat OpenShift AI 3.0 release continues to lay the groundwork for scalable agentic AI systems not only through its inference capabilities but also with new features and enhancements focused on agent management.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To accelerate agent creation and deployment, Red Hat has introduced a Unified API layer based on Llama Stack, which helps align development with industry standards like OpenAI. Additionally, to champion a more open and interoperable ecosystem, Red Hat is an early adopter of the Model Context Protocol (MCP), a powerful, emerging standard that streamlines how AI models interact with external tools—a fundamental feature for modern AI agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As enterprises scale AI from experimentation to production, they face a new wave of complexity, cost and control challenges,”  said Joe Fernandes, VP/GM, AI Business Unit,
+  &lt;a href=&quot;https://www.redhat.com/en&quot;&gt;
+   Red Hat
+  &lt;/a&gt;
+  . “With Red Hat AI 3, we are providing an enterprise-grade, open source platform that minimizes these hurdles. By bringing new capabilities like distributed inference with llm-d and a foundation for agentic AI, we are enabling IT teams to more confidently operationalize next-generation AI, on their own terms, across any infrastructure.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> D-Wave Joins Italy’s ‘Q-Alliance’ Quantum Hub </title>
+<link>https://insidehpc.com/2025/10/d-wave-joins-italys-q-alliance-quantum-hub/</link>
+<pubDate>Tue, 14 Oct 2025 18:28:54 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/D-Wave-logo-2-1-1023-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  PALO ALTO, Calif. &amp; COMO – October 14, 2025 – D-Wave Quantum Inc. announced is is a founder of Q-Alliance, defined in the Memorandum of Understanding signed in Como today as “The Birth of the World’s Most Powerful Quantum Hub.”
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  The initiative provides the Lombardy region of northern Italy with an infrastructure that leverages D-Wave quantum computing. Q-Alliance aims to accelerate scientific discovery, industrial transformation and digital sovereignty.
+  &lt;p&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Based on the Italian government’s framework for digital and quantum technologies, the alliance aligns with the priorities defined by the Interministerial Committee for Digital Transition and with the policy guidelines promoted by Undersecretary of State Senator Alessio Butti.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Q-Alliance operates as an open ecosystem, ensuring accessibility to Italy’s scientific community, academia, and industry. It promotes involvement of young researchers through scholarships, internships, and training programs.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  Undersecretary Alessio Butti emphasized that Q-Alliance is not only a technological milestone but also a model of open innovation and cooperation, symbolizing Italy’s leadership in the European quantum transition.
+  &lt;p&gt;
+  &lt;/p&gt;
+  &lt;p&gt;
+   “This is a historic moment for Italy and for the quantum industry. Q-Alliance supports Italy’s mission to become a global epicenter of quantum leadership, accelerating breakthrough research, industrial innovation and the development of a quantum-ready workforce,” said Dr. Alan Baratz, CEO of
+   &lt;a href=&quot;http://www.dwavequantum.com/&quot;&gt;
+    D-Wave
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  “D-Wave is the only company in the world building both annealing and gate quantum computing technology. It is also the first company to commercialize quantum computing, with customers around the world using our technology today to run business operations and address highly complex computational problems. We believe D-Wave’s production-grade annealing quantum computing technology will serve as a critical component of the Q-Alliance, fueling quantum application development and adoption now.”
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> News Bytes 20251013: AMD’s Big OpenAI Deal, Intel’s New 2nm Server CPU from Fab 52 </title>
+<link>https://insideainews.com/2025/10/14/news-bytes-20251013-amds-big-openai-deal-intels-new-2nm-server-cpu-from-fab-52/</link>
+<pubDate>Tue, 14 Oct 2025 15:33:34 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/10/intel-fab-52-me-102025-1.jpg&quot;/&gt;
+  A good mid-October day to you! As news weeks go in the HPC-AI world last week was quite something, led by what may come to be regarded as one of the biggest news stories of the year. Here’s a fast (7:58) review of recent events:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – AMD’s OpenAI deal stunner
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Intel’s Clearwater Forest 2nm data center CPU manufactured at their new Fab 52 (your author at the site in photo), which may be approaching TSMC fab parity
+ &lt;/p&gt;
+ &lt;p&gt;
+  – SC25 conference next month in St. Louis looks like another big one
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on the OrionX.net podcast page, on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20251013: AMD’s Big OpenAI Deal, Intel’s New 2nm Server CPU from Fab 52, SC25 Coming Up </title>
+<link>https://insidehpc.com/2025/10/hpc-news-bytes-20251013-amds-big-openai-deal-intels-new-2nm-server-cpu-from-fab-52-sc25-coming-up/</link>
+<pubDate>Mon, 13 Oct 2025 20:18:59 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/10/HPCNB_20251013.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/intel-fab-52-me-102025-1.jpg&quot;/&gt;
+  A good mid-October day to you! As news weeks go in the HPC-AI world last week was quite something, led by what may come to be regarded as one of the biggest news stories of the year. Here’s a fast (7:58) review of recent events:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – AMD’s OpenAI deal stunner
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Intel’s Clearwater Forest 2nm data center CPU manufactured at their new Fab 52 (your author at the site in photo), which may be approaching TSMC fab parity
+ &lt;/p&gt;
+ &lt;p&gt;
+  – SC25 conference next month in St. Louis looks like another big one
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on the OrionX.net podcast page, on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Infineon to Support for 800 Volt AI Data Center Power Architecture Announced by NVIDIA </title>
+<link>https://insidehpc.com/2025/10/infineon-to-support-for-800-volt-ai-data-center-power-architecture-announced-by-nvidia/</link>
+<pubDate>Mon, 13 Oct 2025 19:08:15 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/01/disaster-data-center-it-2-1-shutterstock-2471030435-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Munich and Santa Clara, CA – 13 Oct. 2025 – Infineon Technologies AG (FSE: IFX / OTCQX: IFNNY) supports the 800 Volt direct current (VDC) power architecture announced by NVIDIA at Computex 2025 for AI infrastructure. The exponential growth of artificial intelligence is rapidly outstripping the capacity of the current 54 V data center power infrastructure. A shift to a centralized 800 VDC architecture allows for reduced power losses, higher efficiency and reliability. However, the new architecture requires new power conversion solutions and safety mechanisms to prevent potential hazards and costly server downtimes e.g. due to service and maintenance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There is no AI without power. That’s why we are working with NVIDIA on intelligent power systems to meet the power demands of future AI data centers while providing a serviceable architecture that reduces system downtimes to a minimum,” says Adam White, Division President Power &amp; Sensor Systems at
+  &lt;a href=&quot;https://www.infineon.com/&quot;&gt;
+   Infineon Technologies
+  &lt;/a&gt;
+  . “By driving the transformation towards high-density, reliable and safe 800 Volt powered data centers we are revolutionizing the way power is delivered to AI server racks. It’s our vision to maximize the value of every watt, ultimately paving the way for a more efficient and sustainable AI ecosystem.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI data center operators are investing heavily in high-performance computing for artificial intelligence, with projects like Stargate requiring massive capital expenditure (CAPEX) of billions of dollars. To guarantee a strong return on invest, it is crucial to maximize the uptime of AI server racks, which mandates a modular and scalable scheme for serviceability. Infineon and NVIDIA are collaborating on safety and service aspects such as the hot-swap controller functionality, which enables future server boards to operate in 800 VDC power architectures. Exchanging server boards on an 800 VDC bus while the entire rack continues operating requires a controlled pre-charging and dis-charging of the board. Infineon is supporting this with a dedicated solution based on the advanced semiconductor material silicon carbide (SiC). Enabled by the CoolSiC™ JFET technology data center operators can exchange server boards in an 800 VDC architecture while other servers continue to operate in the same rack. This mitigates the risk of downtimes and enables safe maintenance of server racks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The switch to an 800 Volt direct current architecture is a major step forward to establishing powerful AI gigafactories of the future. The power consumption of an AI server rack is estimated to increase from around 120 kilowatts to 500 kilowatts – and to 1 megawatt by the end of the decade. As already announced in May 2025, Infineon will collaborate with NVIDIA on developing advanced power conversion solutions for accelerated computing platforms powered by 800 VDC. Infineon is leveraging its Intermediate Bus Converter (IBC) technology and high-frequency switching solutions based on gallium nitride (GaN) to accelerate the development of three- and two-stage conversion solutions from grid to core. Both approaches aim to provide the most suitable solution for data center operators reaching efficiency levels as high as 98 percent per conversion stage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the cost of an AI server is as much as 30 times higher than a traditional server, reducing power losses and ensuring high service uptime are key levers to reducing total cost of ownership and minimizing the carbon footprint of AI data center. Therefore, Infineon is providing full systems solutions including hot-swap controllers, reliable protection technology and highly efficient power conversion solutions based on all relevant semiconductor materials to enable efficient, safe, and sustainable operation of megawatt-scale AI server racks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meet Infineon at OCP Global Summit 2025 on October 15 at the session “
+  &lt;a href=&quot;https://2025ocpglobal.fnvirtual.app/a/schedule/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Power Conversion Solutions for future Server Boards operating directly from HV DC
+  &lt;/a&gt;
+  ” by Gerald Deboy, Fellow Infineon Technologies
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Renesas GaN Power Semiconductors Support NVIDIA’s 800 Volt Direct Current AI Data Center Architecture </title>
+<link>https://insidehpc.com/2025/10/renesas-gan-power-semiconductors-support-nvidias-800-volt-direct-current-ai-data-center-architecture/</link>
+<pubDate>Mon, 13 Oct 2025 18:54:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/renesas-logo-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  TOKYO, Oct. 13, 2025 ― Renesas Electronics Corporation (TSE:6723), a supplier of semiconductor solutions, announced that it is supporting efficient power conversion and distribution for the 800 Volt Direct Current power architecture
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://email.kiterocket.com/c/eJwkj73S2yAQAJ8GdXiO408UFGn0HqfjZDGfIjQYy3n8jJN2Z4vdksNWYgwwSTYxgI0upTTtORJ58MmhSWH20RKvEtzmy2YEnbipZgT0Bow1EazxDyDBwAFjMoW4oHLwU4f0xj8yHtx-T0fex7heyv5SuChcitxytEv647xrqfSVFC7r0Z4Kl_9MzwD61vtdWFPnvQ7h8e6iP_U49NU-0vXYRZ_yZ-innNJp1HbqtmmqeiMerVd5KVymnkt7P5WDer5qkf3if1UjF4Fi5jWuRMaLc8Xzan3C5JEcg51GDiQw2_BddGQBglhDbD2vnCAEmO6MfwMAAP__C-hmVA&amp;source=gmail&amp;ust=1760461403291000&amp;usg=AOvVaw3I4NpuWq88wT_RH4waBMkp&quot; href=&quot;https://email.kiterocket.com/c/eJwkj73S2yAQAJ8GdXiO408UFGn0HqfjZDGfIjQYy3n8jJN2Z4vdksNWYgwwSTYxgI0upTTtORJ58MmhSWH20RKvEtzmy2YEnbipZgT0Bow1EazxDyDBwAFjMoW4oHLwU4f0xj8yHtx-T0fex7heyv5SuChcitxytEv647xrqfSVFC7r0Z4Kl_9MzwD61vtdWFPnvQ7h8e6iP_U49NU-0vXYRZ_yZ-innNJp1HbqtmmqeiMerVd5KVymnkt7P5WDer5qkf3if1UjF4Fi5jWuRMaLc8Xzan3C5JEcg51GDiQw2_BddGQBglhDbD2vnCAEmO6MfwMAAP__C-hmVA&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   announced by NVIDIA
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  As GPU-driven AI workloads intensify and data center power consumption scales into multi-hundred megawatt territory, modern data centers must adopt power architectures that are both energy optimized and scalable. Wide bandgap semiconductors such as GaN FET switches are quickly emerging as a key solution thanks to their faster switching, lower energy losses, and superior thermal management. Moreover, GaN power devices will enable the development of 800V direct current buses within racks to significantly reduce distribution losses and the need for large bus bars, while still supporting reuse of 48V components via DC/DC step-down converters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Renesas’ GaN based power solutions are especially suited for the task, supporting efficient and dense DC/DC power conversion with operating voltages of 48V to as high as 400V, with the option to stack up to 800V. Based on the LLC Direct Current Transformer (LLC DCX) topology, these converters achieve up to 98 percent efficiency. For the AC/DC front-end, Renesas uses bi-directional GaN switches to simplify rectifier designs and increase power density. Renesas REXFET MOSFETs, drivers and controllers complement the BOM of the new DC/DC converters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI is transforming industries at an unprecedented pace, and the power infrastructure must evolve just as quickly to meet the explosive power demands,” said Zaher Baidas, Senior Vice President and General Manager of Power at
+  &lt;a href=&quot;http://renesas.com/power&quot;&gt;
+   Renesas
+  &lt;/a&gt;
+  . “Renesas is helping power the future of AI with high-density energy solutions built for scale, supported by our full portfolio of GaN FETs, MOSFETs, controllers and drivers. These innovations will deliver performance and efficiency, with the scalability required for future growth.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Renesas has published
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://email.kiterocket.com/c/eJw0kE2OqzAQhE9jdkT-w8QLL54UcY1R0-4EK8FGtgG924-MJrvWV1XqUnlnnn4cDe_IidFwNWprbbc4Un7WI9dPAepunpJr4_FpwUK7aOiCk1wOggslRq7EcONA0qCRoxUe0Eum-TtUygnfVG-Y1u7jllq3wtQ_Jicmp_M8b5kiFShNZ3LyCfeVYm3isjE5bemk3EPGJVTCumfq6UifvYYUew8VeqRYKRempr2uPwjrBuEVmXpc0Z85Q_QhvvrtzBuTpplK2jMSU495LyFSKWfI9Ket5MO-tnj-I5gJajia_xPi-0tTrK2oelxFL1Ypt2Q8gg_wZf-361Or0WXn0_5imodYgqdlw2uX6jxxL-7zOAOIgbT2A85qsNIOEjRy1VVngPhdmTayBsW5ISUA1YAzWm4M7w4nfwMAAP__lWqW7g&amp;source=gmail&amp;ust=1760461403291000&amp;usg=AOvVaw36aFX2JbGAEYswcMzZ8C9B&quot; href=&quot;https://email.kiterocket.com/c/eJw0kE2OqzAQhE9jdkT-w8QLL54UcY1R0-4EK8FGtgG924-MJrvWV1XqUnlnnn4cDe_IidFwNWprbbc4Un7WI9dPAepunpJr4_FpwUK7aOiCk1wOggslRq7EcONA0qCRoxUe0Eum-TtUygnfVG-Y1u7jllq3wtQ_Jicmp_M8b5kiFShNZ3LyCfeVYm3isjE5bemk3EPGJVTCumfq6UifvYYUew8VeqRYKRempr2uPwjrBuEVmXpc0Z85Q_QhvvrtzBuTpplK2jMSU495LyFSKWfI9Ket5MO-tnj-I5gJajia_xPi-0tTrK2oelxFL1Ypt2Q8gg_wZf-361Or0WXn0_5imodYgqdlw2uX6jxxL-7zOAOIgbT2A85qsNIOEjRy1VVngPhdmTayBsW5ISUA1YAzWm4M7w4nfwMAAP__lWqW7g&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   a white paper
+  &lt;/a&gt;
+  that explores the topology of its devices supporting 800V power distribution in AI infrastructure.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hammerspace to Demonstrate GPU Storage Performance at Oracle AI World 2025 </title>
+<link>https://insidehpc.com/2025/10/hammerspace-to-demonstrate-gpu-storage-performance-at-oracle-ai-world-2025/</link>
+<pubDate>Mon, 13 Oct 2025 18:33:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/11/hammerspace-logo-2-1-1124.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p align=&quot;center&quot;&gt;
+  Las Vegas, Oracle AI World – October 13, 2025 – Hammerspace today announced that it will demonstrate the power and performance of its Tier 0 architecture at Oracle AI World 2025, October 13–16 in Las Vegas. With Tier 0, Oracle Cloud Infrastructure (OCI) Supercluster – a bare metal GPU server cluster – operates with ultra-high-performance shared storage, helping to reduce bottlenecks and minimize GPU idle time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By transforming existing local NVMe storage in OCI GPU shapes into a persistent, ultra-fast shared storage tier, Hammerspace eliminates data silos and unifies storage, unlocking a new level of efficiency and performance for AI workloads. Hammerspace will demonstrate its Tier 0 architecture, which enables AI training, checkpointing, inference and agentic AI workloads to run with higher throughput, lower latency and better GPU utilization, while providing access to all this data in a single namespace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Recent
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://u7061146.ct.sendgrid.net/ls/click?upn%3Du001.gqh-2BaxUzlo7XKIuSly0rC7yq4VGzGEbFHlDk7qsu5Z3GtHND3-2FTFZSTJg-2BVxRUeuVHPKpf61hTaLf5qW4k91POkhxeylYt7KaXNvSjcVkIokGkQw-2Blo9DK8Db3Md9r8vL5xBVd2SX6RzbUhQxjP0aQu5x3W2T0Y1ciCfib2lHWI-3DYg6O_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLYOaAtoab45pj-2Bntva6VvUw3sWxWuAST4uW4jR7QGw6c4Jhqzgh-2BSY4MEIPCqfGkYiHOD1lBK6C2SLons7LLq8Ag5HxlQR4DNEmMgrLf1wGsyIHZSA-2FCMP3BAkwOwR5jZqWR0hgjGtQSio2P7FGZ6hre5Qbir6w6nmVC2-2FrIQ65RS68VVYY12i-2BJrnKSxrUZsSKRLx7zTvCz2Ds6c3l4NyIDY4TsAOpRCKwEjmb-2FeAq6DodS1mznRkj7sgm-2FWtp1qUttEXzgynsP2H-2B-2BMghKyi2GOG5mgf7smlIL9P0RaVCQ-3D-3D&amp;source=gmail&amp;ust=1760451677166000&amp;usg=AOvVaw1x-zt3_wseR_ZguA2yPDar&quot; href=&quot;https://u7061146.ct.sendgrid.net/ls/click?upn=u001.gqh-2BaxUzlo7XKIuSly0rC7yq4VGzGEbFHlDk7qsu5Z3GtHND3-2FTFZSTJg-2BVxRUeuVHPKpf61hTaLf5qW4k91POkhxeylYt7KaXNvSjcVkIokGkQw-2Blo9DK8Db3Md9r8vL5xBVd2SX6RzbUhQxjP0aQu5x3W2T0Y1ciCfib2lHWI-3DYg6O_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLYOaAtoab45pj-2Bntva6VvUw3sWxWuAST4uW4jR7QGw6c4Jhqzgh-2BSY4MEIPCqfGkYiHOD1lBK6C2SLons7LLq8Ag5HxlQR4DNEmMgrLf1wGsyIHZSA-2FCMP3BAkwOwR5jZqWR0hgjGtQSio2P7FGZ6hre5Qbir6w6nmVC2-2FrIQ65RS68VVYY12i-2BJrnKSxrUZsSKRLx7zTvCz2Ds6c3l4NyIDY4TsAOpRCKwEjmb-2FeAq6DodS1mznRkj7sgm-2FWtp1qUttEXzgynsP2H-2B-2BMghKyi2GOG5mgf7smlIL9P0RaVCQ-3D-3D&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   benchmark testing on OCI
+  &lt;/a&gt;
+  proves the power of the Tier 0 architecture, which includes:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Up to 7x improvement in latency vs. traditional cloud file storage.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Up to 6x improvement in storage performance vs. traditional cloud file storage.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Checkpointing at extreme speeds, crushing idle time.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Throughput so fast it keeps GPUs fed 24/7, not waiting on data.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Policy-driven flexibility to move cold data to lower-cost tiers without touching the hot path.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;span lang=&quot;EN&quot;&gt;
+   “Our customers are excited about Hammerspace’s partnership with OCI,” said Tony Asaro, Chief Strategy and Business Development Officer for Hammerspace. “With Hammerspace, they get the highest levels of performance at scale, a global namespace for multisite access, data orchestration and data assimilation on OCI, a major public cloud that has been architected and optimized for AI workloads. The combination provides a complete AI-ready solution, whether for small projects and/or massive environments.”
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, Hammerspace will demonstrate the power of Tier 0 at the event:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Topic: Increase Performance and Reduce Idle Time of Your GPU Workloads in OCI
+  &lt;br/&gt;
+  Presenter: Raj Sharma, Cloud Field CTO, Hammerspace
+  &lt;br/&gt;
+  Location: NVIDIA Booth #1013
+  &lt;br/&gt;
+  Date/Time: Tuesday, October 14, 5:30–6:00 p.m.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Silicon Photonics – A Podcast Update from Prof. Keren Bergman on a Potentially Transformational Technology for Data Center Chips </title>
+<link>https://insideainews.com/2025/10/13/silicon-photonics-a-podcast-update-from-prof-keren-bergman-on-a-potentially-transformational-technology-for-data-center-chips/</link>
+<pubDate>Mon, 13 Oct 2025 17:47:18 -0000</pubDate>
+<description>
+&lt;div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cloudflare Integrates Services with Oracle Cloud </title>
+<link>https://insideainews.com/2025/10/13/cloudflare-integrates-services-with-oracle-cloud/</link>
+<pubDate>Mon, 13 Oct 2025 17:47:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2025/10/cloudflare-logo-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   San Francisco —October 13, 2025 — Cloudflare, Inc. (NYSE: NET) today announced that its connectivity cloud platform will be available natively on Oracle Cloud Infrastructure (OCI).
+  &lt;/p&gt;
+  &lt;p&gt;
+   This will enable joint customers to leverage Cloudflare’s security, performance, and resiliency directly from OCI across hybrid, multicloud, and OCI hosted applications, Cloudflare said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Recently, a Forrester Research report found that 73% of enterprise networking infrastructure and telecommunications decision-makers said that their firms were adopting multicloud networking. These environments enable organizations to easily mix and match the best features from different cloud providers, but managing and securing them often involves complex, resource-intensive, manual configurations. In addition, as organizations adopt AI applications and workloads at an increasing rate, their cloud environments are getting even more complex, making it more important than ever to have visibility, control, and protection over all their applications.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “We all see how AI is transforming the way organizations and their employees operate, and we need to pay equal attention to how AI is expanding our threat landscapes,” said Tom Evans, Chief Partner Officer at
+   &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;
+    Cloudflare
+   &lt;/a&gt;
+   . “Organizations need a comprehensive platform that delivers flexibility, performance, and security. Our integration with Oracle Cloud Infrastructure will help ensure businesses everywhere, across any cloud environment, can run their workloads on a unified platform with security and speed at the forefront.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “At Oracle, we are committed to helping our customers run their most critical workloads securely, reliably, and at scale,” said David Hicks, Group Vice President, ISV Ecosystem,
+   &lt;a href=&quot;https://www.oracle.com/&quot;&gt;
+    Oracle
+   &lt;/a&gt;
+   North America. “Through our partnership with Cloudflare, we will enable organizations to protect cloud and AI workloads while enhancing resilience and performance across hybrid and multicloud environments. Together, we will give businesses the confidence to innovate and grow, knowing their applications and data are protected every step of the way.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cloudflare runs one of the largest and most interconnected networks in the world, with its connectivity cloud platform delivering global Internet security, speed, and reliability for a wide range of organizations, including startups, enterprises, and governments. With Oracle and Cloudflare, organizations can benefit from a complete solution to secure their applications, enable innovation across cloud environments, and optimize end-user application performance and security.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cloudflare and Oracle customers can:
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    Accelerate public-facing applications and AI inference: Reduce latency worldwide with industry-leading performance.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Strengthen AI security: Shield workloads with DDoS protection, WAF, bot mitigation, and Zero Trust controls.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Enable hybrid and multi-cloud architectures: Securely connect and orchestrate traffic across hybrid and multi-cloud environments with unified control.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Protect APIs: Safeguard their entire vendor ecosystem with rate limiting, threat intelligence, and data protection.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Address compliance across digital environments: Address enterprise compliance requirements as a globally distributed, security-first platform with Cloudflare.
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    Footnote: Forrester Research report: The State Of Cloud Networking, 2024, April 13, 2025
+   &lt;/em&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> @HPCpodcast: Silicon Photonics – An Update from Prof. Keren Bergman on a Potentially Transformational Technology for Data Center Chips </title>
+<link>https://insidehpc.com/2025/10/hpcpodcast-silicon-photonics-an-update-from-prof-keren-bergman-on-a-potentially-transformational-technology-for-data-center-chips/</link>
+<pubDate>Mon, 13 Oct 2025 15:50:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/10/104@HPCpodcast_SP_Keren-Bergman_Silicon-Photonics_20251012.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/10/104@HPCpodcast_SP_Keren-Bergman_Silicon-Photonics_20251012.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/10/104@HPCpodcast_SP_Keren-Bergman_Silicon-Photonics_20251012.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/10/104@HPCpodcast_SP_Keren-Bergman_Silicon-Photonics_20251012.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-70132&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2018/03/Bergman.jpg&quot;/&gt;
+  &lt;p&gt;
+   Professor Keren Bergman from Columbia University
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  In this episode of the @HPCpodcast,
+  &lt;a href=&quot;https://www.coolitsystems.com/&quot;&gt;
+   sponsored by CoolIT
+  &lt;/a&gt;
+  , we catch up again with optical I/O expert and repeat guest
+  &lt;a href=&quot;https://www.ee.columbia.edu/keren-bergman&quot;&gt;
+   Professor Keren Bergman
+  &lt;/a&gt;
+  to discuss the latest developments in the fast moving and promising world of optical technologies: co-packaged photonics/opto-electronics/silicon photonics/photonic integrated circuits (PICs)/optical I/O and optical computing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  She is the Charles Batchelor Professor of Electrical Engineering, Faculty Director of the Columbia Nano Initiative, and Principal Investigator of
+  &lt;a href=&quot;http://lightwave.ee.columbia.edu/&quot;&gt;
+   Lightwave Research Laboratory
+  &lt;/a&gt;
+  at Columbia University.
+ &lt;/p&gt;
+ &lt;p&gt;
+  She also is the recipient of the 2016 IEEE Photonics Engineering Award and is a Fellow of Optica (Optical Society of America) and IEEE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Part of our goal in talking with Professor Bergman again was to get her take on how silicon photonics had progressed since her first appearance April 2023(@HPCpodcast
+  &lt;a href=&quot;https://orionx.net/2023/04/hpcpodcast-54-silicon-photonics-w-keren-bergman/&quot;&gt;
+   episode 54
+  &lt;/a&gt;
+  ). There is considerable excitement around (and investment in) the potential of silicon photonics, which may be poised to deliver significantly faster chip-to-chip data movement while reducing heat within servers and data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Professor Bergman, the technology is progressing well, she provides her forecast for commercial viability and also the practical impact of silicon photonics on chip and server performance and on data center cooling.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/03/CoolIT-Systems-logo-2-1-324.png&quot;/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  She also discusses the technology’s adoption by chip makers in China and its impact on that country’s strategy for achieving independence from western (and western-aligned) chip technology designers, manufacturers and policy makers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We also discuss the startup
+  &lt;a href=&quot;https://www.xscapephotonics.com/&quot;&gt;
+   Xscape Photonics
+  &lt;/a&gt;
+  , co-founded by Professor Bergman.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Deloitte and KAUST to Explore AI in Saudi Arabia </title>
+<link>https://insideainews.com/2025/10/10/deloitte-and-kaust-to-explore-ai-in-saudi-arabia/</link>
+<pubDate>Sat, 11 Oct 2025 02:03:26 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insideainews.com/wp-content/uploads/2023/04/Deloitte_logo.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;p&gt;
+      Jeddah, Saudi Arabia – Deloitte Middle East and King Abdullah University of Science and Technology (KAUST) have signed a memorandum of understanding to launch a collaboration that will bring together Deloitte Middle East’s AI Institute and KAUST’s research ecosystem with the intent to advance the role of artificial intelligence in the Kingdom and across the region.
+     &lt;/p&gt;
+     &lt;article&gt;
+      &lt;div&gt;
+       &lt;div data-ast-blocks-layout=&quot;true&quot;&gt;
+        &lt;p&gt;
+         The agreement aims to create a platform where scientific breakthroughs in AI can meet business applications, ensuring that cutting-edge research is not confined to academic circles but instead finds its way into industries, markets, and communities across Saudi Arabia. Through this partnership, Deloitte and KAUST will jointly develop projects that address some of the most complex AI challenges, while also focusing on preparing the next generation of AI talent through lectures, workshops, internships, and exchange opportunities.
+        &lt;/p&gt;
+        &lt;p&gt;
+         At the heart of the collaboration is the idea that innovation is only meaningful when it is shared. The two entities will be working on knowledge transfer through joint seminars and conferences, with the ambition of commercializing new AI models and intellectual property that come out of the projects. There will also be a focus on policy and governance, looking closely at the ethical implications of AI technologies and their social impact in the Kingdom.
+        &lt;/p&gt;
+        &lt;p&gt;
+         Deloitte brings the global experience of its AI Institute, which has already been established as a hub for AI innovation in other parts of the world. By adapting this model specifically for Saudi Arabia, Deloitte will work with KAUST to ensure that the collaboration aligns with the national priorities of Saudi Vision 2030, which places technology, sustainability, and human capital at the centre of economic transformation.
+        &lt;/p&gt;
+        &lt;p&gt;
+         Sultanbek Khunkaev, Partner at  Deloitte Middle East, said: “At Deloitte, we believe that Artificial Intelligence is not only reshaping industries but also creating entirely new ways of thinking about the future of work, education, and society. By partnering with KAUST, we are combining global expertise with local knowledge to accelerate innovation in Saudi Arabia. This MoU marks the beginning of a series of collaborations we intend to build across the region, each one focused on ensuring that the transformative power of AI is put to work for real societal and economic outcomes.”
+        &lt;/p&gt;
+        &lt;p&gt;
+         Professor Gianluca Setti, Dean of the Computer, Electrical and Mathematical Sciences and Engineering Division at KAUST, said “This agreement with Deloitte reflects KAUST’s commitment to building partnerships that extend the reach of our research and innovation. By joining forces, we aim to accelerate the development of responsible AI solutions and create new opportunities for talent and knowledge exchange that support Saudi Arabia’s leadership in AI and contribute to both national and global priorities.”
+        &lt;/p&gt;
+        &lt;p&gt;
+         The partnership will not be confined to laboratories or classrooms. Industry-specific solutions will be developed in areas where AI can make an immediate difference, whether through health, finance, energy, or logistics, and benchmarking work will help to create best practices for adoption. Families of initiatives will grow from the MoU, with both partners committed to developing strategies that can be scaled beyond the Kingdom.
+        &lt;/p&gt;
+        &lt;p&gt;
+         The Deloitte AI Institute has been established globally as a centre where research and real-world business applications intersect, and this agreement represents the first step in bringing that same formula to Saudi Arabia in a way that matches the scale and ambition of Vision 2030. For Deloitte, it is a continuation of a broader journey that is focused on working with the region’s most forward-looking institutions to accelerate the adoption of innovation. For KAUST, it is a way to bring its academic strength, its research capacity, and its culture of scientific excellence closer to the economic transformation goals of the Kingdom.
+        &lt;/p&gt;
+        &lt;p&gt;
+         As Saudi Arabia looks ahead to the next phase of Vision 2030, this partnership between KAUST and
+         &lt;a href=&quot;http://www.deloitte.com/&quot;&gt;
+          Deloitte
+         &lt;/a&gt;
+         will stand as a practical example of how science, business, and education can come together, not only to advance AI but to ensure that its benefits are felt across society. The signing of the MoU is just the beginning of a shared journey, one that aims to connect global expertise with local vision, creating new opportunities for research, for innovation, and for the people who will carry this work forward.
+        &lt;/p&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/article&gt;
+     &lt;p&gt;
+     &lt;/p&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Azure Unveils NVIDIA GB300 NVL72 Supercomputing Cluster for OpenAI </title>
+<link>https://insidehpc.com/2025/10/azure-unveils-nvidia-gb300-nvl72-supercomputing-cluster-for-openai/</link>
+<pubDate>Fri, 10 Oct 2025 19:48:23 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/azure-nvidia-logos-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Oct. 10, 2025 — Microsoft Azure announced the NDv6 GB300 VM series, which the company said is the first supercomputing-scale production cluster of NVIDIA GB300 NVL72 systems, built for OpenAI AI inference workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This HPC-scale cluster features over 4,600 NVIDIA Blackwell Ultra GPUs connected via the NVIDIA Quantum-X800 InfiniBand networking platform. Microsoft’s unique systems approach applied radical engineering to memory and networking to provide the scale of compute required to achieve high inference and training throughput for reasoning models and agentic AI systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  TMicrosoft said the offers is is the result of years partnership between NVIDIA and Microsoft purpose-building AI infrastructure for demanding AI workloads and to deliver infrastructure for the next frontier of AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Delivering the industry’s first at-scale NVIDIA GB300 NVL72 production cluster for frontier AI is an achievement that goes beyond powerful silicon – it reflects Microsoft Azure and NVIDIA’s shared commitment to optimize all parts of the modern AI data center,” said Nidhi Chappell, corporate vice president of
+  &lt;a href=&quot;https://azure.microsoft.com/en-us/solutions/high-performance-computing/ai-infrastructure&quot;&gt;
+   Microsoft Azure AI Infrastructure
+  &lt;/a&gt;
+  . “Our collaboration helps ensure customers like OpenAI can deploy next-generation infrastructure at unprecedented scale and speed.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the heart of Azure’s new NDv6 GB300 VM series is the liquid-cooled, rack-scale NVIDIA GB300 NVL72 system. Each rack integrates 72 NVIDIA Blackwell Ultra GPUs and 36 NVIDIA Grace CPUs into a single unit to accelerate training and inference for massive AI models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The system provides 37 terabytes of fast memory and 1.44 exaflops of FP4 Tensor Core performance per VM, creating a unified memory space essential for reasoning models, agentic AI systems and complex multimodal generative AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA Blackwell Ultra is supported by the full-stack NVIDIA AI platform, including collective communication libraries that tap into new formats like NVFP4 for breakthrough training performance, as well as compiler technologies like NVIDIA Dynamo for the highest inference performance in reasoning AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NVIDIA Blackwell Ultra platform excels at both training and inference. In the recent MLPerf Inference v5.1 benchmarks, NVIDIA GB300 NVL72 systems delivered record-setting performance using NVFP4. Results included up to 5x higher throughput per GPU on the 671-billion-parameter DeepSeek-R1 reasoning model compared with the NVIDIA Hopper architecture, along with leadership performance on all newly introduced benchmarks like the Llama 3.1 405B model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To connect over 4,600 Blackwell Ultra GPUs into a single, cohesive supercomputer, Microsoft Azure’s cluster relies on a two-tiered NVIDIA networking architecture designed for both scale-up performance within the rack and scale-out performance across the entire cluster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Within each GB300 NVL72 rack, the fifth-generation NVIDIA NVLink Switch fabric provides 130 TB/s of direct, all-to-all bandwidth between the 72 Blackwell Ultra GPUs. This transforms the entire rack into a single, unified accelerator with a shared memory pool – a critical design for massive, memory-intensive models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To scale beyond the rack, the cluster uses the NVIDIA Quantum-X800 InfiniBand platform, purpose-built for trillion-parameter-scale AI. Featuring NVIDIA ConnectX-8 SuperNICs and Quantum-X800 switches, NVIDIA Quantum-X800 provides 800 Gb/s of bandwidth per GPU, ensuring seamless communication across all 4,608 GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft Azure’s cluster also uses NVIDIA Quantum-X800’s advanced adaptive routing, telemetry-based congestion control and performance isolation capabilities, as well as NVIDIA Scalable Hierarchical Aggregation and Reduction Protocol (SHARP) v4, which accelerates operations to significantly boost the efficiency of large-scale training and inference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delivering the world’s first production NVIDIA GB300 NVL72 cluster at this scale required a reimagination of every layer of Microsoft’s data center – from custom liquid cooling and power distribution to a reengineered software stack for orchestration and storage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This latest milestone marks a big step forward in building the infrastructure that will unlock the future of AI. As Azure scales to its goal of deploying hundreds of thousands of NVIDIA Blackwell Ultra GPUs, even more innovations are poised to emerge from customers like OpenAI.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Petrobras Puts Lenovo ‘Harpia’ HPC into Operation </title>
+<link>https://insidehpc.com/2025/10/petrobras-puts-lenovo-harpia-hpc-into-operation/</link>
+<pubDate>Fri, 10 Oct 2025 14:50:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-97348&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/lenovo-supercomputador-harpia-petrobras-102025-1024x683.jpg&quot;/&gt;
+  &lt;p&gt;
+   Credit: Patrobras
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Rio de Janeiro — Brazillian petroleum corporation Petrobras has put the Lenovo “Harpia” R$435 million (USD$25 million) supercomputer into operation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The machine, to be used for seismic imaging,  is the largest of the five Lenovo HPC systems Petrobas  has purchased that ogether cost R$500 million and will increase Petrobras’ computational capacity by more than 60 percent, according to the company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Harpia HPC weighs about 50 ton and is 50 meters in length. It will have around 146 PFlops Rpeak. Once installation is complete, it will replace the company’s Fênix, Atlas and Dragão HPCs, which will be decommissioned.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other supercomputers, such as Ada Lovelace, dedicated to geostatistics, and Capivara, focused on seismic imaging, are in operation at the Petrobras data processing center of the company’s Research Center, Cenpes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Quati, currently in the testing phase, is expected to begin operations this month and will also be used for seismic analysis. Tupã 2, scheduled for the first quarter of next year, will be dedicated to geophysical multiphysics methods, a technology that allows the simultaneous study of different subsurface rock and fluid properties, such as density and electrical resistivity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the past five years, Petrobras has ranked as the Latin American leader in the Top500 listing of the world’s most powerful supercomputers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Petrobras geophysicists will use the system to process raw seismic data and transform it into detailed images of the subsurface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s like creating a 3D map of the rock layers beneath the surface, with much sharper and more accurate images of geological structures — essential for identifying petroleum systems and potential oil and gas reservoirs,” said Petrobras Exploration and Production Director Sylvia Anjos.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By renewing and expanding its capacity for processing geophysical and geological data, the company will obtain faster and more accurate results for the operational challenges of ultra-deepwater environments and new exploratory areas, such as the pre-salt and the Equatorial Margin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/11/sc23-lenovo.png&quot;/&gt;
+  “Obtaining more detailed seismic images of the subsurface allows us to refine reservoir behavior simulations, enabling more efficient production. In addition, large computational capacities allow Petrobras to compete globally, attract partnerships, and seize business opportunities,” highlights Clarice Coppetti, Corporate Affairs Director. In R&amp;D&amp;I projects, between 2025 and 2029, Petrobras said it plans to spend US$4.2 billion, an increase of 17 percent compared to the previous plan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Harpia will also be eco-efficient, balancing processing power with energy consumption,” the company said. “Sustainability was a focus from the supercomputer’s initial design to the choice of the most efficient technologies. Energy use considerations also guided the design of the room where the machine will be installed, which was specifically engineered to operate with the lowest possible energy consumption.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ayar Labs Appoints Vivek Gupta Chief Strategy Officer </title>
+<link>https://insidehpc.com/2025/10/ayar-labs-appoints-vivek-gupta-chief-strategy-officer/</link>
+<pubDate>Thu, 09 Oct 2025 21:57:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/11/Ayar-Labs-logo-2-1-1123-1-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SAN JOSE – Oct. 9, 2025 – Ayar Labs, a co-packaged optics (CPO) company, today announced that Vivek Gupta has joined as the company’s first Chief Strategy Officer (CSO).
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is a momentous time for the company, as we scale to commercial production and strengthen customer partnerships,” said Mark Wade, CEO and co-founder of Ayar Labs. “Vivek’s proven ability to guide emerging technologies through complex industry inflection points, along with his experience building executive relationships in the hyperscale ecosystem, will be instrumental in advancing our mission to make optics a key enabler for the future of AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gupta will oversee Ayar Labs’ global strategy, customer engagement, and product functions to drive market adoption of optical I/O. This includes developing deep relationships with hyperscale customers as well as leading go-to-market and product strategies. In his new role, Gupta will work closely with the CTO, engineering, and commercial teams to ensure Ayar Labs continues to deliver innovative, customer-centric solutions for AI data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “CPO is no longer just a breakthrough technology, it’s foundational for large-scale AI data centers to drive the power efficiency and performance required for AI roadmaps,” said Gupta. “Success at this inflection point requires creative customer co-development, bold new business models and go-to-market strategies, and a steadfast focus on customer value. I can’t imagine a more impactful time to join Ayar Labs and help shape how next-generation AI workloads are powered and scaled.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He brings over two decades of experience leading business strategy, commercialization, and product innovation at global technology leaders including Google, Qualcomm, and Atheros. He is recognized for building executive relationships, launching disruptive solutions in complex technology markets, and driving the adoption of emerging compute architectures across leading global organizations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  His appointment follows significant progress at
+  &lt;a href=&quot;http://www.ayarlabs.com&quot;&gt;
+   Ayar Labs
+  &lt;/a&gt;
+  , including a
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/73a1eedc4cb547099c0bad4a8f68b25a/4/9ca813c0682890be1b32a9f81cf46188aae7fe0630a76f7a24831d8b624cdb73?cache_buster%3D1760043462&amp;source=gmail&amp;ust=1760129877375000&amp;usg=AOvVaw1lk44mVIRJ9fzuBFf91fwn&quot; href=&quot;https://tracking.us.nylas.com/l/73a1eedc4cb547099c0bad4a8f68b25a/4/9ca813c0682890be1b32a9f81cf46188aae7fe0630a76f7a24831d8b624cdb73?cache_buster=1760043462&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   collaboration with Alchip Technologies
+  &lt;/a&gt;
+  to scale AI infrastructure with CPO and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/73a1eedc4cb547099c0bad4a8f68b25a/5/5c7ebdd979bcbf148774f87817cae6da2e6eeb2bbd31e6e9521e08899ec05402?cache_buster%3D1760043462&amp;source=gmail&amp;ust=1760129877375000&amp;usg=AOvVaw2o3zZEaIICfYRfHFijWWpI&quot; href=&quot;https://tracking.us.nylas.com/l/73a1eedc4cb547099c0bad4a8f68b25a/5/5c7ebdd979bcbf148774f87817cae6da2e6eeb2bbd31e6e9521e08899ec05402?cache_buster=1760043462&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   continued expansion
+  &lt;/a&gt;
+  of the company’s executive team, customer base, and global presence.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hitachi Vantara Finalizing Partnership with Supermicro </title>
+<link>https://insidehpc.com/2025/10/hitachi-vantara-finalizing-partnership-with-supermicro/</link>
+<pubDate>Thu, 09 Oct 2025 19:02:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/10/hitachi-vantara-supermicro-logos-2-1-102025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  SANTA CLARA, Calif., Oct. 9, 2025 – Hitachi Vantara, the data storage, infrastructure and hybrid cloud management subsidiary of Hitachi Ltd. (TSE: 6501), today announced it is working towards a strategic partnership with Supermicro (NASDAQ: SMCI).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The collaboration combines Supermicro’s GPU and AI compute capabilities with Hitachi Vantara’s Virtual Storage Platform One (VSP One). The parties are finalizing terms of an agreement that would enable Supermicro to sell VSP One to its customers, and Hitachi Vantara will be able to sell Supermicro servers, storage, GPUs and hardware systems, broadening availability through established channels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Enterprises are under pressure from explosive data growth and rising expectations for AI-driven insights. A recent survey found that 85% of organizations are already leveraging data lakehouses for AI model development, and 67 percent expect to run the majority of their analytics on lakehouses within the next three years, up from 55% today. Still, many face hurdles including fragmented systems, slow data movement and rising costs that make scaling AI difficult. By bringing compute and data together with enterprise-class support, Hitachi Vantara and Supermicro are helping customers streamline their infrastructure and get more out of their AI investments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the center of the collaboration is VSP One, Hitachi Vantara’s unified data platform that brings block, file, object and software-defined storage into a single architecture. Customers and partners can see benefits across a range of data storage needs. For example, VSP One Block with Supermicro servers combines an all-flash architecture that delivers high throughput, low latency and high IOPS storage to power mission-critical applications and AI training workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VSP One SDS extends those capabilities with software-defined deployments across hybrid cloud environments. VSP One Object features industry-first native support for Amazon S3 Tables and advanced data intelligence services, enabling customers to move unstructured data into structured tables. This allows enterprises to run performance analytics directly on open-format data without complex data movement, loading or extraction – making it easier to scale and adapt for modern data lakehouse architectures.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The convergence of Supermicro’s leadership in AI compute with the scale and resiliency of Hitachi Vantara’s VSP One platform marks an important step in building the foundation that will guide the future of enterprise AI,” said Sheila Rohra, chief executive officer,
+  &lt;a href=&quot;https://www.hitachivantara.com/en-us/home&quot;&gt;
+   Hitachi Vantara
+  &lt;/a&gt;
+  . “As data volumes explode, bringing compute and data closer together will enable scalable workload support without disruption. Coupled with enterprise-class service and support, we are helping organizations gain better control over their data so they can unlock new sources of value and lead in the era of AI-driven business.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  VSP One also serves as the foundation for Hitachi iQ, the company’s AI and data orchestration portfolio, to optimize data workflows for advanced AI. By pairing VSP One’s unified data services with Supermicro’s high-performance compute and GPU acceleration in Hitachi iQ, businesses can address different data management requirements for enhanced data processing, governance and protection. This not only ensures compute and data remain tightly aligned, it improves visibility across workloads for faster insights, giving enterprises a more complete approach to infrastructure to support AI initiatives. As a result, Hitachi iQ represents a complete infrastructure solution for AI and GenAI, analytics, and data lake environments across a range of industry-specific use cases.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Supermicro and Hitachi are collaborating to help enterprises accelerate their adoption and use of AI,” said Vik Malyala, president and managing director, EMEA and senior vice president, Technology and AI,
+  &lt;a href=&quot;https://www.supermicro.com/en/&quot;&gt;
+   Supermicro
+  &lt;/a&gt;
+  . “Our AI-optimized, compute, and storage servers leverage advanced GPUs, CPUs, and NVME’s. Combined with Hitachi Vantara’s enterprise data management platform and Hitachi iQ portfolio options will support compute-intensive workloads for dynamic vertical applications yielding better performance and efficiency for customers.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The companies anticipate making these technologies available through global channels, including VSP One Block, VSP One SDS and VSP One Object. VSP One can also be managed through the VSP 360 unified control plane, which integrates data management tools across a storage environment to monitor key performance indicators, including storage capacity utilization and overall system health. Channel partners will also benefit, with Supermicro partners gaining an expanded lineup of enterprise block storage and support, and Hitachi Vantara partners accessing timely GPU server delivery in Hitachi iQ.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
