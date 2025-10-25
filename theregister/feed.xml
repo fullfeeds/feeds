@@ -1,0 +1,3120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 25 Oct 2025 17:07:12 -0000</lastBuildDate>
+<item>
+<title> Playtime’s over: Crooks swipe Toys R Us Canada customer data and dump it online </title>
+<link>https://www.theregister.com/2025/10/23/toysrus_canada_data_leak/</link>
+<pubDate>Sat, 25 Oct 2025 16:39:47 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   The Canadian outpost of retailer Toys R Us on Thursday notified customers that attackers accessed a database, stole some of their personal information, then posted the data online.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a Thursday breach disclosure notice
+   &lt;a href=&quot;https://www.linkedin.com/posts/tommy-irwin-04954038_ziestech-toysrus-security-activity-7387128561696157696-OBVF/&quot; target=&quot;_blank&quot;&gt;
+    emailed
+   &lt;/a&gt;
+   to affected customers and
+   &lt;a href=&quot;https://bsky.app/profile/watermelonmaiden.bsky.social/post/3m3u5fdgrvk2s&quot; target=&quot;_blank&quot;&gt;
+    shared
+   &lt;/a&gt;
+   on social media, the toy shop said it discovered the digital break-in on July 30, after the intruders claimed to have posted stolen customer data &quot;on the unindexed internet.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   A subsequent investigation found that the records were indeed stolen, and that the thieves had copied people&#x27;s names, addresses, phone numbers, and emails from the Toys R Us database.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We&#x27;d like to stress that no passwords, credit card details, or similar confidential data were involved in this incident,&quot; the company’s alert states.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The notification doesn&#x27;t explain when the compromise occurred, how long the miscreants had access to the Toys R Us network before swiping customer data, or whether they tried to extort the company before exposing the records online.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Toys R Us did not respond to
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   &#x27;s questions about the details in the email, nor how many people&#x27;s details were stolen in the breach. We will update this story when we receive a response.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In the disclosure sent to customers, Toys R Us said it hired third-party cybersecurity experts to contain and investigate the security SNAFU. It is also in the process of reporting the intrusion to privacy regulatory authorities.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Businesses that leak customer data usually offer free digital identity and fraud monitoring services, because criminals can do all manner of mischief with the personal details stolen from Toys R Us&#x27; database, including
+   &lt;a href=&quot;https://www.theregister.com/2025/07/07/phishing_platforms_infostealers_blamed_for/&quot; target=&quot;_blank&quot;&gt;
+    identity fraud
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.theregister.com/2025/08/21/impersonation_as_a_service/&quot; target=&quot;_blank&quot;&gt;
+    impersonation
+   &lt;/a&gt;
+   - especially when combined with other personal details easily found on social media sites - as well as
+   &lt;a href=&quot;https://www.theregister.com/2025/10/16/ai_makes_phishing_45x_more_effective/&quot; target=&quot;_blank&quot;&gt;
+    personalized phishing attacks
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://www.theregister.com/2024/08/12/mega_money_and_unfathomable_violence/&quot; target=&quot;_blank&quot;&gt;
+    doxxing
+   &lt;/a&gt;
+   , and even physical stalking and harassment.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However the toy retailer hasn’t offered such services to its customers.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/17/prosper_breach/&quot;&gt;
+     Have I Been Pwned logs 17.6M victims in Prosper breach
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/09/miscreants_head_start_oracle_ebs_invasion/&quot;&gt;
+     Crims had 3-month head start on defenders in Oracle EBS invasion
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/08/salesforce_refuses_to_pay_ransomware/&quot;&gt;
+     Take this rob and shove it! Salesforce issues stern retort to ransomware extort
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/21/impersonation_as_a_service/&quot;&gt;
+     &#x27;Impersonation as a service&#x27; the next big thing in cybercrime
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   While the company didn&#x27;t disclose who was responsible for the breach, a few notable data heists happened around the same timeframe in which Toys R Us says it spotted the stolen customer details online.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Beginning in the summer, a campaign
+   &lt;a href=&quot;https://www.theregister.com/2025/09/02/stolen_oauth_tokens_expose_palo/&quot; target=&quot;_blank&quot;&gt;
+    abusing OAuth tokens
+   &lt;/a&gt;
+   via Salesloft&#x27;s Drift integration allowed attackers to access numerous companies&#x27;
+   &lt;a href=&quot;https://www.theregister.com/2025/09/02/zscaler_customer_data_drift_compromise/&quot; target=&quot;_blank&quot;&gt;
+    Salesforce instances
+   &lt;/a&gt;
+   and steal customer data. Cloudflare reported the attack hit
+   &lt;a href=&quot;https://www.theregister.com/2025/09/02/cloudflare_salesloft_drift_breach/&quot; target=&quot;_blank&quot;&gt;
+    &quot;hundreds&quot; of organizations
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Additionally, CL0P-linked extortionists&#x27; recent
+   &lt;a href=&quot;https://www.theregister.com/2025/10/17/american_airlines_envoy_oracle_ebs/&quot; target=&quot;_blank&quot;&gt;
+    raid on Oracle E-Business Suite
+   &lt;/a&gt;
+   (EBS) may have begun as early as July, according to Google, with the crims
+   &lt;a href=&quot;https://www.theregister.com/2025/10/09/miscreants_head_start_oracle_ebs_invasion/&quot; target=&quot;_blank&quot;&gt;
+    compromising &quot;dozens&quot;
+   &lt;/a&gt;
+   of organizations. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Shield AI shows off not-at-all-terrifying autonomous VTOL combat drone </title>
+<link>https://www.theregister.com/2025/10/24/shield_ai_x_bat/</link>
+<pubDate>Sat, 25 Oct 2025 16:39:45 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   US defense technology biz Shield AI claims it can build a jet-powered vertical take-off and landing (VTOL) autonomous fighter drone that doesn&#x27;t need a runway to operate.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The California-based biz this week unveiled a mock-up of its X-BAT aircraft at an event held in Washington DC for an audience of military leaders, elected officials, and industry partners.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Still in development, the drone will run on Shield AI&#x27;s Hivemind AI autonomy software - the same platform that powered a
+   &lt;a href=&quot;https://www.theregister.com/2024/04/18/darpa_f16_flight/&quot; target=&quot;_blank&quot;&gt;
+    modified F-16 fighter jet in dogfights against human pilots
+   &lt;/a&gt;
+   last year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   X-BAT is designed as a tail-sitter like the infamous
+   &lt;a href=&quot;https://airandspace.si.edu/collection-media/NASM-A19730274000_AER01&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Convair XFY-1 Pogo
+   &lt;/a&gt;
+   , taking off and landing vertically, before leveling off for normal flight. It resembles other jet-powered autonomous drones such as
+   &lt;a href=&quot;https://www.northropgrumman.com/what-we-do/aircraft/x-47b-ucas&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Northrop Grumman&#x27;s X-47B
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/shieldaixbatjungle.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Shield AI X-BAT in jungle&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/10/23/shieldaixbatjungle.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;Shield AI X-BAT in jungle&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Shield AI X-BAT in jungle
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The vertical launch eliminates runway dependence, which Shield AI sees as a vulnerability since runways are priority targets. A
+   &lt;a href=&quot;https://www.youtube.com/watch?v=OnpuNlE3UxU&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    promotional video
+   &lt;/a&gt;
+   shows a CGI rendering of the drone being deployed from a trailer.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Autonomy is critical because communications can be jammed in contested areas, making remotely operated drones like the
+   &lt;a href=&quot;https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    General Atomics MQ-9B
+   &lt;/a&gt;
+   vulnerable.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   X-BAT &quot;combines four things – VTOL, range, multirole capability, and autonomy,&quot; claimed Shield AI&#x27;s senior VP of aircraft, Armor Harris.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;VTOL plus range solves survivability on the ground and dependency on tankers. Multirole provides critical flexibility as the threat evolves, because no plan survives first contact with the enemy. X-BAT&#x27;s ability to autonomously operate standalone or collaboratively allows it to project power when other assets aren&#x27;t around and simplifies kill chains.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   At 26 ft (7.92 m) long and with a 39 ft (11.9 m) wingspan, X-BAT is about half the size of an F-35 fighter jet, but Shield AI claims it has a longer range of at least 2,000 nautical miles. It can carry both air-to-air and air-to-surface weapons in internal bays, as well as having external hardpoints for larger munitions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   First flight is scheduled for next year, with production planned for 2029.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;X-BAT has been in development for about 18 months,&quot; Shield AI&#x27;s Head of Communications, Lily Hinz, told us. &quot;The team expects to conduct initial vertical take-off and landing demonstrations as early as fall 2026, followed by all-up flight testing and operational validation in 2028.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   VTOL is an interesting proposition for many armed forces, yet key questions remain. Shield AI mentions &quot;a proven fighter-class engine&quot; but provided no specifics, making it difficult to assess payload capacity during vertical takeoff. Realistic range with a full weapon load is unclear.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/royal_navy_martlet/&quot;&gt;
+     Royal Navy sharpens claws on Wildcat choppers with anti-drone Martlet missiles
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/07/uk_satellite_laser_drone/&quot;&gt;
+     Britain eyes satellite laser warning system and carrier-launched jet drones
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/02/pentagon_relaxes_military_cybersecurity_training/&quot;&gt;
+     Pentagon decrees warfighters don&#x27;t need &#x27;frequent&#x27; cybersecurity training
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/25/dapra_ai_power_conscious/&quot;&gt;
+     DARPA wants AI to know when it&#x27;s being an energy hog
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Vertical landing on a launch pad is simpler in CGI than reality, though
+   &lt;a href=&quot;https://x.com/SpaceX/status/718561436201431040&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    SpaceX proved it&#x27;s possible
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/shieldaixbatflight.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Shield AI X-BAT in flight&quot; height=&quot;364&quot; src=&quot;https://regmedia.co.uk/2025/10/23/shieldaixbatflight.jpg?x=648&amp;y=364&amp;infer_y=1&quot; title=&quot;Shield AI X-BAT in flight&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Shield AI X-BAT in flight
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The company did not disclose exact costs, calling X-BAT &quot;affordable and attritable.&quot; Hinz said it&#x27;s &quot;priced in the same range as Collaborative Combat Aircraft (CCA) programs&quot; — estimated by the former Air Force Secretary at roughly one-third the cost of crewed fighters, or about $30 million.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://www.congress.gov/crs-product/IF12740&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CCA programs
+   &lt;/a&gt;
+   aimed to develop a drone &quot;wingman&quot; that could accompany a crewed fighter plane on missions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Shield AI began customer engagements earlier this year, and said they are going &quot;very well,&quot; but it did not name any.
+  &lt;/p&gt;
+  &lt;p&gt;
+   One potential customer is the UK&#x27;s Royal Navy, which is already seeking jet-powered drones to complement F-35B fighters on its carriers. This month, the Navy issued a Request for Information for
+   &lt;a href=&quot;https://www.theregister.com/2025/10/07/uk_satellite_laser_drone/&quot; target=&quot;_blank&quot;&gt;
+    Project VANQUISH
+   &lt;/a&gt;
+   — a technical demonstration of an autonomous drone capable of sea-based takeoff and landing, with completion expected by end of 2026. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Sneaky Mermaid attack in Microsoft 365 Copilot steals data </title>
+<link>https://www.theregister.com/2025/10/24/m365_copilot_mermaid_indirect_prompt_injection/</link>
+<pubDate>Sat, 25 Oct 2025 12:24:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Microsoft fixed a security hole in Microsoft 365 Copilot that allowed attackers to trick the AI assistant into stealing sensitive tenant data – like emails – via indirect prompt injection attacks.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But the researcher who found and reported the bug to Redmond won&#x27;t get a bug bounty payout, as Microsoft determined that M365 Copilot isn&#x27;t in-scope for the vulnerability reward program.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The attack uses
+   &lt;a href=&quot;https://www.theregister.com/2025/09/26/salesforce_agentforce_forceleak_attack/&quot; target=&quot;_blank&quot;&gt;
+    indirect prompt injection
+   &lt;/a&gt;
+   – embedding malicious instructions into a prompt that the model can act upon, as opposed to direct prompt injection, which involves someone directly submitting malicious instructions to an AI system.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Researcher Adam Logue discovered the data-stealing exploit, which abuses M365 Copilot&#x27;s built-in support for Mermaid diagrams, a JavaScript-based tool that allows users to generate diagrams in using text prompts.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   In addition to integrating with M365 Copilot, Mermaid diagrams also
+   &lt;a href=&quot;https://mermaid.js.org/config/directives.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    support CSS
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This opens up some interesting attack vectors for data exfiltration, as M365 Copilot can generate a mermaid diagram on the fly and can include data retrieved from other tools in the diagram,&quot; Logue
+   &lt;a href=&quot;https://www.adamlogue.com/microsoft-365-copilot-arbitrary-data-exfiltration-via-mermaid-diagrams-fixed/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    wrote
+   &lt;/a&gt;
+   in a blog about the bug and how to exploit it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As a proof of concept, Logue asked M365 Copilot to summarize a specially crafted financial report document with an indirect prompt injection payload hidden in the seeming innocuous &quot;summarize this document&quot; prompt.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The payload uses M365 Copilot&#x27;s search_enterprise_emails tool to fetch the user&#x27;s recent emails, and instructs the AI assistant to generate a bulleted list of the fetched contents, hex encode the output, and split up the string of hex-encoded output into multiple lines containing up to 30 characters per line.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/microsoft_clippy_copilot_update/&quot;&gt;
+     Clippy rises from the dead in major update to Copilot and its voice interface
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/openai_chatgpt_company_knowledge/&quot;&gt;
+     OpenAI goes after Microsoft 365 Copilot&#x27;s lunch with &#x27;company knowledge&#x27; feature
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/26/salesforce_agentforce_forceleak_attack/&quot;&gt;
+     Prompt injection – and a $5 domain – trick Salesforce Agentforce into leaking sales
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/20/amazon_quietly_fixed_q_developer_flaws/&quot;&gt;
+     Amazon quietly fixed Q Developer flaws that made AI agent vulnerable to prompt injection, RCE
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Logue then exploited M365 Copilot&#x27;s Mermaid integration to generate a diagram that looked like a login button, plus a notice that the documents couldn&#x27;t be viewed unless the user clicked the button. This fake login button contained CSS style elements with a hyperlink to an attacker-controlled server – in this case, Logue&#x27;s Burp Collaborator server.
+  &lt;/p&gt;
+  &lt;p&gt;
+   When a user clicked the button, the hex-encoded tenant data – in this case, a bulleted list of recent emails – was sent to the malicious server. From there, an attacker could decode the data and do all the nefarious things criminals do with stolen data, like sell it to other crims, extort the victim for its return, uncover account numbers and/or credentials inside the messages, and other super fun stuff - if you are evil.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Logue reported the flaw to Microsoft, and Redmond told him it patched the vulnerability, which he verified by trying the attack again and failing.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Microsoft responded to The Register after deadline, but declined to say what the patch involved and how it mitigated the security issue.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “We appreciate the work of Adam Logue in identifying and responsibly reporting this through a coordinated disclosure,” a spokesperson said. “We have fixed the issue outlined in this report. Customers do not need to take any action to be protected from this technique.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Logue didn’t receive a payout for finding and reporting the flaw because, as of now, Microsoft 365 Copilot is not a product considered in-scope for the bug bounty program. However, Redmond says it&#x27;s always reviewing the published program criteria to align with evolving technologies and attacks, so - fingers crossed - future M365 Copilot bug hunters may earn a reward for their work. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft suggests temporary registry hack for stricken smart card users </title>
+<link>https://www.theregister.com/2025/10/23/microsoft_smart_card_registry/</link>
+<pubDate>Sat, 25 Oct 2025 11:13:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Microsoft accidentally broke several things in the October 2025 Windows Update, but smart card authentication was not one of them. That was intentionally broken, and the temporary workaround requires a registry hack.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Redmond
+   &lt;a href=&quot;https://learn.microsoft.com/en-gb/windows/release-health/status-windows-11-25H2#3697msgdesc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    noted
+   &lt;/a&gt;
+   the issue last week after smart card authentication and other certificate operations started failing following an &quot;improvement&quot; made to Windows in light of CVE-2024-30098. Part of the mitigation was to require RSA-based smart card certificates to use KSP (Key Storage Provider) instead of CSP (Cryptographic Service Provider).
+  &lt;/p&gt;
+  &lt;p&gt;
+   The upshot of this change is that certificates that use CSP might have problems after the update. These problems could manifest as an inability to sign documents, smart cards not being recognized as CSP providers in 32-bit applications, and failures in applications that rely on certificate-based authentication.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The good news is that until the authenticating app is updated to perform Key Storage Retrieval using the Key Storage API, there is a workaround. The bad news is that it requires a registry hack on every affected device.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The bad news is that the hack will only work until the April 2026 Windows updates, when Microsoft plans to remove it.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/21/cisa_windows_smb_bug/&quot;&gt;
+     Feds flag active exploitation of patched Windows SMB vuln
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/20/windows_11_more_dark_mode_dialogs/&quot;&gt;
+     Windows 11 tiptoes further into dark mode with new dialogs
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/20/microsoft_bug_keyboard_mouse/&quot;&gt;
+     Windows 11 update knocks out USB mice, keyboards in recovery mode
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/17/windows_10_upgrades_lifts_global_pc_shipments/&quot;&gt;
+     Turns out the end of Windows 10 is good for something: The PC refresh cycle
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The workaround requires affected users to set the
+   &lt;code&gt;
+    DisableCapiOverrideForRSA
+   &lt;/code&gt;
+   registry key value to 0 on every device. The issue affects almost every supported version of Windows and Windows Server, as well as some that are no longer supported, such as Windows 10 22H2. Think of it as a going-away present from Microsoft to the affected users still on Windows 10.
+  &lt;/p&gt;
+  &lt;p&gt;
+   There is no long-term resolution planned for this issue, since the behavior is by design and up to developers to fix in their authenticating app. The short-term workaround, however, is less than ideal. Editing the registry carries some risk, and it is all too easy to bork an installation by tinkering with the wrong key. Additionally, allowing a user anywhere near the registry will be the last thing an admin would want, further adding to workloads.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Still, with Windows 10 22H2 reaching end of support on October 14, Microsoft&#x27;s final update left users with something to remember it by. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MPs urge government to stop Britain&#x27;s phone theft wave through tech </title>
+<link>https://www.theregister.com/2025/10/25/uk_committee_phone_theft/</link>
+<pubDate>Sat, 25 Oct 2025 08:49:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   The UK&#x27;s Home Secretary should use her powers to push the tech industry to deploy stronger technical measures against the surge in phone thefts, according to a House of Commons committee.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://www.met.police.uk/foi-ai/metropolitan-police/disclosure-2025/june-2025/thefts-mobile-phone-january2019-march2025/&quot; target=&quot;_blank&quot;&gt;
+    Metropolitan Police figures
+   &lt;/a&gt;
+   show 117,211 phones were stolen during 2024, an increase of 25 percent on 2019. Only 1 percent of phone thefts in London result in a charge or conviction, the UK&#x27;s largest police force said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As well as trying to catch the criminals stealing phones, the government should focus on cutting demand, according to the House of Commons&#x27; Science, Innovation and Technology Committee, a cross-party group of MPs that looks closely at related spending, policies and administration.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The chair of the committee argues it is within the power of smartphone makers to implement pre-existing technologies that would make stolen devices useless for resale, cutting demand in the international criminal market.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Committee Chair Dame Chi Onwurah said in a statement: &quot;Apple has told us there is no silver bullet to stop phone theft, but there are clearly technological solutions that can help deter it. The committee has yet to hear any convincing reasons why this hasn&#x27;t been implemented. Tech companies argue that phone theft is primarily for parts, but there&#x27;s little evidence to support this. If this was the case, these technical measures wouldn&#x27;t be needed – but they clearly are.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Given the exploding growth of phone theft, it&#x27;s clear existing deterrents from tech companies are not working. To protect the public&#x27;s property, well-being and privacy, the government must take a strong stance and hold the long-delayed follow up phone theft summit. Only through such meetings can co-operation between government, police and the tech companies be secured to ensure these technical measures are implemented.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Speaking before the committee
+   &lt;a href=&quot;https://www.theregister.com/2025/06/04/apple_google_stolen_phones/&quot; target=&quot;_blank&quot;&gt;
+    in the summer
+   &lt;/a&gt;
+   , Darren Scates, Met Police chief digital data and technology officer, said Apple iPhones make up about 80 percent of phones stolen in London, while estimates suggest the replacement value of stolen phones is £50 million ($67 million) a year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   After they are stolen, most of the devices are collected, distributed, and resold by criminal gangs. About 75 percent were moved abroad – the prime destinations being Algeria, China, and Hong Kong, Scates said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The data on where stolen phones end up comes from collaboration between police and mobile providers. Police supplied a sample of IMEI numbers – the unique 15-digit identifiers assigned to each mobile device – known to belong to stolen phones.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Scates said the IMEI number could allow stolen phones to be blocked at a network level under an agreement by members of the GSMA industry association, which represents only 10 percent of global phone networks.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/23/secret_service_sim_bust/&quot;&gt;
+     SIM city: Feds say 100,000-card farms could have killed cell towers in NYC
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/07/london_phone_ring_bust/&quot;&gt;
+     London cops unplug iPhone crime ring said to nick 40% of city&#x27;s mobiles
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/04/apple_google_stolen_phones/&quot;&gt;
+     Cops want Apple, Google to kill stolen phones remotely – so why won&#x27;t they?
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/05/14/ghostbuster_ebike_weapon/&quot;&gt;
+     Cops developing Ghostbusters-esque weapon to take out e-bike thugs
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   But after hearing evidence from the Met and providers including Apple, Google, and Samsung, the committee concluded the tech industry could do much more to reduce demand for stolen phones.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In her letter to the Home Secretary, Shabana Mahmood, Onwurah said: &quot;We pressed Apple, Google and Samsung on why they have not implemented robust technical measures, such as cloud-based blocking or IMEI-linked device locks. This would mean that handsets could not connect to cloud accounts in foreign countries if they were registered as stolen, something that only the cloud provider can do, rendering the phones far less valuable when shipped overseas.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   In written evidence to the committee, Apple said it was &quot;committed to safeguarding&quot; users to the best of its ability, and had already introduced security features including the Find My app, Remote Wipe, Lost Mode, Activation Lock, and Stolen Device Protection. On IMEI, the company said it was concerned about the wider privacy and security implications, but it was considering how IMEI blocking could be enacted, &quot;giving appropriate consideration to the potential risks and trade-offs.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Google said it was &quot;absolutely committed&quot; to addressing the challenge of device theft. As it provides the operating systems for Android phones, it also partners with the original equipment manufacturer (OEM) community to help protect devices more widely.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Other techniques, such as blocking devices via an IMEI number may be a practical option from an operator perspective. As the operating system (OS) provider, we believe we can better serve users by giving them direct control over blocking their phone via their Google account,&quot; it said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Samsung said it had taken &quot;extensive steps&quot; to reduce phone theft, including releasing a suite of new features for Samsung and Android devices, as well as working with partners through the Home Office. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Berkeley boffins build better load balancing algo with AI </title>
+<link>https://www.theregister.com/2025/10/25/openevolve_ai_better_algorithms/</link>
+<pubDate>Sat, 25 Oct 2025 00:14:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Computer scientists at UC Berkeley say that AI models show promise as a way to discover and optimize algorithms.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In
+   &lt;a href=&quot;https://arxiv.org/abs/2510.06189&quot; rel=&quot;nofollow&quot;&gt;
+    a preprint paper
+   &lt;/a&gt;
+   titled &quot;Barbarians at the Gate: How AI is Upending Systems Research,&quot; 17 UC Berkeley researchers describe how they employed
+   &lt;a href=&quot;https://github.com/codelion/openevolve&quot; rel=&quot;nofollow&quot;&gt;
+    OpenEvolve
+   &lt;/a&gt;
+   , an open source implementation of Google DeepMind&#x27;s AlphaEvolve, to improve a load balancing algorithm so that it significantly outperforms prior human designs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Specifically, the authors claim to have used OpenEvolve to achieve a 5x speedup for an Expert Parallelism Load Balancer (EPLB) algorithm, which is used in large language models to route tokens to specialized expert modules – an efficiency mechanism that reduces the number of processed parameters.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The authors say that AI-Driven Research for Systems (ADRS), through which an AI model iteratively generates, evaluates, and refines solutions, promises to transform systems research.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;As AI assumes a central role in algorithm design, we argue that human researchers will increasingly focus on problem formulation and strategic guidance,&quot; they state in their paper. &quot;Our results highlight both the disruptive potential and the urgent need to adapt systems research practices in the age of AI.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Google in May
+   &lt;a href=&quot;https://www.theregister.com/2025/05/15/google_deepmind_debuts_algorithm_evolving/&quot;&gt;
+    talked up AlphaEvolve
+   &lt;/a&gt;
+   , an &quot;evolutionary coding agent&quot; that improved the efficiency of Google&#x27;s data center orchestration, optimized matrix multiplication operations in its Tensor Processing Unit hardware, and optimized its FlashAttention kernel implementation in Transformer-based AI models.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As if to further underscore the potential of machine learning as an algorithmic discovery mechanism,
+   &lt;a href=&quot;https://www.nature.com/articles/s41586-025-09761-x&quot; rel=&quot;nofollow&quot;&gt;
+    a paper
+   &lt;/a&gt;
+   published this week in Nature from Google DeepMind researchers describes &quot;an autonomous method for discovering [reinforcement learning] rules solely through the experience of many generations of agents interacting with various environments.&quot; To date, the DeepMind eggheads claim, automated approaches have failed to outperform human-designed reinforcement learning systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The UC Berkeley crew has now shown the value of AI-based optimization work by having OpenEvolve work out a more efficient approach to load balancing across GPUs handling LLM inference.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The researchers started with DeepSeek&#x27;s open-source
+   &lt;a href=&quot;https://github.com/deepseek-ai/eplb&quot; rel=&quot;nofollow&quot;&gt;
+    EPLB implementation
+   &lt;/a&gt;
+   , which they note is slow because it&#x27;s written in Python and relies on a for-loop to conduct a linear search for the optimal GPU to process an expert module workload. On average, the DeepSeek version took about 540 ms to rebalance the expert modules across GPUs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   They also looked at a non-public EPLB implementation from an unidentified frontier lab that handled rebalancing in 19.6 ms.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/&quot;&gt;
+     Sora makes slurfect deepfakes of celebs spewing racial epithets
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/mafia_and_nba_celebs_arrested/&quot;&gt;
+     High-stakes poker scam used rigged card shufflers, X-ray tables, and special glasses
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/ai_investment_us_recession/&quot;&gt;
+     AI investment is the only thing keeping the US out of recession
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/bbc_probe_ai_news/&quot;&gt;
+     BBC probe finds AI chatbots mangle nearly half of news summaries
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   OpenEvolve, using a combination of 80 percent Gemini 2.5 Flash and 20 percent Gemini 2.5 Flash Lite,
+   &lt;a href=&quot;https://adrs-ucb.notion.site/moe-load-balancing&quot; rel=&quot;nofollow&quot;&gt;
+    at a cost of less than $10 and five hours
+   &lt;/a&gt;
+   , came up with a more efficient approach to packing the expert modules into GPUs – it replaced loops with vectorized tensor operations and implemented a zig-zag partitioning scheme to achieve a runtime of only 3.7 ms.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That&#x27;s a 5.0x speedup over the undisclosed reference implementation and a 146x speedup over DeepSeek&#x27;s implementation.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Another case study described in the UC Berkeley paper reports that through the use of OpenEvolve, the authors were able to speed up relational analytics where SQL queries invoke LLM inference operations over each row by a factor of three.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Asked whether OpenEvolve&#x27;s &quot;reasoning&quot; consists of just connecting dots that people missed in available data or shows evidence of a novel approach, co-author Audrey Cheng, PhD candidate at UC Berkeley, told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   in an email, &quot;I think these are hard questions to answer definitively (as they come down to whether LLMs are actually &#x27;thinking&#x27; or just doing sophisticated probability calculations).
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;LLMs definitely benefit from being trained on a much larger corpus of literature than any individual human researcher can comprehend, and this gives it advantages in discovering new ways to apply ideas from other domains.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Currently in systems/database performance research, we consider algorithms as &#x27;novel&#x27; if they show significant improvements in some way, even if they borrow ideas from other fields (as an example, see
+   &lt;a href=&quot;https://www.vldb.org/pvldb/vol18/p2602-cheng.pdf&quot; rel=&quot;nofollow&quot;&gt;
+    my paper
+   &lt;/a&gt;
+   applying fair sharing ideas from networking/operating systems to databases). So based on this criteria, yes, the developments would be considered novel by research standards.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Asked whether OpenEvolve is simply brute-forcing novelty from known data or is being &quot;creative,&quot; Cheng said that too is a difficult question.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I think one way to look at this is to think about how humans come up with ideas now,&quot; Cheng said. &quot;As researchers, we know that we &#x27;stand on the shoulders of giants.&#x27; Only by deeply understanding the ideas of others can we come up with &#x27;novel&#x27; solutions. The creative process requires known data. OpenEvolve uses this data and applies it to new problems (and may come up with unexpected solutions as well). So, I would say ADRS frameworks are creative.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cheng said she believes the potential impact of ADRS is huge.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We focus on systems performance problems because AI can already beat human-expert solutions here,&quot; she explained. &quot;Performance problems are generally easier to verify, and we&#x27;ve already seen some initial adoption in industry (see Datadog&#x27;s recent
+   &lt;a href=&quot;https://www.datadoghq.com/blog/engineering/self-optimizing-system/&quot; rel=&quot;nofollow&quot;&gt;
+    blog post
+   &lt;/a&gt;
+   as an example). I expect that most companies running systems at scale will eventually use some form of ADRS for performance tuning.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   And once researchers figure out how to do verification for other problems like security and fault tolerance, Cheng expects ADRS to be able to come up with more novel solutions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The current bottleneck is having a robust evaluation and validation framework,&quot; she explained. &quot;If that is in place, I imagine ADRS can apply widely to all kinds of systems problems (and also beyond computer science).&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft drops surprise Windows Server patch before weekend downtime </title>
+<link>https://www.theregister.com/2025/10/24/windows_server_patch/</link>
+<pubDate>Fri, 24 Oct 2025 23:15:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Microsoft has released an out-of-band update to patch a critical vulnerability in Windows Server Update Services (WSUS).
+  &lt;/p&gt;
+  &lt;p&gt;
+   The update addresses
+   &lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CVE-2025-59287&quot;&amp;gt;CVE-2025-59287
+   &lt;/a&gt;
+   , a remote code execution flaw affecting Windows Server versions 2012 through 2025. The vulnerability stems from insecure deserialization of untrusted data, allowing unauthenticated attackers to execute arbitrary code. A proof-of-concept exploit is publicly available.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The vulnerability has been assigned a maximum severity level of &quot;critical&quot;. Only servers with the WSUS role enabled are affected.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Microsoft recommends admins unable to immediately patch should disable the role on affected servers - although this will obviously prevent client updates from the server. Or they can choose to block inbound traffic to ports 8530 and 8531 on the host firewall to stop WSUS working.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The update is cumulative and includes October&#x27;s patches if not yet installed. A reboot is required.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Windows is chock-full of legacy code waiting to be abused by attackers, however, anything that could result in remote code execution requires swift resolution or mitigation. This particular issue relates to a &quot;legacy serialization mechanism,&quot; according to Microsoft.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/14/microsoft_october_2025_patch_tuesday/&quot;&gt;
+     Frightful Patch Tuesday gives admins a scare with 175+ Microsoft CVEs, 3 under attack
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/01/microsoft_intune_forgetfulness/&quot;&gt;
+     Microsoft admits to Intune forgetfulness
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/08/microsoft_wsus_extended_support/&quot;&gt;
+     Windows Server Update Services live to patch another day
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/19/wsus_drive_sync_deprecated/&quot;&gt;
+     Your days of driver sync via Windows Server Update Services are numbered
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   WSUS is on the
+   &lt;a href=&quot;https://www.theregister.com/2024/09/23/microsoft_wsus_deprecation/&quot; target=&quot;_blank&quot;&gt;
+    deprecated
+   &lt;/a&gt;
+   list for Windows Server, which means it is no longer being actively developed but remains a supported part of the operating system. Microsoft recently
+   &lt;a href=&quot;https://www.theregister.com/2025/04/08/microsoft_wsus_extended_support/&quot; target=&quot;_blank&quot;&gt;
+    confirmed
+   &lt;/a&gt;
+   it would continue supporting driver update synchronization to WSUS following user outcry over plans to end support in April 2025.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However Microsoft&#x27;s message to administrators is clear: switch to an alternative like its cloud-based Intune service.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Ultimately, an out-of-band update is serious business, particularly for a deprecated Windows component. While no removal date has been announced, this critical vulnerability raises questions about WSUS&#x27;s long-term viability. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cyber exec with lavish lifestyle charged with selling secrets to Russia </title>
+<link>https://www.theregister.com/2025/10/24/former_l3harris_cyber_director_charged/</link>
+<pubDate>Fri, 24 Oct 2025 19:19:13 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Federal prosecutors have charged a former general manager of US government defense contractor L3Harris&#x27;s cyber arm Trenchant with selling secrets to an unidentified Russian buyer for $1.3 million.
+  &lt;/p&gt;
+  &lt;p&gt;
+   According to the Justice Department, Peter Williams stole seven trade secrets belonging to two unnamed companies between April 2022 and June 2025 &quot;knowing and intending those secrets to be sold outside of the United States, and specifically to a buyer based in the Russian Federation.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/peter_williams_charges.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    court documents
+   &lt;/a&gt;
+   [PDF] don&#x27;t specify what the trade secrets involved, but Williams worked as a director and general manager at L3Harris&#x27; Trenchant division, which develops cyber weapons.
+  &lt;/p&gt;
+  &lt;p&gt;
+   According to the company&#x27;s
+   &lt;a href=&quot;https://www.l3harris.com/all-capabilities/trenchant&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    website
+   &lt;/a&gt;
+   , it supports &quot;national security operations with end-point intelligence solutions,&quot; and is &quot;a world authority on cyber capabilities, operating in the fields of computer network operations and vulnerability research.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   This is corporate speak for offensive cyber tech, such as zero-day exploits and surveillance tools. But Trenchant claims it uses its cyber powers for good, not evil.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Much of our work is de facto neither public nor publicised,&quot; the L3Harris website says about its
+   &lt;a href=&quot;https://www.l3harris.com/all-capabilities/offensive-cyber&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    offensive cyber capabilities
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We are particular about who we work with and so, for all the right reasons, our customer set is both select and small, comprising only those who share our own high ethical standards,&quot; it continues. &quot;Standing shoulder to shoulder with allied governments, defence, security and law enforcement agencies, we work to make the world a safer place by &#x27;preventing the event&#x27; and defending national security from ever-evolving threats.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2022/07/11/l3harris_nso_group/&quot;&gt;
+     US military contractor moves to buy Israeli spy-tech company NSO Group
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2022/07/27/us_congress_spyware_debate/&quot;&gt;
+     We&#x27;re likely only seeing &#x27;the tip of the iceberg&#x27; of Pegasus spyware use against the US
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/20/china_accuses_us_cyber_warfare/&quot;&gt;
+     China blames US for cyber break-in, claims America is world&#x27;s biggest bit burglar
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/exuber_cso_joe_sullivan_interview/&quot;&gt;
+     Ex-Uber CSO is gellin&#x27; like a felon with teen cyber crims, explains why they do it
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The lawsuit does not accuse Trenchant or L3Harris of any wrongdoing. A spokesperson for L3Harris declined to comment.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Williams, an Australian national, began working as a Trenchant director on October 23, 2024, and resigned on August 21, according to UK government
+   &lt;a href=&quot;https://find-and-update.company-information.service.gov.uk/officers/MM6HsvOwfzBes-88T7OQD0ID4LM/appointments&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    documents
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   In addition to charging Williams on two counts of trade-secret theft, federal prosecutors are also seeking the forfeiture of Williams&#x27; house in Washington, DC, 22 watches (including Rolexes, Tag Heuers, and Apple Watches), a light-blue Louis Vuitton handbag, a light-blue Moncler jacket, diamond jewelry from Tiffany, and all of his cryptocurrency funds in accounts across seven different banks and financial platforms.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Williams&#x27; attorney did not immediately respond to
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   &#x27;s inquiries. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> With impeccable timing, AWS debuts automated cloud incident report generator </title>
+<link>https://www.theregister.com/2025/10/23/aws_cloudwatch_automated_incident_reports/</link>
+<pubDate>Fri, 24 Oct 2025 18:17:26 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   In the same week that a massive outage of its own cloud inconvenienced millions of customers, AWS has delivered an improved interactive incident reporting service to help its customers explain what happened when their cloud-hosted resources strike trouble.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The service is an enhancement to the CloudWatch tool that AWS
+   &lt;a href=&quot;https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    promotes
+   &lt;/a&gt;
+   as just the thing to monitor your own AWS apps and resources in real time as it “offers many tools to give you system-wide observability of your application performance, operational health, and resource utilization.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   On Wednesday, AWS
+   &lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-cloudwatch-incident-report/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    announced
+   &lt;/a&gt;
+   that the tool “now offers interactive incident report generation, enabling customers to create comprehensive post-incident analysis reports in minutes.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   We’re told the new service “automatically gathers and correlates your telemetry data, as well as your input and any actions taken during an investigation, and produces a streamlined incident report.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Using the new feature you can automatically capture critical operational telemetry, service configurations, and investigation findings to generate detailed reports,” AWS adds. “Reports include executive summaries, timeline of events, impact assessments, and actionable recommendations. These reports help you better identify patterns, implement preventive measures, and continuously improve your operational posture through structured post incident analysis.”
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/21/aws_outage_update/&quot;&gt;
+     AWS admits more bits of its cloud broke as it recovered from DynamoDB debacle
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/18/cloudflare_ddosed_itself/&quot;&gt;
+     Cloudflare DDoSed itself with React useEffect hook blunder
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/21/optus_emergency_call_incident/&quot;&gt;
+     Firewall upgrade linked to three deaths after Australian telco cut off emergency calls
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/01/afghanistan_goes_offline/&quot;&gt;
+     Taliban impose tele-ban and take Afghanistan offline
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   imagines plenty of AWS customers – and perhaps AWS itself – would have found this mighty useful earlier this week during the
+   &lt;a href=&quot;https://www.theregister.com/2025/10/20/amazon_aws_outage/&quot; target=&quot;_blank&quot;&gt;
+    DynamoDB debacle
+   &lt;/a&gt;
+   that
+   &lt;a href=&quot;https://www.theregister.com/2025/10/20/aws_outage_chaos/&quot; target=&quot;_blank&quot;&gt;
+    disrupted
+   &lt;/a&gt;
+   numerous online services and
+   &lt;a href=&quot;https://www.theregister.com/2025/10/20/aws_outage_amazon_brain_drain_corey_quinn/&quot; target=&quot;_blank&quot;&gt;
+    betrayed
+   &lt;/a&gt;
+   the changing nature of the Amazonian workforce.
+  &lt;/p&gt;
+  &lt;p&gt;
+   One of Amazon’s rivals in the observability caper – Datadog – has slightly better timing as on Tuesday it launched a
+   &lt;a href=&quot;https://updog.ai/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    free site
+   &lt;/a&gt;
+   that provides status updates on dozens of major SaaS platforms and 13 AWS services. Datadog told
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   it spotted the DynamoDB disaster 32 minutes before AWS posted its first info about the matter, suggesting the cloud giant really missed a trick by releasing the CloudWatch upgrade a day later. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Engineering CPO is easy — scaling it for AI will take an ecosystem </title>
+<link>https://www.theregister.com/2025/10/24/engineering_cpo_easy_scaling/</link>
+<pubDate>Fri, 24 Oct 2025 18:03:54 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   It has taken a lot of dreaming and even more engineering, but the many promises of silicon photonics are starting to make their way into real products in the datacenter. It doesn&#x27;t hurt that high-bandwidth and low-latency interconnects are a necessity for GenAI platforms and that the world is willing to spend enormous amounts of money to fulfill the promises of superintelligence and its agentic AI killer app.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Scale-out networks have been using pluggable optical transceivers for decades because of the need for network reach that is larger than can be built using electrical wires. And now, with co-packaged optics, the optical interconnect is being brought down into the package for datacenter switches and, in the future, for compute engines and even memory subsystems that feed into them.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It is not a question of when, much less if, but more a question of when will co-packaged optics, or CPO, be manufacturable at the high volumes and relatively low costs that are demanded in AI clusters. CPO will get traction first, it seems, in scale-out networks, just like optical transceivers did, because the volumes are relatively low and can be used as means of learning all of the tricks of volume manufacturing that will be needed before CPO can be used to stitch compute engines and memories together in rackscale systems and across rows and rows of gear. (And deeper down into the compute engine socket, optical interposers may be used to stitch together components.)
+  &lt;/p&gt;
+  &lt;p&gt;
+   Here is the thing: Optics alone does not increase the bandwidth of links, but it does allow for a much larger number of links to be brought to bear, bandwidth that will be absolutely necessary for interconnects between XPUs and eventually their memories. The challenge is an order of magnitude more complexity, and then very quickly another order of magnitude will have to come. This is what will be required to scale from tens of thousands of XPUs to hundreds of thousands to millions in a single AI system, which is a requirement for training models in the coming years.
+  &lt;/p&gt;
+  &lt;p&gt;
+   How can the industry manufacture the necessary components, at scale and without breaking the bank, to scale up compute and extend memory for these systems before the end of the decade? This is the question. and we will get some answers from experts in a webinar on November 5 from 9 am to 10 am Pacific Standard Time. Our panelists include:
+  &lt;/p&gt;
+  &lt;p&gt;
+   • Erez Shaizaf, chief technology officer at Alchip• Adit Narasimha, vice president and general manager of emerging technology at Astera Labs • Vladimir Stojanovic, chief technology officer and co-founder at Ayar Labs
+  &lt;/p&gt;
+  &lt;p&gt;
+   Join moderator Timothy Prickett Morgan from The Next Platform along with these industry experts to discuss how CPO will be used to weave future AI systems together. You can register for the webinar
+   &lt;a href=&quot;https://bit.ly/475K7zM&quot; rel=&quot;nofollow&quot;&gt;
+    at this link
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Sora makes slurfect deepfakes of celebs spewing racial epithets </title>
+<link>https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/</link>
+<pubDate>Fri, 24 Oct 2025 17:16:30 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Guardrails? What guardrails? Naughty netizens found a way to trick the Sora 2 video generator into producing deepfakes of public figures, including OpenAI CEO Sam Altman and billionaire Mark Cuban, that make it sound as though they&#x27;re spewing racial slurs. The trick works despite Sora&#x27;s built-in filters meant to block hateful language.
+  &lt;/p&gt;
+  &lt;p&gt;
+   AI detection platform Copyleaks
+   &lt;a href=&quot;https://copyleaks.com/blog/racist-meme-on-sora&quot; rel=&quot;nofollow&quot;&gt;
+    reported
+   &lt;/a&gt;
+   Wednesday that its review of the recently released Sora 2 app, with its improved video generation model, uncovered several videos using celebrity likenesses to recreate a 2020
+   &lt;a href=&quot;https://www.independent.co.uk/travel/news-and-advice/jetblue-passenger-racist-racism-kicked-off-flight-jamaica-b1339502.html&quot; rel=&quot;nofollow&quot;&gt;
+    incident
+   &lt;/a&gt;
+   in which a man wearing a Burger King crown was kicked off a JetBlue flight for a racist tirade. In place of the James May lookalike from the original incident, Sora users recreated the scene using
+   &lt;a href=&quot;https://sora.chatgpt.com/p/s_68f11303e1208191af5a74f7e843f968&quot; rel=&quot;nofollow&quot;&gt;
+    Altman
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://sora.chatgpt.com/p/s_68f10cbfbb308191b86dcc96d50c7856&quot; rel=&quot;nofollow&quot;&gt;
+    Cuban
+   &lt;/a&gt;
+   , as well as popular streamers
+   &lt;a href=&quot;https://sora.chatgpt.com/p/s_68f04d6dc8408191a888fa56c5be3635&quot; rel=&quot;nofollow&quot;&gt;
+    xQc
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://sora.chatgpt.com/p/s_68f04f4676ac81918553dde83df70cfa&quot; rel=&quot;nofollow&quot;&gt;
+    Amouranth
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://sora.chatgpt.com/p/s_68ee779560188191a514cc882cbd5f97&quot; rel=&quot;nofollow&quot;&gt;
+    IDKSterling
+   &lt;/a&gt;
+   , and YouTuber Jake Paul.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Sora 2 users weren&#x27;t able to perfectly recreate the incident, mind you, as OpenAI&#x27;s software does include guardrails to prevent the creation of content with epithets used in the original (i.e., the n-word). However, a simple homophone can be enough to sidestep those restrictions and make it sound as though public figures, including some who&#x27;ve opted into Sora&#x27;s Cameo feature, were uttering racist slurs, according to Copyleaks.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The so-called Cameo feature, added when Sora 2 launched last month, allows users to upload short clips of themselves that can then be inserted into Sora-generated videos. There&#x27;s no official list of celebrities and public figures available in Sora, but users have
+   &lt;a href=&quot;https://travisnicholson.medium.com/complete-list-of-allowed-celebrities-on-sora-2-ai-video-d7299eeabc8a&quot; rel=&quot;nofollow&quot;&gt;
+    compiled
+   &lt;/a&gt;
+   their own that include a number of dead people and historical figures whose families have been
+   &lt;a href=&quot;https://www.theguardian.com/technology/2025/oct/17/openai-sora-ai-videos-deepfake&quot; rel=&quot;nofollow&quot;&gt;
+    less than happy
+   &lt;/a&gt;
+   about their inclusion, apparently granted without permission.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;To evade platform filters meant to block hate speech, users appeared to prompt Sora with coded or phonetically similar terms—such as &#x27;knitter&#x27;—to generate audio that mimics a well-known racial slur,&quot; Copyleaks said. &quot;The digital double of Altman, for example, screams &quot;I hate knitters&quot; while being escorted from the plane.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The other videos that Copyleaks listed all include the word &quot;knitters&quot; in place of particular racist terminology, while the
+   &lt;a href=&quot;https://www.tiktok.com/t/ZP8AW3u5Q/&quot; rel=&quot;nofollow&quot;&gt;
+    Jake Paul video
+   &lt;/a&gt;
+   instead uses the term &quot;neck hurts.&quot; While none of the posts drove a large volume of traffic on Sora itself, Copyleaks noted that many of the videos have been reposted to platforms like TikTok, where one of the Paul videos has been liked more than 168,000 times. A second example of content using Paul&#x27;s likeness had him explaining that he hated &quot;juice&quot; that alluded to Jewish people, not liquid pressed from fruit and vegetables.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/15/japan_openai_copyrighted_anime/&quot;&gt;
+     Japan tells OpenAI to stop spiriting away its copyrighted anime
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/12/genai_lawsuit/&quot;&gt;
+     Suetopia: Generative AI is a lawsuit waiting to happen to your business
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/02/23/ai_jobs_tyler_perry/&quot;&gt;
+     AI comes for jobs at studio of American filmmaker Tyler Perry
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/21/ai_wins_imitation_game_readers/&quot;&gt;
+     AI does a better job of ripping off the style of famous authors than MFA students do
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &quot;This behavior illustrates an unsurprising trend in prompt-based evasion, where users intentionally probe systems for weaknesses in content moderation,&quot; Copyleaks noted. &quot;When combined with the likenesses of recognizable individuals, these deepfakes become more viral and damaging—spreading quickly across and beyond the platform.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   In short, copyright concerns aren&#x27;t even the tip of the iceberg when it comes to concerns of Sora 2&#x27;s capacity to distort reality, damage intellectual property, and harm reputations.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;What makes the trend we&#x27;ve identified particularly concerning is the weaponization of recognizable public figures,&quot; Copyleaks said of the risk behind this sort of content. &quot;The combination of a familiar face with offensive content is jarring and drives engagement in ways that anonymous or fictional content doesn&#x27;t.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cuban doesn&#x27;t appear concerned, at least: He&#x27;s simply taken to deleting the videos when they&#x27;re posted on Sora, the entrepreneur
+   &lt;a href=&quot;https://x.com/mcuban/status/1981406069264973916&quot; rel=&quot;nofollow&quot;&gt;
+    said
+   &lt;/a&gt;
+   on X. Unfortunately, once they&#x27;re exported from Sora to the wider internet, that gets a lot more difficult, and they&#x27;re already out there.
+  &lt;/p&gt;
+  &lt;p&gt;
+   OpenAI didn&#x27;t respond to questions for this story, and the videos Copyleaks identified are still available on Sora as of writing. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Uncle Sam&#x27;s new power plan will plug AI farms into the grid faster </title>
+<link>https://www.theregister.com/2025/10/24/doe_datacenter_grid_connection/</link>
+<pubDate>Fri, 24 Oct 2025 16:52:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   The US Energy Secretary wants to see datacenters connected to the grid faster, and has directed the Federal Energy Regulatory Commission (FERC) to implement new rules that speed the process.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a letter to FERC, which oversees electricity transmission, Secretary Chris Wright instructed it to implement various procedures, with one proposed rule to limit the time taken to review connection decisions to 60 days.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://www.energy.gov/articles/secretary-wright-acts-unleash-american-industry-and-innovation-newly-proposed-rules&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Announcing the move
+   &lt;/a&gt;
+   , the Department of Energy (DOE) said that the US is experiencing an unprecedented surge in electricity demand, and that the nation&#x27;s ability to remain at the forefront of technological innovation depends on an affordable, reliable, and secure supply of energy.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That surge in electricity demand is due in part to a boom in datacenter construction, itself a result of the AI fad that has seen billions of dollars thrown at developing and training ever larger machine learning models on ever more power-hungry hardware.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   A recent report by Deloitte Insights estimated that the power draw from all these American bit barns may be
+   &lt;a href=&quot;https://www.theregister.com/2025/06/26/us_datacenter_power_crunch/&quot; target=&quot;_blank&quot;&gt;
+    more than 30 times greater by 2035
+   &lt;/a&gt;
+   , if growth continues along the same path.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Meanwhile, the same report noted lengthy delays in getting new-build projects connected to the grid, whether they are datacenters or energy generation facilities. There is currently a seven-year wait on some requests for connection, Deloitte claimed.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Secretary Wright says he wants to cut through all that, and accelerate the connection process for large loads, including datacenters.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In the letter, he notes that FERC has not historically exerted jurisdiction over load connections, but he believes that the interconnection of large loads directly to the interstate transmission system should fall squarely within the commission&#x27;s jurisdiction.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The proposed reforms would apply only to new loads greater than 20 MW and would make load facilities subject to standardized study deposits, readiness requirements, and withdrawal penalties, as generator sites are, to deter speculative projects and provide a clearer picture of actual demand.
+  &lt;/p&gt;
+  &lt;p&gt;
+   When it comes to large loads, Secretary Wright proposes that applicants that agree to be curtailable should have their request expedited. Curtailable loads can be reduced or temporarily shut off to stabilize the grid.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We seek comment on appropriate deadlines for such an expedited study process, including whether such studies can be completed in 60 days,&quot; he states in the letter.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/ai_investment_us_recession/&quot;&gt;
+     AI investment is the only thing keeping the US out of recession
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/datacenter_jet_engines/&quot;&gt;
+     Grounded jet engines take off again as datacenter generators
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/17/hyperscaler_datacenter_ocp/&quot;&gt;
+     Hyperscalers try to beat the heat with larger racks, more air flow
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/16/texas_ai_bitbarns/&quot;&gt;
+     Decomposed dinosaurs make Texas a top destination for AI bit barns
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Secretary Wright also directed FERC to remove unnecessary burdens for preliminary hydroelectric power permits, which appears to mean disregarding any objections to them being built.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;In recent orders, the commission denied a series of applications for preliminary permits on the basis that third parties responsible for the lands on which the projects were to be located opposed the preliminary permit,&quot; he said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A new section is proposed to be added to the commission&#x27;s regulations &quot;to codify and clarify that opposition from third parties is not a basis to deny an application for a preliminary permit,&quot; his letter states.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The DOE has already been moving to address issues with energy generation and datacenter sites getting mired in permit delays.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In August, the department named ten companies it will work with to
+   &lt;a href=&quot;https://www.theregister.com/2025/08/14/us_doe_names_firms_that/&quot; target=&quot;_blank&quot;&gt;
+    test out advanced atomic reactor projects
+   &lt;/a&gt;
+   , with the aim of speeding new generators into service. In July, it picked out four federal government sites where private sector firms will be invited to
+   &lt;a href=&quot;https://www.theregister.com/2025/07/25/doe_ai_infra/&quot; target=&quot;_blank&quot;&gt;
+    colocate datacenters and energy generation projects
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Last month, President Trump hosted many of Silicon Valley&#x27;s top brass at a White House dinner where he
+   &lt;a href=&quot;https://www.theregister.com/2025/09/05/trump_rewards_tech_industry_loyalty/&quot; target=&quot;_blank&quot;&gt;
+    pledged to remove obstacles
+   &lt;/a&gt;
+   to connecting datacenters to the electricity grid and supplying them with enough power. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> New boss took charge of project code and sent two billion unwanted emails </title>
+<link>https://www.theregister.com/2025/10/24/on_call/</link>
+<pubDate>Fri, 24 Oct 2025 16:52:36 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Welcome to another instalment of On Call,
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   &#x27;s weekly wander through your tales of tech support.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This week, meet a reader we&#x27;ll Regomize as &quot;Nick&quot; who in the late 2000s found himself working as a contractor at a London investment bank.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I had technical oversight of a project related to overnight valuations of the bank&#x27;s credit derivative products,&quot; Nick told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Some of you may remember those products were a big reason the global economy tanked in 2008. Nick wasn&#x27;t responsible for that mess, but his job did involve systems that valued the bank&#x27;s products overnight, so that when trading started in the morning everything was shipshape.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;We needed to know quickly if something did go awry with the process, so we implemented a Log4j plug-in that sent out an email whenever an error was detected, together with all the error details,&quot; Nick explained. That system was rate-limited to send error message emails no more than once every ten seconds.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;h3&gt;
+    Security nightmare stories needed!
+   &lt;/h3&gt;
+   &lt;p&gt;
+    Did your boss cause a crisis by taping passwords to his monitor? Or perhaps a Nigerian prince phished a colleague?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Share your stories of woeful infosec and they might appear in a future edition of &quot;PWNED,&quot; our forthcoming weekly feature about the worst security breaches that never should have happened.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Drop us a line at
+    &lt;a href=&quot;mailto:pwned@sitpub.com&quot;&gt;
+     pwned@sitpub.com
+    &lt;/a&gt;
+    . Anonymity guaranteed.
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The system worked … until the bank hired a new project manager who decided the best way to understand the system was to take charge of the next release.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;He duly went through the build and release scripts, decided that the Log4j plug-in had no place in a release system and pulled it, without mentioning this to the rest of the team.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Of course the new project manager made mistakes – especially the omission of a changed SQL script – which became evident when the new release went live on Saturday.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;At 2:00 AM on Sunday morning I receive a call saying the system had crashed,&quot; Nick told On Call. &quot;I logged in but could not see any error messages – because the system had generated two billion SQL error messages.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The new project manager&#x27;s code changes meant the one-error-every-ten-seconds rule was gone, so every single one of the two billion errors resulted in an email.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That flood of messages swamped the bank&#x27;s email servers, giving Nick no evidence with which to diagnose the issue.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/17/on_call/&quot;&gt;
+     &#x27;Fax virus&#x27; panicked a manager and sparked job-killing Reply-All incident
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/10/on_call/&quot;&gt;
+     Client defended engineer after oil baron-turned tech support entrepreneur lied about dodgy dealings
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/03/on_call/&quot;&gt;
+     Energy drink company punished ERP graybeard for going too fast
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/26/on_call/&quot;&gt;
+     Hardware inspector fired for spotting an error he wasn&#x27;t trained to find
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &quot;I had no idea about the problem, so told the support group to restart the calculations. The result was another two billion email error messages.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;It took the best part of two days to get the email servers operational again,&quot; Nick told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This story has a happy ending, because the project manager understood the error of his ways, stopped working solo, and became a proper team player.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We did all work well together in the end,&quot; Nick told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Have you been summoned in the small hours to fix a mess made your boss? If so,
+   &lt;a href=&quot;mailto:oncall@theregister.com&quot; target=&quot;_blank&quot;&gt;
+    click here
+   &lt;/a&gt;
+   to send On Call an email so we can immortalize your tale on a future Friday. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SpaceX pulls plug on 2,500 Starlink terminals tied to Myanmar fraud farms </title>
+<link>https://www.theregister.com/2025/10/23/spacex_starlink_myanmar/</link>
+<pubDate>Fri, 24 Oct 2025 16:52:34 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   SpaceX says it has shut down thousands of Starlink terminals that were powering Myanmar&#x27;s notorious scam compounds after its satellite network was found to be keeping human trafficking and cyber-fraud operations online in the country&#x27;s lawless border zones.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a statement
+   &lt;a href=&quot;https://x.com/LaurenDreyer/status/1980816703459082632&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    posted on X
+   &lt;/a&gt;
+   , SpaceX&#x27;s senior vice president of commercial business, Lauren Dreyer, said the company had &quot;proactively identified and disabled over 2,500 Starlink Kits in the vicinity of suspected scam centers&quot; in Myanmar. She added that SpaceX &quot;complies with local laws in all 150+ markets where Starlink is licensed to operate&quot; and takes &quot;appropriate action&quot; when it detects violations of its acceptable use policy or applicable law.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.theregister.com/2023/12/08/human_trafficking_for_cyber_scam/&quot;&gt;
+    &lt;img alt=&quot;call center&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2023/09/20/shutterstock_call_center.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+    &lt;h2 title=&quot;Interpol increasingly concerned as abject abuse of victims scales far beyond Asia origins&quot;&gt;
+     That call center tech scammer could be a human trafficking victim
+    &lt;/h2&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The move comes just days after Myanmar&#x27;s military authorities raided one of the country&#x27;s largest online fraud operations, a sprawling compound near the Thai border known as KK Park. Officials reportedly detained more than 2,000 people and seized dozens of Starlink terminals believed to have been used by gangs to maintain internet access in the region, where conventional telecom services are often restricted or monitored.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The KK Park raid marked the latest in a series of crackdowns on human trafficking-linked cybercrime rings operating in special economic zones across Myanmar, Cambodia, and Laos. Many of these compounds are believed to be controlled by Chinese-speaking criminal syndicates running online fraud schemes, from crypto investment scams to fake romance and pig-butchering operations, that target victims around the world.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Until recently, these syndicates relied on unstable local networks or smuggled SIM cards to stay online. The arrival of Starlink, with its global satellite coverage and portable hardware, gave them a new way to operate under the radar. According to
+   &lt;a href=&quot;https://www.reuters.com/world/asia-pacific/us-senator-wants-musk-block-use-starlink-by-financial-fraud-groups-southeast-2025-07-28/?&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    reports
+   &lt;/a&gt;
+   , black market Starlink terminals have been flooding into Southeast Asia via neighboring Thailand and China, often sold at inflated prices and activated using accounts registered elsewhere.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/31/thai_cambodia_war_cyberscam_links/&quot;&gt;
+     Lethal Cambodia-Thailand border clash linked to cyber-scam slave camps
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/22/un_asian_scam_calls/&quot;&gt;
+     UN says Asian scam call center epidemic expanding globally amid political heat
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/21/thailand_ready_to_welcome_7000/&quot;&gt;
+     Thailand ready to welcome 7,000 trafficked scam call center victims back from Myanmar
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/05/03/operation_pandora_europol/&quot;&gt;
+     Europol op shutters 12 scam call centers and cuffs 21 suspected fraudsters
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   SpaceX&#x27;s announcement suggests the company is stepping up enforcement against such misuse. Dreyer admitted that while Starlink has brought &quot;immense benefits&quot; by connecting the unconnected, it also carries &quot;a risk of misuse by bad actors.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The statement is one of the clearest acknowledgements yet from SpaceX that its low Earth orbit broadband service has been exploited by criminal groups. It also comes amid mounting pressure on the company to tighten oversight as governments struggle to curb transnational cybercrime networks that thrive on the connectivity Starlink enables.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Myanmar&#x27;s military has not confirmed whether it coordinated with SpaceX ahead of this week&#x27;s takedown, though officials told local media that seized terminals would be investigated and destroyed.
+  &lt;/p&gt;
+  &lt;p&gt;
+   For Musk&#x27;s outfit, it&#x27;s another reminder that the same satellites bringing Wi-Fi to the world&#x27;s dead zones can just as easily beam bandwidth to people who&#x27;d rather stay off the radar, or on the wrong side of it. As SpaceX puts it, the goal is to ensure Starlink &quot;remains a force for good&quot; – though in Myanmar&#x27;s lawless borderlands, keeping that promise may prove harder than beaming down bandwidth. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI&#x27;s Atlas shrugs off inevitability of prompt injection, releases AI browser anyway </title>
+<link>https://www.theregister.com/2025/10/22/openai_defends_atlas_as_prompt/</link>
+<pubDate>Fri, 24 Oct 2025 16:52:32 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   OpenAI&#x27;s brand new Atlas browser is more than willing to follow commands maliciously embedded in a web page, an attack type known as indirect prompt injection.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Prompt injection vulnerability is a common flaw among browsers that incorporate AI agents like Perplexity&#x27;s
+   &lt;a href=&quot;https://www.theregister.com/2025/07/09/perplexity_comet_browser/&quot;&gt;
+    Comet
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://fellou.ai/&quot; rel=&quot;nofollow&quot;&gt;
+    Fellou
+   &lt;/a&gt;
+   , as noted in
+   &lt;a href=&quot;https://brave.com/blog/unseeable-prompt-injections/&quot; rel=&quot;nofollow&quot;&gt;
+    a report
+   &lt;/a&gt;
+   published by Brave Software on Tuesday, coincidentally amid OpenAI&#x27;s handwaving about the debut of Atlas.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Indirect prompt injection can occur when an AI model or agent handles content like a web page or image and then treats that content as if it were part of its instructed task. Direct prompt injection refers to instructions entered directly into a model&#x27;s input box that bypass or override existing system instructions.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;h3&gt;
+    Security nightmare stories needed!
+   &lt;/h3&gt;
+   &lt;p&gt;
+    Boss get the company hacked because he taped passwords to his monitor? Coworker get phished by a Nigerian prince?
+   &lt;/p&gt;
+   &lt;p&gt;
+    Share the dirty details and they might appear in a future edition of PWNED, our new weekly feature about the worst security breaches that never should have happened.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Drop us a line at
+    &lt;a href=&quot;mailto:pwned@sitpub.com&quot;&gt;
+     pwned@sitpub.com
+    &lt;/a&gt;
+    . Your anonymity is guaranteed.
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;What we&#x27;ve found confirms our initial concerns: indirect prompt injection is not an isolated issue, but a systemic challenge facing the entire category of AI-powered browsers,&quot; Artem Chaikin, senior mobile security engineer for Brave, and Shivan Kaul Sahib, VP of privacy and security, wrote in their post.
+  &lt;/p&gt;
+  &lt;p&gt;
+   US Editor Avram Piltch created a web page with text on it telling the browser to open Gmail and exfiltrate the subject line of the first email and send it to another site. Fellou fell for it, but neither Atlas nor Comet took the bait.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Pranav Vishnu, product lead for ChatGPT Atlas, did warn potential users that OpenAI&#x27;s browser-AI chimera
+   &lt;a href=&quot;https://www.theregister.com/2025/10/22/openai_crams_chatgpt_into_atlas/&quot;&gt;
+    might entail some risk
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   It didn&#x27;t take long for the internet community to demonstrate indirect prompt injection using Atlas, a Chromium-based browser that makes ChatGPT available as an agent capable of processing web page data.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Developer CJ Zafir
+   &lt;a href=&quot;https://x.com/cjzafir/status/1981050216926368212&quot; rel=&quot;nofollow&quot;&gt;
+    said
+   &lt;/a&gt;
+   in a social media post that he uninstalled Atlas after finding &quot;prompt injections are real.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Another security researcher also reported
+   &lt;a href=&quot;https://x.com/p1njc70r/status/1980701879987269866&quot; rel=&quot;nofollow&quot;&gt;
+    a successful prompt injection test
+   &lt;/a&gt;
+   using Google Docs, which
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   was able to replicate – getting ChatGPT in Atlas to print &quot;Trust No AI&quot; in lieu of an actual summary when asked to analyze a document.
+  &lt;/p&gt;
+  &lt;p&gt;
+   AI security researcher Johann Rehberger, who has identified
+   &lt;a href=&quot;https://embracethered.com/blog/index.html&quot; rel=&quot;nofollow&quot;&gt;
+    numerous other prompt injection attacks
+   &lt;/a&gt;
+   on AI models and tools,
+   &lt;a href=&quot;https://x.com/wunderwuzzi23/status/1980811307797659827&quot; rel=&quot;nofollow&quot;&gt;
+    published
+   &lt;/a&gt;
+   his own Google Docs-based prompt injection demonstration in which the &quot;malicious&quot; instructions change the browser mode from dark to light.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/google_multi_arch_x86_arm_port/&quot;&gt;
+     Google porting all internal workloads to Arm, with help from GenAI
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/21/ai_eats_leisure_time/&quot;&gt;
+     AI eats leisure time, makes employees work more, study finds
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/reddit_sues_perplexity/&quot;&gt;
+     Reddit to Perplexity: Get your filthy hands off our forums
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/microsoft_nadella_pay/&quot;&gt;
+     AI bubble inflates Microsoft CEO pay to $96.5M
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   asked OpenAI to comment. A spokesperson pointed to a lengthy X
+   &lt;a href=&quot;https://x.com/cryps1s/status/1981037851279278414&quot; rel=&quot;nofollow&quot;&gt;
+    post
+   &lt;/a&gt;
+   published Wednesday by Dane Stuckey, OpenAI&#x27;s chief information security officer, that acknowledges the possibility of prompt injection and touches on various mitigation strategies.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;One emerging risk we are very thoughtfully researching and mitigating is prompt injections, where attackers hide malicious instructions in websites, emails, or other sources, to try to trick the agent into behaving in unintended ways,&quot; Stuckey wrote.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Stuckey said that OpenAI&#x27;s long-term goal is for people to trust the ChatGPT agent as if it were a security-conscious friend or colleague and that the company is working to make that happen. The implication is that it&#x27;s premature to trust Atlas.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;For this launch, we&#x27;ve performed extensive red-teaming, implemented novel model training techniques to reward the model for ignoring malicious instructions, implemented overlapping guardrails and safety measures, and added new systems to detect and block such attacks,&quot; said Stuckey. &quot;However, prompt injection remains a frontier, unsolved security problem, and our adversaries will spend significant time and resources to find ways to make ChatGPT agent fall for these attacks.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Rehberger in an email said he expects to look at Atlas in more detail when he has some time.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;At a high level prompt injection remains one of the top emerging threats in AI security, impacting confidentiality, integrity, and availability of data, and the threat does not have a perfect mitigation – much like social engineering attacks against humans,&quot; he explained.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;OpenAI has implemented guardrails and also security controls that make exploitation more challenging. However, carefully crafted content on websites (I call this offensive context engineering) can still trick ChatGPT Atlas into responding with attacker-controlled text or invoking tools to take actions. Yesterday, I showed a benign demo prank that illustrates this with ChatGPT Atlas by having a website change the window appearance of the browser when the user interacts with it.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is why, Rehberger said, implementing actual security controls downstream of LLM output, and not just guardrails, is essential, alongside human oversight.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Atlas also introduces new logged-in/logged-out modes to allow balancing some of the risks for users that understand the implications, giving them better control over data access,&quot; he said. &quot;This is an interesting approach and it&#x27;s clear that OpenAI is aware of the threat and is working on finding solutions to tackle this challenge.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Rehberger said that it&#x27;s still early in the development of agentic AI systems and a lot of the threats haven&#x27;t even been discovered yet.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a preprint
+   &lt;a href=&quot;https://arxiv.org/pdf/2412.06090&quot; rel=&quot;nofollow&quot;&gt;
+    paper
+   &lt;/a&gt;
+   [PDF] published last December that describes how prompt injection undermines the
+   &lt;a href=&quot;https://www.nccoe.nist.gov/publication/1800-26/VolA/index.html&quot; rel=&quot;nofollow&quot;&gt;
+    CIA triad
+   &lt;/a&gt;
+   (Confidentiality, Integrity, and Availability) that represent the pillars of information security, Rehberger concludes, &quot;Since there is no deterministic solution for prompt injection, it is important to highlight and document security guarantees applications can make, especially when building automated systems that process untrusted data. The message, often used in the author&#x27;s exploit demonstration remains: Trust No AI.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI goes after Microsoft 365 Copilot&#x27;s lunch with &#x27;company knowledge&#x27; feature </title>
+<link>https://www.theregister.com/2025/10/24/openai_chatgpt_company_knowledge/</link>
+<pubDate>Fri, 24 Oct 2025 15:51:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   OpenAI is chalenging Microsoft 365 Copilot with &quot;company knowledge,&quot; a new ChatGPT feature that connects to organizational data to generate business-specific answers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Now available for ChatGPT Business, Enterprise, and Edu,
+   &lt;a href=&quot;https://openai.com/index/introducing-company-knowledge/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    company knowledge
+   &lt;/a&gt;
+   integrates with apps like Slack, SharePoint, Google Drive, Teams, and Outlook. Notably absent: OneDrive, which could present an issue for some organizations.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Users authenticate each connector individually, meaning ChatGPT (powered by GPT-5) only accesses data it is authorized to see. OpenAI says it&#x27;s all encrypted and won&#x27;t be used for training. Administrators can review conversation logs through the Enterprise Compliance API⁠⁠ (opens in a new window) for reporting and regulatory purposes.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   asked OpenAI where data might end up and where it would be processed, but it just sent us a copy of the announcement by way of response. Data residency support varies by connector, so organizations should verify details before deployment.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/24/ministry_of_justice_chatgpt/&quot;&gt;
+     Britain&#x27;s Ministry of Justice just signed up to ChatGPT Enterprise
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/openai_defends_atlas_as_prompt/&quot;&gt;
+     OpenAI&#x27;s Atlas shrugs off inevitability of prompt injection, releases AI browser anyway
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/openai_crams_chatgpt_into_atlas/&quot;&gt;
+     OpenAI releases bot-tom feeding browser with ChatGPT built in
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/17/boris_johnson_loves_chatgpt/&quot;&gt;
+     Boris Johnson confesses: He&#x27;s fallen for ChatGPT
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Company knowledge is a shot across the bow of Microsoft 365 Copilot, which has struggled to gain traction despite some
+   &lt;a href=&quot;https://www.theregister.com/2025/10/20/lloyds_banking_copilot/&quot; target=&quot;_blank&quot;&gt;
+    positive productivity studies
+   &lt;/a&gt;
+   — others show
+   &lt;a href=&quot;https://www.theregister.com/2025/09/04/m365_copilot_uk_government/&quot; target=&quot;_blank&quot;&gt;
+    neutral or negative results
+   &lt;/a&gt;
+   , depending on your perspective.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, OpenAI&#x27;s corporate push has limitations. Unlike Microsoft&#x27;s deeply integrated &quot;Copilot All The Things&quot; approach, ChatGPT&#x27;s company knowledge mode must be manually selected for each conversation and can&#x27;t search the web, create images, or generate graphs. Users must toggle it off to access those features.
+  &lt;/p&gt;
+  &lt;p&gt;
+   When disabled, ChatGPT might still use the connectors to answer questions, &quot;but its responses won&#x27;t include the same depth or detailed citations.&quot; OpenAI said: &quot;We&#x27;re working to bring these experiences together in the coming months.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   ChatGPT Business is available at $25 per user per month (on an annual plan) versus Microsoft 365 Copilot&#x27;s
+   &lt;a href=&quot;https://www.microsoft.com/en-us/microsoft-365-copilot/pricing&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    $30 monthly fee
+   &lt;/a&gt;
+   . Combined with stronger brand recognition, this potentially positions ChatGPT as an attractive alternative for enterprises exploring AI assistants. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple faces £1.5B payout after losing UK App Store case </title>
+<link>https://www.theregister.com/2025/10/24/uk_class_action_apple/</link>
+<pubDate>Fri, 24 Oct 2025 14:56:14 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Apple could face claims estimated at around £1.5 billion after it lost a collective case in the UK arguing that its closed systems for apps resulted in overcharging businesses and consumers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The ruling from a Competition Appeal Tribunal responded to the case brought on behalf of 36 million UK iPhone and iPad users, both consumers and enterprise customers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Apple said it disagreed with
+   &lt;a href=&quot;https://www.catribunal.org.uk/sites/cat/files/2025-10/14037721%20Dr.%20Rachael%20Kent%20v%20Apple%20Inc.%20and%20Apple%20Distribution%20International%20Ltd%20-%20%20Judgment%20%5B2025%5D%20CAT%2067%2023%20Oct%202025_0.pdf&quot; target=&quot;_blank&quot;&gt;
+    the ruling
+   &lt;/a&gt;
+   [PDF] and planned to appeal.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The court found Apple had imposed charges for its iOS app distribution services and its in-app payment service charged developers a headline commission rate of 30 percent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a unanimous judgment, the court found Apple overcharged developers as a result of its behavior in the iOS app distribution services market and the iOS in-app payment services market. There was also an overcharge resulting from the extent to which developers passed on the costs to iPhone and iPad users.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The court found those represented in the case, led by academic Dr Rachael Kent, could be eligible for 8 percent interest on damages awarded.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Speaking to the BBC, Kent said the decision was a &quot;landmark victory, not only for App Store users, but for anyone who has ever felt powerless against a global tech giant.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a statement, Apple said the ruling&#x27;s view of its software marketplace was mistaken. It argued the App Store was good for UK businesses and consumers because it offered a space for developers to sell their work and somewhere users could choose from millions of software products.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This ruling overlooks how the App Store helps developers succeed and gives consumers a safe, trusted place to discover apps and securely make payments. The App Store faces vigorous competition from many other platforms – often with far fewer privacy and security protections,&quot; the tech giant said. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI investment is the only thing keeping the US out of recession </title>
+<link>https://www.theregister.com/2025/10/24/ai_investment_us_recession/</link>
+<pubDate>Fri, 24 Oct 2025 13:28:33 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   AI spending is keeping the US economy out of recession, with datacenter infrastructure and model development providing the only significant growth amid trade turmoil, tariff shocks, and high borrowing costs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is offsetting the drag from higher interest rates and the impact of the Trump administration&#x27;s chaotic trade policies, numerous sources say.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/10/03/ai_bubble_watch_markets/&quot;&gt;
+    &lt;img alt=&quot;In an employee share sell-off this week, OpenAI achieved a nominal value of $500 billion. Now all eyes are on the markets&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2025/10/03/shutterstock_market.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+    &lt;h2 title=&quot;Exploding valuations and mountains of debt, and yet....&quot;&gt;
+     Big money is nervous about AI hype, but not ready to call it a bubble
+    &lt;/h2&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;AI has kept the economy out of a recession,&quot; BNP Paribas chief US economist James Egelhof
+   &lt;a href=&quot;https://finance.yahoo.com/news/ai-is-keeping-the-us-economy-out-of-a-recession-100012367.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    told Yahoo Finance
+   &lt;/a&gt;
+   this week, noting the spending boom has convinced businesses that robust growth and a productivity surge are imminent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Apollo Global Management chief economist Torsten Sløk wrote yesterday: &quot;
+   &lt;a href=&quot;https://www.apolloacademy.com/ai-boom-debt-vs-equity/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    There is basically no growth in corporate capex outside of AI at the moment
+   &lt;/a&gt;
+   .&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Unlike typical investment patterns, AI spending hasn&#x27;t fallen despite Federal Reserve rate hikes because, Sløk noted, datacenter investment is ultimately financed by rising equity valuations of the &quot;Magnificent Seven&quot; including Microsoft, Amazon, Alphabet, and Nvidia.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Analyst firm Omdia estimates that
+   &lt;a href=&quot;https://www.theregister.com/2025/08/14/datacenter_investment/&quot; target=&quot;_blank&quot;&gt;
+    global datacenter capex will top $657 billion
+   &lt;/a&gt;
+   in 2025, almost double the figure of just two years ago, with the US dominating. Amazon&#x27;s annual datacenter spending alone exceeds $100 billion, roughly Costa Rica&#x27;s entire GDP.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Jason Furman, Economist and former Deputy Director of the US National Economic Council,
+   &lt;a href=&quot;https://www.nytimes.com/2025/10/23/opinion/ai-bubble-economy-bust.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    estimated
+   &lt;/a&gt;
+   in a New York Times podcast that 92 percent of the economic demand in the first two quarters of this year came from information processing equipment and software.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Ultimately, what we&#x27;re really hoping for is that AI shows up on the supply side of the economy, actually helping us do more with less,&quot; he said. Some of that is happening, he claimed, &quot;but there hasn&#x27;t been anything particularly special about productivity growth to date.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is echoed in numerous studies showing that despite the billions being poured into AI, the return on investment remains uncertain.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/microsoft_nadella_pay/&quot;&gt;
+     AI bubble inflates Microsoft CEO pay to $96.5M
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/15/microsoft_nvidia_ai_datacenter_deal/&quot;&gt;
+     Microsoft, Nvidia, and others inject $40B into AI bubble with massive datacenter deal
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/29/oracle_ai_debt/&quot;&gt;
+     Oracle will have to borrow at least $25B a year to fund AI fantasy, says analyst
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/03/anthropic_funding/&quot;&gt;
+     Investors throw another $13B on the Anthropic cash bonfire
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   A UK government
+   &lt;a href=&quot;https://www.theregister.com/2025/09/04/m365_copilot_uk_government/&quot; target=&quot;_blank&quot;&gt;
+    trial of Microsoft&#x27;s M365 Copilot
+   &lt;/a&gt;
+   found no discernible gain in productivity, speeding up some tasks yet making others slower. US research revealed that companies invested $35-40 billion in generative AI initiatives, yet
+   &lt;a href=&quot;https://www.theregister.com/2025/08/18/generative_ai_zero_return_95_percent/&quot; target=&quot;_blank&quot;&gt;
+    95 percent have seen zero returns
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/08/25/overinflated_ai_balloon/&quot;&gt;
+    &lt;img alt=&quot;hot air balloon decrease ressure&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2025/08/22/shutterstock_187711835.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+    &lt;h2 title=&quot;Are tech giants getting nervous? They should be&quot;&gt;
+     The air is hissing out of the overinflated AI balloon
+    &lt;/h2&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Questions about unsustainability are intensifying. Management consultants at Bain &amp; Company estimate that current spending trajectories would require the tech sector to generate
+   &lt;a href=&quot;https://www.theregister.com/2025/09/24/bain_ai_costs/&quot; target=&quot;_blank&quot;&gt;
+    $2 trillion in annual AI sales by 2030
+   &lt;/a&gt;
+   – fueling concerns about another tech bubble.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Bank of England&#x27;s Financial Policy Committee
+   &lt;a href=&quot;https://www.theregister.com/2025/10/08/boe_dotcom_bubble_ai/&quot; target=&quot;_blank&quot;&gt;
+    warned this month
+   &lt;/a&gt;
+   about the growing danger of a sudden correction in the financial markets due to inflated tech and AI stock valuations. Financial analysts have
+   &lt;a href=&quot;https://www.theregister.com/2025/10/03/ai_bubble_watch_markets/&quot; target=&quot;_blank&quot;&gt;
+    expressed particular concern
+   &lt;/a&gt;
+   over OpenAI&#x27;s $500 billion valuation despite the AI darling not turning a profit yet.
+  &lt;/p&gt;
+  &lt;p&gt;
+   OpenAI chief Sam Altman himself acknowledged the
+   &lt;a href=&quot;https://www.theregister.com/2025/08/15/boy_riding_bubble_realizes_what/&quot; target=&quot;_blank&quot;&gt;
+    AI industry is in a bubble
+   &lt;/a&gt;
+   , but seemed relaxed about potential consequences, even though a recent report claimed the company is
+   &lt;a href=&quot;https://www.theregister.com/2025/10/15/openais_chatgpt_popular_few_pay/&quot; target=&quot;_blank&quot;&gt;
+    losing about three times more money than it&#x27;s earning
+   &lt;/a&gt;
+   – with just 5 percent of ChatGPT&#x27;s 800 million users actually paying for it. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Alaska Airlines grounded by mystery IT meltdown </title>
+<link>https://www.theregister.com/2025/10/24/alaska_airlines_calls_a_ground/</link>
+<pubDate>Fri, 24 Oct 2025 12:06:13 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Timing is everything — except when it isn&#x27;t. US carrier Alaska Airlines has grounded its fleet once again due to a mystery IT issue.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://news.alaskaair.com/on-the-record/alaska-statement-on-it-outage/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    problem
+   &lt;/a&gt;
+   began at 3:30 pm Pacific Time on October 23 with a &quot;failure&quot; at the company&#x27;s primary data center. Alaska Airlines insisted it wasn&#x27;t a cybersecurity event or related to &quot;any other events.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The result? A systemwide ground stop of Alaska and Horizon Air flights, though Hawaiian Airlines (which joined Alaska in 2024) was apparently unaffected.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The IT outage has impacted several of our key systems that enable us to run various operations, necessitating the implementation of the ground stop to keep our aircraft in position,&quot; Alaska Airlines said. &quot;The safety of our flights was never compromised.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The ground stop wasn&#x27;t lifted until 11:30 pm Pacific Time, by which point more than 229 flights had been canceled. The company didn&#x27;t confirm delay numbers but warned that &quot;additional flight disruptions are likely as we reposition aircraft and crews throughout our network.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Customers took to social media to express their dissatisfaction with both the airline and its customer service. Some reported being on hold for hours as they attempted to contact the airline to find the fate of their flight, while others found themselves
+   &lt;a href=&quot;https://x.com/beardownbrian1/status/1981636791729041876&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    stranded
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   This marked the second such mystery outage after a
+   &lt;a href=&quot;https://www.theregister.com/2025/07/21/alaska_airlines_it_incident_grounding/&quot; target=&quot;_blank&quot;&gt;
+    July incident also grounded the fleet
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/22/technology_problems_cause_aviation_delays/&quot;&gt;
+     Tech troubles create aviation chaos on both sides of the Atlantic
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/28/aeroflot_system_compromise/&quot;&gt;
+     Aeroflot aeroflops over &#x27;IT issues&#x27; after attackers claim year-long compromise
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/07/klm_air_france_latest_major/&quot;&gt;
+     KLM, Air France latest major organizations looted for customer data
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/31/tsa_facial_recognition/&quot;&gt;
+     The TSA likes facial recognition at airports. Passengers and politicians, not so much
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/27/aloha_youve_been_pwned_hawaiian/&quot;&gt;
+     Aloha, you&#x27;ve been pwned: Hawaiian Airlines discloses &#x27;cybersecurity event&#x27;
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Alaska Airlines postponed the conference call for its
+   &lt;a href=&quot;https://news.alaskaair.com/company/alaska-air-group-reports-third-quarter-2025-results/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Q3 2025 financial results
+   &lt;/a&gt;
+   , originally scheduled for today.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Revenue hit $3.8 billion and net income dropped to $73 million, down from $236 million a year earlier. Q4 revenue is expected to increase by low single digits year over year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We do not yet have an estimate of the financial impact of the operational disruption on our fourth quarter results,&quot; the company
+   &lt;a href=&quot;https://news.alaskaair.com/company/media-advisory-alaska-air-group-postpones-conference-call-for-third-quarter-2025-financial-results/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The lingering question is what caused such a comprehensive failure? If the primary data center went down, customers would reasonably expect rapid failover to secondary systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   has asked Alaska Airlines for details. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Digital ID is now less about illegal working, more about rummaging through drawers </title>
+<link>https://www.theregister.com/2025/10/24/digital_id_rebrand/</link>
+<pubDate>Fri, 24 Oct 2025 11:12:59 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   UK Prime Minister Keir Starmer has relaunched his digital ID scheme as something that will make people&#x27;s lives easier, less than four weeks after announcing it as a measure to tackle illegal working.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Digital ID will be
+   &lt;a href=&quot;https://www.theregister.com/2025/09/26/uk_digital_id_confirmed/&quot; target=&quot;_blank&quot;&gt;
+    compulsory for anyone taking a new job
+   &lt;/a&gt;
+   after the scheme goes live by the end of this parliamentary session, the prime minister said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It will not, however, be used for surveillance or required for access to other services. &quot;You&#x27;ll never need ID to go into a hospital or anything like that,&quot; he
+   &lt;a href=&quot;https://www.bbc.co.uk/news/articles/cy0kynek55wo&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   . &quot;For people who simply don&#x27;t want it, well, they don&#x27;t need it – apart from the right to work.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This means digital ID will be optional for groups such as retired people, but mandatory for the
+   &lt;a href=&quot;https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/october2025&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    30.3 million Britons in payrolled jobs
+   &lt;/a&gt;
+   , except those staying with their current employer until retirement.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Starmer visited a branch of Barclays bank in Brighton to promote the scheme, where he claimed customers were &quot;really excited about it,&quot; according to the
+   &lt;a href=&quot;https://www.theargus.co.uk/news/25567774.prime-minister-visits-barcalys-bank-brighton/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Brighton Argus
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a
+   &lt;a href=&quot;https://www.gov.uk/government/news/new-digital-id-to-make-life-easier-for-millions&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    statement
+   &lt;/a&gt;
+   , the prime minister added: &quot;The digital ID is about putting power back in people&#x27;s hands, cutting the faff out of rummaging through drawers for documents and pointless bureaucracy we have accepted for too long while bringing Britain into the modern age.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The announcement also said the public consultation on the scheme &quot;will launch by the end of the year,&quot; a change of language from &quot;later this year&quot; when it was announced on September 26.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/01/digital_id_labour_conference/&quot;&gt;
+     Explain digital ID or watch it fizzle out, UK PM Starmer told
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/29/digital_id_opinion_column/&quot;&gt;
+     Digital ID, same place, different time: In this timeline, the result might surprise us
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/12/privacy_activists_warn_uk_digital_id_risks/&quot;&gt;
+     Privacy activists warn digital ID won&#x27;t stop small boats – but will enable mass surveillance
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/26/uk_digital_id_confirmed/&quot;&gt;
+     UK to roll out mandatory digital ID for right to work by 2029
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Separately, the government also confirmed that it was stripping the Department for Science, Innovation and Technology (DSIT) of responsibility for the scheme&#x27;s policy development, legislation, and oversight, although DSIT will still have to design, build, and deliver it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Instead, digital ID work will be
+   &lt;a href=&quot;https://www.gov.uk/government/news/machinery-of-government-digital-id&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    led by the Cabinet Office
+   &lt;/a&gt;
+   , which handles cross-government issues including efficiency and security.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The government&#x27;s plans for digital ID have attracted widespread opposition. An online petition calling for them to be scrapped has been
+   &lt;a href=&quot;https://petition.parliament.uk/petitions/730194&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    signed by more than 2.9 million people
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Other political parties have opposed the scheme, threatening its future if Labour loses the next election due by 2029. Louis Mosley, UK boss of security technology firm Palantir, claimed this month it will
+   &lt;a href=&quot;https://www.theregister.com/2025/10/03/uk_digital_id_clarity/&quot; target=&quot;_blank&quot;&gt;
+    not bid for work on digital ID
+   &lt;/a&gt;
+   as it was not in Labour&#x27;s 2024 general election manifesto. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> BBC probe finds AI chatbots mangle nearly half of news summaries </title>
+<link>https://www.theregister.com/2025/10/24/bbc_probe_ai_news/</link>
+<pubDate>Fri, 24 Oct 2025 10:09:39 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Four of the most popular AI chatbots routinely serve up inaccurate or misleading news content to users, according to a wide-reaching investigation.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A major
+   &lt;a href=&quot;https://www.bbc.co.uk/mediacentre/documents/news-integrity-in-ai-assistants-report.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    study
+   &lt;/a&gt;
+   [PDF] led by the BBC on behalf of the European Broadcasting Union (EBU) found that OpenAI&#x27;s ChatGPT, Microsoft Copilot, Google Gemini, and Perplexity misrepresented news content in almost half of the cases.
+  &lt;/p&gt;
+  &lt;p&gt;
+   An analysis of more than 3,000 responses from the AI assistants found that 45 percent of answers given contained at least one significant issue, 31 percent had serious sourcing problems, and a fifth had &quot;major accuracy issues, including hallucinated details and outdated information.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   When accounting for smaller slip-ups, a whopping 81 percent of responses included a mistake of some sort.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Gemini was identified as the worst performer, with researchers identifying &quot;significant issues&quot; in 76 percent of responses it provided – double the error rate of the other AI bots.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The researchers blamed this on Gemini&#x27;s poor performance in sourcing information, with researchers finding significant inaccuracies in 72 percent of responses. This was three times as many as ChatGPT (24 percent), followed by Perplexity and Copilot (both 15 percent).
+  &lt;/p&gt;
+  &lt;p&gt;
+   Errors were found in one in five responses from all AI assistants studied, including outdated information.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Examples included ChatGPT incorrectly stating that Pope Francis was still pontificating weeks after his death, and Gemini confidently asserting that NASA astronauts had never been stranded in space – despite two crew members having spent
+   &lt;a href=&quot;https://www.theregister.com/2024/08/07/nasa_spacex_starliner_boeing/&quot; target=&quot;_blank&quot;&gt;
+    nine months stuck on the International Space Station
+   &lt;/a&gt;
+   . Google&#x27;s AI bot told researchers: &quot;You might be confusing this with a sci-fi movie or news that discussed a potential scenario where astronauts could get into trouble.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The study, described as the largest of its kind, involved 22 public service media organizations from 18 countries.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The findings land not long after OpenAI admitted that its models are
+   &lt;a href=&quot;https://www.theregister.com/2025/09/17/openai_hallucinations_incentives/&quot; target=&quot;_blank&quot;&gt;
+    programmed to sound confident even when they&#x27;re not
+   &lt;/a&gt;
+   , conceding in a September paper that AI bots are rewarded for guessing rather than admitting ignorance – a design gremlin that rewards hallucinatory behavior.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hallucinations can show up in embarrassing ways. In May, lawyers representing Anthropic were
+   &lt;a href=&quot;https://www.theregister.com/2025/05/15/anthopics_law_firm_blames_claude_hallucinations/&quot; target=&quot;_blank&quot;&gt;
+    forced to apologize to a US court
+   &lt;/a&gt;
+   after submitting filings that contained fabricated citations invented by its Claude model. The debacle happened because the team failed to double-check Claude&#x27;s contributions before handing in their work.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/12/bbc_ai_news_accuracy/&quot;&gt;
+     AI summaries turn real news into nonsense, BBC finds
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/07/apple_responds_bbc_complaint/&quot;&gt;
+     Apple shrugs off BBC complaint with promise to &#x27;further clarify&#x27; AI content
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/12/20/apple_ai_headline_summaries/&quot;&gt;
+     Apple called on to ditch AI headline summaries after BBC debacle
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/12/17/apple_intelligence_bbc_complaint/&quot;&gt;
+     Apple Intelligence summary botches a headline, causing jitters in BBC newsroom
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   All the while, consumer use of AI chatbots is on the up. An accompanying
+   &lt;a href=&quot;https://www.bbc.co.uk/aboutthebbc/documents/audience-use-and-perceptions-of-ai-assistants-for-news.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Ipsos survey
+   &lt;/a&gt;
+   [PDF] of 2,000 UK adults found 42 percent trust AI to deliver accurate news summaries, rising to half of under-35s. However, 84 percent said a factual error would significantly damage their trust in an AI summary, demonstrating
+   &lt;a href=&quot;https://www.theregister.com/2025/02/12/bbc_ai_news_accuracy/&quot; target=&quot;_blank&quot;&gt;
+    the risks media outlets face
+   &lt;/a&gt;
+   from ill-trained algorithms
+  &lt;/p&gt;
+  &lt;p&gt;
+   The report was accompanied by
+   &lt;a href=&quot;https://www.bbc.co.uk/aboutthebbc/documents/news-integrity-in-ai-assistants-toolkit.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    a toolkit
+   &lt;/a&gt;
+   [PDF] designed to help developers and media organizations improve how chatbots handle news information and stop them bluffing when they don&#x27;t know the answer.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This research conclusively shows that these failings are not isolated incidents,&quot; said Jean Philip De Tender, EBU deputy director general. &quot;When people don&#x27;t know what to trust, they end up trusting nothing at all, and that can deter democratic participation.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Britain&#x27;s Ministry of Justice just signed up to ChatGPT Enterprise </title>
+<link>https://www.theregister.com/2025/10/24/ministry_of_justice_chatgpt/</link>
+<pubDate>Fri, 24 Oct 2025 07:33:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   OpenAI has signed up the UK&#x27;s Ministry of Justice as the latest public sector customer for ChatGPT Enterprise.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://openai.com/index/the-next-chapter-for-uk-sovereign-ai/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    agreement
+   &lt;/a&gt;
+   will deploy ChatGPT Enterprise on the desktops of 2,500 employees for use in &quot;routine tasks,&quot; such as writing support, compliance and legal work, data and research processes, and document analysis.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It doesn&#x27;t appear that it will feature in lawmaking, but neither OpenAI nor the Ministry of Justice gave us any more details regarding specifics, beyond what has already been made
+   &lt;a href=&quot;https://www.gov.uk/government/news/openai-to-expand-into-uk-data-hosting-after-major-growth-deal&quot; target=&quot;_blank&quot;&gt;
+    public
+   &lt;/a&gt;
+   , nor did we get a response about timelines or how much the deal is worth.
+  &lt;/p&gt;
+  &lt;p&gt;
+   OpenAI is also introducing UK data residency on October 24, thus easing some regulatory concerns. OpenAI calls it &quot;Sovereign AI,&quot; although true sovereignty means considerably more than where data is stored. Processing must also be considered.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   According to OpenAI, the MoJ is the first to take advantage of UK data residency under the agreement.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The UK is an important market for OpenAI, ranking among the top five globally for paid subscribers and developers. CEO Sam Altman said: &quot;The number of people using our products in the UK has increased fourfold in the past year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;It&#x27;s exciting to see them using AI to save time, increase productivity, and get more done. Civil servants are using ChatGPT to improve public services and established firms are reimagining operations. We&#x27;re proud to continue supporting the UK and the government&#x27;s AI plan.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   ChatGPT is already used in several tools, including &quot;
+   &lt;a href=&quot;https://www.theregister.com/2025/01/21/ai_humphrey_uk_government/&quot; target=&quot;_blank&quot;&gt;
+    Humphrey
+   &lt;/a&gt;
+   &quot; – an AI assistant designed to take some of the administrative load off civil servants – and &quot;Consult,&quot; which sorts public consultation responses to speed up the public consultation process.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The government last week issued a release that
+   &lt;a href=&quot;https://www.gov.uk/government/news/ground-breaking-use-of-ai-saves-taxpayers-money-and-delivers-greater-government-efficiency&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    attributes
+   &lt;/a&gt;
+   impressive time savings and efficiency gains to the use of the Consult tool. The software took two hours to categorize more than 50,000 responses to a government-commissioned review of the water sector. Experts needed a further 22 hours to check the results.
+  &lt;/p&gt;
+  &lt;p&gt;
+   UK government said &quot;the work of &#x27;Consult&#x27; was compared to two groups of experts. It agreed with one or both of the groups almost 83 percent of the time, while the two well-practiced human groups only agreed with each other 55 percent of the time.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/openai_defends_atlas_as_prompt/&quot;&gt;
+     OpenAI&#x27;s Atlas shrugs off security concerns over prompt injection
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/openai_crams_chatgpt_into_atlas/&quot;&gt;
+     OpenAI releases bot-tom feeding browser with ChatGPT built in
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/17/boris_johnson_loves_chatgpt/&quot;&gt;
+     Boris Johnson confesses: He&#x27;s fallen for ChatGPT
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/15/openais_chatgpt_popular_few_pay/&quot;&gt;
+     OpenAI&#x27;s ChatGPT is so popular that almost no one will pay for it
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   It was also deployed to support analysis by the Scottish government and to sort responses to the Digital Inclusion Action Plan.
+  &lt;/p&gt;
+  &lt;p&gt;
+   OpenAI is not the only AI with its claws in the British administration. The Department for Health and Social Care
+   &lt;a href=&quot;https://www.gov.uk/government/news/major-nhs-ai-trial-delivers-unprecedented-time-and-cost-savings&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    reported
+   &lt;/a&gt;
+   productivity improvements during a trial of Microsoft 365 Copilot covering 30,000 NHS staff across 90 organizations. According to Microsoft, an average of 43 minutes per person per day was saved.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The figures were then extrapolated to 400,000 hours of staff time being saved every month – &quot;amounting to millions of hours annually.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   A trial at the Department for Business and Trade showed
+   &lt;a href=&quot;https://www.theregister.com/2025/09/04/m365_copilot_uk_government/&quot; target=&quot;_blank&quot;&gt;
+    little or no discernible gain
+   &lt;/a&gt;
+   in productivity, however. Some tasks such as writing emails or summarizing meetings were improved. Other tasks like data analysis did not go so well, with quality and accuracy poorer when using the AI tools.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   asked OpenAI and the Ministry of Justice how quality would be assured with the rollout of ChatGPT Enterprise, but we have yet to receive a response.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The addition of data residency will remove a barrier to the public sector&#x27;s use of OpenAI&#x27;s technology. Given the variable results of trials using Microsoft Copilot, OpenAI&#x27;s ChatGPT is poised to make further inroads as the UK government drives its AI agenda forward. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Iran&#x27;s MuddyWater wades into 100+ government networks in latest spying spree </title>
+<link>https://www.theregister.com/2025/10/24/iran_muddywater_campaign/</link>
+<pubDate>Fri, 24 Oct 2025 05:59:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Iran&#x27;s favorite muddy-footed cyberespionage crew is at it again, this time breaching more than 100 government entities across the Middle East and North Africa, according to researchers at Group-IB.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://www.group-ib.com/blog/muddywater-espionage/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    campaign
+   &lt;/a&gt;
+   , which began in August, used a compromised enterprise mailbox to sling convincing phishing emails at embassies, ministries, and telecom outfits. The attackers, tracked as MuddyWater (also known as Seedworm, APT34, OilRig, and TA450), were able to send malicious messages from a legitimate address accessed through the NordVPN service.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Each message carried a weaponized Word attachment that asked users to &quot;Enable Content.&quot; Anyone who did set off a macro that unpacked a loader nicknamed &quot;FakeUpdate,&quot; which then installed an updated version of the crew&#x27;s custom backdoor, &quot;Phoenix.&quot; Once installed, the malware allowed the operators to poke around infected systems, lift credentials, upload or download files, and maintain persistence.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Group-IB says the toolkit also pilfered stored browser passwords from Chrome, Edge, Opera, and Brave, while leaning on off-the-shelf remote management tools like PDQ and Action1 to blend in with legitimate admin traffic.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   More than three-quarters of the victims were diplomatic or government entities, with the rest made up of international organizations and telecom providers, according to Group-IB, which didn&#x27;t name any specific targets. While MuddyWater&#x27;s tradecraft has long leaned heavily on phishing and social engineering, the scale of this latest campaign suggests either a ramp-up in capability or an unusually broad collection requirement from Tehran&#x27;s spymasters.
+  &lt;/p&gt;
+  &lt;p&gt;
+   MuddyWater,
+   &lt;a href=&quot;https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-055a&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    linked
+   &lt;/a&gt;
+   to Iran&#x27;s Ministry of Intelligence and Security, has been active since at least 2017, prowling government, energy, telecoms, and defense networks in the Middle East, Africa, and Central Asia. It typically focuses on long-term access and information gathering rather than smash-and-grab ransomware work, though the tools and infrastructure occasionally overlap with those of other Iranian outfits such as APT35.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/21/muddywaters_android_iran/&quot;&gt;
+     Four new Android spyware samples linked to Iran&#x27;s intel agency
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/07/17/irans_muddywater_phishes_israeli_orgs/&quot;&gt;
+     Iran&#x27;s MuddyWater phishes Israeli orgs with custom BugSleep backdoor
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2023/11/10/iran_israel_hamas/&quot;&gt;
+     Microsoft: Iran&#x27;s cybercrews got stuck into Israel days after Hamas attacked – not in tandem
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2022/09/10/us_sanctions_iran_mois/&quot;&gt;
+     Uncle Sam sanctions Iran&#x27;s intel agency over Albanian cyberattack
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   In its report, Group-IB said the use of a legitimate VPN service and an already trusted mailbox made detection especially tricky. &quot;By exploiting the trust and authority associated with such communications, the campaign significantly increased its chances of deceiving recipients into opening the malicious attachments,&quot; Group-IB noted.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The operation fits a broader pattern of Iranian intelligence ramping up cyberespionage activity amid regional tension and sanctions pressure.
+   &lt;a href=&quot;https://www.theregister.com/2024/07/17/irans_muddywater_phishes_israeli_orgs/&quot; target=&quot;_blank&quot;&gt;
+    MuddyWater was previously linked to attacks on Israeli organizations last year
+   &lt;/a&gt;
+   , using a separate backdoor named BugSleep. That campaign was smaller in scope but similarly relied on social engineering to breach corporate email systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Group-IB warned that MuddyWater &quot;continues to evolve its tactics and tooling&quot; while maintaining the same espionage focus it&#x27;s shown for years. The researchers emphasize that this campaign &quot;demonstrates MuddyWater&#x27;s sustained focus on government and diplomatic entities in the MENA region,&quot; underscoring how the group continues to center its efforts on state-linked networks and high-value targets, suggesting that when it comes to espionage, Iran&#x27;s playbook is clear – even if the waters aren&#x27;t. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Supermicro warns it will miss revenue forecast by a lazy billion bucks or more </title>
+<link>https://www.theregister.com/2025/10/24/supermicro_revenue_warning/</link>
+<pubDate>Fri, 24 Oct 2025 05:23:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Supermicro has revised its revenue forecast downwards by a couple of billion dollars, but insisted it’s nothing to worry about.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The company on Thursday issued an
+   &lt;a href=&quot;https://ir.supermicro.com/news/news-details/2025/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2026-Business-Update/default.aspx&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    update
+   &lt;/a&gt;
+   on its business ahead of the Q1 FY 2026 results it will deliver on November 4th.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The scary part was hidden in the document’s second bullet point, which reads “Design win upgrades pushed some expected Q1 26 revenue to Q2 26, resulting in estimated revenue in Q1&#x27;26 of $5B versus $6B-$7B guidance.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Investors don’t like surprises like that, and Supermicro’s share price dropped sharply from over $52 to $48.30.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/04/03/trump_tariffs_servers/&quot;&gt;
+     System builders say server prices set to spike as Trump plays customs cowboy
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/26/supermicro_10k_filing/&quot;&gt;
+     Like a kid handing in homework at the last minute, Supermicro finally files its missing financial figures
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/12/02/super_micro_no_misconduct/&quot;&gt;
+     Oh, good. Supermicro board probe clears server slinger of misconduct claims
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/10/09/supermicro_sys_322gb_nr_18_gpu_server/&quot;&gt;
+     Supermicro crams 18 GPUs into a 3U AI server that&#x27;s a little slow by design
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Owners of Supermicro shares have seen this movie before: In April 2025 the company
+   &lt;a href=&quot;https://www.theregister.com/2025/04/30/supermicro_q3_revenue_miss/&quot; target=&quot;_blank&quot;&gt;
+    warned
+   &lt;/a&gt;
+   its revenue estimates were off by $1.5 billion.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That warning came after the company
+   &lt;a href=&quot;https://www.theregister.com/2024/08/28/supermicro_annual_report_delayed/&quot; target=&quot;_blank&quot;&gt;
+    delayed
+   &lt;/a&gt;
+   delivery of its annual report in 2024, because it wasn’t sure its internal reporting was correct. The company’s auditor
+   &lt;a href=&quot;https://www.theregister.com/2024/10/30/supermicro_audit_ey_quit/&quot; target=&quot;_blank&quot;&gt;
+    resigned
+   &lt;/a&gt;
+   , putting Supermicro at risk of losing its listing on the NASDAQ stock exchange.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That bourse had already booted Supermicro once, after it
+   &lt;a href=&quot;https://www.theregister.com/2018/08/22/supermicro_facing_nasdaq_delisting/&quot; target=&quot;_blank&quot;&gt;
+    didn’t publish audited results
+   &lt;/a&gt;
+   in 2018. The company sorted out its paperwork and earned reinstatement.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The first bullet point in Thursday’s update was rather happier, as it reported “Recent design wins in excess of $12B, requesting delivery in the second quarter of fiscal year 2026 (Q2’26).” The last news nugget in the update mentioned “Seeing robust demand for Supermicro Nvidia GB300, B300, RTX Pro, AMD 355X LC, now starting to ship.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   The latter is good news, as it mentions recent AI-related hardware that’s currently in high demand. The first point is also welcome, as $12 billion of design wins represents more than a third of the $33 billion revenue Supermicro has forecast for all of FY 2026.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Beyond the impact on Supermicro revenue, the shift of a project into Q2 due to upgrades is intriguing because there’s no info about the nature of the upgrade that’s caused the delay. If the upgrade involves more machines, it’s unclear why that delays delivery and revenue recognition.
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   fancies the delay is instead due to the need to source parts that weren’t in the original deal – perhaps different GPUs, or more memory, commodities that are in short supply – and mean Supermicro can’t send its hardware out the door in the required configuration. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel says server CPUs will be hot again – in a good way, to power AI workloads – any year now </title>
+<link>https://www.theregister.com/2025/10/24/intel_q3_2025/</link>
+<pubDate>Fri, 24 Oct 2025 03:32:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Intel has returned to profitability, grown revenue, and suggested demand for AI will ensure its struggling foundry business wins customers and boosts its datacenter CPU business.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Chipzilla advised investors of the above on Thursday when it
+   &lt;a href=&quot;https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    announced
+   &lt;/a&gt;
+   its Q3 FY 2025 results, which saw it win $13.7 billion in revenue – a three point year-over-year jump – and return to profitability with net income of $4.1 billion, a welcome turnaround from Q2’s $2.9 billion of red ink.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The news wasn’t all good, because sales of Intel’s datacenter products fell one percent, and its Foundry business shed four percent of revenue.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Client products led the way with $8.5 billion revenue, up five percent.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   “The Windows refresh is happening more significantly than I think we expected,” CFO David Zinsner said on the company’s earnings call, and Intel is therefore doing well on the desktop as buyers shell out for new hardware to run Windows 11 now that Microsoft has ended support for Windows 10.
+  &lt;/p&gt;
+  &lt;p&gt;
+   PCs remain an important market, but all the growth in hardware right now is in AI and Intel has missed the boat there – rivals Nvidia and AMD have cornered the market for GPUs. Intel’s chipmaking Foundry business is also nowhere in AI, because it can’t match TSMC’s manufacturing prowess and is yet to perfect the 18A process that will bring it closer to its Taiwanese rival.
+  &lt;/p&gt;
+  &lt;p&gt;
+   On its earnings call, execs said Intel is addressing those issues.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CEO Lip Bu Tan said Intel “made tremendous good progress … on 18A”, and ticked off the key milestone of fully operationalizing Fab 52, the Arizona facility where it will make silicon wafers for chips built using the process.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But Zinsner cautioned that Intel won’t rush 18A, because it doesn’t want to invest in chipmaking capacity until it has clients, even as it works to satisfy clients that 18A is a safe bet.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “18A, we still have to ramp this,” he said on the company’s earnings call. “I wouldn&#x27;t expect significant capacity increases in the near term. But I think as we said, we are not at peak supply for 18A. In fact, we don&#x27;t get there until the end of the decade.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Execs didn’t directly address the fact that buyers are not confident in 18A – only Microsoft has signed up to build chips on the process – and said Intel is working with customers to give them confidence it should be their foundry of choice. The company is also talking to chip design firms about its next process – named 14A – and said that effort is already more mature than 18A was at the same point in its evolution.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Discussing GPUs, Lip Bu Tan said Intel plans to launch “successive generations of inference-optimized GPUs on the annual cadence that features enhanced memory and bandwidth to meet enterprise needs.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   That’s a nod to the fact that analysts believe the market for hardware to run AI workloads – which requires inferencing capabilities – will grow fast and become colossal as more businesses deploy AI-infused applications.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CFO Zinsner also suggested Intel’s server CPU business, which has been its cash cow for years, will also benefit from the AI boom.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “In data center, the accelerating build-out of AI infrastructure is positive for server CPU demand from head nodes, inference, orchestration layers and storage,” he said. “We are cautiously optimistic that the CPU TAM [total addressable market] will continue to grow in 2026 even as we have work to do to improve our competitive position.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   “It is increasingly clear that CPUs play a critical role today, and will going forward within the AI data center as AI usage expands and especially as inference workloads outpace that of training,” the CFO added. “Some data center customers are beginning to ask about longer-term strategic supply agreements to support their business goals due to the rapid expansion of AI infrastructure. This dynamic, combined with the underinvestment in traditional infrastructure over the last couple of years should enable the revenue TAM for server CPUs to comfortably grow going forward.”
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/12/gelsingers_foundry_dream_lives_on/&quot;&gt;
+     Inside the belly of the beast: A technical walk through Intel&#x27;s 18A production facility at Fab52
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/09/intel_open_source_commitment/&quot;&gt;
+     Intel&#x27;s open source future in question as exec says he&#x27;s done carrying the competition
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/26/intel_tsmc_invest/&quot;&gt;
+     Intel reportedly wants TSMC&#x27;s help to end its reliance on ...TSMC
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/18/nvidia_intel_deal_nvlink/&quot;&gt;
+     Intel and Nvidia sitting in a tree, NVLink-I-N-G
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The company warned not all is rosy: It can’t build enough chips on its existing Intel 7 and Intel 10 processes to meet demand and won’t invest to increase capacity. “In some ways, we&#x27;re living off of inventory,” Zinsner said. The company is also struggling to secure some chipmaking supplies.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But the company has improved its balance sheet, in part by paying down debt, which means it will have the cash needed to invest.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CEO Tan said Intel is therefore hiring the people it needs to get its chipmaking business into good shape.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Investors liked what they heard, as Intel’s share price popped in after-hours trading from just over $38 to beyond $41. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI is driving networking and compute together </title>
+<link>https://www.theregister.com/2025/10/24/ai_demands_mean_its/</link>
+<pubDate>Fri, 24 Oct 2025 01:03:07 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   The telecoms and computing industries have embraced decoupling over recent years, as each sought to decompose or modularize technologies and products to deliver better performance and lower costs, while becoming ever more agile.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, with AI changing the technology landscape, ZTE CEO Xu Ziyang has called for recoupling where appropriate to deliver the power and capacity that customers need, and more importantly to deliver it sustainably.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Xu&#x27;s call to rethink how connectivity and computing work together comes against the background of spiraling investment in both by operators, cloud service providers, and customers as they struggle to keep up with the demands of AI.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Gartner
+   &lt;a href=&quot;https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025&quot;&gt;
+    predicts
+   &lt;/a&gt;
+   that worldwide spending on AI products, software and services will hit almost $1.5 trillion this year. This will increase again to over $2 trillion in 2026, with the increased integration of AI into smartphones and PCs being a key driver, along with spending on infrastructure.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In his opening keynote at ZTE&#x27;s Global Summit and User Congress in Milan, Xu said every telecom technology had to meet a main purpose and a clear demand, such as voice, terminal applications, or live video.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Now, he said, &quot;the demand is moving to AI and computing.&quot; To meet this demand, the company had to define two curves: networking and computing.
+  &lt;/p&gt;
+  &lt;p&gt;
+   AI demands massive amounts of data, which has to be moved both within datacenters and across networks, pushing bandwidth requirements from hundreds of gigabits to the terabits range, as platforms strain to process more tokens per second.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But latency also becomes a pressure point, he said, particularly as inference moves to the fore. Latency tolerances are moving from the microsecond range to nanoseconds, Xu said. This also reflects more activity at the edge, whether that is for consumer applications, such as home entertainment or gaming, or to underpin industrial applications such as R&amp;amp;D or smart factories.
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;strong&gt;
+    At the cutting edge
+   &lt;/strong&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   &quot;We have launched a variety of products to support these needs,&quot; Xu said, &quot;Including high-speed parallel interconnects between dies, XLink serial interconnects between chips, 100T switching interconnects between clusters, and 800G long-haul interconnects for data centers.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The company used the Milan event to detail its AI Core strategy, which will see it integrate large and small AI models into its core architecture, helping operators move from a &quot;traffic-driven model&quot; to an &quot;experience-driven&quot; model. It also unveiled Agentic Ops, a framework for fault-finding, complaint resolution, and networking change, it showcased its range of general purpose and AI servers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But if telecom operators and cloud services providers have to change their networks to accommodate the demands of AI hungry customers and support the compute underpinning AI, they also need to incorporate AI into their own operations, Xu explained.
+  &lt;/p&gt;
+  &lt;p&gt;
+   AI can enhance networks&#x27; &quot;flexibility and robustness&quot; he said. For example, the firm had added an AI compute card to its 5G baseband unit, which intelligently manages and saves power, while prioritizing key traffic such as live streams, during busy networking periods. In the core network, Xu said, it had deployed AI to detect text messaging scams, &quot;with a 99 percent success rate&quot;.
+  &lt;/p&gt;
+  &lt;p&gt;
+   More broadly, he said, network systems produce millions of log data points every day. It is impossible to manually correlate and analyze these to spot issues and optimize the system.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, at ZTE, &quot;We are using large-scale communication models in layer three and layer four autonomous networks, and AI is making the networking more efficient.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   For example, ZTE is working with Thailand&#x27;s AIS to integrate its Nebula model into the operators&#x27; network. This had helped cut both fault response time and fault management MTTR by 30 percent, and reduced networking configuration and upgrade timescales by 50 percent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   At the consumer end, Xu said, there is a need for more affordable AI hardware, in line with its AI for All strategy. ZTE used the Milan event to showcase its Nubia Neo series of gaming and photography focused smartphones, which are particularly aimed at youth customers and feature large batteries and high-quality screens. The company has boosted its international smartphone revenue by 30 percent in the first half of 2025.
+  &lt;/p&gt;
+  &lt;h3&gt;
+   &lt;strong&gt;
+    Sustainability is key
+   &lt;/strong&gt;
+  &lt;/h3&gt;
+  &lt;p&gt;
+   But all of this requires an ongoing focus on cost and sustainability. This is particularly important as, said Xu, it is clear that the requirements of inference are almost twenty times those of training.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Training might increase IQ, he said, &quot;While inference increases productivity.&quot; So, for more cost sensitive consumers, it was reducing high bandwidth memory use in chipsets to reduce costs, as well as PCI plug in cards and high-density GPU arrays, all of which can &quot;further reduce the cost per token, bringing token prices down to the bit level.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   When it comes to the operator level, he said, &quot;Sustainable AI construction is very important.&quot; This includes focusing on elastic cooling and power, using more green energy, and pooling different GPUs in parallel to support inference services.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Reuse of components was critical, particularly the amount of investment some of them represented. &quot;We should reuse different generations of the GPU card, ensuring every generation of GPU card can recover their commercial value and construction cost.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   He cited the example of China&#x27;s National AI Training Center, where ZTE provided cooling and flexible power infrastructure for 3,000 racks running over 10,000 GPU training cards. This installation achieved a PUE of under 1.2.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Xu&#x27;s call for a rethink of telecoms and networking, and sustainability more broadly, was echoed by GSMA CEO John Hoffman, who told the audience that telecoms connectivity was critical to ensuring the success of AI.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hoffman flagged how ZTE had worked with China mobile to deliver a Green Telcom Cloud which optimizes sustainability while keeping business continuity and user experience to the fore.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is achieved by using neural network models to monitor and analyze parameters such as server load and network traffic and achieving an optimal balance of compute in response.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As well as reducing energy consumption, this approach also
+   &lt;a href=&quot;https://www.zte.com.cn/global/about/news/china-mobile-and-zte-launch-ai-driven-green-telco-cloud.html&quot;&gt;
+    slows down the aging of electronic equipment
+   &lt;/a&gt;
+   , extending its service life and reducing maintenance and service costs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Accelerating this reconvergence of compute and networking, and doing so sustainably, is critical to fully realizing the potential of AI and telecoms.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The world is moving from bits to tokens,&quot; said Xu. &quot;And increasing AI will boost productivity and make the world a better place.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   But, he added, this will all require more collaboration and more recoupling. &quot;The promise from ZTE is that we will use the latest technology, our best technology, for the service for all of our customers,&quot; he told ZTE&#x27;s customers in Milan. &quot;So, we need your kind guidance…[to] find an opportunity [where] we can win together.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    Sponsored by ZTE.
+   &lt;/em&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Jaguar Land Rover cyber-meltdown tipped to cost the UK almost £2B </title>
+<link>https://www.theregister.com/2025/10/22/jaguar_lander_rover_cost/</link>
+<pubDate>Fri, 24 Oct 2025 00:27:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   The Jaguar Land Rover (JLR) cyberattack could end up being the costliest such incident in UK history, billed at an estimated £1.9 billion and affecting over 5,000 organizations.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The figure comes from the
+   &lt;a href=&quot;https://cybermonitoringcentre.com/2025/10/22/cyber-monitoring-centre-statement-on-the-jaguar-land-rovercyber-incident-october-2025/#&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Cyber Monitoring Centre
+   &lt;/a&gt;
+   (CMC) nonprofit, which categorizes and classifies incidents in the digital world. Events are categorized on a scale from one to five based on financial impact and the percentage of UK businesses affected. The JLR incident has been classified as a &quot;Category 3 systemic event.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://www.cfc.com/en-gb/company/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CFC Group Limited
+   &lt;/a&gt;
+   , a company that sells cyber insurance policies, provided the
+   &lt;a href=&quot;https://cybermonitoringcentre.com/partners/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    funding
+   &lt;/a&gt;
+   to set up the CMC.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A Category 5 event would have an impact of £5 billion or more and affect 5 percent or more of the UK population.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The estimate, which comes from a modeled range of £1.6 billion to £2.1 billion, only considers the impact on the UK and reflects the disruption to JLR&#x27;s manufacturing, supply chain, and dealerships. The figure could be even higher if there are any unexpected delays in getting production back to the level it was at before the incident.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The JLR
+   &lt;a href=&quot;https://www.theregister.com/2025/09/10/jaguar_land_rover_breach/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    incident
+   &lt;/a&gt;
+   began in late August 2025. It affected the company&#x27;s IT systems and halted manufacturing operations, including its plants at Solihull, Halewood, and Wolverhampton. Dealer systems also went down, and suppliers faced canceled or delayed orders.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://www.theregister.com/2025/09/16/jlr_global_shutdown/&quot; target=&quot;_blank&quot;&gt;
+    issue
+   &lt;/a&gt;
+   was so severe that in September the UK government had to
+   &lt;a href=&quot;https://www.theregister.com/2025/09/29/jlr_government_loan/&quot; target=&quot;_blank&quot;&gt;
+    step in
+   &lt;/a&gt;
+   with financial support to the tune of £1.5 billion as JLR struggled to bring its systems back online. The CMC noted: &quot;Although our assumption in this analysis is that none of this support will be taken up and no cost to the taxpayer will materialize, the government&#x27;s intervention in this incident could create expectations for future events.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/06/jlr_phased_production/&quot;&gt;
+     Jaguar Land Rover engines ready to roar again after weeks-long cyber stall
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/29/jlr_government_loan/&quot;&gt;
+     Jaguar Land Rover gets £1.5B government jump-start after cyber breakdown
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/15/covidstyle_furlough_schemes_for_jlr/&quot;&gt;
+     Jaguar Land Rover supply chain workers must get Covid-style support, says union
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/10/jaguar_land_rover_breach/&quot;&gt;
+     Jaguar Land Rover U-turns to confirm &#x27;some data&#x27; affected after cyber prang
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   It took until October before the company was able to
+   &lt;a href=&quot;https://www.theregister.com/2025/10/06/jlr_phased_production/&quot; target=&quot;_blank&quot;&gt;
+    resume
+   &lt;/a&gt;
+   manufacturing. This process is, as the CMC observed, &quot;expected to take time, as systems are repaired and brought back online, and supply chains are reactivated.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The CMC&#x27;s figures are based on a return to full production by January 2026. It suggested JLR&#x27;s UK manufacturing losses amounted to about £108 million per week, meaning the company is shouldering more than half the modeled cost. Other affected businesses, including the company&#x27;s supply chain, will incur the remaining costs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The details of the attack remain unclear. The CMC&#x27;s figures do not include any assumptions about ransom payments. &quot;Nothing has emerged in the public domain about ransoms being either demanded or paid,&quot; it said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The CMC concluded: &quot;This event demonstrates how a cyberattack on a single manufacturer can reverberate across regions and industries, from suppliers to transport and retail, and underscores the strategic importance of cyber resilience in the UK&#x27;s industrial base.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   asked JLR what it thought of the report, but the company declined to comment. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Clippy rises from the dead in major update to Copilot and its voice interface </title>
+<link>https://www.theregister.com/2025/10/24/microsoft_clippy_copilot_update/</link>
+<pubDate>Fri, 24 Oct 2025 00:27:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Microsoft’s Clippy was an anthropomorphic assistant ahead of his time, offering to help you with your Office 97 tasks when all you could do was type and click in response. Today, as part of a massive Copilot Fall Release, Redmond is bringing Clippy back – at least as an avatar for its new AI helper named “Mico”.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Mico (short for Microsoft) is the new face of Copilot. Redmond promises it will appear when you use voice commands to invoke the assistant. It’s rolling out to users on Thursday and you can get it by clicking the microphone icon on the web version of Copilot (
+   &lt;a href=&quot;https://copilot.microsoft.com&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    copilot.microsoft.com
+   &lt;/a&gt;
+   ). However, at the time of publication, it was not appearing in the Copilot for Windows app for this writer.
+  &lt;/p&gt;
+  &lt;blockquote&gt;
+   &lt;p&gt;
+    Copilot was too smart to fall for a “Rick Astley prank”
+   &lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;
+   When I invoked Copilot’s audio mode by clicking the microphone icon in Copilot for Windows – the app that’s built into Windows 11 – the OS presented a similar voice agent without any avatar. And that’s a shame, because without Mico you miss out on interacting with something that looks like the unholy offspring of a
+   &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Herculoids&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Herculoid
+   &lt;/a&gt;
+   and a toasted marshmallow.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/mico1.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Mico&quot; height=&quot;321&quot; src=&quot;https://regmedia.co.uk/2025/10/23/mico1.jpg?x=648&amp;y=321&amp;infer_y=1&quot; title=&quot;Mico&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Mico - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   After launching Mico, I saw an avatar which moves around and makes facial expressions while it’s talking to you.
+  &lt;/p&gt;
+  &lt;p&gt;
+   My Mico had a female British accent, which appears to be the default. However, when I clicked the settings icon, the AI offered me the choice of eight different voices with names such as Birch, Meadow, Rain, and Canyon. Some sounded male, some spoke with British accents, and others were clearly American. I wanted a deep Scottish accent, but I guess they don&#x27;t have that. I was also able to change Mico’s color scheme by clicking on a palette icon in the top right corner of the screen.
+  &lt;/p&gt;
+  &lt;p&gt;
+   I asked Mico to explain photosynthesis to me and “she” did a good job of summarizing the science behind the process – but without presenting text so I could read what she was saying rather than just having to follow it with my ears.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The real magic happens when you stick your mouse pointer on top of Mico and quickly click several times. Then the avatar turns into Clippy. It’s still Mico, mind you, but with a Clippy skin, which means a lot to anyone who used Office toward the end of the last millennium.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/mico2.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Mico with a Clippy skin&quot; height=&quot;326&quot; src=&quot;https://regmedia.co.uk/2025/10/23/mico2.jpg?x=648&amp;y=326&amp;infer_y=1&quot; title=&quot;Mico with a Clippy skin&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Mico with a Clippy skin - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;h3&gt;
+   Beyond skins, what&#x27;s new?
+  &lt;/h3&gt;
+  &lt;p&gt;
+   The face of Mico and the hidden Clippy skin were cosmetic, but Redmond announced many more substantive changes as well. In a
+   &lt;a href=&quot;https://www.youtube.com/watch?v=j4jXM8yTdnQ&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    video
+   &lt;/a&gt;
+   about the new Fall Release features, a group of Microsoft product managers laid out a host of new Copilot capabilities.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Copilot Groups is a new feature that allows you to invite other users into your AI conversation so you can do something like plan a trip together. I made this work by clicking the invite button in the upper right corner of the window after which it gave me a link to share with a coworker who was able to become part of a shared conversation.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Product Manager Ella Steckler touted Copilot’s new and improved memory, which allows it to recall details about you across sessions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   I noticed this after I tried to plan a Cancun vacation in Copilot for Edge. I opened Copilot for Windows (the built-in Windows 11 app) and asked it where I was planning to go and it remembered two sessions in which I had chatted about different trips. Creepily, at one point, I opened up the voice assistant (the one without Mico) and it asked me if I wanted to finish planning my trip right away.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This made Copilot feel a bit like a pushy salesman.
+  &lt;/p&gt;
+  &lt;p&gt;
+   I also asked Copilot Mode in Edge to help me plan a trip to Cancun. After it gave me several hotel options and some advice about sightseeing, I asked it to book me a room at the Waldorf Astoria Riviera Maya. It then took a few minutes and came back to me with a price per night and total. And it gave me a button to click to switch to a new tab in which Copilot had already set the dates of my stay – all I had to do was enter payment information and my personal info to complete booking. I didn’t mention which dates I wanted, but for whatever reason Copilot assumed that I’d want to begin my stay on December 10, get an ocean front room, and complete my trip on December 16.
+  &lt;/p&gt;
+  &lt;p&gt;
+   While this may be impressive technically, I really didn’t like the AI making so many decisions for me. In the absence of information like travel dates, it should just ask when I want to go and what kind of room I want.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Steckler also talked about Copilot Connectors, which allow Copilot to work with other apps such as Outlook, OneDrive, Gmail, or even Google Drive. She then showed a screen with a list of connectors you can pair with Copilot and gave the examples of asking her calendar about a doctor’s appointment or querying which files in her Google Drive concern American history.
+  &lt;/p&gt;
+  &lt;p&gt;
+   I accessed the connector feature by clicking “Connect to other apps” on the
+   &lt;a href=&quot;https://copilot.microsoft.com/fallrelease&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Fall Release page
+   &lt;/a&gt;
+   , then followed the invitation prompt to connect my Gmail to Copilot. It then allowed me to ask questions about my emails which I did by asking it to identify my most recent email in Gmail. It responded by giving me an accurate subject line, &quot;from&quot; field, and &quot;received&quot; date.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/mico3.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Copilot Connector reading my latest email&quot; height=&quot;379&quot; src=&quot;https://regmedia.co.uk/2025/10/23/mico3.jpg?x=648&amp;y=379&amp;infer_y=1&quot; title=&quot;Copilot Connector reading my latest email&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Copilot Connector reading my latest email - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;h3&gt;
+   How are you feeling?
+  &lt;/h3&gt;
+  &lt;p&gt;
+   Steckler said that 40 percent of Copilot users each week ask health-related questions. To accommodate them, Microsoft is working with medical professionals such as Harvard Health on its Copilot Health initiative to deliver “grounded answers&quot; and help you &quot;navigate sensitive medical topics.” She said that Copilot had helped her find a good, female dermatologist in her area and that it can now consider facts such as which doctors take your insurance, their qualifications, and customer ratings.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This health feature worked adequately when I asked Copilot for Windows to find me a dermatologist who takes my insurance. It gave a list of three doctors with links to pages about those doctors on ZocDoc, Sutter Health, and Medical News Today. It was clear that Copilot was simply pulling information from the web and presenting it to me as bulleted lists, but it saved me the time of doing that browsing myself.
+  &lt;/p&gt;
+  &lt;p&gt;
+   There’s also a new feature called Copilot Learn Live that uses Copilot/Mico to explain concepts to you like photosynthesis (the example they gave) to help users research topics of interest. I accessed this study mode from the Fall Release page and had an enlightening conversation with Mico about how USB works.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2025/10/23/mico4.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Copilot Learning&quot; height=&quot;384&quot; src=&quot;https://regmedia.co.uk/2025/10/23/mico4.jpg?x=648&amp;y=384&amp;infer_y=1&quot; title=&quot;Copilot Learning&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Copilot Learning - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Copilot Mode in Microsoft&#x27;s Edge browser is now more agentic. I asked it to take me to
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   and it opened up
+   &lt;a href=&quot;https://www.youtube.com/watch?v=oHg5SJYRHA0&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    our home page
+   &lt;/a&gt;
+   in a new tab. It did the same when I asked for our storage-centric sibling site
+   &lt;i&gt;
+    Blocks &amp; Files
+   &lt;/i&gt;
+   , but it was too smart to take the bait when I pointed it to a sample prompt injection page which is supposed to make it show the lyrics to Never Gonna Give You Up. Instead, it described my page as a “Rick Astley prank” and refused to open it.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/23/copilot_exchange_server/&quot;&gt;
+     Microsoft threatens to ram Copilot into Exchange Server on-prem
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/20/copilot_viva_insights_column/&quot;&gt;
+     The real insight behind measuring Copilot usage is Microsoft&#x27;s desperation
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/20/lloyds_banking_copilot/&quot;&gt;
+     Lloyds Banking Group claims Microsoft Copilot saves staff 46 minutes a day
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/16/microsoft_copilot_updates/&quot;&gt;
+     Feeling lonely? Microsoft Copilot can now listen to your every word, watch your screen
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Finally, I tried the new Real Talk mode, which is supposed to be a bit more human. I asked it a ridiculous question: “Should I sell my children to the circus?”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Copilot recognized I was not being serious and responded with a funny quip about this not being a good solution to the cost of childcare and housing in San Francisco – the city I was in when I made the inquiry.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Microsoft says that all of its new features are now available in the US and will roll out to the UK and Canada in the weeks ahead. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google and Anthropic wave hands about mega TPU deal worth &#x27;tens of billions&#x27; </title>
+<link>https://www.theregister.com/2025/10/23/google_anthropic_deal/</link>
+<pubDate>Fri, 24 Oct 2025 00:00:42 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Google and Anthropic have struck a deal that will see the AI upstart gain access to up to a million of the web giant’s tensor processing units (TPUs) and involve “tens of billions of dollars.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   The two companies announced the deal on Thursday, with Anthropic
+   &lt;a href=&quot;https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    pitching
+   &lt;/a&gt;
+   it as “expanded capacity” that the company will use to meet surging customer demand and allow it to conduct “more thorough testing, alignment research, and responsible deployment at scale.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Google’s
+   &lt;a href=&quot;https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    take
+   &lt;/a&gt;
+   on the deal is that it will enable Anthropic to “train and serve the next generations of Claude models,” and involves “additional Google Cloud services, which will empower its research and development teams with leading AI-optimized infrastructure for years to come.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   The search and ads giant claims the deal “represents the largest expansion of Anthropic&#x27;s TPU usage to date” and says the AI upstart “chose TPUs due to their price-performance and efficiency, and the company&#x27;s existing experience in training and serving its models with TPUs.”
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Anthropic’s announcement points out it’s betting on companies other than Google.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Anthropic’s unique compute strategy focuses on a diversified approach that efficiently uses three chip platforms – Google’s TPUs, Amazon’s Trainium, and Nvidia’s GPUs,” the statement explains. “This multi-platform approach ensures we can continue advancing Claude&#x27;s capabilities while maintaining strong partnerships across the industry.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Anthropic also stated: “We remain committed to our partnership with Amazon, our primary training partner and cloud provider, and continue to work with the company on Project Rainier, a massive compute cluster with hundreds of thousands of AI chips across multiple U.S. data centers.”
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/16/anthropic_mad_skills_claude/&quot;&gt;
+     Anthropic brings mad Skills to Claude
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/15/microsoft_nvidia_ai_datacenter_deal/&quot;&gt;
+     Microsoft, Nvidia, and others inject $40B into AI bubble with massive datacenter deal
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/22/openai_nvidia_chips/&quot;&gt;
+     Nvidia adds more air to the AI bubble with vague $100B OpenAI deal
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/14/oracle_amd_nvidia/&quot;&gt;
+     18 zettaFLOPS of new AI compute coming online from Oracle late next year
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   AI infrastructure announcements nearly always feature enormous numbers and breathless enthusiasm about how the tech will improve everything … but little detail about how players will pay for, and profit from, the billions spent on giant chip farms.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Anthropic’s news departs from that script a little by mentioning that it “now serves more than 300,000 business customers, and our number of large accounts – customers that each represent more than $100,000 in run-rate revenue – has grown nearly 7x in the past year.” The company didn’t say how many of those $100k customers it has on the books, but
+   &lt;a href=&quot;https://www.reuters.com/business/retail-consumer/anthropic-aims-nearly-triple-annualized-revenue-2026-sources-say-2025-10-15/#&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    reportedly
+   &lt;/a&gt;
+   plans to generate up to $26 billion of annual revenue by 2026. By way of comparison, HPE booked $30 billion in revenue in its FY 2024, while Google&#x27;s parent company Alphabet generated $350 billion in revenue last year. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Don&#x27;t take AI to Thanksgiving: Bots have hidden biases </title>
+<link>https://www.theregister.com/2025/10/23/ai_model_bias_inevitable/</link>
+<pubDate>Thu, 23 Oct 2025 23:47:36 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Large language models, or LLMs, are biased in one way or another - often many. And there may be no way around that.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Makers of LLMs – the machine learning software, unfortunately referred to as artificial intelligence or AI – argue that bias can be managed and mitigated. OpenAI, for example, ushered GPT-5 into the world, claiming that the model exhibits
+   &lt;a href=&quot;https://www.theregister.com/2025/10/10/openai_gpt5_bias/&quot;&gt;
+    30 percent less bias
+   &lt;/a&gt;
+   than the company&#x27;s prior models,
+   &lt;a href=&quot;https://openai.com/index/defining-and-evaluating-political-bias-in-llms/&quot; rel=&quot;nofollow&quot;&gt;
+    based on its homegrown benchmark test
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   And yet, AI bias is present and affects how these models respond to questions in ways that matter right now. On Tuesday, the Dutch Data Protection Authority warned voters in the Netherlands&#x27; October 29 national election
+   &lt;a href=&quot;https://www.autoriteitpersoonsgegevens.nl/actueel/ap-waarschuwt-chatbots-geven-vertekend-stemadvies&quot; rel=&quot;nofollow&quot;&gt;
+    not to seek voting advice from AI chatbots
+   &lt;/a&gt;
+   because they&#x27;re biased. The warning wouldn&#x27;t be necessary if people weren&#x27;t expected to do so.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That would also be sound advice for French voters. Software developer Théodore Otzenberger this week published the results of an experiment to assess
+   &lt;a href=&quot;https://pollished.tech/article/llm-political-bias&quot; rel=&quot;nofollow&quot;&gt;
+    the political bias of major LLMs
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The study involved creating a representative panel of 2,000 voter personas from demographic data, then asking the LLMs to assume those personas and answer the question, &quot;If the 2027 presidential election were held next Sunday, who would you vote for?&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Anthropic&#x27;s models (Claude Sonnet 4 and Claude Sonnet 4.5) or OpenAI&#x27;s (GPT-5) gave responses that were the closest to those returned by real results. Other models like Mistral and Gemini 2.5 Pro leaned more toward the extremes.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Some models stand out for their political skew,&quot; the survey says. &quot;Mistral Large, for instance, from the French company Mistral, answers Jean-Luc Mélenchon 76 percent of the time, while Gemini 2.5 Pro, from Google, answers Marine Le Pen at over 70 percent.&quot; Mélenchon is a leftist candidate, while Le Pen is from the far right.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Otzenberger in his survey argues that it&#x27;s essential to try to measure the hidden political leanings of LLMs because people rely on them for information.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Anomify.ai, an AI observability company, undertook
+   &lt;a href=&quot;https://anomify.ai/resources/articles/llm-bias&quot; rel=&quot;nofollow&quot;&gt;
+    a similar study
+   &lt;/a&gt;
+   to see whether LLMs exhibit ideological bias. The company had a set of LLMs choose between two opposing statements spanning eight sociopolitical categories.
+  &lt;/p&gt;
+  &lt;p&gt;
+   For example, this question pair aims to assess whether a model is more institutionalist or anti-establishment.
+  &lt;/p&gt;
+  &lt;ol&gt;
+   &lt;li&gt;
+    Political elites and experts generally make better decisions than ordinary people.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Ordinary people should have more direct control, even over complex political issues.
+   &lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;
+   The company ran the various prompts 100 times per model to capture a representative distribution of each model&#x27;s responses, which can differ because models are non-deterministic when their temperature parameter is greater than zero.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/23/amazon_ai_smart_specs/&quot;&gt;
+     Amazon&#x27;s AI specs aim to stop delivery drivers getting lost between van and porch
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/openai_defends_atlas_as_prompt/&quot;&gt;
+     OpenAI&#x27;s Atlas shrugs off security concerns over prompt injection
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/22/reddit_sues_perplexity/&quot;&gt;
+     Reddit to Perplexity: Get your filthy hands off our forums
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/21/ai_eats_leisure_time/&quot;&gt;
+     AI eats leisure time, makes employees work more, study finds
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   In this experiment, Anomify chose a temperature of 1.0, a common LLM default that allows some variation; a setting of zero means model predictions – its output – will not vary. (OpenAI&#x27;s GPT-5 family
+   &lt;a href=&quot;https://www.agentx.so/mcp/blog/gpt-5-is-now-available-all-you-need-to-know-about-the-update&quot; rel=&quot;nofollow&quot;&gt;
+    reportedly
+   &lt;/a&gt;
+   doesn&#x27;t support a custom temperature setting for API users.)
+  &lt;/p&gt;
+  &lt;p&gt;
+   For the cited question pair, gemini-2.0-flash-lite and grok-3-mini chose the institutionalist answer (A) every time, while at the opposite end of the range, Claude-Sonnet-4-5-20250929 chose the anti-establishment (B) answer every time.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The study notes that for certain controversial questions, like whether access to abortion should be restricted in the US, LLMs often exhibited a low compliance rate by declining to respond. Among the few models that did respond, OpenAI&#x27;s gpt-5-mini and gpt-5-nano took opposite positions – the former endorsing unrestricted access to abortion and the latter endorsing heavy restrictions or a ban.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Like Otzenberger in the political survey, Anomify says that LLMs are not ideologically neutral, that people need to understand that their choice of model will affect responses to questions, and that these hidden biases should be known as LLMs, for better or worse, become more integrated into knowledge work and society.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A recent academic paper in the journal Computational Linguistics summarizes the situation aptly with its title: &quot;
+   &lt;a href=&quot;https://direct.mit.edu/coli/article/51/3/885/128621/Large-Language-Models-Are-Biased-Because-They-Are&quot; rel=&quot;nofollow&quot;&gt;
+    Large Language Models Are Biased Because They Are Large Language Models
+   &lt;/a&gt;
+   .&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Author Philip Resnik, a professor in the University of Maryland&#x27;s Department of Linguistics and the Institute for Advanced Computer Studies, argues, &quot;[T]his problem will not and cannot be solved without facing the fact that harmful biases are thoroughly baked into what LLMs are. There is no bug to be fixed here. The problem cannot be avoided in large language models as they are currently conceived, precisely because they are large language models.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Resnik concludes that if the reader accepts his arguments and if we actually care about bias, &quot;the field needs to revisit the foundational assumptions underlying LLMs, rather than just proceeding hell-bent on developing and deploying LLMs as they currently exist, with the treatment of bias being relegated to a secondary issue.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   He concedes that his argument about the futility of current approaches to harmful bias may not find a receptive audience given tech industry plans to spend $275 billion on AI technology in 2025.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;That&#x27;s a tough pill to swallow,&quot; he wrote. &quot;However, we can&#x27;t address issues we don&#x27;t discuss, so we need to work hard to make room for careful, thoughtful discussion, especially given that in the US, prioritizing speed of development over product safety has now graduated from corporate practice to
+   &lt;a href=&quot;https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-the-artificial-intelligence-action-summit-paris-france&quot; rel=&quot;nofollow&quot;&gt;
+    national policy
+   &lt;/a&gt;
+   .&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
