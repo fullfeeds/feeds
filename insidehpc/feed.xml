@@ -1,0 +1,2682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>InsideHPC</title>
+<lastBuildDate>Sun, 04 Jan 2026 04:29:45 -0000</lastBuildDate>
+<item>
+<title> HPC News Bytes 20251229: Nvidia’s $20B Non-Acquisition of Groq, Quantum-HPC Hybrids, NCAR Closure </title>
+<link>https://insidehpc.com/2025/12/hpc-news-bytes-20251229-nvidias-20b-non-acquisition-of-groq-quantum-hpc-hybrids-ncar-closure/</link>
+<pubDate>Mon, 29 Dec 2025 16:59:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251229.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251229.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251229.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251229.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/nvidia-groq-logos-2-1-122025.png&quot;/&gt;
+  A happy holiday break to all! The past week in HPC-AI, a week expected to be a quiet one, was not. Here’s a fast (9:30) run-down of recent developments, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Nvidia’s $20 billion non-acquisition deal with Groq
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Quantum-classical HPC news round-up: hybrid systems and applications
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Quantum control, scale, error correction
+ &lt;/p&gt;
+ &lt;p&gt;
+  – The White House’s plan to close down NCAR and
+  &lt;a href=&quot;https://www.cisl.ucar.edu/ncar-supercomputing-history&quot;&gt;
+   its climate science supercomputer
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at insideHPC’s
+  &lt;a href=&quot;https://insidehpc.com/category/resources/hpc-podcast/&quot;&gt;
+   @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , at
+  &lt;a href=&quot;https://orionx.net/2025/12/hpc-news-bytes-20251229/&quot;&gt;
+   the OrionX.net blog
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  , and on
+  &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2hwY3BvZGNhc3Qtb3Jpb254&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s
+  &lt;a href=&quot;https://orionx.net/2025/12/hpc-news-bytes-20251222/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   our RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://orionx.net/category/hpc-podcast/feed/&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Argonne Names 5 Distinguished Fellows for 2025 </title>
+<link>https://insidehpc.com/2025/12/argonne-names-5-distinguished-fellows-for-2025/</link>
+<pubDate>Tue, 23 Dec 2025 17:20:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;img aria-describedby=&quot;caption-attachment-101133&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/argonne-2025-distinguished-felllows.jpg&quot;/&gt;
+    &lt;p&gt;
+     From left: Robert B. Ross, Temitope A. Taiwo, Seth B. Darling, Katrin Heitmann and Kenneth M. Kemner. (Image by Argonne National Lab)
+    &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;p&gt;
+    Argonne National Laboratory named five scientists as Argonne Distinguished Fellows in 2025. They are Seth B. Darling, Katrin Heitmann, Ken Kemner, Robert Ross and Temitope Taiwo.
+   &lt;/p&gt;
+   &lt;p&gt;
+    This honor is awarded to scientists who have earned international recognition and demonstrated exceptional accomplishments in science or engineering that directly support Argonne’s core missions. Argonne Distinguished Fellows are at the helm of major, complex and high-priority initiatives that shape the laboratory’s future. Fewer than 3 percent of Argonne’s research staff receive this elite recognition.
+   &lt;/p&gt;
+   &lt;p&gt;
+    The awardees are:
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Katrin Heitmann
+    &lt;/strong&gt;
+    is a physicist and computational scientist whose research in precision cosmology uses high performance computing to explore the universe’s large-scale structure and the nature of dark energy.
+   &lt;/p&gt;
+   &lt;p&gt;
+    She joined Argonne in 2011 and now serves as deputy director of the High Energy Physics division and leads the Cosmological Physics and Advanced Computing group. Heitmann is a senior associate for the Kavli Institute for Cosmological Physics at the University of Chicago and a member of the Northwestern-Argonne Institute of Science and Engineering.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Among her breakthroughs, Heitmann co-developed the Hardware/Hybrid Accelerated Cosmology Code, a leading platform for high-performance cosmological modeling. She also spearheaded the development of CosmoTools for simulation data analysis.
+   &lt;/p&gt;
+   &lt;p&gt;
+    In 2007, Heitmann and her collaborators introduced the Cosmic Calibration Framework, a structured approach to providing precision predictions based on a small number of cosmological simulations to improve overall understanding of the universe. The framework has become a cornerstone of modern computational cosmology.
+   &lt;/p&gt;
+   &lt;p&gt;
+    As a spokesperson for the Legacy Survey of Space and Time Dark Energy Science Collaboration from 2021 to 2023, Heitmann led a global team of more than 1,000 scientists to prepare for the influx of data from the Vera C. Rubin Observatory to advance dark energy research.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Before joining Argonne, she was a staff scientist at
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    ’s Los Alamos National Laboratory.
+   &lt;/p&gt;
+   &lt;p&gt;
+    A fellow of the American Physical Society, Heitmann has authored more than 100 peer-reviewed publications and is first author on 15 journal articles.
+   &lt;/p&gt;
+   &lt;p&gt;
+    She received the 2017 University of Chicago Award for Distinguished Performance and was a finalist for the Gordon Bell Award, an award to recognize outstanding achievement in high performance computing, in 2012, 2013 and 2025.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Robert Ross
+    &lt;/strong&gt;
+    is an expert in high performance computing whose innovations have transformed data and storage systems for large-scale scientific simulations.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Ross joined Argonne in 2000 as an Enrico Fermi Named Fellowship Scholar and quickly gained recognition in HPC for pioneering system software innovations that support leadership-class computing. As senior computer scientist and deputy division director in Argonne’s Mathematics and Computer Science division, he has driven foundational advances in distributed storage, parallel input/output and systems software. This infrastructure is critical for data-intensive science and large-scale simulations on
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    supercomputers.
+   &lt;/p&gt;
+   &lt;p&gt;
+    He now directs the
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    &lt;span&gt;
+     RAPIDS
+    &lt;/span&gt;
+    Institute for
+    &lt;span&gt;
+     AI
+    &lt;/span&gt;
+    , Computer Science, and Data, part of the
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    Scientific Discovery through Advanced Computing program.
+    &lt;span&gt;
+     RAPIDS
+    &lt;/span&gt;
+    is spearheading national efforts to develop cutting-edge software tools that accelerate scientific discovery across
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    platforms.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Among his honors, Ross received the
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    ’s Presidential Early Career Award for Scientists and Engineers in 2004. His leadership has guided Argonne teams to earn R
+    &lt;span&gt;
+     &amp;
+    &lt;/span&gt;
+    D 100 Awards in 2005, 2018 and 2021. In 2021, he was awarded the prestigious E. O. Lawrence Award for advances in high performance computing that serve the
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    mission.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Seth B. Darling
+    &lt;/strong&gt;
+    is a materials scientist combining advanced research with real-world innovation to solve global energy and water challenges.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Darling, who joined Argonne in 2002, is chief science and technology officer for the Advanced Energy Technologies directorate. He also serves as a senior scientist in the Chemical Sciences and Engineering division and director of the Advanced Materials for Energy-Water Systems Energy Frontier Research Center, where he leads efforts to explore how water interacts with materials, enabling new technologies to improve water treatment, energy efficiency and resource recovery.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Darling’s current research centers on novel materials for removing pollutants from water and extracting valuable materials — like nutrients, metals or clean water — for reuse. Among his innovations, he developed clay-based membranes for precise separations, coatings that resist fouling to extend membrane life, and photothermal materials that harness sunlight to recover valuable resources from wastewater. He also designed molecular probes that selectively detect or remove specific contaminants, advancing targeted sensing and cleanup technologies.
+   &lt;/p&gt;
+   &lt;p&gt;
+    He co-invented sequential infiltration synthesis (
+    &lt;span&gt;
+     SIS
+    &lt;/span&gt;
+    ), an innovative technique derived from atomic layer deposition that diffuses vapor into polymers to create functional materials such as advanced membranes, optical films and sensors. This breakthrough earned an R
+    &lt;span&gt;
+     &amp;
+    &lt;/span&gt;
+    D 100 Award in 2014. Using
+    &lt;span&gt;
+     SIS
+    &lt;/span&gt;
+    , Darling co-developed the Oleo Sponge — a reusable material that efficiently removes oil from water. His work was recognized with a second R
+    &lt;span&gt;
+     &amp;
+    &lt;/span&gt;
+    D 100 Award in 2017.
+   &lt;/p&gt;
+   &lt;p&gt;
+    A fellow of the American Vacuum Society, Darling has authored over 150 publications and holds more than 20 patents. His work appears in journals including Science, Advanced Materials, Energy
+    &lt;span&gt;
+     &amp;
+    &lt;/span&gt;
+    Environmental Science and Materials Today. He is also the author of widely read books on water and science communication. In addition to his Argonne appointments, he holds a fellowship in the University of Chicago Pritzker School of Molecular Engineering.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Ken Kemner
+    &lt;/strong&gt;
+    is a physicist whose contributions are shaping the future of synchrotron science and environmental research.
+   &lt;/p&gt;
+   &lt;p&gt;
+    He is the founder and leader of Argonne’s Molecular Environmental Science and Biogeochemical Processes group, a multidisciplinary team that combines synchrotron radiation with laboratory-based environmental chemistry and biology to investigate biogeochemical processes. Kemner is a senior scientist and group leader in Argonne’s Biosciences division, where he has served since 1996.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Kemner is globally recognized for pioneering high-energy X-ray and synchrotron techniques to reveal molecular-scale bio-environmental processes.
+   &lt;/p&gt;
+   &lt;p&gt;
+    His research has catalyzed three major advances: imaging microorganisms and their biomineralization products to resolve key biogeochemical mechanisms; transforming the understanding of uranium behavior in groundwater systems; and elucidating mineral–metal–plant–microbe interactions across terrestrial, aquatic and subsurface environments.
+   &lt;/p&gt;
+   &lt;p&gt;
+    These innovations are transforming biogeochemistry and advancing understanding of microbial roles in global elemental cycles.
+   &lt;/p&gt;
+   &lt;p&gt;
+    He founded the Synchrotron Environmental Science Conference Series, a biannual event hosted at North American synchrotron facilities to promote the integration of synchrotron-based techniques into environmental science.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Kemner has authored more than 200 publications. Along with many publications in Science and Nature, his research regularly appears in other leading journals such as Environmental Science
+    &lt;span&gt;
+     &amp;
+    &lt;/span&gt;
+    Technology and
+    &lt;span&gt;
+     PLOS
+    &lt;/span&gt;
+    Biology.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Temitope Taiwo
+    &lt;/strong&gt;
+    is a nuclear reactor engineer whose contributions in reactor physics, fuel cycles and nuclear energy systems have shaped the field since joining Argonne in 1990.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Among his contributions, Taiwo developed computational tools and methods and performed analysis of nuclear energy systems.
+   &lt;/p&gt;
+   &lt;p&gt;
+    One of Taiwo’s achievements — the development of the
+    &lt;span&gt;
+     DIF3D-K
+    &lt;/span&gt;
+    spatial kinetics code — was the first to enable realistic
+    &lt;span&gt;
+     3D
+    &lt;/span&gt;
+    time-dependent reactor simulations. He contributed to developing techniques to model how neutrons and core state variables interact, which were used in major
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    projects like the New Production Reactor analysis. Before joining Argonne, Taiwo developed reactor models and reload cycles at Northeast Utilities. Between 1995 and 1996, Taiwo assessed international nuclear security and nonproliferation issues for the U.S. government.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Taiwo’s leadership roles include technical positions at Argonne and serving as national technical director for
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    ’s Systems Analysis and Integration Campaign and as co-director of the Fuel Cycle Options Campaign. He led national efforts to evaluate and integrate nuclear energy systems, guiding sustainable fuel cycle strategies and coordinating research across U.S. laboratories. He is now Division Director of Nuclear Science and Engineering at Argonne.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Taiwo served for many years as the U.S. representative to the Organisation for Economic Co-operation and Development’s Nuclear Energy Agency’s Working Party on Scientific Issues of Reactor Systems.
+   &lt;/p&gt;
+   &lt;p&gt;
+    He has co-authored more than 400 publications — including technical reports for
+    &lt;span&gt;
+     DOE
+    &lt;/span&gt;
+    projects, peer-reviewed journal articles, conference papers and book chapters.
+   &lt;/p&gt;
+   &lt;p&gt;
+    Taiwo is a fellow of the American Nuclear Society and serves on its board of directors and committees.
+   &lt;/p&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+     “
+    &lt;/span&gt;
+    Our Distinguished Fellows represent the very best of Argonne. Their achievements reflect not only extraordinary scientific talent, but also a deep commitment to advancing discovery in service to our nation,” said Argonne Director Paul Kearns. ​
+    &lt;span&gt;
+     “
+    &lt;/span&gt;
+    At a time when scientific leadership, rapid innovation, and meaningful impact are more important than ever, these Fellows exemplify that spirit. They have shaped fields, strengthened our capabilities, and inspired colleagues across the laboratory. I am proud to recognize contributions that will continue to make a lasting impact on science and society.”
+   &lt;/p&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20251222: Sub-Nanosecond High Frequency Trading, Federated AI Learning at DOE Labs, AI “Doomers” Speak Out </title>
+<link>https://insidehpc.com/2025/12/hpc-news-bytes-20251222-sub-nanosecond-high-frequency-trading-federated-ai-learning-at-doe-labs-ai-doomers-speak-out/</link>
+<pubDate>Mon, 22 Dec 2025 16:13:37 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251222.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251222.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251222.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251222.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/happy-holidays-wikipedia-2-1-122025.png&quot;/&gt;
+  Happy Holiday weeks to you! For this, our penultimate weekly episode of the year, Shahin and Doug take a fast (8:55) run-through of recent developments in the world of HPC-AI, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – High-stakes supercomputing-driven high frequency trading measured in nanoseconds
+ &lt;/p&gt;
+ &lt;p&gt;
+  – AI federated learning at three US national labs
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Perspectives from “AI nobility” who are also “AI doomers”
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at insideHPC’s
+  &lt;a href=&quot;https://insidehpc.com/category/resources/hpc-podcast/&quot;&gt;
+   @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , at
+  &lt;a href=&quot;https://orionx.net/2024/07/hpcpodcast-87-penguin-solutions-on-ai-infrastructure-industry-view/&quot;&gt;
+   the OrionX.net blog
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  , and on
+  &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2hwY3BvZGNhc3Qtb3Jpb254&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s
+  &lt;a href=&quot;https://orionx.net/2025/12/hpc-news-bytes-20251222/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   our RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://orionx.net/category/hpc-podcast/feed/&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AlphaTON Capital in Agreement with atNorth for Data Center in Sweden </title>
+<link>https://insidehpc.com/2025/12/alphaton-capital-in-agreement-with-atnorth-for-data-center-in-sweden/</link>
+<pubDate>Fri, 19 Dec 2025 21:35:54 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/10/atNorth-logo-2-1-1023-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  ABU DHABI, UNITED ARAB EMIRATES — AlphaTON Capital Corp (
+  &lt;a href=&quot;https://www.globenewswire.com/Tracker?data=0B-gyAdWQgfXz7ftzmISWs_iI54J3dw2GsUUlk5_e_tIR5nIPKNZUE7ElVXOFa3fDIG8lg3srwhrXnSgInbEND2VY4Tq4RK0B9ybIk4awf7MqjUG27H9g4GKbbeNB0PG&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;
+   &lt;u&gt;
+    NASDAQ: ATON
+   &lt;/u&gt;
+  &lt;/a&gt;
+  ) announced it has entered into an enterprise colocation service agreement with atNorth AB, a European data center operator. This agreement represents AlphaTON’s first major data center colocation contract.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Under the terms of the 60-month agreement commencing February 1, 2026, AlphaTON will secure:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   2,230 kW of peak power capacity at
+   &lt;a href=&quot;https://www.atnorth.com/&quot;&gt;
+    atNorth
+   &lt;/a&gt;
+   ‘s Tier 3 certified SWE01 facility in Kista, Sweden
+  &lt;/li&gt;
+  &lt;li&gt;
+   Right of First Refusal for an additional 2,100 kW of capacity, bringing total potential deployment to 4,330 kW
+  &lt;/li&gt;
+  &lt;li&gt;
+   Access to sustainable Nordic power with competitive PUE (Power Usage Effectiveness) ratings capped between 1.4-1.7 depending on utilization
+  &lt;/li&gt;
+  &lt;li&gt;
+   Robust N+1 redundancy infrastructure supporting mission-critical computing operations
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The 2.2 MW initial capacity, with expansion potential to 4.3 MW, provides AlphaTON with the power infrastructure to deploy thousands of enterprise-grade GPUs across multiple computing clusters. This positions the company to capitalize on the rapidly growing AI infrastructure-as-a-service market, projected to reach $247 billion by 2030.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The secured capacity translates to:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Initial deployment capacity for 2,000+ high-performance GPUs across dual redundant clusters
+  &lt;/li&gt;
+  &lt;li&gt;
+   Potential expansion to 4,000+ GPU units upon exercising the Right of First Refusal
+  &lt;/li&gt;
+  &lt;li&gt;
+   Distributed computing architecture enabling both training and inference workloads at scale
+  &lt;/li&gt;
+  &lt;li&gt;
+   Enterprise-grade reliability with Tier 3 infrastructure supporting 99.982% uptime SLA
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Brittany Kaiser, CEO of AlphaTON Capital commented. “This agreement provides AlphaTON with institutional-grade infrastructure capable of supporting thousands of GPUs in a production environment,”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “With Telegram’s 1 billion monthly active users representing one of the largest addressable markets in technology, the computational demands for AI-powered services are immense. This facility gives us the capacity to scale rapidly while maintaining the performance and reliability standards required for mission-critical applications.” commented Enzo Villani, Executive Chairman and CIO of
+  &lt;a href=&quot;https://alphatoncapital.com/&quot;&gt;
+   AlphaTON Capital
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The infrastructure will enable AlphaTON to generate revenue through:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   AI-as-a-Service offerings for enterprise and developer customers
+  &lt;/li&gt;
+  &lt;li&gt;
+   GPU compute marketplaces serving the growing demand for distributed computing resources
+  &lt;/li&gt;
+  &lt;li&gt;
+   Application-specific inference services supporting Telegram’s ecosystem of mini-apps and bots
+  &lt;/li&gt;
+  &lt;li&gt;
+   High-performance computing services for partners requiring large-scale parallel processing
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> FriendliAI Partners with NVIDIA on Nemotron 3 for Agentic AI Inference </title>
+<link>https://insidehpc.com/2025/12/friendliai-partners-with-nvidia-on-nemotron-3-for-agentic-ai-inference/</link>
+<pubDate>Fri, 19 Dec 2025 20:55:29 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/friendliai-logo-2-1-122025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Redwood City, CA – FriendliAI, an AI inference platform company, announced a partnership with NVIDIA to launch the Nemotron 3 model family, available on FriendliAI’s
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://friendli.ai/product/dedicated-endpoints&amp;source=gmail&amp;ust=1766255094402000&amp;usg=AOvVaw2kfw0Tg02GQTQk6BEuM9aa&quot; href=&quot;https://friendli.ai/product/dedicated-endpoints&quot;&gt;
+   Dedicated Endpoints
+  &lt;/a&gt;
+  . Developers can deploy Nemotron 3 models on FriendliAI’s inference platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Highlights include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Up to 13× faster token generation via hybrid Mamba-Transformer MoE architecture and multi-token prediction (MTP) technique
+  &lt;/li&gt;
+  &lt;li&gt;
+   MoE routing for reduced compute load and real-time latency
+  &lt;/li&gt;
+  &lt;li&gt;
+   Leading accuracy on SWE Bench, GPQA Diamond, AIME 2025, Humanity Last Exam, IFBench, RULER, and Arena Hard
+  &lt;/li&gt;
+  &lt;li&gt;
+   Fully open weights, datasets, and recipes for maximum transparency and control
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “The combination of NVIDIA’s Nemotron 3 Nano and FriendliAI’s platform represents a milestone in unlocking the promise of agentic AI,” said Byung-Gon Chun, Founder and CEO of FriendliAI. “Efficient, affordable inference is fundamental to deploying agentic AI at scale, and our commitment to performance and scalability makes that possible.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA’s Nemotron 3 is a family of reasoning models designed for agentic AI and reasoning-intensive applications in fields, such as software development, retail, finance, and cybersecurity. The fully open, small language MoE model is purpose-built to deliver exceptional reasoning performance while maintaining the efficiency required for production use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Inference speed is crucial for agentic AI because it enables real time interaction, scalability and cost efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company said running Nemotron 3, FriendliAI delivers:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Faster performance with optimized GPU kernels
+  &lt;/li&gt;
+  &lt;li&gt;
+   More efficient MoE serving with Online Quantization + Speculative Decoding
+  &lt;/li&gt;
+  &lt;li&gt;
+   Predictable latency and autoscaling for traffic spikes
+  &lt;/li&gt;
+  &lt;li&gt;
+   50 percent+ GPU cost savings on Dedicated Endpoints
+  &lt;/li&gt;
+  &lt;li&gt;
+   OpenAI-compatible APIs for easy integration
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “The combination of cost efficiency and speed has positioned FriendliAI as a compelling solution for enterprises seeking to optimize their AI infrastructure investments,” added Chun.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Genesis Mission: DOE Announces Agreements with 24 Organizations </title>
+<link>https://insidehpc.com/2025/12/genesis-mission-doe-announces-agreements-with-24-organizations/</link>
+<pubDate>Thu, 18 Dec 2025 22:04:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/09/DOE-Department-of-Energy-building-GAO-file-photo-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The U.S. Department of Energy announced agreements with 24 organizations interested in collaborating to advance the
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.SyN0b0LCQryBI5pjHay1iNkfUd1dhoD50zicM844-2FydfLY4Ij4gPMFOo-2FONsVesXU2e1hNn345w6W4eVnlmf-2FDu68oeH37cTr5KMXBieDdHNX1cEUKZfHXVuLhUZTxwN84X1gPOMU-2BYpPaXABR7jD0ZtioIezIfsVd-2FPHj9azYw-3DT0tN_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSUcSny486tV35qiVl1MElCkG4Bv1UaIVU87tAbQ2cE7x64BIF8PSM-2BwwJwKk0kUzvPIaVUU08yZmUgyRpA8c711Aw7wkPJ37hIqdlTZVuw4BWORLgqqPlnvbvwX0B1OtzESSd8c5OVhQI5H3BFbEvvKAdj7jM-2FkgMle8Nwud2fRlq&amp;source=gmail&amp;ust=1766165391245000&amp;usg=AOvVaw0ZAkERQWSH3o4ioqVEqpJb&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iNkfUd1dhoD50zicM844-2FydfLY4Ij4gPMFOo-2FONsVesXU2e1hNn345w6W4eVnlmf-2FDu68oeH37cTr5KMXBieDdHNX1cEUKZfHXVuLhUZTxwN84X1gPOMU-2BYpPaXABR7jD0ZtioIezIfsVd-2FPHj9azYw-3DT0tN_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSUcSny486tV35qiVl1MElCkG4Bv1UaIVU87tAbQ2cE7x64BIF8PSM-2BwwJwKk0kUzvPIaVUU08yZmUgyRpA8c711Aw7wkPJ37hIqdlTZVuw4BWORLgqqPlnvbvwX0B1OtzESSd8c5OVhQI5H3BFbEvvKAdj7jM-2FkgMle8Nwud2fRlq&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;https://www.energy.gov/articles/energy-department-launches-genesis-mission-transform-american-science-and-innovation&quot;&gt;
+   Genesis Mission
+  &lt;/a&gt;
+  , a national effort to use the power of artificial intelligence to support discovery science, national security and energy innovation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The organizations that have signed memorandums of understanding (MOUs) as of today have either expressed interest to DOE in response to an RFI or have active projects with DOE and the National Laboratories for activities related to the Genesis Mission, and any products produced for the Genesis Mission will be architecture-agnostic. The organizations include:
+ &lt;/p&gt;
+ &lt;ul type=&quot;disc&quot;&gt;
+  &lt;li&gt;
+   Accenture
+  &lt;/li&gt;
+  &lt;li&gt;
+   AMD
+  &lt;/li&gt;
+  &lt;li&gt;
+   Anthropic
+  &lt;/li&gt;
+  &lt;li&gt;
+   Armada
+  &lt;/li&gt;
+  &lt;li&gt;
+   Amazon Web Services
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;span&gt;
+    Cerebras
+   &lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   CoreWeave
+  &lt;/li&gt;
+  &lt;li&gt;
+   Dell
+  &lt;/li&gt;
+  &lt;li&gt;
+   DrivenData
+  &lt;/li&gt;
+  &lt;li&gt;
+   Google
+  &lt;/li&gt;
+  &lt;li&gt;
+   Groq
+  &lt;/li&gt;
+  &lt;li&gt;
+   Hewlett Packard Enterprise
+  &lt;/li&gt;
+  &lt;li&gt;
+   IBM
+  &lt;/li&gt;
+  &lt;li&gt;
+   Intel
+  &lt;/li&gt;
+  &lt;li&gt;
+   Microsoft
+  &lt;/li&gt;
+  &lt;li&gt;
+   NVIDIA
+  &lt;/li&gt;
+  &lt;li&gt;
+   OpenAI
+  &lt;/li&gt;
+  &lt;li&gt;
+   Oracle
+  &lt;/li&gt;
+  &lt;li&gt;
+   Periodic Labs
+  &lt;/li&gt;
+  &lt;li&gt;
+   Palantir
+  &lt;/li&gt;
+  &lt;li&gt;
+   Project Prometheus
+  &lt;/li&gt;
+  &lt;li&gt;
+   Radical AI
+  &lt;/li&gt;
+  &lt;li&gt;
+   xAI
+  &lt;/li&gt;
+  &lt;li&gt;
+   XPRIZE
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The Department said it welcomes submissions to its open RFIs. The
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.SyN0b0LCQryBI5pjHay1iFPQ7dVp4yR8VqFuYLYulx7Sd4XZkVNkdQNfcUrLd8OZcSQdjrgMEOGNBZFtuOQ52EUPsFcx7AwgdhHOGPQriLQ-3DsSrB_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSURs7Uzu0mr-2FQlnaWRLeiFpl8hd2cTGP2KRxG2We7tjX3FC-2B2IlWDs3Ufw3NFio8f6XYvZ6MXDxbxY6XCrKxgIKPXBT2abavdSg8at8FH0Fj-2Bx661-2Fsf5UQoftgvAYZMSuiO6t-2FY1AVW31nJb1HC7kp332BuGzfIWNKPiBw-2FoxSfy&amp;source=gmail&amp;ust=1766165391245000&amp;usg=AOvVaw35O30QcmzCtxv2CwZyBf3g&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iFPQ7dVp4yR8VqFuYLYulx7Sd4XZkVNkdQNfcUrLd8OZcSQdjrgMEOGNBZFtuOQ52EUPsFcx7AwgdhHOGPQriLQ-3DsSrB_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSURs7Uzu0mr-2FQlnaWRLeiFpl8hd2cTGP2KRxG2We7tjX3FC-2B2IlWDs3Ufw3NFio8f6XYvZ6MXDxbxY6XCrKxgIKPXBT2abavdSg8at8FH0Fj-2Bx661-2Fsf5UQoftgvAYZMSuiO6t-2FY1AVW31nJb1HC7kp332BuGzfIWNKPiBw-2FoxSfy&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;https://sam.gov/opp/18575cee90e74b11bbe963d7750408d8/view&quot;&gt;
+   “Partnerships for Transformational Artificial Intelligence Models” RFI
+  &lt;/a&gt;
+  is open until Jan. 14, 2026. The
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://link.mediaoutreach.meltwater.com/ls/click?upn%3Du001.SyN0b0LCQryBI5pjHay1iI0jgCYug0nNTKybSxHatjKID0p0BoKDAjQI2jR3VP039cZ7Wc9MzefNWw5rugW-2FfYdFs-2FodYnBbUe2IsjMy3uCmEQz07HYumPEoT3Yg9OX2Wwi5_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSUVnl5wbmMp6KAW7dNHZHu4fHevBxCiQe46K8jxBG4beKZ8tZBpe5-2Fnpmt1JyGtmtOR7VtJ1v-2BfT5WjQxEuwsF1oWhYXyhujJ-2FFed8xCQfq2wqO-2FWN4bzAeOYKb0AH8B1VRpZ8TEv5zP4TzChwqs1Wgbe2VlvrGXWq-2BKRoLNMpemz&amp;source=gmail&amp;ust=1766165391245000&amp;usg=AOvVaw2pLkLw6ctJo1awyEXxQTmM&quot; href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iI0jgCYug0nNTKybSxHatjKID0p0BoKDAjQI2jR3VP039cZ7Wc9MzefNWw5rugW-2FfYdFs-2FodYnBbUe2IsjMy3uCmEQz07HYumPEoT3Yg9OX2Wwi5_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSUVnl5wbmMp6KAW7dNHZHu4fHevBxCiQe46K8jxBG4beKZ8tZBpe5-2Fnpmt1JyGtmtOR7VtJ1v-2BfT5WjQxEuwsF1oWhYXyhujJ-2FFed8xCQfq2wqO-2FWN4bzAeOYKb0AH8B1VRpZ8TEv5zP4TzChwqs1Wgbe2VlvrGXWq-2BKRoLNMpemz&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;https://sam.gov/workspace/contract/opp/d594e20add7145bd9dd71684d7fc06e2/view&quot;&gt;
+   “Transformational AI Capabilities for National Security” RFI
+  &lt;/a&gt;
+  is open until Jan. 23, 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DOE said the announcement builds on President Trump’s Executive Order
+  &lt;a href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iMImNjg3yW40NmCyhgykttlPeWqGRNHlSErlYlYjVgfdX9EsBxkCr5n77HfLolv-2Bj0y9Ujyo-2FciavqjwhiNgZSFFfE9mny-2FyzNdESQe7K8G-2BOu2do4CmW5-2Fguyjtp-2FrVVsBaluRMCV3l5FSLHgn2k7U5kuBhttOvr6g6uxIJtdwyieuyfiSvCxTPSKkiIumEkl9Xzg6Hf67Xt-2FWlAQ-2FR8N-2FxdUNzK70Z2fFpUqjtuGOFl6-2F8xiXijPtOykU2Eou-2BolzNwmvt3paaOr4WRNQWCEyrup-2F9-2Fh0ku5q-2F1-2Ftt3nJomyvwy9uYde4ebUE-2FKQe5FPMeYnvzJRIHBynM0fHV8FbRmMVUjgquHY4C8I-2BCEzakYmbKrKz86MM47X1xOL3Qc68onnPVdyYlVFMjeFG7imaW9JgeuZiWzL4nVKA37zE2jy-2FmPRLmZLf20vZEvGtpcSRyP3MzTVDpEpZdiBHUGUExw1TIr2hVO7Zz6o5Ay80ZJ2b4dOnItLno7SkXmI3KYSnTxYDDmvSYx-2F91dw5O8JuPo5N8jIjVQG8D4bTrHEDiGVJ-2FPFOaLmLaG3sCRh2Qma6vCUe-2BhRc-2BEy3ooI4J0COdhkHLdXofwFJoBVoVVEvWkd2Raf788y5Pk8TMmpxDk5CEz3fX6QvCdvdiOcLRNKPxx-2BEIZms43s79QmW65gcD-2Boy4AfwNWN6UDrhW3tkYqfKHoBIJgD4JYXapdET8lrhPTZhYYa-2BOTJS7QdartYxHD5wM7HmgbFfoIRW-2B4tklwwbTjwCwC6xlRkHYG7eHw6dKtdXt-2FgIvBPpSX5PNPKYgUshxiVTrdV8tDv3jS7gVMmyNTWpUX61wqawQPwCp6c0j57v3-2FN-2FCAshXV1BpnrJZSLthtvJhceHV-2F0UlrbF115txO1eyS40YLtUTgIP5b7DgP1dYrwCXFHbWSGFEFhKdEhhlbhQ38lqko0YMTdAkdvuY2WdC5SAvgp0oOtlvkCTb2rerkLFraiez9Pt-2FR5kHeee5vzQy5ZgMKbtcRrkS8m4pYkccJ5c-2FMoArLDEAUlbhSJ3NlV-2FMf0Zs4AeyfHgp5bbypBTDxRamdFhOT5-2BmE1bFMJTM6-2B1mlCuJJuhz-2BZZ8QKHAHVtzINn11JgYOBK1tlWwVcExGasSlvrkTFarz7KJ0itM48bgoDm89UoMLfCxPQqjYkYutTqf7PSUKSm7kOrb6IJuQmbb9iHiGOOUNql4dDTz1YTnYq-2F44SVN7D-2Fjej154lDb8HM40s460H4KH5gUDIvftpWA3M2Hh4CBAmDrqS2RAQCoZKu7hUOE0MnVp3DOs9Ljk93f8urj-2Fs8tj5JpxbiQPuP1rFYWMSGrbDwG0kq2hhNy-2F4ZLgo-2Fx3md4XxsJfAkNav4q5tgYvhLPvkJQaOT3Irhk3b6-2F48Xl5iJ03QkH1-2B2IkYA4ICafNStYIVbYrUu5a2z8DyRQp4E6kay3_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSUQ53mNZ0nQZjuUxFNtx0WTQeamIw1On-2FAQmnWYDrm-2FYF3FvgUKGQh2CjVY9zyGEzt-2F7GI6BM-2Fl0sL8WQxhUFb-2FNBEWOvWLMu0vyTHYlISC6y-2BNddAHcFjD4A6Wb8ps9m8nDAtEuAD4DdUu0pxHvSkKrbKDHe-2BwuuElW3dHbOqwxe&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Original URL: https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iIgo9cBdzV9vne5ipBzFwmUWEJ3s2JjpBLJiBNkumF-2BXaJ-2BYYBF7xlXxZMtom4WWFt8hNkpIU84iXHF-2FMMQBq8ognCq5G4t17ojTJab5wegfLsan0NNxzZ4C3SCYVYMPqcfCz3dWcpOCAhf0LVBeJpTPDWLH&quot;&gt;
+   &lt;em&gt;
+    Removing Barriers to American Leadership In Artificial Intelligence
+   &lt;/em&gt;
+  &lt;/a&gt;
+  and advances his
+  &lt;a href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iMImNjg3yW40NmCyhgykttlPeWqGRNHlSErlYlYjVgfdX9EsBxkCr5n77HfLolv-2Bj0y9Ujyo-2FciavqjwhiNgZSFFfE9mny-2FyzNdESQe7K8G-2BOu2do4CmW5-2Fguyjtp-2FrVVsBaluRMCV3l5FSLHgn2k7U5kuBhttOvr6g6uxIJtdwyieuyfiSvCxTPSKkiIumEkl9Xzg6Hf67Xt-2FWlAQ-2FR8N-2FT52d7sg3-2BpkAd4iYWkM5u0SQDCEwDuR6KUB9JDTwEfEiL4uTloYGdWYDoCxN1x0clnIz00cWsUik6zAtglykgVkr4RwzVe2vNLYep1BRq3TQJPHd0rSb-2FsZJ4vG6y64ZOyQbBp-2BhvhiOpewLEaDJO31I9CIPEP9IiNDqbBxrmhIMqVhasZTF4m7C0Jjm89rYP6FdtWl3wR25XTQgu17vDgeFC3qZOXtiVcyf2O3uHQeLAuvTQz-2BhK5fJCnu4pa8-2FwgLGjUdunXF91V8AdLCGx7f4dpBoTSROeeHEGbtKybR0J-2BT4TqArRbPp9snFrDajbCVEsLmIlGIyH8ze6Y7hL1VY1vG04R0aekUxz8x-2Ff-2F-2FAmWJJ8EHjGXQ3QD5lCcqy2IlXKTf-2BKrPVt-2B7U03K00-2BoA4BSaXG11AxpeTh8bTZA5qZmMVxVGWiZ1FIq0SGLJJSDZk8PiyTEi9RnokFSDPaol4H-2Bbnx6Y5Gztbax6-2BR7QRsGNJHRgxQe9SKnhAsw7MVAt0fXzi1MVihHq4bvXxRV6cvAjeNAEk506isdlUwjqQljYle9qjjEEOD0vYktjVvFK7L-2Bn9DUBzwDnBQufOTvEInBEkxsrjgnPaF13pElliSMJZdy3oVZ-2B8QTP6b8Mrg7xtoN2oErXkSgs6GS5z8MmGRhwlICIhb32-2BrbtXW-2B3GnWEEZDJZ1ZkDOGJ-2BRhFAwSByKUY97RoqupUrv5kz48PoJTwnOw15o5TJBoiHIyupz8ZhKpeHjAoIKsLwe3KKbHjVToL8GYrjIAFz-2BfRrtXsNIF4aM31SIGwZqscBAtX5KbNpp34yUGT8rG47lr0C-2FJPVokcBmBD14ubbwau5DivgjuXyE3aMpTZOH1ztugyRW3t29JQ5Gfs6A2cDcDEahltwTTrLx-2BpWqqapWsbd4muKkiLc1BYzxzD-2BI3TfUKMT1x9IaMBlocPbOxqGoy9bKTTG3Ffv1llhrj5VDphoFsJ-2BMbJOxQdGoBf7PGbA6j0lW1fLE-2BHFCCR2lMKd4DOxFTFuD7n7RF2NiUGOpXk2SN1XkWygktA51BqpQuPPDapwzz4Di1lVD6rkgnhktJ2Kj9OXLWTmLA-2FPS-2BsXc2vUYa3HXBQbmQqB0f6UcaGxD8VfjVNny4yuT2ANK7M6DWI-3D2Xhm_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeenQCbKNuMgdLqZC0YbdXbcBxR7E05nVUSll3S1SyRJjDy3dqXXUQJ3wljGDEo1GdPYI-2BqcfGoWyCrLBnmpBSUYYk-2FsWQcYiQ8xjndzQF0mvqkfyks9-2B4XKtdGzkhalZNmahmbnr2bRlOrMFpEhE0lmN-2B9uoSAvI7QkW6RzhOukeg-2BTCCRPCgokeWXGkkZMH5-2FfvaElqoPpfLGeXgxspXUMrLCWSi8fovO0PvRPoLDqwGEX7V8Jnl7dv-2BfjxxnLbG&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Original URL: https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iIgo9cBdzV9vne5ipBzFwmUG6epkpiAwfclaO-2F-2FUtC2Oc3LSvNeLgvFGnmxDcRZFLq0wTk-2FJY9-2FClPmfCgswxY1-2BhPAylT0Br1UxnbHUcbjODWZ7_HMW8pAKij88I6JG3XiyuwKdYGTRn3kzVZgrx-2F&quot;&gt;
+   America’s AI Action Plan
+  &lt;/a&gt;
+  released earlier this year—a directive to remove barriers to innovation, reduce dependence on foreign adversaries, and unleash the full strength of America’s scientific enterprise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today’s White House meeting between industry participants, U.S. Secretary of Energy Chris Wright, U.S. Department of Energy Under Secretary for Science and Genesis Mission Director, Dr. Darío Gil, and Director of the White House Office of Science and Technology Policy Michael Kratsios helped launch public-private innovation partnerships in AI technologies to secure a scalable national infrastructure to push the boundaries of science at unprecedented speed and ensure the benefits of AI flow to the entire nation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Today’s announcement of 24 new research partnerships is only the beginning, as we deliver on President Trump’s mandate to bring the entire scientific community, including companies, universities, non-profits, and Federal agencies, into the Genesis Mission,” said Assistant to the President and OSTP Director Michael Kratsios. “Harnessing cutting-edge AI for science will dramatically increase the productivity of American scientists and researchers. The Genesis Mission will help America’s scientists automate experiment design, accelerate simulations, and generate predictive models that will lead to breakthroughs in energy, manufacturing, drug discovery, and beyond.” \
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> 3 National Security Labs, 1 Federated Learning AI Model </title>
+<link>https://insidehpc.com/2025/12/3-national-security-labs-1-federated-learning-ai-model/</link>
+<pubDate>Thu, 18 Dec 2025 21:11:06 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-101114&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/federated-ai3.jpg&quot;/&gt;
+  &lt;p&gt;
+   The model is named Chandler, after a city in Arizona and a symbolic center point between all 3 laboratories. (Data provided by Siva Rajamanickam; graphic by Ray Johnson)
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Sandia National Laboratories released information today spotlighting what the labs call a significant milestone in advancing artificial intelligence for national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the past year, Sandia, Los Alamos and Lawrence Livermore national laboratories — known as the trilabs — have been building a federated-AI model as a pilot project, and they now have a prototype. A federated AI model trains a model that is shared across devices in multiple loctions without moving the raw, private data to create a smarter, collective global model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Led by Sandia and funded through the National Nuclear Safety Administration’s Advanced Simulation and Computing program, the project started with a high-risk but high-reward goal of training a large, federated AI model across the trilabs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project used NVIDIA’s NVFlare, an open-source federated-learning software, to orchestrate the training process. At each phase, or epoch, the software exchanges the updated weights, but not the data, between the three labs to allow them to be averaged together to form a single model. This updated set of weights is then sent to the other labs for the next epoch of training to begin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In order to make AI tools more accurate and more applicable to our national security mission, NNSA is going to need an enduring capability to train, and consistently retrain, AI models with our classified datasets,” said Si Hammond, program director of advanced computing in the NNSA Office of Advanced Simulation and Computing. “Federated training is a critical tool to delivering a robust capability in a cost effective, performant and secure way.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Each of the trilabs possesses unique datasets that are not easily shareable, yet they hold valuable insights for collaboration in critical mission areas. “Commercial large language models often fall short in their response to NNSA mission-relevant queries,” said Siva Rajamanickam, distinguished member of Sandia’s technical staff and the project’s lead. “Due to the inaccessibility of this specialized data within NNSA laboratories, the effectiveness of open-source or proprietary models is limited for our use cases.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/06/sandia-logo-2-1-0625.png&quot;/&gt;
+  Despite the challenges of training a language model on three different, geographically distributed systems, the research team has successfully demonstrated a prototype that proves a shared model is possible while protecting each laboratory’s unique data. Through the federated-learning approach, the trilabs have proven that they can collaboratively train the model by sharing only the “weights,” or the parameters that represent the model’s learning, without explicitly exchanging the datasets themselves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The labs coordinated on the processing of data to ensure that (it) was available in the format that the local training software, Meta’s open-source Torchtitan library, could handle,” said Chris Siefert, principal member of the technical staff at
+  &lt;a href=&quot;https://www.sandia.gov/&quot;&gt;
+   Sandia
+  &lt;/a&gt;
+  . “Sandia and Lawrence Livermore researchers demonstrated that Torchtitan can scale well on both NVIDIA and AMD GPU hardware, including results on
+  &lt;a href=&quot;https://www.llnl.gov/&quot;&gt;
+   Livermore
+  &lt;/a&gt;
+  ’s El Capitan, the world’s fastest supercomputer.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  A memorandum of understanding among the Advanced Simulation and Computing executives at the three laboratories enabled the sharing of model weights. Jen Gaudioso, director of the ASC program at Sandia, said, “By putting our data management and weight-transfer protocols into a single memorandum of understanding, Sandia, LANL and LLNL laid the foundation for an agile federated-learning ecosystem that will drive next-generation mission outcomes.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandia has a strong team in AI research. Interest in this project was a natural extension of efforts like the
+  &lt;a href=&quot;https://banyan.sandia.gov/&quot; rel=&quot;noopener noreferrer&quot;&gt;
+   BANYAN
+  &lt;/a&gt;
+  Institute for Generative AI, which unites AI initiatives across the labs by sharing datasets, models, software stacks, expertise and industry collaborations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Research will continue into how the model can be improved and expanded while ensuring that it will not memorize or replicate the shared data but still understand it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Source: Shelby Owens
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> RMACC’s 16th Annual HPC Symposium to be Held May 12-14, Boise, Idaho </title>
+<link>https://insidehpc.com/2025/12/rmaccs-16th-annual-hpc-symposium-to-be-held-may-12-14-boise-idaho/</link>
+<pubDate>Thu, 18 Dec 2025 18:50:17 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/01/RMACC-logo-2-1-0124.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Dec. 18, 2025 — The Rocky Mountain Advanced Computing Consortium (RMACC) – a collaboration among 40 academic and government research institutions located the nine-state intermountain region – has set Tuesday-Thursday, May 12-14, 2026 as the dates for its 16
+  &lt;sup&gt;
+   th
+  &lt;/sup&gt;
+  annual High Performance Computing Symposium.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The symposium will be held in the Student Union Building on the campus of Boise State University, an academic member of the consortium.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For more information about the Symposium and the RMACC and its mission, visit the website:
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=http://www.colorado.edu/partnerships/rmacc&amp;source=gmail&amp;ust=1766167711772000&amp;usg=AOvVaw2qAHP15kVE4pWaeb-DPhlb&quot; href=&quot;http://www.colorado.edu/partnerships/rmacc&quot;&gt;
+   www.colorado.edu/partnerships/rmacc
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are excited to bring our annual symposium – a key piece of the RMACC’s mission to facilitate widespread effective use of High Performance Computing in the Intermountain Region – to a region where it hasn’t been held before,” noted Becky Yeager, the RMACC’s Executive Director.   “And as we grow our membership in the northern Rockies, having an event at Boise State provides an excellent location for potential members to join us at the event and learn more about the many RMACC programs and outreach activities.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The HPC Symposium brings together researchers, educators, industry leaders, students and sponsor representatives in a setting that maximizes opportunities for sharing the latest HPC trends.  In addition to two Keynote talks by national leaders in the HPC community, there are a series of panel discussions and presentations by both members and sponsoring organizations, led in 2025 by Double Diamond sponsor Dell, Diamond sponsor AMD, and Platinum sponsors AWS, CIQ, Dell Technologies/WWT, DDN, Hammerspace, IQM, Intel, and Mark III/NVIDIA.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many sponsors provide support for students to attend at a greatly reduced cost.  And, students have the opportunity to showcase their research through a popular poster competition.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Element Critical Launches AI Data Center Platform with Mercuria, 26North, Arctos and Safanad </title>
+<link>https://insidehpc.com/2025/12/element-critical-launches-ai-data-center-platform-with-mercuria-26north-arctos-and-safanad/</link>
+<pubDate>Thu, 18 Dec 2025 16:09:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/01/data-center-2-1-0125-shutterstock-2502153963-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  New York — December 18, 2025
+  &lt;strong&gt;
+   —
+  &lt;/strong&gt;
+  Element Critical today announced the launch of a new U.S. data center platform backed by 26North Partners, Arctos, Mercuria and Safanad, anchored by the acquisition of two enterprise data center facilities in Houston and Austin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The platform is designed to meet growing demand driven by AI inference, digital workloads and power-constrained markets. Safanad has spent the past decade developing Element Critical into an enterprise data center provider. With 26North, Mercuria and Arctos, the platform will accelerate acquisitions, development and strategic expansion across top U.S. markets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Through this investment and data-center acquisition strategy, Element Critical will be well-positioned to support the needs of leading clients in technology, financial services, healthcare, energy and Fortune 500 companies,” said
+  &lt;a href=&quot;https://elementcritical.com/&quot;&gt;
+   Element Critical
+  &lt;/a&gt;
+  CEO Ken Parent. “These Texas facilities will anchor our expansion into other top U.S. markets.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Digital infrastructure is precisely the kind of opportunity our next-generation alternatives firm was built to pursue,” said 26North Founder Josh Harris. “As AI, energy and data converge, we see an opportunity to support platforms with strong fundamentals and durable demand. We pride ourselves on aligning with innovative leaders such as Mercuria, Safanad and Arctos, who each bring complementary strengths, and structuring a partnership that traditional models can’t match.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The partnership combines 26North’s thesis-driven alpha creation expertise and disciplined investment approach with Mercuria’s deep knowledge of energy markets and low-carbon power. It also brings together Safanad’s decade of operating experience and Arctos’s well-established track record of providing bespoke capital solutions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The intersection of AI, data, and energy is reshaping infrastructure demands. Our investment reflects Mercuria’s commitment to supporting digital infrastructure with innovative energy solutions,” said
+  &lt;a href=&quot;https://mercuria.com/&quot;&gt;
+   Mercuria
+  &lt;/a&gt;
+  ’s CIO Brian Falik. “We’re partnering with industry leaders to power Element Critical’s expansion and help meet the evolving needs of enterprise clients.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are proud to launch this next phase of Element Critical with partners who share our conviction in digital infrastructure and the evolution driven by AI,” said Safanad Founder and CEO Kamal Bahamdan. “Over the past decade, we have built Element Critical into a scaled, resilient platform and this new partnership readies us to grow even more rapidly.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The partners aim to meet the surging demand from enterprises and the substantial capacity needs of AI inference and other next-generation technologies across financial services, healthcare, energy, technology and other sectors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are thrilled to join forces with 26North, Mercuria and
+  &lt;a href=&quot;http://www.safanad.com/&quot;&gt;
+   Safanad
+  &lt;/a&gt;
+  to catalyze Element Critical’s next stage of growth,” said
+  &lt;a href=&quot;http://www.arctospartners.com/&quot;&gt;
+   Arctos
+  &lt;/a&gt;
+  Partner Ira Shaw. “With a customer-centric approach in colocation, Element Critical has firmly established itself within a thriving sector. This partnership marks a significant milestone for Arctos and our Keystone Real Assets strategy, as we invest into the future of digital infrastructure.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Guggenheim Securities and Goldman Sachs acted as financial advisors to Safanad and King &amp; Spalding acted as legal advisor. DLA Piper served as legal advisor to 26North. Kirkland &amp; Ellis acted as legal advisor to the platform in connection with acquisitions of the Houston and Austin data centers. BofA Securities and Citizens Bank served as Joint Lead Arrangers and Joint Bookrunners, and Huntington National Bank served as Joint Lead Arranger for the transaction financing.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> VAST Data Selected by SciNet and SHARCNET in Canada </title>
+<link>https://insidehpc.com/2025/12/vast-data-selected-by-scinet-and-sharcnet-in-canada/</link>
+<pubDate>Wed, 17 Dec 2025 20:44:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/02/vast-logo-2-1-0124.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NEW YORK CITY – December 17, 2025 – VAST Data today announced that SciNet at the University of Toronto, and SHARCNET at the University of Waterloo have adopted VAST as their data and AI operating system, building on previously announced deployments with Canadian-based infrastructure providers that are using VAST to power large-scale GPU services, according to VAST.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Together, these organizations represent a cross-section of Canada’s AI ecosystem – from national academic compute sites and world-renowned AI research institutes to cloud infrastructure providers – converging on a common requirement: a scalable, resilient data and AI operating system that can keep pace with GPU-era workloads while remaining simple enough to operate with lean teams.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SciNet, one of Canada’s five national academic HPC sites and home to the Trillium supercomputer, is running its third-generation system with approximately 240,000 CPU cores and 250 GPUs. Rather than repeat a legacy model, SciNet has consolidated on the VAST AI OS infrastructure, designed to serve traditional HPC codes and emerging AI workloads side by side.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We run an extraordinary mix of workloads by researchers across Canada, and our new system pushes well beyond the scale of our previous generation,” said Daniel Gruner, CTO, SciNet. “With VAST, we no longer have to juggle different storage tiers or bolt on burst buffers just to keep up with demanding I/O. We can support both traditional HPC and new AI workloads on VAST’s AI OS that our users hammer every day – and it simply keeps up.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  SHARCNET, another of Canada’s national host sites and the organization behind the new Nibi cluster at the University of Waterloo, has similarly chosen the VAST AI OS as the data foundation for its refreshed infrastructure. Nibi combines more than 135,000 CPU cores with 288 GPUs and advanced immersion cooling, and serves a “long tail” of research disciplines – from bioinformatics and physics to economics and the humanities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We support thousands of researchers with wildly different I/O patterns, from billion-file bioinformatics datasets to students learning HPC for the first time,” said John Morton, Director of Technology, SHARCNET. “With our previous system, a single misbehaving job could impact the entire cluster. The best thing we can say about VAST is that it has largely disappeared into the background – it has quietly absorbed billions of files and some extremely demanding workloads without ever becoming a problem we have to debug.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  VAST AI OS allows Canada’s national host sites and AI clouds to:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Unify HPC and AI on One Platform: VAST AI OS allows organizations to run tightly coupled simulations, data analytics, AI training and inference on a single, unified platform – instead of managing multiple tiers, burst buffers, and database and compute services from disparate infrastructure.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Keep GPUs Fully Utilized: VAST’s Disaggregated Shared-Everything (DASE) architecture delivers consistent performance for small-file, high-IOPS and metadata-heavy workloads so that CPU and GPU resources remain compute-bound, not I/O-bound.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Simplify Operations for Lean Teams: VAST provides teams with a modern management experience, built-in snapshots and catalog services, and automated resilience features that reduce the need for manual tuning and firefighting.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Enable Secure, Multi-Tenant Environments: The VAST DataSpace delivers a global namespace with multi-tenancy and data services to support secure, compliant environments for sensitive data and multi-organization research collaborations.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Prepare for Multi-Site and Multi-Cloud Futures: VAST enables organizations to build toward a common data foundation that can span national research sites, Canadian infrastructure providers and public cloud environments, enabling replication, shared datasets and consistent governance.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “Canada has made bold, strategic investments in AI – from national research centers to cloud infrastructure designed for large-scale GPU computing,” said Pezhman Sharifi, Director at
+  &lt;a href=&quot;https://www.vastdata.com/&quot;&gt;
+   VAST
+  &lt;/a&gt;
+  Data Canada Inc. “What unites SciNet, SHARCNET and other Canadian infrastructure partners is a shared need for an operating system that keeps GPUs and researchers fed with data without adding operational complexity. The VAST AI OS delivers a single, global platform for Canada’s innovation economy – from academic labs to production AI services.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EuroHPC JU Issues €4M HPC-AI Benchmarking Call for Proposals, March 24 Deadline </title>
+<link>https://insidehpc.com/2025/12/eurohpc-ju-issues-e4m-hpc-ai-benchmarking-call-for-proposals-march-24-deadline/</link>
+<pubDate>Wed, 17 Dec 2025 19:36:31 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/12/EuroHPC-JU-logo-2-1-1223-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;p&gt;
+      The European High-Performance Computing Joint Undertaking has launched a call for benchmarking proposals for HPC systems in Europe.
+     &lt;/p&gt;
+     &lt;p&gt;
+      This call for proposals,
+      &lt;a href=&quot;https://www.eurohpc-ju.europa.eu/european-benchmarking-framework_en&quot;&gt;
+       HORIZON-EUROHPC-JU-2024-BENCHMARK-05
+      &lt;/a&gt;
+      , is open for submission until 24 March 2026, 17:00 (CET).  The budget available for this call is €4 million, funded under the
+      &lt;a href=&quot;https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en&quot;&gt;
+       Horizon Europe
+      &lt;/a&gt;
+      program. More details can be found
+      &lt;a href=&quot;https://www.eurohpc-ju.europa.eu/european-benchmarking-framework_en&quot;&gt;
+       here
+      &lt;/a&gt;
+      .
+     &lt;/p&gt;
+     &lt;p&gt;
+      The EuroHPC JU said it supports development of a unified, modular, extensible and documented  framework for HPC benchmarking, along with a continuously updated  benchmarking suite. This unified approach is intended to provide widely accepted and applicable metrics to validate and compare HPC hardware, software and system performance.
+     &lt;/p&gt;
+     &lt;p&gt;
+      Benchmarks allow users to measure and compare the performance of different computing  platforms, and this initiative  is intended to support end-users identifying suitable HPC systems for specific applications or use cases. Likewise, the call supports system administrators optimizing operations with respect to throughput and energy consumption.
+     &lt;/p&gt;
+     &lt;p&gt;
+      The call addresses two topics:
+     &lt;/p&gt;
+     &lt;p&gt;
+      The first topic addresses the development of a benchmarking framework for exascale HPC and HPC-AI. It aims to provide a fair comparison methodology among different HPC systems. This is achieved by ensuring reproducibility, repeatability, and replicability of the suggested metrics.
+     &lt;/p&gt;
+     &lt;p&gt;
+      The call welcomes proposals expected to define, deploy, collect, and standardise exascale HPC and HPC-AI benchmarks. The proposals should offer a fine-grained and fair comparison methodology for different HPC systems and define performance metrics, particularly those related to energy efficiency. They should also standardise all benchmarking input and output formats. An accompanying framework must offer a structured workflow to capture and streamline the entire benchmarking process.
+     &lt;/p&gt;
+     &lt;p&gt;
+      The second topic addresses the  development of benchmarks that accurately reflect hybrid workflows involving HPC and quantum computing.  Proposals should  address essential metrics able to measure throughput, latency, and energy consumption. All developed benchmarks should generally be hardware agnostic to enable cross-device verification and proposals should identify and define common metrics to compare different qubit modalities, as well as the depth of the achieved HPC-QC integration.
+     &lt;/p&gt;
+     &lt;p&gt;
+      Proposals are expected to propose and maintain a detailed strategic development roadmap, which anticipates future developments in QC and hybrid HPC-QC, including emerging technologies, and foresees the hardware agnostic and hardware inclusive support of hybrid HPC-QC systems.
+     &lt;/p&gt;
+     &lt;p&gt;
+      The EuroHPC JU is a legal and funding entity that brings together the European Union and participating countries to coordinate efforts and pool resources with the objective of making Europe a world leader in supercomputing.
+     &lt;/p&gt;
+     &lt;p&gt;
+      To equip Europe with a cutting-edge supercomputing infrastructure, the EuroHPC JU has already procured
+      &lt;a href=&quot;https://eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en&quot;&gt;
+       12 supercomputers
+      &lt;/a&gt;
+      , distributed across Europe including
+      &lt;a href=&quot;https://www.fz-juelich.de/en/ias/jsc/jupiter&quot;&gt;
+       &lt;span&gt;
+        JUPITER
+       &lt;/span&gt;
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://www.eurohpc-ju.europa.eu/contract-signed-alice-recoque-europes-new-exascale-supercomputer-2025-11-18_en&quot;&gt;
+       Alice Recoque
+      &lt;/a&gt;
+      , Europe’s first exascale systems.
+     &lt;/p&gt;
+     &lt;p&gt;
+      European scientists and users from the public sector and industry can benefit from EuroHPC supercomputers via the
+      &lt;a href=&quot;https://eurohpc-ju.europa.eu/access-our-supercomputers/eurohpc-access-calls_en&quot;&gt;
+       EuroHPC Access Calls
+      &lt;/a&gt;
+      no matter where in Europe they are located, to advance science and support the development of a wide range of applications with industrial, scientific and societal relevance for Europe.
+     &lt;/p&gt;
+     &lt;p&gt;
+      Currently, the EuroHPC JU is also overseeing the implementation of 19
+      &lt;a href=&quot;https://eurohpc-ju.europa.eu/ai-factories_en&quot;&gt;
+       AI factories
+      &lt;/a&gt;
+      (AIF) across Europe, complemented by
+      &lt;a href=&quot;https://www.eurohpc-ju.europa.eu/eurohpc-ju-selects-ai-factory-antennas-broaden-ai-factories-initiative-2025-10-10_en&quot;&gt;
+       thirteen AI Factory Antennas
+      &lt;/a&gt;
+      , to offer free, customised support to SMEs and startups.
+     &lt;/p&gt;
+     &lt;p&gt;
+      Additionally, the EuroHPC JU is deploying a
+      &lt;a href=&quot;https://eurohpc-ju.europa.eu/eurohpc-quantum-computers_en&quot;&gt;
+       European Quantum Computing infrastructure
+      &lt;/a&gt;
+      , integrating diverse European quantum computing technologies with existing supercomputers.
+     &lt;/p&gt;
+     &lt;p&gt;
+      The EuroHPC JU also funds
+      &lt;a href=&quot;https://eurohpc-ju.europa.eu/research-innovation_en&quot;&gt;
+       research and innovation projects
+      &lt;/a&gt;
+      to develop a full European supercomputing supply chain, from processors and software to applications to be run on these supercomputers and know-how to develop strong European HPC expertise.
+     &lt;/p&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Qilimanjaro and Oxigen Data Center Collaborate on Multimodal Quantum-HPC Integration </title>
+<link>https://insidehpc.com/2025/12/qilimanjaro-and-oxigen-data-center-collaborate-on-multimodal-quantum-hpc-integration/</link>
+<pubDate>Wed, 17 Dec 2025 19:20:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/oxigen-and-qilmanaro-logos-2-1-122025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div data-element_type=&quot;container&quot; data-id=&quot;ad9e64f&quot;&gt;
+  &lt;div&gt;
+   &lt;div data-element_type=&quot;widget&quot; data-id=&quot;92f015d&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
+    &lt;p&gt;
+     Barcelona, Dec. 16, 2025 – Qilimanjaro Quantum Tech and Oxigen Data Center announced a collaboration to explore how multimodal quantum computers can be integrated into commercial data centers.
+    &lt;/p&gt;
+    &lt;p&gt;
+     The companies said they intend to lay the foundations for the next generation of hybrid quantum infrastructure. This collaboration will highlight Qilimanjaro’s analog quantum computers, which require less error correction compared to digital quantum computers.
+    &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div data-element_type=&quot;widget&quot; data-id=&quot;2649311&quot; data-widget_type=&quot;divider.default&quot;&gt;
+    &lt;div&gt;
+     Both companies are  based in Barcelona and share a clear ambition: to contribute to building the future of the quantum cloud from Europe. As the computing landscape evolves toward a hybrid classical–quantum paradigm, defining how these technologies will coexist within industrial environments becomes  essential.
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div data-element_type=&quot;container&quot; data-id=&quot;b321565&quot;&gt;
+  &lt;div&gt;
+   &lt;div data-element_type=&quot;widget&quot; data-id=&quot;1a1a5c7&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
+    &lt;p&gt;
+     Although quantum computers are still in the scaling phase, the time is now to establish how they will be deployed, interconnected, and operated in real-world infrastructures. This partnership marks a decisive first step in that work.
+     &lt;a href=&quot;https://qilimanjaro.tech/&quot;&gt;
+      Qilimanjaro
+     &lt;/a&gt;
+     and
+     &lt;a href=&quot;https://oxigendc.com/&quot;&gt;
+      Oxigen Data Center
+     &lt;/a&gt;
+     will work together to understand and define the mutual requirements for integrating two highly advanced and interdependent systems.
+    &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div data-element_type=&quot;widget&quot; data-id=&quot;b340df4&quot; data-widget_type=&quot;blockquote.default&quot;&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div data-element_type=&quot;container&quot; data-id=&quot;d6b9438&quot;&gt;
+  &lt;div&gt;
+   &lt;div data-element_type=&quot;widget&quot; data-id=&quot;3a608e8&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
+    &lt;p&gt;
+     Both partners will engage in a collaborative learning process, studying the standards, interfaces, regulations, and operational frameworks that data centers need to accommodate quantum hardware, and the requirements quantum systems must meet to operate seamlessly within modern commercial data centers. The objective is to create a path toward a centralised, fully hybrid system accessible  to users from all sectors.
+    &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div data-element_type=&quot;widget&quot; data-id=&quot;68955bf&quot; data-widget_type=&quot;text-editor.default&quot;&gt;
+    &lt;p&gt;
+     The new system will include digital and analog quantum computers. Analog quantum computing is naturally suited for continuous and complex problems, such as the simulation of molecules, materials, and physical systems. It also offers powerful new ways to train AI models and solve large-scale optimization challenges, opening a path to faster and more energy-efficient computing.
+    &lt;/p&gt;
+    &lt;p&gt;
+     Together, Qilimanjaro and Oxigen Data Center are positioning Barcelona and Europe as an reference innovation hub for the quantum cloud era, enabling future users to access quantum and classical processing seamlessly, through unified and scalable infrastructure.
+    &lt;/p&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> CIQ Names Bjorn Hovland President </title>
+<link>https://insidehpc.com/2025/12/ciq-names-bjorn-hovland-president/</link>
+<pubDate>Wed, 17 Dec 2025 18:58:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-101100&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/ciq-bjorn-hovland-122025.jpg&quot;/&gt;
+  &lt;p&gt;
+   Bjorn Hovland
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  RENO, Nev., – December 17, 2025 – CIQ, the founding support and services partner of Rocky Linux and high-performance software infrastructure company, today announced the promotion of Bjorn Hovland from chief operating officer to president, reporting to founder and CEO Gregory Kurtzer.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  CIQ said Hovland’s elevation reflects CIQ’s strategic positioning as AI infrastructure decentralizes and the operating system emerges as a critical competitive advantage for nations and enterprises building next-generation AI capabilities.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “We’re witnessing a fundamental shift in how the world approaches AI infrastructure,” said Hovland. “Nations and enterprises are recognizing that the operating system isn’t just a commodity, it’s a strategic asset that determines speed, cost-efficiency and sovereignty. Rocky Linux and our complete infrastructure stack give organizations the control they need to build AI ecosystems on their own terms, without vendor lock-in or compromise on performance. CIQ is positioned uniquely at the intersection of open source innovation, enterprise-grade reliability and high-performance computing expertise.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  The global AI landscape is fragmenting from a centralized model to a multi-polar architecture, with new centers of AI influence emerging across the Middle East, Asia, and Europe. This decentralization is driving demand for infrastructure that balances critical requirements. CIQ’s portfolio, spanning Rocky Linux enterprise distributions, Fuzzball for cluster orchestration, Warewulf Pro for HPC management and Ascender Pro for automation, addresses these requirements directly, providing the full infrastructure stack needed for sovereign AI deployments.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  “Bjorn is the ideal partner to execute our vision at this inflection point,” said Gregory Kurtzer, founder and CEO of CIQ. “He combines rare technical depth with operational discipline and strategic acumen. As we scale to meet unprecedented global demand for sovereign AI infrastructure, Bjorn’s ability to synthesize complex competitive dynamics and drive execution in real time makes him the perfect person to lead our day-to-day operations and accelerate our growth trajectory. This allows me to focus on our long-term technical and company strategy as we navigate this period of expansion.”
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  In his COO role, Hovland drove product strategy, operations and go-to-market execution for
+  &lt;a href=&quot;http://ciq.com&quot;&gt;
+   CIQ
+  &lt;/a&gt;
+  ‘s Enterprise Linux, HPC and cloud infrastructure solutions. A technologist and inventor, Hovland holds more than 20 U.S. patents across environmental sensing, connectivity and data systems. His career spans building award-winning platforms that merge advanced software engineering with commercial execution, including development work that generated over $100 million in revenue. His leadership bridges deep technical expertise with the operational rigor required to scale complex, high-performance products.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  CIQ also announced the appointment of Ramesh Srinivasan as vice president of sales. Most recently at Oracle, Srinivasan brings over 30 years of enterprise sales leadership with a proven track record scaling open source, Linux and cloud-native businesses from early-stage to significant market presence.
+ &lt;/p&gt;
+ &lt;p dir=&quot;ltr&quot;&gt;
+  Srinivasan’s expertise spans the full spectrum of modern infrastructure, from Linux and virtualization to cloud-native and AI-driven solutions. His ability to blend technical depth with strategic vision positions him to accelerate CIQ’s growth trajectory, expand market presence and strengthen relationships across enterprise, commercial and channel ecosystems.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NOAA Deploys AI-Driven Global Weather Models </title>
+<link>https://insidehpc.com/2025/12/noaa-deploys-ai-driven-global-weather-models/</link>
+<pubDate>Wed, 17 Dec 2025 18:18:36 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/noaa-logo-2-1-122025.png&quot;/&gt;
+  The U.S. National Oceanic and Atmospheric Administration said it has launched a suite of operational, artificial intelligence-driven global weather prediction models that NOAA said marks an advancement in forecast speed, efficiency, and accuracy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The models are designed to provide forecasters with faster delivery of more accurate guidance, while using fewer computational resources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “NOAA’s strategic application of AI is a significant leap forward in American weather model innovation,” said Neil Jacobs, Ph.D., NOAA administrator. “These AI models reflect a new paradigm for NOAA in providing improved accuracy for large-scale weather and tropical tracks, and faster delivery of forecast products to meteorologists and the public at a lower cost through drastically reduced computational expenses.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The suite of AI weather models includes three distinct applications:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   AIGFS (Artificial Intelligence Global Forecast System): A weather forecast model that implements AI to deliver improved weather forecasts more quickly and efficiently (using up to 99.7% less computing resources) than its traditional counterpart.
+  &lt;/li&gt;
+  &lt;li&gt;
+   AIGEFS (Artificial Intelligence Global Ensemble Forecast System): An AI-based ensemble system that provides a range of probable forecast outcomes to meteorologists and decision-makers. Early results show improved performance over the traditional GEFS, extending forecast skill by an additional 18 to 24 hours.
+  &lt;/li&gt;
+  &lt;li&gt;
+   HGEFS (Hybrid-GEFS): A pioneering, hybrid “grand ensemble” that combines the new AI-based AIGEFS (above) with NOAA’s flagship ensemble model, the Global Ensemble Forecast System. Initial testing shows that this model, a first-of-its kind approach for an operational weather center, consistently outperforms both the AI-only and physics-only ensemble systems.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;div&gt;
+  &lt;img aria-describedby=&quot;caption-attachment-101095&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/noaa-ai-weather-models-122025.png&quot;/&gt;
+  &lt;p&gt;
+   AIGFS Forecast map from Dec 10 showing heavy precipitation from an atmospheric river in the Pacific Northwest. (Credit: NOAA)
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  More about the new AI operational models:
+ &lt;/p&gt;
+ &lt;p&gt;
+  AIGFS — a new AI-based system that uses a variety of data sources to generate weather forecasts comparable to those produced by traditional weather prediction systems, such as GFS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Performance: shows improved forecast skill over the traditional GFS for many large-scale features. Notably, it demonstrates a significant reduction in tropical cyclone track errors at longer lead times.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Efficiency: AIGFS’s most transformative feature. A single 16-day forecast uses only 0.3% of the computing resources of the operational GFS and finishes in approximately 40 minutes. This reduced latency means forecasters get critical data more quickly than they do from the traditional GFS. Area for future improvement: Though track forecasts are better, v1.0 shows a degradation in tropical cyclone intensity forecasts, which future versions will address.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AIGEFS — an AI-based 31-member ensemble, similar to the GEFS, that provides a range of possibilities for weather forecasters and decision-makers rather than a single forecast model solution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Performance: forecast skill is comparable to the operational GEFS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Efficiency: requires 9% of the computing resources of the operational GEFS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Area for future improvement: developers continue to improve the ensemble’s ability to create a range of forecast outcomes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HGEFS — the most innovative application in the new suite. The HGEFS is a 62-member “grand ensemble” created by combining the 31 members of the physical GEFS with the 31 members of the AI-based AIGEFS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Performance: by combining two different modeling systems (one physics-based, one AI-based), the HGEFS creates a larger, more robust ensemble that more effectively represents forecast uncertainty. As a result, the HGEFS consistently outperforms both the GEFS and the AIGEFS across most major verification metrics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NOAA said it may be the first organization in the world to implement such a hybrid physical-AI ensemble system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Area for future improvement: NOAA continues its work to improve HGEFS’s hurricane intensity forecasts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This initial model suite is an outgrowth of Project EAGLE, a joint initiative between NOAA’s National Weather Service, Oceanic and Atmospheric Research labs, the Environmental Modeling Center in NOAA’s National Centers for Environmental Prediction, and the Earth Prediction Innovation Center.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Using Project EAGLE and the Earth Prediction Innovation Center, NOAA scientists continue to work with members of academia and private industry on more advancements in forecasting technology,” added Jacobs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team leveraged Google DeepMind’s GraphCast model as an initial foundation and fine-tuned the model using NOAA’s own Global Data Assimilation System analyses. This additional training with NOAA data improved the Google model’s performance, particularly when using GFS-based initial conditions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Climate, weather, and water affect all life on our ocean planet. NOAA’s mission is to understand and predict our changing environment, from the deep sea to outer space, and to manage and conserve America’s coastal and marine resources.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Photonic Inc.’s Dr. Stephanie Simmons Named to UNESCO 2025  International Year of Quantum Science and Technology Quantum 100 </title>
+<link>https://insidehpc.com/2025/12/photonic-inc-s-dr-stephanie-simmons-named-to-unesco-2025-international-year-of-quantum-science-and-technology-quantum-100/</link>
+<pubDate>Wed, 17 Dec 2025 17:34:38 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/photonic-inc-logo-2-1-122025.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Vancouver, BC, Dec. 17, 2025
+  &lt;strong&gt;
+   –
+  &lt;/strong&gt;
+  Photonic Inc., a distributed quantum computing company, today announced that its founder and Chief Quantum Officer, Dr. Stephanie Simmons, has been included in the Quantum 100, an initiative as part of the International Year of Quantum Science and Technology (IYQ 2025).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Quantum 100 celebrates the people advancing quantum science worldwide and will be featured in the UNESCO Final Report and at the IYQ Closing Ceremony.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s an incredible honor to be recognized among such an inspiring group of global quantum leaders, for efforts accelerating the path to commercially useful quantum computing,” said Dr. Simmons. “This recognition reflects the collaborative progress our field is making—across science, engineering, and policy—toward realizing practical quantum technologies and scalable quantum systems with the potential to drive profound societal impact and economic growth.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Through her research, hardware innovation, and leadership in both industry and policy, Dr. Simmons is advancing scalable, fault-tolerant quantum computing. At Photonic, she is pioneering a modular, distributed quantum architecture that enables efficient quantum error correction (QLDPC) and is natively compatible with existing data center and telecom infrastructure—a breakthrough that moves the field closer to real-world, globally connected quantum systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dr. Simmons’ academic journey has included the University of Waterloo, University of Oxford, and University of New South Wales, where her research earned Physics World’s Top Ten Breakthroughs in both 2013 and 2015. At Simon Fraser University (SFU), where she continues to serve as an Associate Professor, Dr. Simmons identified a qubit modality—silicon colour
+  &lt;wbr&gt;
+   centres—that is uniquely suited for large-scale, distributed quantum systems, laying the foundation for Photonic’s innovations.
+  &lt;/wbr&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, Dr. Simmons co-chairs Canada’s Quantum Advisory Council, represents Canada in NATO’s Transatlantic Quantum Community, and holds a Tier 2 Canada Research Chair in Silicon Quantum Technologies. She continues to mentor researchers, using her experience in academia and business to advance quantum computing toward practical, global-scale applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dr. Simmons also joined leading technology innovators in Paris to speak at the UNESCO IYQ25 Opening Ceremony.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UKRI Maps £38.6 Billion R&amp;D Budget, £1 Billion for Quantum, Over 4 Years </title>
+<link>https://insidehpc.com/2025/12/ukri-maps-38-6-billion-rd-budget-1-billion-for-quantum-over-4-years/</link>
+<pubDate>Wed, 17 Dec 2025 17:10:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2024/07/ukri-logo-2-1-0727.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The UK Research and Innovation agency today announced it will invest its record four-year £38.6 billion allocation from government, incluging £1 billion for quantum computing R&amp;D.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.ukri.org/publications/explainer-ukri-budget-allocations/&quot;&gt;
+   allocations explainer
+  &lt;/a&gt;
+  provides information on how UKRI funding will be invested across priority ‘buckets’ as set out by Science and Technology Secretary Liz Kendall and UKRI CEO Ian Chapman at the recent
+  &lt;a href=&quot;https://www.ukri.org/news/secretary-of-state-liz-kendall-attends-ukri-hosted-growth-summit/&quot;&gt;
+   Innovation for Growth Summit
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also provides a breakdown of investment across the industrial strategy priority sectors. The priority ‘buckets’ are:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   £8 billion on targeted R&amp;D addressing national and societal priorities, including clean energy, health resilience and national security
+  &lt;/li&gt;
+  &lt;li&gt;
+   £7 billion to support innovative company growth, helping UK businesses scale and commercialise cutting-edge technologies
+  &lt;/li&gt;
+  &lt;li&gt;
+   £14 billion for the curiosity-driven research that underpins the UK R&amp;D system
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The rest of UKRI’s £38.6 billion settlement will be used for foundational investments that cut across these three areas, including in skills and infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   UKRI CEO Ian Chapman said: “We’re aligning our budget to a new single mission, to advance knowledge, improve lives, and drive UK growth. Over the next four years, we will scale research and innovation investment to almost £10bn per year and target world-leading areas with the strongest return for the UK. The Explainer published today sets out how we’ll be making choices in how we invest, by prioritising areas where the UK can be world-leading and by working closely with business.”
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Science and Technology Secretary Liz Kendall said: “There is no route to stronger growth without science, technology and innovation, so we must grasp the opportunities our world class researchers and innovators offer with both hands. By doing fewer things better and backing winning ideas, this round of record UKRI funding can help more promising UK businesses to scale up while homing in on projects which have the best chance of benefiting us all.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This explainer provides a breakdown of UKRI’s allocations for financial years 2026 to 2027 through to 2029 to 2030.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new outcome-focused approach to allocations means that it is not possible to directly compare these allocations to previous budgets or explainers, including comparisons with historic sector or research council investment levels.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NVIDIA Acquires Slurm Workload Management Provider SchedMD </title>
+<link>https://insidehpc.com/2025/12/nvidia-acquires-slurm-workload-management-provider-schedmd/</link>
+<pubDate>Tue, 16 Dec 2025 21:13:55 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/slurm-logo-2-1-122025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NVIDIA announced it has acquired SchedMD — developer of Slurm, an open-source workload management system for high-performance computing and AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA said it will continue to develop and distribute Slurm as open-source, vendor-neutral software, making it available to the HPC and AI community across hardware and software environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPC and AI workloads involve complex computations running parallel tasks on clusters that require queuing, scheduling and allocating computational resources. As HPC and AI clusters get larger and more powerful, efficient resource utilization is critical.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a workload manager and job scheduler in scalability, throughput and policy management, Slurm is used in more than half of the top 10 and top 100 systems in the TOP500 list of supercomputers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Slurm, which is supported on the latest NVIDIA hardware, is also part of the infrastructure needed for generative AI, used by foundation model developers and AI builders to manage model training and inference needs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’re thrilled to join forces with NVIDIA, as this acquisition is the ultimate validation of Slurm’s critical role in the world’s most demanding HPC and AI environments,” said Danny Auble, CEO of SchedMD. “NVIDIA’s deep expertise and investment in accelerated computing will enhance the development of Slurm — which will continue to be open source — to meet the demands of the next generation of AI and supercomputing.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA said it as been collaborating with SchedMD for over a decade and will continue investing in Slurm’s development to ensure it remains the leading open-source scheduler for HPC and AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA will accelerate SchedMD’s access to new systems — allowing users of NVIDIA’s accelerated computing platform to optimize workloads across their entire compute infrastructure — while also supporting a diverse hardware and software ecosystem, so customers can run heterogeneous clusters with the latest Slurm innovations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NVIDIA will continue to offer open-source software support, training and development for Slurm to SchedMD’s hundreds of customers, which include cloud providers, manufacturers, AI companies and research labs spanning industries such as autonomous driving, healthcare and life sciences, energy, financial services, manufacturing and government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Together with SchedMD, NVIDIA is bolstering the open-source software ecosystem to catalyze HPC and AI innovation across industries, at every scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> @HPCpodcast Industry View: A Portrait of LRZ’s Upcoming HPE Cray Supercomputer Powered by NVIDIA Vera Rubin – the Combined Forces of HPC and AI for Science </title>
+<link>https://insidehpc.com/2025/12/hpcpodcast-industry-view-a-portrait-of-lrzs-upcoming-hpe-cray-supercomputer-powered-by-nvidia-vera-rubin-the-combined-force-of-hpc-and-ai-for-science/</link>
+<pubDate>Tue, 16 Dec 2025 19:30:51 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  @HPCpodcast’s “Industry View” episodes take on major issues in advanced technologies through the lens of industry leaders. In this episode, we dig into the design and deployment of an upcoming leadership-class supercomputer for the Leibniz Supercomputing Centre (LRZ) in Germany.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is the “Blue Lion” HPC system announced at ISC2025 in Hamburg and scheduled to go into operation in 2027. Based on the HPE Cray GX architecture from Hewlett Packard Enterprise and powered by NVIDIA’s next-generation Vera Rubin chips, Blue Lion will offer science and research around 30 times the computing power of the current flagship HPC system at the LRZ.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this episode we talk with Prof. Dieter Kranzlmueller, Chairman of the Board of Directors of the LRZ, about the criteria and considerations behind the selection of the system and chip architectures, expected system performance and workloads that Blue Lion will be assigned, its ability to leverage both HPC and AI for science, and how the system’s fanless liquid cooling capability will deliver power efficiencies and minimize environmental impact.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prof. Kranzlmueller also updates on LRZ’s priorities, mission, new technology adoption plans and research direction for the rest of the decade.
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at insideHPC’s
+  &lt;a href=&quot;https://insidehpc.com/category/resources/hpc-podcast/&quot;&gt;
+   @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , at
+  &lt;a href=&quot;https://orionx.net/2024/07/hpcpodcast-87-penguin-solutions-on-ai-infrastructure-industry-view/&quot;&gt;
+   the OrionX.net blog
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  , and on
+  &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2hwY3BvZGNhc3Qtb3Jpb254&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s
+  &lt;a href=&quot;https://orionx.net/podcast/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   our RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://orionx.net/category/hpc-podcast/feed/&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPC News Bytes 20251215: On-Off-On GPU Exports to China, the US-China Power Gap, Pocket-Sized HPC, Regulating AI </title>
+<link>https://insidehpc.com/2025/12/hpc-news-bytes-20251215-on-off-on-gpu-exports-to-china-the-us-china-power-gap-pocket-sized-hpc-regulating-ai/</link>
+<pubDate>Mon, 15 Dec 2025 17:33:02 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&#x27;audio&#x27;);&lt;/script&gt;&lt;![endif]--&gt;
+ &lt;span&gt;
+  Audio Player
+ &lt;/span&gt;
+ &lt;div aria-label=&quot;Audio Player&quot; role=&quot;application&quot; tabindex=&quot;0&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;mediaelementwrapper&gt;
+     &lt;audio preload=&quot;none&quot; src=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251215.mp3?_=1&quot;&gt;
+      &lt;source src=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251215.mp3?_=1&quot; type=&quot;audio/mpeg&quot;&gt;
+       &lt;a href=&quot;https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251215.mp3&quot;&gt;
+        https://orionx.net/wp-content/uploads/2025/12/HPCNB_20251215.mp3
+       &lt;/a&gt;
+      &lt;/source&gt;
+     &lt;/audio&gt;
+    &lt;/mediaelementwrapper&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Play&quot; tabindex=&quot;0&quot; title=&quot;Play&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div aria-live=&quot;off&quot; role=&quot;timer&quot;&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span aria-label=&quot;Time Slider&quot; aria-valuemax=&quot;0&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;0&quot; aria-valuetext=&quot;00:00&quot; role=&quot;slider&quot; tabindex=&quot;0&quot;&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        00:00
+       &lt;/span&gt;
+       &lt;span&gt;
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;span&gt;
+      00:00
+     &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     &lt;button aria-controls=&quot;mep_0&quot; aria-label=&quot;Mute&quot; tabindex=&quot;0&quot; title=&quot;Mute&quot; type=&quot;button&quot;&gt;
+     &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;a aria-label=&quot;Volume Slider&quot; aria-valuemax=&quot;100&quot; aria-valuemin=&quot;0&quot; aria-valuenow=&quot;100&quot; href=&quot;javascript:void(0);&quot; role=&quot;slider&quot;&gt;
+     &lt;span&gt;
+      Use Up/Down Arrow keys to increase or decrease volume.
+     &lt;/span&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/a&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/china-us-flags-2-1-122025.png&quot;/&gt;
+  Warmest December greetings! AI technology and its correlated impacts splashed around the world last week, here’s a fast (10:52) review of new developments, including:
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Nvidia H200 exports to China
+ &lt;/p&gt;
+ &lt;p&gt;
+  – H20, H200 and Chinese AI chips: how do they stack up?
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Few fast GPUs vs. many slow GPUs
+ &lt;/p&gt;
+ &lt;p&gt;
+  – China’s power capacity dusts the West
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Cell-phone sized AI supercomputers
+ &lt;/p&gt;
+ &lt;p&gt;
+  – Regulating AI: federal vs. the states
+ &lt;/p&gt;
+ &lt;p&gt;
+  You can find our podcasts at
+  &lt;a href=&quot;https://insidehpc.com/category/resources/podcast/&quot;&gt;
+   insideHPC’s @HPCpodcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://twitter.com/HPCpodcast&quot;&gt;
+   Twitter
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2025/12/hpc-news-bytes-20251215/&quot;&gt;
+   the OrionX.net podcast page
+  &lt;/a&gt;
+  , on
+  &lt;a href=&quot;https://orionx.net/2023/12/hpc-news-bytes-20231218/&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.youtube.com/playlist?list=PL8jELIzOAQWWtsUKqqs8TFmmj_WmJEd9d&quot;&gt;
+   Google
+  &lt;/a&gt;
+  . Here’s the
+  &lt;a href=&quot;http://orionx.net/category/audio-podcast/feed&quot;&gt;
+   the RSS feed
+  &lt;/a&gt;
+  . We’re also available on
+  &lt;a href=&quot;https://open.spotify.com/show/33rT6tgEpRuEqZUYah0dzc&quot;&gt;
+   Spotify
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://podcasts.apple.com/us/podcast/hpcpodcast-with-shahin-khan-and-doug-black/id1606562916&quot;&gt;
+   iTunes
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> As Q-Day Nears, A New Approach to Data Security for HPC and AI </title>
+<link>https://insidehpc.com/2025/12/as-q-day-nears-a-new-approach-to-data-security-for-hpc-and-ai/</link>
+<pubDate>Fri, 12 Dec 2025 18:48:42 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  By Lance Smith, CEO and Cofounder, Cy4Data Labs
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/07/Data-security-shutterstock-2025433394.jpg&quot;/&gt;
+  Security has always been a burden to HPC and AI deployments. Adding layers of encryption and decryption architecturally slows systems down, which is an unacceptable trade-off in the high-performance computing world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet the modern threat landscape, combined with tightening data privacy laws, makes it clear: Traditional IT, AI and HPC environments must rethink how they protect data. The coming Q-Day, when quantum computers gain the ability to break today’s public key encryption, will massively expand the attack surface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This leaves HPC and AI providers a dual challenge and an opportunity. They must reimagine how to secure sensitive data without disrupting performance. They can now leverage new forms of encryption that protect sensitive data while in use without creating friction or lower performance. More on this later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   The Gap in Traditional Encryption
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Traditional encryption approaches only guard data at-rest and in-transit. The problem is that sensitive, valuable, and regulated data reaches its highest vulnerability while in use,
+  &lt;em&gt;
+   where it is in the clear and actively accessed by applications
+  &lt;/em&gt;
+  , loaded into memory, handled or viewed by privileged users, decrypted at each stop or transition point along the data path.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In these moments, data is normally decrypted beforehand as it is read from storage or a file for the application to make use. This opens the door to memory scraping, unauthorized access, insider misuse, credential compromise, and advanced malware that bypasses network or storage-layer defenses entirely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/cy4labs-logo-2-1-122025.png&quot;/&gt;
+  The same applies to data in HPC environments, which are also burdened with additional performance needs. HPC data must be decrypted to operate in the clear, which leaves the data vulnerable to attack at every stage, with many more data stops given the high-speed processing taking place.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Columnar encryption solutions for HPC do work, but whole columns of data must first be decrypted to perform queries or analytics, rendering the architecture too slow. In these scenarios, conducting HPC workloads on clear data naturally wins out every time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regulators acknowledge this blind spot. Examples include recent
+  &lt;a href=&quot;https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-10/&quot;&gt;
+   guidance from the National Institute of Standards and Technology (NIST)
+  &lt;/a&gt;
+  , the European Union’s 2025
+  &lt;a href=&quot;https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en&quot;&gt;
+   Digital Operational Resilience Act
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://www.hhs.gov/hipaa/for-professionals/security/hipaa-security-rule-nprm/factsheet/index.html&quot;&gt;
+   less stringent proposals from Health and Human Services (HHS)
+  &lt;/a&gt;
+  aimed at strengthening security for protected health information. These emerging regulatory frameworks now consider data-in-use protection as the essential third pillar of a complete security architecture, requiring that organizations take steps to address this last major gap in end-to-end encryption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   AI-Driven Threats Multiply as Q-Day Approaches
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI, increasingly the most feared inside attacker, has dramatically increased the sophistication and scale of cyberattacks, accelerating phishing, enabling deep-fake-based social engineering, and automating malware that adapts in real time. Meanwhile, insider threats, both intentional and accidental, continue to be the most persistent cause of breaches, especially when involving sensitive IP or regulated personal data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Credential loss further fuels unauthorized access, giving attackers a frictionless path to move laterally through enterprise systems. And looming above all of this is the “harvest now, decrypt later” strategy: Adversaries are collecting public key encrypted data today in anticipation of breaking it with quantum computing tomorrow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Without migrating to data-in-use protection with post-quantum cryptography, both traditional enterprises and HPC operators risk silent compromise and long-term exposure, well before quantum machines achieve public-scale decryption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   A New Approach: Atomic-Level Encryption
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A new approach is emerging that addresses these vulnerabilities: field-level, algorithm-based or at
+ &lt;/p&gt;
+ &lt;p&gt;
+  omic-level, information-theoretic encryption. Rather than encrypting whole files or columns/tables within databases, individual data elements are encrypted. Each data element is protected with its own unique key, dramatically raising the cost and difficulty of unauthorized access, even for insiders or attackers using stolen credentials.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This model represents a fundamental shift in how organizations secure and govern sensitive information. Enhanced with diversified key management, field-level and atomic-level encryption combine separate controlling keys with millions of one-time-use keys to protect data down to a single word allowing owners overarching access controls. Even if data is stolen, it remains encrypted, fragmented, and cryptographically unusable, turning exfiltrated information into worthless gibberish.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The supporting key management architecture also enables capabilities that strengthen data governance even with shared sensitive data, including:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Policy-Based Decryption: Access is tied to granular roles, contextual signals, and purpose, not just user credentials.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Audit-Ready Telemetry: Every access attempt is captured with cryptographic integrity, enabling precise forensic investigation and regulatory reporting.
+  &lt;/li&gt;
+  &lt;li&gt;
+   Internal System Hardening: Encryption extends beyond customer-facing applications to internal tools and databases, reducing insider and credential-based risks throughout the environment.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Conclusion: Field-level and Atomic-Level Encryption Ensures Trust
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Field-level and atomic-level encryption helps organizations maintain uncompromised confidentiality, integrity, and compliance across classical, HPC, and future quantum environments. As AI-driven attacks accelerate and Q-Day nears, data-in-use protection can no longer be viewed as optional, it is foundational.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By deploying field-level encryption with diversified key management and quantum-resistant cryptography, organizations can close the last major security gap.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img loading=&quot;lazy&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/lance-smith-cy4.png&quot;/&gt;
+  The choice is stark: Adopt comprehensive data-in-use protection now, or face catastrophic exposure when adversaries inevitably decrypt the sensitive data they’re harvesting today. Organizations that take proactive steps toward field-level and atomic-level encryption will be positioned to safeguard their most valuable assets and build long-term trust, resilience, and competitive advantage in an increasingly hostile digital world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Lance Smith is CEO and Cofounder,
+   &lt;a href=&quot;http://www.cy4datalabs.com/&quot;&gt;
+    Cy4Data Labs
+   &lt;/a&gt;
+  &lt;/em&gt;
+  , whose flagship product, Cy4Secure, protects structured and unstructured data across cloud, on-prem, hybrid, and SaaS environments.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> IDC: Worldwide Server Market Grew 61% YoY in Q3 </title>
+<link>https://insidehpc.com/2025/12/idc-worldwide-server-market-grew-61-yoy-in-q3/</link>
+<pubDate>Fri, 12 Dec 2025 15:59:19 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/idc-logo-2-1-122025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  NEEDHAM, Mass., December 11, 2025 – According to the International Data Corporation (
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/699ad4b82e3f4daeb110d7878e59b196/4/930aa017fd46e8974c09cc45654428f5968df6baa24f27eca3c6aa77cd42fd48?cache_buster%3D1765551147&amp;source=gmail&amp;ust=1765637673831000&amp;usg=AOvVaw0u3qbIpkEv8tRRPJII_ahu&quot; href=&quot;https://tracking.us.nylas.com/l/699ad4b82e3f4daeb110d7878e59b196/4/930aa017fd46e8974c09cc45654428f5968df6baa24f27eca3c6aa77cd42fd48?cache_buster=1765551147&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   IDC
+  &lt;/a&gt;
+  ) Worldwide Quarterly Server Tracker, the server market reached a record $112.4 billion dollars in revenue during the third quarter of the year. This represents a year-over-year quarterly increase of 61 percent in vendor revenue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenue generated from x86 servers increased 32.8 percent in 2025Q3 to $76.3 billion while Non-x86 servers increased 192.7 percent YoY to $36.2 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenue for servers with an embedded GPU in the third quarter of 2025 grew 49.4 percent year-over-year representing more than half of the server market revenue. The fast pace at which hyperscalers and cloud service providers have been adopting servers with embedded GPUs has fueled the server market growth which almost doubled in size compared to 2024 with revenue of $314.2 billion dollars for the first three quarters of 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “IDC expects AI adoption keep growing at an outstanding pace as major vendors continue reporting record orders and showing strong backlogs. Hyperscalers and cloud providers are still ahead with new, large deployments that require much higher compute density. Additionally, we started to see major AI based Research and Education projects that will help fuel further growth path in the market,” said Juan Seminara
+  &lt;em&gt;
+   ,
+  &lt;/em&gt;
+  research director, Worldwide Enterprise Infrastructure Trackers,
+  &lt;a href=&quot;http://www.idc.com&quot;&gt;
+   IDC
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The United States is the fastest growing region in the server market with an increase of 79.1 percent compared to the third quarter of 2024, fueled by a 105.5 percent growth in the accelerated server segment. Canada grew 69.8 percent pushed by the same reason. PRC is growing at 37.6 percent year-over-year growth in 2025Q3 accounting for almost a fifth of the quarterly revenue worldwide. APeJC, EMEA and Japan also showed very healthy doble digit growth with 37,4 percent, 31.0 percent and 28,1 percent respectively, while Latin America showed a low single digit growth with 4.1 percent increase in the quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dell Technologies clearly lead the OEM market with 8.3 percent revenue share thanks to an outstanding growth on accelerated servers, Supermicro reached the second place with 4.0 percent revenue share even though declining 13.2 percent compared to 2024Q3. IEIT Systems and Lenovo statistically tied* for the third position in the market with 3.7 percent and 3.6 percent share respectively while Hewlett Packard Enterprise finished in the fifth position in the market, with 3.0 percent share.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notes:
+ &lt;/p&gt;
+ &lt;p&gt;
+  * IDC declares a statistical tie in the worldwide server market when there is a difference of 0,1 percent or less in the share of revenues among two or more vendors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IDC’s
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/699ad4b82e3f4daeb110d7878e59b196/6/e19361cad8de083f43cf3d93c7ad7ec29cd5465f8d884ee9aa5edd1a0f759ed3?cache_buster%3D1765551147&amp;source=gmail&amp;ust=1765637673831000&amp;usg=AOvVaw0SIy76pa3CC7xXy4zcVhcS&quot; href=&quot;https://tracking.us.nylas.com/l/699ad4b82e3f4daeb110d7878e59b196/6/e19361cad8de083f43cf3d93c7ad7ec29cd5465f8d884ee9aa5edd1a0f759ed3?cache_buster=1765551147&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Worldwide Quarterly Server Tracker
+  &lt;/a&gt;
+  greatly enhances clients’ ability to respond quickly and effectively to today’s dynamic server market. This product provides insight into customer trends by delivering geography-specific market size, market share, and market forecast details across all server segments. This IDC tracker product delivers a quarterly web database that details the performance of the market’s individual players, and it answers important product-planning and product-positioning questions. This Tracker is part of the
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://tracking.us.nylas.com/l/699ad4b82e3f4daeb110d7878e59b196/7/491ba48b20fce582bb14d847fdad01e899400cc2cc0f3efd288c4cd07dd11035?cache_buster%3D1765551147&amp;source=gmail&amp;ust=1765637673831000&amp;usg=AOvVaw3lPzseCeC-oAVotJ_BPOrP&quot; href=&quot;https://tracking.us.nylas.com/l/699ad4b82e3f4daeb110d7878e59b196/7/491ba48b20fce582bb14d847fdad01e899400cc2cc0f3efd288c4cd07dd11035?cache_buster=1765551147&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   Worldwide Quarterly Enterprise Infrastructure Tracker
+  &lt;/a&gt;
+  , which provides a holistic total addressable market view of the four key enabling infrastructure technologies for the datacenter (servers, external enterprise storage systems, and purpose-built appliances: HCI and PBBA).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Taxonomy Notes
+ &lt;/p&gt;
+ &lt;p&gt;
+  IDC defines a server system as a multiuser computing device that accesses and delivers services via a network. The server and the applications that run on it are typically shared by multiple users. Unlike a client device, a server does not usually have a user interface that is intended for human-machine interaction. A typical server system entails one or more processors, a motherboard, memory, internal disk or flash storage, a bundled operating system (OS), power supply units, and network interfaces.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Accelerator Type Definitions
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   Non-accelerated: These servers do not have an embedded accelerator. Servers where the accelerator is added by end users that have purchased the acceleration technology directly from an acceleration vendor and have installed it themselves are considered non-accelerated in IDC’s Server Tracker. Servers with an integrated graphics processor (IGP) (i.e., fused to the motherboard) are also considered non-accelerated in IDC’s Server Tracker.
+  &lt;/li&gt;
+  &lt;li&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   GPU (Graphics processing units): A GPU is a processor specialized for rendering images, animations, or video to a computer display. In the context of server-based accelerated computing, a GPU is typically a programmable discrete (removable) graphics card but may also be an integrated graphics processor (i.e., fused to the motherboard). In addition to its graphical applications, a GPU may also be used to perform operations traditionally handled by a central processing unit, a concept known as a general-purpose graphics processing unit (GPGPU).
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Other accelerated: This category combines servers with a discrete embedded accelerator FPGA or ASIC.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    In detail:
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   A field-programmable gate array is an integrated circuit designed to be configured by a customer after manufacture. FPGAs are made up of an array of programmable logic blocks, interconnects, and input/output (I/O) blocks.
+  &lt;/li&gt;
+  &lt;li&gt;
+   An application-specific integrated circuit is a purpose-built integrated circuit that cannot be reconfigured after manufacture.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Siemens and GlobalFoundries to Collaborate on AI-Driven Chip Manufacturing </title>
+<link>https://insidehpc.com/2025/12/siemens-and-globalfoundries-to-collaborate-on-ai-driven-chip-manufacturing/</link>
+<pubDate>Thu, 11 Dec 2025 20:28:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/siemens-globalfoundries-logos-2-1-122025.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;section data-partialxcmsid=&quot;&quot; data-xml-id=&quot;idp187651777737567&quot; data-xml-tag=&quot;Intro&quot;&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     Siemens and GlobalFoundries (GF) said today they have entered a collaboration to use their AI capabilities to enhance semiconductor manufacturing and advanced industries .
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     In a memorandum of understanding, the companies say they will focus on automation technologies for semiconductor fabrication, electrification, digital solutions and software ranging from chip development to product lifecycle management.
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     This includes deployment of AI-enabled software, sensors and real-time control systems in fab automation for reliable semiconductors and autonomous platforms.
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     “Through centralized automation and predictive maintenance, GF and Siemens aim to increase equipment availability and operational efficiency in chip production while building capabilities that can be extended to other advanced industries,” the companies said. “The companies intend to develop and deploy new solutions within their own operations to deliver enhanced offerings.”
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     The expanded collaboration comes at a time of high demand for essential semiconductors and autonomous platforms in areas such as AI, defense, energy and connectivity.
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     “Our economy runs on silicon – one wafer at a time. Chips are critical for applications like robotics or connectivity and for bringing AI into the physical world and industry. We are collaborating to make global semiconductor supply chains more resilient and to enable efficient localized manufacturing around the world,” said Cedrik Neike, Member of the Managing Board of Siemens AG and CEO Digital Industries.
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     “Secure, locally manufactured semiconductors are at the core of the AI transition – from cloud to the physical world, bringing intelligence into devices we use every day and enabling applications we couldn’t imagine a few years ago,” said Tim Breen, CEO of GlobalFoundries. “Our unique collaboration with Siemens allows us to go faster – to build the technologies that make this possible – differentiated, energy-efficient, connected and secure chips across a wide range of next-generation applications.”
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+     Siemens brings a suite of industrial, energy &amp; building automation and digitalization technologies, including software for chip design &amp; manufacturing, fab automation and product lifecycle management.
+    &lt;/div&gt;
+    &lt;div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/section&gt;
+ &lt;section data-partialxcmsid=&quot;&quot; data-xml-id=&quot;idp187651777859279&quot; data-xml-tag=&quot;Row&quot;&gt;
+  &lt;div&gt;
+   &lt;div data-child=&quot;6&quot; data-image=&quot;0&quot; data-interaction=&quot;false&quot; data-maxlength=&quot;1&quot; data-mod=&quot;0&quot; data-pos=&quot;1&quot; data-xml-id=&quot;idp187651770069903&quot;&gt;
+    &lt;div&gt;
+     &lt;div&gt;
+      &lt;div&gt;
+       GF, together with MIPS, a GF company and global leader in RISC-V processor IP, brings process technology and design capabilities to accelerate the development and manufacturing of tailored solutions that support Siemens goal of enabling autonomous platforms and physical AI chips at scale. GF operates foundries in the USA, Asia, and Europe. In Dresden, GlobalFoundries runs Europe’s largest semiconductor production site with around 3,000 employees.
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/section&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Photonic Announces Approach to Quantum Resource Estimation </title>
+<link>https://insidehpc.com/2025/12/photonic-announces-approach-to-quantum-resource-estimation/</link>
+<pubDate>Thu, 11 Dec 2025 17:35:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/photonic-inc-logo-2-1-122025.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  VANCOUVER, BC, December 10, 2025 — Photonic Inc., today announced an approach to Quantum Resource Estimation (QRE) for measuring and comparing quantum performance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This method accounts for the costs of distributed quantum computing using Quantum Low-Density Parity Check (QLDPC) codes. The company said a QRE estimate for Shor’s algorithm has been precisely calculated with Photonic’s high-connectivity SHYPS QLDPC code family on a distributed architecture. This estimate includes the cost of operations within and across multiple systems, establishing a new benchmark for quantum computing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Quantum computing stacks are complex, with interdependent layers of hardware, software, and algorithms. Historically, resource estimates have assumed all qubits reside in a monolithic system, overlooking the additional costs of networking and distributed computation – discounting the challenges inherent in engineering high-performance, post-hoc intermodular links. Yet most commercially valuable quantum algorithms will require hundreds to thousands of logical qubits, which need millions of physical qubits to support them, so today’s simplified estimates do not reflect the true cost of scaling.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Distributed QRE matters because it finally reflects the true cost of scaling quantum systems,” said Dr. Stephanie Simmons, Chief Quantum Officer at
+  &lt;a href=&quot;https://www.photonic.com&quot;&gt;
+   Photonic
+  &lt;/a&gt;
+  . “By fully accounting for networking and connectivity, we bring realism to resource estimates—enabling apples-to-apples comparisons across vendors and architectures, so the industry can see when quantum applications will move from theory to practice.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Photonic’s distributed QRE, based on their Entanglement First architecture, accounts for inter-module communication costs from the outset, providing actionable, full-stack resource estimates for practical quantum applications. This approach enables development teams to track the impact of hardware, software, and algorithmic improvements, and most importantly, offers the industry a realistic timeline for when key quantum applications will become practical.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While recent QRE analyses for Shor’s algorithm set a high bar, they underestimate costs by assuming the algorithm can be completed on monolithic designs that will not be easy to achieve by today’s leading qubit modalities. Photonic’s distributed architecture – designed for scalability – delivers competitive resource forecasts using the same algorithmic approach, but with results that are truly comparable and practical for large-scale deployment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The full logical argument for distributed QRE and resulting qubit counts and runtime on Photonic’s architecture with SHYPS are presented in the whitepaper, “SHYPS to Shor’s: A Call for Distributed QRE,” available for download. Photonic’s latest QRE results will be presented by Dr. Stephanie Simmons, Chief Quantum Officer at Q2B 2025, taking place December 9–11 at the Santa Clara Convention Center in Santa Clara, California.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DOE Awards $320M for Genesis Mission, AI for Science </title>
+<link>https://insidehpc.com/2025/12/doe-awards-320m-for-genesis-mission-ai-for-science/</link>
+<pubDate>Thu, 11 Dec 2025 17:03:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2023/09/DOE-Department-of-Energy-building-GAO-file-photo-1024x512.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  WASHINGTON—The U.S. Department of Energy (DOE) today announced over $320 million in investments to advance the Genesis Mission’s artificial intelligence capabilities. These awards are in accordance with President Trump’s Working Families Tax Cut and other DOE appropriations to advance “AI for science” initiatives.
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  DOE said the awards will begin building the integrated American Science and Security Platform, a discovery engine designed to double the productivity and impact of American science and engineering investments within a decade.
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   To view the full list of projects and awards, please click
+   &lt;a href=&quot;https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iMImNjg3yW40NmCyhgykttlPeWqGRNHlSErlYlYjVgfdX9EsBxkCr5n77HfLolv-2Bj0y9Ujyo-2FciavqjwhiNgZSFFfE9mny-2FyzNdESQe7K8G-2BOu2do4CmW5-2Fguyjtp-2FrVVsBaluRMCV3l5FSLHgn2k7U5kuBhttOvr6g6uxIJtdwyf1rVM-2BxXujZiBsgNHJvSQ58PYQIxWZSuhoTfvT4rWGICtWLbvEdKqybOR1oIyeQqRLrqtI9PcdOuCn6lVdEHWKQVi6tAaYgDTtHc8vBkix3s10TVjWG1g2ojhyrrlZeh5VDhwIavXTcJIfSm0-2FpWdAuM0Cmb4C7dO267at9QXCIEPoqIyWHDvPw45PtCQg-2FwwKaHDflUrNFidUazsyyPxsm82WdfqY15OynIEOj18cfUDKimZFZ9SDII6oIAMAUiEap0WTxAm7YDzk9w0sZ8PjVNsVBDMu7L3pCLtLawsbWwc4djDKfPUbLBZ4Y4ESq5xIGDpzWnfumJPj4xfcNlPuh8dyyQavawlFx0099ZHjahW4RyVyzSe7-2BcAYKBwAfRM-2FcRqu0wsKEmkLz6t7-2BtYHwRhM9f09zMKv0RvqT-2B4CWYJnUEDMGbZQZvnKZTQ4XAtikyekQMscKdU08mw-2Bnt-2BZ1I811BfclW3DwsysT40xfmtt7NWEmfA6YAU2PlrVPKNx7Zcu-2BbTJjsEYSLDgY3-2FbtXnakki7Itv-2F51vclPSqUjv-2BM-2F3jNFcTVMIRij3XICj8GCvedjKd-2BH8-2BT2kCubSJ1SVAlNZIdIz-2Fz0U4t-2BXUwJGdO31PqZd9Iv-2BWzk6yT8Nj25HRwGnSun33fWZFAZLboBDxfEijUweGYm3DUXYjEmTtOYfCEKTPF3wcDN4QyYBBNWpolkUI-2FTRJMhvsAao0tJuFzvyWQiSqCB0trVWWwrPOJ1W0F7zyr71p6-2F-2FlMJsVyX28hg-2FBhZ2VutWuDaU5H7B2CbnMlZ2TiDiEbUBnRVU8fbTYi6qbyU1Mmusi-2FbdTuSGqCjEaqDwF2r8hsTD23oD-2FXizCGu9M78aq5pg7UUhuXXRBzCSl7YR6sWMDguHJtz-2F650IPoMpjlIAWifyVXx-2BHSlTJui1Jdx-2F9IrpjnD69Vvz7RHCLnDHGWKCufXoJQ8BYrwq-2F8YTqxgodKEeKfT8ALmy29Fi0VRoLKUubQCkfcsy8YLZwOJCdrX6JNkU3K00p5a-2F-2FPxtBzjP9Ty0AZH2iLtNINqeAe7PX8Jk1o9Jcc4Gs3sRliRbF5ZP2PsNUCdq-2FEStnPXqyaeUOP02yxuIyCf3opCYq3gAB4W38vgFe1f4vUHLxgzVhqdZlAmg0ZBj55p2fLrk6RyRRMV2hlj1fIVH1nwbOBB2NerFuwXzp1fBjL81f2zRlre-2FyZ8yJnfSBseTi4F4VUj7touhV5F-2FQsLf7jBfVgWPbiAyWG9-2FGbWlfQY5W7KuaytTf3UO6qy_fpXDG7-2BUksyzITqVuYyQYyywwOIoo10xIqQEqJRAteLQ1GMdQ93N374q-2BWyVJvhhYxO32psUusa1jAtrXNRBXjLUUX-2B0hoPaZ4oNebVL37wC4pS2AWu0QojxKS-2FJlUkeUAmjGD269emKon8BjXBAg-2Bq4Bex-2BcnPbuNlaYZ1ECWDzJQXKzblbfzwHl2E6oc-2BNiqqSikNjP2bHnFtJNS0tts9j6icN0hiwAwADPefrSQZLzniYneC58kKh7QDaOmYz-2BDJPPEMEQj6pSOC962ltO1R-2FqCWIBV59i-2Frou1pZuW9nKFCoKXCB42Y3I-2FCIAN9eVQymLsh-2B3bVeWw6XJEBhl9-2FvZ8JF5uffaKMfu1HTMtDPz-2FnLASvX-2BkzDgtnRe43F&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Original URL: https://link.mediaoutreach.meltwater.com/ls/click?upn=u001.SyN0b0LCQryBI5pjHay1iJZPCziPQkxFAfxbCKyj2T4mL0-2FY-2BkpBEkSjsTOKrm6Z3xT5CYTh7HQclGO46ntgWbdzksb3Ahh8vhChzB7jbtquhFSrDuRY-2Fn-2BZCr2QcxwLvb4l-2FbXEQYaXsRMT0ct5mp7x5nOZTDUikwt5D8sY7yk-&quot;&gt;
+    here
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   These four initiatives will deliver breakthroughs to secure U.S. energy dominance, strengthen national security, and accelerate scientific discovery:
+  &lt;/p&gt;
+  &lt;ul type=&quot;disc&quot;&gt;
+   &lt;li&gt;
+    The American Science Cloud (AmSC): Cornerstone of the Genesis Mission’s Platform infrastructure, hosting and distributing AI models and scientific data to the broader research community. AmSC will enable the National Labs, industry, and research partners to curate and apply DOE’s extensive AI-ready scientific data.
+   &lt;/li&gt;
+   &lt;li&gt;
+    The Transformational AI Models Consortium (ModCon): Cornerstone of the Genesis Mission’s AI models and data efforts, will build and deploy self-improving AI models that advance science, engineering, and energy missions by harnessing DOE’s unique data, facilities, and expertise. Selected teams will develop foundational capabilities needed across multiple scientific and engineering domains.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Robotics and automation: 14 projects in robotics, automated laboratories, and autonomous control of large-scale experiments in support of the Genesis Mission. These projects aim to transform laboratory environments and scientific experiments with intelligent systems leveraging embodied AI, advanced automation, and robotics.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Foundational AI awards: Through 37 awards, these projects will curate vast quantities of existing data and develop refined AI models through a combination of experimental insights and theoretical understanding, ensuring that AI systems are powerful yet robust, reliable, and rigorously validated for scientific applications. These new capabilities will enable AI to parse through massive datasets derived from observational studies, experiments, and simulations to reveal new insights, and even drive autonomous laboratories and design new experiments and instruments, to solve the nation’s most challenging scientific problems.
+   &lt;/li&gt;
+  &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Argonne Nuclear Energy Researchers Bachmann and Shaver Named to 40 Under 40 List </title>
+<link>https://insidehpc.com/2025/12/argonne-nuclear-energy-researchers-bachmann-and-shaver-named-to-40-under-40-list/</link>
+<pubDate>Thu, 11 Dec 2025 16:48:42 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;img aria-describedby=&quot;caption-attachment-101049&quot; src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/argonne-2-40-under-40-2-1-122025.png&quot;/&gt;
+     &lt;p&gt;
+      Amanda Bachmann and Dillon Shaver
+     &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+     For the second consecutive year, researchers from Argonne National Laboratory have been named to the American Nuclear Society’s Nuclear News’ 40 Under 40 list.
+    &lt;/p&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;div&gt;
+     &lt;div&gt;
+      &lt;p&gt;
+       Nuclear engineers Amanda Bachmann and Dillon Shaver earned recognition for contributions to modeling and simulation of advanced nuclear energy systems.
+      &lt;/p&gt;
+      &lt;p&gt;
+       Argonne’s efforts in nuclear research are conducted with an integrated research approach, DOE Office of Science user facilities — including HPC systems at the Argonne Leadership Computing Facility — and a focus on advancing safe, efficient nuclear energy.
+      &lt;/p&gt;
+      &lt;p&gt;
+       “This recognition speaks to the importance of cultivating a new generation of nuclear energy experts,” said Temitope Taiwo, an
+       &lt;a href=&quot;https://www.anl.gov/argonne-distinguished-fellows&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+        Argonne Distinguished Fellow
+       &lt;/a&gt;
+       and director of the Nuclear Science and Engineering (NSE) division. ​“Amanda and Dillon exemplify the passion and ingenuity that will keep our nation at the forefront of safe, abundant nuclear energy.”
+      &lt;/p&gt;
+      &lt;p&gt;
+       Amanda Bachmann, a nuclear engineer, is recognized for developing software for nuclear fuel cycle modeling and analysis. Her work is funded mostly by DOE’s Office of Nuclear Energy and the National Nuclear Security Administration, and she has answered important questions about future U.S.-based nuclear fuel cycles. A highly visible and enthusiastic proponent of professional societies within the nuclear community, Bachmann helps support students, provides professional development opportunities to others, and increases the visibility of the nuclear profession.
+      &lt;/p&gt;
+      &lt;p&gt;
+       “It’s a great honor to receive this recognition for my hard work,” Bachmann said. ​“I see my work as providing important technical information for future nuclear energy deployment as well as inspiring and supporting an exceptional new generation of nuclear professionals.”
+      &lt;/p&gt;
+      &lt;p&gt;
+       Dillon Shaver, group manager in fluid dynamics in NSE and a R&amp;D 100 award winner, is a thought leader in modeling and simulation who recently submitted a technical paper about use of a novel level-set method for incompressible two-phase flows. The work was funded in part by DOE’s Office of Nuclear Energy Advanced Modeling and Simulation (NEAMS) program. Shaver has worked on a number of projects supported by NEAMS over the past decade in addition to several funded by DOE’s Advanced Reactor Demonstration Project program.
+      &lt;/p&gt;
+      &lt;p&gt;
+       “This has allowed me to advocate for industry use of the advanced simulation capabilities we’re developing at Argonne and in NEAMS,” said Shaver. Those simulations will help industry better understand and quantify design issues. ​“This award is important to me because it shows that we’re having a real, valuable impact on the larger nuclear community.”
+      &lt;/p&gt;
+      &lt;p&gt;
+       The ANS recognized Shaver, Bachmann and others on the Nuclear News 40 under 40 list at its winter meeting.
+      &lt;/p&gt;
+      &lt;p&gt;
+       The Argonne Leadership Computing Facility provides supercomputing capabilities to the scientific and engineering community to advance fundamental discovery and understanding in a broad range of disciplines. Supported by the U.S. Department of Energy’s (DOE’s) Office of Science, Advanced Scientific Computing Research (ASCR) program, the ALCF is one of two DOE Leadership Computing Facilities in the nation dedicated to open science.
+      &lt;/p&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Tiiny AI Claims Personal ‘AI Supercomputer’ Runs 120B-Parameter LLMs On-Device </title>
+<link>https://insidehpc.com/2025/12/tiiny-ai-claims-personal-ai-supercomputer-runs-120b-parameter-llms-on-device/</link>
+<pubDate>Wed, 10 Dec 2025 21:27:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/tiiny-ai-supercomputer-2-1-122025-1024x512.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  It’s often said that supercomputers of a few decades ago pack less power than today’s smart watches. Now we have a company, Tiiny AI Inc., claiming to have built the world’s smallest personal AI supercomputer that can run a 120-billion-parameter large language model on-device — without cloud connectivity, servers or GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company said the product is powered by two core technology advances that make large-parameter LLMs viable on a compact device.
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   TurboSparse, a neuron-level sparse activation technique, improves inference efficiency while maintaining full model intelligence.
+   &lt;br/&gt;
+   &lt;br/&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   PowerInfer, an open-source heterogeneous inference engine with more than 8,000 GitHub stars, accelerates heavy LLM workloads dynamically distributing computation across CPU and NPU, enabling sever-grade performance at a fraction of traditional power consumption.
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Designed for energy-efficient personal intelligence, Tiiny AI Pocket Lab runs within a 65W power envelope and enables large-model performance at a fraction of the energy and carbon footprint of traditional GPU-based systems, Tiiny said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/tiiny-ai-logo-square-122025.jpg&quot;/&gt;
+  “The device represents a major shift in the trajectory of the AI industry,” the company said. “As cloud-based AI increasingly struggles with sustainability concerns, rising energy costs, global outages, the prohibitive costs of long-context processing, and growing privacy risks, Tiiny AI introduces an alternative model centered on personal, portable, and fully private intelligence.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The device has been verified by Guinness World Records under the category The Smallest MiniPC (100B LLM Locally), according to the company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Tiiny AI, the real bottleneck in today’s AI ecosystem is not computing power — it is dependence on the cloud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Cloud AI has brought remarkable progress, but it also created dependency, vulnerability, and sustainability challenges,” said Samar Bhoj, GTM Director of
+  &lt;a href=&quot;https://www.tiiny.ai/&quot;&gt;
+   Tiiny AI
+  &lt;/a&gt;
+  . “With Tiiny AI Pocket Lab, we believe intelligence shouldn’t belong to data centers, but to people. This is the first step toward making advanced AI truly accessible, private, and personal, by bringing the power of large models from the cloud to every individual device.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tiiny AI Pocket Lab is designed to support nearly all major personal AI use cases, serving developers, researchers, creators, professionals, and students. It enables multi-step reasoning, deep context understanding, agent workflows, content generation, and secure processing of sensitive information — even without internet access. The device also provides true long-term personal memory by storing user data, preferences, and documents locally with bank-level encryption, offering a level of privacy and persistence that cloud-based AI systems cannot provide.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tiiny AI Pocket Lab operates in the ‘golden zone’ of personal AI (10B–100B parameters), which satisfies more than 80 percent of real-world needs, according to the company. It supports models scaling up to 120B LLM, delivering intelligence levels comparable to GPT-4o. This enables PhD-level reasoning, multi-step analysis, and deep contextual understanding — but with the security of fully offline, on-device processing.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Exxact Partners with VDURA Storage for AI and HPC Users </title>
+<link>https://insidehpc.com/2025/12/exxact-partners-with-vdura-storage-for-ai-and-hpc-users/</link>
+<pubDate>Wed, 10 Dec 2025 20:40:23 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/04/generic-data-2-1-shutterstock-1.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Fremont, CA – GPU server maker Exxact Corporation today announced a partnership with VDURA, an HPC and AI data infrastructure company, to deliver storage for modern GPU-accelerated compute.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For engineers, researchers, and AI teams, slow or inconsistent storage is often the hidden cause of stalled progress and underutilized GPUs.
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.exxactcorp.com/&amp;source=gmail&amp;ust=1765481426615000&amp;usg=AOvVaw0jQHYVi4NS3luIxGStviXs&quot; href=&quot;https://www.exxactcorp.com/&quot;&gt;
+   Exxact
+  &lt;/a&gt;
+  and
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.vdura.com/&amp;source=gmail&amp;ust=1765481426615000&amp;usg=AOvVaw0Ie3W40WsLXL0eSgMBpAAa&quot; href=&quot;https://www.vdura.com/&quot;&gt;
+   VDURA
+  &lt;/a&gt;
+  are working to eliminate those bottlenecks by delivering a seamless user experience where data flows continuously, workloads stay fully accelerated, and time-to-results are dramatically reduced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With a flash-first architecture and parallel data handling, the solution is designed to ensure that simulations, training jobs, and data pipelines run without interruption. Teams get more done in less time, without re-running jobs, waiting on I/O, or overprovisioning compute to compensate for slow storage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As data grows, performance remains consistent. Organizations can expand to multi-petabyte environments without redesigning infrastructure or experiencing slowdowns, making it an ideal long-term platform for evolving AI and HPC requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  From air-gapped research labs to hybrid enterprise environments, the solution offers deployment flexibility while maintaining performance, resilience, and data integrity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VDURA brings a software-defined, shared-nothing storage platform built on decades of parallel filesystem expertise. Advanced metadata handling, erasure coding, and automated tiering ensure high throughput and reliability at scale. Integrated with Exxact’s GPU-optimized systems, customers gain an end-to-end infrastructure where compute and storage operate in perfect sync.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI/ML teams, engineering simulation groups, life sciences researchers, manufacturers, and any organization or government agency managing large or complex data pipelines will see immediate value.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Customers want systems that simply work: fast, reliable, and scalable,” said Jason Chen, Vice President at Exxact. “Our partnership with VDURA brings the storage performance our GPU platforms demand, giving users a smoother, more productive experience across AI and HPC workloads.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI and HPC users are pushing the limits of what’s possible, and storage can no longer be the bottleneck,” said Samantha Clarke, VP of Channel and Partnerships at VDURA. “Our focus is on coupling enterprise‑class storage resilience with GPU and AI performance capabilities, ensuring organizations can meet the increasingly demanding requirements of today’s data‑intensive environments.”
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Vanderbilt and EPB to Launch Quantum Institute in Chattanooga </title>
+<link>https://insidehpc.com/2025/12/vanderbilt-and-epb-to-launch-quantum-institute-in-chattanooga/</link>
+<pubDate>Wed, 10 Dec 2025 20:21:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;p&gt;
+  CHATTANOOGA, Tenn. (December 10, 2025) – EPB of Chattanooga, a quantum commercialization infrastructure, and Vanderbilt University today announced plans to establish the Institute for Quantum Innovation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The institute is intended to be a center for research, innovation and graduate-level education in quantum and related fields. Pending accrediting agency approval, Vanderbilt will establish an academic research campus in Chattanooga and locate faculty, staff and graduate students on-site. This is designed for continuous collaboration with EPB, support research, and help drive local job creation, startup formation, and broader economic development in Chattanooga and across Tennessee.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “From cybersecurity to energy distribution to medicine and science of all kinds, the potential for quantum innovation to improve our lives is enormous,” Vanderbilt Chancellor Daniel Diermeier said. “We are delighted to collaborate with EPB and thank the members of Tennessee’s congressional delegation and the state and federal officials who helped make this collaboration possible. We are grateful to the leaders, businesses and residents of the Chattanooga area who have supported EPB’s expansive vision.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Designed to accelerate discoveries from research to the real world, the collaboration will drive advancements in energy, national security, health, insurance, logistics and critical infrastructure while preparing the workforce of the future. The institute brings together Vanderbilt University’s leading quantum nanophotonics and research and educational programs with collaborative access to the
+  &lt;a href=&quot;https://quantum.epb.com/&quot;&gt;
+   EPB Quantum
+  &lt;/a&gt;
+  Center, the nation’s first facility to provide commercial access to both a trapped-ion quantum computer and a photonics-based local quantum network.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To meet rising demand for expertise in quantum and adjacent fields like AI and cybersecurity, Vanderbilt will develop and deliver graduate-level academic offerings that provide students hands-on experience with EPB’s quantum and energy infrastructure. The university will also provide industry-integrated training programs that complement the institute’s research agenda and provide upskilling and credentialing in cooperation with regional entities. A faculty committee has been appointed to develop recommendations and provide input on the academic programming plans, which will require accrediting body approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The Institute for Quantum Innovation will provide best-in-class learning and research opportunities for our students and faculty while putting Vanderbilt at the forefront of advancements to help shape computing and the problem-solving it makes possible in the coming decades,” Diermeier added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The McKinsey Quantum Technology Monitor recently predicted quantum technologies will provide as much as $2 trillion in additional value to existing industries by 2035. Vanderbilt’s world-class research faculty and students at the innovation institute will pursue breakthroughs across quantum and nanophotonics for communication and sensing along with quantum information systems and AI for next-generation secure energy systems and more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This collaboration brings together Vanderbilt’s deep expertise in quantum research and graduate education with EPB’s unique quantum infrastructure to create an environment where world-class ideas can move quickly from the lab to real-world applications,” said Vicky Gregg, EPB Board Chair. “By working side by side at the EPB Quantum Center, we’re paving the way for innovations that can make energy services more secure, cost-effective and resilient for our customers. At the same time, we’re strengthening Chattanooga’s position as a place where cutting-edge technologies can drive new economic opportunity for our whole community.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  EPB’s proven infrastructure and innovation leadership make Chattanooga a uniquely strong platform for quantum advancement. Since launching the nation’s leading community-wide fiber-optic network and the most advanced, automated power grid, EPB has fueled tech innovation and entrepreneurial growth across the city. According to a
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://epb.com/newsroom/press-releases/2025-community-benefit-study/&amp;source=gmail&amp;ust=1765483314026000&amp;usg=AOvVaw0dlCaKgw9gbAnri0Bnv5Ir&quot; href=&quot;https://epb.com/newsroom/press-releases/2025-community-benefit-study/&quot;&gt;
+   peer-reviewed
+  &lt;/a&gt;
+  study, EPB’s quantum initiatives are expected to generate up to $1 billion in value for the local community between 2026 and 2035.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Quantum has the potential to define Chattanooga’s economic future, and this collaboration with Vanderbilt University proves our city is a global leader in this emerging technology,” Chattanooga Mayor Tim Kelly said. “The quantum innovation campus will give our local businesses access to research expertise, talent and infrastructure while also attracting new employers and supercharging startups. I want to thank Vanderbilt, EPB, IonQ, the Chattanooga Quantum Collaborative and all our critical partners for their hard work that led to this historic day.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’re focused on building an economy where local talent can thrive,” said Hamilton County Mayor Weston Wamp. “EPB’s partnership with Vanderbilt in quantum technology will create new high-skill career pathways and strengthen our innovation ecosystem, driving long-term prosperity for Hamilton County families.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Today’s announcement demonstrates Tennessee’s commitment to leading the nation in emerging technologies that will shape America’s future,” Tennessee Gov. Bill Lee said. “The Institute for Quantum Innovation will strengthen our energy grid, invest in our skilled workforce, and create high-quality jobs across our state. I’m grateful for this partnership and the opportunity it will create as Tennessee continues to advance quantum innovation and AI-enabled technologies.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Federal leaders applauded the new collaboration which also supports critical national priorities related to cybersecurity and global economic competitiveness.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The quantum innovation partnership between Vanderbilt and EPB will harden our grid, safeguard communications, and advance America’s technological edge over foreign adversaries like Communist China,” U.S. Sen. Blackburn (R-Tenn.) said. “The newly announced Institute for Quantum Innovation in Chattanooga is further proof Tennessee is ready to lead, and this is the kind of American ingenuity that will create jobs, develop a skilled workforce, and attract new investments in the Volunteer State.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Tennessee knows how to lead in science and technology,” said U.S. Rep. Chuck Fleischmann (R-TN03), current chair of Energy and Water Appropriations. “With Vanderbilt and EPB collaborating on the Institute for Quantum Innovation, we will accelerate breakthroughs that protect critical infrastructure, support national security, and build a world-class workforce right here at home. The bottom line is that Tennessee is going to lead in quantum, and this institute will help make that a reality.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Quantum technology is a pivotal component to keep America at the cutting edge of innovation and tech development. It is also critical to America’s national security,” U.S. Sen. Bill Hagerty (R-Tenn.) said. “The partnership between Vanderbilt and EPB to launch the Institute for Quantum Innovation is a powerful example of Tennessee’s leadership that put our state at the forefront of technology development.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Lenovo Announces Data Management Solutions </title>
+<link>https://insidehpc.com/2025/12/lenovo-announces-data-management-solutions/</link>
+<pubDate>Wed, 10 Dec 2025 20:07:48 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/06/lenovo-logo-2-1-10-23.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   December 10, 2025
+  &lt;/span&gt;
+  &lt;span&gt;
+   – Lenovo today announced new data storage, virtualization solutions and data management services, designed to help customers modernize their IT and data infrastructure for powering enterprise applications and AI ready capabilities.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   Today’s new offerings include new Lenovo
+  &lt;/span&gt;
+  &lt;span&gt;
+   ThinkSystem
+  &lt;/span&gt;
+  &lt;span&gt;
+   and
+  &lt;/span&gt;
+  &lt;span&gt;
+   ThinkAg
+   &lt;wbr&gt;
+    ile
+   &lt;/wbr&gt;
+  &lt;/span&gt;
+  &lt;span&gt;
+   data storage and virtualization solutions, announced in tandem with data management services. Designed to provide a foundation for enterprises and mid-size businesses, this announcement combines complementary hardware, software and services offerings to help deploy and manage enterprise data.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;span&gt;
+   “Sixty-three percent of organizations either do not have or are unsure if they have the right data management practices for AI, according to a survey by
+  &lt;/span&gt;
+  &lt;a data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk&amp;source=gmail&amp;ust=1765475295109000&amp;usg=AOvVaw3nxb3wsBw3BWdSBjziafiV&quot; href=&quot;https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;
+   &lt;span&gt;
+    Gartner
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span&gt;
+   .”
+  &lt;/span&gt;
+  &lt;span&gt;
+   &lt;sup&gt;
+   &lt;/sup&gt;
+  &lt;/span&gt;
+  &lt;span&gt;
+   &lt;sup&gt;
+    1
+   &lt;/sup&gt;
+  &lt;/span&gt;
+  &lt;span&gt;
+   Customer
+  &lt;/span&gt;
+  &lt;span&gt;
+   unique data is the differentiation that will drive their competitive advantage and most accurate results, however 80% of storage deployed in the last 5 years is on slower hard drive-based storage (according to IDC reporting) that is not optimized for AI. At the same time, customers are challenged with new virtualization and containerization requirements that demand open solutions.
+  &lt;/span&gt;
+  &lt;span&gt;
+   Businesses must mitigate this risk by ensuring their enterprise data systems and practices are modernized for advanced use cases.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;span&gt;
+   “With disruptions in enterprise virtualization strategies and the mandate to make their data ready for the most demanding workloads, organizations are looking to modernize their legacy infrastructure with open solutions,” said Stuart McRae, Executive Director and General Manager of Data Storage at
+   &lt;a href=&quot;https://www.lenovo.com/us/en/&quot;&gt;
+    Lenovo
+   &lt;/a&gt;
+   . “These new offerings provide the security, flexibility, and performance to optimize enterprise applications and power enterprises to extract maximum value from data.”
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   Businesses today need the efficiency and cyber resiliency of their systems to run parallel to performance, simplicity, and scalability with an option to deploy on-prem and hybrid so that the data can stay in place for compliance while AI workloads run where
+  &lt;/span&gt;
+  &lt;span&gt;
+   appropriate. Lenovo has introduced new Lenovo
+  &lt;/span&gt;
+  &lt;span&gt;
+   ThinkSystem
+  &lt;/span&gt;
+  &lt;span&gt;
+   and Lenovo
+  &lt;/span&gt;
+  &lt;span&gt;
+   ThinkAgile
+  &lt;/span&gt;
+  &lt;span&gt;
+   Enterprise offerings
+  &lt;/span&gt;
+  &lt;span&gt;
+   optimized or AI, virtualization and storage bottlenecks, including:
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  ·
+  &lt;span&gt;
+   Lenovo ThinkSystem DS Series Storage Arrays
+  &lt;/span&gt;
+  &lt;span&gt;
+   : All-flash and protected Storage Area Network (SAN) block storage systems that are simple to deploy and manage for virtualized environments, improving performance and efficiency for virtualization and data modernization.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  ·
+  &lt;span&gt;
+   Lenovo ThinkAgile FX Series:
+  &lt;/span&gt;
+  &lt;span&gt;
+   Hyperconverged Infrastructure (HCI) that delivers an open architecture that supports seamless conversion between select HCI solutions without replacing hardware, delivering maximum investment protection and flexibility.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  ·
+  &lt;span&gt;
+   Lenovo ThinkAgile MX Series for disaggregated storage for Microsoft Azure Local:
+  &lt;/span&gt;
+  &lt;span&gt;
+   As a hyperconverged infrastructure (HCI) integrated appliance provider with Microsoft, we are expanding support for disaggregated external Fibre Channel Storage Area Networks (SAN to deliver greater enterprise storage support for virtualization customers.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  ·
+  &lt;span&gt;
+   Lenovo ThinkAgile MX Series with NVIDIA RTX Pro 6000
+  &lt;/span&gt;
+  &lt;span&gt;
+   :   Integrated next generation GPU support to power advanced AI performance capabilities for enterprise inferencing with Microsoft Azure Local.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  ·
+  &lt;span&gt;
+   Lenovo ThinkAgile HX Series for AI
+  &lt;/span&gt;
+  &lt;span&gt;
+   Lenovo’s HCI offering features Nutanix Enterprise AI (NAI) software stack to enable customers running in virtualized and distributed containerized environments to deploy, run, and scale AI models in minutes.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;span&gt;
+   To help customers fully realize the benefits of their new systems and prepare their data for AI, Lenovo is extending this momentum with a
+  &lt;/span&gt;
+  &lt;span&gt;
+   broad portfolio of hybrid cloud and data lifecycle services
+  &lt;/span&gt;
+  &lt;span&gt;
+   designed to modernize environments, strengthen reliability, and support evolving storage and AI workload requirements. This portfolio includes Lenovo Deployment Services for
+  &lt;/span&gt;
+  &lt;span&gt;
+   ThinkAgile and
+   &lt;wbr&gt;
+    ThinkSystem that help organizations accelerate time to value through more efficient infrastructure rollout, alongside a range of storage services that can be consumed individually or through Lenovo’s flexible TruScale model to enhance performance, agility, and innovation across the data storage lifecycle.
+   &lt;/wbr&gt;
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   To guide long-term strategy, Lenovo’s Hybrid Cloud Advisory Services help customers align on-prem or hybrid environments with compliance, data protection, and operational efficiency. Lenovo’s Migration Services help organizations
+  &lt;/span&gt;
+  &lt;span&gt;
+   optimize data and workloads by combining cloud flexibility with the dependability of existing infrastructure.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;span&gt;
+   As part of Lenovo’s expanded Data Management Services portfolio,
+  &lt;/span&gt;
+  &lt;span&gt;
+   Lenovo Premier Enhanced Storage Support
+  &lt;/span&gt;
+  &lt;span&gt;
+   delivers a specialized, storage-focused experience for IT teams managing critical workloads. With direct access to Lenovo experts, customers
+  &lt;/span&gt;
+  &lt;span&gt;
+   benefit from proactive monitoring, performance optimization, and guided issue resolution—helping ensure systems run reliably, are better protected, and maintain the resilience needed to support AI innovation and hybrid cloud growth.
+  &lt;/span&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+  &lt;u&gt;
+  &lt;/u&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TSMC November Revenue up 25% YoY </title>
+<link>https://insidehpc.com/2025/12/tsmc-november-revenue-up-25-yoy/</link>
+<pubDate>Wed, 10 Dec 2025 19:35:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/05/tsmc-logo-2-1-1023.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  HSINCHU, Taiwan, R.O.C. – Dec. 10, 2025 – TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for November 2025:
+ &lt;/p&gt;
+ &lt;p&gt;
+  On a consolidated basis, revenue for November 2025 was approximately NT$343.61 billion, a decrease of 6.5 percent from October 2025 and an  increase of 24.5 percent from November 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenue for January through November 2025 totaled NT$3,474.05 billion, an increase of 32.8 percent compared to the same period in 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img src=&quot;https://insidehpc.com/wp-content/uploads/2025/12/tsmc-november-revenue-2025.png&quot;/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
