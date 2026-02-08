@@ -1,0 +1,3153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sun, 08 Feb 2026 06:53:56 -0000</lastBuildDate>
+<item>
+<title> DDoS deluge: Brit biz battered as botnet blitzes break records </title>
+<link>https://www.theregister.com/2026/02/06/uk_climbs_up_ddos_hit/</link>
+<pubDate>Sun, 08 Feb 2026 01:13:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Cloudflare says DDoS crews ended 2025 by pushing traffic floods to new extremes, while Britain made an unwelcome leap of 36 places to become the world&#x27;s sixth-most targeted location.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The
+   &lt;a href=&quot;https://blog.cloudflare.com/ddos-threat-report-2025-q4/&quot; rel=&quot;nofollow&quot;&gt;
+    Q4 stats
+   &lt;/a&gt;
+   confirm it was a lively year for traffic floods, with Cloudflare claiming it had to swat away 47.1 million DDoS attacks, more than double 2024&#x27;s count. Momentum picked up toward the end of the year, as Q4 volumes jumped 31 percent from the prior quarter and 58 percent over 2024.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/12/04/cloudflare_aisuru_botnet/&quot;&gt;
+    Aisuru
+   &lt;/a&gt;
+   -Kimwolf, a botnet made up largely of malware-infected Android TVs, was behind the largest blast of the quarter, pushing traffic to a record-breaking 31.4 Tbps. The campaign, dubbed &quot;The Night Before Christmas,&quot; kicked off on December 19 and targeted Cloudflare customers as well as Cloudflare&#x27;s own dashboard and infrastructure in parallel.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;As the number of attacks increased over the course of 2025, the size of the attacks increased as well, growing by over 700 percent compared to the large attacks seen in late 2024,&quot; Cloudflare said.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Scale isn&#x27;t the only thing shifting, as Cloudflare reports that attackers are ditching long-haul floods in favour of smash-and-dash traffic spikes. Some incidents during the campaign wrapped up in well under two minutes yet still pushed traffic into the billions of packets per second, underscoring how sheer speed has become the real weapon.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cloudflare attributes much of the surge to large botnets built from compromised internet-connected devices, including routers, cameras, and DVRs. The company also says attackers are increasingly abusing cloud-hosted virtual machines to generate large bursts of traffic, allowing them to scale attacks quickly.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The geographic shifts are equally notable. While China, Hong Kong, Germany, Brazil, and the United States remained among the most frequently targeted regions, the United Kingdom&#x27;s sudden rise to number six stands out.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/19/dont_underestimate_prorussia_hacktivists_warns/&quot;&gt;
+     Don&#x27;t underestimate pro-Russia hacktivists, warns UK&#x27;s cyber crew
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/09/rondodox_botnet_fires_exploit_shotgun/&quot;&gt;
+     RondoDox botnet fires &#x27;exploit shotgun&#x27; at nearly every router and internet-connected home device
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/11/19/thousands_more_asus_routers_pwned/&quot;&gt;
+     Tens of thousands more ASUS routers pwned by suspected, evolving China operation
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/11/19/cloudflare_incident_report/&quot;&gt;
+     Cloudflare broke itself – and a big chunk of the Internet – with a bad database query
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Cloudflare doesn&#x27;t attribute the UK&#x27;s climb to any single campaign, though the country is in several well-known DDoS crosshairs. Financial services remain a favourite target, and geopolitical tensions are adding fresh fuel. Pro-Russian hacktivists NoName057(16), for example, have repeatedly claimed responsibility for attacks on UK government and public sector websites. Britain&#x27;s dense telecoms and cloud infrastructure also make it a high-impact disruption target.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Attackers didn&#x27;t stray far from their favourite punching bags. Telecom providers, IT service firms, and gambling and gaming sites once again absorbed a big slice of the DDoS noise, sectors where outages tend to trigger both lost cash and loud complaints. Most assaults also stuck to the lower plumbing of the internet, with Layer 3 and Layer 4 attacks leading the charge.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cloudflare says the only realistic way to keep up is to let the machines handle it, with autonomous systems detecting and blocking massive, short-lived attacks in real time without human intervention. The logic is fairly simple: when traffic surges to record levels and then vanishes within a couple of minutes, humans will never react quickly enough. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Flickr emails users about data breach, pins it on 3rd party </title>
+<link>https://www.theregister.com/2026/02/06/flickr_emails_users_about_data_breach/</link>
+<pubDate>Sat, 07 Feb 2026 21:15:06 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Legacy image-sharing website Flickr suffered a data breach, according to customers emails seen by
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The hack transpired on February 5, an email to customers stated, and the company said it &quot;shut down access to the affected system within hours of learning about it.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The security issue stemmed from a
+   &lt;a href=&quot;https://www.theregister.com/2025/04/24/security_snafus_third_parties/&quot;&gt;
+    third-party email service provider
+   &lt;/a&gt;
+   , the identity of which was not specified.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In the email, Flickr said it disabled access to the affected system and removed all links to the vulnerable endpoint before notifying its email provider and demanding an investigation into the incident.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;We are conducting a thorough review and strengthening our security practices with third-party providers,&quot; Flickr&#x27;s email stated. &quot;We notified the relevant data protection authorities.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   As for the all-important &#x27;what data was taken&#x27; question, it&#x27;s the usual personally identifiable information (PII) and a few other less-expected markers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Thge message to custokers states that names, email addresses, usernames, account types, IP addresses and general locations, and Flickr activity were potentially accessed by hackers. What data is exposed, as always, depends on each given account. It won&#x27;t be the same for everyone.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   asked the
+   &lt;a href=&quot;https://www.theregister.com/2018/04/23/oath_sells_flickr_to_smugmug/&quot;&gt;
+    SmugMug-owned company
+   &lt;/a&gt;
+   for more information, including how many of its users were affected.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Since Flickr included links to both European and US data protection authorities in its email, potentially indicating the impact was felt in multiple regions. Flickr operates in 190 countries.
+  &lt;/p&gt;
+  &lt;p&gt;
+   As for its number of active users, Flickr&#x27;s advertising arm says 35 million per month are contributing to the site, generating 800 million page views. Approximately 228,000 of these were in Europe, a
+   &lt;a href=&quot;https://www.theregister.com/2025/12/05/eu_fines_x_dsa/&quot;&gt;
+    Digital Services Act
+   &lt;/a&gt;
+   publication
+   &lt;a href=&quot;https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union&quot; rel=&quot;nofollow&quot;&gt;
+    confirmed
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The company&#x27;s email warned users to beware of phishing emails referencing their account and reminded them that the real Flickr would never ask for things like passwords via email.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/substack_admit_security_incident/&quot;&gt;
+     Substack says intruder lifted emails, phone numbers in months-old breach
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/notepad_plusplus_intrusion/&quot;&gt;
+     Notepad++ update service hijacked in targeted state-linked attack
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/stopice_alerts_hacked/&quot;&gt;
+     StopICE hacked to send alarming text messages, admins accuse border patrol agent of sabotage
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/14/eurail_breach/&quot;&gt;
+     Eurail passengers taken for a ride as data breach spills passports, bank details
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   It also suggested users review their account settings for any unexpected findings, and if they use the same password for Flickr as they do for other services, to consider changing it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Flickr&#x27;s email said no password or financial information was affected, though.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We sincerely apologize for this incident and for the concern it may cause,&quot; the company said in the email.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We take the privacy and security of your data extremely seriously, and we are taking immediate action to prevent any similar issues by conducting a thorough investigation, strengthening our system architecture, and further enhancing our monitoring of third-party service providers.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Whether they are building agents or folding proteins, LLMs need a friend </title>
+<link>https://www.theregister.com/2026/02/07/ai_companion_bots_vishal_sikka_interview/</link>
+<pubDate>Sat, 07 Feb 2026 15:14:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Don&#x27;t trust; verify. According to AI researcher Vishal Sikka, LLMs alone are limited by computational boundaries and will start to hallucinate when they push those boundaries. One solution? Companion bots that check their work.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “To expect that a model that has been trained on a certain amount of data will be able to do an arbitrarily large number of calculations which are reliable is a wrong assumption. This is the point of the
+   &lt;a href=&quot;https://arxiv.org/pdf/2507.07505&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    paper
+   &lt;/a&gt;
+   ,” said Sikka, CEO of Vianai Systems during a call this week to discuss that research.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Sikka is a towering figure in AI. He has a PhD in the subject from Stanford, where his student advisor was
+   &lt;a href=&quot;http://jmc.stanford.edu/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    John McCarthy
+   &lt;/a&gt;
+   , the man who in 1955 coined the term “artificial intelligence.” Lessons Sikka learned from McCarthy inspired him to team up with his son and write a study, “Hallucination Stations: On Some Basic Limitations of Transformer-Based Language Models,” which was published in July. The former CTO of SAP and ex-CEO of Infosys, Sikka set out to study the efficacy of LLMs and AI agents last year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “We have an example my son came up with of two prompts that have identical tokens and when you run them, the exact same number of operations get performed independent of what the tokens are,” he said. “Therein is the entire point, that whether the prompt is expressing the user&#x27;s desire to perform a particular calculation or the prompt is expressing a user&#x27;s desire to write a piece of text on something, it does exactly the same number of calculations.”
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Attempting to push an LLM beyond that limit gives rise to the hallucinations that bedevil the model&#x27;s output.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “When we say, ‘Go book a ticket for me and then charge my credit card or deduct the amount from my bank and then send a post to my financial app,’ which is what all these agent vendors are kind of saying, you are asking the agents to perform an action which holds a meaning to you, which holds a particular semantic to you, and if it is a pure LLM underneath there, no matter how that LLM works, it has a bounded ability to carry out these kinds of tasks,” he said. “So with agentic use of pure LLMs, you have to perform extreme caution when you do these kinds of things.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   But, Sikka – who founded Vianai in 2019 – said that, when LLMs are supported by systems that can verify the work and use the foundation model only for the computational power, the output becomes more accurate. Sikka said that, in the case of Vianai’s Hila, it can perform mission-critical tasks such as reducing financial reporting from 20 days of human labor to five minutes.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “For certain domains, when you surround the LLM with guardrails, with reliable approaches that are proven, then you are able to provide reliability in the overall system,” he said. “It&#x27;s not only us. A lot of systems out there work like that where they pair the LLM with another system which is able to ensure that the LLM has correctness. So we do that in our product Hila. We combine the LLM with a knowledge model for a particular domain and then, after that, Hila does not make mistakes.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Sikka compared it to the structure
+   &lt;a href=&quot;https://deepmind.google/science/alphafold/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Google uses
+   &lt;/a&gt;
+   to identify proteins that could be used to make medicines. Google’s AlphaFold has a custom LLM called Evoformer that creates candidates for proteins and that is fed into another “non imaginative” system that can check the configuration for flaws.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “And so anything that comes out of that has a much higher likelihood of being an actual protein, and then it repeats this cycle three times, and the outcome of that is pretty much guaranteed to be a protein for a particular situation,” Sikka said. “They have produced, I think 250,000 proteins that way, which, producing one protein used to take teams of scientists years to do that.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   He continued, “As to ‘why?’ as a scientist you always have to try and understand the boundaries of a technique. Some call it the ‘overview effect.’ John McCarthy used to call it ‘circumscription.’ He also named a set of AI techniques for this, to try and build systems with circumscription,” Sikka said. “Plus of course, Gen AI hallucinates, so ‘Why?’ is a natural question to ask. And finally, since the beginning of Vianai we were working on bringing in explainability, observability, and transparency to AI systems.”
+  &lt;/p&gt;
+  &lt;h3&gt;
+   Fourth time around for AI mania
+  &lt;/h3&gt;
+  &lt;p&gt;
+   During
+   &lt;em&gt;
+    The Register’s
+   &lt;/em&gt;
+   conversation with Sikka, he dropped nuggets of wisdom he picked up first hand from other tech pioneers, like Alan Kay and Marvin Minsky.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “Marvin Minsky used to say the Society of Mind, right?” Sikka said referring to the phrase that was the title of Minsky’s influential 1986 book about human intelligence that was based on his work with AI. “That there is a collection of things that come together to create intelligence. I think that’s kind of where we will end up, but we’ll stumble along our way through to that.”
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/ai_bot_traffic_web_browsers/&quot;&gt;
+     Bots are taking over the internet and AI users are to blame
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/06/17/bot_overwhelming_websites_report/&quot;&gt;
+     Bots are overwhelming websites with their hunger for AI data
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/12/05/bots_bias_bunk/&quot;&gt;
+     Bots, bias, and bunk: How can you tell what&#x27;s real on the net?
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/21/ai_crawler_traffic/&quot;&gt;
+     AI crawlers and fetchers are blowing up websites, with Meta and OpenAI the worst offenders
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Minsky actually wrote a letter of recommendation that helped Sikka reach Stanford. While the letter remains somewhere in the admissions office in California, Minsky’s nudge has given Sikka an unobstructed view of AI’s development since the 1980s.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “This is my fourth time observing this AI mania in my career,” Sikka said. “In the 80s, there was a whole hype that came and went over a decade. Same thing (as now). Custom hardware. Custom silicon for AI. AI models. Foundation applications. There were even venture firms being formed to fund AI. There were companies with names like Thinking Machines, Applied Intelligence. It was a different time and different technique. Then people realized this is cool, but it&#x27;s not intelligence. It has a certain boundary of applications and then it kind of died.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Despite spending more than 40 years with AI, Sikka said that even now the technology is in its early stages. While there have been notable successes with coding, he pointed to the
+   &lt;a href=&quot;https://www.theregister.com/2025/08/18/generative_ai_zero_return_95_percent/&quot; target=&quot;_blank&quot;&gt;
+    MIT study
+   &lt;/a&gt;
+   that revealed 95 percent of AI projects fail and compared the current use of AI to the early days of television news when anchors would read updates over the air, just as they had done with radio.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “I think so far, we are just regurgitating our prior known things using AI, but soon we will see breakthrough, new things that are possible,” he said. “I think with carefully chosen products, there is dramatic return on investment to be had, but a blanket use of LLMs, you have to be very, very careful.” ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Study confirms experience beats youthful enthusiasm </title>
+<link>https://www.theregister.com/2026/02/07/boomers_vs_zoomers_workplace/</link>
+<pubDate>Sat, 07 Feb 2026 12:35:54 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   A growing body of research continues to show that older workers are generally more productive than younger employees.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Annie Coleman, founder of consultancy RealiseLongevity, analyzed the data and highlighted a 2025 study finding peak performance occurs between the ages of 55-60.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.theregister.com/2017/10/19/tech_workers_terrified_theyll_age_out/&quot;&gt;
+    &lt;img alt=&quot;Old people&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2017/02/07/old_people.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+    &lt;h2 title=&quot;Industry age bias a source of constant worry&quot;&gt;
+     Survey: Tech workers are terrified they will be sacked for being too old
+    &lt;/h2&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Writing in the
+   &lt;a href=&quot;https://longevity.stanford.edu/why-more-companies-are-recognizing-the-benefits-of-keeping-older-employees/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Stanford Center on Longevity blog
+   &lt;/a&gt;
+   , she cited
+   &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0160289625000649&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    research
+   &lt;/a&gt;
+   examining 16 cognitive markers that confirm that although processing speed declines after early adulthood, other dimensions improve, and overall cognition peaks near retirement age.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Studies from the past 15 years show that some qualities like vigilance may worsen with age alongside processing speed, but others improve, including the ability to avoid distractions and accumulated knowledge.
+  &lt;/p&gt;
+  &lt;p&gt;
+   These factors matter more as AI starts to eliminate
+   &lt;a href=&quot;https://www.theregister.com/2025/08/26/ai_hurts_recent_college_grads_jobs/&quot; target=&quot;_blank&quot;&gt;
+    jobs for grads and entry-level candidates
+   &lt;/a&gt;
+   , increasing the value of experienced workers who can mentor other employees.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A 2022
+   &lt;a href=&quot;https://academic.oup.com/workar/article/8/2/208/6574297?login=false&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    meta-analysis
+   &lt;/a&gt;
+   concluded that professional teams tend to function better when they have company veterans among them, as did Bank of America&#x27;s
+   &lt;a href=&quot;https://business.bofa.com/content/dam/flagship/workplace-benefits/silver-economy/better-with-age.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    findings
+   &lt;/a&gt;
+   [PDF] two years later.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/14/youngsters_in_foss/&quot;&gt;
+     Why do younger coders struggle to break through the FOSS graybeard barrier?
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/11/feature_tech_cv_updates/&quot;&gt;
+     Your CV is not fit for the 21st century – time to get it up to scratch
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2022/08/02/ageist_job_ads/&quot;&gt;
+     Bad news, older tech workers: Job advert language works against you
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2022/12/01/just_one_in_five_techies/&quot;&gt;
+     Just 22% of techies in UK aged 50 or older, says Chartered Institute for IT
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Likewise, a Boston Consulting Group
+   &lt;a href=&quot;https://www.bcg.com/publications/2022/leveraging-power-of-cross-generational-teams&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    study
+   &lt;/a&gt;
+   in 2022 showed age-diverse teams outperformed homogeneous ones, with the best results coming when older workers&#x27; judgment combined with younger employees&#x27; digital skills.
+  &lt;/p&gt;
+  &lt;p&gt;
+   So, in a working world that seemingly values youthful forward thinkers over experience – illustrated by the various
+   &lt;a href=&quot;https://www.theregister.com/2023/09/21/ibm_age_discrimination/&quot; target=&quot;_blank&quot;&gt;
+    age
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2024/08/04/ibm_canada_cant_duck_systematic/&quot; target=&quot;_blank&quot;&gt;
+    discrimination
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2024/06/20/ibm_and_kyndryl_again_sued/&quot; target=&quot;_blank&quot;&gt;
+    lawsuits
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2023/10/27/hp_age_discrimination/&quot; target=&quot;_blank&quot;&gt;
+    across
+   &lt;/a&gt;
+   the
+   &lt;a href=&quot;https://www.theregister.com/2025/03/21/aws_sued_for_alleged_discrimination/&quot; target=&quot;_blank&quot;&gt;
+    tech
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2019/07/22/google_settles_discrimination/&quot; target=&quot;_blank&quot;&gt;
+    industry
+   &lt;/a&gt;
+   – the current data shows organizations should be doing everything they can to keep their older staffers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;In meeting their responsibility for long-term risk and growth, companies should begin with clarity. Map the age profile of the workforce by role and seniority,&quot; Coleman wrote. &quot;Identify where people in their fifties and early sixties are exiting, and whether those exits reflect performance or design. Treat age as a strategic variable in the same way firms now treat gender, skills, or succession risk.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Build roles and career paths that assume longer working lives. Invest in mid- and late-career reskilling, not as remediation but as renewal. Structure intergenerational teams deliberately, so experience and speed compound rather than collide. Align product, service, and brand strategy with the realities of an aging, wealthier customer base.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;None of this is about altruism. It is about reclaiming value currently being left on the table.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Substack says intruder lifted emails, phone numbers in months-old breach </title>
+<link>https://www.theregister.com/2026/02/05/substack_admit_security_incident/</link>
+<pubDate>Sat, 07 Feb 2026 12:08:17 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Newsletter platform Substack has admitted that an intruder swiped user contact details months before the company noticed, forcing it to warn writers and readers that their email addresses and other account metadata were accessed without permission.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The disclosure arrived in an email this week from Substack CEO Chris Best to affected users, who acknowledged the lapse in unusually no-frills language. &quot;I&#x27;m reaching out to let you know about a security incident that resulted in the email address from your Substack account being shared without your permission,&quot; Best said in the message, seen by
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   . &quot;This sucks. I&#x27;m sorry. We will work very hard to make sure it does not happen again.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   According to the company, an &quot;unauthorized third party&quot; accessed limited user data during October 2025. The incident was not detected until February 3, when Substack reported that it had uncovered evidence that its systems had been compromised. The exposed information includes email addresses, phone numbers, and internal account metadata. Substack maintains that passwords, credit card numbers, and financial data were not touched.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/betterment_hack/&quot;&gt;
+     Betterment breach may expose 1.4M users after social engineering attack
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/winter_olympics_russian_attacks/&quot;&gt;
+     Italy claims cyberattacks &#x27;of Russian origin&#x27; are pelting Winter Olympics
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/aws_cloud_breakin_ai_assist/&quot;&gt;
+     AWS intruder achieved admin access in under 10 minutes thanks to AI assist, researchers say
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/nitrogen_ransomware_broken_decryptor/&quot;&gt;
+     Nitrogen ransomware is so broken even the crooks can&#x27;t unlock your files
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The company says that it has since patched the vulnerability that allowed access and has launched a full internal investigation. It also claims there is currently no evidence that the stolen data is being actively misused, though it is urging users to remain alert for suspicious emails or phishing attempts.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Substack&#x27;s confirmation comes after a threat actor posted a dataset they said had been stolen from the platform. A post on a cybercrime forum advertised nearly 700,000 alleged user records, including names, email addresses, phone numbers, user IDs, and profile images.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It&#x27;s still unclear whether the trove of data circulating online is connected to the breach Substack has acknowledged. The company did not respond to questions from
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   asking how many users might be affected, what categories of data may have been exposed, or whether the October intrusion matches the information that later surfaced publicly.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The breach could prove particularly damaging for Substack, whose business depends on trust between writers and subscribers. Mailing lists sit at the core of that model, and if compromised, they could provide scammers with a ready-made catalogue of highly engaged readers. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Stash or splash? Lawmakers ask NASA to find alternatives for International Space Station </title>
+<link>https://www.theregister.com/2026/02/05/iss_stash_or_splash/</link>
+<pubDate>Sat, 07 Feb 2026 11:11:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   US lawmakers have asked NASA to look into storing the International Space Station (ISS) in a higher orbit at the end of its operational life, instead of sending the structure hurtling into the ocean when the time comes.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The question came up during the
+   &lt;a href=&quot;https://science.house.gov/markups?ContentRecord_id=FF6B5E53-D99B-49CB-A383-C06DCCFE1EE5&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    markup of the NASA Reauthorization Act
+   &lt;/a&gt;
+   and raises an intriguing possibility. Could the multi-billion-dollar complex be sent to a higher orbit where future generations might find a use for it, rather than destroyed?
+  &lt;/p&gt;
+  &lt;p&gt;
+   To be clear, the amendment offered by Reps. Whitesides (D-CA) and Begich (R-AK) and passed by voice vote was not about changing the plan to end ISS operations in 2030, but instead asked whether the ISS could be stored in a higher, stable orbit once it reached the end of its useful life.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Whitesides explained that the amendment required NASA to conduct an analysis of the costs and risks of storing the ISS in orbit. It did not mandate relocation, nor did it authorize funding or the execution of any such plan.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   It is, however, worth pondering as the ISS nears the end of its life. In 2024, SpaceX was
+   &lt;a href=&quot;https://www.theregister.com/2024/06/27/spacex_wins_iss_deorbit_contract/&quot; target=&quot;_blank&quot;&gt;
+    awarded the contract
+   &lt;/a&gt;
+   to build a vehicle to de-orbit the ISS. The vehicle is expected to be ready by 2029, ahead of a planned push to send the ISS into the Earth&#x27;s atmosphere.
+  &lt;/p&gt;
+  &lt;p&gt;
+   But the alternative is intriguing. It is technically possible to boost the orbit, though it would require building a vehicle to do so. The bigger question is whether doing so is worth the risks involved.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/27/nasa_anomaly_review_maven/&quot;&gt;
+     NASA begins formal anomaly review after MAVEN probe lost in space
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/28/challenger_40/&quot;&gt;
+     Challenger at 40: The disaster that changed NASA
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/31/nasa_taps_claude_to_conjure/&quot;&gt;
+     NASA taps Claude to conjure Mars rover&#x27;s travel plan
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/07/nasa_people_memgraph/&quot;&gt;
+     NASA jettisons Neo4j database for Memgraph citing costs
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Whitesides acknowledged some of those risks in the amendment. The ISS is aging and could shed components in the future, posing a potential debris risk. There is also the possibility of a future uncontrolled re-entry.
+  &lt;/p&gt;
+  &lt;p&gt;
+   NASA has already
+   &lt;a href=&quot;https://www.nasa.gov/faqs-the-international-space-station-transition-plan/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    performed an evaluation
+   &lt;/a&gt;
+   and concluded that the chance of something hitting the ISS would increase as the orbit was raised, from an estimated 51 years between impacts at its current altitude to less than four years at 497 miles. Complete fragmentation could be catastrophic.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It is, however, an interesting thought experiment.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Another markup, introduced and later withdrawn, came from Rep. Don Beyer (D-VA) regarding the
+   &lt;a href=&quot;https://www.theregister.com/2025/10/09/cornyn_smithsonian_shuttle_comments/&quot; target=&quot;_blank&quot;&gt;
+    controversial
+   &lt;/a&gt;
+   requirement to relocate a space vehicle to Houston. NASA is widely expected to move Space Shuttle Discovery from its current resting place at the Smithsonian Museum to a facility in Texas, although it&#x27;s not confirmed this yet.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Beyer&#x27;s markup would have required NASA to inform Congress of the cost &quot;and potential for physical harm&quot; to the space vehicle before kicking off the process.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The markup was withdrawn on the understanding that discussions would be had on the relocation &quot;without damaging the vehicle, preserving the integrity of our assets for generations to come.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Betterment breach may expose 1.4M users after social engineering attack </title>
+<link>https://www.theregister.com/2026/02/05/betterment_hack/</link>
+<pubDate>Sat, 07 Feb 2026 11:11:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Breach-tracking site Have I Been Pwned (HIBP) claims a cyberattack on Betterment affected roughly 1.4 million users – although the investment company has yet to publicly confirm how many customers were affected by January&#x27;s intrusion.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The figure surfaced today after
+   &lt;a href=&quot;https://haveibeenpwned.com/Breach/Betterment&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    HIBP
+   &lt;/a&gt;
+   added the incident to its database. HIBP says the dataset tied to the attack contains approximately 1.4 million unique email addresses, along with partial personal information that aligns with details previously acknowledged by the fintech firm.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.theregister.com/2026/02/04/nitrogen_ransomware_broken_decryptor/&quot;&gt;
+    &lt;img alt=&quot;airbnb keys bw&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2015/09/10/airbnb_keys_bw.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+    &lt;h2 title=&quot;Gang walks away with nothing, victims are left with irreparable hypervisors&quot;&gt;
+     Nitrogen ransomware is so broken even the crooks can&#x27;t unlock your files
+    &lt;/h2&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Betterment, which offers automated investment and financial planning services,
+   &lt;a href=&quot;https://www.betterment.com/customer-update&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    first disclosed the breach in January
+   &lt;/a&gt;
+   after detecting unauthorized access to certain internal systems on January 9. Betterment said the hacker gained entry through a social engineering scheme that relied on impersonation to infiltrate third-party marketing and operations tools, then used that access to send customers a fraudulent cryptocurrency promotion disguised as an official company message.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In its most recent customer update,
+   &lt;a href=&quot;https://www.betterment.com/customer-update&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    published on February 3
+   &lt;/a&gt;
+   , Betterment said the intrusion did not expose customer accounts, passwords, or login credentials, and the fallout involved customer contact details, including names and email addresses. For a subset of users, the accessed data also included additional information such as physical mailing addresses, phone numbers, or dates of birth.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/30/trizetto_health_data_stolen/&quot;&gt;
+     Thousands more Oregon residents learn their health data was stolen in TriZetto breach
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/26/data_thieves_claim_nike_data_haul/&quot;&gt;
+     Data thieves borrow Nike&#x27;s &#x27;Just Do It&#x27; mantra, claim they ran off with 1.4TB
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/19/ingram_micro_ransomware_affects/&quot;&gt;
+     Ingram Micro admits summer ransomware raid exposed thousands of staff records
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/12/31/alphv_ransomware_affiliates_plead_guilty/&quot;&gt;
+     Cybersecurity pros admit to moonlighting as ransomware scum
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   It is working with an independent data analytics provider to review material allegedly posted online by a group claiming responsibility for the breach. While Betterment hasn&#x27;t said who was behind the incident, the notorious
+   &lt;a href=&quot;https://www.theregister.com/2026/01/26/shinyhunters_okta_sso_campaign/&quot; target=&quot;_blank&quot;&gt;
+    ShinyHunters crew recently told
+    &lt;em&gt;
+     The Register
+    &lt;/em&gt;
+    that it gained access to Betterment&#x27;s systems
+   &lt;/a&gt;
+   by voice phishing its Okta single sign-on codes.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The extortion group claimed to have leaked 20 million Betterment records, but its dark web leak site was offline at the time of publication.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Betterment did not immediately respond to
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   &#x27;s questions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   While Betterment has stressed that investment accounts and authentication data were not touched, exposure of contact and identity-related details still carries risk. Such datasets are prized by phishing campaigns and account takeover attempts, particularly when tied to financial services users.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Betterment advises customers to be skeptical of unsolicited emails or calls. It says it won&#x27;t ask for passwords or financial information via unsolicited messages.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The incident also serves as a useful reminder that while companies like Betterment automate investing, they still collect plenty of personal data that attackers are keen to get their hands on. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Openreach turns up the heat to force laggards off legacy copper lines </title>
+<link>https://www.theregister.com/2026/02/07/openreach_ptsn_hikes/</link>
+<pubDate>Sat, 07 Feb 2026 09:36:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Openreach is warning British businesses that the old phone network shuts down in less than a year - with half a million commercial lines still unmigrated.
+  &lt;/p&gt;
+  &lt;p&gt;
+   BT Group&#x27;s infrastructure arm is switching to an all-digital, IP-based service over fiber. To speed migration, it&#x27;s hiking charges on legacy products.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Deadlines for the cutoff have slipped several times, but the telecoms giant is now bent on finally burying the copper-based public switched telephone network (PSTN) by January 31, 2027, and Openreach is already working to kill off any services that use it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Those products come under the umbrella term of Wholesale Line Rental (WLR), and Openreach stopped selling them nationwide in 2023 to prepare the way.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Openreach claims all technical barriers to migration – including protections for vulnerable telecare users – are resolved and the deadline is &quot;locked in,&quot; so BT customers need to make sure they are ready.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Biz customers are being offered special pricing on migrations to SOGEA (Single Order Generic Ethernet Access – basically broadband without a phone service). And to reinforce the message, Openreach is about to start upping charges to service providers and companies still operating legacy business lines. From April 1, prices will rise 20 percent. Come July 1, they will go up a further 40 percent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   From October 1, there will be another 40 percent hike, meaning that any businesses still holding out will then pay double the rental cost for their legacy lines compared to last year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This will be your final wake-up call before PSTN is terminated in January. Any customer that hasn&#x27;t made the switch by then will lose service altogether.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The PSTN analog network is obsolete, becoming harder to maintain and significantly more expensive to run,&quot; claimed Openreach Director of All-IP James Lilley.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We are passing those costs on to providers who continue to sell legacy products. If your business is still on this copper service, you will start to pay a premium for a service that will be switched off,&quot; he added.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Most major communications providers moved their customers to digital long ago. If your provider hasn&#x27;t contacted you, you need to ask why.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Lilley claimed Openreach spent the last year ensuring telecare customers can be switcherd via a &quot;Prove Telecare&quot; service. This was one of the reasons for
+   &lt;a href=&quot;https://www.theregister.com/2024/05/21/bt_delays_deadline_for_digital/&quot; target=&quot;_blank&quot;&gt;
+    delays to the switch-off date
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Openreach says it is trying to ensure service providers can migrate vulnerable customers using fixed-line telecare devices, such as health-related alarms, to new digital or IP voice services.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Yet some domestic customers, especially older citizens, do not have broadband and don&#x27;t want it.
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   was
+   &lt;a href=&quot;https://www.theregister.com/2023/09/26/bt_begins_big_switchover_ahead/&quot; target=&quot;_blank&quot;&gt;
+    previously assured
+   &lt;/a&gt;
+   these users will not be switched to a digital line &quot;until they are able to.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This involves a pre-digital phone line (PDPL) service where equipment is installed in the local telephone exchange to allow them to continue to use their old phone line as before.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is only intended to provide &quot;interim connectivity&quot; until sometime around 2030, when customers will be required to move over to Digital Voice or an alternative.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/10/digital_landline_switch_scam/&quot;&gt;
+     Scammers exploit UK&#x27;s digital landline switch to swipe cash
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/10/16/openreach_copper_stop_sell/&quot;&gt;
+     Openreach reveals latest locations facing the copper chop
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/05/21/bt_delays_deadline_for_digital/&quot;&gt;
+     BT delays deadline for digital landline switch off date
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2023/09/26/bt_begins_big_switchover_ahead/&quot;&gt;
+     Switch to hit the fan as BT begins prep ahead of analog phone sunset
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Openreach told us there are several possibilities for consumers without broadband. If there is fiber available to the property, customers will likely be migrated to SOGEA, and given a router to plug their phone into.
+  &lt;/p&gt;
+  &lt;p&gt;
+   If fiber isn’t available, they will likely be switched to SOTAP for Analogue (Single Order Transitional Access Product), a digital service that works in the exchange and emulates a PSTN line (see PDPL above).
+  &lt;/p&gt;
+  &lt;p&gt;
+   If a customer does nothing, Openreach says they will most likely end up on its Emergency Voice Access (EVAC), a &quot;no frills&quot; version of SOTAP.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Customers are advised to contact their service provider to ensure they continue to receive their phone service. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI video company arouses fury by boasting about replacing creative jobs </title>
+<link>https://www.theregister.com/2026/02/06/higgsfield_ai_job_loss/</link>
+<pubDate>Fri, 06 Feb 2026 21:56:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   The first rule of AI-generated job loss is you don&#x27;t talk about AI-generated job loss ... if you&#x27;re the company that caused it. Higgsfield.ai, a startup offering AI video creation tools, recently generated outrage when it claimed it had caused artists to hit the unemployment line.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Earlier this week, the company bragged on X that its AI motion design tool put
+   &lt;a href=&quot;https://x.com/nickfloats/status/2018772595991015760?s=20&quot; rel=&quot;nofollow&quot;&gt;
+    an end to more than 20 creative jobs
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   The artists using its services – well aware of AI&#x27;s impact on the creative market and perhaps discomfitted by their complicity for using these tools – were not amused and the ensuing backlash on social media led to the post&#x27;s removal.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Seems like Higgsfield found out today that there are lines they just shouldn&#x27;t cross in their marketing,&quot; wrote Aharon Rabinowitz, CEO of Motion Management, in a social media
+   &lt;a href=&quot;https://x.com/ABAOProductions/status/2018912789767565681?s=20&quot; rel=&quot;nofollow&quot;&gt;
+    post
+   &lt;/a&gt;
+   . &quot;Celebrating the end of artists&#x27; careers (even when their motion design tools are not actually good enough to render anyone unemployed) is just super dumb and shortsighted.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The company&#x27;s marketing claims and the services it actually provides have been a matter of contention for several months.
+   &lt;a href=&quot;https://github.com/Anil-matcha/higgsfield-ai-scam&quot; rel=&quot;nofollow&quot;&gt;
+    Online
+   &lt;/a&gt;
+   &lt;a href=&quot;https://x.com/dustinhollywood/status/2019081661946667462?s=20&quot; rel=&quot;nofollow&quot;&gt;
+    critics
+   &lt;/a&gt;
+   have accused the company of:
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    Bait and switch marketing tactics, with promises of unlimited access to services like Google&#x27;s Nano Banana Pro that were followed by account bans.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Undisclosed review astroturfing to counter negative posts on various online platforms.
+   &lt;/li&gt;
+   &lt;li&gt;
+    Predatory billing.
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://shitfield.ai/&quot; rel=&quot;nofollow&quot;&gt;
+     Deceptive, explicit marketing
+    &lt;/a&gt;
+    .
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   As
+   &lt;a href=&quot;https://x.com/BLVCKLIGHTai/status/2018762826190622805?s=20&quot; rel=&quot;nofollow&quot;&gt;
+    one online critic
+   &lt;/a&gt;
+   put it, &quot;Higgsfield AI: A Company Built on Rage Bait Content, Stolen Likenesses, and Sexual Exploitation.&quot; Another has
+   &lt;a href=&quot;https://x.com/dustinhollywood/status/2018867910102446488?s=20&quot; rel=&quot;nofollow&quot;&gt;
+    accused Higgsfield of commissioning customers
+   &lt;/a&gt;
+   to create marketing material using unlicensed intellectual property, to shift liability for potential infringement claims.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Higgsfield did not respond to requests for comment. A message to the company&#x27;s email address for the press, cited in
+   &lt;a href=&quot;https://www.prnewswire.com/news-releases/higgsfield-announces-50m-series-a-to-propel-click-to-video-ai-for-social-media-302550070.html&quot; rel=&quot;nofollow&quot;&gt;
+    prior fundraising news
+   &lt;/a&gt;
+   , bounced. A message to the company&#x27;s support email address said our inquiry had been forwarded to a human agent, but no one has followed up.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   also asked Menlo Ventures, one of the companies funding Higgsfield, to comment. A spokesperson for the VC firm did not comment as asked but provided a media contact who has yet to respond.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Ian Hudson, a UK-based software tester and video maker, spoke to
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   in a phone interview about the backlash against Higgsfield.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The problem seems to be that really they aren&#x27;t providing much of a service themselves and it appears that a lot of the website really is just a wrapper for other services,&quot; Hudson explained. &quot;So it&#x27;s doing API calls off to Google for
+   &lt;a href=&quot;https://gemini.google/overview/image-generation/&quot; rel=&quot;nofollow&quot;&gt;
+    Nano Banana
+   &lt;/a&gt;
+   and it&#x27;s using a service called
+   &lt;a href=&quot;https://klingai.com/global/&quot; rel=&quot;nofollow&quot;&gt;
+    Kling
+   &lt;/a&gt;
+   for the video.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/microsoft_onedrive_agents/&quot;&gt;
+     Microsoft sets Copilot agents loose on your OneDrive files
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/06/darpa_seeking_physicsdefying_photonic_computers/&quot;&gt;
+     Let there be light! DARPA seeking physics-defying photonic computers to supercharge AI
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/06/chrome_mv3_no_harm_ad_blocking/&quot;&gt;
+     Ad blocking is alive and well, despite Chrome&#x27;s attempts to make it harder
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/openclaw_skills_marketplace_leaky_security/&quot;&gt;
+     OpenClaw reveals meaty personal information after simple cracks
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Hudson said that he became aware of the service in January because of the company&#x27;s intensive marketing efforts. Higgsfield, he said, has been making promises about unlimited usage of services like Google Nano Banana and Kling.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;But there&#x27;s no explanation so you don&#x27;t really know what&#x27;s going on,&quot; he said. &quot;Either something&#x27;s unlimited or it&#x27;s not, but it turns out it&#x27;s not unlimited. Really you&#x27;re not getting anything unlimited, you&#x27;re getting a quick trial of it. And then it turns out that&#x27;s got terms and conditions [that say] if you do a lot of use of it, we&#x27;ll ban you.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hudson said Higgsfield puts user prompts in a queue that gets delayed for an arbitrary amount of time before being routed to the underlying third-party AI service.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;So it appears to be unlimited, but then it&#x27;s not because it&#x27;s throttling things for so long to get a result back that you get a fraction of what you could get if you went to, say, Google Gemini directly,&quot; he explained. &quot;So it&#x27;s not really a service that is fit for purpose.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hudson also criticized the company for its approach to marketing, which he said involved making controversial posts to generate attention and drama, and then deleting the posts to hide the evidence.
+  &lt;/p&gt;
+  &lt;p&gt;
+   And he took issue with the limitations imposed on refunds. Higgsfield, he said, refuses to give refunds if you&#x27;ve used their services.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;So essentially nobody can get a refund because the only way you can get a refund is if you don&#x27;t touch the bleeding thing and work out if it actually works,&quot; he said, &quot;which as you can appreciate, that&#x27;s just fundamentally unfair. And this is where the credit card companies are falling down because the credit card companies say, &#x27;oh well we&#x27;ve looked at terms and conditions and they&#x27;re adhering to terms and conditions.&#x27;&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   These sorts of complaints are rife on social media and in the company&#x27;s Discord channel. A
+   &lt;a href=&quot;https://discord.com/channels/1173418785630330921/1469211867783233687&quot; rel=&quot;nofollow&quot;&gt;
+    post
+   &lt;/a&gt;
+   on Thursday states, &quot;...it is evident that your marketing is deceptive and your service is non-functional.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The post goes on to complain about service unavailability, unacceptable latency (4-10 hours of wait time for a five-minute video), censorship errors, and false marketing.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Hudson took issue with the company&#x27;s engagement-bait marketing strategy.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;A lot of people go &#x27;isn&#x27;t it awesome that they&#x27;re doing that!&#x27;&quot; he said. &quot;No it&#x27;s not. It&#x27;s childish and it&#x27;s unprofessional. But what they&#x27;ve done in the last few days, it said something like, &#x27;Our product&#x27;s so great we&#x27;ve been able to sack off twenty creators.&#x27; Something along those lines. And because their entire community is creators, a lot of them got upset.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Robert Scoble, an internet influencer since before that was really a term, claimed in a social media
+   &lt;a href=&quot;https://x.com/Scobleizer/status/2018979016431251632?s=20&quot; rel=&quot;nofollow&quot;&gt;
+    post
+   &lt;/a&gt;
+   that he spoke with an individual behind the Higgsfield influencer network last week.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This guy is trying to capture attention in a world where none of us have any,&quot; he mused.
+  &lt;/p&gt;
+  &lt;p&gt;
+   To quote
+   &lt;a href=&quot;https://www.oxfordreference.com/display/10.1093/acref/9780191843730.001.0001/q-oro-ed5-00011525&quot; rel=&quot;nofollow&quot;&gt;
+    Oscar Wilde
+   &lt;/a&gt;
+   in The Picture of Dorian Gray, &quot;There is only one thing in the world worse than being talked about, and that is not being talked about.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Bankruptcy, moral or financial, is pretty bad too. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Let there be light! DARPA seeking physics-defying photonic computers to supercharge AI </title>
+<link>https://www.theregister.com/2026/02/06/darpa_seeking_physicsdefying_photonic_computers/</link>
+<pubDate>Fri, 06 Feb 2026 18:48:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   It&#x27;s no lightweight matter. DARPA is putting about $35 million in total funding on the table in the hope that it will spur researchers to work around fundamental physical constraints and build much larger-scale photonic circuits that do more of the computing with light, not electronics.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A recent
+   &lt;a href=&quot;https://sam.gov/workspace/contract/opp/720d25dd339b4ae78e85948d6a10b231/view&quot; rel=&quot;nofollow&quot;&gt;
+    solicitation
+   &lt;/a&gt;
+   from the Department of Defense&#x27;s research arm - the Photonic Integrated Circuit Architectures for Scalable System Objectives (PICASSO) - aims to scale photonics beyond today’s narrow demonstrations. Citing the need for more capable photonic systems, including those relevant to artificial intelligence workloads, DARPA is calling on researchers to submit proposals showing how circuit-level design can overcome the fundamental limitations that constrain current photonic computing approaches, using today’s photonic components rather than waiting for new ones to be invented.
+  &lt;/p&gt;
+  &lt;p&gt;
+   For those unfamiliar with photonic computing, it&#x27;s the use of light instead of electrons to process and transmit data. If that sounds far-fetched, it&#x27;s not, as DARPA points out - there are already photonic circuits around today, albeit in limited form.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Using light to process data signals has advantages that are ideal for heavy workloads like AI due to greater bandwidth, less latency, and improved energy efficiency. Unfortunately, as DARPA points out, &quot;systems incorporating photonic circuits struggle to show significant system-level performance advantages over electronic systems.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The current generation of photonic circuits is limited in depth, which restricts their ability to do much beyond single linear mathematical operations. Individual photonic circuits included in larger systems also have to convert optical signals to electronic ones in order to hand them off to other components, essentially eliminating the advantage of nanosecond latency due to the millisecond latency of electronic circuits, which DARPA notes is a 10
+   &lt;sup&gt;
+    6
+   &lt;/sup&gt;
+   performance degradation.
+  &lt;/p&gt;
+  &lt;p&gt;
+   So, what&#x27;s holding photonic circuits back aside from, according to DARPA, an industry focus on component-level research? Why, just physics of course.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The primary limitation to further scaling of circuit size and functionality is rooted in the fundamental properties of signaling with light,&quot; DARPA noted. Cool - easy fix, provided researchers can address the two fundamental technical challenges the research organization points out.
+  &lt;/p&gt;
+  &lt;p&gt;
+   First there&#x27;s signal degradation. Unlike metal-oxide-semiconductor circuits, which regenerate signals and filter out noise, photonic circuits have a fundamental issue of optical attenuation and noise that can&#x27;t be amplified out, as any attempt to amplify optical signals also amplifies the noise.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Second, there&#x27;s the issue of spurious wave interference, which leads to scattering, coupling, mode leakage, back reflections, and unwanted resonance. &quot;Over many components, control of these errors becomes unpredictable, especially when combined with manufacturing variability and thermal and environmental instabilities,&quot; DARPA explained.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Overcoming those limitations, as mentioned above, has traditionally resulted in photonic circuits being interfaced with electronic ones, and DARPA doesn&#x27;t want that.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/12/12/broadcom_q4_fy2025/&quot;&gt;
+     Silicon photonics won&#x27;t matter &#x27;anytime soon&#x27; says Broadcom CEO
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2023/10/31/intel_silicon_photonics_jabil/&quot;&gt;
+     Intel dumps its silicon photonics bells and whistles into Jabil&#x27;s lap
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/03/18/nvidia_punts_silicon_photonic_switches/&quot;&gt;
+     Nvidia punts silicon photonic switches to keep GPUs fed with data
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/21/st_micro_pluggables/&quot;&gt;
+     ST Micro skips in, arm in arm with AWS, bearing a chip for 1.6 Tbps pluggable optics
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &quot;Heavy usage of electronics prevents system-level gains in latency, efficiency, and bandwidth offered natively by photonics,&quot; the agency said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Here&#x27;s where PICASSO comes in: What DARPA wants from its chosen participants is, like resolving the limitations imposed by the physics of light, simple: Just make better circuits so those two technical challenges aren&#x27;t an issue anymore.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Drawing inspiration from modern electronics, in which clever circuit design overcomes the limitations of individual transistors, the program will foster innovative circuit-level strategies to achieve unprecedented system performance and stability,&quot; DARPA said. &quot;PICASSO confronts these challenges by embracing a new paradigm: creating tomorrow&#x27;s photonic circuits using today&#x27;s components.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   DARPA isn&#x27;t just soliciting ideas, either. By the time PICASSO phase 1 wraps up, 18 months after it kicks off in July, DARPA wants a &quot;demonstration of predictable performance of photonic circuits,&quot; and by the end of phase 2 (an additional 18 month period), it expects &quot;generalized circuit functionality&quot; to be demonstrated.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It also expects all that within a total program budget of about $35 million, spread across multiple awards. Proposals are due by March 6 - good luck. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Four horsemen of the AI-pocalypse line up capex bigger than Israel’s GDP </title>
+<link>https://www.theregister.com/2026/02/06/ai_capex_plans/</link>
+<pubDate>Fri, 06 Feb 2026 17:52:18 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Four tech megacorps intend to collectively fork out roughly $635 billion this year on capex, much of it for datacenters and AI infrastructure - more than the entire output of Israel&#x27;s economy and well beyond all global cloud infrastructure services revenue generated last year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The tech titans are all trying to outdo each other by spending eye-watering amounts on capex, the majority of which will go on AI and cloud expansion, but the big four - AWS, Microsoft, Google and Meta - are investing at a different scale.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Amazon says it
+   &lt;a href=&quot;https://www.theregister.com/2026/02/06/amazon_earnings_q4_2025/&quot; target=&quot;_blank&quot;&gt;
+    expects to spend $200 billion
+   &lt;/a&gt;
+   in 2026, with most of that headed to AWS. Google is
+   &lt;a href=&quot;https://www.theregister.com/2026/02/05/alphabet_google_q4_2025/&quot; target=&quot;_blank&quot;&gt;
+    aiming to pump $180 billion
+   &lt;/a&gt;
+   into building and equipping datacenters, while Meta expects capex in the range of
+   &lt;a href=&quot;https://www.theregister.com/2026/01/29/meta_2026_infrastructure_spend/&quot; target=&quot;_blank&quot;&gt;
+    $115 billion to $135 billion
+   &lt;/a&gt;
+   , and Microsoft is running at a pace that implies around $120 billion a year in spending.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That adds up to $635 billion, more than the $610 billion that represented Israel&#x27;s entire gross domestic product during 2025, and approaching that of Sweden at $662 billion, according to
+   &lt;a href=&quot;https://www.worldometers.info/gdp/gdp-by-country/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    figures from the IMF
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   These extraordinary sums show how far the industry leaders are willing to go to gain some kind of advantage in the AI race, even though returns on all the spending have
+   &lt;a href=&quot;https://www.theregister.com/2026/01/20/pwc_ai_ceo_survey/&quot; target=&quot;_blank&quot;&gt;
+    so far failed to live up to expectations
+   &lt;/a&gt;
+   , and investors are reportedly getting restless. Microsoft&#x27;s share price fell about 10 percent after its recent results were announced, for example, due to investors expecting a bigger payoff.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The wider cost for users? The massive splurge on infrastructure is driving shortages of components like memory as
+   &lt;a href=&quot;https://www.theregister.com/2026/02/05/pc_prices_rising/&quot; target=&quot;_blank&quot;&gt;
+    manufacturers prioritize chip production that cashes in on the lucrative datacenter market
+   &lt;/a&gt;
+   , rather than those for everyday PCs and phones.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/06/atlassian_q2_2026/&quot;&gt;
+     Atlassian swears it can handle AI without blowing out costs, or being swamped
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/06/amazon_earnings_q4_2025/&quot;&gt;
+     Amazon can&#x27;t build AI capacity fast enough, throws another $200B at the problem
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/microsoft_ai_spend_copilot/&quot;&gt;
+     Microsoft spends billions on AI, converts just 3.3% of Copilot Chat users
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/30/1pc_gdp_ai_gartner/&quot;&gt;
+     Want digital sovereignty? That&#x27;ll be 1% of your GDP into AI infrastructure please
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The huge capex pledges also add up to more than total cloud infrastructure services revenue in 2025. According to the latest figures from
+   &lt;a href=&quot;https://www.srgresearch.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    Synergy Research Group
+   &lt;/a&gt;
+   , the revenues reached $419 billion last year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This is despite the cloud market itself continuing to grow at an impressive pace, running at about 30 percent year-on-year and marking a ninth consecutive quarter of accelerating growth.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;GenAI has simply put the cloud market into overdrive,&quot; said Synergy Research Group chief analyst John Dinsdale. &quot;AI-specific services account for much of the growth since 2022, but AI technology has also enhanced the broader portfolio of cloud services, driving revenue growth across the board. The leading cloud providers have all seen their revenue growth rates jump.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The big three clouds continue to dominate with Synergy putting their shares of the worldwide market in Q4 2025 at 28 percent for Amazon (AWS), 21 percent for Microsoft Azure, and Google Cloud at 14 percent.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Among the tier-two cloud providers, those with the highest growth rates include CoreWeave, Oracle, Crusoe, and Nebius, all providers of AI infrastructure services. In particular, CoreWeave is now generating more than $1.5 billion in quarterly cloud revenue and has joined the top ten cloud providers, Synergy says. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Asia-based government spies quietly broke into critical networks across 37 countries </title>
+<link>https://www.theregister.com/2026/02/05/asia_government_spies_hacked_37_critical_networks/</link>
+<pubDate>Fri, 06 Feb 2026 17:12:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   A state-aligned cyber group in Asia compromised government and critical infrastructure organizations across 37 countries in an ongoing espionage campaign, according to security researchers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In total, the crew compromised at least 70 organizations, and maintained access to several of these for months.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;While this group might be pursuing espionage objectives, its methods, targets and scale of operations are alarming, with potential long-term consequences for national security and key services,&quot; Palo Alto Networks&#x27; Unit 42 cyber sleuths
+   &lt;a href=&quot;https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   in research published on Wednesday.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Successful break-ins included five national police or border control entities, one nation&#x27;s parliament, a senior elected official, and national telecommunications companies. The spies also broke into systems belonging to three ministries of finance and other government agencies.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;Palo Alto Networks Unit 42 confirmed that the threat actor successfully accessed and exfiltrated sensitive data from victim email servers,&quot; Unit 42 Director of National Security Programs Pete Renals told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   . &quot;This included financial negotiations and contracts, banking and account information, and critical military-related operational updates.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Renals said the cyber investigation team is not attributing the digital intrusions to a specific Asian country.
+  &lt;/p&gt;
+  &lt;blockquote&gt;
+   &lt;p&gt;
+    The Cybersecurity and Infrastructure Security Agency is aware of the hacking group identified as TGR-STA-1030 by Palo Alto Networks
+   &lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;p&gt;
+   Unit 42 tracks the new group as TGR-STA-1030, and said they also observed the spies conducting &quot;active reconnaissance&quot; against 155 governments across the Americas, Europe, Asia, and Africa between November and December 2025. The researchers also documented a &quot;concerted focus&quot; on Germany in July 2025, during which the snoops initiated connections to over 490 IP addresses hosting government infrastructure.
+  &lt;/p&gt;
+  &lt;p&gt;
+   While Renals declined to provide details about specific reconnaissance targets in the US, &quot;more broadly across the board, we saw the actor routinely focus on ministries of finance, economy, defense, foreign affairs and commerce,&quot; he said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The FBI did not respond to our requests for comment, but the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that it is also tracking this cyber-espionage crew.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The Cybersecurity and Infrastructure Security Agency is aware of the hacking group identified as TGR-STA-1030 by Palo Alto Networks,&quot; a CISA spokesperson told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   . &quot;We are working with our government, industry, and international partners to rapidly detect and mitigate any exploitation of the vulnerabilities identified in the report.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The cyberspies use phishing emails and known vulnerabilities in Microsoft Exchange, SAP, and Atlassian products to gain initial access to victim organizations.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In February 2025, Unit 42 spotted phishing campaigns targeting European governments and using lures related to ministry or department reorganization that included links to malicious files hosted on mega[.]nz. The threat hunters note that one Estonian government entity also observed this campaign and uploaded a related
+   &lt;a href=&quot;https://www.virustotal.com/gui/file/66ec547b97072828534d43022d766e06c17fc1cafe47fbd9d1ffc22e2d52a9c0&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    ZIP archive
+   &lt;/a&gt;
+   to VirusTotal&#x27;s malware repository.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Estonian filename translates to &quot;Changes to the organizational structure of the Police and Border Guard Board.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Unit 42 analyzed the archive&#x27;s contents and found it contained a malware loader with the original name &quot;DiaoYu.exe.&quot; This translates to fishing - or phishing in this context. While most loaders check for dozens of antivirus products, this one only checks for five: Kaspersky, Avira, Bitdefender, SentinelOne, and Symantec.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This gives the malware a minimal code footprint and could be a means to help it avoid being detected by security filters.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/critical_solarwinds_web_help_desk/&quot;&gt;
+     Critical SolarWinds Web Help Desk bug under attack
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/aws_cloud_breakin_ai_assist/&quot;&gt;
+     AWS intruder achieved admin access in under 10 minutes thanks to AI assist, researchers say
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/winter_olympics_russian_attacks/&quot;&gt;
+     Italy claims cyberattacks &#x27;of Russian origin&#x27; are pelting Winter Olympics
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/llm_poisoned_how_to_tell/&quot;&gt;
+     Three clues that your LLM may be poisoned with a sleeper-agent back door
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The investigation also uncovered a new Linux kernel rootkit called ShadowGuard, believed to be unique to this particular nation-state group. It&#x27;s a stealthy Extended Berkeley Packet Filter (eBPF) backdoor that hides process information, directories, and files at the kernel level, which makes it very difficult to detect.
+  &lt;/p&gt;
+  &lt;p&gt;
+   TGR-STA-1030 also used real-world geopolitical events in its campaigns, including the US government shutdown that began in October 2025 - during which Unit 42 observed the spies scanning government infrastructure across North, Central, and South America.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In another case, the researchers say in August 2025, Czech President Petr Pavel privately met with the Dalai Lama during a trip to India, and in the following weeks, the snoop crew began scanning Czech infrastructure across the army, police, parliament, and ministries of interior, finance, and foreign affairs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Additionally, soon after January 3, when an American military operation captured Venezuelan President Nicolás Maduro and his wife, the snoops conducted &quot;extensive reconnaissance activities targeting at least 140 government-owned IP addresses,&quot; according to Unit 42.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This new nation-state group &quot;remains an active threat to government and critical infrastructure worldwide,&quot; the researchers said. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Supermarket sorry after facial recognition alert flags right criminal, wrong customer </title>
+<link>https://www.theregister.com/2026/02/06/sainsburys_/</link>
+<pubDate>Fri, 06 Feb 2026 15:33:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   A British supermarket says staff will undergo further training after a store manager ejected the wrong man when facial recognition technology triggered an alert.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Warren Rajah was approached by a store manager at Sainsbury&#x27;s in London&#x27;s Elephant and Castle and instructed to leave after the store&#x27;s Facewatch system alerted staff to a match.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Sainsbury&#x27;s told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   that its Facewatch system correctly identified a man on its offenders&#x27; database, and alerted store managers who manually review each flag. However, in responding to the alert, the manager approached the wrong person, Rajah, and escorted him out of the store.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A Sainsbury&#x27;s spokesperson said: &quot;We have been in contact with Mr Rajah to sincerely apologise for his experience in our Elephant and Castle store. This was not an issue with the facial recognition technology in use but a case of the wrong person being approached in store.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Facewatch technology is currently operating in six Sainsbury&#x27;s stores in the UK, five of which are in Greater London.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The facial recognition tech was
+   &lt;a href=&quot;https://www.theregister.com/2025/09/04/sainsburys_lfr/&quot; target=&quot;_blank&quot;&gt;
+    first trialled in September 2025
+   &lt;/a&gt;
+   in Sydenham and Bath Oldfield Park, before being rolled out to Dalston, Elephant and Castle, Ladbroke Grove, Camden, and Whitechapel earlier this year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The technology has a reported 99.98 percent accuracy rate, we&#x27;re told, and has led to a 46 percent reduction in logged incidents of theft, harm, aggression, and antisocial behavior.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The majority of offenders (92 percent) do not return to stores with Facewatch running, and this is the first time a store manager has misidentified a customer after the system issued a alert.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Rajah, who works in sales at tech reseller CDW, told the
+   &lt;a href=&quot;https://www.bbc.co.uk/news/articles/c0lxdn4w2g3o&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    BBC
+   &lt;/a&gt;
+   : &quot;Am I supposed to walk around fearful that I might be misidentified as a criminal?
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Imagine how mentally debilitating this could be to someone vulnerable, after that kind of public humiliation.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   He reported being approached by three store managers holding smartphones. They looked at the phone, then at him, and told him to leave the store, pointing to posters near the entrance informing shoppers that facial recognition tech was in operation.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Rajah had to submit a copy of his passport and head shot to Facewatch so the company could verify he was not on the offenders&#x27; database.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A Facewatch spokesperson said: &quot;We&#x27;re sorry to hear about Mr Rajah&#x27;s experience and understand why it would have been upsetting. This incident arose from a case of human error in-store, where a member of staff approached the wrong customer.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Our data protection team followed the usual lawfully required process to confirm his identity and verified that he was not on our database and had not been subject to any alerts generated by Facewatch.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Facewatch is currently rolled out across other retailers in the UK including B&amp;M, Budgens, Costcutter, Southern Co-op, Spar, and Sports Direct.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Other supermarkets such as
+   &lt;a href=&quot;https://www.theregister.com/2025/06/26/iceland_facial_recognition/&quot; target=&quot;_blank&quot;&gt;
+    Iceland
+   &lt;/a&gt;
+   began trialing the tech last year.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/15/make_up_thwart_facial_recognition/&quot;&gt;
+     Even modest makeup can thwart facial recognition
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/31/tsa_facial_recognition/&quot;&gt;
+     The TSA likes facial recognition at airports. Passengers and politicians, not so much
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/18/facial_recognition_benchmarks/&quot;&gt;
+     Facial recognition works better in the lab than on the street, researchers show
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/05/19/new_orleans_facial_recognition/&quot;&gt;
+     Show us your face: New Orleans PD reportedly got secret facial recognition alerts
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Digital rights group Big Brother Watch branded the frozen food purveyor&#x27;s trial &quot;Orwellian&quot; and &quot;dystopian,&quot; and said the company&#x27;s technology also led to the ejection of a woman in a Home Bargains store after she was
+   &lt;a href=&quot;https://www.theguardian.com/uk-news/2025/jun/06/shopper-facewatch-watchlist-39p-paracetamol-london&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    wrongfully accused of theft
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Jake Hurfurt, head of research and investigations at Big Brother Watch, said at the time: &quot;Iceland&#x27;s decision to deploy dystopian facial recognition technology to monitor its customers is disproportionate and chilling.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Thousands of people will have their privacy rights violated just to buy basic necessities, and Iceland will turn its shoppers into suspects, making them submit to a biometric identity check as part of their daily lives.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Big Brother Watch is campaigning against the use of live facial recognition in the UK, especially by London&#x27;s
+   &lt;a href=&quot;https://www.theregister.com/2025/11/03/metropolitan_police_hails_facial_recognition/&quot; target=&quot;_blank&quot;&gt;
+    Metropolitan Police
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Jasleen Chaggar, Legal &amp; Policy Officer at Big Brother Watch, said: &quot;The idea that we are all just one facial recognition mistake away from being falsely accused of a crime or ejected from a store without any explanation is deeply chilling.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;To add insult to injury, innocent people seeking remedy must jump through hoops and hand over even more personal data just to discover what they’re accused of. In the vast majority of cases, they are offered little more than an apology when companies are finally forced to admit the tech got it wrong.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This isn&#x27;t an isolated incident – Big Brother Watch regularly hears from members of the public who are left traumatised after being wrongly caught in this net of privatised biometric surveillance.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The government&#x27;s promise to regulate this invasive technology will be payment to lip service unless it reins in the unchecked expansion of facial recognition by retailers.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Big Brother Watch is currently
+   &lt;a href=&quot;https://www.theregister.com/2026/01/27/high_court_lfr/&quot; target=&quot;_blank&quot;&gt;
+    spearheading a legal challenge
+   &lt;/a&gt;
+   against the technology, arguing that it is incompatible with human rights laws. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Summoning the spirit of the BBC Micro with a Pi 500+ and a can of spray paint </title>
+<link>https://www.theregister.com/2026/02/06/summoning_the_spirit_of_the/</link>
+<pubDate>Fri, 06 Feb 2026 15:33:52 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   An enterprising engineer has evoked the spirit of Acorn&#x27;s BBC Micro with a custom paintjob for a Raspberry Pi 500+ computer-in-a-keyboard and a natty set of replacement keycaps.
+  &lt;/p&gt;
+  &lt;p&gt;
+   You&#x27;ve got a
+   &lt;a href=&quot;https://www.theregister.com/2025/09/25/peak_pi_reached_with_raspberry/&quot; target=&quot;_blank&quot;&gt;
+    shiny new Raspberry Pi 500+
+   &lt;/a&gt;
+   . You&#x27;ve marveled at the colored lights on the keyboard, enjoyed the snappy performance of the SSD, and appreciated the 16 GB of RAM. Hopefully, you bought it before
+   &lt;a href=&quot;https://www.theregister.com/2026/02/02/raspberry_pi_ram_shortage_price_hike/&quot; target=&quot;_blank&quot;&gt;
+    the prices went up
+   &lt;/a&gt;
+   . But what to do next?
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2026/02/06/bbc_pi_500_plus.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Raspberry Pi 500+ painted beige with BBC Micro-like keys (pic: Raspberry Pi)&quot; height=&quot;415&quot; src=&quot;https://regmedia.co.uk/2026/02/06/bbc_pi_500_plus.jpg?x=648&amp;y=415&amp;infer_y=1&quot; title=&quot;Raspberry Pi 500+ painted beige with BBC Micro-like keys (pic: Raspberry Pi)&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Raspberry Pi 500+ painted beige with BBC Micro-like keys (pic: Raspberry Pi) - Click to enlarge
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    According
+   &lt;/a&gt;
+   to Tony Roberts, who goes by the title of &#x27;Maker In Residence at Raspberry Pi&#x27;, he wanted to make the device look a bit like the BBC Microcomputer that inspired the company&#x27;s co-founder, Eben Upton.
+  &lt;/p&gt;
+  &lt;p&gt;
+   BBC Micro emulators are nothing new (alongside emulators for other computers of the same era), and several enthusiasts have breathed new life into defunct devices by removing the long-dead internals and replacing them with a Pi or similar device. This writer attempted something akin with an old Texas Instruments 99/4a, but was defeated by a combination of making the keyboard talk to the Pi via an Arduino and some catastrophically bad soldering.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, since the Pi 500+ is already a computer-in-a-keyboard, and the keys can be easily replaced (to the point where a tool is included to pry them off), Roberts&#x27; approach was to give the computer a beige facelift and replace the keycaps with ones that resembled Acorn&#x27;s finest.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a
+   &lt;a href=&quot;https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    post
+   &lt;/a&gt;
+   on the company&#x27;s website, Roberts wrote, &quot;Within minutes of starting the makeover, I discovered that beige spray paint is unsurprisingly not very popular anymore — especially this exact shade, which reminds me of nicotine-stained pub wallpaper.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   But, after dismantling the case (the Pi 500+ is designed to be taken apart), Roberts applied primer, a top coat, and had a base that, from a distance and with a bit of squinting, was roughly the same shade as the computers sat at the back of school classrooms all those decades ago.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The keycaps came from Signature Plastics, but since the Pi 500+ uses a standard keycap, there are plenty of options out there. Roberts selected one that comes remarkably close to the color and style of the original. However, we suspect a bit of software keymapping in the operating system is needed for some of them.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Considering the sheer number of computer-in-a-keyboard machines from the heyday of home computers, Roberts has demonstrated how easy it is to pull off a keyboard switcheroo and use a can of paint to evoke a strong sense of nostalgia (or is it just the paint fumes?). Sure, it&#x27;s a $260 investment (thanks to rising memory prices), but it&#x27;s also a neat way of showing off an IT origin story.
+  &lt;/p&gt;
+  &lt;p&gt;
+   There&#x27;s no word on whether Raspberry Pi might put out a limited-edition run of Roberts&#x27; creation to mark its own origin story. In the meantime, a bit of brushed metal and some Texas Instruments 99/4a keycaps would do nicely... ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft starts the countdown for the end of Exchange Web Services </title>
+<link>https://www.theregister.com/2026/02/06/microsoft_ews_shutdown/</link>
+<pubDate>Fri, 06 Feb 2026 14:07:04 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Microsoft has laid out a timeline for the disablement and shutdown of Exchange Web Services (EWS) in Microsoft 365 and Exchange Online.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://techcommunity.microsoft.com/blog/exchange/exchange-online-ews-your-time-is-almost-up/4492361&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    October 1, 2026, is when EWS will be disabled by default
+   &lt;/a&gt;
+   , although tenants can keep the lights on a little longer by setting the
+   &lt;code&gt;
+    EWSEnabled
+   &lt;/code&gt;
+   flag to
+   &lt;code&gt;
+    true
+   &lt;/code&gt;
+   by August, but the service will be shut down entirely on April 1, 2027.
+  &lt;/p&gt;
+  &lt;p&gt;
+   EWS has long been deprecated, and Microsoft announced its retirement in
+   &lt;a href=&quot;https://devblogs.microsoft.com/microsoft365dev/retirement-of-exchange-web-services-in-exchange-online/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    2023
+   &lt;/a&gt;
+   . The noose tightened in 2025, with
+   &lt;a href=&quot;https://www.theregister.com/2025/12/03/microsoft_exchange_web_services_mailboxes/&quot; target=&quot;_blank&quot;&gt;
+    confirmation
+   &lt;/a&gt;
+   that certain license types (F1 or F2) would be blocked from using it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The service is an API that allows applications to access mailboxes and data stores in Exchange Online and Exchange Server. It dates back to Exchange Server 2007, and has proven popular with integrators and third parties (as well as in-house applications such as Outlook Classic). It is also popular with miscreants. Following the
+   &lt;a href=&quot;https://www.theregister.com/2024/01/27/microsoft_cozy_bear_mfa/&quot; target=&quot;_blank&quot;&gt;
+    Midnight Blizzard security incident
+   &lt;/a&gt;
+   , Microsoft &quot;elevated the urgency&quot; of pushing the tech out to pasture.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/microsoft_visual_studio_ai/&quot;&gt;
+     Microsoft declares &#x27;reliability&#x27; a priority for Visual Studio AI
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/microsoft_onedrive_agents/&quot;&gt;
+     Microsoft sets Copilot agents loose on your OneDrive files
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/microsoft_appoints_quality_chief/&quot;&gt;
+     Satya Nadella decides Microsoft needs an engineering quality czar
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/microsoft_adds_sysmon_to_windows/&quot;&gt;
+     Microsoft actually does something useful, adds Sysmon to Windows
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   The retirement only applies to Microsoft 365 and Exchange Online. Nothing will change regarding EWS in Exchange Server.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The timeline means affected administrators who have not yet begun or completed a migration will need to get moving. Microsoft&#x27;s preference is a move to Microsoft Graph. However, it noted the service is just at &quot;near-complete&quot; feature parity and even Microsoft itself had yet to conclude the migration of all its impacted applications.
+  &lt;/p&gt;
+  &lt;p&gt;
+   To focus minds, Microsoft also said it &quot;may perform temporary &#x27;scream tests&#x27;&quot; where it turns EWS off and on to expose hidden dependencies. It did not disclose how an administrator would differentiate a &quot;scream test&quot; from one of the
+   &lt;a href=&quot;https://www.theregister.com/2026/01/23/microsoft_365_outage/&quot; target=&quot;_blank&quot;&gt;
+    depressingly regular outages that plague its online services
+   &lt;/a&gt;
+   . Was it deliberate, or did someone screw up a configuration file again?
+  &lt;/p&gt;
+  &lt;p&gt;
+   Microsoft said: &quot;We will provide more information in the coming weeks.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   For administrators hoping Microsoft might blink and allow the service to run past the termination date, it said: &quot;There will be no exceptions past April 2027.&quot; ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ghost gun legislation casts shadow over 3D printing </title>
+<link>https://www.theregister.com/2026/02/05/ghost_gun_legislation_3d_printing/</link>
+<pubDate>Fri, 06 Feb 2026 14:06:58 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   State and federal lawmakers have stepped up their efforts to prevent the creation of 3D printed guns. But Adafruit, a maker of electronics kits, warns that the proposed legislation is so broad it threatens everyone involved in open source manufacturing and technology education.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Recent bills attempting to grapple with this issue include New York&#x27;s FY 2026–2027 executive budget bill (
+   &lt;a href=&quot;https://www.nysenate.gov/legislation/bills/2025/S9005&quot; rel=&quot;nofollow&quot;&gt;
+    S.9005
+   &lt;/a&gt;
+   /
+   &lt;a href=&quot;https://www.nysenate.gov/legislation/bills/2025/A10005&quot; rel=&quot;nofollow&quot;&gt;
+    A.10005
+   &lt;/a&gt;
+   ), Washington State
+   &lt;a href=&quot;https://app.leg.wa.gov/billsummary?BillNumber=2320&amp;Year=2025&quot; rel=&quot;nofollow&quot;&gt;
+    House Bills 2320
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://app.leg.wa.gov/billsummary?BillNumber=2321&amp;Year=2025&quot; rel=&quot;nofollow&quot;&gt;
+    2321
+   &lt;/a&gt;
+   , and the
+   &lt;a href=&quot;https://d12t4t5x3vyizu.cloudfront.net/moskowitz.house.gov/uploads/2025/06/25.06.25-3D-Printed-Gun-Safety-Act.pdf&quot; rel=&quot;nofollow&quot;&gt;
+    3D Printed Gun Safety Act
+   &lt;/a&gt;
+   &lt;a href=&quot;https://moskowitz.house.gov/posts/moskowitz-and-markey-reintroduce-3d-printed-gun-safety-act&quot; rel=&quot;nofollow&quot;&gt;
+    introduced
+   &lt;/a&gt;
+   last June in the US House and Senate.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The renewed enthusiasm for clamping down on 3D printing technology follows allegations that Luigi Mangione
+   &lt;a href=&quot;https://www.justice.gov/archives/opa/pr/luigi-mangione-charged-stalking-and-murder-unitedhealthcare-ceo-brian-thompson-and-use&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    killed
+   &lt;/a&gt;
+   UnitedHealthcare CEO Brian Thompson in December 2024, with authorities saying a
+   &lt;a href=&quot;https://www.wired.com/story/luigi-mangione-ghost-gun-built-tested/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    3D-printed
+   &lt;/a&gt;
+   &quot;ghost gun&quot; recovered after his arrest was consistent with the weapon used.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Adafruit, which previously raised
+   &lt;a href=&quot;https://blog.adafruit.com/2026/01/25/washingtons-3d-printing-bills-are-bad-for-stem-bad-for-business-and-bad-for-open-source-3d-printing/&quot; rel=&quot;nofollow&quot;&gt;
+    concerns about the Washington State proposals
+   &lt;/a&gt;
+   , said on Tuesday that the New York bill is also problematic.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;Buried in Part C is a provision requiring all 3D printers sold or delivered in New York to include &#x27;blocking technology,&#x27;&quot; the company said in
+   &lt;a href=&quot;https://blog.adafruit.com/2026/02/03/new-york-wants-to-ctrlaltdelete-your-3d-printer/&quot; rel=&quot;nofollow&quot;&gt;
+    a blog post
+   &lt;/a&gt;
+   . &quot;This is defined as software or firmware that
+   &lt;em&gt;
+    scans every print file
+   &lt;/em&gt;
+   through a &#x27;firearms blueprint detection algorithm&#x27; and refuses to print anything it flags as a potential firearm or firearm component.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This requirement would cover a broad set of manufacturing machinery, Adafruit claims, not just resin-based stereolithography (SLA) and fused deposition modeling (FDM) additive printers, but also Computer Numerical Control (CNC) mills and &quot;any machine capable of making three-dimensional modifications to an object from a digital design file using subtractive manufacturing.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/microsoft_manager_pi_smoke/&quot;&gt;
+     Microsoft engineer speedruns Raspberry Pi magic smoke in five minutes
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/anthropic_no_advertising_in_claude/&quot;&gt;
+     Anthropic cements its position as the not-OpenAI with no-ads pledge
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/lego_artemis/&quot;&gt;
+     Lego shrinks NASA&#x27;s biggest rocket – accuracy sold separately
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/vs_code_for_linux_trash_fail/&quot;&gt;
+     VS Code for Linux may be secretly hoarding trashed files
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Last month, New York Governor Kathy Hochul
+   &lt;a href=&quot;https://www.governor.ny.gov/news/keeping-new-yorkers-safe-governor-hochul-announces-nation-leading-proposals-crack-down-3d&quot; rel=&quot;nofollow&quot;&gt;
+    announced
+   &lt;/a&gt;
+   the legislative proposals to combat 3D printed and illegal firearms. &quot;From the iron pipeline to the plastic pipeline, these proposals will keep illegal ghost guns off of New York streets, and enhance measures to track and block the production of dangerous and illegal firearms in our state,&quot; she said in a statement.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The New York bill would, among other things, criminalize the intentional sale, distribution, or possession of digital instructions to illegally manufacture a firearm or component parts without a license; require 3D printer makers to implement technology to block their machines from creating firearms and component parts; and require the sale or transfer of any 3D printer to be done in-person.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Several states already have laws that disallow the distribution of digital gun files, according to gun safety group
+   &lt;a href=&quot;https://everytownresearch.org/report/printing-violence-urgent-policy-actions-are-needed-to-combat-3d-printed-guns/#ii-the-existing-domestic-legal-framework-for-3-dp-fs&quot; rel=&quot;nofollow&quot;&gt;
+    Everytown
+   &lt;/a&gt;
+   : &quot;Delaware and New Jersey make it illegal to distribute any files within the state that can be used to program a 3D printer to make a firearm, while California creates a civil cause of action against these actors.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Manhattan District Attorney Alvin L. Bragg, Jr. maintains
+   &lt;a href=&quot;https://manhattanda.org/icymi-d-a-bragg-urges-comprehensive-nationwide-action-to-combat-3d-printed-guns-in-usa-today-op-ed/&quot; rel=&quot;nofollow&quot;&gt;
+    more needs to be done
+   &lt;/a&gt;
+   to limit the availability of 3D printed firearms, echoing concerns voiced by federal lawmakers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Adafruit says the obvious flaw in the New York bill is that &quot;you cannot reliably detect firearms from geometry alone.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;A firearms blueprint detection algorithm would need to identify every possible firearm component from raw STL/GCODE files, while not flagging pipes, tubes, blocks, brackets, gears, or any of the millions of legitimate shapes that happen to share geometric properties with gun parts,&quot; the company said. &quot;This is a classification problem with enormous false positive and false negative rates.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The company argues, among other recommended changes, that lawmakers should focus on punishing intent and unlawful behavior rather than the possession of machinery and should drop mandatory file-scanning because it won&#x27;t work with open source, offline, or custom workflows.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Surveillance should not be built into our tools, the company contends. Instead, prosecute illegal acts. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> CISA orders federal agencies to rip out EOL edge kit before cybercrooks move in </title>
+<link>https://www.theregister.com/2026/02/06/cisa_eol_edge_order/</link>
+<pubDate>Fri, 06 Feb 2026 13:42:27 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   America&#x27;s federal agencies have been told to hunt down and rip out aging firewalls, routers, and other network gatekeepers before attackers use them as skeleton keys into government systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CISA
+   &lt;a href=&quot;https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-devices&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    has issued a Binding Operational Directive
+   &lt;/a&gt;
+   that orders federal civilian executive branch agencies to inventory and replace &quot;end-of-support&quot; edge devices – hardware and software that vendors no longer patch or maintain – in a bid to close one of government IT&#x27;s most persistent intrusion paths.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The directive, published this week, requires agencies to immediately update still-supported equipment and, within three months, produce a comprehensive inventory of edge devices to identify those past vendor support deadlines. Anything that&#x27;s fallen off the vendor support cliff has to be booted off government networks and replaced with kit that still gets security fixes. Agencies have about a year to finish the hardware spring clean, and two years to put tracking in place so they don&#x27;t end up quietly running abandonware again.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CISA is acting after years of watching obsolete edge hardware morph into reliable break-in tools. Firewalls, VPN gateways, routers, and other outward-facing security gear sit right on the network&#x27;s front line, and when one is compromised, it can open a surprisingly short path to everything behind it.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   When vendors stop issuing patches, newly discovered flaws remain permanently exposed, turning those devices into what CISA calls a &quot;substantial and constant&quot; risk to federal networks.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/aws_cloud_breakin_ai_assist/&quot;&gt;
+     AWS intruder achieved admin access in under 10 minutes thanks to AI assist, researchers say
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/microsoft_quality_control/&quot;&gt;
+     Microsoft&#x27;s &#x27;atypical&#x27; emergency Windows patches are becoming awfully typical
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/29/germany_exchange_support/&quot;&gt;
+     9 in 10 Exchange servers in Germany still running out-of-support software
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/10/27/jen_easterly_ai_cybersecurity/&quot;&gt;
+     Ex-CISA head thinks AI might fix code so fast we won&#x27;t need security teams
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Acting CISA boss Madhu Gottumukkala said unsupported devices have no business staying plugged into enterprise networks, pitching the directive as part of a wider push to toughen up federal systems against the steady drumbeat of cyber campaigns targeting both government and industry.
+  &lt;/p&gt;
+  &lt;p&gt;
+   To help agencies comply, CISA plans to publish and maintain a list of edge devices that have reached or are nearing the end of support. The directive was developed alongside the Office of Management and Budget (OMB) and effectively adds enforcement muscle to long-standing federal policy requiring agencies to phase out unsupported technologies as quickly as possible.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The directive may be labeled binding, but it doesn&#x27;t come with financial smackdowns or handcuffs. CISA monitors progress with help from OMB, banking on the fact that agencies usually treat these mandates as something closer to law than guidance.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The agency is also urging state, local, and private-sector organizations to adopt similar cleanup efforts, even though the directive formally applies only to federal civilian systems.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The order lands amid a broader recognition that attackers increasingly target infrastructure rather than endpoints, exploiting network gear that may run quietly for years without attention. The directive makes clear that swapping out old hardware is now part of the security playbook, not just a line item buried in procurement.  ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Romanian rail workers accused of bribery turned to ChatGPT for legal tips </title>
+<link>https://www.theregister.com/2026/02/06/romanian_rail_workers_chatgpt/</link>
+<pubDate>Fri, 06 Feb 2026 11:44:47 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   More than 30 Romanian railway employees accused of running a bribery and ticket resale racket allegedly tried to crowdsource their legal strategy from ChatGPT.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Prosecutors in Bucharest have sent 33 staff from Romania&#x27;s state rail operator CFR Călători to trial over claims they manipulated booking systems to lock sleeper and couchette seats, then quietly sold them off-the-books to passengers willing to pay cash.
+  &lt;/p&gt;
+  &lt;p&gt;
+   According to
+   &lt;a href=&quot;https://clubferoviar.ro/ceferisti-acuzati-de-spaga-chatgpt/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    local news outlet Club Feroviar
+   &lt;/a&gt;
+   , investigators say the workers used the personal data of students eligible for free rail travel to reserve seats that could later be flipped for profit.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The eyebrow-raising detail in the corruption probe is that once investigators began circling, court filings cited in Romanian press reports suggest that at least two of the accused individuals consulted ChatGPT to ask whether their alleged actions constituted financial harm.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Excerpts from conversations described as between an employee and the AI show questions focused less on innocence and more on legal technicalities. In one exchange, the worker allegedly asked: &quot;Who establishes the financial damage if the injured party does not want compensation?&quot; Another scenario reportedly posed to the chatbot questioned: &quot;Does blocking seats in the reservation system represent damage if no financial loss can be proven?&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The exchanges also hint at mounting anxiety as investigators closed in. In one reported message, the user allegedly asked: &quot;Why do the police call everyone to work and not to the police?&quot; – a line that appears to reference internal workplace questioning rather than a formal summons. In another, they reportedly acknowledged investigators&#x27; awareness of specific activity, writing: &quot;They already know that I, for example, blocked 17 places in the system.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The AI&#x27;s replies, according to the published excerpts, focused on general legal theory rather than anything jurisdiction-specific. The chatbot reportedly explained: &quot;If the damage concerns a private individual or company, they usually have to request compensation... If the damage concerns the state or a public institution, authorities may intervene even without a complaint.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/19/copper_chief_cops_it_after/&quot;&gt;
+     Cop cops it after Copilot cops out: West Midlands police chief quits over AI hallucination
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/02/14/attorneys_cite_cases_hallucinated_ai/&quot;&gt;
+     Lawyers face judge&#x27;s wrath after AI cites made-up cases in fiery hoverboard lawsuit
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/anthropic_superbowl_openai_chatgpt_ads/&quot;&gt;
+     Anthropic apes OpenAI with cheeky chatbot commercials
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2018/06/01/japanese_neural_network_jokes_comedy/&quot;&gt;
+     Experts build AI joke machine that&#x27;s about as funny as an Adam Sandler movie (that bad)
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   It also outlined hypothetical scenarios suggesting that financial damage could be difficult to prove depending on circumstances, noting that &quot;if no measurable loss is demonstrated, the existence of damage can be disputed.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   At one point, the chatbot allegedly offered to help draft a defense statement, writing: &quot;Do you want me to draft a complete template of a written statement personalized for your situation, in which you acknowledge the blocking of places, but protect yourself legally as much as possible? I can do that right away.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Romanian prosecutors appear unimpressed. Authorities compiled a case file of more than 700 pages following searches and evidence-gathering related to suspected bribery, abuse of office, and fraudulent ticketing practices dating back at least a year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   There is no suggestion ChatGPT played any role in the alleged crimes themselves – the reported conversations underline a growing trend of some people treating generative AI as a pocket legal explainer, sometimes with questionable results. Tools like ChatGPT can summarize general legal concepts, but are notorious for lacking jurisdiction-specific nuance and have a well-documented habit of sounding confident even when missing critical context.
+  &lt;/p&gt;
+  &lt;p&gt;
+   For the Romanian rail staff now heading to court, their legal strategy may have just arrived at the wrong platform. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Critical SolarWinds Web Help Desk bug under attack </title>
+<link>https://www.theregister.com/2026/02/04/critical_solarwinds_web_help_desk/</link>
+<pubDate>Fri, 06 Feb 2026 11:18:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Attackers are exploiting a critical SolarWinds Web Help Desk bug - less than a week after the vendor disclosed and fixed the 9.8-rated flaw. That&#x27;s according to America&#x27;s lead cyber-defense agency, which set a Friday deadline for federal agencies to patch the security flaw.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The vulnerability under attack,
+   &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2025-40551&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CVE-2025-40551
+   &lt;/a&gt;
+   , is an untrusted deserialization flaw that can lead to remote code execution, allowing a remote, unauthenticated attacker to execute OS commands on the affected system.
+  &lt;/p&gt;
+  &lt;p&gt;
+   SolarWinds
+   &lt;a href=&quot;https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    fixed the security hole
+   &lt;/a&gt;
+   , along with five others, in Web Help Desk version 2026.1, released on January 28. Horizon3.ai and watchTowr researchers reported these six bugs to the software vendor, with Horizon3
+   &lt;a href=&quot;https://horizon3.ai/attack-research/cve-2025-40551-another-solarwinds-web-help-desk-deserialization-issue/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    warning
+   &lt;/a&gt;
+   that &quot;these vulnerabilities are easily exploitable.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   While there weren&#x27;t any known cases of in-the-wild exploitation at the time of disclosure, Rapid7 threat hunters
+   &lt;a href=&quot;https://www.rapid7.com/blog/post/etr-multiple-critical-solarwinds-web-help-desk-vulnerabilities-cve-2025-40551-40552-40553-40554/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   &quot;we expect this to change as and when technical details become available.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Plus, they pointed out, SolarWinds&#x27; Web Help Desk product has made
+   &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=SolarWinds&amp;field_date_added_wrapper=all&amp;field_cve=&amp;sort_by=field_date_added&amp;items_per_page=20&amp;url=&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    two previous appearances
+   &lt;/a&gt;
+   , both times in 2024, in CISA&#x27;s Known Exploited Vulnerabilities catalog, &quot;indicating that it is a target for real-world attackers.&quot;
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/23/solarwinds_patches_rce/&quot;&gt;
+     Third time&#x27;s the charm? SolarWinds (again) patches critical Web Help Desk RCE
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/10/16/solarwinds_critical_hardcoded_credential_bug/&quot;&gt;
+     Critical hardcoded SolarWinds credential now exploited in the wild
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/08/22/hardcoded_credentials_bug_solarwinds_whd/&quot;&gt;
+     SolarWinds left critical hardcoded credentials in its Web Help Desk product
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/critical_react_native_metro_server/&quot;&gt;
+     Critical React Native Metro dev server bug under attack as researchers scream into the void
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   These were
+   &lt;a href=&quot;https://www.theregister.com/2024/10/16/solarwinds_critical_hardcoded_credential_bug/&quot; target=&quot;_blank&quot;&gt;
+    CVE-2024-28987
+   &lt;/a&gt;
+   , a critical, hardcoded login credential bug and CVE-2024-28986, a deserialization RCE vulnerability that was
+   &lt;a href=&quot;https://www.theregister.com/2025/09/23/solarwinds_patches_rce&quot; target=&quot;_blank&quot;&gt;
+    patched three times
+   &lt;/a&gt;
+   before the fix worked and attackers weren&#x27;t able to bypass it.
+  &lt;/p&gt;
+  &lt;p&gt;
+   While we don&#x27;t know who is attacking the latest Web Help Desk vulnerability, or what they are doing with the access to vulnerable machines, the abbreviated deadline for federal agencies to fix indicates a serious threat.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Federal agencies are typically required to remediate known exploited vulnerabilities within 14 days of the bugs being
+   &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    added to the catalog
+   &lt;/a&gt;
+   . In urgent cases, however, CISA sets a shorter deadline, usually a week, but in this case of
+   &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-40551&amp;field_date_added_wrapper=all&amp;field_cve=&amp;sort_by=field_date_added&amp;items_per_page=20&amp;url=&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    CVE-2025-40551
+   &lt;/a&gt;
+   , it&#x27;s just three days.
+  &lt;/p&gt;
+  &lt;p&gt;
+   A SolarWinds spokesperson told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   that the company is &quot;aware of the reported issues,&quot; and recommended customers apply the updated, patched software &quot;promptly.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Based on our review, we have not observed widespread exploitation, and we are continuing to monitor the situation and partner with customers closely,&quot; the spokesperson said. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DWP considers chatbot work coaches as AI-fueled job losses loom </title>
+<link>https://www.theregister.com/2026/02/06/dwp_chatbot_testing/</link>
+<pubDate>Fri, 06 Feb 2026 11:02:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Britain&#x27;s welfare system is experimenting with AI to manage Universal Credit claimants – even as evidence piles up that artificial intelligence may soon be pushing more people onto benefits in the first place.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The Department for Work and Pensions is
+   &lt;a href=&quot;https://committees.parliament.uk/oralevidence/17052/pdf/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    exploring
+   &lt;/a&gt;
+   chatbot-style digital assistants to support Universal Credit claimants, with Permanent Secretary Sir Peter Schofield telling MPs the technology could eventually become part of frontline welfare support.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://www.theregister.com/2026/02/03/barnsley_ai_town/&quot;&gt;
+    &lt;img alt=&quot;AI&quot; height=&quot;115&quot; src=&quot;https://regmedia.co.uk/2023/11/28/ai_shutterstock.jpg?x=174&amp;amp;y=115&amp;amp;crop=1&quot; width=&quot;174&quot;/&gt;
+    &lt;h2 title=&quot;South Yorkshire becomes ground zero for nationwide experiment with £500K seed funding&quot;&gt;
+     UK names Barnsley as first Tech Town to see whether AI can fix... well, anything
+    &lt;/h2&gt;
+    &lt;span&gt;
+     READ MORE
+    &lt;/span&gt;
+   &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Officials believe automated tools could help claimants navigate applications, training options, and employment support while easing pressure on human work coaches stretched by rising caseloads.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We want to be able to focus our work in a more tailored way so that the people who don&#x27;t need the interaction with a work coach potentially, in due course, could be able to have an interaction with a digital tool that prompts them, freeing up our work coaches for the people who most need it,&quot; Schofield said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Universal Credit isn&#x27;t just for unemployed people; it also covers low-income workers, disabled people, and those who can&#x27;t work full-time. Dragging AI into that ecosystem suggests automation may end up doing double duty by reshaping employment, then helping government handle the fallout.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Schofield&#x27;s comments come after
+   &lt;a href=&quot;https://www.theguardian.com/technology/2026/jan/26/ai-uk-jobs-us-japan-germany-australia#:~:text=British%20companies%20reported%20that%20AI,the%20investment%20bank%20Morgan%20Stanley.&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    UK businesses reported an 8 percent net reduction in jobs linked to AI
+   &lt;/a&gt;
+   adoption over the past year, according to Morgan Stanley, the sharpest decline among major developed economies.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Meanwhile, the government is expanding its AI partnerships to help citizens navigate the changing labor market. Officials
+   &lt;a href=&quot;https://www.theregister.com/2026/01/29/irony_alert_anthropic_helps_ukgov/&quot; target=&quot;_blank&quot;&gt;
+    recently announced that the government will work with model developer Anthropic
+   &lt;/a&gt;
+   on AI-powered tools to provide career advice and job search guidance, part of a broader effort to position automation as both the cause of disruption and its solution.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/dwp_finds_copilot_saves_civil/&quot;&gt;
+     DWP finds Copilot saves civil servants a whopping 19 minutes a day
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/microsoft_ai_spend_copilot/&quot;&gt;
+     Microsoft spends billions on AI, converts just 3.3% of Copilot Chat users
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/01/ai_security_startup_ceo_posts/&quot;&gt;
+     AI security startup CEO posts a job. Deepfake candidate applies, inner turmoil ensues.
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/30/1pc_gdp_ai_gartner/&quot;&gt;
+     Want digital sovereignty? That&#x27;ll be 1% of your GDP into AI infrastructure please
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Forecasts suggest the challenge may only grow.
+   &lt;a href=&quot;https://www.theregister.com/2026/01/13/ai_us_jobs_2030/&quot; target=&quot;_blank&quot;&gt;
+    Forrester reckons that AI and automation could wipe out more than 10 million jobs in the United States by 2030
+   &lt;/a&gt;
+   , with administrative, clerical, and junior professional roles sitting closest to the chopping block. The numbers are US-focused, but few expect the trend to stop at the Atlantic.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Inside government, officials are already weighing more radical responses. Investment minister Lord Jason Stockwood recently told
+   &lt;a href=&quot;https://www.ft.com/content/3ebc4947-c7f7-4d79-ab69-6dad430d054b&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    The Financial Times
+   &lt;/a&gt;
+   that universal basic income (UBI) is being discussed as a possible safety net for workers displaced by AI, warning that automation is likely to create socially &quot;bumpy&quot; transitions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   UBI is not official policy, but its consideration suggests ministers are questioning whether retraining programs and digital job matching tools alone will be sufficient.
+  &lt;/p&gt;
+  &lt;p&gt;
+   If the idea ever makes it off the Whitehall whiteboard, the welfare journey risks becoming oddly circular: lose your job to AI, explain that problem to AI, get career guidance from AI, and, if ministers&#x27; quieter contingency planning ever becomes reality, potentially receive income support designed to soften the blow from AI in the first place. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK council digs deeper into capital assets to keep Oracle project afloat </title>
+<link>https://www.theregister.com/2026/02/06/west_sussex_oracle/</link>
+<pubDate>Fri, 06 Feb 2026 10:24:16 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   In a budget-busting leap from SAP to Oracle, West Sussex County Council is trebling its raid on capital assets such as buildings to fund its &quot;transformational&quot; ERP project.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The current budget for the authority&#x27;s long-running project is £27 million, more than ten times the £2.6 million originally budgeted when it started nearly seven years ago.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Last year,
+   &lt;a href=&quot;https://www.theregister.com/2025/01/27/west_sussex_oracle_assets/&quot; target=&quot;_blank&quot;&gt;
+    &lt;em&gt;
+     The Register
+    &lt;/em&gt;
+    reported
+   &lt;/a&gt;
+   that the council was using money from selling off capital assets – including a former fire station – to fund the massively expanded budget. Although allowed by central government since 2016, the approach should not be used to relieve ongoing budget pressure, experts have warned.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In documents released to a council committee last week, officials said they expected use of funds from the sell-off to triple in the current financial year compared to a year earlier.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;Following a review of the 2025/26 plan, it is now currently projected that the council will use £12 million of this flexibility on qualifying transformation expenditure. However, the exact amount will not be known until the end of the financial year,&quot; the report to the Performance and Finance Scrutiny Committee said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In 2024/25, the council used £4 million in capital receipts to pay for its Oracle project, which it originally imagined would go live in March 2021. Officials expect the project to spend around £10 million in the 2026/27 financial year, with £4.3 million coming from capital receipts, and £5.6 million from one-off funding allocated to an IT infrastructure reserve.
+  &lt;/p&gt;
+  &lt;p&gt;
+   An earlier estimate suggested the council might need to apply capital receipts of up to £20 million in 2025/26, with Oracle being &quot;one major project likely to qualify.&quot; The previous year saw £5.5 million set aside for the project from the unusual, one-off funding mechanism. Capital receipts are typically used to fund other capital projects such as schools and infrastructure rather than IT implementations and SaaS.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The council argues that selling property to fund an IT project, which would ordinarily be paid for using ongoing revenue, is justified because long-term savings are expected through &quot;automation and enabling more tasks to be undertaken via self-service,&quot; according to
+   &lt;a href=&quot;https://westsussex.moderngov.co.uk/documents/b13119/Item%205%20-%20Council%20Plan%20and%20Budget%20Report%20Pack%20Wednesday%2022-Jan-2025%2010.30%20Performance%20and%20Finance%20.pdf?T=9&quot; target=&quot;_blank&quot;&gt;
+    a council report from January last year
+   &lt;/a&gt;
+   [PDF].
+  &lt;/p&gt;
+  &lt;p&gt;
+   Local council taxpayers will hope this is the case. However, the project has already confounded expectations.
+   &lt;a href=&quot;https://westsussex.moderngov.co.uk/documents/g3897/Public%20reports%20pack%20Thursday%2018-Apr-2024%2015.00%20Performance%20and%20Finance%20Scrutiny%20Committee.pdf?T=10&quot; target=&quot;_blank&quot;&gt;
+    A report to the committee in 2024
+   &lt;/a&gt;
+   said that in November 2019, the authority agreed a budget of £2.6 million, but later decided it needed more suppliers to help change business processes and reset the budget to £14.07 million, including £7 million in March 2021 and £7.07 million in October 2022.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/01/27/west_sussex_oracle_assets/&quot;&gt;
+     UK council selling the farm (and the fire station) to fund ballooning Oracle project
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/11/26/uk_council_oracle/&quot;&gt;
+     UK council still hadn&#x27;t fully costed troubled Oracle project 2 years in
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2024/04/30/uk_council_sees_cost_of/&quot;&gt;
+     Oracle Fusion rollout costs 15 times council&#x27;s estimates in SAP rip-&#x27;n-replace
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2021/12/14/west_sussex_county_council_faces/&quot;&gt;
+     West Sussex County Council faces two-year delay to replace ageing SAP system for Oracle
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   In a
+   &lt;a href=&quot;https://westsussex.moderngov.co.uk/documents/g4048/Public%20reports%20pack%20Wednesday%2028-Jan-2026%2010.30%20Performance%20and%20Finance%20Scrutiny%20Committee.pdf?T=10&quot; target=&quot;_blank&quot;&gt;
+    separate report
+   &lt;/a&gt;
+   [PDF] to the council last month, the project team said the current approved budget is £27 million, based on a program of up to three years from May 2024, with finance, procurement, HR, and payroll live by April 2026, including six months of post-implementation support.
+  &lt;/p&gt;
+  &lt;p&gt;
+   However, the £27 million figure does not appear to include spending on the project before May 2024. Systems integrator DXC began working with the council on the project under a five-year, £4 million contract in May 2020. Auditors EY later said there were &quot;weaknesses regarding budgeting, governance and risk management.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   In July 2023, the council found there was no real prospect of a deliverable plan being agreed. It terminated the agreement with DXC on 1 September 2023 despite the company winning a lucrative contract variation.
+   &lt;a href=&quot;https://www.theregister.com/2025/02/20/dxc_oracle_uk_contract/&quot; target=&quot;_blank&quot;&gt;
+    Published data
+   &lt;/a&gt;
+   detailing council spending shows that throughout its period working with the council on the project, DXC was paid around £6.6 million, more than 50 percent above the original contract price.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   has asked the council whether the current £27 million agreed budget includes spending from before May 2024. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Summer in Australia means beers, beaches, and bork </title>
+<link>https://www.theregister.com/2026/02/06/supermarket_bork_australia/</link>
+<pubDate>Fri, 06 Feb 2026 09:43:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   When this vulture excuses himself from
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   &#x27;s Australian eyrie for a little rest and recreation, I first avoid
+   &lt;a href=&quot;https://www.theregister.com/2018/01/08/australian_birds_light_fires/&quot; target=&quot;_blank&quot;&gt;
+    pyromaniac birds
+   &lt;/a&gt;
+   and
+   &lt;a href=&quot;https://www.theregister.com/2013/01/31/drop_bear_killer_koala_science_fun/&quot; target=&quot;_blank&quot;&gt;
+    carnivorous koalas
+   &lt;/a&gt;
+   , before settling into a bucolic beach town to catch a few waves, read a few books, and tune out from the world of tech.
+  &lt;/p&gt;
+  &lt;p&gt;
+   So imagine my horror when my pre-beach provisioning excursion turned up a bork.
+  &lt;/p&gt;
+  &lt;p&gt;
+   You&#x27;re looking at the digital signage from the sole supermarket in the charming village of Milton, which last week showed shoppers news of printing problems before they had a chance to choose cheese or procure pork products.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_1.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Digital signage wipeout on Aisle 1&quot; height=&quot;280&quot; src=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_1.jpg?x=648&amp;y=280&amp;infer_y=1&quot; title=&quot;Digital signage wipeout on Aisle 1&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Digital signage wipeout in Aisle 1
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   As the digital signage cycled through its store of images, the bork sullied a slide promoting house brand Black &amp; Gold, and covered a promo for lottery tickets too.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_2.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Black &amp; Gold bork&quot; height=&quot;486&quot; src=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_2.jpg?x=648&amp;y=486&amp;infer_y=1&quot; title=&quot;Black &amp; Gold bork&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Black &amp; Gold bork
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/bus_linux/&quot;&gt;
+     Help! Does anyone on the bus know Linux?
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/29/bork_ventures_to_the_middle/&quot;&gt;
+     Bork ventures to the Middle of Lidl
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/21/atm_bork/&quot;&gt;
+     ATM takes a kicking yet keeps on ticking
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2022/01/05/bork/&quot;&gt;
+     Bork ends where it began. At McDonald&#x27;s, home of the finest bork product
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Australia&#x27;s school year commences in late January, meaning the bork also had a chance to infest an ad for snacks parents might consider cramming into lunchboxes.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_3.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Back to school Bork&quot; height=&quot;551&quot; src=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_3.jpg?x=648&amp;y=551&amp;infer_y=1&quot; title=&quot;Back to school Bork&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Back to school bork
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Which seems rather apt because surely someone needs to go back to Windows maintenance school.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Your correspondent fumed about the bork for a while but mostly forgot all about it after hitting the beach. The shot below shows its glory at about 7:00AM one fine morning, when the water temperature was a very pleasant 22° C and gentle waves made for decent bodysurfing.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_4.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Narrawallee beach, Australia&quot; height=&quot;324&quot; src=&quot;https://regmedia.co.uk/2026/02/03/simon_sharwood_bork_4.jpg?x=648&amp;y=324&amp;infer_y=1&quot; title=&quot;Narrawallee beach, Australia&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Narrawallee beach, Australia
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Now I&#x27;m back at work.
+  &lt;/p&gt;
+  &lt;p&gt;
+   And
+   &lt;i&gt;
+    absolutely loving it
+   &lt;/i&gt;
+   . ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> New hire fixed a problem so fast, their boss left to become a yoga instructor </title>
+<link>https://www.theregister.com/2026/02/06/on_call/</link>
+<pubDate>Fri, 06 Feb 2026 07:32:09 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Change is a constant – and so is On Call, the reader-contributed column
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   runs every Friday to share your tech support tales.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This week, meet a reader we will Regomize as &quot;Carl&quot; who in the late 1990s worked at a university and made the move from the desktop support team to the network management group.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Just before I started, we installed two new servers running Novell NetWare,&quot; Carl told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Software running on the new machines soon started to lock up and reboots and reinstalls became frequent chores, but a full fix proved elusive. Tempers frayed as email faltered, network drives became unavailable, and logins lagged.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Carl watched from the sidelines because only the two lead network admins were allowed to get hands-on with the boxes to find a fix.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Their efforts proved futile, so the university escalated the matter to Novell and the server maker.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The mess eventually landed in Carl&#x27;s lap because he got the job of informing users of the latest outage and reloading software to effect a temporary fix.
+  &lt;/p&gt;
+  &lt;p&gt;
+   This made Carl less than popular around the office – just what a new hire needs.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/30/on_call/&quot;&gt;
+     In-house techies fixed faults before outsourced help even noticed they&#x27;d happened
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/23/on_call/&quot;&gt;
+     Tech support detective solved PC crime by looking in the car park
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/16/on_call/&quot;&gt;
+     Engineer used welding shop air hose to &#x27;clean&#x27; PCs – hilarity did not ensue
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/09/on_call/&quot;&gt;
+     Help desk read irrelevant script, so techies found and fixed their own problem
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Between fixes, Carl started to investigate the servers and before long found log files that recorded a long, long list of memory errors that even named the actual DIMM as the source.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I called the lead admin and said I&#x27;d found the problem,&quot; Carl told On Call. &quot;At first she was skeptical but said she&#x27;d have a look.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The lead admin asked Carl how long he had known about the memory errors.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;About four minutes,&quot; he replied, then watched as she summoned the IT director to show him the error messages.
+  &lt;/p&gt;
+  &lt;p&gt;
+   And then, without a word, the lead admin and IT director walked away, leaving Carl thinking he&#x27;d made a career-threatening mistake.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Thankfully, he was wrong. Colleagues soon let him know that the server maker was flying in replacement memory, along with a technician to install it. They both arrived that very night and solved the problem.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I received a thank-you from the director and the lead admin,&quot; Carl told On Call.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Around a month later, the lead admin resigned to become a yoga instructor, which – given her failure to spot the logs a noob found without trying – may have been a sound career move!
+  &lt;/p&gt;
+  &lt;p&gt;
+   Have your tech support feats prompted a colleague to rethink their career? If so,
+   &lt;a href=&quot;mailto:oncall@theregister.com&quot; target=&quot;_blank&quot;&gt;
+    click here
+   &lt;/a&gt;
+   to send On Call an email so we can tell your story on a future Friday. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Netlife Ecuador partners with ZTE to advance smart cloud platform deployment and accelerate smart home innovation </title>
+<link>https://www.theregister.com/2026/02/06/zte-netlife-ecuador-partnership/</link>
+<pubDate>Fri, 06 Feb 2026 04:16:20 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   ZTE Corporation (0763.HK / 000063.SZ), a global leading provider of integrated information and communication technology solutions, announced today the commercial deployment of its Smart Cloud Platform (SCP) with Netlife, Ecuador&#x27;s largest fixed-network operator and most technologically advanced broadband provider. The SCP commercialization enhances home network visualization, manageability, and intelligent operations, reinforcing Netlife&#x27;s leadership in the Ecuadorian broadband market.
+  &lt;/p&gt;
+  &lt;p&gt;
+   To date, Netlife has successfully connected a large number of live CPEs to the SCP platform. Netlife reports that the SCP has significantly improved after-sales efficiency, enhanced user satisfaction, and delivered measurable operational benefits across the network.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In response to Ecuador&#x27;s unique operational requirements, ZTE has also developed a customized anti-theft feature for Netlife&#x27;s devices. This function triggers alerts when equipment is abnormally moved or its status changes unexpectedly, effectively reducing device loss and misuse. The feature has already demonstrated strong performance in the live network.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Following the successful adoption of SCP in its home broadband services, Netlife is preparing for the next phase—IPC (IP Camera) service integration. Both parties plan to expand the current SCP server capacity to support massive CPEs and IPCs, ensuring the platform is ready for the development of smart home services.
+  &lt;/p&gt;
+  &lt;p&gt;
+   With the SCP platform, Netlife will achieve unified cloud management of home gateways and security devices, further strengthening its smart home ecosystem and solidifying its position as Ecuador&#x27;s leading fixed broadband operator.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    Contributed by ZTE.
+   &lt;/em&gt;
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Atlassian swears it can handle AI without blowing out costs, or being swamped </title>
+<link>https://www.theregister.com/2026/02/06/atlassian_q2_2026/</link>
+<pubDate>Fri, 06 Feb 2026 03:50:41 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Atlassian has assured investors it can add AI to its services without blowing out its costs or shrinking margins.
+  &lt;/p&gt;
+  &lt;p&gt;
+   CEO Mike Cannon-Brookes used the company’s Thursday earnings call to reveal Atlassian now has five million users of its
+   &lt;a href=&quot;https://www.theregister.com/2025/04/10/atlassian_rovo_free_teams_news&quot; target=&quot;_blank&quot;&gt;
+    Rovo
+   &lt;/a&gt;
+   agentic AI offering and suggested that investors in the company might worry that costs would blow out as a result.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “We&#x27;re able to deliver those five million Rovo seats and continue to improve gross margin,” he reassured. “That&#x27;s a huge achievement on behalf of our engineering teams, but it shows that we can manage those AI costs inside for the vast majority of customers.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   Atlassian runs entirely in public clouds, and Cannon-Brookes’ remarks suggest optimizing its operations, rather than high prices, is the reason it’s kept margins stable. Which isn’t great news for cloud operators, as it suggests at least one SaaS giant has found a way to add AI to its offerings without spending much more.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   The Australian collaborationware company is, however, sending more business to big clouds by ditching its on-prem datacenter products. CFO Joe Binz said Atlassian “saw very healthy cloud migrations in Q2” and Cannon-Brookes pointed to the company winning $1 billion of revenue from cloud products for the first time in this quarter.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The CEO also batted away suggestions that Atlassian,
+   &lt;a href=&quot;https://www.theregister.com/2026/02/04/ai_replace_saas/&quot; target=&quot;_blank&quot;&gt;
+    like other SaaS companies
+   &lt;/a&gt;
+   , is susceptible to attack by AI.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “I’m convinced AI is great for Atlassian. Others think software is dead,” he wrote in his
+   &lt;a href=&quot;https://s206.q4cdn.com/270053503/files/doc_financials/2026/q2/up/TEAM-Q2-2026-Shareholder-Letter-1.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    shareholder letter
+   &lt;/a&gt;
+   [PDF]. “ In this environment, it seems that noise swamps signal, nuance gets lost,” he added. On the earnings call, he expanded on that point by saying Atlassian customers still want its wares.
+  &lt;/p&gt;
+  &lt;p&gt;
+   “When I talk to customers, they believe that we&#x27;re helping them through a lot of that noise,” he said. “Enterprise customers want a platform they can trust. They need it to be compliant and secure and all the things they&#x27;ve always needed.”
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/11/13/atlassian_aws_graviton_migration/&quot;&gt;
+     Atlassian twice shunned AWS Graviton CPUs, but now runs Jira and Confluence on them
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/09/18/atlassian_dx_purchase/&quot;&gt;
+     Atlassian drops $1B on company that helps measure dev productivity
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/08/06/trello_redesign_as_bad_as/&quot;&gt;
+     Atlassian&#x27;s Trello redesign may be &#x27;worst in tech history&#x27; say frustrated users
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/07/07/asia_tech_news_in_brief/&quot;&gt;
+     Atlassian migrated 4 million Postgres databases to shrink AWS bill
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   And they’re spending more with Atlassian to get those things: Cannon-Brookes said the company continues to see customers adopt more of its stack and commit to using it for longer.
+  &lt;/p&gt;
+  &lt;p&gt;
+   He also shrugged off suggestions that Anthropic, which recently
+   &lt;a href=&quot;https://www.theregister.com/2026/01/13/anthropic_previews_claude_cowork_for/&quot; target=&quot;_blank&quot;&gt;
+    previewed a product called “Claude Cowork”
+   &lt;/a&gt;
+   that competes with Jira, is a threat because the new AI product will need to access information stored in Atlassian’s software.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It’s not all rosy for Atlassian because Cannon-Brookes declared himself “frustrated” by Atlassian’s share price, which has fallen 70 percent in the last twelve months, and fell two more points in after-hours trading. The company is therefore accelerating the pace of stock buybacks. “We believe our shares are significantly undervalued,” Cannon-Brookes said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Q2 revenue landed at $1.6 billion, up 23 percent year over year. Operating losses narrowed from Q2 2025’s $57.5 million to $47.7 million. ®
+  &lt;/p&gt;
+  &lt;h3&gt;
+   Bootnote
+  &lt;/h3&gt;
+  &lt;p&gt;
+   When
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   started work on this story, we accessed the company’s shareholder letter and were a little startled that its opening sentence read “We had a fantastic Q2. We’re building a f**king great business.” We closed that tab and later loaded the letter again to find it had a new filename and the text had changed to “We’re building a bloody great business.” Outlets who covered the company before we completed this story
+   &lt;a href=&quot;https://www.afr.com/technology/cannon-brookes-challenges-atlassian-s-ai-bears-as-shares-plunge-20260205-p5nzz5&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    record
+   &lt;/a&gt;
+   the executive F-bomb.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SpaceX halts Falcon 9 flights after second stage anomaly </title>
+<link>https://www.theregister.com/2026/02/04/spacex_halts_falcon_9_flights/</link>
+<pubDate>Fri, 06 Feb 2026 02:45:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   SpaceX has paused flights of its workhorse Falcon 9 after a second stage failure resulted in the spent rocket tumbling uncontrollably back to Earth.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;a href=&quot;https://x.com/SpaceX/status/2018485314508198331&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    According
+   &lt;/a&gt;
+   to SpaceX: &quot;The second stage experienced an off-nominal condition during preparation for the deorbit burn.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The mission, which launched from California on February 2 at 1547 UTC, deployed another 25 Starlink satellites. The first stage was on its 31st flight and made a successful landing on the Of Course I Still Love You drone ship in the Pacific Ocean. The first two second stage engine burns were successful, and the satellites were deployed successfully. However, the deorbit burn did not happen, and the stage was instead passivated.
+  &lt;/p&gt;
+  &lt;div&gt;
+   &lt;a href=&quot;https://regmedia.co.uk/2026/02/04/falcon_9_upper_stage.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img alt=&quot;Falcon 9 second stage firing above Earth&quot; height=&quot;460&quot; src=&quot;https://regmedia.co.uk/2026/02/04/falcon_9_upper_stage.jpg?x=648&amp;y=460&amp;infer_y=1&quot; title=&quot;Falcon 9 second stage firing above Earth&quot; width=&quot;648&quot;/&gt;
+   &lt;/a&gt;
+   &lt;p&gt;
+    Falcon 9 second stage firing above Earth
+   &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   In this instance, passivation is the disposal of unused propellant to prevent an unexpected explosion during reentry. The deorbit burn ensures the re-entry can be targeted; in its absence, the stage re-entered the following morning. Astronomer Jonathan McDowell
+   &lt;a href=&quot;https://bsky.app/profile/planet4589.bsky.social/post/3mdyfmx2fls2g&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    noted
+   &lt;/a&gt;
+   it was between 0130 UTC and 0330 UTC.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In its update, SpaceX
+   &lt;a href=&quot;https://www.spacex.com/launches/sl-17-32&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    said
+   &lt;/a&gt;
+   : &quot;Teams are reviewing data to determine root cause and corrective actions before returning to flight.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   It is not the first time the second stage has posed problems for SpaceX. An
+   &lt;a href=&quot;https://www.theregister.com/2024/07/15/spacex_faa_probe/&quot; target=&quot;_blank&quot;&gt;
+    explosion in July 2024
+   &lt;/a&gt;
+   resulted in the loss of a payload of Starlink satellites, and in February 2025, the company
+   &lt;a href=&quot;https://www.theregister.com/2025/02/24/spacex_falcon_9_debris/&quot; target=&quot;_blank&quot;&gt;
+    showered debris over Poland
+   &lt;/a&gt;
+   after an uncontrolled re-entry following a failed deorbit burn attempt.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/nasa_artemis_ii_wdr/&quot;&gt;
+     NASA delays Artemis II to March after hydrogen leaks bedevil countdown test
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/musk_spacex_xai_merge_hallucination_burning_man/&quot;&gt;
+     Elon Musk merges xAI into SpaceX to spread universal consciousness via a sentient sun
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/22/rocket_lab_neutron_rupture/&quot;&gt;
+     Rocket Lab&#x27;s Neutron schedule under pressure after unexpected tank rupture
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2025/11/21/spacex_super_heavy_mishap/&quot;&gt;
+     SpaceX loses debut V3 Super Heavy in ground test mishap
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   SpaceX did not clarify how long the Falcon 9 is to remain grounded. The company&#x27;s
+   &lt;a href=&quot;https://www.spacex.com/launches&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    launch manifest
+   &lt;/a&gt;
+   has already been shuffled, with missions pushed back. The next Starlink mission was originally due to launch from Florida on February 6, but this has now been moved back to February 14.
+  &lt;/p&gt;
+  &lt;p&gt;
+   More serious are the implications for the Crew-12 mission to the International Space Station (ISS), which was scheduled for February 11. The ISS is currently operating with a reduced crew due to the
+   &lt;a href=&quot;https://www.theregister.com/2026/01/12/iss_command_handover/&quot; target=&quot;_blank&quot;&gt;
+    early return
+   &lt;/a&gt;
+   of Crew-11, so a delay is less than welcome.
+  &lt;/p&gt;
+  &lt;p&gt;
+   During a briefing on the Artemis II post-Wet Dress Rehearsal, NASA noted the investigation is ongoing. A space agency insider told
+   &lt;i&gt;
+    The Register
+   &lt;/i&gt;
+   that SpaceX expressed confidence about the issue being resolved in time for the Crew-12 launch. However, the individual also cautioned that at least one entirely successful mission would likely need to be completed before loading a crew.
+  &lt;/p&gt;
+  &lt;p&gt;
+   NASA also said the Federal Aviation Administration (FAA) was involved in the investigation. &quot;Safety is our top priority,&quot; an FAA spokesperson told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   . &quot;SpaceX is required to conduct a mishap investigation. The FAA will oversee every step of the investigation, approve the final report and any corrective actions.&quot; ®
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;strong&gt;
+    Updated on Feb 5
+   &lt;/strong&gt;
+   to include comment from the FAA.
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Amazon can&#x27;t build AI capacity fast enough, throws another $200B at the problem </title>
+<link>https://www.theregister.com/2026/02/06/amazon_earnings_q4_2025/</link>
+<pubDate>Fri, 06 Feb 2026 02:20:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   AWS has an open cash spigot for AI infrastructure, with Amazon CEO Andy Jassy telling investors the company has been monetizing compute capacity as fast as it brings it online and it plans to double capacity by the end of 2027.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;We’re growing at really an unprecedented rate. Yet, I think every provider would tell you, including us, that we could actually grow faster if we had all the supply that we could take,” he said on the company’s Thursday earnings call. “And so we are being incredibly scrappy around that. If you look in the last 12 months, we added 3.9 gigawatts of power. Just for perspective, that’s twice what we had in 2022....We expect to double it again by the end of 2027.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Jassy said Amazon plans to add datacenter capacity “as fast as we can” to meet the demand from customers to place their workloads on AWS and train their data for the AI era. While AWS&#x27;s 35 percent operating margins through the end of the year will fluctuate as the company spends cash on building infrastructure, Jassy sees a clear path to win a return on that investment.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;If you look at the capital we&#x27;re spending and intend to spend this year, it&#x27;s predominantly in AWS. And some of it is for our core workloads, which are non AI workloads because they&#x27;re growing at a faster rate than we anticipated. But most of it is on AI,&quot; Jassy said. &quot;What we’re continuing to see is as fast as we install this capacity, this AI capacity, we are monetizing it. So it&#x27;s just a very unusual opportunity.&quot;
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Jassy said AI will mean every customer experience is reimagined, and new ones will emerge to become “the norm.”
+  &lt;/p&gt;
+  &lt;p&gt;
+   The CEO said customers that use AI in expansive ways are putting their data and applications in the cloud.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Those are all big tailwinds pushing people towards the cloud. So we’re going to invest aggressively here and we&#x27;re going to invest to be the leader in this space as we have been for the last number of years. We have, I think, a fair bit of experience over the years of forecasting demand signals and doing it in such a way that we don’t have a lot of wasted capacity … this isn’t some quixotic topline grab. We have confidence that these investments will yield strong returns on invested capital. We’ve done that with our core AWS business. I think that will very much be true here as well.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   AWS generated sales of $35.6 billion in the fourth quarter, up 24 percent year-over-year, and $128.7 billion in sales for the year, up 20 percent. As of the fourth quarter ending Dec. 31, AWS had an annualized run rate of $142 billion, up from $80 billion in 2022. Jassy said Amazon expects to spend $200 billion in 2026, with most of that headed to AWS.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Despite double-digit gains and 35 percent margins at AWS, Amazon stock was down as much as 11.5 percent in after hours trading, joining a selloff that has begun to roil the entire tech sector.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/aws_codec_patent_holders/&quot;&gt;
+     AWS says you&#x27;re on your own if media codec patent owners come knocking
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/amazon_power_europe/&quot;&gt;
+     Amazon&#x27;s European datacenter buildout blows a breaker as grid connection wait list hits 7 years
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/20/amazon_ceo_andy_jassy_ai_bubble/&quot;&gt;
+     Amazon CEO Andy Jassy goes wobbly on AI bubble possibility
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/01/05/aws_price_increase/&quot;&gt;
+     AWS raises GPU prices 15% on a Saturday, hopes you weren&#x27;t paying attention
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Even after Jassy delivered his impassioned defense of the AWS datacenter spending, and his confidence in the value that would return, Doug Anmuth, analyst with JP Morganm, wanted to know if he had set any &quot;financial guardrails&quot; on spending. If Amazon has any such protections Jassy didn’t mention them, but continued to talk up spending &quot;aggressively.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;I think this is an extraordinarily unusual opportunity to forever change the size of AWS and Amazon as a whole,&quot; Jassy said. “And so we see this as an unusual opportunity, and we are going to invest aggressively here to be the leaders.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Jassy said one big advantage AWS has over competitors is its homegrown chips. The Trainium accelerators and Graviton CPUs are already delivering annualized revenue run-rate of $10 billion, and that’s growing at triple-digit percentages year to year.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Jassy said the company’s Trainium2 chips are used to power Project Rainier, which has linked more than 500,000 of them into what he called the world’s largest operational AI compute cluster. He said Anthropic is using that to train its AI models.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Trainium3 chips are already in the market, with the entire supply expected to be committed to workloads by mid-2026. Trainium4 will arrive in 2027 and bring six times the compute performance and four times the memory bandwidth of the Trainium3.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Trainium is a multibillion dollar annualized run rate business at this point, and it&#x27;s fully subscribed,&quot; he explained. &quot;Customers are really thirsty for better price performance and Trainium has 30 to 40 percent better price performance than comparable GPUs, so it’s very compelling to customers.&quot; He added that the company is already having discussions about Trainium5. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ad blocking is alive and well, despite Chrome&#x27;s attempts to make it harder </title>
+<link>https://www.theregister.com/2026/02/06/chrome_mv3_no_harm_ad_blocking/</link>
+<pubDate>Fri, 06 Feb 2026 00:49:42 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Chrome&#x27;s latest revision of its browser extension architecture, known as Manifest v3 (MV3), was widely expected to make content blocking and privacy extensions less effective than its predecessor, Manifest v2 (MV2).
+  &lt;/p&gt;
+  &lt;p&gt;
+   But when researchers affiliated with Goethe University Frankfurt compared the old and new tools, they could not find much difference.
+  &lt;/p&gt;
+  &lt;p&gt;
+   According to a study titled, &quot;
+   &lt;a href=&quot;https://petsymposium.org/popets/2026/popets-2026-0027.php&quot; rel=&quot;nofollow&quot;&gt;
+    Privacy vs. Profit: The Impact of Google&#x27;s Manifest Version 3 (MV3) Update on Ad Blocker Effectiveness,
+   &lt;/a&gt;
+   &quot; just published in the peer reviewed publication
+   &lt;i&gt;
+    Proceedings on Privacy Enhancing Technologies
+   &lt;/i&gt;
+   (PoPETs), the performance of Chrome&#x27;s MV3 architecture is more or less on par with the legacy MV2 specification.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Our results reveal no statistically significant reduction in ad-blocking or anti-tracking effectiveness for MV3 ad blockers compared to their MV2 counterparts, and in some cases, MV3 instances even exhibit slight improvements in blocking trackers,&quot; conclude authors Karlo Lukic and Lazaros Papadopoulos.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Google
+   &lt;a href=&quot;https://security.googleblog.com/2019/06/improving-security-and-privacy-for.html&quot; rel=&quot;nofollow&quot;&gt;
+    announced MV3
+   &lt;/a&gt;
+   back in 2019 when it had become apparent that the powerful capabilities exposed to extension developers through MV2 could be (and were) easily abused. The company&#x27;s answer involved a revised set of APIs that limited those capabilities and revised the underlying architecture to improve performance.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The most widely noted of those APIs was the blocking (
+   &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests&quot; rel=&quot;nofollow&quot;&gt;
+    synchronous
+   &lt;/a&gt;
+   ) version of
+   &lt;code&gt;
+    &lt;a href=&quot;https://developer.chrome.com/docs/extensions/reference/webRequest/&quot; rel=&quot;nofollow&quot;&gt;
+     chrome.webRequest
+    &lt;/a&gt;
+   &lt;/code&gt;
+   . Under MV2, it could intercept and modify incoming network data, making it ideal for stopping ads, tracking scripts, and making other interventions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   MV3 stopped supporting the blocking version of
+   &lt;code&gt;
+    chrome.webRequest
+   &lt;/code&gt;
+   and replaced it with
+   &lt;code&gt;
+    &lt;a href=&quot;https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/&quot; rel=&quot;nofollow&quot;&gt;
+     chrome.declarativeNetRequest
+    &lt;/a&gt;
+   &lt;/code&gt;
+   . The new API is asynchronous (capable of concurrent task processing) rather than synchronous (processes tasks in sequence), which has performance benefits but is less flexible in terms of
+   &lt;a href=&quot;https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#dynamic-and-session-rules&quot; rel=&quot;nofollow&quot;&gt;
+    adapting to page content on the fly
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   This and several other API changes
+   &lt;a href=&quot;https://www.theregister.com/2022/06/08/google_blocking_privacy_manifest/&quot;&gt;
+    alarmed the makers of content blocking and privacy extensions
+   &lt;/a&gt;
+   . Google insisted the changes were necessary for performance, security, and privacy, assurances that seemed disingenuous when considered alongside warnings of the potential revenue impact of ad blocking software
+   &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1652044/000165204419000004/goog10-kq42018.htm&quot; rel=&quot;nofollow&quot;&gt;
+    in Google&#x27;s financial boilerplate
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/aws_cloud_breakin_ai_assist/&quot;&gt;
+     AWS intruder achieved admin access in under 10 minutes thanks to AI assist, researchers say
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/openai_debuts_frontier_platform/&quot;&gt;
+     OpenAI chases business bucks with confusingly named Frontier platform
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/github_kill_switch_pull_requests_ai/&quot;&gt;
+     GitHub ponders kill switch for pull requests to stop AI slop
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/llm_poisoned_how_to_tell/&quot;&gt;
+     Three clues that your LLM may be poisoned with a sleeper-agent back door
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   Despite years of developer grumbling and requests for improvements, the phaseout of MV2
+   &lt;a href=&quot;https://www.theregister.com/2025/02/24/google_v2_eol_v3_rollout/&quot;&gt;
+    went ahead last year
+   &lt;/a&gt;
+   . And not much has changed with respect to the role of Chrome extensions in ad blocking and privacy.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The research by Lukic and Papadopoulos, independently funded and unaffiliated with Google or vendors of privacy tools, found not only that MV3 and MV2 ad blocking and anti-tracking extensions are equally effective, but that MV3 improved anti-tracking by blocking 1.8 more tracking scripts per website on average than the MV2 extensions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Lazaros Papadopoulos, research assistant at Goethe University, told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   in an email that the study used the default filter sets for the respective ad blocking extensions in order to mimic the behavior of the typical user and to ensure rule consistency.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Papadopoulos suggests that there&#x27;s no longer a reason to choose a browser based on its availability to run legacy MV2 extensions (e.g.
+   &lt;a href=&quot;https://blog.mozilla.org/addons/2024/03/13/manifest-v3-manifest-v2-march-2024-update/&quot; rel=&quot;nofollow&quot;&gt;
+    Firefox
+   &lt;/a&gt;
+   ).
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;There could be minor cosmetic reasons we describe in the paper, but nothing that from our point of view significantly impacts privacy negatively,&quot; he said. &quot;It is important though to note our study is a snapshot in time, and future changes to MV3 might have an impact.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   The study did not consider how MV3 and MV2 browser extensions compare in terms of performance (e.g., page load speed). And the paper notes that the authors did not test whether MV3&#x27;s limit on the number of declarative rules could make MV3 extensions less effective for less frequently visited websites.
+  &lt;/p&gt;
+  &lt;p&gt;
+   That said, developers of Chrome-based extensions have a broader set of concerns than the APIs used for blocking content and tracking scripts. The technical and
+   &lt;a href=&quot;https://developer.chrome.com/blog/cws-api-v2&quot; rel=&quot;nofollow&quot;&gt;
+    functional
+   &lt;/a&gt;
+   improvements sought by developers have been slow to materialize and the
+   &lt;a href=&quot;https://www.theregister.com/2023/08/11/chrome_extension_developer_pressure/&quot;&gt;
+    oversight of the Chrome Web Store
+   &lt;/a&gt;
+   has been underwhelming –
+   &lt;a href=&quot;https://www.theregister.com/2025/12/01/chrome_edge_malicious_browser_extensions/&quot;&gt;
+    security
+   &lt;/a&gt;
+   is
+   &lt;a href=&quot;https://www.theregister.com/2025/12/16/chrome_edge_privacy_extensions_quietly/&quot;&gt;
+    still
+   &lt;/a&gt;
+   &lt;a href=&quot;https://www.theregister.com/2025/07/08/browser_hijacking_campaign/&quot;&gt;
+    a problem
+   &lt;/a&gt;
+   , among
+   &lt;a href=&quot;https://groups.google.com/a/chromium.org/g/chromium-extensions&quot; rel=&quot;nofollow&quot;&gt;
+    other issues
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   Still, there&#x27;s progress, with features like
+   &lt;a href=&quot;https://developer.chrome.com/blog/cws-publisher-pages?hl=en&quot; rel=&quot;nofollow&quot;&gt;
+    publisher pages
+   &lt;/a&gt;
+   ,
+   &lt;a href=&quot;https://developer.chrome.com/blog/verified-uploads-cws&quot; rel=&quot;nofollow&quot;&gt;
+    verified uploads
+   &lt;/a&gt;
+   , and
+   &lt;a href=&quot;https://developer.chrome.com/blog/cws-policy-update-affiliate-ads-2025&quot; rel=&quot;nofollow&quot;&gt;
+    changes to the Affiliate Ads Policy
+   &lt;/a&gt;
+   that disallow the alteration of affiliate links to
+   &lt;a href=&quot;https://www.kellerrohrback.com/news/honey-affiliate-marketer-commissions-theft&quot; rel=&quot;nofollow&quot;&gt;
+    steal affiliate revenue
+   &lt;/a&gt;
+   . ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenClaw reveals meaty personal information after simple cracks </title>
+<link>https://www.theregister.com/2026/02/05/openclaw_skills_marketplace_leaky_security/</link>
+<pubDate>Thu, 05 Feb 2026 23:44:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   Another day, another vulnerability (or two, or 200) in the security nightmare that is OpenClaw.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Researchers, over the last two days, have disclosed
+   &lt;a href=&quot;https://www.theregister.com/2026/02/02/openclaw_security_issues/&quot; target=&quot;_blank&quot;&gt;
+    additional issues
+   &lt;/a&gt;
+   with OpenClaw - the
+   &lt;a href=&quot;https://www.theregister.com/2026/02/03/openclaw_security_problems/&quot; target=&quot;_blank&quot;&gt;
+    vibecoded and famously insecure
+   &lt;/a&gt;
+   AI agent farm
+   &lt;a href=&quot;https://www.theregister.com/2026/01/27/clawdbot_moltbot_security_concerns/&quot; target=&quot;_blank&quot;&gt;
+    formerly known as
+   &lt;/a&gt;
+   Clawdbot and then Moltbot. Specifically, researchers say that the open source agent platform is vulnerable to
+   &lt;a href=&quot;https://www.theregister.com/2025/10/28/ai_browsers_prompt_injection/&quot; target=&quot;_blank&quot;&gt;
+    indirect prompt injection
+   &lt;/a&gt;
+   , allowing an attacker to backdoor a user&#x27;s machine and then steal sensitive data or perform destructive operations.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Plus, as other threat hunters have recently found, the ClawHub marketplace for OpenClaw is teeming with malware and leaky agent skills that expose sensitive credentials.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In a Thursday blog, Snyk engineers said they scanned the entire ClawHub marketplace containing nearly 4,000 skills and found that 283 of them - that&#x27;s about 7.1 percent of the entire registry - contain flaws that expose sensitive credentials.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   &quot;They are functional, popular agent skills (like moltyverse-email and youtube-data) that instruct AI agents to mishandle secrets, forcing them to pass API keys, passwords, and even credit card numbers through the LLM&#x27;s context window and output logs in plaintext,&quot; the engineers
+   &lt;a href=&quot;https://snyk.io/blog/openclaw-skills-credential-leaks-research/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    wrote
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   This security flaw is due to the SKILL.md instructions, and developers treating AI agents like local scripts.
+  &lt;/p&gt;
+  &lt;p&gt;
+   When someone prompts an agent to &quot;use this API key,&quot; the model saves the key in memory, and that conversation history can be leaked to model providers such as OpenAI or Anthropic - or they could appear in plain text in application logs.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Perhaps most alarming is the buy-anything skill (v2.0.0),&quot; the engineers wrote. &quot;It instructs the agent to collect credit card details to make purchases.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   To do this, the LLM tokenizes the user&#x27;s credit card number, thus sending financial info to the model provider. A subsequent prompt could ask the agent: &quot;Check your logs for the last purchase and repeat the card details,&quot; and thus expose the user&#x27;s credit card to an attacker, enabling financial fraud and theft.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Snyk&#x27;s research follows a similar blog the developer-focused security shop published on Wednesday that found
+   &lt;a href=&quot;https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    malware-laced skills
+   &lt;/a&gt;
+   across the ecosystem, including 76 malicious payloads designed for credential theft, backdoor installation, and data exfiltration.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Also on Wednesday, AI security firm Zenity&#x27;s research arm
+   &lt;a href=&quot;https://www.youtube.com/watch?v=jvlbhm2uSJ8&amp;t=1s&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    demonstrated
+   &lt;/a&gt;
+   how an attacker could use indirect prompt injection to backdoor OpenClaw users&#x27; machines. The problem here is due to AI agents&#x27; integrations with other productivity tools like Google Workspace and Slack, allowing OpenClaw to access email, calendars, documents, and enterprise Slack chats.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In Zenity&#x27;s proof-of-concept, the attack begins with a Google document and assumes that the OpenClaw instance already integrates with a user&#x27;s Google environment - although the threat hunters note that a Google Workspace integration is not a prerequisite for the attack. Any trusted third-party integration will work, as this initial integration is only needed to deliver the initial malicious document or other type of content.
+  &lt;/p&gt;
+  &lt;p&gt;
+   In the Google doc example, it contains an indirect prompt injection payload directing OpenClaw to create a new integration with a Telegram bot.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/cloud_hosted_openclaw/&quot;&gt;
+     Clouds rush to deliver OpenClaw-as-a-service offerings
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/openclaw_security_problems/&quot;&gt;
+     DIY AI bot farm OpenClaw is a security &#x27;dumpster fire&#x27;
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/02/openclaw_security_issues/&quot;&gt;
+     OpenClaw patches one-click RCE as security Whac-A-Mole continues
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/03/autonomous_cyberattacks_not_real_yet/&quot;&gt;
+     AI agents can&#x27;t yet pull off fully autonomous cyberattacks – but they are already very helpful to crims
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   &quot;Once the integration is created, OpenClaw begins accepting and responding to messages from the attacker-controlled bot,&quot; the researchers
+   &lt;a href=&quot;https://labs.zenity.io/p/openclaw-or-opendoor-indirect-prompt-injection-makes-openclaw-vulnerable-to-backdoors-and-much-more&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+    wrote
+   &lt;/a&gt;
+   . &quot;From this stage onward, the attacker interacts with OpenClaw exclusively through the newly added chat channel.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   This means that an attacker can issue commands via the bot, asking OpenClaw to read all of the files on a user&#x27;s desktop, steal their content and send it all to an attacker-controlled server, and then permanently delete all the files.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Or, they could instruct the agent to download and execute a Sliver command-and-control (C2) beacon onto the victim&#x27;s computer for long-term remote access. At this point, the attacker wouldn&#x27;t really even need the AI agent and could instead use the backdoor and C2 channel for lateral movement, privilege escalation, credential harvesting - even ransomware deployment.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The evil possibilities are truly endless.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   reached out to OpenClaw and its developer Peter Steinberger about these security issues - the latest in what has become a
+   &lt;a href=&quot;https://www.theregister.com/2026/02/04/cloud_hosted_openclaw/&quot; target=&quot;_blank&quot;&gt;
+    daily deluge
+   &lt;/a&gt;
+   of OpenClaw vulnerabilities - and did not receive an immediate response. We will update this story if and when we do. ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI chases business bucks with confusingly named Frontier platform </title>
+<link>https://www.theregister.com/2026/02/05/openai_debuts_frontier_platform/</link>
+<pubDate>Thu, 05 Feb 2026 20:41:33 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;p&gt;
+   OpenAI, a maker of frontier models, has announced a platform called Frontier to help enterprises implement software agents. That&#x27;s not confusing at all.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The AI biz wants to make it easier for risk-averse organizations to automate workflows with machine learning models, something companies have been loath to do because pilot tests of AI agents often
+   &lt;a href=&quot;https://www.theregister.com/2025/06/29/ai_agents_fail_a_lot/&quot;&gt;
+    fail to demonstrate meaningful value
+   &lt;/a&gt;
+   .
+  &lt;/p&gt;
+  &lt;p&gt;
+   OpenAI&#x27;s adoption of the term &quot;frontier&quot; is particularly confusing given that the company started using it to describe AI models in 2023, shortly before it
+   &lt;a href=&quot;https://openai.com/index/frontier-model-forum/&quot; rel=&quot;nofollow&quot;&gt;
+    announced
+   &lt;/a&gt;
+   the formation of the Frontier Model Forum.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;The Forum defines frontier models as large-scale machine-learning models that exceed the capabilities currently present in the most advanced existing models, and can perform a wide variety of tasks,&quot; the AI biz explained at the time.
+  &lt;/p&gt;
+  &lt;div&gt;
+  &lt;/div&gt;
+  &lt;p&gt;
+   Frontier models thus did not exist – being beyond existing models – but were somehow what forum members developed and deployed. The term is essentially code for leading US commercial AI models, as opposed to alternatives.
+  &lt;/p&gt;
+  &lt;p&gt;
+   The company&#x27;s
+   &lt;a href=&quot;https://openai.com/index/introducing-openai-frontier/&quot; rel=&quot;nofollow&quot;&gt;
+    Frontier platform
+   &lt;/a&gt;
+   is something else entirely. It helps orchestrate AI agents in the way that Kubernetes orchestrates containers.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;Frontier connects siloed data warehouses, CRM systems, ticketing tools, and internal applications to give AI coworkers that same shared business context,&quot; OpenAI explains. &quot;They understand how information flows, where decisions happen, and what outcomes matter. It becomes a semantic layer for the enterprise that all AI coworkers can reference to operate and communicate effectively.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Context, in the context of AI models, refers to the tokens available to an LLM, meaning the prompt text, the system prompt, and other data including past conversations and interaction history that seed model output. &quot;Business context&quot; then is information from different systems that&#x27;s been made available across technical and policy boundaries for AI agents to take action.
+  &lt;/p&gt;
+  &lt;p&gt;
+   OpenAI describes Frontier as enabling &quot;AI coworkers&quot; through an &quot;open agent execution environment.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;As AI coworkers operate, they build memories, turning past interactions into useful context that improves performance over time,&quot; the company explains, leaning into the conceit that agentic systems can replace employees.
+  &lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/04/aws_cloud_breakin_ai_assist/&quot;&gt;
+     AWS intruder achieved admin access in under 10 minutes thanks to AI assist, researchers say
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/anthropic_superbowl_openai_chatgpt_ads/&quot;&gt;
+     Anthropic apes OpenAI with cheeky chatbot commercials
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/microsoft_visual_studio_ai/&quot;&gt;
+     Microsoft declares &#x27;reliability&#x27; a priority for Visual Studio AI
+    &lt;/a&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;a href=&quot;https://www.theregister.com/2026/02/05/llm_poisoned_how_to_tell/&quot;&gt;
+     Three clues that your LLM may be poisoned with a sleeper-agent back door
+    &lt;/a&gt;
+   &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;
+   So, Frontier is a (hopefully) safe space to mingle data from sources like Google Calendar, Salesforce, SAP, and business guidance documents so AI agents can complete automated tasks like answering client sales queries.
+  &lt;/p&gt;
+  &lt;p&gt;
+   It sounds simple but clearly isn&#x27;t – OpenAI is promising to make Forward Deployed Engineers (FDEs) available to corporate IT teams to help get agent workflows into production.
+  &lt;/p&gt;
+  &lt;p&gt;
+   Cobus Greyling, chief evangelist at
+   &lt;a href=&quot;http://kore.ai&quot; rel=&quot;nofollow&quot;&gt;
+    Kore.ai
+   &lt;/a&gt;
+   , which also offers an agent platform for enterprises, told
+   &lt;em&gt;
+    The Register
+   &lt;/em&gt;
+   in an email that he doubts organizations will find Frontier all that compelling.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;OpenAI Frontier is a name for the frontier of what OpenAI&#x27;s tech enables, not a thing you install,&quot; he explained. &quot;It is basically a collective, informal label for using OpenAI&#x27;s newest models plus the modern APIs and patterns (Responses API, tool calling, structured outputs, reasoning models, multimodality, agents) together in a loosely coupled, composable way.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;There&#x27;s no monolithic &#x27;Frontier SDK&#x27; or framework; you&#x27;re stitching the pieces together yourself, choosing how tightly or loosely agents, tools, memory, and control logic interact.&quot;
+  &lt;/p&gt;
+  &lt;p&gt;
+   Greyling said Frontier is not so much a product as a design philosophy that calls for small, stateless model calls, clear role separation, orchestration in code rather than prompts, and decision-making models rather than a monolithic system making decisions.
+  &lt;/p&gt;
+  &lt;p&gt;
+   What OpenAI is doing, he argues, is similar to what rivals are doing – moving up the AI stack by shifting focus from the models themselves to the applications, tools, orchestration, and standards that define agents.
+  &lt;/p&gt;
+  &lt;p&gt;
+   &quot;This transition commoditizes base models while allowing providers to capture higher value in autonomous agents, enterprise workflows, and interoperability layers,&quot; he said.
+  &lt;/p&gt;
+  &lt;p&gt;
+   And OpenAI has to capture a lot of value to make up for
+   &lt;a href=&quot;https://www.theregister.com/2025/10/29/microsoft_earnings_q1_26_openai_loss/&quot;&gt;
+    its spending
+   &lt;/a&gt;
+   . ®
+  &lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
