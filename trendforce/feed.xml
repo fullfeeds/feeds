@@ -1,0 +1,3369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>TrendForce</title>
+<lastBuildDate>Sun, 15 Feb 2026 08:22:00 -0000</lastBuildDate>
+<item>
+<title> NVIDIA May Relax HBM4 Specs as Samsung and SK hynix Reportedly Face Capacity, Yield Limits </title>
+<link>https://www.trendforce.com/news/2026/02/13/news-nvidia-may-relax-hbm4-specs-as-samsung-and-sk-hynix-reportedly-face-capacity-yield-limits/</link>
+<pubDate>Fri, 13 Feb 2026 05:03:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;446&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/13120133/Samsung-HBM4-20260213-624x446.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/13120133/Samsung-HBM4-20260213-624x446.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/13120133/Samsung-HBM4-20260213-300x214.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/13120133/Samsung-HBM4-20260213-768x548.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/13120133/Samsung-HBM4-20260213-1024x731.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://zdnet.co.kr/view/?no=20260213100835&quot;&gt;
+       ZDNet
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Competition among memory suppliers in the HBM4 segment is heating up. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://zdnet.co.kr/view/?no=20260213100835&quot;&gt;
+    ZDNet
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Samsung Electronics edged ahead of SK hynix and Micron on the 12th by announcing its HBM4 mass-production shipments. Even so, the overall HBM4 supply dynamics this year are likely to hinge primarily on NVIDIA’s procurement strategy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report notes, performance remains critical, but bringing next-generation AI accelerators to market on schedule also depends on yield performance and reliable supply—not just top-line specifications. As a result, industry watchers are closely monitoring whether NVIDIA might relax its HBM4 performance thresholds or source slightly lower-tier variants in parallel with its highest-spec offerings.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Samsung’s Qualification Edge, but Supply Constraints Remain
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report states that industry expectations are increasingly tilted toward Samsung being the frontrunner to complete qualification testing for NVIDIA-bound HBM4. However, the report emphasizes that market attention is now more focused on NVIDIA’s overarching procurement strategy than on the exact pace of HBM4 shipments. Should NVIDIA hold firmly to the 11.7Gbps specification, the availability of sufficient HBM4 volumes for Rubin’s mass production could become constrained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung has limited headroom to sharply accelerate HBM4 supply. As of this month, yields for its 1c DRAM are estimated at around 60%, with effective yields declining further once advanced back-end processing is included, as the report points out. Moreover, 1c DRAM production capacity stood at roughly 60,000 to 70,000 wafers per month at the end of last year—insufficient to fully meet NVIDIA’s overall HBM4 demand. Although Samsung is moving ahead with fresh investments and line conversions for 1c DRAM, these efforts will require time before translating into meaningful increases in output.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   NVIDIA May Weigh Performance Against Supply Stability
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regarding SK hynix, ZDNet states that although the company has reportedly secured the largest portion of NVIDIA’s HBM4 allocation—about 60%—early reliability evaluations revealed difficulties in achieving 11Gbps-class performance. The report adds that SK hynix has been working on hardware refinements to address these shortcomings, though a definitive resolution has yet to be confirmed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this context, industry sources cited by the report indicate that NVIDIA may opt to procure not only 11.7Gbps HBM4 but also lower-tier alternatives such as 10.6Gbps versions. Such a strategy would reduce technical strain and make overall HBM4 supply more feasible for all three memory vendors. The report further notes that, amid a memory shortage even more severe than last year’s, NVIDIA is broadly expected to moderate its HBM4 performance criteria in order to ensure supply stability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/12/news-samsung-delivers-first-ever-commercial-hbm4-boosting-speeds-from-11-7%e2%80%afgbps-to-13%e2%80%afgbps/&quot;&gt;
+    [News] Samsung Delivers First-Ever Commercial HBM4, Boosting Speeds from 11.7 Gbps to 13 Gbps
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/12/news-micron-dismisses-sidelined-rumors-confirms-hbm4-shipping-a-quarter-early-speeds-over-11%E2%80%AFgbps/&quot;&gt;
+    [News] Micron Dismisses Sidelined Rumors, Confirms HBM4 Shipping a Quarter Early, Speeds Over 11 Gbps
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Samsung)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Kioxia Posts Record ¥543.6B Q3 FY25 Revenue, Confirms 2026 NAND Fully Booked </title>
+<link>https://www.trendforce.com/news/2026/02/13/news-kioxia-posts-record-%c2%a5543-6b-q3-fy25-revenue-confirms-2026-nand-fully-booked/</link>
+<pubDate>Fri, 13 Feb 2026 02:29:53 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;312&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/09/11161426/Kioxia-building-624x312.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/09/11161426/Kioxia-building-624x312.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/11161426/Kioxia-building-300x150.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/11161426/Kioxia-building-768x384.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/11161426/Kioxia-building-1024x512.png 1024w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/11161426/Kioxia-building.png 1600w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://ssl4.eir-parts.net/doc/285A/ir_material_for_fiscal_ym4/198279/00.pdf&quot;&gt;
+       &lt;span&gt;
+        Kioxia
+       &lt;/span&gt;
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://www.investing.com/news/stock-market-news/kioxias-monster-q4-outlook-sends-memory-stocks-soaring-again-4501918&quot;&gt;
+       Investing.com
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://ssl4.eir-parts.net/doc/285A/ir_material_for_fiscal_ym4/198279/00.pdf&quot;&gt;
+   &lt;span&gt;
+    Kioxia
+   &lt;/span&gt;
+  &lt;/a&gt;
+  reported its third-quarter earnings on February 12. As noted in its earnings presentation, for the three months ended December 31, 2025, the company posted record-high revenue of 543.6 billion yen, up 21.3% QoQ and 20.8% YoY. Net income reached 89.5 billion yen, up 114.9% QoQ and 17.3% YoY, with a margin of 16.5%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In terms of revenue by application, the company said strong AI demand drove record sales in smart devices and SSD &amp; storage. Notably, the SSD and storage segment, which includes memory products for PCs, datacenters, and enterprise customers, accounted for 55% of total sales, generating approximately 300.4 billion yen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The more significant upside came from the company’s outlook. For the fourth quarter, Kioxia forecast revenue of approximately ¥890 billion at the midpoint, well above the ¥648.2 billion consensus estimate. Adjusted net income is projected at ¥340 billion, compared with market expectations of ¥164 billion, as highlighted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.investing.com/news/stock-market-news/kioxias-monster-q4-outlook-sends-memory-stocks-soaring-again-4501918&quot;&gt;
+    Investing.com
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, the company stated that the CY2026 NAND market is expected to remain tight, as strong data center demand growth is likely to create supply constraints for the foreseeable future. It added that NAND demand is projected to exceed supply, with bit growth expected to reach the high teens in CY2026, compared with the mid-teens in CY2025. According to Investing.com, Kioxia also confirmed that its entire NAND flash production capacity for 2026 is already sold out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the company said its joint venture with SanDisk will transition to a compensation-based model, while continuing to supply SanDisk under the revised structure. Under the revised agreement, Kioxia expects to receive a total of USD 1,165 million over four years, from CY2026 to CY2029, for manufacturing services and ongoing product supply. The contract term has also been extended by five years, from the original expiration date of December 31, 2029 to December 31, 2034.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/29/news-second-tier-no-more-kioxia-and-sandisk-balance-alliance-and-rivalry-in-ai-nand-race/&quot;&gt;
+    [News] Second-Tier No More: Kioxia and SanDisk Balance Alliance and Rivalry in AI NAND Race
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/03/news-kioxia-names-new-president-ahead-of-earnings-release-key-points-to-watch/&quot;&gt;
+    [News] Kioxia Names New President ahead of Earnings Release: Key Points to Watch
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Kioxia)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Applied Materials Guides April Quarter Above Estimates; Sees 20%+ Semi Growth in 2026, DRAM Leads </title>
+<link>https://www.trendforce.com/news/2026/02/13/news-applied-materials-guides-april-quarter-above-estimates-sees-20-semi-growth-in-2026-dram-leads/</link>
+<pubDate>Fri, 13 Feb 2026 01:18:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/15100412/Applied-Materials-building-624x351.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/15100412/Applied-Materials-building-624x351.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/15100412/Applied-Materials-building-300x169.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/15100412/Applied-Materials-building-768x432.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/15100412/Applied-Materials-building-1024x576.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-02-12/applied-materials-gives-rosy-forecast-as-ai-memory-boost-demand&quot;&gt;
+       Bloomberg
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.reuters.com/business/applied-materials-forecasts-second-quarter-sales-above-estimates-2026-02-12/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-first-quarter-2026-results/&quot;&gt;
+       Applied Materials
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Despite booking a $252 million penalty tied to illegal equipment shipments to China, Applied Materials still delivered a confident outlook. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-02-12/applied-materials-gives-rosy-forecast-as-ai-memory-boost-demand&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the company projected fiscal second-quarter revenue of about $7.65 billion — well above analysts’ consensus of $7.03 billion for the April quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO Gary Dickerson, as per Bloomberg, highlighted surging demand for high-bandwidth memory (HBM), a critical enabler of AI computing, as a key growth driver. The largest U.S. chip equipment supplier expects its semiconductor systems business to expand by more than 20% in 2026, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/applied-materials-forecasts-second-quarter-sales-above-estimates-2026-02-12/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing Dickerson, reports that DRAM is set to be the fastest-growing segment in 2026, fueled by accelerating adoption of 3D chiplet stacking — a key packaging technology underpinning AI processor production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bloomberg adds that memory equipment demand is emerging as a standout driver, as its major customers such as Samsung and Micron ramp capacity to ease tight supply conditions. Among them, etch and deposition tools critical for DRAM production are set to benefit, as robust orders from AI-driven chipmakers continue to build, according to Bloomberg Intelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Financial Highlights: China Still Matters
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-first-quarter-2026-results/&quot;&gt;
+    Applied Materials
+   &lt;/a&gt;
+  &lt;/span&gt;
+  said it expects second-quarter earnings of roughly $2.64 per share, ahead of the $2.29 consensus estimate, Bloomberg reports, adding that in the first quarter, revenue dipped 2% to $7.01 billion — a smaller decline than analysts had feared. Earnings for the period ended Jan. 25 came in at $2.38 per share, surpassing projections of $2.21, Bloomberg suggests.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, despite ongoing export curbs, China remains a cornerstone market for the company. Company data show China accounted for 30% of revenue in 1QFY26 — the largest regional share — ahead of Taiwan (25%), Korea (21%) and the U.S. (9%).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prior to the announcement yesterday, which pinning down a $252 million penalty for Applied Materials for delivering chipmaking tools to SMIC, the company is also grappling with tighter U.S. export curbs. Bloomberg notes that in October, Applied Materials cautioned that expanded restrictions on China could reduce fiscal 2026 revenue by about $600 million. The Santa Clara, California-based company additionally announced plans to cut around 4% of its global workforce, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/12/news-us-reportedly-hits-applied-materials-with-252m-penalty-for-illegally-sending-chip-equipment-to-smic/&quot;&gt;
+    [News] US Reportedly Hits Applied Materials with $252M Penalty for Illegally Sending Chip Equipment to SMIC
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/11/14/news-applied-materials-flags-a-2026-china-fab-spending-drop-amid-tougher-u-s-export-rules/&quot;&gt;
+    [News] Applied Materials Flags a 2026 China Fab Spending Drop Amid Tougher U.S. Export Rules
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Applied Materials)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> DeepSeek Expands Context Tenfold as Zhipu Rolls Out New Model in China’s AI Race </title>
+<link>https://www.trendforce.com/news/2026/02/13/news-deepseek-expands-context-tenfold-as-zhipu-rolls-out-new-model-in-chinas-ai-race/</link>
+<pubDate>Fri, 13 Feb 2026 00:36:27 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;330&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12151330/Zhipu-AI-20260212-624x330.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12151330/Zhipu-AI-20260212-624x330.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12151330/Zhipu-AI-20260212-300x159.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12151330/Zhipu-AI-20260212-768x406.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12151330/Zhipu-AI-20260212-1024x542.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.scmp.com/tech/tech-trends/article/3343225/deepseek-boosts-ai-model-10-fold-token-addition-zhipu-ai-gears-glm-5-launch?module=top_story&amp;pgtype=section&quot;&gt;
+        South China Morning Post
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://news.10jqka.com.cn/20260211/c674733435.shtml&quot;&gt;
+       Ifeng Tech
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-02-11/china-s-zhipu-unveils-new-ai-model-jolting-race-with-deepseek&quot;&gt;
+       Bloomberg
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://m.sohu.com/a/986576602_120988576?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334&quot;&gt;
+        Shanghai Securities News
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.ithome.com/0/921/272.htm&quot;&gt;
+       ITHome
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  China’s AI model race is accelerating. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.scmp.com/tech/tech-trends/article/3343225/deepseek-boosts-ai-model-10-fold-token-addition-zhipu-ai-gears-glm-5-launch?module=top_story&amp;pgtype=section&quot;&gt;
+    South China Morning Post
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Chinese AI start-up DeepSeek has upgraded its flagship model with a significantly expanded context window and more up-to-date knowledge, fueling anticipation for its next major release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As part of the upgrade, the report says the model’s context window has been expanded from 128,000 tokens to over 1 million—a nearly tenfold increase expected to strengthen its ability to process and respond to complex prompts. Its knowledge cut-off has also been extended from July 2024 to May 2025, adding nearly a year of new information and allowing users to access more recent data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the upgrade does not introduce multimodal visual understanding capabilities, and the model remains focused on text and voice interactions, as noted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.10jqka.com.cn/20260211/c674733435.shtml&quot;&gt;
+    Ifeng Tech
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  South China Morning Post adds that the update comes amid mounting speculation over DeepSeek V4, as Chinese developers race to roll out new models.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-02-11/china-s-zhipu-unveils-new-ai-model-jolting-race-with-deepseek&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  further notes that Alibaba is also expected to unveil its flagship Qwen-3.5 model in the coming weeks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Intensifying Rivalry in China’s AI Arena
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Against this backdrop of accelerating launches, South China Morning Post also highlights that DeepSeek’s upgrade coincided with the debut of a new flagship model from Chinese AI startup Zhipu AI on the same day. The report notes that Zhipu AI’s GLM-5 offers enhanced coding and agentic capabilities, driven by a doubling of its parameter count and the adoption of DeepSeek Sparse Attention, a technique designed to balance performance with computational efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Strong market interest has followed. As reported by Bloomberg, Zhipu AI has increased the price of its GLM Coding Plan by 30% this week to capitalize on surging demand. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://m.sohu.com/a/986576602_120988576?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334&quot;&gt;
+    Shanghai Securities News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , China’s domestic large model players had previously competed mainly on price, but Zhipu’s price hike this time suggests a clear improvement in the technical strength and market competitiveness of Chinese models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ithome.com/0/921/272.htm&quot;&gt;
+    ITHome
+   &lt;/a&gt;
+  &lt;/span&gt;
+  also reports that Zhipu’s GLM-5 has been optimized for deep inference compatibility across a range of domestic Chinese computing platforms, including Huawei’s Ascend, Moore Threads, Cambricon, Kunlunxin, and MetaX. The broad hardware alignment is expected to support efficient deployment across increasingly diverse computing environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The competition is not limited to text-based models. TikTok parent ByteDance has also drawn strong praise for its upcoming video-generation model, Seedance 2.0, which remains in testing, according to Bloomberg. Positioned as a rival to OpenAI’s Sora, the model has produced a series of striking demo videos that have circulated widely online.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;img alt=&quot;&quot; height=&quot;800&quot; sizes=&quot;(max-width: 640px) 100vw, 640px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12160127/revised-color-Chinese-AI-model-recent-developments-819x1024.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12160127/revised-color-Chinese-AI-model-recent-developments-819x1024.png 819w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12160127/revised-color-Chinese-AI-model-recent-developments-240x300.png 240w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12160127/revised-color-Chinese-AI-model-recent-developments-768x960.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12160127/revised-color-Chinese-AI-model-recent-developments-624x780.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12160127/revised-color-Chinese-AI-model-recent-developments.png 1080w&quot; width=&quot;640&quot;/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/02/news-china-steps-up-ai-push-alibaba-latest-qwen-model-nears-u-s-rivals-moonshot-advances/&quot;&gt;
+    [News] China Steps Up AI Push: Alibaba Latest Qwen Model Nears U.S. Rivals; Moonshot Advances
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/26/news-chinese-ai-models-reportedly-hit-15-global-share-in-nov-2025-fueled-by-deepseek-open-source-push/&quot;&gt;
+    [News] Chinese AI Models Reportedly Hit ~15% Global Share in Nov. 2025, Fueled by DeepSeek Open-Source Push
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Zhipu)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel Reportedly Backs Out of 300mm Wafer Deal With Tower; Production Could Move to Japan </title>
+<link>https://www.trendforce.com/news/2026/02/13/news-intel-reportedly-backs-out-of-300mm-wafer-deal-with-tower-production-could-move-to-japan/</link>
+<pubDate>Thu, 12 Feb 2026 23:38:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12144646/intel-tower-semiconductor-logos-16x9-1-1536x864-624x351.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12144646/intel-tower-semiconductor-logos-16x9-1-1536x864-624x351.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12144646/intel-tower-semiconductor-logos-16x9-1-1536x864-300x169.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12144646/intel-tower-semiconductor-logos-16x9-1-1536x864-768x432.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12144646/intel-tower-semiconductor-logos-16x9-1-1536x864-1024x576.png 1024w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12144646/intel-tower-semiconductor-logos-16x9-1-1536x864.png 1536w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.calcalistech.com/ctechnews/article/bkm9mwcpbl&quot;&gt;
+       CTech
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+       &lt;a href=&quot;https://www.eenewseurope.com/en/tower-semiconductor-nvidia-team-up-on-1-6t-silicon-photonics-for-ai-data-centers/&quot;&gt;
+        EE News Europe
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-reports-record-revenue-fourth-quarter-2025&quot;&gt;
+       Tower Semiconductor
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  While Tower Semiconductor has just unveiled a silicon photonics partnership with NVIDIA, its ties with another major chipmaker appear to be unraveling. According to Israeli outlet
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.calcalistech.com/ctechnews/article/bkm9mwcpbl&quot;&gt;
+    CTech
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Tower disclosed that Intel intends to withdraw from a 2023 production agreement under which the U.S. semiconductor giant would have manufactured 300mm wafers for Tower’s clients at its New Mexico facility.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report, citing Tower, reveals that the companies have since entered mediation, with the production volumes originally slated for Intel’s New Mexico facility rerouted to its Fab7 plant in Japan, where the manufacturing processes were initially certified.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The now-fracturing arrangement between the two parties, signed in September 2023, was reached just weeks after Intel’s proposed $5.4 billion acquisition of Tower fell through, CTech explains. The manufacturing agreement was struck less than a month after the two companies scrapped their merger plans, as the deal failed to secure regulatory clearance in China, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Under the 2023 deal, Tower had planned to invest $300 million in equipment at Intel’s Rio Rancho site, securing capacity exceeding 600,000 photo layers per month to support next-generation 300mm wafer production, CTech adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, Tower Semiconductor shows strong momentum.
+  &lt;span&gt;
+   &lt;a href=&quot;https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-reports-record-revenue-fourth-quarter-2025&quot;&gt;
+    The company
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reported fourth-quarter 2025 revenue of $440 million on Wednesday, up 14% from a year earlier. For the full year of 2025, Tower posted a 9% rise in revenue to $1.6 billion, while net income increased 6% to $220 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead to early 2026, the company provided first-quarter guidance of $412 million in revenue, implying a 15% year-over-year gain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Teaming up with NVIDIA
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, Tower Semiconductor and NVIDIA have joined forces to advance next-generation AI infrastructure through 1.6T optical modules for data centers. As highlighted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.eenewseurope.com/en/tower-semiconductor-nvidia-team-up-on-1-6t-silicon-photonics-for-ai-data-centers/&quot;&gt;
+    EE News Europe
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the partnership leverages Tower’s advanced silicon photonics platform, engineered to address the escalating bandwidth and performance requirements of large-scale AI deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the report, Tower said its silicon photonics (SiPho) technology will underpin 1.6T optical modules built to support NVIDIA’s networking standards. The company noted that the platform can deliver up to twice the data rate of earlier silicon photonics generations, enabling greater bandwidth density and improved throughput for optical links within AI-driven infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/03/news-intel-reenters-dram-race-a-closer-look-at-the-z-angle-memory-collaboration-with-softbank/&quot;&gt;
+    [News] Intel Reenters DRAM Race? A Closer Look at the Z-Angle Memory Collaboration with SoftBank
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/29/news-emib-challenges-test-intel-amid-buzz-of-nvidia-considering-14a18a-and-packaging/&quot;&gt;
+    [News] EMIB Challenges Test Intel amid Buzz of NVIDIA Considering 14A/18A and Advanced Packaging
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Samsung Delivers First-Ever Commercial HBM4, Boosting Speeds from 11.7 Gbps to 13 Gbps </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-samsung-delivers-first-ever-commercial-hbm4-boosting-speeds-from-11-7%e2%80%afgbps-to-13%e2%80%afgbps/</link>
+<pubDate>Thu, 12 Feb 2026 07:49:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;446&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12153116/Samsung-HBM4-2-624x446.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12153116/Samsung-HBM4-2-624x446.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12153116/Samsung-HBM4-2-300x214.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12153116/Samsung-HBM4-2-768x548.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12153116/Samsung-HBM4-2.png 1000w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing&quot;&gt;
+       Samsung
+      &lt;/a&gt;
+      &lt;a href=&quot;https://www.yna.co.kr/view/AKR20260207018700003?input=1195m&quot;&gt;
+       ,
+      &lt;/a&gt;
+      &lt;a href=&quot;https://zdnet.co.kr/view/?no=20260212150634&quot;&gt;
+       ZDNet
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.tomshardware.com/tech-industry/sk-hynix-shows-16-hi-hbm4-memory-for-ai-accelerators-48-gb-at-10-gt-s-over-a-2-048-interface&quot;&gt;
+       Tom’s Hardware
+      &lt;/a&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Shortly after Micron dismissed HBM4 sidelined rumors, another memory giant,
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing&quot;&gt;
+    Samsung
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , announces that it starts HBM4 mass production, shipping the first commercial units and taking an early lead in the market. Using its advanced 6th-gen 10nm-class (1c) DRAM and 4nm logic die processes, the company hits high yields and peak performance from the start, with no redesigns needed, according to its press release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, Samsung highlights that its HBM4 delivers a steady 11.7 Gbps processing speed, roughly 46% faster than the 8 Gbps industry standard. This also marks a 1.22× increase over HBM3E, which maxed out at 9.6 Gbps, and performance can be pushed further to 13 Gbps, the company says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, total memory bandwidth per single stack has also surged 2.7× compared to HBM3E, reaching a maximum of 3.3 TB/s, reinforcing HBM4’s leadership in high-performance computing, according to Samsung.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, Samsung has rolled out 12-layer HBM4, offering 24 GB to 36 GB capacities, the company says. Looking ahead, 16-layer stacks will expand the lineup up to 48 GB, ensuring the memory giant stays aligned with customer needs and timelines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More detailed specs have also been revealed: Samsung’s HBM4, according to its press release, delivers a 40% boost in power efficiency thanks to low-voltage TSV technology and optimized power distribution networks, while thermal resistance rises 10% and heat dissipation improves 30% over HBM3E.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   HBM4E Samples Coming 2H26, Custom HBM Follows
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Building on this momentum,
+  &lt;span&gt;
+   &lt;a href=&quot;https://zdnet.co.kr/view/?no=20260212150634&quot;&gt;
+    ZDNet
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that Samsung Electronics expects HBM sales to more than triple in 2026 compared with 2025 amid current market trends, and is proactively ramping up HBM4 production capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Following the successful market launch of HBM4, sampling of HBM4E is slated for the second half of 2026, while custom HBM samples are set to reach customers in 2027, tailored to their specifications, Samsung states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, in early January, Samsung’s rival, SK hynix, showcased the industry’s first 16-Hi HBM4 memory package at CES 2026, highlighting densities made possible by its MR-MUF molding technology and the 2,048-bit interface of HBM4, as noted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.tomshardware.com/tech-industry/sk-hynix-shows-16-hi-hbm4-memory-for-ai-accelerators-48-gb-at-10-gt-s-over-a-2-048-interface&quot;&gt;
+    Tom’s Hardware
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . The company reportedly said its HBM4 stacks operate at 10 GT/s—25% faster than the JEDEC standard.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/09/news-samsung-hbm4-reportedly-to-ship-first-after-lunar-new-year-initial-share-projected-at-mid-20/&quot;&gt;
+    [News] Samsung HBM4 Reportedly to Ship First After Lunar New Year, Initial Share Projected at Mid-20%
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/&quot;&gt;
+    [News] SK hynix Reportedly to Supply About Two-Thirds of NVIDIA HBM4; Samsung Targets Early Delivery
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Samsung)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US Reportedly Hits Applied Materials with $252M Penalty for Illegally Sending Chip Equipment to SMIC </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-us-reportedly-hits-applied-materials-with-252m-penalty-for-illegally-sending-chip-equipment-to-smic/</link>
+<pubDate>Thu, 12 Feb 2026 06:00:25 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;456&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12134832/Applied-Materials-624x456.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12134832/Applied-Materials-624x456.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12134832/Applied-Materials-300x219.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12134832/Applied-Materials-768x561.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12134832/Applied-Materials-1024x748.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.reuters.com/world/china/applied-materials-pay-252-million-resolve-illegal-chip-exports-us-says-2026-02-12/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-applied-materials-q4-2025-sees-earnings-beat-stock-dips-93CH-4357421&quot;&gt;
+       Investing.com
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://seekingalpha.com/news/4550250-applied-materials-q1-earnings-on-deck-what-to-expect&quot;&gt;
+       Seeking Alpha
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Ahead of its upcoming earnings, U.S. chip equipment giant Applied Materials faces a $252 million hit, agreeing to settle over illegal exports of chipmaking tools to China’s top foundry, SMIC,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/world/china/applied-materials-pay-252-million-resolve-illegal-chip-exports-us-says-2026-02-12/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The announcement, as per Reuters, was made by the U.S. Department of Commerce on Wednesday. The report added that Applied Materials was under a U.S. criminal probe for producing semiconductor equipment in Massachusetts, routing it through a South Korean subsidiary, and ultimately sending it to SMIC in China.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shipments reportedly began after the U.S. Commerce Department added SMIC to its “Entity List” in December 2020. According to documents released Wednesday, Applied Materials first sent ion implanters—a critical chipmaking tool—to its South Korean subsidiary for assembly, then forwarded them to China without the required export licenses, Reuters adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Reuters notes that the $252 million penalty—twice the transaction value—is the maximum allowed under U.S. law. Authorities reportedly said 56 shipments were illegally sent to SMIC in 2021 and 2022, with the total value of the equipment estimated at roughly $126 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Reuters, Applied Materials said it was pleased to have reached a settlement with the Commerce Department and noted that the U.S. Department of Justice and Securities and Exchange Commission had closed their related investigations without taking any action.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   China and 2026 Outlook
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.investing.com/news/transcripts/earnings-call-transcript-applied-materials-q4-2025-sees-earnings-beat-stock-dips-93CH-4357421&quot;&gt;
+    Investing.com
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Applied Materials President and CEO Gary Dickerson said in November, 2025, that multiple trade rule changes in 2025 have reduced the size of the company’s addressable market in China. As a result, China accounted for 28% of total systems and services revenue in fiscal 2025 and 25% in the fourth quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dickerson also noted during the previous call that the company expects wafer-fab equipment spending in China to decline in 2026. According to a previous
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/business/applied-materials-forecasts-strong-quarterly-revenue-ai-chip-demand-2025-11-13/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  report, Dickerson said Applied Materials can no longer serve China’s memory chip and legacy chip markets due to tighter U.S. export controls, but he does not foresee major new restrictions on shipments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the upcoming 1QFY26 earnings.
+  &lt;span&gt;
+   &lt;a href=&quot;https://seekingalpha.com/news/4550250-applied-materials-q1-earnings-on-deck-what-to-expect&quot;&gt;
+    Seeking Alpha
+   &lt;/a&gt;
+  &lt;/span&gt;
+  suggests that Applied Materials is expected to report an EPS of $2.21, down 7.1% year-over-year, with revenue likely falling 4% to $6.88 billion for the quarter. During its Q4 earnings call, the company had guided Q1 revenue at $6.85 billion ± $500 million and non-GAAP EPS at $2.18 ± $0.20, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/11/14/news-applied-materials-flags-a-2026-china-fab-spending-drop-amid-tougher-u-s-export-rules/&quot;&gt;
+    [News] Applied Materials Flags a 2026 China Fab Spending Drop Amid Tougher U.S. Export Rules
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/10/03/news-latest-u-s-export-curbs-on-chinese-blacklisted-subsidiaries-could-cost-applied-materials-710m/&quot;&gt;
+    [News] Latest U.S. Export Curbs on Chinese Blacklisted Subsidiaries Could Cost Applied Materials $710M
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Applied Materials)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Panel Maker Innolux Fab 5 Reportedly Eyed by ASE, OSAT Firms — Micron Out of Picture </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-panel-maker-innolux-fab-5-reportedly-eyed-by-ase-osat-firms-micron-out-of-picture/</link>
+<pubDate>Thu, 12 Feb 2026 04:07:03 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;377&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12114033/Innolux-20260212-624x377.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/12114033/Innolux-20260212-624x377.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12114033/Innolux-20260212-300x181.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12114033/Innolux-20260212-768x464.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/12114033/Innolux-20260212-1024x619.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5341002&quot;&gt;
+       Liberty Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  AI-driven demand is fueling a new wave of capacity expansion, and the market is now suggesting that Innolux’s Nanke (Southern Taiwan Science Park) Fab 5 may be sold. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5341002&quot;&gt;
+    Liberty Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , panel maker Innolux plans to sell the facility to a major semiconductor packaging and testing company, with a formal announcement to follow board approval and the signing of the agreement. The report also states that the buyer is not Micron, contrary to earlier market speculation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In response to the rumors surrounding Nanke Fab 5, Innolux did not confirm the identity of the buyer yesterday but emphasized that any asset allocation decisions will be carefully evaluated in line with its long-term strategy. The company added that any material developments will be disclosed in accordance with regulations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   ASE’s Expansion Plans Draw Focus Amid Innolux Fab Sale Speculation
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Industry speculation points to a major semiconductor packaging and testing company as the potential buyer. As the report notes, SPIL, a subsidiary of ASE, is part of NVIDIA’s AI supply chain. In addition to building new packaging and testing facilities in central Taiwan, SPIL also spent NT$2.801 billion in mid-January this year to acquire the Zhunan plant of solar manufacturer URE through a competitive bidding process, underscoring its strong confidence in future market prospects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Such aggressive expansion aligns with ASE’s broader growth outlook. At a recent investor conference, ASE stated that advanced packaging and testing revenue reached US$1.6 billion last year and is projected to double to US$3.2 billion this year as AI applications become more widespread.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amid strong demand for advanced packaging and testing capacity, ASE plans to add US$1.5 billion in investment this year to expand capacity. Institutional investors cited by the report estimate the company’s total capital expenditure will reach a record US$7 billion in 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   AI-Driven Capacity Expansion Spurs OSAT Facility Acquisitions
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This wave of AI demand has also prompted other packaging and testing companies to acquire new facilities to expand capacity. As the report indicates, OSAT provider Powertech announced in November last year that it would acquire AUO’s Gen 3.5 fab in the Hsinchu Science Park for NT$6.898 billion, primarily to expand high-end panel-level fan-out packaging (FOPLP) capacity to meet strong advanced packaging demand from AI and HPC applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report adds that Innolux’s Nanke Fab 4 was sold to TSMC for more than NT$17.1 billion the year before last and has since been converted into TSMC’s advanced packaging facility, AP8. However, with new facilities in the Chiayi Science Park set to come online and further construction continuing, TSMC is reportedly inclined not to pursue additional plant acquisitions for advanced packaging conversion, even amid tight capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/14/news-ase-buys-nt2-8b-zhunan-facility-packaging-orders-reportedly-span-nvidia-amd-and-more/&quot;&gt;
+    [News] ASE Buys NT$2.8B Zhunan Facility, Packaging Orders Reportedly Span NVIDIA, AMD, and More
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/08/13/news-ase-acquires-win-semiconductors-facility-for-nt6-5b-to-meet-soaring-advanced-packaging-demand/&quot;&gt;
+    [News] ASE Acquires WIN Semiconductors’ Facility for NT$6.5B to Meet Soaring Advanced Packaging Demand
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Innolux)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Samsung Galaxy S26 Launch Feb. 25 Reportedly with Exynos 2600, Snapdragon; Memory Costs Hit Pricing </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-samsung-to-unveil-galaxy-s26-on-feb-25-with-exynos-2600-snapdragon-memory-costs-pressure-pricing/</link>
+<pubDate>Thu, 12 Feb 2026 02:57:24 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/11/19140718/Samsung-Galaxy-624x416.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/11/19140718/Samsung-Galaxy-624x416.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/11/19140718/Samsung-Galaxy-300x200.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/11/19140718/Samsung-Galaxy-768x512.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/11/19140718/Samsung-Galaxy-1024x682.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://money.udn.com/money/story/5612/9325033&quot;&gt;
+        Economic Daily News
+       &lt;/a&gt;
+       &lt;span&gt;
+        ,
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.chosun.com/economy/tech_it/2026/02/11/BY5P2TWQLVDRJABGVF5SO7L34U/&quot;&gt;
+        Chosun Ilbo
+       &lt;/a&gt;
+       &lt;span&gt;
+        ,
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.sammyfans.com/2026/02/10/samsung-galaxy-s26-ultra-release-date/amp/&quot;&gt;
+        Sammy Fans
+       &lt;/a&gt;
+       &lt;span&gt;
+        , and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://www.phonearena.com/news/galaxy-s26-pricing-leaks-again-france-is-the-latest-to-face-a-steep-samsung-tax_id177943&quot;&gt;
+        PhoneArena
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Samsung’s annual flagship lineup, the Galaxy S26 series, is set to launch.
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5612/9325033&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that Samsung has scheduled a global product launch event in San Francisco on February 25 (U.S. Pacific Time), where it is expected to unveil its AI-focused flagship lineup.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.chosun.com/economy/tech_it/2026/02/11/BY5P2TWQLVDRJABGVF5SO7L34U/&quot;&gt;
+    Chosun Ilbo
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , industry observers predict the Galaxy S26 series will introduce a range of new AI features, including enhanced privacy protection, security, and app-level device control. EdgeFusion—an on-device image generation AI that operates without a network connection—is expected to be included. Samsung Electronics also plans to introduce Perplexity’s AI model to the Galaxy S26, following Google’s Gemini.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the hardware side, the Galaxy S26 and S26 Plus are expected to use Exynos or Snapdragon processors depending on the market. Meanwhile, the Galaxy S26 Ultra is reportedly set to adopt the Snapdragon 8 Elite Gen 5 globally, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.sammyfans.com/2026/02/10/samsung-galaxy-s26-ultra-release-date/amp/&quot;&gt;
+    Sammy Fans
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . As noted by Economic Daily News, the Exynos 2600 is manufactured in-house by Samsung on its 2nm process, while the Qualcomm version is built on TSMC’s 3nm node.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Rising Memory Costs May Drive Galaxy S26 Price Increases
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the cost front, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5599/9325047&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , soaring memory prices have significantly increased costs, leading industry watchers to expect potential price hikes for the Galaxy S26 series. Although Samsung is a global memory chip leader, the current memory shortage has reportedly made it difficult even for Samsung’s own smartphone division to secure sufficient supply, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the S26 series has yet to be officially released, Economic Daily News cites
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.phonearena.com/news/galaxy-s26-pricing-leaks-again-france-is-the-latest-to-face-a-steep-samsung-tax_id177943&quot;&gt;
+    PhoneArena
+   &lt;/a&gt;
+  &lt;/span&gt;
+  as saying leaks suggest higher pricing in France for certain models. The 256GB version of the S26 is rumored to be priced at €999, up more than 4% compared with the €959 price tag of the 256GB S25. As for the core S26+ model, the 256GB version is reportedly priced at €1,269, which is €100 higher than the €1,169 price of the same-capacity S25+.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/06/news-galaxy-s26-prices-in-korea-could-rise-by-roughly-30-60-as-samsung-faces-soaring-component-costs/&quot;&gt;
+    [News] Galaxy S26 Prices in Korea Could Rise by Roughly $30–60 as Samsung Faces Soaring Component Costs
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/12/02/news-samsung-mx-faces-cost-strain-as-memory-division-reportedly-keeps-quarterly-pricing-for-galaxy-s26/&quot;&gt;
+    [News] Samsung MX Faces Galaxy S26 Cost Pressure as Memory Division Reportedly Sticks to Quarterly Pricing
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Samsung)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Micron Dismisses Sidelined Rumors, Confirms HBM4 Shipping a Quarter Early, Speeds Over 11 Gbps </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-micron-dismisses-sidelined-rumors-confirms-hbm4-shipping-a-quarter-early-speeds-over-11%e2%80%afgbps/</link>
+<pubDate>Thu, 12 Feb 2026 02:15:50 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/08/13165054/Micron-HBM4-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://ng.investing.com/news/stock-market-news/micron-stock-rises-55-after-cfo-clarifies-hbm4-production-status-2336979&quot;&gt;
+       Investing.com
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.yna.co.kr/view/AKR20260207018700003?input=1195m&quot;&gt;
+       Yonhap News
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.hankyung.com/article/202602092346i&quot;&gt;
+       Hankyung
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.ctee.com.tw/news/20260212700075-439901&quot;&gt;
+       Commercial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.cna.com.tw/news/afe/202602100374.aspx&quot;&gt;
+       Central News Agency
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Amid speculation that Micron could be left off NVIDIA’s HBM4 supplier roster, CFO Mark Murphy moved swiftly to shut down the narrative. Speaking at the Wolfe Research conference, Murphy rejected what he called “inaccurate reports,” stressing that the firm is already in high-volume production of HBM4 and has begun shipping to customers. Volumes are ramping in calendar 1Q — a full quarter ahead of the 2Q timeline outlined in December — according to remarks cited by
+  &lt;span&gt;
+   &lt;a href=&quot;https://ng.investing.com/news/stock-market-news/micron-stock-rises-55-after-cfo-clarifies-hbm4-production-status-2336979&quot;&gt;
+    Investing.com
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Murphy highlighted that yield performance for both HBM and HBM4 is progressing as planned, adding that the company’s HBM4 delivers speeds exceeding 11Gbps, positioning it among the fastest in the market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Investing.com, citing Murphy, notes that Micron first revealed HBM4 sampling in September, followed by a deeper technical briefing in November detailing its metallization approach, design architecture, and in-house CMOS integration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As NVIDIA gears up to unveil its next-gen AI accelerator, Vera Rubin, at GTC 2026 in mid-March, the battle for HBM4 dominance is heating up. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.yna.co.kr/view/AKR20260207018700003?input=1195m&quot;&gt;
+    Yonhap News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.hankyung.com/article/202602092346i&quot;&gt;
+    Hankyung
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Samsung is set to become the first company to mass-produce and ship HBM4 after Lunar New Year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hankyung also reported that NVIDIA tentatively allocated HBM4 volumes in late 2025: SK hynix claimed the largest share, around mid-50%, Samsung holds roughly mid-20%, and Micron about 20%. There has been market chatter suggesting Micron might be sidelined, but CFO Murphy dismissed these claims on February 11.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   More Expansion Move in Taiwan?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, following its acquisition of PSMC’s Tongluo fab, Micron is mulling to take over panel manufacturer Innolux’s Fab 5, accelerating its memory expansion in Taiwan through plant conversions,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20260212700075-439901&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If the speculation proves true, it wouldn’t be Micron’s first acquisition of fabs from Taiwanese panel makers. Amid tight capacity in advanced packaging and memory, several idle panel facilities have changed hands. According to Commercial Times, in 2024 AUO sold two Tainan fabs and part of its Houli AUO Crystal site to Micron.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Micron CFO Mark Murphy, as per Investing.com, noted that output from PSMC’s Tongluo fab is expected to start contributing around late 2027 into 2028. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.cna.com.tw/news/afe/202602100374.aspx&quot;&gt;
+    Central News Agency
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , PSMC’s board approved the sale of its Gongliao fab and related facilities to Micron on February 10. The deal is expected to generate a disposal gain of NT$19.647 billion, or roughly NT$4.65 per share, while the two companies will also form a long-term DRAM advanced packaging foundry partnership.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/09/news-samsung-hbm4-reportedly-to-ship-first-after-lunar-new-year-initial-share-projected-at-mid-20/&quot;&gt;
+    [News] Samsung HBM4 Reportedly to Ship First After Lunar New Year, Initial Share Projected at Mid-20%
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/&quot;&gt;
+    [News] SK hynix Reportedly to Supply About Two-Thirds of NVIDIA HBM4; Samsung Targets Early Delivery
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/30/news-samsung-sk-hynix-and-micron-reportedly-rein-in-orders-to-curb-hoarding-as-supply-tightness-persists/&quot;&gt;
+    [News] Samsung, SK hynix and Micron Reportedly Rein In Orders to Curb Hoarding as Supply Tightness Persists
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Micron)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MediaTek Ventures into Micro LED Optical Communication </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-mediatek-ventures-into-micro-led-optical-communication/</link>
+<pubDate>Thu, 12 Feb 2026 00:36:28 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/11153406/MediaTek-on-LinkedIn-20260211--624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/11153406/MediaTek-on-LinkedIn-20260211--624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11153406/MediaTek-on-LinkedIn-20260211--300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11153406/MediaTek-on-LinkedIn-20260211--768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11153406/MediaTek-on-LinkedIn-20260211--1024x682.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  MediaTek, a leading IC design firm, has for the first time disclosed its strategic layout in the optical communication sector.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company revealed that it has mastered self-developed Micro LED light source technology and utilized it to develop a new active optical cable (AOC) solution. MediaTek is expected to officially showcase this technology at the Optical Fiber Communication Conference (OFC) this April.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The solution developed by MediaTek primarily focuses on active optical cables. These products are designed for short-distance, high-speed interconnects, enabling highly efficient data transmission in critical scenarios such as between server racks and within data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to TrendForce, as data centers evolve toward large-scale clustering, high-speed interconnect technology has become the primary factor determining the performance ceiling and scalability of AI data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Global shipments of optical transceiver modules rated at 800G or higher are expected to reach 24 million units in 2025 and are projected to hit nearly 63 million units by 2026, representing a growth rate of 2.6 times.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Headquartered in Taiwan, MediaTek is a leading global semiconductor company. As a fabless enterprise, its core business has long encompassed mobile communications, smartphones, smart TVs, and Internet of Things (IoT) chips.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This latest move into optical communication further expands its research and development scope into high-speed data interconnects and data center-related technologies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  LED manufacturers are also accelerating their entry into the optical communication business. As the scale of AI servers expands rapidly, the demand for high bandwidth and high-speed interconnects continues to grow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The advantages of Micro LED, including low power consumption, high data transmission density, and temperature stability, are becoming increasingly prominent, attracting significant industry attention.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the first half of 2025, a partnership between TSMC and Micro LED optical interconnect developer Avicena garnered industry focus. In August of the same year, a Microsoft team also announced technical progress in this field.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Coupled with MediaTek’s recent announcement, these events have significantly boosted the profile of Micro LED in non-display applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The accelerated implementation of Micro LED optical communication relies on the collaborative efforts of the entire LED industry chain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Upstream LED chip manufacturers, such as Sanan Optoelectronics, BOE HC Semitek, HCEN, MTC, Ennostar, and Tyntek, are leveraging their existing Micro LED expertise to promote chips and devices specifically for optical communication, aiming for products with higher transmission rates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Packaging companies like Jufei Optoelectronics, NationStar, and DSBJ are also advancing their optical communication operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Furthermore, in January this year, PlayNitride announced a collaboration with Brillink, a member of the Alchip ecosystem, to jointly create a next-generation AI optical interconnect platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This partnership officially extends Micro LED technology from traditional displays to high-performance computing architectures, seeking to replace current mainstream active electrical cables (AEC) and provide critical transmission technology support for next-generation computing infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to TrendForce’s 2025 Micro LED Display and Non-Display Application Market Analysis, Micro LED is expected to benefit from the industrial scale of the display sector, leading to rapid cost reductions in the coming years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the trend of falling costs aligns with the high bandwidth requirements driven by the growth of AI computing power, the technical deployment of Micro LED in the optical communication field will further accelerate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The entry of companies like MediaTek, TSMC, and Microsoft, along with the accelerated layout of manufacturers across the industry chain, not only drives the diversified development of Micro LED in non-display applications but will also reciprocally promote mass production and industrial maturity in the display sector.
+ &lt;/p&gt;
+ &lt;p&gt;
+  (Photo credit: MediaTek on LinkedIn)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SK hynix Unveils AI Chip Architecture with HBF, Reportedly Boosts Performance per Watt by Up to 2.69× </title>
+<link>https://www.trendforce.com/news/2026/02/12/news-sk-hynix-unveils-ai-chip-architecture-with-hbf-reportedly-boosts-performance-per-watt-by-up-to-2-69x/</link>
+<pubDate>Wed, 11 Feb 2026 23:41:02 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;368&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/01/29110920/SK-hynix-Icheon-Campus-from-SK-hynix-newsroom-20260129-624x368.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/01/29110920/SK-hynix-Icheon-Campus-from-SK-hynix-newsroom-20260129-624x368.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/01/29110920/SK-hynix-Icheon-Campus-from-SK-hynix-newsroom-20260129-300x177.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/01/29110920/SK-hynix-Icheon-Campus-from-SK-hynix-newsroom-20260129-768x452.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/01/29110920/SK-hynix-Icheon-Campus-from-SK-hynix-newsroom-20260129-1024x603.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.hankyung.com/article/202602117796i&quot;&gt;
+       Hankyung
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.sisajournal-e.com/news/articleView.html?idxno=418621&quot;&gt;
+        Sisa Journal
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;span&gt;
+    SK hynix
+   &lt;/span&gt;
+  &lt;/span&gt;
+  has unveiled a new semiconductor architecture concept centered on High Bandwidth Flash (HBF), a memory technology that stacks multiple NAND flash dies. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.hankyung.com/article/202602117796i&quot;&gt;
+    Hankyung
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the company recently outlined the concept—dubbed “H3”—in a paper presented at the
+  &lt;span&gt;
+   &lt;span&gt;
+    Institute of Electrical and Electronics Engineers
+   &lt;/span&gt;
+  &lt;/span&gt;
+  (IEEE). H3 refers to a hybrid architecture that integrates both HBM and HBF into a single design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report notes, the H3 architecture places both HBM and HBF alongside the GPU responsible for computation, whereas in current AI chips—including NVIDIA’s Rubin platform set for release in the second half of this year—only HBM is positioned next to the GPU.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To assess the feasibility of the H3 design, SK hynix carried out simulation tests. In these trials, the company configured eight fifth-generation HBM (HBM3E) stacks and eight HBF stacks alongside NVIDIA’s latest GPU, the Blackwell (B200). The simulations indicated that performance per watt improved by as much as 2.69× compared with setups relying solely on HBM, as the report highlights.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   H3 Architecture with HBF May Boost AI Inference Performance
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, as the report points out, the H3 architecture is viewed as especially well-suited for AI inference, an area of growing importance. Inference refers to a model’s ability to reason and generate responses, and a central element of this process is the KV cache, which temporarily stores conversational context during user interactions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report explains that as AI models grow more sophisticated, KV cache requirements are expanding to levels that strain HBM and GPUs, potentially limiting overall computational efficiency. By deploying HBF as an additional high-capacity storage layer to absorb the KV cache, the GPU and HBM can be freed from storage overhead and concentrate on high-speed processing and generating new outputs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SK hynix also simulated scenarios in which HBF handled a massive KV cache of up to 10 million tokens. According to the report, the simulations showed that the system’s capacity to process simultaneous queries (batch size) rose by as much as 18.8× compared with HBM-only setups. Workloads that previously required 32 GPUs could be executed with just two GPUs, resulting in substantially improved power efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Technical Challenges to HBF Commercialization
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Through the paper, the company underscored HBF’s potential as a next-generation AI memory solution. However, as the report highlights, several challenges remain before commercialization. Although NAND flash offers high storage density, its relatively slow write performance, particularly when adding or modifying data, remains a key limitation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even if HBF is primarily used for read-intensive workloads within the hybrid architecture, write performance is becoming increasingly important for KV cache applications. The report notes that overcoming this limitation will require more advanced design, including significantly improving the controller performance of the base die at the bottom of the HBF stack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, as HBF gains momentum in AI memory, standardization efforts are intensifying. According to
+  &lt;a href=&quot;https://www.sisajournal-e.com/news/articleView.html?idxno=418621&quot;&gt;
+   &lt;span&gt;
+    Sisa Journal
+   &lt;/span&gt;
+  &lt;/a&gt;
+  , Samsung Electronics and SK hynix have signed memorandums of understanding (MOUs) with SanDisk to advance HBF standardization and are now pursuing those efforts through a joint consortium. Both companies are actively developing HBF products, targeting commercialization by 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/16/news-expert-says-hbf-may-be-deployed-in-nvidia-gpus-by-2027-28-market-could-surpass-hbm-by-2038/&quot;&gt;
+    [News] Expert Says HBF May Be Deployed in NVIDIA GPUs by 2027–28; Market Could Surpass HBM by 2038
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2025/12/29/news-slc-based-ai-ssds-gain-traction-as-sk-hynix-and-kioxia-accelerate-development-with-nvidia/&quot;&gt;
+    [News] SLC-Based AI SSDs Gain Traction as SK hynix and Kioxia Accelerate Development With NVIDIA
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SK hynix)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> First Look at ZAM: SAIMEMORY Unveils Vertical Memory at Intel’s Japan Event </title>
+<link>https://www.trendforce.com/news/2026/02/11/news-first-look-at-zam-saimemory-unveils-vertical-memory-to-overcome-thermal-limits-at-intels-japan-event/</link>
+<pubDate>Wed, 11 Feb 2026 06:32:12 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/11142024/Intel-Memory-624x351.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/11142024/Intel-Memory-624x351.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11142024/Intel-Memory-300x169.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11142024/Intel-Memory-768x432.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11142024/Intel-Memory-1024x576.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://pc.watch.impress.co.jp/docs/news/2083139.html&quot;&gt;
+       PC Watch
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://wccftech.com/intel-showcases-its-zam-memory-prototype-for-the-first-time/&quot;&gt;
+       Wccftech
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://eetimes.itmedia.co.jp/ee/articles/2602/03/news099.html&quot;&gt;
+       EE Times Japan
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.sandia.gov/research/news/from-early-rd-to-mature-technology/&quot;&gt;
+       Sandia National Laboratories
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://community.intel.com/t5/Blogs/Intel/Policy-Intel/Intel-and-SoftBank-Subsidiary-SAIMEMORY-Collaborate-to-Advance/post/1735559&quot;&gt;
+       Intel
+      &lt;/a&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Shortly after Intel announced the partnership with SoftBank’s subsidiary SAIMEMORY to develop Z-Angle Memory (ZAM), the product made its first public appearance when SAIMEMORY unveiled it at Intel Connection Japan 2026 on February 3,
+  &lt;span&gt;
+   &lt;a href=&quot;https://pc.watch.impress.co.jp/docs/news/2083139.html&quot;&gt;
+    PC Watch
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, while the full impact of ZAM versus HBM remains to be seen, early reports hint at some game-changing advantages.
+  &lt;span&gt;
+   &lt;a href=&quot;https://wccftech.com/intel-showcases-its-zam-memory-prototype-for-the-first-time/&quot;&gt;
+    Wccftech
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes the memory could cut power use by 40–50%, streamline production with Z-Angle interconnects, and pack up to 512 GB per chip.
+  &lt;span&gt;
+   &lt;a href=&quot;https://community.intel.com/t5/Blogs/Intel/Policy-Intel/Intel-and-SoftBank-Subsidiary-SAIMEMORY-Collaborate-to-Advance/post/1735559&quot;&gt;
+    Intel
+   &lt;/a&gt;
+  &lt;/span&gt;
+  added in a blog post that prototypes are slated for 2027, with a full-scale rollout expected by 2030.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to PC Watch, SAIMEMORY—founded in December 2024 and officially launched in June 2025—is a joint venture between SoftBank, Intel, and the University of Tokyo. At Intel Connection Japan 2026, the company, led by President and CEO Hideya Yamaguchi, unveiled ZAM, a next-generation memory designed for the AI market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The event also drew top Intel executives, including Fellow and CTO of Intel Government Technologies Joshua Fryman and Intel Japan CEO Makoto Onho, Wccftech reports.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Breaking Memory Limits
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  PC Watch elaborates more details on the product, noting that while traditional memory has been built using a planar stacked structure, this approach is reaching its limits due to power and heat constraints. Current designs have already pushed 16 layers close to the maximum, with 20 layers considered the upper limit, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In contrast, ZAM—named after the Z-axis—stacks dies vertically. As explained by PC Watch, this design promises lower power consumption, higher capacity, and wider bandwidth compared with conventional DRAM. By stacking dies vertically, heat from each die is conducted upward evenly, addressing thermal challenges that have long plagued planar stacking, the report suggests.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Echoing this, Wccftech, citing Intel, notes that this architecture’s primary advantage lies in its superior thermal management.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, the new memory product under development is expected to leverage Intel’s Next Generation DRAM Bonding (NGDB) initiative, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://eetimes.itmedia.co.jp/ee/articles/2602/03/news099.html&quot;&gt;
+    EE Times Japan
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . A January update from
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.sandia.gov/research/news/from-early-rd-to-mature-technology/&quot;&gt;
+    Sandia National Laboratories
+   &lt;/a&gt;
+  &lt;/span&gt;
+  explained that today, high-bandwidth memory often trades improved bandwidth for lower performance in other areas, like capacity. NGDB, on the other hand, aims to remove much of this tradeoff, bridging the gap between HBM and conventional DDR DRAM while delivering significantly better energy efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is worth noting that Intel may not be the only global partner for SAIMEMORY. According to PC Watch, SAIMEMORY emphasizes its strong partnerships, including collaboration with SoftBank and Intel, as well as a network of domestic and international investors and supply chain partners.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/03/news-intel-reenters-dram-race-a-closer-look-at-the-z-angle-memory-collaboration-with-softbank/&quot;&gt;
+    [News] Intel Reenters DRAM Race? A Closer Look at the Z-Angle Memory Collaboration with SoftBank
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel Japan’s X)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Shanghai IC Fund III Reportedly Expands 11-Fold to RMB 6B as China’s Chip Drive Accelerates </title>
+<link>https://www.trendforce.com/news/2026/02/11/news-shanghai-ic-fund-iii-reportedly-expands-11-fold-to-rmb-6b-as-chinas-chip-drive-accelerates/</link>
+<pubDate>Wed, 11 Feb 2026 05:24:00 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;350&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/10/08102125/China-chipmaking-FREEPIK-20250108-624x350.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/10/08102125/China-chipmaking-FREEPIK-20250108-624x350.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/08102125/China-chipmaking-FREEPIK-20250108-300x168.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/08102125/China-chipmaking-FREEPIK-20250108-768x430.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/08102125/China-chipmaking-FREEPIK-20250108-1024x574.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.scmp.com/tech/article/3343061/tech-war-shanghai-boosts-chip-fund-11-fold-under-chinas-self-sufficiency-drive?module=top_story&amp;pgtype=section&quot;&gt;
+        South China Morning Post
+       &lt;/a&gt;
+       &lt;span&gt;
+        and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://stcn.com/article/detail/3637922.html&quot;&gt;
+        Securities Times
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  China’s push for chip self-sufficiency is gathering pace. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.scmp.com/tech/article/3343061/tech-war-shanghai-boosts-chip-fund-11-fold-under-chinas-self-sufficiency-drive?module=top_story&amp;pgtype=section&quot;&gt;
+    South China Morning Post
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the Shanghai Integrated Circuit Industry Investment Fund III recently raised its registered capital by 5.5 billion yuan (US$794 million) to 6 billion yuan, representing an increase of more than elevenfold as it channels additional funding into Shanghai’s semiconductor firms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by the report, the fund has introduced two new equity investors: Shanghai State-owned Capital Investment Leading IC Private Equity Investment Fund, which will invest 4.5 billion yuan, and Pudong Venture Capital, backed by the Pudong district government, which is committing 500 million yuan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fund could expand further, as the report adds, noting that its first and second phases, launched in 2016 and 2020, each had registered capital of 24 billion yuan, suggesting room for additional scaling.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Shanghai’s IC Expansion Within China’s Broader Funding Push
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Shanghai IC Fund has invested in more than 20 domestic semiconductor firms, including wafer foundries SMIC and HLMC, a subsidiary of Hua Hong Group, as well as ACM Research Shanghai, a manufacturer of semiconductor cleaning equipment, the report states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by
+  &lt;span&gt;
+   &lt;a href=&quot;https://stcn.com/article/detail/3637922.html&quot;&gt;
+    Securities Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , data from the Shanghai Municipal Commission of Economy and Informatization show that Shanghai’s integrated circuit industry generated more than 480 billion yuan in revenue in 2025, with output value in the IC manufacturing segment rising 15.1% year on year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Across key segments—including chip design, manufacturing, packaging and testing, equipment and materials, as well as EDA/IP—Shanghai has cultivated a group of leading companies in niche industry fields. Among them, 35 companies listed on the STAR Market, ranking first nationwide, Securities Times notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The city’s efforts echo those of the China Integrated Circuit Industry Investment Fund, the national initiative known as the “Big Fund,” which was established in 2014 and whose three phases together have accumulated more than 620 billion yuan in registered capital, the South China Morning Post notes. The fund has invested in leading domestic players including SMIC and memory-chip makers YMTC and CXMT, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/12/news-chinas-domestic-chip-equipment-adoption-beats-2025-target-at-35-led-by-naura-amec/&quot;&gt;
+    [News] China’s Domestic Chip Equipment Adoption Beats 2025 Target at 35%, Led by NAURA, AMEC
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/11/news-smic-posts-record-9-3b-in-2025-sales-7nm-yields-reportedly-weigh-on-margins/&quot;&gt;
+    [News] SMIC Posts Record $9.3B in 2025 Sales; 7nm Yields Reportedly Weigh on Margins
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Winbond Expects DRAM Prices to Jump Nearly 4× by June 2026; Capacity Booked Through 2027 </title>
+<link>https://www.trendforce.com/news/2026/02/11/news-winbond-expects-dram-prices-to-jump-nearly-4x-by-june-2026-capacity-booked-through-2027/</link>
+<pubDate>Wed, 11 Feb 2026 03:03:46 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/11104047/Winbond-on-X-20260211-624x351.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/11104047/Winbond-on-X-20260211-624x351.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11104047/Winbond-on-X-20260211-300x169.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11104047/Winbond-on-X-20260211-768x432.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/11104047/Winbond-on-X-20260211-1024x576.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://money.udn.com/money/story/5612/9322327&quot;&gt;
+       Economic Daily News
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.ctee.com.tw/news/20260211700183-430501&quot;&gt;
+       Commercial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.winbond.com.tw/export/sites/winbond/about-winbond/investor/investor-conference/material/4Q25-investor-conference_EN_Final.pdf&quot;&gt;
+       Winbond
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  AI applications continue to drive unprecedented demand for memory, with DRAM supply tightness taking center stage at Winbond’s earnings call yesterday. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5612/9322327&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Winbond said the DRAM shortage is set to persist, with memory prices this quarter expected to surge 90–95%, and price increases next quarter likely to remain in line with the current quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Economic Daily News notes, beyond the near-doubling of prices this quarter, memory pricing is expected to rise by almost another fold in the second quarter, implying that by end-June, prices could be nearly four times those at the end of last year.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20260211700183-430501&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  also notes that Winbond’s capacity for this year and next year is already fully sold out, with utilization running at full load.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the back of the sharp pricing rebound, institutional investors are bullish on Winbond, expecting strong profit growth over the coming quarters. Management also indicated that gross margin this quarter will exceed 46.9%, Economic Daily News notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Winbond President Pei-Ming Chen, as cited by Economic Daily News, said the DDR4 supply gap is “so large that it’s hard to see how it can be filled.” Even as Winbond expands capacity, the company expects tight supply to persist for some time. He added that SLC NAND faces an even larger shortage, with price increases outpacing DRAM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Capacity Expansion and 2026 Output Outlook
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead to 2026, the company expects bit shipments to rise 30–40% year on year, while wafer starts are projected to grow by around 10% annually, Commercial Times notes. On capacity expansion, Winbond said the board has approved NT$42.1 billion in 2026 capex—a record high—to expand capacity across its CMS memory, NOR Flash, and SLC NAND product lines. The investment includes portions of multi-year payments and covers expansion at both the Taichung and Kaohsiung sites.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Memory Demand Fuels Strong Profit Recovery
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On profitability, according to Economic Daily News,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.winbond.com.tw/export/sites/winbond/about-winbond/investor/investor-conference/material/4Q25-investor-conference_EN_Final.pdf&quot;&gt;
+    Winbond
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reported net profit after tax of NT$3.422 billion in 4Q, up 16.28% quarter on quarter, swinging back from a net loss of NT$678 million a year earlier. For 2025, net profit reached NT$3.177 billion, nearly 3.5× that of 2024, with EPS of NT$0.88.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by Commercial Times, strong demand for DDR4 and LPDDR4 drove the CMS division’s full-year revenue up 139% year on year, making it Winbond’s key growth engine. NOR Flash revenue rose 8% year on year, allowing the company to retain its position as the world’s largest NOR Flash supplier and further expand market share. Meanwhile, the Logic IC business maintained stable shipments and a relatively steady gross margin structure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/21/news-volume-locked-price-flexible-ltas-gain-ground-in-dram-nanya-and-winbond-reportedly-extend-contracts/&quot;&gt;
+    [News] Volume-Locked, Price-Flexible LTAs Gain Ground in DRAM, Nanya, Winbond Reportedly Extend Contracts
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/07/news-memory-shortages-reportedly-spark-csp-buying-spree-2027-supply-contracts-eyed-as-early-as-q1/&quot;&gt;
+    [News] Memory Shortages Reportedly Spark CSP Buying Spree; 2027 Supply Contracts Eyed as Early as Q1
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Winbond)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SMIC Posts Record $9.3B in 2025 Sales; 7nm Yields Reportedly Weigh on Margins </title>
+<link>https://www.trendforce.com/news/2026/02/11/news-smic-posts-record-9-3b-in-2025-sales-7nm-yields-reportedly-weigh-on-margins/</link>
+<pubDate>Wed, 11 Feb 2026 02:21:44 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;350&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/10/23174926/SMIC-China-20251023-624x350.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/10/23174926/SMIC-China-20251023-624x350.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/23174926/SMIC-China-20251023-300x168.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/23174926/SMIC-China-20251023-768x431.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/23174926/SMIC-China-20251023-1024x575.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.chinastarmarket.cn/detail/2286255&quot;&gt;
+       chinastarmarket.cn
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.sohu.com/a/985997110_120311162&quot;&gt;
+       Sina
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://longportapp.cn/zh-HK/topics/38632875&quot;&gt;
+       Dolphin Research
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://www.stcn.com/article/detail/3638549.html&quot;&gt;
+       Security Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.smics.com/en/site/news_read/7949&quot;&gt;
+       SMIC
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Amid market talk of potential price hikes of around 10%, China’s leading foundry SMIC released its 4Q25 and full-year 2025 results on Feb. 10. Citing
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.chinastarmarket.cn/detail/2286255&quot;&gt;
+    chinastarmarket.cn
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.smics.com/en/site/news_read/7949&quot;&gt;
+    the company
+   &lt;/a&gt;
+  &lt;/span&gt;
+  ’s disclosure, fourth-quarter revenue came in at US$2.489 billion, rising 4.5% quarter on quarter and 12.8% year on year, while full-year sales climbed to a record US$9.327 billion, underscoring momentum from China’s push for chip self-sufficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Net profit attributable to shareholders reached US$173 million in 4Q25, slipping 9.9% from the prior quarter but soaring 60.7% year on year, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite strong sales and profit growth, SMIC’s gross margin slid to 19.2% in 4Q25, down from 22.0% in 3Q25 and 22.6% in 4Q24. Looking ahead, the company guides gross margin at 18%–20% for 1Q26, with revenue expected to remain broadly flat quarter on quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Though chinastarmarket.cn, citing SMIC’s remarks, notes that the decline in gross margin was mainly due to higher depreciation expenses,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.sohu.com/a/985997110_120311162&quot;&gt;
+    Sina
+   &lt;/a&gt;
+  &lt;/span&gt;
+  points to low yields at 7nm-equivalent nodes as the bigger hit to quarterly profitability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Revenue Breakdown: ASPs, Mix, and End Demand
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sina, citing
+  &lt;span&gt;
+   &lt;a href=&quot;https://longportapp.cn/zh-HK/topics/38632875&quot;&gt;
+    Dolphin Research
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , further notes that SMIC’s 4Q25 revenue increase came largely from higher average selling prices (ASPs), supported by a higher mix of 12-inch wafer shipments. Shipment volume rose just 0.6% quarter on quarter, while ASPs increased 3.8%, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On business progress, China-related revenue accounted for nearly 90% of total sales in the quarter, Sina reports. Fueled by downstream stockpiling demand—particularly for smart, small-form-factor electronic devices—the consumer electronics segment grew 10% quarter on quarter, making it the primary growth engine for the period, the report says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the revenue application breakdown cited by chinastarmarket.cn, consumer electronics drove 47% of 4Q25 sales, up from 43% in 3Q25, while smartphone revenue slid to 20%. Rising memory prices are set to keep the segment under pressure, as per Sina.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Capex and 2026 Expansion Plan
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.stcn.com/article/detail/3638517.html&quot;&gt;
+    Security Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  cites SMIC Co-CEO Zhao Haijun, reporting 2025 capex hit $8.1 billion—above early-year guidance—fueled by strong customer demand, shifting market conditions, and extended equipment lead times. Capex for 2026 is expected to stay roughly flat.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report, citing Zhao, says that by year-end, SMIC’s 8-inch monthly capacity reached 1.059 million wafers—up about 111,000 from a year earlier. Total shipments were around 9.7 million wafers, with an annual average utilization rate of 93.5%, rising 8 points year-on-year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, the foundry giant plans to further ramp up its 12-inch capacity. Zhao, as per
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.stcn.com/article/detail/3638549.html&quot;&gt;
+    Security Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , revealed that the company added roughly 50,000 12-inch wafers of capacity in 2025 and plans further expansion this year. Current estimates suggest year-end monthly 12-inch wafer capacity will rise by about 40,000 compared with 2025, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, as new fabs start depreciation, total depreciation in 2026 is expected to rise around 30% year-on-year, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/27/news-ai-demand-to-lift-mature-node-prices-smic-reportedly-up-10-vanguard-estimated-up-4-8-from-q1/&quot;&gt;
+    [News] AI Drives Mature-Node Prices: SMIC Reportedly Up 10%, Vanguard Estimated Up 4–8% From Q1
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/02/news-chinas-chip-consolidation-heats-up-hua-hong-acquires-97-5-of-huali-following-smics-earlier-move/&quot;&gt;
+    [News] China’s Chip Consolidation Heats Up: Hua Hong Acquires 97.5% of Huali, Following SMIC’s Earlier Move
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/01/news-smic-announced-two-massive-capital-investment/&quot;&gt;
+    [News] SMIC Announced Two Massive Capital Investment
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SMIC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Multiple Semiconductor Firms Implement Price Hikes </title>
+<link>https://www.trendforce.com/news/2026/02/11/news-multiple-semiconductor-firms-implement-price-hikes/</link>
+<pubDate>Wed, 11 Feb 2026 00:33:35 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/06111138/MAXIC-China-20260206-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/06111138/MAXIC-China-20260206-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06111138/MAXIC-China-20260206-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06111138/MAXIC-China-20260206-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06111138/MAXIC-China-20260206-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.yicai.com/news/103037653.html&quot;&gt;
+       Yicai
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  The semiconductor market has undergone significant changes recently, with a massive wave of price increases sweeping across the industry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Following previous announcements from Chinese firms such as Cmsemicon and Goke Microelectronics regarding price adjustments for specific product lines, several domestic semiconductor companies have followed suit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among them, memory manufacturer Puya Semiconductor stated that prices for some of its storage chip products have been adjusted within a reasonable range.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additionally, media outlets such as
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.yicai.com/news/103037653.html&quot;&gt;
+    Yicai
+   &lt;/a&gt;
+  &lt;/span&gt;
+  have reported that companies including MAXIC, Kiwi Instrument, and Injoinic have also kept pace with market trends by announcing their own price hikes, further intensifying the upward pricing momentum for domestic semiconductors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Puya Semiconductor: Moderate Increases in NOR Flash Prices
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Puya Semiconductor recently disclosed in an investor relations record that its NOR Flash products are currently maintaining a rhythm of steady and moderate price increases. A price recovery trend has already emerged for small-to-medium capacity NOR Flash products. Due to the interconnected nature of NOR Flash production capacity, large-capacity products—which possess higher unit value and consume more capacity—experienced price adjustments earlier in this cycle due to supply shortages and stimulated demand. These increases are now gradually being transmitted to small-to-medium capacity products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Puya Semiconductor noted that while certain memory products have seen reasonable price upward adjustments, the company will continue to evaluate future pricing based on market supply and production costs. Currently, price adjustments vary across different regions and customer segments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a well-known domestic provider of low-power non-volatile memory and derivative chips, Puya’s portfolio includes NOR Flash, EEPROM, MCUs, and analog products used in IoT, smartphones, servers, and automotive electronics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the storage industry currently in an upward cycle, international price hikes may prompt China’s domestic customers to turn toward local suppliers, allowing Puya to benefit from the localization trend and expand its market share.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   MAXIC: Price Adjustments Officially Initiated
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  MAXIC issued a price adjustment notice to its customers on January 30, 2026, stating that prices for certain products would be moderately increased effective immediately.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company cited the broader market environment, noting that rising upstream raw material costs and tight industry capacity have made it difficult for original pricing to cover production and supply chain costs. These factors have also hindered the company’s ability to guarantee stable capacity and product delivery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its notice, MAXIC emphasized that the decision was made after comprehensive evaluation to ensure long-term supply chain stability and quality.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While specific models and adjustment magnitudes were not detailed, the company stressed that the move is a necessary response to the current industry climate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MAXIC plans to continue optimizing production processes and operational efficiency to minimize the impact of these adjustments on its partners.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Although the company did not post the information on its official website, it confirmed via an investor interaction platform that price adjustments have been initiated based on market demand, material costs, and inventory levels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MAXIC specializes in high-performance analog and mixed-signal chips, focusing on power management and signal chain products for consumer electronics and automotive sectors. The company expects significant growth in shipment volume and improved gross margins in 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Kiwi Instrument: Upward Price Adjustments Announced
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On January 30, Kiwi Instrument released a price adjustment notice stating that its product prices would increase effective immediately. Similar to other firms, specific models and price ranges were not disclosed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company pointed to the continuous rise in upstream raw material costs and ongoing capacity shortages as the primary drivers for the change. Kiwi Instrument noted that original prices could no longer meet supply requirements and that the hike is essential for securing production capacity and ensuring reliable product delivery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company focuses on the design and sale of high-performance analog and mixed-signal integrated circuits, including power management, motor drive control, and battery management products used in data centers and industrial control.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Injoinic: Price Hikes for Selected Products
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On January 28, domestic chip manufacturer Injoinic issued a notice announcing price increases for a portion of its product lineup. The company explained that despite rising upstream costs, it had previously attempted to absorb the impact to keep prices stable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, to ensure long-term supply chain stability, it has decided to raise prices for certain models by a specific percentage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Injoinic emphasized that its actions align with national efforts to enhance supply chain resilience and curb destructive internal competition, aiming instead for a collaborative and win-win ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2014, Injoinic specializes in mixed-signal ICs, focusing on power management, fast charging protocols, and wireless signal processing. Its products are widely used in smartphones, laptops, automotive electronics, and AI hardware systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  (Photo credit: MAXIC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> India’s Chip Ambitions Grow: Qualcomm Completes 2nm Tape-Out, MediaTek Reportedly Mulls Entry </title>
+<link>https://www.trendforce.com/news/2026/02/11/news-indias-chip-ambitions-grow-qualcomm-completes-2nm-tape-out-mediatek-reportedly-mulls-entry/</link>
+<pubDate>Tue, 10 Feb 2026 23:37:32 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;397&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/09/08134957/Qualcomm-20250908-624x397.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/09/08134957/Qualcomm-20250908-624x397.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/08134957/Qualcomm-20250908-300x191.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/08134957/Qualcomm-20250908-768x489.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/09/08134957/Qualcomm-20250908-1024x652.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.business-standard.com/technology/tech-news/qualcomm-s-2nm-tape-out-adds-momentum-to-india-s-semiconductor-mission-126020900658_1.html&quot;&gt;
+       Business Standard
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://timesofindia.indiatimes.com/auto/news/mediatek-eyes-automotive-growth-with-nvidia-partnered-superchips/articleshow/128116333.cms&quot;&gt;
+       The Times of India
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  As India ramps up its semiconductor push, smartphone chip giant Qualcomm has completed the tape-out of a 2nm chip design in the country, marking a major milestone, according to local media
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.business-standard.com/technology/tech-news/qualcomm-s-2nm-tape-out-adds-momentum-to-india-s-semiconductor-mission-126020900658_1.html&quot;&gt;
+    Business Standard
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report, citing Qualcomm, notes that the work was carried out across the company’s engineering hubs in Bengaluru, Chennai, and Hyderabad, highlighting India’s expanding role in global chip design as the government accelerates efforts under the India Semiconductor Mission 2.0.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, Business Standard points out that Qualcomm’s 2nm chip will not be manufactured in India. However, the tape-out underscores that Indian engineering teams are now contributing to the most advanced phases of semiconductor design, as the country pushes to strengthen capabilities spanning design, packaging, testing, and, eventually, manufacturing, the report says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In semiconductor development, a “tape-out” marks the point at which a chip’s design is finalized and sent to a foundry for fabrication, the report explains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, Qualcomm is not the only global player turning its attention to India’s semiconductor landscape. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://timesofindia.indiatimes.com/auto/news/mediatek-eyes-automotive-growth-with-nvidia-partnered-superchips/articleshow/128116333.cms&quot;&gt;
+    The Times of India
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Qualcomm’s archrival, Taiwanese chipmaker MediaTek, is open to producing chips in the country as well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Times of India, citing Anku Jain, Managing Director of MediaTek India, suggests that the company recently expanded its lineup with the Dimensity 9500s and Dimensity 8500 chipsets in India, designed to enhance on-device AI, gaming, and connectivity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   India’s Chip Ambition: Key Details of ISM 1.0 and 2.0
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Business Standard, Qualcomm’s announcement comes amid India’s expanding semiconductor push under the India Semiconductor Mission (ISM) 2.0, highlighted in the Union Budget 2026–27. The earlier ISM 1.0, approved in 2021, introduced an incentive scheme worth INR 76,000 crore to support silicon fabs, compound semiconductor units, chip design firms, and assembly &amp; testing facilities, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other global chip giants are flocking to India’s semiconductor boom. According to Business Standard, by December 2025, Indian authorities had greenlit 10 projects across six states, totaling around INR 1.6 lakh crore in investments. Notable initiatives include Micron’s assembly and testing plant in Gujarat, Tata Electronics’ fabrication and packaging ventures in Gujarat and Assam, and a joint effort by CG Power, Renesas, and STARS Microelectronics, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ISM 2.0 takes the programme further, emphasizing equipment, materials, and full-stack chip design, while laying out a long-term roadmap toward advanced nodes like 3 nm and 2 nm, Business Standard notes. The plan also aims for India to develop the capability to design and produce chips meeting around 70–75% of domestic demand by 2029, the report says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/10/news-india-fires-up-4-chip-plants-targets-75-local-output/&quot;&gt;
+    [News] India Fires up 4 Chip Plants, Targets 75% Local Output
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Qualcomm)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> South Korea’s Firms Reportedly Posted 14% North America Sales Growth, SK hynix Soared 65% </title>
+<link>https://www.trendforce.com/news/2026/02/10/news-south-koreas-firms-reportedly-posted-14-north-america-sales-growth-sk-hynix-soared-65/</link>
+<pubDate>Tue, 10 Feb 2026 06:46:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/24095500/SK-hynix-624x351.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/07/24095500/SK-hynix-624x351.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/24095500/SK-hynix-300x169.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/24095500/SK-hynix-768x432.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/07/24095500/SK-hynix-1024x576.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.etnews.com/20260210000116&quot;&gt;
+       ETNews
+      &lt;/a&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.koreatimes.co.kr/business/tech-science/20260202/sks-us-ai-unit-plan-raises-questions-about-affiliates-ambitions&quot;&gt;
+       The Korea Times
+      &lt;/a&gt;
+      ,
+      &lt;a href=&quot;https://koreajoongangdaily.joins.com/news/2026-02-06/business/industry/%EB%8B%A8%EB%8F%85-%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-370%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%85%8C%EC%9D%BC%EB%9F%AC-%EA%B3%B5%EC%9E%A5-%EC%9E%84%EC%8B%9C-%EC%82%AC%EC%9A%A9-%EC%8A%B9%EC%9D%B8-%EB%B0%9B%EC%95%98%EB%8B%A4/2517262&quot;&gt;
+       Korea JoongAng Daily
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://news.skhynix.com/sk-hynix-to-establish-ai-solutions-arm-in-us/&quot;&gt;
+       SK hynix
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Amid lingering risks from the Trump administration’s tariffs, South Korea’s major conglomerates posted over 14% growth in North American sales through Q3 2025,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.etnews.com/20260210000116&quot;&gt;
+    ETNews
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports. Among them, memory powerhouse SK hynix led the surge, with its U.S. revenue jumping more than 65% year-over-year, the report says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to ETNews, citing corporate analysis firm Leaders Index, the North American sales growth of South Korea’s major firms was driven by IT, electronics, and pharmaceuticals/biotech, while sectors such as secondary batteries declined. Among 67 publicly disclosed companies and 194 subsidiaries in the top 500 by revenue, cumulative North American sales through Q3 last year reached KRW 343.8 trillion, up 14.1% year-on-year, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The IT and electronics sector drove South Korea’s North American sales growth, reaching KRW 157.9 trillion, up 20.7% year-on-year, the report notes. Within the sector, SK hynix stood out, with its North American revenue soaring 65.5% to KRW 45.2 trillion, pushing the region’s share of total sales past 70%, as highlighted by ETNews.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, South Korea’s other memory giant, Samsung Electronics, also posted gains, with North American sales climbing 10.2% year-on-year to KRW 93.3 trillion, according to ETNews.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The surge reportedly comes amid booming AI infrastructure investments since the second half of 2025, which have sharply lifted memory chip demand. Both Samsung Electronics and SK hynix have been ramping up supply to keep pace with the AI-driven surge, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SK hynix, Samsung Boost U.S. Footprint
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Against this backdrop,
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.skhynix.com/sk-hynix-to-establish-ai-solutions-arm-in-us/&quot;&gt;
+    SK hynix
+   &lt;/a&gt;
+  &lt;/span&gt;
+  revealed in late January its plan to launch a U.S.-based AI solutions company, tentatively named AI Company, targeting new growth opportunities in the booming AI market. The company said it will harness its cutting-edge chip technologies, including HBM, to play a pivotal role in delivering optimized AI systems for customers in the AI data center sector.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.koreatimes.co.kr/business/tech-science/20260202/sks-us-ai-unit-plan-raises-questions-about-affiliates-ambitions&quot;&gt;
+    The Korea Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes that SK hynix has set aside $10 billion to support the initiative. The company might also plan to convert its NAND-focused U.S. unit, Solidigm, into AI Co., while spinning off a new subsidiary under Solidigm to maintain its existing operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to industry sources cited by the report, SK hynix’s goals for AI Co. are twofold: establishing a strategic hub for AI investments in the U.S.—a crucial market for the sector—and finding new ways to leverage Solidigm’s capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, Samsung Taylor fab is reportedly making tangible progress.
+  &lt;span&gt;
+   &lt;a href=&quot;https://koreajoongangdaily.joins.com/news/2026-02-06/business/industry/%EB%8B%A8%EB%8F%85-%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-370%EC%96%B5-%EB%8B%AC%EB%9F%AC-%ED%85%8C%EC%9D%BC%EB%9F%AC-%EA%B3%B5%EC%9E%A5-%EC%9E%84%EC%8B%9C-%EC%82%AC%EC%9A%A9-%EC%8A%B9%EC%9D%B8-%EB%B0%9B%EC%95%98%EB%8B%A4/2517262&quot;&gt;
+    Korea JoongAng Daily
+   &lt;/a&gt;
+  &lt;/span&gt;
+  suggests the company has obtained temporary approval for portions of its facility under construction in Taylor, potentially accelerating the project from its original schedule.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sources cited by Korea JoongAng Daily indicate that Samsung is set to begin testing extreme ultraviolet (EUV) lithography tools as early as March, with full-scale 2nm output aimed for the second half of 2026. Once production ramps up, the Taylor plant is expected to produce Tesla’s AI5 chips under a contract through 2033 and supply the next-generation AI6 chips, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/06/news-samsung-sk-hynix-micron-reportedly-shift-to-short-term-post-settlement-deals-for-north-american-big-tech/&quot;&gt;
+    [News] Samsung, SK hynix, Micron Reportedly Shift to Short-Term, Post-Settlement Deals for Big Techs
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/04/news-samsung-sk-hynix-reportedly-projected-to-post-record-high-nand-margins-of-40-50-in-1h26/&quot;&gt;
+    [News] Samsung, SK hynix Reportedly Projected to Post Record-High NAND Margins of 40–50% in 1H26
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: SK hynix)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US Reportedly Mulls Tariff Exemptions for Amazon, Google, Microsoft on TSMC-Made Chips </title>
+<link>https://www.trendforce.com/news/2026/02/10/news-us-reportedly-mulls-tariff-exemptions-for-amazon-google-microsoft-on-tsmc-made-chips/</link>
+<pubDate>Tue, 10 Feb 2026 04:02:31 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;492&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/10115217/Google-data-center-624x492.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/10115217/Google-data-center-624x492.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/10115217/Google-data-center-300x237.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/10115217/Google-data-center-768x606.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/10115217/Google-data-center-1024x808.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.ft.com/content/e6f7f69a-2552-45f5-ae4c-6f1135e5cde1&quot;&gt;
+       Financial Times
+      &lt;/a&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        and
+        &lt;a href=&quot;https://www.ctee.com.tw/news/20251108700086-439901&quot;&gt;
+         Commercial Times
+        &lt;/a&gt;
+       &lt;/span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  While many details of the semiconductor duties remain unclear, one certainty is that in January the Trump administration slapped a 25 percent levy on certain AI chips from AMD and NVIDIA. Now, the
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ft.com/content/e6f7f69a-2552-45f5-ae4c-6f1135e5cde1&quot;&gt;
+    Financial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that Washington plans to exempt major tech players like Amazon, Google, and Microsoft as they race to expand the data centers powering the AI boom.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, the report, citing sources familiar with the matter, notes that the Commerce Department is preparing to grant US hyperscalers tariff carve-outs, contingent on investment commitments from foundry giant TSMC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Financial Times, under the reported new plan, TSMC would be able to grant exemptions for its US clients from the upcoming duties. However, the scale of the potential rebate program would be tied to the recent US-Taiwan trade deal, the report explains, adding that in return for a $250 billion investment in the US chip sector, the White House has agreed to cut tariffs on imports from Taiwan to 15 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   TSMC 3nm AI Chips Powering Big Tech
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As previously reported by
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.ctee.com.tw/news/20251108700086-439901&quot;&gt;
+    Commercial Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , many of these tech giants rely on TSMC to manufacture their in-house AI chips. Microsoft’s newly launched Maia 200 is built on TSMC’s 3nm process, while Google’s TPU v7e and v8p, Amazon’s Trainium 3, and Meta’s MTIA v3 are all produced on the 3nm node, the report added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Financial Times suggests that the intricate plan aims to push the world’s top chipmaker to ramp up production in the US. TSMC, which supplies the bulk of advanced AI chips, still carries out most of its manufacturing in Taiwan—but has committed $165 billion to expand capacity on American soil.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Based on the White House’s original plan, Taiwanese firms constructing semiconductor plants in the US would be allowed to import up to 2.5 times the planned capacity of the new facilities tariff-free during the build-out, according to a Commerce Department outline of the trade deal cited by the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Taiwanese companies with existing US plants, the limit would be 1.5 times their current capacity, Financial Times adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/05/news-google-reportedly-to-nearly-double-2026-capex-as-cloud-revenue-jumps-nearly-48/&quot;&gt;
+    [News] Google Reportedly to Nearly Double 2026 CapEx as Cloud Revenue Jumps Nearly 48%
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/05/news-google-led-tpu-innovation-with-patent-spike-broadcom-mediatek-reportedly-boost-reserved-wafers/&quot;&gt;
+    [News] Google Led TPU Innovation with Patent Spike; Broadcom, MediaTek Reportedly Boost Reserved Wafers
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Google)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TSMC Reportedly Set to Shift 80% of 8-Inch Output to Affiliate VIS, Doubling Its Capacity </title>
+<link>https://www.trendforce.com/news/2026/02/10/news-tsmc-reportedly-set-to-shift-80-of-8-inch-output-to-affiliate-vis-doubling-its-capacity/</link>
+<pubDate>Tue, 10 Feb 2026 02:26:00 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/10100717/TSMC-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/10100717/TSMC-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/10100717/TSMC-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/10100717/TSMC-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/10100717/TSMC-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from the
+      &lt;span&gt;
+       &lt;a href=&quot;https://udn.com/news/story/7240/9319737&quot;&gt;
+        Economic Daily News
+       &lt;/a&gt;
+      &lt;/span&gt;
+      ,
+      &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5337250&quot;&gt;
+       Liberty Times
+      &lt;/a&gt;
+      and
+      &lt;a href=&quot;https://www.thelec.kr/news/articleView.html?idxno=50887&quot;&gt;
+       The Elec
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  As TSMC accelerates its push into advanced nodes—led by 2nm and 3nm—to meet surging AI demand, the foundry heavyweight is quietly dialing back its 8-inch footprint. Citing IC design house sources, the
+  &lt;span&gt;
+   &lt;a href=&quot;https://udn.com/news/story/7240/9319737&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that TSMC currently runs about 5 million 8-inch wafers annually, with roughly 80% set to be gradually transferred to affiliate Vanguard International Semiconductor over the coming years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a result, the report expects Vanguard’s 8-inch capacity to double, providing a major boost to its operations. An earlier report from
+  &lt;span&gt;
+   &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5337250&quot;&gt;
+    Liberty Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  also suggested that Vanguard is running at full capacity and, after selective hikes in Q1, has notified customers of a second round of across-the-board foundry price increases from April, lifting prices by 10–15%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   TSMC’s 3nm Surge and Strategic Shift
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Economic Daily News reports that surging AI and high-performance computing demand is keeping TSMC’s sub-3nm nodes and advanced packaging in chronic short supply, while labor shortages, rising fab costs, longer build cycles, and limited floor space are adding pressure. In response, TSMC is reportedly optimizing its 6-inch and 8-inch mature-node operations, redirecting resources toward higher-margin, fast-growing AI businesses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond shifting 8-inch orders to VIS, TSMC is also optimizing 5nm and 7nm lines—freeing up 6nm capacity—to support the surging 3nm demand, the
+  &lt;span&gt;
+   &lt;a href=&quot;https://money.udn.com/money/story/5612/9317325&quot;&gt;
+    Economic Daily News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  notes. Its 3nm family is booming, with 2026 revenue expected to exceed NT$1 trillion and likely overtake 5nm this quarter as the top revenue driver, as backlogs stretch into 2028, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VIS as Main Beneficiary
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Under this framework, Vanguard International Semiconductor stands to be the biggest beneficiary. IC design houses cited by the Economic Daily News estimate TSMC’s annual 8-inch capacity at about 5 million wafers, with roughly 80% set to be transferred over time via order migration, tool transfers, and technology cooperation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted by the report, TSMC has already sold 8-inch equipment to Vanguard twice in recent years, and with gallium nitride (GaN) technology licensing, Vanguard now operates both GaN-on-Si and GaN-on-QST platforms, further rounding out its mature-node portfolio.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report adds that VIS currently operates five 8-inch fabs across Taiwan and Singapore, with average monthly capacity of about 286,000 wafers in 2025. Analysts cited by the report estimate that as TSMC’s capacity and equipment are gradually transferred, Vanguard’s annual 8-inch output could multiply over the coming years, lifting its market share and positioning it as a major global supplier in the 8-inch foundry segment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  TSMC is certainly not the only foundry player to winding down its 8-inch wafer output.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.thelec.kr/news/articleView.html?idxno=50887&quot;&gt;
+    The Elec
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reported in January that Samsung will shut down part of its 8-inch foundry operations within the year, as it pares back aging, low-margin processes and concentrates resources on advanced 12-inch nodes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Industry sources cited by the report say Samsung will close its S7 8-inch fab in Giheung in the second half of 2026, while continuing to operate the remaining S6 and S8 fabs at the site.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/15/news-global-8-inch-wafer-market-tightens-samsung-giheung-s7-tsmc-closures-put-china-fabs-in-spotlight/&quot;&gt;
+    [News] Global 8-Inch Wafer Market Tightens: Samsung Giheung S7, TSMC Closures Put China Fabs in Spotlight
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/14/news-8-inch-foundries-may-raise-prices-5-20-potentially-benefiting-umc-psmc-vanguard/&quot;&gt;
+    [News] 8-Inch Foundries May Raise Prices 5–20%, Benefiting UMC, PSMC, Vanguard
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: TSMC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> China’s GPU Vendors Roll Out New Architectures and Products, Taking Aim at NVIDIA </title>
+<link>https://www.trendforce.com/news/2026/02/10/news-chinas-gpu-vendors-roll-out-new-architectures-and-products-taking-aim-at-nvidia/</link>
+<pubDate>Tue, 10 Feb 2026 00:32:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;262&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/01/27161758/Iluvatar--624x262.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/01/27161758/Iluvatar--624x262.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/01/27161758/Iluvatar--300x126.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/01/27161758/Iluvatar--768x322.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/01/27161758/Iluvatar--1024x430.png 1024w&quot; width=&quot;624&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  At the start of 2026, China’s GPU industry has entered a phase of intensive innovation, with multiple domestic vendors unveiling self-developed architectures and new products targeting specific market segments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Iluvatar CoreX Unveils Gen-4 GPU Architecture Roadmap
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On January 26, Iluvatar CoreX released its fourth-generation GPU architecture roadmap, outlining an ambitious plan to surpass NVIDIA’s Rubin architecture by 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2025, the Iluvatar Tianshu architecture outperformed NVIDIA Hopper;
+  &lt;br/&gt;
+  In 2026, the Iluvatar Tianxuan architecture will benchmark NVIDIA Blackwell. Also in 2026, the Iluvatar Tianji architecture aims to surpass Blackwell; In 2027, the Iluvatar Tianquan architecture is planned to exceed NVIDIA Rubin; Beyond 2027, the company will shift its focus toward breakthrough computing chip architectures.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Iluvatar CoreX launched the “Tongyang” series of edge and endpoint computing products. The entire Tongyang lineup delivers verified, real-world dense computing performance, covering the 100–300 TOPS range. In benchmark tests across computer vision, natural language processing, and inference tasks for large models such as DeepSeek 32B, the TY1000 reportedly outperforms NVIDIA’s AGX Orin across the board.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Tongyang portfolio includes:
+  &lt;br/&gt;
+  TY1000: a pocket-sized computing module featuring a 699-pin interface that integrates enterprise-grade computing power for easy deployment;
+  &lt;br/&gt;
+  TY1100: equipped with an ARM v9 12-core CPU and a self-developed GPU, offering robust performance and diversified configuration options;
+  &lt;br/&gt;
+  TY1100_NX: featuring expanded memory capacity and strong cost-performance, positioned as a compact yet powerful edge device;
+  &lt;br/&gt;
+  TY1200: delivering up to 300 TOPS of performance in a compact form factor, tailored for cutting-edge scenarios such as AI PCs and embodied intelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On January 8, 2026, Iluvatar CoreX was listed on the Hong Kong Stock Exchange. As China’s first company to achieve mass production of general-purpose GPUs for both training and inference, it had delivered more than 52,000 GPUs to over 290 customers and completed more than 900 industry deployments as of June 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Sunrise Releases Next-Generation Inference GPU Qiwang S3
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On January 27, Hangzhou-based GPU company Sunrise disclosed its three-year product roadmap and launched its next-generation inference GPU, Qiwang S3, alongside the Huanwang SC3 super-node solution for large-model inference and a dedicated inference cloud initiative.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sunrise follows a development rhythm of “mass-produce one generation, release one generation, and pre-research one generation.” Under this strategy: In 2026, the company will commercialize the cost-effective inference GPU Qiwang S3; In 2027, it plans to launch the high-performance inference GPU Qiwang S4; In 2028, it aims to release the secure and controllable inference GPU Qiwang S5, clearly defining its development path in the inference GPU market over the next three years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The newly launched Qiwang S3 is China’s first GPGPU to adopt an LPDDR6 memory solution. It supports flexible multi-precision computing from FP16 down to FP4, while offering four times the memory capacity of its predecessor. In mainstream large-model inference scenarios, including full-scale DeepSeek V3/R1 deployments, the per-token inference cost is reduced by approximately 90% compared with the previous generation, translating into more than a tenfold improvement in cost efficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2020, Sunrise originated from SenseTime’s large-chip division.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   MetaX Launches Xiso X-Series Scientific Intelligence GPU
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On January 27, Metax Technologies officially introduced its new GPU brand and product line, the Xiso X-series. Designed specifically for scientific intelligence applications, the Xiso X-series GPUs are deeply optimized for advanced research scenarios.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the hardware architecture level, the Xiso X206 features full-precision mixed computing capabilities, supporting multiple precision formats to meet the diverse accuracy and efficiency requirements of different scientific workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the software side, the Xiso X206 is powered by Metax’s self-developed MXMACA software stack, offering full compatibility with mainstream GPU programming models and scientific computing frameworks, while supporting internationally recognized ecosystem interfaces.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In conjunction with Metax’s scientific computing platform, the Xiso X206 can support traditional high-performance computing workloads such as climate and weather modeling, computational fluid dynamics, ocean circulation analysis, and molecular dynamics simulations. At the same time, it provides computing power for AI-for-Science (AI4S) applications, including materials prediction, life sciences research, and advanced meteorological and oceanographic studies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  (Photo credit: Iluvatar CoreX)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> India Fires up 4 Chip Plants, Targets 75% Local Output </title>
+<link>https://www.trendforce.com/news/2026/02/10/news-india-fires-up-4-chip-plants-targets-75-local-output/</link>
+<pubDate>Mon, 09 Feb 2026 23:38:03 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/04174033/India-chip-FREEPIK-20260204-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/04174033/India-chip-FREEPIK-20260204-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/04174033/India-chip-FREEPIK-20260204-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/04174033/India-chip-FREEPIK-20260204-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/04174033/India-chip-FREEPIK-20260204-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Driven by a surge in global market demand, India is aggressively developing its domestic semiconductor capabilities, with plans to commence commercial production later this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the latest updates from the India Semiconductor Mission, four semiconductor plants are projected to launch commercial operations within the year, following trial production runs that began successively throughout 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amitesh Kumar Sinha, Joint Secretary at the Ministry of Electronics and Information Technology, noted that the mission has progressed rapidly since its inception in 2022. The initiative has already trained 65,000 professionals, positioning the country to surpass its 10-year target of 85,000 skilled workers well ahead of schedule.
+ &lt;/p&gt;
+ &lt;p&gt;
+  India’s semiconductor strategy encompasses both design and manufacturing. By 2029, the country aims to design and manufacture chips to meet 70% to 75% of domestic demand. Achieving this target will rely heavily on strengthening design capabilities across six core sectors: computing systems, radio frequency (RF), network security, power management, sensors, and memory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amid this industry push, Kaynes Semicon has already operationalized its facility in Gujarat, having initiated production in November 2024. Raghu Panicker, the company’s CEO, highlighted that the packaging and testing phase is critical to semiconductor production. He emphasized that this is not merely a matter of physical assembly or casing, but a sophisticated manufacturing process involving 10 to 12 distinct steps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The expansion of India’s semiconductor ecosystem is underpinned by significant government support. In December 2021, the government announced an outlay of 760 billion rupees (approximately $10 billion) to position India as a global hub for Electronics System Design and Manufacturing (ESDM). This investment cap may be raised further to accommodate the growing demands of artificial intelligence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These policies have attracted global heavyweights, such as ASML, to establish bases in India, further enhancing local design capabilities and affirming policy stability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead, India aspires to become a global center for semiconductor design by 2035. The roadmap also includes a target to master advanced manufacturing technologies, specifically the mass production of 3-nanometer process chips, by 2032.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This series of strategic moves underscores India’s ambition to secure a pivotal role in the global semiconductor supply chain and lays a solid foundation for future development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Global Memory Interconnect Leader Montage Technology Rides AI Data Center Boom to HK IPO </title>
+<link>https://www.trendforce.com/news/2026/02/09/news-global-memory-interconnect-leader-montage-technology-rides-ai-data-center-boom-to-hk-ipo/</link>
+<pubDate>Mon, 09 Feb 2026 09:03:56 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;323&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/09164926/Montage-Tech-V3-624x323.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/09164926/Montage-Tech-V3-624x323.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/09164926/Montage-Tech-V3-300x155.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/09164926/Montage-Tech-V3-768x398.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/09164926/Montage-Tech-V3-1024x530.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://news.cnyes.com/news/id/6337574&quot;&gt;
+        Anue
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;a href=&quot;https://jiweipreview.laoyaoba.com/n/981777&quot;&gt;
+       ijiwei
+      &lt;/a&gt;
+      &lt;span&gt;
+       , and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-02-08/montage-set-to-debut-after-902-million-hong-kong-share-sale&quot;&gt;
+       Bloomberg
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  As 2026 gets underway, China’s capital markets are already heating up with chip IPOs. Montage Technology, a designer of chips that speed data flows across data centers and AI accelerators, soared 57% on its Hong Kong debut February 9, backed by cornerstone investors including JP Morgan and Alibaba, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://news.cnyes.com/news/id/6337574&quot;&gt;
+    Anue
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://jiweipreview.laoyaoba.com/n/981777&quot;&gt;
+    ijiwei
+   &lt;/a&gt;
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-02-08/montage-set-to-debut-after-902-million-hong-kong-share-sale&quot;&gt;
+    Bloomberg
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , citing Montage’s Hong Kong listing prospectus, notes that the company ranked as the world’s largest memory interconnect chip supplier in 2024, commanding over one-third of global revenue share. Anue adds that the Chinese chipmaker, which produces PCIe retime chips and CXL MXC (Memory eXpander Controller) chips, counts Intel, AMD, and Samsung among its key customers, tightly aligned with the global buildout of AI data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2024, Montage reported RMB 3.64 billion in revenue and RMB 1.34 billion in net profit, according to Anue. Bloomberg adds that 2025 net income came in at RMB 2.15–2.35 billion, with analysts projecting it could reach RMB 3.3 billion in 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Based in Shanghai, Montage Technolgy is the latest in a string of China-based AI and semiconductor firms tapping capital markets, following January listings by GigaDevice Semiconductor and OmniVision Integrated Circuits, as noted by Bloomberg. Its offering also drew overwhelming demand from global investors, with its Hong Kong public tranche 707.3 times oversubscribed and the international placement 37.67 times covered, according to Anue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, Anue reports that Montage’s Hong Kong debut is a strategic move to establish an “A+H” dual-capital platform, following its 2019 STAR Market listing. Bloomberg notes the shares opened at HK$168, after a sale priced at HK$106.89, the top of the range—still a 44% discount to its Shanghai stock, which closed at RMB 170.90 the previous day.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/03/news-huawei-backed-norelsys-reportedly-enters-ipo-tutoring-amid-chinas-auto-chip-drive/&quot;&gt;
+    [News] Huawei-Backed Norelsys Reportedly Enters IPO Tutoring Amid China’s Auto-Chip Drive
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/23/news-alibaba-chip-unit-t-head-reportedly-eyes-spinoff-ai-chip-said-comparable-to-nvidia-h20/&quot;&gt;
+    [News] Alibaba Chip Unit T-Head Reportedly Eyes Spinoff &amp; IPO; AI Chip Said Comparable to NVIDIA H20
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Montage Technology)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Samsung Display Reportedly Weighs OLED Expansion as Apple May Plan a Second Foldable for 2027 </title>
+<link>https://www.trendforce.com/news/2026/02/09/news-samsung-display-reportedly-weighs-oled-expansion-as-apple-may-plan-a-second-foldable-for-2027/</link>
+<pubDate>Mon, 09 Feb 2026 06:22:08 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;416&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/02163217/three-folded-smartphones-FREEPIK-20260202-624x416.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/02163217/three-folded-smartphones-FREEPIK-20260202-624x416.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/02163217/three-folded-smartphones-FREEPIK-20260202-300x200.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/02163217/three-folded-smartphones-FREEPIK-20260202-768x512.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/02163217/three-folded-smartphones-FREEPIK-20260202-1024x683.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.etnews.com/20260206000164&quot;&gt;
+       ETNews
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.thelec.kr/news/articleView.html?idxno=51990&quot;&gt;
+       The Elec
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Samsung Display is reportedly evaluating an expansion of its OLED capacity for Apple’s foldable products. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.etnews.com/20260206000164&quot;&gt;
+    ETNews
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the company is reviewing additional investment to strengthen production capabilities not only for Apple’s first foldable iPhone but also for next-generation models, reflecting Apple’s growing expectations for the foldable category.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report notes, Samsung Display is weighing new investment in foldable OLED production equipment at its A4 plant in Asan, South Chungcheong Province, with a focus on upgrading backplane-related processes, including thin-film transistor (TFT) lines. The overall direction has been set, and once the exact scale of the investment is finalized through internal review, capital spending is expected to begin in the second quarter, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company is expected to pursue capacity expansion as Apple is said to roll out another foldable iPhone model next year, according to the report. With both the new model and the first-generation device likely to be sold concurrently in 2027, foldable iPhone shipments are widely expected to increase, raising the number of foldable OLED panels Samsung Display will need to supply.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung Display is expected to begin mass production of foldable OLED panels for Apple in June, the report highlights. The company has already established a dedicated Apple foldable OLED production line at its A3 facility, which has an annual capacity of approximately 15 million units based on 7-inch-class foldable OLED panels, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The iPhone Fold, Apple’s first foldable phone following years of preparation, adopts an in-folding design. It features a 7.58-inch internal display with a 4:3 aspect ratio and a 5.35-inch external display, with around 10 million units slated for production in its first year, the report notes. The report also adds that Samsung Display is Apple’s sole supplier of foldable OLED panels and is expected to maintain its dominant position for several years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Apple Evaluates Transparent PI Film; Kolon Industries in Focus
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond sourcing OLED panels from Samsung Display, Apple is also reportedly evaluating transparent polyimide (PI) film as the protective layer applied on top of ultra-thin glass (UTG) for the cover window of its first foldable product, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.thelec.kr/news/articleView.html?idxno=51990&quot;&gt;
+    The Elec
+   &lt;/a&gt;
+  &lt;/span&gt;
+  . With Apple evaluating transparent PI film, South Korea’s Kolon Industries is increasingly seen as a possible supplier, the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple’s entry into the foldable smartphone market is widely expected to be a key catalyst for broader adoption. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250819-12679.html&quot;&gt;
+    TrendForce
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the anticipated launch of Apple’s first foldable device in the second half of 2026 is projected to lift foldable phone penetration from 1.6% in 2025 to over 3% by 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/02/news-apple-reportedly-plans-clamshell-style-iphone-after-first-foldable-taking-aim-at-galaxy-z-flip/&quot;&gt;
+    [News] Apple Reportedly Plans Clamshell-Style iPhone After First Foldable, Taking Aim at Galaxy Z Flip
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20250819-12679.html&quot;&gt;
+    Standardized Hinges and Apple’s Entry Expected to Push Foldable Phone Penetration Beyond 3% by 2027, Says TrendForce
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/20/news-samsung-reportedly-achieves-20-crease-reduction-with-utg-galaxy-z-fold-8-apple-weigh-adoption/&quot;&gt;
+    [News] Samsung Reportedly Cuts Fold Crease 20% With Ultra-Thin Glass; Galaxy Z Fold 8, Apple May Adopt
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI Demand Blunts Foundry Seasonality: TSMC Sees 4% 1Q Growth; VIS, PSMC Raise Prices </title>
+<link>https://www.trendforce.com/news/2026/02/09/news-ai-demand-blunts-foundry-seasonality-tsmc-sees-4-1q-growth-vis-psmc-raise-prices/</link>
+<pubDate>Mon, 09 Feb 2026 03:13:01 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;384&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/10/07103541/TSMC-12inch-wafer-20251007-624x384.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/10/07103541/TSMC-12inch-wafer-20251007-624x384.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/07103541/TSMC-12inch-wafer-20251007-300x184.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/07103541/TSMC-12inch-wafer-20251007-768x472.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/10/07103541/TSMC-12inch-wafer-20251007-1024x630.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.cna.com.tw/news/afe/202602080164.aspx&quot;&gt;
+        Central News Agency
+       &lt;/a&gt;
+       &lt;span&gt;
+        and
+       &lt;/span&gt;
+       &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5337250&quot;&gt;
+        Liberty Times
+       &lt;/a&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  AI demand powers foundries through the slow season. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.cna.com.tw/news/afe/202602080164.aspx&quot;&gt;
+    Central News Agency
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , the first quarter is traditionally a slow season for foundries, but this year is benefiting from strong AI demand alongside a recovery in panel driver IC orders. As a result, foundries including TSMC are expected to see first-quarter operations remain resilient despite seasonal headwinds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As the report notes, driven by strong demand for advanced processes from AI-related applications, TSMC is expected to post first-quarter 2026 revenue between US$34.6 billion and US$35.8 billion, marking a record high. This would represent 4% quarter-over-quarter growth, positioning TSMC as the best-performing foundry in the first quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Vanguard Sees Strong Volumes, Moves to Price Hikes as Capacity Tightens
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  TSMC’s affiliate, Vanguard International Semiconductor, is seeing solid first-quarter momentum, with shipments of server power management ICs remaining strong, the report states. Inventory restocking and replenishment in the TV and e-reader markets are also supporting a recovery in display driver IC demand, with first-quarter wafer shipments expected to grow 1% to 3% quarter over quarter, according to the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, amid changes in the product mix, Vanguard’s average selling prices in the first quarter are expected to decline by around 3% to 5%, resulting in first-quarter revenue estimated to be flat to down 4% from the fourth quarter of 2025, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, according to
+  &lt;span&gt;
+   &lt;a href=&quot;https://ec.ltn.com.tw/article/breakingnews/5337250&quot;&gt;
+    Liberty Times
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Vanguard has been operating at full capacity and, following selective price hikes in the first quarter, has recently notified customers of a second round of across-the-board foundry price increases starting in April, with hikes ranging from 10% to 15%. The industry expects these increases to further lift Vanguard’s gross margin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   PSMC Signals Price Hikes as AI-Driven Demand Tightens Capacity
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  PSMC is also eyeing price hikes. As noted by Liberty Times, the company signaled upcoming increases during its investor conference last week, citing strong AI server–driven memory demand since January, which has partially crowded out logic capacity. As a result, wafer foundry prices for 12-inch display driver ICs (DDICs) and image sensors (CIS)—which were priced off a low base—have begun to rise since January, Liberty Times highlights. The report adds that power device demand tied to AI servers and edge computing—such as MOSFETs—has not only held up but increased, prompting PSMC to begin raising 8-inch wafer foundry prices from March.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   UMC Holds Steady Through the Slow Season
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alongside its peers, Central News Agency notes that UMC is expected to maintain stable operating performance in the first quarter. Wafer shipments and average selling prices are both projected to remain flat, resulting in flat first-quarter revenue—a stronger-than-usual seasonal outcome compared with the company’s typical 8%–9% quarter-on-quarter decline in past first quarters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Central News Agency adds that continued gains in market share in smartphone image signal processors and active-matrix organic light-emitting diode (AMOLED) driver ICs are expected to support growth in UMC’s 22nm process business, which is emerging as a key driver of overall performance growth.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/02/02/news-tsmc-2nm-reportedly-tight-amid-mobile-hpc-demand-nvidia-may-be-first-to-adopt-1-6nm-in-2028/&quot;&gt;
+    [News] TSMC 2nm Reportedly Tight Amid Mobile, HPC Demand; NVIDIA May Be First to Adopt 1.6nm in 2028
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/14/news-8-inch-foundries-may-raise-prices-5-20-potentially-benefiting-umc-psmc-vanguard/&quot;&gt;
+    [News] 8-Inch Foundries May Raise Prices 5–20%, Benefiting UMC, PSMC, Vanguard
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: TSMC)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Samsung HBM4 Reportedly to Ship First After Lunar New Year, Initial Share Projected at Mid-20% </title>
+<link>https://www.trendforce.com/news/2026/02/09/news-samsung-hbm4-reportedly-to-ship-first-after-lunar-new-year-initial-share-projected-at-mid-20/</link>
+<pubDate>Mon, 09 Feb 2026 02:46:05 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;468&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/05/02160941/Samsung-HBM4-624x468.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2025/05/02160941/Samsung-HBM4-624x468.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2025/05/02160941/Samsung-HBM4-300x225.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2025/05/02160941/Samsung-HBM4-768x576.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2025/05/02160941/Samsung-HBM4-1024x769.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.yna.co.kr/view/AKR20260207018700003?input=1195m&quot;&gt;
+        Yonhap News
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.yna.co.kr/view/AKR20260207018700003?input=1195m&quot;&gt;
+       ,
+      &lt;/a&gt;
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.hankyung.com/article/202602092346i&quot;&gt;
+        Hankyung
+       &lt;/a&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+       ,
+      &lt;/span&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.techpowerup.com/346044/nvidia-to-use-sk-hynix-and-samsung-hbm4-for-vera-rubin-without-micron&quot;&gt;
+       TechPowerUp
+      &lt;/a&gt;
+      &lt;span&gt;
+       &lt;span&gt;
+        .
+       &lt;/span&gt;
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  As NVIDIA prepares to debut Vera Rubin, its next-generation AI accelerator, at GTC 2026 in mid-March, the race for HBM4 supremacy between Samsung and SK hynix is drawing intense market attention. According to
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.yna.co.kr/view/AKR20260207018700003?input=1195m&quot;&gt;
+    Yonhap News
+   &lt;/a&gt;
+  &lt;/span&gt;
+  and
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.hankyung.com/article/202602092346i&quot;&gt;
+    Hankyung
+   &lt;/a&gt;
+  &lt;/span&gt;
+  , Samsung is poised to become the world’s first company to mass-produce and ship HBM4 after the Lunar New Year—but its initial share is expected to hover in the mid-20% range.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hankyung, citing industry sources, suggests that NVIDIA provisionally allocated HBM4 volume in late 2025. SK hynix is said to have received the largest share, in the mid-50% range, while Samsung holds the mid-20% range and Micron around 20%, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Samsung HBM4 Highlights
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite holding a smaller share, Samsung is making a strong comeback. Yonhap News reports it secured purchase orders after clearing NVIDIA’s quality tests ahead of schedule and plans to begin mass shipments of HBM4 as early as the third week of this month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond being first to market, its HBM4 is also touted as the highest-performing in the industry. The leap in performance, as per Yonhap, comes from a bold move: Samsung combined 1c (10nm-class, sixth-generation) DRAM with a 4nm foundry process for HBM4.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With this combination, Samsung’s HBM4 reaches data speeds of up to 11.7Gbps, well above the JEDEC standard of 8Gbps—37% faster than the benchmark and 22% ahead of the previous HBM3E (9.6Gbps), the report notes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yonhap adds that Samsung’s HBM4 also delivers a single-stack memory bandwidth of up to 3TB/s, roughly 2.4 times higher than its predecessor, and 36GB of capacity through 12-high stacking. With 16-high stacking, capacity could expand further to 48GB, according to Yonhap.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Dual-bet strategy
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung may not need to worry about its smaller HBM4 share. Hankyung notes that, unlike HBM, mainstream DRAM avoids complex packaging and offers far higher profit margins. With DRAM capacity reportedly 1.2× that of competitors, Samsung is taking a smart approach: showcase its HBM4 tech with NVIDIA while keeping the focus on the more profitable mainstream DRAM market, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The higher cost isn’t just from packaging. Hankyung suggests Samsung’s 4nm base die still sits in the advanced foundry tier, and 1c DRAM is the most advanced DRAM available. Compared with rivals using 12nm foundry node and 1b DRAM, Samsung’s HBM4 comes with higher production costs and greater yield uncertainty, as per Hankyung.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, like other memory giants under AI-driven demand, Samsung is also facing capacity constraints. Hankyung reports that 1c DRAM currently outputs about 70K wafers per month, roughly 10% of Samsung’s total DRAM capacity. Expansion at Pyeongtaek Line 4 is underway, but it will take a year for monthly output to reach around 190K wafers, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With prices surging across the board—not just for HBM but for all memory—Samsung has room to maneuver and aims to efficiently allocate its capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Where SK hynix and Micron Stand
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Why did NVIDIA give SK hynix the lion’s share of HBM4 despite Samsung’s breakthrough? Hankyung explains that HBM production takes over six months, so suppliers must be assigned capacity well in advance. The allocations reportedly reflect NVIDIA’s assessment of each supplier’s track record, HBM4 capacity, and qualification success.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, Hankyung reports that SK hynix has delivered strong results in recent qualification tests. With NVIDIA planning to deploy large volumes of HBM4 in Vera Rubin later this year, it is critical that the supplier with the largest HBM production capacity—SK hynix—can deliver reliably. In this context, NVIDIA’s decision to favor SK hynix appears reasonable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, another memory giant, Micron, appears to be falling behind. Hankyung reports market chatter that Micron is struggling to supply HBM4 to NVIDIA, potentially boosting Samsung’s share to 30%.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.techpowerup.com/346044/nvidia-to-use-sk-hynix-and-samsung-hbm4-for-vera-rubin-without-micron&quot;&gt;
+    TechPowerUp
+   &lt;/a&gt;
+  &lt;/span&gt;
+  adds that Micron might have no initial HBM4 allocation but will supply LPDDR5X for NVIDIA’s “Vera” CPUs, supporting up to 1.5TB and making up for its lost HBM4 share.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/&quot;&gt;
+    [News] SK hynix Reportedly to Supply About Two-Thirds of NVIDIA HBM4; Samsung Targets Early Delivery
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/26/news-samsung-reportedly-set-to-begin-official-hbm4-shipments-to-nvidia-and-amd-in-february/&quot;&gt;
+    [News] Samsung Reportedly Set to Begin Official HBM4 Shipments to NVIDIA and AMD in February
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Samsung)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Flexible AI Chip Integrating 10,628 Transistors Debuts, Paving the Way for Bendable Intelligence </title>
+<link>https://www.trendforce.com/news/2026/02/09/news-flexible-ai-chip-integrating-10628-transistors-debuts-paving-the-way-for-bendable-intelligence/</link>
+<pubDate>Mon, 09 Feb 2026 00:36:32 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;351&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/03182221/Chip-FREEPIK-20260203-624x351.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/03182221/Chip-FREEPIK-20260203-624x351.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/03182221/Chip-FREEPIK-20260203-300x169.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/03182221/Chip-FREEPIK-20260203-768x432.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/03182221/Chip-FREEPIK-20260203-1024x576.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Chinese researchers announced a major breakthrough on January 29 in a paper published in Nature, unveiling a fully flexible artificial intelligence chip that provides critical hardware support for applications such as wearable health monitoring devices and flexible robotics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As artificial intelligence continues to converge with the Internet of Things and embodied intelligence, demand is rapidly rising for lightweight, efficient, and flexible intelligent computing hardware. Conventional silicon-based rigid chips struggle to conform to the human body or complex curved surfaces, while existing flexible processors are typically constrained by low operating frequencies, high power consumption, and limited parallel computing capabilities—making them ill-suited for data-intensive tasks such as neural network inference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Researchers from Tsinghua University, Peking University, and other institutions have successfully developed the FLEXI series of fully flexible, digital compute-in-memory AI chips using domestic manufacturing processes, overcoming long-standing barriers that have limited the application of flexible electronics in high-performance edge AI computing. Based on low-temperature polycrystalline silicon thin-film transistors, the chip is ultra-thin, freely bendable, and features ultra-low power consumption, high energy efficiency, strong robustness, and low cost.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the research team, the chip adopts a compute-in-memory architecture centered on fully digital static random-access memory (SRAM), effectively integrating “memory units” and “computing units” into a single structure. This design eliminates the time and energy overhead associated with data movement, significantly improving computational efficiency. The smallest version, the FLEXI-1 chip, measures just 31.12 square millimeters and integrates 10,628 transistors, operating at an ultra-low power consumption of only 55.94 microwatts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yan Bonan, assistant professor at the Peking University Institute for Artificial Intelligence and one of the study’s authors, told reporters that the chip can withstand more than 40,000 cycles of 180-degree bending without performance degradation and has demonstrated stable operation over long-term tests lasting up to six months. It also supports neural network compression and one-click deployment, further enhancing on-chip intelligence. With a capacity of just 1 kilobit, a single flexible chip can achieve arrhythmia detection accuracy of up to 99.2%, positioning it as a core computing engine for next-generation wearable medical devices, flexible brain–computer interfaces, and intelligent robotic systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  (Photo credit: FREEPIK)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Innoscience GaN Products Break Into Google’s Supply Chain </title>
+<link>https://www.trendforce.com/news/2026/02/09/news-innoscience-gan-products-break-into-googles-supply-chain/</link>
+<pubDate>Sun, 08 Feb 2026 23:42:59 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;432&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/06150250/Innoscience-GaN-20260206-624x432.jpg&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/06150250/Innoscience-GaN-20260206-624x432.jpg 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06150250/Innoscience-GaN-20260206-300x208.jpg 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06150250/Innoscience-GaN-20260206-768x532.jpg 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06150250/Innoscience-GaN-20260206-1024x709.jpg 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;span&gt;
+       &lt;a href=&quot;https://www.hkexnews.hk/listedco/listconews/sehk/2026/0203/2026020302038.pdf&quot;&gt;
+        Innoscience
+       &lt;/a&gt;
+      &lt;/span&gt;
+      .
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  On February 3,
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.hkexnews.hk/listedco/listconews/sehk/2026/0203/2026020302038.pdf&quot;&gt;
+    Innoscience
+   &lt;/a&gt;
+  &lt;/span&gt;
+  released an official announcement regarding a major business breakthrough with Google.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company’s Gallium Nitride (GaN) products have successfully completed critical design-ins for Google’s relevant AI hardware platforms, and a formal compliance supply agreement has been signed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a global leader in the GaN industry, Innoscience’s collaboration with Google focuses on high-growth sectors such as AI servers and data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the announcement, Innoscience will leverage its current project development and customer engagement to deepen collaboration with industry chain partners.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company aims to advance the commercialization of its products in a compliant manner, fully meeting Google’s supply chain requirements for AI hardware as well as the global market’s urgent demand for high-performance, high-reliability GaN products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Innoscience’s official website, the company is the world’s first Integrated Device Manufacturer (IDM) to achieve large-scale mass production of 8-inch GaN-on-Silicon.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its Suzhou facility maintains a monthly capacity of 15,000 8-inch GaN wafers with a stable yield of 97%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its GaN products can increase server power density by 50%, reduce system components by 60%, optimize thermal conductivity in En-FCLGA packaging by 65%, and reduce system power consumption by over 50% for 100V-class solutions. By the end of 2025, Innoscience announced that its cumulative shipments of GaN power chips had reached 2 billion units.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In terms of global industrial layout, Innoscience has established deep partnerships with several renowned international corporations, covering core sectors such as AI computing, semiconductor manufacturing, automotive electronics, and industrial power supplies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In April 2025, Innoscience announced a GaN technology development and manufacturing agreement with STMicroelectronics. The two parties are jointly developing GaN power technologies and implementing complementary manufacturing resource sharing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Under the agreement, Innoscience can utilize STMicroelectronics’ European manufacturing capacity, while STMicroelectronics can rely on Innoscience’s Chinese capacity to jointly expand into AI data centers and automotive electronics, enhancing supply chain resilience and global delivery capabilities for both sides.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Subsequently, in November 2025, Innoscience announced that its 700V GaN wafers, featuring superior electrical performance and reliability, helped STMicroelectronics launch the VIPerGaN50W, a series of flyback power integrated devices based on GaN technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In October 2025, NVIDIA updated its 800V system supplier list on its official website, making Innoscience the only Chinese power semiconductor company to join the partnership list.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This collaboration focuses on high-end power architectures for AI data centers, jointly promoting the large-scale implementation of 800V DC power architectures.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Innoscience provides full-link GaN power solutions ranging from 15V to 1200V, supporting the leap from kilowatt to megawatt-level computing power to meet the efficient power needs of NVIDIA’s next-generation megawatt-scale computing infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additionally, Innoscience published a paper titled “Innoscience Advances 800VDC Architecture Using All-GaN Technology,” which systematically explains the compatibility of GaN technology with 800VDC architectures, providing solid technical support for the partnership and a reference path for global industrialization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In December 2025, Innoscience signed a strategic Memorandum of Understanding (MoU) with onsemi.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This partnership integrates Innoscience’s mature 200mm GaN-on-Si processes with onsemi’s expertise in system integration and packaging.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The collaboration focuses on 40-200V medium-to-low voltage GaN power devices across multiple scenarios, including industrial, automotive, telecommunications infrastructure, and AI data centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samples are planned for release in the first half of 2026 to jointly drive the mass production and market popularization of GaN products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  (Photo credit: Innoscience)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Intel Reportedly Warns China of CPU Shortages: Prices Up 10%+, Delivery Times Up to 6 Months </title>
+<link>https://www.trendforce.com/news/2026/02/06/news-intel-reportedly-warns-china-customers-of-cpu-shortages-prices-up-10-delivery-times-up-to-6-months/</link>
+<pubDate>Fri, 06 Feb 2026 08:12:21 -0000</pubDate>
+<description>
+&lt;div&gt;
+ &lt;div&gt;
+  &lt;img alt=&quot;&quot; height=&quot;417&quot; sizes=&quot;(max-width: 624px) 100vw, 624px&quot; src=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/06155903/Intel-CPU-624x417.png&quot; srcset=&quot;https://img.trendforce.com/blog/wp-content/uploads/2026/02/06155903/Intel-CPU-624x417.png 624w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06155903/Intel-CPU-300x200.png 300w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06155903/Intel-CPU-768x513.png 768w, https://img.trendforce.com/blog/wp-content/uploads/2026/02/06155903/Intel-CPU-1024x684.png 1024w&quot; width=&quot;624&quot;/&gt;
+  &lt;div&gt;
+   &lt;div&gt;
+    &lt;h5&gt;
+     &lt;strong&gt;
+      Please note that this article cites information
+     &lt;/strong&gt;
+     &lt;strong&gt;
+      from
+      &lt;a href=&quot;https://www.reuters.com/world/china/intel-amd-notify-customers-china-lengthy-waits-cpus-2026-02-06/&quot;&gt;
+       Reuters
+      &lt;/a&gt;
+      &lt;span&gt;
+       and
+      &lt;/span&gt;
+      &lt;a href=&quot;https://www.cls.cn/detail/2271491&quot;&gt;
+       Calian Press
+      &lt;/a&gt;
+      &lt;span&gt;
+       .
+      &lt;/span&gt;
+     &lt;/strong&gt;
+    &lt;/h5&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;p&gt;
+  Memory is not the only asset in short supply.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.reuters.com/world/china/intel-amd-notify-customers-china-lengthy-waits-cpus-2026-02-06/&quot;&gt;
+    Reuters
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that both Intel and AMD have warned Chinese customers of tightening server CPU supplies, with the crunch pushing average prices for Intel’s server processors in China up by more than 10%, though increases vary by contract.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Reuters, Team Blue is grappling with a sizable backlog for these CPU models, with delivery lead times stretching up to six months—particularly for its fourth- and fifth-generation Xeon processors, which are in especially tight supply.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Notably, China is a key market for Intel, accounting for over 20% of its total revenue, Reuters reports. In China, customers of Intel and AMD include top-tier server makers and major cloud players such as Alibaba and Tencent, the report adds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, AMD is facing similar constraints, as a source cited by Reuters said that lead times for certain AMD products have lengthened to around eight to ten weeks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   The Forces Behind CPU Shortages
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CPU crunch is being driven by a convergence of factors. Reuters notes that Intel, which flagged supply constraints in its January earnings call, says the AI boom is pushing strong demand for its so-called “traditional compute” workloads. In short, the demand is being amplified by the rapid uptake of agentic AI systems—which require far greater CPU processing power than traditional workloads, the report explains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Foundry bottlenecks add to the strain. As highlighted by Reuters, Intel has struggled to scale output amid persistent manufacturing yield issues, while AMD largely relies on Taiwan’s TSMC, which has prioritized AI chip orders, leaving limited capacity for conventional CPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Memory shortages have added further pressure. The report suggests that as memory prices in China began rising late last year, customers rushed to secure CPUs earlier to lock in lower memory costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, several Chinese chipmakers are raising prices and signaling longer delivery times.
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.cls.cn/detail/2271491&quot;&gt;
+    Calian Press
+   &lt;/a&gt;
+  &lt;/span&gt;
+  reports that among them, in late January, Cmsemicon hiked prices on products including MCUs and NOR Flash by 15%–50%, citing tight industry supply and rising costs that have stretched delivery cycles and pushed prices sharply higher.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Read more
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/23/news-supply-constraints-hit-intel-q1-forecast-14a-customer-demand-expected-2h26-1h27/&quot;&gt;
+    [News] Supply Constraints Hit Intel Q1 Forecast; 14A Customer Demand Expected 2H26–1H27
+   &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;a href=&quot;https://www.trendforce.com/news/2026/01/29/news-emib-challenges-test-intel-amid-buzz-of-nvidia-considering-14a18a-and-packaging/&quot;&gt;
+    [News] EMIB Challenges Test Intel amid Buzz of NVIDIA Considering 14A/18A and Advanced Packaging
+   &lt;/a&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  (Photo credit: Intel’s X)
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendforce.com/landingPage/semiconductor&quot;&gt;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;!-- {!!html_entity_decode(str_replace(&#x27;\n&#x27;,&#x27;&lt;br&gt;&#x27;,$data[&#x27;article&#x27;][0]-&gt;content))!!} --&gt;
+ &lt;!--	blog tag start --&gt;
+ &lt;!--AD-728x90--&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
