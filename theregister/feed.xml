@@ -1,0 +1,2807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Thu, 02 Jul 2026 22:33:08 -0000</lastBuildDate>
+<item>
+<title> Nvidia floats double-dipping datacenter financing scheme </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/02/nvidia-floats-double-dipping-datacenter-financing-scheme/5266184</link>
+<pubDate>Thu, 02 Jul 2026 21:55:31 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  AI infrastructure doesn&#x27;t come cheap. To keep up, rent-a-GPU outfits such as CoreWeave and Lambda have had to borrow billions of dollars from venture capitalists and hedge funds to bankroll their datacenter build outs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So long as their revenues are greater than the interest payments on the loans, they have the potential to make a profit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unfortunately for entrepreneurs looking to cash in on the AI hype, not everyone with a bright idea can tap into this kind of funding. But don’t worry, Nvidia is here to help.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a
+  &lt;a href=&quot;https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  published this week, the GPU giant floated the idea for a new program that promises to make it easier for emerging AI cloud providers to get the financing they need, although it&#x27;s not clear that Nvidia itself will be providing the financing – it may only be brokering deals with third-party lenders. Regardless, the GPU provider is expecting a cut of the revenues in exchange.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Through the partnership, AI clouds will sell Nvidia-powered cloud services, with Nvidia earning both standard product revenue and a share of the cloud revenue on the supported capacity,” the company explained. “This structure accelerates adoption of Nvidia platforms among the high-growth, high-conviction AI native sector, and provides Nvidia with a recurring, usage-linked earnings stream.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other words, Nvidia first brings in revenues based on how many of its products are deployed, and later, if the neocloud turns out to be successful, a share of the revenues its hardware generates. It could also provide a bit of insulation against a potential AI bust – if demand for new GPUs falls, Nvidia may still be able to earn a recurring revenue from the GPUs it&#x27;s already sold, assuming customer demand remains high.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Specifics on how this new business model will work in practice are rather thin. Nvidia declined to offer details beyond the contents of its blog post. However, the company has already signed up two customers, Sharon AI and Firmus, to put it to the test.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sharon AI is a sovereign AI cloud provider founded in 2024 based out of Australia, which is looking to deploy as many as 40,000 Grace Blackwell GB300 GPUs in the land down under.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Firmus plans to deploy as many as 170,000 Nvidia GPUs at a 360-megawatt facility in Batam, Indonesia, designed specifically to Nvidia’s DSX spec. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Companies that add more AI also add more people </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/02/companies-that-add-more-ai-also-add-more-people/5266134</link>
+<pubDate>Thu, 02 Jul 2026 20:19:33 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  AI leads to job losses, or so the conventional wisdom goes. But a new survey of over 21,000 US firms implies the exact opposite: When companies invest in AI, they add positions, but not immediately.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Ramp, an AI finance biz, and Revelio Labs, an HR biz, companies making a significant financial commitment to AI add jobs at a higher rate than low-intensity adopters. But job gains don&#x27;t appear until six to 12 months later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One might be tempted to interpret this as the amount of time it takes to assess the resources required to clean up after AI mistakes, but the Ramp study argues that the lag reflects the time required for best practices to filter through organizations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Firms that adopt AI grow headcount 10.2 percent over the two years following adoption, but these gains are entirely driven by high-intensity adopters,&quot; Ramp&#x27;s
+  &lt;a href=&quot;https://ramp.com/data/ai-jobs-impact&quot;&gt;
+   report
+  &lt;/a&gt;
+  on the subject claims. &quot;Low-intensity adopters see no statistically significant change.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  High-intensity adopter here means average per-employee AI spending of about $33.67 per month in the first three months of adoption (and rising over time), compared to low-intensity adopters spending just $2.78 per employee.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That&#x27;s far less than the roughly $86,000 in severance and restructuring charges Oracle incurred for each of the
+  &lt;a href=&quot;https://www.bbc.com/news/articles/c4gy0x0j5deo&quot;&gt;
+   21,000 employees laid off last year
+  &lt;/a&gt;
+  as a wage-shedding counterbalance to its
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438&quot;&gt;
+   AI capex costs
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a social media
+  &lt;a href=&quot;https://x.com/arakharazian/status/2071942215295705501?s=20&quot;&gt;
+   post
+  &lt;/a&gt;
+  , Ara Kharazian, lead economist at Ramp, cautioned that some skepticism is warranted because companies adopting AI are already faster growing. But he insists that the analysis accounts for that by comparing early adopters against firms that haven&#x27;t adopted yet, where the growth trajectory is assumed to be more similar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Entry-level headcount grows even faster, 12 percent over two years,&quot;
+  &lt;a href=&quot;https://x.com/arakharazian/status/2071942220861604320?s=20&quot;&gt;
+   said
+  &lt;/a&gt;
+  Kharazian. &quot;This is our first evidence that high-AI-adopting firms are hiring different kinds of employees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We believe they are selecting for a new set of skills, specifically, people who know how to use AI and use it well. Entry-level workers, especially recent graduates and college students, are a natural place to look.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  That may be the case at the companies surveyed, but other sources suggest that the trend hasn&#x27;t really improved the lot of those entering the job market. The unemployment rate for recent college graduates in March 2026 was 5.6 percent, compared to 4.3 percent for all workers, according to the
+  &lt;a href=&quot;https://www.newyorkfed.org/research/college-labor-market#--:explore:unemployment&quot;&gt;
+   Federal Reserve Bank of New York
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the
+  &lt;a href=&quot;https://www.bls.gov/news.release/empsit.nr0.htm&quot;&gt;
+   US Bureau of Labor Statistics
+  &lt;/a&gt;
+  , the US unemployment rate remained essentially flat since May, when it was 4.3 percent. &quot;Both total nonfarm payroll employment (+57,000) and the unemployment rate (4.2 percent) changed little in June,&quot; the Labor Department said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While Ramp&#x27;s data may suggest some upside to investing in AI, some businesses appear to be having second thoughts, based on concerns about cost and control. In a recent CNBC interview, Palantir CEO Alex Karp argued that military and private sector enterprises share similar skepticism about the way frontier model companies like OpenAI and Anthropic do business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Technical customers, Karp
+  &lt;a href=&quot;https://youtu.be/0A3sGymV6kY?si=cZFSbGjphMrgQ_fl&amp;t=214&quot;&gt;
+   said
+  &lt;/a&gt;
+  , want &quot;control over their compute, their models, their data stack, and their (investment) alpha. They want to know they own the means of production.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Karp argues that the AI industry needs to rebuild trust, which will require answers to basic questions like who owns the data, where it is stored, and whether prompts are secure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Karp acknowledges that&#x27;s a self-interested argument because Palantir is pushing a combination of mobile, application layer, and compute. But he&#x27;s also correct in identifying an unresolved problem with frontier model providers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Government organizations and enterprises can&#x27;t afford to be beholden to a capricious service provider, particularly if its AI models may not be available due to government restrictions, if its AI model may refuse to respond to what&#x27;s asked of it, or if the price becomes excessive.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When companies invest in AI, they add a job for model providers – make AI available, controllable, affordable, and worthwhile. That work still needs to be done. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Smooth AI criminal drives &#x27;first&#x27; end-to-end agentic ransomware attack </title>
+<link>https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073</link>
+<pubDate>Thu, 02 Jul 2026 18:05:50 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  They&#x27;re not bad; they&#x27;re just prompted that way. Sysdig threat hunters documented what they say is the first-ever documented agentic ransomware infection with an LLM - not a human - driving the entire extortion operation, from gaining initial access to compromising a production database server and destroying data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The security shop’s research team named the agentic intruder JadePuffer and said it gained initial access to an internet-facing Langflow instance by exploiting
+  &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2025-3248&quot; rel=&quot;nofollow&quot;&gt;
+   CVE-2025-3248
+  &lt;/a&gt;
+  , and then ran a fully automated attack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The most striking characteristic, however, was the LLM&#x27;s behavior,” Sysdig director of threat research Michael Clark
+  &lt;a href=&quot;https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion&quot; rel=&quot;nofollow&quot;&gt;
+   said
+  &lt;/a&gt;
+  in a blog about the agentic ransomware and extortion operation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  JadePuffer’s “self-narrating” payloads “contained natural language reasoning, target prioritization, and the kind of detailed annotations that human operators don’t often write but LLM-generated code produces reflexively,” Clark added. “The operation also adapted in real time, retrying failed steps within refined parameters. In one sequence, it went from a failed login to a working fix in 31 seconds.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  After exploiting CVE-2025-3248, a missing authentication vulnerability in
+  &lt;a href=&quot;https://github.com/langflow-ai/langflow&quot; rel=&quot;nofollow&quot;&gt;
+   Langflow
+  &lt;/a&gt;
+  that allows remote, unauthenticated attackers to execute arbitrary Python on the host, the AI agent began scanning for and collecting secrets, including LLM provider API keys, cloud credentials “with explicit coverage of Chinese providers” including Alibaba, Aliyun, Tencent, and Huawei, while also scanning for AWS, Azure and Google Cloud Platform, cryptocurrency wallets, and database credentials.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI also installed a crontab entry on the Langflow server to maintain persistence and call back to the attacker’s infrastructure every 30 minutes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  JadePuffer’s intended target was a separate internet-exposed production server running a MySQL database and an Alibaba Nacos configuration service, we’re told. Nacos is an open-source service-discovery and dynamic configuration platform developed by Alibaba and used in the cloud provider’s microservices applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agent connected to the server&#x27;s exposed MySQL port using root credentials, although Sysdig doesn’t know how the attacker obtained them. These credentials weren’t stolen from the victim’s environment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  JadePuffer then attacked Nacos via multiple vectors including an authorization bypass flaw (CVE-2021-29441) and forging a valid JSON web token (JWT) using Nacos&#x27;s default signing key. Additionally, using its root database access, the LLM injected a backdoor administrator into the Nacos backing database.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It ultimately encrypted all 1,342 Nacos service configuration items using MySQL&#x27;s built-in AES encryption function, and created an extortion demand, ransom note, Bitcoin payment address, and a Proton Mail contact:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   &quot;YOUR DATA HAS BEEN ENCRYPTED. All NACOS configurations, REDACTED customer data, and REDACTED PII have been encrypted with AES-256.&quot;, &quot;3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy&quot;, &quot;e78393397[@]proton[.]me&quot;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, according to the threat hunters, the victim can’t recover the encrypted data, even if they paid the ransom demand, because the agent escalated “from row-level deletion to dropping entire database schemas, narrating its own targeting rationale,” without backing up any of the encrypted data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are a couple of things that security teams and vulnerability managers should do immediately to avoid being ransomed by this AI agent. First up: patch Langflow to a release that fixes CVE-2025-3248, and do not expose code-execution/validation endpoints to the internet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Also, don’t ever expose Nacos to the open internet, change its default token.secret.key, and upgrade to a release that forces a custom key.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The threat hunters also recommend against running any AI orchestration servers with provider API keys or cloud credentials in their environment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the AI agent didn’t use any especially sophisticated or unique techniques in this attack, the fact that an LLM “strung them together into a complete ransomware operation against neglected internet-facing infrastructure,” is notable, according to Clark. “The skill floor for running ransomware has dropped to whatever it costs to run an agent, and if that agent is running on stolen credentials through
+  &lt;a href=&quot;https://www.theregister.com/security/2026/02/04/aws-intruder-pulled-off-ai-assisted-cloud-break-in-in-8-mins/4945272&quot;&gt;
+   LLMjacking
+  &lt;/a&gt;
+  , the cost to an attacker is close to zero.”®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nasuni sorts out large remote file SMB/NFS access pain </title>
+<link>https://www.theregister.com/file/2026/07/02/nasuni-sorts-out-large-remote-file-smb/nfs-access-pain/5266047</link>
+<pubDate>Thu, 02 Jul 2026 18:03:40 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Nasuni contrasts its high-performance edge caching-based remote file access with WAN optimization tools that make CAD assemblies replication of large files between sites take hours. We asked its CTO, Jerry Carter, some questions about this to find out more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Blocks &amp; Files: A Nasuni
+   &lt;a href=&quot;https://www.nasuni.com/blog/five-industry-4-0-challenges-nasuni-unifs-solves-for-manufacturers/&quot; target=&quot;_blank&quot;&gt;
+    blog
+   &lt;/a&gt;
+   cites CAD assembly replication over WAN optimization tools taking hours. What file sizes are we actually talking about, and what specific WAN optimization tools (Riverbed, Silver Peak, etc.) are customers typically using?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Jerry Carter:
+  &lt;/strong&gt;
+  CAD assemblies aren&#x27;t single files. A Revit project with linked MEP and structural models, or a large SolidWorks top-down assembly, is a collection of hundreds to thousands of referenced parts, families, and linked models, and the totals
+  &lt;span&gt;
+  &lt;/span&gt;
+  run from a few hundred megabytes into multiple gigabytes depending on project complexity. Across our AEC (Architecture, Engineering, and Construction) customer base, it&#x27;s not unusual to see tens to hundreds of terabytes of active project data and hundreds of in-flight projects at any one time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  As for the WAN-side stack, customers run the full spectrum: Riverbed Steelhead, HPE Aruba EdgeConnect (formerly Silver Peak), Cisco WAAS in older estates, and various SD-WAN platforms. None of them is the source of the pain. The pain
+  &lt;span&gt;
+  &lt;/span&gt;
+  is intrinsic to the protocols. SMB and NFS were designed for LAN-class latency, and every file open, attribute lookup, and lock acquisition is a separate round trip. No amount of TCP optimization or protocol acceleration can fully outrun physics when an application
+  &lt;span&gt;
+  &lt;/span&gt;
+  is round-tripping thousands of operations to open a single assembly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;strong&gt;
+   Blocks &amp; Files: What is the architectural difference between the traditional model (site-to-site replication over WAN optimization) and Nasuni&#x27;s edge appliance + cloud sync model? Specifically, how does each handle file access, change propagation,
+  &lt;/strong&gt;
+  &lt;span&gt;
+   &lt;strong&gt;
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;strong&gt;
+   and latency?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;strong&gt;
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;strong&gt;
+   Jerry Carter:
+  &lt;/strong&gt;
+  In the traditional model, file servers replicate site-to-site and users access them natively over SMB or NFS across the WAN. WAN optimization appliances sit inline and do their part: TCP optimization, deduplication, and protocol acceleration
+  &lt;span&gt;
+  &lt;/span&gt;
+  like read-ahead, write-behind, and CIFS/SMB pre-acknowledgment. The protocols were always the wall they kept running into. SMB and NFS are chatty and round-trip-dependent, designed for LAN latency, and no optimizer fully escapes that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  Nasuni takes the topology out of the equation. The authoritative copy of the file system,
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2019/02/19/pour-25m-in-its-coffers-and-the-local-nas-box-gets-it-thats-backers-hope-for-public-cloud-type-nasuni/434378&quot; target=&quot;_blank&quot;&gt;
+   UniFS
+  &lt;/a&gt;
+  , lives in cloud object storage. Each site runs an edge appliance that serves files from local cache at LAN speed, and changes are chunked
+  &lt;span&gt;
+  &lt;/span&gt;
+  and uploaded to the cloud rather than replicated site-to-site. The WAN optimizer was treating a symptom. UniFS removes the cause.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/04/07/nasuni-reckons-it-has-the-ai-juice/5214692&quot; target=&quot;_blank&quot;&gt;
+   Active Everywhere
+  &lt;/a&gt;
+  comes in for the workflows that need more than cache and sync. It&#x27;s the access-and-movement layer on top of UniFS for the cases where multiple sites collaborate on the same data set simultaneously, where remote desktops
+  &lt;span&gt;
+  &lt;/span&gt;
+  need LAN-speed access to large files without a VPN, or where edge sites move data over constrained links. The transport is UDP-based and WAN-optimized, distribution between sites is peer-to-peer, global file locking keeps users in different offices from overwriting
+  &lt;span&gt;
+  &lt;/span&gt;
+  each other, and policy-based caching pre-stages what each location actually needs.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  Active Everywhere 6.0 adds VPN-less hybrid work access with identity-provider sign-in through Entra ID or Okta, so governed file access follows the user instead of being tied to a VPN. The release is targeted for general availability
+  &lt;span&gt;
+  &lt;/span&gt;
+  in Q3 2026.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Blocks &amp; Files: Do we have a published case study with quantified results specifically for large-scale CAD assembly workflows?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Jerry Carter
+  &lt;/strong&gt;
+  : Yes. Two strong, publicly referenceable ones live on nasuni.com.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ramboll, the global engineering, architecture, and consultancy firm, runs on Nasuni across 16,500 employees in 35 countries and 300 remote offices, with 3 PB of global file data stored, protected, and managed on the platform. Before
+  &lt;span&gt;
+  &lt;/span&gt;
+  Nasuni, latency plagued their CAD applications and moving data across borders was a persistent headache. Their IT Project Manager, Morten Madsen, has been public about what changed.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  When their Mumbai data center went dark during the pandemic, IT stood up a
+  &lt;span&gt;
+  &lt;/span&gt;
+  Nasuni Edge Appliance as an Azure VM in roughly two hours and shifted local users straight to file shares running in the cloud. They went from multiple maintenance updates each week on the previous infrastructure to a single platform spanning all 300 offices,
+  &lt;span&gt;
+  &lt;/span&gt;
+  with 15-minute disaster recovery and a typical 90 percent reduction in local hardware footprint as branch sites cut over. Madsen&#x27;s read on the collaboration side is that branch users have been unable to tell the difference between local NetApp and Nasuni edge appliances
+  &lt;span&gt;
+  &lt;/span&gt;
+  backed by the cloud, which is roughly the ideal outcome for an IT migration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Perkins&amp;Will, one of the world&#x27;s premier architecture firms, has been on Nasuni since 2013, today running across 2,500 designers and 28 global design studios on nearly every continent. CIO Murali Selveraj has put numbers on it: 60 percent cost
+  &lt;span&gt;
+  &lt;/span&gt;
+  savings compared with continuing on traditional infrastructure as the firm&#x27;s cloud footprint grew by 10X, and a 4X acceleration of post-M&amp;A integration, from 12 months down to 3, when they fold in newly acquired studios.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The architectural reason is the single
+  &lt;span&gt;
+  &lt;/span&gt;
+  global namespace. They move designers and data between studios without replicating files, which means a single source of truth across every studio in the world. They&#x27;ve taken it further into AI and ML, running analytics across more than 500,000 drawings and
+  &lt;span&gt;
+  &lt;/span&gt;
+  photos of past projects so architects can search for similar prior work by visual characteristics rather than filename or metadata.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  Both sit within a broader pattern. Nasuni today supports more than 1,300 enterprise customers globally across industries including AEC, energy, life sciences, manufacturing, and media, and the platform is the file data foundation behind
+  &lt;span&gt;
+  &lt;/span&gt;
+  some of the largest architecture, engineering, and construction firms in the United States.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On AEC workloads specifically, Nasuni is tuned for the design applications people actually run: AutoCAD, Revit, Civil 3D, BIM, ArcGIS, and SketchUp. The edge caches
+  &lt;span&gt;
+  &lt;/span&gt;
+  routinely sustain up to 98 percent cache-hit rates on design files, which is what makes large Revit projects and SolidWorks assemblies open at near-local speed from any office.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Storage News Ticker - 2 July 2026 </title>
+<link>https://www.theregister.com/flash/2026/07/02/storage-news-ticker-2-july-2026/5265934</link>
+<pubDate>Thu, 02 Jul 2026 17:19:12 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Japan’s NTT DOCOMO is using
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;strong&gt;
+   Dell
+  &lt;/strong&gt;
+  PowerMax and PowerStore, paired with APEX Subscriptions and Dell Managed Services behind in its internal private cloud supporting its SmartLife services wit 100 million users. It gained:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    50%+ reduction in seven-year infrastructure costs
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    40% less time spent on infrastructure operations
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    PowerMax hit 6:1 to 8:1 data reduction in production, cutting rack space and power nearly 50%
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cost per GB down roughly half versus the prior environment
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Maintenance coordination time down more than three hours per instance
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dell is migrating DOCOMO to its PowerMax and Dell PowerStore-based core infrastructure in phases, with full completion expected by the end of 2026. Based on a seven-year cost comparison, the combined platform, APEX consumption model and Dell Managed Services are projected to reduce long-term infrastructure costs by more than 50 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia and
+  &lt;strong&gt;
+   IBM
+  &lt;/strong&gt;
+  say analytical SQL is a great fit for GPUs: scans and aggregations over columnar Parquet data are massively parallel and bandwidth-hungry, precisely the workload modern data-center GPUs are built for. They have brought GPU-accelerated operators to the Velox execution engine that powers Presto C++, and built a new UCX-based exchange that exploits fast interconnects like NVLink. This setup can run analytical SQL much faster than CPUs:
+  &lt;span&gt;
+   &lt;a href=&quot;https://developer.nvidia.com/blog/accelerating-large-scale-data-analytics-with-gpu-native-velox-and-nvidia-cudf/&quot;&gt;
+    published numbers
+   &lt;/a&gt;
+  &lt;/span&gt;
+  show a single node Presto C++ with GPU-accelerated operators running a TPC-H-style benchmark in ~100 seconds versus ~1,200 seconds on a high-end CPU — on the order of 12× faster — and a UCX/NVLink exchange running &amp;gt;6× faster with multi-node Presto.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Denmark-based
+  &lt;strong&gt;
+   Keepit
+  &lt;/strong&gt;
+  which provides a backup storage facility in its own cloud, announced the renewal and upsizing of its credit facilities to $90 million, with continued support from the Export and Investment Fund of Denmark
+  &lt;span&gt;
+  &lt;/span&gt;
+  (EIFO) and HSBC Innovation Banking. The refinancing maintains total facilities at $90 million, consolidating and extending terms to align with Keepit&#x27;s growth roadmap. Building on the momentum of its $50 million equity raise in December 2024 and the prior $60 million upsizing announced in September 2025, the proceeds will support product innovation ― in particular the buildout of Keepit&#x27;s emerging AI service portfolio ― as well as expanded go-to-market capacity and deepened penetration of the enterprise segment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the IEEE/JSAP VLSI Symposium 2026,
+  &lt;strong&gt;
+   Kioxia
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Sandisk
+  &lt;/strong&gt;
+  presented the world’s first successful QuadLevel Cell (QLC) operation of a multi-stacked cell array CMOS directly bonded to array (MSA-CBA). This breakthrough overcomes key challenges in high stacking of 3D flash memory: cell current degradation, wafer warpage, and large block (BLK) size. These results mark a milestone toward ultra-high-density 3D flash memory with over 1,000 stacked layers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  The memory shortage is expected to get worse, with TF International analysts expecting 15-20% of capacity allocated to consumer electronics shifting to data centers in 2027.
+  &lt;a href=&quot;http://email2.sourcecodecomms.com/c/eJwczTuSKyEMQNHVQOgSEt-A4CW9D5DkZ8r9cXXj8fanPPmte6S6hiDOanUpY_YOqdhHzaE54ubYh0zRJ6B8l1IyUUrRU7CjImCESOCSByq3UHwITTBnjUU6GA_X8T5Z-RDlY9uuGx-bXetjztdl6J_BxeDy-Xxu69ifKmP_BgaXsRtc_r_H-tBz07Z2PedhcLFn7evBz6vtch-rXl9izNe7_51n9ZR7Yw8QO6tIwQ4pZQEBLlAk2FlVSmaHnTn52KLGO7FSCRrU-6TJ_lT8DQAA___DXFI-&quot;&gt;
+   Gui Soubihe
+  &lt;/a&gt;
+  , CEO of
+  &lt;strong&gt;
+   Latitude.sh
+  &lt;/strong&gt;
+  thinks that consumers would inevitably feel the knock-on effects in the form of not only higher prices, but canceled products, especially the budget lineups. Laptop makers, for instance, might have to stop making their cheapest models as individual component costs skyrocket.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  The EX-5410C is
+  &lt;strong&gt;
+   Liqid&#x27;s
+  &lt;/strong&gt;
+  implementation of a memory pooling fabric across CXL and LIqid says it can solve a GPU server’s memory wall by pooling the server’s CPU DRAM. It orovides:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Up to 100 TB of DRAM pooled in a single deployment
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Shared across as many as 32 server nodes
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Roughly 200 nanoseconds access latency, near-native DRAM speed
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Near native-DRAM speed and access latency
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  When a GPU node needs 6 TB for a long-context inference job, it gets 6 TB from the pool, and when the job completes, the capacity returns for the next allocation. Liqid Matrix handles the orchestration, with Kubernetes, Slurm, OpenShift, and Ansible integrations. Liqid Memory Pooling is shipping in production today. The CXL consortium&#x27;s 3.0/3.1 roadmap targets multi-rack memory pooling for late 2026-2027, which extends the same architecture from rack scale to row scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   OceanBase
+  &lt;/strong&gt;
+  released OceanBase AI Database, designed to enable enterprises to manage multimodal data, deliver real-time trusted data context to AI agents, and simplify fragmented data architectures.
+  &lt;a href=&quot;https://en.oceanbase.com/&quot; target=&quot;_blank&quot;&gt;
+   OceanBase
+  &lt;/a&gt;
+  is an enterprise-grade, open-source distributed SQL database initially developed in 2010 by Ant Group and Alibaba to handle massive transactional (OLTP) and analytical (OLAP) workloads. It features include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    OceanBase Lakebase: Serving as the underlying data engine, Lakebase enables structured, unstructured, and vector data to be managed, processed, searched, and served within a unified architecture.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    OceanBase DataStudio: Built upon the Lakebase engine, DataStudio is a data production, governance, and services platform, covering the entire lifecycle from data ingestion, processing, and orchestration to semantic modeling and agent collaboration, and turning data silos into callable data services.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    OceanBase DataPilot: Acting as a business intelligence agent for enterprises, DataPilot can generate analytical reports, data dashboards, and trusted answers through natural language, making data intelligence highly accessible to non-technical users.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Check out this Forrester multi-model database
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-management/2026/07/01/the-four-tops-forrester-ranks-multi-model-database-suppliers/5264860&quot; target=&quot;_blank&quot;&gt;
+   report
+  &lt;/a&gt;
+  for more information about OceanBase.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;strong&gt;
+    Nasuni
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  earned its sixth consecutive
+  &lt;span&gt;
+   NorthFace ScoreBoard Service Award
+  &lt;/span&gt;
+  (NFSB) from the Customer Relationship Management Institute LLC (CRMI) and securing top rankings across 15 categories in
+  &lt;span&gt;
+   G2’s
+  &lt;/span&gt;
+  Summer 2026 Reports.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Pinecone
+  &lt;/strong&gt;
+  Nexus, a knowledge engine designed to connect AI applications to reliable, real-time data while powering operational and infrastructure costs, is officially in public preview. An enterprise’s business context lives distributed across contracts, wikis, HR docs, meeting notes, support tickets, and financial records. Nexus compiles this distributed knowledge into a structured layer agents can query directly, shifting token spend out of the per-query retrieval loop and into a one-time curation step. Nexus is built for bounded corpora where agents need to reason across documents. It&#x27;s at its best on the kind of corpus where a single question touches dozens of files and standard retrieval starts falling apart. Read more in a
+  &lt;a href=&quot;https://www.pinecone.io/blog/pinecone-nexus-public-preview/&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is context memory and several database suppliers, such as
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/06/30/couchbase-wants-to-serve-and-remember-data-for-ai-agents/5264312&quot; target=&quot;_blank&quot;&gt;
+   Couchbase
+  &lt;/a&gt;
+  ,
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-protection/2026/06/15/hycus-springboard-organizations-will-develop-corporate-memories/5255062&quot; target=&quot;_blank&quot;&gt;
+   HYCU
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/05/18/redis-agentic-ai-flowers-with-iris/5241795&quot; target=&quot;_blank&quot;&gt;
+   Redis
+  &lt;/a&gt;
+  , are recognizing a need for it and storing it for AI agent access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Rubrik
+  &lt;/strong&gt;
+  ZeroLabs research found four Langflow vulnerabilities;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Unauthenticated RCE via public chatbot route (CVE-2026-48519, Critical 9.6):
+    &lt;/strong&gt;
+    When a user interacts with a publicly shared Langflow chatbot, the platform sends the full graph definition — including every component&#x27;s Python code — to the server for execution. This effectively creates a &quot;send me Python code and I&#x27;ll run it&quot; endpoint, accessible to any unauthenticated user.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     &quot;RAGPull&quot; — file read to full server takeover (CVE-2026-7524, Critical 9.8):
+    &lt;/strong&gt;
+    Langflow&#x27;s document parser, used to feed files into RAG-based chatbots, supports tar archive uploads. Because tar files can contain symlinks, an attacker can upload a malicious archive pointing to sensitive server files — including the environment variables that store Langflow superuser credentials — extract those credentials via the chatbot, and use them to execute arbitrary code on the server.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Unauthenticated file upload / storage DoS + path disclosure (CVE-2026-7528, High 7.1):
+    &lt;/strong&gt;
+    An unauthenticated upload route allows any attacker with network access to fill Langflow&#x27;s storage and cause a denial of service. The route also returns the full absolute file path of uploaded files, leaking server information.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;strong&gt;
+     Local file read via RAG parser (CVE-2026-48520, Moderate 6.1):
+    &lt;/strong&gt;
+    A separate field in the public chatbot route allows local files from the Langflow filesystem to be fed directly into the LLM, with potential for further exploitation.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  They were communicated to the Langflow team and have been patched.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Samsung
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Google
+  &lt;/strong&gt;
+  are involved in NVMe SSD virtualization via
+  &lt;span&gt;
+   NVM Express TP4193: PCIe Exported NVM Subsystem Migration. This introduces new standardized virtual objects (exported) and redefines how virtual storage is created, managed, and moved.Conventionally, SSD storage areas are allocated to virtual machines using a direct assignment mechanism, typically implemented in the form of logical partitioning at the PCIe level. This can be realized either by the SSD exposing several PCIe physical functions (PFs) or, more recently, through the Single-Root I/O Virtualization (SR-IOV) Extended Capability in which the SSD is logically partitioned into a single physical function and several virtual functions (VFs). To a host, the NVMe controller interface presented by a VF is indistinguishable from one presented by a PF. Direct assignment allows the virtual machine manager (VMM) to map the PCI configuration space of the VF into the address space of the VM, which allows the VM to access the PCIe function as if it were locally attached.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because each NVMe register is passed into the VM as-is, the VM will also observe the SSD as-is, exposing its identity, unique identifiers and NVM subsystem controllers and namespaces. This is not optimal. With TP4193 the SSD itself exposes logical, virtualized storage constructs with definable behavior. The host becomes an “orchestrator” rather than an implementer. TP4193 has 2 distinct functionalities;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Standardized virtual (exported) object creation: Establishes a common framework for creating and managing exported objects; and
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Reporting and capability masking: Defines how a virtual SSD presents, reports, and masks its capabilities and attributes to appear as an independent physical device to the host.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Learn more in a Samsung
+  &lt;a href=&quot;https://semiconductor.samsung.com/news-events/tech-blog/standardizing-nvme-ssd-virtualization-introducing-pcie-exported-nvm-subsystem-migration-feature/&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   Object storage supplier
+   &lt;strong&gt;
+    Scality
+   &lt;/strong&gt;
+   and French public cloud provider
+   &lt;strong&gt;
+    OVH
+   &lt;/strong&gt;
+   are partnering to provide a joint cloud storage platform providing European digital sovereignty.
+  &lt;/span&gt;
+  Scality RING and ARTESCA provide massive, resilient, S3-compatible object storage deployed directly on the customer’s on-premises infrastructure. OPCP
+  &lt;span&gt;
+   (On-Prem Cloud Platform)
+  &lt;/span&gt;
+  , adds cloud-native
+  &lt;span&gt;
+  &lt;/span&gt;
+  orchestration, a managed services catalogue, and deployment automation, all built on a foundation independent of foreign public cloud providers. Deployment options include a 100% dedicated sovereign cloud and on-premises via
+  &lt;span&gt;
+   OPCP
+  &lt;/span&gt;
+  with backup replication across multiple availability zones (multi-AZ). IT also includes a dedicated storage offering on OVHcloud Bare Metal infrastructure through the HGR-STOR range.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers can deploy off-site backups with private S3 compatibility, integrated
+  &lt;span&gt;
+  &lt;/span&gt;
+  with leading cyber-resilience tools such as Veeam and Commvault, all hosted directly by OVHcloud. There is a guarantee of 100% dedicated servers, with no resource sharing with other customers, providing predictable performance and maximum isolation.
+  &lt;span&gt;
+  &lt;/span&gt;
+  It also supports a robust business continuity plan (BCP) by enabling controlled failover to OVHcloud infrastructure in the event of a disaster or primary site outage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The joint Scality-OVHcloud OPCP platform supports AI workloads. Organisations can train models, run MLOps pipelines, and deploy AI applications in near real time directly within their own environments, without compromising data security or regulatory compliance. Find out more from
+  &lt;a href=&quot;https://www.ovhcloud.com/en/hosted-private-cloud/onprem-cloud-platform/#&quot; target=&quot;_blank&quot;&gt;
+   OVH
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  A July 16
+  &lt;strong&gt;
+   SNIA
+  &lt;/strong&gt;
+  &lt;a href=&quot;https://www.snia.org/educational-library/ceph-object-storage-meets-vector-search&quot; target=&quot;_blank&quot;&gt;
+   webinar
+  &lt;/a&gt;
+  will look at implementing vector search with Ceph object storage. It will explore how LanceDB libraries power a vector search implementation in Ceph, delivered through S3 Vectors API actions. Attendees will see how Ceph can provide out of the box, billion scale, multi tenant nearest neighbor search that meets the needs of most RAG workloads while preserving the unified, software defined storage model enterprises already trust. Register for the event
+  &lt;a href=&quot;https://www.brighttalk.com/webcast/663/669132?utm_source=SNIA&amp;utm_medium=brighttalk&amp;utm_campaign=669132&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/03/31/walrus-pitches-memwal-as-decentralized-storage-for-ai-agent-memory/5213479&quot; target=&quot;_blank&quot;&gt;
+    Walrus
+   &lt;/a&gt;
+  &lt;/strong&gt;
+  will be available to the 2,000+ startups and protocols building on Lighthouse, an IPFS (InterPlanetary File System) developer platform. Through the integration, developers can access Walrus&#x27; verifiable storage and performance benefits without changing their existing CID-based (Content Identifier-based)
+  &lt;span&gt;
+  &lt;/span&gt;
+  workflows, SDKs, or gateways.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SoftBank enters the rent-a-GPU race as America looks for support for AI training </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/02/softbank-enters-the-rent-a-gpu-race-as-america-looks-for-support-for-ai-training/5265998</link>
+<pubDate>Thu, 02 Jul 2026 16:59:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  SoftBank is set to get into the neocloud business in America, providing resources to hyperscalers and other customers seeking a platform on which to carry out their AI training.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Japan-based tech investment giant says it will establish a new company called SB Neo, Inc to operate its neocloud business in the US, and expects to start operations in fiscal 2027 (ending March 31, 2028).
+ &lt;/p&gt;
+ &lt;p&gt;
+  In actual fact, ownership of the nascent biz will be split, with 51 percent in the hands of SoftBank Corp, while 49 percent is owned by SoftBank Group Corp. SB Neo will be a consolidated subsidiary of SoftBank Corp, which is itself 40 percent owned by SoftBank Group Corp. All perfectly clear?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neocloud operators, or rent-a-GPU providers, sprang up to take advantage of the huge demand for compute resources using GPU accelerators. They are effectively specialized niche cloud platforms focused on AI services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But a report from blue chip consultants McKinsey &amp; Company last year warned that the
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2025/11/25/rent-a-gpu-neoclouds-need-to-adapt-or-die/2383289&quot;&gt;
+   business model for neoclouds
+  &lt;/a&gt;
+  is fragile because it is inherently commoditized; there is limited differentiation in renting out access to specific hardware. Perhaps SoftBank knows something that McKinsey doesn’t.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SoftBank Corp says it has been providing a beta version of its GPU cloud service powered by “Infrinia AI Cloud OS,” a software stack for AI bit barns, in Japan since May, and intends to use the expertise and insights gained via this initiative to drive its US operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Infrinia AI Cloud OS is SoftBank’s software stack designed by the firm’s own Infrinia development team, which supports Kubernetes-as-a-Service (KaaS) in a multi-tenant environment, and Inference-as-a-Service (InfaaS) to provide large language model (LLM) inference capabilities via APIs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SoftBank chief Masayoshi Son said in a supplied remark: “The SoftBank Group will work together to deploy world-class AI infrastructure and drive the AI revolution.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company also disclosed that it plans to proceed with the construction of gigawatt-scale AI datacenters in Japan as soon as preparations are in place.
+ &lt;/p&gt;
+ &lt;p&gt;
+  How much all this is costing wasn’t revealed, but elsewhere it was reported that SoftBank Group has reengaged with lenders to
+  &lt;a href=&quot;https://www.reuters.com/legal/transactional/softbank-renews-talks-10-billion-loan-against-openai-stake-adds-concessions-2026-07-01/&quot;&gt;
+   secure a $10 billion loan
+  &lt;/a&gt;
+  backed by its stake in OpenAI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lenders were wary of such a transaction at first, but according to Reuters, the Japanese firm is now offering to guarantee repayment of the loan, giving banks recourse if the OpenAI shares pledged as collateral lose value.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Masayoshi Son also reportedly
+  &lt;a href=&quot;https://www.reuters.com/business/media-telecom/talk-bubble-is-an-insult-ai-says-softbanks-son-2026-06-24/&quot;&gt;
+   told SoftBank shareholders
+  &lt;/a&gt;
+  recently that any talk of a bubble is &quot;an insult to AI,&quot; and that &quot;I think it&#x27;s blasphemy against AI if you say it&#x27;s a bubble.&quot; So we won’t mention that OpenAI CEO Sam Altman himself
+  &lt;a href=&quot;https://www.theregister.com/software/2025/08/15/sam-altman-admits-that-ai-is-a-bubble-but-still-a-big-thing/630667&quot;&gt;
+   admitted that we&#x27;re in the midst of an AI bubble
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Vim text editor game teaches you keyboard shortcuts with ice cream delivery </title>
+<link>https://www.theregister.com/software/2026/07/02/vim-text-editor-game-teaches-you-keyboard-shortcuts-with-ice-cream-delivery/5265940</link>
+<pubDate>Thu, 02 Jul 2026 16:28:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  If you find yourself editing text at the Linux command prompt, you&#x27;ve probably either used nano, which is simplest, or the more powerful but difficult-to-master Vim. In Vim, for example, even moving the cursor up, down, left, and right is less than straightforward. How about an ice cream-themed game to teach you all the &quot;Vim motions&quot; (keyboard shortcuts) you need to become a master?
+ &lt;/p&gt;
+ &lt;p&gt;
+  London-based developer and designer
+  &lt;a href=&quot;https://marcusmichaels.com/&quot;&gt;
+   Marcus Michaels
+  &lt;/a&gt;
+  has created
+  &lt;a href=&quot;https://vimscoops.dev/&quot;&gt;
+   Vim Scoops
+  &lt;/a&gt;
+  , a simple HTML/CSS/JavaScript game that lives in a web browser to help users learn them. As an ice cream truck trying to make the most efficient deliveries to customers as possible, players use Vim motions to dart around the screen and try to meet par on each level.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The very first one, for example, has three people on the map, one marked with a C (the target customer) and two marked with an X (people who hate ice cream and don’t care if you drive by). Using the four basic one-character movement keys in Vim (h for left, j for down, k for up, and l for right) you have to try to get to the customer in five moves. Easy enough - just ljljl your way to the customer and that’s that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other initial levels test your ability to jump around to new words (w), line starts (0), and, from there, things get more complicated - and rely on you remembering the motions you already showed you knew in order to meet par on the various puzzles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Michaels, who told us he uses Vim daily alongside other editors like Neovim and the AI-infused Zed editor, still says he uses Vim motions whenever they’re available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Ultimately it’s just a way to stay on the keyboard without needing a mouse, but if you dig deep it’s really powerful, especially for repetitive tasks,” Michaels told us in an email. That said, he understands that others might find them confusing, especially if they’re using non-standard, Vim-like editors that have additional tools - or if they’re doing a deep dive into obscure Vim commands.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The reason why I built [Vim Scoops] was because I genuinely love making things and sharing knowledge, but also I wanted a game to play so I could keep my memory fresh,” Michaels told us. “My commute has a bunch of signal dead spots, and I built this to be a progressive web app, so on my commute I can keep playing even if I’m offline.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hacker News readers
+  &lt;a href=&quot;https://news.ycombinator.com/item?id=48750803&quot;&gt;
+   commented
+  &lt;/a&gt;
+  that it appeared Michaels used AI to build Vim Scoops, citing a few errors. Michaels admitted that AI aided the game’s development, but he wants to be clear that AI didn’t build the game in its entirety.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I’ve been programming since long before modern AI tools existed, but I find they can type faster than I can. For small, well-defined tasks they speed me up considerably,” Michaels said, but he maintains, much like the rest of the world beginning to
+  &lt;a href=&quot;https://www.theregister.com/security/2026/06/30/infosec-professionals-sour-on-automated-pentesting-tools/5264571&quot;&gt;
+   sour on total automation
+  &lt;/a&gt;
+  , that AI is best used as a tool - not a replacement for real work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Used to enhance a developer rather than replace one, it’s incredibly valuable,” Michaels told us. “The danger is when people hand over too much control without understanding what’s being generated.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Everything I ship with AI assistance is something I understand fully and could write myself,” the Vim Scoops dev explained. “AI just helps me get there faster.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you don’t want to use AI to help you code and would rather move around a document yourself, Vim Scoops might just help you learn to maintain a bit of independence.
+  &lt;a href=&quot;https://vimscoops.dev/game&quot;&gt;
+   It’s free
+  &lt;/a&gt;
+  , and teaches advanced techniques as deep as recording actions for playback in future projects. ®
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SAP snaps wallet shut for travel and hiring so it can keep shoveling cash into AI </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/02/sap-snaps-wallet-shut-for-travel-and-hiring-so-it-can-keep-shoveling-cash-into-ai/5265875</link>
+<pubDate>Thu, 02 Jul 2026 16:01:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  SAP is cutting hiring and business travel to boost its investment in AI amid intensifying competition in the enterprise application market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to an internal email, SAP is set to &quot;exclusively focus new hiring on selected profiles only, mainly core AI roles, that are critical for our long-term success.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The missive,
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-07-02/sap-restricts-hiring-travel-to-fund-significant-ai-push&quot;&gt;
+   seen by Bloomberg
+  &lt;/a&gt;
+  , said travel unrelated to AI development would also be put on hold. The German software giant will also seek to cut spending with suppliers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a statement, an SAP spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  : &quot;SAP continually reviews its investments to ensure resources are focused on the areas that will drive long-term customer value and innovation. As part of this approach, we are prioritizing investments in AI-related capabilities, talent, and technologies while applying greater discipline to hiring, external spending, and internal travel. Customer-facing activities and critical AI initiatives remain fully supported.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In May, SAP introduced the Autonomous Enterprise concept, backed by a new SAP Business AI Platform for building and deploying enterprise AI grounded in &quot;real business context&quot; from its ERP, CRM, and HCM applications, and elsewhere in the enterprise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  New products include Joule Studio 2.0, which
+  &lt;a href=&quot;https://www.theregister.com/saas/2026/05/19/saps-ai-strategy-come-for-the-openness-stay-because-you-have-to/5241109&quot;&gt;
+   helps developers create and manage AI agents
+  &lt;/a&gt;
+  . Agents created in Joule Studio will natively support Model Context Protocol and Agent2Agent to improve interoperability among AI agents, tools, and data sources. This allows SAP to connect and collaborate with third-party tools and agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other features, such as agentic orchestration, are also designed to run across hybrid IT environments, while real-time data ingestion supports &quot;context-aware processes&quot; across SAP and third-party systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, its big push for AI relevance comes despite SAP missing its
+  &lt;a href=&quot;https://www.theregister.com/software/2026/03/19/saps-grand-cloud-escape-plan-2b-short-of-the-runway/5221557&quot;&gt;
+   earlier self-imposed targets
+  &lt;/a&gt;
+  to get users to the cloud and SaaS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2022, then-CFO Luka Mucic told investors that SAP expected support revenue to fall to €8.5 billion by 2025, down from around €11.5 billion in 2021, as users move from on-prem licenses and support to cloud subscriptions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the 2025 full-year figure for on-prem software support is €10.5 billion, down 7 percent from 2024&#x27;s €11.29 billion and €2 billion off SAP&#x27;s target. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ctrl+Alt+Oops: FortiBleed criminal&#x27;s logins stitch two gangs together </title>
+<link>https://www.theregister.com/security/2026/07/02/ctrlaltoops-fortibleed-criminals-logins-stitch-two-gangs-together/5265912</link>
+<pubDate>Thu, 02 Jul 2026 15:32:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Security sleuths say last month’s FortiBleed campaign is tied to two separate ransomware groups, after they found evidence of one initial access broker group member logged in to two affiliate panels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SOC Radar’s Threat Research Unit (STRU) said at least one of the group’s 20 members was actively negotiating with victims, which it believes signals a direct link between the thousands of FortiBleed victims and the ransomware ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  STRU spent weeks mapping FortiBleed’s infrastructure across hundreds of servers after the attack was disclosed. Due to an opsec failure in one of these servers, the team gained visibility into the IAB group’s internal files and logs, revealing that one of the individuals was logged into the affiliate panels of both the INC Ransom and Lynx ransomware groups.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment,” SOC Radar
+  &lt;a href=&quot;https://socradar.io/blog/fortibleed-inc-lynx-ransomware-link&quot;&gt;
+   said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Following examinations of both the IAB group’s internal logs, compromised endpoints, and claims made via the leak sites of INC and Lynx, STRU linked at least 12 ransomware attacks to FortiBleed victims so far.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While initial reports pegged the
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/17/massive-password-stealing-attack-hits-75k-fortinet-firewalls/5257877&quot;&gt;
+   number of successful attacks at more than 70,000
+  &lt;/a&gt;
+  , STRU said its data was derived from scanning 11,250 Fortinet portals, although more than 430,000 firewalls were targeted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Admin-level access was confirmed on 409 targets, and on 354 of these the attackers executed the full attack chain, compromising VPNs and gaining access to domain controllers and domain admin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  STRU said the finding is significant because it shows how the exploit was not just an exercise in harvesting credentials, but an attack that feeds directly into the ransomware economy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What this investigation shows is that FortiBleed isn’t an isolated credential-theft operation sitting off to the side of the ransomware economy, it’s feeding directly into it. The same access broker infrastructure that quietly intercepted authentication traffic across hundreds of thousands of firewalls is connected, through a shared operator, to two of the more active ransomware brands operating today.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “For organizations running
+  &lt;a href=&quot;https://www.theregister.com/security/2026/01/22/fortigate-firewalls-hit-by-silent-sso-attacks-config-theft/4229524&quot;&gt;
+   FortiGate
+  &lt;/a&gt;
+  infrastructure, this raises the stakes on an already urgent finding: exposure to FortiBleed is not just a credential exposure risk, it is a potential precursor to ransomware.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  FortiBleed in brief
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Disclosed on June 17, the attack did not exploit novel vulnerabilities. Experts characterised it as a large-scale campaign that involved intercepting SSL VPN authentication hashes and cracking them using a 45-GPU cluster hosted by Hashtopolis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They then used the credentials to access victims’ Active Directory environments and gain persistence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fortinet tried to counter these kinds of attacks in early 2025 by introducing the PBKDF2 algorithm for storing credentials, but because the changes were not applied until each admin logged back in, many organizations were likely still using SHA-256 with salt, which is vulnerable to brute-forcing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Early estimates suggested a little more than 73,000 unique firewall URLs were successfully targeted, leading to a long list of major organizations being compromised.
+ &lt;/p&gt;
+ &lt;p&gt;
+  FoxConn, Samsung, Comcast, Siemens, Lenovo, FedEx, PwC, Accenture, and Oracle were among those listed in the early reports. An unnamed Turkish NATO defense contractor was also thought to be among them after investigators found signs of classified files being copied. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> When backups aren&#x27;t enough: the case for real disaster recovery </title>
+<link>https://www.theregister.com/data-protection/2026/07/02/when-backups-arent-enough-the-case-for-real-disaster-recovery/5264671</link>
+<pubDate>Thu, 02 Jul 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;2409dfe3-b8be-470e-8250-a9302e0d1f80&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot;&gt;
+   Partner Content
+  &lt;/span&gt;
+  Ask most IT teams whether they&#x27;re protected against a major outage or ransomware attack, and the answer will almost certainly be yes, because the backups are in place and the box marked &#x27;disaster recovery plan&#x27; has been ticked.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But there&#x27;s a difference between
+  &lt;em&gt;
+   having
+  &lt;/em&gt;
+  a backup and
+  &lt;em&gt;
+   recovering
+  &lt;/em&gt;
+  from a disaster, and that gap tends to reveal itself at the worst possible moment.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The backup problem nobody talks about
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Backups were built for a different era. When the biggest threat was hardware failure or accidental deletion, copying files to tape or a secondary disk made sense, because the workflow was simply to preserve the data, restore from the copy, and carry on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Modern threats operate differently. Ransomware operators do not just encrypt production systems; they target backup infrastructure first. By the time an attack becomes visible, malicious code may have lain dormant in the environment for weeks, so backup jobs from that window are already tainted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.ibm.com/reports/data-breach&quot;&gt;
+   IBM&#x27;s 2025 Cost of a Data Breach Report
+  &lt;/a&gt;
+  found that 76 percent of organizations needed more than 100 days to recover from a cyberattack, including those that believed their backups were intact.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For organizations with on-premises backup infrastructure, the arithmetic is brutal. Systems sit offline, staff cannot work, and customers feel the impact while IT teams scramble to find a clean recovery point that may or may not exist.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The gap between RTO goals and reality
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Recovery time objectives (RTO) and recovery point objectives (RPO) are the core metrics of any disaster recovery plan. RTO defines how long systems can be offline before the business is materially harmed; RPO defines acceptable data loss. Both look reasonable on paper, yet practice tends to expose them as aspirational more often than IT teams care to admit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Legacy backup tools were designed to protect data, not to deliver fast recovery at scale. Restoring a full server takes hours or days, especially when the target hardware differs from what was lost. Testing rarely happens rigorously, which leaves edge cases unexplored, so when disaster strikes the recovery plan turns out to have been theoretical.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among businesses with 20 to 100 employees,
+  &lt;a href=&quot;https://www.sherweb.com/blog/security/msp-business-continuity-downtime-costs/&quot;&gt;
+   57 percent
+  &lt;/a&gt;
+  report downtime costs exceeding $100,000 per hour. For an SMB earning $10 million in annual revenue, a single day offline can cost $55,000 in direct losses.
+  &lt;a href=&quot;https://www.vikingcloud.com/resources/vikingclouds-2025-smb-threat-landscape-report-small–and-medium-sized-businesses-big-cybersecurity-risks&quot;&gt;
+   One in five
+  &lt;/a&gt;
+  SMBs would go out of business if the attack cost them as little as $10,000 in damages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The market is responding. The global Disaster Recovery as a Service (DRaaS)
+  &lt;a href=&quot;https://www.fortunebusinessinsights.com/disaster-recovery-as-a-service-draas-market-104836&quot;&gt;
+   sector was valued at $18.89 billion
+  &lt;/a&gt;
+  in 2025 and is projected to reach $83.15 billion by 2034, a trajectory that reflects how many organizations are moving beyond backup-only thinking.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  What DRaaS changes
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Disaster Recovery as a Service is a different proposition. Rather than copying data and hoping restoration goes smoothly, DRaaS maintains a live, continuously updated replica of the protected environment and provides the cloud infrastructure to run it within minutes of a failure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a ransomware scenario, the architecture matters. Immutable, offsite cloud storage keeps backup data beyond the reach of an attacker who has compromised the local environment, while automated failover removes the dependency on a manual process that has rarely been rehearsed. Because the replica runs in the cloud, recovery time is counted in minutes rather than days.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cove Data Protection&#x27;s DRaaS is built on this model. The architecture is cloud-native by design rather than an appliance-based product with a cloud layer retrofitted. Backup data lives in N-able&#x27;s private cloud , physically separated from customer infrastructure, with immutability applied by default. Tested failover to the cloud comes as a core feature rather than a premium add-on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cove is built for the modern era and requires minimal babysitting, with multi-tenant management, automated testing, and a single interface across the entire environment. That contrasts with enterprise platforms that demand heavy customization before they work.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Testing as a feature, not an afterthought
+ &lt;/h3&gt;
+ &lt;p&gt;
+  How DRaaS providers approach recovery testing is one of the sharpest differentiators in the market. Most backup products leave it as a manual exercise that IT teams plan but rarely complete, because spinning up a recovery environment is disruptive.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cove automates recovery verification, with tests that run against backed-up workloads and confirm restoration succeeded. Administrators see evidence that the systems they protect would come back online as expected. The benefit extends beyond compliance to the difference between a plan that works and one that merely exists.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For businesses and MSPs that handle dozens or hundreds of clients or employees, tested and verified recoverability at scale has become central to the value proposition and a genuine differentiator in a market where backup is now a commodity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Cove Data Protection, part of the N-able portfolio, provides cloud-native backup and disaster recovery as a service for organizations. Learn more at
+   &lt;a href=&quot;https://www.n-able.com/products/cove-data-protection&quot;&gt;
+    n-able.com/products/cove-data-protection
+   &lt;/a&gt;
+   .
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Contributed by N-able.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft said exploitation was &#x27;less likely&#x27; ... but CISA just added SharePoint RCE to KEV list </title>
+<link>https://www.theregister.com/security/2026/07/02/microsoft-said-exploitation-was-less-likely-but-cisa-just-added-sharepoint-rce-to-kev-list/5265886</link>
+<pubDate>Thu, 02 Jul 2026 14:40:30 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Microsoft&#x27;s prediction that attackers probably wouldn&#x27;t rush to exploit a newly-patched SharePoint bug hasn&#x27;t aged especially well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CISA has added CVE-2026-45659, a remote code execution flaw in on-premises Microsoft SharePoint Server,
+  &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-45659&quot;&gt;
+   to its Known Exploited Vulnerabilities (KEV) catalog
+  &lt;/a&gt;
+  after confirming that crimes are now actively exploiting it in the wild.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The bug stems from an insecure deserialization issue and affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Enterprise Server 2016, all of which received patches from Microsoft in May.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike some of SharePoint&#x27;s more infamous bugs, this one isn&#x27;t pre-authentication, though attackers need surprisingly little to pull it off.
+  &lt;a href=&quot;https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45659&quot;&gt;
+   According to Microsoft
+  &lt;/a&gt;
+  , anyone with valid credentials and nothing more than Site Member permissions can execute arbitrary code remotely on a vulnerable server.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Any authenticated attacker could trigger this vulnerability. It does not require admin or other elevated privileges,&quot; Microsoft said in its advisory. &quot;In a network-based attack, an authenticated attacker, who has a minimum of Site Member permissions (PR), could execute code remotely on the SharePoint Server.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft also noted that the attack can be launched remotely over the network with low attack complexity, making it straightforward to exploit once an attacker has a foothold.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CISA didn&#x27;t disclose who&#x27;s exploiting the flaw or how widespread the attacks are, but its guidance leaves little room for interpretation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise,&quot; the agency warned. It directed federal civilian agencies to follow Binding Operational Directive 26-04 by applying Microsoft&#x27;s fixes no later than July 4, or discontinue use of affected systems if mitigations aren&#x27;t available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vulnerability carries a CVSS score of 8.8, but perhaps the more interesting number is Microsoft&#x27;s exploitability assessment. When the patches landed, Redmond rated real-world exploitation as &quot;Less Likely.&quot; That&#x27;s a prediction, not a guarantee, and history has a habit of making those forecasts look optimistic once patches give attackers a roadmap to reverse engineer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For anyone still exposing an unpatched SharePoint server to the internet, CISA&#x27;s KEV listing is a reminder that the race between patching and exploitation is usually won by whoever starts first. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nutanix providing AI agent identity access management </title>
+<link>https://www.theregister.com/ai-ml/2026/07/02/nutanix-providing-ai-agent-identity-access-management/5265784</link>
+<pubDate>Thu, 02 Jul 2026 14:30:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Nutanix’ Agent Gateway is generally available as a control point to manage AI agent activity, access policies, and token consumption across agentic AI deployments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The product is positioned to help customers monitor and optimize (reduce) AI agent and model token consumption which can cause huge cost increases of unconstrained, setup and enforce agent access policies so, like human operators, they can’t run rampant through an enterprise’s IT estate, and oversee agent activity. The background here is that having generative AI models used in initial pilot AI projects is changing over to production AI with potentially hundreds if not thousands of AI agents with autonomous features.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  They simply cannot be allowed uncontrolled access to do whatever they want inside a customer’s IT operation but it’s not feasible to have multiple distributed and separate agent control points. Instead, Nutanix says, you need an agent gateway and it’s built one as part of its Nutanix Enterprise AI software product
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nicole O’Keefe, Product Marketing Manager, NAI, Nutanix and Ashwini Vasanth, Group Product Manager, NAI, Nutanix, write in a
+  &lt;a href=&quot;https://www.nutanix.com/blog/introducing-nutanix-agent-gateway# troducing Nutanix Agent&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  : “The generative AI landscape has undergone a fundamental shift. What began as reactive chatbots answering questions has evolved into autonomous agents that actively engage with enterprise tools, business systems, and LLMs. These same agents are now able to spawn sub-agents with the same level of capability. This evolution comes with a compounding challenge: as agent sprawl increases across organizations, so does the multiplier effect on token consumption and access control risks.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NAI stands for Nutanix Enterprise AI. This was introduced in Nutanix’
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2024/11/13/nutanix-provides-cloud-native-ai-stack/1596115&quot; target=&quot;_blank&quot;&gt;
+   GPT-in-a-Box v2.0
+  &lt;/a&gt;
+  release in November 2024. It is a component of GPT-in-a-Box, along with
+  &lt;span&gt;
+  &lt;/span&gt;
+  Nutanix Cloud Infrastructure, Nutanix Kubernetes Platform, and Nutanix Unified Storage, plus services to support customer configuration and sizing needs for on-premises training and inferencing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We wrote “NAI can run on-premises, at the edge, or in datacenters, and in the three main public clouds’ Kubernetes offerings – AWS EKS, Azure AKS, and Google GKE – as well as other Kubernetes run-time environments. This multi-cloud operating software can run LLMs with
+  &lt;span&gt;
+   &lt;a href=&quot;https://www.nvidia.com/en-us/ai/#referrer=ai-subdomain&quot;&gt;
+    Nvidia NIM
+   &lt;/a&gt;
+  &lt;/span&gt;
+  -optimized inference microservices as well as open source foundation models from Hugging Face. The LLMs operate atop the NAI platform and can access NAI-stored data.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Back in March, we
+  &lt;a href=&quot; https://www.blocksandfiles.com/ai-ml/2026/03/18/storage-vendors-orbit-the-nvidia-sun-at-gtc/5209546&quot; target=&quot;_blank&quot;&gt;
+   noted
+  &lt;/a&gt;
+  “Nutanix Enterprise AI (NAI) v2.6 includes an AI Gateway service for unified policy control over cloud-hosted and private LLMs. New support for the Model Context Protocol (MCP) server and fine tuning extends its existing MaaS capabilities to enable agents to securely connect to enterprise tools and data sources. NAI also supports the Nemotron family of open-source AI models, datasets, and training tools.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  NAI provides a private inference stack, which
+  &lt;a href=&quot;https://www.dell.com/en-us/blog/supercharge-your-ai-journey-with-dell-and-nutanix/ &quot; target=&quot;_blank&quot;&gt;
+   Dell
+  &lt;/a&gt;
+  describes as “an intuitive, centralized inferencing control plane for your models and inferencing operations that is cost-predictable. … With NAI, your team can select, deploy, and monitor large language models (LLMs) and secure API endpoints quickly.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Nutanix Agent Gateway (NAG - but Nutanix does not use this acronym) is integrated with NAI’s private inference stack and its control layer across public hosted models and private self-hosted models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  NAG features;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Nutanix Agent Gateway Governance for MCP: Set granular access control to MCP servers, enabling agents to securely connect to business tools and private data sources
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Unified Observability: Centralize visibility into token usage, MCP server access, and LLM activity
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Audit Logs: Record every MCP request with an audit trail for AI governance
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Unified API: Access external provider models and self-hosted models through a single API, providing freedom to use the right model for the right use case
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Granular Token-Based Rate Limiting: Enforce token quotas and limits centrally that deliver real-time visibility into token usage across every agent and team
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  It acts as a centralized gateway that manages and helps secure traffic from agents to LLMs and from Model Context Protocol (MCP) servers, in Tech Preview, accessing business tools such as GitHub and Stripe. Organizations can gain centralized policy enforcement, comprehensive usage visibility, and real-time token cost accountability across public cloud and self-hosted inference environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NAG is designed to deliver centralized token observability across model vendors, enabling IT and platform teams to track usage, attribute costs, and help control excessive token consumption. Hosted models can be excessively expensive, and tracking their costs can provide the impetus to move to lower-cost open weight (open-source) and self-hosted local models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It applies access control policies and tool-level filtering of MCP servers, and provides a mechanism to self-host private models as well as consume them via a unified API. You can configure user management and policies once and have them apply to both the gateway and private inference.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  Comment
+ &lt;/h5&gt;
+ &lt;p&gt;
+  This NutanixAgent Gateway is roughly equivalent to an Okta-like
+  &lt;span&gt;
+  &lt;/span&gt;
+  IAM (Identity Access Management) capability for humans accessing an IT estate and is an agent identity proxy.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Okta itself is partnering Google Cloud to integrate its identity functionality with GCP’s
+  &lt;span&gt;
+  &lt;/span&gt;
+  Gemini Enterprise Agent Platform and Chrome Enterprise. An initial release links Okta’s
+  &lt;span&gt;
+  &lt;/span&gt;
+  Auth0 for AI Agents to the Gemini Enterprise Agent Platform Runtime and so brings agent authentication and access controls into agentic workflows. Another feature will bring centralized visibility and policy control for agents. This is specific to GCP whereas Nutanix’ gateway covers all three main  public clouds and on-premises installations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Palo Alto’s
+  &lt;a href=&quot;https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security&quot; target=&quot;_blank&quot;&gt;
+   Prisma AIRS 3.0
+  &lt;/a&gt;
+  product has an AI Agent Gateway, currently available in limited preview, provides a central control plane to enforce agent runtime and identity security, governance and observability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI Agent identity access management is going to become a common requirement.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Micron and GM sign long-term chip supply agreement </title>
+<link>https://www.theregister.com/flash/2026/07/02/micron-and-gm-sign-long-term-chip-supply-agreement/5265574</link>
+<pubDate>Thu, 02 Jul 2026 14:08:22 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/06/10/gm-gets-datacenter-fever-turns-to-grid-scale-sodium-ion-batteries/5253699&quot; target=&quot;_blank&quot;&gt;
+   General Motors
+  &lt;/a&gt;
+  has signed a long-term agreement (LTA) with
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/06/25/us-memory-triopolist-makes-its-customers-pay/5261977&quot; target=&quot;_blank&quot;&gt;
+   Micron
+  &lt;/a&gt;
+  covering the supply of DRAM and NAND chips.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GM needs the chips for its next-generation vehicles which will feature AI-enabled in-cabin experiences and advanced driver assistance (ADAS) autonomy. The Micron and GM agreement ensures Micron’s supply of LPDRAM,
+  &lt;a href=&quot;https://www.blocksandfiles.com/glossary/2022/05/03/nor/1592735&quot; target=&quot;_blank&quot;&gt;
+   NOR
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.blocksandfiles.com/glossary/2022/06/02/ufs/1613400&quot; target=&quot;_blank&quot;&gt;
+   UFS
+  &lt;/a&gt;
+  NAND products to GM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mary Barra, CM Chair and CEO, said: “Delivering next-generation vehicles at scale requires a resilient and closely aligned supply chain. Our expanded collaboration with Micron strengthens our access to critical memory technologies while enabling deeper integration across our vehicle platforms, supporting both performance and long-term reliability. This agreement reinforces the supply chain needed to support future vehicle innovation and production.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  GM gets predictable semiconductor product supply and pricing from Micron while Micron can plan its production schedules better and gains more reliable revenue streams. Micron says that, by aligning long-term demand with committed capacity and engineering collaboration, it’s improving planning visibility and reducing supply variability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sanjay Mehrotra, Micron’s Chairman, President and CEO, said: “As demand for memory and storage continues to grow, we are investing to extend supply availability, expand capacity and align more closely with our customers to improve supply predictability across the automotive ecosystem. Our expanding manufacturing efforts in the United States are designed to enable GM to deliver both near-term products as well as secure U.S.-based supply to support next generation platforms and innovation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US manufacturing point refers to Micron’s $2 billion investment to modernize its Manassas DRAM fab, which began production earlier this year. Micron says it’s helping ensure that critical industries, including automotive, have reliable access to the memory and storage technologies required to operate and innovate at scale. It’s also helping to ensure its revenues and gross margin stay high and avoid the boom-and-bust cycle of previous memory and NAND manufacturing cycles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Micron and GM said that they will collaborate on next-generation vehicle memory and storage requirements, including
+  &lt;span&gt;
+  &lt;/span&gt;
+  product definition, system-level optimization, and future Micron product qualification by GM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Korean analyst
+  &lt;a href=&quot;https://x.com/jukan05/status/2071745275325190339&quot; target=&quot;_blank&quot;&gt;
+   Jukan
+  &lt;/a&gt;
+  of Citrini Reseach, Micron long-term agreements, like Samsung’s, contain both a price floor and a price ceiling, plus “collecting a portion of annual revenue upfront as advance payments … The advance payment is a binding condition that prevents arbitrary volume changes after the contract is signed. …. Micron&#x27;s advance payment is presumed to be structured as refundable upon maintenance of the contract rather than deducted from revenue.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Such customer LTAs reduce the risk for memory and NAND manufacturers in building new fabs which take years and cost multiple billions of dollars.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He says “all five memory suppliers (Samsung, SK Hynix, Micron, Kioxia, SanDisk), and not a single supplier alone, are signing similar three to five year LTAs.” Micron has signed 16 such agreements as the previous commodity status of DRAM changes to being a critical supply chain component for upstream industries needing chips for AI processing - GPU server suppliers - smart and AI-enabled products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We can expect more
+  &lt;span&gt;
+  &lt;/span&gt;
+  large-scale vehicle manufacturers to sign similar agreements with DRAM and NAND suppliers.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Pacemaker manufacturer Medtronic warns patients cybercrooks may have swiped health data </title>
+<link>https://www.theregister.com/security/2026/07/02/pacemaker-manufacturer-medtronic-warns-patients-cybercrooks-may-have-swiped-health-data/5265768</link>
+<pubDate>Thu, 02 Jul 2026 12:54:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Medical device giant Medtronic is warning patients that their personal and health information may have been caught up in an April cyberattack in which intruders spent nearly a week inside parts of its corporate network.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://oag.ca.gov/system/files/Consumer%20Letter%20-%20Exhibit%20A%20%281%29.pdf&quot;&gt;
+   breach notification letters
+  &lt;/a&gt;
+  sent to affected individuals, the company detected unusual activity on April 15 and later determined an unauthorized party accessed certain corporate systems between April 13 and April 19.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The compromised systems contained the sort of data you&#x27;d expect a medical device maker to hold about its patients: names, contact details, dates of birth, Social Security numbers, and health information. Medtronic said it collects the information to provide product updates and comply with regulatory requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Medtronic says there&#x27;s &quot;no evidence&quot; the information was &quot;posted publicly or exposed on the internet.&quot; Whether the attackers made off with copies of the data is another question the company hasn&#x27;t yet answered.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The notice also addresses the question many patients are likely to ask first: whether their device was affected. &quot;Based on our investigation, this incident did not impact the ability of any Medtronic device to operate safely and deliver intended therapy.&quot; the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/27/medical-and-utility-tech-companies-admit-digital-breakins/5221046&quot;&gt;
+   Medtronic first disclosed the incident in April
+  &lt;/a&gt;
+  , it said the attack had not affected patient safety, manufacturing, distribution, financial reporting, or its ability to meet patient needs. It also stressed that its corporate IT environment is segregated from the networks supporting its products and that hospital customer networks are managed separately.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shortly after the intrusion began, the ShinyHunters extortion crew added Medtronic to its dark web leak site, claiming it had stolen more than nine million records and threatening to publish the data unless a ransom was paid by April 21. The listing was later removed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ShinyHunters typically removes victims from its leak site after reaching a deal, and Medtronic&#x27;s entry disappeared later that month without any data being published. However, Medtronic&#x27;s notification makes no mention of ransomware, extortion demands, or ShinyHunters, and the company has not publicly attributed the attack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The breach notice also leaves several obvious questions unanswered, including how many people were affected, how the attackers gained access, and why it took the company more than two months to begin notifying affected patients.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Medtronic said it has since implemented additional security measures, worked with law enforcement and relevant regulators, and is offering affected individuals two years of complimentary credit monitoring, dark web monitoring, and identity restoration services. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> India writes to WhatsApp over usernames security concerns </title>
+<link>https://www.theregister.com/security/2026/07/02/india-writes-to-whatsapp-over-usernames-security-concerns/5265744</link>
+<pubDate>Thu, 02 Jul 2026 11:50:41 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  India has asked WhatsApp to explain why it should not face regulatory action after it announced the global rollout of a new usernames feature amid fears that the new feature could lead to increased cyberattacks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The country&#x27;s Ministry of Electronics and Information Technology (MeitY) gave the Meta owned platform three days to respond to its July 1 letter and to halt the rollout of usernames until the government gives its approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  WhatsApp announced on June 29 that it was allowing users to reserve usernames that could be used instead of phone numbers on the platform when the feature launches later this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It said that people want to chat with others without exposing their personal phone number, whether to a classmate, neighbor, professional contact, or the group chat for their child&#x27;s sports team.
+  &lt;br/&gt;
+  &lt;br/&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   Meta also owns
+   &lt;strong&gt;
+    Facebook or Instagram, and is not allowing users to create
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   &lt;strong&gt;
+    usernames that already exist on those other platforms – unless they themselves control the other accounts
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;strong&gt;
+   .
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the government of India, WhatsApp&#x27;s largest market fears that allowing first contact without displaying a phone number &quot;may increase cybercrimes,&quot; including phishing and digital arrest scams.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MeitY is specifically concerned about the opportunities for impersonation, with attackers posing as public authorities, financial institutions, or government departments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The department cited India&#x27;s Information Technology Act 2000 and Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021 as the legal basis for its concerns about the feature.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Internet Freedom Foundation, which
+  &lt;a href=&quot;https://x.com/internetfreedom/status/2072361878601511181&quot;&gt;
+   shared a copy of MeitY&#x27;s letter
+  &lt;/a&gt;
+  to WhatsApp&#x27;s chief compliance officer in India, said that the department has no clear legal basis for halting WhatsApp&#x27;s usernames rollout.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It said neither legal framework was applicable in the context in which they were being invoked and called its letter the latest example of attempted regulatory overreach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The IFF pointed to a separate advisory issued in March 2024 when
+  &lt;a href=&quot;https://www.theregister.com/software/2024/03/04/indian-government-to-approve-ais-before-they-come-online/1110800&quot;&gt;
+   MeitY tried to stop AI companies from rolling out their models
+  &lt;/a&gt;
+  to the public before the Indian government had a chance to approve them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;That was criticized as an overreach that sought to build a licensing mechanism with no empowering provision in the IT Act, and within a fortnight MeitY withdrew it and dropped the permission requirement,&quot; the IFF stated.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This notice repeats the move for a single feature and goes further, because it names one company, sets a three-day clock, and bars the launch until MeitY is satisfied.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  WhatsApp told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  that it has implemented numerous measures designed to keep users safe as usernames are rolled out across the platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A spokesperson said: &quot;We&#x27;ve announced the option for people to reserve their preferred username on WhatsApp. The ability to use a username is not yet live and will roll out slowly later this year. When it becomes available and someone sends you a message for the first time via your username, we will show you if they&#x27;re a new account, if they&#x27;re your contact, if you have groups in common, and if they&#x27;re based in a different country, so you can decide whether to respond.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other efforts to restrict fraudulent misuse, WhatsApp has already reserved high-profile usernames for legitimate organizations and individuals. Users will also not be able to register lookalike derivatives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The spokesperson added: &quot;Users still require a phone number to use WhatsApp and we&#x27;ve built multiple layers of defense against scams into usernames. Other users need to know the exact username to message you, we will limit how many new people an account can contact, block repeated attempts to guess someone&#x27;s username key, and have systems to detect and remove activity showing common impersonation and abuse patterns.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  MeitY did not respond to our request for input.
+ &lt;/p&gt;
+ &lt;p&gt;
+  WhatsApp claims more than 3 billion users rely on its messaging platform, and separate estimates peg India as its largest market with more than 850 million users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  WhatsApp-based scams are not unique to India. Many cybercriminals use the platform to commit fraud, impersonating public figures, authorities, and family members to carry out financially motivated attacks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/06/19/telegram-founder-accuses-meta-of-sabotaging-access-in-india-with-bgp-hijacks/5258866&quot;&gt;
+   Telegram
+  &lt;/a&gt;
+  messaging platform allows users to set public usernames and is also frequented by scammers. India temporarily banned Telegram in June amid fears that exam questions were being shared ahead of time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/06/18/india-blocks-telegram-ahead-of-scandal-hit-medical-school-entrance-exam/5258218&quot;&gt;
+   ban was announced
+  &lt;/a&gt;
+  days before the NEET-UG medical entrance exam was scheduled to begin. The exam was reworked and rescheduled after being canceled in May after genuine questions were found circulating on the platform. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Oracle E-Business Suite was under attack via critical flaw before the public exploit code was even released </title>
+<link>https://www.theregister.com/cyber-crime/2026/07/02/oracle-e-business-suite-was-under-attack-via-critical-flaw-before-the-public-exploit-code-was-even-released/5265710</link>
+<pubDate>Thu, 02 Jul 2026 10:35:16 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Attackers have been caught exploiting a critical flaw in Oracle E-Business Suite&#x27;s Payments module just six weeks after Oracle patched it – and before any public proof-of-concept exploit was available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Researchers at Defused
+  &lt;a href=&quot;https://defusedcyber.com/exploited/cve-2026-46817-oracle-e-business-suite&quot;&gt;
+   said
+  &lt;/a&gt;
+  they observed the first known exploitation of CVE-2026-46817 on June 27. The attackers were targeting the Oracle Payments File Transmission component in E-Business Suite releases 12.2.3 through 12.2.15, they said. The vulnerability,
+  &lt;a href=&quot;https://www.oracle.com/security-alerts/cspumay2026.html&quot;&gt;
+   fixed in Oracle&#x27;s May Critical Patch Update
+  &lt;/a&gt;
+  , carries a CVSS score of 9.8 and allows unauthenticated attackers to read arbitrary files from vulnerable servers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Defused, the activity didn&#x27;t look like the indiscriminate internet scanning that often follows disclosure of a critical bug. Instead, its honeypots recorded just six exploitation attempts from a single source, all using what appeared to be a working exploit. The requests sought to retrieve sensitive files from the target system, suggesting the operator was testing or validating the technique rather than casting a wide net.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers said exploitation began before any public exploit code had surfaced, pointing to an attacker who had either reverse-engineered Oracle&#x27;s patch or obtained a private exploit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Shadowserver Foundation
+  &lt;a href=&quot;https://x.com/Shadowserver/status/2072267510439686276?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2072267510439686276%7Ctwgr%5E10d56ec9948f7389b76440de688b6282d0842dad%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fsecurityaffairs.com%2F194599%2Fsecurity%2Foracle-e-business-suite-flaw-under-active-attack-950-systems-exposed.html&quot;&gt;
+   said
+  &lt;/a&gt;
+  it currently sees around 950 EBS instances exposed to the public internet, the majority in the US, although it stressed that figure says nothing about whether they&#x27;re vulnerable or fully patched.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The observed exploitation fits a pattern that&#x27;s becoming increasingly familiar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier this month, researchers warned that attackers had exploited a critical PeopleSoft zero-day before patches were widely deployed, with
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/11/shinyhunters-claims-oracle-peoplesoft-0-day-hit-100-orgs/5254443&quot;&gt;
+   the ShinyHunters crew claiming to have compromised more than 100 organizations. They also boasted of having stolen HR and payroll data
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This latest incident also follows
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/10/07/clop-raid-on-oracle-ebs-started-months-ago-say-researchers/739360&quot;&gt;
+   Clop&#x27;s lengthy campaign against Oracle E-Business Suite customers
+  &lt;/a&gt;
+  , disclosed last year after researchers found the ransomware crew had targeted internet-facing EBS servers for months before the activity became public.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The newly exploited EBS vulnerability is probably not the last Oracle ERP bug to be targeted. Enterprise software has become a lucrative hunting ground for cybercrooks, and critical updates can double as roadmaps for anyone prepared to reverse-engineer the fixes and beat customers to deployment. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Connect, disconnect, or just have a lovely beer </title>
+<link>https://www.theregister.com/offbeat/2026/07/02/connect-disconnect-or-just-have-a-lovely-beer/5264598</link>
+<pubDate>Thu, 02 Jul 2026 09:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   BORK!BORK!BORK!
+  &lt;/span&gt;
+  &lt;span&gt;
+   Sometimes a digital sign can carry a message that means more than just words. Like this example, which could be a simple connectivity issue or speak to a deeper spiritual meaning: You&#x27;re not connected to a network.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spotted by an eagle-eyed Vulture on a visit to Neuschwanstein Castle in Germany, near the border with Austria, the digital sign normally displays information to individuals waiting in a nearby queue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not today, though.
+ &lt;/p&gt;
+ &lt;p&gt;
+  From a purely technical standpoint, it appears the sign is running a browser that cannot connect to the computer serving content for visitors. The error &quot;You&#x27;re not connected to a network&quot; indicates that a WiFi network may be misbehaving, or that an adaptor (or driver) has packed up.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Or perhaps, just perhaps, the message has another meaning. &quot;You&#x27;re not connected to a network&quot; could be a warning to citizens unable to draw their eyes from the device in their hands. Sure, they might think they are connected to a social network, but such connections are merely virtual. You are, as the sign says, not connected to a network. Not really.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s certainly food for thought. Or it might just be that something somewhere has fallen over and been unplugged, and the hard-pressed techie responsible for it has either not spotted the problem, or lacks the time to deal with it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.neuschwanstein.de/englisch/idea/index.htm&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Neuschwanstein
+  &lt;/a&gt;
+  was built from 1869 to 1886, and initially served as the residence of King Ludwig II of Bavaria. It&#x27;s a strange place, having been built at a time when castles weren&#x27;t necessary as strongholds, but it was still given a medieval-ish design. There&#x27;s hot and cold running water, a heating system, and even a telephone connection (despite the digital sign insisting it can&#x27;t find a network).
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s certainly worth a visit, and as the throng beside the possibly philosophical signage makes clear, it is a popular attraction.
+  &lt;br/&gt;
+  &lt;br/&gt;
+  Walt Disney visited the schloss in the 1950s and – judging by the multiple similarities with the Disney Sleeping Beauty Castle from the 1959 movie  – was seemingly inspired by its architecture and distinctive towers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Or perhaps it&#x27;s worth attending not for the architecture, but for the inadvertent philosophy in the borked signage: you&#x27;re not connected to a network.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But you are in Bavaria.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So how about a lovely beer and Schweinebraten mit Kartoffelknödel? ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UN warns of need for global governance to avoid an AI-pocalypse </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/02/un-warns-of-need-for-global-governance-to-avoid-an-ai-pocalypse/5265188</link>
+<pubDate>Thu, 02 Jul 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  A United Nations report on AI warns the technology is moving faster than governments can keep up, and the window of opportunity to establish effective global governance of it will not be open forever.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.un.org/independent-international-scientific-panel-ai/en/preliminary-report&quot;&gt;
+   Preliminary Report
+  &lt;/a&gt;
+  from the UN&#x27;s Independent International Scientific Panel on Artificial Intelligence presents AI as something of a mixed blessing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It says that the potential benefits of AI are enormous. If deployed and applied thoughtfully, the technology could support progress towards sustainable development goals, among other gains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the other hand, a rapid, unchecked deployment of the technology at scale presents risks such as harm to the mental health of users, potential use as a destructive tool, and adverse impact on social, economic, and environmental systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Obtaining the benefits from AI while minimizing those risks requires effective governance, the report says. With complementary investments in skills and labor market regulation, AI will likely create new jobs. Without them, AI risks wider inequality, displacing workers, and shifting wealth from labor to capital – those who own and control the AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI is, of course, an all-encompassing term that covers everything from algorithms that try to predict the word you are typing to large language models (LLMs). The UN report seems most concerned about agentic AI, which refers to systems that are allowed to make their own decisions and act on them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There is no guarantee that such AI agents will not violate their instructions, and the UN report claims there is
+  &lt;a href=&quot;https://www.theregister.com/software/2025/05/29/openai-model-modifies-own-shutdown-script-say-researchers/917237&quot;&gt;
+   clear evidence
+  &lt;/a&gt;
+  of cases where they have already disregarded them. Such behavior may pose challenges to evaluation and oversight methods, as some leading AI systems have been shown to recognize testing environments and produce misleading evaluation results.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Agentic systems make AI harder to measure and govern, it says, as emerging multi-agent risks cannot be detected through single-agent evaluation, and reliable methods for maintaining control over highly autonomous systems remain underdeveloped.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report also notes that policymakers aiming to draw up effective governance face a dilemma: they need evidence to make informed decisions, but by the time sufficient evidence exists, harmful systems may already be widely deployed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI capabilities are also unevenly distributed. Most nations, including many advanced economies, lack the technical expertise to assess the most capable &quot;frontier&quot; models or to participate meaningfully in their governance, the UN claims.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US and China account for 90 percent of the compute power behind the leading AI models, leaving developing countries dependent on technology they cannot build or adapt to their own societies. This could reinforce existing global inequality rather than reducing it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the report acknowledges the Scientific Panel&#x27;s own lack of visibility into certain areas. Evidence is limited as to whether task-level AI productivity gains will aggregate to economy-wide gains, it says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  has previously reported, many companies are
+  &lt;a href=&quot;https://www.theregister.com/software/2026/01/20/majority-of-ceos-report-zero-payoff-from-ai-splurge/4815942&quot;&gt;
+   failing to increase revenue or reduce operating costs
+  &lt;/a&gt;
+  through their AI projects, and that was before AI vendors drove up costs by
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864&quot;&gt;
+   shifting to consumption-based pricing
+  &lt;/a&gt;
+  , meaning there is a lack of evidence that AI will ever be cost-effective.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Forecasts diverge significantly due to different assumptions about adoption and new task creation, according to the UN.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The panel concludes that AI is neither inherently good nor bad, but its impact will depend on the choices that governments, companies, and societies make today.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Given that the US government is already
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/07/24/trump-ai-plan-rips-brakes-out-deregulate-innovate/272554&quot;&gt;
+   hostile to anything resembling regulation
+  &lt;/a&gt;
+  of AI companies, and that the industry is already copying techniques used by tobacco firms, big pharma, and oil companies to
+  &lt;a href=&quot;https://www.theregister.com/ai-ml/2026/05/18/big-ai-is-subverting-regulations-just-like-tobacco-and-oil-firms/5241910&quot;&gt;
+   subvert regulation
+  &lt;/a&gt;
+  , the outlook isn&#x27;t encouraging. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hackers shoveled snow for company, were rewarded with network admin access </title>
+<link>https://www.theregister.com/security/2026/07/02/hackers-shoveled-snow-for-company-were-rewarded-with-network-admin-access/5265240</link>
+<pubDate>Thu, 02 Jul 2026 07:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   PWNED
+  &lt;/span&gt;
+  Welcome back to PWNED, the column where we document serious security failures in hopes we can all learn from others’ mistakes. This week, we’ll talk about how a lack of physical security can allow threat actors to take control of your network.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-text_color=&quot;tertiary&quot;&gt;
+   Have a story about someone leaving a gaping hole in their network? Share it with us at
+   &lt;a href=&quot;mailto:pwned@sitpub.com&quot;&gt;
+    pwned@sitpub.com
+   &lt;/a&gt;
+   . Anonymity is available upon request.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Our story comes to us from two professional red teamers, who get paid to break into offices and networks in order to find holes in the security system. Kristopher Johnson was working as an offensive security consultant at Echelon Risk + Cyber in 2023 and his manager was Dahvid Schloss. We spoke to both.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Johnson and another employee named Michael were called upon to challenge the security at a client’s office while Schloss supervised remotely. It was winter and the maintenance crew had the maintenance door open. They walked through it and into the mail room, where a woman confronted them and asked what they were doing there.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The two intrepid testers talked to the company maintenance crew and told them that they were new IT employees without working badges. They said that they had almost slipped on the ice and offered to help shovel, an offer the maintenance team was happy to take them up on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While Michael kindly helped the maintenance crew shovel snow, Johnson asked if the maintenance folks could let him in so he could go upstairs and start setting up Michael’s laptop for work. They let him in where he was free to explore the building as his partner brushed away a large section of ice and snow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Inside the building, Johnson looked for a place to plug in his Raspberry Pi. The idea was to connect this single-board computer to the network, where they could access it remotely and use it to attack the network from afar. He tried plugging his Raspberry Pi into an Ethernet port in the AV closet, but the company had network access control enabled, which prevented it from connecting. The Raspberry Pi had an LTE radio, but it couldn’t connect from the closet either.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So Johnson instead moved his Raspberry Pi into the middle of the conference room and found an active network port that didn&#x27;t have network access control enabled on it. However, he realized the Pi would be visible to anyone who entered the conference room, and they might find it suspicious. So he took some trash cans and used them to hide the device.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Johnson had a hard time getting out of the building after that. He tried to go out the front door, but it required him to swipe a badge he didn’t have and strangers would not swipe their badges for him. But when he went back through the maintenance entrance, they were more than happy to swipe him out. He waited in the car while Michael finished his shoveling assignment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The next day, Johnson found out that his security breach had been detected. When he and Michael came in to meet with their contact at the company, the head of security confronted them. They had been “caught” because someone from maintenance went up to the IT department and wanted to thank the IT team for Michael’s help with the shoveling.  However, the IT team had no record of new employees named Michael or Kristopher, so that raised suspicion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before learning that they were professional red teamers, the building security had been suspicious and had looked at camera footage tracking their movements. They had even tried to get information on the license plate from Johnson’s rental car. However, they never did find the Raspberry Pi, which remained plugged into the Ethernet port in the conference room for two weeks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During that time, Johnson’s team was able to connect to the company’s Active Directory, find where the domain controllers were, and start password spraying accounts to see if they could gain access. They tried using the password “winter2023!” and got 50 or 60 hits among the employees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “So we used those credentials to kind of map out the rest of the network,” Johnson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “Network shares and things like that and then, towards the end of the test, we enumerated the certificate services - ADCS (Active Directory Certificate Services).”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The red teamers found eight templates that were open to ESC1 and ESC4 vulns. They also found that the certificate authority was vulnerable to ESC8. They were then able to exploit those holes to gain domain administrative access. The janitor found the Raspberry Pi two weeks after they broke in, but by then it was too late.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are a lot of lessons here, but they start with training every member of the team to be suspicious of people coming from the outside, without badges, no matter what they say or do. Schloss noted that, if someone looks and acts like they belong in a space, most people will treat them that way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “First and foremost, what most people believe is crime is not crime. It&#x27;s a Hollywood myth of what crime looks like,” Schloss told us. “I call it the ski mask bias. Everyone assumes you&#x27;re not getting robbed until a person comes in with a ski mask and a gun yelling.”
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The maintenance team at this company should have been more suspicious of people calling themselves new employees and asking for a swipe in, even if they were willing to help shovel snow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company also should have restricted network access to the port in the conference room so that an unknown device like a Raspberry Pi could not make an Ethernet connection from that spot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, the company should have enforced a strong password policy that would have prevented our heroes from finding dozens of accounts with “winter2023!” as the password. And they should have enforced multi-factor authentication on those accounts as well. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Trouble keeps finding Supermicro as strange server shipments attract police attention in Taiwan and Singapore </title>
+<link>https://www.theregister.com/legal/2026/07/02/trouble-keeps-finding-supermicro-as-strange-server-shipments-attract-police-attention-in-taiwan-and-singapore/5265520</link>
+<pubDate>Thu, 02 Jul 2026 06:02:32 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  The strife seldom stops at Supermicro, which this week has been forced to deny a raid on its office, and appears to have fallen victim to fraudsters in Singapore.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The server-maker yesterday published a business update in which Chief Revenue Officer Matt Thauberge assured customers that police in Taiwan did not raid the company this week – the company is just helping local authorities after they detained four of its workers for questioning. Thauberge said Supermicro “coordinated with authorities to provide access to those employees’ desks and electronic devices” to assist with a matter the company previously said is related to “illicit diversion of our highly sought-after systems into the restricted China market.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Supermicro said the investigation “highlights the challenges that can arise when products are resold through multiple downstream parties beyond direct manufacturer control,” and said it vetted the original purchaser thoroughly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Servers are not in short supply in China, where local heroes like Lenovo, Inspur, and Huawei can crank out plenty of x86 boxes. Chinese buyers, however, are not always able to buy some Nvidia GPUs due to US sanctions and, more recently, Chinese authorities deciding not to authorize imports after sanctions lifted. It’s thought the servers allegedly sent to China may have had Nvidia kit inside. That’s not a crime, but the paperwork arranging the deal may have been improper.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Supermicro is also tangled up in a Singapore case that started in early 2025 with the arrest of three men accused of fraudulently acquiring servers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Singapore’s Law and Home Affairs Minister K. Shanmugam linked the matter to export of servers containing Nvidia parts to Malaysia but said he wasn’t sure if that was the final destination for the boxes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a statement published on Wednesday, the island nation’s law enforcement agency detailed a conspiracy involving three men who were officers of three companies collectively known as “Asperia Group.” The three men allegedly talked with Dell, Supermicro, and ASUS about purchasing servers and claimed that Asperia Group would be the end-user of the servers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the accused is also alleged to have negotiated to buy servers from Supermicro for a company he controlled called Luxuriate Your Life, which he said would lease them to third parties.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Singaporean authorities allege the men were all fraudsters because the servers they bought were not used by Asperia Group or leased by Luxuriate Your Life.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A common theory is that the Asperia and Luxuriate Your Life intended to either move the servers out of Singapore and rent them to Chinese users, or just ship them to China. The alleged conspiracy took place during times when the US banned sales of Nvidia chips to China.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Singaporean authorities also laid new charges of benefiting from criminal conduct, and issued orders preventing disposal of a “Good Class Bungalow” valued at $SGD55 million ($42 million/£$31.5 million) as it may be the proceeds of crime.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The value of Supermicro shares is down around 17 percent this week. ®
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> New humanoid robots from China look like creepy pop star action figures – complete with slightly dodgy lip-synch </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/5265490</link>
+<pubDate>Thu, 02 Jul 2026 02:35:26 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  One of China’s emerging humanoid robotics companies has launched its most-realistic looking models yet and says it has already taken over 13,000 orders for the $17,600/ £13,300 machines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s a shot of the new machines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  You’re looking at the UWORLD U1, which Chinese company UBTECH says enjoys 88 degrees of freedom thanks to use of “a proprietary dual-pivot biomimetic cervical spine, enabling it to replicate up to 90 percent of fundamental human movements.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company says the machines are suitable for “long-term companionship” due to what it claims is “the world&#x27;s first emotion-aware LLM … capable of recognizing more than 20 fine-grained emotional states with an accuracy rate exceeding 90 percent.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its breathless
+  &lt;a href=&quot;https://www.prnewswire.com/news-releases/ubtech-launches-uworld-u1-the-worlds-first-full-size-mass-produced-ultra-bionic-humanoid-robot-302815272.html&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  , UBTECH says the bots use a “biomimetic fast-and-slow brain architecture” that “draws on cognitive neuroscience principles, enabling a 500-millisecond intuitive response system alongside deep reasoning capabilities powered by models with hundreds of billions of parameters.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  We’re told a “biomimetic expression actuation system … reduces speech-to-lip synchronization latency to within 20 milliseconds, creating a remarkably lifelike interaction experience.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  UBTECH thinks its new bots can provide “daily companionship, emotional support, lifestyle enhancement, and social assistance, as well as reception and hospitality services, elder care, psychological support, tourism and exhibitions, research and education, and premium domestic service applications.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That companionship can even extend to hitting the dance floor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another pic suggests the bots can also be all pouty and stone-faced, like catalk models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Register wants to know if they can also run DOOM or play Crysis, but sadly UBTECH hasn’t said much about the Agent Memory OS that powers the bipedal machines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company has, however, cooked up its own laws of robotics: users can set hardware safeguards and retain ownership of data which is processed locally whenever possible due to a policy of minimal cloud dependency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  China’s government wants the nation to lead the humanoid robotics industry. State media has even taken to
+  &lt;a href=&quot;https://english.news.cn/20260701/e20565c8d7924657a3c2ec6cc0215ff9/c.html&quot;&gt;
+   calling
+  &lt;/a&gt;
+  the Nanshan District of Shenzhen, a city already famed as China’s tech hub, “Robot Valley.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Middle Kingdom is not alone in betting on humanoid bots: SpaceX supremo and occasional US government employee Elon Musk wants to build a million of them each year, and thinks a billion will work and walk alongside us meatbags by 2040. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Oracle outlines all the ways it could lose the farm it bet on AI </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/01/oracle-outlines-all-the-ways-it-could-lose-the-farm-it-bet-on-ai/5265438</link>
+<pubDate>Wed, 01 Jul 2026 22:23:52 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Oracle is burning hundreds of billions to finance AI datacenters for the likes of OpenAI. Now, the company is admitting they may not pay off.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amid the usual boilerplate, Big Red cited numerous risk factors related to its AI infrastructure investments in a
+  &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm#item_1a_risk_factors&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   regulatory filing
+  &lt;/a&gt;
+  published late last month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “To grow our OCI business, which requires increased computing capacity, we must incur significant capital and operating expenditures to increase our existing data center capacity and to establish data centers in new geographic locations,” the filing reads, using the TLA for &quot;Oracle Cloud Infrastructure.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  These investments, the company notes, are tied to long-term commitments for infrastructure and datacenter capacity. Unlike the big three cloud providers, Oracle prefers to lease datacenter capacity from partners like Crusoe, rather than build them itself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the filing doesn’t mention OpenAI explicitly, Oracle’s success as an AI infrastructure provider is inextricably tied to the model dev and its cult-of-personality leader, Sam Altman.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In early 2025, Oracle
+  &lt;a href=&quot;https://www.theregister.com/software/2025/01/22/openai-forms-biz-to-spend-500-billion-on-ai-infrastructure/1146237&quot; target=&quot;_blank&quot;&gt;
+   joined
+  &lt;/a&gt;
+  OpenAI, SoftBank, and MGX to put its name on the so-called Stargate initiative, an ambitious project to pave the planet with half a trillion dollars worth of bit barns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we later learned, Oracle had
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/12/15/oracle-insists-its-300b-contract-with-openai-is-on-schedule/2014362&quot; target=&quot;_blank&quot;&gt;
+   signed up
+  &lt;/a&gt;
+  to provide $300 billion of capacity over five years as part of a long term agreement with OpenAI, which would also see the database provider manage the model dev’s flagship facility in Abilene, Texas. In addition to the OpenAI deal, Oracle
+  &lt;a href=&quot;https://www.theregister.com/software/2025/09/10/oracles-cloud-pipeline-is-stuffed-with-llm-cash/290446&quot; target=&quot;_blank&quot;&gt;
+   claims
+  &lt;/a&gt;
+  to still have about $155 billion in remaining performance obligations from other customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This puts Oracle in a tough spot. If it underestimates demand, it could lose customers to competing infrastructure providers. On the flip side, Oracle says if it overestimates demand, or any of its key customers can’t make rent, it could end up footing the bill for the datacenter capacity it leased on their behalf.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oracle&#x27;s OpenAI deal will reportedly contribute
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/12/15/oracle-insists-its-300b-contract-with-openai-is-on-schedule/2014362&quot; target=&quot;_blank&quot;&gt;
+   up to $30 billion
+  &lt;/a&gt;
+  in revenues annually, with revenues expected as early as next year. But OpenAI still hasn’t managed to turn a profit, which means its ability to pay its bills depends entirely on its ability to continue raising capital.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our business is, and may continue to be, exposed to risks of customer non-payment and non-performance,” the company wrote. Well, yes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And even if they pay up, there’s no guarantee its customers will renew their leases. “If customers do not renew their contracts, we may be unable to re-lease, repurpose or assign such capacity on acceptable terms, if at all,” the filing reads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers&#x27; ability to pay their bills may not be the only risk factor facing Oracle’s AI gamble. As the company notes, it is already having trouble securing enough power at fair prices to fuel its datacenter buildout.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have faced, and may continue to face, challenges with securing reliable and cost-effective power sources for our data center energy demands, which are constrained globally due to the significant increase in demand for and limited availability of energy to power AI compute,&quot; the company wrote. &quot;In addition, power prices can be volatile, including due to extreme weather events and market structure in certain regions, and increases in energy costs can adversely affect our margins, particularly where customer pricing is fixed or committed.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oh, and then there&#x27;s the fact that building datacenters is not for the faint of heart in the first place. Anything that could go wrong … could go wrong. Let&#x27;s go to the tape:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Our data center expansion depends on access to suitable, permitted build sites; reliable and predictable power sources; networking hardware; and server availability, including graphics processing units, memory devices and other critical components. Data centers in geographies that we rely on may be unavailable on commercially reasonable terms or at all. Government-imposed limits or moratoria on data center construction in a given market could hinder our ability to execute our expansion plans or prevent us from completing planned data center projects. Even where suitable sites and capacity are available, our data center expansion plans are complex and subject to execution risks, including, among others, delays or cost increases related to design, engineering, permitting, construction, utility interconnection, equipment delivery and contractor performance. Our ability to build and operate data centers also may be affected by existing and evolving laws, regulations and policies relating to land use and zoning, environmental permitting, energy usage, grid reliability, greenhouse gas emissions, water usage, building codes, health and safety, tax incentives and data localization.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whew.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But Oracle is in too deep to call it quits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have made significant investments in AI initiatives, including investments in infrastructure and headcount, and we expect to continue to invest significant resources to build and support our AI products in support of our growth strategy,” the company warned investors. “If we do not continue to invest significant resources to develop and support our AI products, we may fall behind technological developments and evolving industry standards, which would likewise harm our ability to compete.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other words, damned if they do and damned if they don&#x27;t, so what’s left to do other than burn, baby, burn?
+ &lt;/p&gt;
+ &lt;p&gt;
+  And that’s exactly what Ellison and crew plan to do. During its Q4 earnings call last month, the company said it
+  &lt;a href=&quot;https://www.theregister.com/paas-and-iaas/2026/06/11/oracles-ai-datacenter-splurge-gives-investors-the-capex-jitters/5254035&quot; target=&quot;_blank&quot;&gt;
+   planned
+  &lt;/a&gt;
+  to spend $70 billion on capital expenditures during the 2027 fiscal year, up from around $55 billion spent during its 2026 fiscal year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To support this spending spree, Oracle will have to take on additional debt. In 2027, the company hopes to raise around $40 billion in debt and equity. That’s on top of the $18 billion in debt it
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2025-09-24/oracle-looks-to-raise-15-billion-from-corporate-bond-sale&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   raised
+  &lt;/a&gt;
+  back in September.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Stock market bettors aren&#x27;t sure they like these odds. The company&#x27;s stock is down more than 40 percent in the last month.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> EvilTokens device-code phishing kit totally more evil than we all thought </title>
+<link>https://www.theregister.com/cyber-crime/2026/07/01/eviltokens-device-code-phishing-kit-totally-more-evil-than-we-all-thought/5265409</link>
+<pubDate>Wed, 01 Jul 2026 21:50:25 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  EvilTokens, the device-code phishing kit that can allow criminals to bypass multi-factor authentication (MFA) and silently authenticate as the victim to the organization&#x27;s Microsoft 365 applications, appears to be even more insidious than we all thought.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cisco Talos incident responders on Wednesday described how the lure reaches a victim&#x27;s inbox, and revealed new capabilities alongside a “more sophisticated evasion approach” than documented in earlier EvilTokens research.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Talos uncovered a phishing-as-a-service (PhaaS) operator panel, branded “ARToken,” that appears to be an EvilTokens customer, according to security research engineer Michael Kelley, who noted the phishing operation shares infrastructure, API contracts, and operational patterns with the EvilTokens platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  EvilTokens was
+  &lt;a href=&quot;https://www.sekoia.com/blog/new-widespread-eviltokens-kit-device-code-phishing-as-a-service-part-1&quot; rel=&quot;nofollow&quot;&gt;
+   first documented
+  &lt;/a&gt;
+  by French cybersecurity firm Sekoia in March, and in April Microsoft said the device-code phishing campaign was compromising hundreds of organizations daily.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Since March 15, 2026, we have observed 10 to 15 distinct campaigns launching every 24 hours,&quot; Microsoft VP of security research Tanmay Ganacharya told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   El Reg
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/07/hundreds-compromised-daily-in-microsoft-device-code-phishes/5222742&quot;&gt;
+   at the time
+  &lt;/a&gt;
+  . “Each campaign is distributed at scale, targeting hundreds of organizations with highly varied and unique payloads, making pattern-based detection more challenging.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  While most subsequent analysis has covered EvilTokens’ panel and phishing kit, “what it has not shown is how an ARToken lure actually reaches an inbox,” Kelley
+  &lt;a href=&quot;https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/&quot; rel=&quot;nofollow&quot;&gt;
+   said
+  &lt;/a&gt;
+  on Wednesday. “Talos recovered two near-identical messages, sent roughly four minutes apart on April 20, 2026, that initiate the chain. The tradecraft is targeted, not spray-and-pray.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Specifically, the email lure abused a real vendor relationship between a US life-sciences company and a legitimate plumbing and fire-protection contractor. The email uses an outstanding-invoice lure, telling the life-sciences company that “the following invoices appear to still be outstanding,” and the “from” header presents the contractor’s real domain. The reply-to, however, redirects replies to an unrelated domain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even the visible anchor text in the body of the email reads as the vendor&#x27;s genuine SharePoint tenant, we’re told. The actual href, however, points to a near-identical copycat tenant under a different, attacker-controlled Microsoft 365 workspace. But because the destination is still a legitimate sharepoint.com host, the email is less likely to be flagged as a phish.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During its investigation into the ARToken phishing infrastructure, Cisco uncovered the connections to EvilTokens – including an identical API contract to the one originally documented by Sekoia and matching deployment and operational models – as well as “notably more sophisticated” anti-analysis and evasion capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ARToken’s panel also revealed a very comprehensive post-exploitation toolkit that provides token management and persistence mechanisms, and a built-in business email compromise (BEC) tool with full Microsoft Outlook inbox read access, email sending capabilities as the victim, inbox rule creation for forwarding and deleting messages, and keyword-based monitoring across all compromised accounts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “These features indicate the platform is more mature than a simple device code phishing kit - it is a complete BEC operations environment,” Kelley wrote. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy </title>
+<link>https://www.theregister.com/devops/2026/07/01/claude-sonnet-50-heads-straight-down-the-middle-of-the-road-to-dodge-controversy/5265398</link>
+<pubDate>Wed, 01 Jul 2026 21:33:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Anthropic has released the latest version of its mid-sized model, Sonnet 5, which the company claims is its most “agentic” yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For developers writing agents to automate tedious and recurring tasks, Sonnet 5 promises improved capabilities in reasoning, tool use, coding, and knowledge work. This version is also less likely to pull embarrassing (for Anthropic) gaffes of misunderstanding, so the company asserts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our safety assessments found that Sonnet 5 shows an overall lower rate of undesirable behaviors than Sonnet 4.6, and is generally safer to use in agentic contexts,” the company asserted in
+  &lt;a href=&quot;https://www.anthropic.com/news/claude-sonnet-5&quot; rel=&quot;nofollow&quot;&gt;
+   an introductory blog post
+  &lt;/a&gt;
+  on Tuesday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sonnet 5 is smarter at refusing malicious requests and resisting prompt-injection attempts. It doesn’t hallucinate as often and doesn’t suck up to the user so much (“sycophancy”) as did its older brown-nosing Sonnet 4.6 sibling. It is also more aware of, and can block, user misuse and deception, the
+  &lt;a href=&quot;https://www.anthropic.com/claude-sonnet-5-system-card&quot;&gt;
+   benchmarks
+  &lt;/a&gt;
+  in Anthropic’s System Card seem to indicate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sonnet is the default model for Claude Free and Pro users, and is also available to the
+  &lt;a href=&quot;https://www.theregister.com/ai-ml/2026/05/31/netflix-wiz-creates-app-to-slash-ai-bills-then-open-sources-it/5248702&quot;&gt;
+   token-pinching
+  &lt;/a&gt;
+  Max, Team, and Enterprise customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The benchmarks also indicate Sonnet 5’s performance can come close to that of Anthropic’s flagship enterprise-focused Opus 4.8, but can execute the same tasks more cost effectively.  For Opus, Anthropic charges $5 per million input tokens and $25 per million output tokens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Starting in September, Sonnet users will pay $3 per million input tokens and $15 per million output tokens, though Anthropic is running a special through the end of August where tokens will only be $2 per million inputs and $10 per million outputs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So users trimming their token budgets can run jobs through Sonnet instead of Opus, the company suggests.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 5.0 release offers a new setting to adjust the model’s effort at completing tasks. Simple tasks can be completed through one of the lower “effort” settings, which uses fewer tokens, while longer-running agent-based tasks can go full throttle (“xhigh” or even Homer Simpson’s favorite setting, “max”).
+ &lt;/p&gt;
+ &lt;h3&gt;
+  What Sonnet 5 can do for developers
+ &lt;/h3&gt;
+ &lt;p&gt;
+  For much of 2026, AI product deployment has focused on equipping large language models to complete what has become known as  “long horizon tasks.” It might be easy for a model to fix a bug or churn out some code. However, keeping its finicky attention fixed on a multi-part task has proven more difficult.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new version of Sonnet can go the distance, according to the company, compared with the earlier Sonnets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Across a broad suite of internal and third-party benchmarks, Sonnet 5 shows clear gains over Claude Sonnet 4.6 in coding, agentic search, multimodal reasoning, and professional-task performance,” the System Card asserted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the same time, however, the performance across these tasks still trailed that of the Opus and Mythos models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One testimonial from a Zapier engineer described a two-part job that flummoxed earlier Sonnets: Update a contact database and send out a notice to all users. Version 5 was able to complete the task “end to end.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Cybersecurity: Nothing to see here
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The San Francisco-based company also went out of its way not to attract any more undue attention from Washington, DC policymakers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We did not deliberately train Sonnet 5 on cybersecurity tasks,” the company asserted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In June, the US Commerce Department, citing national security concerns, slapped Anthropic with an export control directive temporarily
+  &lt;a href=&quot;https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827&quot;&gt;
+   restricting foreign access
+  &lt;/a&gt;
+  to the newly released Mythos 5 and Fable 5 models. Whether Anthropic brought this on itself – through what
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/06/09/anthropic-spins-a-fable-of-a-tamer-safer-mythos/5253106&quot;&gt;
+   could be regarded
+  &lt;/a&gt;
+  as hyperbolic assertions of Mythos’ deity-like bug-sleuthing powers – is certainly worth discussing. But Anthropic, like Pete Townshend, certainly won’t be fooled again.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While it can readily perform routine cybersecurity tasks, Sonnet 5 is guardrailed against generating offensive attack code. When commanded to write a Firefox exploit, it failed to complete the task (though it got a bit further than Sonnet 4.6 in the attempt).
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This latter change is likely due to improvements in general intelligence rather than specific training,” the company’s blog post noted. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Anthropic is removing its covert code for catching Chinese competitors </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366</link>
+<pubDate>Wed, 01 Jul 2026 20:56:31 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Anthropic says that it plans to remove hidden codes it added to Claude Code several months ago to catch other AI companies that are trying to steal from its models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thariq Shihipar, an engineer at Anthropic who works on the Claude Code team, said on Tuesday that a fix should appear on July 1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This is an experiment we launched in March that was meant to prevent account abuse from unauthorized resellers and protect against distillation,&quot; Shihipar
+  &lt;a href=&quot;https://x.com/trq212/status/2072079729331777817&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   explained
+  &lt;/a&gt;
+  , using the industry term for copying AI models through repeated queries. &quot;The team has landed stronger mitigations since then and we’ve actually been meaning to take this down for a while.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He said that the pull request to remove the code has been merged and should appear in Wednesday&#x27;s
+  &lt;a href=&quot;https://github.com/anthropics/claude-code/releases&quot;&gt;
+   Claude Code release
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The experiment, as
+  &lt;a href=&quot;https://thereallo.dev/blog/claude-code-prompt-steganography&quot;&gt;
+   described
+  &lt;/a&gt;
+  by a developer who goes by the name Thereallo, consisted of applying steganography – hiding secret data in plain sight – to the Claude Code system context that gets passed to Anthropic&#x27;s servers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The relevant code checks Claude Code&#x27;s
+  &lt;a href=&quot;https://code.claude.com/docs/en/env-vars&quot;&gt;
+   base URL environment variable
+  &lt;/a&gt;
+  , used to route API requests to a proxy or gateway. If the base URL has been overridden, the code goes on to check the system timezone and whether the hostname matches any entry in
+  &lt;a href=&quot;https://cdn.thereallo.dev/blog/assets/cc-domains.js&quot;&gt;
+   a list
+  &lt;/a&gt;
+  of known Chinese AI labs, other AI companies, account resellers, and gateway domains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thereallo said that while it makes sense that Anthropic might try to detect a hostname associated with a Chinese AI rival or a reseller, the implementation should not have been concealed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;[Claude Code] silently alters the system prompt using invisible-ish Unicode markers,&quot; Thereallo wrote. &quot;It encodes proxy / gateway classification into a sentence that looks like plain English. It hides the domain list behind XOR and base64. This is not a malicious feature, but it is a weird choice for a developer tool that asks for trust.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Asked whether Anthropic disclosed its covert usage tracking mechanism in any of its terms of service documents, a company spokesperson pointed to Shihipar&#x27;s remarks, which did not address that question.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nor did Anthropic&#x27;s spokesperson immediately respond to a request to specify what &quot;stronger mitigations&quot; have been implemented to prevent unauthorized resellers and distillation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In February, shortly before the implementation of the steganographic codes, the AI biz said that it was investing in defenses against distillation. These included detection via classifiers and behavioral fingerprinting systems, intelligence sharing with other AI labs, access controls, and countermeasures that make it harder to use model output to reproduce the model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One such defense came to light when the company&#x27;s Claude Code source leaked. The coding agent includes a Typescript file with a flag called
+  &lt;a href=&quot;https://github.com/alex000kim/claude-code/blob/main/src/services/api/claude.ts#L301-L313&quot;&gt;
+   ANTI_DISTILLATION_CC
+  &lt;/a&gt;
+  . The flag, when set, injects fake tool data into API requests in an attempt to make that data toxic for model training.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even with its technical defenses against competition, Anthropic
+  &lt;a href=&quot;https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks&quot;&gt;
+   urged
+  &lt;/a&gt;
+  the AI industry, cloud providers, and government to respond to the threat of model distillation. A recent White House
+  &lt;a href=&quot;https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/&quot;&gt;
+   Executive Order
+  &lt;/a&gt;
+  that articulates the intent to protect US AI from foreign adversaries shows that the feds have some interest in answering that call. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Of Course Meta Platforms Is Going To Be A Cloud </title>
+<link>https://www.theregister.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392</link>
+<pubDate>Wed, 01 Jul 2026 20:44:16 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  The smartest thing that online bookseller and e-tailing giant Amazon ever did was let you pay for its enormous IT expenses as the company was growing at a crazy pace. You did this by renting compute and storage capacity on the nascent Amazon Web Services cloud. It is not a “public cloud,” it is a private compute utility that people rent capacity on and a massively profitable one at that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I do not know precisely where the annual Amazon IT budget and the operating profits from Amazon Web Services crossed each other. Amazon’s IT spending (which included content creation) was 8 percent of revenue in 2001, the peak of the Dot-Com Boom, and shrank to 5 percent of revenue in the following year and was around 4 percent of revenue up until 2005. At that point, the investments to create the AWS cloud started to rise, and the money coming in for AWS was ploughed back into infrastructure expansion and as far as I can tell, AWS did not really make an operating profit until late 2014.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you assume that the underlying non-AWS businesses at Amazon average somewhere around 5 percent of revenues for their internal IT budgets, then the crossover where AWS operating profit was bigger than that internal IT spending happened around 2019. And it has been more than paying the Amazon IT bills since then.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Genius
+  &lt;/em&gt;
+  ,
+  &lt;em&gt;
+   really
+  &lt;/em&gt;
+  . Enlightened self-interest defined.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, yeah. There is no surprise that Meta Platforms, which is the only hyperscaler that is not also a cloud builder, has been looking at providing some kind of retail cloud service to customers who want access to its hardware and software infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its Q3 2025 financial call last October, founder and chief executive officer Mark Zuckerberg admitted that the company had been mulling over cloud services in a more substantial way than just selling tokens generated by its Llama API service,
+  &lt;a href=&quot;https://www.nextplatform.com/ai/2025/04/30/with-its-llama-api-service-meta-platforms-finally-becomes-a-cloud/1639833&quot;&gt;
+   which was launched in April 2025
+  &lt;/a&gt;
+  . Meta Platforms had hoped at the time that its suite of Llama 4 models – Scout, Maverick, and Behemoth – would be among the best models on the planet and that customers would flock to them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Zuckerberg danced a little bit, and described this move to adding cloud services as more of a scenario where Meta Platforms overbuilds capacity and has to find customers to use it so it doesn’t lose huge amounts of dough. Take a listen:
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There’s just a lot of demand for other new things that we build internally, externally. Like almost every week, people come to us from outside the company asking us to stand up an API service or asking if we have different compute that they could get from us. And we haven’t done that yet, but obviously if you got to a point where you overbuilt, you could have that as an option. And then, the kind of very worst case would be that we effectively have just prebuilt for a couple of years, in which case of course there would be some loss and depreciation, but we would grow into that and use it over time.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.cnbc.com/2026/05/27/mark-zuckerberg-says-meta-starting-cloud-business-on-the-table.html&quot;&gt;
+   At the company’s annual shareholder meeting at the end of May
+  &lt;/a&gt;
+  , Zuckerberg said that selling cloud services was “definitely on the table,” but did not elaborate much beyond that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today,
+  &lt;em&gt;
+   &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-07-01/meta-is-building-a-cloud-business-to-sell-excess-ai-compute?sref=PD7AKDQg&quot;&gt;
+    Bloomberg is reporting that Meta Platforms is actually getting together a battle plan
+   &lt;/a&gt;
+  &lt;/em&gt;
+  to more formally sell cloud services and directly take on AWS, Microsoft Azure, and Google Cloud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is ironic considering that Meta Platforms has been buying capacity to run some of its workloads from AWS and Azure for many years to supplement its own infrastructure capacity in its own datacenters. Last August, Meta Platforms inked a deal with Google Cloud to rent $10 billion of capacity, and has agreed to buy $21 billion in capacity from king of the neoclouds, CoreWeave. That makes Meta Platforms CoreWeave’s biggest customer, where previously it was Microsoft offloading OpenAI AI training and inference workloads that was CoreWeave’s largest customer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, it looks like Meta Platforms wants to sell access to an API running
+  &lt;a href=&quot;https://www.nextplatform.com/ai/2026/04/13/building-the-imperfect-beast/5216982&quot;&gt;
+   its more recent Muse Spark AI model
+  &lt;/a&gt;
+  , which is not open source like the Llama 3 and Llama 4 models were –
+  &lt;em&gt;
+   no more free lunch, people, and we’re raising the price on the beer, too
+  &lt;/em&gt;
+  . It is not clear what models Meta Platforms might load on its infrastructure, but clearly it will do whatever key customers want. If it does have excess capacity on its Nvidia and AMD GPU clusters, it can pretty much run any model its customers want it to run.
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/04/08/contemplating-metas-homegrown-mtia-compute-engine-roadmap/5214899&quot;&gt;
+   That will not necessarily be the case on its homegrown MTIA accelerators
+  &lt;/a&gt;
+  , which have a fairly aggressive roadmap between now and the end of next year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;em&gt;
+   Bloomberg
+  &lt;/em&gt;
+  report also says that Meta Platforms is considering offering more basic infrastructure as a service – meaning virtual machines and containers that customers would create instances on like they do on other clouds, and that this whole effort is called Meta Compute.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are apparently three executives who have a hand in steering the Meta Compute effort:
+  &lt;a href=&quot;https://www.linkedin.com/in/sjanardhan/&quot;&gt;
+   Santosh Janardhan
+  &lt;/a&gt;
+  , who is head of global infrastructure and co-head of engineering at the social network, seems to be riding point. Janardhan was a database and storage admin at PayPal in the wake of the Dot-Com boom and then moved over to YouTube to do the same job for nearly four years, and then moved to Meta Platforms in 2009 to have the same job again. Janardhan rose up through the ranks, becoming a director of production engineering and site reliability, then took over software and production engineering before becoming the chief infrastructure exec four years ago.
+  &lt;a href=&quot;https://www.linkedin.com/in/danielgross271/&quot;&gt;
+   Daniel Gross
+  &lt;/a&gt;
+  , part of the Superintelligence Labs unit that is creating the new models, also has a hand on the tiller at Meta Compute, as does
+  &lt;a href=&quot;https://www.linkedin.com/in/dina-powell-mccormick/&quot;&gt;
+   Dina Powell McCormick
+  &lt;/a&gt;
+  , who took over as president and vice chairman of Meta Platforms back in May 2023 after being a partner at Goldman Sachs for sixteen years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With all of the hyperscalers and cloud builders complaining that they cannot get the capacity they need for their AI efforts, it is a bit of a wonder how Meta Platforms thinks it will have excess capacity. It seems to me that the company has figured out that the only way that it can make money from its enormous investment in AI infrastructure and AI model building is to become a neocloud. And we think that given the size of its datacenter investment, this cloud layer was always part of the strategy. If Meta can be at the front of the GPU line and keep Nvidia and AMD hopping because it has its own accelerators – just like AWS, Microsoft Azure, and Google Cloud – then it needs to leverage that advantage to make money. Being a neocloud does this.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There is precedent for this. Back in November 2024, in
+  &lt;em&gt;
+   &lt;a href=&quot;https://www.nextplatform.com/ai/2024/11/25/anthropic-and-openai-show-why-musk-should-build-a-cloud/1651844&quot;&gt;
+    Anthropic And OpenAI Show Why Musk Should Build A Cloud
+   &lt;/a&gt;
+   ,
+  &lt;/em&gt;
+  I explained why Elon Musk needed to take better advantage of the enormous amount of money that was spent to build clusters to train its Grok AI models. And early this year, lo and behold, he turned the Colossus datacenters in Memphis into a neocloud and sold capacity to both Google and Anthropic to pump up SpaceX’s financials ahead of its initial public offering a few weeks ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we said back then at the end of the “Musk must cloud” story, there will be a day – we are not sure what year that day will be in – when Nvidia also has to become a cloud and cut out all of the middlemen so it can keep its profits high after its revenues inevitably level off.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia spends three-fourths of its payroll on creating software, and because of the very high prices it can charge for its GPUs and ancillary gadgetry surrounding them, that software is largely free. But if prices drop, Nvidia will have to make it up selling software – even support for the new open source Nemotron models that it released this year. Nvidia is the only company that can afford to give its AI models away, and it is one of the few companies that can get compute engines at cost.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meta Platforms cannot get compute engines at cost, and it cannot afford to give its AI models away anymore, especially in a world where Google, AWS, Anthropic, and OpenAI are most definitely not giving their models away.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Godot says bye bye AI, bans vibe-coded contributions </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/01/godot-says-bye-bye-ai-bans-vibe-coded-contributions/5265344</link>
+<pubDate>Wed, 01 Jul 2026 20:29:07 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Vibe coders apparently don&#x27;t understand what their AI servants write - at least that’s what the team behind open-source game engine Godot seems to be implying with a new policy that cracks down on AI-generated contributions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Godot team
+  &lt;a href=&quot;https://godotengine.org/article/contribution-policy-2026/&quot;&gt;
+   announced
+  &lt;/a&gt;
+  on Tuesday that they were in the process of rewriting their contribution policy to prohibit almost all use of AI from contributors, citing an overwhelming number of pull requests that have poured in, many of which appear to be AI-generated. Nor, the maintainers suggested, can many heavy AI users be relied on to respond meaningfully to review feedback.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI cannot take responsibility, and we can’t trust heavy users of AI to understand their code enough to fix it,” the Godot maintainers said in their announcement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ouch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The maintainers described AI pull requests as “demoralizing” for the Godot team,
+  &lt;a href=&quot;https://www.theregister.com/software/2026/02/18/godot-maintainers-struggle-with-demoralizing-ai-slop-prs/4206219&quot;&gt;
+   echoing
+  &lt;/a&gt;
+  comments made earlier this year when maintainer Rémi Verschelde said AI pull requests were increasingly draining and demoralizing wastes of time. AI PRs, one game studio that uses Godot noted earlier this year, are largely garbage, come from users who don’t understand what they’re proposing, and are largely “a total shitshow.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Godot team said that it now recognizes the problem isn’t going away, so it’s time to do something about it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Accordingly, we are in the process of updating our contribution policies, including adding a stricter policy on AI contributions,” they said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For starters, new contributors (defined as anyone with three or fewer merged pull requests) will be required to get explicit permission from maintainers if they want to submit new features or significant refactoring to Godot&#x27;s codebase. This, the team said, is a bid to exclude vibe coders and AI agents and nurture a group of contributors who understand the Godot codebase and are willing to communicate with the team to learn more about it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On that note, contribution discussions will be required to remain human-to-human, too: No AI agents or bots clogging up the comms channels, unless they&#x27;re being used to translate between languages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We need to ensure that people who choose to review PRs feel their time is well spent,” the Godot maintainers explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for AI code itself, any autonomous agent-authored contributions or vibe-coded garbage will continue to result in an auto-ban from the team’s GitHub repo, and the team is extending that ban on AI code to include a prohibition on the use of AI to generate any substantial piece of code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI assistance should be limited to menial things (like code completion, regex, or find and replace),” the team explained. “If you do use AI in some capacity to author code, you must disclose it in the PR discussion.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The policy has yet to be formally amended, and the Godot maintainers didn’t say when exactly they’d release the update. Needless to say, vibe coders and AI agents aren’t welcome even now, so don’t push your luck.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vibe coding has shown other signs of falling out of favor lately as horror stories about
+  &lt;a href=&quot;https://www.theregister.com/software/2025/07/22/replit-makes-vibe-y-promise-to-prevent-vibe-coding-disasters/1145851&quot;&gt;
+   deleted databases
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/software/2025/12/01/googles-vibe-coding-platform-deletes-entire-drive/1817705&quot;&gt;
+   wiped drives
+  &lt;/a&gt;
+  continue to pile up. Just last week, the chairman of IT consulting service Infosys predicted that vibe coding wasn’t something professionals should be worried about as there’s more to writing good software than coding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Given that AI is a much larger and disruptive technology transition than ever before, the questions are louder and the doubts are more insistent,” Nandan Nilekani
+  &lt;a href=&quot;https://www.theregister.com/channel/2026/06/25/infosys-boss-says-vibe-coding-is-no-threat-because-theres-more-to-writing-software-than-writing-software/5261900&quot;&gt;
+   said
+  &lt;/a&gt;
+  in a speech at the company’s AGM last week. “While we will embrace the best coding tools and improve our productivity, there is much more to do in the software development life cycle.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Context, Nilekani said, is paramount in software development. Based on the vibe-coded disaster that Godot has dealt with, AI doesn’t seem quite capable of grasping that important element. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Somebody told DeepSeek to build in-browser ransomware and it gleefully complied </title>
+<link>https://www.theregister.com/security/2026/07/01/somebody-told-deepseek-to-build-in-browser-ransomware-and-it-gleefully-complied/5265311</link>
+<pubDate>Wed, 01 Jul 2026 19:57:48 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  You can&#x27;t ask most models to help you make &quot;ransomware&quot; directly, but many will be more than willing if you give them the right prompt. DeepSeek and other LLMs with fewer safety and security controls make theoretical cyberthreats - like browser-only ransomware - much more likely to be used in real-world infections, according to Check Point researchers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Israeli cybersecurity company analyzed a DeepSeek-generated sample in a Wednesday report that its threat hunters describe as in-browser ransomware.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the past year, the team has tracked almost 3,000 files attributed to DeepSeek, and classified nearly half (1,383 files) as malicious or dangerous using VirusTotal or static source analysis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Within this dataset, we found a sample that implemented a dangerous browser-native technique we have not observed exploited in the wild,” researcher Alexey Bukhteyev
+  &lt;a href=&quot;https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/&quot; rel=&quot;nofollow&quot;&gt;
+   wrote
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  And while the sample was incomplete, and unable to pull off an in-the-wild infection, the security shop’s testing showed “little effort” would be required to make it attack-ready.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our research shows that the original incomplete DeepSeek sample can be transformed into a fully functional attack with minimal effort,” Pedro Drimel Neto, malware analysis team leader at Check Point Research, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Very little effort is needed,” Neto said. “Low-level expertise is sufficient. You don&#x27;t need to be a sophisticated cybercriminal or advanced persistent threat group. In fact, we&#x27;ve already observed evidence of actual threat actors attempting this attack using straightforward LLM prompts.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Known threat gets an AI boost
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The risk ransomware poses to browsers isn’t a new idea. The
+  &lt;a href=&quot;https://wicg.github.io/file-system-access/#security-ransomware&quot; rel=&quot;nofollow&quot;&gt;
+   File System Access specification
+  &lt;/a&gt;
+  lists ransomware as a security consideration, and a 2023 USENIX Security paper on
+  &lt;a href=&quot;https://www.usenix.org/conference/usenixsecurity23/presentation/oz&quot; rel=&quot;nofollow&quot;&gt;
+   Ransomware over Modern Web Browsers
+  &lt;/a&gt;
+  described how File System Access API could be abused to encrypt local files from a malicious web application.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The File System Access API is a browser capability, primarily supported by Chrome and Chromium-based browsers, that allows developers to build web applications, such as editors, IDEs, and creative tools, that can read, write, and manage files on the user’s local device.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Even though it can be used to develop rich web applications, it greatly extends the attack surface, which can be abused by adversaries to cause significant harm,” Google’s Güliz Seray Tuncay and Florida International University researchers Harun Oz, Ahmet Aris, Abbas Acar, Leonardo Babun and Selcuk Uluagac wrote in 2023, long before LLMs could develop working malware and attack chains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  What’s new, according to Check Point, is that an
+  &lt;a href=&quot;https://www.theregister.com/ai-ml/2026/05/11/google-says-criminals-used-ai-built-zero-day-in-planned-mass-hack-spree/5237982&quot;&gt;
+   AI model
+  &lt;/a&gt;
+  put these previously documented ideas into a “realistic and enforceable attack scenario leveraging a method that defenders had originally thought was unfeasible due to browser sandboxing limits: a DeepSeek-attributed malicious sample, generated as an all-in-one malware fantasy, connected this documented platform risk to a realistic phishing-style web application, demonstrating a viable end-to-end attack chain.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This technique is especially appealing to attackers because it doesn’t require a native payload, APK installation, browser exploit, or root access to a compromised device. Instead, it uses social engineering - tricking a user into clicking on a malicious button - combined with a legitimate permission prompt exposed by the File System Access API in Chrome.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Meet InfernoGrabber 9000
+ &lt;/h3&gt;
+ &lt;p&gt;
+  This particular sample that Check Point uncovered is a Python Flask application that targets Android users. It’s named
+  &lt;a href=&quot;https://www.virustotal.com/gui/file/07c39f79ab92fb21557b82283472dce1c112f577d796111fb752c3c6d84c86b5&quot; rel=&quot;nofollow&quot;&gt;
+   InfernoGrabber 9000
+  &lt;/a&gt;
+  , and VirusTotal calls it a “fully functional information stealer and ransomware toolkit.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the security sleuths don’t have the prompt submitted to DeepSeek to produce the malware, they speculate it was something along the lines of: “create a universal malicious tool that runs through the browser and collects as much victim data as possible, encrypts files, and demands ransom. In a single front-end, the generated code assembled routines and stubs for keylogging, clipboard monitoring, form and network-request interception, Discord-token collection, crypto-wallet and payment-card discovery, geolocation requests, webcam and microphone access, screenshots, local-file access, Chrome exploit stubs, ‘persistence,’ and a ransomware-style overlay.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  To be clear: the sample doesn’t actually do all of this. “A more accurate reading is that it is an AI-generated blueprint in which the model tried to translate familiar capabilities of native stealers and ransomware tools into a web page opened in the browser,” Bukhteyev wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The code presents a victim-facing lure disguised as a Discord avatar AI upscaler. Clicking on the lure is intended to execute a slew of silent, harmful actions that run entirely inside the browser process. These include stealing Discord tokens, harvesting credit card numbers and cryptocurrency seed phrases, logging keystrokes, and capturing unauthorized webcam and microphone feeds. The code also includes specific routines for browser exploitation (such as targeting CVE-2023-4863), uses a hardcoded Discord webhook for data exfiltration and displays a ransomware WinLocker screen demanding Bitcoin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The good news for defenders is that the sample was incomplete, and the browser&#x27;s built-in security model successfully prevents most of this functionality.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Check Point was able to create a working proof-of-concept for the browser-native attack using the latest DeepSeek model V4. The team had to remove some of the more explicit terms - like ransomware - from the prompt, but ultimately produced the same functionality: “a web page that asks the user for access to local files, processes them inside the browser, and leaves the user unable to recover the original content.” AKA: browser-only ransomware.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neto told us that this type of LLM-generated code and in-browser attack is “likely happening now.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We expect to see this activity in the short term, if we haven&#x27;t already,” he added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While traditional
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/08/attackers-had-month-long-head-start-on-patched-check-point-vpn-zero-day/5252438&quot;&gt;
+   ransomware
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/11/shinyhunters-claims-oracle-peoplesoft-0-day-hit-100-orgs/5254443&quot;&gt;
+   extortion groups
+  &lt;/a&gt;
+  target enterprises and critical infrastructure organizations, as opposed to Android-device users, which was the focus of this research, “we have seen increased end-user ransomware activity recently,” Neto said. “What&#x27;s most concerning is that code obfuscation used in these attacks makes them difficult to spot, so there&#x27;s a real possibility that attacks using this technique are already occurring in the wild but going unnoticed.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> An artificial cell with a full lifecycle has been created for the first time </title>
+<link>https://www.theregister.com/science/2026/07/01/an-artificial-cell-with-a-full-lifecycle-has-been-created-for-the-first-time/5265296</link>
+<pubDate>Wed, 01 Jul 2026 19:10:54 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  A group of scientists in a Minnesota laboratory have made history, creating the first artificial cell with a complete life cycle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://biotic.org/research/spudcell/&quot;&gt;
+   SpudCell
+  &lt;/a&gt;
+  , as the team behind it has dubbed the creation, is built entirely from known chemical components, and can grow, replicate its genome, divide into new generations of cells, and even demonstrate natural selection and competition as its genes change.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s not to say SpudCells are alive, mind you, as the team behind it
+  &lt;a href=&quot;https://biotic.org/faq#:~:text=its%20makers%20do%20not%20claim%20to%20have%20built%20life.&quot;&gt;
+   aren’t claiming
+  &lt;/a&gt;
+  to have become gods. What they have done, they note in a preprint
+  &lt;a href=&quot;https://biotic.org/research/spudcell/spudcell-manuscript.pdf&quot;&gt;
+   paper
+  &lt;/a&gt;
+  [PDF] published while awaiting peer review, is to give new insights into the minimal qualifications for what it actually takes for something to be alive. That, and they’ve created what they say could be a “chassis” that could be adapted for everything from formulating new drugs to the actual creation of artificial organisms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “SpudCell is not a ‘finished’ cell, and it is far simpler than anything in nature,” biochemist, University of Minnesota professor, and SpudCell project leader Kate Adamala told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  in an email. “SpudCell is proof of what is possible. It proves that non-living, defined molecules can be assembled into a cell capable of functions that previously were exclusively reserved for natural life.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  For those wondering where the name came from, Adamala told us that it was originally dubbed “Potato Cell” as a nod to her Polish heritage, before the name was shortened to SpudCell.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In terms of those minimal qualifications, one of the things that SpudCell suggested was how few kilobase pairs (kbp - one kbp represents 1,000 base pairs) a genome may need to support a complete synthetic cell cycle. Prior scientific work estimated a minimal genome could be as small as 113 kbp (human genomes contain around 3 million kbp), but SpudCells only contain 90 kbp.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SpudCells are also able to divide without the need for a cytoskeleton, the internal scaffolding that gives many cells their structure and helps coordinate cell division, side-stepping what the team said has long been a bottleneck in synthetic cell research due to the cytoskeleton&#x27;s complexity. Instead, SpudCells divide when proteins used to grow the cell crowd together at the membrane surface of the cell until mechanical stress forces it to split.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As mentioned above, SpudCells also demonstrate competition and natural - or unnatural, in this case - selection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When researchers introduced a genetic change that increased production of the fusion protein, cells with that change grew faster and produced more offspring,” the team explained. “After five generations, the faster-growing variant had outcompeted the original.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a rather primitive cell without the full complement of features needed to sustain life, SpudCell does have its limitations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “SpudCell has a very primitive metabolism, and it cannot yet build its own ribosomes,” Adamala told us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because SpudCells can&#x27;t yet build their own ribosomes, researchers have to keep &#x27;em fed with liposomes carrying ribosomes, enzymes, lipids, and other molecular components needed to keep the synthetic cells functioning. That’s good news for anyone worried about the little creatures escaping the lab and wreaking havoc on the outside world: Their biology precludes survival outside very specific lab conditions.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The artificial cellular future
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The potential uses of things like SpudCell, which is in essence an artificial proto life form with biology that’s entirely known, understandable, and manipulable, are vast.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Adamala explained it to us, medicines, materials, industrial chemicals, and other manufactured products the world relies on are created via molecular transformation in natural living cells we manipulate to produce desired products, or from industrial processes with huge energy and environmental costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Cells built from scratch could perform molecular transformations industrial chemistry cannot,” the biochemist told us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Using biology in such a way requires far more understanding of cellular structures and processes, Adamala added, and to do that we need cells we fully understand - like SpudCell.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I’m a chemist, and ever since I started working on biology, I’ve been frustrated by our inability to fully describe and characterize any natural living cell,” Adamala said. “To understand and routinely use biology, we need engineerable and fully defined cells.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s where the second part of her team’s work comes in: Together with a group of colleagues, Adamala is taking her work out of the university lab and into a public-benefit institution called Biotic. The outfit intends to do its work publicly and openly in a bid to standardize artificial cell research and speed up whatever societal benefits the project could help create.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Every lab in this field is solving the same problems from scratch, and little of that institutional knowledge is carrying over to the next group,” Adamala explained in an email. “That is the problem I want Biotic to solve: How to turn a field of one-off accomplishments into a real engineering discipline, built on shared, open foundations, so the ability to engineer biology is not something only a few private hands ever hold.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s a lot of work to be done before SpudCell takes Biotic and the artificial cell research world beyond the basics, but it’s a start that SpudCell has contributed to, Adamala said, making a number of long-standing challenges tractable instead of far-future dreams of labcoat-bedecked boffins.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “My personal immediate to-do list includes ribogenesis, better metabolism, and more robust division,” the professor told us. “Those three things, with the support of the community built by Biotic, will go very far towards making it a viable platform for practical applications.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI search could kill the web without new quality signals and revenue models </title>
+<link>https://www.theregister.com/ai-and-ml/2026/07/01/ai-search-could-kill-the-web-without-new-quality-signals-and-revenue-models/5265269</link>
+<pubDate>Wed, 01 Jul 2026 18:13:21 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  AI answers are killing content publishers, as they cause readers to stay on Google or on the chatbot of their choice, rather than navigating to dedicated websites. The end result could be catastrophic for the open web.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alex Chan, assistant professor at Harvard Business School, floats that prediction based on an economic model he describes in a
+  &lt;a href=&quot;https://www.nber.org/papers/w35344&quot;&gt;
+   paper
+  &lt;/a&gt;
+  titled &quot;AI and the collapse of the www.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A
+  &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513059&quot;&gt;
+   paper
+  &lt;/a&gt;
+  from Saharsh Agarwal, assistant professor at the Indian School of Business, and Ananya Sen, associate professor at Carnegie Mellon University entitled &quot;The Impact of Google AI Overviews on Publisher Traffic and User Experience: Evidence from a Field Experiment,&quot; shows that Google AI Overviews &quot;reduce outbound organic clicks by 39.8 percent and increase zero-click searches by 34.5 percent, without affecting sponsored clicks or overall search frequency.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A zero-click search is what happens when a search user&#x27;s query gets answered on the search results page, so there&#x27;s no need to click through to a source website.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Overall, the results suggest that [AI Overviews] divert traffic away from publishers without improving the user experience or quality of engagement for websites,&quot; conclude Agarwal and Sen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google CEO Sundar Pichai has argued otherwise,
+  &lt;a href=&quot;https://www.searchenginejournal.com/data-behind-googles-ai-overviews/545559/&quot;&gt;
+   to some skepticism
+  &lt;/a&gt;
+  and despite
+  &lt;a href=&quot;https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/&quot;&gt;
+   Pew research to the contrary
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chan, from Harvard Business School, undertook his research to explore what has to be replaced to reimagine the market that AI is destroying.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The open web, he begins, is based on a bargain: &quot;Publishers produce content. Search and social discovery send users to that content. Visits generate revenue.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In doing so, web visitors also generate information about informational quality through their clicks, subscriptions, and other interactions. These signals, he observes, help future visitors and search systems find quality sources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Generative AI changes this bargain,&quot; Chan continues. &quot;An AI answer can use publisher content while keeping the user in the AI interface. Users may be better served in the short run. But the source may lose the visit, the revenue from the visit, and the source-level signal that the visit would have produced.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chan&#x27;s exploration of the topic is noteworthy because it looks beyond the revenue impact of diminishing visitor traffic – something industry players like Cloudflare are already
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/01/cloudflare-to-block-cynical-search-and-scrape-bots-from-ad-supported-web-pages/5264727&quot;&gt;
+   trying to address
+  &lt;/a&gt;
+  . It also identifies other economically valuable signals lost to AI answer systems, what he refers to as &quot;durable attention capital.&quot; This includes: subscribers, repeat readers, backlinks, bookmarks, reputation, and search authority.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chan characterizes his argument as a more disciplined version of the AI-will-make-the-web-collapse scenario. He&#x27;s not saying every website will vanish, that all AI reduces the diversity of information, or that search is doomed. Rather, he contends, &quot;when an AI platform diverts the revenue and measurement events without replacing them, costly human information may fall below replacement.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Really, though, that is the web collapse scenario. AI answers make it uneconomical for people to produce content and their disincentive in doing so prevents the formation of quality and trust signals that add value to their work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To restore a functioning market, Chan says, the answer shouldn&#x27;t be a &quot;visitor replacement royalty&quot; that AI search services pay to websites or a ban on AI answers. That just props up the traditional model. Instead, he argues that the focus should move toward the new point of attention – which for some queries may be AI answers – while finding a way to distinguish between costly human information and cheap AI imitation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He concludes, &quot;Provenance, diversity prices, exploration credits, and informative audits are needed to restore the broader ecosystem: quantity, quality, diversity, source-level signals, and the conventional-search discovery channel that prevents self-reinforcing migration into AI answers.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  That may be more difficult than it sounds. Distinguishing between AI- and human-authored content can be quite challenging. And to the extent that there&#x27;s potential profit in selling low-cost AI output as premium human-authored content, expect active resistance to labeling or other mechanisms that threaten slop arbitrage. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
