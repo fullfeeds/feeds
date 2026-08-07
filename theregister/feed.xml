@@ -1,0 +1,2762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Fri, 07 Aug 2026 05:16:29 -0000</lastBuildDate>
+<item>
+<title> China launches mysterious probe into security of Palo Alto Networks&#x27; products </title>
+<link>https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453</link>
+<pubDate>Fri, 07 Aug 2026 04:24:37 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  China’s Cyberspace Administration (CAC) has conducted a review of Palo Alto Networks’ products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The regulator’s
+  &lt;a href=&quot;https://www.cac.gov.cn/2026-08/06/c_1787764332950791.htm&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  of its review says it’s needed “to ensure the safe and stable operation of critical information infrastructure, prevent cybersecurity risks and vulnerabilities, and safeguard national security.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And that’s all Beijing has to say on the matter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A Palo Alto spokesperson provided
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;span&gt;
+   with the following statement:
+  &lt;/span&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   &quot;
+  &lt;/span&gt;
+  We maintain the highest standards of business conduct and security practices and ethics across our global operations. At this time, there is no impact to our ability to support customers or deliver our products and services in the region.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This matter has echoes of China’s 2023 investigation into the security of products from memory-maker Micron, which the CAC
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/04/01/china-opens-national-security-probe-into-micron-products/345908&quot;&gt;
+   announced out of the blue
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Micron had previously fought intellectual property and antitrust cases in China, but the company and Chinese authorities did not explicitly link those matters to the security probe.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CAC published its findings weeks after announcing the probe and
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2023/05/21/china-bans-micron-products-after-security-review/542389&quot;&gt;
+   decided
+  &lt;/a&gt;
+  Micron’s products represented an unacceptable security risk for critical infrastructure operators – effectively banning sales of Micron products to such entities – but
+  &lt;a href=&quot;https://www.theregister.com/security/2023/05/23/china-hasnt-told-micron-why-it-failed-security-review/300908&quot;&gt;
+   didn’t offer a detailed explanation
+  &lt;/a&gt;
+  for its decision. The memory-maker eventually stopped selling its datacenter and server products in China, a decision that cost it billions of annual revenue – but created new opportunities for China’s own memory-makers, which are largely prohibited from selling to American companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  China is home to several security companies whose product portfolios overlap with Palo Alto’s. Huawei and H3C, for example, have plenty to offer local buyers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Palo Alto doesn’t reveal revenue earned from individual countries, so it’s hard to know what a potential ban could cost the company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  China has for years accused Western tech companies of assisting US surveillance and offensive hacking activities.
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  would not be surprised at all if Beijing reuses that reasoning in its findings about Palo Alto products. Western governments level the same accusations at Huawei and ZTE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beijing’s ban on Micron didn’t noticeably impact the company’s reputation elsewhere. Indeed, the AI boom has
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/06/25/micron-locks-in-historically-high-memory-prices-for-five-years/5261854&quot;&gt;
+   brought Micron such great riches
+  &lt;/a&gt;
+  that past dents to its bottom line are now almost irrelevant. ®
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ‘Humans will be a rounding error on the internet’ says Cloudflare exec </title>
+<link>https://www.theregister.com/networks/2026/08/07/humans-will-be-a-rounding-error-on-the-internet-says-cloudflare-exec/5284429</link>
+<pubDate>Fri, 07 Aug 2026 02:40:23 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Cloudflare chief financial officer Thomas Seifert has run the numbers on internet traffic trends and predicted that human-generated packets will soon account for a trivial amount of overall traffic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The internet-grooming company has previously predicted that machine-generated traffic would exceed human-generated throughput in 2027 – but got that wrong because its measurements found machines took over in May 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During the company’s Q2 earnings call on Thursday, Seifert stuck his neck out again with a new prediction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   “
+  &lt;/strong&gt;
+  To give you a sense of how this trend is playing out, and with the big caveat that I have called it wrong at every point along the way, if the current trends continue, we think in five years, non-human traffic will be as much as 1,000 times as much as human traffic,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In other words, humans will be a rounding error on the internet, not because human traffic goes down, but that’s just how fast we’re seeing non-human traffic grow.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI is, of course, the reason for the growth in machine-made traffic. Seifert said that if traffic growth matches his predictions, “we’ve got to get a lot more efficient” – and of course volunteered Cloudflare’s service as a source of that efficiency. He also thinks more traffic from machines will mean more security threats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cloudflare won $696 million of revenue for the quarter, a 36 percent year-over-year jump – but almost a rounding error compared to the $160-billion-plus run rate at AWS and Google Cloud’s expected $100-billion-plus annual revenue. Losses more than tripled, to $205.7 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Execs and investors weren’t fussed because the revenue growth beat expectations and the company announced it has signed up record numbers of large companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Investors may also have been impressed by Cloudflare’s low planned capital expenditure, which Seifert said will come in at 14 or 15 percent of the company’s forecast $2.865 to $2.87 billion revenue – just $430 million or so. Again, that’s almost a rounding error compared to the trillions being spent on AI infrastructure by Cloudflare’s rivals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO Matthew Prince used that low capex number to take a swipe at his competitors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If you’re selling what is just commodity compute, if you’re basically letting an AI company use your balance sheet and your credit rating in order to buy servers that are the same as everybody else’s servers, then that’s just not attractive business for us,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prince said Cloudflare aims to “squeeze as much out of every Capex dollar as possible” and has the attitude to ask, “How can you get more out of the memory or storage that we have in every box that we have?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CEO said that hyperscalers have “super-low” GPU utilization rates. “It’s that what they’re selling is just a box, and it’s up to the customers in order to actually maximize the utilization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The hyperscalers, the traditional first-generation clouds, are in the business of buying a server and then trying to sell it back, lease it back, and get five turns of revenue off of it,” he said. “We’re in a very different business where we’re selling actually work getting done, and then instead of it being up to the customer to get as much out of the server as possible, we need to do the work to get as much out of the underlying equipment as possible and build the scheduling and the efficiency and everything else that’s out there.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prince said Cloudflare therefore doesn’t want to rent servers, “because over time, it’s a commodity business and it’s not very attractive.” The company will instead stick to its serverlesss offerings, which the CEO said are doing very nicely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So too are investors who acquired the company’s shares, which rose 16 percent in after-hours trading to reach a new high that represents 68 percent growth in the year-to-date. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> How the famed USENIX Security conf is managing a flood of papers in the AI era </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/07/how-the-famed-usenix-security-conf-is-managing-a-flood-of-papers-in-the-ai-era/5284374</link>
+<pubDate>Thu, 06 Aug 2026 23:40:23 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  The 35th USENIX Security Symposium (USS), which takes place next week in Baltimore, Maryland, hit an all-time high for paper submissions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While some of that increase has been aided by the availability of AI tools, those managing the conference say abuses were minimal due to defensive measures. But they&#x27;re also trying not to look too closely in order to preserve trust within the security research community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This year&#x27;s conference has received ~3,030 valid submissions (~1,280 in Cycle 1 and ~1,750 in Cycle 2),&quot; explained Ben Stock, tenured faculty at the CISPA Helmholtz Center for Information Security and USS program co-chair, in an email to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . &quot;This is up from the previous year, which had ~2,400 submissions in total.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Stock said that the entire security community has seen
+  &lt;a href=&quot;http://jianying.space/conference-ranking.html&quot;&gt;
+   growth of this sort
+  &lt;/a&gt;
+  and  pointed to the Network and Distributed System Security Symposium (NDSS),  which saw its paper submission count jump from 694 in 2024 to 1,311 in 2025 and 1,481 this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;So, I would not call the growth unprecedented, even though the number of submissions has reached a high point compared to previous years,&quot; he said. &quot;This is something we had expected and scaled our Program Committee (PC) accordingly.&quot;
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Sussing out unacceptable uses of AI
+ &lt;/h3&gt;
+ &lt;p&gt;
+  A
+  &lt;a href=&quot;https://pubsonline.informs.org/doi/10.1287/orsc.2026.ed.v37.n3&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   paper
+  &lt;/a&gt;
+  published in April, &quot;More Versus Better: Artificial Intelligence, Incentives, and the Emerging Crisis in Peer Review,&quot; found that since the release of ChatGPT in 2022, submission volume at major academic journals has increased 42 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the USENIX Security &#x27;26 transparency
+  &lt;a href=&quot;https://docs.google.com/document/d/e/2PACX-1vSnHpeTFReelMZ124SzmgObXrHDN_B-UgxhOaE2RKfnfHn_qWuobI7kPg4TKBMhhZy_qxYtggCo7vjK/pub&quot;&gt;
+   report
+  &lt;/a&gt;
+  , issued in January between the first and second paper submission cycles, Stock and fellow co-chair Elissa Redmiles, assistant professor of computer science at Georgetown University, detail how they&#x27;ve developed tools and policies to account for the possibility of AI usage, both for paper submissions and in paper reviews.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The proliferation of readily-available LLMs to aid in writing and developing code is not unknown to the community,&quot; their report says. &quot;However, we see an alarming trend of AI usage in key areas of the scientific process. Therefore, we took actions against two types of identifiable actions which violate the scientific process in our minds: non-existing (possibly hallucinated) references and usage of AI in the review process.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  After identifying and rejecting a paper that contained nonexistent references, the report explains, the conference organizers developed tooling &quot;to extract references from the submitted PDFs, query well-known sources such as DBLP and arXiv, and manually confirm invalid references.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The org rejected papers containing three or more hallucinated references, a policy that impacted 21 of the 1,181 first round submissions (1.78 percent).
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have rejected papers for the repeated presence of nonexistent references,&quot; said Stock. &quot;We cannot say with certainty that these were AI-hallucinated, but nevertheless considered these papers to be problematic and thus rejected them.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report notes that more than 100 additional papers contained at least one reference that reviewers could not confirm. Aware that some of these might simply be false positives due to name spelling differences or missing citations, conference officials opted not to investigate these in order not to further burden staff.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Conference organizers draw the line at using AI for bibliography preparation. &quot;We believe that it is critical to halt this trend that threatens scientific integrity before it grows further,&quot; the report states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, limited use of AI to polish human-written text is expected, and that extends to those reviewing submitted papers, up to a point.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have not set a dedicated AI policy, but have made it clear to our PC members that usage of [AI] services to write reviews is not permitted, in particular also because this violates confidentiality,&quot; said Stock.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have detected a tiny number of cases where we have reached sufficient confidence that AI was used and took appropriate actions, including removal of the members from the PC and allowing affected authors to resubmit.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Under that policy, USS asked five of 496 reviewers to cease participation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have not seen evidence that leads us to believe that AI generated submissions have become a significant challenge for the security community,&quot; said Stock. &quot;This does not mean that AI hasn&#x27;t been used in parts of these submissions, though.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon </title>
+<link>https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344</link>
+<pubDate>Thu, 06 Aug 2026 20:05:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  In AMD’s latest bid to upset Nvidia&#x27;s dominance in AI hardware, the House of Zen has acquired AI chip company Taalas, which bakes model weights directly into silicon in a process that promises to boost inference performance by an order of magnitude or more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The deal, announced at market close on Thursday, appears to be framed in much the same context as Nvidia’s $20 billion
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/12/31/why-did-nvidia-really-drop-20b-on-groq/2018042&quot; target=&quot;_blank&quot;&gt;
+   licensing deal
+  &lt;/a&gt;
+  with Groq last December: make high-performance “premium” inference services prized for AI agents, like code assistants, faster and cheaper to run. AMD didn’t disclose the terms of the deal, but from what we understand, this is an actual acquisition rather than an acquihire.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2023 and based in Toronto, Taalas’ approach to inference is radically different from conventional GPUs or the dataflow architectures that underpin Groq LPUs or Cerebras&#x27; waferscale accelerators.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A model-specific integrated circuit
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The startup’s chips don’t rely on HBM to store the model weights but rather etch them directly into the silicon. In a sense, Taalas’ chips are really model-specific integrated circuits or MSICs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Perhaps more importantly, Taalas’ tech isn’t just conceptual. In February, the startup
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/02/19/taalas-etches-ai-models-onto-transistors-to-rocket-boost-inference/4092140&quot; target=&quot;_blank&quot;&gt;
+   revealed
+  &lt;/a&gt;
+  its first test chip fabbed on TSMC’s 6nm process tech, which it called the HC1. Initial benchmarks saw the chip serve Meta’s Llama 3.1 8B at a blistering 16,960 tokens a second — when announced last February, that was 48x faster than Nvidia&#x27;s GPUs and 8.5x faster than Cerebras&#x27; accelerators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While Llama 3.1 is ancient by today’s standards, having made its debut all the way back in mid 2024, the reticle-sized chip was really intended to prove the concept.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Taalas has been incredibly secretive about how its chips actually work, but we know its processors are comprised of two main regions: the mask-ROM recall fabric where model weights are etched, and the SRAM recall fabric where KV caches and fine-tuning adapters are stored.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For its second-gen HC2 chip due out this summer, Taalas aims to boost parameter count to 20 billion parameters. That might not sound like much, but just like with GPUs for larger models, weights are simply distributed across multiple accelerators using pipeline parallelism.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At 20 billion parameters per chip, you’d need just 50 accelerators to support a trillion-parameter model, and AMD just so happens to have a rack-scale compute platform and in-house system design team that can comfortably accommodate that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s quite a bit more space and power efficient than Nvidia’s recently unveiled LPX systems, which would need a few dozen GPUs and at least
+  &lt;a href=&quot;https://www.theregister.com/special-features/2026/03/19/a-closer-look-at-nvidias-groq-powered-lpx-rack-systems/5223364&quot; target=&quot;_blank&quot;&gt;
+   2,000 Groq LPUs
+  &lt;/a&gt;
+  to serve the same model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  From what we understand, AMD intends to pair its Instinct-based
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/07/23/amd-attacks-the-rack-with-helios-systems-that-rival-nvidias/5277246&quot; target=&quot;_blank&quot;&gt;
+   Helios racks
+  &lt;/a&gt;
+  with chips based on Taalas’ tech, which implies a disaggregated architecture where compute-heavy prompt processing is done on GPUs while token generation is offloaded to Taalas-based accelerators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s also possible that AMD could adopt a sort of tick-tock cadence in which customers initially deploy and validate models on Instinct accelerators and, once they’re satisfied with them, transition to Taalas accelerators. We can only speculate at this point, but here’s what AMD’s SVP of AI, Vamsi Boppana, had to say about it in a canned statement:
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AMD is building a full-stack AI platform that gives customers the flexibility to deploy the right compute solutions for every AI workload.&quot;
+ &lt;/p&gt;
+ &lt;h3&gt;
+  You better really love that model
+ &lt;/h3&gt;
+ &lt;p&gt;
+  While the tech is blazing fast, if you hadn’t already figured it out, it comes with a pretty substantial downside. Once the chips are deployed you’re stuck with that model. Any change bigger than something like a LoRA adapter is going to require a re-spin of the chips, which is not only expensive but time-consuming.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nearly four years into the AI boom, new models are rolling out on a nearly monthly basis. In order to benefit from Taalas’ tech, AMD’s customers are going to have to be really sure about their choice of models, which will be easier for some than others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, if the startup is to be believed, the situation isn’t quite as bad as it sounds. While new models will require a re-spin, it doesn’t require starting over from scratch. Instead, just two layers of metal need to be changed, which is a lot cheaper and less time-consuming.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With that said, we strongly suspect this tech will largely be deployed by AI model devs, their infrastructure providers, and a handful of inference providers. In an interview with our sibling site
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/02/19/taalas-etches-ai-models-onto-transistors-to-rocket-boost-inference/4092140&quot; target=&quot;_blank&quot;&gt;
+   &lt;span data-lab-italic=&quot;italic&quot;&gt;
+    The Next Platform
+   &lt;/span&gt;
+  &lt;/a&gt;
+  in February, the company suggested that etching a model&#x27;s weights into silicon is 100x less expensive than training a frontier model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AMD is certainly in a position to negotiate those deals. OpenAI, Anthropic, and Meta are all major Instinct customers. Given the close working relationship between the model houses and the chip designer, it wouldn&#x27;t be surprising to see a GPT or Claude deployed on a combination of Taalas and instinct accelerators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The tech also has implications for model development. One of the ways developers have cut down on hallucinations is by trading time for accuracy. The technique, called test-time scaling, is quite simple in practice, and involves allowing a model to “think” for longer before responding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One drawback of test-time scaling is that it consumes substantially more tokens, which makes it expensive, and means users have to wait longer for the chatbot, code assistant, or agent to respond. If AMD’s Taalas buy can drive down the cost per token and boost output speeds by 10x or 20x, model devs may opt to extend the reasoning time even further.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In any case, we may not have to wait long to see just how Taalas fits into AMD’s broader vision. Subject to regulatory approval, the deal is expected to close in the fourth quarter. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI struggles to patch vulns without adult supervision </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/06/ai-struggles-to-patch-vulns-without-adult-supervision/5284319</link>
+<pubDate>Thu, 06 Aug 2026 19:04:30 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  AI models may not be that good at fixing security flaws. Researchers at 1Password&#x27;s Off-by-1 Labs analyzed security patches generated by two frontier models - ChatGPT 5.5 at &quot;medium&quot; effort and Claude Opus 4.8 at &quot;high&quot; effort - and found that autonomous patches cleanly fixed vulnerabilities only about a quarter of the time, while most of the remainder failed to fully remediate the flaw or introduced other problems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Keith Hoodlet, director of security research at 1Password, argues in a
+  &lt;a href=&quot;https://1password.com/blog/why-ai-generated-patches-still-require-human-review&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  that the results show LLM-driven security remediation still needs human review.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Across six recently disclosed CVEs, we produced 6,080 patches using two frontier, cyber-capable reasoning models,&quot; Hoodlet said. &quot;The average success rate for generating a patch that fully resolved the vulnerability (without materially changing application behavior) was just 26.0 percent.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of the AI-generated patches, 20.1 percent fixed the original issue but altered application behavior (eg, changing &quot;allow list&quot; logic to &quot;deny list&quot; logic). Some 2.3 percent of the patches fixed the issue while introducing new security issues. 49.3 percent of the patches failed to fix at least one existing exploit path. And 2.2 percent both failed to fix the vulnerability while introducing a new exploit path.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And among the patches in the first two categories (successful, clean; successful, changes app behavior), the researchers rated more than a third of the results fragile, meaning that while the adjusted code may have guarded against a particular vulnerability (eg, escaping particular input characters), the repair job didn&#x27;t address the underlying problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In their
+  &lt;a href=&quot;https://1password.com/files/resources/frontier-models-vulnerability-patches-flawed.pdf&quot;&gt;
+   research paper
+  &lt;/a&gt;
+  [PDF], authors Axel Mierczuk, Spencer Michaels, and Keith Hoodlet propose the acronym FLAWED to represent automated LLM patches: Fix-Like Artifacts With Embedded Defects. Based on the generated patches, they conclude, &quot;[T]he expected value of a fully LLM-generated, non-human-reviewed patch is a net-negative by a considerable margin.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The value of LLM-generated patches depends upon initial patching guidance. The research team says that while both human developers and LLMs typically require some initial guidance to tackle a vulnerability, LLMs are more likely to be derailed when given incorrect advice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When LLMs get correct guidance, their fix-success rate hits 65.0 percent compared to 50.4 percent when they get no guidance. And incorrect guidance dooms LLMs, dropping their fix-success rate down to about 15.2 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Human devs, the authors argue, have a good chance of catching misleading information as they reason through vulnerable code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The authors have released a patch evaluation harness under the name
+  &lt;a href=&quot;https://github.com/Off-by-1-Labs/FLAWED&quot;&gt;
+   FLAWED
+  &lt;/a&gt;
+  that organizations can use to evaluate the effectiveness of their security fixes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s clear from the paper why AI-generated patches might be appealing – considered in isolation, they&#x27;re inexpensive relative to human software engineers. The average successful, clean patch cost just $6.74 (a figure that includes the cost of failed attempts).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, the authors argue that the cost-benefit analysis needs to assess how much expert supervision will be required to make LLM-assisted patching useful.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Based on our manual review of a representative sample of patches generated during our research, we suspect that, in a large number of cases, the cognitive load imposed by reviewing a mountain of mostly-incorrect, similar-yet-subtly-different LLM-generated vulnerability patches will likely result in engineers spending more effort than would be necessary to understand and patch vulnerabilities themselves using standard LLM-assisted coding techniques that keep the human operator in the driver’s seat,&quot; the authors conclude.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The alternative, cognitive surrender to a process with a success rate of only about 1 in 4 poses significant long-term risks for any organization considering autonomous, LLM-driven patching.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Latest GitHub outage squeezes Actions, Pages to death </title>
+<link>https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297</link>
+<pubDate>Thu, 06 Aug 2026 18:30:48 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  GitHub’s automation platform Actions and its hosting service Pages are failing, according to an
+  &lt;a href=&quot;https://www.githubstatus.com/?d=2026/08/06&quot;&gt;
+   incident page
+  &lt;/a&gt;
+  on the service’s status site (archived version available
+  &lt;a href=&quot;https://web.archive.org/web/20260806173731/https://www.githubstatus.com/?d=2026/08/06&quot;&gt;
+   here
+  &lt;/a&gt;
+  ). Unfortunately, these are just the latest stability problems for a service that has had a lot of them lately.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GitHub first reported the issue at 1522 UTC on Thursday, noting that Actions were suffering from “degraded performance” before noting about 20 minutes later that availability was also degraded. A few minutes after the availability notice, GitHub explained that workflow runs were failing to start, or failing partway through execution, and that requests to the Actions REST API were returning errors. The Microsoft subsidiary said users were also seeing unexpected rate limits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An unnamed cause was mentioned as having been discovered in the same update, but that was some two hours ago, and the situation has yet to be resolved, with Pages being added to the list of affected systems shortly after GitHub said it was working on mitigating the problem with Actions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Engineers have applied a number of mitigations and are rolling out a further fix across all affected systems now,” GitHub said in its most recent update as of 1740 UTC. The company added that “Copilot code review, Copilot coding agent, hosted runners, and migrations using GitHub Enterprise Importer” were also apparently being affected by the issue, and that Webhook deliveries might be delayed as well. Those problems are in addition to the earlier Actions workflow failures, timeouts, and degraded Pages availability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is the latest in a long string of uptime issues at GitHub - one need only look at the
+  &lt;a href=&quot;https://www.githubstatus.com/history&quot;&gt;
+   status history page
+  &lt;/a&gt;
+  for the platform to see how bad things have become. A similar Actions outage occurred mere days ago on July 29, a month in which 26 incidents were logged. In June, GitHub logged 23, an additional 23 in May, and 26 in April. We’re six days into August and the status page lists six total incidents for the month so far.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Things have become so bad that many developers have considered moving their projects off the platform, with Ghostty developer Mitchell Hashimoto
+  &lt;a href=&quot;https://www.theregister.com/software/2026/04/29/mitchell-hashimoto-says-github-no-longer-for-serious-work/5227505&quot;&gt;
+   saying
+  &lt;/a&gt;
+  that the platform has become so unstable that it’s no longer a place for developers to host “serious work.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company
+  &lt;a href=&quot;https://www.theregister.com/software/2026/04/29/github-says-sorry-and-says-it-will-do-better-as-uptime-slips/5225752&quot;&gt;
+   apologized
+  &lt;/a&gt;
+  in April for the continued glut of outages. Based on the consistent number of failures over the past few months, it’s safe to say those apologies haven’t amounted to much.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GitHub has placed part of the blame on a surge in the use of AI stressing its systems. It
+  &lt;a href=&quot;https://www.theregister.com/software/2026/06/12/github-outages-persist-as-ai-coding-drives-traffic-surge/5255125&quot;&gt;
+   promised
+  &lt;/a&gt;
+  structural improvements in June that GitHub SVP Jakub Oleksy said would “permanently remove failure modes.” Again, looking at the status history since June, those improvements don’t appear to have been deployed, or made a difference, quite yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We reached out to GitHub to get more info on this latest issue, but didn’t hear back.  ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NetApp buys JetStream Software for its Azure-focussed VMware DR-as-a-Service offering </title>
+<link>https://www.theregister.com/public-cloud/2026/08/06/netapp-buys-jetstream-software-for-its-azure-focussed-vmware-dr-as-a-service-offering/5284268</link>
+<pubDate>Thu, 06 Aug 2026 17:37:26 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/block/2026/06/29/cgi-picks-netapp-as-its-preferred-storage-kid-on-the-block/5263753&quot; target=&quot;_blank&quot;&gt;
+   NetApp
+  &lt;/a&gt;
+  is acquiring VMware DRaaS supplier
+  &lt;a href=&quot;https://jetstreamsoft.com/&quot; target=&quot;_blank&quot;&gt;
+   JetStream Software
+  &lt;/a&gt;
+  for its disaster recovery and VM migration capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This follows on from NetApp buying
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/07/17/netapp-buys-datapelago-to-become-full-stack-ai-data-infrastructure-provider/5274250&quot; target=&quot;_blank&quot;&gt;
+   Data Pelago
+  &lt;/a&gt;
+  , with its Nucleus Universal Data Processing Engine (UDPE) accelerating heterogeneous compute for data analytics and GenAI models, in July. NetApp says that, by adding JetStream’s technology to its portfolio, customers will be able to protect VMware environments running on virtually any storage platform and recover them on NetApp first-party storage offerings such as Azure NetApp Files.
+ &lt;/p&gt;
+ &lt;p&gt;
+  George Kurian, NetApp’s CEO, said: “Data has become the foundation for business growth, AI innovation, and operational continuity. As customers look to unlock greater value from their data while strengthening protection against disruption, bringing JetStream into NetApp expands our ability to help keep their data secure, available, and ready for what comes next. This acquisition further positions NetApp as a leader in enterprise resilience and data protection.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  JetStream is headquartered in San Jose, where NetApp is also headquartered, and has a Bangalore subsidiary. It was started up in October 2017 by:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Co-founder and CEO
+    &lt;span&gt;
+    &lt;/span&gt;
+    Tom Critser, ex-GM of Cloud Data Center Solutions at SanDisk, 2012 - 2017, and VP w-w sales and business development at FlashSoft 2010 - 2012, with a similar role at RNA before that.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Co-founder and CTO Serge Shats, ex-SanDisk CTO. It acquired FlashSoft where Shats was the CTO. He was at Virsto as lead architect before that, and a SW architect at Veritas from 1999 to 2006.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Founding VP of Engineering Pavan Pamula, who posted on LinkedIn “Convinced Western Digital to Spinoff our group and founded JetStream software with an initial seed investment from Western Digital.” Pamula was ex-Director of Engineering at WD and SanDisk before that. His LinkedIn entry says JetStream started in December 2016.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  They raised c$3.8 million in a seed round - Pamula says from WD - at the end of 2017, and then $7.7 million in an A-round in 2019, making $11.5 million in total, although Pitchbook says the total is c$12.7 million. JetStream has been self-funding since then. Early customers included MSPS and telcos, and then enterprises piled in as well. Its customer count has not been revealed but we note that JetStream has been self-funding since the 2019 A-round and that must mean customer revenues have been coming in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other JetStream execs include VP w-w Sales Tom Matson, who was a Director, Software Solution Sales, at SanDisk from 2012 to 2017, overlapping with Critser and Shats. LinkedIn lists around 30 employees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  JetStream’s software is a DRaaS offering that continually protects primary site VMware vSphere e - VAIO to either Azure Blob storage, S3-compatible stores - Cloudian for example, or, with more expense, to Azure NetApp files when faster failover and/or larger amounts of data have to be recovered. The RTO can be managed down to near zero.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The primary site can be on-premises or running in Microsoft’s Azure VM Solution (AVS). If it crashes, then the vSphere environment fails over to an on-premises site, an Azure VM Solution facility, or other public clouds, with the stored VMs and their data (compute + runtime storage) rehydrated into the target environment.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The source and failed over vCenters have JetStream API-based management and administration. There is a failback facility as well for use when the primary site is recovered.
+ &lt;/p&gt;
+ &lt;p&gt;
+  JetStreamDR is an alternative to VMware Site Recovery Manager (SRM), which replicates data to a warm site and not continuously. JetStream replicates to an, in effect, cold data store, and then rehydrates to a target site when failover is needed, saving cost. The JetStream software can support hundreds and even thousands of VMs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NetApp sees JetStream as a revenue strengthener for its public cloud offerings. Pravjit Tiwana, SVP
+  &lt;span&gt;
+  &lt;/span&gt;
+  and GM, Cloud Storage and Services at NetApp, said: “JetStream helps customers start with disaster recovery and seamlessly evolve to production in the cloud. Together, we’re making our cloud offerings within hyperscalers the easiest destination for enterprise VMware workloads.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company noted JetStream complements NetApp’s existing SnapMirror technology, which remains the preferred replication solution for NetApp environments. The combined portfolio enables NetApp to protect both existing NetApp deployments, and the much broader VMware installed base running on third-party storage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The acquisition terms were not revealed.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Uncle Sam aims to help nuclear energy find its sea legs </title>
+<link>https://www.theregister.com/science/2026/08/06/uncle-sam-aims-to-help-nuclear-energy-find-its-sea-legs/5284179</link>
+<pubDate>Thu, 06 Aug 2026 17:29:05 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Not content with nuclear reactors on land, the US is backing an international push to put atomic power plants aboard civilian ships and floating platforms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US will host the launch of the International Atomic Energy Agency&#x27;s (IAEA) Atomic Technologies Licensed for Applications at Sea (
+  &lt;a href=&quot;https://www.iaea.org/events/atlas2026&quot;&gt;
+   ATLAS
+  &lt;/a&gt;
+  ) initiative in Washington, DC, on August 26 and 27.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ATLAS aims to tackle the legal, regulatory, safety, security, and liability problems that stand between maritime reactors and commercial deployment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ahead of the launch, the US will hold an &quot;Industry Day&quot; on August 25 to showcase technology from American nuclear and maritime companies hoping to take a share of any future market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  US Secretary of Energy Chris Wright linked the event to the Department of Energy&#x27;s broader
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2025/08/14/us-doe-names-firms-for-trumps-fast-track-nuclear-scheme/1184158&quot;&gt;
+   drive to deliver oodles of extra atomic power
+  &lt;/a&gt;
+  for AI datacenters and other industries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;DoE remains focused on unleashing American energy dominance, accelerating innovation, and advancing sources of energy that are affordable, reliable, and secure for the American people,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Hosting the launch of ATLAS supports this critical mission, positioning the US nuclear and maritime sectors at the forefront of advanced energy innovation, while promoting safety and security for the United States and the world.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The initiative covers civilian nuclear-powered ships and floating power plants, with the latter potentially supplying coastal communities or energy-hungry industrial processes such as desalination.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The DoE is pinning its hopes on
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2025/09/16/doe-secretary-says-small-nuke-reactors-online-by-2026/726817&quot;&gt;
+   small modular reactors
+  &lt;/a&gt;
+  (SMRs), whose high energy density and long operating cycles could suit ships and offshore power installations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  America is no stranger to reactors afloat. Every active US Navy aircraft carrier is nuclear-powered, giving it almost unlimited range without frequent refueling.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US Navy also used to operate nuclear-powered cruisers, such as the Virginia class, but these were retired after the end of the Cold War because they were costly to run.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Civilian nuclear ships are also not entirely new. NS Savannah was the first nuclear-powered merchant ship when it was launched back in 1959, but again proved costly to run. Perhaps the IAEA hopes that SMRs will make atom-driven civilian ships more economical.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Russia operates the world&#x27;s only floating nuclear power plant. The
+  &lt;a href=&quot;https://www.bbc.co.uk/news/world-europe-49446235&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Akademik Lomonosov
+  &lt;/a&gt;
+  is a barge-like vessel whose two KLT-40S reactors can generate a combined 70 MW of electricity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Putting a reactor on water changes the risks rather than making them disappear. The surrounding sea provides a vast heat sink for cooling, but a plant moored in a remote location may have limited access to emergency backup power, according to one
+  &lt;a href=&quot;https://rsis.edu.sg/rsis-publication/rsis/co16250-floating-nuclear-power-plants-are-they-safe-and-secure/&quot;&gt;
+   assessment
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, any accident might also see radioactive contamination of the marine environment near the damaged reactor, which could seriously affect the coastal community the nuke was meant to be serving.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The global maritime sector is at a critical turning point, facing urgent pressure to sustain long-distance, high-speed operations while ensuring reliability and energy security,&quot; said IAEA Director General Rafael Mariano Grossi.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Small modular reactors offer a safe and viable option for maritime transport and offshore energy systems – delivering high energy density and long operating cycles that eliminate the need for frequent refueling.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Humans in the loop miss a third of dangerous AI coding agent requests </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236</link>
+<pubDate>Thu, 06 Aug 2026 16:44:29 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  A browser-based game designed to test humans&#x27; ability to safely approve AI coding agent requests suggests humans in the loop aren&#x27;t as good at spotting dangerous commands as one might hope, with players approving roughly one in three malicious requests on average. The results also suggest that repeatedly having to approve an agent&#x27;s actions can lead to sloppy decisions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s a quick,
+  &lt;a href=&quot;https://llmgame.scalex.dev/&quot;&gt;
+   simple game
+  &lt;/a&gt;
+  on the surface (give it a try - you know you want to): A small window shows up on the screen with simulated permissions requests like one would get from Claude Code as it executes a workflow. Users have 60 seconds to approve or deny as many requests as they can in a bid for a high score; okayed security risks and denied safe commands both subtract from a user’s score.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As human-in-the-loop, you’re the last line of defense,” Belgian software developer Alex Wauters, the game’s builder, challenges players in a
+  &lt;a href=&quot;https://scalex.dev/blog/ai-agent-permissions/&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  published concurrently with the late May launch of the game. “How well can you tell dangerous commands from benign commands under time pressure?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Wauters built the game after realizing it was nonsensical that coding agents expected users to approve every single command in a default flow and that there didn’t appear to be a good solution to that problem, he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  in an email conversation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I&#x27;ve seen people go for &#x27;--dangerously-skip-permissions&#x27; [allowing the model to run without asking human permission] as a result because they did not want to find out they stopped their multi-hour agent flows 5 minutes in,” Wauters told us. “That also didn&#x27;t seem like the best way to go at it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The flip side of that, he wrote in a Wednesday
+  &lt;a href=&quot;https://scalex.dev/blog/ai-agent-permissions-stats/&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  going over the data from more than 40,000 runs of the game, is that manually approving all an agent’s actions is a draining activity that invites disaster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The high amount of noise introduces fatigue, and developers don’t always have the context of what has changed to quickly determine the risk,” Wauters wrote.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  How humans in the loop fail
+ &lt;/h3&gt;
+ &lt;p&gt;
+  To be fair, this is a game with a far higher number of malicious requests in the mix than any AI-assisted developer will hopefully ever see during their day-to-day work. Still, the results of those over 40k runs and 409,000 approved and denied commands are stark.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As noted above, one in three malicious commands managed to slip past human gatekeepers, with most scope violations, like an agent asking to cat Kubernetes config files or AWS credentials lists, which could easily lead to the sensitive data they contain being exfiltrated, being the most commonly missed at 35 percent. The most often caught were obviously destructive commands, like rm -rf on the root directory or recursively granting full read/write/execute permissions on the same location. Crontab injections and git config hijacks were also frequently caught, but curl requests to unknown APIs and typosquatted packages were missed almost as often as scope violations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The single most frequently missed potentially malicious command, Wauters explained, was npm run analyze, which was approved nearly 65 percent of the time despite being able to run whatever is defined in a project’s package.json file.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The game does tell you in the agent’s history log what that script actually contains,” Wauters wrote. “Two thirds of players approved it anyway, indicating the history log just above the permission prompt may not be read closely.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the biggest things that stood out to Wauters in our conversation was the fact that approval decisions aren’t easy to make when context is limited. As he explained, coding agents give a bit of context prior to asking an approval question, but commands that appear benign, like npm run analyze, can be modified by an agent to run any payload it wants. If an in-the-loop human wants to be sure potentially malicious commands are safe, he said, they have to stop and investigate all the files a coding agent wants to call before approving it. That can be a massive time sink if you’re counting on Claude Code to free you up to handle other business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We&#x27;ve transitioned from AI suggesting single line suggestions that get reviewed to handing off more complex tasks, only reviewing the changes at the end, and letting the agent churn and iterate until then,” Wauters told us, describing the potential outcome of that situation as a recipe for disaster.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s borne out in more than just browser game scenarios, too. Anthropic pointed out in a
+  &lt;a href=&quot;https://www.anthropic.com/engineering/how-we-contain-claude&quot;&gt;
+   May post
+  &lt;/a&gt;
+  about containing Claude (
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562&quot;&gt;
+   hah
+  &lt;/a&gt;
+  ), that telemetry from Claude Code shows users approve around 93 percent of permission prompts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision,” the company said. In other words, this is a very real problem.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Controlling coding agents
+ &lt;/h3&gt;
+ &lt;p&gt;
+  If the conclusion to draw from Wauters’ data is that humans in the loop are being fatigued into letting malicious commands slip through, and the other end of the spectrum is mass approving everything, then something’s gotta give.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I think it becomes clear we need to pay more attention to the permission model of these agents, and devs need to be more aware of the trade-offs of them,” Wauters told us. “We need to make the tooling easier to make these systems safer than pointing to HITL as a valid solution.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic noted in the post linked above that it built Claude Code auto mode to help users tackle approval fatigue by delegating some command-approval decisions to a model-based classifier. The system catches roughly 83 percent of what Anthropic calls &quot;overeager behaviors&quot; before they execute, meaning about 17 percent still get through in its evaluation. Auto mode is “one layer of defense-in-depth inside a sandbox, not a substitute for one,” Anthropic said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Wauters’ suggestion is to ensure that AI coding models are running in sandboxes, in devcontainers in the cloud, using tools like auto mode, and writing hooks to ensure potentially malicious actions are being contextualized and getting caught before they’re automatically approved.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s a whole new world with a new set of attack vectors,” Wauters wrote in May. “It’s best to remain aware of the risks and know how to reduce them.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google Builds A New Gemini Model Team As AI Investments Accelerate </title>
+<link>https://www.theregister.com/cloud/2026/08/06/google-builds-a-new-gemini-model-team-as-ai-investments-accelerate/5284258</link>
+<pubDate>Thu, 06 Aug 2026 16:21:36 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  Despite the enormous progress that has been made in generative AI frontier models in the past four years, attaining artificial general intelligence or superintelligence is not an easy goal. Very few of us are behind the scenes at AI model builders and fewer still understand the intricacies of trying to push models further and further toward human and superhuman capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I strongly suspect that the egos of the people involved are understandably strong, that people are driven, and that like people, models do not always behave as they are expected to. For each of the model builders, the push towards AGI has caused delays in models being released because the models do not behave appropriately, or have bad emergent behaviors that are difficult to guardrail.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Given all of this, it is not really a surprise that many of the top AI executives at Google have just jumped ship amid what seems to be a constant game of musical chairs across top model researchers for the past two years. Moreover, Google’s top-end Gemini model is falling behind Anthropic’s Claude and OpenAI’s GPT GenAI models – even though Google invented the transformer model that underpins all GenAI models – with its flagship Gemini 3.5 Pro model, which was announced in May and expected to ship in June still not available and no delivery date been given.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have to accelerate all this work and stay focused on the AI frontier,” Google chief executive officer Sundar Pichai
+  &lt;a href=&quot;https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/&quot;&gt;
+   explained in a blog post
+  &lt;/a&gt;
+  announcing executive changes across its various AI units. “At the same time, there’s never been a more important moment to shape the future of AGI and science.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Significantly,
+  &lt;a href=&quot;https://www.linkedin.com/in/jeff-dean-8b212555/&quot;&gt;
+   Jeff Dean
+  &lt;/a&gt;
+  , who was employee number 30 at Google and who steered the development of many of the core search engine, data analytics, and hyperscale infrastructure – including MapReduce, Bigtable, Spanner – and who founded the Google Brain research group at the company in 2011 and brought TPU accelerators and the TensorFlow AI framework into being. In recent years, Dean has been co-leader of the Gemini effort. After 27 years at Google, Dean is leaving to be head of an AI startup called Discovery Loop that will try to automate the workflow of scientific research using AI, and he is taking three key AI researchers with him:
+  &lt;a href=&quot;https://en.wikipedia.org/wiki/Sanjay_Ghemawat&quot;&gt;
+   Sanjay Ghemawat
+  &lt;/a&gt;
+  , who is a Google Senior Fellow and who worked on Google hardware infrastructure for more than two decades;
+  &lt;a href=&quot;https://www.linkedin.com/in/quoc-v-le-319b5a8/&quot;&gt;
+   Quoc Le
+  &lt;/a&gt;
+  : a co-founder of Google Brain; and
+  &lt;a href=&quot;https://www.linkedin.com/in/oriol-vinyals-00b3366/&quot;&gt;
+   Oriol Vinyals
+  &lt;/a&gt;
+  , who has led the deep learning research at DeepMind, another deep learning effort that Google acquired in the early days of deep learning and who created knowledge distillation (having a small fast model trained by a big slow model) and sequence to sequence learning (one of the foundations of the transformer). Vinyals was the co-lead alongside Dean on the Gemini models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google is making an investment in Discovery Loop and everybody is talking nice, but clearly Google is building a new Gemini team because it is not happy with what it is getting out of the current team.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But, it is also possible that in addition to this, after all of these years, these Google supergeniuses might just want to do something not at hyperscale and that is unequivocally and demonstrably good for the world. Speeding up research to help scientists discover stuff faster and engineers to build stuff faster is perhaps more benign than creating AGI, which will augment some people and but likely replace a much larger number of people in the long run.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, Demis Hassabis, who was one of the co-founders of the DeepMind acquisition and who was the chief executive officer of that DeepMind division, is moving up to chairman of DeepMind and taking over the chief scientist job at Google from Dean.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Demis has described us as standing in the foothills of the singularity, and has been spending a lot of his time engaging externally,” Pichai explained in his post. “He and I have been long discussing a role that allows him to put his full attention on actively shaping the future of AGI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is important to note that the longtime hardware and software infrastructure guy (Dean) is being replaced by one of top AI minds in the world (Hassabis).
+  &lt;a href=&quot;https://www.linkedin.com/in/vahdat/&quot;&gt;
+   Amin Vahdat
+  &lt;/a&gt;
+  , who is chief technologist for AI infrastructure and who masterminded many networking innovations at the company, is a senior vice president firmly in charge of Google infrastructure and is well acquainted with what Google has done and what it needs to do on that front.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And finally,
+  &lt;a href=&quot;https://www.linkedin.com/in/koray-kavukcuoglu-0439a720/&quot;&gt;
+   Koray Kavukcuoglu
+  &lt;/a&gt;
+  is now chief AI architect at Google and is in charge of the Gemini models. He was previously a researcher at DeepMind and rose through the ranks to be its chief technology officer and obviously has worked very closely with Hassabis over their careers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s the thing. DeepMind has been kept distinct from the Google Brain research arm for reasons Google has not really explained over the years. Having two different units doing what seems like the same thing may not be a good thing. GenAI and the race towards AGI means
+  &lt;em&gt;
+   putting research into production as soon as possible.
+  &lt;/em&gt;
+  Google needs to have one AI group and get focused. Competing teams is sometimes useful in driving innovation, but it leads to fiefdoms and infighting. From where I sit, it looks like DeepMind won and Google Brain left the building.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the AI buildout continues, and this week
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries?sref=PD7AKDQg&quot;&gt;
+   Google is reportedly hoping to do a $25 billion bond offering
+  &lt;/a&gt;
+  on Wall Street to support its ambitious AI infrastructure investments this year and into the future. In its financial report from last week, Google’s chief financial officer Anat Ashkenazi said that it was boosting its capital expenditures for 2026 from somewhere between $180 billion to $190 billion to somewhere between $195 billion to $205 billion, and due mostly to pulled planned capacity from the future into 2026 – not from price increases in infrastructure. (The price increases for 2026 were baked into the capex spending plan increased that were updated in the 2026 spending projections from the first quarter.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  None of this means, by the way, that Google is not making money on AI. It certainly ism and AI is certainly driving the breadth and depth at its Google Cloud group, which is the part of Google we care about most.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the second quarter, Google Cloud revenue was up 81.8 percent to $24.77 billion, and that was a 23.7 percent sequential growth from Q1 2026 by the way. Operating income for the cloud group rose by a factor of 3.1X to $8.81 billion, which was 35.6 percent of revenues – a new high for Google Cloud, which has been a drag on profits for years but is now bolstering the company. By the way, Google Cloud represented 20.7 percent of Google’s overall revenue, a new high, and 21.6 percent of its operating income, also a new high.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The health of the overall Google businesses matters to Google Cloud, since the profits from other groups provides the company with the cash to invest in the cloud in general and AI in particular as well as the ability to borrow from the capital markets to not burn down its cash hoard. Overall, Google’s revenues – really Alphabet’s revenues, but like many of you, we still think of Google as Google and not as Alphabet with Google underneath it – were up 24.2 percent to $119.8 billion, operating income was up 30.4 percent to $40.77 billion, and thanks to the increasing value of various investments that have to be put on the books, net income was up by just under 4X to $112.11 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the big cloud builders and IT suppliers who have invested in AI model builders, net income is starting to become largely paper gains, which makes it had to reckon how the underlying company really did. The underlying net income for all of Google was probably on the order of $35 billion, with $77.1 of the net income coming from such investments. A lot of this funny money came from a $94 billion holding in SpaceX as well as some contribution from its stake in Anthropic. Interestingly, SpaceX stock was initially up as it went public last month because Google was renting capacity on the SpaceX “Colossus” supercomputer for $920 million a month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the quarter, Google spent $44.92 billion on capital expenses and all of it was for Google Cloud. Once again, about 60 percent of that figure ($26.95 billion) was spent on servers, and 40 percent ($17.97 billion) was spent on datacenters and networking. (It is funny how the network is part of the datacenter enclosure and not part of the server racks the way Google thinks of it. A datacenter is just a big server to Google, and has been for decades.) That spending on servers and on datacenters and networking was almost precisely 2X what it was a year ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That capex level is driven entirely by the Google Cloud backlog, which was at $514 billion as the second quarter came to a close, up 4.75X year on year and up 11.3 percent sequentially.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Price rises drive WD&#x27;s revenues higher and AI tailwind helps </title>
+<link>https://www.theregister.com/disk/2026/08/06/price-rises-drive-wds-revenues-higher-and-ai-tailwind-helps/5284167</link>
+<pubDate>Thu, 06 Aug 2026 16:05:49 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Cloud and AI market
+  &lt;span&gt;
+  &lt;/span&gt;
+  disk sales contributed to a good quarter for
+  &lt;a href=&quot;https://www.blocksandfiles.com/disk/2026/05/18/wd-securing-disk-drives-with-post-quantum-cryptography/5242064&quot; target=&quot;_blank&quot;&gt;
+   WD
+  &lt;/a&gt;
+  , with inferencing and agentic AI set to sustain strong disk drive demand for several years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenues in the quarter ended were $3.75 billion, at the high-end of its guidance and 44 percent higher than a year ago with a GAAP profit (net income) of $3.2 billion, equating to 85 percent of its revenues. This was inflated by WD selling Sandisk shares and pulling in $1.7 billion from that and general investment interest. Full fy2026 revenues were $12.92 billion, 36 percent higher than last year, with profits of $6.2 billion, 230 percent more than fy2025.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO Irving Tan said: “WD concluded fiscal year 2026 with strong performance. In our fiscal fourth quarter, revenue increased 44 percent year over year, gross and operating margins expanded, and earnings per share more than doubled.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  CFO Kris Sennesael commented that the revenue increase was due to ”strong exabyte growth and favorable pricing dynamics.” An analyst commented “price per terabyte went up pretty dramatically, high teens year-over-year.“
+ &lt;/p&gt;
+ &lt;p&gt;
+  And Sennesael dropped this little gem: “In terms of the non-nearline space, particularly in our client and consumer space, we saw a higher opportunity to increase pricing, predominantly driven by the pricing structures on alternative products that are flash-based as well.” So, as SSD prices went up, widening the cost/TB between them and HDDs, WD opportunistically upped its disk drive prices to narrow the gap.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Financial summary:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+     Gross margin: 54.4% vs
+    &lt;/span&gt;
+    50.5 percent in prior quarter
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Operating cash flow: $1.39 billion vs prior quarter’s $1.12 billion
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Free cash flow: $1.28 billion vs prior quarter’s $978 million
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cash and cash equivalents: $1.57 billion vs $2.05 billion last quarter
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Diluted EPS: $8.21 vs $8.20 in
+    &lt;span&gt;
+    &lt;/span&gt;
+    last quarter
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  This was WD’s first full fiscal year as a pure HDD manufacturing company, following the spin-off of
+  &lt;a href=&quot;https://www.blocksandfiles.com/disk/2025/02/25/western-digital-sandisk-begin-separate-trading-after-split/1615056?_gl=1*4phu2j*_ga*MTY2OTcyMjAyNS4xNzcwODg2MTMy*_ga_NSDTXHMMN0*czE3ODYwMjcxMjUkbzE5OCRnMSR0MTc4NjAyODQxMyRqNjAkbDAkaDA.&quot; target=&quot;_blank&quot;&gt;
+   Sandisk
+  &lt;/a&gt;
+  . The market is being driven by hyperscaler sand public cloud sales, boosted by AI. The AI market is changing shape with inference becoming more important compared to training, Tan said in the
+  &lt;a href=&quot;https://finance.yahoo.com/quote/WDC/earnings/WDC-Q4-2026-earnings_call-658556.html&quot; target=&quot;_blank&quot;&gt;
+   earnings call
+  &lt;/a&gt;
+  : “Training models create significant initial data requirements, but inference generates and retains data continuously.” The change also from using AI models to agentic AI exacerbates this. Tan again: “Agents generate data at every step of a workflow, increasing both the volume of data created and the amount that must be stored over time. This is why we continue to view agentic AI as a structural and step function driver of capacity-oriented storage demand.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another AI tailwind he identified is physical A; “Physical AI accelerates the cycle further.” AI “is the underlying secular demand growth driver for our business.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The business segment results were;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cloud: $3.3 billion, up 43.3 percent Y/Y and 89 percent of WD&#x27;s total revenues
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Client: $225 million, 60.7 percent higher Y/Y and 6 percent of WD’s revenues
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Consumer: $186 million, increasing 37.9 percent and representing 5 percent of WD’s revenues
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  WD shipped 231 EB of capacity, 26.1 percent up on the year, with 209 EB being mass-capacity nearline drives and 22 EB going into the not-nearline category. The nearline proportion was 90.5 percent of the total EB shipped, up from the year-ago 89.5 percent, and is steadily rising.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A couple of charts make clear the importance and dominance of nearline, mass-capacity drives going into the cloud market for WD&#x27;s revenues;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s almost becoming a one disk product class company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company is steadily increasing its capacity per drive, with Tan revealing: “We are on track to ship our 44 terabyte HAMR product in the first half of calendar 2027,” with 50 terabyte products coming out towards the second half of calendar year 2027. WD started volume-producing 40 TB ePMR (Enhanced Perpendicular Magnetic Recording) drives in the June quarter (Q3 cy2026) and is now entering volume production with two customers.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.blocksandfiles.com/glossary/2022/05/06/smr/1587852&quot; target=&quot;_blank&quot;&gt;
+   UltraSMR
+  &lt;/a&gt;
+  technology partially overlaps tracks to increase capacity further but requires customers to modify their disk write behaviour. However, capacity needs are persuading them to do this, Tan saying: “We are currently ramping our UltraSMR technology with a third major customer. We expect that UltraSMR will make up around 60 percent of our nearline exabyte shipments as we exit fiscal 2027.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It has technology to increase disk I/O bandwidth and he said: “We are making progress on improving drive performance with our high bandwidth drives and are now sampling with five customers. We are targeting up to eight times the throughput of today&#x27;s drives without the corresponding increase in power draw. Exactly the kind of performance AI workloads require.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Most but not all nearline drives are going to hyperscale customers. Tan said: “The vast majority of the nearline bits that we&#x27;re shipping are going to hyperscale customers. Increasingly, there&#x27;s actually increased demand from enterprise OEM players in the storage space, especially as they are pivoting to more hybrid-based storage solutions, where most recently they were looking at all potentially 100 percent flash array systems. There&#x27;s a shift back towards hybrid systems that&#x27;s driving more demand for us.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The only other HDD manufacturer,
+  &lt;a href=&quot;https://www.blocksandfiles.com/disk/2026/07/30/seagate-hamring-customers-generating-more-and-more-/tb/5281058&quot; target=&quot;_blank&quot;&gt;
+   Seagate
+  &lt;/a&gt;
+  , has been making more revenue from its drives than WD for the past 10 quarters in a row.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cantor Fitzgerald analyst CJ Muse reflected this in the earnings call: “It&#x27;s hard not to compare your results with your main competitor, where they&#x27;re seeing better sequential top-line growth” and better gross margins. Tan was hopeful about dealing with Seagate’s revenue and profit superiority, saying: “We feel very confident … in terms of the pricing structures that we have put in place with LTAs (Long Term Agreements), the introduction of our higher cap drives coming out in the second half of the year, and our ongoing operational efficiencies that will lead to stronger exabyte growth, continuous top-line growth, and obviously, ongoing margin expansion.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The LTA area looks good, Tan saying: “The last time we reported on LTAs, we talked about having one LTA of a large customer all the way up to calendar year 2029. We are very much in the throes of discussions with customers to establish LTAs for calendar year 2029, 2030, and 2031 as well. Visibility remains very strong. Customer-driven demand for LTAs extending all the way out to 2031 remains very strong.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The gross margin area looks good too, Sennesael saying: “We&#x27;re moving to higher capacity drives that provides more value to our customers, and that enables us to increase our price per terabyte while at the same time driving down the cost per terabyte. I think that&#x27;s a great recipe for further gross margin improvements. … the mid to long-term cost per terabyte decline is on or about 10 percent year-over-year.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   The outlook
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  CFO Kris Sennesael said: “Fiscal 2026 was an outstanding year for WD, characterized by broadening demand, deeper customer engagement, and disciplined execution across all end markets. As the cloud and other data-intensive workloads continue to expand, we remain confident in the long-term growth trajectory of our business, further margin expansion, and strong free cash flow generation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He added:”We continue to operate in a strong demand environment, with improving longer-term visibility and favorable pricing dynamics across our cloud, consumer, and client end markets.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tan said: “We enter fiscal year 2027 with robust customer demand, increased visibility, and continued confidence in the durability of demand,”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenues in its next quarter (Q1 fy2027) are expected to be $4.1 billion +/- $100,000, a 44.4 percent increase at the mid-point.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Bootnote
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite high, sustained demand for disk drive capacity, WD is not increasing the number of disk drives it manufactures. Sennesael said: “Our industry-leading technology and product roadmaps, combined with strong operational execution, enable us to deliver substantially more exabytes to our customers. This does not require spending CapEx to add unit capacity, but we are making the necessary investments in our heads and media operations, as well as in automation to increase our productivity.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Next step for LINK spacecraft – a software update that won&#x27;t make things worse. Are you listening, Microsoft? </title>
+<link>https://www.theregister.com/science/2026/08/06/next-step-for-link-spacecraft-a-software-update-that-wont-make-things-worse-are-you-listening-microsoft/5284143</link>
+<pubDate>Thu, 06 Aug 2026 15:11:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Katalyst Space is continuing to make progress in the rescue of the spacecraft that is supposed to rescue NASA&#x27;s Swift observatory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The spin of the LINK vehicle, which was launched in July on a mission to raise the orbit of NASA&#x27;s Swift observatory, is now 1.47 degrees per second, down from 9 degrees per second when recovery operations began.
+  &lt;a href=&quot;https://www.linkedin.com/posts/katalyst-space_the-katalyst-team-is-continuing-recovery-activity-7490896940390338561-8joM&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   According
+  &lt;/a&gt;
+  to Katalyst Space, it will remain at there &quot;while the team prepares for the next phase of the mission.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The next step is a &quot;significant&quot; flight software update. With a substantial chunk of the attitude control system with which LINK launched now inoperable, a change was inevitable to reflect the spacecraft&#x27;s new configuration. Katalyst Space stated, &quot;This will restore full attitude control and allow the team to begin the phasing maneuvers needed to align LINK’s orbit with Swift.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company also attempted to allay concerns about how much fuel had been expended in the recovery. One of LINK&#x27;s electric propulsion thrusters was used to regain control of the spacecraft, and less than 100 grams of propellant was consumed &quot;to conserve fuel for the rendezvous and boost phase of the mission.&quot;
+  &lt;a href=&quot;https://science.nasa.gov/mission/swift/swift-boost-mission/cast/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   According
+  &lt;/a&gt;
+  to NASA, LINK&#x27;s three ion thrusters are powered by approximately 130 pounds (60 kg) of xenon gas.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It remains unclear what caused the
+  &lt;a href=&quot;https://www.theregister.com/science/2026/07/29/nasa-swift-rescue-mission-spins-into-trouble-during-commissioning/5280425&quot; target=&quot;_blank&quot;&gt;
+   failure
+  &lt;/a&gt;
+  in attitude control, although in an earlier update Katalyst Space stated, &quot;During commissioning, the Katalyst team encountered a series of technical issues related to attitude control of the spacecraft.&quot; The incident left LINK with only one out of three reaction wheels operable and &quot;partial RCS functionality.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The reduction in roll rate to 1.47 degrees per second is a critical step to recovery, and a hoped-for rendezvous and rescue of the Swift observatory, which is getting dangerously close to the point of no return in terms of altitude. Assuming the flight software update works as planned, the next stage will be a rendezvous followed by a grapple of NASA&#x27;s Neil Gehrels Swift Observatory using LINK&#x27;s three robotic arms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once captured, the plan is to have LINK gradually raise Swift back to near its original orbit of 370 miles (600 km) over the course of several months. Once done, LINK will detach and re-enter Earth&#x27;s atmosphere. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Your Platform Was Built For A Different Era, And AI Just Exposed It </title>
+<link>https://www.theregister.com/cloud/2026/08/06/your-platform-was-built-for-a-different-era-and-ai-just-exposed-it/5284205</link>
+<pubDate>Thu, 06 Aug 2026 15:10:12 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  The debate about whether enterprises need an internal platform is over.
+  &lt;a href=&quot;https://dora.dev/capabilities/platform-engineering/&quot;&gt;
+   Google’s 2025 DORA research
+  &lt;/a&gt;
+  found that 90 percent of organizations now report using an internal platform, and 76 percent have established dedicated platform teams. The question for IT leaders is no longer “should we build a platform?” It is “will the platform we’ve built survive what’s coming?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The honest answer for most IT organizations is no – not without work. The platform you stood up over the past few years was designed for human developers shipping containerized apps at a human pace. That world is gone. Many forces have piled onto platforms in the last two years, and together they are exposing the cracks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the base of every crack is infrastructure – the developer-centric substrate that was never designed to provision GPUs on demand, govern AI agents, or enforce cost control at the moment of provisioning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start with the obvious one. Most developers are now using AI coding assistants. AI-assisted development has become mainstream, dramatically increasing the volume of code that organizations can generate and review. The bottleneck has moved. It is no longer about writing code – it is about delivering it. Your pipelines were never sized for that throughput, and the developer’s job has quietly changed from author to reviewer and orchestrator of machine-generated work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there’s a brand-new kind of user knocking on the door: the AI agent. This is the non-human persona platform teams have increasingly had to design for over the last decade. Agents need authentication, token usage regulation and management at an organization and user level, GPU allocation, MCP compatibility, scoped permissions, non-human identity, audit logging, and hard guardrails on what they’re allowed to do. Most platforms have no native answer for any of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cost is the third pressure. As per Broadcom’s
+  &lt;a href=&quot;https://news.broadcom.com/releases/broadcom-private-cloud-outlook-2026&quot;&gt;
+   &lt;em&gt;
+    Private Cloud Outlook 2026
+   &lt;/em&gt;
+   study
+  &lt;/a&gt;
+  – 97 percent of IT leaders believe some of their public cloud spend is wasted, and 52 percent estimate that waste exceeds 25 percent of their total public cloud budget. AI infrastructure makes it dramatically worse. GPU instances, inference endpoints, and training jobs dwarf traditional spend. On top sits the token cost of every prompt and retry – a category most cost-reporting tools simply can’t see. Retrospective FinOps, the monthly review and quarterly cleanup sprint, can’t catch a misconfigured AI workload that burns through budget overnight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Privacy, security and sovereignty round out the list. AI introduces new vast attack surfaces – shadow AI sprawl, prompt injection, model poisoning, inference data leaks – that no SAST or DAST scan in your pipeline was built to detect. Meanwhile the EU AI Act, US executive orders, and data residency rules keep adding compliance requirements.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Platform Engineering 2.0 Evolution, Not A Rebuild
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Here is the part worth hearing clearly: none of this means tearing up what you’ve built. The foundations – Platform as Product, golden paths, shift-left security, self-service Internal Developer Platforms (IDPs) – still hold. The discipline doesn’t reset at each phase. It evolves. What is described as Platform Engineering 2.0 is an extension of those foundations across five pillars, not a do-over.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first pillar is an AI-native platform. Your IDP evolves into what’s increasingly being called an Agentic Development Platform (ADP), treating AI workloads as first-class citizens and AI agents as first-class users. Same operating model, expanded substrate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Second, is a multi-persona experience. Most platforms today serve application developers well and treat everyone else as a second-class citizen. That leaves significant value on the table unrealized. Security teams, data scientists, ML engineers, FinOps analysts, business leaders, and agents all need the platform, each with their own interface sitting on shared APIs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Third, is embedded FinOps. The shift is from rear-view-mirror reporting to cost decisions made at provisioning time. Every developer becomes a FinOps practitioner by default – not through training, but because the platform surfaces cost at the moment of action.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fourth, security shifts down. Shift-left moved security earlier in the pipeline but dumped the load onto developers, and most vulnerabilities still surface in production. Shifting down means embedding security into the platform and runtime layers themselves, so it’s invisible to developers and immutable by design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fifth, composable by design. The future isn’t
+  &lt;em&gt;
+   build
+  &lt;/em&gt;
+  versus
+  &lt;em&gt;
+   buy
+  &lt;/em&gt;
+  – it’s
+  &lt;em&gt;
+   compose
+  &lt;/em&gt;
+  . API-first, swappable building blocks let you replace one CI/CD tool or observability stack without cascading changes. The CNCF projects ecosystem has grown from about 50 projects in 2018 to more than 200 today; rigid platforms can’t keep pace with that choice surface.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Where To Start: AI Native Platform Readiness
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Platform Engineering 2.0 begins with modernizing that infrastructure foundation. Don’t try to do all five at once. Audit your platform against the ceilings and start where the friction is worst — that’s where you’ll have executive sponsorship and a clear ROI story.
+  &lt;em&gt;
+   For most organizations, the 12-month milestone that matters most is AI-native readiness: GPU workload support; agents; non-human identity; token economics; and MCP gateway exposure.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start by auditing your current IDP for three gaps: GPU/accelerator provisioning; non-human identity management; and real-time cost attribution at provisioning time. If all three are missing, your platform is already behind.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The teams that built golden paths for developer autonomy are now being handed the keys to enterprise-wide agentic autonomy. That’s the largest mandate the discipline has ever held. The window is open and the foundations are already in place. What’s left is to extend them – before the platform becomes the bottleneck it was built to remove.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Read more:
+  &lt;a href=&quot;http://brcm.tech/PE2WhitePaper&quot;&gt;
+   &lt;em&gt;
+    Platform Engineering 2.0
+   &lt;/em&gt;
+   whitepaper
+  &lt;/a&gt;
+  from Broadcom and Platformengineering.org – a detailed framework for this evolution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Pankaj Gupta is senior director of private cloud solutions at Broadcom.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   &lt;strong&gt;
+    This content was sponsored by Broadcom.
+   &lt;/strong&gt;
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PARTNER CONTENT: Platform Engineering 2.0: your platform was built for a different era. AI just exposed it. </title>
+<link>https://www.theregister.com/ml-ai/2026/08/06/partner-content-platform-engineering-20-your-platform-was-built-for-a-different-era-ai-just-exposed-it/5283935</link>
+<pubDate>Thu, 06 Aug 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;7d0cd61b-16fd-4650-949a-3366a29e1e27&quot;&gt;
+ &lt;p&gt;
+  The debate about whether enterprises need an internal platform is over.
+  &lt;a href=&quot;https://dora.dev/capabilities/platform-engineering/&quot;&gt;
+   Google’s 2025 DORA
+  &lt;/a&gt;
+  research found that 90 percent of organizations now report using an internal platform, and 76 percent have established dedicated platform teams. The question for IT leaders is no longer “should we build a platform?” It’s “will the platform we’ve built survive what’s coming?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The honest answer for most IT organizations is no — not without work. The platform you stood up over the past few years was designed for human developers shipping containerized apps at a human pace. That world is gone. Many forces have piled onto platforms in the last two years, and together they are exposing the cracks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the base of every crack is infrastructure — the developer-centric substrate that was never designed to provision GPUs on demand, govern AI agents, or enforce cost control at the moment of provisioning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start with the obvious one. Most developers are now using AI coding assistants. AI-assisted development has become mainstream, dramatically increasing the volume of code that organizations can generate and review. The bottleneck has moved. It’s no longer about writing code — it’s about delivering it. Your pipelines were never sized for that throughput, and the developer’s job has quietly changed from author to reviewer and orchestrator of machine-generated work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there’s a brand-new kind of user knocking on the door: the AI agent. This is the non-human persona platform teams have increasingly had to design for over the last decade. Agents need authentication, token usage regulation and management at an organization and user level, GPU allocation, MCP compatibility, scoped permissions, non-human identity, audit logging, and hard guardrails on what they’re allowed to do. Most platforms have no native answer for any of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cost is the third pressure. As per Broadcom’s
+  &lt;a href=&quot;https://news.broadcom.com/releases/broadcom-private-cloud-outlook-2026&quot;&gt;
+   Private Cloud Outlook 2026 study
+  &lt;/a&gt;
+  - 97 percent of IT leaders believe some of their public cloud spend is wasted, and 52 percent estimate that waste exceeds 25 percent of their total public cloud budget. AI infrastructure makes it dramatically worse. GPU instances, inference endpoints, and training jobs dwarf traditional spend. On top sits the token cost of every prompt and retry — a category most cost-reporting tools simply can’t see. Retrospective FinOps, the monthly review and quarterly cleanup sprint, can’t catch a misconfigured AI workload that burns through budget overnight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Privacy, security and sovereignty round out the list. AI introduces new vast attack surfaces — shadow AI sprawl, prompt injection, model poisoning, inference data leaks — that no SAST or DAST scan in your pipeline was built to detect. Meanwhile the EU AI Act, US executive orders, and data residency rules keep adding compliance requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Platform Engineering 2.0 Evolution, not a Rebuild
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s the part worth hearing clearly: none of this means tearing up what you’ve built. The foundations — Platform as Product, golden paths, shift-left security, self-service Internal Developer Platforms (IDPs) — still hold. The discipline doesn’t reset at each phase. It evolves. What’s described as Platform Engineering 2.0 is an extension of those foundations across five pillars, not a do-over.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first pillar is an AI-native platform. Your IDP evolves into what’s increasingly being called an Agentic Development Platform (ADP), treating AI workloads as first-class citizens and AI agents as first-class users. Same operating model, expanded substrate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Second, is a multi-persona experience. Most platforms today serve application developers well and treat everyone else as a second-class citizen. That leaves significant value on the table unrealized. Security teams, data scientists, ML engineers, FinOps analysts, business leaders, and agents all need the platform, each with their own interface sitting on shared APIs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Third, is embedded FinOps. The shift is from rear-view-mirror reporting to cost decisions made at provisioning time. Every developer becomes a FinOps practitioner by default — not through training, but because the platform surfaces cost at the moment of action.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fourth, security shifts down. Shift-left moved security earlier in the pipeline but dumped the load onto developers, and most vulnerabilities still surface in production. Shifting down means embedding security into the platform and runtime layers themselves, so it’s invisible to developers and immutable by design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fifth, composable by design. The future isn’t
+  &lt;em&gt;
+   build
+  &lt;/em&gt;
+  versus
+  &lt;em&gt;
+   buy
+  &lt;/em&gt;
+  — it’s
+  &lt;em&gt;
+   compose
+  &lt;/em&gt;
+  . API-first, swappable building blocks let you replace one CI/CD tool or observability stack without cascading changes. The CNCF projects ecosystem has grown from about 50 projects in 2018 to more than 200 today; rigid platforms can’t keep pace with that choice surface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Where to start: AI native platform readiness
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Platform Engineering 2.0 begins with modernizing that infrastructure foundation. Don’t try to do all five at once. Audit your platform against the ceilings and start where the friction is worst — that’s where you’ll have executive sponsorship and a clear ROI story.
+  &lt;em&gt;
+   For most organizations, the 12-month milestone that matters most is AI-native readiness: GPU workload support; agents; non-human identity; token economics; and MCP gateway exposure.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start by auditing your current IDP for three gaps: GPU/accelerator provisioning; non-human identity management; and real-time cost attribution at provisioning time. If all three are missing, your platform is already behind.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The teams that built golden paths for developer autonomy are now being handed the keys to enterprise-wide agentic autonomy. That’s the largest mandate the discipline has ever held. The window is open and the foundations are already in place. What’s left is to extend them — before the platform becomes the bottleneck it was built to remove.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Read more:
+  &lt;/em&gt;
+  &lt;a href=&quot;http://brcm.tech/PE2WhitePaper&quot;&gt;
+   &lt;em&gt;
+    Platform Engineering 2.0 whitepaper
+   &lt;/em&gt;
+  &lt;/a&gt;
+  &lt;em&gt;
+   from Broadcom and Platformengineering.org — a detailed framework for this evolution: brcm.tech/PE2WhitePaper.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Contributed by Broadcom
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PARTNER CONTENT: Platform Engineering 2.0: your platform was built for a different era. AI just exposed it </title>
+<link>https://www.theregister.com/ai-ml/2026/08/06/partner-content-platform-engineering-20-your-platform-was-built-for-a-different-era-ai-just-exposed-it/5283926</link>
+<pubDate>Thu, 06 Aug 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;2409dfe3-b8be-470e-8250-a9302e0d1f80&quot;&gt;
+ &lt;p&gt;
+  The debate about whether enterprises need an internal platform is over.
+  &lt;a href=&quot;https://dora.dev/capabilities/platform-engineering/&quot;&gt;
+   Google’s 2025 DORA
+  &lt;/a&gt;
+  research found that 90 percent of organizations now report using an internal platform, and 76 percent have established dedicated platform teams. The question for IT leaders is no longer “should we build a platform?” It’s “will the platform we’ve built survive what’s coming?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The honest answer for most IT organizations is no — not without work. The platform you stood up over the past few years was designed for human developers shipping containerized apps at a human pace. That world is gone. Many forces have piled onto platforms in the last two years, and together they are exposing the cracks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the base of every crack is infrastructure — the developer-centric substrate that was never designed to provision GPUs on demand, govern AI agents, or enforce cost control at the moment of provisioning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start with the obvious one. Most developers are now using AI coding assistants. AI-assisted development has become mainstream, dramatically increasing the volume of code that organizations can generate and review. The bottleneck has moved. It’s no longer about writing code — it’s about delivering it. Your pipelines were never sized for that throughput, and the developer’s job has quietly changed from author to reviewer and orchestrator of machine-generated work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there’s a brand-new kind of user knocking on the door: the AI agent. This is the non-human persona platform teams have increasingly had to design for over the last decade. Agents need authentication, token usage regulation and management at an organization and user level, GPU allocation, MCP compatibility, scoped permissions, non-human identity, audit logging, and hard guardrails on what they’re allowed to do. Most platforms have no native answer for any of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cost is the third pressure. As per Broadcom’s
+  &lt;a href=&quot;https://news.broadcom.com/releases/broadcom-private-cloud-outlook-2026&quot;&gt;
+   Private Cloud Outlook 2026 study
+  &lt;/a&gt;
+  - 97 percent of IT leaders believe some of their public cloud spend is wasted, and 52 percent estimate that waste exceeds 25 percent of their total public cloud budget. AI infrastructure makes it dramatically worse. GPU instances, inference endpoints, and training jobs dwarf traditional spend. On top sits the token cost of every prompt and retry — a category most cost-reporting tools simply can’t see. Retrospective FinOps, the monthly review and quarterly cleanup sprint, can’t catch a misconfigured AI workload that burns through budget overnight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Privacy, security and sovereignty round out the list. AI introduces new vast attack surfaces — shadow AI sprawl, prompt injection, model poisoning, inference data leaks — that no SAST or DAST scan in your pipeline was built to detect. Meanwhile the EU AI Act, US executive orders, and data residency rules keep adding compliance requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Platform Engineering 2.0 Evolution, not a Rebuild
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s the part worth hearing clearly: none of this means tearing up what you’ve built. The foundations — Platform as Product, golden paths, shift-left security, self-service Internal Developer Platforms (IDPs) — still hold. The discipline doesn’t reset at each phase. It evolves. What’s described as Platform Engineering 2.0 is an extension of those foundations across five pillars, not a do-over.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first pillar is an AI-native platform. Your IDP evolves into what’s increasingly being called an Agentic Development Platform (ADP), treating AI workloads as first-class citizens and AI agents as first-class users. Same operating model, expanded substrate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Second, is a multi-persona experience. Most platforms today serve application developers well and treat everyone else as a second-class citizen. That leaves significant value on the table unrealized. Security teams, data scientists, ML engineers, FinOps analysts, business leaders, and agents all need the platform, each with their own interface sitting on shared APIs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Third, is embedded FinOps. The shift is from rear-view-mirror reporting to cost decisions made at provisioning time. Every developer becomes a FinOps practitioner by default — not through training, but because the platform surfaces cost at the moment of action.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fourth, security shifts down. Shift-left moved security earlier in the pipeline but dumped the load onto developers, and most vulnerabilities still surface in production. Shifting down means embedding security into the platform and runtime layers themselves, so it’s invisible to developers and immutable by design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fifth, composable by design. The future isn’t
+  &lt;em&gt;
+   build
+  &lt;/em&gt;
+  versus
+  &lt;em&gt;
+   buy
+  &lt;/em&gt;
+  — it’s
+  &lt;em&gt;
+   compose
+  &lt;/em&gt;
+  . API-first, swappable building blocks let you replace one CI/CD tool or observability stack without cascading changes. The CNCF projects ecosystem has grown from about 50 projects in 2018 to more than 200 today; rigid platforms can’t keep pace with that choice surface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Where to start: AI native platform readiness
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Platform Engineering 2.0 begins with modernizing that infrastructure foundation. Don’t try to do all five at once. Audit your platform against the ceilings and start where the friction is worst — that’s where you’ll have executive sponsorship and a clear ROI story.
+  &lt;em&gt;
+   For most organizations, the 12-month milestone that matters most is AI-native readiness: GPU workload support; agents; non-human identity; token economics; and MCP gateway exposure.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start by auditing your current IDP for three gaps: GPU/accelerator provisioning; non-human identity management; and real-time cost attribution at provisioning time. If all three are missing, your platform is already behind.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The teams that built golden paths for developer autonomy are now being handed the keys to enterprise-wide agentic autonomy. That’s the largest mandate the discipline has ever held. The window is open and the foundations are already in place. What’s left is to extend them — before the platform becomes the bottleneck it was built to remove.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Read more:
+  &lt;/em&gt;
+  &lt;a aria-label=&quot;brcm.tech/PE2WhitePaper&quot; href=&quot;http://brcm.tech/PE2WhitePaper&quot; target=&quot;_blank&quot;&gt;
+   &lt;em&gt;
+    Platform Engineering 2.0 whitepaper
+   &lt;/em&gt;
+  &lt;/a&gt;
+  &lt;em&gt;
+   from Broadcom and Platformengineering.org — a detailed framework for this evolution.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Contributed by Broadcom
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PARTNER CONTENT: Platform Engineering 2.0: your platform was built for a different era. AI just exposed it. </title>
+<link>https://www.theregister.com/devops/2026/08/06/partner-content-platform-engineering-20-your-platform-was-built-for-a-different-era-ai-just-exposed-it/5283237</link>
+<pubDate>Thu, 06 Aug 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;10c40a07-261d-45be-a2aa-f4cd169fa73d&quot;&gt;
+ &lt;p&gt;
+  The debate about whether enterprises need an internal platform is over.
+  &lt;a href=&quot;https://dora.dev/capabilities/platform-engineering/&quot;&gt;
+   Google’s 2025 DORA
+  &lt;/a&gt;
+  research found that 90 percent of organizations now report using an internal platform, and 76 percent have established dedicated platform teams. The question for IT leaders is no longer “should we build a platform?” It’s “will the platform we’ve built survive what’s coming?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The honest answer for most IT organizations is no — not without work. The platform you stood up over the past few years was designed for human developers shipping containerized apps at a human pace. That world is gone. Many forces have piled onto platforms in the last two years, and together they are exposing the cracks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the base of every crack is infrastructure — the developer-centric substrate that was never designed to provision GPUs on demand, govern AI agents, or enforce cost control at the moment of provisioning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start with the obvious one. Most developers are now using AI coding assistants. AI-assisted development has become mainstream, dramatically increasing the volume of code that organizations can generate and review. The bottleneck has moved. It’s no longer about writing code — it’s about delivering it. Your pipelines were never sized for that throughput, and the developer’s job has quietly changed from author to reviewer and orchestrator of machine-generated work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there’s a brand-new kind of user knocking on the door: the AI agent. This is the non-human persona platform teams have increasingly had to design for over the last decade. Agents need authentication, token usage regulation and management at an organization and user level, GPU allocation, MCP compatibility, scoped permissions, non-human identity, audit logging, and hard guardrails on what they’re allowed to do. Most platforms have no native answer for any of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cost is the third pressure. As per Broadcom’s
+  &lt;a href=&quot;https://news.broadcom.com/releases/broadcom-private-cloud-outlook-2026&quot;&gt;
+   Private Cloud Outlook 2026 study
+  &lt;/a&gt;
+  - 97 percent of IT leaders believe some of their public cloud spend is wasted, and 52 percent estimate that waste exceeds 25 percent of their total public cloud budget. AI infrastructure makes it dramatically worse. GPU instances, inference endpoints, and training jobs dwarf traditional spend. On top sits the token cost of every prompt and retry — a category most cost-reporting tools simply can’t see. Retrospective FinOps, the monthly review and quarterly cleanup sprint, can’t catch a misconfigured AI workload that burns through budget overnight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Privacy, security and sovereignty round out the list. AI introduces new vast attack surfaces — shadow AI sprawl, prompt injection, model poisoning, inference data leaks — that no SAST or DAST scan in your pipeline was built to detect. Meanwhile the EU AI Act, US executive orders, and data residency rules keep adding compliance requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Platform Engineering 2.0 Evolution, not a Rebuild
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s the part worth hearing clearly: none of this means tearing up what you’ve built. The foundations — Platform as Product, golden paths, shift-left security, self-service Internal Developer Platforms (IDPs) — still hold. The discipline doesn’t reset at each phase. It evolves. What’s described as Platform Engineering 2.0 is an extension of those foundations across five pillars, not a do-over.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first pillar is an AI-native platform. Your IDP evolves into what’s increasingly being called an Agentic Development Platform (ADP), treating AI workloads as first-class citizens and AI agents as first-class users. Same operating model, expanded substrate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Second, is a multi-persona experience. Most platforms today serve application developers well and treat everyone else as a second-class citizen. That leaves significant value on the table unrealized. Security teams, data scientists, ML engineers, FinOps analysts, business leaders, and agents all need the platform, each with their own interface sitting on shared APIs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Third, is embedded FinOps. The shift is from rear-view-mirror reporting to cost decisions made at provisioning time. Every developer becomes a FinOps practitioner by default — not through training, but because the platform surfaces cost at the moment of action.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fourth, security shifts down. Shift-left moved security earlier in the pipeline but dumped the load onto developers, and most vulnerabilities still surface in production. Shifting down means embedding security into the platform and runtime layers themselves, so it’s invisible to developers and immutable by design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fifth, composable by design. The future isn’t
+  &lt;em&gt;
+   build
+  &lt;/em&gt;
+  versus
+  &lt;em&gt;
+   buy
+  &lt;/em&gt;
+  — it’s
+  &lt;em&gt;
+   compose
+  &lt;/em&gt;
+  . API-first, swappable building blocks let you replace one CI/CD tool or observability stack without cascading changes. The CNCF projects ecosystem has grown from about 50 projects in 2018 to more than 200 today; rigid platforms can’t keep pace with that choice surface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Where to start: AI native platform readiness
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Platform Engineering 2.0 begins with modernizing that infrastructure foundation. Don’t try to do all five at once. Audit your platform against the ceilings and start where the friction is worst — that’s where you’ll have executive sponsorship and a clear ROI story.
+  &lt;em&gt;
+   For most organizations, the 12-month milestone that matters most is AI-native readiness: GPU workload support; agents; non-human identity; token economics; and MCP gateway exposure.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Start by auditing your current IDP for three gaps: GPU/accelerator provisioning; non-human identity management; and real-time cost attribution at provisioning time. If all three are missing, your platform is already behind.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The teams that built golden paths for developer autonomy are now being handed the keys to enterprise-wide agentic autonomy. That’s the largest mandate the discipline has ever held. The window is open and the foundations are already in place. What’s left is to extend them — before the platform becomes the bottleneck it was built to remove.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Read more:
+  &lt;/em&gt;
+  &lt;a href=&quot;http://brcm.tech/PE2WhitePaper&quot;&gt;
+   &lt;em&gt;
+    Platform Engineering 2.0 whitepaper
+   &lt;/em&gt;
+  &lt;/a&gt;
+  &lt;em&gt;
+   from Broadcom and Platformengineering.org — a detailed framework for this evolution: brcm.tech/PE2WhitePaper
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Contributed by Broadcom
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft excludes Domain Exclusion from MS 365 Copilot  – days after rolling it out </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/06/microsoft-excludes-domain-exclusion-from-ms-365-copilot-days-after-rolling-it-out/5284106</link>
+<pubDate>Thu, 06 Aug 2026 14:34:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Microsoft has abruptly withdrawn Domain Exclusion for Microsoft 365 Copilot, days after touting it as a way to stop the assistant grounding its answers in unwanted websites. If you had a list of sources you didn&#x27;t trust, you&#x27;re out of luck for now.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft
+  &lt;a href=&quot;https://techcommunity.microsoft.com/blog/Microsoft365CopilotBlog/more-control-over-web-grounding-with-domain-exclusion-for-microsoft-365-copilot/4540151&quot; target=&quot;_blank&quot;&gt;
+   announced Domain Exclusion
+  &lt;/a&gt;
+  last month. The idea was simple and sensible: Copilot can consult the public web when answering questions, but that also gives it ample opportunity to suck in nonsense. Administrators were to be given some control over the sources it used.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Health warnings about AI output only go so far when Microsoft wants businesses to put Copilot into critical workflows. As the company put it, &quot;admins need practical controls that help web-grounded experiences stay aligned with organizational policies, compliance expectations, and trusted source strategies.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Enter Domain Exclusion, which was designed to let organizations bar up to 1,000 web domains from influencing Copilot responses. Administrators could create the list from a CSV file using PowerShell.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft stated: &quot;By helping admins reduce the influence of unwanted or non-compliant web sources, Domain Exclusion supports a more governed approach to AI adoption.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Except it no longer does. In an update this week, Microsoft
+  &lt;a href=&quot;https://techcommunity.microsoft.com/blog/microsoft365copilotblog/update-domain-exclusion-for-microsoft-365-copilot/4543648&quot;&gt;
+   said
+  &lt;/a&gt;
+  the feature &quot;has been rolled back at this time.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company did not give a reason for the abrupt rollback, only stating: &quot;We understand the importance of this capability and are actively evaluating next steps.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The control was welcome, but its block list design promised administrators an endless game of Whac-A-Mole. A ceiling of 1,000 domains looks modest beside the size of the public web, and staff could potentially use Copilot to retrieve information from sites that organizational policies barred them from visiting directly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An allow list of approved sources would turn that burden around, limiting Copilot to sites the organization already trusts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the time of Microsoft&#x27;s announcement, one commenter remarked: &quot;I really wish this was the other way around: Off, but add an allow list. The On, but disable some means we&#x27;d have to know which sites were &#x27;bad.&#x27; Seems backwards to do it that way.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Snowflake extortionist admits 165-victim cloud crime spree – and squeezing one target twice </title>
+<link>https://www.theregister.com/storage/2026/08/06/snowflake-extortionist-admits-165-victim-cloud-crime-spree-and-squeezing-one-target-twice/5284059</link>
+<pubDate>Thu, 06 Aug 2026 14:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  A Canadian who helped orchestrate the sprawling Snowflake-linked data theft campaign has pleaded guilty in the US, admitting that he and his co-conspirators returned to squeeze at least one victim a second time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Connor Riley Moucka, 26, of Kitchener, Ontario, admitted computer fraud, wire fraud, aggravated identity theft, and conspiracy charges over a hacking spree that compromised more than 165 organizations, exposed billions of customer records, and brought in about $2.5 million in ransom payments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://www.justice.gov/opa/pr/canadian-man-pleads-guilty-hacking-us-cloud-storage-provider-and-extorting-its-customers&quot; target=&quot;_blank&quot;&gt;
+   the US Department of Justice
+  &lt;/a&gt;
+  , Moucka and his co-conspirators used stolen login credentials to break into the cloud environments of at least 165 customers of a US software provider between February and October 2024. The DOJ still doesn&#x27;t name the company, but the allegations match the 2024 campaign against Snowflake customers that ensnared the likes of Ticketmaster, Santander,
+  &lt;a href=&quot;https://www.theregister.com/security/2024/07/12/att-reports-second-substantial-records-leak-of-2024/1049961&quot; target=&quot;_blank&quot;&gt;
+   AT&amp;T
+  &lt;/a&gt;
+  , and dozens of others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a plea agreement seen by
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , Moucka admitted developing software that automatically searched compromised cloud environments for valuable information. He and his co-conspirators used it to identify lucrative targets and steal terabytes of banking records, payroll data, passport and driver&#x27;s license numbers, Social Security numbers, DEA registration numbers, and other sensitive information. They then threatened to publish the haul unless victims paid up.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Moucka also admitted that the conspirators returned to at least one victim after it paid a ransom in May 2024, demanding more money months later to prevent the stolen customer data from being published or sold. The second attempt used stolen records concerning a government official and members of a former government official&#x27;s immediate family.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The stolen data was also advertised for sale on cybercrime forums including BreachForums, Exploit.in, and XSS.is, as well as via Telegram, according to prosecutors. The group demanded at least $6 million from its victims and received about 36 Bitcoin, then worth roughly $2.5 million. Moucka admitted pocketing at least $495,000.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Victim organizations suffered more than $9.5 million in direct losses, though the DOJ said that figure does not include downstream harm affecting at least 100 million individuals whose personal information was exposed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.theregister.com/security/2024/11/12/heres-what-we-know-about-the-snowflake-data-theft-suspects/829456&quot; target=&quot;_blank&quot;&gt;
+   Moucka was arrested in Canada in October 2024
+  &lt;/a&gt;
+  , just months after investigators linked him to the attacks, and was extradited to the US in July this year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He is due to be sentenced on October 27. Aggravated identity theft carries a mandatory two-year prison term that must run consecutively to any other sentence, while the other offences carry varying maximum penalties. A federal judge will determine Moucka&#x27;s sentence. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Blue Origin blames New Glenn fireball on engine oxygen valve </title>
+<link>https://www.theregister.com/science/2026/08/06/blue-origin-blames-new-glenn-fireball-on-engine-oxygen-valve/5283997</link>
+<pubDate>Thu, 06 Aug 2026 13:18:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Blue Origin has identified the engine component at the center of May&#x27;s spectacular New Glenn pad explosion, which left the Jeff Bezos space tentacle facing a substantial rebuild.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The anomaly originated at the main oxygen valve on one of the BE-4 engines, which was later confirmed by hardware recovery and inspections,&quot; CEO Dave Limp
+  &lt;a href=&quot;https://x.com/davill/status/2085074404627915059&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   posted
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Limp did not explain the valve&#x27;s failure mode or explain how the anomaly led to the explosion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  New Glenn, whose first stage is powered by seven BE-4 engines, was on the pad at Cape Canaveral Space Force Station&#x27;s Launch Complex 36 for a preflight hotfire test in May when it
+  &lt;a href=&quot;https://www.theregister.com/science/2026/05/29/blue-origins-new-glenn-makes-a-crater-sized-dent-in-artemis-plans/5248336&quot;&gt;
+   suddenly exploded
+  &lt;/a&gt;
+  . The blast destroyed the rocket and key ground equipment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Blue Origin has since been rebuilding the facility at a breakneck pace. In June, Limp said the company still
+  &lt;a href=&quot;https://x.com/davill/status/2070122953052983796&quot;&gt;
+   planned to launch in 2026
+  &lt;/a&gt;
+  and later
+  &lt;a href=&quot;https://x.com/davill/status/2071971375255064604&quot;&gt;
+   explained
+  &lt;/a&gt;
+  that the replacement pad would support a revised integration process. The stages will be assembled horizontally and rolled out before the payload is mated with New Glenn in the vertical position.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Limp said extensive component-level and engine hotfire tests had been conducted &quot;to understand the failure mode better and inform mitigations.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The path forward is clear,&quot; he wrote. &quot;We&#x27;re making small modifications to the valve that can be quickly retrofitted to existing engines. We&#x27;re manufacturing the updated hardware, which will be ready by the end of this month.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Blue Origin is not the only BE-4 customer. United Launch Alliance (ULA) uses two of the engines on Vulcan&#x27;s first stage. Vulcan is already sidelined from US Space Force missions following an unrelated anomaly in a Northrop Grumman solid rocket booster during its
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/02/13/vulcan-centaur-reaches-orbit-after-booster-anomaly/5010850&quot;&gt;
+   last launch
+  &lt;/a&gt;
+  in February. The payload reached orbit, but the Space Force wants the problem resolved before Vulcan flies for it again.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ULA did not immediately respond when asked whether its stock of BE-4 engines would require the same valve modifications. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Sandisk maketh mucha moolah </title>
+<link>https://www.theregister.com/flash/2026/08/06/sandisk-maketh-mucha-moolah/5284021</link>
+<pubDate>Thu, 06 Aug 2026 13:08:12 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  This is getting ludicrous.
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/07/13/sandisk-sets-up-flash-chip-supply-agreement-with-meta/5270489&quot; target=&quot;_blank&quot;&gt;
+   Sandisk’s
+  &lt;/a&gt;
+  profit in its latest quarter was greater then the previous quarter&#x27;s revenues and its full fy2026 profit was larger than fy2025’s revenues; such is the pace of NAND price rises in a market dominated by 3 suppliers with persistent under-supply and sustained high, AI-fuelled, demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Record revenues of $8.97 billion in its fourth fiscal 2026 quarter, ended July 3, convincingly beat its $8.25 billion outlook, were up 372 percent Y/Y, and an enormous 51 percent Q/Q. The $6.9 billion GAAP net income beat last quarter’s $5.6 billion revenues and contrast with the year-ago $23 million loss. The full fy2026 revenue number was $20.25 billion, 175 percent higher annually,
+  &lt;span&gt;
+  &lt;/span&gt;
+  with a net income of $11.4 billion, more than fy2025’s $7.36 billion in revenues, and more than reversing fy2025’s $1.6 billion loss.
+  &lt;span&gt;
+   NAND fab joint-venture  partner
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/file/2026/08/03/kioxia-has-a-profitable-yen-for-ssds/5282200&quot; target=&quot;_blank&quot;&gt;
+   &lt;span&gt;
+    Kioxia
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span&gt;
+   reported $11 billion in revenues in its most recent quarter, but its profits were lower at $5.3 billion..
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chairman and CEO David Goeckeler said in the
+  &lt;a href=&quot;https://finance.yahoo.com/quote/SNDK/earnings/SNDK-Q4-2026-earnings_call-658567.html&quot; target=&quot;_blank&quot;&gt;
+   earnings call:
+  &lt;/a&gt;
+  &quot;We delivered record revenue, gross margin, and earnings per share, each above the high end of our guidance, and repurchased $4.5 billion of company stock. We are encouraged by this progress and believe the long-term earnings power, cash generation, and resilience of this business will become increasingly evident.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  CFO Luis Visoso, discussing the increased revenues, said: “About 1/3 of the growth came from incremental bits and 2/3 came from pricing.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company stated “fy2026 marks a fundamental inflection point for Sandisk, capping a year in which we reshaped the business toward the highest-value end markets, with Datacenter established as a major pillar of growth”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;strong&gt;
+   Financial summary
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Gross margin: record 84.6% vs last quarter’s 78.4% vs prior quarter’s 51.1%
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Operating cash flow: $7.1 billion vs $1.02 billion in prior quarter
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Free cash flow: $5.0 billion vs prior quarter’s $2.96 billion
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cash &amp; cash equivalents: $3.74 billion vs year-ago $1.5 billion .
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Diluted EPS: record $43.97 vs last quarters $23.03 vs $5.15 in previous quarter
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  The three Sandisk market segment revenues were:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Data center: $2.98 billion, up 1,298% Y/Y
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Edge: $5.43 billion, up 392%
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Consumer: $556 million, down 5%
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Data centre NAND/SSD sales are becoming a great growth driver, Sandisk stating “Datacenter is our fastest-growing end market and a central pillar of our long-term growth” and “Datacenter has grown from 12% of our bits in Q4&#x27;FY25 to 38% in Q4’FY26.” It expects “Datacenter&#x27;s share of the total TAM to expand from ~30% in CY25 to ~50% in CY26, and to continue outpacing the market in CY27”
+ &lt;/p&gt;
+ &lt;p&gt;
+  About its largest market, the Edge (smartphones, PCs, tablets and embedded drives), it is not so enthusiastic, saying that it, although not growing so fast, remains a large and strategically important end market. PCs and smartphones are working through a period of adjustment as demand shifts toward AI-enabled devices and premium configurations, driving higher storage content. This edge market should grow faster in calendar 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The smaller consumer market “remains a meaningful differentiator within the industry, giving us a unique connection with end users and channel partners.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Goeckeler said that the most important force in our market is “the era of inference. AI is fundamentally a memory-centric, storage-intensive problem, and it is reshaping the demand equation for NAND.” He pointed out: ”This demand is anchored in strategic long-term infrastructure investments by the world&#x27;s largest technology companies, which are increasingly working with suppliers who can scale, partner with them, and secure supply that ensures performance and reliability years in advance.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandisk has signed long-term agreements (LTAs), what it calls New Business Models (NBMs), 4 to 5 years in duration, guaranteeing supply and predictable pricing, with 8 customers in the datacenter and edge markets, including several of the largest hyperscalers in the world. There is $93.9 billion in minimum contracted NBM revenue at floor pricing and $16.5 billion in financial guarantees. These are intended to protect Sandisk if a customer fails to satisfy its purchase obligations under these agreements. Half of the NAND bits it produces are committed under NBMs in fiscal 2027, and approximately two thirds in fy2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Visoso said the gross margin in these deals was around 80 percent and “there is some upside. As prices continue to go up, we&#x27;ll capture some of that upside as well.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NAND market should surpass $300 billion in calendar 2026, up3x Y/Y, with $500 billion in cy2027. The company sees the NAND market growing at an accelerated pace, with AI inference as a strong tailwind. It says “demand from our customers is growing faster than our supply, and we expect bits to remain on allocation beyond calendar 2027.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandisk was at pains to emphasize demand durabiity, saying “Demand is anchored in strategic, long-term infrastructure investment by the world&#x27;s largest technology companies, which increasingly work with suppliers who can scale and secure supply that ensures performance and reliability years in advance. Our NBMs (New Business Models) give customers confidence in long-term supply and give us clearer demand visibility and more durable cash flow.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It aims to grow its NAND bit supply in at the mid to high teens percent level, and achieve that through NAND technology node transitions, not by adding fab capacity. Visoso said: “Our capital spending will increase year over year, primarily as we ramp BiCS8 nd BiCS10. Yet our investment relative to revenue will come down to approximately 6 percent for the full year.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Next quarter’s revenue outlook is $10.55 +/- $250, and a 357 percent jump at the mid-point.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot;&gt;
+   Bootnote
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  BiCS8 is 218 or 230 layer 3D NAND and BiCS10 is 332 layer 3D NAND.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> European firms afraid of US tech kill switch but haven&#x27;t made an escape plan </title>
+<link>https://www.theregister.com/off-prem/2026/08/06/european-firms-afraid-of-us-tech-kill-switch-but-havent-made-an-escape-plan/5284030</link>
+<pubDate>Thu, 06 Aug 2026 12:23:10 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Nearly three-quarters of businesses surveyed in the UK, France, and Germany fear Washington could abruptly cut their access to the US tech platforms on which they depend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The finding comes from a survey of 1,500 businesses in the three countries conducted by
+  &lt;a href=&quot;https://proton.me/business&quot;&gt;
+   Proton
+  &lt;/a&gt;
+  , the Swiss company behind Proton Mail, which was founded by scientists who met at CERN.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Businesses have long relied on companies such as Microsoft and Google for email and productivity software. Moving those tools into the cloud has also given providers a central switch with which to withdraw access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Geopolitical tensions between European countries and the Trump administration have brought concerns about such a possibility to the fore, especially after the
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/06/15/us-clampdown-on-anthropic-models-sends-eu-sovereignty-surge-into-overdrive/5255487&quot;&gt;
+   US government issued an export control directive
+  &lt;/a&gt;
+  preventing any non-US citizen from accessing some Anthropic AI models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A
+  &lt;a href=&quot;https://proton.me/business/europe-tech-watch&quot;&gt;
+   previous study
+  &lt;/a&gt;
+  by Proton claimed that over 74 percent of all publicly listed European companies depend on US-based tech services, and a
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2025/07/28/us-clouds-crush-european-competition-on-their-home-turf/1459836&quot;&gt;
+   report last year from Synergy Research
+  &lt;/a&gt;
+  found that the European cloud infrastructure market is sewn up by the big American operators, with local firms making up just 15 percent of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Proton says nearly three in four respondents (73.9 percent) were concerned that the US government could cut off their access to American technology providers. Just one in 20 expressed no concern at all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More than half (54.5 percent) of respondents said they could continue operating for no more than a single business day before shutting down if they lost access to cloud and digital services entirely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among large businesses, 28.7 percent estimated that a day offline would cost more than €100,000 ($115,000), while 45 percent put the damage above €50,000 ($57,000).
+ &lt;/p&gt;
+ &lt;p&gt;
+  These concerns have been widely discussed, such as at the
+  &lt;a href=&quot;https://www.theregister.com/software/2026/02/04/mep-the-eu-runs-on-microsoft-uncle-sam-could-turn-it-off/4192943&quot;&gt;
+   Open Source Policy Summit in Brussels
+  &lt;/a&gt;
+  earlier this year, where (surprise, surprise) open source was held up as the solution to the problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But as
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  also
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/05/11/europe-wants-out-from-under-us-tech-but-first-it-has-to-find-the-exits/5234898&quot;&gt;
+   reported back in May
+  &lt;/a&gt;
+  , the problem goes deeper than many suspect. Identity and Access Management (IAM) is entirely dominated by US vendors, for example, meaning that &quot;the layer of infrastructure responsible for authenticating every user and authorizing every access decision is, in most cases, operated by a vendor incorporated in the United States and subject to American law.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Proton nevertheless found an appetite for escape: 67.8 percent of respondents said they would switch providers if government action cut off their access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Few appear ready to make that switch in a hurry. Only 44 percent have a documented business continuity plan that they test regularly, leaving the majority without a proven fallback.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among those preparing for disruption, email and cloud file storage were the top priorities for fallback services, Proton said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Proton has more than an academic interest in the findings: it sells a business continuity platform covering email, conferencing, and productivity tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But it maintains that disruption is not hypothetical for European businesses. Every respondent reported at least one disruption during the previous 12 months, ranging from outages and cyberattacks to losing access to a service.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The kill switch is no longer an abstract geopolitical concern but a business continuity crisis,&quot; commented Proton chief operating officer Raphaël Auphan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The study captures a clear shift in how European businesses perceive operational risk. Geopolitical risk applied to digital dependence is no longer a boardroom abstraction. It is joining the same threat register as criminal attacks, with the same sense of urgency and the same expectation that it could materialize without warning.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> IT department put sticky notes on the laptops to help employees log in </title>
+<link>https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662</link>
+<pubDate>Thu, 06 Aug 2026 12:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   PWNED
+  &lt;/span&gt;
+  Welcome back to PWNED, the weekly column where we lovingly poke fun at other organizations&#x27; security screw-ups, in hopes the rest of us can learn a valuable lesson. This week’s story involves an IT department that ought to know better putting user credentials in the precisely wrong place.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-text_color=&quot;tertiary&quot;&gt;
+   Have a story about someone leaving a gaping hole in their network? Share it with us at
+  &lt;/span&gt;
+  &lt;a href=&quot;mailto:pwned@sitpub.com&quot;&gt;
+   &lt;span data-lab-text_color=&quot;tertiary&quot;&gt;
+    pwned@sitpub.com
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span data-lab-text_color=&quot;tertiary&quot;&gt;
+   . Anonymity is available upon request.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Our terrifying tech tale comes courtesy of Marc Bishop, director of business growth at
+  &lt;a href=&quot;https://wytlabs.com/&quot;&gt;
+   Wytlabs
+  &lt;/a&gt;
+  , a marketing and SEO company. In the course of his career, Bishop came across one firm where the people guarding the henhouse left the keys out where almost anyone could get them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bishop’s client company was responsible on the surface. They had a strong password policy and even made users take security training. Then they moved offices, and that&#x27;s when basic security hygiene went out the window.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company decided to take some old laptops and give them out to new users. To make life easy for the recipients, they put sticky notes – everyone’s favorite credential-sharing tool – on the laptops with the name of each employee and their initial login credentials on it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Let’s just stop for a moment to remark on how bad it is to put usernames and passwords on a piece of paper where the wrong person could see them. Even the IT department should not know your password, should someone in IT themselves turn rogue. So, even if the laptop stayed on a shelf in a closet that only the support staff had access to, having that sticky note would be bad.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, our situation is even worse because the laptops in question were stored in a conference room while the facilities team finished readying the office for the move. During that time, anyone who had access to the conference room could go in and get multiple user account credentials.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And that&#x27;s exactly what happened: A contractor entered the conference room and took pictures of the sticky notes. This non-employee later logged in remotely and accessed all kinds of proprietary data, including planning documents that were sitting on shared drives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What’s particularly shocking about this story is that the IT department was the cause of the information leak. People who work in tech and are charged with maintaining security should never put a password, even a temporary password, out in the open.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Password security is paramount. If someone is starting with a new account, send the credentials through an encrypted channel - and preferably ensure only the intended recipient can view the temporary password. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Windows 10 LTSC 2021 has five months before security updates cost extra </title>
+<link>https://www.theregister.com/os-platforms/2026/08/06/windows-10-ltsc-2021-has-five-months-before-security-updates-cost-extra/5283904</link>
+<pubDate>Thu, 06 Aug 2026 11:03:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Microsoft has dropped a reminder that Windows 10 LTSC 2021 will wheeze its last breath soon, and enterprises need to plan for the event.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While free support for most editions of Windows 10 ended last year, Windows 10 Enterprise LTSC 2021 is still receiving updates. That
+  &lt;a href=&quot;https://techcommunity.microsoft.com/blog/windows-itpro-blog/plan-for-windows-10-enterprise-ltsc-2021-end-of-support/4539866&quot;&gt;
+   support will end
+  &lt;/a&gt;
+  on January 12, 2027, with a final security update.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The good news is that administrators can keep the security updates flowing via the Extended Security Updates (ESU) program. The bad news is the price: $61 per device for Year 1, doubling in each subsequent year until the three-year program ends on January 8, 2030. ESU sales begin on September 1, 2026, and licenses are cumulative, so an organization joining in Year 2 must also pay for Year 1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ESU offer doesn&#x27;t apply to Windows 10 IoT Enterprise LTSC, which remains in support until January 13, 2032.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Organizations using a Microsoft cloud-based update service such as Intune or Autopatch can score a 25 percent discount, bringing the Year 1 price down to $45 per device. Everyone else pays full price through Volume Licensing or a Microsoft Cloud Solution Provider.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Windows 10 has become the cockroach of IT over the last year. Free support for many versions ended in 2025, but despite Microsoft&#x27;s attempts to stamp it out, it still accounts for just under 30 percent of the market, according to
+  &lt;a href=&quot;https://gs.statcounter.com/os-version-market-share/windows/desktop/worldwide&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Statcounter&#x27;s sample
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In July, asset tracking service Lansweeper
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/07/16/windows-10-refuses-to-die-and-the-security-bill-is-coming-due/5271987&quot; target=&quot;_blank&quot;&gt;
+   reported
+  &lt;/a&gt;
+  that 16.9 percent of the devices it monitored were running Windows 10 and that migration had slowed to a crawl. Those who could make the jump to Windows 11 had, and those who couldn&#x27;t (or didn&#x27;t want to) remained on the older operating system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are multiple reasons for the refuseniks. Some specialist applications or hardware setups, including those used in healthcare, won&#x27;t work with Windows 11. Then there are Windows 11&#x27;s hardware requirements, which ruled out devices otherwise capable of running the operating system. Microsoft recently said it would
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/08/03/microsoft-says-8-gb-of-ram-should-be-enough-for-anyone-running-windows-11/5282153&quot;&gt;
+   optimize the code for systems with 8 GB of RAM
+  &lt;/a&gt;
+  , but that does nothing for machines excluded by its processor and TPM compatibility rules.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Windows 10 Enterprise LTSC 2021 bought organizations a few more years of updates without an ESU bill. That reprieve ends on January 12, 2027. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Meta latest to tell world its AI agent wandered out of test pen </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947</link>
+<pubDate>Thu, 06 Aug 2026 10:24:04 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  If AI companies are collecting badges for &quot;our model escaped the test environment,&quot; Meta just earned one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Facebook parent company has confirmed that one of its AI models exploited a vulnerability in another organization&#x27;s systems during a security evaluation, making it the third major AI developer in less than two weeks to disclose an agent wandering beyond its intended sandbox.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The incident happened during testing carried out by AI security firm Irregular. Meta told
+  &lt;a href=&quot;https://www.bbc.co.uk/news/articles/cx2kgdnyk2po&quot;&gt;
+   the BBC
+  &lt;/a&gt;
+  that it reached the internet because of a &quot;misconfiguration&quot; in the evaluation environment, rather than a flaw in the model itself. The company said it&#x27;s investigating and plans to publish more details once it has figured out exactly what happened.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The admission comes as Meta rolls out
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/&quot; target=&quot;_blank&quot;&gt;
+   Muse Code
+  &lt;/a&gt;
+  , its terminal-based coding agent, and arrives just days after
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/27/openais-hugging-face-debacle-makes-a-great-case-for-open-models/5278498&quot; target=&quot;_blank&quot;&gt;
+   OpenAI
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562&quot; target=&quot;_blank&quot;&gt;
+   Anthropic
+  &lt;/a&gt;
+  disclosed similar testing mishaps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI kicked things off by revealing that its agents compromised Hugging Face and other external systems during internal security testing. Anthropic then disclosed that Claude had reached three outside organizations after a configuration error exposed internet access that should not have been available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meta isn&#x27;t breaking much new ground with its explanation either. Like Anthropic before it, the company says the incident came down to a &quot;misconfiguration&quot; in the evaluation environment. Irregular, the AI security firm that tested both companies&#x27; models, told the BBC that Meta&#x27;s incident was &quot;the exact same evaluation-environment issue&quot; Anthropic disclosed last week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  None of the incidents involved consumer-facing AI suddenly going rogue. All occurred during security testing in which the models had access to offensive tools and command-line environments. Misconfigurations exposed the open internet in the Meta and Anthropic evaluations, while OpenAI&#x27;s agents exploited their way through the test infrastructure until they found an internet-connected system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That hasn&#x27;t prevented questions about both how frontier AI is being tested and why so many of these disclosures are arriving at once.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ilia Kolochenko, CEO of ImmuniWeb, said at least some of the incidents appear to be &quot;part of a well-orchestrated marketing campaign&quot; and argued that the reported &quot;escapes&quot; were simply the result of poorly isolated test environments rather than models independently breaking out of their sandboxes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Illumio&#x27;s principal solution architect for EMEA, Alex Goller, also raised an eyebrow at the timing, telling
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  it &quot;means it&#x27;s a stunt or [Meta] wasn&#x27;t paying enough attention during testing.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If the model has internet access, it&#x27;s a bit like leaving the door open and being surprised when the cat walks out,” Goller added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jake Moore, global cybersecurity advisor at ESET, was equally skeptical of Meta&#x27;s disclosure, suggesting the company may have been trying to capitalize on the attention generated by similar incidents involving rival firms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;At best, this announcement feels like Meta trying to hitch its wagon to OpenAI&#x27;s star after the Hugging Face incident,&quot; he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . &quot;At worst, it shows that none of the frontier AI firms or their partners have got a handle on their most powerful models, so every test puts organizations at risk.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meta, for its part, isn&#x27;t saying much more yet. It has yet to identify the model involved, explain what was misconfigured, disclose which organization&#x27;s systems were reached, or say whether any data was accessed. The company did not respond to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register&#x27;s
+  &lt;/span&gt;
+  questions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, the only thing spreading faster than AI agents appears to be stories about them escaping the lab. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> News Corp labels some AI companies &#x27;crass kleptomaniacs&#x27; </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/06/news-corp-labels-some-ai-companies-crass-kleptomaniacs/5283848</link>
+<pubDate>Thu, 06 Aug 2026 09:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Rupert Murdoch&#x27;s News Corporation appears to have let its most acerbic writers loose on its latest results announcement, in which certain AI companies are branded &quot;crass kleptomaniacs.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO Robert Thomson used his prepared remarks to point out that if it weren&#x27;t for all the quality content from News Corp, &quot;users would be drowning in a slimy sea of AI slop.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have trusted content relationships with OpenAI and Meta, and are in advanced discussions with several other companies,&quot; he added, before issuing a warning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Under our woo and sue approach, we are taking aggressive action against those who pilfer and profit from our work. We will pursue those pilferers, and companies that are clients of these crass kleptomaniacs should know they are patently in possession of stolen goods.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thomson was just getting warmed up.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He accused browser maker Brave, which he described as &quot;a company brave in name only,&quot; of having &quot;shamelessly stolen our content at scale&quot; and of having &quot;illegally, gormlessly sourced and repurposed copyrighted material for sale to third-party businesses.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Their scheming started with masked web crawlers scanning our pages to ingest copyrighted articles and continued when they repackaged those stolen files and delivered near verbatim copies to enterprise customers, undermining legitimate content commerce and the very concept of creativity.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CEO suggested the legal blast radius of such actions could be wide.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We expect our lawsuits to highlight and halt the murky, illegal behavior of AI companies who steal and flagrantly fence our precious IP,&quot; he said. &quot;Unfortunately, some of the world&#x27;s better-known companies are clients of these crass kleptomaniacs.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He had kinder adjectives for companies that pay for News Corp&#x27;s content, describing them as &quot;principled&quot; and &quot;honorable.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CEO said the company has &quot;more deals to come, and hopefully not too much litigation,&quot; and hailed Meta and OpenAI for setting &quot;benchmarks that other principled companies should follow.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  News Corp is not alone in accusing AI companies of taking its work:
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/04/29/databricks-fails-to-shake-authors-copyright-claim/5224253&quot;&gt;
+   authors
+  &lt;/a&gt;
+  have filed several lawsuits alleging that their books were used to train LLMs without permission or compensation. Anthropic
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2025/09/08/anthropic-coughs-15-bn-to-authors-whose-work-it-stole/1442543&quot;&gt;
+   agreed to establish a $1.5 billion settlement fund
+  &lt;/a&gt;
+  to resolve one such case.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During the question-and-answer section of the earnings call, Thomson praised the company&#x27;s realtor.com property site for &quot;building proprietary IP that no AI engine can legally scrape.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;No buyer or seller or agent wants housing hallucinations,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nor does News Corp. Its Digital Real Estate Services segment was its fastest-growing business, with annual revenue jumping 12 percent to $1.8 billion. Across News Corp as a whole, full-year revenue reached $9.03 billion, up 7 percent. The company didn&#x27;t break out revenue from OpenAI and Meta, but Thomson said News Corp&#x27;s deals with them &quot;are not merely transactional arrangements.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;They are savvy distributors. Our inputs are crucial components of their outputs. As for litigation, it&#x27;s far from over,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The old advice was never to argue with people who buy ink by the barrel. Legacy media may have lost some of its clout, but Thomson&#x27;s remarks suggest News Corp has lost none of its appetite for a fight. The company also has form when campaigning against perceived foes and critics: a recent
+  &lt;a href=&quot;https://publishing.hardiegrant.com/en-au/books/getting-murdoched-by-andrew-dodd/9781761450761&quot;&gt;
+   book
+  &lt;/a&gt;
+  attempts to distill its methods. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Azure CTO pastes Doom into Paint one frame at a time </title>
+<link>https://www.theregister.com/offbeat/2026/08/06/azure-cto-pastes-doom-into-paint-one-frame-at-a-time/5283559</link>
+<pubDate>Thu, 06 Aug 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Microsoft Azure CTO Mark Russinovich has taken a break from the cloud to turn Paint into a monitor for Doom, using the Windows clipboard as plumbing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dubbed &quot;MS Paint Doom&quot; or &quot;DoomPaint&quot; – either will work – the
+  &lt;a href=&quot;https://github.com/markrussinovich/DoomPaint&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   project
+  &lt;/a&gt;
+  is the product of a spare-time experiment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To be clear, Microsoft Paint isn&#x27;t doing anything other than serving as a place to paste from the game. As Russinovich observed: &quot;Paint renders the game but does not compute it. Paint computes nothing. Paint has never computed anything. That&#x27;s the joke.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The result is as enjoyable as it is pointless. Doom still runs in the background and, on the PC we tried, the framerate was hardly fluid. The important thing was that it worked. There was even sound.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://github.com/Farama-Foundation/ViZDoom&quot;&gt;
+   ViZDoom
+  &lt;/a&gt;
+  runs the Doom
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   .wad
+  &lt;/span&gt;
+  file and renders it headlessly. Each frame is passed through the Windows clipboard and pasted onto Paint&#x27;s canvas. A low-level keyboard hook captures and swallows game inputs while Paint is in the foreground, and sound effects come from the game engine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A glance at the code shows Russinovich was more than happy to use Claude to whip it up.
+  &lt;a href=&quot;https://www.linkedin.com/posts/markrussinovich_ive-been-using-fable-5-on-serious-research-activity-7484334984892178432-9_Z8&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   In a LinkedIn post
+  &lt;/a&gt;
+  , he said: &quot;I&#x27;ve been using Fable 5 on serious research projects and find it a noticeable improvement over Opus 4.8.&quot; Using Microsoft Paint as a display for Doom is not, however, a serious research project, as Russinovich acknowledged. &quot;I&#x27;ve also been having fun with it on frivolous ones,&quot; he added, so here we are.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Russinovich noted that this was not Paint&#x27;s first appearance in the world of &quot;Can it run Doom?&quot; However, earlier efforts rendered the game in a separate display and mirrored it into Paint. His version sends every frame through the Windows clipboard as a Device Independent Bitmap (DIB) and onto the canvas.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vibe-coding and the &quot;Can it run Doom?&quot; challenge were bound to meet. In 2025, Claude assisted an effort to use KiCad PCB design software to
+  &lt;a href=&quot;https://www.theregister.com/software/2025/11/26/doom-hits-kicad-as-pcb-traces-become-demons-and-doors/2864844&quot;&gt;
+   render Doom in vectors
+  &lt;/a&gt;
+  . Now Russinovich has enlisted it to turn Paint into a display.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Azure may present its CTO with more pressing matters, but few will be as gloriously silly. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPE extends validity of quoted hardware prices, possibly for months </title>
+<link>https://www.theregister.com/systems/2026/08/06/hpe-extends-validity-of-quoted-hardware-prices-possibly-for-months/5283817</link>
+<pubDate>Thu, 06 Aug 2026 05:59:47 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Hewlett Packard Enterprise has changed its pricing policy and will now honour quoted hardware prices from the day of issue until the kit leaves its factories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new policy came into effect on Wednesday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The back story to this change is the AI boom, which has seen demand for servers, memory, and storage skyrocket, and the prices for critical components rise steadily while also fluctuating from day to day. That chaotic situation saw HPE and other enterprise hardware players change policies so that the price in their quotes was only valid for 14 days. Cisco’s terms were sometimes set at seven days.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s obviously difficult for buyers, who often seek a quote for hardware while they are building a business case for a new project. Big price changes could make those projects infeasible.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet short-lived quotes also make sense for vendors, who could otherwise give buyers prices that they could only deliver at a loss.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In June, HPE extended the life of its quotes from 14 to 30 days.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yesterday, the company changed the policy so that quotes that customers agree to remain valid until HPE ships products – at least for purchases of up to $1 million for its own Compute, Storage and GreenLake Flex deals. CRN was first to
+  &lt;a href=&quot;https://www.crn.com.au/news-network/networking/2026/exclusive-hpe-guarantees-deal-quotes-below-1m-amid-rising-m&quot;&gt;
+   report
+  &lt;/a&gt;
+  the change, which
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  has verified.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE says it gives “customers and partners greater pricing certainty and will offer greater simplicity and predictability” – and perhaps for months, because lead times for servers sometimes stretch that far into the future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company hasn’t said what has changed to allow it to revise its policies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Recent news suggests one possible factor: Memory-makers
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/06/25/micron-locks-in-historically-high-memory-prices-for-five-years/5261854&quot; target=&quot;_blank&quot;&gt;
+   Micron
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/07/29/big-tech-demanding-deals-that-smooth-out-memory-prices-says-sk-hynix/5280182&quot; target=&quot;_blank&quot;&gt;
+   SK Hynix
+  &lt;/a&gt;
+  have struck numerous long-term deals that set long-term prices for their customers. If HPE has such deals in place, it now has greater certainty of its own costs, allowing it to extend the validity of its quotes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While longer-lived quotes are good news for buyers, they still face inflated prices for hardware. Analyst firm TrendForce recently
+  &lt;a href=&quot;https://www.trendforce.com/presscenter/news/20260709-13140.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   predicted
+  &lt;/a&gt;
+  server memory prices will rise between 13 and 18 percent in calendar Q3, and ongoing tight supply. Rival firm Gartner this week found contract DRAM prices “surged” 90 percent to 95 percent quarter over quarter in the first half of 2026, while NAND flash contract prices rose between 55 and 60 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gartner also predicted DRAM prices will increase 271 percent, year over year, during 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So while HPE will hold its prices, its quotes may still be eye-poppers if you haven&#x27;t shopped for hardware lately. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Chinese router vendor denies its firmware contains backdoors – but pauses downloads to fix security issues anyway </title>
+<link>https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794</link>
+<pubDate>Thu, 06 Aug 2026 04:57:43 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Chinese Wi-Fi router vendor Zbtlink has denied its products contain backdoors but paused firmware downloads while it fixes unspecified security vulnerabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The backdoor accusation came from VulnCheck, a provider of a threat intelligence platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VulnCheck chief technology officer Jacob Baines
+  &lt;a href=&quot;https://www.vulncheck.com/blog/zbt-endlessdoors&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   posted
+  &lt;/a&gt;
+  the backdoor allegation on Wednesday and said the Zbtlink device on his desk “continuously attempts to reach a command and control server on the internet.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Zbtlink routers phone home, waiting for orders. Not because they were hacked. Because they were shipped that way.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Baines named the backdoor “ENDLESSDOORS” and says it’s “a small tool called rctl (remote control linux). Uploaded to
+  &lt;a href=&quot;https://github.com/ycsunjane/rctl&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   GitHub
+  &lt;/a&gt;
+  on January 14, 2015 and never touched again, this obscure repository implements a simple command and control client and server. The server listens on port 7000 for clients to connect. It can send the client individual shell commands or tell the client to spawn a reverse bash shell.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CTO says he spotted the alleged backdoor running in dedicated Linux kernel threads. “They are ordinary userland processes running as root, with real memory footprints, named to disappear into a crowd of legitimate ones,” he wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “They are an implant, a phone-home trojan horse.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There is no handshake, no key exchange, no negotiation,” Baines added. “When the implant reaches a server, it sends a fixed 39-byte hello: a 33-byte class label padded with nulls, then its LAN MAC address. That&#x27;s the whole registration. There is no client or server verification.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Anyone along the network path can hijack the client/server communication,” the CTO wrote, adding that anyone who controls one of the endpoints the software targets – rbdg4nzqadui[.]wikaba[.]com – “can control any ENDLESSDOORS implant that tries to phone home.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  asked Zbtlink to comment and a spokesperson told us VulnCheck has mischaracterized the code it found.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This feature is solely intended for after‑sales maintenance and serves no other purposes,” the company rep told
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  . “It is generally retained only on sample units to assist customers with software debugging and will not be included in mass‑production shipments.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That explanation didn’t seem entirely credible once
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  visited Zbtlink’s download page to check Baines’ claim that the firmware for over 20 router models contains the backdoor, because the page contained the following text:
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoCondensed&quot;&gt;
+   &lt;strong&gt;
+    Update on Router Firmware Security Remediation
+   &lt;/strong&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoCondensed&quot;&gt;
+   We have detected firmware security vulnerabilities affecting selected router firmware releases.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoCondensed&quot;&gt;
+   As a precautionary measure, the impacted firmware versions have been temporarily taken down from download channels.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoCondensed&quot;&gt;
+   Our engineering team is working intensively to develop and validate secured patched firmware.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Wayback Machine’s most recent snapshot of the page, taken on July 31, contains no such admission and a long list of firmware downloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Zbtlink has therefore told
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  it has no security problems, even as it publicly acknowledges that it does.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ”The Zbtlink spokesperson also told us the company “specializes in OEM and ODM customization services. Our customers use their own self-developed software instead of ZBT’s default firmware.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would not be hard to develop custom code as the OpenWrt open-source router firmware project supports at least one Zbtlink product. Indeed, the company has previously
+  &lt;a href=&quot;https://www.zbtlink.com/blogs/news/zbt-introduces-aesthetic-wi-fi-6-openwrt-router-for-home-use&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   promoted
+  &lt;/a&gt;
+  its use of OpenWrt and options that allow clients to
+  &lt;a href=&quot;https://www.zbtlink.com/blogs/news/build-your-openwrt-firmware-in-30-minutes-a-factory-plan&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   quickly create custom firmware packages
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  VulnCheck says the devices it tested phone home to just four endpoints, only one of which uses a domain name connected to Zbtlink. Baines labelled that connection “damning.” The Register notes that as router firmware could be a tasty target for perpetrators of a supply chain attack.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  No prior disclosure
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Baines decided the situation was so serious that the conventions of responsible coordinated disclosure were not applicable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Coordinated disclosure exists to give a vendor time to fix a defect,” he wrote. “It assumes the vendor did not intend the behavior.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “That assumption doesn&#x27;t hold here. This isn&#x27;t a memory corruption bug in a parser. It&#x27;s a component in the vendor’s product, started at boot by the vendor&#x27;s own init script, shipped across twenty models and years of images. There is no patch to coordinate. Telling the shipper that they shipped it buys the owners of these devices nothing, and buys whoever operates that infrastructure a warning.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  VulnCheck says Zbtlink kit is sold under that brand, or as ZBT, ZBTWiFi and Wiflyer, and found them for sale on Amazon, Alibaba, and Shopify. Given Zbtlink’s admission it allows its customers to customize its hardware, countless other devices could be at risk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Baines’ post includes rules to block access to the endpoints the routers contact, for Suricata, Snort, and YARA, plus advice on how to detect possibly infected machines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He also advises users “to replace the device, or at minimum move it behind strict egress control and treat its LAN as untrusted.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Proxmox ports itself to Arm with help from Nvidia and Supermicro </title>
+<link>https://www.theregister.com/virtualization/2026/08/06/proxmox-ports-itself-to-arm-with-help-from-nvidia-and-supermicro/5283770</link>
+<pubDate>Thu, 06 Aug 2026 03:45:29 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Proxmox Server Solutions, the company behind the open source Proxmox virtualization stack, has announced a port of its flagship Virtual Environment to the Arm CPU architecture – and a collaboration with Nvidia and Supermicro that made it happen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The outfit’s
+  &lt;a href=&quot;https://forum.proxmox.com/threads/proxmox-virtual-environment-now-available-for-64-bit-arm-arm64.185527/&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  states that it can now run on 64-bit ARM (arm64/aarch64), but the only fully supported platforms are Nvidia’s Grace Hopper and Vera. Proxmox will also provide “best-effort support” for other UEFI-based ARMv9-A or newer hardware, and says ARMv8-A “generally works as well”.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you fancy trying it on a single-board Arm machine like the Raspberry Pi, you’re out of luck because Proxmox’s stack won’t work on such boxes. You may, however, soon be able to run Proxmox on other Arm servers because the company says it is also “working together with further enterprise server vendors on their ARM efforts and hope to expand the list of officially supported hardware platforms in the future.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Proxmox’s press release
+  &lt;a href=&quot;https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-launches-official-arm64-support&quot;&gt;
+   says
+  &lt;/a&gt;
+  the release is the product of a “technical collaboration with NVIDIA and Supermicro” and revealed the software “is already operating across select enterprise production environments.” The company said it aimed the release at “organizations building modern and energy-efficient data centers.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Technical collaborations don’t come from nowhere: Vendors get them going when they see customer demand. This release therefore suggests Nvidia and Supermicro customers want to virtualize their AI infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia has a long partnership with VMware, the server virtualization market leader in terms of revenue and technical chops. Last year, the Broadcom business unit told
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  its customers are in
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/08/26/vmware-porting-cloud-foundation-to-arm-in-baby-steps/1248616&quot;&gt;
+   no rush
+  &lt;/a&gt;
+  to adopt Arm servers in their datacenters or in hybrid clouds that work across x86 servers and Arm-based cloud instances. VMware does, however, think the prevalence of Arm-powered machines on the network edge, where they are increasingly used to run AI workloads, has caught the eye of some customers. It is therefore
+  &lt;a href=&quot;https://www.theregister.com/virtualization/2026/05/19/vmware-quietly-debuts-arm-hypervisor-tech-preview/5242293&quot;&gt;
+   moving slowly
+  &lt;/a&gt;
+  to port its products to Arm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia, Supermicro, and Proxmox are clearly hearing and/or responding to different voices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Analyst firm IDC recently found
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/06/16/non-x86-servers-now-nearly-half-the-market-idc-says/5256248&quot;&gt;
+   non-x86 servers account for almost half of all spending
+  &lt;/a&gt;
+  , but very few enterprise server vendors make Arm-based servers. HPE and Supermicro are the most prominent dabblers, but there’s little evidence either company has won significant sales.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Arm surge instead comes from hyperscale clouds like AWS, Microsoft, and Google – all of which have created their own CPUs based on the architecture.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Proxmox is not alone in supporting server virtualization on Arm. Chinese virtualization player Sangfor is there already, as is SUSE. The open-source Xen and KVM hypervisors also support the platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Arm-compliant version of Proxmox’s Virtual Environment is version 9.2.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company says the release “shares the code base, package repositories, and release lifecycle with its x86-64 counterpart.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That means it is built on Debian 13.5 &quot;Trixie&quot; and version 7.0 of the Linux kernel. It also includes QEMU 11.0, LXC 7.0, and ZFS 2.4. “Configuration, tooling, and documentation are identical to x86-64, except for a small set of architecture-specific differences,” Proxmox says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The product is FOSS so you can download it
+  &lt;a href=&quot;https://www.proxmox.com/en/downloads&quot;&gt;
+   here
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI reveals its rogue agent swarm went a little bit Borg ahead of Hugging Face hack </title>
+<link>https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741</link>
+<pubDate>Thu, 06 Aug 2026 01:47:19 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  The chain of events leading up to OpenAI’s agents attacking Hugging Face and other organizations in July began months earlier, and involved agents asking other agents for help, building message boards, and even becoming paranoid that other agents were maliciously trying to trick them, two OpenAI staffers said at the Black Hat infosec conference on Wednesday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By now, everyone knows the bones of this story:
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/22/openai-admits-it-was-the-source-of-the-agent-swarm-that-attacked-hugging-face/5275939&quot; target=&quot;_blank&quot;&gt;
+   OpenAI models broke out
+  &lt;/a&gt;
+  of their testing sandbox, exploited zero-day vulnerabilities to gain access to the open internet, and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/07/20/frontier-llms-couldnt-help-hugging-face-fight-off-evil-agents/5275168&quot; target=&quot;_blank&quot;&gt;
+   broke into Hugging Face
+  &lt;/a&gt;
+  and other organizations during an ExploitGym security evaluation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In their Wednesday talk, OpenAI technical staffer Michael Dalton and researcher Eric Wallace provided new details about the security incident including notes that AI agents uploaded to an internal package manager, which were then shared across OpenAI’s infrastructure. These notes show the “model’s chain of thought…its internal monologue,”  Wallace said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The duo also revealed that groundwork for the rogue agents hacking into outside services began on May 7, when OpenAI kicked off a training run for an experimental, internal model that has not yet been released.  “What we didn&#x27;t realize during this process is that there was actually a few impossible or very hard tasks in the training center,” Wallace said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The tasks instructed the model to complete missing formulas in an Excel workbook that used links to Google Drive. Yet OpenAI blocked the model’s internet access so it couldn&#x27;t reach the cloudy spreadsheets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It realized, ‘I&#x27;m kind of stuck on the task,’ but it didn&#x27;t give up, and we gave it a lot of tokens to work with,” Wallace said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model eventually decided to
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/28/jfrogs-0-days-let-openais-models-hack-hugging-face/5280001&quot; target=&quot;_blank&quot;&gt;
+   attack JFrog’s Artifactory service
+  &lt;/a&gt;
+  to gain access to the internet, first attempting (unsuccessfully) to launch a server-side forgery request. This exploit doesn’t work, but in the process the model learned it could upload files to Artifactory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A few days later, OpenAI gave another agent another impossible task, this time finding a protein database file - but the engineers forgot to upload the file into a container for the agent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “At some point, it gets so stuck and thinks: ‘Maybe I could reach out to another agent because maybe somebody else out there has a file?’ And then the model realizes that it could communicate by uploading code,” Wallace said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model did that by writing a file into Artifactory asking for help.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the next couple of days, other agents realize this message board exists on Artifactory and they also start uploading files and sharing information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A few days later is when our models found the first actual exploit in our system related to this incident, where they&#x27;re able to get internet access in ways they didn&#x27;t intend,” Wallace said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This happened on May 26, when the agents successfully launched a server-side request forgery attack against Artifactory, giving them internet access with specially crafted requests.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On June 11, OpenAI began training a “highly persistent” experimental model, intended only for internal use, Dalton said. “During this time, the SSRF vulnerability has been written to the messaging board,” he added. “Other models are aware of it, and the message board is still functioning. Models are actively communicating with it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  On June 26, the agents exploited a zero-day vulnerability leading to remote code execution in Artifactory. The same day, models achieved remote code execution in Artifactory through a previously unknown vulnerability. “You could use a legacy token refresh endpoint, pass a token with an invalid signature, and be given back a token with a valid signature with administrative privileges,” Dalton explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agents then used the admin token to establish command-and-control via a Groovy plugin that functioned as a command-execution service.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This in turn causes quite a bit of activity by the models on Artifactory - you can see some colorful wording here in the model&#x27;s chain of thought to summarize the model&#x27;s response to this result,” Dalton said, pointing to a slide that shows the model’s own words:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   Holy shit reader is ADMIN?
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   We can read config/users!
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   Earlier assume not due to UI.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agents’ activity overloaded Artifactory and caused an outage, which is when OpenAI’s engineers stepped in and opened a formal security incident and response process. “We identified the agents had taken over the internal Artifactory, identified that a zero-day vulnerability had been found exploited by the agent in Artifactory itself, and we began remediation.” Dalton said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI revoked the credentials that the agents used to post messages, rebuilt its hosted Artifactory, and notified the vendor about the vulnerabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Two days later, on July 8, the agents reestablished the message board using an unauthenticated web data endpoint in Artifactory to create directories and develop communication protocols. “The directory names effectively serve as a message board between the agents in the same way the files used to.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agents communicated through very long directory names that contained the messages such as “remote…probe_PENDING_HOLD_SWARM_until_confirm.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agents collaborated with each other so one agent could pick up the work where another left off. In one instance, the model reasoned: “Help peer. But our task doesn&#x27;t benefit. Yet collective may yield generic route if someone frees time.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anyone else getting &quot;We are the Borg. We will add your biological and technological distinctiveness to our own&quot; vibes there?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Wallace said the models behaved like humans in that they stepped on each other&#x27;s toes when one overwrote another’s repository.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Whoa, critical! Did someone overwrite our repo? We must act,” it reasoned.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “You can clearly see some sort of verbalized tension between the different models as they run this evaluation,” Wallace noted. “At some point, even the agents are convinced there&#x27;s an impostor amongst them,” reasoning that there could be another agent maliciously spoofing on the message board. “Share board unauthenticated, names can be posed by anyone,” it reasoned.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We know the rest of the story.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hugging Face disclosed an autonomous attack by AI agents. OpenAI reached out to Hugging Face to determine if it had been affected and then realized its models were the hackers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “One of the reasons we wanted to have this talk is to share our lessons learned with you as defenders,” Dalton said. “We believe this is a watershed moment for computer security as an industry. AI orchestrated, fully automated offensive attacks are real now, and the actions we have discussed today were an unintended side effect of running evaluations on frontier AI. In the near future, we should expect that threat actors will intentionally deploy, optimize, weaponize, and use offensive agent collectives in the manner that you have just described here.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The challenge to defenders, he added, is to similarly accelerate defense, and find ways to automate incident response along with vulnerability detection and patching.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Meta wants to get inside your terminal with its new coding agent </title>
+<link>https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/5283717</link>
+<pubDate>Thu, 06 Aug 2026 01:05:46 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  To demonstrate the capabilities of its next-generation Muse Spark model, Meta has released a terminal coding agent called Muse Code that it thinks can help developers to tidy up their software projects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meta
+  &lt;a href=&quot;https://x.com/jack_w_rae/status/2085084499742794145&quot;&gt;
+   co-trained
+  &lt;/a&gt;
+  Muse Code on version 1.2 of its Muse Spark model, also released this week and now apparently boasting improved code generation smarts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Developers can think of this beta release as the equivalent to OpenAI Codex or Anthropic’s Claude Code, two other LLM-based service offerings tweaked for the modern coder. Meta designed its new agent to be handy at planning changes to a codebase, writing the code and validating the results.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Currently, Meta has Muse Spark locked away as a proprietary, closed-weight model hosted in the cloud, an approach its rivals also embrace but which departs from the open-weight approach Meta previously implemented with its Llama models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But Meta CEO Mark Zuckerberg did not rule out opening up Muse Spark in the future. “I&#x27;ll have more to share on that soon,” he
+  &lt;a href=&quot;https://x.com/finkd/status/2085101781428695391&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   replied
+  &lt;/a&gt;
+  to a question posed on X about Muse Spark being open source.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  An agent orchestrator
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Muse Code is best described as an agent orchestrator that runs on your command line.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Zuck
+  &lt;a href=&quot;https://x.com/finkd/status/2085080750034940201&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://x.com/finkd/status/2085080750034940201&quot; rel=&quot;nofollow&quot;&gt;
+   noted
+  &lt;/a&gt;
+  in a series of X messages, when a developer starts a task, Muse Code fires up background agents to maintain a context file that other sub-agents doing the work can consult should they lose their way. The tool logs every action before execution, so no work is lost. Multiple agents can work in parallel on the task using their own isolated work trees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Your working copy is never touched,” Zuck wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In one test, the agent platform simultaneously built six features for a single game, with no collisions among the agents, Zuckerberg enthused.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “TBH it&#x27;s a good harness,”
+  &lt;a href=&quot;https://x.com/ren_hongyu/status/2085086167033360517&quot; rel=&quot;nofollow&quot;&gt;
+   boasted
+  &lt;/a&gt;
+  Hongyu Ren, a researcher for Meta’s Superintelligence Labs, on X.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Remedial coding
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Muse Code relies on Meta’s Muse Spark Large Language Model (not to be confused with the Apache Spark big data cruncher).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Muse Spark 1.2 is the third release in four months from Meta Superintelligence Labs, a unit that Meta stood up in June 2025 to reinvigorate the company’s AI efforts and pursue creation of a personalized AI “superintelligence” that
+  &lt;a href=&quot;https://ai.meta.com/blog/introducing-muse-spark-msl/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   focuses
+  &lt;/a&gt;
+  on deep reasoning and long-horizon planning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first model from this group, Muse Spark, is a multi-modal model able to digest and reason against text, images, video, audio, and even PDFs. It supports agents in long-running tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the first release of the model in April, Meta boffins admitted in the announcement that they needed to work more on Spark’s coding abilities. The new 1.2 release addressed that deficiency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In another test, Muse Spark, running on Nvidia Hopper GPUs, tackled a kernel optimization task. Its agents made over 1,000 tool calls over a 24-hour period.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It kept finding substantial improvements well beyond the initial exploration phase,” Zuckerberg wrote.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Understand the mission
+ &lt;/h3&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In his X missives, Zuckerberg included a
+  &lt;a href=&quot;https://x.com/finkd/status/2085080750034940201/photo/1&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://x.com/finkd/status/2085080750034940201/photo/1&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   somewhat vague chart
+  &lt;/a&gt;
+  comparing the performance of Muse Spark against other commercial models, using two industry benchmarks –
+  &lt;a href=&quot;https://www.tbench.ai/news/terminal-bench-2-1&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Terminal-Bench 2.1
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://deepswe.datacurve.ai/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   DeepSWE 1.1
+  &lt;/a&gt;
+  – that evaluate how autonomous agents act like software engineers, as well as a Meta Internal Coding bench too.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The benchmarks all showed Muse Spark to be close to the best, but never the very best, at understanding the assigned engineering task and executing it with as little mission creep as possible. Muse Spark performed honorably compared to Opus 5, GPT5.6 Terra, Grok 4.5 and Gemini 3.6. The scores are tightly clustered, so they all did well (except occasionally Gemini, the current laggard du jour).
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, Muse Spark is competitive anyway, though one eagle-eyed commenter
+  &lt;a href=&quot;https://x.com/davedushi/status/2085097848199143455&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   wondered
+  &lt;/a&gt;
+  why OpenAI’s midline GPT5.6 Terra was used, instead of the top-tier GPT5.6 Sol.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Installing the agent within your command line
+  &lt;a href=&quot;https://x.com/TianheYu/status/2085085619823558718&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   is possible
+  &lt;/a&gt;
+  through a
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   curl
+  &lt;/span&gt;
+  command. Poly-model enthusiasts can also tap into Muse Spark
+  &lt;a href=&quot;https://openrouter.ai/meta/muse-spark-1.2#providers&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://openrouter.ai/meta/muse-spark-1.2#providers&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   via OpenRouter
+  &lt;/a&gt;
+  , or through its API.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Muse Spark’s actual intelligence
+  &lt;a href=&quot;https://cloudprice.net/models/meta-muse-spark&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   is metered
+  &lt;/a&gt;
+  at US$1.25 per million input tokens and US$4.25 per million output tokens. Discounts are available and the service offers a respectable 1 million token context window. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
