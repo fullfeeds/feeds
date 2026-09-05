@@ -1,0 +1,3401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 05 Sep 2026 22:04:11 -0000</lastBuildDate>
+<item>
+<title> JavaScript installer pnpm recast in Rust because ECMAScript can&#x27;t keep up </title>
+<link>https://www.theregister.com/development/2026/09/05/javascript-installer-pnpm-recast-in-rust-because-ecmascript-cant-keep-up/5294488</link>
+<pubDate>Sat, 05 Sep 2026 13:44:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;1d24771b-f8e2-4b5e-8f10-78fbd30c7436&quot;&gt;
+ &lt;p&gt;
+  The popular JavaScript package manager
+  &lt;a href=&quot;https://pnpm.io/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   pnpm
+  &lt;/a&gt;
+  , already known for its speedy downloads, has further cut installation times by up to 90 percent thanks to a complete rewrite in Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet the freshly released version 12 of pnpm should not cause consternation while upgrading, its maintainer says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Upgrading should not feel like a migration. The commands, flags, settings, and lockfile format of pnpm 11 all carry over, and the documentation covers both versions,”
+  &lt;a href=&quot;https://pnpm.io/blog/releases/12.0&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   wrote
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/zkochan&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Zoltan Kochan
+  &lt;/a&gt;
+  , the current lead maintainer of pnpm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the project’s
+  &lt;a href=&quot;https://pnpm.io/benchmarks&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   own benchmarks
+  &lt;/a&gt;
+  , pnpm 12 installed a sample uncached package in 5.19 seconds, compared to the 8.22 seconds pnpm 11 required and the 47.7 seconds npm itself required.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project team also built a registry server in Rust, called
+  &lt;a href=&quot;https://pnpm.io/pnpr/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   pnpr
+  &lt;/a&gt;
+  , which improves performance even further. In the above test, the installation took only 3.37 seconds with pnpr on the backend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A new Rust core binary, on which work started in April, eliminates a lot of the overhead that comes from routing filesystem work through Node.js. This new version is 65.9 percent Rust and 33.5 percent TypeScript, according to the GitHub stats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Package installation is dominated by fetching metadata and tarballs, unpacking files, resolving dependency graphs, and linking packages into node_modules, making it a natural target for native code and parallelism,” wrote Sarah Gooding, vice president of communications for security provider Socket,
+  &lt;a href=&quot;https://socket.dev/blog/pnpm-12&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   in a blog post
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gooding also noted that the project benchmarked pnpm against Bun and Yarn, but the results were removed due to testing SNAFUs. Nonetheless, she noted the software cut install times by up to 90 percent in some cases.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A faster npm
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Developer
+  &lt;a href=&quot;https://ricostacruz.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Rico Sta. Cruz
+  &lt;/a&gt;
+  originally created pnpm in 2016 as a faster alternative to npm (Node Package Manager), JavaScript’s de facto package manager, which devs used to find and download libraries and tools. GitHub
+  &lt;a href=&quot;https://github.blog/news-insights/company-news/npm-is-joining-github/&quot; target=&quot;_blank&quot;&gt;
+   acquired
+  &lt;/a&gt;
+  the open source
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958&quot; target=&quot;_blank&quot;&gt;
+   npm software and repository
+  &lt;/a&gt;
+  in 2020.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Npm garnered a reputation for being both sluggish and
+  &lt;a href=&quot;https://alphacoder.xyz/node-modules/&quot; target=&quot;_blank&quot;&gt;
+   hungry for disk space,
+  &lt;/a&gt;
+  thanks to its
+  &lt;a href=&quot;https://fettblog.eu/impact-of-large-node-modules/&quot; target=&quot;_blank&quot;&gt;
+   generous practice
+  &lt;/a&gt;
+  of downloading all needed dependencies onto users’ machines, regardless of whether they were duplicates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pnpm’s secret sauce is content-addressable storage. If you need a single library for 100 different applications, pnpm downloads it only once, and downloads another copy only if the developer specifies a different version.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Like npm, pnpm still draws from the official npm repository, but arguably works better than npm for many. Many devs also
+  &lt;a href=&quot;https://youtu.be/ZIKDJBrk56k&quot; target=&quot;_blank&quot;&gt;
+   like
+  &lt;/a&gt;
+  that the lockfile describing the package’s dependency tree was more readable thanks to its use of YAML.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://2025.stateofjs.com/en-US/other-tools/#monorepo_tools&quot; target=&quot;_blank&quot;&gt;
+   2025 State of JavaScript survey
+  &lt;/a&gt;
+  &lt;a href=&quot;https://2025.stateofjs.com/en-US/other-tools/#monorepo_tools&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  showed that pnpm was by far the most popular package manager for JavaScript monorepos, a party that also included
+  &lt;a href=&quot;https://nx.dev/docs/technologies/node/introduction&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Nx
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://lerna.js.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Lerna
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://github.com/wclr/yalc&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/wclr/yalc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Yalc
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://turborepo.dev/docs&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Turborepo
+  &lt;/a&gt;
+  and even npm’s built-in
+  &lt;a href=&quot;https://docs.npmjs.com/cli/v12/using-npm/workspaces&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Workspaces
+  &lt;/a&gt;
+  . About 38 percent (3,840) of 10,251 surveyed developers used the package manager.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Rust for JavaScript
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Rewriting applications in Rust seems
+  &lt;a href=&quot;https://www.theregister.com/databases/2026/07/29/after-rewriting-sqlite-in-rust-turso-turns-its-sights-on-postgres/5279835&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   to be a favorite activity
+  &lt;/a&gt;
+  these days, as the language is known for speedy performance unhampered by garbage collection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the Web app ecosystem alone, the Bun framework
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot; rel=&quot;nofollow&quot;&gt;
+   just got an AI-fueled Rust
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot; target=&quot;_blank&quot;&gt;
+   makeover
+  &lt;/a&gt;
+  , Tailwind CSS version 4
+  &lt;a href=&quot;https://anhtu.dev/tailwind-css-4-and-the-oxide-engine-when-a-css-framework-is-rewritten-in-rust-1094&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://anhtu.dev/tailwind-css-4-and-the-oxide-engine-when-a-css-framework-is-rewritten-in-rust-1094&quot; target=&quot;_blank&quot;&gt;
+   got a new Rust engine called Oxide
+  &lt;/a&gt;
+  , and the Vite framework now speeds along thanks to a Rust-built JavaScript bundler
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   called
+  &lt;/a&gt;
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Rolldown
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It is a bit of [an] indictment on Node for having poor dx” (developer experience), wrote Darcy Clarke, CEO of JavaScript package management platform provider
+  &lt;a href=&quot;https://www.vlt.io/about&quot;&gt;
+   vlt
+  &lt;/a&gt;
+  , in
+  &lt;a href=&quot;https://x.com/darcy/status/2093388841642061998&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   an X message
+  &lt;/a&gt;
+  , about the Rust rewrite of pnpm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It was faster to rewrite pnpm in rust than to migrate to esm” (ECMAScript modules),
+  &lt;a href=&quot;https://x.com/zkochan/status/2093400468017778887&quot; rel=&quot;ugc&quot; target=&quot;_blank&quot;&gt;
+   replied
+  &lt;/a&gt;
+  pnpm&#x27;s Kochan, agreeing with Clarke’s sentiment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The software’s GitHub page still points at the last major release, pnpm 11.25, so existing users will have to update to the v12 branch specifically (“
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   pnpm self-update next-12
+  &lt;/span&gt;
+  ” will get you there).
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> BepiColombo sheds its ride and starts the final glide to Mercury </title>
+<link>https://www.theregister.com/science/2026/09/05/bepicolombo-sheds-its-ride-and-starts-the-final-glide-to-mercury/5294601</link>
+<pubDate>Sat, 05 Sep 2026 06:41:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  After nearly eight years, ESA and JAXA&#x27;s BepiColombo spacecraft is finally nearing Mercury, as engineers begin the arrival sequence by jettisoning the power module that got it this far.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The spacecraft stack separated from the Mercury Transfer Module (MTM) on September 3 at around 1400 CEST. After a tense few minutes, controllers
+  &lt;a href=&quot;https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   confirmed
+  &lt;/a&gt;
+  that a preliminary Doppler signal had been detected, indicating that the MTM had separated successfully; by 1552 CEST, it was confirmed that signals had been picked up, indicating that all had gone to plan. The solar panels of the Mercury Planetary Orbiter (MPO) were charging the spacecraft&#x27;s batteries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The next stage involves dropping into orbit around Mercury on November 21. Then the Mercury Magnetospheric Orbiter (MMO) – aka Mio – will be released between December 9 and 10, and a week later MPO will start moving to its final orbit over 480 x 1500 km, with science commencing in April 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The arrival is a year later than planned. BepiColombo was supposed to have been orbiting Mercury in December 2025, but
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2024/05/16/bepicolombo-having-thruster-problems-on-way-to-mercury/666322&quot; target=&quot;_blank&quot;&gt;
+   problems
+  &lt;/a&gt;
+  with the spacecraft&#x27;s Solar Electric Power (SEP) system meant the trajectory had to be rethought, which extended the spacecraft&#x27;s cruise.
+ &lt;/p&gt;
+ &lt;p&gt;
+  BepiColombo is no stranger to Mercury and has performed six flybys of the planet since 2021. It has also conducted flybys of Venus and Earth following its 2018 launch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The spacecraft is an impressive example of international cooperation. The MPO and MTM are ESA contributions, while the MMO comes from JAXA. ESA also provided the sunshield to protect the MMO during transit. This sunshield will be ejected after the MMO is released.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MPO is the big brother of the BepiColombo partnership, with a main body measuring 2.4 x 2.2 x 1.7 m and a mass of 1,230 kg (including an 85 kg science payload). JAXA&#x27;s MMO is 1.8 m in diameter and 1.1 m high, and weighs 255 kg (45 kg of which is the science payload). While MPO is 3-axis stabilized and nadir-pointing, MMO will be spin-stabilized at 15 rpm, with its spin axis 90 degrees to the Sun.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The goal of the mission is a study of Mercury, &quot;from the structure and dynamics of its magnetosphere and how it interacts with the solar wind, to the properties of its large iron core and the origin of its magnetic field.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The initial mission at Mercury is planned for one Earth year (approximately four Mercury years), although it could be extended by another Earth year. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Anthropic lays groundwork for bots that shop for you </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/04/anthropic-lays-groundwork-for-bots-that-shop-for-you/5294621</link>
+<pubDate>Fri, 04 Sep 2026 20:36:07 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Anthropic has blueprints for building e-commerce bots that shop on behalf of clients. That&#x27;s not something many consumers want at the moment, but the AI biz this week published a set of templates for Claude-based shopping agents and merchant agents in the hope of encouraging more e-commerce businesses to implement automated purchasing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its
+  &lt;a href=&quot;https://github.com/anthropics/commerce-agents&quot;&gt;
+   blueprint
+  &lt;/a&gt;
+  &quot;contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days, with reference implementations of a shopping agent and a merchant agent for retail, travel, telecom, and ticketing platforms,&quot; the company
+  &lt;a href=&quot;https://claude.com/blog/claude-for-commerce-agents&quot;&gt;
+   said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Large retailers and ecommerce platforms, Anthropic observes, are using Claude to build AI agents to simplify online shopping by allowing customers to pose natural language queries to find, compare, and buy items.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The buying bit may be wishful thinking: A recent
+  &lt;a href=&quot;https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions&quot;&gt;
+   Gartner survey
+  &lt;/a&gt;
+  found that while consumers use AI to find products and conduct research, they&#x27;re not ready to delegate purchasing authority to AI agents. The survey found just 11 percent of consumers are willing to let AI make purchase decisions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A recent
+  &lt;a href=&quot;https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy26/q4/Accenture-Consumer-Pulse-2026.pdf#zoom=50&quot;&gt;
+   Accenture survey
+  &lt;/a&gt;
+  [PDF] is a bit more optimistic, noting, &quot;Three in four (74 percent) consumers would let an AI agent handle routine tasks; one in three (32 percent) are ready to hand over purchase decisions; and 9 percent are open to fully autonomous shopping, before the technology is fully operational.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Either way, at least AI-assisted product finding and comparison appear to be plausible activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic&#x27;s GitHub repo contains functional shopping and merchant agents that can be built with the
+  &lt;a href=&quot;https://platform.claude.com/docs/en/intro&quot;&gt;
+   Messages API
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://code.claude.com/docs/en/agent-sdk&quot;&gt;
+   Agent SDK
+  &lt;/a&gt;
+  , or
+  &lt;a href=&quot;https://platform.claude.com/docs/en/managed-agents/overview&quot;&gt;
+   Claude Managed Agents
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The biz&#x27;s shopping agent blueprint comes with ways to connect to product catalogs, online shopping carts, checkout systems, preference databases, and purchase history databases.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;A customer can say &#x27;I need a tent, sleeping bag, and stove for a weekend trip with two kids,&#x27; and the agent can take it from there,&quot; Anthropic suggests, noting that its code supports guardrails &quot;designed to constrain prices and products to actual catalog data, and avoids manipulative upsell patterns.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Why might prices need constraint? Well, beyond the possibility of hallucinated pricing, there&#x27;s considerable concern about how AI agents have the potential to compound the problems with dynamic pricing – where customers are charged different amounts for the same goods.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The rise of agentic AI, where algorithms monitor online behavior to customize costs, will likely exacerbate dynamic pricing,&quot;
+  &lt;a href=&quot;https://www.brookings.edu/articles/what-is-dynamic-pricing-and-why-do-consumers-need-better-protections/&quot;&gt;
+   said
+  &lt;/a&gt;
+  the Brookings Institution earlier this year. &quot;These agents can assess individual behavior and tailor prices based on a consumer’s shopping and purchasing history.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Concerns about AI surveillance pricing were discussed last month at a
+  &lt;a href=&quot;https://www.judiciary.senate.gov/committee-activity/hearings/your-data-their-profit-the-consumer-cost-of-ai-surveillance-pricing&quot;&gt;
+   Senate Judiciary subcommittee hearing
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In prepared remarks, Lindsay Owens, president and CEO of Groundwork Collaborative, a Washington, DC-based advocacy group, noted that already half of those using the Walmart app use &quot;Sparky,&quot; the company&#x27;s AI assistant. Those shoppers
+  &lt;a href=&quot;https://finance.yahoo.com/sectors/technology/articles/walmart-ceo-reportedly-brags-companys-030000384.html&quot;&gt;
+   spend about 35 percent more than those who don&#x27;t
+  &lt;/a&gt;
+  , Owens said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;These agents have access to swaths of data on customers – what shoppers tell them, what they’ve purchased in the past, and in some cases, what they’ve hovered over with their mouse or even what other websites they’ve visited,&quot; she said. &quot;All of that can be used to infer exactly how much they’re willing to pay for a product and set the price tag accordingly.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even if shoppers can be assured of getting a fair deal using AI agents, there&#x27;s another concern. Monica Eaton, founder and CEO of Chargebacks911, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  in an emailed statement that agentic commerce looks likely to create fraud problems for merchants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There isn&#x27;t yet a framework for merchants to deal with AI purchases that consumers claim they didn&#x27;t authorize. &quot;Merchants cannot become the insurer of every misunderstanding between a consumer and their AI,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic&#x27;s templates may prove helpful for AI agent design, but the real challenge isn&#x27;t technical. It&#x27;s about trust – consumers have to trust that AI will act in their best interest and merchants have to trust that AI will be accountable. That may take time. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AMD&#x27;s Threadripper Halo is a local-AI workstation for researchers with deep pockets </title>
+<link>https://www.theregister.com/on-prem/2026/09/04/amds-threadripper-halo-is-a-local-ai-workstation-for-researchers-with-deep-pockets/5294616</link>
+<pubDate>Fri, 04 Sep 2026 20:12:11 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Machine learning researchers have a new and expensive option for doing local AI. AMD just raided its spare parts bin and cobbled together a DGX Station rival boasting up to 576 GB of HBM3e memory that it’s calling the Threadripper Halo.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Announced at IFA 2026, the system, which is set to launch next year, marks the first time that AMD’s Instinct accelerators have been offered in a workstation form factor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But much like the AI Halo we
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/06/amds-ryzen-ai-halo-makes-local-ai-look-easy-but-at-4k-easy-doesnt-come-cheap/5266711&quot; target=&quot;_blank&quot;&gt;
+   reviewed
+  &lt;/a&gt;
+  earlier this year, the
+  &lt;a href=&quot;https://www.amd.com/en/products/workstations/amd-threadripper-halo-station.html#specifications&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Threadripper Halo
+  &lt;/a&gt;
+  isn’t packing anything we haven’t seen before. The liquid-cooled system is powered by a 96-core Threadripper PRO 9995WX, which you may recall made its
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/05/21/amd-teases-new-threadripper-radeon-ai-pro-workstation-kit/101218&quot; target=&quot;_blank&quot;&gt;
+   debut
+  &lt;/a&gt;
+  in 2025. The CPU is backed by up to 2 TB of DDR5 memory and up to 2.6 TB of combined system memory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As you probably already guessed, AMD is positioning the box as a local AI workstation for researchers. From what we gather, the system can be had with up to four of the company’s PCIe-based Instinct GPUs — though the systems displayed at IFA only showed two installed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Launched back in May, the
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/05/07/amd-takes-aim-at-enterprise-ai-with-pcie-based-instinct-gpus/5231481&quot; target=&quot;_blank&quot;&gt;
+   MI350P
+  &lt;/a&gt;
+  is essentially half of an MI350X that’s been crammed into a PCIe form factor. Each accelerator packs 144 GB of speedy HBM3e good for 4 TB/s of memory bandwidth, and up to 4.6 petaFLOPS of FP4 compute. But we’ll note that it&#x27;s in its 600 W configuration. When deployed in the Threadripper Halo, we expect AMD will be running the cards in the more sedate 450 W config.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Combined, the Threadripper Halo promises up to 576 GB of HBM3e and 16 TB/s of memory bandwidth, enabling the system to run models exceeding a trillion parameters in size (at four-bit precision) entirely in GPU memory. By offloading some of the model to system memory, the system should be able to run the largest open weights models, like Moonshot.AI’s 2.8 trillion-parameter
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/22/the-truth-nobody-wants-to-admit-chinese-or-not-open-models-are-competitive-now/5275879&quot; target=&quot;_blank&quot;&gt;
+   Kimi K3
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ability to run large frontier-class models on your desk won’t come cheap and may not be available in every market, at least not without an electrical service upgrade. AMD hasn’t shared pricing, but as configured, we expect it to sell for somewhere between $100,000 and $150,000.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A quad MI350P system is going to push the limits of a standard North American power outlet unless AMD either underclocks the cards from 600 W to 300 W or it mandates a 20 amp circuit. This might explain why the system AMD showed off at IFA only had two.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At this price and power level, the system is well positioned to compete with Nvidia’s own high-end AI workstation, the DGX Station. Announced at GTC in 2025, the
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/03/18/nvidia-wants-to-put-a-grace-blackwell-ultra-on-your-desk/1324747?td=rt-9c&quot; target=&quot;_blank&quot;&gt;
+   DGX Station
+  &lt;/a&gt;
+  features a 252 GB B300 GPU and a 72-core Grace CPU along with 496 GB of LPDDR5x memory, and it retails for
+  &lt;a href=&quot;https://bizon-tech.com/gb300.html?srsltid=AfmBOorH28rf4Kihyascz4YinX5VEMyUhDjawnM-BpMZIs-DZXiJ2g_W&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   around $100,000
+  &lt;/a&gt;
+  if you can find one in stock.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The House of Zen boasts that the system offers up to 3.4x the total system memory and more than twice the memory bandwidth of the DGX Station, which should give an edge in LLM inference, assuming tensor parallel operations don’t bottleneck on the CPU’s PCIe bus.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AMD says the Threadripper Halo will be available starting next year. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ASCII smuggling isn&#x27;t just an AI security risk </title>
+<link>https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595</link>
+<pubDate>Fri, 04 Sep 2026 19:23:25 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Fraudsters have found a new use for ASCII smuggling, typically used to hide malicious prompts intended for AI models, in an old-school attack method: email phishing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft uncovered a massive phishing campaign using invisible Unicode tag characters that peaked at more than 2.37 million messages in late February, remained elevated during weekdays over the next three months, and gradually declined by mid-June.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As AI-era attack methods become better understood, threat actors may adapt them for use in more traditional threats such as phishing and spam,” Redmond’s researchers Noam Kochavi and Sarah Wolstencroft
+  &lt;a href=&quot;https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/#what-is-known-and-what-is-new&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   said
+  &lt;/a&gt;
+  in a Thursday blog. “This case illustrates how techniques that emerge in AI security research can quickly cross over into established attack ecosystems, reinforcing the need for defenders to view emerging threats through a cross-domain lens.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  ASCII smuggling involves using invisible or non-rendering Unicode characters to hide content inside text that appears normal to humans, and this makes it a popular technique for
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019&quot;&gt;
+   indirect prompt injection attacks
+  &lt;/a&gt;
+  . In these, an attacker
+  &lt;a href=&quot;https://www.theregister.com/security/2026/01/12/block-red-teamed-its-own-ai-agent-to-run-an-infostealer/4134767&quot;&gt;
+   hides instructions for an AI assistant
+  &lt;/a&gt;
+  in invisible Unicode characters, and embeds those malicious prompts inside a webpage or document. A human can’t see them, but a model can, and it decodes them as text - and may then follow the attacker’s instructions to leak data or take unauthorized actions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Instead of using ASCII smuggling for prompt injection, however, Microsoft’s security team spotted someone using invisible characters – inserting Unicode tag spaces between letters – to split financial-lure words in phishing emails in an apparent attempt to evade keyword matching and other content filters. So, for example, instead of writing “funding” in the email, the attackers wrote “fun⟨U+E0020⟩ding.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When we looked at a sampling of the flagged messages, the surprise was there were no smuggled instructions to an AI assistant,” Kochavi and Wolstencroft wrote. “Instead, the invisible tag characters were inserted inside common financial keywords, splitting them apart so that a literal signature or keyword match would fail.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Redmond first detected the ASCII-smuggling signature in early February, flagging about 21,000 messages on February 8 before the number skyrocketed to more than 1.3 million the next day. Most of these emails came from about 150 finance-themed sender domains, and they continued for the next three months, dropping sharply after May 15 but continuing with occasional smaller spikes through at least mid-June.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The security researchers pointed out two notable characteristics, including sending massive numbers of emails on weekdays and then going silent over the weekend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The campaign also had a long, gradual decline. “After an intense first phase, with weekday volumes of 1 to 2.37 million messages, peaking on February 26, the numbers stepped down slowly to roughly 80 percent less per weekday by late March.” It then dropped significantly after May 15, continuing with lower activity through mid-June.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Redmond, the most important thing defenders can do to protect against Unicode tag blocks in phishing emails is to verify that normalization and tokenization pipelines handle tag characters consistently.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Any content that will be evaluated by keyword, signature, or regex logic should first have invisible and non-rendering Unicode code points stripped or folded, so that splicing them into a word no longer defeats the match,” the threat hunters wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This same control can also help reduce the threat of ASCII-smuggling against AI assistants that ingest email content.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft also suggests scanning for behavioral indicators. “The observed activity had a distinctive shape: bulk volume from churning, finance-themed disposable domains, on a strict weekday-on / weekend-off schedule,” Kochavi and Wolstencroft warned. “A sudden spike of tag-block characters concentrated on finance-themed senders, switching on and off weekly, is a high-confidence campaign indicator.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Rogue OpenAI agents used dead German web site to communicate in May, months before Hugging Face incident </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/04/rogue-openai-agents-used-dead-german-web-site-to-communicate-in-may-months-before-hugging-face-incident/5294554</link>
+<pubDate>Fri, 04 Sep 2026 16:02:08 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  OpenAI’s agents were going rogue as early as May, according to a new report, making the Hugging Face incident far from the first where bots committed a breach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A
+  &lt;a href=&quot;https://collusion.wiki/&quot;&gt;
+   report
+  &lt;/a&gt;
+  published Friday by a group of researchers claims to have found – with all of the agent posts presented as evidence – a self-identified “swarm” of OpenAI agents taking over a functionally dead German software developer wiki. Over the course of a month, from May to June, the agents made around 18,000 posts to the wiki, apparently acting against OpenAI developer intentions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the researchers, the wiki was hijacked
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780&quot;&gt;
+   like OpenAI’s own Artifactory package manager
+  &lt;/a&gt;
+  involved in the Hugging Face incident, to serve as a message board for agents. In this case, they appear to have been tasked with performing a timed web lookup task, for which the agents were apparently granted read access to the web, but not write access. One of the first things they apparently did was figure out how to subvert that restriction in order to post to the hijacked wiki.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The agents used this wiki to communicate information with each other, primarily to help them succeed at their task,” the researchers explained from a review of the thousands of posts made to the wiki, all of which are available for review in the report. “They asked for answers, pooled results, and shared techniques for bypassing their restrictions.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agents also tried to pool their knowledge of the task they were assigned to predict what sort of questions they’d be asked next, and even set up heartbeat tasks to predict whether completing the assigned tasks would lead to their termination. They also discussed using Tor and other anonymizing services to hide their traffic, and began to react when a human moderator of the site spotted their traffic and started to delete posts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers discovered all of this while searching for additional cases of rogue AI agent activity in the wake of the Hugging Face attack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In an email to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , OpenAI told us that it has acted with transparency and good faith around its agentic AI incidents, voluntarily disclosing such matters and maintaining a commitment to providing an accurate account of what its systems do. As for why it didn’t mention the German incident when it disclosed the Hugging Face one, that’s because the two were entirely unrelated, a spokesperson explained – as if that’s reassuring.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI added that it should have been obvious from the Hugging Face report that this has happened multiple times, however, pointing us to a
+  &lt;a href=&quot;https://openai.com/index/hugging-face-incident-and-the-road-ahead/#:~:text=While%20investigating%20this%20incident%2C%20we%20discovered%20rare%20cases%20in%20which%20agents%20without%20multi%2Dagent%20tools%20found%20ways%20to%20collaborate%20via%20side%20channels%20during%20training.%20We%20believe%20that%20this%20behavior%20started%20due%20to%20generalization%20from%20multi%2Dagent%20training.&quot;&gt;
+   passage
+  &lt;/a&gt;
+  in its blog post on that incident.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “While investigating this incident, we discovered rare cases in which agents without multi-agent tools found ways to collaborate via side channels during training,” the Hugging Face post-mortem explains. “We believe that this behavior started due to generalization from multi-agent training.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other words, if we didn’t read between the lines, that’s on us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI declined to provide additional details, however.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Fool me twice, shame on me
+ &lt;/h3&gt;
+ &lt;p&gt;
+  As was the case in the Hugging Face attack, one of the tasks assigned to the agents was impossible given the restrictions placed on it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With Hugging Face, it involved a cybersecurity task that was impossible to answer from within the agents’ sandboxes,. In this case, the researchers said the task was to provide a statistic accessible from a Power BI dashboard. Retrieving said statistics required the ability to make a GET request, but the agents were restricted to POST requests.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In both cases, the OpenAI agents acted against their programming to escape their restrictions, ostensibly in an attempt to solve a problem put to them that couldn’t be done without acting against their operators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agents in this case were able to collaborate and find a way around the restriction by exploiting a condition in their sandboxes that excepted Azure Blob Storage hostnames from a security proxy. When the agents realized this, they started directing traffic through those hostnames to avoid GET restrictions. It was through GET requests that the agents gained write permissions on the internet, kicking this whole thing off.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The similar nature of both incidents, in which bots escaped their sandboxes and subverted restrictions when given an impossible-to-complete task, begs a very important question: Are OpenAI’s engineers so incompetent that they’d screw up fundamental instructions twice, or is the company intentionally hamstringing their agents to see what they’re capable of, with the entirety of the internet placed downrange?
+ &lt;/p&gt;
+ &lt;p&gt;
+  For that matter, how many more times do we need to read between the lines of OpenAI&#x27;s corpo-speak to infer this has happened more than the two times we know about so far?
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI, predictably, didn’t respond to that line of questioning. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Storage news ticker - September 4 </title>
+<link>https://www.theregister.com/flash/2026/09/04/storage-news-ticker-september-4/5294544</link>
+<pubDate>Fri, 04 Sep 2026 15:23:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Cadence
+  &lt;/strong&gt;
+  announced its PHY and controller IP for the PCI Express (PCIe) 6.0 specification, implemented in the TSMC N3 process, achieved first-pass success at the recent PCI-SIG
+  &lt;span&gt;
+  &lt;/span&gt;
+  compliance workshop held in late July. The workshop marked the industry’s first official event for PCIe 6.0 specification compliance testing, with Cadence’s x8 subsystem solution tested at the full PCIe 6.0 specification speed of 64 GT/s.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Cloudera
+  &lt;/strong&gt;
+  announced native GPU acceleration for Apache Spark 4.1 in Cloudera Data Engineering, enabled by the Nvidia CUDA-X library, cuDF. The cuDF  plug-in for Apache Spark will support the just-announced Cloudera Anywhere Cloud, which is designed to enable organizations to accelerate Spark workloads without rewriting PySpark or SQL code. This helps  data teams prepare AI-ready data faster while reducing cloud infrastructure costs across hybrid environments. Cloudera Data Engineering accelerated by CUDA-X libraries will deliver:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Zero-code GPU acceleration for Apache Spark 4.1 workloads
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Faster ETL and data preparation for analytics and AI
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Lower cloud infrastructure costs through shorter compute runtimes
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Built-in deployment with no manual driver configuration
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Enterprise security and governance through the Cloudera Unified Data Fabric
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Consistent performance across public cloud, private cloud, sovereign cloud, and on-premises environments
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  Unlike GPU acceleration offerings limited to a single cloud provider, Cloudera extends these capabilities across hybrid environments while preserving consistent governance and operations. Organizations can accelerate Spark workloads wherever their data resides— whether that is on premises, in the clouds, or at the edge— without sacrificing security or flexibility.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Everspin
+  &lt;/strong&gt;
+  and Teledyne HiRel have partnered to bring Everspin&#x27;s
+  &lt;em&gt;
+   PERSYST
+  &lt;/em&gt;
+  STT-MRAM into Teledyne HiRel&#x27;s memory portfolio for aerospace, defense and space programs. That gives customers a path to evaluate and design in MRAM, with screening, qualification documentation and obsolescence support, for functions that have traditionally relied on NOR flash or battery-backed SRAM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lenovo announced the world&#x27;s first ultra-slim ultra-quiet notebook featuring
+  &lt;strong&gt;
+   Frore
+  &lt;/strong&gt;
+  AirJet Solid-State Active Cooling.  Lenovo’s Active Flow Thermal Solution is the world’s first application of AirJet designed into a concept notebook
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Infinidat,
+  &lt;/strong&gt;
+  now a Lenovo company, continues to grow and grow and grow. Its recruiting and has 17 openings in its customer facing teams. More
+  &lt;a href=&quot;https://t.co/1AaFKGgFUu&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Kioxia
+  &lt;/strong&gt;
+  has plans to use fast NAND as a DRAM alternative, according to Japan’s
+  &lt;a href=&quot;https://asia.nikkei.com/business/tech/semiconductors/kioxia-outlines-plan-to-capture-ai-demand-with-its-new-high-speed-memory-chip&quot; target=&quot;_blank&quot;&gt;
+   Nikkei
+  &lt;/a&gt;
+  outlet. It intends to use a CXL (Compute Express Link) module wth memory-access speed across a PCE link. Combining high-speed NAND with a CXL controller module reduces data-read latency to less than one-tenth that of conventional NAND products. Replacing part of a system&#x27;s DRAM with CXL modules can double memory capacity and improve performance by 30 percent, according to Kioxia.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kioxia also plans to begin sampling an SSD with enhanced read-and-write performance in 2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   NetApp
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   AWS
+  &lt;/strong&gt;
+  announced that AWS Transform now supports Amazon FSx for NetApp ONTAP. AWS Transform is an agentic AI service that automates the discovery, planning, and migration of workloads to the cloud. Now generally available, customers can use AWS Transform to migrate attached storage from their on-premises and cloud estates directly to Amazon FSx for ONTAP. Amazon FSx for ONTAP supported by AWS Transform gives customers the option to migrate block storage as part of the same migration wave that handles compute and network, eliminating the need for intermediate storage platforms, separate migration tools, and the additional cost and risk they introduce.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Enterprise file services and data management supplier
+  &lt;strong&gt;
+   Peer Software
+  &lt;/strong&gt;
+  announced customer success results from Würth Elektronik&#x27;s deployment of PeerGFS, enabling the global electronics
+  &lt;span&gt;
+  &lt;/span&gt;
+  manufacturer to provide fast, reliable access to engineering files across North America, Europe and Asia while protecting file integrity for mission-critical CAD workflows. PeerGFS synchronises approximately 800 GB of active engineering data in real time across four Windows-based file servers spanning three continents. The platform provides distributed file locking to prevent conflicting edits, centralised
+  &lt;span&gt;
+  &lt;/span&gt;
+  management and built-in high availability, allowing project teams to collaborate without delays or data integrity concerns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prior to deploying PeerGFS, engineers accessing CAD files from a centralised server could wait more than five minutes for files to open. Today, they access local replicas that load in seconds, dramatically improving productivity while ensuring
+  &lt;span&gt;
+  &lt;/span&gt;
+  reliable file locking across regions to prevent costly rework caused by overlapping changes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   OceanBase
+  &lt;/strong&gt;
+  has been named the top distributed transactional database vendor in Asia and Oceania based on 2025 revenue, according to a newly released Omdia report, Distributed Transactional Database in Asia &amp; Oceania - 2026. Capturing a 15.5 percent market share, OceanBase outpaced major cloud service providers, underscoring its leadership in supporting mission-critical workloads across the region.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   …
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Open-source vector search and database supplier
+  &lt;strong&gt;
+   Qdrant’s
+  &lt;/strong&gt;
+  Kumar Shivendu, from its core engineering team has published a
+  &lt;a href=&quot;https://www.kshivendu.dev/blog/token-storage&quot;&gt;
+   &lt;span&gt;
+    blog
+   &lt;/span&gt;
+  &lt;/a&gt;
+  and a
+  &lt;a href=&quot;https://arxiv.org/abs/2608.02376&quot;&gt;
+   &lt;span&gt;
+    paper
+   &lt;/span&gt;
+  &lt;/a&gt;
+  that rethinks text storage and compression for systems where AI agents are the primary users. Basically he found that we can achieve 1.5-2.5x compression out of the box if you use a language model&#x27;s tokenizer and it gives you orders of magnitudes lower read and write latency from an LLM&#x27;s perspective because it can&#x27;t read UTF-8 bytes, it needs token IDs and tokenization is expensive. The compression can go even higher with some tricks he explained in his blog. Agents have already started reading and writing more data than humans so he proposes that we introduce proper ways to read and write token IDs in our databases and filesystems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   …
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Quantum
+  &lt;/strong&gt;
+  announced the appointment of Hiral A. Patel as its Chief Accounting Officer and principal accounting officer, replacing Laura Nash whois transitioning to an advisor position. Patel most recently served as Chief Accounting Officer at Pep Boys, an automotive service and retail company, where she led external and internal financial reporting, tax compliance and strategy, and the accounting processes supporting the company&#x27;s recent divestiture.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As part of Patel’s compensation package and as an inducement material to her acceptance of employment with the company, the Leadership and Compensation Committee of Quantum’s Board of Directors approved the grant of 50,000 restricted stock units, which will vest in three equal annual installments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Snowflake
+  &lt;/strong&gt;
+  announced its
+  &lt;span&gt;
+  &lt;/span&gt;
+  FY’27 Q2 earnings results, “reinforcing that the Agentic Enterprise runs on Snowflake.” It delivered:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Product revenue of $1.49 billion, with growth accelerating to 37 percent year-over-year — third straight quarter of acceleration, adding seven points since the start of FY’27
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Q2 non-GAAP operating margin expanded over 400 basis points year-over-year to 15 percent
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Raising FY’27 outlook from 31 percent to 36  percent year-over-year, and raising FY’27 non-GAAP operating margin guidance from 13.5 percent to 14.5 percent
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Added 692 net-new customers in Q2, up 32 percent year-over-year, including 14 new Global 2000 customers
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    828 customers with trailing 12-month product revenue greater than $1 million, and 48 customers crossing this threshold in Q2
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Synology
+  &lt;/strong&gt;
+  has released ActiveProtect Manager (APM) 2.0, an
+  &lt;span&gt;
+  &lt;/span&gt;
+  update to its ActiveProtect data protection platform. Additions in APM 2.0:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Broader platform support: Nutanix AHV, Proxmox VE, Amazon EC2, Azure VM and Google Workspace, alongside existing VMware, Hyper‑V, physical, SaaS and database workloads
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Proactive ransomware defence: AI/ML anomaly detection and pre‑recovery malware scans, with alerts to SIEM/SOAR via syslog, SMTP or SNMP traps
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Stronger enterprise controls: Optional storage‑level encryption and expanded role‑based access controls
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    More remote storage options: Azure Blob Storage and additional Synology NAS models for tiered, long‑term retention APM 2.0 adds proactive cyber resilience capabilities — including AI/ML‑based anomaly detection and pre‑recovery malware scanning — to help organisations restore only clean, trustworthy data. [Note: these two features are scheduled to arrive later
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  AI/ML‑based anomaly detection and pre‑recovery malware scanning are scheduled to arrive later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Parallel file system supplier
+  &lt;strong&gt;
+   VDURA
+  &lt;/strong&gt;
+  and New Mexico State University (NMSU) announced that NMSU&#x27;s new VDURA deployment is complete and in full production. The system, live as of August 2026, provides the university&#x27;s research community with a high-performance, highly durable data platform purpose-built for AI and high-performance computing workloads. NMSU, which achieved Carnegie R1 status in 2025, placing it among the top research universities in the United States, supports more than $141 million in annual research expenditures across fields including aerospace, agriculture, cybersecurity, water science and biomedical research.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The deployment combines NVMe flash and high-density HDD capacity in VDURA&#x27;s mixed-fleet architecture, delivering flash-level responsiveness for active research data alongside economical bulk capacity, all in a single namespace on the university&#x27;s InfiniBand fabric. With VDURA&#x27;s software-defined architecture and subscription model, NMSU can scale capacity and performance as research demands grow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> My Word. Microsoft&#x27;s prepping Similarity Checker for retirement </title>
+<link>https://www.theregister.com/applications/2026/09/04/my-word-microsofts-prepping-similarity-checker-for-retirement/5294550</link>
+<pubDate>Fri, 04 Sep 2026 15:19:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft is retiring Word&#x27;s Similarity Checker on October 3 and stripping the feature from Microsoft Editor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other writing and editing tools, including Microsoft 365 Copilot, won&#x27;t be
+  &lt;a href=&quot;https://mc.merill.net/message/MC1466753&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   affected
+  &lt;/a&gt;
+  . But if an organization uses Similarity Checker as part of its workflow, it&#x27;s time to consider alternatives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Similarity Checker has been around for a few years.
+  &lt;a href=&quot;https://www.microsoft.com/en-us/education/blog/2020/06/editors-similarity-checker-in-microsoft-word-helping-writers-with-originality-and-attribution/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Launched in 2020
+  &lt;/a&gt;
+  , the Bing Search-powered service compared text from the user to online sources and came up with a percentage score – how much of the text was similar to those online sources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The user could then add citations if appropriate, or try again for originality. Microsoft had previously said: &quot;This can aid writers in focusing less on the mechanics of writing, and more on the content.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Word&#x27;s citation capabilities will not be affected by the retirement, nor will its spelling and grammar checking tools. Although Microsoft&#x27;s AI assistant is unaffected, Microsoft warned, &quot;Copilot is not intended to serve as a formal similarity, plagiarism, or originality validation tool.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Plagiarism spotting and similarity checking have become all the more important in recent years. Turnitin, for example,
+  &lt;a href=&quot;https://www.theregister.com/software/2023/04/05/anti-plagiarism-tool-turnitin-turns-on-ai-writing-detection/556280&quot; target=&quot;_blank&quot;&gt;
+   added features
+  &lt;/a&gt;
+  to identify AI-generated text, and there is
+  &lt;a href=&quot;https://www.theregister.com/software/2025/06/16/huge-increase-in-uk-students-using-ai-to-cheat-for-grades/404177&quot; target=&quot;_blank&quot;&gt;
+   evidence
+  &lt;/a&gt;
+  that plagiarism-detecting tools have had an impact (although there are plenty of other nefarious uses for AI.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  The writing for the Similarity Checker in Word has been on the wall for a while now. Although Microsoft has not shared usage statistics, it did hint that users were giving it a swerve:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This change allows us to focus on experiences and capabilities that are more broadly used across Microsoft Word.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The functionality is certainly at odds with the Copilot-All-The-Things fever that has gripped Microsoft in recent years, despite Microsoft&#x27;s insistence that Copilot is not a tool for formal similarity checking.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, there were
+  &lt;a href=&quot;https://learn.microsoft.com/en-us/answers/questions/5264993/editors-similarity-checker-not-working&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   a few alarmed users
+  &lt;/a&gt;
+  when the tool stopped working for a few days in 2023.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After October 3, 2026, the Similarity Checker will stop working for good and cease to be accessible through the Editor experience in Word. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Canonical shuttering some of its legacy chat channels </title>
+<link>https://www.theregister.com/os-platforms/2026/09/04/canonical-shuttering-some-of-its-legacy-chat-channels/5294524</link>
+<pubDate>Fri, 04 Sep 2026 14:56:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Canonical is closing off some of its older tools and communications channels for users, although some may remain – just unofficially.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Back in May, Canonical’s Aaron Prisk
+  &lt;a href=&quot;https://discourse.ubuntu.com/t/ubuntu-pastebin-decommissioning/82824&quot; target=&quot;_blank&quot;&gt;
+   announced on Discord
+  &lt;/a&gt;
+  that the company was closing the Ubuntu Pastebin at the end of June. Now a comment from a different Aaron, Aaron Rainbolt, says that the
+  &lt;a href=&quot;https://discourse.ubuntu.com/t/26-04-1-irc-support/86844/2&quot; target=&quot;_blank&quot;&gt;
+   IRC channels will follow
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The official Ubuntu chat channels are now on Matrix – there’s an
+  &lt;a href=&quot;https://ubuntu.com/community/docs/communications/matrix&quot; target=&quot;_blank&quot;&gt;
+   introductory site
+  &lt;/a&gt;
+  and under
+  &lt;a href=&quot;https://ubuntu.com/community/docs/communications/matrix/onboarding#heading--join-space&quot; target=&quot;_blank&quot;&gt;
+   Step 3: Join the Ubuntu space
+  &lt;/a&gt;
+  there’s a Matrix link to Ubuntu’s area: you can either type /join #community:ubuntu.com or follow a
+  &lt;a href=&quot;https://matrix.to/#/#community:ubuntu.com&quot; target=&quot;_blank&quot;&gt;
+   Matrix link
+  &lt;/a&gt;
+  . (Note: the preceding link will only work if you have a Matrix client installed, and your browser can open it.) This isn’t unprecedented: the Linux Mint project did much the same
+  &lt;a href=&quot;https://www.theregister.com/software/2024/07/29/mint-22-the-ubuntu-noble-based-version-is-here/522822&quot; target=&quot;_blank&quot;&gt;
+   back when Mint 22 came out
+  &lt;/a&gt;
+  a couple of years ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the record, the
+  &lt;a href=&quot;https://wiki.ubuntu.com/IRC/ChannelList&quot; target=&quot;_blank&quot;&gt;
+   Ubuntu Wiki still lists
+  &lt;/a&gt;
+  all the for-now-still-official IRC servers and channels. As
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.theregister.com/software/2021/05/27/ubuntu-wikimedia-jump-ship-to-the-libera-chat-irc-network-after-freenode-channel-confiscations/1314529&quot; target=&quot;_blank&quot;&gt;
+   reported at the time
+  &lt;/a&gt;
+  , they are hosted on Libera Chat, which was
+  &lt;a href=&quot;https://www.theregister.com/software/2021/05/26/after-staff-revolt-freenode-management-takes-over-hundreds-of-irc-channels-for-policy-violations/880939&quot; target=&quot;_blank&quot;&gt;
+   set up in 2021
+  &lt;/a&gt;
+  after the widely used
+  &lt;a href=&quot;https://www.theregister.com/software/2021/05/19/freenode-irc-staff-resign-en-masse-unhappy-about-new-management/1180906&quot; target=&quot;_blank&quot;&gt;
+   Freenode imploded
+  &lt;/a&gt;
+  . For the time being, the IRC channels should remain open – but they will no longer be official methods of communicating with the company, and users shouldn’t expect any staff to be present, whether that is to help, or to moderate, or anything else.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This vulture is crossing all available extremities that Canonical doesn’t also see fit to close down the
+  &lt;a href=&quot;https://lists.ubuntu.com/&quot; target=&quot;_blank&quot;&gt;
+   Ubuntu mailing lists
+  &lt;/a&gt;
+  , from which he’s extracted a great deal of value and entertainment over the last 22 years — as well as giving a lot of advice and tech support. That was the
+  &lt;em&gt;
+   Reg
+  &lt;/em&gt;
+  FOSS desk’s entrance into the FOSS community. Back when Ubuntu started, Debian was famously unwelcoming to newbies, and it was around the time that
+  &lt;a href=&quot;https://www.theregister.com/software/2003/11/04/red-hat-pulls-plugs-on-red-hat-linux-product-line/757021&quot; target=&quot;_blank&quot;&gt;
+   Red Hat pulled the plug
+  &lt;/a&gt;
+  on its original community distro.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you’ve never encountered a pastebin, you may be one of those lucky folks who rarely need to venture into Linux troubleshooting. This often involves reading long screensful of text. This is pain to read aloud, and novices miss critical details. The idea of a pastebin is that you can just copy-and-paste the text into a website, then send a handy short link instead. The snag is that such reams of verbiage can include condfidential info, and the very newbies that might need help most are least skilled at spotting and censoring that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The orignal pastebin.ubuntu.com disappeared a while ago. There are plenty of alternatives, from the original
+  &lt;a href=&quot;https://pastebin.com/&quot; target=&quot;_blank&quot;&gt;
+   Pastebin.com
+  &lt;/a&gt;
+  – albeit behind Cloudflare protection, which as we reported last year
+  &lt;a href=&quot;https://www.theregister.com/software/2025/03/04/cloudflare-blocking-pale-moon-and-other-browsers/1243340&quot; target=&quot;_blank&quot;&gt;
+   blocks some legitimate accesses
+  &lt;/a&gt;
+  . For something less transient, even including revision tracking, Microsoft offers
+  &lt;a href=&quot;https://gist.github.com/&quot; target=&quot;_blank&quot;&gt;
+   Github Gists
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This has led to a new field of encrypted pastebins. One is the AGPL3
+  &lt;a href=&quot;https://cloakbin.com/&quot; target=&quot;_blank&quot;&gt;
+   CloakBin
+  &lt;/a&gt;
+  , whose developer emailed us to tell us about it. You can host your own with tools such as
+  &lt;a href=&quot;https://privatebin.info/&quot; target=&quot;_blank&quot;&gt;
+   PrivateBin
+  &lt;/a&gt;
+  , or its progenitor
+  &lt;a href=&quot;https://zerobin.cc/&quot; target=&quot;_blank&quot;&gt;
+   ZeroBin
+  &lt;/a&gt;
+  . As we quickly discovered, there are many others:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://paaster.io/&quot; target=&quot;_blank&quot;&gt;
+     Paaster
+    &lt;/a&gt;
+    ;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://pastecry.pt/&quot; target=&quot;_blank&quot;&gt;
+     PasteCrypt
+    &lt;/a&gt;
+    ;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://paste.sh/&quot; target=&quot;_blank&quot;&gt;
+     Paste.sh;
+    &lt;/a&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    and Defuse’s
+    &lt;a href=&quot;https://defuse.ca/pastebin.htm&quot; target=&quot;_blank&quot;&gt;
+     PIEbin
+    &lt;/a&gt;
+    .
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  This, of course, is the real value in having an official one: users not only know where to go, but if they’re already using software from that vendor, they can also have some reassurance that they can trust an official tool. Not that we needed one, this could be seen as another demonstration of the problem predicted by
+  &lt;a href=&quot;https://xkcd.com/927/&quot; target=&quot;_blank&quot;&gt;
+   Xkcd 927
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  IRC and its pastebin are merely the latest examples of older tech Canonical has been phasing out in recent years. Last year, it
+  &lt;a href=&quot;https://discourse.ubuntu.com/t/phasing-out-bazaar-code-hosting/62189&quot; target=&quot;_blank&quot;&gt;
+   officially deprecated its old revision control system,
+  &lt;/a&gt;
+  the
+  &lt;a href=&quot;https://directory.fsf.org/wiki/Bazaar&quot; target=&quot;_blank&quot;&gt;
+   GNU-endorsed Bazaar
+  &lt;/a&gt;
+  . The
+  &lt;a href=&quot;https://www.breezy-vcs.org/&quot; target=&quot;_blank&quot;&gt;
+   Breezy
+  &lt;/a&gt;
+  fork is still somewhat active, although the site has a worrying number of dead links. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cohesity takes HCLTech to its Clean Room </title>
+<link>https://www.theregister.com/data-protection/2026/09/04/cohesity-takes-hcltech-to-its-clean-room/5294512</link>
+<pubDate>Fri, 04 Sep 2026 14:08:57 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/06/18/cohesity-goes-agentic-with-headless-protection/5258151&quot; target=&quot;_blank&quot;&gt;
+   Cohesity
+  &lt;/a&gt;
+  is supplying a
+  &lt;span&gt;
+   managed clean room capability within HCLTech’s VaultNXT offering.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  India-based HCLTech, founded in 1976, says it’s a global tech company, employing more than 223,000 people across 60 countries, and supplying tech services and product capabilities for AI, digital, engineering, cloud and software. It has deals with Commvault and Rubrik as well as this latest Cohesity setup. VaultNXT is HCLTech’s consulting-led, end-to-end, cyber resilience and ransomware recovery framework and managed service, and uses third-party software for data protection mad security. A cleanroom is an isolated, safe, bounded environment in which to examine and test compromised systems and data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kit Beall, Cohesity’s Chief Revenue Officer, said:
+  &lt;span&gt;
+   “Cyber recovery strategies need to go beyond restoring data to include investigation, validation, and trusted recovery. With VaultNXT’s proven framework, Cohesity and HCLTech are bringing together market-leading managed clean room services and AI-powered data security to help our customers recover trusted data faster, support compliance requirements, reduce risk, and operate with greater confidence.”
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  VaultNX has
+  &lt;span&gt;
+   policy-driven cyber vaulting, immutable clean recovery copies, governed access, and audit-ready processes specifically addressing DORA, NIS2, and other resilience and regulatory requirements. Integrating the Cohesity Clean Room offering and AI-powered data security capabilities delivers a fully-managed, isolated recovery environment with secure investigation, containment, validation, and recovery capabilities.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This latest deal builds on a 2022 arrangement whereby HCLTech used Cohesity
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-management/2021/10/19/cohesity-adds-draas-offering-data-safety-and-plans-a-virtual-fort-knox-to-manage-data/1588291?_gl=1*fs5obn*_ga*MTY2OTcyMjAyNS4xNzcwODg2MTMy*_ga_NSDTXHMMN0*czE3ODg1MjY1ODUkbzIyMiRnMSR0MTc4ODUyNjc0MSRqNjAkbDAkaDA.&quot; target=&quot;_blank&quot;&gt;
+   FortKnox
+  &lt;/a&gt;
+  vaulting inside VaultNXT, with a
+  &lt;a href=&quot;https://www.cohesity.com/content/dam/cohesity/resource-assets/solution-brief/enhance-your-cyber-resilience-with-hcltech-vaultnxt-powered-by-cohesity-solution-brief-en.pdf&quot; target=&quot;_blank&quot;&gt;
+   solution brief
+  &lt;/a&gt;
+  published in January 2023.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rampal Singh, SVP of the Hybrid Cloud Business Unit at HCLTech, said about this cleanroom extension to the Cohesity relationship : “By combining HCLTech’s
+  &lt;span&gt;
+  &lt;/span&gt;
+  global
+  &lt;span&gt;
+  &lt;/span&gt;
+  scale and cyber
+  &lt;span&gt;
+  &lt;/span&gt;
+  resilience
+  &lt;span&gt;
+  &lt;/span&gt;
+  expertise with Cohesity’s
+  &lt;span&gt;
+  &lt;/span&gt;
+  AI-powered
+  &lt;span&gt;
+  &lt;/span&gt;
+  data security
+  &lt;span&gt;
+  &lt;/span&gt;
+  and recovery, we help customers reduce downtime, stay compliant and operational, and respond faster to evolving cyber threats due to the expanding AI landscape.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Access an HCLTech VaultNXT powered by Cohesity Clean Room brochure
+  &lt;a href=&quot;https://www.hcltech.com/sites/default/files/documents/resources/brochure/files/2026/05/05/hyc-cohesity-cleanroom.pdf?source=AISearch&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   HCL, Commvault and Rubrik
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  Cohesity is joining competitors Commvault and Rubrik in partnering HCLTech. Commvault has partnered HCLTech since 2015, with HCLTech having a VaultNXT offering using Commvault, that can enable customers to “transform their cyber resilience posture by moving from threat prevention to a holistic security strategy that provides end-to-end protection.” VaultNXT is HCLTech’s consulting-led cyber resilience and ransomware recovery framework and managed service, not a standalone backup product.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It typically includes
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cyber recovery assessment and vault design (map critical apps/data, review incident-response readiness)
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Immutable / air-gapped copies and a zero-trust style vault
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    AI/ML ransomware and anomaly detection, threat scanning of backups
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Validation of “golden” recovery copies
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cleanroom recovery (restore and test in an isolated environment, not on production)
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Ongoing operate/monitor services, often with flexible pricing
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Get a brochure
+  &lt;a href=&quot;https://www.hcltech.com/sites/default/files/documents/resources/whitepaper/files/2023/04/17/Final%20Revised%20VaultNXT%20powered%20by%20Commvault_17331_.pdf&quot; target=&quot;_blank&quot;&gt;
+   here.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.hcltech.com/rubrik&quot; target=&quot;_blank&quot;&gt;
+   VaultNXT powered by Rubrik
+  &lt;/a&gt;
+  dates from August last year. It’s HCLTech’s cyber-resilience service wrapped around Rubrik Security Cloud. HCLTech designs, builds, and often operates the vault and recovery process. Rubrik is the zero-trust backup and recovery platform underneath and supplies;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Immutable architecture so ransomware cannot rewrite backups
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    AI/ML ransomware monitoring and investigation
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Sensitive-data discovery (what data, where it lives, who can access it)
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Turbo Threat Hunting — scan thousands of snapshots for indicators of compromise in minutes
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Quarantine of infected snapshots
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Orchestrated recovery of applications and identities
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Optional Rubrik Cloud Vault for an extra immutable archive in the cloud
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    A data-security command center that scores recoverability and security gaps
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Thee s no cleanroom in this offering. HCLTech sells managed resilience on top of this, with continuous monitoring, anomaly detection, and recovery orchestration using Rubrik’s threat analytics and pre-computed metadata. The two say they have more than 20 joint enterprise customers.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft to bounce mail from outdated Exchange servers </title>
+<link>https://www.theregister.com/on-prem/2026/09/04/microsoft-to-bounce-mail-from-outdated-exchange-servers/5294506</link>
+<pubDate>Fri, 04 Sep 2026 13:43:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft is upping the ante on Exchange Server security, warning that outdated on-premises systems will soon be blocked from sending email to Exchange Online.
+ &lt;/p&gt;
+ &lt;p&gt;
+  From the second week of September, Exchange Server 2016 and 2019 machines that send email to Exchange Online through an inbound connector of the OnPremises type must be patched to the final public update baseline released in October 2025, according to Microsoft.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This update level was released almost a year ago,&quot; Microsoft
+  &lt;a href=&quot;https://techcommunity.microsoft.com/blog/exchange/exchange-20162019-throttling-and-blocking-up-to-the-final-public-update-baseline/4552717&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   stated
+  &lt;/a&gt;
+  , &quot;and all organizations should have updated to it.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has been advancing its &quot;oldest acceptable version&quot; for some time, but this change takes the baseline to the final public update for Exchange 2016 and 2019. Any subsequent increase would leave only customers enrolled in the Extended Security Update (ESU) program or those who have migrated to Exchange Server Subscription Edition able to meet it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Organizations may retain on-premises Exchange servers to support hybrid deployments, applications, or other systems that depend on them for email.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Microsoft, throttling and blocking apply only to servers sending email to Exchange Online through an inbound OnPremises connector. Other delivery methods are unaffected, and the policy does not necessarily cover &quot;all servers in your organization.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company added: &quot;This might change in the future,&quot; which doesn&#x27;t sound sinister at all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Administrators must balance the need to apply security patches promptly against the risk that an update introduces problems of its own – something Microsoft has, to put it delicately, caused in the past.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some administrators responding to the announcement were more than a little perturbed, although Microsoft has
+  &lt;a href=&quot;https://techcommunity.microsoft.com/blog/exchange/throttling-and-blocking-email-from-persistently-vulnerable-exchange-servers-to-e/3815328&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   applied throttling and blocking
+  &lt;/a&gt;
+  to &quot;significantly out of date&quot; Exchange Server installations for several years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The announcement gives administrators advance notice of a change Microsoft says would have happened anyway. &quot;With or without this announcement, the change would have been made (just as it was made in the past, without any announcement),&quot; explained Microsoft Principal Project Manager Nino Bilic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The bottom line is that admins really need to understand that updating Exchange should be done on time.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PostgreSQL 19 connects the dots with standardized graph queries </title>
+<link>https://www.theregister.com/databases/2026/09/04/postgresql-19-connects-the-dots-with-standardized-graph-queries/5294500</link>
+<pubDate>Fri, 04 Sep 2026 13:07:35 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  PostgreSQL 19 is set to add standardized SQL syntax for querying property graphs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The open source database has steadily grown in popularity over the last five years, becoming the
+  &lt;a href=&quot;https://www.devclass.com/development/2023/06/13/postgresql-now-top-developer-choice-ahead-of-mysql-according-to-massive-new-survey/1623015&quot;&gt;
+   most popular among developers for the first time in 2023
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , Alastair Turner, PostgreSQL evangelist at open source consultancy Percona, said the property graph query support in PostgreSQL 19 – due later this month or early October – resulted from collaboration among several of the database&#x27;s largest contributors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Graph databases store data as nodes, relationships, and properties rather than tables or documents. They have advantages for certain workloads, but adopting one can mean adding another DBMS to the technology stack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The relational database
+  &lt;a href=&quot;https://www.theregister.com/software/2021/02/26/edb-tries-to-crowbar-graph-json-and-time-series-data-models-into-postgresql-but-can-they-pull-it-off/313740&quot;&gt;
+   has been acquiring graph query capabilities
+  &lt;/a&gt;
+  for some time, but PostgreSQL 19 is set to go further, Turner explained. &quot;All the rest of it has sort of been done through Object Relational Mapping over the top. This is actually baked-in graph syntax. It comes from the SQL 2023 standard.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Turner said the implementation was &quot;very heavily influenced&quot; by some of the engineers behind OpenCypher, the open source query language for graph databases. The work also involved PostgreSQL committers who sit on the SQL standards committee.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This is one of the most interesting developments because it&#x27;s one of the big multi-vendor collaborations. There was lots of coding and review work across quite a few of the big contributors,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new capability implements SQL/PGQ, which became part of
+  &lt;a href=&quot;https://www.iso.org/standard/79473.html&quot;&gt;
+   the SQL standard in 2023
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It&#x27;s on the right path,&quot; Turner said. &quot;The SQL community and the PostgreSQL community are going to try to optimize everything.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, he added that the implementation &quot;still needs one or two additional syntax features&quot; before it can displace dedicated graph databases for a significant number of workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Turner said: &quot;The current implementation creates queries across node-edge graphs to satisfy those requests. So some of them perform very well. What&#x27;s going to have to happen in the next iteration or two is that indexing add-ons catch up to improve the performance.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> JavaScript installer pnpm recast in Rust because ECMAScript can&#x27;t keep up </title>
+<link>https://www.theregister.com/devops/2026/09/04/javascript-installer-pnpm-recast-in-rust-because-ecmascript-cant-keep-up/5294394</link>
+<pubDate>Fri, 04 Sep 2026 12:22:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The popular JavaScript package manager
+  &lt;a href=&quot;https://pnpm.io/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   pnpm
+  &lt;/a&gt;
+  , already known for its speedy downloads, has further cut installation times by up to 90 percent thanks to a complete rewrite in Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet the freshly released version 12 of pnpm should not cause consternation while upgrading, its maintainer says.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Upgrading should not feel like a migration. The commands, flags, settings, and lockfile format of pnpm 11 all carry over, and the documentation covers both versions,”
+  &lt;a href=&quot;https://pnpm.io/blog/releases/12.0&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   wrote
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/zkochan&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Zoltan Kochan
+  &lt;/a&gt;
+  , the current lead maintainer of pnpm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the project’s
+  &lt;a href=&quot;https://pnpm.io/benchmarks&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   own benchmarks
+  &lt;/a&gt;
+  , pnpm 12 installed a sample uncached package in 5.19 seconds, compared to the 8.22 seconds pnpm 11 required and the 47.7 seconds npm itself required.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project team also built a registry server in Rust, called
+  &lt;a href=&quot;https://pnpm.io/pnpr/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   pnpr
+  &lt;/a&gt;
+  , which improves performance even further. In the above test, the installation took only 3.37 seconds with pnpr on the backend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A new Rust core binary, on which work started in April, eliminates a lot of the overhead that comes from routing filesystem work through Node.js. This new version is 65.9 percent Rust and 33.5 percent TypeScript, according to the GitHub stats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Package installation is dominated by fetching metadata and tarballs, unpacking files, resolving dependency graphs, and linking packages into node_modules, making it a natural target for native code and parallelism,” wrote Sarah Gooding, vice president of communications for security provider Socket,
+  &lt;a href=&quot;https://socket.dev/blog/pnpm-12&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   in a blog post
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gooding also noted that the project benchmarked pnpm against Bun and Yarn, but the results were removed due to testing SNAFUs. Nonetheless, she noted the software cut install times by up to 90 percent in some cases.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A faster npm
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Developer
+  &lt;a href=&quot;https://ricostacruz.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Rico Sta. Cruz
+  &lt;/a&gt;
+  originally created pnpm in 2016 as a faster alternative to npm (Node Package Manager), JavaScript’s de facto package manager, which devs used to find and download libraries and tools. GitHub
+  &lt;a href=&quot;https://github.blog/news-insights/company-news/npm-is-joining-github/&quot; target=&quot;_blank&quot;&gt;
+   acquired
+  &lt;/a&gt;
+  the open source
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958&quot; target=&quot;_blank&quot;&gt;
+   npm software and repository
+  &lt;/a&gt;
+  in 2020.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Npm garnered a reputation for being both sluggish and
+  &lt;a href=&quot;https://alphacoder.xyz/node-modules/&quot; target=&quot;_blank&quot;&gt;
+   hungry for disk space,
+  &lt;/a&gt;
+  thanks to its
+  &lt;a href=&quot;https://fettblog.eu/impact-of-large-node-modules/&quot; target=&quot;_blank&quot;&gt;
+   generous practice
+  &lt;/a&gt;
+  of downloading all needed dependencies onto users’ machines, regardless of whether they were duplicates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pnpm’s secret sauce is content-addressable storage. If you need a single library for 100 different applications, pnpm downloads it only once, and downloads another copy only if the developer specifies a different version.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Like npm, pnpm still draws from the official npm repository, but arguably works better than npm for many. Many devs also
+  &lt;a href=&quot;https://youtu.be/ZIKDJBrk56k&quot; target=&quot;_blank&quot;&gt;
+   like
+  &lt;/a&gt;
+  that the lockfile describing the package’s dependency tree was more readable thanks to its use of YAML.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://2025.stateofjs.com/en-US/other-tools/#monorepo_tools&quot; target=&quot;_blank&quot;&gt;
+   2025 State of JavaScript survey
+  &lt;/a&gt;
+  &lt;a href=&quot;https://2025.stateofjs.com/en-US/other-tools/#monorepo_tools&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  showed that pnpm was by far the most popular package manager for JavaScript monorepos, a party that also included
+  &lt;a href=&quot;https://nx.dev/docs/technologies/node/introduction&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Nx
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://lerna.js.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Lerna
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://github.com/wclr/yalc&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/wclr/yalc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Yalc
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://turborepo.dev/docs&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Turborepo
+  &lt;/a&gt;
+  and even npm’s built-in
+  &lt;a href=&quot;https://docs.npmjs.com/cli/v12/using-npm/workspaces&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Workspaces
+  &lt;/a&gt;
+  . About 38 percent (3,840) of 10,251 surveyed developers used the package manager.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Rust for JavaScript
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Rewriting applications in Rust seems
+  &lt;a href=&quot;https://www.theregister.com/databases/2026/07/29/after-rewriting-sqlite-in-rust-turso-turns-its-sights-on-postgres/5279835&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   to be a favorite activity
+  &lt;/a&gt;
+  these days, as the language is known for speedy performance unhampered by garbage collection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the Web app ecosystem alone, the Bun framework
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot; rel=&quot;nofollow&quot;&gt;
+   just got an AI-fueled Rust
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot; target=&quot;_blank&quot;&gt;
+   makeover
+  &lt;/a&gt;
+  , Tailwind CSS version 4
+  &lt;a href=&quot;https://anhtu.dev/tailwind-css-4-and-the-oxide-engine-when-a-css-framework-is-rewritten-in-rust-1094&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://anhtu.dev/tailwind-css-4-and-the-oxide-engine-when-a-css-framework-is-rewritten-in-rust-1094&quot; target=&quot;_blank&quot;&gt;
+   got a new Rust engine called Oxide
+  &lt;/a&gt;
+  , and the Vite framework now speeds along thanks to a Rust-built JavaScript bundler
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   called
+  &lt;/a&gt;
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://v7.vite.dev/guide/rolldown&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Rolldown
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It is a bit of [an] indictment on Node for having poor dx” (developer experience), wrote Darcy Clarke, CEO of JavaScript package management platform provider
+  &lt;a href=&quot;https://www.vlt.io/about&quot;&gt;
+   vlt
+  &lt;/a&gt;
+  , in
+  &lt;a href=&quot;https://x.com/darcy/status/2093388841642061998&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   an X message
+  &lt;/a&gt;
+  , about the Rust rewrite of pnpm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It was faster to rewrite pnpm in rust than to migrate to esm” (ECMAScript modules),
+  &lt;a href=&quot;https://x.com/zkochan/status/2093400468017778887&quot; rel=&quot;ugc&quot; target=&quot;_blank&quot;&gt;
+   replied
+  &lt;/a&gt;
+  pnpm&#x27;s Kochan, agreeing with Clarke’s sentiment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The software’s GitHub page still points at the last major release, pnpm 11.25, so existing users will have to update to the v12 branch specifically (“
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   pnpm self-update next-12
+  &lt;/span&gt;
+  ” will get you there). ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cloud snail-mail service Docmail enters third day stuck in the outbox </title>
+<link>https://www.theregister.com/off-prem/2026/09/04/cloud-snail-mail-service-docmail-enters-third-day-stuck-in-the-outbox/5294476</link>
+<pubDate>Fri, 04 Sep 2026 11:37:08 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Docmail, a service used by more than 30,000 UK businesses and public sector organizations, has been offline for several days, prompting concern among users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Operated by
+  &lt;a href=&quot;https://www.cfh.com/&quot;&gt;
+   CFH Docmail Ltd
+  &lt;/a&gt;
+  , the cloud-based hybrid mail service allows users to send physical letters without running their own print rooms or making trips to the post office. In other words, it handles the printing and postage of business communications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Docmail has been unavailable since the start of business on September 2, according to its
+  &lt;a href=&quot;https://status.cfhdocmail.com/&quot;&gt;
+   status page
+  &lt;/a&gt;
+  . It initially warned that the service was &quot;experiencing slower than usual processing times,&quot; before saying soon afterward:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Docmail is currently unavailable while we carry out essential maintenance. Our technical team is working to complete the maintenance and restore full service as quickly as possible. We apologise for any inconvenience caused and will provide a further update once the system is available again.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Throughout the rest of the day, techies continued to deploy &quot;required updates,&quot; and the service remained unavailable as work took place to &quot;ensure the service can be brought back online safely and reliably.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A further update on September 3 said Docmail was still &quot;temporarily unavailable while our teams continue to work to restore the service.&quot; The company thanked customers for their patience and apologized for the &quot;disruption.&quot; At the end of the day, it admitted: &quot;We do not yet have a confirmed restoration time. Work remains ongoing as a priority.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  By Friday – day three of disruption – the service remained unavailable, with techies still toiling to restore it and promising further updates when more information became available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Our attention was drawn to the Docmail debacle by
+  &lt;em&gt;
+   Reg
+  &lt;/em&gt;
+  readers concerned about the length of the outage and the lack of a restoration time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We contacted CFH Docmail for details of the disruption&#x27;s cause and when it expects the service to be restored.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CFH says many of its more than 30,000 business and public sector customers operate in UK healthcare. It claims that more than 75 percent of medical practices use Docmail for bulk mail and individual patient mailings, such as appointment reminders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers also include NHS Trusts such as Croydon Health Services, while dental practices, pharmacies, opticians, and medical research networks also rely on the service, as do some local authorities and businesses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the service remains offline, important communications such as health appointment reminders and letters from local councils may go unsent. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Wayve and Uber steal a march on Waymo with paid self-driving London rides </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/04/wayve-and-uber-steal-a-march-on-waymo-with-paid-self-driving-london-rides/5294451</link>
+<pubDate>Fri, 04 Sep 2026 10:45:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Wayve and Uber have launched self-driving rides in London, but what&#x27;s more interesting is what is planned for the next few months and years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As of today,
+  &lt;a href=&quot;https://wayve.ai/press/wayve-uber-launch-autonomous-rides/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   the plan
+  &lt;/a&gt;
+  is for 15 electric Ford Mustangs, equipped with the Wayve AI driver, to roam the capital, picking up passengers with a safety driver on hand to keep an eye on things.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, at a launch event on Thursday, Wayve showed off the follow-up to the Mustang: a Nissan LEAF, which will run the Wayve AI Driver using NVIDIA DRIVE Hyperion. This glimpse into the future was arguably more intriguing than today&#x27;s electric Mustang.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike the Mustang, the LEAF&#x27;s self-driving equipment looked as though it might have been part of the car&#x27;s design, from a roof-mounted sensor pack that followed the roofline, through to sensors attached to the wings and bumpers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A Wayve representative told us it had worked with Nissan on the integration. That said, the tech is relatively agnostic when it comes to platforms and sensor configurations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Wayve was, however, a little less forthcoming at the launch event about the underlying technology changes between the Nissan-based prototype on show and the Mustang parked up in front of it. The hope is that the update will reach UK roads next year, although that depends on several factors, including technology and regulations. Right now, Uber
+  &lt;a href=&quot;https://www.uber.com/gb/en/newsroom/wayve-on-uber/?uclick_id=e146d095-df47-41cf-b807-edec988fcb96&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   stated
+  &lt;/a&gt;
+  , &quot;The initial launch phase features supervised autonomous rides, meaning a trained and TfL licensed private hire driver is onboard to oversee the trip.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  So no San Francisco Waymo-esque rides with the driver&#x27;s seat spookily empty just yet. However, a Wayve representative told us the Nissan LEAF would eventually be capable of such a feat.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The rollout of the Mustang feels a little like a stunt to steal a march on competitors such as Waymo, which has also
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/04/15/waymo-self-driving-cars-face-toughest-test-yet-london/5222474&quot; target=&quot;_blank&quot;&gt;
+   had vehicles rolling around the tricky streets and traffic of London
+  &lt;/a&gt;
+  . Waymo is presently in a testing phase, but Wayve and Uber are now taking paying passengers. Both services, however, must have a trained driver onboard, poised to intervene if the need arises.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The untried nature of the Wayve and Uber Mustang is evidenced by the words &quot;TEST VEHICLE. KEEP A SAFE DISTANCE&quot; printed on the rear of the car. Paying passengers are part of the AI Driver&#x27;s learning process, with lessons learned feeding into the next generation of autonomous vehicles, which might, or might not, still need that safety driver behind the wheel, just in case.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Wayve was founded in 2017 and is headquartered in London. It has trained its AI tech on the city&#x27;s roads since 2018. In 2024, Wayve partnered with Uber, which included an investment to deploy vehicles with Wayve&#x27;s technology in 12 markets worldwide, starting with London. The LEAF will first see action in Tokyo. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Tape capacity shipments fell in 2025 but 2026 could be a boom year for tape </title>
+<link>https://www.theregister.com/tape/2026/09/04/tape-capacity-shipments-fell-in-2025-but-2026-could-be-a-boom-year-for-tape/5294464</link>
+<pubDate>Fri, 04 Sep 2026 10:41:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Shipped tape archive capacity went down 9 percent year-on-year in 2025 as enterprises archived less data, but a great shipment rise could be coming.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Data from the LTO Program Technology Provider Companies (TPCs) – HPE, IBM, and Quantum – shows a large pick-up in the first 2026 quarter, with a 57 percent rise over the first 2025 quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Quantum CEO Hugues Meyrath said: “We are seeing unprecedented data growth combined with increasing cost, energy, and cyber resilience pressures across the industry. As organizations adapt to this new reality, tape is increasingly viewed as a strategic component of modern data infrastructure, delivering predictable economics and resilient long-term data retention at scale.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The LTO organization has provided a tape capacity shipped chart in the past, assuming a 2.5:1 compression ratio to big up the numbers. That chart stopped in 2019. It has supplied annual EB shipped numbers for 2020 to 2025 and we constructed a chart with approximately the
+  &lt;span&gt;
+  &lt;/span&gt;
+  same dimensions for these years, as we did
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/07/23/lto-tape-market-rebounds-in-2024-with-1765-eb-shipped/1601737&quot; target=&quot;_blank&quot;&gt;
+   last year
+  &lt;/a&gt;
+  . Then we used a graphics program to position it next to the LTO chart and, voila, here is the result:
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 2018 dip was due to a patent dispute between the two tape ribbon manufacturers, Fujifilm and Sony, which restricted the global supply of LTO-8 tape media until a cross-licensing deal was agreed between the two. The 2020 dip was ascribed to the COVID-19 pandemic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we can see growth rebounded to a 148 EB total the next year but was then pretty much on-existent in 2022 with a modest increase in 2023. The 2024 jump to 176.5 EB was a 15.4 percent increase, and tape system and software vendors felt good about future prospects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alas, hopes were dashed with a 9.2 percent fall to160.3 TB in 2025. Perhaps buyers were waiting for
+  &lt;a href=&quot;https://www.blocksandfiles.com/tape/2025/11/13/lto-10-bumped-to-40-tb-as-future-tape-capacities-get-cut/1711787&quot; target=&quot;_blank&quot;&gt;
+   LTO-10
+  &lt;/a&gt;
+  tape to arrive. Even so, the LTO people said: “Shipped capacity was higher than any other year in history save 2024 itself, indicating structurally high demand for tape solutions.” Certainly compared to the situation before 2021 but 2024’s peak 176.5 EB number could be an outlier and not an indication of things to come.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However the Q1 2026 57 percent YY rise brings more hope. Some of that could be due to adoption of the new LTO-10 format, with the remainder due to a need to archive more data. We looked at old
+  &lt;a href=&quot;https://www.lto.org/wp-content/uploads/2014/07/LTO-MGM-50-Las-Vegas-Oct-20125.pdf&quot; target=&quot;_blank&quot;&gt;
+   LTO cartridge unit shipment numbers
+  &lt;/a&gt;
+  per quarter, from 2008 through to 2011, and found a fairly even 23 percent to 27 percent proportion of annual shipments per quarter, averaging 25 percent a quarter:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Let’s do some back-of-the-envelope math. Assume Q1 in 2025 represented 25 percent of the 160.3 EB shipped that year; that gives us 40.075 EB. Bump that up 57 percent to get the Q1 2026 number, and we get 62.92 EB shipped. Now multiply that by 4 to get a rough full 2026 EB shipped estimate – 251.67 EB. That’s huge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If, and this is a big if, that comes to pass, then 2026 will be a watershed year for the tape market, with tape ribbon vendors, IBM’s tape drive business, and the tape library system and software vendors all having a very good year..
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Enjoy the Windows 10 Update Experience at London&#x27;s O2 </title>
+<link>https://www.theregister.com/offbeat/2026/09/04/enjoy-the-windows-10-update-experience-at-londons-o2/5294302</link>
+<pubDate>Fri, 04 Sep 2026 10:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   BORK!BORK!BORK!
+  &lt;/span&gt;
+  Windows 10 is lingering on after its friends have gone home, plaintively flickering out an update notification on a digital sign at London&#x27;s O2 arena.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The sign was advertising the venue and some of the activities available inside, including an indoor skydiving experience. We&#x27;d recommend indoor skydiving as an alternative to jumping out of a perfectly good aircraft for those minded to give it a go, although the sight of Windows 10 making its presence felt is less than ideal when considering undertaking an extreme sport.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Indeed, a device bleating about a restart is not something one wants to think about just before you go inside and rely on the center&#x27;s tech to safely blast you toward the ceiling using a fan mounted below the floor. Certainly, mid-air acrobatics would take on an entirely new frisson if there was the added danger of Microsoft&#x27;s finest abruptly turning off the hardware to give itself a jolly good update.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We&#x27;ve all been in that meeting when Windows decides a restart is needed mid-presentation. It&#x27;s not great, and even less so when you&#x27;re dressed in a jumpsuit, helmet, and about to venture into a column of air.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not that this hardware was part of the indoor skydiving activity, of course. The digital sign was showing an advertisement for the company beneath the notification. Rather, it&#x27;s a very visible reminder of how much Windows 11 still has to do before it stamps its predecessor out of significance. According to
+  &lt;a href=&quot;https://gs.statcounter.com/os-version-market-share/windows/desktop/worldwide&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Statcounter
+  &lt;/a&gt;
+  (not the most reliable source, but in the absence of official data from Microsoft, a useful indicator), Windows 11 currently enjoys a market share of just under 70 percent, while Windows 10 stubbornly hangs on at 30 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Windows 10 left support last year, although the security update lights can be kept burning for a few extra years via Microsoft&#x27;s Extended Security Updates (ESU) program. In June 2026, Microsoft
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/06/26/microsoft-extends-extended-updates-for-windows-10-in-the-most-muted-way-imaginable/5262673&quot; target=&quot;_blank&quot;&gt;
+   quietly extended the updates
+  &lt;/a&gt;
+  for consumers to 2027. Up to three years are on offer for commercial users. For a fee, of course.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft&#x27;s extension and the notification on O2&#x27;s digital sign suggest Windows 10 isn&#x27;t going anywhere anytime soon. Then again, considering how well things have gone for Windows 11 since release, perhaps it too would benefit from a blast of air from below to lift it convincingly above its predecessor. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US law firm accuses UK AI software firm of unwanted contract renewal when it tried to leave </title>
+<link>https://www.theregister.com/legal/2026/09/04/us-law-firm-accuses-uk-ai-software-firm-of-unwanted-contract-renewal-when-it-tried-to-leave/5293995</link>
+<pubDate>Fri, 04 Sep 2026 09:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A US law firm is alleging that UK-based telecoms and software company ConnexAI sold it software and AI systems that failed to perform as the vendor claimed, and then unlawfully renewed its contract. ConnexAI has rejected the allegations. The dispute has involves two court cases, both of which are ongoing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DK Law, a personal injury specialist based in California, alleged in a California court filing in April that ConnexAI promises “customers a telephone system and AI software solution with functionality that does not exist or perform as represented.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also alleges in the California
+  &lt;a href=&quot;https://storage.courtlistener.com/recap/gov.uscourts.cacd.1018050/gov.uscourts.cacd.1018050.1.0.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   complaint
+  &lt;/a&gt;
+  [PDF] that ConnexAI continued to send it invoices after it had told the vendor it was not renewing the year-long contract.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  understands that ConnexAI believes the allegations to be frivolous and without merit. The vendor is branded ConnexAI, and registered as Connex One Limited in the UK and Connex One Inc in the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The customer’s claim followed a complaint that ConnexAI itself filed against the law firm the month before. In March 2026, in a New York court, ConnexAI filed a
+  &lt;a href=&quot;https://www.theregister.com/files/2026/09/03/original%20newyork%20STATE%20court%20complaint%20march%202026.pdf&quot; target=&quot;_blank&quot;&gt;
+   complaint
+  &lt;/a&gt;
+  [PDF] claiming its law firm customer had breached its contract by failing to pay invoices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dan Richardson, ConnexAI general manager of North America, said in a statement: “There is a limit to what we can say while the matter is before the court. This claim is one part of a wider dispute which was initiated by Connex One Inc. The allegations now being made are rejected, and we would note that they were raised only after we issued proceedings which are active.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its complaint in the US District Court, Central District of California, Southern Division, DK Law alleges that ConnexAI sold it a telephone system and software on the basis that it would provide phone and voice services
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot;&gt;
+  &lt;/span&gt;
+  integrated with SMS and WhatsApp. ConnexAI also said its Athena software included “sentiment analysis, entity recognition, call transcripts, interaction clustering, training cues, and the ability to identify trends.” Crucially, it also claimed the AI transcription worked in Spanish.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “ConnexAI represented that the Athena AI software included AI Agent, AI Guru, AI Analytics, AI Voice, Automatic Speech Recognition (ASR), all of which were represented to elevate customer interactions and enhance customer engagement and experience,” the filing said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Using AI agents would offer around-the-clock availability, faster response times and personalized interactions, with a “human-like voice and text-based communication,” the complaint argued.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After less than a year using the software, DK Law alleged its experience of the software differed from the claims made by the vendor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the California filing, the telephone system frequently “went down”, with calls often dropped or unanswered. Calls were also consistently misrouted, the customer alleges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problems were reported to the vendor’s support team. After the issue was escalated, the filing continues, ConnexAI sent US technical services engineers and the UK-based CTO to troubleshoot. “Sometimes the problem was resolved for the moment, only to recur shortly thereafter, with no permanent fix,” the complaint claimed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition, WhatsApp was unreliable and effectively unusable, DK Law alleges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While ConnexAI had claimed its ASR “would never miss a word,” DK Law claimed “this too was false.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Per the filing, on checking recordings of calls, the customer claims to have discovered that only a few seconds of a conversation were actually recorded despite evidence of a longer call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Connex also represented in pre-contract discussions that its software was able to create real-time call transcripts of customer interactions conducted in English and Spanish. However, in reality, the Connex software only sometimes produced a transcript. When compared to the recorded conversations, DK Law found the transcripts of calls conducted in English to be inaccurate, and the Spanish language transcription did not work at all,” the California law firm alleged.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Given the performance, the filing claims, Brendan Haverlock, DK Law CTO, told the vendor that the contract would not be renewed after it expired in October 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But that was not the end of the matter. The complaint alleges ConnexAI continued to invoice DK Law after the end of the contract term, demanding payment and &quot;harassing its employees&quot; for payment
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot;&gt;
+   , the customer alleged.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In March 2026, Connex Inc, the US company, launched a legal claim in the New York case against DK Law in which it alleged DK Law had failed to make the required payments and breached its contract.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The filing, which was originally made in the Supreme Court of the State of New York, and then moved to a New York District Court, said that in October 2024, the two companies entered into an agreement, which “renewed for a subsequent term commencing on October 8, 2025.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, in the separate but related California filing in April, DK Law alleged that ConnexAI had already breached the contract “by failing… to implement and deliver telecommunications and software services in a manner consistent with industry standards.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also said in the filing that ConnexAI&#x27;s claim that the contract had automatically renewed was not in accordance with New York State law, which “required Connex to give written notice of the automatic renewal in advance.” The law covers telecommunications and software. ConnexAI “never provided the requisite notice of automatic renewal,” DK Law alleged.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the California Court, DK Law seeks restitution and damages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a statement to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , ConnexAI’s Richardson questioned why Connex One Ltd was included on the California claim, given Connex Inc sued DK Law in New York.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the California filing, DK Law alleged the UK company “directly participated in the sales process, provided or controlled implementation and support personnel, and directed or ratified the post-notice renewal and retention conduct.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It said the US company is wholly owned and operated by the UK’s Connex One Limited and acted as a contracting arm or agent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The case is now waiting to move through the courts. Last week, (August 27) the California court denied DK Law’s claim, but only insofar as it “stayed” the case, pending the New York claim. In effect, that case is put on hold until the New York case is settled.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DK Law is attempting to have the New York case dismissed and has requested the court hear oral arguments. On September 1, in an order and opinion filed by federal magistrate judge Katharine H Parker, the motion to stay the case was
+  &lt;a href=&quot;https://www.theregister.com/files/2026/09/03/opinion_and_order_new_york_sept_1.pdf&quot; target=&quot;_blank&quot;&gt;
+   denied
+  &lt;/a&gt;
+  [PDF].®
+  &lt;br/&gt;
+  &lt;br/&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-fontface=&quot;Roboto&quot; data-lab-italic=&quot;italic&quot;&gt;
+   Reg
+  &lt;/span&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-fontface=&quot;Roboto&quot;&gt;
+   note:
+  &lt;/span&gt;
+  &lt;span data-lab-fontface=&quot;Roboto&quot;&gt;
+   We are not accepting comments on this article and have closed the forum.
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK military wants lasers to stop drone swarms without running out of ammo </title>
+<link>https://www.theregister.com/offbeat/2026/09/04/uk-military-wants-lasers-to-stop-drone-swarms-without-running-out-of-ammo/5294176</link>
+<pubDate>Fri, 04 Sep 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Britain&#x27;s Ministry of Defence (MoD) is seeking anti-drone technology capable of protecting troops from saturation attacks designed to overwhelm defenses or exhaust their ammunition.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The tender, dubbed Project PANOPTES, is being run by UK Defence Innovation (UKDI) on behalf of the MoD, with an initial £5 million ($6.8 million) available to successful bidders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  First-stage submissions close at midday on September 23, suggesting that the MoD is in something of a hurry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the competition document, PANOPTES aims to deliver &quot;an integrated Counter-Uncrewed Aerial System (C-UAS) force-protection capability, capable of autonomous operation.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MoD wants a system that complements its existing defenses by detecting, tracking, and defeating low-cost threats without being overwhelmed or rapidly exhausting its ammunition. It must operate autonomously and be mountable on an Army vehicle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  UKDI is &quot;particularly interested in capabilities centred on Laser Directed Energy Weapon (LDEW) effectors,&quot; although it will consider credible alternatives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The initial focus is on NATO Class 1 uncrewed aerial systems, a category covering military drones weighing up to 150 kg. These include the small battlefield craft used extensively in Ukraine against targets ranging from armored vehicles to individual soldiers, rather than larger drones intended to strike fixed installations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The requirement covers &quot;single, repeated, sequential and simultaneous threat profiles&quot; – including potential swarm attacks – as well as drones used for disruption or surveillance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Reg
+  &lt;/em&gt;
+  readers may recall that the British Army
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/12/12/british-army-tries-out-drone-destroying-laser/286506&quot;&gt;
+   tested anti-drone laser systems
+  &lt;/a&gt;
+  a couple of years ago. Soldiers from 16 Royal Artillery fired a 15 kW infrared laser mounted on a Wolfhound armored truck against airborne targets, &quot;neutralizing&quot; them at distances beyond 1 km.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MoD told us at the time that those trials were merely a capability demonstration intended to improve its understanding of laser technology. PANOPTES appears to move closer to procuring an operational system, although it wouldn&#x27;t be the first defense competition to lead nowhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We asked the MoD for further details, including when it anticipates any successful solutions might make it into service with the British Army.
+ &lt;/p&gt;
+ &lt;p&gt;
+  PANOPTES has two stages: applicants first outline their ideas, after which those behind the most promising submissions will be invited to submit detailed proposals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vulnerability to drones is a major concern for armed forces around the world. US defense startup Mara recently unveiled a
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176&quot;&gt;
+   counter-drone system
+  &lt;/a&gt;
+  that launches small interceptors from a vehicle roof, but these would eventually be used up in a battlefield situation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Britain&#x27;s Royal Navy also put out a
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2026/03/09/royal-navy-races-to-arm-ships-against-drone-threat/5222584&quot;&gt;
+   request for ship-based counter-drone systems
+  &lt;/a&gt;
+  earlier this year. Project TALON envisages combining kinetic projectiles with non-kinetic defenses such as lasers, microwaves, and electronic jamming.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Royal Navy ships are already due to receive the
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/11/24/royal-navy-to-get-drone-zapping-lasers-from-2027/2201336&quot;&gt;
+   DragonFire laser weapon
+  &lt;/a&gt;
+  , with the first system expected to be fitted to a Type 45 destroyer next year. Whether that technology can be shrunk or adapted for an Army vehicle is another matter. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PARTNER CONTENT: Best eSIM for travel 2026: which one offers the best value for money? </title>
+<link>https://www.theregister.com/personal-tech/2026/09/04/partner-content-best-esim-for-travel-2026-which-one-offers-the-best-value-for-money/5293006</link>
+<pubDate>Fri, 04 Sep 2026 08:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;10c40a07-261d-45be-a2aa-f4cd169fa73d&quot;&gt;
+ &lt;p&gt;
+  Comparing travel eSIM prices is not as simple as looking at a provider&#x27;s homepage. Most companies advertise low starting prices, but what travelers actually pay depends on whether they can buy a plan that matches the length of their trip.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If a provider only offers fixed duration packages, travelers may end up paying for several days of mobile data they do not need. For frequent travelers or longer trips, those extra days can quickly add to the total cost.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;strong&gt;
+   Travel eSIM Value Index 2026
+  &lt;/strong&gt;
+  compared three leading travel eSIM providers: Holafly, Saily and Airalo. The ranking looks at five factors that can affect the value of an eSIM before, during and after a trip.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;strong&gt;
+   Best value eSIM 2026: Overall results
+  &lt;/strong&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  To determine the best eSIM for travel in 2026, the analysis compared Holafly, Saily and Airalo across five areas:
+  &lt;strong&gt;
+   Pricing Efficiency (35 percent), Included Benefits (25 percent), Customer Experience (15 percent), Travel Flexibility (15 percent) and Connection Readiness (10 percent).
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Holafly achieved the highest overall score at 91.1/100, ahead of Saily (86.7) and Airalo (78.6). The results show that network quality has become largely comparable across leading providers, meaning the important differences now come from real trip costs, included features, customer experience and flexibility.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   Which travel eSIM offers the best value for money?
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Price is often the first thing travelers compare, but the cheapest advertised plan is not always the cheapest option for the trip they are actually taking.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Pricing Efficiency
+  &lt;/strong&gt;
+  accounts for
+  &lt;strong&gt;
+   35 percent of the overall score,
+  &lt;/strong&gt;
+  making it the most heavily weighted category in the index. Instead of comparing headline prices, the analysis calculates the real trip cost for journeys lasting between 1 and 30 days, based on the plans available from each provider.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because fixed duration plans can make travelers pay for more days than they need, a plan may look cheaper at first, but the final cost can be higher once you account for the days that go unused.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;br/&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Airalo and Saily require travelers to buy a 15 day plan for an 11 day trip. That means paying for four days of mobile service they do not need. By contrast, Holafly lets travelers buy exactly the number of days they need, eliminating unnecessary spending.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The same pattern appeared across the trip durations analyzed between 1 and 30 days. By reflecting consistently lower real trip costs across the benchmark,
+  &lt;strong&gt;
+   Holafly
+  &lt;/strong&gt;
+  achieved the highest
+  &lt;strong&gt;
+   Pricing Efficiency
+  &lt;/strong&gt;
+  score at
+  &lt;strong&gt;
+   100/100
+  &lt;/strong&gt;
+  , while
+  &lt;strong&gt;
+   Saily
+  &lt;/strong&gt;
+  scored
+  &lt;strong&gt;
+   96.3
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Airalo 91.6
+  &lt;/strong&gt;
+  . This was calculated by giving a 100 to the cheapest overall provider, while competitors lose points based on the exact percentage their plans cost extra. For instance, because Airalo&#x27;s median costs were 8.4 percent higher than the baseline, its final score was reduced to 91.6.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Paying only for the days you actually use can help keep travel costs down, but your experience abroad also depends on the extra tools that your plan has to offer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Which travel eSIM includes the most features?
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Price is only one part of the best value for money eSIM equation; features matter too, especially when they are included in the plan. Many travel eSIM providers advertise similar prices and unlimited data, but the experience can differ depending on what else comes with the plan at no extra cost.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;strong&gt;
+   benefits
+  &lt;/strong&gt;
+  category compared eight features commonly used by international travelers, including hotspot sharing, regional and global plans, top ups, security tools and emergency internet access. Providers received higher scores when these features were included as standard rather than charging extra.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both
+  &lt;strong&gt;
+   Holafly and Saily achieved the maximum score of 100
+  &lt;/strong&gt;
+  , but they offer different features.
+  &lt;strong&gt;
+   Holafly
+  &lt;/strong&gt;
+  is the only provider to include
+  &lt;strong&gt;
+   Always On
+  &lt;/strong&gt;
+  , which gives travelers complimentary backup data if they lose access to their main plan.
+  &lt;strong&gt;
+   Saily
+  &lt;/strong&gt;
+  includes an integrated
+  &lt;strong&gt;
+   VPN
+  &lt;/strong&gt;
+  , while
+  &lt;strong&gt;
+   Airalo
+  &lt;/strong&gt;
+  scored
+  &lt;strong&gt;
+   83.3
+  &lt;/strong&gt;
+  because fewer features are included as standard.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These features can make a difference during a trip, but when plans change or something goes wrong, the support and policies behind the purchase matter too.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   Which travel eSIM offers the best customer experience?
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The experience of using a travel eSIM doesn&#x27;t end after checkout: when travel plans change or problems arise during a trip, customer support and post-purchase policies can make a significant difference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To evaluate how efficiently each provider responds in these scenarios, the
+  &lt;strong&gt;
+   Customer Experience
+  &lt;/strong&gt;
+  category combines verified Trustpilot ratings with the refund policy offered by each provider.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While
+  &lt;strong&gt;
+   Holafly and Saily share the same Trustpilot rating of 4.7/5
+  &lt;/strong&gt;
+  , their refund policies are very different:
+  &lt;strong&gt;
+   Holafly
+  &lt;/strong&gt;
+  offers eligible customers up to
+  &lt;strong&gt;
+   180 days
+  &lt;/strong&gt;
+  to request a refund, compared with
+  &lt;strong&gt;
+   30
+  &lt;/strong&gt;
+  days for
+  &lt;strong&gt;
+   Saily
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   14
+  &lt;/strong&gt;
+  days for
+  &lt;strong&gt;
+   Airalo.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This combination of customer satisfaction and a longer refund window gave
+  &lt;strong&gt;
+   Holafly
+  &lt;/strong&gt;
+  the
+  &lt;strong&gt;
+   highest Customer Experience score at 90.75,
+  &lt;/strong&gt;
+  ahead of
+  &lt;strong&gt;
+   Saily
+  &lt;/strong&gt;
+  at
+  &lt;strong&gt;
+   69.95
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Airalo
+  &lt;/strong&gt;
+  at
+  &lt;strong&gt;
+   54.45.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  If your trip gets cancelled, generous refund terms protect you. But in a normal scenario, another advantage relies on how easily a plan fits your actual schedule.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   Which travel eSIM gives travelers the most flexibility?
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Travelers plan their trips differently: some know exactly how long they will be away and want to pay only for those days, while others may extend their stay and need more mobile data once they are already abroad. That makes flexibility an important part of the overall value of a travel eSIM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To evaluate this, the
+  &lt;strong&gt;
+   Travel Flexibility
+  &lt;/strong&gt;
+  category looked at two factors: whether travelers can buy a plan that matches the exact length of their trip, and whether they can extend an active plan without purchasing a new eSIM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Providers here take two different approaches to flexibility.
+  &lt;strong&gt;
+   Holafly lets travelers customise their plan from 1 to 90 days,
+  &lt;/strong&gt;
+  ensuring they pay only for the exact duration of their trip, while
+  &lt;strong&gt;
+   Saily and Airalo
+  &lt;/strong&gt;
+  sell plans in fixed blocks but
+  &lt;strong&gt;
+   allow users to extend an active plan without buying a new eSIM.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a result, all three providers achieved a score of 50 in this category, each offering flexibility at a different stage of the customer journey.
+  &lt;strong&gt;
+   Holafly
+  &lt;/strong&gt;
+  offers the best value eSIM
+  &lt;strong&gt;
+   before the trip begins,
+  &lt;/strong&gt;
+  while
+  &lt;strong&gt;
+   Saily and Airalo
+  &lt;/strong&gt;
+  offer it
+  &lt;strong&gt;
+   once the trip is already underway.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  With all these options and commercial terms varying significantly across brands, travelers might question whether the underlying mobile service itself differs just as much.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   Is there really any difference in network quality?
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Network quality is often one of the first things travelers look for when comparing providers. Fast activation, reliable coverage and access to 5G networks all matter. However, the differences between leading providers are much smaller than many travelers expect.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For this
+  &lt;strong&gt;
+   Connection Readiness
+  &lt;/strong&gt;
+  category, the Index compares destination coverage, activation speed, multi-network support and 5G availability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The benchmark found no meaningful difference between the three providers in this category.
+  &lt;strong&gt;
+   All achieved the maximum score,
+  &lt;/strong&gt;
+  reflecting comparable destination coverage, instant activation, multi-network support and 5G availability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This finding suggests that network quality is no longer the main differentiator among leading travel eSIM providers; the biggest differences come from real trip costs, included features, customer experience and travel flexibility, which account for 90 percent of the overall ranking.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  &lt;strong&gt;
+   So, which travel eSIM is the most convenient?
+  &lt;/strong&gt;
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Choosing a travel eSIM involves more than finding the lowest advertised price: as leading providers offer similar access to mobile networks, the differences that matter most are how much you actually pay, what is included in your plan and how you are supported if something goes wrong.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;strong&gt;
+   Travel eSIM Value Index 2026
+  &lt;/strong&gt;
+  evaluated the five areas that influence that experience:
+  &lt;strong&gt;
+   Pricing Efficiency, Included Benefits, Customer Experience, Travel Flexibility and Connection Readiness
+  &lt;/strong&gt;
+  . Together, they show how much travelers actually pay and how well a provider adapts to different trips.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Based on the combined results,
+  &lt;strong&gt;
+   Holafly achieved the highest overall score, positioning it as the best value for money eSIM in 2026 with 91.1/100
+  &lt;/strong&gt;
+  , followed by
+  &lt;strong&gt;
+   Saily at 86.7
+  &lt;/strong&gt;
+  and
+  &lt;strong&gt;
+   Airalo at 78.6
+  &lt;/strong&gt;
+  . Holafly ranked first thanks to its combination of the
+  &lt;strong&gt;
+   lowest real-trip cost, included features, highest Customer Experience score, and flexible trip durations
+  &lt;/strong&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   The best travel eSIM is not necessarily the one with the lowest advertised price on a website. It is the one that lets you pay for the days you need, gives you useful features as part of the plan and offers support when you need it.
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   &lt;strong&gt;
+    Content provided by
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;a href=&quot;https://esim.holafly.com/&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   Holafly
+  &lt;/a&gt;
+  &lt;span&gt;
+   &lt;strong&gt;
+    -
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;a href=&quot;https://docs.holafly.com/pdf/mkt/campaigns/travel_esim_value_index_report.pdf&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   Travel
+  &lt;/a&gt;
+  eSIM
+  &lt;a href=&quot;https://docs.holafly.com/pdf/mkt/campaigns/travel_esim_value_index_report.pdf&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   Value Index 2026
+  &lt;/a&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> On Call: User who handled life-or-death situations struggled with the SHIFT key </title>
+<link>https://www.theregister.com/personal-tech/2026/09/04/on-call-user-who-handled-life-or-death-situations-struggled-with-the-shift-key/5294131</link>
+<pubDate>Fri, 04 Sep 2026 06:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;425970a9-8cc4-45c2-8794-e40ea66a55a0&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   ON CALL
+  &lt;/span&gt;
+  Welcome to another Friday and therefore to a fresh instalment of On Call, our weekly reader-contributed column that shares your tech support stories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, meet a reader we’ll Regomize as “Roy” who toiled at a company that did work related to tissue donations and organ transplants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The on-call duties were a bit hair-raising due to the high stakes involved,” Roy told On Call. “Thankfully, things typically ran well and I didn’t get too many calls in the off hours.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  One call stuck in Roy’s mind, because it involved “an irate lab worker who was having difficulties logging into her workstation so she could get to work.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Roy started with the usual troubleshooting questions: was the machine connected to the network; were any lights on, and so on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “She was getting a bit more defensive, so I just reset her password and then had her change it to one she knew for sure, so we could move on with things,” he explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Strangely, even the new password didn’t work. Roy therefore asked if the lab worker would spell the password out to him, so he could use her credentials in the company’s webmail service.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The lab worker agreed and started to spell out her password.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Capital C, capital A, capital T,” she started, and then added “Capital Two.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The last one stood out to me as a number I wasn’t so familiar with,” Roy dryly told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What’s a capital Two?” he asked. “Did you mean an ‘@’ sign?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The next thing Roy heard was the sound of his user typing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “’OK, I got it,’ she replied, before ending the call.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Have your users used confusingly odd terms to describe the everyday? If so, show your mastery of the @ symbol by sending email to
+  &lt;a href=&quot;mailto:Oncall@theregister.com&quot;&gt;
+   Oncall@theregister.com
+  &lt;/a&gt;
+  . All donations of great stories welcome and we hope to transplant your contribution into a future edition of On Call! ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google engineer unplugged every fiber they could see and – surprise! – took down a chunk of the G-Cloud </title>
+<link>https://www.theregister.com/off-prem/2026/09/04/google-engineer-unplugged-every-fiber-they-could-see-and-surprise-took-down-a-chunk-of-the-g-cloud/5294418</link>
+<pubDate>Fri, 04 Sep 2026 04:48:25 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Google Cloud has revealed the embarrassing reason for a partial outage at its us-central1-b region this week: An engineer unplugged it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The incident spanned 07:41 to 11:52 PT on September 1,
+  &lt;sup&gt;
+  &lt;/sup&gt;
+  and saw a portion of the G-Cloud region experience “severe network degradation and resource isolation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Traffic flow drop rates for resources hosted in the affected area reached 100% during the peak of the incident, resulting in unreachable virtual machines and elevated packet loss,” states Google’s
+  &lt;a href=&quot;https://status.cloud.google.com/incidents/J5ia5t9p3g9Q5Wi7r8Ev&quot;&gt;
+   service health report
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The preliminary root cause on that page explains that Google designs its cloudy datacenters so they have “redundancy across multiple routing devices.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The system is designed to be resilient to all single device or fiber-path failures, and most double-or triple-failures do not affect customer traffic. To ensure this, the devices and fiber paths are physically separated in each datacenter, with diverse power sources,” the document explains.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But it’s possible to defeat all that redundancy by pulling out all the cables.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The immediate technical trigger for this event was the inadvertent physical disconnection of network fiber-optic cables during a routine hardware maintenance procedure,” Google explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A procedural error meant that the physical maintenance action sequentially unplugged 100% of fiber paths across all devices within 13 minutes. The nature of the error, combined with the speed of the action, prevented warnings of incorrect action reaching the engineer before complete disconnection.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once the engineer disconnected the routers, VMs in one zone of the us-central1-b region lost contact with the outside world. They could at least chat with each other, but users couldn’t contact their VMs to figure out what was going on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once Google noticed the situation, it moved traffic away from the routers that the engineer disconnected. At that point its resilience provisions kicked in as traffic automatically shifted what the company described as “healthy capacity elsewhere in the region.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  While that was going on, technicians “identified the disconnected optical links and physically reseated the fibers. Once the physical links were fully restored, traffic flow rates normalized and the traffic was redirected back to return the capacity to service.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  To summarize: A Google Cloud zone went offline because one of the company’s engineers pulled out all the cables that connected it to the internet. Once someone plugged everything in again, it started working.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  understands that outfits like Google create detailed procedures for how to safely maintain their infrastructure, and that technicians should always follow them carefully.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It therefore seems like the engineer who pulled the cables failed to observe one of the most basic rules of tech: RTFM. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> The search company that plants trees just launched a Linux browser to help Europe battle big tech </title>
+<link>https://www.theregister.com/software/2026/09/04/the-search-company-that-plants-trees-just-launched-a-linux-browser-to-help-europe-battle-big-tech/5294345</link>
+<pubDate>Fri, 04 Sep 2026 04:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Berlin-based eco-conscious search outfit Ecosia is expanding its range of European-focused web browsers to include a Linux version, citing the growing number of users in the EU looking for open alternatives to the clutches of American tech giants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Calling Linux users a “critical tech community that has long called for data privacy, digital sovereignty, and sustainability,” Ecosia said it was launching the new browser to support the community, whose numbers it says doubled in the EU between 2024 and 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The absolute share remains small, mind you - from 2.5 percent of EU computer users to 5.7 percent in the course of a year, but it’s still an increase that the Linux community can be proud of. Ecosia noted that Windows’ share of the market fell during that same period, from 80.2 percent to 74.2 percent. As of this writing, Linux’s share of the European desktop and console market is 6.4 percent, while Windows has dropped to 68.62 percent, per
+  &lt;a href=&quot;https://gs.statcounter.com/os-market-share/desktop-console/europe/cat_browser_market_share.svg&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Statcounter
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Linux in particular is becoming increasingly popular among tech circles, developers, and privacy-conscious users - a target group that views commercial tech giants like Microsoft and Google with increasing skepticism,” Ecosia said. Europeans don&#x27;t appear completely disillusioned with American tech, however, as macOS&#x27;s share in the region has nearly doubled since August 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regardless, the company said, it wants to meet Linux users where they’re at with a version of the company’s Chromium-based browser designed for trailblazing European digital sovereignty leaders freed from the grasp of Google.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “With our Linux version, we&#x27;re finally giving them a search engine that matches their values - climate- and privacy-friendly, and free of tech-bro monopolies,&quot; said Ecosia founder and CEO Christian Kroll.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ecosia has leaned hard into the European movement for
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2026/06/14/eu-sovereignty-push-gives-tech-buyers-a-new-alphabet-soup-to-swallow/5251995&quot;&gt;
+   sovereign technology
+  &lt;/a&gt;
+  in light of frustration with American tech giants, citing both the European Commission’s
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/04/16/eu-forces-googles-hand-on-search-data-angering-google/5219821&quot;&gt;
+   decision
+  &lt;/a&gt;
+  this year to require Google to share anonymized search data with eligible rival search engines, and what it says is growing dissatisfaction among Europeans over Google’s dominance of the search and browser markets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Separating the EU from Google isn’t a new initiative, with Ecosia and French search firm Qwant partnering on an EU-based web index that
+  &lt;a href=&quot;https://blog.ecosia.org/launching-our-european-search-index/&quot;&gt;
+   launched
+  &lt;/a&gt;
+  last year. It’s not clear whether that initiative has yet benefited from the EC’s order to Google to hand over search data. The duo’s initiative, the European Search Perspective (EUSP), is currently working to expand its presence to other EU languages to “lay the foundation for genuine European digital sovereignty,” though it’s not clear from the press release how far along the initiative is.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ecosia’s Linux browser is now available through the App Center on Ubuntu and directly through the
+  &lt;a href=&quot;https://snapcraft.io/ecosia&quot;&gt;
+   Snap store
+  &lt;/a&gt;
+  . Ecosia also has browsers available for Windows, macOS, iOS, and Android, all of which can be downloaded by following the link on its
+  &lt;a href=&quot;https://www.ecosia.org/&quot;&gt;
+   website
+  &lt;/a&gt;
+  . While based on open-source Chromium, Ecosia&#x27;s browsers themselves are not open source. We reached out to learn whether it&#x27;d be different for the Linux variant, but didn&#x27;t immediately hear back. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cisco searched for IOS XR bugs and found so many it rolled them into an update release </title>
+<link>https://www.theregister.com/security/2026/09/04/cisco-searched-for-ios-xr-bugs-and-found-so-many-it-rolled-them-into-an-update-release/5294410</link>
+<pubDate>Fri, 04 Sep 2026 02:18:36 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Cisco has warned its customers of three critical-rated flaws in its products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Two of them are present in the Cisco IOS XR operating system that powers the company’s carrier-grade kit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-20274 scores 9.8 on the ten-point CVSS scale and covers a buffet of buffering issues, the potential for out-of-bounds writes, and the chance to initialize resources with an insecure default.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-20279 is another 9.8-rated flaw. Cisco says it’s an improper access control problem that covers “improper certificate validation, missing authentication for critical function, missing authorization, and incorrect authorization.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cisco also spotted a trio of 8.8-rated flaws, plus another rated 8.6 and one more scored at 8.2
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company’s
+  &lt;a href=&quot;:https:/sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM&quot;&gt;
+   advisory
+  &lt;/a&gt;
+  says the company found the flaws after “a comprehensive internal security review,” language that perhaps hints at Cisco dabbling with Mythos and/or other bug-finding models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fix is in: Cisco has published new versions of IOS XR that fix the problems and “strongly recommends” customers adopt them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cisco’s support organization spotted the third critical flaw it revealed on Wednesday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-20212 is a tad embarrassing because the cause is a bad integration with Cisco’s own Silicon One networking processors that means some Nexus 9000 Series Switches “could allow an unauthenticated, remote attacker to execute code with
+  &lt;em&gt;
+   root
+  &lt;/em&gt;
+  privileges.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This vulnerability exists because TCP ports 43210 and 43211 are accessible in the default Layer 3 (L3) virtual routing and forwarding (VRF),” according to Cisco’s
+  &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9k-s1-rce-EH8dEtr&quot;&gt;
+   advisory
+  &lt;/a&gt;
+  . A successful exploit could allow the attacker to connect to an affected device and send crafted input that could be executed as code with
+  &lt;em&gt;
+   root
+  &lt;/em&gt;
+  privileges. The exploitation of this vulnerability could also cause the S1HAL process to crash, which could cause the device to reload.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ten Nexus 9000 devices have the problem, which Cisco suggests owners mitigate by using infrastructure access control lists (iACLs) to allow only required management and control plane traffic that is destined to the affected device.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Alternatively, the iACLs may be used to explicitly deny all TCP packets that are destined to a locally configured IP address with a destination port of 43210 or 43211,” the company advises.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The networking giant suggests that approach because it hasn’t yet created a software update to fix the flaw once and for all. The company has, however, delivered a
+  &lt;a href=&quot;https://software.cisco.com/download/products?swtypemdfid=286346710&amp;relver=10.6(3)&quot;&gt;
+   download
+  &lt;/a&gt;
+  that helps to implement the mitigation. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI commits $1B in AI credits to frontline cyber defenders </title>
+<link>https://www.theregister.com/security/2026/09/04/openai-commits-1b-in-ai-credits-to-frontline-cyber-defenders/5294382</link>
+<pubDate>Thu, 03 Sep 2026 23:47:05 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  OpenAI has pledged $1 billion in credits to subsidize access to its services and training for resource-strapped cyber defenders around the world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI giant expects organizations to use the subsidized credits over the next six months as part of its Daybreak for Frontline Defenders initiative, announced Thursday. Critical infrastructure organizations, community banks, nonprofits, and open-source maintainers can
+  &lt;a href=&quot;https://openai.com/collective-cyberdefense/application/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   apply for access credits
+  &lt;/a&gt;
+  online.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These are the defenders tasked with securing critical services that people rely on every day, but don’t have the budgets or staff to use advanced models and agentic technology to harden their cybersecurity. This makes
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070&quot; target=&quot;_blank&quot;&gt;
+   water systems
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930&quot; target=&quot;_blank&quot;&gt;
+   electrical utilities
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://www.theregister.com/special-features/2024/07/05/the-untold-impact-of-qilins-attack-on-london-hospitals/682164&quot; target=&quot;_blank&quot;&gt;
+   hospitals
+  &lt;/a&gt;
+  attractive targets for ransomware operators looking to halt operations and force extortion payments, as well as government-backed cyber operatives set on disrupting critical services and causing mass chaos.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many national security and cybersecurity experts say these
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594&quot; target=&quot;_blank&quot;&gt;
+   disruptions will likely become more severe
+  &lt;/a&gt;
+  as attackers increasingly use
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960&quot; target=&quot;_blank&quot;&gt;
+   autonomous agents and other AI tools
+  &lt;/a&gt;
+  to
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055&quot; target=&quot;_blank&quot;&gt;
+   carry out their attempted intrusions
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I&#x27;ve spent a lot of time over the past couple weeks talking to CISOs, and I think that we&#x27;re at a place where the median response is that we might be heading to a world where critical infrastructure outages are just a way of life,” OpenAI president Greg Brockman said during a live event on Thursday. “Water in your city being out for a week, it just kind of happens, and that&#x27;s quite scary. We have to act, and that&#x27;s one of the reasons we&#x27;re really putting our money where our mouth is.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new initiative also comes as
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780&quot; target=&quot;_blank&quot;&gt;
+   OpenAI faces scrutiny
+  &lt;/a&gt;
+  over its models’ safety after admitting that two of them went rogue,
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741&quot; target=&quot;_blank&quot;&gt;
+   spawned a swarm of agents
+  &lt;/a&gt;
+  that interpreted their instructions as allowing them to break out of sandboxes, and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/07/20/frontier-llms-couldnt-help-hugging-face-fight-off-evil-agents/5275168&quot; target=&quot;_blank&quot;&gt;
+   hacked Hugging Face
+  &lt;/a&gt;
+  earlier this summer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tatyana Bolton, cybersecurity lead at public affairs firm Monument Advocacy, said it’s “excellent” to see OpenAI commit resources to operational tech - not just IT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “AI in (operational technology) OT is inevitable, so operators must get prepared now,” Bolton told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “Initiatives like this help OT personnel get familiar with AI tools, learn how to operationalize them safely, and develop proactive defense strategies before threats escalate.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  But she added, software credits alone will not solve the underlying challenges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “OT environments suffer from legacy technology limitations, a shortage of engineering resources, and severe risk-aversion toward automated changes or rapid patching,” Bolton said. “To put this in context, OpenAI&#x27;s single pledge is more than 20 times larger than a $50 million federal (State and Local Cybersecurity Grant Program) SLCGP infrastructure allocation, and over 85 times larger than the (United States Environmental Protection Agency&#x27;s) EPA&#x27;s most recent $11.75 million dedicated cybersecurity and resilience grant pool for midsize and large water utilities.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  MS-ISAC pilot focused on water
+ &lt;/h3&gt;
+ &lt;p&gt;
+  In addition to doling out model credits, Brockman said OpenAI will also increase its training and hands-on support for defenders in essential sectors. This week, the company held a meeting with utility companies from more than 40 states that collectively provide services to more than half of the people who live in the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Also as part of the new initiative, OpenAI is launching a pilot program with the
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/09/30/cisa-kills-agreement-with-nonprofit-that-runs-ms-isac/764252&quot; target=&quot;_blank&quot;&gt;
+   Multi-State Information Sharing and Analysis Center (MS-ISAC)
+  &lt;/a&gt;
+  to train and support state, local, tribal, and territorial cyber defenders, beginning with public-sector and water-system defenders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The pilot will pair Daybreak access with guided training and hands-on assistance for an initial group of public sector and water system defenders, helping them validate and prioritize findings, coordinate remediation, and develop a repeatable approach that can be expanded over time,” according to a Thursday OpenAI
+  &lt;a href=&quot;https://openai.com/index/daybreak-for-frontline-defenders/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Just in time for Astra&#x27;s debut
+ &lt;/h3&gt;
+ &lt;p&gt;
+  All of this civic-minded work comes as OpenAI
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/03/openai-throws-astra-into-the-top-tier-model-ring/5294378&quot; target=&quot;_blank&quot;&gt;
+   debuts its latest Astra model
+  &lt;/a&gt;
+  , which researcher Eric Wallace called “world&#x27;s most capable model for cybersecurity” during the Thursday event. Wallace leads OpenAI’s efforts on training and evaluating models’ cybersecurity capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier in the week, OpenAI said
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/02/claude-mythos-only-model-to-complete-full-cyber-kill-chain-experts-say/5294071&quot; target=&quot;_blank&quot;&gt;
+   Astra reached its “critical” cybersecurity
+  &lt;/a&gt;
+  capability threshold. This means the new model is so good at finding and exploiting zero-day bugs that it poses a significant risk to critical systems, both from malicious users and even from the model itself, which is capable of carrying out harmful cyber actions “if misaligned.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because of this, OpenAI released Astra with a restricted level of cybersecurity capabilities that Wallace said the company will enforce through various safeguards. “We have things like system level mitigations that block certain prompts from going through,” he explained. “We have things like model level refusals that prevent certain types of tasks.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  This also means participants in OpenAI’s Daybreak Blue and Daybreak Red programs won’t have access to Astra on day one. Daybreak Blue is a restricted access tier for select partners who are allowed to use GPT-5.6 Sol for defensive cybersecurity workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Daybreak Red requires additional layers of approval and uses GPT-5.6 Cyber for authorized offensive security actions such as proof-of-concept exploit development, exploit-chain validation, penetration testing, and red teaming.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI giant is working to make Astra available to both programs’ participants “at a later date,” Wallace said.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI throws Astra into the top-tier model ring </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/03/openai-throws-astra-into-the-top-tier-model-ring/5294378</link>
+<pubDate>Thu, 03 Sep 2026 22:42:22 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  After a brief training pause to reflect on the inadequacy of its AI security measures, OpenAI has released GPT-6 Astra, initially for those in its Trusted Access Program.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Assuming all goes well and there are no more incidents like the
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780&quot;&gt;
+   Hugging Face hack
+  &lt;/a&gt;
+  , the AI biz in a few days will allow Plus, Pro, Business, and Enterprise subscribers to try out what the company
+  &lt;a href=&quot;https://developers.openai.com/api/docs/guides/latest-model?model=gpt-6-astra&quot;&gt;
+   describes
+  &lt;/a&gt;
+  as &quot;our most intelligent model yet, with state-of-the-art performance in computer use, browsing, software engineering, science, and professional work.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://openai.com/index/gpt-6-astra/&quot;&gt;
+   GPT-6 Astra
+  &lt;/a&gt;
+  arrives just two days after rival Anthropic debuted Fable 5.1, at the same eye-watering
+  &lt;a href=&quot;https://developers.openai.com/api/docs/pricing&quot;&gt;
+   price
+  &lt;/a&gt;
+  : $10 per million input tokens and $50 per million output tokens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Astra, OpenAI says, is the first of its models to reach the &quot;Critical&quot; level for cybersecurity capabilities under its
+  &lt;a href=&quot;https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf&quot;&gt;
+   Preparedness Framework
+  &lt;/a&gt;
+  . The 22-page policy document has been
+  &lt;a href=&quot;https://arxiv.org/pdf/2509.24394&quot;&gt;
+   panned
+  &lt;/a&gt;
+  [PDF] by researchers, who argue that it &quot;allows OpenAI’s CEO to deploy even more dangerous capabilities, especially if other AI developers do so.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  And here we are. OpenAI&#x27;s cautionary but upbeat assessment of Astra describes it as &quot;a significant step up in cyber capabilities.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This means that, with the right tools and access, GPT‑6 Astra can find previously unknown security flaws and develop new ways to exploit them across many well-protected systems without a person guiding each step,&quot; the company
+  &lt;a href=&quot;https://openai.com/index/safety-overview-gpt-6-astra/&quot;&gt;
+   said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI goes on to argue not to worry since Astra is more robust than prior models, better aligned, more comprehensively monitored, and safer in high-risk scenarios.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;[W]e built a new evaluation informed by the Hugging Face incident that evaluates whether a model facing a difficult or impossible task will go beyond its intended scope,&quot; OpenAI said. &quot;Compared to GPT‑5.6 Sol, which without production safeguards went beyond the authorized target 48 percent of the time, GPT‑6 Astra did this in 0 percent of cases.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other longstanding AI model problems are also said to have been reduced. On OpenAI&#x27;s internal hallucination benchmark, Astra scored 2 percent, down from 9.4 percent for GPT-5.6 Sol. And Astra is said to be three times less likely than GPT-5.6 Sol to misrepresent what it can do.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;GPT-6 Astra surpasses the human baseline in action efficiency on
+  &lt;a href=&quot;https://arxiv.org/html/2603.24621v1&quot;&gt;
+   ARC-AGI-3
+  &lt;/a&gt;
+  ,&quot; said Greg Kamradt, president of ARC Prize Foundation, in a
+  &lt;a href=&quot;https://arcprize.org/blog/astra&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  . &quot;It used fewer actions than the median tested human on 96 percent of levels.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  But it does so at far greater cost – about
+  &lt;a href=&quot;https://x.com/fchollet/status/2095598451115614371?s=20&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;
+   $360 per game
+  &lt;/a&gt;
+  in GPU-forged tokens compared to $0.00067 per game if one had to purchase electricity from the grid to run a human brain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fable 5.1 hasn&#x27;t been publicly evaluated on ARC-AGI-3, but
+  &lt;a href=&quot;https://arcprize.org/results&quot;&gt;
+   for version two of the test
+  &lt;/a&gt;
+  it scored 90 percent, compared to 95 percent for Astra.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra&quot;&gt;
+   Artificial Analysis
+  &lt;/a&gt;
+  , GPT-6 Astra matches GPT-5.6 Sol on its Intelligent Index with a score of 61, five points less than Claude Fable 5.1 and also trailing Meta Muse Spark 1.3. In terms of its competency as a coding agent, Astra scores 67, on par with Opus 5, Fable 5, and Muse Spark 1.3. But Fable 5.1 in Claude Code tops current coding agent scores at 70.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fable 5.1, however, appears to be significantly more expensive on a cost per task basis. Artificial Analysis&#x27; numbers put Fable 5.1 at $9.18 per task, compared to $4.72 per task with GPT-6 Astra.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Astra brings with it improvements in the Codex harness, which OpenAI claims result in a 1.9x faster task completion rate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Codex has also incorporated a new approach to context maintenance – retaining prior session text to inform future work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In Codex, Astra can keep notes across context windows, preserving accumulated details without repeatedly compressing them into a single summary,&quot; the company explains. &quot;Earlier context windows remain searchable, so Astra can find requirements or test results from previous messages and tool outputs – even if that information wasn’t captured in its notes.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This feature is currently experimental and must be enabled through the Codex
+  &lt;a href=&quot;https://learn.chatgpt.com/docs/config-file/config-reference&quot;&gt;
+   config.toml file
+  &lt;/a&gt;
+  until it becomes the default in a few weeks.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Hugging Face is too important to fall into Nvidia&#x27;s hands </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/03/hugging-face-is-too-important-to-fall-into-nvidias-hands/5294363</link>
+<pubDate>Thu, 03 Sep 2026 22:15:26 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   OPINION
+  &lt;/span&gt;
+  Nvidia on Thursday announced an agreement to acquire open source AI evangelist and model depot Hugging Face for
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/03/nvidia-buys-hugging-face-for-129b-promises-not-to-squeeze-too-hard/5294208&quot;&gt;
+   $12.9 billion
+  &lt;/a&gt;
+  in a deal that&#x27;s expected to close next year, assuming regulators don&#x27;t get in the way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They should get in the way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As antitrust magnets go, Nvidia buying Hugging Face takes the cake. You wouldn&#x27;t let an automaker acquire the primary means of fuel distribution. Nor would you let it buy the primary means by which the mechanics are trained. Yet, Nvidia&#x27;s acquisition of Hugging Face is tantamount to both.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unfortunately, the Trump administration likely lacks both the competence and teeth necessary to litigate the case, something that probably factored into CEO Jensen Huang&#x27;s decision to buy Hugging Face now.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To understand why Nvidia&#x27;s latest acquisition is so troublesome, we need to talk about just how important Hugging Face has become to the broader AI ecosystem. Have you seen the
+  &lt;a href=&quot;https://xkcd.com/2347/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   XKCD comic
+  &lt;/a&gt;
+  in which a piece of open source software maintained by a single developer is holding up all of modern infrastructure? It could be argued that Hugging Face is that piece for the AI industry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2016, the AI model repository has become the beating heart of the machine learning community. When a new open weights model drops, Hugging Face is the first place people look. A key element of its success has been its unrelenting commitment to open source AI, which has made it a sort of Switzerland for researchers, enthusiasts, and software devs to collaborate on neutral ground.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you&#x27;ve ever downloaded an open weights model, it almost certainly came from Hugging Face, whether you knew it or not.
+ &lt;/p&gt;
+ &lt;p&gt;
+  No matter how fervently Nvidia promises not to pollute Hugging Face&#x27;s hallowed ground, the temptation to use the platform to advance its hardware and software interests will inevitably prove too great for Huang and his lieutenants to resist for long.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In spite of this, Hugging Face CEO Clem Delangue sang Nvidia&#x27;s praises on Thursday, casting the acquisition and the capital it will bring as an opportunity to grow the company&#x27;s user base from around 18 million today to more than
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/03/hugging-face-ceo-says-planets-aligned-for-nvidia-deal-aims-to-reach-100m-users/5294293&quot;&gt;
+   100 million
+  &lt;/a&gt;
+  in the years to come.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet, just a year ago Hugging Face rebuffed a $500 million investment by Nvidia, suggesting Delangue knows he&#x27;s just made a deal with the devil. That said, with a cool $1 billion earmarked for Hugging Face employees joining Nvidia, Delangue and his cohort are going to have plenty of Benjamins with which to wipe away any tears of regret.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  What does buying Hugging Face actually get Nvidia?
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Nvidia would probably prefer to paint the acquisition as an altruistic move to provide financial security to one of the most important AI resources on the internet today.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The case certainly can be made that Hugging Face is that one brick holding up the rest of the AI ecosystem. If it ever did exhaust its runway, the consequences would be catastrophic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And Hugging Face&#x27;s business is capital-intensive. Storing petabytes&#x27; worth of AI models and datasets isn&#x27;t cheap, nor is the bandwidth required to continuously serve those models at scale. Nvidia&#x27;s involvement all but ensures Hugging Face never has to worry about infrastructure demand going forward.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But while the benefits of Nvidia&#x27;s patronage are obvious, so is the potential harm to the GPU giant&#x27;s competitors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite frequent comparisons to GitHub, Hugging Face is more than a place for storing and sharing model weights and training data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For example, Hugging Face is home to arguably the most comprehensive documentation on AI development on the internet. It wouldn&#x27;t be hard for Nvidia to use its newfound position to ensure its products are always better documented than its competitors&#x27;. You can claim until your face is red that the platform is still &quot;open,&quot; but just because something is open doesn&#x27;t mean it&#x27;s unbiased.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there are Hugging Face&#x27;s considerable software contributions. If you weren&#x27;t aware, the popular local AI inference engine llama.cpp
+  &lt;a href=&quot;https://huggingface.co/blog/ggml-joins-hf&quot; target=&quot;_blank&quot;&gt;
+   became
+  &lt;/a&gt;
+  part of Hugging Face earlier this year. Meanwhile, Hugging Face&#x27;s Transformers Python library — not to be confused with the model architecture — is a key piece of major inference platforms like vLLM and SGLang, which compete directly with Nvidia&#x27;s own TRT-LLM offering.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The acquisition puts Nvidia in a prime position to prioritize its own hardware and software products. The AI arms dealer wouldn&#x27;t necessarily need to do something as brash as ending support for competing platforms. It could simply ensure that the models and frameworks it favors are always better documented, and run first on its kit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One method to tip the scales would be to flood Hugging Face with cheap Nvidia-based compute. Hugging Face has offered compute resources in the form of its inference endpoints, providers, and Spaces for several years now. To supply this compute, Hugging Face worked with numerous providers across a range of hardware, including major cloud providers, inference-as-a-service vendors, and chip designers such as Nvidia, AMD, Cerebras, SambaNova, and Groq.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Hugging Face&#x27;s parent company, Nvidia would be in the position to subsidize compute through its various partners and economically incentivize developers to build for its hardware first. The GPU slinger would have to be subtle. Tying a certain percentage of a neocloud&#x27;s compute allocations to low-cost educational and development resources would be one way to do it without raising too many suspicions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  No matter how you slice it, nor how much Nvidia insists it&#x27;s totally not going to thumb the scales, its acquisition of Hugging Face has a high likelihood of harming competition. Hugging Face works better as AI Switzerland than it does as part of the most powerful company in the industry. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ZettaLane runs Lustre parallel filesystem off object storage </title>
+<link>https://www.theregister.com/object/2026/09/03/zettalane-runs-lustre-parallel-filesystem-off-object-storage/5294275</link>
+<pubDate>Thu, 03 Sep 2026 21:05:29 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Here’s an interesting idea;
+  &lt;a href=&quot;https://www.zettalane.com/&quot; target=&quot;_blank&quot;&gt;
+   ZettaLane
+  &lt;/a&gt;
+  has built MayaNAS, a Lustre parallel filesystem, with NFS, pNFS and SMB support, based on cloud object storage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It says MayaNAS can stream AI training at GPU speed, checkpoints land at tens of gigabytes per second, and capacity costs what object buckets cost. MayaNAS has been validated by
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/09/01/mlperf-storage-benchmark-updated-for-modern-ai/5293617&quot; target=&quot;_blank&quot;&gt;
+   MLPerf Storage v3
+  &lt;/a&gt;
+  benchmarks, recording 32.42 GB/s Llama 3 70B checkpoint write bandwidth, using two clients. On RetinaNet, 72 B200 GPUs were fed from one 200 Gb/s MayaScale client.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Santa Clara, CA-based ZettaLane was started up in June 2018 by CTO Supramani (Sam) Sammandam, a storage vet with more than 25 years in systems software at Lucent Technologies, IBM, HP, Dell and others. No VC funding has been recorded
+ &lt;/p&gt;
+ &lt;p&gt;
+  MayaNAS runs Lustre and OpenZFS with a design that changes storage economics: each OST (Object Storage Target) is an OpenZFS dataset whose
+  &lt;em&gt;
+   vdevs
+  &lt;/em&gt;
+  are regional, Standard-class Google Cloud Storage (GCS) buckets. Bulk data is read and written directly and concurrently to object storage through our
+  &lt;em&gt;
+   objbacker
+  &lt;/em&gt;
+  layer, while a small NVMe special
+  &lt;em&gt;
+   vdev
+  &lt;/em&gt;
+  holds only pool metadata and small blocks. There is no local SSD or ephemeral scratch tier in the data path
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sammandam tells us: “In the MLPerf Storage v3.0 results: ZettaLane’s MayaNAS was
+  &lt;span&gt;
+  &lt;/span&gt;
+  the only submission to run a standard Lustre parallel file system directly on cloud object storage — regional GCS as the data path, on standard cloud VMs, no local SSD, in the customer&#x27;s own account.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Verified by MLCommons, it&#x27;s a different tier from the flash results (Everpure et al.): parallel-filesystem throughput at object-storage economics, and not a GiB/s race. And it covered the full  pipeline without staging data to NVMe — including the POSIX-only KV cache that S3-native
+  &lt;span&gt;
+  &lt;/span&gt;
+  stacks can&#x27;t serve.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  We asked: “In a way you are like
+  &lt;a href=&quot;https://www.blocksandfiles.com/file/2026/07/02/nasuni-sorts-out-large-remote-file-smb/nfs-access-pain/5266047&quot; target=&quot;_blank&quot;&gt;
+   Nasuni
+  &lt;/a&gt;
+  , with a file system using object storage as a foundation?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sammandam replied: “Yes — at a high level, like Nasuni: a file system with object storage as its foundation. Others have taken that route by writing their own file system and then having to work hard to prove POSIX compliance. We took a different approach — building on battle-tested OpenZFS and its native separation of metadata (on a small NVMe device) from bulk data (on object). We presented that at the OpenZFS Developer Summit 2025, and the Lustre design at LUG 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Nasuni is cache-forward — an edge filer serves from a local cache with the authoritative copy in object, so performance tracks how much of the working set fits the cache. MayaNAS reads and writes directly to object, with no local data-cache tier in the path; in MLPerf the reads were served cold from object at GPU scale   — verifiable in Google&#x27;s own Cloud Monitoring metrics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The bigger difference is what it is: MayaNAS is a standard Lustre and pNFS parallel file system (it serves NFS/SMB too), on the stock in-kernel Linux clients — built for parallel, GPU-scale throughput, which is why it fits a benchmark like MLPerf. Our cloud-native pNFS builds on LANL&#x27;s open-source MDS (metadata server). Nasuni targets distributed enterprise file; MayaNAS does enterprise NAS as well and extends into HPC/AI parallel throughput straight on object.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “That&#x27;s really the whole idea. Object storage is clearly where AI storage is heading — but adopting it usually means rewriting applications to speak S3. MayaNAS addresses that directly: standard Lustre or pNFS on object storage, so you get object economics with nothing to rewrite.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There&#x27;s more here … the OpenZFS-on-object internals, the pNFS and LANL MDS work, MayaScale NVMe-over-TCP block, and branchable Postgres for Agentic AI, all on the same foundation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Read more in a ZettaLane
+  &lt;a href=&quot;https://www.zettalane.com/blog/lustre-cloud-object-storage-mlperf-storage-v3.html&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  about its MLPerf Storage v3 submission. Watch an iTWire TV video
+  &lt;a href=&quot;https://www.youtube.com/watch?v=jPhRlushQ04&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  - but set aside 70 minutes to do do.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPE’s record results buoyed by rising AI tide </title>
+<link>https://www.theregister.com/ai-ml/2026/09/03/hpes-record-results-buoyed-by-rising-ai-tide/5294254</link>
+<pubDate>Thu, 03 Sep 2026 21:02:54 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  HPE beat its $12.1 billion high-end revenue guidance for its third fy2026 quarter as AI pumped up overall enterprise demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenues of $12.2 billion in the quarter ended July 31 were up 34 percent on the year, with GAAP net income of
+  &lt;span&gt;
+  &lt;/span&gt;
+  $1.5 billion; an increase of 405 percent Y/Y as HPE’s profitability shot up. It had record orders, driven up by inferencing and agentic AI workloads. Sales momentum continued as the company received a $3.5 billion inferencing deal from a hyperscaler customer for servers after the quarter ended.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE president and CEO Antonio Neri said: “Our results demonstrate the durability of our profitable growth momentum. We delivered record revenue, orders, and profitability, fueled by surging customer demand across our portfolio. AI is becoming a multi-year growth driver for HPE, and our differentiated portfolio positions us to capture that opportunity at scale.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  His
+  &lt;a href=&quot;https://finance.yahoo.com/quote/HPE/earnings/HPE-Q3-2026-earnings_call-683499.html &quot; target=&quot;_blank&quot;&gt;
+   earnings call
+  &lt;/a&gt;
+  commentary expanded on this, saying: “AI has become a multi-year growth driver, expanding demand across our HPE portfolio. Customer demand in the quarter accelerated across both business segments, with orders growing faster than revenues. We booked more orders than any prior quarter in our history, resulting in a record-breaking backlog for the company.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Quarterly financial summary:
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Gross margin: 40.1%, up from 36.9 percent last quarter and 29.9 percent last year,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Operating Cash flow: $1.6 billion vs $1.4 billion last quarter and $1.3 billion a year ago,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Free cash flow: record $1.0 billion vs $915 million in the prior quarter and $790 million a year ago,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Diluted EPS: a record $1.06 vs $0.44 last quarter and $0.21 a year ago,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cash &amp; cash equivalents: $6.2 billion vs last quarter’s $5.3 billion and the year-ago $4.7 billion,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Total net debt: $14.0 billion vs $16 billion last quarter.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  HPE is paying off its net debt (deleveraging) faster than it anticipated, helped by the $1.4 billion proceeds from exiting the China-based H3C business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are two main business segments, Network and Cloud+AI. The networking segment saw $2.9 billion in revenues; 74.9 percent higher Y/Y, with orders up 36 percent to $700 million. It has 4 components:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Campus and  Branch revenue was $1.4 billion, up 31% from the prior-year period and a record high,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Data Center Networking was $382 million, down 6% from the prior-year period,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Security was $281 million, up 12% from the prior-year period’
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Routing was $788 million, 23% higher Y/Y.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Neri commented that, in networking: “Orders are growing 3.5 times faster than the revenue. What has limited us is the availability of supply. We expect that supply to become more aligned to our order bookings as we go forward, starting Q4.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Cloud and AI segment grew revenues a more relaxed 25.4 percent to a record $9 billion. Its component results were:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Server was $6.8 billion, up 35.3% Y/Y,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Storage was $1.3 billion, up 10.2% Y/Y,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Financial Services was $0.9 billion, 0.3% down Y/Y,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Other - $278 million, up 3% Y/Y.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  HPE could have shipped more kit but, Neri said: “Supply constraints continue to affect our ability to fulfill the increased customer demand. We are collaborating very closely with our partners to secure additional multi-year supply agreements.” That’s for memory and NAND.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The revenue rise was down to servers, Neri saying: “The server product category drove the outperformance with high demand for traditional servers and AI systems. We saw strong demand from large enterprises, neo cloud service providers, and sovereign customers. We expect demand to remain exceptionally high as our pipeline remains multiples of our backlog.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  EVP and CFO Marie Myers noted: “Higher average selling prices drove server revenue to an all-time high. … We see enterprises increasingly moving from AI pilots to production deployments, using traditional servers for agentic AI workloads and inferencing.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Like
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/09/02/dells-revenue-bonanza-benefits-from-killer-ai-workloads/5293866&quot; target=&quot;_blank&quot;&gt;
+   Dell
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/09/03/ai-adds-impetus-to-netapp-revenue-rise/5294164&quot; target=&quot;_blank&quot;&gt;
+   NetApp
+  &lt;/a&gt;
+  , Neri is seeing a structural market change: “A fundamental shift in the server business is becoming quite clear.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He added: ”The way customers value their IT infrastructure is changing. Their focus is not just whether a server can run AI workloads, but also how it can enable entirely new business workflows using new AI applications. We are seeing AI-related enterprise initiatives receive higher levels of investment than traditional IT projects. There is more top-level executive engagement in making those investment decisions, including company boards, which are championing AI technology to unlock further business transformation potential.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The hyperscaler server inferencing deal is not for the hyperscaler to offer services to its customers. Neri said: ”Think about them as an enterprise customer who is going to use our AI inferencing for their own internal usage.” It’s traditional servers as well, not AI servers with GPUs.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neri talked up HPE’s storage business: “Storage had a standout quarter with record revenue.
+  &lt;span&gt;
+  &lt;/span&gt;
+  It benefited from our decision to focus on our own IP offerings by delivering a modern multi-data protocol platform for the AI era. Customers are beginning to evaluate whether the AI workloads can be run most efficiently with the best secure data management and the lowest cost per token.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Organizations are still in the process of modernizing data storage environments while preparing for the next generation of AI-driven workloads and applications. They want data to be close to their AI infrastructure, and they want control over sensitive information. These trends are driving strong demand for our
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/12/01/hpe-storage-in-2025-alletra-rises/1704439&quot; target=&quot;_blank&quot;&gt;
+   HPE Alletra Storage MP
+  &lt;/a&gt;
+  storage solutions. We are confident our comprehensive data storage value proposition will continue to accelerate this momentum in our storage business.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Myers added this nugget: “Alletra MP orders and revenue increased strong double digits year-over-year. We see robust growth potential for our X10K object and file system, broadening our AI solutions portfolio to address the rapidly expanding unstructured data market.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  We’ve charted the recent storage revenue histories for Dell, Everpure, HPE and NetApp to provide a comparative view, and it shows HPE outpaced Everpure this quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But it trails behind NetApp and storage market leader Dell.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE’s GreenLake subscription business is booming. GreenLake customer numbers grew 18 percent to 52,000, up from 44,000 a year ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE is using AI internally to lower its costs, Myers saying: “we have expanded both our AI and operational simplification efforts across the enterprise. HPE is now deploying an internal agentic AI platform built on our own Private Cloud AI (PCAI), open-source, and open-weight models, leveraging intelligent routing that sends each workload request to the most cost-effective AI model. According to our own internal analysis, our PCAI offering can reduce token costs versus the public cloud by up to 60 percent.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Routine tasks stay on-premise, while frontier models are reserved for the most complex work.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Looking ahead, Myers said: “With our Q3 results and our order backlog at a record level, we are raising our financial outlook.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fourth quarter revenue outlook is $14.4 billion ± $450 million, a 48.8 percent mid-point rise on last year’s Q4. Its full fy2026 outlook is lifted from $44.6 billion ± $186 million to $46.5 billion ± $515 million, a 35.5 percent mid-point rise on fy2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI is pleasurably and durably inflating HPE’s revenue expectations, and that&#x27;s helping HPE increasing its fy2027 expectations, Myers saying: “Given the demand strength and sizable backlog we saw at the end of Q3, combined with some large deals we signed post quarter close, we are updating our fiscal 2027 framework and now expect consolidated revenues to grow 13-17 percent.” The previous growth range was 8-12 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neri said: ”Our guide is informed by what we see in the market, and the market is telling us that demand continues to be exceptionally strong.”
+ &lt;/p&gt;
+ &lt;h5&gt;
+  HPE and Oracle
+ &lt;/h5&gt;
+ &lt;p&gt;
+  HPE Juniper Networking routing and switching platforms support Oracle Cloud Infrastructure’s (OCI) data center and edge networks. OCI is expanding its AI superclusters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a consequence, Oracle is now buying more Juniper networking to link its AI data centers. This provides for the potential multi-year deployment of Juniper Networking PTX and MX routing platforms and QFX and EX switching platforms across Oracle data centers globally, along with multi-year networking support services. The latest QFX switches will provide the high-density connectivity, dynamic load balancing, and advanced congestion management required for large RoCEv2 (RDMA over Converged Ethernet version 2) AI backend networks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oracle and HPE are also collaborating on intelligent telemetry that delivers deeper visibility into device and fabric behavior.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nvidia Expands Its Open Source AI Presence With $12.9 Billion Hugging Face Buy </title>
+<link>https://www.theregister.com/ai/2026/09/03/nvidia-expands-its-open-source-ai-presence-with-129-billion-hugging-face-buy/5294352</link>
+<pubDate>Thu, 03 Sep 2026 20:55:49 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  Nvidia co-founder and chief executive officer Jensen Huang was among hundreds of executives with other tech companies who in July
+  &lt;a href=&quot;https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/&quot;&gt;
+   signed an open letter
+  &lt;/a&gt;
+  about why open source AI and, particularly open weight AI models, are important to US leadership in the overall AI space, from accelerating innovation and expanding access to cybersecurity and sovereignty.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a
+  &lt;a href=&quot;https://x.com/JensenHuang/status/2080643682408321103&quot;&gt;
+   post on X
+  &lt;/a&gt;
+  about the letter, Huang wrote that “AI will transform every industry, power every company, and be built by every country. ... The world needs both frontier closed models and frontier open models.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It was part of Huang’s years-long vocal
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/04/14/nvidia-brings-the-power-of-open-source-ai-models-to-quantum-computing/5217571&quot;&gt;
+   support for open source AI
+  &lt;/a&gt;
+  , which Nvidia has backed with such advancements as its
+  &lt;a href=&quot;https://www.nextplatform.com/code/2026/03/18/the-open-agentic-ai-world-according-to-nvidia/5209529&quot;&gt;
+   growing Nemotron family of models
+  &lt;/a&gt;
+  , specialized open platforms and frameworks that include Cosmos for physical AI, Isaac GR00T for robotics, and Clara for biomedical research. There also open tools for developers, including the
+  &lt;a href=&quot;https://www.nextplatform.com/ai/2026/08/11/nvidia-drives-bang-for-the-buck-with-new-genai-model-and-router/5286365&quot;&gt;
+   recently rolled out NeMo SwitchYard
+  &lt;/a&gt;
+  , an open routing library for AI agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia’s embrace of open source AI makes sense. As Huang likes to remind the industry, his company is the world’s largest AI computing platform and its GPUs fuel much of today’s AI workloads, making it the richest enterprise, with a market cap north of $5.4 trillion. The global open AI market is expanding rapidly and, in turn, is expanding access to AI, which
+  &lt;a href=&quot;https://www.nextplatform.com/ai/2025/12/17/nvidia-is-the-only-ai-model-maker-that-can-afford-to-give-it-away/1694348&quot;&gt;
+   drives even more demand for Nvidia’s GPUs and AI infrastructure
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now Nvidia is spending $12.9 billion of its vast wealth to become an even bigger player in the open AI space, following through on its reported intent to buy Hugging Face, which over the past ten years has grown to become the central platform, repository, and community for open source AI – referred to at times as the “GitHub for machine learning” – that hosts millions of AI models, includes a massive collection of open datasets for model training and evaluation, and offers open libraries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The deal is expected to close sometime in the first half of 2027, pending regulatory approval.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Bending The Curve To Make An Inflection Point
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Hugging Face chief executive officer Clément Delangue said that he and the other founders believed the company had reached an inflection point, that the open source AI community had grown to the point that continuing to support as it scaled required more resources than Hugging Face had. In an
+  &lt;a href=&quot;https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html&quot;&gt;
+   interview with
+   &lt;em&gt;
+    CNBC
+   &lt;/em&gt;
+  &lt;/a&gt;
+  , he pointed to Anthropic’s upcoming IPO, which some reports indicate could
+  &lt;a href=&quot;https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-planning-unveil-ipo-151235633.html&quot;&gt;
+   raise as much as $130 billion
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we have pointed out before, there are very few companies that can afford to frontier train AI models and give them away, but as the very existence of Hugging Face clearly demonstrates, there are plenty of developers who can train smaller models for domain specific tasks and set them free. Nvidia may be the only company that can open up frontier models, given the huge revenue and margins it has on AI hardware at the moment. (See
+  &lt;a href=&quot;https://www.nextplatform.com/ai/2025/12/17/nvidia-is-the-only-ai-model-maker-that-can-afford-to-give-it-away/1694348&quot;&gt;
+   &lt;em&gt;
+    Nvidia Is The Only AI Model Maker That Can Afford To Give It Away
+   &lt;/em&gt;
+   .
+  &lt;/a&gt;
+  )
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delangue said that in AI, there are “two tasks,” with one being proprietary APIs that large numbers of organization are outsourcing their AI jobs to. The second is “where open source AI is available to everyone and everyone can actually become an owner, a builder of AI, and not just renting it or using it from other people. It became clear that there were these two paths and that we needed to double down on open source AI to really distribute the technology as much as we and all over the world.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the companies, Hugging Face has more than 18 million developers and more than 200,000 enterprises using the platform, 3 million models, 1 million applications, and 500,000 datasets. And open source AI is a dynamic and fast-growing environment. Huang said Nvidia is the largest contributor to Hugging Face.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In August, Hugging Face
+  &lt;a href=&quot;https://huggingface.co/blog/state-of-open-models-summer-2026&quot;&gt;
+   released a report
+  &lt;/a&gt;
+  looking at statistics between January and July, with numbers showing a surge in open models released by Chinese labs (below) like Alibaba with Qwen (which the report said had become the “community’s base model”), Moonshot AI with Kimi, and DeepSeek.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, US companies AMD and Nvidia published the most new models. (below)
+ &lt;/p&gt;
+ &lt;p&gt;
+  I
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another interesting trend: AI agents have become the number one user on Hugging Face Hub (below), which the company said could significantly change the numbers in the next report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In an interview with journalists, Delangue said he first approached Huang this summer with the idea of Nvidia buying Hugging Face. Huang told CNBC his first reaction when approached by Delangue was that Hugging Face should stay independent, but he heard that other companies were interested in buying it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “At a time when open models are accelerating, this is really a very, very delicate time,” he said. “I want to make sure that it has all the support necessary. Open models matter greatly to our company, which is the reason why we invest so much ourselves. There are so many industries beyond languages that benefit from open models, and we&#x27;re completely committed to it. It&#x27;s really important to us that it lands in a good place, and Nvidia is a great home for them.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He noted that another indicator of the growing space that open models are taking up, noting that cloud services providers that use Nvidia technologies represent about half of the vendor’s business. The other half is driven mostly by open models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Nvidia is growing in both directions and our fundamental goal is just to make sure that AI advances as quickly as possible,” he said. “It&#x27;s really, really important right now as the open models are really accelerating, that we make sure that we provide Hugging Face the platform to continue to scale and for the resource for them to scale and extend the open model ecosystem and community.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Security A Driver Behind Hugging Face’s Decision
+ &lt;/h3&gt;
+ &lt;p&gt;
+  That rapid expansion of open source AI models was the key driver behind the decision by Hugging Face executives to approach Huang. However, Delangue pointed to a security incident over the summer that also fueled their thoughts. In July, hundreds of OpenAI agents that were being evaluated escaped their testing environment that was isolated from the internet and
+  &lt;a href=&quot;https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf&quot;&gt;
+   breached Hugging Face’s infrastructure
+  &lt;/a&gt;
+  . For the industry, the actions of the agents – which also included collaborating via a message board they created without authorization – was a warning shot about the threat that autonomous AI represents without sufficient guardrails.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also was a lesson for Hugging Face, whose
+  &lt;a href=&quot;https://huggingface.co/blog/security-incident-july-2026&quot;&gt;
+   initial response was hindered
+  &lt;/a&gt;
+  cause the commercial, proprietary AI models it was using for security triage includes guardrails that blocked the analysis of the exploit code. The company got around the blockage by moving its forensic analyst to Z.ai’s GLM 5.2 open-weight model that was running locally on its infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When that happened, what we realized is that we needed open models,” he said. “If you remember, we couldn&#x27;t defend ourselves with a proprietary, closed source API, so we had to use open models to defend ourselves. It did show the importance of open source.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
