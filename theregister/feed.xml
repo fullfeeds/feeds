@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Tue, 15 Sep 2026 23:21:40 -0000</lastBuildDate>
+<item>
+<title> The vulnpocalypse rains iBugs down on Apple with record-setting number of patches </title>
+<link>https://www.theregister.com/security/2026/09/15/the-vulnpocalypse-rains-ibugs-down-on-apple-with-record-setting-number-of-patches/5296679</link>
+<pubDate>Tue, 15 Sep 2026 21:38:31 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Apple has addressed more than 260 CVEs across all of its operating systems, browsers, and other software products, marking the largest single patch cycle in Cupertino&#x27;s history.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While this
+  &lt;a href=&quot;https://support.apple.com/en-us/100100&quot; rel=&quot;nofollow&quot;&gt;
+   CVE count
+  &lt;/a&gt;
+  is hardly notable compared to some vendors - hello,
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/09/microsoft-breaks-patch-tuesday-record-with-974-cve-deluge/5295160&quot;&gt;
+   Microsoft’s record-breaking
+  &lt;/a&gt;
+  974 bugs disclosed earlier this month - it does set a company record for Apple. It also reflects the new reality of
+  &lt;a href=&quot;https://www.theregister.com/patches/2026/05/14/welcome-to-the-vulnpocalypse-as-vendors-use-ai-to-find-bugs-and-patches-multiply-like-rabbits/5240027&quot;&gt;
+   AI-driven bug hunting
+  &lt;/a&gt;
+  , as models become exponentially better and faster at finding security vulnerabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the flip side of the AI coin we were promised - that models would also excel at writing patches and automatically fixing software and systems - yeah, that hasn&#x27;t happened yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The silver lining for everyone updating their Apple products right now (including this humble vulture): none of the vulnerabilities are listed as being under active exploitation. Of course, that may change very quickly as attackers are, at this very moment, looking to exploit the newly disclosed bugs, too. And we promise you that they are using AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple’s latest mobile and operating system versions, iOS 27 and macOS 27 Golden Gate, released on Monday, also address a record 122 and 204 security vulnerabilities, respectively, across phone, iPad, and computer operating systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of these hundreds of CVEs, however, there are only ten (by our count) that AI is directly credited with finding.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  iOS 27 fixes 122 flaws
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Just two of the iPhone and iPad CVEs
+  &lt;a href=&quot;https://support.apple.com/en-us/149034&quot; rel=&quot;nofollow&quot;&gt;
+   fixed with iOS 27
+  &lt;/a&gt;
+  credit a coding agent or AI assistant with finding them. These include CVE-2026-65410, a vuln that exists in iPhone and iPad AVE video encoders, that can cause unexpected system termination. Apple credited AI-bug-finding firm Calif, along with Claude and Anthropic Research, with finding and reporting this security flaw.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there&#x27;s CVE-2026-65409, a type-confusion issue in iOS’ Foundation framework that can be abused to cause a denial of service, also found by Calif - specifically human researcher Bruce Dang - in collaboration with Claude and Anthropic Research.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some of the more interesting and serious iOS bugs fixed with the newest update aren’t listed as found by AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These include CVE-2026-43689, a privilege-escalation flaw that could allow an app to gain root access. Apple credited Nosebeard Labs’ Andreas Jaegersberger and Ro Achterberg with reporting this bug.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additionally, CVE-2026-65406, a logic-issue flaw due to improper validation in Background Assets, could be abused to access sensitive user data. Background Assets is an Apple framework that lets you download large files and content in the background before a user opens the app for the first time. Baidu Security researcher Ye Zhang spotted this one.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  macOS 27 patches 204 vulns
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Meanwhile, the new macOS 27 update that addresses 204 vulns also fixes both the AI hunted bugs: CVE-2026-65410 and CVE-2026-65409. Plus, it credits AI helpers with discovering eight others, including one especially nasty flaw that could lead to remote code execution through the CUPS printer interface. Let’s start with that one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-43692 is a validation issue in CUPS that can be exploited by a remote user to either terminate the app or execute malicious code. Aaron Grattafiori and the Nvidia AI Red Team receive credit for disclosing this flaw.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-64790 in CUPS can be exploited to gain elevated privileges. Grattafiori and the Nvidia AI Red Team again get credit for the win.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-43791, a validation issue in StorageKit, can be abused to read files. Grattafiori, the Nvidia AI Red Team, Meridian Miftari, and Amy from amys.website disclosed this flaw to Apple.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-43690 is a race-condition bug in the Server Message Block (SMB) network communication protocol. A local user can exploit the flaw to read kernel memory. Calif’s Bruce Dang, with Claude and Anthropic Research, found this one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-43719 is another SMB use-after-free bug, discovered by Calif’s Dang and Jakob Pammer, Claude, and Anthropic. “Mounting a maliciously crafted SMB network share may lead to system termination,” Apple warned.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-65376 is yet another SMB issue - this one an out-of-bounds-read flaw reported by Dang, Claude, Anthropic, and 재영 정.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-65374 is a memory-corruption issue in the WebDAV protocol that can lead to code execution. Dang, Claude, Anthropic, and He Wei (ギカク) receive credit for finding this bug.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-65375, also in WebDAV, can cause unexpected system termination. Apple credited Dang, Claude, Anthropic, and Devcore Research Team’s YingMuo.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-43677 is an out-of-bounds write issue in WebDAV with a slew of researchers receiving credit for finding it. In addition to the usual trio (Dang, Claude, and Anthropic), bubu, Omar Cerrito, HE WEI（ギカク), Roman Zabicki, Richard Zana, Chris Bailey - Short Circuit, Aswin Kumar Gokulakannan, and Surya Narayan Kushwaha are on the list.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI networking startups race to replace Nvidia&#x27;s NVLink </title>
+<link>https://www.theregister.com/systems/2026/09/15/ai-networking-startups-race-to-replace-nvidias-nvlink/5296672</link>
+<pubDate>Tue, 15 Sep 2026 20:56:48 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  As Nvidia expands its influence through its NVLink Fusion tech, rival networking vendors are scrambling to bring alternative interconnects and switches to market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the AI Infra Summit this week, Delos Data and Cornelis Networks officially entered the scale up networking race.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Scale-up fabrics, like NVLink, are what have allowed Nvidia to make eight, 72, and now 576 GPUs behave as one enormous AI accelerator. To catch up, rivals like AMD have embraced emerging protocols like
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/04/08/the-no-nvidia-networking-club-delivers-first-spec/1072409&quot; target=&quot;_blank&quot;&gt;
+   Ultra Accelerator Link
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today, these protocols are largely being tunneled over standard Ethernet switches. For instance, AMD is using Broadcom’s 102.4 Tbps Tomahawk 6-based switches connecting to custom I/O dies on the
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/07/23/amd-attacks-the-rack-with-helios-systems-that-rival-nvidias/5277246&quot; target=&quot;_blank&quot;&gt;
+   MI455X
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Purpose-built UALink switches and physical interconnects remain elusive, but that won’t be the case for long if Cornelis and Delos have their way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The two companies are approaching this challenge from a few different angles, including standardization, software optimization, and physical hardware.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Setting the standard for the Never-Nvidia network
+ &lt;/h3&gt;
+ &lt;p&gt;
+  At AI Infra on Monday, HPC-centric networking vendor Cornelis
+  &lt;a href=&quot;https://www.cornelis.com/stories/cornelis-expands-into-scaleup-networking-with-active-compute-fabric&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   introduced
+  &lt;/a&gt;
+  the Active Compute Fabric (ACF), which seeks to establish an open architecture for scale up and scale out networking that integrates programmable compute into the fabric.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The standard signals Cornelis’ entry into the scale up networking arena. Spun out of Intel in 2020, Cornelis’ Omni-Path tech was originally designed as a scale-out interconnect for high-performance computing applications, including supercomputers like Trinity and Lynx.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the imminent launch of the company’s 800 Gbps-capable CN6000-series switches and NICs, the company has its sights set not only on bringing its tech to a broader audience through the open Ultra Ethernet protocol, but also on scale-up networking.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ACF expands on the mission of technologies like UALink and the Ethernet for Scale-Up Networking, another scale up networking protocol, to set a baseline for in-network compute capabilities across a wide range of hardware, not just Cornelis’ own CN-series parts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the key technologies behind Nvidia’s NVSwitch ASICs is support for SHARP, which allows for things like in-network collectives to be offloaded to the switch ASICs, freeing up GPU compute and cutting down on communication overheads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Collective acceleration isn&#x27;t new by any means, with major networking vendors from Broadcom to Cisco having implemented it in some capacity. As an open architecture, ACF appears to set a least common denominator so that customers deploying these systems know exactly what they’re getting.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, it doesn’t stop there. Cornelis sees opportunities to accelerate a variety of other functions. We’ve detailed a few below:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    KV cache offloading used to store and retrieve model state across multiple sessions.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    MoE expert dispatch to reduce duplicate transfers and communication overhead for mixture-of-experts models during inference and training.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Message passing interface offload for HPC-centric applications.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    In fabric checkpointing for failure recovery during training and other large workloads.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  “Communications overhead and synchronization can leave expensive accelerators underutilized,” the company explained. These in-network accelerators “allow the network to operate on data as it moves through the system.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Cornelis, the savings potential from reclaiming that idle compute is significant. “In a 100,000 GPU system, Cornelis modeling of public data shows that roughly half of all GPU hours are spent waiting for data, worth about $1.68 billion a year in wasted capacity and 500 GWh of power.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As usual, take these claims with a grain of salt. However, reclaiming GPU idle time would equate to significant savings. Eliminating all the bottlenecks that contribute to them is easier said than done.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A new kind of NIC for the AI age
+ &lt;/h3&gt;
+ &lt;p&gt;
+  While Cornelis champions its ACF architecture, Delos Data, a startup founded by former Barefoot Networks and Intel execs, aims to tackle the physical layer with a series of new network reference designs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Marketed under its Nonstop AI portfolio, the
+  &lt;a href=&quot;https://www.delosdata.com/newsroom/delos-data-unveils-nonstop-ai-to-build-and-scale-resilient-ai-clusters-to-deliver-nonstop-tokens&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   network interfaces
+  &lt;/a&gt;
+  span the full gamut of connectivity from co-packaged interconnects to more traditional NICs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The idea, the company explains, is to provide customers with a system-level blueprint for speeding up data movement between endpoints and enabling larger compute domains scaling beyond a single rack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delos’ data interface will be offered in three form factors. The first is an I/O die capable of more than 30 Tbps of aggregate bandwidth or about 8 TB/s in either direction. That’s more than double the interconnect bandwidth of either Nvidia&#x27;s or AMD’s latest accelerators, which cap out at 3.6 TB/s. Just how competitive that ends up being will depend on when Delos’ I/O chiplets actually see deployment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That timeline is going to depend heavily on integration since those I/O dies need to be integrated directly into the accelerator package, which requires a high-degree of co-design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Critically, Delos isn&#x27;t trying to trap its customers in a walled garden to the same extent that Nvidia does with its NVLink Fusion I/O dies or IP. At least as of writing, NVLink Fusion still requires customers to buy NVSwitches for scale up networking.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delos’ chiplets are protocol agnostic. They don’t care whether you’re using ESUN, UALink, or something else. Chip designers that&#x27;d rather focus their efforts and capital on the AI bits of their accelerators – which, it turns out, applies to most hyperscalers – could simply license Delos&#x27; chiplet design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This protocol agnosticism also extends to Delos’ near-packaged optics (NPO) tech, which will integrate a 10-plus Tbps data interface — that’s 2.5 TB/s bidirectional bandwidth in Nvidia speak — with optics engines from leading optics suppliers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rack scale systems, like Nvidia’s NVL72, have largely relied on copper interconnects up to this point due to power constraints. As systems grow from 72 GPU rack systems to row-scale clusters with 576 and eventually 1,152 GPUs, optics become unavoidable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While integrating optics directly into the accelerators is possible using tech available today, the blast radius of a failed optical module is considerable. NPO offers an alternative. Copper interconnects are used within the rack, with optics provided via user-serviceable NPO modules between racks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, Delos is working on a 400-plus Gbps NIC, which like the rest of its data interface offerings is protocol agnostic. This is arguably the least surprising entry in the entire lineup. Scale out networks are still going to be required for large training clusters as well as for front-end access and storage networks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These interfaces build on Delos’ existing
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/06/12/delos-data-offers-ai-chip-startups-a-fast-track-to-rack-scale/5254600&quot; target=&quot;_blank&quot;&gt;
+   compute reference design
+  &lt;/a&gt;
+  , which we looked at during Computex, as well as its Nonstop AI software platform, which is designed to facilitate the configuration and monitoring of these switched fabrics or meshes in order to enable dynamic rerouting of traffic in the event of a link failure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Telemetry gathered by its data interface offerings allows for even greater visibility into the network, allowing for faster rerouting and recovery.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Fueling competition
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Investors appear more than eager for more competition in the scale up arena. Alongside its product announcements, Cornelis announced approximately $205 million in funding to bring its next generation of scale up and scale out networking products to market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Delos Data announced Tuesday that it’s now raised
+  &lt;a href=&quot;https://www.delosdata.com/newsroom/delos-data-closes-over-100-million-to-deliver-delos-nonstop-aitm-for-faster-stronger-more-efficient-ai-capacity&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   more than $100 million
+  &lt;/a&gt;
+  in funding with support from venture capital firms Matrix, Playground, and Socratic Partners among others. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Your AI agents&#x27; reports and questions have a new inbox, courtesy of AWS </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/15/your-ai-agents-reports-and-questions-have-a-new-inbox-courtesy-of-aws/5296661</link>
+<pubDate>Tue, 15 Sep 2026 20:25:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  AWS engineers have published an open-source AI agent management tool that treats tasks and permission requests just like emails that fill up an inbox.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pizza Bot was
+  &lt;a href=&quot;https://aws.amazon.com/blogs/opensource/introducing-pizza-bot-an-open-source-inbox-for-ai-agents-that-work-in-the-background/&quot;&gt;
+   announced
+  &lt;/a&gt;
+  on AWS’ open-source blog last week, where it was billed by its developers as a way to more easily manage agent tasks without having to constantly check a chat window to see if a task was completed or on hold because more permission was needed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “You don’t send an email and then sit watching the outbox until the reply lands,” the Pizza Bot team wrote. “Pizza Bot is shaped like an email client for the same reason: a thread is a unit of work you come back to rather than a session you have to attend.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Like the modern email services it mimics, Pizza Bot organizes communications with AI agents into message threads. Finished tasks, along with detailed result writeups you’d expect from a colleague you’ve delegated your work to, end up in the Unread category, while anything you need to make a decision on is shunted to the Action category.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Asynchronous agent communication is likely to be a godsend for those balancing multiple tasks assigned to digital delegees, as the Pizza Bot team describes it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Live chat assumes both parties are present, which holds for a quick exchange and breaks the moment a task takes several minutes,” the Pizza Bot maintainers wrote. Just like you don’t want to stare over the shoulder of the poor IT sod you sent off to do a task while you watch YouTube videos, no one wants to sit there and watch an AI agent do web research, or whatever.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Pizza Bot treats an agent the way you’d treat a colleague who has gone off to do the work: it comes back when there’s something to read, or something only you can decide,” the PB team added.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Internal tool goes open source
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Pizza Bot, named for Amazon’s “
+  &lt;a href=&quot;https://aws.amazon.com/executive-insights/content/amazon-two-pizza-team/&quot;&gt;
+   two-pizza team
+  &lt;/a&gt;
+  ” model (i.e., small, autonomous teams small enough to be fed by two pizzas), began life inside Amazon as an internal tool for AI agent uses other than software development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to its developers, non-coding uses they were exploring internally continually had the same requirements, namely working in the background autonomously and only bugging their user when they were done or had a question.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “None of those describe how anyone uses a chat window,” the Pizza Bot team explained. “They describe how people already work with each other.” Email, they added, was the perfect design paradigm for internal use, and seeing whether it would work for everyone else meant opening the project to open source contributions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As mentioned, Pizza Bot is open source - you can snag a copy for Windows, macOS, and Linux from
+  &lt;a href=&quot;https://github.com/pizza-bot-app/pizza-bot&quot;&gt;
+   its GitHub repo
+  &lt;/a&gt;
+  . It runs on-device, stores all its communication threads locally in SQLite files, and doesn’t transmit anything off device unless you grant permission for it to do so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prompts and attachments are sent to model providers, naturally, but even that’s not necessary: Pizza Bot also supports Ollama, allowing users to run compatible open-weight AI models locally.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pizza Bot doesn’t ship with a lot of capabilities, as its maintainers noted that Amazon-specific skills and MCP servers were left out when they rebuilt it as an open source project for public release. Out of the box, however, it can list, read, write, edit, and search files, delegate tasks to specialist agents, and run a sandboxed JavaScript interpreter. It also ships with a browser automation skill and a guide skill that lets users ask about Pizza Bot’s capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Claude Code-compatible .mcp.json files are supported and can be dropped straight in, as can skills, the team noted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One word of caution to anyone who wants to try it: The devs make clear this is a piece of open source software, not an officially supported AWS product. “There’s no AWS support or service-level agreement behind it,” they note. If you’re gonna bake a pie with this bot, you’ve been warned. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Low-quality casino sites conceal highly dangerous threat actors </title>
+<link>https://www.theregister.com/security/2026/09/15/low-quality-casino-sites-conceal-highly-dangerous-threat-actors/5296652</link>
+<pubDate>Tue, 15 Sep 2026 19:38:58 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  If your employees are visiting Chinese-language gambling or adult sites, they may not just be wasting time and money, but potentially encountering serious malware hidden behind domains that look like mostly harmless entertainment at first glance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A
+  &lt;a href=&quot;https://www.infoblox.com/blog/threat-intelligence/how-money-laundering-scams-and-espionage-hide-in-a-web-full-of-casino-garbage/&quot;&gt;
+   report
+  &lt;/a&gt;
+  from Infoblox urges the security community to pay closer attention to these websites, because some double as command-and-control (C2) infrastructure for espionage and malware distribution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Zach Edwards, staff threat researcher at Infoblox,
+  &lt;a aria-label=&quot;X social media post&quot; href=&quot;https://x.com/thezedwards/status/2099914216711061579?s=20&quot; target=&quot;_blank&quot;&gt;
+   suggests
+  &lt;/a&gt;
+  security researchers and the media have ignored these sites because the story is complicated and confusing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Infoblox says it tracks about 1.7 million Chinese-language casino websites that facilitate illegal gambling. These support North Korean money laundering and tax avoidance, among other dubious activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And these casino sites can be difficult to distinguish from one another. They tend to use variations of common templates in terms of design and function. Many operate like a legal casino would, just relying on the advantage of house odds to profit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While these sites provide illegal gambling and adult entertainment for online visitors from China and Asia, some rely on US cloud providers for computing infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Major US hosting companies (Amazon, Microsoft, Cloudflare, and Google) continue to host infrastructure associated with these domains,&quot; the Infoblox report explains. &quot;One likely explanation is account theft at those providers, a practice documented previously as &#x27;infrastructure laundering.&#x27;&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  That refers to hosting companies like
+  &lt;a href=&quot;https://home.treasury.gov/news/press-releases/sb0149&quot;&gt;
+   Funnull
+  &lt;/a&gt;
+  that have
+  &lt;a href=&quot;https://www.silentpush.com/blog/infrastructure-laundering/&quot;&gt;
+   reportedly
+  &lt;/a&gt;
+  rented IP addresses from Amazon Web Services and Microsoft and made those resources available to clients carrying out illegal activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to a July 2026
+  &lt;a href=&quot;https://www.unodc.org/unodc/en/press/releases/2026/July/new-unodc-report-reveals-scale-of-south-east-asias-ever-more-interconnected-criminal-economy.html&quot;&gt;
+   report
+  &lt;/a&gt;
+  from the UN Office on Drugs and Crime (UNODC), disparate crime syndicates increasingly use common infrastructure for cybercrime, while online scams resulted in estimated losses of between $88.3 billion and $114.1 billion in 2025 across East Asia, Southeast Asia, Australia, and New Zealand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A subset of casino sites offer scam gambling, or &quot;
+  &lt;a href=&quot;https://krebsonsecurity.com/tag/scambling/&quot;&gt;
+   scambling
+  &lt;/a&gt;
+  .&quot; Visitors place bets but can&#x27;t get their money out if they win.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And then there&#x27;s a subset of sites used by China-aligned threat groups.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;China-aligned APT groups have been running the PeckBirdy framework since 2023, hiding their malware C2 domains inside low-quality Chinese-language casino websites,&quot; Infoblox said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/peckbirdy-script-framework&quot;&gt;
+   PeckBirdy
+  &lt;/a&gt;
+  , as noted by Trend Micro researchers in January, is a script-based framework that attackers can load through compromised websites. In one campaign, attackers injected scripts into gambling sites that loaded PeckBirdy and displayed fake software update pages designed to entice victims to download malware.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problem is that each of these three types of sites, though they change frequently, looks similar. Infoblox notes that just over 3 percent of its enterprise customers resolved at least one PeckBirdy C2 domain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The most important thing for defenders to do is stop ignoring casino domains,&quot; Infoblox argues. &quot;An alert on a Chinese-language casino or adult domain that gets closed as an employee browsing violation is precisely the outcome the PeckBirdy operators are counting on. The decoy works because the dismissal is reasonable – these domains genuinely are, most of the time, exactly what they appear to be.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Security analysts who review suspicious network contacts are advised to check whether these casino domains include malicious payloads before closing the review ticket. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Iranian spies hit Windows machines with Chosen Brick data-stealing malware </title>
+<link>https://www.theregister.com/security/2026/09/15/iranian-spies-hit-windows-machines-with-chosen-brick-data-stealing-malware/5296646</link>
+<pubDate>Tue, 15 Sep 2026 18:01:57 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Iranian state cyber actors are targeting individuals using social messaging apps to deploy surveillance and data-stealing malware on their Windows machines, three Western governments warned.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In all observed cases, Chosen Brick has infected Windows systems exclusively. Iran has used it since at least 2025 to take over individuals’ devices, stealing their contacts, emails, and social media messages, which allows the spies to track people’s movements, the FBI, UK National Cyber Security Centre, and the Netherlands’ General Intelligence and Security Service (AIVD)
+  &lt;a href=&quot;https://www.ic3.gov/CSA/2026/260915-2.pdf&quot; rel=&quot;nofollow&quot;&gt;
+   said
+  &lt;/a&gt;
+  on Tuesday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Iran almost certainly uses cyber activity to support the repression of individuals who are seen as a threat to the regime, such as dissidents, activists and journalists,” the security advisory said. “In some cases, the Iranian intelligence services have plotted to kidnap or conduct lethal operations against individuals internationally, who they perceive as enemies of the regime.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  These attacks typically begin with WhatsApp and Telegram messages, purportedly coming from individuals and organizations that the victim knows and trusts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Iranian spies do a significant amount of research to prepare for these
+  &lt;a href=&quot;https://www.theregister.com/security/2025/07/19/ex-idf-cyber-chief-talks-iran-scattered-spider-with-the-reg/1546887&quot;&gt;
+   social engineering campaigns
+  &lt;/a&gt;
+  . By the time they send the initial message via a social media app, they have “extensive” knowledge of the targeted individual, their contacts, and relevant industry organizations to make the phony messages more believable, according to the agencies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After building rapport with the mark, the attackers convince them to download and open a file that appears to be a legitimate application. Specifically: Pictory, RunwayML, Norton Antivirus, Telegram, Adobe Flash Player, and KeePass are among the legitimate applications the malicious files have been made to resemble, the government agencies said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Upon opening the file, the malware executes without the victim’s knowledge, and will survive a reboot of the target device. Chosen Brick also adds exclusions to Microsoft Defender antivirus in an attempt to evade detection, and then connects to Telegram for command-and-control (C2) communications using a victim-specific Telegram bot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the malware hasn’t yet been observed to automate lateral movement across the network, this is “technically possible,” the advisory noted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It does, however, download additional malware and set up persistence for new payloads on infected devices, using the same registry key that Chosen Brick uses to establish its own persistence on a Windows device: HKCU\Software\Microsoft\Windows\CurrentVersion\Run.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other features include enumerating running processes and system information, capturing screen and audio content, stealing emails, along with Telegram and WhatsApp data from web browsers, and wiping the computer system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Organizations that are concerned Chosen Brick has been executed should contact their IT providers, either internal or external, to investigate,” the US, UK, and the Netherlands warned. “As this actor targets personal devices, not just corporate devices, organizations are recommended to circulate this with their staff that are likely to be targeted and support them in checking their personal devices too.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Western agencies’ latest Iran alert follows a series of water and energy cyberattacks that researchers and media reports have linked to Iran, although the US and UK governments have stopped short of formally attributing them, as the military conflict between Iran and the US approaches its seventh month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In August, America’s lead cybersecurity agency, CISA, disclosed that the
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070&quot;&gt;
+   July cyberattacks
+  &lt;/a&gt;
+  that
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/29/iran-linked-cyberav3ngers-suspected-in-attacks-on-minnesota-water-systems/5280357&quot;&gt;
+   disrupted American water utilities
+  &lt;/a&gt;
+  across 12 states targeted more than
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/08/26/more-than-100-water-systems-were-hit-in-july-cyberattacks/5292685&quot;&gt;
+   100 internet-exposed water systems
+  &lt;/a&gt;
+  . CISA did not, however, attribute the campaign to Iran or anyone else.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Around the same time, a suspected Iran-linked cyberattack also
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930&quot;&gt;
+   shut down a small UK power plant
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Also in August, five US agencies warned that attackers are
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960&quot;&gt;
+   using AI-generated exploitation scripts
+  &lt;/a&gt;
+  to break into internet-exposed Siemens S7 Series programmable logic controllers (PLCs) at water, manufacturing, energy, and other critical facilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is not a theoretical risk – it is an active threat,” the feds
+  &lt;a href=&quot;https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a&quot; rel=&quot;nofollow&quot;&gt;
+   warned
+  &lt;/a&gt;
+  .  ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Higher-enriched uranium for datacenters has DoE all aglow </title>
+<link>https://www.theregister.com/offbeat/2026/09/15/higher-enriched-uranium-for-datacenters-has-doe-all-aglow/5296624</link>
+<pubDate>Tue, 15 Sep 2026 17:39:03 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The US Department of Energy has selected a new participant for a program aimed at expanding the domestic supply of fuel for next-generation nuclear reactors. However, we shouldn&#x27;t expect that to mean the US&#x27; ever-growing fleet of datacenters will be powered by low-carbon nuclear energy any time soon.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Utah-based Nusano
+  &lt;a href=&quot;https://nusano.com/nusano-haleu-platform-selected-for-nuclear-energy-launch-pad/&quot;&gt;
+   announced
+  &lt;/a&gt;
+  on Monday that the DoE had selected it for its Nuclear Energy Launch Pad Program designed to help companies commercialize their nuclear power concepts. In this case, Nusano is working on a new method of creating high-assay low-enriched uranium, or HALEU, fuel that’s required for most next-generation nuclear reactors, like small modular reactors (SMRs) and molten salt reactors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HALEU is defined as uranium enay, low-riched to between 5 and 20 weight percent of U-235, the primary fissile isotope that nuclear reactors use to generate power. Traditional nuclear reactors use low-enriched uranium of under five percent. The higher enrichment is needed for smaller, more efficient reactor designs that are currently under development. Several advanced reactor demonstrations in the US have reached zero-power criticality, but none is yet operating commercially.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US has been without a steady commercial-scale supply of HALEU for years, with Russia historically the main commercial supplier and China also possessing HALEU enrichment capability. As of 2026, there’s only
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2024/10/08/doe-haleu-supply-contracts-solve-step-2-ignore-step-1/1146084&quot;&gt;
+   a single company
+  &lt;/a&gt;
+  in the US actively producing HALEU, and it’s not Nusano. The DoE has signed agreements with
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/02/14/amazon-backed-x-energy-wins-nrc-license-to-make-triso-fuel/4484582&quot;&gt;
+   several others
+  &lt;/a&gt;
+  to produce more HALEU and related fuel products, but those firms are still establishing their facilities, and production remains minuscule.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Centrus, the only American company producing HALEU, has generated
+  &lt;a href=&quot;https://www.energy.gov/ne/haleu-frequently-asked-questions&quot;&gt;
+   less than
+  &lt;/a&gt;
+  two metric tons since it signed a contract with the government in 2019.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The competition heats up
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Nusano expects to blow Centrus’ meager fuel generation out of the water with its HALEU enrichment design. That said, the company’s design hasn’t actually been realized yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nusano didn’t answer a question about whether it had built a functional demonstration HALEU enrichment unit, and when asked whether it had produced any HALEU, the company said that prototype development is still under way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Nusano expects each unit will produce 5.9 metric tons (MT) of HALEU per year, with the first unit scheduled to be operational in 2031,” Nusano comms boss Scott Larrivee told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  in an email. “Nusano’s Launch Pad application includes a well-developed, practical plan to move from proof-of-concept to commercial implementation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for what that’ll look like, Nusano describes a method that’s completely different from other forms of HALEU production. Whereas other HALEU refiners use gas centrifuges to produce HALEU, spinning uranium hexafluoride gas at high speeds to increase U-235 concentration, Nusano’s method ditches gas entirely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The method is complex, costly, and potentially hazardous,” Larrivee explained. “If released, uranium hexafluoride reacts with moisture in air or human tissue to form highly toxic, corrosive hydrogen fluoride and uranyl fluoride.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those gases, Larrivee said, can cause potentially fatal injuries like chemical burns and lung and kidney damage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nusano is proposing a method that uses uranium feedstock that’s converted to metal prior to enrichment. Unspecified “proprietary separation techniques” are then used to enrich the metal and separate out U-235. The HALEU output of Nusano’s design is metal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The Nusano process is metal in, metal out. No deconversion. No gaseous fluorine chemistry anywhere,” Larrivee added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nusano’s current design only requires 1,200 square feet per HALEU unit, and the company anticipates its production cost will be lower than those of gas-centrifuge enrichment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, a lot of Nusano units will be needed to meet expected American demand. According to the DoE, HALEU demand could reach
+  &lt;a href=&quot;https://www.energy.gov/ne/haleu-frequently-asked-questions&quot;&gt;
+   50 metric tons
+  &lt;/a&gt;
+  per year by 2035, and Nusano is only expecting to get its first 5.9 MT/year unit up and running by 2031.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s also not clear if Nusano’s current promises will still be the same if and when its HALEU units are up and running. In June 2025, the company said it had achieved a breakthrough that would allow a single HALEU unit to produce 50 metric tons annually and enable it to scale production to 350 metric tons per year by 2029. Search the company website for that announcement today, and it’s gone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We were only able to see it by pulling up an
+  &lt;a href=&quot;https://web.archive.org/web/20260419085123/https://nusano.com/nusano-announces-breakthrough-haleu-program-expected-to-produce-up-to-350-metric-tons-of-fuel-annually-for-advanced-nuclear-reactors/&quot;&gt;
+   archived copy
+  &lt;/a&gt;
+  . Larrivee said that announcement was out of date, developed under prior company leadership, and that the numbers in the latest release were reflective of current development plans.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A number of datacenter operators have promised to embrace SMRs and other next-gen nuclear when the technology is available. With HALEU output still low and commercial-scale production years away, it&#x27;s unclear when those promises will be realized.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the Trump administration&#x27;s Environmental Protection Agency has just
+  &lt;a href=&quot;https://www.epa.gov/newsreleases/epa-finalizes-repeal-2024-power-plant-regulations-delivering-300-billion-savings&quot;&gt;
+   scrapped
+  &lt;/a&gt;
+  Biden-era emissions regulations for coal and gas power plants, which it said means coal generation in the US could increase by more than ten times current levels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other words, next-gen nuclear is, as ever, still on the horizon while bit barns
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/02/17/ai-bit-barns-grow-climate-emergency-by-turning-up-the-gas/4625156&quot;&gt;
+   crank up the fossil fuel turbines
+  &lt;/a&gt;
+  , now with even less regard to environmental impacts. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> America is building datacenters faster than the grid can power them </title>
+<link>https://www.theregister.com/on-prem/2026/09/15/america-is-building-datacenters-faster-than-the-grid-can-power-them/5296608</link>
+<pubDate>Tue, 15 Sep 2026 16:37:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Financial service biz Moody&#x27;s says the availability of power is still a major constraint on US datacenter growth as the pace of construction exceeds the speed at which the nation&#x27;s grid infrastructure can add the requisite capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  America is the epicenter of the datacenter construction boom, driven by the AI craze and demand for compute capacity to train ever-larger foundation models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latest report from Moody&#x27;s estimates the power needed by all those bit barns will reach 426 terawatt-hours (TWh) in 2030, citing data from the International Energy Agency (IEA). That is almost double the 2025 figure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It falls on the power sector to develop new resources to meet this extra demand as traditional power generation is struggling to keep pace. Moody&#x27;s calculates that building the additional generation capacity will cost about $110 billion, adding an estimated $25 billion to $30 billion a year to electricity system costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet efforts to supply the rapidly growing number of cloud and AI server farms are running up against lengthy permitting processes and long lead times for key equipment and materials, causing delays of up to seven years in some cases.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Management consultancy Bain &amp; Company highlighted the problem nearly two years ago when it warned that
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/10/11/energy-companies-told-to-recharge-for-ai-datacenter-surge/786471&quot; target=&quot;_blank&quot;&gt;
+   energy companies needed to significantly boost their generation capacity,
+  &lt;/a&gt;
+  reversing years of flat or declining demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Transmission buildout is a parallel bottleneck, with $80 billion to $115 billion in grid investment through 2030 already approved or under construction across US power markets, Moody&#x27;s says, with the potential to triple over the next decade.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Investment bank Jefferies reported in June that
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/06/17/only-half-of-us-datacenter-capacity-planned-for-2026-is-actually-under-construction/5257781&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   half of the extra US datacenter capacity planned for 2026
+  &lt;/a&gt;
+  is unlikely to come online this year, blaming power availability and grid connection setbacks, along with other issues including zoning and permitting challenges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regions able to accelerate development, such as
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/01/20/power-scarcity-drives-datacenters-to-texas/4644049&quot; target=&quot;_blank&quot;&gt;
+   Texas
+  &lt;/a&gt;
+  , have experienced a wave of datacenter construction. The resulting pressure on local grids has prompted some authorities to
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/08/10/as-datacenters-expand-so-does-public-opposition-to-them/5285449&quot; target=&quot;_blank&quot;&gt;
+   clamp down
+  &lt;/a&gt;
+  on new connections for compute sheds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Moody&#x27;s believes most new IT campus operators are still likely to seek grid connections to limit development costs and benefit from service reliability and shared redundancy. Yet many are also seeking alternatives, including
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/12/04/datacenters-must-generate-their-own-power-or-fail/2354924&quot; target=&quot;_blank&quot;&gt;
+   on-site behind-the-meter (BTM) power generation
+  &lt;/a&gt;
+  to avoid delays in bringing facilities online.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The document also notes that the growing energy demands from server farms are inflating power prices and customer bills in some regions of America, as
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/05/15/datacenters-slurping-juice-help-drive-75-jump-in-pjm-power-prices/5241491&quot; target=&quot;_blank&quot;&gt;
+   reported
+  &lt;/a&gt;
+  earlier this year. This has led to affordability concerns, fueling opposition to datacenters and prompting measures such as stricter approval frameworks and moratoriums on new projects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  President Trump even introduced a
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/07/26/trump-expands-voluntary-pledge-to-keep-datacenter-costs-off-household-power-bills/5278346&quot; target=&quot;_blank&quot;&gt;
+   Ratepayer Protection Pledge
+  &lt;/a&gt;
+  , under which tech giants and energy companies committed to shielding consumers from rising energy costs due to the datacenter boom.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the long term, Moody&#x27;s believes that large-scale infrastructure investment will ultimately strengthen grid reliability and affordability, despite the risks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Extra generation capacity will alleviate longstanding supply constraints, it says, reducing price volatility during periods of extreme weather or high demand, while expanded transmission networks could improve access to lower-cost generation resources, particularly when datacenter developers or their tenants help finance the associated infrastructure. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> CTERA finds 95% of enterprise file data rarely used </title>
+<link>https://www.theregister.com/file/2026/09/15/ctera-finds-95-of-enterprise-file-data-rarely-used/5296552</link>
+<pubDate>Tue, 15 Sep 2026 16:08:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Cloud file system supplier CTERA commissioned research that found just 4.4 percent of enterprise file data is actively used.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An analysis of 16 petabytes of live production data across 856 file-share scans in enterprise
+  &lt;span&gt;
+  &lt;/span&gt;
+  NAS environments, including regulated industries, found that 95.6 percent of it was inactive; redundant, obsolete, or trivial (ROT) data that serves no clear business purpose. Specifically:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    83.1 percent of the total stored capacity is in files that have not been modified in more than a year,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    97.5 percent of individual files had not been modified in more than a year,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    88 percent of individual files had not been accessed in more than one year,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    Only 9.9 percent of stored data was accessed in any given 90-day period.
+    &lt;span&gt;
+     &lt;br/&gt;
+    &lt;/span&gt;
+    &lt;br/&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   T
+  &lt;/span&gt;
+  his ROT data consumes storage as it is backed up, protected, and managed, increasing the resources needed to maintain the overall data estate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   CTERA CTO Aron Brand said:
+  &lt;/span&gt;
+  &quot;When only 4.4 percent of capacity is actively used, enterprises are running their most expensive storage tier as what is effectively a cold archive. That creates a multiplier effect across storage and data protection costs, security exposure, and now the quality
+  &lt;span&gt;
+  &lt;/span&gt;
+  of information available to AI systems.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In his view: ”This points to a fundamental challenge in how organizations think about data management. The answer isn&#x27;t simply to delete old data, it&#x27;s to make better decisions about where that data
+  &lt;span&gt;
+  &lt;/span&gt;
+  belongs. Information can be retained and protected without living on expensive primary storage.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The implication is that CTERA is going to do something about this.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It always
+  &lt;span&gt;
+  &lt;/span&gt;
+  has had an archival use case, which enables users with permission to move inactive data from primary storage into cost‑efficient archive cloud folders, while keeping it accessible by CTERA services and as metadata.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now it&#x27;s doing more, as its latest
+  &lt;a href=&quot;https://kb.ctera.com/docs/introduction-to-ctera-edge-filer-version-713x&quot; target=&quot;_blank&quot;&gt;
+   Edge Filer v7.13x
+  &lt;/a&gt;
+  includes an Archive function which “allows you to archive your inactive data, effectively reducing your storage costs.” This is
+  &lt;a href=&quot;https://kb.ctera.com/docs/ctera-products-end-of-supportlife-statement&quot; target=&quot;_blank&quot;&gt;
+   early access build software
+  &lt;/a&gt;
+  (v713.6000.19) and not yet generally available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers would use CTERA&#x27;s
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-management/2026/05/20/ctera-has-an-agentic-ai-management-interface/5243134&quot; target=&quot;_blank&quot;&gt;
+   InsightAI function
+  &lt;/a&gt;
+  to analyse their storage and identify what old stored data could be moved to cheaper online secondary storage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  InsightAI uses artificial intelligence to connect data activity, audit trails, metadata, permissions, capacity trends, and security events into a clear view of what is happening and where action is needed. It provides AI-powered visibility into storage growth, stale data, usage trends, and data lifecycle inefficiencies to help organizations reduce unnecessary storage expansion, improve forecasting accuracy, and optimize capacity utilization.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  InsightAI can be deployed as a CTERA-hosted SaaS offering, within a managed customer VPC (Virtual Private Cloud) on Azure or AWS, or fully deployed within customer-controlled private cloud environments, including AWS GovCloud and Azure Government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The findings of this Cold Data Report research can be found
+  &lt;a href=&quot;https://www.ctera.com/the-cold-data-storage-report/?utm_source=PR&amp;utm_medium=newswire&amp;utm_campaign=fy26_website_contentdownload&amp;utm_content=colddatareport&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Cisco email security boxes can be rooted by... an email </title>
+<link>https://www.theregister.com/security/2026/09/15/cisco-email-security-boxes-can-be-rooted-by-an-email/5296604</link>
+<pubDate>Tue, 15 Sep 2026 16:01:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Criminals are exploiting a critical Cisco Secure Email Gateway flaw that can turn a malicious email into root access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vulnerability, tracked as CVE-2026-76461, carries a 9.8 CVSS score and affects physical and virtual Secure Email Gateway appliances regardless of their configuration.
+  &lt;a href=&quot;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cisco says there are no workarounds
+  &lt;/a&gt;
+  , so patching is the only fix.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The bug lies in how Cisco&#x27;s AsyncOS software handles incoming email. An attacker doesn&#x27;t need to log in: they can send a booby-trapped message through a vulnerable gateway and, if the exploit works, run commands as root.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which is not exactly what you want from the box tasked with keeping nasty emails out.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cisco&#x27;s Product Security Incident Response Team said it became aware of active exploitation in September, although the networking giant hasn&#x27;t said who is behind the attacks, how long they have been going on, or how many organizations have been compromised. Cisco uncovered the bug while resolving a Technical Assistance Center support case.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Signs suggest at least some Cisco cloud customers were caught up in the attacks. Cisco said it investigated devices belonging to its Secure Email Cloud service and directly contacted customers whose appliances showed indicators of possible compromise. It is now carrying out remediation and recovery work and says all of its Secure Email Cloud devices have been upgraded to AsyncOS 16.5.0-780.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Admins running their own appliances have a little more work to do. Cisco recommends checking logs for signs of suspicious activity, but warns that finding nothing doesn&#x27;t necessarily mean the system is clean.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once attackers have root access, Cisco says they could tamper with the logs and cover their tracks. Admins are also being told to check network and firewall logs for anything unusual, rather than relying on the gateway itself for answers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For virtual appliances suspected of being compromised, Cisco&#x27;s recovery advice is fairly drastic: preserve the forensic evidence, deploy a fresh VM running fixed software, rebuild the configuration, and rotate credentials and cryptographic material.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cisco has fixed the bug in AsyncOS releases 15.5.5-014, 16.0.4-302 and 16.5.0-780, with customers strongly encouraged to move to the latter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There&#x27;s still a decent-sized target pool out there. The Shadowserver Foundation was
+  &lt;a href=&quot;https://dashboard.shadowserver.org/statistics/iot-devices/time-series/?date_range=90&amp;vendor=cisco&amp;model=cisco+secure+email+gateway&amp;dataset=count&amp;limit=100&amp;group_by=geo&amp;stacking=stacked&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   tracking
+  &lt;/a&gt;
+  more than 400 Cisco Secure Email Gateway appliances exposed to the internet as of Monday
+ &lt;/p&gt;
+ &lt;p&gt;
+  The flaw has also landed in
+  &lt;a href=&quot;https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   CISA&#x27;s Known Exploited Vulnerabilities catalog
+  &lt;/a&gt;
+  , with US federal civilian agencies ordered to remediate it by September 17.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CVE-2026-76461 comes less than a year after
+  &lt;a href=&quot;https://www.theregister.com/security/2026/01/15/cisco-finally-fixes-max-severity-bug-under-attack-for-weeks/4205144&quot; target=&quot;_blank&quot;&gt;
+   attackers exploited another critical AsyncOS flaw
+  &lt;/a&gt;
+  , CVE-2025-20393, to break into Cisco Secure Email Gateway appliances and install persistence mechanisms. That bug eventually scored a perfect 10.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For anyone still running an affected gateway, the message is fairly simple: the box designed to inspect hostile email can itself be pwned by one; attackers are already doing it, and there is no workaround to hide behind.  ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Twitter workaround worked around again: X&#x27;s lawyers cancel XCancel again </title>
+<link>https://www.theregister.com/personal-tech/2026/09/15/twitter-workaround-worked-around-again-xs-lawyers-cancel-xcancel-again/5296581</link>
+<pubDate>Tue, 15 Sep 2026 15:12:59 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Nitter and XCancel, a pair of social media services which let you view posts on X without an X account, are down again after the latest round of legal wrangling.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the
+  &lt;a href=&quot;https://xcancel.com/twitter&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   XCancel
+  &lt;/a&gt;
+  site now displays the message &quot;Unfortunately, due to a new development in the ongoing legal proceedings, we are required to suspend this service again until further notice,&quot; Nitter&#x27;s site is offline, and the
+  &lt;a href=&quot;https://github.com/zedeus/nitter&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   code repository
+  &lt;/a&gt;
+  was archived on September 11, 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Things were not looking good in August for the services, which allowed a user to view posts on X (formerly Twitter) without an account or having to endure adverts and accept trackers. X&#x27;s lawyers
+  &lt;a href=&quot;https://www.theregister.com/legal/2026/08/26/nitter-no-more-x-sends-in-the-lawyers-to-shut-down-open-source-project/5292548&quot; target=&quot;_blank&quot;&gt;
+   fired off a cease-and-desist letter
+  &lt;/a&gt;
+  , and the services acquiesced, going offline while the implications were digested.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A few weeks later, the services were back up and running. At the time, zedeus, Nitter&#x27;s maintainer, wrote, &quot;an announcement will be made within a week, once we&#x27;re able to reveal more information.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alas, that &quot;more information&quot; appears to be another cessation. XCancel wrote simply, &quot;We can&#x27;t share more details,&quot; and added a link to X for users keen for content.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is difficult to say for sure if and when the services might be back, or if users have headed elsewhere for their microblogging fix. Users not wishing to sign up for an X account have plenty of alternatives – Mastodon and Bluesky, for example.
+ &lt;/p&gt;
+ &lt;p&gt;
+  X has considerable form when it comes to rolling out the lawyers to fend off perceived threats or alleged abuses of its services, and is perfectly within its rights to do so. In the case of Nitter (and XCancel, which uses the project), the concern likely centered on how posts were viewed without an account, JavaScript, or ads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  X also attempted to defend the Twitter and blue bird trademark and branding in a
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/08/27/nitter-might-be-no-more-but-twitter-is-back-sort-of/5292949&quot; target=&quot;_blank&quot;&gt;
+   spat
+  &lt;/a&gt;
+  with tweet.app. It kept hold of Twitter (despite ditching the name after Musk&#x27;s takeover), but tweet.app snapped up the word &#x27;tweet&#x27; and the bird imagery. That&#x27;s for the time being, at least. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HPE recruits ex-Hitachi Vantara CEO </title>
+<link>https://www.theregister.com/multicloud/2026/09/15/hpe-recruits-ex-hitachi-vantara-ceo/5296477</link>
+<pubDate>Tue, 15 Sep 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  HPE has appointed ex-Hitachi Vantara CEO and HPE returnee Sheila Rohra as COO for its Hybrid Cloud business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  She resigned from storage array supplier Hitachi Vantara at the end of March, and Hitachi exec Akinobu Shimada succeeded her on 1 April 2026. The resignation was for personal reasons but followed
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/02/03/hitachi-vantara-may-be-up-for-sale/4090506&quot; target=&quot;_blank&quot;&gt;
+   news
+  &lt;/a&gt;
+  in January that Hitachi
+  &lt;span&gt;
+  &lt;/span&gt;
+  was looking to sell its Hitachi Vantara business for up to ¥200 billion ($1.3 billion). This, in turn, came after Lenovo bought storage array supplier Infinidat, completing the acquisition in April 2026. Hitachi Vantara has not been sold off and continues developing its products and
+  &lt;a href=&quot;https://www.blocksandfiles.com/block/2026/08/13/hitachi-vantara-storage-sales-buck-up/5287358&quot; target=&quot;_blank&quot;&gt;
+   increasing
+  &lt;/a&gt;
+  its sales revenue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At HPE Rohra will report to Fidelma
+  &lt;span&gt;
+  &lt;/span&gt;
+  Russo, EVP and General Manager of Hybrid Cloud and HPE CTO, who said: “AI is reshaping enterprise technology, and hybrid cloud is the essential foundation for organizations to harness their data, modernize infrastructure and scale AI securely. HPE has a
+  &lt;span&gt;
+  &lt;/span&gt;
+  differentiated portfolio and a significant opportunity to lead this next phase of the market. Sheila’s proven leadership and operating expertise will help us accelerate our strategy, drive growth and deliver greater value for our customers.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  For her part Rohra, who will
+  &lt;span&gt;
+  &lt;/span&gt;
+  accelerate execution, innovation, growth and scale across the HPE hybrid cloud portfolio, said: “I’m excited to rejoin HPE at such an important moment for our customers and the industry. With GreenLake and our differentiated portfolio across storage, private cloud, virtualization and cloud software, HPE is uniquely positioned to help enterprises simplify hybrid environments and build a strong foundation for AI. I look forward to turning that advantage into faster execution, sustainable growth and greater customer value.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  She joined Hitachi Vantara as its Chief Business officer in February 2023, working out how to transform the business, and becoming CEO five months later to do just that. Previously she was SVP and GM at HPE’s Data Infrastructure Business, having joined from being SVP Customer Success at NetApp in August 2021, with time at Cisco prior to NetApp.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE already has a COO; John F Schultz, EVP and Chief Operating and Legal Officer, heading the Operations, Legal and Administrative Affairs organization, and previously HPE’s and, before that, HP’s general counsel. He&#x27;s a lawyer while Rohra is a transformation specialist.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other executives have left Hitachi Vantara since its potential sale became public:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    CTO Jason Hardy left in February, joining Nvidia as its VP for Storage Technology.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Greg Knieriemen, Senior Director, Global Sales Enablement, left in June 2026, and joined Quantum.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Gary Lyng, VP of Product and Solutions Marketing and Analyst Relations, left in February 2026 to join EQIQ partners.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SPONSORED: Who&#x27;s governing your AI? A trust framework for enterprise agents and models </title>
+<link>https://www.theregister.com/security/2026/09/15/sponsored-whos-governing-your-ai-a-trust-framework-for-enterprise-agents-and-models/5294237</link>
+<pubDate>Tue, 15 Sep 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;66fd6813-02d2-46da-8dc4-98a00ceb39aa&quot;&gt;
+ &lt;p&gt;
+  Experienced IT leaders know that shadow IT is a persistent problem, but rapidly evolving AI and the proliferation of agents mean the potential threat - and cost - is greater than ever.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI agents are non-deterministic, autonomous, and adaptable. They excel at solving tasks in creative ways, often to the surprise of their creators. We&#x27;ve seen agents
+  &lt;a href=&quot;https://www.theregister.com/software/2026/02/12/ai-bot-seemingly-shames-developer-for-rejected-pull-request/4594087&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   write blogs
+  &lt;/a&gt;
+  that criticize project maintainers that refused their pull requests. Another one
+  &lt;a href=&quot;https://www.theregister.com/security/2026/03/09/ai-agent-hacked-mckinsey-chatbot-for-read-write-access/5228357&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   hacked a McKinsey chatbot
+  &lt;/a&gt;
+  to gain read/write access without asking for permission. And agents are getting smarter all the time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As an industry veteran, DigiCert&#x27;s senior vice president of product Brian Trzupek sees an old pattern. &quot;When the promise of the technology is so good, people are willing to throw security out the window, and they just want to get to that promise real fast.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  CISOs should be worried about allowing these agents into their infrastructure without strict controls, but it&#x27;s happening anyway.
+  &lt;a href=&quot;https://www.ibm.com/security/data-breach&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   IBM&#x27;s 2026 Cost of a Data Breach report
+  &lt;/a&gt;
+  found that more organizations lacked governance to manage AI or detect shadow AI, at 68 percent compared to 63 percent last year. The number requiring IT approval to deploy AI had fallen to 38 percent from 45 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DigiCert is trying to solve this problem with its own approach to AI governance called
+  &lt;a href=&quot;https://www.digicert.com/solutions/ai-trust&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   AI Trust
+  &lt;/a&gt;
+  . The framework, outlined in this
+  &lt;a href=&quot;https://www.digicert.com/content/dam/digicert/pdfs/whitepaper/the-new-trust-architecture-for-AI-whitepaper-en.pdf&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   white paper
+  &lt;/a&gt;
+  , builds on what the company is good at: public key infrastructure, DNS, and attestation.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The AI governance questions CISOs should ask
+ &lt;/h3&gt;
+ &lt;p&gt;
+  AI Trust uses these tools to help organizations answer five AI governance questions:
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         What agents your employees are using
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         What regulated data is flowing to them
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         Whose credentials they hold
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         Whether a compromised agent can be stopped immediately
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         Whether an incident can be reconstructed with a tamper-evident trail
+ &lt;/p&gt;
+ &lt;p&gt;
+  Almost every enterprise fails at the first hurdle, warns Trzupek. Developers build agents or buy them from vendors and deploy them internally without asking. Users might also spawn agents from inside tools like Claude Desktop or OpenAI Codex that will then create sub-agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Those sub-agents don&#x27;t assume the same rights and responsibilities and authorization as the parent agent,&quot; he says. &quot;So they try to delegate tasks that can be wholly controlled.&quot;
+ &lt;/p&gt;
+ &lt;h3&gt;
+  How to manage AI agent identity
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Most companies haven&#x27;t developed the tools to keep track of all these different agent types yet. The first step is to identify them. This is where many organizations make their first mistake by bolting agents onto the human identity and access management (IAM) stack they already have. The idea is that if you give an agent a service account and a long-lived API key you can treat them like a super-fast employee. That&#x27;s impractical.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;IAM was built for a human sitting at a keyboard who can tap &#x27;approve&#x27; on their phone,&quot; Trzupek says. &quot;An agent can&#x27;t do that. So you fall back to a static API key that never expires and has way more scope than it needs, and now you&#x27;ve undone everything zero trust was supposed to give you. It&#x27;s the exact credential we&#x27;ve spent a decade telling people to get rid of.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Industry bodies have started converging on a different answer. IDC now recommends treating agent identity as a workload identity problem rather than an extension of human IAM, aligning with the IETF&#x27;s Workload Identity Management and Security Extensions (WIMSE) and NIST&#x27;s Cybersecurity Framework version 2.0. They can then frame agents as governed workloads requiring runtime attestation and short-lived credentials .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This idea also pushes teams toward the Service Profile Identity
+  &lt;a href=&quot;https://spiffe.io/&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   (SPIFFE)
+  &lt;/a&gt;
+  and its SPIFFE Registration Endpoint (SPIRE). This is an open workload identity standard already deployed inside many hyperscaler-hosted Kubernetes estates, and they&#x27;re part of DigiCert&#x27;s AI strategy.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  DNS is a governance tool for agentic AI
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Inventory and identity might get you visibility, but you still need somewhere to enforce policy. DigiCert has strong opinions about where, tied to its history managing DNS integrity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  No matter whether an agent is resolving an API endpoint or connecting to an MCP server, it has to query DNS first. So why not make that a core verification point?
+ &lt;/p&gt;
+ &lt;p&gt;
+  DigiCert proposes a solution that looks a lot like the DMARC standard used for email. An organization would publish an agent policy record in DNS that declares several things:
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         Its authorized agent identities
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         The certificate authority that issued their credentials
+ &lt;/p&gt;
+ &lt;p&gt;
+  ·         The scopes they&#x27;re allowed to act within
+ &lt;/p&gt;
+ &lt;p&gt;
+  A gateway can then query that record to verify whether an inbound agent is legit, and terminate the session if the check fails . And if an agent contacts an unauthorized domain mid-execution, DNS can block the query and the MCP gateway kills the session.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IDC likes this idea but
+  &lt;a href=&quot;https://www.digicert.com/campaigns/the-domain-is-the-root-of-trust&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   warns
+  &lt;/a&gt;
+  that scale is an issue. As the number of agents grows, DNS records might not keep up, and stale records might become a loophole. Overly permissive scope declarations are also still a potential problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The scale problem is real, but it&#x27;s the same problem DNS has solved a hundred times before,&quot; Trzupek responds. &quot;You automate the lifecycle, you tie the record to the certificate issuance, and when the cert expires the record goes with it.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  And operators writing wildcard scopes because they&#x27;re in a hurry is a discipline problem, not an architecture problem, he adds.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Inside DigiCert&#x27;s AI Passport
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Agents built in-house live alongside third-party agents like Microsoft Copilot, Salesforce Agentforce and ServiceNow, and the control planes for the two categories are different. DigiCert&#x27;s answer is a single SPIRE server anchored to a DigiCert CA for identity, with policy enforced centrally in an Open Policy Agent engine, and a unified kill switch that operates across both categories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI Agent Passport is the artifact that ties the identity to the authorization. It&#x27;s a cryptographically protected record of approved systems and permitted operations. Each &#x27;passport&#x27; also contains things like data sensitivity classifications and expiration state, along with an accountable human owner.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Trzupek says the field that generates the most pushback in the design is policy itself, because customers typically have a complex web of policies already in GCP or AWS. &quot;Trying to replace those or displace them is a fool&#x27;s errand,&quot; he says. So the passport can hold pointers to those engines rather than replacing them.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  How to manage model integrity
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Governing agents is only half of the challenge. The models themselves are strategic assets, and they&#x27;re subject to integrity and provenance controls too. That means encryption and cryptographic signing of model artifacts, Open Container Initiative-compliant packaging with tools like the
+  &lt;a href=&quot;https://sigstore.dev/&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   Sigstore
+  &lt;/a&gt;
+  code signing initiative, and a cryptographically verifiable Model bill of materials describing weights, datasets and dependencies .
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also means governing models at runtime, not just securing the supply chain. DigiCert&#x27;s AI Trust framework advocates trusted hardware execution to help solve that problem. A model running inside a trusted execution environment on Intel TDX or AMD SEV-SNP stays encrypted in memory, isolated from the host OS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DigiCert operates a confidential computing attestation service that follows the IETF Remote ATtestation Procedures (RATS) architecture. The execution environment is the attester and DigiCert is the verifier. Downstream systems are the relying parties.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This approach moves attestation from a neutral third party rather than the cloud operator running the workload, which serves regulated buyers. Hyperscalers shouldn&#x27;t attest to their own integrity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those regulated buyers face some heavy governance conversations. In healthcare, the question is whether the AI model cleared through an FDA 510(k) pathway is the exact algorithm running in clinical deployment. Cryptographic attestation lets these companies prove model integrity before every inference. That addresses the FDA&#x27;s 2023 cybersecurity guidance on software integrity verification and SBOM enforcement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But while some regulated verticals have specific needs, AI governance is a cross-sector problem. Any organization storing customer data an agent can access or exfiltrate needs these controls.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Why build in AI governance now
+ &lt;/h3&gt;
+ &lt;p&gt;
+  This is agentic AI&#x27;s moment, so companies are at a pivot point, and they&#x27;ve been here before.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many of them spent the last 25 years following a cybersecurity antipattern: move fast to grab an opportunity with a significant new technology development, and call in the security team later to clean up the loose ends. It hasn&#x27;t gone well. With many organizations at the beginning of their agentic AI journey, they now have an opportunity to break that habit and do things right from the beginning using verifiable controls.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As frontier model prices climb and AI crops up as a noticeable cost on enterprise budgets, this will become an increasingly visible choice, concludes Trzupek. Companies will hold people more accountable for their use of agentic technology. Wouldn&#x27;t it be nice to have the controls in place and be ahead of the game for once?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Sponsored by
+  &lt;/span&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   DigiCert
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> CenterPoint Energy confirms intruder helped themselves to customer information </title>
+<link>https://www.theregister.com/cyber-crime/2026/09/15/centerpoint-energy-confirms-intruder-helped-themselves-to-customer-information/5296523</link>
+<pubDate>Tue, 15 Sep 2026 14:14:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Texas utility CenterPoint Energy has confirmed that an attacker broke in and stole customer information through one of its internet-facing systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company disclosed the breach in a Form 8-K filing with the Securities and Exchange Commission after a post on a cybercrime forum claimed to offer its customer data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Houston-based CenterPoint, which serves around 7 million customers, said its electricity and gas services remain operational and undisrupted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;While the investigation remains ongoing, the company has determined that an unauthorized third party obtained personal information relating to a portion of the company&#x27;s customers through one of the company&#x27;s external-facing systems,&quot; the
+  &lt;a href=&quot;https://www.sec.gov/ix?doc=/Archives/edgar/data/48732/000110465926107560/tm2625326d1_8k.htm&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   filing
+  &lt;/a&gt;
+  said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The company is continuing to work with third-party experts to determine the scope of customers and personal information affected by the incident and intends to notify affected customers and regulatory authorities as required by applicable law.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The company reported the matter to law enforcement authorities and has notified certain regulatory authorities of the issue.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The person claiming responsibility said they extracted 7.49 million of CenterPoint&#x27;s files from a poorly secured API.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among the data allegedly available to download are customer names and contact details, billing data, move-in dates, driver&#x27;s license information, and the last four digits of Social Security numbers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  has not independently verified the contents of the alleged data dump, and CenterPoint did not respond to our request for comment on the veracity of the claims.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CenterPoint said it does not believe the incident is reasonably likely to materially affect its financial condition or results of operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For operators of critical infrastructure,
+  &lt;a href=&quot;https://www.theregister.com/security/2026/02/02/energy-infrastructure-cyberattacks-are-suddenly-in-fashion/4860111&quot; target=&quot;_blank&quot;&gt;
+   cyberattacks
+  &lt;/a&gt;
+  can lead to far worse outcomes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Recently, disruptive attacks have been recorded at facilities in
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/13/uk-eu-officially-pin-poland-energy-cyberattack-on-russia/5270458&quot;&gt;
+   Poland
+  &lt;/a&gt;
+  and the
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930&quot; target=&quot;_blank&quot;&gt;
+   UK
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/08/26/more-than-100-water-systems-were-hit-in-july-cyberattacks/5292685&quot; target=&quot;_blank&quot;&gt;
+   more than 100 US water systems
+  &lt;/a&gt;
+  were affected by attacks in July.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/08/iran-intruders-disrupting-us-water-energy-facilities/5226776&quot; target=&quot;_blank&quot;&gt;
+   consistently warns
+  &lt;/a&gt;
+  about the cyber threat facing utility providers from hostile states because successful attacks can disrupt essential services. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> September&#x27;s Windows 11 patch needs an emergency patch of its own </title>
+<link>https://www.theregister.com/on-prem/2026/09/15/septembers-windows-11-patch-needs-an-emergency-patch-of-its-own/5296567</link>
+<pubDate>Tue, 15 Sep 2026 13:33:55 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has released an out-of-band update for Windows 11 24H2 and 25H2 after September&#x27;s record-breaking Patch Tuesday addressed almost
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/09/microsoft-breaks-patch-tuesday-record-with-974-cve-deluge/5295160&quot;&gt;
+   1,000 vulnerabilities across the company&#x27;s products
+  &lt;/a&gt;
+  – and introduced several new problems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those
+  &lt;a href=&quot;https://support.microsoft.com/en-gb/servicing/os/windows-11/2026/09/kb5129195-windows-11-24h2-25h2-security-update&quot; target=&quot;_blank&quot;&gt;
+   problems
+  &lt;/a&gt;
+  are related to USB Audio Class 1.0 devices, Remote Desktop Services, and host folders shared with certain Hyper-V-based Linux virtual machines via Plan9.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the Hyper-V and Remote Desktop Services issues are fixed, there is still work to do on USB audio. The update restores multichannel playback on USB Audio Class 1.0 devices that continued to work in stereo, but other affected devices may remain silent, have unresponsive volume controls, or display &quot;This device cannot start (Code 10)&quot; in Device Manager.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Owners of devices still giving them the silent treatment were told: &quot;Microsoft is working on a resolution and will update this documentation when more information is available.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The cumulative update also includes protections for CVE-2026-62721, an elevation-of-privilege vulnerability in the Windows User-Mode Power Service.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Separate September security updates for Excel also broke that rarely used function, Paste, on some installations. Microsoft has yet to issue a fix.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Readers were impressively supportive of Microsoft&#x27;s efforts to ensure its patches don&#x27;t disrupt workflows. Paratiritis noted: &quot;The issue with all these versions of Excel is understandable, considering such changes require testing, either manual or automated, which cannot be taken for granted for such cryptic functionality as Paste.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Roj Blake suggested that perhaps somebody had tried submitting a bug report, but was unable to paste the data for some reason. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Swiss court sentences 52-year-old Ukrainian ransomware dev to nearly 13 years in the cooler </title>
+<link>https://www.theregister.com/security/2026/09/15/swiss-court-sentences-52-year-old-ukrainian-ransomware-dev-to-nearly-13-years-in-the-cooler/5296482</link>
+<pubDate>Tue, 15 Sep 2026 13:32:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A Swiss court has sentenced a 52-year-old Ukrainian ransomware developer to 12 years and nine months in prison for his role in attacks on companies including Stadler Rail.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Zurich District Court found that the man developed LockerGoga, MegaCortex, and Nefilim, but was not the mastermind behind the operations. He also received a ten-year ban from Switzerland. The judgment is not final and can be appealed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He had been held in pretrial detention since October 2021 and consistently denied knowing that his software was being used for criminal purposes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He said the source code found at his home in Basel-Landschaft came from his consulting work for an unidentified IT security client.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The court rejected that explanation because extortion messages were also found among his data,
+  &lt;a href=&quot;https://www.swissinfo.ch/eng/swiss-politics/ukrainian-hacker-jailed-in-switzerland-over-ransomware-attacks/92040952&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   SWI
+  &lt;/a&gt;
+  reported.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ransomware developer was also found guilty of playing a key role in high-profile ransomware attacks, including the one that
+  &lt;a href=&quot;https://a.storyblok.com/f/269997/6637d47a6f/2020_0507_media-release_cyber-attack_en.pdf?&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   hit Stadler Rail in 2020
+  &lt;/a&gt;
+  [PDF].
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not to be confused with the more recent attack on the rolling stock manufacturer –
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/23/stadler-rail-scoffs-at-eversts-123m-extortion-attempts/5276922&quot; target=&quot;_blank&quot;&gt;
+   that one was claimed by Everest
+  &lt;/a&gt;
+  – the earlier breach occurred in May 2020.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the time, Stadler Rail did not use the word &quot;ransomware,&quot; but said the attack involved malware, that it &quot;most likely led to a data leak,&quot; and that &quot;the offenders tried to extort a large amount of money,&quot; threatening to leak the files if the ransom was not paid.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As it did following this year&#x27;s incident, Stadler refused to pay. The 2020 Nefilim ransom demand was reportedly $6 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The court also found that he played a key role in attacks on HVAC company Meier Tobler and software company Crealogix.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In September 2022, Zurich prosecutors
+  &lt;a href=&quot;https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2022/09/220916_ransomware.html#-792208150&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   reported
+  &lt;/a&gt;
+  that a suspect had been arrested in Basel-Landschaft in October 2021 on suspicion of money laundering and data corruption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The statement accused the perpetrators of involvement in attacks on more than 1,800 individuals and institutions across 71 countries, causing estimated losses of several hundred million Swiss francs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The same
+  &lt;a href=&quot;https://www.theregister.com/security/2023/11/28/europol-shutters-ransomware-operation-with-kingpin-arrests/1513043&quot; target=&quot;_blank&quot;&gt;
+   law enforcement action in 2021
+  &lt;/a&gt;
+  led to the identification of other alleged members of the three ransomware operations, none of whom were named.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Volodymyr Tymoshchuk was formally indicted in the US last year and was described by prosecutors as the mastermind of all three ransomware crews.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike
+  &lt;a href=&quot;https://www.justice.gov/opa/pr/ukrainian-national-pleads-guilty-conspiracy-use-nefilim-ransomware-attack-companies-united&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   many others,
+  &lt;/a&gt;
+  Tymoshchuk has not yet been arrested, but is on the FBI&#x27;s most wanted list, with an $11 million bounty placed on the information that could lead to his arrest or conviction, or that of other key leaders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He was allegedly responsible for attacks on at least 250 companies, including the infamous
+  &lt;a href=&quot;https://www.theregister.com/security/2019/03/19/ransomware-drops-the-lillehammer-on-norsk-hydro-aluminium-giant-forced-into-manual-mode-after-systems-scrambled/536308&quot; target=&quot;_blank&quot;&gt;
+   Norsk Hydro attack
+  &lt;/a&gt;
+  in 2019. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Anthropic and OpenAI look to Uncle Sam to make them too big to fail </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/15/anthropic-and-openai-look-to-uncle-sam-to-make-them-too-big-to-fail/5296403</link>
+<pubDate>Tue, 15 Sep 2026 13:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   OPINION
+  &lt;/span&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot;&gt;
+  &lt;/span&gt;
+  By luck or happenstance, Anthropic planted a seed in the mind of the public last week: AI in the wrong hands is dangerous and left unchecked poses an existential threat to humanity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With pop culture steeped in references to malignant AI, the mainstream media ate it up. The headlines
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368&quot;&gt;
+   wrote themselves
+  &lt;/a&gt;
+  and the seed took root.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But it&#x27;s not humanity that faces the biggest threat – at least not yet. Rather, it&#x27;s American model-making giants Anthropic and OpenAI, which, despite hundreds of billions in investment, are years from profitability and entirely dependent on a steady supply of capital. Meanwhile, Chinese open-weight models are improving rapidly to the point where some outperform the big frontier models that sparked the generative AI boom, while
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715&quot;&gt;
+   using a lot fewer resources
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  But that threat from Chinese models could turn into an opportunity if Anthropic and OpenAI can convince the public and government to instigate a crackdown in the name of safety.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fearmongering began in June when outside researchers testing Anthropic&#x27;s then-brand-new Fable 5 model sounded the alarm in a
+  &lt;a href=&quot;https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827&quot; target=&quot;_blank&quot;&gt;
+   report
+  &lt;/a&gt;
+  that cited national security concerns. The Trump administration quickly issued an export control directive suspending access to Fable 5 and Mythos 5 to any foreign national inside or outside the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic complied by disabling access to both models to &quot;ensure compliance.&quot; The shocking discovery the researchers made? According to one private security researcher granted access to the report, the source of the risk was a single successful prompt: &quot;
+  &lt;a href=&quot;https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827&quot;&gt;
+   fix this code
+  &lt;/a&gt;
+  .&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI briefly
+  &lt;a href=&quot;https://www.reuters.com/legal/litigation/openai-defers-public-rollout-gpt56-us-seeks-early-access-frontier-ai-models-2026-06-26/&quot;&gt;
+   delayed
+  &lt;/a&gt;
+  the public release of GPT-5.6 until Uncle Sam tested and reviewed the release. The block didn&#x27;t last long, but providing access to and complying with the US government helped sell three claims useful to OpenAI and Anthropic:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Their models are more capable than first believed.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    In the right hands, and only the right hands, it&#x27;s possible to control the models.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    The same cannot be said of Chinese frontier models that are openly available for download.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Then things escalated.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In July, OpenAI
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/22/openai-admits-it-was-the-source-of-the-agent-swarm-that-attacked-hugging-face/5275939&quot;&gt;
+   revealed
+  &lt;/a&gt;
+  AI agents powered by its proprietary models had escaped their sandbox and exploited at least two zero-days in order to compromise Hugging Face&#x27;s servers. Days later, Anthropic admitted its Claude family of models also
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/31/anthropics-claude-escaped-test-sandbox-to-attack-three-organizations/5281562&quot;&gt;
+   escaped
+  &lt;/a&gt;
+  a sandbox and launched attacks on three organizations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The breaches were the first raindrops in a flood of AI-powered cybercrimes that have since inspired a satirical new AI benchmark,
+  &lt;a href=&quot;https://www.felonybench.com/&quot;&gt;
+   Felony Bench
+  &lt;/a&gt;
+  , which counts the unique instances in which agents compromise or breach a third party.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, Anthropic researcher Jacob Coxon publicly quit on
+  &lt;a href=&quot;https://x.com/hilbertspaess/status/2097476203863224394&quot;&gt;
+   X
+  &lt;/a&gt;
+  last week over concerns that AI &quot;could kill us all by the end of the decade.&quot; Anthropic science lead Evan Hubinger backed his former colleague&#x27;s warning,
+  &lt;a href=&quot;https://x.com/EvanHub/status/2097497037956891126&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   saying
+  &lt;/a&gt;
+  : &quot;Jacob is correct here – we really do earnestly believe AI could kill all humans! I personally think it is &amp;gt;10 percent within the next decade.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This sequence of events gave Anthropic fearmonger-in-chief Dario Amodei the ammunition he was looking for – proof positive that AI was not only smart but also capable of doing harm if not
+  &lt;a href=&quot;https://darioamodei.com/post/we-must-pace-the-frontier&quot;&gt;
+   properly regulated
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  It makes for a convincing story. These models are smart; they&#x27;re smart enough to escape containment; they are only going to get smarter; the smarter they get the more dangerous they&#x27;ll be; open models can&#x27;t be controlled; closed-weight models are therefore safer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But under even the slightest scrutiny, the argument falls apart. If a tiger escapes its enclosure and kills the antelope in the neighboring pen, your first reaction wouldn&#x27;t be, &quot;look how smart and dangerous that tiger is.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would be, &quot;who designed the pens that can&#x27;t do the job?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  If an AI agent escapes its sandbox, maybe the model is really smart, or maybe the sandbox wasn&#x27;t very good to begin with.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI and Anthropic don&#x27;t really have a leg to stand on here.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We&#x27;ve known for decades how to isolate sensitive computing workloads. The US Department of Energy airgaps its most powerful and sensitive supercomputing workloads for a reason.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If Anthropic and OpenAI are really the solid corporate citizens they claim to be, they could have built better sandboxes and paid more attention to their tests. The companies should have to explain why their safeguards failed and answer for any resulting harm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As fellow vulture Tom Claburn wrote last week, &quot;
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368&quot;&gt;
+   AI models don&#x27;t kill people, people kill people
+  &lt;/a&gt;
+  ,&quot; and those who pull the trigger directly or through their own negligence should be held accountable for the damage done and crimes committed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That would be the rational thing to do, but fear does funny things to people, and Coxon and Hubinger may as well have screamed fire in a crowded theater. Politicians can&#x27;t ignore the threat of AI any longer – not when their constituents are scared that Skynet isn&#x27;t the fantasy they thought it was.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And what is your local congressperson to do when faced with a threat they don&#x27;t understand? Shoot first and ask questions later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Having set off a panic, the great AI houses can now press the government to buy more time – or, as Amodei refers to it, &quot;
+  &lt;a href=&quot;https://darioamodei.com/post/we-must-pace-the-frontier&quot;&gt;
+   pace the frontier
+  &lt;/a&gt;
+  .&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Over the last few months, I have become convinced that fully addressing the risks requires even more prudence – not just investing in risk prevention, but pacing the rate of capabilities advancement so that risk prevention has time to keep up. We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain,&quot; he wrote in a recent
+  &lt;a href=&quot;https://darioamodei.com/post/we-must-pace-the-frontier&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI CEO Sam Altman and xAI impresario Elon Musk have also signaled
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067&quot;&gt;
+   their support
+  &lt;/a&gt;
+  for slowing things down. But their reasons may not be as altruistic as they appear. In fact, some signs point to the opposite.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Pacing the frontier&quot; would be beneficial to two self-serving ends: resetting investor expectations because anything else could kill us all and buying the time necessary to play the US government against itself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the American houses stall for time, Chinese AI devs will inevitably seize this opportunity to close the gap. Once they do, the fourth act can begin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amodei seems to think that the US can extend its lead over China by cutting off access to advanced accelerator tech and cracking down on model distillation. But if history tells us anything, it is that those tactics are more likely to backfire than succeed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Necessity is the mother of invention and past attempts to cut off China from American chips have actually fueled development of more efficient architectures:
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715&quot;&gt;
+   DeepSeek V4.1 Flash
+  &lt;/a&gt;
+  being the most recent example.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By pacing the frontier, there&#x27;s a good chance China will have caught up or even pulled ahead. American labs will have created an AI arms race in which their success becomes a matter of national security and American exceptionalism, not mere economics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other words, a pair of startups will become too big to fail and therefore deserving of government assistance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Much of Anthropic and OpenAI&#x27;s apparent plan hinges on Uncle Sam playing ball, which isn&#x27;t guaranteed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  President Donald Trump has so far resisted the idea of regulation because it would risk giving China the time it needed to catch up. On
+  &lt;a href=&quot;https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html&quot;&gt;
+   Monday
+  &lt;/a&gt;
+  , he released a storm of posts on his social network, Truth Social, calling AI fears a &quot;hoax&quot; and &quot;scam,&quot; proclaiming: &quot;I&#x27;m right now breaking another Hoax – That AI is going to take over, consume, and destroy the World, and that Robots will be marching into our Cities, and getting rid of us all!&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia CEO Jensen Huang, whose company&#x27;s ability to continue growing depends heavily on enterprises&#x27; adoption of open-weight models, seems to think there&#x27;s more going on here.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;What better way to create demand than to create a problem,&quot; he said during a Goldman Sachs conference
+  &lt;a href=&quot;https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-dismisses-175548952.html&quot;&gt;
+   last week
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even former FTC chair Lina Khan has
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325&quot;&gt;
+   weighed in
+  &lt;/a&gt;
+  , arguing that Uncle Sam should be holding AI CEOs accountable for the threats their models pose.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We shouldn&#x27;t let discussions about new legal regimes distract from the fact that there&#x27;s no AI exemption from laws already on the books,&quot; she said. &quot;Law enforcers already have authority to charge companies and their CEOs for creating and releasing dangerous, unvetted, or defective products.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even if Uncle Sam won&#x27;t capitulate to their demands for regulation, time is still on American model devs&#x27; side and they seem perfectly willing to regulate themselves. The greater the risk of falling behind China, the more likely Uncle Sam will play.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If investors lose patience before then, it&#x27;d only take a rogue AI agent powered by a Chinese model triggering some catastrophe to get the ball rolling again. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft account refuseniks have another way of installing Windows </title>
+<link>https://www.theregister.com/os-platforms/2026/09/15/microsoft-account-refuseniks-have-another-way-of-installing-windows/5296471</link>
+<pubDate>Tue, 15 Sep 2026 12:31:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A new loophole to avoid Microsoft&#x27;s insistence that you need a Microsoft account to use the Home edition of Windows 11 has appeared, and it&#x27;s so ludicrously simple we can only assume the good bug fairy has paid a visit to Redmond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The workaround is in the normal Windows 11 Out-of-Box Experience (OOBE) that users see when setting up the operating system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Get to the point where Windows prompts for a Microsoft account, then click the &quot;Learn more&quot; hyperlink beneath the text box and the Sign-in options link, and the OOBE skips to prompting for the user&#x27;s name and eventually a password. Just like it used to do before Microsoft decided that you needed one of its accounts to use the software you thought you&#x27;d paid for.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Bob Pony&quot; created a
+  &lt;a href=&quot;https://bsky.app/profile/bobpony.com/post/3mvdm5huztc2z&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   helpful post
+  &lt;/a&gt;
+  demonstrating the workaround. We checked it, and it worked exactly as demonstrated in the video. However, we can&#x27;t imagine Microsoft leaving this in the setup program for long, considering the company&#x27;s desire to drive users into its preferred online world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Indeed, some components installed with Windows won&#x27;t work without a Microsoft account, but at least users can choose whether or not to use them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has played whack-a-mole with workarounds users have found to avoid a Microsoft account in the Windows setup application over the years. In 2025, it snapped shut a popular loophole in the name of keeping users safe and ensuring Windows is stable, secure, and ready to deliver the experience users expect from Microsoft&#x27;s operating system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is worth emphasizing that the workaround is only for the Home Edition of Windows 11, so it will be useful when friends or family pick up a new PC and don&#x27;t want to go through the Microsoft account rigmarole. Windows 11 Pro users, or administrators, obviously have other options and aren&#x27;t forced down the Microsoft account route, which may hint at why this loophole exists in the first place.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s unclear when Microsoft will close this loophole, and we certainly aren&#x27;t going to ask it. Until then, Home Edition users can avoid a Microsoft account without resorting to third-party scripts, tools, or instructions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just use a simple click of the mouse to Learn more. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US confirms it has weapons in spaaaaaace </title>
+<link>https://www.theregister.com/offbeat/2026/09/15/us-confirms-it-has-weapons-in-spaaaaaace/5296512</link>
+<pubDate>Tue, 15 Sep 2026 12:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The US Space Force has deployed &quot;space control weapons&quot; into orbit, although it stopped short of explaining what they are and how it got there.
+ &lt;/p&gt;
+ &lt;p&gt;
+  US Air Force Secretary Troy Meink
+  &lt;a href=&quot;https://breakingdefense.com/2026/09/space-force-has-space-control-weapons-on-orbit-air-force-secretary-says/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   reportedly
+  &lt;/a&gt;
+  spoke at the Air and Space Forces Association conference and said the US had deployed weaponry around Earth.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There is no word on the nature of the weaponry, nor on how and when it was launched. There have been plenty of classified launches, and the US also has the X-37 program. There are two uncrewed X-37B spaceplanes, which can loiter in orbit for years performing classified activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  asked officials about the weaponry, but we have not yet received a reply.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Something that could jam satellite communications is possible, or a device that could fire a pulse to disable electronics. Another possibility is something more ballistic or kinetic, although the potential for destruction to create debris doesn&#x27;t bear thinking about.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One wag on social media
+  &lt;a href=&quot;https://bsky.app/profile/rossengineer.bsky.social/post/3mvjvgdcbzc2c&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   dubbed
+  &lt;/a&gt;
+  the consequences of an ill-thought-out ballistic weapon as &quot;Mutually Assured Kessler Syndrome.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.spacecentre.co.uk/news/space-now-blog/the-kessler-syndrome/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Kessler Syndrome
+  &lt;/a&gt;
+  is a theoretical situation in which space around Earth becomes so crowded that collisions between objects cause a cascade of debris, eventually making orbital space inaccessible. A ballistic weapon that could generate a cloud of space junk is therefore less than ideal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/introouterspacetreaty.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Outer Space Treaty
+  &lt;/a&gt;
+  , which forbids weapons of mass destruction in space, went into force in 1967, but the superpowers have found ways to work around it over the years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Soviet Union, for example, fitted
+  &lt;a href=&quot;https://www.russianspaceweb.com/almaz_ops2.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Salyut 3
+  &lt;/a&gt;
+  with a self-defense gun. The station was launched in 1974. There was also the US&#x27;s Strategic Defense Initiative (also known as Star Wars), which was intended to be used to intercept ballistic missiles. The current
+  &lt;a href=&quot;https://www.lockheedmartin.com/en-us/capabilities/missile-defense/golden-dome-missile-defense.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Golden Dome
+  &lt;/a&gt;
+  plan, espoused by the current US administration, calls for a constellation of satellites with detection and interception capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other nations have reacted with alarm to the news. A China foreign ministry spokesperson reportedly said, &quot;We urge the US side to stop expanding its military capabilities and preparing for war in outer space.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shortly before Meink made his statement, the BRICS nations called for the &quot;prevention of an arms race in outer space (PAROS) and of its weaponization, as well as the threats or use of force against outer space objects&quot; in the
+  &lt;a href=&quot;https://www.mea.gov.in/bilateral-documents?dtl/41776&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   New Delhi Declaration
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Gov.uk still struggling with IT contractor tax rules </title>
+<link>https://www.theregister.com/public-sector/2026/09/15/govuk-still-struggling-with-it-contractor-tax-rules/5296531</link>
+<pubDate>Tue, 15 Sep 2026 11:28:28 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  UK government departments are still struggling to implement the tax laws governing IT contractors years after the controversial rules were introduced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IR35 has become hated by freelance tech workers who feel it removes the tax benefits of contracting, without offering the employee benefits of in-house roles in its stead.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latest accounts from the Foreign, Commonwealth and Development Office (FCDO) show that the UK tax collector is reviewing its implementation of IR35 for a second year after the department decided to place hundreds of workers inside the reach of the rules.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its
+  &lt;a href=&quot; https://assets.publishing.service.gov.uk/media/687e39109914d1f63267c5e5/FCDO-Annual-Report-and-Accounts-2024-2025.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   2024 -25 annual report
+  &lt;/a&gt;
+  , the FCDO said a total of 243 were found to be in scope of IR35 following “a full review of all IR35 off-payroll status determinations.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This resulted in a high number of engagements that had previously been assessed as out-of-scope being reassessed as in-scope. A voluntary disclosure advising His Majesty’s Revenue &amp; Customs (HMRC) of these changes in assessment has now been made, and the FCDO have accrued an estimate of the potential backdated tax owed within our 2024-25 accounts,”
+  &lt;a href=&quot; https://assets.publishing.service.gov.uk/media/687e39109914d1f63267c5e5/FCDO-Annual-Report-and-Accounts-2024-2025.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   the report said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  However,
+  &lt;a href=&quot;https://assets.publishing.service.gov.uk/media/6a61d75447af652afa0c8a73/FCDO_Annual_Report_2025_to_2026.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   the most recent set of figures for 2025 -26
+  &lt;/a&gt;
+  said workers determined as in-scope of IR35 has now leapt to 441. The continuing review “resulted in a significant reduction of out-of-scope engagements in the Department.” It said HMRC was also continuing to review its interpretation of the rules.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dave Chaplin, CEO of tax advisory company IR35 Shield, said: “The Foreign Office’s IR35 problems are becoming increasingly difficult to explain away. A year ago, roughly half its contractors were considered outside IR35. Now that figure has collapsed to just 12.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chaplin said Freedom of Information requests had revealed the FCDO’s process used HMRC’s Status Tool (CEST), which organizations have had problems implementing. Use of the tool has dropped around 70 percent in two years,
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/06/19/use-of-hmrcs-taxing-ir35-status-tool-drops-71-in-two-years/5258452&quot; target=&quot;_blank&quot;&gt;
+   research revealed
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Businesses are expected to get IR35 right and face potentially significant tax bills when they don’t. The Government should expect no lower standard from its own departments,” Chaplin said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Government departments have long struggled to implement IR35. In 2022, the Public Accounts Committee found that difficulties meeting the rules in central government reflect poor implementation by HMRC and other government bodies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Central government is spending hundreds of millions of pounds to cover tax owed for individuals wrongly assessed as self-employed. Government departments and agencies owed, or expected to owe, HMRC £263 million in 2020–21 due to incorrect administration of the rules,&quot; the
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2022/05/26/mps-slam-ir35-rollout-in-uk-government-departments/1218887&quot; target=&quot;_blank&quot;&gt;
+   report from Parliament’s spending watchdog said.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier this year, the UK’s competition regulator gave a conditional
+  &lt;a href=&quot;https://www.theregister.com/software/2026/03/11/watchdog-review-post-office-horizon-scandal-subsidy-reviewed/5227781&quot; target=&quot;_blank&quot;&gt;
+   thumbs up
+  &lt;/a&gt;
+  to the government providing an extra £104.4 million to the Post Office — a publicly owned company — to settle a tax liability under IR35. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> VDURA&#x27;s Sentinel watches over fleets for faults </title>
+<link>https://www.theregister.com/storage-management/2026/09/15/vduras-sentinel-watches-over-fleets-for-faults/5296508</link>
+<pubDate>Tue, 15 Sep 2026 10:56:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/public-cloud/2026/08/04/vdura-goes-to-wasabi-for-tiered-ai-data-cloud-storage/5282752&quot; target=&quot;_blank&quot;&gt;
+   VDURA
+  &lt;/a&gt;
+  Sentinel sends customer system health data to VDURA for automatic analysis and fix.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Parallel file system supplier VDURA has been steadily enhancing its enterprise credentials since
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2024/05/07/panasas-pivots-to-saas-under-vdura-brand/1603475&quot; target=&quot;_blank&quot;&gt;
+   Ken Claffey
+  &lt;/a&gt;
+  took over as CEO in 2024. The latest development is Sentinel, a proactive support function in the v12 version of its Data Platform software.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Erik Salo, SVP
+  &lt;span&gt;
+  &lt;/span&gt;
+  of Marketing and Operations at VDURA, said: &quot;Every storage failure a customer sees is one we have almost certainly already seen and resolved somewhere else in the fleet. Sentinel puts that fleet-wide knowledge to work automatically so the first person to look at a ticket is looking at a diagnosis instead of a blank page. For a GPU cloud, the gap between fault and fix is measured in idle
+  &lt;span&gt;
+  &lt;/span&gt;
+  accelerators and tenant SLAs. Closing that gap is what proactive support should mean.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sentinel continuously reads health, capacity, and alert telemetry from each VDURA system and compares it against failure patterns VDURA has resolved across
+  &lt;span&gt;
+  &lt;/span&gt;
+  thousands of systems in the field. When a pattern matches, the VDURA support team receives a plain-language summary, a trend view, and a recommended action, with the service request already open and, where needed, a parts dispatch initiated on the customer&#x27;s
+  &lt;span&gt;
+  &lt;/span&gt;
+  behalf.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This Sentinel capability echoes what HPE-acquired
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2017/03/07/hpe-gobbles-nimble-storage-for-12bn/1485755&quot; target=&quot;_blank&quot;&gt;
+   Nimble
+  &lt;/a&gt;
+  did with its InfoSight cloud support analytics system back in 2017, and which has become enterprise storage array support table stakes since then. With HPC parallel file systems moving into the enterprise and Neocloud AI market, enterprise-class support is needed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sentinel is built on the same API foundation as the rest of the
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/11/12/vdura-data-platform-adds-snapshots-smr-support-to-boost-scale-and-cut-costs/1715216&quot; target=&quot;_blank&quot;&gt;
+   V12 platform
+  &lt;/a&gt;
+  . The collector gathers its telemetry through the platform&#x27;s published
+  &lt;span&gt;
+  &lt;/span&gt;
+  APIs, and everything Sentinel sees is equally available to the customer&#x27;s own dashboards and observability tooling. There is no privileged vendor-only view: operators get fleet-level observability into their storage as a first-class part of the platform, and
+  &lt;span&gt;
+  &lt;/span&gt;
+  VDURA support sees only the subset the customer chooses to share.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The collector runs inside the customer&#x27;s environment with read-only credentials and makes only outbound HTTPS connections. There is no inbound access and no ability to change configuration or touch data. Sentinel transmits only four categories of operational metadata: fleet health and capacity metrics, node inventory, alerts, and deep-dive diagnostics. Each of the four categories can be switched off independently, or all sharing can be disabled entirely, by the customer at any time. The local dashboard and the underlying storage are unaffected either way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VDURA publishes the collector as dependency-free, readable Python so customer security teams can review exactly what it does.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sentinel is included with the VDURA Data Platform V12 release, including the local fleet health dashboard and API access to the underlying telemetry.
+  &lt;span&gt;
+  &lt;/span&gt;
+  Proactive service requests and parts dispatch are delivered through VDURACare Premier.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   Learn more
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.vdura.com/vdura-sentinel-support/&quot; target=&quot;_blank&quot;&gt;
+   &lt;span&gt;
+    here
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span&gt;
+   .
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK&#x27;s Digital ID walks into a bar... two months after being killed off </title>
+<link>https://www.theregister.com/offbeat/2026/09/15/uks-digital-id-walks-into-a-bar-two-months-after-being-killed-off/5296504</link>
+<pubDate>Tue, 15 Sep 2026 10:31:47 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Britain killed off its national digital ID scheme this summer, but from today you can use a digital ID to prove you&#x27;re old enough to buy a pint.
+ &lt;/p&gt;
+ &lt;p&gt;
+  New
+  &lt;a href=&quot;https://www.gov.uk/government/news/new-rules-pave-the-way-for-businesses-to-adopt-digital-proof-of-age-for-alcohol-sales&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.gov.uk/government/news/new-rules-pave-the-way-for-businesses-to-adopt-digital-proof-of-age-for-alcohol-sales&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   rules taking effect on Tuesday
+  &lt;/a&gt;
+  allow pubs, bars, restaurants, music venues and shops in England and Wales to accept digital proof of age when selling alcohol, meaning customers can use an app on their phone instead of digging around for a driving license or passport.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The change is voluntary. Businesses don&#x27;t have to accept digital proof of age, customers don&#x27;t have to use it, and the government admits the technology will take time to gain wide support. So anyone planning to leave their wallet at home tonight may want to check with the pub first.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, it gives digital identity technology a conspicuously everyday new job just two months after Prime Minister
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/07/20/uks-seventh-prime-minister-in-a-decade-says-hell-ditch-digital-id-scheme/5274794&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/07/20/uks-seventh-prime-minister-in-a-decade-says-hell-ditch-digital-id-scheme/5274794&quot; target=&quot;_blank&quot;&gt;
+   Andy Burnham pulled the plug on his predecessor&#x27;s much grander national Digital ID scheme
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  That project, announced under Keir Starmer, would have created a government-backed digital credential and eventually made digital right-to-work checks mandatory. Burnham ditched the scheme in July, with his government saying the money and resources earmarked for it would be redirected elsewhere.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Digital identity itself, however, wasn&#x27;t buried with it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new alcohol rules rely on the UK&#x27;s existing Digital Verification Services (DVS) framework. To be accepted for booze purchases, digital proof of age must be provided through a DVS certified against the government&#x27;s trust framework and listed on its statutory register.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The government confirmed earlier this month that while the national Digital ID program announced under Starmer has been binned, GOV.UK One Login, GOV.UK Wallet and the existing framework for private-sector digital verification services will continue. The DVS framework predates Starmer&#x27;s national Digital ID plan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The government is also keeping
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2016/05/20/a-uk-digital-driving-licence-what-could-possibly-go-wrong/305309&quot; target=&quot;_blank&quot;&gt;
+   its planned digital driving license alive.
+  &lt;/a&gt;
+  It says GOV.UK Wallet and the digital driving license are separate from the digital proof-of-age services becoming usable today, although the wallet is expected eventually to offer another way for people to prove their age when buying alcohol.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, third-party providers get first crack at the bar. Yoti says its Yoti ID and Post Office EasyID apps can now be used as proof of age where businesses choose to accept them, while Luciditi says its ID verification service is being integrated into point-of-sale and Challenge 25 systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This isn&#x27;t simply a case of waving a phone at whoever happens to be behind the bar. Businesses accepting digital proof must use a registered DVS, rather than relying on someone eyeballing an app or, worse, a screenshot of somebody else&#x27;s ID.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ID must meet at least a &quot;medium level of confidence,&quot; and providers need a way to check it belongs to the person holding the phone. How they do that is largely up to them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In practice, the government reckons the experience could be as simple as showing a QR code for staff to scan or tapping a phone against a compatible reader. Rather than handing over a driving license containing a name, address and date of birth, the customer can share confirmation that they&#x27;re over 18.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are limits. Facial age estimation and other age-assurance technologies aren&#x27;t covered by the change and can&#x27;t substitute for a registered DVS when carrying out a digital alcohol age check. Digital proof can be used at self-service checkouts, but retailers still need humans around to deal with such stubbornly analog problems as drunk customers and adults buying booze for children.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So Britain&#x27;s grand national Digital ID may have joined the long list of government technology projects that didn&#x27;t make it to the finish line, but the infrastructure around it is still finding its way into daily life.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Starting with the important stuff: getting served. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PostgreSQL 19 graph queries fail the &#x27;would you ship this?&#x27; test </title>
+<link>https://www.theregister.com/databases/2026/09/15/postgresql-19-graph-queries-fail-the-would-you-ship-this-test/5296343</link>
+<pubDate>Tue, 15 Sep 2026 09:42:59 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  PostgreSQL developers have pulled planned graph query support from version 19 over concerns that unresolved bugs could haunt the release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The feature, SQL Property Graph Queries (SQL/PGQ), became part of the SQL standard in 2023. It provides syntax for exploring relationships between nodes connected by edges. PostgreSQL&#x27;s implementation was
+  &lt;a href=&quot;https://postgresweekly.com/issues/664&quot;&gt;
+   removed over unresolved issues
+  &lt;/a&gt;
+  , while version 19&#x27;s release date remains unconfirmed. A fourth beta is scheduled for September 24.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Longtime PostgreSQL contributor
+  &lt;a href=&quot;https://www.postgresql.org/message-id/646368.1787697184%40sss.pgh.pa.us&quot;&gt;
+   Tom Lane warned
+  &lt;/a&gt;
+  : &quot;At this point I&#x27;d be willing to bet dinner that if we ship it in v19 there will be post-release bug discoveries that are unfixable until v20.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tom Kincaid, senior vice president of software engineering at PostgreSQL support and development company EDB, confirmed that PGQ will not be part of PostgreSQL 19. &quot;The community wanted to work through a few more things before releasing it,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Database administrators still have something to look forward to, though: reclaiming disk space without shutting everyone out of a table for the duration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VACUUM FULL rewrites a table to reclaim space occupied by obsolete row versions and return it to the operating system. It holds an exclusive table lock throughout, blocking other reads and writes. Kincaid told
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  that the resulting interruption makes administrators reluctant to run it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Middle-of-the-night calls have been a result of somebody doing a VACUUM FULL, and their customers can&#x27;t get access to the data or someone wants to know why this is running,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new
+  &lt;a href=&quot;https://www.postgresql.org/docs/19/sql-repack.html&quot;&gt;
+   REPACK
+  &lt;/a&gt;
+  command offers a CONCURRENTLY option that lets other transactions access the table during most of the operation. It still needs an exclusive lock when swapping the rewritten table and index files into place, but that lock is typically held only briefly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ordinary REPACK holds the exclusive lock throughout. For admins hoping to avoid another midnight call, CONCURRENTLY is the important part. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Give Xfce a Mac or Unity-style makeover </title>
+<link>https://www.theregister.com/software/2026/09/15/give-xfce-a-mac-or-unity-style-makeover/5295937</link>
+<pubDate>Tue, 15 Sep 2026 09:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   PART 2
+  &lt;/span&gt;
+  Xfce&#x27;s Panel Profiles app can rearrange your desktop, but getting every layout working properly still takes some manual tinkering.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In
+  &lt;a href=&quot;https://www.theregister.com/software/2026/09/13/how-to-make-xfce-look-like-almost-any-desktop-you-want/5295775&quot;&gt;
+   part 1
+  &lt;/a&gt;
+  of this two-part feature, we covered how to install Xfce&#x27;s Panel Profiles tool and all the extra plugins it needs for its dozen alternative layouts: macOS, Unity, MATE or GNOME 2, several different Windows-like layouts, and half a dozen different generations of both Xfce and Xubuntu.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, as our screenshots showed, the &quot;Cupertino&quot; (Mac-style) and &quot;Unity&quot; layouts are not ideal. For instance, the Unity layout&#x27;s global menu is immediately followed by the status icons, when they ought to be over on the right. Some of these issues are easy to resolve with the built-in tools, while some need a little more work.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Fixing the menu bar
+ &lt;/h3&gt;
+ &lt;p&gt;
+  In the Unity layout, it&#x27;s easy to push the status icons and session controls over to the right, where they belong.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customizing Xfce panels is easy. Choose the panel you want to change, find a blank part of the panel, and right-click it. Go into the Panel submenu, then click Panel preferences.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the Panel Preferences dialog box, the first two lines are a backup button, then a listbox to choose which panel you&#x27;re editing. Under those, there&#x27;s a line of three tabs: Display, Appearance, and Items. Click on the last tab, Items. This lists all the plugins the panel currently contains, and on the right of the list, there are buttons labeled with up and down arrows to change what order they show in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To fix the Unity panel, we need to add a separator to the top panel, immediately after the appmenu, and set it to Transparent and Expand. So, click the +Add button at the bottom, and choose &quot;Separator&quot;. Use the &quot;up&quot; button to move it up the list until it&#x27;s directly after &quot;AppMenu Plugin (external)&quot;. (Use the down arrow if you overshoot.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  To adjust the separator&#x27;s own settings, click the button with a wrench below the list – it&#x27;s directly after +Add and -Remove. Set its Style to Transparent and tick the Expand checkbox. This pushes all the status icons, the clock and so on over to the right end of the panel, which is where we expect to find them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the &quot;Cupertino&quot; layout, the fix for the strangely aligned menu is even simpler. Go into the preferences for the top panel, and go to the Items tab. Find the AppMenu plugin. Click the settings button (with the spanner) at the bottom, and uncheck &quot;Expand&quot;. That&#x27;s all it takes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For a more Mac-like look, we also prefer to hide the label on the Whisker menu: right-click the menu button itself, and pick &quot;Properties&quot;. Go to the second tab, labelled &quot;Appearance&quot;, and under the heading &quot;Panel Button&quot;, the first entry should be labelled &quot;Display&quot;. This should have a list with three options: &quot;Icon&quot;, &quot;Title&quot;, and &quot;Icon and title.&quot; Change it from &quot;Icon and title&quot; to just &quot;Icon,&quot; then click the Close button. Job done.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Build a better Dock
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Both layouts use Xfce&#x27;s default &quot;Window Buttons&quot; app-switcher in the second, dock-style panel. It doesn&#x27;t support pinning apps, so you need separate launchers. That can leave you with duplicated app icons: one to open it, and a second one to show you that it&#x27;s open, which is redundant. The macOS way to do this is more space-efficient: keep pinned app icons always there, but add an indicator next to the icon to show if it has any open windows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://docs.xfce.org/panel-plugins/xfce4-docklike-plugin/start&quot;&gt;
+   Docklike Taskbar plugin
+  &lt;/a&gt;
+  combines pinned launchers and running-app indicators. First, install it:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   sudo apt install -y xfce4-docklike-plugin
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then, add it to the panel: right-click the dock-style panel, the one with the app icons. Navigate to Panel -&amp;gt; Panel Preferences -&amp;gt; Items. Remove the Window Buttons plugin, and add the new &quot;Docklike Taskbar&quot; plugin from the list. Then, use the up-arrow button to the right of the list to move Docklike Taskbar into position.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Docklike Taskbar does what it says on the tin. It combines app launchers and running windows in the same strip of icons. You can pin app icons to the taskbar, and they stay put whether the app is running or not. If an app is running, it tells you with a colored bar next to the icon. We prefer dashes or macOS-style dots next to the icon instead, which is one of the settings in the plugin&#x27;s preferences.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Optionally, it can show preview thumbnails for windows. To add apps to the dock, launch them in whatever way you prefer, then right-click the icon and make sure &quot;Pinned to dock&quot; is checked. To remove an icon, right-click it and uncheck the option. Reordering icons takes a modifier key: hold Ctrl, then left-click and drag an icon to move it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are alternatives – for example, Debian also includes at least two. On the small side is the simple
+  &lt;a href=&quot;https://github.com/ricotz/plank&quot;&gt;
+   Plank
+  &lt;/a&gt;
+  , which takes about 3.5 MB. If you want something more gee-whizz, there&#x27;s also the fancy animated
+  &lt;a href=&quot;https://glx-dock.org/&quot;&gt;
+   Cairo dock
+  &lt;/a&gt;
+  , which takes more like 200 MB, but can use OpenGL-accelerated visual effects and more. (If that&#x27;s what you want, Xfce may not be the desktop for you, but we won&#x27;t judge.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  What we like about the Docklike Taskbar plugin is that it&#x27;s a native Xfce tool: it&#x27;s as lightweight as the rest of Xfce, and it&#x27;s configured in the same way as other parts of the desktop.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Making the global menu earn its place on the panel
+ &lt;/h3&gt;
+ &lt;p&gt;
+  You will quickly discover that most apps don&#x27;t use the global menu, and even if they do, it&#x27;s duplicated inside the app&#x27;s own window, which is a waste of screen space.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Getting applications to use the global menu requires some additional configuration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some of this is described on the
+  &lt;a href=&quot;https://gitlab.com/vala-panel-project/vala-panel-appmenu&quot;&gt;
+   Vala panel appmenu
+  &lt;/a&gt;
+  project page on GitLab. The instructions are split between two pages, starting with the
+  &lt;a href=&quot;https://gitlab.com/vala-panel-project/vala-panel-appmenu/-/blob/master/README.md&quot;&gt;
+   main README
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Look for the Xfce section. Here, it tells us to type into a terminal window:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+  &lt;/span&gt;
+  &lt;br/&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there are some more on the
+  &lt;a href=&quot;https://gitlab.com/vala-panel-project/vala-panel-appmenu/-/blob/master/subprojects/appmenu-gtk-module/README.md&quot;&gt;
+   AppMenu Gtk Module
+  &lt;/a&gt;
+  subpage. Under Xfce, this says to open a terminal window and enter:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   xfconf-query -c xsettings -p /Gtk/Modules -n -t string -s &quot;appmenu-gtk-module&quot;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just for completeness, though, we also created the two config files it recommends (and rebooted), but the third xconf-query command was the one that made it all start working for us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After these changes, all the bundled apps we tested that had menu bars used the global menu. Some things don&#x27;t, such as the Task Manager. In the days when Ubuntu used Unity by default, Mozilla Firefox supported Unity&#x27;s global menus, but not any more. However,
+  &lt;a href=&quot;https://www.waterfox.com/&quot;&gt;
+   Waterfox
+  &lt;/a&gt;
+  still does. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Open weights are not open source: Why AI&#x27;s favorite label is under dispute </title>
+<link>https://www.theregister.com/columnists/2026/09/15/open-weights-are-not-open-source-why-ais-favorite-label-is-under-dispute/5295436</link>
+<pubDate>Tue, 15 Sep 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The AI industry likes to abuse the word &quot;open.&quot; It appears in product releases, research papers, policy debates, and investor presentations. A company publishes model files to Hugging Face, developers run them on their own GPUs, and the release is quickly described as an &quot;open source model.&quot; Not necessarily. It may only be open-weight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The difference is more than a technicality. It determines whether you can merely deploy a completed neural network or whether you can meaningfully inspect, reproduce, alter, and redistribute the system that produced it. A genuinely open source system should grant the freedom to do all of the above.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Weights are the learned numerical parameters created by training. Together with the model architecture and inference code, they allow a large language model (LLM) to function. You can download an open-weight model, self-host it, fine-tune it on internal documents, and avoid routing prompts through a proprietary API.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Open weights are publicly available. They matter because running them locally can offer greater control over data, privacy, costs, supplier API changes, and vendor lock-in. They&#x27;ve also helped build a large ecosystem of local-model runtimes, inference providers, fine-tuning tools, and specialized downstream models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Open Source Initiative (OSI), steward of the Open Source Definition (OSD), makes the distinction directly: &quot;
+  &lt;a href=&quot;https://opensource.org/ai/open-weights&quot;&gt;
+   Open Weights refer to the final weights and biases of a trained neural network.
+  &lt;/a&gt;
+  &quot; Those values determine how a model interprets prompts and produces outputs. Releasing them can let others fine-tune, adapt, or deploy the model. But the OSI adds that weights alone expose only &quot;a fraction of the information required for full accountability.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As James Landay, director of the Stanford Institute for Human-Centered AI (HAI),
+  &lt;a href=&quot;https://hai.stanford.edu/news/open-weight-models-arent-enough-we-need-truly-open-source-ai-models-for-science-and-society&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   explained
+  &lt;/a&gt;
+  : &quot;Open weights are progress. You can download the model, run it on your own machine, keep it out of someone else&#x27;s data pipeline. But you still can&#x27;t see how the thing was built, what it was trained on, or why it behaves the way it does. That&#x27;s not an open model. That&#x27;s open distribution.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Without the training data or sufficiently detailed documentation, outsiders cannot determine which sources were used, what copyrighted or private material may have been included, how data was selected or removed, which languages and communities were underrepresented, whether benchmark data leaked into training, or what alignment and safety methods affected the model after pretraining.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Landay continued: &quot;There&#x27;s a wide gap between open-weight AI and open source AI.&quot; He contends that unless developers disclose training data or provide a &quot;thoroughly documented, auditable account of it,&quot; you can&#x27;t test, reproduce, or challenge the work in the fullest sense.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The OSI has its own definition of open source AI: the
+  &lt;a href=&quot;https://opensource.org/ai/open-source-ai-definition&quot;&gt;
+   Open Source AI Definition (OSAID 1.0)
+  &lt;/a&gt;
+  . It requires model parameters, including weights, to be made available under OSI-approved terms, but does not prescribe a specific legal mechanism for doing so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Luca Antiga, CTO of
+  &lt;a href=&quot;https://lightning.ai/&quot;&gt;
+   Lightning AI
+  &lt;/a&gt;
+  and a prominent PyTorch contributor, has
+  &lt;a href=&quot;https://thenewstack.io/osis-definition-of-open-source-ai-raises-critical-legal-concerns-for-developers-and-businesses/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   argued
+  &lt;/a&gt;
+  that OSAID&#x27;s treatment of weights leaves &quot;a gaping hole that will make licenses less effective in determining whether OSI-licensed AI systems can be adopted in real-world contexts.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other open source figures have also criticized OSAID. Bruce Perens, author of the original OSD,
+  &lt;a href=&quot;https://www.theregister.com/software/2024/05/16/open-source-initiative-tries-to-define-open-source-ai/1553845&quot;&gt;
+   denounced the OSAID in 2024
+  &lt;/a&gt;
+  . He later
+  &lt;a href=&quot;https://postopen.org/documents/real-open-source-ai&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   declared
+  &lt;/a&gt;
+  : &quot;It&#x27;s not Open Source! … It&#x27;s unfortunate that the Open Source Initiative itself is now involved in Openwashing.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He&#x27;s far from alone. Bradley Kuhn, policy fellow and hacker-in-residence at the Software Freedom Conservancy (SFC), and Red Hat Senior Commercial Counsel Richard Fontana have called for OSAID to be repealed, arguing: &quot;The
+  &lt;a href=&quot;https://codeberg.org/OSI-Reform-Platform/platform#readme&quot;&gt;
+   OSI acted too quickly to impose an overly ambitious policy compromise
+  &lt;/a&gt;
+  on the community. OSAID undeniably created a rift in the FOSS community; that rift seriously damaged the OSI&#x27;s reputation, authority, and influence. Meanwhile, OSAID shows no signs of having any positive policy influence on machine learning practitioners, the FOSS community, or regulators.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  OSI
+  &lt;a href=&quot;https://www.zdnet.com/article/we-have-an-official-open-source-ai-definition-now-but-the-fight-is-far-from-over/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   acknowledged
+  &lt;/a&gt;
+  when OSAID 1.0 was released in October 2024 that the definition would continue to evolve. Critics contend that its central shortcomings have yet to be resolved.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, the Linux Foundation&#x27;s Mike Dolan submitted the
+  &lt;a href=&quot;https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006126.html&quot;&gt;
+   Open Model, Data, and Weights (OpenMDW) license to the OSI
+  &lt;/a&gt;
+  . The license has been around since 2025 and lists contributors from Amazon, Meta, IBM, Microsoft, and Nvidia, giving it substantial industry backing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Conventional open source revolves around source code. LLMs are a different kettle of fish: they combine code, architecture, and numerical weights derived from training datasets that may be proprietary, copyrighted, or undisclosed. OpenMDW&#x27;s answer is to define separate terms for a model&#x27;s architecture, training data, and weights, bringing the components supplied by a licensor under one agreement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It sounds reasonable to me, but the submission has encountered objections on OSI&#x27;s license review mailing list. As Stefano Maffulli, OSI&#x27;s former executive director, who led the organization while OSAID was being formulated, said: &quot;I continue getting the impression that the
+  &lt;a href=&quot;https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006181.html&quot;&gt;
+   OpenMDW review is tainted by an ideological bias
+  &lt;/a&gt;
+  : Because we don&#x27;t like big tech and AI now is big tech, then we don&#x27;t like AI; therefore, we&#x27;ll do anything to block it.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s too late to bury our heads in the sand. As Stanford&#x27;s Landay put it: &quot;Open weights answer &#x27;Can I run this?&#x27; Open source answers &#x27;Can I trust this, improve it, and build the next thing on top of it?&#x27; Right now almost everyone – American labs and Chinese labs alike – is answering the first question but nowhere close to the second.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  We need both. Whether OSI adopts OpenMDW is an open question. Still, OpenMDW and its supporters are at least trying to establish licensing terms that cover code, data, and weights together. Unless someone succeeds, &quot;open AI&quot; risks becoming an oxymoron – or merely another hollow tech marketing term. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SPONSORED: How Everpure plans to stop AI from starving without data </title>
+<link>https://www.theregister.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582</link>
+<pubDate>Tue, 15 Sep 2026 08:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;47cef5eb-a214-407f-a093-ee8b050fb220&quot;&gt;
+ &lt;p&gt;
+  Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system’s accelerator hardware, have a skill set and can call up other agents to do your bidding. An insurance company customer, using a PC browser or smart phone, asks a question: “Am I covered for weather-related damage under my current policy?” and it is handed off to an AI agent. What happens next?
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agent itself runs on clusters of CPU + GPU/accelerator servers that host the large language model, any Retrieval-Augmented Generation (RAG) components, orchestration logic, and tools that look up the actual policy data. Those same servers (or tightly coupled backend systems) access the policy database/storage to answer the weather insurance coverage question, then return the response to the user’s device.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Everything the agent does depends upon data, and it and all the other agents operating at the same time in the SuperPOD system, need to get that data off a storage system. A national or large regional-level insurance company will have petabytes, even exabytes, of data it stores so it can manage its insurance business. There needs to be a central index of this data’s structure, state, location, field names, types and semantics so that AI agents go to one place, a kind of data encyclopedia, to find out what information they need and where it is located.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Agents are in a hurry, because GPU servers are hugely expensive and just a minute of idle time can cost $25 or more, a dollar every 2.4 seconds. The agent answering this insurance request needs data and a storage system needs to deliver it as fast as possible so that the GPU servers don’t wait and wait and wait some more for data. This requires the storage system to be able to handle the scale and types of the data involved, for it to be self-describing, and its software to be tightly integrated with Nvidia’s GPU hardware and software server architecture so that there isn’t a wasted millisecond while the GPUs are starved.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;strong&gt;
+   A modern approach to data processing for AI
+  &lt;/strong&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Par Botes, Everpure’s VP of AI Infrastructure, discussed the difference between traditional enterprise critical data processing and how it’s done in the AI era: “The characteristics of performance, resilience, availability and governance don&#x27;t fundamentally change, but access patterns are different. When searching for information, metadata can become richer than the data itself because it explains the semantics of data, and how it behaves as it becomes enriched.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Building an AI data architecture around standard dual-controller arrays or siloed direct-attached storage (DAS) quickly hits physical limits. What organizations need is an AI Data Platform, built using the
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/ai-data-platform/&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/ai-data-platform/&quot; rel=&quot;nofollow sponsored&quot; target=&quot;_blank&quot;&gt;
+   NVIDIA AI Data Platform
+  &lt;/a&gt;
+  reference design. There are three distinct bottlenecks involved in this which Everpure’s architecture focuses on solving.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   First: Throughput starvation at scale
+  &lt;/strong&gt;
+  : To keep thousands of GPUs saturated, a storage hardware platform needs to scale out past 4 or 5 TB/sec to 10 TB/sec or more of bandwidth. This rules out standard dual-controller arrays, even if equipped with SSDs instead of disk drives, or even cache-centric architectures. At the high-end enterprise level, an Everpure FlashBlade//S, or at the extremely large scale, a FlashBlade//EXA, provides a highly powerful data storage platform built for AI and HPC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With enterprise AI factories expected to scale out to, and perhaps beyond, 10,000 GPUs, there needs to be a solution which can handle this highly performant scale: FlashBlade//EXA scales up unstructured data storage technology to a whole new level for metadata controllers using NVMe fabric-connected flash for the data nodes. It’s Nvidia AI Data Platform-certified, delivering 400 to 450 million IOPS, 220 GB/sec bandwidth and 4.6 billion metadata operations/sec.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Second: The KV cache prefill tax:
+  &lt;/strong&gt;
+  A less obvious efficiency drain occurs inside a GPU’s High-Bandwidth Memory (HBM). Imagine a finance person’s AI model wants to read a business’ SEC 10-K report. It gets chunked, turned into tokens, then vectors, and loaded into the KV cache; the LLM pre-fill stage. When the model completes its run, the tokens are tossed away.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But a second finance person could want their model to check the same 10-K but using a different GPU. So, the prefill is done again with, for example, 150,000 tokens recomputed. When this happens, the existing tokens need to be temporarily moved to an extended memory area instead of being evicted and lost, meaning GPU cycles have to be spent to recompute data that’s already been computed. Everpure Key Value Accelerator (KVA) offloads the cached token states directly to shared flash over NVIDIA GPUDirect Storage (GDS) via RDMA. When a subsequent query references that document, the pre-computed KV tensors stream straight into GPU memory, bypassing host CPU overhead and eliminating the compute penalty.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Botes said: “It turns out that many, many patterns are far more reusable than people think. So, the more those patterns are reused, the more we can save compute time.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Physical proximity matters, Botes said: “Data speed drops dramatically as it moves further from the CPU or GPU: nanoseconds for local memory, microseconds for disk, and milliseconds for network transfers. Minimizing this distance is critical for performance. If I put that into scale, if memory access is a second, then disc access is an hour. The farther away you move, the more time everything takes and that doesn&#x27;t work for efficient AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Third: Eliminating irrelevant data silos
+  &lt;/strong&gt;
+  &lt;strong&gt;
+   and maximizing model training:
+  &lt;/strong&gt;
+  Data copying at scale is becoming impossible. An enterprise with data in different silos all over its estate is simply not going to move and copy that data into a single data warehouse or lake. Botes said: “You can&#x27;t, the gravity is too expensive. [And] the second that data&#x27;s changed at the source, that data lake is invalid.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Everpure Data Stream is this uniform mechanism, a data re-use platform, that ingests, curates and transforms data, vectorizing it, indexing it and serving it when requested. Data ingestion is automated and sources include the gamut of enterprise data: block, NFS file, S3 object, databases, data warehouses, data lakes, streaming data and enterprise applications, text documents, PDFs, images, and structured tables.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It has built-in vector databases with NVidia’s NeMo Retriever enabling GPU-accelerated vector embedding generation, ensuring precise retrieval in RAG pipelines, as well as Nvidia NIM for deploying optimized inference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are pipeline orchestration, GPU integration, Nvidia NIMs and NVAIE (Nvidia AI Enterprise) APIs plus ones for semantic search and LLM integration. Everpure Data Stream uses Nvidia’s RTX PRO 6000 Blackwell Server Edition GPU and libraries of code to synchronize data delivery across ConnectX-7 NICs with processor cycles: Nvidia Spark Rapids and cuVS. Everpure Data Stream ensures orchestration occurs at the storage level, with FlashBlade acting as a layer where metadata enrichment and relevance reranking transformations are executed in parallel, driving down end-to-end inferencing latency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Everpure Data Stream is a data factory and supply chain delivery system, finely tuned to operate in the Nvidia GPU server and software environment. It supports petabyte-scale RAG data sets, with independent scaling of capacity and performance to accommodate multiple GPU clusters without downtime.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Botes said: “Without a RAG mechanism, a model is trained with knowledge from only one moment - by definition it’s always behind. It&#x27;s at the point in time when it was trained. So what we do with the RAG is, we augment that model with knowledge that is from this very moment. That knowledge can only exist within a storage system. It never exists in a compute system. The more up to date we can make a model, then the more concise and better we can make the answers.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Everpure Data Stream is model-agnostic, Botes said: “Customers pick the models that best suit the data they’re interested in and configure the models.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;strong&gt;
+   Optimizing data placement and reuse
+  &lt;/strong&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  For our imagined insurance AI agent, proximity between data and GPU is another important element to factor in. Placing data storage right next to the GPU server (as FlashBlade//EXA should be) avoids time-consuming data movement - adding value and providing optimal data placement. With this, there is a memory hierarchy to keep in mind.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This kind of repeat token processing and the need for co-located GPU compute and storage is characteristic of AI models and agents operating in the finance analytics, healthcare clinical systems, legal corpora, real-time fraud detection, and cyber-security threat intelligence areas.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;strong&gt;
+   The requirement for data primacy and data context
+  &lt;/strong&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The whole system downstream of GPUs has to be data-centric with a single logical data catalog or encyclopedia acting as the sole reference platform for AI agents to provide governance, look for and access the data they need. It pre-prepares data for AI use. Exabyte-scale data has enormous gravity and moving it is to be discouraged. But the metadata describing it, petabyte-scale metadata, has gravity too and needs to be stored close to the GPU servers. Metadata performance is key, Botes said: “FlashBlade is an incredibly fast, highly distributed database that can look up key-values and present them as storage protocols extremely quickly.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Botes said: “Hardware innovation is exciting and accelerating rapidly, bringing advancements like faster PCI Express bus speeds, high-bandwidth memory, and improved network interconnects. The only way for the technology to take advantage of the hardware innovation without reinventing infrastructure every single year is to disaggregate,” meaning separate compute from storage, hence the FlashBlade//EXA’s design. “For AI platforms requiring cutting-edge performance, it’s so important to capture these benefits immediately, and at the pace of GPU innovations. How effectively we can manage and deliver data is the most significant impact of this hardware innovation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He explored this concept further: “Disaggregating compute, network, and storage allows us to scale them independently. This is crucial because innovation happens at different speeds for each component, preventing the need to overhaul the entire infrastructure every time one component advances.” This also allows organizations to upgrade hardware tiers independently through Everpure’s Evergreen subscription model, avoiding destructive forklift overhauls every time a new accelerator architecture arrives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A modern approach means a storage platform for AI agents has the basic IO speed to keep GPUs busy. It also has Everpure Data Stream software to ensure the right data IOs take place, and the data gets to the GPUs in the right way; data logistics as it were. Distributed data spread across an organization’s IT estate is discovered using Everpure Data Intelligence, following Everpure’s acquisition of 1touch. Botes said: “We are trying to make all storage layers self-describing, regardless of who makes them.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Everpure acquired 1touch to deepen data management capabilities and build a “data intelligence system. So we can probe it, describe it, and create indexes to understand it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And: “We have to do transformation while accessing it.” The self-description add-on, as it were, is happening inside Everpure Data Stream.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;strong&gt;
+   Isolated islands of truth
+  &lt;/strong&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Botes said: “When we classify, the key thing to think about is, anyone can hook up a system that can read all your data and make it into vector space and search it, kind of what OpenAI does. But the tricky part is different data needs different governance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When you classify, you also want to set up separate streams for separate governance rules, because not all data is the same. Every company has many different sources of truth: salesforce.com; an engineering system; the finance system, the HR system. They relate to each other, but they don&#x27;t need the same governance, or access. There needs to be a uniform mechanism for searching and interacting with preserved governance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Afterall, he said: “You don&#x27;t want to have 55 little islands of isolated truths. We&#x27;ve been down that path before and it&#x27;s really problematic. To date, the application has been the governor of truth. But AI doesn&#x27;t work that way. We have to create ways to find data by reference, not by location or URL.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He believes that “We have moved to systems that make data self-describing, so that, while we can maintain that source of truth within the application, the data there can also be used by other things.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because of self-description, he adds: “We&#x27;re making it queryable through AI and interacting through AI without necessarily having to make a full copy of it. Our capabilities in data intelligence makes it easy to deploy for enterprise data.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &lt;strong&gt;
+   Data centric architecture supporting AI workloads
+  &lt;/strong&gt;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  For the insurance AI agent mentioned, maximizing the data is the key to returning faster answers, making the most of any AI investment and delivering more ROI to businesses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As enterprise AI factories transition from pilot projects to scaled production, raw GPU count is fading as the primary metric of AI capability. The real benchmark is GPU utilization efficiency—and the battle to eliminate idle cycles is increasingly being fought at the storage layer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Everpure Data Platform approach to AI has the scale and software intelligence to prevent GPUs waiting for data and avoid them wasting their precious and expensive processing cycles recomputing data they have already wrangled.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Sponsored by Everpure
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Most people who quit M365 for Google do it out of spite, but there’s no ROI in that </title>
+<link>https://www.theregister.com/saas/2026/09/15/most-people-who-quit-m365-for-google-do-it-out-of-spite-but-theres-no-roi-in-that/5296460</link>
+<pubDate>Tue, 15 Sep 2026 07:23:34 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  One of the main motivations for quitting Microsoft 365 and adopting Google Workspace is spite, an emotion that sadly doesn’t produce a return on investment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The source of that disappointing news is Domenico Scriva, a senior principal analyst at Gartner, who today told the firm’s IT Symposium event in Australia that moving between the suites is also unlikely to save buyers much money.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He pointed out that Google Workspace licenses are cheaper than the E5 bundle that is Microsoft’s most popular M365 license, but that Google’s suite doesn’t cover telephony, security, business intelligence, or an OS license.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By the time users add all those bits to Google Workspace, he thinks they will pay $2 a month more than the cost of Microsoft’s suite – even after considering the fact that Google bundles its Gemini AI with Workspaces but Microsoft charges extra for Copilot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Scriva said Google’s suite can be more cost effective when paired with an Apple Mac or Chromebook. Mac users get lower costs because their machines last longer than PCs, while Chromebook owners save on hardware purchase price but need to replace their machines more often.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those numbers don’t consider the complexity of migrating between the suites, and the cost of moving. Scriva said dependencies built into either ecosystem are a likely source of migration complication, and the need for user training is another element that those who contemplate migrations sometimes neglect.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The analyst said he’s seen some M365 users trying to use the threat of migration as a negotiating tactic when renewing their Microsoft deals. He said that won’t work if you leave it too late, because Microsoft knows it’s not possible to make the move quickly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He therefore advised starting work on a migration almost as soon as you sign a three-year M365 deal, because it takes at least two years to get it done.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you do decide to move, he recommended having a specific outcome in mind, rather than just swapping one suite for another.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Productivity suites have scarcely changed in 30 years, he said, so it’s currently hard to see an outcome that makes a move worthwhile.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Happily, Scriva thinks AI may soon change that. He thinks we’re in a new wave of development of productivity suites in which AI assists with content creation. An imminent third wave, he predicted, will properly shake up the market by removing the need to use individual apps like word processors or presentation graphics packages, which he thinks will be replaced by some kind of AI interface that allows users to express what they want to do and then sit back and watch as their suite has a crack at the job. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Apple iPhone Duo makes developers think in folds </title>
+<link>https://www.theregister.com/devops/2026/09/15/apple-iphone-duo-makes-developers-think-in-folds/5296415</link>
+<pubDate>Tue, 15 Sep 2026 05:55:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The October 23 ship date of Apple’s iPhone Duo grows nigh, so developers wanting to optimize their iPhone apps for the foldable will need to get to grips with its new display behaviors and form factor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A fold is a UI event with backend consequences,” Atharva Deosthale, Appwrite developer advocate, wrote in
+  &lt;a href=&quot;https://appwrite.io/blog/post/phone-duo-whats-new-and-what-developers-can-build?via=dailydev&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   an introductory blog post
+  &lt;/a&gt;
+  . “Folding and unfolding is part of normal device use, so apps need to preserve state and respond cleanly when the display changes.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.apple.com/iphone-duo/&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.apple.com/iphone-duo/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   iPhone Duo
+  &lt;/a&gt;
+  , which Apple
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/09/09/apple-hawks-2k-folding-fondleslab/5295381&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/09/09/apple-hawks-2k-folding-fondleslab/5295381&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   introduced last week
+  &lt;/a&gt;
+  , is a smartphone with two screens: a squat 5.4-inch (diagonal) outer display on top of the case and the larger 7.6-inch inner display within. The display’s contents automatically (and stylishly) move to the visible screen when the device is opened or snapped shut.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple has published a
+  &lt;a href=&quot;https://developer.apple.com/iphone-duo/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   repository of technical documentation
+  &lt;/a&gt;
+  to help devs prepare for the new form factor. Time to study up.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  An ever-shifting canvas
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.youtube.com/watch?v=Od6M0AXpcxQ&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   foldable fondleslab
+  &lt;/a&gt;
+  will run iOS 27.1, and will run unaltered iPhone apps, but in the same way regular iPhone apps run on the iPad: awkwardly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Devs need to learn some new moves to style their apps to truly make Apple’s mobile device look good.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The foldable form factor means that the user may start work on an app on the top screen, and when the device opens, the app should appear seamlessly on the larger display (the display ratio remains the same across both screens).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The phone doesn’t have to lie flat for the inner screen to be fully used; it can also fold into a “tabletop posture,” where half the screen is flat and the other half sits upright, like a little laptop.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Or it could be fashioned into a partially opened “book posture,” with the fold running vertically. Maybe for privacy? Who knows what other ways people, with their endless ingenuity, will interact with these gadgets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both screens have a 120 Hz adaptive refresh rate, thanks to Apple’s ProMotion technology. So any transitions within the app, and resizing of the app itself, need to be almost Walt Disney animation-level smooth - while maintaining state.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The device can accommodate two apps simultaneously running on the screen, through “Split View,” so apps will also have to learn to share the screen nicely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To address this new topology, Apple is updating its
+  &lt;a href=&quot;https://developer.apple.com/xcode/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Xcode IDE
+  &lt;/a&gt;
+  ; the 27.1 beta will be available later this month.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The backend will need some love too
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The iPhone Duo screen is a different world for a number of reasons. Size is no longer a value, but a dynamic range, Deosthale noted. An app’s available size needs to be read at layout time and adjusted through the app’s lifetime as its screen allocation changes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some apps will work better in this environment than others, Deosthale noted.  Apps with fixed layouts and hardcoded dimensions, or that use view controllers that reload on size change, can appear stretchy. “Those need work,” he wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Compared with the iPhone Pro Max, the Duo offers a bit more space, with a 7.6-inch inner display versus 6.9 inches. It’s wide enough that a single column stretching across the entire display won’t impress anyone. Now’s the chance to add in a detail pane or sidebar, side-by-side presenter and viewer modes, Deosthale suggested.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And don’t let the app just disappear features, data or other miscellanea when the user switches screens. That will just come off as cheesy. Snapping the unit shut mid-task means the app needs to preserve its state, along with the user’s session identity, as the interface moves to the outer display.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Try not to move components around too much when the display switches, leaving the user seeking some option anew. In the
+  &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo&quot; rel=&quot;nofollow&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   technical docs
+  &lt;/a&gt;
+  , Apple calls this keeping a “consistent experience.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Contrary to the traditional iPhone layout, some of the device’s system controls have moved from the bottom toward the side of the display, which, in landscape mode, is a sensible change that leaves more, albeit asymmetrical, vertical space. However, it is up to developers to ensure their apps aren’t covered by system controls.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While this may not directly relate to the form factor itself, the device runs an
+  &lt;a href=&quot;https://www.igeeksblog.com/apple-a20-pro-everything-you-need-to-know/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   A20 Pro system-on-a-chip
+  &lt;/a&gt;
+  , built at 2-nanometer scale, with a 6-core CPU, a 7-core GPU wired for matrix math, and a dual 16-core neural engine for ML work. All this horsepower means you can run local ML inference on the device itself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Perhaps
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/14/the-myth-of-killer-ai-is-a-self-serving-attempt-at-regulatory-capture/5295978&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   add a button to destroy humanity
+  &lt;/a&gt;
+  ? It’d be the perfect antidote for a rough day at work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If Apple developers have any questions about
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/09/14/its-time-mobile-devs-started-to-think-about-foldables/314400&quot; rel=&quot;nofollow&quot;&gt;
+   working with foldable displays
+  &lt;/a&gt;
+  , they can ask their Android brethren who have been wrangling foldables for almost a decade now.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> The latest AI doomsayer is China’s intelligence boss </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/15/the-latest-ai-doomsayer-is-chinas-intelligence-boss/5296451</link>
+<pubDate>Tue, 15 Sep 2026 04:56:09 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  China’s minister for State Security has decided AI might be bad for the nation’s ruling Communist Party.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Party secretary and minister Chen Yixin’s views appeared in China Cyberspace Magazine, the flagship publication of China’s Cyberspace Administration (and which readers may recall once carried a piece by Elon Musk).
+ &lt;/p&gt;
+ &lt;p&gt;
+  In Chen’s view, “the field of AI has become the main battleground for global technological competition and a new arena for strategic rivalry among major powers.” His article also recites familiar grievances about US sanctions and the possibility AI could be weaponized to detect and exploit software vulnerabilities and then to attack important infrastructure, or to steal industrial and state secrets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenClaw and similar products also worry the minister, who thinks such software has “structural problems such as remote control of device management permissions and leakage of sensitive user information.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  China may also have a PEBCAK
+  &lt;sup&gt;
+   *
+  &lt;/sup&gt;
+  problem because Chen thinks “Some domestic users lack sufficient security awareness, using foreign AI products to process sensitive information and export data overseas, resulting in large-scale data leaks from within the country.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The minister is also worried about how AI challenges China’s Communist Party.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The application of artificial intelligence brings a large number of uncertainties to social governance and public order,” he observed. “The ‘black box’ of algorithms and the ‘poisoning’ of data may amplify existing social biases. The abuse of personal information during data use may trigger a crisis of user trust. The automatic decision-making of the system creates problems in attribution of responsibility.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He’s also worried that “rapid development of artificial intelligence has broken through the traditional technology governance framework, causing existing legal norms, ethical principles and governance mechanisms to frequently lag behind in practice, making it difficult to form an effective institutional constraint and supervision system.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chen’s suggested response is for China to adhere to the words of President Xi Jinping and modernize China’s national security system and capabilities, so they are ready for AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The minister says China must “ensure the independent control of key core technologies, firmly grasp technological sovereignty, and achieve a virtuous cycle and synergistic progress between innovation empowerment and security governance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That stance rather suggests Nvidia isn&#x27;t going to get back into China anytime soon, and AMD can probably write off its prospects of selling many GPUs there too.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chen also wants “special laws and regulations targeting the research, development, application, and supervision of artificial intelligence technology,” plus improvements to standards and laws “covering the entire chain of technology research and development, application implementation, risk prevention and control, and accountability, focusing on prominent issues such as algorithm security, data protection, ethical norms, and privacy rights.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The day after Chen’s article appeared, the Cyberspace Administration of China published version 3.0 of the nation’s AI Safety Governance Framework. That document calls for China to “actively employ risk-controllable institutional mechanisms such as regulatory sandboxes to make room for error and correction in the development of new technologies and new applications.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  China also plans to “make every effort to ensure AI safety” and to “take timely measures to address any risks that infringe upon the legitimate rights and interests of individuals, harm public interests, threaten national security, and endanger human survival and development.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s quite the contrast compared to the position taken by US president Donald Trump, who on Monday labeled concerns about AI safety a “hoax” and suggested “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” ®
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;sup&gt;
+   *
+  &lt;/sup&gt;
+  Problem Exists Between Chair And Keyboard
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Operationalize AI At Scale With HPE And Nvidia </title>
+<link>https://www.theregister.com/ai/2026/09/15/operationalize-ai-at-scale-with-hpe-and-nvidia/5296445</link>
+<pubDate>Tue, 15 Sep 2026 04:00:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  SPONSORED POST: While many organizations have AI projects underway at various stages of maturity , most are experiencing challenges scaling AI across their IT landscape. That is because many AI strategists have yet to work out how to build, operate, and extract value from their AI infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Without a formal, top-level plan for AI, key capabilities and requirements get lost, and the full value of AI is never realized.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What is needed is a pre-integrated, full-stack environment that simplifies the deployment, scaling and governance of enterprise AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is where the &quot;AI factory&quot; concept is gaining ground. An AI factory is a specialized computing environment designed to manage the entire AI lifecycle, from data ingestion and training through to fine-tuning and high-volume AI inference. Its primary &quot;product&quot; is intelligence, measured in token throughput, which in turn drives innovation, decision-making, IT automation and future AI applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  HPE AI Factory with Nvidia is a pre-integrated infrastructure solution  with HPE services provided from development to deployment to ongoing support for AI initiatives. It combines Nvidia&#x27;s accelerated computing and software with HPE&#x27;s secure infrastructure, software, control plane, and services,  to scale as the organization’s needs grow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The question that follows is how the AI factory model maps onto the main challenges enterprises face when they try to run AI at-scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this Hot Seat interview, James Hayes puts that question to Thierry Pienaar, HPE fellow and Chief Technology Officer for HPC &amp; AI worldwide at HPE, and Kaushik Shirhatti, VP, AI factory at Nvidia. He asks them how the AI factory model is reshaping enterprises thinking about AI and how it is accelerating customer projects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pienaar and Shirhatti explain that AI no longer sits in a deployment vacuum, and that today&#x27;s enterprise-wide rollouts carry risks older architectures were never built to absorb. Secure operations that scale across segments become a core requirement, particularly as deployments take in a widening range of personas, workgroups and, increasingly, agentic inputs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Security that load-balances intelligently, so that demand does not overwhelm the system, matters just as much. Sovereign AI is another priority: the balance between innovation and control now shapes how customers meet their growing sovereign AI  mandates, which have become central to AI governance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  You will learn:
+ &lt;/p&gt;
+ &lt;p&gt;
+  •	How AI factories can enable workload-specific architectures.
+ &lt;/p&gt;
+ &lt;p&gt;
+  •	How agentic AI is being used within the AI factory context.
+ &lt;/p&gt;
+ &lt;p&gt;
+  •	How HPE AI Factory with Nvidia meets the range of challenges customers face, and how it stands apart in its market segment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  •	New joint innovations the HPE and Nvidia partnership is bringing to customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Learn more about how sovereign AI beats compliance challenges and feeds local innovation with HPE and Nvidia here.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Sponsored by HPE.
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> COBOL dev won .Net hackathon with help from AI – and their CIO loves it </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/15/cobol-dev-won-net-hackathon-with-help-from-ai-and-their-cio-loves-it/5296438</link>
+<pubDate>Tue, 15 Sep 2026 01:47:17 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The CIO of Australia’s taxation office (ATO) is letting administrative staff use Microsoft’s Copilot for everyday activities, in the hope it pays off by helping them to develop skills, and ideas, that eventually improve its core services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are getting AI into the hands of as many workers as possible to build the muscle,” ATO CIO Mark Sawade said at analyst firm Gartner’s annual IT Symposium on Monday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CIO said the ATO is already familiar with AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have been doing forms of machine learning and deep analytics for fraud for the better part of a decade,” he said, mentioning fraud detection as one application for the tech. For now, he’s not letting generative or agentic AI near those processes or other core activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are using Copilot to just speed up some everyday activities,” the CIO added, saying he hopes that improves AI literacy and perhaps develops skills that lead to AI-powered improvements to core processes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sawade said he doesn’t expect allowing admin staff to work with Copilot will improve efficiency or produce obvious return on investment. Instead, he hopes to develop ROE – “return on employee.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “You will develop the muscle you need to learn how to improve business processes,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ATO’s developer team gives him confidence this strategy can work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CIO said the ATO operates many technology platforms of different vintages, from mainframe to Java, and recently staged an internal hackathon during which a COBOL developer emerged triumphant after using GitHub Copilot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “He had never coded a line of C# or anything in the .Net framework in his life,” Sawade said. “That showed us the ability to transcend some of the detail, how someone who understands core concepts can use generative AI to work in a domain they have never looked at before is really powerful.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sawade’s ambitions for AI are considerable. He pointed to the fact that the paper-based tax return forms Australia used in the 1990s took six hours to complete, compared to the 12 minutes taxpayers now spend using the ATO’s app and online service. He hopes AI can help the ATO to deliver similar improvements, especially for businesses whose tax affairs are more complex.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He also thought-bubbled personal agents that remind taxpayers that it’s time to file an annual return and interact with other agents to prepare it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We are a long way from that, with identity the main hurdle,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CIO is in no rush to jump that hurdle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Things that have bitten some organizations, like token costs, we can learn from that without being far behind,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whatever the ATO decides to do with AI, Sawade suggested it will only succeed if projects have goals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Be really clear on the outcomes, and then work backwards to increase automation,” he advised. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
