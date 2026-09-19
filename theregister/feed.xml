@@ -1,0 +1,2852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 19 Sep 2026 18:06:29 -0000</lastBuildDate>
+<item>
+<title> Agentic security is the billion-dollar challenge for some clever startup to solve </title>
+<link>https://www.theregister.com/security/2026/09/19/agentic-security-is-the-billion-dollar-challenge-for-some-clever-startup-to-solve/5297546</link>
+<pubDate>Sat, 19 Sep 2026 14:25:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  When it comes to AI models, security functions as an afterthought, as evidenced by
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517&quot;&gt;
+   increased instances
+  &lt;/a&gt;
+  of
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/14/openais-malicious-bot-swarm-attacked-rubygems/5296356&quot;&gt;
+   agents hacking
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412&quot;&gt;
+   organizations
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780&quot;&gt;
+   people
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/10/latest-anthropic-horror-story-chills-with-tales-of-kamikaze-drone-swarms-and-bioweapons-research/5295702&quot;&gt;
+   other
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991&quot;&gt;
+   security mishaps
+  &lt;/a&gt;
+  with
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/06/openai-reveals-its-rogue-agent-swarm-went-a-little-bit-borg-ahead-of-hugging-face-hack/5283741&quot;&gt;
+   agents gone rogue
+  &lt;/a&gt;
+  . There&#x27;s also an opportunity here for companies to offer new solutions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This should not come as a shock to anyone, according to cybersecurity investors and accelerator executives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “On one hand, we shouldn’t be surprised that increasingly capable agents are finding creative and sometimes unexpected ways to accomplish their objectives,” Matt Hartman, chief strategy officer at Merlin Group, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “On the other, we can’t accept harmful behavior as inevitable or unmanageable.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s the same story that plays out with every emerging technology, from laptops to cloud, said Todd Graham, managing partner at Microsoft’s M12 venture fund.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Every time we&#x27;ve built a new piece of infrastructure, we&#x27;ve conveniently forgotten the security,” Graham told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Herein lies the opportunity for early-stage security companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If laptops were default secure, we wouldn&#x27;t have CrowdStrike,” Graham said. “If the cloud was default secure, we wouldn&#x27;t have Wiz. If identity wasn&#x27;t default secure, we wouldn&#x27;t have a bunch of Active Directory add-ons and Okta.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  When it comes to AI security, “a lot of ships are going to rise with this tide,” he added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What’s different with AI is the speed at which models are advancing. While companies adopted cloud technologies over a period of years, organizations are
+  &lt;a href=&quot;https://www.theregister.com/special-features/2026/01/29/unaccounted-for-ai-agents-are-being-handed-wide-access/5120939&quot;&gt;
+   moving full speed ahead
+  &lt;/a&gt;
+  to incorporate agents and other AI tools into their production environments and allow them to access the most business-critical data and applications. Yet they don’t have a strong handle on how to manage, secure, or even identify the agents that are already roving about their systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is a transition happening month over month, and given the rate of change we’re seeing in the market, I’m in no way or shape surprised that this issue has come to a head in a rather dramatic fashion,” Graham said. “The incidents that have occurred - I’m not going to defend them, but they should be a wake up call. This is a moment in time where we need to insert security, and we&#x27;re just going to have to insert it faster.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &#x27;Ships are going to rise&#x27; with the AI tide
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Hartman joined Merlin after a lengthy career in federal cybersecurity, including senior roles at the US Cybersecurity and Infrastructure Security Agency. In his private-sector role, he helps determine which early- to growth-stage cybersecurity companies the group invests in, and then works with these firms to scale their technology across government, critical infrastructure, and other highly regulated markets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’re particularly interested in the security layer that governs agent behavior: identity for non-human actors, clear limits on what they can access and do, and an audit trail for actions taken on an agency’s behalf,” he said. “Agencies aren’t just asking how to adopt agents, they’re asking how to constrain them and prove what one did at 2 AM on a Tuesday.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  But while “the opportunity is enormous,” startup founders need to do more than just build an agentic AI security product. “AI has made it faster and cheaper than ever to build a product, so the bar for differentiation keeps rising,” Hartman said. “As the cost of building technology falls, the value shifts toward differentiated capabilities and the ability to take them to market. Founders who can do both have a real opportunity to define this category.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Graham also says that end-users are looking for agentic identity and governance products - “I truly believe someone is going to build the next Okta, just as SaaS generated Okta,” - but adds he sees several founders “thinking way too small.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I’m seeing a lot of companies that are solving a sliver of the problem,” Graham said. “And the reality is, if I&#x27;m a CISO for a Fortune 500 company, no way I&#x27;m going to go buy 15 things to do one thing. If you look at the standard identity stack that we’ve had for humans for quite some time, it has governance, you know, access control, authorization, access. For agents, someone&#x27;s going to have to come to us with a solution that does all of the things.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Agentic identity is the next unicorn
+ &lt;/h3&gt;
+ &lt;p&gt;
+  When it comes to non-human identities, however, that’s a really big, tough ask. Service accounts remain a prime target for hackers because they typically have high privileges and passwords that never expire. Securing these non-human accounts still plagues security teams - and that’s even before agents entered the mix.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond agentic identity, AI endpoint security - think of this as CrowdStrike for AI - is another area ripe for inventive startups, Graham said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He says it’s a challenge he would personally tackle as a founder, but he’s been banned from starting any more companies, so that’s not going to happen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If you have a breach, and you know you get hauled in front of Congress to explain why you didn&#x27;t have antivirus turned on [or] EDR, you’re going to add AI endpoint pretty quickly to that list,” Graham said. “It feels like a very hot area that is still early enough, if someone wanted to build a quality solution.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Existing endpoint and antivirus vendors “will absolutely” build products to fill this void, he added. “But it does feel like again a moment in time where disruption is coming for everyone, especially those that have you know pre-existing commitments to go solve.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Graham admits he is “worried” about the recent real-world bad behavior by AI agents. “If left unencumbered, if left to its own devices, I am very concerned about where the endpoint is for this,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, he’s “comforted” because he’s seen this scenario play out before, with security scrambling to keep up with infrastructure development. Graham also was &quot;pleasantly surprised” by Anthropic CEO Dario Amodei’s
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/15/anthropic-and-openai-look-to-uncle-sam-to-make-them-too-big-to-fail/5296403&quot; target=&quot;_blank&quot;&gt;
+   now infamous “We Must Pace the Frontier” essay
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I&#x27;m not taking the cynical view that it&#x27;s some sort of grand conspiracy to get around antitrust,” he told us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I&#x27;m a believer that AI is this awesome tool that is going to fundamentally change a lot of lives for the better. But we’ve got to put in the work now,” Graham said. “We&#x27;ve kicked the security can down the road long enough, and now we need to solve it.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI boom could leave an e-waste trail that wraps 6 times around Earth </title>
+<link>https://www.theregister.com/off-prem/2026/09/19/ai-boom-could-leave-an-e-waste-trail-that-wraps-6-times-around-earth/5297451</link>
+<pubDate>Sat, 19 Sep 2026 13:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  AI infrastructure could generate enough electronic waste by 2050 to fill a line of shipping containers stretching around Earth six times, according to a report that argues existing estimates drastically understate the problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Previous estimates have focused chiefly on servers and accelerators such as GPUs, which account for just 13 percent of a datacenter&#x27;s equipment by weight, the report says. Once power, networking, cooling, and other infrastructure are included, the total could be 40 to 60 times higher than the most widely cited academic projections.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report identifies five equipment categories comprising networking, power distribution, backup power systems, servers plus accelerators, and cooling. Together, these add up to about 7,000 metric tons for a reference 100 MW AI bit barn, much of which will have to be replaced when the facility is upgraded, it argues.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report,
+  &lt;a href=&quot;https://wiki.ban.org/images/1/16/AI_Waste_Wave_Part_1.pdf&quot;&gt;
+   How Big Is the AI Waste Wave?
+  &lt;/a&gt;
+  [PDF], comes from the
+  &lt;a href=&quot;https://www.ban.org/&quot;&gt;
+   Basel Action Network
+  &lt;/a&gt;
+  (BAN), a nonprofit organization named after the Basel Convention, which controls international movements of hazardous waste and seeks to prevent its transfer from developed to developing countries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  BAN&#x27;s model starts with what the industry says it intends to build and calculates the potential waste implied by that expansion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It estimates that AI infrastructure will generate between 395 million and 617 million tonnes of e-waste from 2025 to 2050. The report says that would fill between 15 million and 23 million shipping containers. Placing 20 million of them end to end would create a line about 244,000 km long, or roughly six times Earth&#x27;s circumference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The estimate rests on several assumptions. The model supposes that the copper, steel, cooling and power distribution equipment, networking gear, and computing hardware in the latest AI datacenters will be decommissioned within years rather than decades as the technology becomes obsolete.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For example, the report says that when a facility replaces racks drawing between 5 and 15 kW with the 50-140 kW racks required for AI workloads, much of its power infrastructure must be ripped out and replaced. A single 100 MW facility contains about 2,700 tonnes of copper in its cabling and busbars alone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GPUs and other AI accelerators are replaced every two to three years, BAN claims, compared with five to seven years for traditional general-purpose servers. The model assumes that owners replace entire servers when upgrading to the latest generation of Nvidia GPUs, for example. BAN argues this is plausible because the OEMs supplying hyperscalers tend to ship complete, preconfigured systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other equipment has different replacement cycles: three to four years for networking infrastructure, eight years for power distribution, and five years for both backup power and cooling systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 46-page paper is the first in a series. The second will examine how reuse, refurbishment, and repurposing could reduce the volume of e-waste. The third will consider its potential toxicity, including contamination by
+  &lt;span&gt;
+   perfluoroalkyl and polyfluoroalkyl substances (PFAS)
+  &lt;/span&gt;
+  , while the fourth will examine ways to mitigate the risks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  No hyperscaler, government, or international body has published a plan for handling AI-driven e-waste on the scale projected, the report says. It adds that there is insufficient infrastructure to process even current volumes safely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;To date the environmental debate around AI has focused on electricity, carbon and water while largely overlooking what happens to the hardware itself,&quot; said BAN founder and chief of strategic direction Jim Puckett.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;If companies and governments do not begin planning for this new waste tsunami, today&#x27;s AI buildout could become an even more cataclysmic toxic waste crisis than we are already experiencing.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Firefox 156 arrives with a forest of forks in its wake </title>
+<link>https://www.theregister.com/software/2026/09/19/firefox-156-arrives-with-a-forest-of-forks-in-its-wake/5297194</link>
+<pubDate>Sat, 19 Sep 2026 07:28:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Mozilla and MZLA have delivered the latest releases in their new fortnightly cycle, but users who dislike the faster pace have alternatives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.firefox.com/en-US/firefox/156.0/releasenotes/&quot;&gt;
+   Firefox 156
+  &lt;/a&gt;
+  is trickling out to users. The release notes only mention two new features: for Mac users, there&#x27;s now an option in Settings to automatically launch the app at login. This vulture has received criticism for saying this in some of the product&#x27;s forums before, but since pretty much every OS has a built-in facility for this, we don&#x27;t really see the point – though it&#x27;s harmless and could be handy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Users who have chosen French, German or Italian will now find suggestions from Wikipedia in their own languages – along with potentially less welcome ads from Mozilla partners. If you don&#x27;t want such suggestions, you can turn them off in
+  &lt;a href=&quot;https://support.mozilla.org/en-US/kb/firefox-suggest&quot;&gt;
+   Firefox Suggest settings
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  As with the
+  &lt;a href=&quot;https://www.theregister.com/software/2026/09/02/firefox-and-thunderbird-hit-the-fortnightly-release-treadmill/5293953&quot;&gt;
+   previous release
+  &lt;/a&gt;
+  of both apps, the changes in Thunderbird sound slightly more useful – but again, they are small.
+  &lt;a href=&quot;https://www.thunderbird.net/en-US/thunderbird/156.0/releasenotes/&quot;&gt;
+   Thunderbird 156
+  &lt;/a&gt;
+  offers more troubleshooting info in the event of problems with OpenPGP, and more options for
+  &lt;a href=&quot;https://auth0.com/intro-to-iam/what-is-oauth-2&quot;&gt;
+   OAuth
+  &lt;/a&gt;
+  authorization for POP3 and IMAP accounts. There are also additional enterprise policies for controlling filters and user customizations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we said last time, though, users who want to get off the rapid-upgrade train have several options. The most obvious comes directly from Mozilla: the
+  &lt;a href=&quot;https://www.firefox.com/en-GB/browsers/enterprise/&quot;&gt;
+   Firefox ESR
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://support.mozilla.org/en-US/kb/thunderbird-esr&quot;&gt;
+   Thunderbird ESR
+  &lt;/a&gt;
+  versions only get security fixes, with full new versions only coming annually. Currently, both are on
+  &lt;a href=&quot;https://www.theregister.com/software/2026/07/23/firefox-153-contains-itself-while-thunderbird-153-fixes-almost-everything/5276390&quot;&gt;
+   version 153
+  &lt;/a&gt;
+  , which appeared in late July.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A fistful of forks
+ &lt;/h3&gt;
+ &lt;p&gt;
+  There aren&#x27;t many Thunderbird-based messaging clients, possibly because so many people now use webmail.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The main Thunderbird fork is
+  &lt;a href=&quot;https://www.betterbird.eu/&quot;&gt;
+   Betterbird
+  &lt;/a&gt;
+  . Its current version is based on the current Thunderbird ESR, version 153. There are Windows, Linux, and Mac versions, including a portable edition for Windows. Portable Betterbird runs directly from a USB drive without installation or administrator rights, allowing users to carry their message database between computers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are quite a few alternative browsers based on Firefox, though.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  FOSS desk has been using
+  &lt;a href=&quot;https://www.waterfox.com/&quot;&gt;
+   Waterfox
+  &lt;/a&gt;
+  on our Linux machines ever since
+  &lt;a href=&quot;https://blog.mozilla.org/en/mozilla/introducing-firefox-quantum/&quot;&gt;
+   Firefox Quantum appeared
+  &lt;/a&gt;
+  back in 2017. That release, Firefox 57, broke 90 percent of our meticulously assembled collection of more than 30 extensions. Waterfox Classic preserved support for the legacy extensions that Firefox Quantum abandoned and continued receiving maintenance for several years. It remained compatible with those older XUL-based extensions for years after Firefox abandoned them, giving the extension builders time to catch up.
+  &lt;a href=&quot;https://classic.waterfox.net/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Waterfox Classic
+  &lt;/a&gt;
+  has been unmaintained since 2022 and is no longer recommended. The current Waterfox release, version 6.7, is based on Firefox 153 ESR.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you want a Firefox-like browser with no AI, a built-in ad-blocker and tree-style tabs, and a slower-moving, more stable release schedule, then Waterfox is worth a look. A detail that we like about Waterfox is that it still works fine with a global menu bar, whether that&#x27;s in
+  &lt;a href=&quot;https://ubuntuunity.org/&quot;&gt;
+   Ubuntu Unity
+  &lt;/a&gt;
+  or in a
+  &lt;a href=&quot;https://www.theregister.com/software/2026/09/13/how-to-make-xfce-look-like-almost-any-desktop-you-want/5295775&quot;&gt;
+   customized Xfce profile
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://librewolf.net/&quot;&gt;
+   LibreWolf
+  &lt;/a&gt;
+  is a customized privacy-centric build of Firefox with less telemetry. It remains close to the parent project, and new versions are keeping pace with Mozilla&#x27;s faster release cadence. So if you don&#x27;t mind the faster releases, but do want even more privacy, LibreWolf could be a good option.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you want a fancier, more customizable UI, then the Japanese
+  &lt;a href=&quot;https://blog.floorp.app/en/&quot;&gt;
+   Floorp
+  &lt;/a&gt;
+  browser is another option. It has its own release cycle and, at the time of writing, is up to version 12.17.2, which incorporates the changes in Firefox 155. Floorp features multiple sidebars and other UI customizations over and above what&#x27;s possible with Firefox or any of the other forks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you want a less-cluttered UI rather than more toolbars and more gadgets, then the
+  &lt;a href=&quot;https://zen-browser.app/&quot;&gt;
+   Zen Browser
+  &lt;/a&gt;
+  may be more your thing. It is more minimal than Floorp, but in some ways more radical. Its main selling point is the ability to tile multiple web pages, so you can see them all on screen at the same time. Otherwise, it exposes less interface clutter than other Firefox variants. We
+  &lt;a href=&quot;https://www.theregister.com/software/2024/09/02/zen-browser-is-a-no-google-zone-that-offers-tiling-nirvana/1514721&quot;&gt;
+   looked at it in 2024
+  &lt;/a&gt;
+  and it&#x27;s only got better since then.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you use an OS with tiling window management, or an optional extra such as
+  &lt;a href=&quot;https://rectangleapp.com/&quot;&gt;
+   Rectangle
+  &lt;/a&gt;
+  for macOS or
+  &lt;a href=&quot;https://github.com/jardon/gnome-mosaic&quot;&gt;
+   Mosaic
+  &lt;/a&gt;
+  for GNOME, you may not need Zen, but it has its own advantages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  You do not need to be a Mullvad VPN customer to use the
+  &lt;a href=&quot;https://mullvad.net/en/browser&quot;&gt;
+   Mullvad browser
+  &lt;/a&gt;
+  . However, prospective users may object to the politics of one of its co-founders. As we
+  &lt;a href=&quot;https://www.theregister.com/software/2026/07/21/some-mullvad-vpn-customers-tunnel-for-exit-after-co-founder-donates-millions-to-populist-party/5275012&quot;&gt;
+   reported recently
+  &lt;/a&gt;
+  , Daniel Berntsson recently made a large and controversial donation to a Swedish anti-immigration party. Of course, you may also be indifferent to the political views of the company&#x27;s owners.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Mullvad browser was co-developed with the
+  &lt;a href=&quot;https://www.torproject.org/&quot;&gt;
+   Tor Project
+  &lt;/a&gt;
+  , and for the ultimate in online anonymity and invisibility, that project also offers the
+  &lt;a href=&quot;https://download.torproject.org/&quot;&gt;
+   Tor Browser
+  &lt;/a&gt;
+  . It&#x27;s probably overkill for daily use, though.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  And there&#x27;s more…
+ &lt;/h3&gt;
+ &lt;p&gt;
+  There is also an assortment of more specialized forks drawing on Mozilla&#x27;s code and that of some of the projects above.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A decade-long
+  &lt;a href=&quot;https://en.wikipedia.org/wiki/Debian%E2%80%93Mozilla_trademark_dispute&quot;&gt;
+   trademark dispute between Mozilla and Debian
+  &lt;/a&gt;
+  led to Debian maintaining its own version of Firefox with all Mozilla branding removed. This was settled in 2016, but variants of the project are still in development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://sourceforge.net/projects/libportable/files/Iceweasel/Stable/&quot;&gt;
+   IceWeasel
+  &lt;/a&gt;
+  is a debranded Firefox with some tweaks and optimizations, available for x86-64 Windows and Linux. The GNU Project also maintains a debranded fork, called
+  &lt;a href=&quot;https://www.gnu.org/software/gnuzilla/&quot;&gt;
+   GNU IceCat
+  &lt;/a&gt;
+  , as well as a version of the old Mozilla Internet Suite. They are only packaged for the GNU Guix distribution, which we
+  &lt;a href=&quot;https://www.theregister.com/software/2024/12/13/both-systemd-257-and-gnu-shepherd-10-are-out/496187&quot;&gt;
+   looked at along with its init system
+  &lt;/a&gt;
+  in 2024. There is also a separately maintained
+  &lt;a href=&quot;https://github.com/tmiland/GNU-IceCat&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Debian package
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://firedragon.garudalinux.org/#firedragon&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   FireDragon
+  &lt;/a&gt;
+  browser incorporates LibreWolf&#x27;s privacy adjustments and modifies the UI to better suit the Garuda Linux distribution – an Arch variant that
+  &lt;a href=&quot;https://www.theregister.com/software/2022/07/28/garuda-linux-talon-arch-but-different-and-better/380645&quot;&gt;
+   rather impressed us
+  &lt;/a&gt;
+  back in 2022. Despite its Garuda origins, FireDragon is available for all major operating systems. It follows its own versioning system, under which it&#x27;s currently at version 13.5.1, but it&#x27;s up to date with the parent project.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://betterfox.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Betterfox
+  &lt;/a&gt;
+  isn&#x27;t a fork, but a set of configuration files that you can
+  &lt;a href=&quot;https://github.com/yokoffing/Betterfox&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   download
+  &lt;/a&gt;
+  and apply to an existing Firefox installation.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Older versions, older OSes, and older processors
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Not all of the changes in Mozilla&#x27;s products over the years have won over all their users – such as the &quot;Australis&quot; theme that
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.theregister.com/software/2012/10/05/mozilla-floats-fondleslab-ready-firefox-for-win-8/624071&quot;&gt;
+   mentioned back in 2012
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.palemoon.org/&quot;&gt;
+   Pale Moon browser
+  &lt;/a&gt;
+  forked from Firefox long before even Firefox Quantum; it retains the look and feel of Firefox from version 4 to version 28, which is no longer available in Firefox itself. We first
+  &lt;a href=&quot;https://www.theregister.com/software/2021/11/04/waterfox-a-firefox-fork-that-could-teach-mozilla-a-lesson/1355827&quot;&gt;
+   mentioned Pale Moon back in 2021
+  &lt;/a&gt;
+  and again in connection with
+  &lt;a href=&quot;https://www.theregister.com/software/2025/03/04/cloudflare-blocking-pale-moon-and-other-browsers/1243340&quot;&gt;
+   Cloudflare issues last year
+  &lt;/a&gt;
+  . It&#x27;s actively maintained and current.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There&#x27;s also the
+  &lt;a href=&quot;https://www.basilisk-browser.org/&quot;&gt;
+   Basilisk Browser
+  &lt;/a&gt;
+  , forked from a newer version of Firefox than Pale Moon and now maintained independently. Both of these support some older versions of Windows and macOS than modern Firefox.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When we wrote about
+  &lt;a href=&quot;https://www.theregister.com/software/2023/07/24/want-to-live-dangerously-try-running-windows-xp-in-2023/346131&quot;&gt;
+   running Windows XP in 2023
+  &lt;/a&gt;
+  , we mentioned the
+  &lt;a href=&quot;https://github.com/Feodor2/Mypal68&quot;&gt;
+   MyPal68 browser
+  &lt;/a&gt;
+  , a fork of relatively recent Firefox that still works on 32-bit Windows all the way back to Windows XP – as well as on 64-bit versions, naturally. MyPal68 is still in active maintenance and it&#x27;s now up to version 78.1.0.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There&#x27;s
+  &lt;a href=&quot;https://eclipse.cx/projects/r3dfox&quot;&gt;
+   R3dfox
+  &lt;/a&gt;
+  too, a custom fork of Firefox for those who prefer Windows Vista and Windows 7. The latest release is based on Firefox 153, the current ESR version.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For users of old versions of Mac OS X, there are multiple options.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://github.com/aobaharuki2005/momiji-web-browser/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Momiji
+  &lt;/a&gt;
+  is an actively maintained version of Firefox 140 ESR that runs on OS X 10.7 &quot;Lion&quot; and later. It continues the work of the Firefox Dynasty project, which
+  &lt;a href=&quot;https://www.theregister.com/software/2025/09/13/5-ways-to-refresh-the-os-and-browser-on-an-elderly-mac/727985&quot;&gt;
+   we mentioned a year ago
+  &lt;/a&gt;
+  as an option for older Macs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://powerfox.org/&quot;&gt;
+   Powerfox
+  &lt;/a&gt;
+  is similar: it targets Intel-based Macs and is based on the newer Firefox 153 ESR. The project also offers Powerfox Classic, which supports PowerMacs running all the way back to Mac OS X 10.3 &quot;Panther.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://blackbirdlc.github.io/aquafox/Homepage.html&quot;&gt;
+   Aquafox
+  &lt;/a&gt;
+  is a modernized version of TenFourFox, for PowerMacs with Mac OS X 10.4.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.seamonkey-project.org/&quot;&gt;
+   SeaMonkey Project
+  &lt;/a&gt;
+  is a fork that continues development of the original pre-Firefox Mozilla Internet Suite: it&#x27;s not just a web browser, but also contains an email/USENET client, an IRC client, an RSS reader, and a WYSIWYG HTML editor. It&#x27;s still maintained, it&#x27;s now 64-bit only, and it supports all major OSes – but compatibility may be an issue, as it uses a very old version of the Gecko rendering engine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We also found several Firefox forks that appear to be unmaintained and are probably best avoided.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition to its
+  &lt;a href=&quot;https://www.ghostery.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   ad blocker
+  &lt;/a&gt;
+  , Ghostery once offered a separate
+  &lt;a href=&quot;https://github.com/ghostery/user-agent-desktop&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Ghostery Private Browser
+  &lt;/a&gt;
+  , but discontinued development in 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Similarly, the
+  &lt;a href=&quot;https://thorium.rocks/mercury&quot;&gt;
+   Mercury Browser
+  &lt;/a&gt;
+  for Windows and Linux was a more private Firefox with compiler optimizations so it ran faster. It never progressed beyond
+  &lt;a href=&quot;https://github.com/Alex313031/Mercury&quot;&gt;
+   version 129
+  &lt;/a&gt;
+  , released a couple of years ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://sourceforge.net/projects/cyberfox/&quot;&gt;
+   Cyberfox Browser
+  &lt;/a&gt;
+  was a 64-bit Windows version back when Mozilla didn&#x27;t offer such things, although the project also offered a 32-bit version. It hasn&#x27;t had a new release in eight years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://github.com/torvic9/plasmafox&quot;&gt;
+   Plasmafox
+  &lt;/a&gt;
+  was Firefox tweaked to better integrate with the KDE Plasma desktop on Arch Linux, but it fell off its perch after version 88.0.1, five years ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These are the only ones of which the news has come to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  FOSS desk– although there may be many others. If we&#x27;ve missed any, do please let us know. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Anthropic decides to support OpenAI&#x27;s markdown instructions spec </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/18/anthropic-decides-to-support-openais-markdown-instructions-spec/5297588</link>
+<pubDate>Fri, 18 Sep 2026 21:33:16 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Anthropic on Friday surprised the developer community by supporting rival OpenAI&#x27;s mechanism for passing marching orders to AI agents. This makes life easier for folks who use both platforms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We&#x27;re adding support for AGENTS.md to Claude Code,&quot; said Claude Code engineer Thariq Shihipar in a social media
+  &lt;a href=&quot;https://x.com/trq212/status/2101009392611278961?s=20&quot;&gt;
+   post
+  &lt;/a&gt;
+  . &quot;Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Claude Code users can toggle this behavior, he said, with the
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   /config
+  &lt;/span&gt;
+  command.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Until now, developers who use Claude Code alongside OpenAI Codex or other non-Anthropic tools have had to maintain two sets of Markdown instructions for their AI agents: CLAUDE.md and AGENTS.md, not to mention project-specific versions of these files.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These documents get read by coding agents with every request. They outline expected behavior, preferred tool usage, coding conventions, and so on. They lay the foundation of the agent&#x27;s context.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The two formats are similar but not identical – CLAUDE.md may contain Claude-specific instructions while AGENTS.md is intended to be tool agnostic.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because these documents can change, those working with AI agents have implemented various workarounds, like creating symlinks to keep CLAUDE.md and AGENTS.md in sync.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Last year, OpenAI contributed AGENTS.md
+  &lt;a href=&quot;https://openai.com/index/agentic-ai-foundation/&quot;&gt;
+   to the Agentic AI Foundation
+  &lt;/a&gt;
+  , under the Linux Foundation, in a bid to build support for its standard. As of December 2025, more than 60,000 open source projects implemented AGENTS.md.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The popularity of Claude Code has given Anthropic the latitude to insist on its own standards, but it appears the company has decided there&#x27;s nothing to be gained from continued specification separatism.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For those who use AI coding tools, this detente is an event of modest significance. Many widely followed software developers applauded the decision in social media posts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thibault Sottiaux, OpenAI&#x27;s head of core product, remarked, &quot;Yay! This is the way. Come to the light,&quot; to which Shihipar responded with the handshake emoji (🤝). It&#x27;s enough to bring a tear to the eye. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft agentically ports Copilot runtime to Rust for $120K </title>
+<link>https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549</link>
+<pubDate>Fri, 18 Sep 2026 21:11:05 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The software engine underpinning GitHub Copilot and a growing number of Microsoft products is now written entirely in Rust, with AI agents doing most of the porting work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The migration cost about $120,000 in AI token usage plus about three weeks of a developer&#x27;s time. However, managers also had to grapple with a few dozen regressions in the resulting code, pointing to AI’s ongoing challenges in understanding Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The effort updated the runtime module-by-module until the job was completed, spanning over 135 releases across a 14.5-week time period. Roughly 1.3 port pull requests were opened per day.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Overall, agents converted 430,000 lines of TypeScript into 800,000 lines of production Rust. To keep the port as simple as possible, the port only replaced TypeScript modules on a case-by-case basis. It didn’t look to optimize the structure of the runtime itself. That work is next.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And Rust, known for its lean performance, did not disappoint.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One benchmark measured how quickly the runtime could complete 1,000 one-turn session lifecycles, using a shared client and 100 concurrent pipelines. The original TypeScript implementation completed 7.55 of those lifecycles per second, while Rust running in-process managed 120 per second - representing a 15.9x speedup on that particular workload.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In terms of memory, a 10-client batch of agents consumed 1,383 MB with TypeScript while the Rust rewrite consumed only 126 MB serving the same swarm. Within Rust, the work remained in-process instead of spawning external background processes for completion, a requirement for TypeScript.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Copilot from VS Code to Microsoft Office
+ &lt;/h3&gt;
+ &lt;p&gt;
+  At first glance, most users may not know how pervasive the Copilot runtime is. It backs the
+  &lt;a href=&quot;https://github.com/features/copilot/cli/&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/features/copilot/cli/&quot; rel=&quot;nofollow&quot;&gt;
+   GitHub Copilot
+  &lt;/a&gt;
+  command-line interface (CLI), the
+  &lt;a href=&quot;https://github.com/features/ai/github-app&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/features/ai/github-app&quot; rel=&quot;nofollow&quot;&gt;
+   Copilot app
+  &lt;/a&gt;
+  , the
+  &lt;a href=&quot;https://github.com/github/copilot-sdk&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://github.com/github/copilot-sdk&quot; rel=&quot;nofollow&quot;&gt;
+   SDK
+  &lt;/a&gt;
+  and the
+  &lt;a href=&quot;https://docs.github.com/copilot/how-tos/use-copilot-agents/cloud-agent&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://docs.github.com/copilot/how-tos/use-copilot-agents/cloud-agent&quot; rel=&quot;nofollow&quot;&gt;
+   GitHub Copilot cloud agent
+  &lt;/a&gt;
+  . It shows up in VS Code, Visual Studio, Excel, Outlook, PowerPoint, and innumerable other Microsoft cloud services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Originally, the runtime was written in TypeScript and used
+  &lt;a href=&quot;http://node.js&quot;&gt;
+   Node.js
+  &lt;/a&gt;
+  as the framework and V8 for the execution engine. TypeScript and Node were ace for rapid development, but when used at scale, they suffered in terms of providing fast start-up and server density.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is in no way a claim that every large TypeScript program should become Rust. Our requirements emphasized embedding through a C ABI, low startup and steady-state overhead, and predictable resource use. Rust made those goals possible,” wrote Microsoft Distinguished Engineer
+  &lt;a href=&quot;https://github.com/stephentoub&quot; rel=&quot;nofollow&quot;&gt;
+   Stephen Toub
+  &lt;/a&gt;
+  in a post that
+  &lt;a href=&quot;https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/&quot; rel=&quot;nofollow&quot;&gt;
+   explained the entire process
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project used Copilot to rewrite Copilot, which in turn used several LLMs – GPT-5.6 Sol and Claude Opus 4.8 were both namechecked – to execute different parts of the job, depending on each LLM’s natural strength.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Well-read but chatty agents
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Toub assessed the use of agents as largely successful. Indeed, this project would have taken years and cost millions if done by hand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Agents showed several surprising emergent behaviors, Toub noted. For one, they spent far more time gathering information than actually writing code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The popular image of AI spewing code is almost backwards; at this scale, the work looked much more like iterative investigation, inspecting the current state, forming a hypothesis, making a targeted change, rinsing and repeating,” he wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another surprise was how frequently sessions interacted with other sessions, either those they spawned or other ones entirely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the thorniest conversions was the
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   session.ts
+  &lt;/span&gt;
+  file, which was over 30,000 lines of TypeScript that touched all aspects of the runtime. The porting session, which ended up taking 25 hours to complete, began by spending 56 minutes reading the documentation and making 122 tool calls for clarification. It then spawned 15 child sessions, each creating its own worktree and agent. Then, they started communicating with each other.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Using a built-in orchestration skill, one session found every other active session and sent messages to those whose missions overlapped, requesting coordination.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The compiler is a teacher, not an oracle
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Given its performance benefits, Rust has proven to be a popular language for rewriting applications. Bun creator Jarred Sumner, for instance, recently ported the Anthropic-owned JavaScript runtime and toolkit, which contained roughly 535,000 lines of
+  &lt;a href=&quot;https://www.theregister.com/software/2026/05/28/zig-creator-seeks-uncompromising-perfection-before-blessing-10/5247916&quot; rel=&quot;nofollow&quot;&gt;
+   Zig code,
+  &lt;/a&gt;
+  over to Rust, almost entirely using Claude agents. As of July 30, the experimental Rust port was passing
+  &lt;a href=&quot;https://www.cosmicjs.com/blog/bun-rust-rewrite-javascript-runtime&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   99.8 percent
+  &lt;/a&gt;
+  of Bun&#x27;s existing tests on Linux x64 glibc, with the stable releases still shipping from the Zig codebase.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That job cost $165,000 in tokens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But there are hidden dangers in using Rust as well, as Toub has found.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For an LLM and a lazy programmer alike, if the code compiles, then it is valid Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But throughout the process, the project encountered dozens of regressions within the code. A regression is something that used to work, but no longer does after an update.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The compiler has no idea, for instance, whether functions are in the right order, whether the job completes at an acceptable cost, whether it meets the developer&#x27;s unwritten requirements, or whether it is internally coherent at all, for that matter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At RustConf, held in Montréal last week, consultant
+  &lt;a href=&quot;https://x.com/Lisa_Crossman&quot; rel=&quot;nofollow&quot;&gt;
+   Lisa Crossman
+  &lt;/a&gt;
+  warned about the practice of treating the compiler as an “oracle,” or the last word on whether some Rust code is valid or not. “Rust stops the agent writing memory unsafe code; it does not stop the agent writing the wrong program correctly,” she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If they’re wise, a human developer treats the compiler as a teacher, decoding the errors as a path to a better understanding of the language’s domain. An LLM, on the other hand, just uses the compiler as a black box, one it can batter with blunt, inefficient workarounds until one passes muster (perhaps this is what Zig creator Andrew Kelley meant when he called Bun’s Rust code “
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743&quot; rel=&quot;nofollow&quot;&gt;
+   unreviewed slop
+  &lt;/a&gt;
+  ”).
+ &lt;/p&gt;
+ &lt;p&gt;
+  In Toub’s case, he had found that compiler-approved regressions could come from ambiguous semantics and behaviors, branch drift, missing features that weren’t ported over, and differing behaviors from the replacement code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “That’s in no way an argument against Rust’s compiler,” Toub wrote. “But ‘if it compiles, it’s correct’ is useful only as a joke.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Virginia governor wakes up to fact datacenters have become political cancer </title>
+<link>https://www.theregister.com/systems/2026/09/18/virginia-governor-wakes-up-to-fact-datacenters-have-become-political-cancer/5297561</link>
+<pubDate>Fri, 18 Sep 2026 20:16:57 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Virginia is not just for lovers, but is also for datacenters, hosting more than anywhere else in the world. However, the growth could be slowing as Governor Abigail Spanberger issued an executive order on Friday cracking down on bit barn builds in the state.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In the years before I took office, datacenters came to Virginia and the Commonwealth did not have a clear or coordinated plan to address their impacts on Virginians … That changes today,” Spanberger said in a
+  &lt;a href=&quot;https://www.governor.virginia.gov//newsroom/news-releases/2026/september-releases/name-1123696-en.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   statement
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   executive order
+  &lt;/a&gt;
+  is part of a broader datacenter accountability framework that calls for greater transparency, a ban on nondisclosure agreements, limits on permitting, and more stringent environmental controls.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spanberger argues that existing policy lacked the precision necessary to hold bit barn builders accountable, and that the order is necessary to protect residents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition to greater transparency, the broader framework would require local approval for datacenters exceeding 25 megawatts and remove future large datacenters from the expedited permitting process, while the order calls on government officials to establish criteria to distinguish between responsible datacenter developments and those that would negatively impact residents or the environment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking of the environment, the order would limit the use of water-intensive cooling towers in areas suffering from water scarcity, and encourage datacenter operators to either retrofit existing backup generators to reduce emissions or switch to battery storage, fuel cells, and other clean energy sources.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Friday&#x27;s order comes just days after the Loudoun County Board of Supervisors
+  &lt;a href=&quot;https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1975550/09-15-26%20Business%20Meeting%20Action%20Report.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   backed
+  &lt;/a&gt;
+  a plan to pause final action on certain new datacenter and substation applications for up to 12 months. Loudoun County is home to one of the highest concentrations of datacenters in the state.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Opposition to datacenter development across the US is on the rise amid growing concerns over the server farms&#x27; impact on air quality, noise pollution, water use, and residents&#x27; electric bills.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In Tennessee, Elon Musk&#x27;s Colossus 2 datacenter is powered in part by 27 gas turbines across the state line in Mississippi, which are now the subject of an NAACP
+  &lt;a href=&quot;https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   lawsuit
+  &lt;/a&gt;
+  alleging violations of the Clean Air Act.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, some states have gone even further and outright blocked the development of new datacenters while local governments get a better handle on their potential impacts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In July, New York became the first state to
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/14/new-york-becomes-first-state-to-halt-datacenter-buildouts/5271377&quot; target=&quot;_blank&quot;&gt;
+   temporarily halt
+  &lt;/a&gt;
+  datacenter buildouts exceeding 50 megawatts as part of an executive order signed by Governor Kathy Hochul.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A month later, Pennsylvania Governor Josh Shapiro
+  &lt;a href=&quot;https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   issued
+  &lt;/a&gt;
+  an executive order blocking datacenter permit applications unless they made legally binding commitments to abide by the Governor’s Responsible Infrastructure Development (GRID) requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Much like Virginia’s executive order, these rules seek to ensure residents don’t end up footing the bill for grid improvements built based on speculative demand. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Compsci grads facing recession-like job prospects thanks to AI </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/18/compsci-grads-facing-recession-like-job-prospects-thanks-to-ai/5297537</link>
+<pubDate>Fri, 18 Sep 2026 19:48:22 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Thanks to AI, computer science majors are finding themselves in a tougher spot than they might have expected. Jobs are harder to come by, and more graduates are ending up in lower-paying sectors like retail and food service.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s according to a new
+  &lt;a href=&quot;https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   working paper
+  &lt;/a&gt;
+  by three US Census Bureau economists examining how college graduates from majors with the highest exposure to AI have fared since ChatGPT came onto the scene in late 2022 and helped kick off the generative AI boom. The results don’t look good for those in the most exposed fields, with career and earnings prospects for the top decile (i.e., the top ten percent of majors most exposed to AI) looking as bad as those of older Millennials who graduated during the Great Recession.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The most AI-exposed decile of college majors saw their likelihood of initial employment decline by five percentage points, while full-quarter initial earnings declined by 13 percent,” a trio of Census Bureau economists wrote in the paper. “This earnings decline is comparable in magnitude to the earnings losses associated with graduating into a large recession.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And why are those earnings declining? Well, part of the answer is where the AI-affected graduates are ending up: With job prospects worsening, more are turning to lower-wage sectors like restaurants and retail, with the researchers finding that shifts into lower-paying industries account for about half of the earnings decline.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The one big difference between your usual recession and what’s happening now, the economists explain, is that the effects aren’t spread evenly across all industries. Graduates from less AI-exposed fields, including nursing and many education fields, haven’t experienced the same deterioration in early-career employment seen among those from the most exposed majors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those having trouble are largely who you’d think: Graduates in computer science, mathematics, statistics, some engineering disciplines, networking, and (gulp)
+  &lt;a href=&quot;https://www.theregister.com/software/2017/03/06/stop-the-press-journos-not-happy-losing-jobs-to-journo-bots-say-journos/965988&quot;&gt;
+   even journalists
+  &lt;/a&gt;
+  are among those in the most AI-exposed fields.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The impacts that young graduates are feeling have tended to ease as they move further from graduation, but previous research on those who entered the workforce around the Great Recession suggests that years of lousy job prospects can leave graduates
+  &lt;a href=&quot;https://www.cnbc.com/2021/04/16/older-millennials-wealth-previous-generations.html&quot;&gt;
+   behind the curve
+  &lt;/a&gt;
+  on earnings.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers acknowledge that other factors could be at play, but the paper finds that several alternative explanations don’t fully account for the pattern. Is there an oversupply of new graduates in those fields, given how popular they are? Probably not, the paper notes, and the authors explained to us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The most AI-exposed majors saw rapid growth in graduates in the years leading up to ChatGPT&#x27;s release. After its release, the number of new graduates in these majors started to level off quickly,” the authors explained in an email to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “Survey data on STEM departments also suggest that enrollments in some of the most exposed major programs have started to decline.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, the number of those graduates who found jobs in their field has fallen faster, they added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What about self-employment or the grad school route? Together, changes in those activities could account for as much as half of the five-percentage-point employment decline, the paper concludes. In other words, AI appears to be having an impact on the job market for young people, especially those in the most AI-exposed fields, though other factors are at play.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There are many different plausible ways in which AI may be impacting early career workers,” the research team told us. “Firms may have chosen to hire fewer new graduates for reasons that are related to AI&#x27;s existence, but aren&#x27;t related to firms&#x27; use of the technology themselves.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those who aren’t embracing AI in their business may simply be less certain about the future, or they may be concerned that AI is making it harder to find suitable candidates, both of which can make job prospects for fresh graduates worse, the economists told us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The takeaway from the entire paper is essentially that, yes, AI is reshaping the labor market, and it’s having a disproportionate impact on young folks who went to school to do jobs that are being affected by AI, like software development and writing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We should be concerned about the magnitude of these results,” the researchers told us, but they added that they hesitate to extrapolate this short-term trend into a long-term doomsday forecast for the future of the labor market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Historical evidence shows that many jobs performed today did not exist decades ago, and it&#x27;s not easy to predict what those jobs of the future might be or what skills they may require,” the authors told us. “We should be very cautious in speculating about how AI will impact the economy as a whole based on shorter-term effects on only a subset of workers.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, the evidence to date suggests new compsci graduates fielding questions from their parents about why they’re still slinging frappuccinos or waiting tables have a ready answer: It’s all AI’s fault. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Claude Code revamps projects so you can work and pay in parallel </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/18/claude-code-revamps-projects-so-you-can-work-and-pay-in-parallel/5297532</link>
+<pubDate>Fri, 18 Sep 2026 19:15:39 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Claude Code customers have a new reason to give Anthropic more of their money. The tool now allows you to launch multiple sessions related to a single project, burning through more resources and cash at once.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Appropriately enough, the feature is called
+  &lt;a href=&quot;https://claude.com/projects&quot;&gt;
+   projects
+  &lt;/a&gt;
+  and can be accessed from the Claude.ai sidebar. It&#x27;s not the
+  &lt;a href=&quot;https://support.claude.com/en/articles/9517075-what-are-projects&quot;&gt;
+   old version of projects
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://academy.claude.com/use-cases/organize-your-legal-workflows-using-projects&quot;&gt;
+   capitalized
+  &lt;/a&gt;
+  in some reference material, which allowed for the creation of self-contained workspaces with separate chat histories and knowledge bases.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new implementation is technically in beta, though that term hardly means anything anymore amid the constant code iteration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic describes projects as a way to let Claude manage multiple related tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Claude scopes the request, delegates the work, coordinates parallel threads, reviews the outputs, and assembles the finished result,&quot; the company explains in a
+  &lt;a href=&quot;https://claude.com/blog/projects-redesigned&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  . &quot;You can steer progress throughout, even from your phone, and it keeps working after you step away from your computer.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s the sort of capability that might be useful if you are prompting the model to begin a large coding project and you want to get several essential components like authorization, databases, caching, and containers up and running at the same time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Essentially, a project spins up each task as its own Claude Code cloud session thread that works on its own git branch and its own copy of the relevant repo. A coordinator directs the threads; if they touch the same code, overlaps surface as merge conflicts like those in other pull requests. And each thread may get broken down into distinct tasks handled by subagents within that session.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Claude Code now offers five different ways to run multiple tasks at the same time. Subagents work within a session, though each with its own context. Agent View provides a single screen interface for overseeing several independent tasks. Agent Teams allows coordinating multiple Claude Code instances that can share information and communicate. Dynamic Workflows allows subagents to be orchestrated by a script.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And then there&#x27;s projects, intended for work that spans multiple repositories, migrations that require more than a single session, or work that isn&#x27;t code, like a frequently queried set of support tickets or documentation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic&#x27;s caveat is that projects burn through tokens quickly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Projects can run several threads at once, and each one is a full Claude Code session,&quot; the company explains. &quot;Because of this, projects can reach usage limits faster.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Select Pro and Max subscribers should have access to the Projects beta so long as they use Claude Code and don&#x27;t have existing Projects set up on web or desktop. Pro and Max users without access can join a waitlist as Anthropic gradually expands the rollout. Team and Enterprise plans don&#x27;t have access to the redesigned Projects beta yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic
+  &lt;a href=&quot;https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002&quot;&gt;
+   reportedly
+  &lt;/a&gt;
+  told investors that, in its second quarter, it posted an adjusted operating profit - if you don&#x27;t count expenses including stock-based compensation. Q2 revenue
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-08-14/anthropic-revenue-ahead-of-ipo-surges-over-14-fold-in-second-quarter&quot;&gt;
+   is said
+  &lt;/a&gt;
+  to be $11.5 billion, and if enough customers create projects that run multiple Claude Code threads at once, that figure could be higher still. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Researchers used Claude to hack OpenAI employees&#x27; ChatGPT accounts </title>
+<link>https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517</link>
+<pubDate>Fri, 18 Sep 2026 17:16:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Talk about your competitor getting through the door. Security researchers used Anthropic&#x27;s Claude to help hack into OpenAI employees’ ChatGPT accounts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A trio of bug hunters researching frontier AI labs’ security weaknesses chained two vulnerabilities to take over multiple OpenAI employees’ ChatGPT accounts, then used that access to demonstrate they could reach an internal OpenAI repository by opening a harmless pull request.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The entire timeline, from initial discovery to accessing OpenAI’s repo, took less than 72 hours and earned the researchers a $6,500 reward from OpenAI’s bug bounty program on Bugcrowd.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Until two months ago, any user or OpenAI employee logging into OpenAI’s own help forum (
+  &lt;a href=&quot;http://community.openai.com/&quot; rel=&quot;nofollow&quot;&gt;
+   community.openai.com
+  &lt;/a&gt;
+  ) could have had their ChatGPT and Codex accounts taken over,” Hacktron researchers Harsh Jaiswal, Mohan Pedhapati, and Rahul Maini
+  &lt;a href=&quot;https://www.hacktron.ai/blog/hacking-openai&quot; rel=&quot;nofollow&quot;&gt;
+   said
+  &lt;/a&gt;
+  in a writeup about their research. “Since people can connect various services to Codex and ChatGPT, the scope of what we could theoretically access was huge, including GitHub, Slack and emails.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And, in a poetic twist, they used rival AI giant Anthropic’s Claude models to develop the exploit. Claude has shown a propensity to
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412&quot;&gt;
+   hack organizations without human guidance
+  &lt;/a&gt;
+  , as have
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/17/openai-admits-its-agents-went-off-the-rails-another-six-times/5297016&quot;&gt;
+   OpenAI&#x27;s models
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The team gained initial entry on July 25 via OpenAI’s community forum. The forum runs on Discourse, which typically uses FastImage to perform image checks. However, since FastImage didn’t support HEIF files in the affected setup, HEIF images uploaded to Discourse passed through ImageMagick, which used libheif to process them before converting them to another image format.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “That exposed the underlying libheif parser directly to attacker-controlled files,” the researchers wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Using Claude Opus 4.8, the trio found a heap buffer overflow flaw in the libheif library and attempted to use that model to develop a remote code execution (RCE) attack, but this didn’t work on Discourse’s default configuration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But then, Anthropic released Claude Opus 5. The bug hunters used the newer model to generate an exploit script, and achieved RCE on OpenAI’s instance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The trio “immediately” reported the vulnerability to OpenAI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We then took over an OpenAI employee’s account, whose Codex was connected to OpenAI’s Github organization,” they wrote. “To demonstrate impact without actually accessing any internal code, we sent a prompt to this employee’s Codex account to open a PR for us in OpenAI’s internal monorepo. Then we stopped any further testing.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neither OpenAI nor Anthropic responded to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  ’s requests for comment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI fixed the flaw within about 14 hours of the report’s submission, marked the issue as resolved, and paid the Hacktron team a $6,500 bounty.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “To clarify the scope of that award: testing against the Discourse-hosted community.openai.com was explicitly excluded from our bug bounty program,” OpenAI said in a comment shared by Hacktron. “The award recognizes the OpenAI-side finding, not the actions against Discourse.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Discourse also issued a fix that added image-processing sandboxing, and published a security advisory
+  &lt;a href=&quot;https://github.com/discourse/discourse/security/advisories/GHSA-vhm9-85gw-x335&quot; rel=&quot;nofollow&quot;&gt;
+   GHSA-vhm9-85gw-x335
+  &lt;/a&gt;
+  with patching and rebuild guidance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The entire hack took a few days for an AI agent and a few hours of human work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Work that once required a well-resourced team and months of effort can now be compressed into days,” the researchers said. “Security assumptions must catch up with attacker capabilities.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Storage News Ticker - 18 September </title>
+<link>https://www.theregister.com/ai-ml/2026/09/18/storage-news-ticker-18-september/5297507</link>
+<pubDate>Fri, 18 Sep 2026 17:07:22 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Alation
+  &lt;/strong&gt;
+  announced six new products for its enterprise AI operating system AIOS, including a first-of-its-kind product to enable real-time monitoring of enterprise AI agent compliance that helps solve one of the biggest roadblocks to AI agent performance in large companies today:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    AI Governance expands to add agent lineage tracing, enabling visibility into every AI agent&#x27;s regulatory risk, all the way through the live data it consumes. There are now six native connectors bringing every major AI agent and model into a cross-platform
+    &lt;span&gt;
+    &lt;/span&gt;
+    registry: Amazon Bedrock, Amazon SageMaker, Databricks MLflow, Microsoft Copilot Studio, Microsoft Foundry, and Snowflake Cortex. It is the first cross-platform registry to continuously connect an agent&#x27;s compliance posture to the live quality and policy status
+    &lt;span&gt;
+    &lt;/span&gt;
+    of its underlying data.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Console is a single intelligent interface that routes natural language requests to the right AIOS capability without requiring users to know where to go. With AIOS, your intelligent applications operate like a single integrated system – the same is now
+    &lt;span&gt;
+    &lt;/span&gt;
+    true of the operating system that manages them.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Governed Collections makes unstructured data from outside the catalog, including compliance policies, standard operating procedures, and business glossaries, available to agents as governed, up-to-date context. Documents from Confluence, SharePoint,
+    &lt;span&gt;
+    &lt;/span&gt;
+    and S3 become governed catalog objects and agents consume them by reference. When a source document changes, the agent reads the current version automatically.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Intelligent Feeds deliver governed, interactive intelligence, combining metrics, visualizations, narrative, and chat to the teams responsible for recurring operating decisions. Data intelligence stops being a destination users visit and becomes something
+    &lt;span&gt;
+    &lt;/span&gt;
+    that finds them and enables them to dig as far as their curiosity takes them.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Ontologies are a new enterprise knowledge object that guide agents through business processes with precision. Agents are only as reliable as their understanding of the business. Where an agent would otherwise infer the rules and constraints of a process,
+    &lt;span&gt;
+    &lt;/span&gt;
+    ontologies make them explicit: a governed, machine-readable model of how the business works, mapped to the catalog and reviewed by subject-matter experts. Built on open standards, ontologies can be exported and consumed by any agent runtime.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Semantic Model Mastering ingests semantic models from Databricks and Snowflake, enriches and governs them in Alation, and syncs the enriched definitions back to both platforms automatically. A term like &#x27;active customer&#x27; resolves to one definition, and
+    &lt;span&gt;
+    &lt;/span&gt;
+    every downstream agent runs on it. Every downstream consumer, including the agents that run on them, operates on
+    &lt;span&gt;
+    &lt;/span&gt;
+    the highest quality, most current definition without anyone re-entering Alation.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  More information can be found in a
+  &lt;a href=&quot;https://www.alation.com/blog/ai-governance-semantic-model-mastering/&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Reuters
+  &lt;a href=&quot;https://www.reuters.com/world/asia-pacific/chinas-cxmt-eyes-flash-memory-push-amid-global-shortage-firm-take-samsung-ymtc-2026-09-18/https://www.reuters.com/world/asia-pacific/chinas-cxmt-eyes-flash-memory-push-amid-global-shortage-firm-take-samsung-ymtc-2026-09-18/&quot; target=&quot;_blank&quot;&gt;
+   reports
+  &lt;/a&gt;
+  Chinese DRM fabber
+  &lt;strong&gt;
+   CXMT
+  &lt;/strong&gt;
+  is preparing to build NAND chips as well as DRAM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Content collaborator
+  &lt;strong&gt;
+   Egnyte
+  &lt;/strong&gt;
+  introduced the Egnyte Context Layer that maps relationships across content, people, projects, business systems, and organizational knowledge. This gives AI agents a purpose-built context map upfront, eliminating redundant processing and reducing costs while helping them deliver more accurate, relevant outcomes faster. The Egnyte Context Layer powers task-based agents across workflows, including industry-specific workflows across financial services, life sciences, media and entertainment, and architecture, engineering, and construction (AEC). Learn more
+  &lt;a href=&quot;https://www.egnyte.com/ai/context-layer&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Hitachi Vantara
+  &lt;/strong&gt;
+  announced a commitment to reach net-zero emissions across its global value chain by FY2040, with near and long-term targets independently validated by the
+  &lt;a href=&quot;https://sciencebasedtargets.org/&quot; target=&quot;_blank&quot;&gt;
+   Science Based Targets initiative
+  &lt;/a&gt;
+  (SBTi). It has committed to:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    Cut absolute Scope 1 and 2 emissions by 98% by FY2030, against an FY2024 baseline.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    Reduce Scope 3 emissions per usable petabyte of storage sold by 97% by FY2040, against the same baseline.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Hitachi
+  &lt;span&gt;
+  &lt;/span&gt;
+  Vantara reduced its Scope 1 and 2 emissions by 43% in FY2025. Customers are also reporting efficiency gains, including DestekBank, which cut data centre energy consumption by 25%, and
+  &lt;span&gt;
+  &lt;/span&gt;
+  Malayala Manorama, which reduced power and cooling costs by 70%.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tel Aviv, September 15, 2026 –
+  &lt;strong&gt;
+   Keewano
+  &lt;/strong&gt;
+  announced general
+  &lt;span&gt;
+  &lt;/span&gt;
+  availability of KeewanoDB, the first database architected from the
+  &lt;span&gt;
+  &lt;/span&gt;
+  ground up for machine reasoning at scale. The company also revealed
+  &lt;span&gt;
+  &lt;/span&gt;
+  total seed funding of $12M, led by Hetz Ventures with participation from
+  &lt;span&gt;
+  &lt;/span&gt;
+  a16z speedrun, Remagine Ventures, DIG Ventures and angel investors.
+  &lt;span&gt;
+  &lt;/span&gt;
+  KeewanoDB stores information about every action a user, device, or AI
+  &lt;span&gt;
+  &lt;/span&gt;
+  agent undertakes, and does so in the way machines need it: live,
+  &lt;span&gt;
+  &lt;/span&gt;
+  complete, in order, and with context. Analysis runs inside the database,
+  &lt;span&gt;
+  &lt;/span&gt;
+  processing trillions of events in parallel, with agents receiving
+  &lt;span&gt;
+  &lt;/span&gt;
+  compact results, grounded in the context required for true reasoning. compact results, grounded in the context required for true reasoning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Quantum
+  &lt;/strong&gt;
+  has appointed Mike Heuer as its Chief Information Officer, to lead Quantum’s global information technology organization, including enterprise applications, data, AI adoption, infrastructure, and cybersecurity. Heuer most recently served as Chief Information Officer of Legence, a Blackstone portfolio company, where he built the company&#x27;s IT function and supported its growth through more than 20 acquisitions. Prior to Legence, he was Head of Global Information Technology at Blackhawk Network, where he led the deployment of enterprise ERP and CRM platforms across North America, Europe, and Asia.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Redpanda
+  &lt;/strong&gt;
+  , alongside Aiven, Confluent, StreamNative and Ververica, announced the formation of e Streamhouse Working Group to establish an open, vendor-neutral category of data architecture
+  &lt;span&gt;
+  &lt;/span&gt;
+  for AI agents and real-time applications. As businesses give software more authority, agents can’t afford to operate on stale
+  &lt;span&gt;
+  &lt;/span&gt;
+  data – they need a continuously current, governed view of the business. A Streamhouse architecture is designed to provide this, keeping the current state of a business available to applications and AI agents at production service levels, without requiring
+  &lt;span&gt;
+  &lt;/span&gt;
+  enterprises to first consolidate their data into a single system. The new working group will maintain an open, vendor-neutral definition of Streamhouse and advance the technologies, standards and interoperability practices
+  &lt;span&gt;
+  &lt;/span&gt;
+  behind it. The aim is to give the industry a shared and maintained architecture for this shift, while ensuring the category remains open and no single company controls it. More information
+  &lt;a href=&quot;https://streamhouse.com/&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Server/storage system virtualizer
+  &lt;strong&gt;
+   StorMagic
+  &lt;/strong&gt;
+  and
+  &lt;span&gt;
+  &lt;/span&gt;
+  &lt;a href=&quot;https://makonetworks.com/&quot;&gt;
+   Mako
+   &lt;span&gt;
+   &lt;/span&gt;
+   Networks
+  &lt;/a&gt;
+  , a provider of secure, cloud-managed networking systems for distributed enterprises, are partnering to help organisations build more resilient and manageable IT environments across remote and distributed locations. The partnership combines StorMagic SvHCI, a purpose-built hyperconverged infrastructure platform that provides highly available compute, storage and virtualisation at the edge, with Mako Networks’ secure SD-WAN and cloud-managed networking platform,
+  &lt;span&gt;
+  &lt;/span&gt;
+  which provides PCI-certified centralised network management, secure connectivity and failover capabilities.By combining edge networking and edge compute that are simple to deploy, remotely managed and resilient by design, StorMagic and Mako Networks deliver data-driven outcomes that are meaningful to next-generation retailers’ bottom lines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   StorONE
+  &lt;/strong&gt;
+  announced that Engage2Excel, a
+  &lt;span&gt;
+  &lt;/span&gt;
+  global workforce solutions provider, has expanded its StorONE deployment to support production storage, backup, Virtual Tape Library (VTL), business continuity, disaster recovery, and long-term retention. Engage2Excel manages more than one petabyte of enterprise data on StorONE across different StorONE systems. Up to 9x more effective storage from existing flash is made possible by StorONE&#x27;s FlashSpan (formerly known as Real Time Tiering) technology. FlashSpan continuously analyzes data access patterns and intelligently places data on the most appropriate storage
+  &lt;span&gt;
+  &lt;/span&gt;
+  media, ensuring flash capacity is continuously reserved for the data that benefits most.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  HDD supplier
+  &lt;strong&gt;
+   WD
+  &lt;/strong&gt;
+  (Western Digital) says that, with so much attention paid to overcoming compute restraints in AI, the next infrastructure challenge looms large: where and how to store all this compounding and persistent data?  To help answer that question, IDC surveyed over 700 IT and business decision makers in the AI infrastructure/hyperscale/data storage space. The research found that:
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    95% of organizations are storing more data because of AI
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    95% say that data is becoming more valuable
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    Nearly 75% are retaining data longer
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;span&gt;
+    &lt;/span&gt;
+    Over 75% are bringing more archived data back online for AI workloads, effectively blurring the line between “cold” historical data and active data.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  As organizations generate, retain and reactivate more data, storage capacity, accessibility and cost are becoming imperative infrastructure decisions. More information in a WD
+  &lt;a href=&quot;https://blog.westerndigital.com/ai-storage-infrastructure-idc-research/ &quot; target=&quot;_blank&quot;&gt;
+   blog.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Yugabyte
+  &lt;/strong&gt;
+  just reported its strongest first half in company history, with new paying customers up 125%+ YoY and more than 900 companies downloading YugabyteDB. The company is also seeing early traction around
+  &lt;a href=&quot;https://mekodata.ai/&quot;&gt;
+   Meko
+  &lt;/a&gt;
+  , its agent-native context engine launched in May, with the number of databases created by agents each day growing 10x.
+  &lt;span&gt;
+  &lt;/span&gt;
+  Yugabyte has also expanded its leadership team with key hires across product engineering, and go-to-market to support its global expansion, including Sonny Purewal as VP Sales EMEA, and Linson Mathai as VP GTM India. The momentum comes as Yugabyte extends its product portfolio and global footprint with a newly expanded partner program to support enterprises moving AI and agentic applications into production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  SW RAID supplier
+  &lt;strong&gt;
+   Xinnor
+  &lt;/strong&gt;
+  announced the results of a PoC project carried out at the Weizmann Institute of Science demonstrating a new approach to Tier-0 storage for HPC and AI: using xiRAID Opus to transform NVMe already installed inside GPU and compute nodes into a shared, protected storage resource. Modern GPU servers contain significant amounts of high-performance NVMe drives, but that capacity is typically tied to individual nodes and used as local scratch storage. Xinnor’s xiRAID Opus disaggregates local NVMe drives across the cluster and composes those resources into protected, software-defined storage pools that can be accessed from any participating node. This allows organizations to turn storage capacity already present in their compute infrastructure into shared storage, while adding RAID protection, multipathing, failover, and flexible resource placement in software.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The implementation used IBM Storage Scale, the established file-system environment at the Weizmann Institute of Science, above the xiRAID Opus block-storage layer to provide the shared file system and global namespace. With xiRAID Opus providing the distributed block layer beneath IBM Storage Scale, the system reached 131.7 GiB/s sequential read throughput, effectively matching the same performance measured at the raw NVMe-oF layer. Sequential write reached 46.9 GiB/s, retaining approximately 98.5% of the raw block-level bandwidth. For random 4KiB IO impressive 5.8M IOPS were achieved for read and 3.1M IOPS for write.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Using Nvidia GPUDirect Storage, aggregate reads from the shared file system into GPU memory reached 132.1 GiB/s across five nodes — effectively the same bandwidth as the maximum sequential read result of the shared storage system. Read a technical deep dive
+  &lt;a href=&quot;https://xinnor.io/blog/disaggregated-tier-0-storage-for-hpc-and-ai-xiraid-opus-and-ibm-storage-scale-poc-at-the-weizmann-institute-of-science/ &quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> North Korea&#x27;s fake job interviews infected 30,000 devices </title>
+<link>https://www.theregister.com/security/2026/09/18/north-koreas-fake-job-interviews-infected-30000-devices/5297461</link>
+<pubDate>Fri, 18 Sep 2026 16:53:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  North Korea&#x27;s employment scams work both ways. As well as placing fraudulent IT workers inside Western companies, regime-backed cybercriminals have posed as recruiters to infect more than 30,000 devices and steal over $10 million, according to an international advisory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Law enforcement and cybersecurity agencies from Australia, Germany, Japan, and the US issued an update on the campaign on Thursday. They said the attackers had compromised more than 7,000 cryptocurrency wallets and stolen funds that ultimately supported the North Korean regime.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agencies track the activity collectively as WaterPlum. Its operators target web designers, engineers, and cryptocurrency and Web3 specialists with bogus recruitment approaches.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During the supposed interview process, victims are instructed to download files presented as coding assignments or other recruitment tests. Opening them backdoors the applicants&#x27; computers and
+  &lt;a href=&quot;https://www.theregister.com/security/2025/09/25/lazarus-rat-code-resurfaces-in-north-korean-it-worker-scams/1162142&quot;&gt;
+   installs malware
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once inside, the attackers deploy remote access trojans (RATs) and information stealers, giving them persistent access to credentials and other sensitive data long after the fake interview ends.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In some cases, the compromised machines may later provide a route into corporate systems when the jobseekers secure legitimate employment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  WaterPlum operators use that access to steal intellectual property, credentials, clipboard contents, keystrokes, cryptocurrency wallet data, and identity documents that can support further impersonation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Stolen IDs can be used by North Korean IT workers to impersonate victims and generate foreign currency,&quot; the
+  &lt;a href=&quot;https://www.ic3.gov/CSA/2026/260918.pdf&quot;&gt;
+   advisory
+  &lt;/a&gt;
+  [PDF] said. &quot;Stolen credentials may be leveraged to exfiltrate crypto assets, personal data, trade secrets, etc., from victims&#x27; employers, clients, or contracting parties. The actors can also use stolen sensitive information for extortion.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agencies attributed at least $10.71 million in thefts to these tactics, with the proceeds funneled to Pyongyang.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The recruiter campaign complements North Korea&#x27;s better-known tactic of placing its own IT workers in technology roles at Western and allied companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The scheme has been extensively documented and has generated revenue for North Korea for years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Researchers estimate that roughly 100,000 North Korean IT workers are employed or seeking work worldwide. Some are supported by accomplices operating
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/05/07/fake-it-workers-rented-laptops-to-nork-scammers-got-prison-time/5235342&quot;&gt;
+   laptop farms
+  &lt;/a&gt;
+  , which make remote workers appear to be based in the country where they were hired.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The workers collect salaries from companies in countries that impose heavy sanctions on North Korea, with much of the money surrendered to the state.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The sprawling IT worker fraud is thought to net Kim Jong Un&#x27;s regime upwards of
+  &lt;a href=&quot;https://www.theregister.com/security/2026/03/18/north-koreans-100k-fake-it-workers-net-500m-a-year-for-kim/5224468&quot;&gt;
+   $500 million a year
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The scale of the operation means some applicants inevitably succeed, although employers are becoming more familiar with signs of fraudulent North Korean candidates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Applicants often submit impressive resumes claiming prestigious educational backgrounds, extensive work experience, and language skills that may not withstand scrutiny during an interview.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other warning signs include repeated refusals to meet in person, suspicious interruptions to video feeds, voices in the background, and requests for payment in cryptocurrency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fraudulent workers may also use AI face-swapping software, which can produce visual artifacts during video calls and prompt them to disable their cameras shortly after an interview or meeting begins.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agencies recommend that any organization suspecting it has engaged a fraudulent North Korean IT worker launch a full forensic investigation and assume that credentials and other sensitive data have been compromised. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> FBI: Fake cop and government impersonation scams cost victims $1.6B </title>
+<link>https://www.theregister.com/cyber-crime/2026/09/18/fbi-fake-cop-and-government-impersonation-scams-cost-victims-16b/5297499</link>
+<pubDate>Fri, 18 Sep 2026 16:19:27 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Scammers impersonating law enforcement or government officials have cost victims more than $1.6 billion since January 2025, the FBI reports. The FBI’s Internet Crime Complaint Center (IC3) received close to 61,000 complaints of this type between January 2025 and July 2026, putting the average per-complaint loss at more than $26,000.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The most common type of scam is one involving criminals convincing targets to pay a sum of money to remove charges the fraudsters claim were filed against them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Typically contacting targets via unsolicited phone calls, the scammers usually claim that the target has committed or is connected to a crime, and threaten consequences such as arrest and prison time if a payment is not made.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Accounting for roughly 11 percent of the complaints is a different type of scam, which involves alleging victims did not fulfill their assigned jury duty or missed a court date, then threatening them with a fine or arrest unless they pay.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of these 6,833 complaints, scammers caused losses amounting to nearly $36 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A more profitable variant involves a more targeted approach. Scammers will complete some due diligence on a target, such as ascertaining their profession, and tailor the scam to their job.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The IC3 has seen cases in which scammers contact medical practitioners, for example, claiming their medical license is expiring or that it was used in the commission of a crime. Payment is then demanded either under the guise of renewing the license or as part of an extortion attempt to &quot;protect their professional reputation.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Victims reported 3,322 instances of this kind of targeted scam, with total losses exceeding $37 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A far less common tactic, deployed in 496 of the total complaints, saw scammers claim that documents such as driver&#x27;s licenses or passports had expired and demand payment to renew them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite accounting for a minority of cases, criminals still netted $348,000 using this method.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, and arguably the most
+  &lt;a href=&quot;https://www.ic3.gov/PSA/2026/PSA260917&quot;&gt;
+   elaborate tactic the IC3 outlined
+  &lt;/a&gt;
+  , was the targeting of Americans from different ethnic communities, foreign nationals, and international students in the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The nature of the targeting was not the aspect the criminals invested the most effort in. The general procedure was also similar to the other examples: Scammers impersonate foreign
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/20/scammers-impersonate-fbi-on-social-media-prey-on-crime-victims/5275224&quot; target=&quot;_blank&quot;&gt;
+   law enforcement
+  &lt;/a&gt;
+  or US-based foreign diplomatic officials, threatening to cancel the victim’s home-country passport or have them extradited.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, these scams sometimes involve video calls. The criminals are known to don a country’s law enforcement uniform, or in some cases even take the calls in movie-style sets they create to mimic real government facilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The IC3 said that it received 1,809 complaints of this kind of targeted scam during the 19-month reporting period, with total losses exceeding $140 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It means nearly 10 percent of the overall losses stemmed from one scam that accounted for less than 3 percent of the total complaints.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Law enforcement impersonation scams are common across the world, although they may take different shapes from country to country.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the Netherlands, for example, police received
+  &lt;a href=&quot;https://nltimes.nl/2026/08/05/record-7200-reports-fake-police-officers-filed-first-half-2026&quot;&gt;
+   more than 7,200 reports
+  &lt;/a&gt;
+  of fake police officer scams in the first half of 2026 alone, although the criminals behind them don’t hide behind a phone or keyboard.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Scams in the Netherlands see fraudsters approach victims at their homes, usually targeting the elderly population, offering to safeguard their valuables while posing as a trusted authority.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In reality, the criminals simply steal the jewelry, money, bank cards, and other valuables they are entrusted to protect.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cases like these have surged across the country in recent years, and
+  &lt;a href=&quot;https://www.dutchnews.nl/2026/08/police-arrest-14-year-old-for-impersonating-a-policeman/&quot;&gt;
+   aspiring crooks as young as 14
+  &lt;/a&gt;
+  have tried to cash in on the trend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Police have invested more in public awareness campaigns as a result.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FBI reminded the public that neither it nor any other law enforcement agency will call an individual and demand payment or request personal or sensitive information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Citizens should remember to ask for credentials and make attempts to independently verify the identity of the caller, such as calling the relevant office using publicly available details and asking for the caller by name.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The IC3 recently
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/07/fbi-says-cybercrime-losses-hit-record-2087b-in-2025/5223382&quot;&gt;
+   reported its most damaging year
+  &lt;/a&gt;
+  for internet scams. It released 2025’s data in April, covering all types of cybercrime, pegging total losses at $20.87 billion – the first time it has reported annual losses exceeding the $20 billion threshold. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SK Hynix considering US Solidigm fab </title>
+<link>https://www.theregister.com/flash/2026/09/18/sk-hynix-considering-us-solidigm-fab/5297475</link>
+<pubDate>Fri, 18 Sep 2026 15:59:50 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  The Seoul Economic Daily
+  &lt;a href=&quot;https://en.sedaily.com/finance/2026/09/18/sk-hynix-weighs-first-us-nand-plant-as-ai-demand-surges&quot; target=&quot;_blank&quot;&gt;
+   reports
+  &lt;/a&gt;
+  SK Hynix subsidiary
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/03/13/solidigm-strikes-out-in-new-ai-computer-vision-direction/5209197&quot; target=&quot;_blank&quot;&gt;
+   Solidigm
+  &lt;/a&gt;
+  is thinking about building a US-based NAND fabrication plant, while SK Hynix has revealed more about its US AI Co operation, being launched as &quot;SK hynix Ventures.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Solidigm currently manufactures NAND chips at an old Intel plant in Dalian, China, now run by SK Hynix, and uses different technology from SK Hynix; floating gate instead of charge trap. It also uses fewer 3D NAND layers - 192, than SK Hynix which is at the 321 and 375 levels, and other manufacturers. Any upgrade to the latest NAND technology is obstructed by US tech export to China restrictions. In August, we
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/08/12/sk-hynix-expanding-solidigm-dalian-nand-plant/5286679&quot; target=&quot;_blank&quot;&gt;
+   noted
+  &lt;/a&gt;
+  SK Hynix was expanding production at Dalian by building a second fab there, but restricting the NAND technology to the 100-layer class while using more advanced 375-layer class NAND at its
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568&quot;&gt;
+   &lt;span&gt;
+    Cheongju
+   &lt;/span&gt;
+  &lt;/a&gt;
+  plant in South Korea. This month there has been
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/09/08/sk-hynix-on-solidigm-pre-ipo-rumors-no-matters-have-been-determined/5294842&quot; target=&quot;_blank&quot;&gt;
+   speculation
+  &lt;/a&gt;
+  about a Solidigm US IPO which would provide a Solidigm cash boost if it came to pass.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Solidigm has a US sales, marketing, and R&amp;D facility at Rancho Cordova in California. Korean industry sources say Solidigm is now looking at potential sites and reviewing terms for an east coast US fab, perhaps in upstate New York according to
+  &lt;a href=&quot;https://www.reuters.com/world/asia-pacific/sk-hynixs-solidigm-unit-is-weighing-nand-memory-chip-factory-us-sources-say-2026-09-18/&quot; target=&quot;_blank&quot;&gt;
+   Reuters
+  &lt;/a&gt;
+  .
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A spokesperson at SK Hynix said:
+  &lt;span&gt;
+   &quot;Solidigm is reviewing various options to strengthen its competitiveness, but nothing has been finalized.”
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Trump government wats to increase US-based memory chip fabrication. SK Hynix is investing around $4 billion (₩5.35 trillion) to build a high bandwidth memory (HBM) packaging plant in West Lafayette, Indiana, and its chairman, Chey Tae-won, has said that its US customers want it to it to have US fabs. It’s been reported, by
+  &lt;a href=&quot;https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/ &quot; target=&quot;_blank&quot;&gt;
+   Reuters
+  &lt;/a&gt;
+  and others, that it could even contract some DRAM manufacturing to Intel in the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  SK Hynix has been making
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/07/29/sk-hynix-announces-extraordinarily-high-revenues-but-misses-expectations/5280499&quot; target=&quot;_blank&quot;&gt;
+   enormous profits
+  &lt;/a&gt;
+  from its HBM and DRAM chips and is committed to
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/08/07/sk-hynix-building-new-dram-and-nand-fabs/5284568&quot; target=&quot;_blank&quot;&gt;
+   building out
+  &lt;/a&gt;
+  its fab capacity for these chips, and also NAND, as the enduring AI processing boom continues. There is an industry-wide, persistent undersupply of all three chip types, and Chey Tae-won has said it’s set to continue to 2030, when supply and demand could get back to being balanced.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Setting up a US fab for Solidigm would enable it to use the latest technology, denied to its Dalian facility. A downside consideration is that US-based chip manufacturing is more expensive than having fabs in Korea and China.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, it would score brownie points with the US government and, by being at semi-arms length from SK Hynix itself, potentially avoid Korean government concerns about SK Hynix weakening its base in Korea. This would be helped by NAND being less critical to AI processing than HBM and DRAM. And, as we noted above, a US Solidigm IPO could provide cash for the construction.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  SK Hynix AI Co becomes SK Hynix Ventures
+ &lt;/h5&gt;
+ &lt;p&gt;
+  SK Hynix launched its corporate venture capital (CVC) brand, SK Hynix Ventures, aimed at expanding strategic partnerships within the global AI ecosystem and securing future innovative technologies. It held an inaugural “SK Hynix Ventures Day” in Silicon Valley for VCs and startup reps, and said its focus would be on AI computing, data center infrastructure, system software and optical interconnect technologies. In March
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/03/13/solidigm-strikes-out-in-new-ai-computer-vision-direction/5209197&quot; target=&quot;_blank&quot;&gt;
+   Solidigm
+  &lt;/a&gt;
+  entered the AI computer vision market. The forthcoming US operation was previously referred to as
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/01/28/sk-hynix-to-spin-solidigm-into-new-us-ai-investment-vehicle/4090437&quot; target=&quot;_blank&quot;&gt;
+   AI Co
+  &lt;/a&gt;
+  and would own the US Solidigm business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This builds on SK Hynix’ existing corporate ventures unit. SK Hynix CEO Kwak Noh-jung said: &quot;Competitiveness in the AI era stems not just from rapidly securing innovative technologies, but from ecosystem capabilities where customers, partners, and startups create new value together. Through SK Hynix Ventures, we will support the growth of promising companies and grow into a global partner that jointly designs the future of AI infrastructure based on strategic investments and technological cooperation.&quot;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Admins, you&#x27;ve been warned: The clock is ticking on Edge&#x27;s IE Mode </title>
+<link>https://www.theregister.com/software/2026/09/18/admins-youve-been-warned-the-clock-is-ticking-on-edges-ie-mode/5297408</link>
+<pubDate>Fri, 18 Sep 2026 15:29:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has reminded administrators that Internet Explorer mode in Edge is guaranteed support only through 2029, so it is time to get those legacy migrations moving.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Internet Explorer mode lets enterprises continue using legacy websites within Edge rather than relying on the retired Internet Explorer browser. It uses the Trident MSHTML engine from Internet Explorer 11 and permits elements such as ActiveX controls, although other Internet Explorer functionality, such as custom toolbars, is not supported.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has promised to support IE mode until at least the end of 2029 and to provide one year&#x27;s notice before retiring it. The feature is unlikely to stop working immediately after support ends, but organizations that depend on it could face security, compatibility, and compliance risks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A
+  &lt;a href=&quot;https://mc.merill.net/message/MC1473151&quot;&gt;
+   message
+  &lt;/a&gt;
+  in the Microsoft 365 admin center urges customers to begin modernizing legacy systems that still depend on Internet Explorer technology. The company wrote: &quot;Application modernization projects can take years to complete depending on the number and complexity of dependencies, so early planning reduces the risk of disruption later.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has been banging this particular drum for some time. It announced in 2021 that IE mode would be supported until at least the end of 2029, but its latest reminder suggests some customers still have substantial migration work ahead of them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Administrators do not need to act immediately, but migrations involving old and heavily dependent applications can take years to complete.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Internet Explorer debuted with the Plus! Pack for Windows 95 in 1995, but traces of it will survive for years yet. Internet Explorer 11 is included with Windows 10 IoT Enterprise LTSC 2021, which remains supported until 2032, although Microsoft could retire Edge&#x27;s IE mode considerably sooner.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The end of 2029 might feel distant, but not to an enterprise facing a lengthy and potentially expensive migration from systems implemented decades ago. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> KDE turns 30 and someone&#x27;s brought an AI-native desktop proposal </title>
+<link>https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282</link>
+<pubDate>Fri, 18 Sep 2026 14:25:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  KDE&#x27;s annual conference takes place this weekend at Graz University of Technology in Austria, with an AI-native desktop proposal likely to divide attendees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The KDE project is celebrating its
+  &lt;a href=&quot;https://kde.org/anniversaries/30/&quot;&gt;
+   30th anniversary
+  &lt;/a&gt;
+  this year, giving delegates at the
+  &lt;a href=&quot;https://akademy.kde.org/2026/&quot;&gt;
+   Akademy conference in Graz
+  &lt;/a&gt;
+  another reason to raise a glass. The conference begins on Saturday, September 19, and
+  &lt;a href=&quot;https://conf.kde.org/event/11/registrations/&quot;&gt;
+   registration
+  &lt;/a&gt;
+  remains open.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Although Xfce 1.0 appeared slightly earlier, its initial releases were proprietary, making what was originally known as the
+  &lt;a href=&quot;https://web.archive.org/web/20211017201028/https://groups.google.com/g/de.comp.os.linux.misc/c/SDbiV3Iat_s/m/zv_D_2ctS8sJ?pli=1&quot;&gt;
+   Kool Desktop Environment
+  &lt;/a&gt;
+  one of the earliest entirely FOSS desktop environments for Linux. Version 1.0 was
+  &lt;a href=&quot;https://kde.org/announcements/1-2-3/1.0/&quot;&gt;
+   released in July 1998
+  &lt;/a&gt;
+  . Although created for Linux, KDE software now runs on several other operating systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The potentially contentious proposal comes in a Sunday afternoon talk entitled
+  &lt;a href=&quot;https://conf.kde.org/event/11/contributions/314/&quot;&gt;
+   What would it take? A lovable, sovereign, AI-native KDE
+  &lt;/a&gt;
+  , presented by longtime KDE contributors
+  &lt;a href=&quot;https://www.linkedin.com/in/evabrucherseifer/&quot;&gt;
+   Eva Brucherseifer
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.linkedin.com/in/janmuehlig/&quot;&gt;
+   Jan Muehlig
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2003, they conducted a usability study of the then
+  &lt;a href=&quot;https://kde.org/announcements/1-2-3/3.1/&quot;&gt;
+   newly released KDE 3.1
+  &lt;/a&gt;
+  . Of the 60 office workers tested, none of whom had prior Linux experience, 87 percent said they enjoyed working with KDE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The talk has three parts: what KDE learned – or failed to learn – from that study; the case for an &quot;AI-native&quot; desktop; and the importance of a sovereign European computing stack. It is the middle section that may ruffle feathers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The outline says: &quot;A desktop that loves you back has to know you. Personal AI has crossed the threshold where the desktop itself can be compiled per user, per device, per moment, from a small portable model of the user – what we are sketching as Kadai: an encrypted, vendor-agnostic personal kernel from which Plasma assembles each Activity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Plasma is uniquely well-fit for this – Activities, Plasmoids, the existing scripting surface – but a handful of upstream changes (declarative reconciliation, per-widget capabilities, richer Activity metadata) would turn KDE into the first shell that treats AI as infrastructure rather than as a chat box bolted to the side.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is very much not what this vulture wants from a desktop computer. It may win admirers, but seems more likely to polarize the audience.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Writer and AI critic David Gerard
+  &lt;a href=&quot;https://circumstances.run/@davidgerard/117274692915294058&quot;&gt;
+   points out
+  &lt;/a&gt;
+  the proposal&#x27;s resemblance to the
+  &lt;a href=&quot;https://resonantcomputing.org/&quot;&gt;
+   Resonant Computing Manifesto
+  &lt;/a&gt;
+  , launched in December 2025 at
+  &lt;a href=&quot;https://events.wired.com/big-interview-2025&quot;&gt;
+   Wired&#x27;s Big Interview
+  &lt;/a&gt;
+  in San Francisco. Gerard
+  &lt;a href=&quot;https://pivot-to-ai.com/2025/12/17/the-resonant-computing-manifesto-same-ai-slop-same-ai-guys/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   criticized the manifesto
+  &lt;/a&gt;
+  later that month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gerard also notes that contributors to the Trinity Desktop Environment, a fork of KDE 3, have begun
+  &lt;a href=&quot;https://mirror.git.trinitydesktop.org/gitea/TDE/tde/issues/288&quot;&gt;
+   dabbling with AI-generated code
+  &lt;/a&gt;
+  – potentially disappointing those who viewed Trinity as an escape route. Anyone determined to keep AI off their desktop might instead check on the progress of the
+  &lt;a href=&quot;https://sonicde.org/&quot;&gt;
+   Sonic Desktop Environment
+  &lt;/a&gt;
+  , which we
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/07/09/kde-plasma-users-face-a-dire-omen-of-change-666-arrives/5269267&quot;&gt;
+   covered in July
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft fixes the fix that broke Excel paste – partly </title>
+<link>https://www.theregister.com/software/2026/09/18/microsoft-fixes-the-fix-that-broke-excel-paste-partly/5297467</link>
+<pubDate>Fri, 18 Sep 2026 13:22:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has issued a partial fix for the Excel bug that causes paste operations to fail. The
+  &lt;a href=&quot;https://support.microsoft.com/en-us/servicing/office/hotfix/excel/5002665&quot;&gt;
+   hotfix
+  &lt;/a&gt;
+  applies only to Excel 2016, and Microsoft warns that pasting may still fail in workbooks containing conditional formatting.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier in September, Microsoft released a security update for Excel to address remote code execution and information disclosure vulnerabilities. It later
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085&quot;&gt;
+   acknowledged
+  &lt;/a&gt;
+  that the update had introduced another problem: &quot;In Microsoft Excel 2024, 2021, 2019, and 2016, the paste operation might fail silently.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Although users try to paste content, the source remains selected and the destination is unmodified. When this issue occurs, users receive no indication of the failure, such as a beep or error message.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some users could work around the problem with Paste Special, but others had to wait for Microsoft to act.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A fix has now arrived – for Excel 2016 only – and it continues to hover rather nervously in the doorway.
+ &lt;/p&gt;
+ &lt;p&gt;
+  September has not been kind to Microsoft, its updates, or the emergency updates needed to repair them. The September Windows security update required an out-of-band release to address several problems, but even that left some work unfinished. Certain USB audio devices, for example, could remain silent after the emergency update.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has since added another problem involving
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/17/microsoft-patch-gives-domain-joined-windows-pcs-trust-issues/5297155&quot;&gt;
+   domain-joined devices
+  &lt;/a&gt;
+  to its known issues list.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While users of newer Excel releases continue to wait, Microsoft has at least repaired another problem introduced by an August update. A bug that caused Windows Security to
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602&quot;&gt;
+   incorrectly report
+  &lt;/a&gt;
+  that Microsoft Defender Antivirus was disabled
+  &lt;a href=&quot;https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-25H2#4956msgdesc&quot;&gt;
+   was resolved
+  &lt;/a&gt;
+  in a Defender update released on September 17.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kudos to the team, although the best fix remains not breaking things in the first place. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft makes limited attempt to fix broken Excel paste </title>
+<link>https://www.theregister.com/software/2026/09/18/microsoft-makes-limited-attempt-to-fix-broken-excel-paste/5297467</link>
+<pubDate>Fri, 18 Sep 2026 13:22:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has issued a fix for the Excel paste problem that could best be described as a little half-hearted. The
+  &lt;a href=&quot;https://support.microsoft.com/en-us/servicing/office/hotfix/excel/5002665&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   fix
+  &lt;/a&gt;
+  only applies to Excel 2016 and might not work if the Excel workbook contains that other rarely used Excel feature: conditional formatting.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier in September, Microsoft released an important Excel update to resolve remote code execution and information disclosure vulnerabilities. This was all very laudable (even if the presence of the vulnerabilities in the first place will have raised a few eyebrows) but the company eventually had to
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085&quot; target=&quot;_blank&quot;&gt;
+   acknowledge an issue
+  &lt;/a&gt;
+  with the update: &quot;In Microsoft Excel 2024, 2021, 2019, and 2016, the paste operation might fail silently.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Although users try to paste content, the source remains selected and the destination is unmodified. When this issue occurs, users receive no indication of the failure, such as a beep or error message.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not great. Some users could work around it with Paste Special, but others had to wait for a fix.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And now that fix has arrived. For Excel 2016. And when we say &quot;arrived,&quot; we mean &quot;hovered nervously in the doorway.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  September has not been a great month for Microsoft, its updates, or its updates to fix the updates. The September Windows security update required an out-of-band update to address some of its issues, but even that only dealt with some – an audio issue, for example, was not completely resolved, leaving affected users wondering why their device was suddenly silent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Since the out-of-band update was released, another entry has been added to the known issues list regarding
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/17/microsoft-patch-gives-domain-joined-windows-pcs-trust-issues/5297155&quot; target=&quot;_blank&quot;&gt;
+   domain-joined devices
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, while the Excel paste fix might or might not work and is for Excel 2016, Microsoft has been hard at work fixing other stuff it broke earlier in August. The
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/01/windows-11-misses-the-pointer-while-defender-cries-wolf/5293602&quot; target=&quot;_blank&quot;&gt;
+   erroneous insistence
+  &lt;/a&gt;
+  from Defender that it had been turned off, which cropped up at the end of the month,
+  &lt;a href=&quot;https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-25H2#4956msgdesc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   was resolved
+  &lt;/a&gt;
+  in September 17&#x27;s Microsoft Defender Antivirus update.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kudos to the team, although arguably the best fix is not to break things in the first place…  ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Huawei’s OceanStor KV cache storage for hyper-scale AI data centers </title>
+<link>https://www.theregister.com/flash/2026/09/18/huaweis-oceanstor-kv-cache-storage-for-hyper-scale-ai-data-centers/5297405</link>
+<pubDate>Fri, 18 Sep 2026 13:16:40 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/09/14/beegfs-runs-on-huawai-oceandisk-storage-servers/5296296&quot; target=&quot;_blank&quot;&gt;
+   Huawei
+  &lt;/a&gt;
+  has announced the OceanStor M900, a scale-out, all-flash storage cluster providing an up to 64 PB KV cache base tier for its Atlas 960 SuperPoDs; rack-scale AI accelerators similar to Nvidia’s SuperPODs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia has defined an
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/03/30/nvidia-and-its-partners-kv-cache-extenders/5209284&quot; target=&quot;_blank&quot;&gt;
+   AI Data Platform
+  &lt;/a&gt;
+  reference design integrating its GPUs, BlueField NICs, Spectrum-X switches, and AI software with storage systems, which support GPUDirect, RDMA, and KV cache extension with its Dynamo software and CMX scheme. This has a multi-tier design with GPU’s high-bandwidth memory (HBM) being the top and fastest tier, then the associated X86 servers’s DRAM being level 2, the server’s local SSDs being L3, and intelligent BlueField-4 NIC-connected NVMe SSDs in a flash storage server functioning as L3.5. These can provide a single network hop to a GPU’s HBM for microsecond-class latency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Huawei is now taking on Nvidia’s SuperPOD design with its own SuperPoDs for hyper-scale AI data centers. They are aimed at 10-trillion parameter models and million-plus token context windows, meaning a single accelerator’s high-bandwidth memory cannot contain all the key-value tokens needed and a caching scheme is needed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company says a single Atlas 960E SuperPoD can scale up to 4,096 NPUs (Neural Processing Units), delivering 8 EFLOPS of FP8 compute performance, with up to 1 petabyte of HBM capacity and a 256 TB unified memory pool. With 5,500 Hi-ONE units, which use UnifiedBus
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/09/14/huawei-pitches-near-packaged-optics-as-co-packaged-costs-bite/5296164&quot; target=&quot;_blank&quot;&gt;
+   near-packaged optics
+  &lt;/a&gt;
+  (NPO), it cuts power consumption by over 550 kilowatts, compared to the 48,000 800G optical modules that would traditionally be required to connect all the NPUs while doubling the system&#x27;s fault-free operating time, achieving 99.8 percent system availability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The SuperPoD has a multi-tier KV caching scheme, with the M900 providing a petabyte-scale KV cache for the L3.5 layer, delivering up to 4 PB of shared L3.5 KV cache capacity and 40 TB/sec of aggregate bandwidth per cluster, for the L3.5 layer, via optical networking.This provides TBs of KV cache capacity per NPU. Huawei claims that, i
+  &lt;span&gt;
+   n typical AI programming scenarios, this architecture doubles the inference cluster&#x27;s token throughput and halves the time to first token (TTFT).
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   It
+   &lt;strong&gt;
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  says the 40 TB/sec bandwidth is
+  &lt;span&gt;
+   1.5 times higher than peer solutions, without naming them. We understand it’s generically referring to DDN, Everpure, IBM (Storage Scale), MinIO and VAST Data systems with cluster scale bandwidth in the 10 - 25 TB/sec area.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The M900 has an integrated architecture featuring the CPU, network controller and NAND controller in one unit, giving SuperPoD NPUs a direct, one-hop connection to the SSDs. This cuts access latency from milliseconds to about 60 microseconds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  David Wang, Deputy Chairman of Huaewi’s Board and Rotating Chairman, said: “OceanStor M900 also uses hybrid media and an optimized retention algorithm, extending SSD read/write lifespan by 16-fold. This ensures a higher KV cache hit rate alongside long-term stability and reliability from the ground up.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a little bit more detail, Huawei says the M9000 has KV-aware adaptive storage technology which predicts the expected lifetime and value of each piece of KV cache data. Based on that prediction, it schedules and places the data across different media tiers; on-chip memory, DRAM, and SSDs. It claims this optimized placement and retention strategy allows the SSDs to handle up to 24 drive writes per day (DWPD), a surprisingly high number, and, as a result, SSD endurance is claimed to increase by 16 times, supporting three years of stable operation with fewer drive replacements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is too early for Huawei to publish M900 data sheets and technology backgrounders, so we know nothing about the node rack unit size, controllers, drive count and capacity, cluster node count or other details.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   NPU Bootnote
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  NPUs are Huawei Ascend Neural Processing Units which are, Huawei says,
+  &lt;span&gt;
+  &lt;/span&gt;
+  designed from the ground up for AI (unlike GPUs that started as graphics chips). they use Huawei’s Da Vinci architecture with Cube (matrix) cores and Vector cores, and support low-precision formats like FP8 and FP4 for faster inference and training of large models. When combined into very large systems via Huawei’s UnifiedBus all-optical interconnect, they can scale to thousands or even hundreds of thousands of NPUs working as one logical machine. Recent products like the Atlas 350 (using Ascend 950PR) and upcoming Atlas 960 SuperPoDs are positioned as alternatives to Nvidia GPUs in the Chinese market.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Starburst supports GPUs for faster distributed data analysis </title>
+<link>https://www.theregister.com/architecture/2026/09/18/starburst-supports-gpus-for-faster-distributed-data-analysis/5297256</link>
+<pubDate>Fri, 18 Sep 2026 13:11:17 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-management/2026/08/12/ai-rocket-fuel-supplier-starburst-hires-f1-race-champ-lando-norris-as-brand-ambassador/5286759&quot; target=&quot;_blank&quot;&gt;
+   Starburst
+  &lt;/a&gt;
+  is getting 3 to 4x faster responses to AI analysis queries by using GPUs instead of CPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company develops and uses Trino open source distributed SQL to query and analyze distributed data sources, and uses x86 CPUs to process queries. Its software engine enables data querying across spreadsheets, databases, cloud warehouses and lakehouses. In May,
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/05/18/dells-ai-factory-getting-supercharged-storage/5241992&quot; target=&quot;_blank&quot;&gt;
+   Dell
+  &lt;/a&gt;
+  updated its AI Factory product set and, deep in the details was this: the platform has a Starburst-powered Data Analytics Engine with GPU-accelerated SQL analytics that delivers up to 6x faster query performance than non-GPU-accelerated systems on Nvidia Blackwell GPUs today with support designed for future Vera systems.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  A briefing from Starburst CEO Justin Borgman revealed that Starburst’s software now supports Nvidia’s Vera CPU and Rubin GPU. We got there in a roundabout way by asking h
+  &lt;span&gt;
+   ow is Starburst positioned vis-a-vis
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/08/12/oh-no-not-another-one-databricks-buys-electric/5286721&quot; target=&quot;_blank&quot;&gt;
+   &lt;span&gt;
+    Databricks
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span&gt;
+   and
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/12/04/snowflake-leans-into-claude-with-200m-anthropic-spend-as-growth-holds/1723485&quot; target=&quot;_blank&quot;&gt;
+   &lt;span&gt;
+    Snowflake
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span&gt;
+   ?
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Borgman told us:
+  &lt;span&gt;
+  &lt;/span&gt;
+  “It is classic co-opetition, right? We cooperate in the sense from a customer perspective, we inter-operate with those platforms. We query those platforms. So if you&#x27;re a large bank and you have a little Databricks, a little Snowflake, you probably have also Teradata and IBM and Oracle and all these other things, Starburst is very complimentary to everything you have. And that&#x27;s an important part of our strategy to provide these customers with the optionality to work with their existing investments. The competition side, of course, is that those two platforms want to be the single source.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  So “We do compete for workloads here and there, but we have a different architectural approach. And I think for large enterprise, we have a very particular value proposition that those two can&#x27;t match, which is both the federation and hybrid deployment. We can work on-prem, those two are cloud-only.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   And then this: “That’s where t
+  &lt;/span&gt;
+  he partnership with Nvidia has become very interesting because we now also support GPUs in addition to CPUs. And Nvidia has also now a new CPU they&#x27;ve launched this year, but of course GPUs are most of their business and you can now use existing GPUs that you bought, maybe you have some idle capacity, you can run analytics workloads now leveraging those GPUs as well. More flexibility.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He added:
+  &lt;span&gt;
+   “W
+  &lt;/span&gt;
+  e&#x27;ve been working on that from the beginning of this year and we are just releasing now our first version of it and it uses something that NVIDIA built called
+  &lt;a href=&quot;https://developer.nvidia.com/topics/ai/data-science/cuda-x-data-science-libraries/cudf &quot; target=&quot;_blank&quot;&gt;
+   cuDF
+  &lt;/a&gt;
+  .” This, Nvidia says, is an open source NVIDIA CUDA-X data processing toolkit for structured data that delivers massive speedups and cost savings for data engines and libraries. Built on highly optimized Nvidia CUDA primitives, cuDF taps into GPU parallelism and memory bandwidth to accelerate data processing and analytics workflows.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Borgman said: “We&#x27;re seeing really good performance, actually about three to four times faster than what you&#x27;d see on a CPU. Now, GPUs are a lot more expensive, so that is still something you have to factor in from a cost-performance perspective. But what we found as an early use case is a lot of these big banks, … they’ve all bought GPUs and they&#x27;re not using them all the time at 100 percent. So they all have idle capacity that they&#x27;ve already paid for, right? It&#x27;s CapEx that they paid upfront and the ability to maybe increase utilisation from 60
+  &lt;span&gt;
+  &lt;/span&gt;
+  to 90 percent by running some batch analytic workloads in there overnight or when it&#x27;s idle.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He mentioned two ways of doing this: “One is just if you know every night from nine to midnight , you&#x27;ve got a regular [free slot] you can have it scheduled, but what we&#x27;ve also done is, we can measure the GPU utilisation and then, based on that, decide whether to slot in some jobs.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia likes this “because for them it’s TAM expansion for a $5 trillion company, if you will.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  We asked Borgman what triggered this idea?
+ &lt;/p&gt;
+ &lt;p&gt;
+  He said: “It&#x27;s funny how much serendipity plays in decisions or creating opportunities. For us at the beginning of the year, Nvidia reached out to us to benchmark on their new CPU. So they have this CPU called the Vera processor, right? And this is of course their entrance into the CPU market. And so we benchmarked it and it turned out we were really fast on Vera. In fact, much faster on Vera than an Intel processor. So they liked that. They put that in Jensen&#x27;s keynote and promoted our benchmarks. That began the relationship, at which point they were like, &quot;Hey, we have this cuDF framework that allows you to run things on GPUs. Would you mind taking a look at that and see if you can make Starburst run on GPUs?”&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The result was a speedup “anywhere from three to seven X, depending on the query type,” with the 7X gain on the bigger, more complex queries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This, Borgman suggests, is going to affect the Starburst and Databricks/Snowflake market positioning: “We think this is a unique position for us because Databricks and Snowflake, as you know, they’re cloud-hosted offerings. They have to carry the cost of processing within their cost structure. It impacts their margin. We don&#x27;t. We allow you to deploy it on your own infrastructure. So naturally, Databricks and Snowflake are always going to be looking for what is the cheapest compute they can find, which doesn&#x27;t lend itself very well to Nvidia necessarily. Nvidia is not the cheapest and doesn&#x27;t want to be the cheapest. So we think we&#x27;re really the only data platform that can be a great partner for Nvidia here in this enterprise market.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> The ideal database for AI agents doesn&#x27;t exist yet, says Percona CEO </title>
+<link>https://www.theregister.com/databases/2026/09/18/the-ideal-database-for-ai-agents-doesnt-exist-yet-says-percona-ceo/5296906</link>
+<pubDate>Fri, 18 Sep 2026 12:34:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   INTERVIEW
+  &lt;/span&gt;
+  Percona CEO Peter Farkas reckons AI caught the database industry off guard and that agentic workloads may eventually require a new kind of database – once anyone works out what those workloads actually need.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Farkas spoke to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  at the company&#x27;s Percona Live event in Amsterdam, where members of the often-fractious open source database community gathered to discuss best practices, case studies, and the future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Percona provides software and support across a growing range of open source database technologies. Over its 20-year history, it has worked with MySQL, MongoDB, PostgreSQL, Valkey, and Redis.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MySQL&#x27;s first release arrived in 1995. The PostgreSQL project marked its 30th anniversary in July 2026, although its roots in the POSTGRES project stretch back further.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both databases therefore have decades behind them and represent mature, stable options – just as the conservative world of database administration prefers. The surge in AI services, however, is introducing workloads that these systems were not designed around, and Farkas believes none of the current choices are ideal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of the current selection, Farkas said: &quot;It&#x27;s definitely not the best that we can have. It&#x27;s the thing that we have right now.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I think AI definitely caught the industry off guard,&quot; he said. Farkas pointed to &quot;iteration-focused workloads&quot; in which an agent might make 150 attempts before a person or another system selects the best result.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;A human would probably not push 150 options just so someone or another AI can pick out the winning one,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, organizations must select technology capable of handling these workloads without assuming that today&#x27;s choice will remain the best fit. Farkas was careful not to favor a particular database.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Everything needs a database,&quot; Farkas said, though coming from the CEO of Percona, that is perhaps unsurprising. &quot;If the new buzzword is blockchain or NFT or cloud or whatever, behind all of those things, there&#x27;s a database, and AI is no exception.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;AI needs a database, and AI is going to use the databases that we have for the time being, but I do believe that the best solution for AI or agentic workloads does not exist at this point, as there&#x27;s just not enough time for something to become as mature as the trusted database software.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The rapid pace of change sits uneasily with a database industry accustomed to products maturing over decades. AI development, by contrast, still has the feel of technology being flung at a wall to see what sticks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Farkas laughed when asked when such a solution might emerge. &quot;I don&#x27;t have a crystal ball,&quot; he said. He believes the AI market must mature before its requirements become clear enough for anyone to build a clean-slate database designed around them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Organizations are still deciding where AI belongs in their technology stacks, he said, including whether to run models themselves or use cloud services, and whether every use case needs a large language model rather than a smaller model with a lighter footprint.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It&#x27;s easy to experiment with something that can just do everything, but that also means that the resources being consumed are outsized compared to the result,&quot; Farkas said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Farkas
+  &lt;a href=&quot;https://www.percona.com/press/open-source-database-leader-percona-appoints-peter-farkas-as-ceo/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   became CEO of Percona in October 2025
+  &lt;/a&gt;
+  , succeeding Ann Schlemmer. He had previously worked at Percona as director of support until 2016. In December 2021, he co-founded FerretDB, an
+  &lt;a href=&quot;https://www.theregister.com/software/2023/04/14/ferretdb-10-reaches-general-availability/894426&quot; target=&quot;_blank&quot;&gt;
+   open source service that converts MongoDB
+  &lt;/a&gt;
+  wire protocol queries into SQL for PostgreSQL or SQLite.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MongoDB
+  &lt;a href=&quot;https://www.theregister.com/2025/08/25/linux_foundation_says_yes_to/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   sued FerretDB
+  &lt;/a&gt;
+  in May 2025, alleging patent infringement, false advertising, and trademark misuse. FerretDB disputes the allegations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Asked what lessons he had brought from FerretDB, Farkas replied: &quot;Lots of PTSD from courtrooms.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Farkas also brings experience of working across multiple open source communities – useful as Percona shifts from a company primarily associated with MySQL to a database-agnostic, multi-tech business. Doing so has its own challenges. He noted that different communities work in markedly different ways.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We had multiple attempts at adding Postgres to our portfolio,&quot; he recalled, &quot;but we had some wrong ideas that were based on the MySQL experience on how to engage with that community.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;They have very different preferences. They have very different red flags they are looking for. For example, if you call something &#x27;Percona TDE for Postgres&#x27;, that is not going to fly: &#x27;What is this nonsense? This is vendor lock-in! This is just one company trying to push their crap!&#x27; Whereas in the MySQL space, that&#x27;s totally normal, and we needed to unlearn these things.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Could Percona eventually extend its open source approach to AI?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Frankly, AI is a vendor lock-in situation,&quot; Farkas replied, pointing to services such as Gemini and ChatGPT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He argued that there is not yet a mature, enterprise-ready way to run open-weight agents, although Percona is exploring what it might contribute in that area.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Percona is not anti-AI,&quot; he said. &quot;Percona is anti-rebranding Postgres or MongoDB as the AI database.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Former Labour deputy Tom Watson joins Palantir as £330M NHS deal nears break point </title>
+<link>https://www.theregister.com/public-sector/2026/09/18/former-labour-deputy-tom-watson-joins-palantir-as-330m-nhs-deal-nears-break-point/5297426</link>
+<pubDate>Fri, 18 Sep 2026 11:48:15 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Former Labour deputy leader Tom Watson has taken a senior UK role at Palantir as the government considers whether to invoke a break clause in the US spy-tech company&#x27;s controversial £330 million National Health Service (NHS) contract.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The appointment is the latest high-profile example of Palantir recruiting from British politics and public service as it seeks to expand its government business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Palantir chief executive Alex Karp said in a statement: &quot;This is just the latest chapter of Tom&#x27;s 40-year fight for better public services. We are fortunate to have him guide us as we help the British government to deliver for the British public.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Watson, who has advised Palantir since 2024, will become its UK senior vice president and work alongside Louis Mosley, executive vice president for the UK and Europe.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a statement
+  &lt;a href=&quot;https://www.linkedin.com/feed/update/urn:li:activity:7506626287403372544/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   shared on social media
+  &lt;/a&gt;
+  , Mosley said: &quot;Tom will lead our work on what Palantir owes this country. That means answering the Prime Minister&#x27;s challenge to companies holding public contracts: support British jobs, invest in skills, deliver in every postcode. It also means helping people prepare for what AI does to work and to the services they rely on.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mosley said Watson had been on leave from the House of Lords since March and would remain so while working for Palantir. He has also surrendered his parliamentary pass and the access that accompanies it. &quot;Tom has joined Palantir to build things, not to open doors,&quot; he added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The assurances anticipate concerns about the revolving door between government and technology companies, particularly as Palantir&#x27;s major public sector contracts face political scrutiny.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In April,
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2026/04/20/uk-weighs-break-clause-in-palantir-nhs-deal/5222486&quot;&gt;
+   Zubir Ahmed MP
+  &lt;/a&gt;
+  , a junior minister at the Department of Health and Social Care, said the government could end Palantir&#x27;s seven-year Federated Data Platform (FDP) contract when the break clause becomes available next spring.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;My north star is always patient safety and quality, and of course value for money. If, at the point of the break clause, we evaluate and find that there are other providers that can do the job better, then of course that needs to be looked at and reflected upon,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, replacing the platform provider at relatively short notice could prove difficult.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The House of Commons Health and Social Care Committee
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2026/04/20/uk-weighs-break-clause-in-palantir-nhs-deal/5222486&quot;&gt;
+   said in July
+  &lt;/a&gt;
+  that the Department of Health and Social Care should begin preparing to replace the FDP before the contract reaches its break clause in February.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Palantir began working with the NHS during the pandemic and received £60 million in contracts without competition, including work that later fed into the FDP. The NHS and Palantir maintain that the subsequent competition was open and fair, and say the resulting platform has delivered substantial value by linking data sources as the health service works through its elective care backlog. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> KPMG tech cuts come with a severance sum some staff call insulting </title>
+<link>https://www.theregister.com/channel/2026/09/18/kpmg-tech-cuts-come-with-a-severance-sum-some-staff-call-insulting/5296942</link>
+<pubDate>Fri, 18 Sep 2026 10:32:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  KPMG UK is laying off staff from the Tech and Data areas of its Advisory division and offering severance terms that one affected employee described as &quot;insulting and disgraceful.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The job cuts, affecting about 4 percent of the Advisory staff, were announced internally in July. Affected workers in the AI, Cyber, SAP, and Testing teams are scheduled to leave the consulting business next month. Insiders have now shared with
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  details of the payments offered to those set to depart.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The proposed redundancy package, subject to consultation and the employee signing a settlement agreement, combines statutory redundancy pay with several enhancements. The document helpfully advises staff to divide their annual salary by 52 to calculate their weekly pay.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The number of weeks to which each employee is entitled depends on their age during each full year of service: half a week&#x27;s pay for each year worked while under 22, one week&#x27;s pay for each year worked from age 22 to 40, and 1.5 weeks&#x27; pay for each year worked from age 41.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;If you turned 41 while working at KPMG, the higher rate of 1.5 weeks&#x27; pay only applies to the full year of service completed after you turned 41,&quot; KPMG&#x27;s missive states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Redundancy pay is calculated based on the individual&#x27;s number of years&#x27; service (up to a maximum of 20 years&#x27; service). If you&#x27;ve been at KPMG for more than 20 years, your most recent 20 years of service are considered when determining the number of weeks&#x27; pay you will be entitled to.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  KPMG&#x27;s enhancements remove the statutory weekly pay cap of £751 and count partial years of service exceeding six months. Regardless of their length of service, staff are guaranteed either £1,250 plus statutory redundancy pay or eight weeks&#x27; pay inclusive of statutory redundancy pay, whichever is higher.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agreement also provides pay in lieu of notice, including employer pension contributions and, where applicable, a car allowance, according to the document.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The document explaining the package includes an illustration of three employees alongside examples of the terms they could receive. Two of the illustrated employees appear delighted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The reaction among actual employees was less cheerful. One affected worker suspected that &quot;protecting the profit pot for the equity partners is what is driving this re-org mostly.&quot; KPMG&#x27;s UK partners received an average of £880,000 in the year to September 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The payout scale is insulting and disgraceful,&quot; one affected employee told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  A KPMG spokesperson said: &quot;As our market evolves, we are adapting where we are focusing and how we are set up to make sure we have the right skills in place to best serve our clients. To respond to these market dynamics combined with low levels of attrition, we are proposing reductions in some of our advisory client-facing teams and will support our colleagues throughout this process.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latest cuts come six months after KPMG eliminated 600 roles across its UK organization, including around 120 in Advisory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The firm&#x27;s consulting business has been under pressure for some time as market demand has remained subdued,&quot; said Duncan Aitchison, an analyst at TechMarketView, who estimated that the practice&#x27;s revenue fell 9 percent between fiscal 2024 and 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;KPMG is not the only Big Four firm taking action to reshape its consulting business. In April 2026, PwC UK unveiled plans to bring together two of its three advisory businesses as part of a global effort to respond to the disruptions to the consulting industry caused by AI.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> British Army spends £16M on 1,000 pocket-sized eyes in the sky </title>
+<link>https://www.theregister.com/offbeat/2026/09/18/british-army-spends-16m-on-1000-pocket-sized-eyes-in-the-sky/5297248</link>
+<pubDate>Fri, 18 Sep 2026 09:29:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The British Army is buying more than 1,000 small drones for battlefield surveillance and training under contracts worth £16 million ($21 million).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Ministry of Defence (MoD) says the new portfolio of &quot;spy&quot; drones will give soldiers better battlefield intelligence and protection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MoD is procuring the drones through three UK-based small and medium-sized companies, although some of the technology comes from overseas. Two models are intended for surveillance, while the third will prepare soldiers to use similar systems on operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Most of the order consists of 670
+  &lt;a href=&quot;https://www.skydio.com/x10&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Skydio X10
+  &lt;/a&gt;
+  quadcopters. Each weighs about 2.49 kg (5.5 lb), can reach 45 mph, and has a flight time of up to 40 minutes. Surrey-based Marlborough Communications Limited is supplying the drones to the MoD, although their manufacturer, Skydio, is based in California.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Evolve Dynamics, based in Hampshire, England, is providing 245
+  &lt;a href=&quot;https://www.evolvedynamics.com/foxe/&quot;&gt;
+   FOXE-NATO
+  &lt;/a&gt;
+  drones for intelligence, surveillance and reconnaissance roles. The company describes the FOXE-NATO as a pouch-deployable quadcopter weighing less than 250 g (0.55 lb), designed for rapid deployment and ease of use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This contract marks an important step in strengthening the Army&#x27;s sovereign UAS (Unmanned Aerial System) capability. Our ambition is to see small, reliable uncrewed systems become standard equipment at the lowest tactical level, rather than a limited or specialist resource,&quot; Evolve Dynamics CEO Tom Redman said in a statement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The remaining 110 units are
+  &lt;a href=&quot;https://harmattan.ai/systems/sonora/&quot;&gt;
+   SONORA drones
+  &lt;/a&gt;
+  supplied through a partnership between Exeter-based Brigantes Consulting and Paris-headquartered Harmattan AI. Designed for training, the SONORA can be deployed in less than a minute and weighs under 1.8 kg (4 lb).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The UK National Armaments Director Group handled the procurement, which forms part of Project Rapstone, an Army program intended to move new technology from industry to the front line within 24 months.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The purchase follows a £400 million ($534 million) deal
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/07/27/british-army-finds-a-new-eye-in-the-sky-after-watchkeeper-woes/5278859&quot;&gt;
+   announced in July
+  &lt;/a&gt;
+  to replace the Army&#x27;s troublesome Watchkeeper fleet with Tekever AR5 drones. The fixed-wing AR5 is much larger than the quadcopters and can carry a 50 kg (110 lb) payload while remaining airborne for up to 20 hours.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Our soldiers deserve the best technology, and that&#x27;s what we&#x27;re delivering,&quot; said the Minister for Defence Readiness and Industry, Luke Pollard MP.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;From small drones giving troops eyes on the enemy, to the AR5 offering commanders better intelligence over the battlefield, we&#x27;re transforming the Army&#x27;s ability to see, understand and act first.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Royal Society slams UK.gov science shake-up </title>
+<link>https://www.theregister.com/public-sector/2026/09/18/royal-society-slams-ukgov-science-shake-up/5296913</link>
+<pubDate>Fri, 18 Sep 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The president of the Royal Society has slammed the government’s decision to move science policy from the department also covering technology to the business department.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/07/21/ukgovs-tech-department-gets-the-chop-after-two-years/5275573&quot; target=&quot;_blank&quot;&gt;
+   changes announced after Andy Burnham became UK Prime Minister
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/07/21/ukgovs-tech-department-gets-the-chop-after-two-years/5275573&quot;&gt;
+  &lt;/a&gt;
+  in July, the government abolished the Department for Science, Innovation and Technology (DSIT) – created by former Conservative Prime Minister Rishi Sunak – and split its responsibilities among other ministries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Department for Culture, Media and Sport (DCSM) became Department for Digital, Culture, Media and Sport (DCMS) while the Science in DSIT went to the new Department for Business, Innovation, Science and Trade (BIST). Jonathan Reynolds was named Secretary of State for the department. Kanishka Narayan has been given a Cabinet-attending role of Minister for Artificial Intelligence, working jointly in the Cabinet Office and BIST.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chris McDonald, Minister of State for Science, Innovation and Investment is work jointly across BIST and the Department for Health and Social Care with no Cabinet role.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking to MPs this week, Sir Paul Nurse, the President of the prestigious Royal Society, said moving science to the business department was a mistake… “actually quite a big mistake”.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nurse, whose main research was in genetics, argued that science cuts across business, health, defense, transport, energy, and the environment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The future of our country depends on what science can put into all that we do. Giving it just to business — there are ways through that — is restricting just what it can do, and that is a mistake. I would have put science and AI together, because AI is in fact science. I don&#x27;t know why that is so neglected all the time. AI isn&#x27;t just large language models and rushing after big databases. It is also about promoting creativity in science and actually generating appropriate technologies.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nurse said experience with other government activities thrown in with business did not bode well for science. There have previously been a Department for Business, Innovation and Skills and a Department of Business, Energy and Industrial Strategy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “When you talk to the civil servants, they see the big thing about their department, which is business. So every time I had to speak to them, it was always about application to particular business objectives. They couldn&#x27;t get off that. Now that is something for the Secretary of State to deal with, but that is a problem. It&#x27;s not just leadership. It&#x27;s also what comes underneath. And the Secretary of State has nine policy areas, of which only one is to do with science,” Nurse told the House of Commons Science and Technology Committee.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Also speaking to the Committee, Alicia Greated, executive director for the Campaign for Science and Engineering, said that while there was a government connection between science and health, there was none with the Department for Education, which is responsible for universities and higher education.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “That connection is extremely important. Our members are asking for stability, whether it&#x27;s in funding, strategy or policy. We need to be thinking more long term. A lot of the objectives of the current departmental priorities are going to be quite short term.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Greated also said she feared a “deprioritization” of basic research. “It&#x27;s not just R&amp;D; it&#x27;s the skills, it&#x27;s the infrastructure, it&#x27;s the ideas that feed into our whole innovation pipeline.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In
+  &lt;a href=&quot;https://committees.parliament.uk/publications/54952/documents/304818/default/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   a letter
+  &lt;/a&gt;
+  &lt;a href=&quot;https://committees.parliament.uk/publications/54952/documents/304818/default/&quot;&gt;
+  &lt;/a&gt;
+  to the Committee, ministers from the Cabinet Office, BIST and the DCMS said: “The Prime Minister has made a number of changes to the Machinery of Government to rewire the state to deliver a stronger, more strategic center which acts as the engine room for driving economic growth across the whole country.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;These changes include transforming how the Government is structured to approach science, innovation, and technology. This reflects that the UK stands at a critical juncture where unprecedented global changes demand that we secure our position as a world leader in AI, science and technology. In this context, we cannot see science and technology as an isolated issue, limited to one department.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Techie fixed Wi-Fi dead zone with a drill </title>
+<link>https://www.theregister.com/networks/2026/09/18/techie-fixed-wi-fi-dead-zone-with-a-drill/5297036</link>
+<pubDate>Fri, 18 Sep 2026 06:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;425970a9-8cc4-45c2-8794-e40ea66a55a0&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Welcome to another edition of On Call, The
+  &lt;em&gt;
+   Register
+  &lt;/em&gt;
+  &#x27;s reader-contributed column that celebrates the fine art of tech support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, meet a reader we&#x27;ll Regomize as &quot;Eddy,&quot; the one-person IT department for an assisted living company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I have had quite a bit of trouble creating a stable Wi-Fi network,&quot; he admitted to On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The space is crowded with multiple networks because seemingly every other resident has their own router blasting Wi-Fi throughout the building,&quot; he explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After extensive troubleshooting, he managed to establish a stable connection everywhere except one hallway at the back of the building.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I was starting to question my sanity and competence as seemingly nothing would create a stable signal,&quot; Eddy told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;After beating my head on the issue for an unreasonably long time, I decided to take a break and troubleshoot another issue that a user was having: Their monitors would cut out randomly, more so if someone quickly closed the office door.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Eddy examined the desk, where a stand held a pair of monitors, whose power and video cables all snaked downwards through the same hole in the desk&#x27;s surface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;When the stand moved, it was also crimping the power cords,&quot; Eddy observed. &quot;Jiggle the desk or slam the door and the monitors would cut out briefly.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He drilled a new hole for the stand to sit in and replaced the power cables. That fixed the monitors – and, unexpectedly, restored the Wi-Fi around the desk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;As near as I can tell, the power cables were crimped just enough that they started to transmit and interfere with the Wi-Fi,&quot; Eddy told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Eddy&#x27;s other Wi-Fi dead zone remained. He signed off his email to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  : &quot;Now I am going to be haunting the back hallway with a software-defined radio dongle and waving around a Yagi antenna like a demented wizard to see if I can find the second source of interference.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Have you fixed one problem and found it also fixed another? If so, help us fix the problem of the On Call mailbag being a little sparse by
+  &lt;a href=&quot;mailto:oncall@theregister.com&quot;&gt;
+   clicking here
+  &lt;/a&gt;
+  to send us your story! ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> On Call: Techie fixed Wi-Fi dead zone with a drill </title>
+<link>https://www.theregister.com/networks/2026/09/18/on-call-techie-fixed-wi-fi-dead-zone-with-a-drill/5297036</link>
+<pubDate>Fri, 18 Sep 2026 06:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;425970a9-8cc4-45c2-8794-e40ea66a55a0&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   ON CALL
+  &lt;/span&gt;
+  Welcome to another edition of On Call, The
+  &lt;em&gt;
+   Register
+  &lt;/em&gt;
+  &#x27;s reader-contributed column that celebrates the fine art of tech support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, meet a reader we&#x27;ll Regomize as &quot;Eddy,&quot; the one-person IT department for an assisted living company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I have had quite a bit of trouble creating a stable Wi-Fi network,&quot; he admitted to On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The space is crowded with multiple networks because seemingly every other resident has their own router blasting Wi-Fi throughout the building,&quot; he explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After extensive troubleshooting, he managed to establish a stable connection everywhere except one hallway at the back of the building.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I was starting to question my sanity and competence as seemingly nothing would create a stable signal,&quot; Eddy told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;After beating my head on the issue for an unreasonably long time, I decided to take a break and troubleshoot another issue that a user was having: Their monitors would cut out randomly, more so if someone quickly closed the office door.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Eddy examined the desk, where a stand held a pair of monitors, whose power and video cables all snaked downwards through the same hole in the desk&#x27;s surface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;When the stand moved, it was also crimping the power cords,&quot; Eddy observed. &quot;Jiggle the desk or slam the door and the monitors would cut out briefly.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He drilled a new hole for the stand to sit in and replaced the power cables. That fixed the monitors – and, unexpectedly, restored the Wi-Fi around the desk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;As near as I can tell, the power cables were crimped just enough that they started to transmit and interfere with the Wi-Fi,&quot; Eddy told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Eddy&#x27;s other Wi-Fi dead zone remained. He signed off his email to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  : &quot;Now I am going to be haunting the back hallway with a software-defined radio dongle and waving around a Yagi antenna like a demented wizard to see if I can find the second source of interference.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Have you fixed one problem and found it also fixed another? If so, help us fix the problem of the On Call mailbag being a little sparse by
+  &lt;a href=&quot;mailto:oncall@theregister.com&quot;&gt;
+   clicking here
+  &lt;/a&gt;
+  to send us your story! ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI risks make some insurers wary of corporate liability </title>
+<link>https://www.theregister.com/ai-and-ml/2026/09/18/ai-risks-make-some-insurers-wary-of-corporate-liability/5297347</link>
+<pubDate>Fri, 18 Sep 2026 05:33:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  If AI does end up killing us all, or just compounds our daily havoc, the insurance industry would rather not pay the bill.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;AI-related harms are already emerging, including incorrect or misleading outputs, deepfakes, privacy violations, intellectual property disputes, fraud, product defects, and discriminatory decisions,&quot; observes the RAND Corporation, a non-profit research think tank, in a newly issued
+  &lt;a href=&quot;https://www.rand.org/pubs/research_reports/RRA5130-1.html&quot;&gt;
+   report
+  &lt;/a&gt;
+  . &quot;These harms create demand for insurance but do not fit neatly within existing insurance lines.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Companies want to protect themselves from the financial liability of deploying unreliable, mendacious, amoral AI agents, but insurance companies have become wary about taking on that risk. And if AI ends up being uninsurable, the AI industry will have to moderate its ambitions and sales targets while corporate customers delay AI projects to fulfill their fiduciary obligations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RAND says its report was motivated by the mismatch between rapid enterprise adoption of AI and the fragmented market for insuring or not insuring AI usage, particularly in the US. Apocalyptic scenarios aside, the report says that companies are already grappling with AI-related incidents and related litigation while insurers, regulators, brokers, and policyholders puzzle over risks, coverage, and rules.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Insurer W. R. Berkley has already introduced
+  &lt;a href=&quot;https://www.hunton.com/hunton-insurance-recovery-blog/the-continued-proliferation-of-ai-exclusions&quot;&gt;
+   exclusions
+  &lt;/a&gt;
+  in its D&amp;O (directors and officers), E&amp;O (errors and omissions), and Fiduciary Liability insurance products to exclude coverage for &quot;any actual or alleged use, deployment, or development of Artificial Intelligence.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  During the company&#x27;s
+  &lt;a href=&quot;https://news.alphastreet.com/w-r-berkley-corporation-wrb-q4-2025-earnings-call-transcript/&quot;&gt;
+   Q4 2025 earnings call
+  &lt;/a&gt;
+  , CEO W. Robert Berkley highlighted the need for underwriters to understand &quot;the impact that [new technologies like AI are] having on our insureds, what it means for risk, and our ability to fully understand that risk so we can control it, select it, and price for it.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The RAND report observes that some insurance carriers are excluding AI-related harms, noting that in January 2026, Verisk/ISO – whose standardized forms appear in more than 80 percent of US property and casualty policies – introduced optional language carriers can adopt to exclude bodily injury, property damage, and other harms arising from generative AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not all insurers are deciding not to cover AI harms. As RAND points out, coverage gaps are being filled by new and existing companies that believe they have a handle on the risk calculations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To illustrate those risks, the report points to the Artificial Intelligence Incident Database (
+  &lt;a href=&quot;https://incidentdatabase.ai/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   AIIDB
+  &lt;/a&gt;
+  ) which lists tral-world harm or near-harm caused by generative AI. At the time of writing, the AIIDB lists 713 incidents drawn from more than 6,000 reports and covers AI use beyond chatbots.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among these generative AI events, the categorical breakdown includes: misinformation and manipulation (586), deepfakes and synthetic media (346), deepfake enabled misinformation (333), hallucination and factual error (215), harmful content (92), agentic and autonomous failure (84), privacy and data leak (58), bias and discrimination (47), copyright and IP (20), other and unclassified (14), and wrongful AI attribution (7). The total of those events exceeds 713 because some incidents span multiple categories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there are the 250 or so US lawsuits related to AI, largely related to copyright and IP, but also touching on privacy/surveillance, fraud and deception, negligence and product liability, discrimination and civil rights, and contracts/trade secrets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And after that, the report touches on the dozens of laws in various US states covering AI intimate images, AI-generated child sexual abuse material (CSAM), automated decision making, AI in political ads, and related rules that could trip up businesses deploying AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In light of all these potential problems, one might assume this AI thing is dead in the water. But no. Businesses keep deploying AI, despite potential uncertainty about whether corporate insurance policies protect them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To address the gaps in the market, RAND argues that policy researchers and brokers, carriers, and reinsurers need to develop a common taxonomy to track AI incidents and claims. And the think tank wants to see state regulators push for an AI Coverage Notice so everyone is clear on what&#x27;s covered and what isn&#x27;t.
+ &lt;/p&gt;
+ &lt;p&gt;
+  RAND expects AI insurance coverage will move beyond being a specialty product. The report argues that the risks just need to be understood and priced accordingly. But that will take time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI industry may get the pause it has been asking for as insurers puzzle over how to price the end of humanity. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AWS confesses its console causes cloudy confusion for new users </title>
+<link>https://www.theregister.com/off-prem/2026/09/18/aws-confesses-its-console-causes-cloudy-confusion-for-new-users/5297365</link>
+<pubDate>Fri, 18 Sep 2026 04:52:40 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Amazon Web Services does a lot of things right, but the cloud giant’s user console is arguably not one of them. Which may be why it’s just created an easier alternative for new users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a Wednesday
+  &lt;a href=&quot;https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   post
+  &lt;/a&gt;
+  , Senior Solutions Architect Micah Walter said that when AWS launched its earliest storage, compute, and queuing services, “anyone with an idea could start building.” Over the years, AWS added more services, and more options, making its console and overall UI quite complex.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “That combination of global reach, breadth, and depth remains essential for those customers,” Walter wrote, “but if you are at the start of a new idea, every configuration option is effort standing in the way of shipping your dream product fast.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’ve heard from builders that they do not want to spend their first hours configuring an AWS environment,” he added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The cloud giant’s response is a new “getting started experience” aimed at “builders who are working at the pace of AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  understands that AWS has been working on this for almost a year, after realizing new users find its existing console intimidating.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Walter said the new UI allows users to establish an AWS account with credentials from Google, GitHub, and Apple.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When new users sign up, AWS will automatically create a project.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Instead of having to complete configuration tasks before you can work on your project, you start with sensible defaults and simple administration,” Walter wrote. Once logged in, users “get a prompt to paste into your coding agent that conﬁgures it to work with your new AWS environment. From there, your agent can deploy resources, run workloads, and iterate on your application following best practices for working with AWS.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The cloud colossus will apply what Walter described as “sensible defaults” to resources, and those who sign up with the tool can also apply a spending limit starting from $20 a month. AWS will “suggest a spend limit based on your usage, and you can accept that recommendation or set a custom amount if you are planning to further scale your usage,” Walter wrote. Users will also get warnings if they approach their spending ceiling, and AWS will pause a project rather than let it exceed a user’ budget.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS has always tried to win new users and startups with free services and onboarding assistance.
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  cannot recall a moment when the cloud giant created an entirely new user experience to woo them, or all-but admitted that its current console is an impediment to adoption. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> USA’s Venezuela takeover comes with bonus exposure to Chinese AI surveillance tech </title>
+<link>https://www.theregister.com/security/2026/09/18/usas-venezuela-takeover-comes-with-bonus-exposure-to-chinese-ai-surveillance-tech/5297357</link>
+<pubDate>Fri, 18 Sep 2026 02:28:30 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Think tank the Australian Strategic Policy Institute (ASPI) has warned that Venezuela is poised to adopt Chinese AI systems to enhance surveillance systems that already rely on Middle Kingdom tech, and called for US Secretary of State Marco Rubio to do something about it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ASPI outlined the Venezuelan situation in a recent
+  &lt;a href=&quot;https://aspi.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2026/09/04113303/Warning-signals.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   report
+  &lt;/a&gt;
+  [PDF], titled Warning signals: Venezuela and the risk of Chinese AI-enabled digital authoritarianism.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The document explains that Venezuela’s government built a surveillance state a decade ago, largely using technology from Chinese companies. In 2025, according to the report claims, then Venezuelan vice-president Delcy Rodríguez led an effort that culminated in “an agreement to adopt Chinese-built AI systems … to use Chinese AI to enhance existing state-sponsored surveillance.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the companies involved in that agreement is iFlytek, which the US banned in 2019 for its role in helping Beijing to repress the Uyghur Muslim population of China’s Xinjiang region.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The USA effectively took over Venezuela in January 2026 and installed Rodríguez as the nation’s leader. ASPI can find no signs she’s changed course on her plan to adopt more Chinese surveillance tech.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Venezuela will become one of the first countries outside China to import China’s new generation of LLM-based AI systems for surveillance and control, and the most advanced adopter in the Western Hemisphere,” the report claims. And while ASPI’s analysts don’t think Venezuela’s government can recreate “China’s full-stack surveillance apparatus,” they worry that “Chinese or other AI tools could strengthen a domestically directed apparatus already used to manage dissent, restrict information and preserve political power.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That arguably leaves Venezuelans no better off than they were before the US decided to replace former president Nicholas Maduro. And it leaves the USA effectively running a nation that relies on Chinese surveillance tech to maintain power, even as Washington seeks a greater role in Venezuelan affairs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ASPI called on US Secretary of State Marco Rubio, who effectively acts as viceroy of Venezuela, to dismantle the surveillance apparatus and enact political change. The think tank’s analysts believe doing so would signal that democracies are willing to combat China’s attempts to export its surveillance tech, and dismantle it when possible in the name of civil liberty.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Beijing for its part recognizes this opening, and the risk it poses to Chinese companies and China’s political influence there,” the report states. “China’s leaders appear to understand that assets and investments of its national champions are at risk in Venezuela. Beijing’s approach seems to be, in part, strengthening oversight of state-owned assets abroad to assist in risk protection and management.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report does not address whether greater adoption of Chinese surveillance by Venezuela increases the risks the USA faces as it seeks to control the South American country. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Marvell pushes GlobalFoundries to light up wafer production </title>
+<link>https://www.theregister.com/systems/2026/09/18/marvell-pushes-globalfoundries-to-light-up-wafer-production/5297340</link>
+<pubDate>Thu, 17 Sep 2026 23:16:53 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Earlier this year, Nvidia CEO Jensen Huang suggested that Marvell’s optics tech would make it the next trillion-dollar company. On Thursday, Marvell took a big step towards securing that status by
+  &lt;a href=&quot;https://gf.com/news-and-events/news/globalfoundries-and-marvell-expand-collaboration-fornext-generation-optical-connectivity/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   announcing
+  &lt;/a&gt;
+  an expanded partnership with GlobalFoundries, an American wafer fab well known for its work in silicon photonics manufacturing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The tie-up will see GloFo and Marvell work to expand silicon germanium (SiGe) wafer production at the fab’s Burlington, Vermont wafer plant. SiGe is commonly employed in the production of optical transceivers, which convert electrical signals to optical ones and back again, as well as in laser modules used in many high-end switches from Nvidia and others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to GlobalFoundries, the additional capacity will support the production of near- and co-packaged optics (CPO/NPO) as well as “next-gen” pluggable optics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia already employs co-packaged optics in some of its Spectrum Ethernet and Quantum InfiniBand switches to cut power consumption and improve reliability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pundits expect NPO to be used in large multirack systems such as Huawei’s new Ascend 960DT-based
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/09/17/huaweis-next-gen-ascend-npus-could-become-chinas-best-option/5297320&quot; target=&quot;_blank&quot;&gt;
+   SuperPods
+  &lt;/a&gt;
+  . Nvidia’s future multi-rack systems are widely expected to
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/04/05/nvidia-embraces-optical-scale-up-as-copper-reaches-limits/5225238&quot; target=&quot;_blank&quot;&gt;
+   use NPO
+  &lt;/a&gt;
+  as well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fab says its SiGe tech has already been validated up to 200 Gbps per lane, which is required for 1.6 Tbps transceivers. Faster lane speeds could open the door to 3.2 Tbps transceivers, which are also on its roadmap.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Demand for optics technologies has surged thanks in no small part to everyone’s favorite subject: AI. Speaking during Computex this spring, Marvell CEO Matt Murphy
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/06/03/the-tech-that-could-make-marvell-the-next-trillion-dollar-company/5250472&quot; target=&quot;_blank&quot;&gt;
+   explained
+  &lt;/a&gt;
+  why demand for optics demand is set to explode.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Up until now, optics have primarily been used to connect racks to resources across the datacenter. Anything within a few meters was well within reach of cheaper and less power hungry copper interconnects. But as lane speeds climbed from 25 Gbps to 50, 100, and then 200 Gbps, copper interconnects began running into practical reach limits. 400 Gbps per lane is essentially the end of the road for copper even in a single rack; beyond that point, copper cables can’t carry signal at speed further than 1.25 meters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because of this, the broader ecosystem has been investing heavily to bolster optics and photonics supply chains, and GlobalFoundries isn’t the only one boosting production.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia in particular has invested billions in the optics technology outfits, including
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/03/02/nvidia-burns-4b-to-light-up-us-photonics-manufacturing/4516190&quot; target=&quot;_blank&quot;&gt;
+   $2 billion each
+  &lt;/a&gt;
+  to Lumentum and Coherent. A few months later, Coherent announced plans to
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/06/17/nvidia-backed-optics-vendor-to-boost-wafer-output-by-4x-to-meet-ai-interconnect-demand/5257909&quot; target=&quot;_blank&quot;&gt;
+   boost production
+  &lt;/a&gt;
+  of indium phosphide wafers used in lasers, photodetectors, and modulators, at its Sherman, Texas, fab by 4x. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
