@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 26 Sep 2026 21:37:02 -0000</lastBuildDate>
+<item>
+<title> Valen creator drives &#x27;Golden Spike&#x27; to connect new languages with Rust </title>
+<link>https://www.theregister.com/devops/2026/09/26/valen-creator-drives-golden-spike-to-connect-new-languages-with-rust/5299309</link>
+<pubDate>Sat, 26 Sep 2026 20:17:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;1d24771b-f8e2-4b5e-8f10-78fbd30c7436&quot;&gt;
+ &lt;p&gt;
+  Programming language generics can now ride in style from one language’s compiler to another and back again, thanks to experimental work from
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/12/modulars-mojo-programming-language-hits-10-milestone/5286545&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Mojo
+  &lt;/a&gt;
+  core contributor
+  &lt;a href=&quot;https://verdagon.dev/home&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Evan Ovadia
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This former Google engineer has endeavored to turn Rust into a library that other languages can build from, demonstrating a way to pass generic data types and functions between Rust and another language, an action the C ABI doesn’t support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Technically, this is the most fascinating thing I’ve read in months,” enthused the host of the Let’s Get Rusty YouTube channel,
+  &lt;a href=&quot;https://www.youtube.com/watch?v=jJJm2nQVolY&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   explaining the work
+  &lt;/a&gt;
+  , which he characterized as “Rust++.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That&#x27;s a geeky but hard-won victory to be sure. Ovadia describes his work in an
+  &lt;a href=&quot;https://verdagon.dev/blog/golden-spike-reviving-vale-valen&quot; rel=&quot;nofollow&quot;&gt;
+   explanatory blog post
+  &lt;/a&gt;
+  as the “
+  &lt;a href=&quot;https://www.loc.gov/item/today-in-history/may-10/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Golden Spike
+  &lt;/a&gt;
+  ” that intertwines two different languages, referring to the final spike hammered into the United States’ first transcontinental railroad line.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Instead of being stripped down into raw primitives just to be crammed into the coarse wagons of C ABI, libraries of rich capability can be sped to foreign ecosystems on sturdy, high-speed rails.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Ditching the C ABI at last
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The work came about in Ovadia’s effort to create his own language,
+  &lt;a href=&quot;https://github.com/valen-lang/Valen/tree/main&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Valen
+  &lt;/a&gt;
+  (an offshoot of an earlier effort called Vale), which he envisions as a speedier, more dev-friendly version of Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problem with creating a new language from scratch, he reasoned, was that he couldn’t use his favorite Rust libraries (notably Rust’s bitchin’
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   wgpu
+  &lt;/span&gt;
+  graphics library).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today, a common way to use a library from one language in a program written in another is through the C ABI (application binary interface), a de facto interoperability layer that defines conventions for passing data and function calls between compiled code. (Rust has
+  &lt;a href=&quot;https://doc.rust-lang.org/reference/abi.html&quot;&gt;
+   its own ABI
+  &lt;/a&gt;
+  , though it does not offer stability guarantees.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the C ABI, if a Rust library exposes its functions as extern &quot;C&quot; and exposes its types as repr(C), then they can be accessed from another language using a
+  &lt;a href=&quot;https://stackoverflow.com/questions/5440968/understand-foreign-function-interface-ffi-and-language-binding&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Foreign Function Interface
+  &lt;/a&gt;
+  (FFI).
+ &lt;/p&gt;
+ &lt;p&gt;
+  All well and good, but the problem Ovadia had was that the C ABI did not understand the concept of generics (or placeholders for data types to be provided later), because C itself doesn’t understand the concept of generics. But Rust uses generics quite a bit, and so does Valen, though not in the same way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “So the central question, the central mystery to solve, is how do we do cross-language generics?” Ovadia wrote.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Cross-language generics at last
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Getting two compilers to collaborate is super tricky, as compilers tend to be isolated entities, solitary kings of their own individual worlds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So Ovadia needed to come up with a way for Valen to call a Rust generic function, but also have a Rust generic function that calls back into Valen for needed values.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After much rumination, Ovadia arrived at a two-part solution to cross-language generics: first, run the Rust compiler as a library. Surprisingly, Rust already possesses this capability (
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   rustc_driver
+  &lt;/span&gt;
+  ), which would allow Valen to embed rustc directly into its own memory space. The second step would be to patch Rust so that when it encounters non-Rust Valen types, it hands control over to the Valen compiler to handle its portion, and waits for the compiled result.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ovadia admits that patching the Rust compiler was the “nuclear option.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Honestly, this was the riskiest part of the whole endeavor,” he wrote. The patch itself is only about 100 lines of code, but it is hacky and assumes Rust is using
+  &lt;a href=&quot;https://llvm.org/&quot;&gt;
+   LLVM
+  &lt;/a&gt;
+  for machine code generation, which isn’t always the case. “It works, but it&#x27;s definitely not upstreamable,” Ovadia wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, Ovadia’s cross-language bidirectional generics are a genuine step forward in programming language interoperability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ovadia has his hands full with Valen at this point, though his cross-language generics work opens the possibility of using Rust to bootstrap other new languages that can be built from Rust libraries. Given a few modifications to Rust itself, the reliance on the creaky C ABI may one day be a thing of the past.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the Reddit and
+  &lt;a href=&quot;http://lobste.rs&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Lobste.rs
+  &lt;/a&gt;
+  programmer forums, observers
+  &lt;a href=&quot;https://lobste.rs/s/fjnkn4/golden_spike_resurrecting_vale_n&quot;&gt;
+   praised
+  &lt;/a&gt;
+  Ovadia for tackling such a difficult problem, even as they fretted about the details.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I appreciate the move to replace C as the ‘universal FFI language,’” one commenter wrote. &quot;It is a very bold choice and would require effort.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another reader commented that Rust may not be the ideal language for interoperability, given the limitations of its own type system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “However, imagine you could build bindings on top of Ada! Now that would be amazing,” they wrote.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> How Samsung turned months of inactivity into a very attention-seeking smartphone </title>
+<link>https://www.theregister.com/personal-tech/2026/09/26/how-samsung-turned-months-of-inactivity-into-a-very-attention-seeking-smartphone/5298736</link>
+<pubDate>Sat, 26 Sep 2026 10:27:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Our resident Microsoft-watcher Richard Speed last week
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/20/how-windows-turned-months-of-inactivity-into-a-7-hour-update-hostage-situation/5297478&quot; target=&quot;_blank&quot;&gt;
+   wrote
+  &lt;/a&gt;
+  about his seven-hour odyssey bringing a Windows 11 box up to snuff with the latest patches.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I’ll see you that struggle, Richard, and raise you my experience updating a 2022-vintage Samsung Galaxy A33 Android smartphone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I spent about a year using the A33 as my daily driver and while it always did a job, the midrange machine is far from the speediest of smartphones and therefore a little frustrating to use. When a great deal for a premium handset came along I splashed some cash and shelved the A33 as a spare, safe in the knowledge that Samsung has promised to support it with new security updates until 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I store the A33 in the
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/05/26/dusty-old-box-of-tech-junk-saves-a-warehouse/710989?_gl=1*15aopbj*_gcl_au*MTU2Mjk1NTc0MS4xNzg3NjQ1NjQ4*_ga*MTczNDcxOTQzMy4xNzgyMDE3MzY5*_ga_JXW44Y23NM*czE3OTAxMzkwMTQkbzQ1MSRnMSR0MTc5MDE0NTE2NCRqNjAkbDAkaDA.&quot; target=&quot;_blank&quot;&gt;
+   Basket Full Of Old Tech I Should Probably Have Thrown Out But Kept Just In Case
+  &lt;/a&gt;
+  , which sits on the floor of my home office – a room that gets no direct sunlight but is small, warm, and dry. All through the mild-if-clammy winter here in
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  ’s Sydney, Australia, eyrie, the phone insisted it had moisture in its USB-C port and refused to charge. Because it’s a budget model, topping it up with wireless power isn’t an option.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spring has since sprung, so when the mercury topped 30°C (86°F) last weekend I left the phone in a warm and breezy spot for an afternoon. The phantom moisture evaporated, and before long I had the phone charged and running.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Within seconds it suggested installing an OS update from April 2025, followed by six more – each of which required manual consent for download and install.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The A33’s sluggishness soon manifested as an overlapping mess of updates in progress and reboots to finish installation of the last update. Every few minutes, the phone wanted me to approve or schedule a new download, or log back in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The phone is not so important to me that I needed to get all the updates installed ASAP. Two days of occasional attention at mealtimes and bedtime earned me a slow, old, but functional backup phone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  My experience led me to concur with Mr Speed’s excellent argument that vendors need to ship better software so they’re less reliant on updates – and improve the process of updating devices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Samsung that means rolling up past updates into cumulative downloads so leaving a device offline for a few months requires one intervention to modernize a device. The Korean giant could also do well to detect when a handset needs multiple updates and then inform users that its Smart Switch desktop app makes it possible to install cumulative updates in one fell swoop. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Space Jam: UK debuts space squadron to protect satellites </title>
+<link>https://www.theregister.com/offbeat/2026/09/26/space-jam-uk-debuts-space-squadron-to-protect-satellites/5299119</link>
+<pubDate>Sat, 26 Sep 2026 08:08:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Britain’s Royal Air Force has gained some space cadets, in the form of No. III Space Effects Squadron, tasked with protecting critical satellites that the UK relies on for communications and navigation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Air Chief Marshal Sir Harvey Smyth announced the new unit at an inaugural UK Space Power Conference in London, saying it will safeguard the vital benefits that space gives to our armed forces, and be capable of denying those benefits to our adversaries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Smyth added that the RAF’s headquarters at High Wycombe transitioned to become Air and Space Command just a few weeks ago.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the MoD, the existing No. I Space Operations Squadron and No. II Space Warning Squadron give the RAF the ability to watch and warn of threats in space, but the latest unit will have the ability to act against those threats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  How, you might ask, given the UK has limited launch facilities and no anti-satellite missile systems, as far as we are aware? This will be accomplished using “advanced technology,” we are told, including electronic warfare, to “disrupt, degrade and deny hostile actions.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In fact, the government says the UK has formally ruled out destructive anti-satellite missile testing, and instead continues to work through the UN Committee on the Peaceful Uses of Outer Space.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That implies the use of ground-based jamming systems to disrupt or neutralize any nefarious foreign satellites. We asked the MoD for further details on what the space force’s capabilities consist of, exactly, but a spokesperson told us there is not much more that can be said as the information is classified.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the MoD does say the squadron will support both offensive and defensive space operations and will expand over time as new capabilities enter service.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The MoD states that satellites are critical for both national security and daily life, enabling intelligence gathering and missile warnings, while also providing telecoms and weather forecasts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The emergency services rely on satellite navigation systems for emergency responses, and energy networks use the same systems to organise power grids, making use of the precise time coding in such signals to synchronise operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Last year,
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2025/10/07/uk-eyes-satellite-laser-shields-carrier-launched-jet-drones/1226328&quot;&gt;
+   reported
+  &lt;/a&gt;
+  that the MoD was working with the UK’s Space Agency on finding ways to protect orbiting satellites with technology that can spot when lasers are being used to try and dazzle them and disrupt communications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Four countries are known to have tested anti-satellite missiles; the US, Russia, China and India. The most recent incident was when
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2021/11/16/iss-crew-shelters-from-debris-after-russia-blows-up-old-sat/994238&quot;&gt;
+   Russia destroyed one of its own defunct orbiters in 2021
+  &lt;/a&gt;
+  , endangering the International Space Station. The ISS also had to conduct manoeuvres the same year to
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2021/11/11/iss-nudged-to-avoid-debris-from-destroyed-chinese-satellite/679905&quot;&gt;
+   avoid space debris
+  &lt;/a&gt;
+  created by China blowing up one of its own satellites years earlier.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2022, the United Nations passed a US-led resolution calling on countries to commit not to conduct any similar anti-satellite missile tests.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That hasn’t stopped China, for one, looking at other ways of taking out orbital assets if it considers it necessary, looking at employing lasers and high-power microwaves to disable them. The US Space Force also claimed to have observed
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2025/03/20/space-force-warns-of-chinese-satellites-dogfighting/1427075&quot;&gt;
+   Chinese satellites practicing “dogfight” manoeuvres
+  &lt;/a&gt;
+  in orbit. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Valen creator drives &#x27;Golden Spike&#x27; to connect new languages with Rust </title>
+<link>https://www.theregister.com/devops/2026/09/25/valen-creator-drives-golden-spike-to-connect-new-languages-with-rust/5299273</link>
+<pubDate>Fri, 25 Sep 2026 20:15:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Programming language generics can now ride in style from one language’s compiler to another and back again, thanks to experimental work from
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/12/modulars-mojo-programming-language-hits-10-milestone/5286545&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Mojo
+  &lt;/a&gt;
+  core contributor
+  &lt;a href=&quot;https://verdagon.dev/home&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Evan Ovadia
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  This former Google engineer has endeavored to turn Rust into a library that other languages can build from, demonstrating a way to pass generic data types and functions between Rust and another language, an action the C ABI doesn’t support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Technically, this is the most fascinating thing I’ve read in months,” enthused the host of the Let’s Get Rusty YouTube channel,
+  &lt;a href=&quot;https://www.youtube.com/watch?v=jJJm2nQVolY&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   explaining the work
+  &lt;/a&gt;
+  , which he characterized as “Rust++.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That&#x27;s a geeky but hard-won victory to be sure. Ovadia describes his work in an
+  &lt;a href=&quot;https://verdagon.dev/blog/golden-spike-reviving-vale-valen&quot; rel=&quot;nofollow&quot;&gt;
+   explanatory blog post
+  &lt;/a&gt;
+  as the “
+  &lt;a href=&quot;https://www.loc.gov/item/today-in-history/may-10/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Golden Spike
+  &lt;/a&gt;
+  ” that intertwines two different languages, referring to the final spike hammered into the United States’ first transcontinental railroad line.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Instead of being stripped down into raw primitives just to be crammed into the coarse wagons of C ABI, libraries of rich capability can be sped to foreign ecosystems on sturdy, high-speed rails.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Ditching the C ABI at last
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The work came about in Ovadia’s effort to create his own language,
+  &lt;a href=&quot;https://github.com/valen-lang/Valen/tree/main&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Valen
+  &lt;/a&gt;
+  (an offshoot of an earlier effort called Vale), which he envisions as a speedier, more dev-friendly version of Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problem with creating a new language from scratch, he reasoned, was that he couldn’t use his favorite Rust libraries (notably Rust’s bitchin’
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   wgpu
+  &lt;/span&gt;
+  graphics library).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today, a common way to use a library from one language in a program written in another is through the C ABI (application binary interface), a de facto interoperability layer that defines conventions for passing data and function calls between compiled code. (Rust has
+  &lt;a href=&quot;https://doc.rust-lang.org/reference/abi.html&quot;&gt;
+   its own ABI
+  &lt;/a&gt;
+  , though it does not offer stability guarantees.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  With the C ABI, if a Rust library exposes its functions as extern &quot;C&quot; and exposes its types as repr(C), then they can be accessed from another language using a
+  &lt;a href=&quot;https://stackoverflow.com/questions/5440968/understand-foreign-function-interface-ffi-and-language-binding&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Foreign Function Interface
+  &lt;/a&gt;
+  (FFI).
+ &lt;/p&gt;
+ &lt;p&gt;
+  All well and good, but the problem Ovadia had was that the C ABI did not understand the concept of generics (or placeholders for data types to be provided later), because C itself doesn’t understand the concept of generics. But Rust uses generics quite a bit, and so does Valen, though not in the same way.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “So the central question, the central mystery to solve, is how do we do cross-language generics?” Ovadia wrote.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Cross-language generics at last
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Getting two compilers to collaborate is super tricky, as compilers tend to be isolated entities, solitary kings of their own individual worlds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So Ovadia needed to come up with a way for Valen to call a Rust generic function, but also have a Rust generic function that calls back into Valen for needed values.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After much rumination, Ovadia arrived at a two-part solution to cross-language generics: first, run the Rust compiler as a library. Surprisingly, Rust already possesses this capability (
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   rustc_driver
+  &lt;/span&gt;
+  ), which would allow Valen to embed rustc directly into its own memory space. The second step would be to patch Rust so that when it encounters non-Rust Valen types, it hands control over to the Valen compiler to handle its portion, and waits for the compiled result.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ovadia admits that patching the Rust compiler was the “nuclear option.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Honestly, this was the riskiest part of the whole endeavor,” he wrote. The patch itself is only about 100 lines of code, but it is hacky and assumes Rust is using
+  &lt;a href=&quot;https://llvm.org/&quot;&gt;
+   LLVM
+  &lt;/a&gt;
+  for machine code generation, which isn’t always the case. “It works, but it&#x27;s definitely not upstreamable,” Ovadia wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, Ovadia’s cross-language bidirectional generics are a genuine step forward in programming language interoperability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ovadia has his hands full with Valen at this point, though his cross-language generics work opens the possibility of using Rust to bootstrap other new languages that can be built from Rust libraries. Given a few modifications to Rust itself, the reliance on the creaky C ABI may one day be a thing of the past.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the Reddit and
+  &lt;a href=&quot;http://lobste.rs&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Lobste.rs
+  &lt;/a&gt;
+  programmer forums, observers
+  &lt;a href=&quot;https://lobste.rs/s/fjnkn4/golden_spike_resurrecting_vale_n&quot;&gt;
+   praised
+  &lt;/a&gt;
+  Ovadia for tackling such a difficult problem, even as they fretted about the details.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I appreciate the move to replace C as the ‘universal FFI language,’” one commenter wrote. &quot;It is a very bold choice and would require effort.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another reader commented that Rust may not be the ideal language for interoperability, given the limitations of its own type system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “However, imagine you could build bindings on top of Ada! Now that would be amazing,” they wrote. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft cells out, crams multiple values into Excel boxes </title>
+<link>https://www.theregister.com/applications/2026/09/25/microsoft-cells-out-crams-multiple-values-into-excel-boxes/5299294</link>
+<pubDate>Fri, 25 Sep 2026 19:58:36 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has ended 40 years of single-occupancy for Excel cells and is now allowing multiple values to inhabit the same home.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;One of the oldest rules of spreadsheets: one cell, one value,&quot; said Jake Armstrong, senior product manager for Excel, in a LinkedIn
+  &lt;a href=&quot;https://www.linkedin.com/posts/jakearmstrong1_one-of-the-oldest-rules-of-spreadsheets-share-7508921982147596288-2QrD/&quot;&gt;
+   post
+  &lt;/a&gt;
+  . &quot;No longer!&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I’m excited to announce a set of new features: Lists, Arrays in Cells and Nested Arrays in Excel.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the time being, this capability is only available in Microsoft Excel for Windows and Mac Beta Channels. And it is opt-in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To make the case for lists in cells, Armstrong in a
+  &lt;a href=&quot;https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  explained that each Excel project can have multiple owners.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Traditionally, you&#x27;d need separate columns, helper tables, or text like &#x27;Carlos, Henrietta, Jacob&#x27; packed into a single cell,&quot; he explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;With lists, you can keep those values together in one cell while still working with each item individually. Project owners stay connected to the project they belong to, while remaining available for filtering, calculations, and analysis.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  And he goes on to cite the potential utility of arrays in cells and nested arrays for expanding the kinds of information that Excel spreadsheets can represent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Armstrong&#x27;s enthusiasm for multi-value cells comes with a caveat that this is a preview feature and shouldn&#x27;t be used in important workbooks until general availability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Among those commenting on Armstrong&#x27;s LinkedIn post, several people suggested the change has the potential to break things and hinder auditability by making business logic less visible.
+ &lt;/p&gt;
+ &lt;p&gt;
+  External software libraries that expect
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   cell.value
+  &lt;/span&gt;
+  to return only a string, number, boolean, or date may need to be updated to handle a new data type – though Microsoft hasn&#x27;t yet published how lists, arrays in cells, and nested arrays will be represented in .xlsx XML. This includes libraries like
+  &lt;a href=&quot;https://openpyxl.readthedocs.io/en/3.1.1/_modules/openpyxl/cell/cell.html&quot;&gt;
+   openpyxl
+  &lt;/a&gt;
+  , pandas, and
+  &lt;a href=&quot;https://github.com/tafia/calamine/blob/master/src/datatype.rs&quot;&gt;
+   calamine
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The same goes for applications that import Excel data and don&#x27;t yet have any concept of multi-value cells, like CSV export, Google Sheets, LibreOffice, and older Excel builds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And users of Excel may need to flatten lists and arrays to make multi-value cells work with existing features like PivotTables, at least until those features have been adjusted to accommodate the new cell structure. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Uncle Sam coughs up $1.9B for grid upgrades as datacenters hit a power wall </title>
+<link>https://www.theregister.com/systems/2026/09/25/uncle-sam-coughs-up-19b-for-grid-upgrades-as-datacenters-hit-a-power-wall/5299276</link>
+<pubDate>Fri, 25 Sep 2026 19:26:34 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Bit barn builders can rejoice, because this week the US Department of Energy (DoE) announced $5.25 billion — including $1.9 billion of federal funds and $3.35 billion in cost-share funding — to support dozens of grid improvements across the nation expected to unlock an additional 23 gigawatts of capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.energy.gov/articles/energy-department-announces-speed-power-investments-across-26-states-lower-electricity&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   program
+  &lt;/a&gt;
+  , which spans 31 specific projects in 26 states, is part of the department’s Speed to Power through Accelerated Reconductoring and other Key Advanced Transmission Technology Upgrades (SPARK) initiative with federal funding made available under the Grid Resilience and Innovation Partnerships (GRIP) program. Uncle Sam sure does love his acronyms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “These investments will get more out of the infrastructure we already have, move more electricity across the grid, and help deliver affordable, reliable, and secure power that will fuel American prosperity for decades to come,” US Secretary of Energy Chris Wright said in a statement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rather than bringing new power generation capacity online, the projects aim to unlock additional capacity by reconductoring or rebuilding more than 1,500 miles of transmission lines and deploying grid-enhancing technologies (GETs), like sensors, power flow control devices, and analytical tools across 21,000 miles of American grid infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Additionally, participants working in areas prone to natural disasters will work to improve grid resilience and mitigate wildfire risks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agency claims the program will help improve reliability and lower electricity costs for roughly 100 million Americans. And, to quote former Senator Mitt Romney, “corporations are people, my friend.” And, of course, bit barns are run by corporations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the program should help to address power constraints faced by datacenter operators as they attempt to cash in on the AI boom, it may not be enough.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier this month, financial services biz Moody’s
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/09/15/america-is-building-datacenters-faster-than-the-grid-can-power-them/5296608&quot; target=&quot;_blank&quot;&gt;
+   warned
+  &lt;/a&gt;
+  that the pace of datacenter construction exceeds the speed at which the US grid can add the required capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By 2030, Moody&#x27;s estimates US datacenter electricity consumption will reach 426 TWh, nearly double the 2025 figure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This reality has prompted a flurry of investment in alternative energy technologies, including small modular reactors, geothermal generation, and even the recommissioning of aging nuclear plants. Meanwhile, chipmakers like Nvidia are pushing hard for smarter, more connected, and by extension
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/09/16/nvidia-goes-green-to-keep-grid-capacity-from-zapping-its-revenues/5296984&quot; target=&quot;_blank&quot;&gt;
+   more efficient
+  &lt;/a&gt;
+  datacenters that can release capacity back to the grid when necessary. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Fake Google Security Team ad says &#x27;no script reading&#x27; in voice phishing - then prints the script </title>
+<link>https://www.theregister.com/security/2026/09/25/fake-google-security-team-ad-says-no-script-reading-in-voice-phishing-then-prints-the-script/5299264</link>
+<pubDate>Fri, 25 Sep 2026 19:13:20 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Yes, criminals have job listings too. A Telegram user recruiting callers to work in an apparent Google Security Team voice-phishing scam told applicants that they weren’t allowed to read from scripts – in the same ad that also included the exact script they had to read during these scam calls.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This and other true-crime tales of criminals making fools of themselves appear in the latest installment of the Trellix Advanced Research Center’s Dark Web Roast, which uses memes and mockery to troll criminals on the dark web.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also acknowledges: “While these incidents are genuinely amusing, they represent real criminal activities causing significant harm.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of these incidents from August involves a Telegram user identified by Trellix as Derian (@crɑick) who posted an ad in the UK Fraudsters Telegram channel. “Hiring - Female/Male Mail Callers,” the advertisement said, seeking “USA/CA (white sounding)” applicants and, in bold, “NO SCRIPT READING.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ad then proceeded to print the exact script the callers would read: “Good afternoon, this is [name] reaching you on behalf of the Google Account Security Team on a recorded line. Am I speaking with Larry Boyles?”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Trellix threat-intel analysts
+  &lt;a href=&quot;https://www.trellix.com/blogs/research/dark-web-roast-august-2026-edition/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   note
+  &lt;/a&gt;
+  that the “‘recorded line’ flourish is a nice touch, because nothing says legitimacy like a fraudster cosplaying compliance theatre. The pretexting playbook is depressingly effective, but the recruiter’s QA process is roughly as robust as the fake Google team it impersonates.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Burn, baby, burn.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  previously spoke with Trellix VP of threat intelligence strategy John Fokker about the Dark Web Roast, and he said the idea came from a desire to take an &quot;almost psyops&quot; approach to covering the criminal underground. &quot;We don&#x27;t want to glorify them, what&#x27;s the opposite we can do? We&#x27;re going to roast them,&quot;
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/05/dont-glamorize-cybercrims-roast-them-instead/5219857&quot;&gt;
+   Fokker told us
+  &lt;/a&gt;
+  during a conversation at RSAC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I&#x27;m trying to spark a debate, or a healthy conversation, about what we can do as an industry,&quot; he said. &quot;Everybody&#x27;s glorifying threat actors, and that&#x27;s not helping our customers or organizations. These are just individuals, they just use computers, and they just want to steal your data and make money. They&#x27;re not mythical. They don&#x27;t have superpowers.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FBI’s Internet Crime Complaint Center (IC3) recently
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/07/fbi-says-cybercrime-losses-hit-record-2087b-in-2025/5223382&quot;&gt;
+   reported its most damaging year
+  &lt;/a&gt;
+  for internet scams, with 2025’s data pegging reported losses at $20.87 billion, and
+  &lt;a href=&quot;https://www.theregister.com/security/2025/08/21/impersonation-as-a-service-next-big-thing-in-cybercrime/718712&quot;&gt;
+   English-language social engineering
+  &lt;/a&gt;
+  is among the most in-demand skill sets on underground forums. One report by threat detection and response firm ReliaQuest found the number of job advertisements posted on criminal marketplaces mentioning this particular talent more than doubled between 2024 and 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Plus, according to Google,
+  &lt;a href=&quot;https://www.theregister.com/special-features/2026/03/23/voice-phishing-skyrockets-as-smooth-crims-talk-their-way-in/5223759&quot;&gt;
+   voice phishing surged last year
+  &lt;/a&gt;
+  to become the second most common method used by cybercriminals to gain initial access to their victims&#x27; IT estate – and the No. 1 tactic used when breaking into cloud environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So when these
+  &lt;a href=&quot;https://www.theregister.com/security/2025/07/01/opsec-oversights-how-cybercrooks-get-themselves-caught/101659&quot;&gt;
+   criminals
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/02/dumbass-criminal-breaks-the-first-rule-of-ransomware-club/5250380&quot;&gt;
+   do dumb things
+  &lt;/a&gt;
+  , we’re happy to see Fokker’s team call them out.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> New software dependency validation process increases speeds by 54x </title>
+<link>https://www.theregister.com/software/2026/09/25/new-software-dependency-validation-process-increases-speeds-by-54x/5299256</link>
+<pubDate>Fri, 25 Sep 2026 18:57:10 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  As if the pace of software creation hadn&#x27;t accelerated enough thanks to generative AI coding agents, computer scientists in Japan have devised a way to turbocharge the process of build dependency verification. Speeds can increase by as much as 54x.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Software build systems like Make, CMake, and the Zig build system automate the process of turning source code into executable programs. They ensure source files are compiled in the correct order and objects are linked correctly. They provide reproducible rebuilds and handle platform-specific compilation requirements, dependencies, tests, and documentation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But according to Yuta Saito, Kazunori Sakamoto, and Hironori Washizaki from Waseda University, dependency specification management remains a challenge, accounting for more than half of all build errors in large projects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Because existing tools like ptrace impose significant overhead, the researchers have devised a way to improve error detection by analyzing dependencies using extended Berkeley Packet Filter (eBPF)-based
+  &lt;a href=&quot;https://michaellaplante.com/blog/2026-06-10-from-strace-to-ebpf-advanced-linux-system-call-tracing-for-security-forensics/&quot;&gt;
+   system call tracing
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  They&#x27;ve developed a tool called mkcheck2 that reduces the time and compute cost required to catch software build errors. And they explain their approach in
+  &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3744916.3773204&quot;&gt;
+   a paper
+  &lt;/a&gt;
+  titled &quot;Efficient Build Dependency Verification Using eBPF and Incremental Analysis,&quot; published in the Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Our evaluation on a diverse set of open-source projects demonstrates that
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   mkcheck2
+  &lt;/span&gt;
+  reduces the overhead of dependency error detection by up to 99.7 percent compared to existing
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   ptrace
+  &lt;/span&gt;
+  -based approaches while maintaining detection accuracy,&quot; the authors explain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Across the entire 300-project Make corpus, the incremental analysis technique lowers the mean analysis time per commit from 1267.49 seconds to just 23.56 seconds, making continuous dependency verification practical in real-world development environments.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  That&#x27;s about 54x faster per commit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers say their eBPF-based system call tracer largely avoids the performance overhead imposed by ptrace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  eBPF allows sandboxed programs to run within kernel space, where they can perform tasks involving networking, observability, security, and other low-level operations. It&#x27;s been used for efficiency gains in services like
+  &lt;a href=&quot;https://www.theregister.com/software/2025/03/09/ebpf-it-doesnt-stand-for-anything-but-it-might-mean-bank/1495487&quot;&gt;
+   Meta&#x27;s Strobelight
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;By executing tracing code directly in kernel space, we can monitor build processes with minimal impact on build performance,&quot; the authors explain in their paper. &quot;Unlike ptrace, which requires process suspension and context switches for each system call, our eBPF-based approach provides non-invasive tracing by operating entirely within the kernel.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The authors note that their approach has some limitations. The eBPF-tracing system is Linux-specific, so build systems for other operating systems can&#x27;t expect the same gains. And there are various build-system scenarios that still present challenges, such as some kinds of redundant dependencies, tracking access to memory-mapped regions, visibility into dependencies for dynamically loaded libraries, network dependencies, and distributed build systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, the potential for
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   mkcheck2
+  &lt;/span&gt;
+  to cut the overhead of dependency error detection by up to 99.7 percent compared to
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   ptrace
+  &lt;/span&gt;
+  -based approaches promises to save a lot of time. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ShinyHunters tells The Reg: We hacked the FBI to &#x27;protect our business&#x27; </title>
+<link>https://www.theregister.com/cyber-crime/2026/09/25/shinyhunters-tells-the-reg-we-hacked-the-fbi-to-protect-our-business/5299250</link>
+<pubDate>Fri, 25 Sep 2026 18:23:31 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  ShinyHunters, the data theft and extortion crew that has stolen sensitive information belonging to
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/10/shinyhunters-expose-64m-in-attack-on-medical-supplier-mckesson/5295550&quot;&gt;
+   millions
+  &lt;/a&gt;
+  of
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/08/31/healthcare-cyberattacks-hit-pacemakers-and-millions-of-patient-records/5293537&quot;&gt;
+   cancer patients
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/11/shinyhunters-raids-nottingham-uni-for-student-alumni-data/5253961&quot;&gt;
+   university
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/05/14/security-pros-doubt-canvas-attackers-really-deleted-stolen-student-data/5240799&quot;&gt;
+   K-12 students
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/05/28/carnival-shinyhunters-cruised-off-with-6m-customer-records/5247808&quot;&gt;
+   Carnival cruisers
+  &lt;/a&gt;
+  , wanted to preserve their reputation and keep their “business” afloat. So it
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/22/shinyhunters-claims-fbi-hack-this-is-not-financially-motivated/5298385&quot;&gt;
+   hacked the FBI
+  &lt;/a&gt;
+  to make a statement, the group told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s a game and it’s the world we live in,” a ShinyHunters spokesperson told us. “We are just protecting our business as any other business would do. It’s about who does their job better.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  On Friday, the FBI confirmed the breach to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , after earlier in the week saying the bureau was investigating ShinyHunters’ claims.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The FBI is aware of a cyber-criminal enterprise group claiming a compromise of the FBIJobs.gov portal and alleged impact to FBI employee personally identifiable information (PII),” an FBI spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . &quot;While the point of breach is still undetermined - whether a third-party or the FBI’s enterprise - we are actively and aggressively investigating this matter and working closely with those third-party providers that support FBIJobs.gov to mitigate any and all risk.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  On Tuesday, the criminals told us that they broke into the bureau via yet
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/11/shinyhunters-claims-oracle-peoplesoft-0-day-hit-100-orgs/5254443&quot;&gt;
+   another
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/security/2026/06/29/nissan-says-oracle-peoplesoft-break-in-may-have-spilled-payroll-records-ssns/5263534&quot;&gt;
+   Oracle PeopleSoft
+  &lt;/a&gt;
+  zero-day flaw in the FBIJobs.gov portal, which
+  &lt;a href=&quot;https://apply.fbijobs.gov/&quot;&gt;
+   remains down
+  &lt;/a&gt;
+  as of Friday. Then, they breached the FBI’s managed servers on AWS GovCloud and swiped thousands of personnel files belonging to current, former, and prospective FBI employees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job,” the group claimed in a message posted online and addressed to FBI Director Kash Patel and Brett Leatherman, assistant director of the FBI’s Cyber Division.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sample files reviewed by journalists and security researchers appear to contain agents’ home addresses, phone numbers, email addresses, Social Security numbers, job titles, assigned field office, and emergency contact information.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &#x27;We refuted the misinformation disseminated by the FBI&#x27;
+ &lt;/h3&gt;
+ &lt;p&gt;
+  According to a spokesperson for ShinyHunters, the FBI hack isn’t about the money, and the crew did not demand a multimillion-dollar extortion payment to not leak the agents’ personal details.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our breach of the FBI was executed specifically to contest the allegations made against ShinyHunters in their May 2026 FLASH report,” a spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FBI bulletin, published soon after the group breached ed-tech giant
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/05/14/security-pros-doubt-canvas-attackers-really-deleted-stolen-student-data/5240799&quot;&gt;
+   Instructure&#x27;s Canvas platform
+  &lt;/a&gt;
+  and claimed to have stolen data tied to hundreds of millions of students, teachers, and staff,
+  &lt;a href=&quot;https://www.ic3.gov/PSA/2026/PSA260515&quot; rel=&quot;nofollow&quot;&gt;
+   said
+  &lt;/a&gt;
+  ShinyHunters uses “harassment strategies, sending threatening text messages and phone calls to victims and their family members, and in some cases, swatting.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The criminals, it continued, “may falsely claim to have sensitive or compromising information, including embarrassing photographs or videos of victims, which frequently do not exist.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  ShinyHunters contends this is all false. By hacking the FBI and releasing its statement about the hack, “we demonstrated our technical capabilities and directly refuted the misinformation disseminated by the FBI, journalists, and industry researchers,” the spokesperson told us in an interview.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This was fundamentally a public relations and marketing initiative for our business,” they said.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  &#x27;Results-driven professionals&#x27; or criminals?
+ &lt;/h3&gt;
+ &lt;p&gt;
+  ShinyHunters said it believes that “future corporate partners we engage with for payment will review this documentation, reinforcing our reputation as serious, results-driven professionals focused solely on transaction and resolution.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Most people call these &quot;future corporate partners&quot; victim organizations, breached by the digital thieves, and threatened with data leaks unless they pay an extortion demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The FBI intrusion “establishes our credibility, technical superiority and excellence, and capability with future corporate stakeholders, positioning us as a professional and predictable entity focused on concluding negotiations efficiently,” the spokesperson said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also puts a huge target on the crew, and we’d bet that the FBI, already gunning to arrest ShinyHunters members, is now doubling down on those efforts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The spokesperson said they and others in the crew started off as
+  &lt;a href=&quot;https://www.theregister.com/security/2026/01/12/latest-breachforums-reboot-spills-data-on-325k-users/4636004&quot;&gt;
+   GnosticPlayers
+  &lt;/a&gt;
+  before rebranding as ShinyHunters in 2020, and that they have since seen the “majority” of GnosticPlayers members arrested.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This business, however, is a criminal operation. We asked them why they believe people will trust the words of criminals over those of law enforcement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They said it’s due to ShinyHunters’ “unique and exceptional reputation along with over five years of history in the space…We are in a unique position and due to our vast capabilities and resources, victims are more likely to resolve the situation quickly and cheaper with us instead of going down the full disclosure route.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Think of the children
+ &lt;/h3&gt;
+ &lt;p&gt;
+  We also questioned how they justify doing what they do in this “business” - breaking into IT systems, stealing data, extorting victims - considering the personal toll it takes on people, especially when the stolen files contain sensitive information about children as they did in the Canvas intrusion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ShinyHunters claims that they “don&#x27;t attack human beings. We attack the corporate structure. The Business. Not human beings. The money comes out of insurance pocket. Not people’s or businesses&#x27; own. Full coverage by insurance. No personal harm is being done, only business harm that they recover from within a quarter considering the type of attack.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ransomware and other disruptive attacks are “substantially worse and costly,” they said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There are times in the work we do sometimes we have to push the corporate to the absolute limit to get them on the table,” they continued, noting that there was an “initial issue” with the Canvas intrusion “that we cannot comment on, but it highly relates to the misinformation we are combating. It takes a lot of convincing to bring a corporate to the table to negotiate if they think you are not trustworthy and bluffing/exaggerating what you have.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  While we don’t know for sure what this issue was, ShinyHunters switched to school-by-school extortion after
+  &lt;a href=&quot;https://www.theregister.com/security/2026/05/12/double-canvas-intrusion-confirmed-as-shinyhunters-resets-leak-deadline/5238361&quot;&gt;
+   compromising Instructure
+  &lt;/a&gt;
+  , the company that owns the Canvas online learning platform, in late April and after the initial pay-or-leak deadline passed on May 6.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They injected a ransom message into about 330 Canvas school login portals, causing Instructure to
+  &lt;a href=&quot;https://www.theregister.com/security/2026/05/08/hackers-ate-my-homework-educational-saas-canvas-down-after-cyberattack/5235561&quot;&gt;
+   take the platform offline
+  &lt;/a&gt;
+  for a day - during final exams and Advanced Placement testing for many.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Meanwhile, that PeopleSoft 0day
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The ed-tech company ultimately “reached an agreement” with ShinyHunters, which is corporate-speak for they paid the extortion demand. Alliance Risk CEO David Vainer previously told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  he estimates the figure sits somewhere between $5 million and $30 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to ShinyHunters, the PeopleSoft preauth vulnerability that they exploited in the FBI attack still doesn’t have a patch. Oracle hasn’t responded to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  ’s questions about the zero-day, or any plans for a patch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shiny had “no comment” about whether the gang has abused the PeopleSoft bug to compromise other organizations. But they added: “the zero-day would allow us to access similar HR/Employee personal information for other corporations who are vulnerable.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  They wouldn’t put a dollar amount on how much they earn from extorting businesses, but boasted: “our revenue performance significantly outperforms both our counterparts and legitimate real life businesses. We have reason to believe in a few months or soon an upcoming financial analysis or reports tracking our earnings will reflect substantial revenue growth.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And they would not comment when asked if they worried about getting arrested and criminally charged for their digital intrusions and extortion attacks. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google-backed energy outfit brings 33 MW of 4 GW geothermal potential online in Utah </title>
+<link>https://www.theregister.com/systems/2026/09/25/google-backed-energy-outfit-brings-33-mw-of-4-gw-geothermal-potential-online-in-utah/5299243</link>
+<pubDate>Fri, 25 Sep 2026 18:02:25 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Google&#x27;s bet on geothermal energy is starting to pay off. Fervo Energy, an enhanced geothermal systems (EGS) provider backed by the Chocolate Factory, achieved first power at its Cape Station power plant in Beaver County, Utah this week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first of three 33 MW GeoBlocks has begun supplying electricity to the grid and is expected to
+  &lt;a href=&quot;https://fervoenergy.com/fervo-energy-achieves-first-power-at-cape-station-a-landmark-moment-for-the-future-of-enhanced-geothermal-systems/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   reach commercial operation
+  &lt;/a&gt;
+  next week, with another 66 MW of capacity expected to come online by New Year. Fervo says the station has the potential to eventually scale to more than four gigawatts of capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, the company is working toward fulfilling 900 MW of contracted capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The deployment builds on
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/03/13/geothermal-energy-pitched-as-datacenter-savior/1202144&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   years of research
+  &lt;/a&gt;
+  and development into EGS technologies that use heat generated by the Earth&#x27;s crust to convert water into steam, which, like in most other power plants, is converted into energy using turbines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The trick is getting the water deep enough in the first place. To overcome this challenge, Fervo borrowed technologies originally developed by the oil and gas industry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Two parallel wells are dug to around 8,000 feet (2,438 meters) below the surface. The rock is then fractured to allow water to pass between the two, heating the water to 190 degrees Celsius in the process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Back in 2023, Fervo demonstrated the tech at its
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/11/29/google-goes-geothermal-to-power-some-datacenters/1465740&quot; target=&quot;_blank&quot;&gt;
+   Project Red site
+  &lt;/a&gt;
+  , which was capable of generating a modest 3.5 MW of power. Fervo’s Cape Station is orders of magnitude larger in scope.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the plan is expected to produce just 100 MW of capacity by January 1, its capacity is expected to swell to half a gigawatt by 2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the major beneficiaries of the buildout is Google. The search and advertising giant has been an early proponent of geothermal power generation going back to at least 2008.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition to its deal with Fervo, Google has also
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/02/18/google-digs-deep-to-power-ai-expansion-with-geothermal-deal/4513563&quot;&gt;
+   agreed to buy power from
+  &lt;/a&gt;
+  Ormat Technologies’ competing geothermal operations. Earlier this year, the Chocolate Factory announced a 150 MW deal with Ormat and Nevada’s NV Energy to fuel its datacenter expansion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Faced with grid constraints, Meta has been investing in the tech. Back in 2024, the company partnered with Sage Geosystems to deliver up to 150 MW of power.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, compared to conventional energy generation, geothermal still faces challenges as
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/03/13/geothermal-energy-pitched-as-datacenter-savior/1202144&quot; target=&quot;_blank&quot;&gt;
+   noted
+  &lt;/a&gt;
+  by think tank Rhodium last year. While the firm estimates the tech could meet up to 64 percent of datacenter demand by the end of the decade, those bit barns could end up paying a 20 percent premium for it. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Crooks use fake desktop apps to fool HR staff into giving them remote access </title>
+<link>https://www.theregister.com/security/2026/09/25/crooks-use-fake-desktop-apps-to-fool-hr-staff-into-giving-them-remote-access/5299226</link>
+<pubDate>Fri, 25 Sep 2026 17:29:54 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  You work in your company&#x27;s human resources department and use HR software to check employee information, benefits, and payroll. So, when you see a downloadable Windows version promising a faster alternative to the usual web interface, you grab it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unfortunately, the app isn&#x27;t what it claims to be. Instead, it silently installs ConnectWise&#x27;s legitimate ScreenConnect software, giving the operator persistent remote access to your PC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cybersecurity outfit Allure Security
+  &lt;a href=&quot;https://alluresecurity.com/blog/signal-noise-brand-was-real-app-wasnt&quot;&gt;
+   reported
+  &lt;/a&gt;
+  the discovery of the campaign Thursday, describing it as the latest evolution in a
+  &lt;a href=&quot;https://www.theregister.com/security/2025/05/30/connectwise-compromised-by-sophisticated-nation-state/877470&quot;&gt;
+   trend
+  &lt;/a&gt;
+  of
+  &lt;a href=&quot;https://www.theregister.com/security/2026/02/19/rat-disguised-as-an-rmm-costs-crims-300-a-month/5164102&quot;&gt;
+   abusing
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/security/2024/02/21/exploiting-critical-connectwise-bug-is-embarrassingly-easy/1378908&quot;&gt;
+   ScreenConnect
+  &lt;/a&gt;
+  and other remote monitoring and management software. This time, the main giveaway is knowing what the vendors actually sell: None offers the Windows app being advertised.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Allure, the campaign impersonates three unnamed US-based HR and payroll platforms by offering fake desktop clients for those providers’ software. In all three cases, those companies don’t offer a desktop client, meaning all it takes is an unaware HR or payroll clerk tricked by promises of superior performance to potentially expose some incredibly sensitive company data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Allure said that it’s not sure how potential victims are being targeted by the campaign either, but those who have been targeted may not pick up on anything being wrong. Clicking through to the website offering the fake app brings up a legitimate-looking site built using AI app builder Lovable and hosted on
+  &lt;a href=&quot;https://www.theregister.com/legal/2026/06/10/vercel-escapes-contempt-rap-after-admitting-it-botched-fbi-warrant-response/5253563&quot;&gt;
+   Vercel
+  &lt;/a&gt;
+  . The site is hidden behind the cloud host’s bot challenge page, meaning scrapers haven’t been able to index it and expose the scam.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Further obscuring the malicious nature of the campaign, the downloads are hosted on a GitHub Releases page, meaning they point to a trusted domain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once downloaded and executed, the installer presents the victim with an actual Microsoft installer to make it appear like a legitimate piece of software. It actually installs the Microsoft .NET Desktop Runtime 8.0.26, so it goes through the entire process and shows that an installation completes, but nothing ever pops up, leaving the victim unclear as to where their desktop app went.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s not all the installer is doing, of course: It’s also running a quiet, no-interface installer to drop the ScreenConnect client on the victim’s machine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The [ScreenConnect] access mode is set to unattended,” Allure notes. “The victim-facing indicators are turned off: no ‘your machine is being controlled’ banner, no system-tray icon, no connection balloon.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The silent install is also configured to launch on boot, and stay connected across various user sessions, giving the attacker “a quiet, persistent, interactive foothold,” says Allure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Nothing in this chain is malware in the usual sense,” the infosec outfit said. “The page was generated by a legitimate AI builder and served by a legitimate host. The download came from a legitimate code platform. The one window the victim saw belonged to Microsoft. The thing that was installed is a legitimate RMM product, doing what it was designed to do, for someone who was never supposed to have it.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In other words, security teams have some work to do before they even check the indicators of compromise that Allure included in its report: Check with HR and payroll vendors to see if they offer a desktop app, and if not alert all members of those teams to this campaign.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For those hoping they haven’t fallen victim, the actual number of victims remains unknown. Allure said the GitHub download counts across the three fake downloads totaled 291 as of its report. Some of those came from Allure’s researchers, and possibly other researchers and sandboxes too, so the download count can’t be used to determine how many victims there are. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Bitget blames North Korea for $387.5M crypto wallet raid </title>
+<link>https://www.theregister.com/cyber-crime/2026/09/25/bitget-blames-north-korea-for-3875m-crypto-wallet-raid/5299218</link>
+<pubDate>Fri, 25 Sep 2026 17:04:07 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The CEO of crypto exchange Bitget has confirmed that a cyberattack with all the hallmarks of a North Korean operation resulted in approximately
+  &lt;a href=&quot;https://www.bitgetapp.com/support/articles/12560603896108&quot;&gt;
+   $387.5 million
+  &lt;/a&gt;
+  worth of digital assets being stolen from the exchange’s wallets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bitget initially estimated the loss at $351.6 million, but later revised the figure to $387.5 million after identifying additional affected assets on Zcash and TRON that were not included in the initial estimate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Blockchain intelligence company Arkham published its
+  &lt;a href=&quot;https://x.com/arkham/status/2103454007607874022&quot;&gt;
+   preliminary observations
+  &lt;/a&gt;
+  of the attack, estimating at the time that roughly $350 million was stolen and that $228 million left Bitget’s wallets in 18 minutes, between 18:58 and 19:16 UTC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Arkham said $153 million worth of XRP was taken from a wallet it identified as a Bitget cold wallet, while the stolen assets also included $66.2 million of ETH, $34.8 million of USDT, $12.9 million of USDC, and $12.8 million of Tether Gold on Ethereum. Other affected networks included Arbitrum, Optimism, BNB Smart Chain, Avalanche, and Base.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, Chen said Bitget&#x27;s cold wallets and customer balances remained unaffected, while its User Protection Fund held more than $464 million worth of assets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “To be transparent about our financial position: beyond the $464M+ Protection Fund – all held in publicly verifiable wallets – Bitget holds over $1 billion in its own assets,” Chen
+  &lt;a href=&quot;https://x.com/GracyBitget&quot;&gt;
+   said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “User funds are covered on a 1:1 basis.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chen also explained that Bitget Wallet, the company’s self-custody product, operates on infrastructure separate from its exchange, and Bitget users can still make deposits and trade their tokens, despite withdrawals being temporarily suspended while additional security checks are completed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bitget said it also engaged incident response giant Mandiant and blockchain security outfit SlowMist to help with the investigation into the attack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chiefs at fellow exchanges rallied around Bitget in support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “MEXC stands ready to support Bitget in any way we can,” said CEO Vugar Usi. “In moments like this, the industry is stronger when we stand together.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Binance co-CEO Richard Teng also pledged Binance&#x27;s support for Bitget, saying it had shared intelligence and helped trace the stolen funds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ben Zhou, CEO of Bybit, said his company was on standby to “help in any way we can,” noting that Bitget helped it out following the
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/26/bybit-declares-war-on-lazarus-crew-to-regain-stolen-15b/486722&quot; target=&quot;_blank&quot;&gt;
+   $1.5 billion Bybit theft
+  &lt;/a&gt;
+  the FBI attributed to North Korea in February 2025.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  How and who
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Root cause analyses typically take some time, although according to Chen, Bitget&#x27;s security team has already identified the wallet service&#x27;s backend system as the source of the unauthorized transfers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Hackers breached a key backend system of the wallet service and exploited it to forge transfer information and invoke the authorization signing process, thereby transferring funds out,” she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The possibility of private key leakage can be ruled out – this means a more severe risk scenario has been eliminated. Damage control has been confirmed as complete, and there is no risk of further fund outflows from the platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The specific intrusion methods used by the hackers are still under technical investigation, and a full report will be released upon completion of the investigation.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chen did not go into too much detail about the alleged links to North Korean state-sponsored attackers having a hand in the attack, but said “IP behavioral patterns and on-chain signatures” suggest it was Kim’s cronies at work.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It would come as little surprise if North Korea was indeed the culprit behind the attack. The regime has a knack for hacking crypto exchanges.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The aforementioned hit on Bybit was perhaps North Korea’s biggest crypto haul, although similar lucrative ventures attributed to North Korean attackers have come at the expense of
+  &lt;a href=&quot;http://theregister.com/security/2025/01/15/north-korea-stole-659m-in-five-crypto-heists-last-year/465547&quot; target=&quot;_blank&quot;&gt;
+   DMM Bitcoin
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/security/2024/07/19/north-korea-may-have-attacked-indian-crypto-exchange-wazirx/1513514&quot;&gt;
+   WazirX
+  &lt;/a&gt;
+  , among others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bitget was founded in 2018, registered in the Seychelles in 2022, and operates through regional hubs across the world.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some netizens have speculated that the timing was especially inconvenient, with the transfers detected at 18:31 UTC – 02:31 on September 25 in Singapore and China, the first day of China’s three-day Mid-Autumn Festival holiday. The festival is also widely celebrated in Singapore, although it is not a public holiday there.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  asked Bitget whether this played a role in the attack and its remediation but it did not respond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As of Friday, Bitget is offering a bounty to those who help freeze or recover the stolen funds. It announced that 5 percent of the total amount stolen would be set aside as a bounty. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NetApp buying Peak:AIO to give ONTAP Parallel NFS injection </title>
+<link>https://www.theregister.com/file/2026/09/25/netapp-buying-peakaio-to-give-ontap-parallel-nfs-injection/5299234</link>
+<pubDate>Fri, 25 Sep 2026 16:36:25 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  NetApp is acquiring Peak:AIO with its AI-focussed parallel NFS system software and metadata architecture.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Manchester, UK-based Peak:AIO is a software-defined all-flash storage company that was founded in 2021 by Chief Strategy Officer and CTO Mark Klarzynski and Eyal Lemberger, Chief of AI and Cyber Security Strategy. US-based CEO Roger Cummings came on board in May 2024. Its technology originated from collaborations with leading research institutions, including Los Alamos National Laboratory and Carnegie Mellon University, Peak says its software provides a global file namespace and parallel NFS data access for massively parallel workloads. The SW “delivers dramatically faster performance while consuming less energy,” and Peak has talked about a
+  &lt;a href=&quot;https://blocksandfiles.com/2025/05/27/peakaio-uses-cxl-memory-to-rescue-hbm-limited-ai-models/&quot;&gt;
+   &lt;span&gt;
+    CXL memory-based
+   &lt;/span&gt;
+  &lt;/a&gt;
+  KV cache offload system.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  George Kurian, NetApp’s CEO, said: &quot;AI clouds need high-performance shared storage that can scale alongside growing GPU clusters while maintaining the resilience, security, and operational simplicity organizations depend on. With PEAK:AIO, we are delivering on our vision for a new generation of AI infrastructure that combines scalable metadata services with the proven foundation of ONTAP to help customers maximize infrastructure efficiency and support AI at hyperscale cloud.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  NetApp aims to accelerate its AI infrastructure roadmap by building an architecture that disaggregates metadata from data and enables metadata services to scale independently, creating a foundation for AI infrastructure capable of supporting trillions of files, exabyte-scale environments, and massively parallel workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company says existing traditional storage architectures, such as ONTAP, “were not designed for the unprecedented scale, concurrency, and performance requirements of AI factories, AI clouds, and next-generation data-intensive applications.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The two companies are aiming to reduce data-related GPU stalls and give AI clouds a clear path to scale shared storage as fast as their compute grows. ONTAP with added Peak:AIO metadata capabilities and parallel namespace features will have a a differentiated architecture that preserves its resilience, security, and operational maturity, while introducing a new level of scalability for AI workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mark Klarzynski said: &quot;NetApp and PEAK:AIO connected through the shared belief that the AI era demands a fundamentally new approach to data infrastructure. What excites us most about joining NetApp is the opportunity to pair our culture of innovation with the reach, scale, and customer trust of a global leader. Together with NetApp, we have an opportunity to help shape that future and deliver technologies that make managing data at a massive scale both practical and accessible.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  NetApp emphasized that there would be a clear evolution path for existing ONTAP customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The transaction remains subject to customary closing conditions and regulatory approvals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Peak:AIO secured around
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/10/06/peakaio-banks-68m-to-scale-out-ai-storage-platform/1604254&quot; target=&quot;_blank&quot;&gt;
+   $7 million
+  &lt;/a&gt;
+  in seed funding in October last year. We understand the acquisition is likely not material in a financial sense to NetApp, with its
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/09/03/ai-adds-impetus-to-netapp-revenue-rise/5294164&quot; target=&quot;_blank&quot;&gt;
+   $410 million
+  &lt;/a&gt;
+  in free cash flow in its latest quarterly results.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  Bootnote
+ &lt;/h5&gt;
+ &lt;p&gt;
+  In March last year, Peak:AIO announced a 2RU
+  &lt;a href=&quot;https://blocksandfiles.com/2025/03/05/peakaio-ai-data-server/&quot;&gt;
+   &lt;span&gt;
+    DataServer
+   &lt;/span&gt;
+  &lt;/a&gt;
+  , a parallel NFS NAS system based on a Dell server with Solidigm NVMe SSDs and Nvidia CX7 Ethernet NICs. It also has an NVMe flash-based PEAK:ARCHIVE product offering up to 1.4 PB capacity in a 2RU chassis.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Office 2016 and 2019 holdouts blame update for license deactivation bug </title>
+<link>https://www.theregister.com/software/2026/09/25/office-2016-and-2019-holdouts-blame-update-for-license-deactivation-bug/5299186</link>
+<pubDate>Fri, 25 Sep 2026 15:01:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Users report that a recent optional update for out-of-date Microsoft 365 applications might be connected to suddenly deactivated
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   &lt;strong&gt;
+    Microsoft
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  Office 2016 and 2019 installations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The activation bug cropped up this week and appears to mostly impact
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   &lt;strong&gt;
+    Home and Business perpetual license installations
+   &lt;/strong&gt;
+   ,
+  &lt;/span&gt;
+  stripping away their authenticated status and forcing users into a loop where they are asked over and over again to re-enter their product key or face deactivation or reduced-functionality mode.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The symptom is that a previously activated copy of Office 2016 and 2019 appears to abruptly lose its activation information, triggering alarming pop-ups and dire warnings that functionality loss is imminent. Affected users say one fix is to re-enter the original product key to restore the activation state.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This would be a fine solution, if the user is sufficiently organized and have that number or numbers to hand. It is not so fine if you&#x27;re faced with dozens, hundreds, or even more devices affected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Register
+  &lt;/span&gt;
+  reader told us the issue &quot;took out our Office 2016 installations.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  They added: &quot;First indication is a message in the app you are using telling you that normal functionality has been removed. Also Yellow banners saying you have five days left before you can no longer use the apps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It takes multiple product reactivations, restarts and sign in/sign out of your Office account to get it stable.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A glance online shows many users believe the problem is connected to
+  &lt;a href=&quot;https://support.microsoft.com/en-us/servicing/os/microsoft-365/kb5002907-optional-update-for-out-of-date-microsoft-365-apps-installations&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   KB5002907
+  &lt;/a&gt;
+  . The optional update is for Windows PCs with Microsoft 365 Apps that are more than 90 days out of date. According to Microsoft, &quot;Installing the update can help the apps resume updating and move to a current build for the device’s assigned update channel.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Crucially, Microsoft also said the update is not automatic. However, users affected by the sudden reactivation requirement
+  &lt;a href=&quot;https://www.reddit.com/r/microsoftoffice/comments/1woutac/multiple_ms_office_2019_got_deactivated_today/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   noted
+  &lt;/a&gt;
+  that the issue began around the same time the update appeared.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Support ended for Office 2016 and 2019 on October 14, 2025. As such, Microsoft is under no obligation to release updates for the software. That, however, hasn&#x27;t stopped it from occasionally releasing a patch that
+  &lt;a href=&quot;https://www.theregister.com/software/2026/09/18/microsoft-fixes-the-fix-that-broke-excel-paste-partly/5297467&quot; target=&quot;_blank&quot;&gt;
+   breaks stuff
+  &lt;/a&gt;
+  , for example the Paste problems that surfaced after an Excel patch. Unexpected consequences from an Microsoft 365 update are not unusual.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft also has form when it comes to bricking old versions of software, although in the case of the
+  &lt;a href=&quot;https://www.theregister.com/applications/2026/06/11/apple-version-of-office-2019-becomes-useless-in-a-month/5254197&quot; target=&quot;_blank&quot;&gt;
+   Apple version of Office 2019
+  &lt;/a&gt;
+  , that bricking was deliberate due to the expiration of a certificate that dropped the applications into &quot;reduced functionality mode&quot; – opening and printing still worked, but creating, editing or saving? Perhaps sir or madam might consider a subscription to Microsoft 365?
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a reminder, when Office 2016 and 2019 for Windows reached the end of support,
+  &lt;a href=&quot;https://support.microsoft.com/en-us/office/system-requirements/end-of-support-for-office-2016-and-office-2019&quot;&gt;
+   Microsoft assured
+  &lt;/a&gt;
+  users they could continue using the products regardless. It did not mention the unexpected need to enter a product activation code… ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SPONSORED: </title>
+<link>https://www.theregister.com/storage/2026/09/25/sponsored/5299080</link>
+<pubDate>Fri, 25 Sep 2026 15:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;66fd6813-02d2-46da-8dc4-98a00ceb39aa&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-normal&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   EVENT:
+  &lt;/span&gt;
+  The Register is hosting a private dinner in New York on Tuesday 27 October for senior technology, infrastructure and data leaders, with LucidLink. Joe Fay takes the chair, it runs under the Chatham House Rule, and nothing said leaves the table.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Distributed teams are producing more unstructured file data than ever, and most of them reach it through infrastructure designed for an office: legacy NAS, a VPN, and a sync-and-download habit nobody actually chose. It rarely fails outright. It charges rent somewhere else instead, in duplicated storage, in waiting, in governance gaps, and in the hour somebody loses working out which version of a file is current.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The conversation worth having about that is not the architecture diagram. It is what a team did when it stopped being in one building. Which workaround somebody has quietly been paying for ever since. What broke when they tried to retire the NAS, and what they would do differently now. People say that over dinner. They do not say it on a recorded webinar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So this is dinner. Drinks, a handful of questions across the table, then more drinks. Everyone there as a peer, and a chair whose job includes stopping anyone who starts to pitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The premise is deliberately not rip and replace. The evening is about modernizing around the storage and governance investments an organization already has, rather than pretending they are not there, which is usually the point at which these conversations stop being useful to the people who have to pay for them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the table: handling the growth in unstructured data, supporting distributed teams without paying for the same file three times, sync and version control, and whether any of it holds up against a security incident.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Holly Bossert, Commercial Sales US at LucidLink, joins the conversation. Joe Fay of The Register moderates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The table is for senior technology, infrastructure and data leaders carrying this now, not planning for it later. Dinner runs from 6.00pm to 8.30pm at The Capital Grille, 120 W 51st Street. Places are limited and go by invitation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Request one
+  &lt;a href=&quot;https://situationpublishing.com/events/2026-10/new_york/?source=article1&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Everpure&#x27;s head-turning fiscal 2028 guidance </title>
+<link>https://www.theregister.com/flash/2026/09/25/everpures-head-turning-fiscal-2028-guidance/5299205</link>
+<pubDate>Fri, 25 Sep 2026 14:46:55 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Financial analysts were told Everpure is at an inflexion point with three growth drivers and accelerated growth leading to a stunning fiscal 2028 revenue projection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CTO Rob Lee said the core all-flash array business, incuding an AI component, is growing steadily. But there are three new growth markets which do not overlap;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Modern data software (
+    &lt;span&gt;
+    &lt;/span&gt;
+    Portworx for Kubernetes data management, Pure Protect for
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  backup and cyber recovery, Everpure Cloud for hybrid- and multi-cloud data mobility, Data Intelligence from 1Touch, and Data Stream), which organizes, governs, and makes data accessible for AI, not just storing it,
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Scale AI providing GPU-attached storage for exabyte-scale AI workloads at Neoclouds and larger enterprises,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Hyperscale solutions licensing DirectFlash Module intellectual property to the largest hyperscalers (with
+    &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/08/11/second-hyperscaler-plumps-for-everpures-flash-technology/5285903&quot; target=&quot;_blank&quot;&gt;
+     2 design wins
+    &lt;/a&gt;
+    already and limited competitive options).
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Everpure reported
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/02/26/everpure-tops-1b-quarter-as-fy-26-revenue-hits-37b/4092679&quot; target=&quot;_blank&quot;&gt;
+   fiscal 2026 revenues
+  &lt;/a&gt;
+  of $3.66 billion, up 16 percent YoY. After reporting a terrific
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/08/27/everpure-the-artist-formerly-known-as-pure-storage-ramps-up-growth-rate/5292871&quot; target=&quot;_blank&quot;&gt;
+   fiscal Q2 fy 2027,
+  &lt;/a&gt;
+  it’s guiding fiscal 2027 revenues to be $5.05 billion ± $20 million; up $500 million on its initial fy2027 guidance
+  &lt;span&gt;
+  &lt;/span&gt;
+  3 months prior, and a 38 percent jump on fiscal 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now it has pushed the forecasting boat out further, telling the analysts it expects fiscal 2028 revenues to be $7.15 billion ± $150 million, representing a 41.6 percent uplift on fiscal 2027. That’s because, it says, its four growth drivers come together ad operate in concert.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An Everpure annual revenue history chart with the estimated fy 2027 and 2028 mid-point numbers shows this accelerated growth clearly;
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO Charles Giancarlo and CFO Tarek Robbiati have put themselves out in the open for analyst and investor ire if the company fails to meet these targets, and are setting themselves up as heroes if it does reach them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  William Blair analyst Jason Ader said this was “head-turning guidance” with Everpure’s execs providing “a meaningful reset of the company&#x27;s long-term growth narrative and financial profile.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He pointed out Everpure execs “highlighted 8 consecutive quarters of accelerating revenue growth and 12 consecutive years of enterprise storage share gains, arguing that the current acceleration reflects structural improvements in the business rather than cyclical tailwinds.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Everpure “management believes Everpure’s future growth profile will increasingly be driven by multiple independent growth vectors, not enterprise storage share gains alone. Notably, management repeatedly characterized the company&#x27;s current position as an “inflection point,” emphasizing that the acceleration is “durable” and “not a spike.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He reckons the three new growth vectors (markets) roughly double Everpure’s TAM and together are expected to reach 20 percent of total revenue by fiscal 2030.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Xinnor simplifies and extends RAID-based fast NAS management </title>
+<link>https://www.theregister.com/data-protection/2026/09/25/xinnor-simplifies-and-extends-raid-based-fast-nas-management/5299133</link>
+<pubDate>Fri, 25 Sep 2026 14:25:05 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-protection/2025/07/28/xinnor-claims-massive-raid-rebuild-speedup-over-linux-mdraid/1593919 - Xinnor adds comprehensive RAID, filesystems, NFS and networking control plane and previews its extension via MCP to AI assistants and separately to parallel NFS Lattice co-ordination.
+- https://www.blocksandfiles.com/file/2026/02/12/xinnors-alternative-software-raid-filer-for-ai/4091077 - xiNAS was introduced earlier this year by SW RAID supplier Xinnor as a high-performance NFS over RDMA storage system. It came on Supermicro storage servers with AMD EPYC processors and PCIe Gen5 NVMe drives. V3.13 xiNAS is the latest production version of its with unified management, automation and diagnostics for day-to-day operations.
+Sergei Platonov, VP of Strategy at Xinnor, said: “AI can make storage administration much easier, but it should not bypass the controls that make infrastructure predictable and safe. In the 3.14 preview, an assistant can inspect the system, explain what it finds and prepare an operation, while permissions, the execution plan and final confirmation remain under xiNAS control.”
+xiNAS 3.13 introduces a single control plane for storage provisioning, NFS configuration, health inspection and configuration history. Whether an operation comes from the terminal interface, CLI,REST API or MCP-client, xiNAS follows the same workflow: it builds a end-to-end plan for a particular task showing what will change, checks permissions, applies the approved operation and records it in the audit log.
+Operations that can alter or destroy data require the appropriate role and explicit confirmation. This gives administrators a consistent way to manage RAID, filesystems, NFS and networking instead of working through separate management paths.
+An xiNAS 3.14 technology preview extends this control plane to MCP-compatible AI assistants and automation tools. Administrators can use an AI client to inspect system health, investigate unavailable shares, review changes or prepare configuration operations.
+The AI client does not receive shell access. Requests are mapped to defined xiNAS operations and remain subject to the same permissions, planning, confirmation and auditing rules used by other management interfaces. Diagnostic results also record which checks succeeded, failed, timed out or could not be performed, so missing information is not treated as evidence of a healthy system.
+An xiNAS 3.15 technology preview explores a separate problem in scale-out pNFS environments: how a coordination layer could take the actual condition of storage servers into account when placing new data.
+In the v3.15 preview, xiNAS publishes the condition of the RAID, filesystem and NFS layers behind each share. A connector can make this information available to pNFS Lattice, an open-source metadata and coordination layer for pNFS. This creates a basis for evaluating placement policies that could avoid servers that are rebuilding, degraded or unavailable.
+xiNAS 3.13 is available now as the current stable release. Source branches for xiNAS 3.14 and 3.15 are available separately for technical evaluation. The 3.15 work is an early technology preview intended for tech inspection and development
+Sergei Platonov will discuss the architecture and safety model behind the MCP preview at the SNIA Developer Conference 2026 on September 30.
+&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-protection/2025/07/28/xinnor-claims-massive-raid-rebuild-speedup-over-linux-mdraid/1593919&quot; target=&quot;_blank&quot;&gt;
+   Xinnor
+  &lt;/a&gt;
+  adds comprehensive RAID, filesystems, NFS and networking control plane and previews its extension via MCP to AI assistants and separately to parallel NFS Lattice co-ordination.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Xinnor found that its RAID SW could be parlayed into a fast network-attached file system (NAS) and its
+  &lt;a href=&quot;xhttps://www.blocksandfiles.com/file/2026/02/12/xinnors-alternative-software-raid-filer-for-ai/4091077&quot; target=&quot;_blank&quot;&gt;
+   xiNAS
+  &lt;/a&gt;
+  product was introduced earlier this year as a high-performance NFS over RDMA storage system. It came on Supermicro storage servers with AMD EPYC processors and PCIe Gen5 NVMe drives. V3.13 xiNAS is the latest production version of this with unified management, automation and diagnostics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  xiNAS 3.13 introduces a single control plane for storage provisioning, NFS configuration, health inspection and configuration history. Whether an operation comes from the terminal interface, CLI, REST API or MCP-client, xiNAS follows the same workflow: it builds a end-to-end plan for a particular task showing what will change, checks permissions, applies the approved operation and records it in the audit log.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Operations that can alter or destroy data require the appropriate role and explicit confirmation. This gives administrators a consistent way to manage RAID, filesystems, NFS and networking instead of working through separate management paths.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An xiNAS 3.14 technology preview extends this control plane to
+  &lt;a href=&quot;https://www.blocksandfiles.com/data-management/2022/04/02/mcp/1613060?_gl=1*16jlbr8*_ga*MjQ3MDI2OTgxLjE3NzMzNzg0NDU.*_ga_NSDTXHMMN0*czE3OTAzMzY1OTgkbzQ4JGcxJHQxNzkwMzM2NjEzJGo1OSRsMCRoMA..&quot; target=&quot;_blank&quot;&gt;
+   MCP
+  &lt;/a&gt;
+  -compatible AI assistants and automation tools. Administrators can use an AI client to inspect system health, investigate unavailable shares, review changes or prepare configuration operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sergei Platonov, VP of Strategy at Xinnor, said: “AI can make storage administration much easier, but it should not bypass the controls that make infrastructure predictable and safe. In the 3.14 preview, an assistant can inspect the system, explain what it finds and prepare an operation, while permissions, the execution plan and final confirmation remain under xiNAS control.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI client does not receive shell access. Requests are mapped to defined xiNAS operations and remain subject to the same permissions, planning, confirmation and auditing rules used by other management interfaces. Diagnostic results also record which checks succeeded, failed, timed out or could not be performed, so missing information is not treated as evidence of a healthy system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An xiNAS 3.15 technology preview explores a separate problem in scale-out pNFS environments: how a coordination layer could take the actual condition of storage servers into account when placing new data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the v3.15 preview, xiNAS publishes the condition of the RAID, filesystem and NFS layers behind each share. A connector can make this information available to pNFS Lattice, an open-source metadata and coordination layer for pNFS. This creates a basis for evaluating placement policies that could avoid servers that are rebuilding, degraded or unavailable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  xiNAS 3.13 is available now as the current stable release. Source branches for xiNAS 3.14 and 3.15 are available separately for technical evaluation. The 3.15 work is an early technology preview intended for tech inspection and development.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sergei Platonov will discuss the architecture and safety model behind the MCP preview at the SNIA Developer Conference 2026 on September 30.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Databricks acquisition itch still unsatisfied -buys Row Zero </title>
+<link>https://www.theregister.com/data-management/2026/09/25/databricks-acquisition-itch-still-unsatisfied-buys-row-zero/5299071</link>
+<pubDate>Fri, 25 Sep 2026 14:21:28 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/08/12/oh-no-not-another-one-databricks-buys-electric/5286721&quot; target=&quot;_blank&quot;&gt;
+   Databricks
+  &lt;/a&gt;
+  has acquired
+  &lt;a href=&quot;https://rowzero.com/&quot; target=&quot;_blank&quot;&gt;
+   Row Zero
+  &lt;/a&gt;
+  and its spreadsheet technology developed for both human and AI agent users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Row Zero says that it’s a Seattle-based cloud-spreadsheet startup founded in 2021 by former Amazon Web Services engineers Breck Fresen (CEO) and Nick End. They were repeat founders. Their earlier company, Shoefitr, a shoe-fitting startup, was acquired by Amazon in 2015. After that they spent years at AWS: Fresen as a principal engineer on S3, End in product management and later VP of product at Tasso. The starting idea came from their own frustration analyzing large datasets in Excel and Google Sheets, which top out around a million rows and force insecure CSV exports. They built a cloud-native spreadsheet that looks like Excel, runs on AWS, can handle hundreds of millions to a billion rows, connects directly to warehouses such as Snowflake, Redshift, Databricks, Postgres and S3, and supports Python alongside Excel-style formulas. The public product launch came in early 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Patrick Wendell, Co-founder and VP of Engineering at Databricks, said: “As more finance, operations, and go-to-market teams adopt Genie, incorporating a seamless spreadsheet experience is a must-have. We’re super excited to bring the Row Zero team to Databricks, helping us continue to evolve Genie’s capabilities to become the go-to AI coworker for every enterprise team.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Databricks is folding Row Zero into
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/06/18/databricks-lets-a-genie-one-ai-agent-coworker-out-of-its-magic-lamp/5258187&quot; target=&quot;_blank&quot;&gt;
+   Genie
+  &lt;/a&gt;
+  ,
+  &lt;span&gt;
+   its AI coworker,
+  &lt;/span&gt;
+  so Genie gains a
+  &lt;span&gt;
+   familiar spreadsheet interface  that business teams can use to explore, model, and collaborate, all on a governed foundation powered by Genie Ontology,  Unity Catalog, and  Unity Gateway.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+  &lt;/span&gt;
+  Spreadsheets were the original data analysis and summation tool, with data warehouses, big data analytics, data lakes and bakehouses being used for the analytics jobs too big for spreadsheets. But spreadsheets were too useful a tool to go away and, as Databricks says, spreadsheets remain the primary engine of business decision-making despite continuous advances in the data and analytics market. Now it’s adding spreadsheet functionality and interface features to its modern Genie AI.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  And it’s playing the spreadsheets-are insecure-card to to say Genie+Row Zero is better, saying the prevalence of spreadsheets creates major security and governance challenges for the modern enterprise. Teams have long relied on ungoverned spreadsheet files (“spreadmarts”) to store data or to share between humans and agents.
+  &lt;span&gt;
+  &lt;/span&gt;
+  Every data export adds to what is arguably the largest set of ungoverned data pipelines in the enterprise. As companies deploy agents that analyze, model, and act on business data, they can&#x27;t afford to have those agents operating on sensitive data of unknown
+  &lt;span&gt;
+  &lt;/span&gt;
+  lineage and quality.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   So, Databricks implies, b
+  &lt;/span&gt;
+  uy into the Genie+Row Zero combo because Row Zero offers a scalable spreadsheet that connects directly to live, governed data. This means teams can work the way they always have, backed by built-in security and governance. And because they can work directly
+  &lt;span&gt;
+  &lt;/span&gt;
+  with the spreadsheet via Row Zero’s agent tools, every agent action remains fully interpretable and auditable by the business teams using the spreadsheet&#x27;s syntax and processing model. Row Zero will natively integrate with the
+  &lt;span&gt;
+   Databricks Data + AI Platform
+  &lt;/span&gt;
+  , including Genie on web as well as desktop and mobile apps, so teams can easily move from chat to hands-on pivoting, modeling, and visualization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Acquisition terms were not disclosed, although we understand Row Zero has raised about $13 million at a roughly $40 million valuation.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Co-founder Nick End made an informative
+  &lt;a href=&quot;https://www.linkedin.com/feed/update/urn:li:activity:7508887748452306944/&quot; target=&quot;_blank&quot;&gt;
+   LinkedIn post
+  &lt;/a&gt;
+  about the acquisition. Breck Fresen, Founder and CEO of Row Zero, said: “We built Row Zero because we love spreadsheets but recognized they needed to seamlessly connect to enterprise-scale data with governance and security at the core. Joining Databricks accelerates our vision of giving business users the spreadsheet
+  &lt;span&gt;
+  &lt;/span&gt;
+  they deserve: secure, connected, scalable, and deeply integrated with AI agents.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Row Zero team are joining Databricks.
+  &lt;span&gt;
+   Row Zero will be available to all Databricks customers across all major clouds and will continue  to feature support for data sources beyond Databricks.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   Bootnote
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  So far this year Databricks has bought:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Quotient AI (March 2026) — tools for evaluating and doing reinforcement learning with AI agents.
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Antimatter (March 2026) — security startup focused on data protection, authorization, and governance for AI agents, supporting its Lakewatch security lakehouse.
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    SiftD.ai (March 2026) — early-stage security company working on agentic AI–human collaboration and large-scale detection engineering.
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Panther Labs (agreed June 16, 2026) — AI security operations center (SOC) platform. Databricks described this as its third security acquisition and a step toward an “agentic” security lakehouse that can compete with legacy SIEM tools. Terms were not disclosed; Panther had previously been valued at about $1.4 billion.
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Electric (August 2026) — maker of PGlite, a lightweight WebAssembly-based Postgres database, plus a real-time sync engine. The goal is to give AI agents a local Postgres instance that can still sync with Databricks’ Lakebase.
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  CEO Ali Ghodsi has said the company intends to keep making similar acquisitions. Financial terms for most of the 2026 deals have not been disclosed.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Raspberry Pi surfs memory crunch to record first half </title>
+<link>https://www.theregister.com/storage/2026/09/25/raspberry-pi-surfs-memory-crunch-to-record-first-half/5299155</link>
+<pubDate>Fri, 25 Sep 2026 14:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Raspberry Pi has posted a record first half after a well-timed memory stockpile helped it ride out soaring prices and shortages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Cambridge-based company
+  &lt;a href=&quot;https://polaris.brighterir.com/public/raspberry_pi/news/rns/story/rm9l48x&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   reported
+  &lt;/a&gt;
+  revenue of $256.9 million for the six months ended June 30, up 90 percent from $135.5 million a year earlier, while pre-tax profit more than tripled to $19.6 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Raspberry Pi shipped 4.2 million boards during the six-month period, up 17 percent year-on-year, while its order backlog doubled to 2.6 million units.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Behind some of those rather healthy numbers is a bet Raspberry Pi made last year, when it built up a sizeable
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/06/05/raspberry-pis-profits-are-up-so-is-its-dram-bill/5251661&quot; target=&quot;_blank&quot;&gt;
+   stash of memory
+  &lt;/a&gt;
+  before the market tightened.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The decision in FY 2025 to build significant strategic memory inventory has allowed us to maintain product availability at a time when smaller competitors have struggled to secure allocation,&quot; CEO Eben Upton said. It also meant Raspberry Pi spent much of the first half burning through memory bought at considerably friendlier prices.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gross profit per board climbed from $8 a year ago to $12.20, helped by price rises on R Pi&#x27;s products as well as cheaper memory inventory acquired during 2025. Overall gross profit rose 79 percent to $59.4 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That particular party is winding down. Raspberry Pi said the &quot;exceptional unit economics&quot; seen in the first half have since moderated as the cheaper memory bought during 2025 has been used up.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It hasn&#x27;t stopped stockpiling – it&#x27;s just paying a lot more to do it. The average cost of memory in its inventory stood at $13.30 per GB at the end of June, up from $3.60 per GB at the end of 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the end of June, Raspberry Pi was holding 2.4 million LPDDR4 devices representing 5.8 million GB of memory. By the end of August, that had grown to 8.3 million GB – around three months of sales for the products that use it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Between that stockpile and confirmed orders, Raspberry Pi said it has enough memory to meet its production targets for the rest of 2026, with further purchases planned to ensure it enters 2027 with significant inventory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the shortage hasn&#x27;t left it entirely unscathed. Pi Zero sales fell 9 percent after production congestion at a Taiwanese company packaging one of its core components restricted supply. Demand hasn&#x27;t disappeared: Raspberry Pi has about 1 million Pi Zero units sitting on back order.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Elsewhere, customers appear willing to swallow the higher prices forced by rising memory costs. Direct sales of Raspberry Pi 4 and Pi 5 boards increased 69 percent and 47 percent respectively, with the company reporting continued demand for the pricier 8GB variants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OEM customers are also becoming an increasingly important part of the business. Direct shipments rose 26 percent to 3.4 million units, with Raspberry Pi pointing to particularly strong demand from the smart home and aerospace and defense sectors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company expects to ship more units in the second half than the first, despite the ongoing squeeze on memory supplies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Raspberry Pi, planning for the great memory squeeze has so far been rather more lucrative than painful. Buying the RAM before everyone desperately needed it turned out to be a useful trick. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Windows update leaves some virtual desktops staring into the void </title>
+<link>https://www.theregister.com/os-platforms/2026/09/25/windows-update-leaves-some-virtual-desktops-staring-into-the-void/5299106</link>
+<pubDate>Fri, 25 Sep 2026 13:32:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has admitted that some Windows 11 virtual desktops may fail to load after sign-in, leaving users staring at a black screen until they launch Explorer manually.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-25h2#5006msgdesc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   glitch
+  &lt;/a&gt;
+  affects devices running the August 2026 non-security preview update or later releases and, according to Microsoft, &quot;has been primarily observed on Azure Virtual Desktop (AVD) hosts, using FSLogix.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Windows Explorer crashes may appear in the affected device&#x27;s Application event log. Users can temporarily recover the desktop by opening Task Manager and running
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   explorer.exe
+  &lt;/span&gt;
+  as a new task.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has also issued a Known Issue Rollback (KIR) that administrators can deploy through Group Policy. This disables the offending change until a permanent fix arrives. &quot;We are working on a resolution for this issue, and it will be released in a future Windows update,&quot; the company said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is distinct from another problem introduced by the same August preview update, which
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/03/windows-11-update-sends-some-desktops-into-an-unwanted-goth-phase/5294142&quot;&gt;
+   replaced some customized desktop backgrounds with solid black
+  &lt;/a&gt;
+  . Microsoft fixed that in September, but has not explained precisely what causes this latest failure. It said only that the problem &quot;appears to occur more frequently with some existing user profiles.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  That will be of limited comfort to users glumly firing up Task Manager to launch their desktops manually.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Windows 11 versions 26H1, 25H2, and 24H2 are affected. Microsoft does not list Windows 10 or Windows Server among the affected platforms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The stream of problems introduced by Microsoft&#x27;s August and September updates is becoming relentless, undermining the company&#x27;s claims that Windows is getting better.
+  &lt;a href=&quot;https://www.theregister.com/software/2026/03/24/windows-boss-promises-to-heal-the-operating-systems-wounds/5223630&quot;&gt;
+   Quality improvement promises made earlier this year
+  &lt;/a&gt;
+  by Windows chief Pavan Davuluri are ringing increasingly hollow. If this is how Microsoft plans to &quot;win back&quot; its fans, as Satya Nadella
+  &lt;a href=&quot;https://www.theregister.com/software/2026/04/30/microsoft-boss-says-company-is-working-to-win-back-fans/5225622&quot;&gt;
+   said it must
+  &lt;/a&gt;
+  , the response may well be: thanks, but no thanks. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> IonQ: There Is One CPU To Rule Error Correction Decoding </title>
+<link>https://www.theregister.com/compute/2026/09/25/ionq-there-is-one-cpu-to-rule-error-correction-decoding/5299192</link>
+<pubDate>Fri, 25 Sep 2026 13:23:50 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  For all the work being done to get to fault-tolerant, scalable quantum computing –
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/08/18/quantum-startup-qarakal-takes-lessons-from-classical-systems-with-pangaea-architecture/5289266&quot;&gt;
+   system architectures
+  &lt;/a&gt;
+  , the development of software and algorithms, mapping out workflows for classical-quantum hybrid environments – a key bottleneck continues to be
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/09/23/improving-quantum-error-correction-by-meshing-surface-code-with-ibms-heavy-hex-architecture/5298457&quot;&gt;
+   error detection and correction
+  &lt;/a&gt;
+  . Without it, quantum systems will remain too unreliable – will create too many errors – for practical use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Strides are being made in this area, with logical qubits playing a central role, comprising myriad noisy physical qubits and acting as the reliable building blocks for quantum systems. That said, another significant part of error correction is decoding, the process of analyzing error signals – or syndromes – generated during error correction to determine the specific errors affecting the system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Quantum computers can’t directly measure qubits without destroying them. Qubits are extremely fragile and can be easily broken by surround noise – light, vibration, and other qubits, for example, and lose their quantum nature and the data they hold. Instead, they measure surround data points to produce syndromes that indicate an error has occurred and turn the information over to decoders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A key challenge in decoding is managing the computational complexity involved, particularly as the size of the quantum system grows,”
+  &lt;a href=&quot;https://www.quera.com/glossary/decoding&quot;&gt;
+   according to scientists with QuEra
+  &lt;/a&gt;
+  , a quantum computing company that uses
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/06/16/queras-libra-fault-tolerant-quantum-system-heading-to-amazon-braket-service/5256477&quot;&gt;
+   neutral atoms to build its qubits
+  &lt;/a&gt;
+  . “Efficient decoders must balance speed and accuracy, ensuring real-time performance without sacrificing the ability to correctly interpret complex error patterns.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Decoding is a process that
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/07/13/the-aspirations-of-hpe-and-dell-in-the-quantum-classical-hpc-datacenter/5270664&quot;&gt;
+   relies heavily on classical computing algorithms
+  &lt;/a&gt;
+  and historically has consumed a lot of processing power, which increases as the quantum systems – and the number of qubits – grow. It also has to be tailored to the specific error correction code – like surface code or color codes – that is being used.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Advancements are being made. GPU acceleration, such as through
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2025/04/01/nvidia-says-it-will-be-an-accelerator-of-quantum-computing/1642817&quot;&gt;
+   Nvidia’s CUDA-Q platform
+  &lt;/a&gt;
+  , is coming into play, as is the use of AI. Recent examples include IBM using a large language model (LLM) framework to
+  &lt;a href=&quot;https://research.ibm.com/blog/ai-for-qec&quot;&gt;
+   sort through thousands of code variations
+  &lt;/a&gt;
+  to determine the right one for a particular environment. Google two years ago
+  &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphaqubit-quantum-error-correction/&quot;&gt;
+   created AlphaQubit
+  &lt;/a&gt;
+  , which uses a transformer-based neural network for decoding and fixing errors, and this year
+  &lt;a href=&quot;https://www.nature.com/articles/s41586-026-10759-2&quot;&gt;
+   detailed an AI-based reinforcement learning technique
+  &lt;/a&gt;
+  that runs the encoded information collected by a quantum computer through an AI system that can learn from the errors found and make adjustments in the system. It would mean operators could
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2026/07/20/google-uses-ai-reinforcement-learning-for-quantum-error-correction/5275023&quot;&gt;
+   run the superconducting quantum computers for long periods of times
+  &lt;/a&gt;
+  without having to stop to adjust calibrations when errors are found.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, scientists with IonQ, which is building its quantum systems based on the trapped-ion modality, said they’ve developed a decoder that can handle the complex job in real time using a single standard CPU, and can do it in the background, allowing the quantum computer – similar to Google’s reinforcement learning method – to continue running.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The realization of a MegaQuOp quantum computer, that is a device capable of executing millions of operations on hundreds of logical qubits, represents a major milestone for the quantum computing community and would provide a new tool for scientific exploration,” the scientists wrote in a
+  &lt;a href=&quot;https://arxiv.org/abs/2608.25027&quot;&gt;
+   research paper on arXiv
+  &lt;/a&gt;
+  . “However, real-time decoding of hundreds of logical qubits throughout a quantum computation comprising millions of logical operations remains a major challenge.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  IonQ executives said the research shows that organizations don’t need to exponentially scale their classical hardware even as the quantum computers grow their numbers of logical qubits. They added that being able to run error decoding on a classical computer powered by a single CPU is a central to its roadmap (below) that extends well beyond the 256 physical qubits on its
+  &lt;a href=&quot;https://www.ionq.com/news/ionq-launches-superion-product-line-industry-leading-upgradeable-platform-designed-to-scale-manufacturable-fault-tolerant-quantum-computing&quot;&gt;
+   Superion system
+  &lt;/a&gt;
+  , which it introduced earlier this month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vendor announced this week that Florida International University is
+  &lt;a href=&quot;https://ionq.com/news/ionqs-superion-256-platform-selected-by-florida-international-university-for-flagship-deployment&quot;&gt;
+   buying a Superion system
+  &lt;/a&gt;
+  (below). It will be installed in late 2027 at a specialized facility on the school’s campus.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the paper, the scientists wrote that they created benchmark circuits that simulated up to 408 logical qubits across 88 memory blocks and magic factories, or subsystems in fault-tolerant systems that produce the environment needed for universal quantum computing. The circuits ran more than 31.5 million individual quantum operations at the MegaQuOp scale while introducing as little as 0.02 percent stretch time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Essentially, there was very little delay added to the overall quantum computation, according to the scientists.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They noted other research efforts to accelerate the speed and throughput of surface code – an error-correcting code that protects the quantum information by encoding a single logical qubit across a two-dimensional square grid of physical qubits – and quantum low-density parity-check (LDPC) memory decoders through software and hardware, including GPUs, ASICs, FPGAs, and TPUs, to reach the latency needed for superconducting quantum systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The IonQ scientists wrote that their decoding system spanned 68 LDPC memory blocks and 20 magic state factories that were created using 11,680 physical qubits. It’s based on a dual sliding-window decoder built around the beam search decoder, an error-correction algorithm for decoding LDPC by ensuring a fixed number of the most promising error pathways – the beam width – at each step. The process creates detector error models (DEMs) in real time and includes memory optimizations that let many decoder instances to execute at the same time on a single CPU.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DEMs are mathematical descriptions that map how gate errors or noise cause particular error detectors in an error-correction circuit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A key to the CPU-only process is
+  &lt;a href=&quot;https://arxiv.org/abs/2604.19481&quot;&gt;
+   IonQ’s Walking Cat architecture
+  &lt;/a&gt;
+  for trapped-ion quantum systems, which the vendor introduced in a detailed blueprint in April. The architecture includes a compiler, error-correction protocols, a microarchitecture, complete simulations, and a fast decoder, all based on an the LDPC error-correction codes. Foundational to the architecture is a “cat factory” that creates cat states – superpositions of distinct states at the same time – that are distributed throughout a system to perform logical operations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The scientists noted the simplicity of the architecture, writing that “logical computation does not require merging or deforming qLDPC memory blocks or changing their syndrome-extraction circuits.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Instead, they wrote, “cat-based measurements are inserted into an otherwise regular stream of syndrome extraction, while a large class of Clifford operations (quantum gates that map Pauli operators – X, Y, Z – to other Pauli operators under conjugation) is handled through software frame tracking, making the entire classical decoding pipeline, from online DEM generation to decoding, feasible at MegaQuOp scale using only 12 cores of a single commodity CPU.”
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Uncle Sam wants in on Musk&#x27;s €120M fight with Brussels </title>
+<link>https://www.theregister.com/legal/2026/09/25/uncle-sam-wants-in-on-musks-120m-fight-with-brussels/5299123</link>
+<pubDate>Fri, 25 Sep 2026 12:46:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The US government wants to join Elon Musk and X&#x27;s legal challenge to the European Commission&#x27;s €120 million fine against the social media platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Commission issued its first fine under the Digital Services Act (DSA) in December 2025, finding that X had breached transparency rules through its paid blue checkmarks, advertising repository, and restrictions on researchers&#x27; access to public data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  X owner Elon Musk described the decision as &quot;crazy&quot; and &quot;insane&quot; in a Xeet, and compared the &quot;woke&quot; Commission to &quot;Stasi commissars,&quot; combining two rather different authoritarian references.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before issuing a response, he shared the comments made by FCC chair Brendan Carr, who accused &quot;Europe&quot; of &quot;fining a successful US tech company for being a successful US tech company.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Europe is taxing Americans to subsidize a continent held back by Europe&#x27;s own suffocating regulations,&quot; Carr added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  US politicians also rallied around Musk. Senator Ted Cruz called the fine &quot;an abomination&quot; and an attack on American free speech.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US government has now applied to intervene in the cases brought by Musk and X Internet and X Holdings, supporting their attempts to annul the Commission&#x27;s decision.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Assistant Attorney General Brett A. Shumate accused the Commission of regulatory overreach against US companies beyond its jurisdiction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The European Commission inappropriately attempted to expand its regulatory authority to reach American companies not present or operating within its jurisdiction,&quot; he
+  &lt;a href=&quot;https://www.justice.gov/opa/pr/united-states-files-request-intervene-case-brought-x-corp-and-elon-musk-seeking-annul&quot;&gt;
+   said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We will not tolerate the European Commission engaging in regulatory overreach to try and control American engines of innovation and economic growth.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Justice Department said it has &quot;significant concerns&quot; about how the Commission determined which people and companies constituted the provider of X&#x27;s digital service. It intends to argue that the decision conflicts with accepted limits on extraterritorial jurisdiction and the principle that companies are ordinarily legally distinct from their owners and shareholders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It was especially concerned that the Commission&#x27;s approach &quot;extended legal scrutiny to Mr Musk himself as a private individual&quot; and implicated other US companies under his control.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the DoJ, the Commission found the parties jointly and severally liable for the €120 million fine and calculated it using the worldwide turnover of the corporate group ultimately controlled by Musk. The US government argues that allowing this approach to stand could have broader consequences for American-owned digital platforms operating in the EU.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The DoJ stated: &quot;If the approach in the European Commission Decision is upheld, this may have significant implications for &#x27;very large online platforms&#x27; and other similar entities operating in the digital services sector within the EU, many of which are domiciled (at parent level) within the United States.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The United States looks forward to the opportunity to address these concerns and issues in detail before the General Court.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Musk bought Twitter in 2022 and subsequently replaced its identity-based verification system with a subscription offering. Blue checkmarks, previously awarded by Twitter to accounts it considered authentic and notable, became available to paying users without equivalent identity checks. The change swiftly produced
+  &lt;a href=&quot;https://www.theregister.com/security/2023/10/18/x-marks-the-bot-musk-thinks-spammers-wont-pay-1-a-year/1052405&quot;&gt;
+   impersonation and spam
+  &lt;/a&gt;
+  , and the Commission concluded that presenting those accounts as &quot;verified&quot; amounted to deceptive design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Commission also found that X&#x27;s advertising repository lacked required information and imposed access barriers that prevented effective scrutiny of advertisements. Separately, it said X placed unnecessary obstacles in the way of researchers seeking public platform data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The violations behind the EU fine are separate from matters under investigation in the UK, including X&#x27;s handling of
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/05/15/x-tells-ofcom-it-will-finally-check-its-moderation-inbox/5241120&quot;&gt;
+   illegal hate speech and terrorist content
+  &lt;/a&gt;
+  flowing through its feeds and
+  &lt;a href=&quot;https://www.theregister.com/software/2026/01/12/ofcom-officially-investigating-x-over-grok-nudification/4463627&quot;&gt;
+   Grok&#x27;s highly controversial nudifying functionality
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Commission has since accepted X&#x27;s plan to address the advertising repository and researcher access violations. The €120 million penalty and the legal theory used to calculate and impose it remain the subjects of the challenges now before the General Court – and, if its application succeeds, of an intervention by the US government. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Asahi fork embraces LLMs and lands Linux on the M4 Mac mini </title>
+<link>https://www.theregister.com/os-platforms/2026/09/25/asahi-fork-embraces-llms-and-lands-linux-on-the-m4-mac-mini/5298931</link>
+<pubDate>Fri, 25 Sep 2026 12:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://gravitylinux.org/&quot;&gt;
+   Gravity Linux
+  &lt;/a&gt;
+  is a newly announced distro targeting newer Apple Silicon Macs, and its first experimental alpha already boots an accelerated desktop on the M4 Mac mini.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The project homepage says: &quot;Gravity Linux is a Fedora remix that brings a fast, modern Linux desktop to Apple Silicon – built in the open, by people like you.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  If this sounds familiar, the
+  &lt;a href=&quot;https://gravitylinux.org/about/&quot;&gt;
+   About page
+  &lt;/a&gt;
+  explains: &quot;Gravity Linux was initially forked from Asahi Linux over differences in policy, namely regarding LLM use. We have tremendous respect for the Asahi Linux project and emphasize our shared goal of running Linux on Apple Silicon.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  There&#x27;s already an
+  &lt;a href=&quot;https://gravitylinux.org/blog/early-alpha-m4-mac-mini/&quot;&gt;
+   early alpha release
+  &lt;/a&gt;
+  for the M4 Mac mini, a model
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/10/31/apple-claims-its-maxed-m4-chips-4x-faster-than-rival-ai-pcs/1480734&quot;&gt;
+   launched in October 2024
+  &lt;/a&gt;
+  just days after the company
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/10/28/apples-m4-imac-will-ship-with-16gb-of-memory-as-standard/1366834&quot;&gt;
+   announced the M4 iMac
+  &lt;/a&gt;
+  . It includes GPU acceleration with OpenGL ES 3.0 and OpenGL 3.3 support, but is explicitly aimed at developers rather than daily use. HDMI output works, but USB-C displays, USB4, Thunderbolt, and suspend do not, while power management remains incomplete.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In terms of hardware generations, this puts Gravity ahead of Asahi Linux. As
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/09/07/asahi-linux-takes-on-apple-m3-minus-a-few-creature-comforts/5294788&quot;&gt;
+   reported earlier this month
+  &lt;/a&gt;
+  , Asahi has only recently added preliminary M3 support, for now without graphics acceleration. The comparison is not exact, however: Gravity&#x27;s M4 release is an early developer alpha, while Asahi is a longer-established project supporting a much broader range of hardware. Apple, meanwhile, has already moved on:
+  &lt;em&gt;
+   The Reg
+  &lt;/em&gt;
+  reported on the first
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/25/apple-defies-memory-shortage-with-new-mac-minis/5292406&quot;&gt;
+   M6-based Macs
+  &lt;/a&gt;
+  last month, nearly three years after the company launched its
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/10/31/apple-lifts-the-sheet-on-a-trio-of-scary-fast-3nm-m3-socs/561169&quot;&gt;
+   &quot;scary fast&quot; M3 systems
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Reg
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.theregister.com/software/2022/03/21/asahi-linux-reaches-very-early-alpha/901868&quot;&gt;
+   reported on the new Asahi Linux project
+  &lt;/a&gt;
+  in March 2022, and
+  &lt;a href=&quot;https://www.theregister.com/software/2022/03/22/we-tried-the-asahi-linux-alpha-on-an-m1-mac-mini/1475993&quot;&gt;
+   tried it out
+  &lt;/a&gt;
+  later the same month. However, Asahi has since lost several prominent contributors. Project lead Hector Martin
+  &lt;a href=&quot;https://www.theregister.com/software/2025/02/13/asahi-linux-head-quits-citing-kernel-leadership-failure/1257727&quot;&gt;
+   resigned in February 2025
+  &lt;/a&gt;
+  . A week later, the leader of the GPU effort, known only as &quot;Asahi Lina,&quot;
+  &lt;a href=&quot;https://www.theregister.com/software/2025/03/20/asahi-linux-loses-another-prominent-dev-as-gpu-guru-quits/1212230&quot;&gt;
+   also quit
+  &lt;/a&gt;
+  . As we
+  &lt;a href=&quot;https://www.theregister.com/software/2025/09/12/three-alternative-microkernels-show-devs-dont-need-linux/1428275&quot;&gt;
+   mentioned later that year
+  &lt;/a&gt;
+  , in August 2025, the leader of the GPU driver effort,
+  &lt;a href=&quot;https://alyssarosenzweig.ca/blog/asahi-gpu-part-n.html&quot;&gt;
+   Alyssa Rosenzweig
+  &lt;/a&gt;
+  , left the project. She had already, in her own words,
+  &lt;a href=&quot;https://alyssarosenzweig.ca/blog/passing-reins-panfrost.html&quot;&gt;
+   passed the reins
+  &lt;/a&gt;
+  on to her other Arm GPU drivers that April. As her
+  &lt;a href=&quot;https://alyssarosenzweig.ca/resume.pdf&quot;&gt;
+   resume
+  &lt;/a&gt;
+  [PDF] shows, she&#x27;s been working for Intel since then.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gravity attributes much of its rapid progress to a development method that Asahi explicitly prohibits. Project lead
+  &lt;a href=&quot;https://www.linkedin.com/in/cody-ho-006b32154/&quot;&gt;
+   Cody Ho
+  &lt;/a&gt;
+  previously worked at both Apple and OpenAI, and has published a two-part account of using coding agents for Apple Silicon reverse engineering.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On August 3, Ho published the first part of &quot;I Came, I Prompted, I Left,&quot; describing
+  &lt;a href=&quot;https://codyho.dev/blog/hypervisor-macbook-neo/&quot;&gt;
+   the construction of a custom hypervisor for newer Apple Silicon
+  &lt;/a&gt;
+  . The second part, published on September 15, explains how he and co-developer Niklas Sheth
+  &lt;a href=&quot;https://codyho.dev/blog/gpu-driver/&quot;&gt;
+   built an M4 GPU driver in about a month
+  &lt;/a&gt;
+  . Ho says much of the work was performed through largely unattended LLM loops.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is one of the sharpest differences between Gravity Linux and Asahi Linux. Ho and Sheth are reverse-engineering Apple&#x27;s hardware with the assistance of AI tools, while the Asahi project has a
+  &lt;a href=&quot;https://asahilinux.org/llm-policy/&quot;&gt;
+   Generative AI (LLM) Policy
+  &lt;/a&gt;
+  that says &quot;we broadly forbid the use of generative AI tooling for material contributions to Asahi Linux.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gravity&#x27;s
+  &lt;a href=&quot;https://gravitylinux.org/policies/llm/&quot;&gt;
+   LLM Use and Clean-Room Policy
+  &lt;/a&gt;
+  permits such tools but attempts to contain the legal risks through separation. It states: &quot;If in any session your LLM has looked at any disassembly, decompilation, or other protected implementation details of an Apple component, you must consider yourself tainted with respect to that component.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  This does not mean nobody involved looks at Apple binaries. Ho says that while developing the hypervisor, he used an LLM to disassemble Apple&#x27;s proprietary SPTM component. That made him ineligible to write the corresponding clean-room implementation, so the knowledge had to be documented and handed to someone who had not seen the protected material.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ho and Sheth say the GPU work followed a stricter route, using hardware traces, live probing and self-written shaders without inspecting Apple binaries. They also acknowledge benefiting from Asahi&#x27;s earlier M1 and M2 work and using its existing userspace API.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The result is nevertheless striking: Gravity&#x27;s first alpha brings an accelerated Linux desktop to an M4 Mac mini, and Ho credits LLMs with helping the pair achieve in weeks work that would ordinarily take far longer. But the code still requires extensive testing, human review, and refactoring before it can be upstreamed. Gravity&#x27;s developers warn that its kernel driver may have to wait for Asahi&#x27;s M1 and M2 driver to land upstream first.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gravity has therefore produced an intriguing demonstration of what AI-assisted reverse engineering can do, rather than a controlled experiment proving that Asahi&#x27;s policy is what held it back. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Amazon sellers watch as inventory vanishes into pending-order purgatory </title>
+<link>https://www.theregister.com/channel/2026/09/25/amazon-sellers-watch-as-inventory-vanishes-into-pending-order-purgatory/5298922</link>
+<pubDate>Fri, 25 Sep 2026 11:13:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Traders on Amazon&#x27;s UK marketplace say a wave of &quot;abnormal&quot; orders stuck in pending status is tying up their inventory and preventing legitimate customers from buying the affected items.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vendors on Amazon&#x27;s Seller Central forums report unusually high numbers of pending orders in their accounts, often involving products priced at £100 ($132) or more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Reports began appearing on September 20. Within days, some sellers – often individuals or small businesses – said their entire stock of certain high-value products had become trapped in pending orders that were not clearing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon marks an order as pending while it processes and verifies the purchase. The quantity ordered is meanwhile deducted from the seller&#x27;s available inventory, and sellers cannot cancel the transaction themselves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon says orders commonly remain pending when it cannot authorize the buyer&#x27;s credit card or, for business purchases, while they await the customer&#x27;s approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some merchants suspect deliberate inventory locking: bogus orders reserve stock without completing payment, preventing genuine customers from buying it. They have compared the apparent tactic to a denial-of-service (DoS) attack, although there is no evidence yet that the activity is malicious rather than an Amazon glitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sellers describe activity far outside their usual patterns, in some cases double or triple their typical weekly order volume.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One seller said a product received 30 pending orders in about 52 hours. Among them were 15 orders associated with just seven delivery postcodes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another seller reported 72 pending orders worth about £25,000 in three days and wondered whether competitors were using cards without sufficient funds to interfere with its inventory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Others said Seller Support treated the activity as normal and claimed no other merchants had reported it. That answer frustrated vendors who had found multiple forum threads describing the same problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We raised the issue with Amazon after a reader alerted us to the complaints.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A forum message posted several hours after we contacted Amazon said the issue had been escalated to the company&#x27;s &quot;partner teams&quot; for investigation. The timing may, of course, have been coincidental.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We asked Amazon what was causing the pending orders and whether it regarded the activity as malicious. The company had not responded with an official statement by the time of publication. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> BOFH: The Helldesk opens its third eye and ascends to a higher plane of troubleshooting </title>
+<link>https://www.theregister.com/bofh/2026/09/25/bofh-the-helldesk-opens-its-third-eye-and-ascends-to-a-higher-plane-of-troubleshooting/5298803</link>
+<pubDate>Fri, 25 Sep 2026 11:09:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;70a4644f-0760-4dc9-94fe-54e7ee3523ac&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The Boss has had some feedback from the using classes about our method of fixing IT problems (i.e. fixing them), and how we could do things a little better.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;So... you want us to... not fix the problems?&quot; the PFY asks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;No, that&#x27;s not what I&#x27;m saying. What I&#x27;m saying is that your approach could maybe do with a bit of an overhaul. Instead of attacking the problem head-on, perhaps you could take a more... holistic approach? See how the user feels and maybe engage them in how the problem is affecting them. Perhaps even tailor a unique solution that&#x27;s not route one, but rather specific to them – and their needs?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I&#x27;m not entirely sure what you&#x27;re asking for,&quot; I respond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Well, I mean, maybe not go in there all guns blazing. Maybe listen to the user – maybe suggest alternatives?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Alternatives...&quot; I say, mulling that idea over for a bit...
+ &lt;/p&gt;
+ &lt;p&gt;
+  ... a few hours later, in a user&#x27;s office...
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This looks very much like some form of virus attack!&quot; I observe.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;So what are you going to do?&quot; our user asks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I think I should address this holistically, and, uh, how do you feel about that?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Well, if it fixes the problem...&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Oh, it will most certainly solve the problem. What I&#x27;m proposing is to take about 1 kilobyte of the virus code and then mix it into 1 megabyte of random bytes – THEN I&#x27;m going to take 1 kilobyte of that mixed code and mix THAT into another megabyte of random bytes, THEN I&#x27;m going to mail it to your computer, which will cause a minor triggering of antivirus, which will make the entire antivirus system stronger.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Why?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I&#x27;m employing holistic healing on your laptop.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It sounds more like homeopathy.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Well, potato, tomato...&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Do you think it will work?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Not by itself – but I&#x27;m also going to place your laptop in a pyramid that I will shortly construct out of rods of amethyst, which have a calming effect on the aura around your machine – which I will have open and facing due west.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Uh, why?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;So it&#x27;s aligned with the cosmic ley lines. By aligning your laptop with them, the virus and its aura should flow through the ether – not the Ethernet, mind – into the seventh realm of Uranus.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It sounds like someone&#x27;s anus is involved,&quot; the PFY mumbles unkindly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I&#x27;m sorry, my assistant has a bit of negative energy, but he will shortly leave the room. Now, how are you feeling about this – positive?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I… well, I guess I&#x27;m a bit, uh... I&#x27;m not sure really.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Ah, so I&#x27;m sensing some doubt – and it doesn&#x27;t surprise me either, because the feng shui of this room is VERY out of kilter.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;How do you mean?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In the first instance, your work center is significantly misaligned because the focal point of personal enterprise should actually be where your doorway is, not where it currently is, and your rubbish bin should actually be in the location that your desk is in. Which probably accounts for your poor work performance.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;My poor what?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Oh – perhaps that was just something your manager was saying. Don&#x27;t worry about it. Anyway, I think the piles of old paper on your desk are negatively affecting your future vision from your third eye – as they&#x27;re tying you to the past.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;So... what should I do?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Well, I think after we move the desk and the bin, we should put that paper in the bin, then move your bookshelf from the west wall to the middle of the room, opening up the aura path to your west-facing laptop.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I don&#x27;t know that a bookshelf would be all that good in the MIDDLE of the room?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;No, but we can&#x27;t put it on the back wall, as that is the center of the past, and the east wall is a window and you don&#x27;t want to block natural light, and the desk is near the door. Still, if you don&#x27;t want to fix this virus problem...&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Uh... OK, we&#x27;ll give it a go, I guess.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Excellent – you won&#x27;t regret it.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  ...
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;OK, so he regretted it,&quot; I say to the Boss several hours later. &quot;It looks like he tried to open his fourth chakra by setting his bin on fire with some incense cones. The doorway was blocked by his desk and then by the burning bookshelf, which fell across the desk, but luckily he managed to jump through the safety glass on the east wall – on his fourth attempt. At that point, I managed to put him out with a CO
+  &lt;sub&gt;
+   2
+  &lt;/sub&gt;
+  extinguisher...&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Is he OK?&quot; the Boss gasps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;More or less. The PFY gave him some color therapy by changing his desktop background color to purple. Then he kicked off the antivirus software – which is what we&#x27;d have done in the first place... How does that make you feel?&quot;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://www.theregister.com/data_centre/bofh/&quot;&gt;
+     BOFH: Previous episodes on The Register
+    &lt;/a&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;http://www.bofharchive.com/&quot; target=&quot;_blank&quot;&gt;
+     The Compleat BOFH Archives 95-99
+    &lt;/a&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Dyfed-Powys Police cops to cyberattack, staff data potentially nicked </title>
+<link>https://www.theregister.com/cyber-crime/2026/09/25/dyfed-powys-police-cops-to-cyberattack-staff-data-potentially-nicked/5299112</link>
+<pubDate>Fri, 25 Sep 2026 10:45:42 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Dyfed-Powys Police has revealed it was hit by a cyberattack that knocked some of its systems offline, with investigators now trying to establish whether the intruders got their hands on staff data during the break-in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Welsh police force said it identified the incident on September 14 and that it caused disruption to some non-emergency systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Emergency policing remained operational throughout, according to the force, while its 999 and 101 telephone services were unaffected. Online and email contact were unavailable for a period but have since been restored.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What happened behind the scenes remains less clear. Dyfed-Powys Police said an investigation has been underway since the incident was discovered, with cybersecurity specialists brought in and &quot;precautionary measures&quot; applied to its systems while teams worked to restore services safely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There’s no indication yet of who was behind the attack, how they got in, or whether ransomware was involved. There is also an unresolved question over what the intruders may have managed to access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;At this stage, our investigation has found no evidence that members of the public&#x27;s personal data has been accessed or compromised as a result of this incident,&quot; the force said in a statement.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We are, however, continuing to investigate whether any information relating to our staff may have been accessed or compromised, and are taking all appropriate steps to protect that information, and will provide appropriate advice to colleagues if required.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dyfed-Powys Police said it has notified the Information Commissioner&#x27;s Office, although it did not say when the UK data watchdog was informed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The investigation is being managed by Tarian, the regional organized crime unit covering the three southern Welsh police force areas, through its regional cybercrime unit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  asked Dyfed-Powys Police for more detail about the attack but did not immediately receive a response.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We understand the potential concern this may cause and want to reassure the public that we have and will continue to take all necessary steps to protect our information and maintain the security of our systems,&quot; Dyfed-Powys Police said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The force says the public&#x27;s data appears to have escaped the intruders. Whether the same can be said for its staff remains under investigation. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Another week, another data breach for Revolut customers </title>
+<link>https://www.theregister.com/cyber-crime/2026/09/25/another-week-another-data-breach-for-revolut-customers/5299092</link>
+<pubDate>Fri, 25 Sep 2026 10:04:35 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Revolut customers have been caught up in a second data breach this month after attackers socially engineered their way into US brokerage DriveWealth and stole historic personal information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DriveWealth provides execution and clearing services for investment firms and previously held brokerage accounts directly for Revolut customers trading US stocks. It said the unauthorized access occurred on September 4 and 5.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In an email sent to affected customers and seen by
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , the broker blamed a &quot;sophisticated social engineering campaign&quot; carried out by unknown third parties.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The intruders exfiltrated data retained from the period when those customers held accounts directly with DriveWealth. The broker said regulatory requirements obliged it to keep the records.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The potentially exposed haul includes names, email addresses, phone numbers, postal addresses, employment information, country of citizenship, age, gender, and partial DriveWealth account numbers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DriveWealth said it had no reason to believe any other personal information was affected. Passwords and payment information, including credit card and bank account details, were not compromised.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even so, the exposed details would provide ample material for a convincing phishing message. DriveWealth warned customers that the stolen information could potentially be used for identity fraud, impersonation, further social engineering, or unsolicited contact from strangers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revolut customers are among those affected, with the records dating from its previous arrangement with DriveWealth, the company confirmed to the
+  &lt;a href=&quot;https://www.irishexaminer.com/business/companies/arid-41915320.html?&quot;&gt;
+   Irish Examiner
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revolut said its systems and infrastructure were not compromised, and that customer funds and investments remained safe. No Revolut passwords, passcodes, card details, or identity documents were exposed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The data is a hangover from Revolut&#x27;s former arrangement for customers trading US stocks. The fintech moved customers in the UK, EEA, and Australia away from that arrangement between December 2023 and June 2025, with the timing varying by market. Their personal details were no longer shared with DriveWealth after the respective migrations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DriveWealth contacted affected customers directly, while Revolut sent its own notifications. Neither company has disclosed how many Revolut customers were affected, and both failed to answer
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register&#x27;s
+  &lt;/span&gt;
+  questions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The breach comes at an awkward time for Revolut. On September 14, the fintech
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/09/14/revolut-falls-for-fake-government-requests-hands-over-customer-data/5296118&quot;&gt;
+   admitted it had handed sensitive customer information to criminals
+  &lt;/a&gt;
+  after they submitted fraudulent information requests using an email domain belonging to a legitimate government agency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That separate incident potentially exposed more sensitive information, including passports, driver&#x27;s licenses, verification selfies, dates of birth, addresses, phone numbers, email addresses, and financial and transaction data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revolut said at the time that it had fallen victim to a &quot;sophisticated external impersonation scam&quot; and that only a limited number of customers were affected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Two different incidents, two different sets of attackers, and two different routes to customer data. For Revolut customers, September has provided more breach notifications than anyone would want from their banking app. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Judge uses electronic tag on Pokémon card tracker. It&#x27;s super effective! </title>
+<link>https://www.theregister.com/offbeat/2026/09/25/judge-uses-electronic-tag-on-pokemon-card-tracker-its-super-effective/5298631</link>
+<pubDate>Fri, 25 Sep 2026 09:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A 72-year-old Ohio man who planted a GPS tracker on a Pokémon card delivery van has been sentenced to a year of probation – including 90 days wearing a tracker of his own.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kent Kubasta, of Medina, Ohio, attached a Spytec device to the woman&#x27;s van. She discovered it while making a delivery to Walmart on June 18 and was described in court documents as &quot;a carrier/vendor of Pokémon cards.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kubasta initially pleaded not guilty to illegal use of a tracking device, but later waived his right to trial and pleaded no contest. Court records say he placed the device on the van to follow local card deliveries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For his crime, Kubasta was
+  &lt;a href=&quot;https://www.theregister.com/files/2026/09/23/9-51-4-42.pdf&quot;&gt;
+   sentenced
+  &lt;/a&gt;
+  [PDF] to 12 months of community control – Ohio&#x27;s term for probation – under basic supervision. He will be electronically monitored by
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/07/14/gps-on-the-fritz-britain-and-france-plot-a-backup-plan/1246822&quot;&gt;
+   GPS
+  &lt;/a&gt;
+  for the first 90 days.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He was also ordered to have no contact with the woman, pay a $25 monthly supervision fee and a $500 fine, and cover court costs. His total bill comes to $905.50. Violating the terms could land Kubasta in jail for six months.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The court documents do not explain what Kubasta intended to do with the delivery information. The case nevertheless comes amid intense demand for Pokémon cards, with collectors regularly queuing outside shops when new stock arrives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pokémon began in 1996 with a pair of Nintendo Game Boy games about catching and battling monsters, and has since evolved into a multibillion-dollar media franchise spanning video games, trading cards, animated television and films, mobile apps, toys, and more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latest
+  &lt;a href=&quot;https://www.pokemon.com/us/pokemon-tcg/30th-celebration&quot;&gt;
+   Trading Card Game expansion
+  &lt;/a&gt;
+  , released on September 16, contains more than 150 cards, including 30 rare Pikachu variants, with one included in every booster pack.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Randy Kendall, manager of Operation Fandom in Wooster, where the complaint was filed, told
+  &lt;a href=&quot;https://fox8.com/news/pokemon-collector-guilty-of-using-gps-tracker-to-follow-woman-stocking-the-cards/&quot;&gt;
+   Fox 8
+  &lt;/a&gt;
+  that Pokémon &quot;is absolutely the hottest thing going&quot; and the trading cards are among the store&#x27;s best-selling products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some especially rare examples sell for six or even seven-figure sums, although most collectors manage to pursue them without putting the delivery driver under surveillance. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> SPONSORED: </title>
+<link>https://www.theregister.com/storage/2026/09/25/sponsored/5298972</link>
+<pubDate>Fri, 25 Sep 2026 08:45:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;66fd6813-02d2-46da-8dc4-98a00ceb39aa&quot;&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-bold&quot; data-lab-text_color=&quot;tertiary&quot;&gt;
+   EVENT:
+  &lt;/span&gt;
+  The Register is hosting a private dinner in Soho on Tuesday 20 October for senior technology, infrastructure and data leaders, with LucidLink. Joe Fay takes the chair, it runs under the Chatham House Rule, and nothing said is on the record.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problem on the table is the one most organisations have stopped saying out loud. Unstructured file data keeps growing, distributed teams keep needing to reach it, and the infrastructure underneath is still legacy NAS, a VPN and a sync-and-download habit nobody actually chose. It rarely fails outright. It just charges rent somewhere else: in duplicated storage, in waiting, in governance gaps, and in the hour somebody loses working out which copy of a file is the current one.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The conversation worth having about that is not the architecture diagram. It is what a team did when it stopped being in one building. Which workaround somebody has quietly been paying for ever since. What broke when they tried to retire the NAS, and what they would do differently. People say that over dinner. They do not say it on a recorded webinar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So this is dinner. Drinks, a handful of questions across the table, then more drinks. Everyone there as a peer, and a chair whose job includes stopping anyone who starts to pitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The premise is deliberately not rip and replace. The evening is about modernising around the storage and governance investments an organisation already has, rather than pretending they are not there, which is usually the point at which these conversations stop being useful to anyone who has to pay for them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the table: how organisations are handling the growth in unstructured data, how they support distributed teams without paying for the same file three times, what they do about sync and version control, and whether any of it holds up against a security incident.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rupert Watson, VP GTM for EMEA at LucidLink, joins the conversation. Joe Fay of The Register moderates.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The table is for senior technology, infrastructure and data leaders carrying this now, not planning for it later. Dinner runs from 6.30pm to 9.00pm at The Soho Hotel, 4 Richmond Mews. Places are limited and go by invitation.
+  &lt;br/&gt;
+  &lt;br/&gt;
+  Request one
+  &lt;a href=&quot;https://situationpublishing.com/events/2026-10/london/?source=article1&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK wants more homes heated by waste heat from datacenters </title>
+<link>https://www.theregister.com/on-prem/2026/09/25/uk-wants-more-homes-heated-by-waste-heat-from-datacenters/5298827</link>
+<pubDate>Fri, 25 Sep 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The UK government says it is pumping £90 million ($119 million) into building and improving heat networks that redirect excess heat energy generated by a datacenter or factory and use it to warm homes or for other purposes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the Department for Energy Security and Net Zero (DESNZ), more than 750,000 homes will get cheaper heating as part of the scheme, which includes plans for a “mega heat project” that involves distributing hot water via a tunnel under the River Thames.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latter initiative is being backed by £41 million ($54 million) in funding and the department claims it will supply 650,000 London homes alone with &quot;clean heat.&quot; This is designed to make the capital less reliant on gas - similar schemes have operated for decades in cities like Copenhagen, Amsterdam, Vienna and Berlin.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  reported on a project back in 2023 that
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/11/06/uk-funds-scheme-to-use-datacenter-waste-heat-for-homes/912197&quot;&gt;
+   planned to connect 10,000 new homes in west London
+  &lt;/a&gt;
+  with nearby server farms to use their waste energy for heating.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Given the glacial pace of progress on any UK project these days, the first question must be when this is likely to happen. The recently completed Thames “
+  &lt;a href=&quot;https://www.tideway.london/&quot;&gt;
+   super sewer
+  &lt;/a&gt;
+  ” project took 9 years to finish and cost about £5 billion ($6.6bn), leading
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  to wonder whether tunnels for the heat project will ever actually be dug, and what the final price tag will be.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the absence of pipes in tunnels, the government says the hot water will initially be transported 25 kilometers (15 miles) along the Thames each day by electric barges from a waste plant near Bexley, a faintly ridiculous idea that has prompted inevitable outbursts of scorn from the usual highbrow commenters on social media.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A spokesperson for DESNZ told us the £41 million funding is just for the barge part of the project, which is expected to start operating from 2028, while it hopes the tunnels will be operational in the 2030s. There is currently no information on how much that potion of the project will cost.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There is also the question of whether using the waste heat from datacenters is really that efficient. It was previously
+  &lt;a href=&quot;https://www.theregister.com/special-features/2023/04/20/eu-wants-more-cities-to-use-datacenter-waste-heating/650145&quot;&gt;
+   noted by the Uptime Institute
+  &lt;/a&gt;
+  that the temperature is typically not high enough for applications including domestic heating, so a heat pump is required, which uses more energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A 2024 report
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/02/28/datacenter-heat-reuse-faces-numerous-challenges-in-the-uk/1223475&quot;&gt;
+   released
+  &lt;/a&gt;
+  by trade association TechUK claimed that while the latest fifth generation of heat network designs can operate with the lower temperature output from a computer shed, most operating in the UK are third-gen systems, which have lower energy efficiency and higher carbon intensity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite these doubts, a survey finds that about 60 percent of British people think planning permission for datacenters should be dependent on them supplying their excess heat to local homes and businesses, while 62 percent said they would be more supportive of a project in their area if it did commit to this.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The polling was conducted by EnergiRaven, a firm advising on energy efficiency, which calls for all new server farms above 1 MW in capacity to include heat sharing infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As bit barn development continues to draw controversy, sharing waste heat could give operators another way to demonstrate their value to local communities, helping to build greater public support for new facilities, the firm claims.
+  &lt;br/&gt;
+  &lt;br/&gt;
+  Alan
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   &lt;strong&gt;
+    Howard
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  of tech analyst group Omdia commented: &quot;District heating is certainly a win for any community, and for datacenters it may shine a positive light as some communities are hesitant to embrace them. What’s known so far… doesn’t reveal if the focus is on exploiting existing datacenters, which would [be] its own can of worms, or encouraging and supporting new datacenters to support the heating proposal.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Howard added: &quot;Of course, anything that might lighten the dependence on gas dependence is a win as well. It’s too early to call it a project, rather at this stage it is a concept. However, the government commitment is impressive and important to make such sweeping changes and upgrades to what sounds to be an aging and perhaps inefficient existing system.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  Omdia&#x27;s Howard tells
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  : &quot;Obviously, of the many risk characteristics for such and undertaking there are a few that stand out: As a government led project the actual progress and timeline could be messy and long. The engineering for such a significant effort (“transporting hot water 25 km each day by electric barges “, not to mention the tunnels under the Thames) is certain to find a litany of challenges to overcome- While the funding sounds significant, real world experience in construction of seemingly exotic projects could easily balloon many time over.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other heat networks that can expect multi-million-pound investment from the DESNZ include an extension to an existing system in Solihull in England’s midlands, a project at Marble Arch in London serving offices, homes, hotels and businesses around Oxford Street, and another in London at Bexley and Greenwich that may serve up to 100,000 homes when fully built. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
