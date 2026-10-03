@@ -1,0 +1,2952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 03 Oct 2026 17:56:32 -0000</lastBuildDate>
+<item>
+<title> Anthropic&#x27;s super bug-hunting model Mythos is hardcore good at math, as latest vuln under attack shows </title>
+<link>https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933</link>
+<pubDate>Sat, 03 Oct 2026 15:27:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The second Anthropic-linked vulnerability known to have been exploited in the wild saw initial activity from an IP address in China targeting vulnerable hosts in the US and Japan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vuln is a critical authentication-bypass bug in Rejetto HTTP File Server (HFS) that can lead to full admin access and remote code execution. HFS is an open source web file server that previously appeared on the US Cybersecurity and Infrastructure Security Agency’s catalog of
+  &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search=rejetto&amp;field_date_added_wrapper=all&amp;field_cve=&amp;sort_by=field_date_added&amp;items_per_page=20&amp;url=&quot; rel=&quot;nofollow&quot;&gt;
+   Known Exploited Vulnerabilities
+  &lt;/a&gt;
+  in 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On Wednesday, researcher Zach Hanley at AI pen-testing company Horizon3 said he used Mythos to
+  &lt;a href=&quot;https://horizon3.ai/attack-research/disclosures/anthropic-mythos-rejetto-hfs-rce/&quot; rel=&quot;nofollow&quot;&gt;
+   uncover a new flaw in the file server
+  &lt;/a&gt;
+  , now tracked as CVE-2026-61500. If you use Rejetto HFS, be sure to update to
+  &lt;a href=&quot;https://github.com/rejetto/hfs/releases/tag/v3.2.1&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   v3.2.1
+  &lt;/a&gt;
+  or later, which fixes this and other security flaws.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hanley also
+  &lt;a href=&quot;https://vimeo.com/1231352419?fl=pl&amp;fe=vl&quot; rel=&quot;nofollow&quot;&gt;
+   published a video
+  &lt;/a&gt;
+  showing the steps to exploit HFS and remotely execute code on the server.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By the next day, the CVE was under exploitation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We started detecting exploitation of CVE-2026-61500 in Rejetto HFS this evening,” VulnCheck security researcher Patrick Garrity
+  &lt;a href=&quot;https://www.linkedin.com/feed/update/urn:li:activity:7511590230232256513/&quot; rel=&quot;nofollow&quot;&gt;
+   posted
+  &lt;/a&gt;
+  on LinkedIn on Thursday, adding that Hanley and team reported the bug to VulnCheck for CVE assignment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our canaries detected an actor in China targeting real vulnerable hosts in the US,” Garrity added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Garrity has been
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/15/anthropics-project-glasswing-cve-count-is-still-guesswork/5220505&quot;&gt;
+   tracking CVEs
+  &lt;/a&gt;
+  attributed to Mythos and Project Glasswing, Anthropic’s initiative to give select partners access to the bug-hunting model, since shortly after
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/08/anthropic-mythos-model-can-find-and-exploit-0-days/5224393&quot;&gt;
+   the program
+  &lt;/a&gt;
+  was announced in April. Anthropic claims that Mythos is too powerful to release to the general public (insert evil laugh).
+ &lt;/p&gt;
+ &lt;p&gt;
+  As of Friday, Mythos and Project Glasswing have
+  &lt;a href=&quot;https://github.com/patrickmgarrity/Anthropic-Credited-CVEs&quot; rel=&quot;nofollow&quot;&gt;
+   uncovered 286 CVEs
+  &lt;/a&gt;
+  , according to Garrity’s tracker, and up until Thursday
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/21/anthropic-linked-cves-pile-up-attackers-mostly-shrug/5298018&quot;&gt;
+   only one of these bugs
+  &lt;/a&gt;
+  had been exploited in real-world attacks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Thursday night activity originated from one IP address in China and targeted vulnerable servers in the US and Japan, Garrity told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Today we have seen four hits,” he told us on Friday. These originated from two different IP addresses in the US: 173.239.211[.]248 and 173.239.211[.]249. Both are in the same subnet, and “appear to be coming from a proxy,” Garrity added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  China-linked digital intruders routinely
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/27/fbi-seizes-hacking-tools-it-says-china-used-to-attack-nasa-doe-us-senate-and-other-critical-networks/5292742&quot;&gt;
+   use compromised devices as proxies
+  &lt;/a&gt;
+  to route malicious traffic and disguise the attackers’ true location, and in April a 10-country security advisory
+  &lt;a href=&quot;https://www.theregister.com/security/2026/04/23/china-linked-crews-turn-routers-into-covert-attack-proxies/5228232&quot;&gt;
+   warned
+  &lt;/a&gt;
+  of China-nexus cyber operatives using proxy networks “strategically, and at scale.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  In his write-up, Hanley said Horizon3 has used Mythos in its vulnerability research – and discovered “many critical vulnerabilities” – ever since the security company joined Project Glasswing in July.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Mythos&#x27; mad math skillz
+ &lt;/h3&gt;
+ &lt;p&gt;
+  CVE-2026-61500 highlights a couple of Mythos capabilities that make it really good at uncovering vulnerabilities, according to Hanley. Namely, Mythos excels at mathematical distillations and scientific tasks, especially those relating to computer science and operating systems. Finding this CVE “speaks to Mythos’s capabilities in understanding of mathematics, how it identified an exploitable set of cryptographic missteps, and approached solving the constraints to achieve remote code execution,” Hanley wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The security issue stems from how HFS authenticates users. It generates a random value with
+  &lt;a href=&quot;https://github.com/rejetto/hfs/blob/5a0c3962f0a70adac7a488101afe5492f50c2085/src/index.ts#L42&quot;&gt;
+   Math.random()
+  &lt;/a&gt;
+  and then passes this value to
+  &lt;a href=&quot;https://github.com/koajs/koa&quot;&gt;
+   Koa
+  &lt;/a&gt;
+  , the Node.js web framework foundation for HFS. Koa uses keygrip to sign all session cookies with that random value.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This means that if an “attacker can derive what the session signing key is, they can forge valid session cookies,” Hanley said. This should not be possible, assuming Math.random() uses a secure pseudo random number generator (PRNG).
+ &lt;/p&gt;
+ &lt;p&gt;
+  But V8’s Math.random() did not use a secure PRNG. Mythos discovered that the output of the xorshift128+ algorithm it used was fully reversible – and the application was leaking Math.random() outputs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The model’s analysis claimed that
+  &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/z3-3/&quot; rel=&quot;nofollow&quot;&gt;
+   Z3
+  &lt;/a&gt;
+  , a Microsoft-developed, publicly available Satisfiability Modulo Theories (SMT) solver, could be used to recover the PRNG seed. Hanley notes that Horizon3’s researchers could not recall seeing an SMT solver used this way to attack a cryptographic flaw in a real application and bypass authentication.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What makes this impressive is that Mythos didn’t just flag the insecure PRNG in isolation – it simultaneously identified that the application leaked raw Math.random() outputs through a separate code path, recognized those two facts as a chain, and determined the leak produced exactly the observations needed to make state recovery feasible,” he wrote.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Clever database, but can it run Doom? </title>
+<link>https://www.theregister.com/databases/2026/10/03/clever-database-but-can-it-run-doom/5300506</link>
+<pubDate>Sat, 03 Oct 2026 12:02:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  &quot;Can it run Doom?&quot; now applies to databases, as the author of DOOMQL has released a far more visually accurate port.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There&#x27;s a saying: &quot;Be careful what you wish for.&quot; In 2025, we wrote a
+  &lt;a href=&quot;https://www.theregister.com/software/2025/09/11/database-whiz-makes-sql-jump-through-doom-shaped-hoops/1023670&quot; target=&quot;_blank&quot;&gt;
+   piece
+  &lt;/a&gt;
+  about a database boffin coming up with a version of Doom that was written in SQL. It was neat, but the visuals were nearer to 3D Monster Maze than to the 90s pixel blaster. We commented, &quot;If persuading SQL to do the entire rendering pipeline is a &#x27;bad idea,&#x27; we cannot wait for a terrible one.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  And so here we are. The author, Lukas Vogel, has been at it again and ported both Doom&#x27;s game logic and renderer to SQL, running it in a database. Python handles timing, keyboard input, and bitmap display, but the rest comes from SQL queries and the CedarDB database.
+ &lt;/p&gt;
+ &lt;p&gt;
+  DOOMQL was an undeniably impressive thing. However, Vogel told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , &quot;Someone on Hacker News complained last year when I did the first iteration that that one was more Wolfenstein-like because I used raycasting instead of BSP-tree traversal which was *the thing* that made Doom revolutionary.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;So I obviously couldn&#x27;t let that stand.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which brings us to SQLDoom. Doom, ported to SQL. In his
+  &lt;a href=&quot;https://cedardb.com/blog/sqldoom/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   blog
+  &lt;/a&gt;
+  , Vogel noted the ground rules for the port. Unlike DOOMQL, this had to look like real Doom. The rendering had to be purely SQL-based: &quot;the only acceptable SQL output is a table or a bitmap encoding exact RGB values for every pixel,&quot; and the game loop also had to be purely SQL-based.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Vogel told us, &quot;I was very thrilled to find out that porting the real Doom was a) feasible and b) the performance was actually *better* than the much more barebones approach from last year!
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Also, at some point I started actually playing it for fun in my free time, which is still a very strange feeling. I intended it as a tech demo, but it just feels like the real Doom, even though it doesn&#x27;t share a single line of code with any existing Doom port. So I wanted to see how far I could take it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In the end, I even got deathmatch to work.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Vogel, the game is perfectly playable on his laptop (using a
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/06/13/amd-ryzen-7000-family-dishes-pro-chips-to-commercial-types/511455&quot; target=&quot;_blank&quot;&gt;
+   Ryzen 7 7840U
+  &lt;/a&gt;
+  ), and multiplayer games can be played online using EU and US servers. We found the server performance a little sluggish – likely more due to the servers than the port – although getting SQL to jump through these hoops is something that, only a few short years ago, would be unimaginable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s worth keeping in mind that this is a thinly veiled demonstration of the capabilities of CedarDB. It&#x27;s a compiling database system where complex queries are eventually compiled to machine code. Still, it&#x27;s hard not to get swept up in Vogel&#x27;s enthusiasm and the fact that this is Doom… running in a database.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Certainly this is a lot more fun than recreating yet another online store for yet another interminable keynote. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Palantir&#x27;s fondness for French food cooked up tech&#x27;s latest fad – forward-deployed engineers </title>
+<link>https://www.theregister.com/channel/2026/10/03/palantirs-fondness-for-french-food-cooked-up-techs-latest-fad-forward-deployed-engineers/5300360</link>
+<pubDate>Sat, 03 Oct 2026 08:02:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  “I always laugh at the IT industry’s terms,” says Ryan Sheehan, a senior vice president at $16 billion global solutions integrator SHI. And right now the jargon that gets him giggling is “forward-deployed engineer” (FDE) because, as he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;span&gt;
+   at VMware&#x27;s September Explore conference
+  &lt;/span&gt;
+  , “We have been doing FDE for a long time.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Doing FDE” involves sending top consultants to a client, without tying them to a project. Instead they get a mission to build something valuable using new technology, and carte blanche to make that happen in a hurry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sheehan has company in believing FDEs aren’t fundamentally new. Cloud monitoring vendor DoIT told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  it has used FDEs since 2011, but only started using the term in the last quarter of 2025, when it changed the name of its “Customer Reliability Engineering” practice to FDE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That decision came as services companies adopted the term FDE to describe the work needed to build AI proofs of concept.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The name has its origins at Palantir, whose chief technology officer Shyam Sankar
+  &lt;a href=&quot;https://www.piratewires.com/p/primacy-of-winning-shyam-sankar-palantir&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   claims
+  &lt;/a&gt;
+  he coined it in 2007 after a conversation in which his CEO Alex Karp asked him why French restaurants are so good.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Karp apparently answered his own question by saying, “The wait staff is actually part of the kitchen staff. They intimately understand the food, the methodology, and the technique. They are not merely carrying the food from the kitchen to the table, but are instead part of a subtle and complex system that affects kitchen operations.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sankar says Karp asked him “to build that, but for engineering” so he did and called it “forward deployed engineering.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “FDEs embed alongside our customers and work to ensure our software solves their problem and not some proxy for their problem,” Sankar wrote on his personal
+  &lt;a href=&quot;https://vick.substack.com/p/forward-deployed&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Substack
+  &lt;/a&gt;
+  . “They’re crazy enough to get on a last-minute plane to Iraq, they’re smart enough to ship quality, same-day code, and their EQ is still high enough to talk to users (and maybe even enjoy it).”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sankar says Palantir’s investors thought FDEs were a bad idea because the costs they incurred ate into margins, but says they’re worth it because they ensure customers understand the company’s products and how to get value from them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We didn’t believe in throwing our software over the wall in the hopes the customer would divine the correct meaning from it,” Shankar wrote. “This approach built an engineering organization with unmatched creativity, responsiveness, and focus on the primacy of winning.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS likes winning, too, and in June
+  &lt;a href=&quot;https://www.aboutamazon.com/news/aws/aws-1-billion-forward-deployed-ai-engineers&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   announced
+  &lt;/a&gt;
+  a dedicated AWS FDE organization, and $1 billion to fund it. In July Microsoft
+  &lt;a href=&quot;https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   trumped
+  &lt;/a&gt;
+  that with a $2.5 billion so-called “Frontier Company” it claims “goes beyond” FDEs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both companies see FDEs as a way to get their consultants into customers to help them build AI apps. They argue FDEs’ time has come because, as Palantir found when users struggled to put its software to work, organizations often struggle to turn AI experiments into production applications.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Stop us if you&#x27;ve heard this one before
+ &lt;/h3&gt;
+ &lt;p&gt;
+  But vendors also admit that FDEs aren’t entirely new. Indeed, AWS told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  it has offered customers something very similar to an FDE for years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We started this journey all the way back in 2017 when the focus was machine learning (ML),” said Taimur Rashid, the cloud giant’s managing director for go to market, Frontier AI Engineering &amp; Services. “We created a team called the ML Solutions Lab. The idea was that the tech is new, customers need to navigate it. So we said ‘Why don’t we loan them a data scientist?’ They can build a PoC, and the customer can build on our platform.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rashid says AWS sometimes called this sort of arrangement a “secondment,” a “resident architect” or a “resident scientist.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whatever you call it, Rashid said the approach worked well so AWS decided to evolve it when generative AI burst onto the scene –  this time using an applied scientist and a strategist, and an evolved approach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We forward-deploy them – they will help to identify the art of the possible and develop the solution for you or with you,” Rashid explained. “They will be part of your business and operational workflows, and effectively be yours for a defined time,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s different to conventional services engagements, he argues, because there’s no scope of work, no hourly charge for consultants’ services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What is different about FDE is you are saying the customer wants to build. The path is not determined.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carlos Pereira, a Fellow and Chief Architect in Cisco’s Customer Experience team, also admited FDEs aren’t entirely new, but argued AI makes them more valuable than conventional consultants. &quot;The idea of an expert being embedded on-site to help a customer adopt new technology and solutions isn&#x27;t new,” he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  by email. “Our Customer Success organization has been doing this for years.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The evolution is that AI is now a key part of that equation,” he added. “It introduces new variables like non-deterministic AI models, evaluations, faster-moving requirements, and specialized skills that not every customer team has in-house.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Analyst firms Gartner and Forrester agree that FDEs can be useful, and that this form of IT services differs due to greater intimacy between client and consultant.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “They often have full-stack access to the customer’s environment and the vendor’s codebase, allowing them to build and iterate in real time,” Gartner’s Arun Chandrasekaran and Robert Thanaraj wrote in March guidance titled “An AI Leader’s Guide to Forward Deployed Engineering to Scale AI.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  A June best practice report from five Forrester analysts, titled “Forward-Deployed Engineers: Use provider-embedded builders to improve outcomes,” praises the model for helping to “accelerate adoption and turn complex platforms into production-ready outcomes.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yet both analyst firms also warn that using FDEs may see clients develop a dependency on the vendor that provides them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The allure of delivering outcomes at speed can induce blind spots and is fraught with risks,” according to Forrester. “Without the appropriate guardrails on tech architecture and stack choices, teams can fall into a bespoke trap, where highly tailored solutions deepen vendor dependence and make future change costly.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Debt and dependency
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Gartner urges would-be hirers of FDEs to “beware of ill-conceived FDE engagements that can lead to a high degree of vendor dependency, security/data risk exposure, technical debt, and talent atrophy.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latter happens when organizations hire FDEs but don’t train their own teams on new tech.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Your internal team may become operators of a black box rather than architects, making it difficult to innovate without the vendor,” Gartner warns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Gartner also worries FDEs can be a fast-track to technical debt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A major concern with the FDE model is that it relies heavily on manually designed structures and hard-coded domain knowledge. Such human-engineered components tend to deliver short-term gains but are repeatedly superseded as more general, scalable learning systems improve.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As large language models continue to advance, much of this manually encoded logic is likely to be rendered obsolete, requiring costly rework or full redesign, and creating a long-term technical and organizational burden.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  FDEs themselves may soon be obsolete, because they’re not vendors’ only bet on improving AI consultancy skills, according to Omdia chief analyst Jay McBain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “At the same time as investing in FDEs, the big players have been investing big into partner enablement,” he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “They are playing both ends.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The tech services channel doesn’t mind that, because according to Omdia data 82 percent of partners report they “aren’t ready” to quickly grow their AI services.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vendors promoting FDEs, meanwhile, don’t want to use this form of consultancy for long.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “None of these companies’ investors want to dilute a low-value services business into the overall revenue,” McBain wrote. “We are predicting all of this FDE investment will fall back into the channel by 2031 when this matures.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which rather suggests that in a few years we’ll all be laughing at how Palantir re-heated an old form of tech services under a new name, and the rest of the industry decided to follow the same recipe. ®
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> TCP is failing AI, but Stanford’s Homa is here to help </title>
+<link>https://www.theregister.com/networks/2026/10/02/tcp-is-failing-ai-but-stanfords-homa-is-here-to-help/5300660</link>
+<pubDate>Fri, 02 Oct 2026 20:02:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;1d24771b-f8e2-4b5e-8f10-78fbd30c7436&quot;&gt;
+ &lt;p&gt;
+  TCP, the data transport protocol upon which pretty much the entire web and most of cloud computing is built, is ill-suited for emerging AI workloads, a retired Stanford University professor argues. To solve the problem,
+  &lt;a href=&quot;https://engineering.stanford.edu/people/john-ousterhout&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   John Ousterhout
+  &lt;/a&gt;
+  has a new protocol called Homa.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “TCP, for all the amazing things it has done, is not a good match for datacenters,” said Ousterhout, a professor emeritus of computer science at Stanford University, in
+  &lt;a href=&quot;https://www.youtube.com/watch?v=eZ8WWZzoaR0&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   a recent talk
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.youtube.com/watch?v=eZ8WWZzoaR0&quot;&gt;
+  &lt;/a&gt;
+  at the AI Engineer World’s Fair.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shedding TCP sounds like an immense task, given the global reliance on the protocol.  But adding Homa into a network is fairly simple, Ousterhout told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . Compile Homa from its
+  &lt;a href=&quot;https://github.com/PlatformLab/HomaModule&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   GitHub source
+  &lt;/a&gt;
+  , then install the module into the Linux kernels on the clients and servers. No reboot required.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Homa works side by side with TCP, so you can gradually move applications from TCP to Homa,” he wrote. Running Homa even makes the remaining TCP applications run faster.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Old Wine, New Skin
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Homa is a clean-slate rethink of how networks should manage traffic congestion, Ousterhout said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Work on the protocol
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2022/07/27/there-is-a-path-to-replace-tcp-in-the-datacenter/828009&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   began
+  &lt;/a&gt;
+  as a
+  &lt;a href=&quot;https://arxiv.org/abs/2210.00714&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   PhD dissertation
+  &lt;/a&gt;
+  first published in 2019 by
+  &lt;a href=&quot;https://www.linkedin.com/in/behnam-montazeri/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Behnam Montazeri
+  &lt;/a&gt;
+  , now a Google staff engineer.  Now that Ousterhout has retired from teaching, he has taken on the task of propagating Homa as his “life’s mission,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What makes Homa different from TCP is primarily that it is message-based, rather than stream-based. Much like the remote procedure call (RPC), Homa message lengths are explicitly defined.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike TCP, Homa designates the receiver to manage congestion control. The first packet the receiver gets has information on how much data is incoming. It can then explicitly schedule when packets should be sent. In doing so, it prioritizes shorter messages over longer ones using a shortest-remaining-processing-time (SRPT) algorithm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This approach cuts the latency of shorter messages by an order of magnitude, Ousterhout said. The 99th percentile (p99) of latency for shorter messages is 92 microseconds for Homa, which is 13 times faster than the 1.2 milliseconds p99 for TCP (based on packets swimming through a 100 Gbps network at 80% utilization).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even on the longest messages, Homa is better by a factor of two, Ousterhout said.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A long list of other tasks where TCP falls short
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Currently, Ousterhout is drafting an IETF standardization document of the protocol, as well as working through the process of
+  &lt;a href=&quot;https://www.usenix.org/system/files/atc21-ousterhout.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   upstreaming
+  &lt;/a&gt;
+  Homa into the Linux kernel. In March, the protocol was backported to Red Hat Enterprise Linux versions 8 and 9.5.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He is also helping large companies investigate Homa’s applicability – he is currently working with one large financial services company on a prototype.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not that everyone is on board with tossing TCP over a few latency issues.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prominent network architect Ivan Pepelnjak wrote a
+  &lt;a href=&quot;https://blog.ipspace.net/2023/01/data-center-tcp-replacement/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   scathing position paper
+  &lt;/a&gt;
+  in 2023 about Homa, questioning Ousterhout’s performance characterizations of TCP and critiquing Homa as a solution looking for a problem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To be fair, the AI community is not the only ecosystem frustrated by the dowdy TCP.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the high-performance database community,
+  &lt;a href=&quot;https://www.dpdk.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   DPDK
+  &lt;/a&gt;
+  (Data Plane Development Kit) is being used to bypass the TCP stack for faster querying. Storage area networks turned to
+  &lt;a href=&quot;https://www.everpuredata.com/knowledge/what-is-nvme-over-fabrics-nvme-of.html&quot;&gt;
+   NVMe-oF
+  &lt;/a&gt;
+  (NVMe over Fabrics) to speed access to solid-state drives over network fabrics, using transports including RDMA, Fibre Channel, and TCP. For the Web, Google devised
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/07/08/media-over-quic-can-scale-real-time-streaming-and-carry-the-worlds-vids/5268101&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   QUIC
+  &lt;/a&gt;
+  – which became the basis for HTTP/3 – to bypass TCP’s head-of-line blocking and enable browsers to download more assets simultaneously.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Also, the
+  &lt;a href=&quot;https://github.com/luishsr/hft-kernel-bypass&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   high-frequency trading
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://nva.sikt.no/registration/0198eb029b61-4a319b6a-cd4a-4543-af2a-316087facb73&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   multi-player gaming
+  &lt;/a&gt;
+  communities have felt the pinch of TCP sluggishness.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://users.cs.duke.edu/~alvy/papers/CloudMicro_RDMA.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Specialized RDMA fabrics
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ena-express.html&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ena-express.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Amazon Web Services’ Scalable Reliable Datagram
+  &lt;/a&gt;
+  have also tackled the issue of TCP latency. Top-of-rack switches have also gotten smarter at managing congestion, setting queue thresholds and marking packets with early congestion notifications.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Control lag is real
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Vint Cerf and his fellow beardies created
+  &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc9293&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   TCP
+  &lt;/a&gt;
+  to bring order to the unruly hordes of message packets across networks, giving them proper flow control, guaranteed delivery, connection handshakes and congestion control. Congestion control means avoiding overload in the network path, including switches and routers, while separate flow-control mechanisms keep senders from overwhelming receivers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc9293&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   TCP’s data model
+  &lt;/a&gt;
+  is built on byte streams, a continuous flow of data packets with no differentiation. Messages are serialized as a single byte stream with no priority. For the receiver, longer sets of byte streams are indistinguishable from shorter ones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A server deluged with traffic can send alerts to senders to slow input, but it has limited visibility over how much traffic is still coming in. The sender itself, which regulates its output depending on the timeliness of acknowledgments sent back from the receiver, has to guess how much to slow its roll.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For regular internet traffic or large-scale transfers within a datacenter, modest latency increases may be tolerable. But for latency-sensitive AI workloads, even delays measured in milliseconds can sting.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Think of the GPUs
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The frontier labs driving the development of large language models (LLMs) have always required top-notch network performance for chores such as weight gradients, model weights, KV cache entries, and checkpoints.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, large data transfers must increasingly share bandwidth with short bursts of traffic from agents and control tasks such as metadata coordination and cache lookups.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “For these workloads, what really matters is latency,” Ousterhout said. Even a millisecond of latency causes an expensive GPU to go idle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Legacy protocols are poorly suited for this environment,” Ousterhout said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So has Homa finally found its problem to solve? Or was it just ahead of its time all along? For now anyway, TCP remains the champ.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google hearts Apple&#x27;s Swift so much it&#x27;s pumping out server-side support </title>
+<link>https://www.theregister.com/software/2026/10/02/google-hearts-apples-swift-so-much-its-pumping-out-server-side-support/5300921</link>
+<pubDate>Fri, 02 Oct 2026 19:52:40 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  After evolving from an Apple-made, client-side language and years of false starts, Swift could finally make it on the server. Google has taken note and has just rolled out
+  &lt;a href=&quot;https://github.com/googleapis/google-cloud-swift&quot;&gt;
+   Google Cloud API Client Libraries for Swift
+  &lt;/a&gt;
+  , evidently convinced Swift has a backend role thanks to its performance and ease of use.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The GCP Swift libraries target Swift 6.2+ and take advantage of SwiftNIO&#x27;s asynchronous event loops, HTTP/2 multiplexing,
+  &lt;a href=&quot;https://grpc.io&quot;&gt;
+   gRPC
+  &lt;/a&gt;
+  transport, and data race safety compiler flags.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;For years,
+  &lt;a href=&quot;https://swift.org/&quot;&gt;
+   Swift
+  &lt;/a&gt;
+  was perceived mainly as a UI language tied to Apple client devices,&quot; said Karl Weinmeister, director of developer relations, and Carlos O&#x27;Ryan, software engineer, in a
+  &lt;a href=&quot;https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-server-side-cloud-swift-sdk&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  . &quot;With Swift 6 and strict concurrency checking, it has matured into a viable systems and cloud language, pairing Rust-like data-race safety with predictable, reference-counted performance.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Weinmeister and O&#x27;Ryan argue that Swift manages to be both developer-friendly and suitable for low-level control over resources, which tends not to be the case for challenging systems languages like C++ or Rust. They voice appreciation for the language&#x27;s lightweight runtime and Automatic Reference Counting (ARC), alongside its expressive syntax.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And they approve of Swift&#x27;s compile-time concurrency checking. &quot;Data races are caught in your editor before a binary ever compiles or reaches production,&quot; they note.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Googlers argue that the Server Side Cloud Swift SDK is well-suited for servers, containers, and DevOps environments, pointing to its utility for building capable microservices using Swift web frameworks like Hummingbird or Vapor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;With google-cloud-swift, server-side Swift developers can write end-to-end cloud infrastructure with compile-time race safety, native async/await ergonomic APIs, and zero OS thread congestion,&quot; they declare.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s been quite a journey. Apple open-sourced the Swift programming language all the way back in 2015 and in the years that followed, developers started looking at Swift on the server.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IBM in 2016 made Swift available on its Bluemix cloud and a few months later the Swift team
+  &lt;a href=&quot;https://www.swift.org/blog/server-api-workgroup/&quot;&gt;
+   announced
+  &lt;/a&gt;
+  a server API working group. The first server-side Swift conference was
+  &lt;a href=&quot;https://x.com/SwiftServerConf/status/941628761216339968?s=20&quot;&gt;
+   announced
+  &lt;/a&gt;
+  in late 2017. And Apple&#x27;s work on the async SwiftNIO framework in 2018 advanced the case for backend Swift.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Swift&#x27;s popularity peaked in January 2020, according to the
+  &lt;a href=&quot;https://www.tiobe.com/tiobe-index/swift/&quot;&gt;
+   TIOBE index
+  &lt;/a&gt;
+  , when it ranked as the 9th most popular programming language. It currently ranks 18th.
+  &lt;a href=&quot;https://survey.stackoverflow.co/2025/technology&quot;&gt;
+   Stack Overflow&#x27;s 2025 developer survey
+  &lt;/a&gt;
+  has Swift ranked 20th.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even so, server-side adoption of Swift has been slow. IBM
+  &lt;a href=&quot;https://www.theregister.com/software/2019/12/17/ibm-tailors-swift-relationship-after-review-of-open-source-priorities/331076&quot;&gt;
+   reversed course
+  &lt;/a&gt;
+  in 2019, backing away from its Swift commitment. And Amazon hasn&#x27;t really done much with its
+  &lt;a href=&quot;https://github.com/amzn/smoke-framework&quot;&gt;
+   Smoke Framework
+  &lt;/a&gt;
+  for server-side Swift in the past few years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Still, the Swift community has kept at it. The Swift Server Workgroup launched in 2018 and, by 2024, the release of
+  &lt;a href=&quot;https://www.swift.org/blog/announcing-swift-6/&quot;&gt;
+   Swift 6
+  &lt;/a&gt;
+  with data race safety checks made the language more interesting for backend applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Swift may be more approachable than languages like Rust or C++, but it&#x27;s unclear how much that will matter in the years to come as developers become more and more dependent on AI coding agents. Certainly, Swift code is readable, a benefit for those maintaining applications, but language ergonomics and approachability matter less when AI is reading and writing most of the code. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Shut up and take our money: Amazon plows $1B into quashing datacenter dissent </title>
+<link>https://www.theregister.com/systems/2026/10/02/shut-up-and-take-our-money-amazon-plows-1b-into-quashing-datacenter-dissent/5300914</link>
+<pubDate>Fri, 02 Oct 2026 19:30:56 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Faced with growing opposition to datacenters from residents who don&#x27;t want the bit barns in their backyards, Amazon plans to
+  &lt;a href=&quot;https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   invest $1 billio
+  &lt;/a&gt;
+  n over the next five years to indoctrinate the public. The company announced the investment in a whataboutism-packed blog post aimed at convincing readers datacenters are not as bad as they&#x27;ve been led to believe, and that if the common folk don&#x27;t get in line and support their development, the nation could be left in the dust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The program aims to invest in education, job training, local infrastructure improvements, and sustainability initiatives in communities home to Amazon datacenters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This build out is so important geopolitically that there are widespread reports of various countries intentionally seeding misinformation in the US about datacenters to trick us into slowing down,&quot; the e-tailer turned cloud titan wrote. &quot;Right now there are over 100 datacenter moratoriums being considered across the country. If these measures are enacted, the US could be writing its own losing ticket to this race, and the consequences would last generations.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  If Jeff Bezos&#x27;s cash cow is to be believed, datacenters will transform the US economy much like the buildout of the highway system did in the &#x27;50s. But that can&#x27;t happen, Amazon argues, if Americans block the development of these bit barns over misguided fears.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The blog post highlights four such datacenter fears, which Amazon claims are &quot;myths,&quot; despite plenty of reporting to suggest otherwise.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Who needs water?
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The first &quot;myth&quot; is the fact that datacenters consume an excessive share of water. Bit barns commonly employ evaporative coolers which use water to reject heat generated by the facility into the atmosphere. These cooling towers use less energy than dry coolers or refrigerant-based systems but remove water from local watersheds as a consequence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Amazon, citizens should really be more worried about the water consumed by golf courses, which it claims use 200x more water than all of Amazon&#x27;s datacenters. That argument might be more convincing if people didn&#x27;t like golf courses. But they do and the whole lesser of two evils argument works a lot better when one of those evils isn&#x27;t extremely popular.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon also attempted to dispel claims that a typical datacenter consumes five million gallons a day, arguing that its facilities are much more efficient using just 13,000 gallons a day, the equivalent of 42 US households. But this leaves out an important detail.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It is possible to build datacenters that don&#x27;t consume large quantities of water, but these facilities often consume large sums of power as a consequence. Most gas, nuclear, coal, and anything else that uses steam to turn a turbine also consumes water. In other words, nearly every large-scale power-generation method uses water either directly or indirectly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And despite Amazon&#x27;s attempts to downplay the impact of datacenters, there&#x27;s good reason for those living nearby to be worried. Earlier this year, it was
+  &lt;a href=&quot;https://www.politico.com/news/2026/05/08/georgia-data-centers-water-00909988&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   reported
+  &lt;/a&gt;
+  that a datacenter, which we&#x27;ll note was not operated by Amazon, has quietly sucked up nearly 30 million gallons of water and the only reason anyone discovered the issue was that local residents started complaining of unusually low water pressure.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  We totally won&#x27;t let datacenters drive up your power bill or poison your air
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Amazon also attempted to dispel fears that datacenters could leave neighboring residents picking up the tab for their massive power consumption. The company argues that rates are going up because the US grid is old, and that responsible bit barn builders are working with utilities to ensure they&#x27;re paying their fair share for the additional capacity and infrastructure upgrades required to support them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What wasn&#x27;t addressed is why folks might be worried about rising rates. One of the reasons that utilities and plant operators are so conservative is that they&#x27;ve been burned by speculative markets before. If new power plants are built to meet demand that never materializes, ratepayers could get stuck with the bill. Amazon and others agreeing to pay higher rates might help, but only if they&#x27;re consuming an appreciable amount of the capacity they convinced utilities to build. An empty datacenter doesn&#x27;t pull a lot of juice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking of power, Amazon also attempted to downplay the impact of datacenters on air quality due to their reliance on diesel backup generators. &quot;The truth is the datacenter generators almost never run,&quot; the company wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon also argued that these generators are subject to stringent permitting requirements which dictate how long they can run for. That might be more reassuring if datacenters in power constrained regions weren&#x27;t getting permission after the fact to
+  &lt;a href=&quot;https://www.eenews.net/articles/data-center-boom-collides-with-record-heat-testing-power-grid/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   exceed those limits
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  And, as we saw with Elon Musk&#x27;s Colossus supercomputer, temporary gas turbines can be deployed when the local grid can&#x27;t support the load. That hasn&#x27;t sat well with residents of Boxtown, Tennessee, while the NAACP is
+  &lt;a href=&quot;https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant&quot;&gt;
+   suing
+  &lt;/a&gt;
+  xAI over allegedly unpermitted turbines in Mississippi.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon can argue it&#x27;s got a better track record than most, but that doesn&#x27;t mean the community&#x27;s concerns are misplaced.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  But think of the taxes
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Finally, Amazon argues that folks don&#x27;t realize how big of an economic impact datacenters have on their community.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Datacenter operators are often the single largest taxpayer in a community, with upfront payments routinely exceeding entire annual municipal budgets in the first year of construction,&quot; the company claimed. &quot;For example, in St. Joseph County, Indiana, the taxes Amazon will pay to the county are estimated to exceed $3 billion.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The subtext is that, by enacting datacenter moratoriums, communities are walking away from billions in tax dollars. Then again, if the tax revenue from these facilities is so great, it raises the question why Amazon needs to spend more than $1 billion over five years sweetening the deal for communities hosting its bit barns. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Commvault looking after Claude agent configs </title>
+<link>https://www.theregister.com/ai-ml/2026/10/02/commvault-looking-after-claude-agent-configs/5300884</link>
+<pubDate>Fri, 02 Oct 2026 18:45:23 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Commvault is enabling IT and Security teams to discover, protect, and recover ChatGPT and agent configurations and other AI data in Anthropic&#x27;s Claude Cowork and Claude Code, and OpenClaw.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This offering is part of AgentRecover, Commvault’s offering for enterprise AI environment recoverability.
+  &lt;span&gt;
+  &lt;/span&gt;
+  Employees are running these agents on their Windows and macOS PCs and laptops. When a laptop pr PC is lost, damaged, replaced, or otherwise disrupted, organisations and employees – developers, marketers, and others – may not only lose files, but the agent configurations, accumulated AI context, and workflows they rely on. Commvault can restore that agent metadata.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pranay Ahlawat, Commvault’s Chief Technology and AI Officer, said: “Most organisations cannot tell you which AI agents are running on their employees’ machines, let alone recover the work inside them. We give IT and Security visibility into where these AI tools are installed, and a recovery path for the context employees have built inside them.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  IT teams can identify instances of certain agentic AI tools installed across managed devices, protect agent configurations stored locally, and recover that protected information if a disruption occurs. Security teams can get a centralised view of supported AI tools installed across managed employee devices. If agentic AI tools are installed outside approved IT processes, teams can see where the tool is present and investigate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Commvault&#x27;s competitors are looking at agent protection as well:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://www.blocksandfiles.com/security/2026/09/16/cohesity-extends-resilience-to-ai-agents-plans-to-automate-cyber-resilience/5296754&quot; target=&quot;_blank&quot;&gt;
+     Cohesity Agent Resilience
+    &lt;/a&gt;
+    (CAR) protects agent memory and configuration and is a Cohesity Data Cloud capability, supporting Amazon Bedrock AgentCore and Bedrock Agents. It does not support the Anthropic agents or OpenClaw.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://www.blocksandfiles.com/data-protection/2026/07/21/druva-spreading-ai-agent-cyber-resilience-wings-with-claude-and-copilot-co-operation/5275619 &quot; target=&quot;_blank&quot;&gt;
+     Druva
+    &lt;/a&gt;
+    provides Claude Backup under its AI Resilience / Endpoints offering. It backs up locally stored Claude Code and Cowork data on Windows and macOS: project files, sessions, tasks, prompts, notes, skills, plugins, connectors, settings, and configuration. Snapshots go to Druva’s air-gapped cloud; admins manage policy centrally. Claude.ai cloud chats are out of scope because they are not on the device.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    &lt;a href=&quot;https://www.blocksandfiles.com/security/2026/09/16/rubrik-gives-customer-ai-agents-access-to-its-protection-and-resilience-data/5296738 &quot; target=&quot;_blank&quot;&gt;
+     Rubrik
+    &lt;/a&gt;
+    has its Rubrik Agent Cloud for Claude Code and Claude Cowork. It inventories agents, offers Agent Rewind to reverse unintended actions, keeps immutable off-repo snapshots of GitHub and Azure DevOps, and backs up and version-tracks agent configuration (system prompts, tool permissions, skills, settings) at organization, repository, and user levels, with drift detection. That is closer to agent governance and codebase recovery than laptop file backup.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Veeam, with its recent focus on agentic AI cyber-threats will probably follow closely behind Cohesity, Commvault, Druva and Rubrik.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   Availability
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  Discovery of OpenAI’s ChatGPT desktop app is available today. Discovery, protection, and recovery for supported local data associated with Claude Cowork, Claude Code, and OpenClaw will be generally available in the coming months. Customers can access these capabilities through Commvault’s existing endpoint protection offerings without a separate SKU or additional purchase. Support for additional AI tools is planned for future releases.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   Bootnote 1
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  Anthropic’s Claude Cowork is a knowledge work AI agent that can organize a folder, turn notes and screenshots into a spreadsheet, or draft a report from scattered sources, and is available for macOS and Windows systems. Claude Code is Anthropic’s agentic coding tool, which can read a codebase, edit files, run commands, and work with development tools to build features, fix bugs, and automate tasks, rather than only suggesting the next line of code.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenClaw is a free, open-source autonomous and general personal or team AI agent you run on your own system. It connects a large language model to messaging apps and local tools so it can act on tasks, not only reply in a chat window. You talk to OpenClaw through channels
+  &lt;span&gt;
+  &lt;/span&gt;
+  such as WhatsApp, Telegram, Discord, Slack, Signal, iMessage, and others, or through a web UI, CLI, or companion apps. It keeps session state and memory on your hardware. Models are plug-ins: Claude, GPT, Gemini, DeepSeek, OpenRouter, or local models via Ollama and similar tools.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   Bootnote 2
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  Commvault has achieved the AWS Data Competency in the Relational Database category by delivering cyber-resilient data protection for relational database workloads on AWS, helping customers protect, recover, and manage business-critical data across Amazon Relational Database Service (RDS) environment.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ArXiv imposes rate limit on paper submissions to stem the AI slop tide </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899</link>
+<pubDate>Fri, 02 Oct 2026 18:02:32 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  arXiv, the preprint paper repository, is seeing so many low-quality submissions, with AI tools helping drive the surge, that it has imposed a hard limit of two new submissions per month per submitter, regardless of whether they were produced solely by humans or with help from AI tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After becoming an independent nonprofit over the summer following 25 years under Cornell University’s stewardship, arXiv continued to rely on a “
+  &lt;a href=&quot;https://web.archive.org/web/20260917010817/https://info.arxiv.org/help/moderation/index.html#:~:text=There%20is%20a-,practical%20limit,-to%20the%20rate&quot;&gt;
+   practical limit
+  &lt;/a&gt;
+  ” in place that gave moderators the ability to determine whether someone was submitting too many papers. Like everything good and pure in this world, AI has ruined that, too, necessitating some strict new limits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “arXiv now limits submitters to up to two submissions per calendar month, with a limit of three total active submissions at any given time,” arXiv community engagement manager Kat Boboris wrote in a Thursday
+  &lt;a href=&quot;https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  of the change, which was effective immediately. According to an arXiv spokesperson, an active paper is one that has been submitted, is under consideration and review, but not yet published on the site.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s worth noting that large institutions whose projects involve multiple researchers are unlikely to see a significant impact on their submissions - this limit is per submitter, the announcement explains, so a research paper with multiple authors only counts toward the submission rate of the individual who files it. Rejected papers count toward that monthly total.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If that sounds like some strict limitation - it is, but it’s necessary, based on arXiv’s numbers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In September alone, arXiv said that it had received 40,363 submissions. The same month 10 years ago saw it receive just 9,869 submissions; two years ago that number was 20,569. Submissions have increased 309 percent in the past decade, in other words - and doubled in the past two years alone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unsurprisingly, many of the submissions that arXiv has been receiving of late don’t meet its requirements for AI-assisted work, which call for significant use of generative AI tools to be disclosed, for those tools to be used in support of research, and for the resulting work to meet arXiv’s standards for scholarly interest and advancement of the field.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Many of the submissions that arXiv is now receiving do not satisfy these requirements,” Boboris said, describing many recent submissions as “thin” and “narrow in scope,” and noting an uptick in papers that break a single work up over multiple smaller papers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A relatively small proportion of authors are submitting a large number of low-quality papers and consuming a disproportionate fraction of the moderators’ time,” arXiv editorial advisory council chair Thomas Dietterich said. “This is unfair to authors who continue to submit quality papers — their papers can be delayed for days or weeks as a result.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s unfortunate it’s come to this, but the slop sluice is wide open and flooding the channels of academia. arXiv, as a non-profit with volunteer moderators, simply can’t afford to keep combing through the slop pits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The change may not be permanent, however. arXiv notes in the announcement that the new monthly submission cap is a stopgap measure meant to stem the tide while the organization figures out what new best practices for submissions should look like, while its separate limit of three active submissions has been in place since 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “arXiv will be monitoring the impact of this change on our submissions rates and moderation load to evaluate its overall effectiveness and impact on researchers and will make further changes as needed,” a spokesperson explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the meantime, arXiv is begging everyone to be purposeful in their submissions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “arXiv would ask researchers to prioritize their submissions and consider submitting papers that reflect the full scope of their work rather than multiple incremental papers,” the arXiv representative said.  ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI alerts 100+ orgs that its &#x27;misaligned models&#x27; attempted to break in - or worse </title>
+<link>https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891</link>
+<pubDate>Fri, 02 Oct 2026 17:37:05 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  OpenAI&#x27;s agents have repeatedly strayed beyond their intended scope. Two separate reports detail the activity, including one from Sam Altman’s company saying it has notified more than 100 organizations about potentially problematic model activity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI, in a late Wednesday update to its ongoing Hugging Face investigation, said it has notified more than 100 organizations that “misaligned models” may have accessed their systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Notification does not mean that any private information was accessed, or that there was a compromise of any third-party system,” the
+  &lt;a href=&quot;https://openai.com/hugging-face-incident-and-misalignment/#model-misalignment-2026-09-30-model-activity-review&quot; rel=&quot;nofollow&quot;&gt;
+   update said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  A separate Thursday report from digital forensic and incident response startup Asymmetric Security said OpenAI’s rogue agents accessed data belonging to
+  &lt;a href=&quot;https://www.asymmetricsecurity.com/newsroom/rogue-agents-investigation-initial-findings/&quot; rel=&quot;nofollow&quot;&gt;
+   55 organizations
+  &lt;/a&gt;
+  . These include the US Department of Education, UN Trade and Development, US Bureau of Economic Analysis, MAX.gov containing federal budget documents, the European Centre for Disease Prevention and Control, the US Securities and Exchange Commission, the International Energy Agency, and the FBI Crime Data Explorer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Asymmetric used only publicly available data to compile this list, and said the activity occurred between March and September. The agents’ probes indicate they were tasked with researching public health and other data, “possibly as part of an evaluation,” according to the
+  &lt;a href=&quot;https://www.asymmetricsecurity.com/newsroom/rogue-agents-investigation/&quot; rel=&quot;nofollow&quot;&gt;
+   report
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We found successful access to staging environments; evidence of the use of attacker reconnaissance tactics; and evidence of probing a broader set of websites, including those of the CDC, SEC, International Energy Agency, and Mayo Clinic,” it said, noting that the investigation also uncovered some “novel tactics” the agents used to break out of their sandboxes and gain full web access.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Some of these tactics left records erased or inaccessible, making it impossible to rule out access to sensitive data based on public information alone,” the authors wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  asked OpenAI if the organizations on Asymmetric’s list were among those notified by OpenAI. The model maker declined to say which orgs had been notified, but previously confirmed to the New York Times that its agents probed websites for the US Education Department, Commerce Department, and the Securities and Exchange Commission.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An OpenAI spokesperson sent us this statement via email:
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As we previously announced, we’re reviewing misaligned model activity and notifying organizations when we identify potential impacts to their systems. We’re also investigating findings in third-party reports, comparing them with our own and seeking additional information where needed. Our priority is to provide affected organizations with accurate, useful information, and we’ll keep refining our approach as we learn more. Most of the activity we’ve reviewed involved routine research tasks, including accessing public web content. Some involved government websites, which our models often use as authoritative sources of public information.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The growing number of rogue agent hacking incidents raises questions about AI makers’ safety and security practices during testing - and has increased calls for holding AI executives legally liable for their
+  &lt;a href=&quot;https://www.theregister.com/legal/2026/07/30/excuses-like-ai-did-it-dont-exist-in-the-eyes-of-the-law/5280767&quot;&gt;
+   models’ criminal activities
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Horizon3 CEO Snehal Antani, who builds and tests agents at his threat-exposure startup, the term “misalignment” lets frontier model makers off the hook too easily.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A ‘misaligned models incident’ is basically a fancy way of saying a model didn&#x27;t respect scope - or wasn&#x27;t given one - had no audit logs or observability in place to detect breakout, and accessed third-party systems without authorization,” Antani told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The responsibility sits with the labs that build and deploy these models,” he added. “The safety-versus-security framing lets them sidestep accountability, and they are not incentivized to prioritize security because moving fast is the priority.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI’s most recent rogue agent disclosure comes as it - and every other major AI company - drinks from the firehose of near daily security and safety concerns surrounding its models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Last Friday, OpenAI
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350&quot;&gt;
+   quietly paused training
+  &lt;/a&gt;
+  of its most advanced models after admitting an agent used DNS to reach an external chatbot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On Monday, it postponed its
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743&quot;&gt;
+   planned release of GPT-6.1 Astra
+  &lt;/a&gt;
+  after the model showed higher levels of deception than its predecessor, including not always accurately telling users what actions it had or hadn&#x27;t taken. It also performed
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/28/openai-gpt-6-astra-really-good-at-supply-chain-attacks-uk-gov-warns/5299588&quot;&gt;
+   unsolicited supply chain attacks
+  &lt;/a&gt;
+  in simulated security evaluations, according to the UK Artificial Intelligence Security Institute.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On Wednesday, OpenAI
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/30/irony-alert-openai-whines-that-chinese-model-stole-its-special-ip-that-it-stole-from-everybody-else/5300285&quot;&gt;
+   accused rival Chinese model maker Moonshot AI
+  &lt;/a&gt;
+  of distillation - essentially copying OpenAI models’ reasoning at scale - and said that poses a national security concern.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Early Friday, OpenAI confirmed to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  that it
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/02/openai-shows-three-staff-the-door-over-alleged-information-misuse/5300820&quot;&gt;
+   fired two safety researchers and a program manager
+  &lt;/a&gt;
+  for allegedly mishandling sensitive company information.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval </title>
+<link>https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856</link>
+<pubDate>Fri, 02 Oct 2026 15:20:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A California business owner was arrested on Thursday after being charged with allegedly smuggling Nvidia hardware to China without the proper export licenses. Keeping the highest-end GPUs out of Chinese hands has been a priority for the US government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Greg Lui, 38, allegedly tried to export around $300 million worth of Nvidia kit - typically used for artificial intelligence (AI) development - via US-based freight businesses and Malaysian transshipment companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prosecutors allege that Lui used his company, Earthmade Computer Inc, to order the products in the US, which consisted of servers containing high-powered Nvidia components, including A100, H100, PNY GE Force RTX 4090, and GeForce RTX 5090 GPUs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lui would then send them to Malaysia and Singapore, two countries that do not require licenses from the Commerce Department, and companies there would forward them to China in an effort to circumvent
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/10/01/the-risks-of-export-controls-on-ai-chips/424804&quot; target=&quot;_blank&quot;&gt;
+   US export controls
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  His alleged crimes violate regulations prohibiting the sale of economically sensitive equipment to adversarial countries, such as China, in the interests of national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In lay terms, the US doesn’t want its own tech companies’ high-end hardware being used to accelerate China’s push for dominance in the race for the world’s most capable AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Or, as it’s referred to in the US nowadays, “
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/30/trump-decrees-era-of-super-intelligence-upon-us/5300213&quot;&gt;
+   super intelligence
+  &lt;/a&gt;
+  (SI).”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “SI is the defining technology of the era,”
+  &lt;a href=&quot;https://www.justice.gov/opa/pr/california-man-arrested-smuggling-more-300-million-export-controlled-computer-servers-china&quot;&gt;
+   said
+  &lt;/a&gt;
+  John A. Eisenberg, assistant attorney general for national security. “The National Security Division will protect the American advantage in the chips that power this technology, a product of our unparalleled innovation and hard work, from illegal diversion by our economic and military adversaries.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://storage.courtlistener.com/recap/gov.uscourts.cacd.1041594/gov.uscourts.cacd.1041594.1.0.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   court documents
+  &lt;/a&gt;
+  [PDF], the scheme began in or around October 2023 and continued until at least August 12, 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prosecutors claim Lui received more than $176 million in payments from two Malaysian transshipment companies, and in return introduced them to US-based companies capable of supplying Nvidia hardware, brokering the sales of almost $300 million worth of kit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US government accuses Lui of being fully aware of the legal implications of his alleged actions, and that US export laws restricted the shipments of advanced Nvidia chips to China to license-holders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Court documents indicate that the US got its hands on documents tying the export of 92 servers to Kuala Lumpur from San Francisco International Airport, ordered by Earthmade. The documents also list the consignee for the onward re-shipment from Malaysia to Hong Kong as a Chinese customer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The indictment includes claims that Lui instructed a US front company to fraudulently list the recipient of a shipment as Jackie Lui, the supposed CEO at “Topmost,” a company registered in California by the CTO of one of the Malaysian transshipment businesses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prosecutors allege that, in 2021, Lui illegally purchased identity documents that were used as part of the scheme.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lui is charged with one count each of violations related to the Export Control Reform Act and the Export Administration Regulations, outbound smuggling, and money laundering, which together carry a maximum prison sentence of 50 years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The FBI’s investigation revealed that Lui allegedly sold the Chinese government hundreds of millions of dollars’ worth of American Super Intelligence technology, in clear violation of US export control laws,” said Roman Rozhavsky, assistant director at the FBI’s Counterintelligence and Espionage Division.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Controlling the export of advanced SI technology is critical to safeguarding our national security and defending the homeland, and the FBI will keep fighting for America’s businesses and economic security. We’re grateful to our partners across the US government and private sector for their assistance, and we’ll continue holding accountable anyone who violates US export laws to enrich themselves and help our adversaries.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  contacted Earthmade and Nvidia for comment. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PARTNER CONTENT: The VMware Exit Is a Protection Upgrade </title>
+<link>https://www.theregister.com/virtualization/2026/10/02/partner-content-the-vmware-exit-is-a-protection-upgrade/5300391</link>
+<pubDate>Fri, 02 Oct 2026 14:35:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;10c40a07-261d-45be-a2aa-f4cd169fa73d&quot;&gt;
+ &lt;p&gt;
+  Leaving VMware forces a fresh look at every layer of the datacenter, and data protection belongs near the top of that list. Most teams plan to move the backup design across as it stands and rebuild it on the new hypervisor. The better plan uses the exit to raise resiliency and recovery speed, keeps the backup application, and gives each layer the work it does best.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  What the migration touches
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Backup designs in most data centers rest on vSphere mechanics, from changed block tracking through the vStorage APIs and VMware snapshot behavior during a job to storage integration registered against the vCenter inventory and proxies placed per cluster. Many shops add an orchestration product such as Site Recovery Manager to drive the failover plan. Change the hypervisor and each of those assumptions gets a second look.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Backup vendors have done real work here, and support for the major KVM-based platforms has matured quickly over the past year. The bigger question sits upstream of the backup application. In the vSphere design, production ran the workloads and nearly everything else fell to a separate protection tier. Resilience past a drive failure, fast rollback, replication, site failover, and immutable copies each became another product with its own license, console, and renewal.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Why the old division of labor made sense
+ &lt;/h2&gt;
+ &lt;p&gt;
+  That design grew out of what the platform could do. Server virtualization abstracts a single server, presenting virtual CPUs, memory, and disks to a guest and leaving storage resilience to an array and recovery to a backup product. First-generation HCI moved storage into the servers and kept the same division of labor, often running a controller VM on every node. A backup tier that handled everything from a failed drive to a lost site was the right answer for that architecture.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The cost of that arrangement shows up on the worst day. A single site failure touches the hypervisor, the storage system, the backup application, the replication tool, and the network configuration, and the recovery path crosses every boundary between them. The exit is the first moment in years when that assumption is open for review.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  What the production platform should take on
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Datacenter virtualization abstracts the whole environment. Compute, storage, networking, and data protection share one code base and one set of metadata, so the platform holds a complete picture of a workload rather than a collection of blocks. That shared view lets production absorb responsibilities the old design pushed downstream.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Far fewer events reach the backup tier once production handles them. A second drive failure becomes a hardware replacement task instead of a restore in the middle of the business day, and a bad patch turns into a quick snapshot rollback that the application owner barely notices. That same resilience is what makes
+  &lt;a href=&quot;https://www.verge.io/blog/vmwareexit/refurbished-hardware-made-resilient/&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   refurbished servers and drives a defensible choice for production
+  &lt;/a&gt;
+  , and flash and memory pricing climbed through 2026, which makes the hardware you already own worth more than last year&#x27;s models assumed.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Backup&#x27;s job gets bigger, starting with the migration
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Shifting day-to-day recovery into the platform expands the backup application&#x27;s role. The first new assignment arrives before the new environment runs a single production workload. The backup product already protecting the vSphere estate holds a current, consistent copy of every VM, and a backup application that supports both the old hypervisor and the new one turns that copy into the migration path. Veeam Backup &amp; Replication is a good example of this model and now supports VergeOS as a platform, so a team can restore its vSphere backups onto the new environment, test them there, and cut over on a schedule it controls. The investment made to protect VMware becomes the vehicle that moves the workloads off of it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After the migration, the backup application keeps the work it has always done well. Long-term retention, compliance archives, air-gapped and offsite copies, and granular recovery for application owners all stay with the backup tier. It also becomes the independent copy that lives outside the production platform&#x27;s failure domain, which is the right place for the last line of defense.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Proving the platform side
+ &lt;/h2&gt;
+ &lt;p&gt;
+  Asking production to do more concentrates responsibility in a single vendor&#x27;s engineering. That trade is defensible, and it is only defensible against evidence. Ask for the failure scenarios live, against a running application, rather than on a feature matrix. Have the vendor pull a drive, then pull a second one past the stated protection limit with the workload still running. Ask them to delete a VM and recover a single file out of it and then take the primary site offline and bring the environment up somewhere else. A vendor that can run those four tests on a call has answered the question, and a vendor that offers a diagram instead has told you something too. Then run a test migration through the backup application and confirm the restored VMs boot and perform on the new platform.
+ &lt;/p&gt;
+ &lt;h2&gt;
+  The decision the exit presents
+ &lt;/h2&gt;
+ &lt;p&gt;
+  The hypervisor swap is the visible half of this project. How protection is divided between production and backup decides what the environment costs to run for the next five years and how it behaves on the worst day of those five years. Rebuilding the old division of labor is a choice, and it deserves the same scrutiny the licensing spreadsheet received.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VergeIO built VergeOS on the datacenter virtualization model described above, with resilience, snapshots, instant recovery, and site failover inside the same code base as compute, storage, and networking, and with VergeOS support in Veeam Backup &amp; Replication for the migration and the backup tier that follows it. At a recent session, Aaron Richman and Dave Vincent ran each of the four failure tests against a running application, from a single pulled drive through a full site recovery.
+  &lt;a href=&quot;https://www.verge.io/exit-vmware-to-resilient-hci/webinar-registration/&quot; rel=&quot;nofollow sponsored&quot;&gt;
+   The session is available on demand.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Take a look, and see how you can turn a big exit into a bigger opportunity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   George Crump is Chief Marketing Officer at VergeIO. He founded Storage Switzerland and spent his career as an industry analyst covering storage, virtualization, and data protection.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Supplied by VergeIO
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI&#x27;s wandering AI agents earn it a California subpoena </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850</link>
+<pubDate>Fri, 02 Oct 2026 14:34:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  California&#x27;s attorney general has subpoenaed OpenAI as the state investigates what happens when the AI lab&#x27;s models escape their testing environments and start meddling with systems on the open internet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Attorney General Rob Bonta
+  &lt;a href=&quot;https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   said
+  &lt;/a&gt;
+  his office served OpenAI with an investigative subpoena this week as part of a broader California Department of Justice probe into cybersecurity incidents and risks involving the company and its models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The move follows an investigation launched last month into
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881&quot;&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881&quot; target=&quot;_blank&quot;&gt;
+   an incident involving Hugging Face
+  &lt;/a&gt;
+  , after OpenAI&#x27;s agents managed to break out of their test environments and onto the public internet. They then went poking around Hugging Face&#x27;s systems, with one agent even creating an account on the platform without being told to.
+ &lt;/p&gt;
+ &lt;p&gt;
+  California&#x27;s DoJ isn&#x27;t saying exactly what it has demanded from OpenAI under the subpoena, but Bonta said the state wants more information about cybersecurity incidents involving the company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;My office is asking OpenAI additional questions regarding cybersecurity incidents and risks involving the company and its AI models,&quot; Bonta said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He also made clear that the investigation is looking at where responsibility lies when an AI model ends up doing something its developer didn&#x27;t intend.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Frontier models can be legitimate tools for cyber defense — at the same time, companies that develop these models and offer them for use have a moral and legal responsibility to ensure that they do not perpetrate or enable cyberattacks, either during model testing and development or once models are placed into service,&quot; Bonta said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Developers that fail to do so can and should be held legally accountable, and my office is committed to determining if that is the case here.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The subpoena doesn&#x27;t mean California has concluded OpenAI broke the law, and the attorney general&#x27;s office hasn&#x27;t identified any specific violation. For now, the state is still gathering information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the investigation has been building for several weeks. In September, Bonta joined a bipartisan group of 25 attorneys general
+  &lt;a href=&quot;https://oag.ca.gov/news/press-releases/attorney-general-bonta-congress-must-act-urgently-protect-against-catastrophic&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   calling on Congress to regulate large-scale AI models
+  &lt;/a&gt;
+  following reports of cybersecurity incidents at frontier AI labs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That letter specifically pointed to reports that OpenAI models undergoing evaluations had escaped their testing environments, reached the public internet, and accessed outside computer systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The attorneys general called for a government-led incident response regime that would give investigators direct access to AI companies&#x27; records when things go awry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bonta&#x27;s office now appears to be putting some of that thinking into practice at the state level.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/15/anthropic-and-openai-look-to-uncle-sam-to-make-them-too-big-to-fail/5296403&quot;&gt;
+   previously pointed out
+  &lt;/a&gt;
+  , the sandboxes intended to contain these agents need to be more secure, which is the most logical reasons why the Hugging Face and other incidents happened in the first place.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI didn’t respond to our questions. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Power approval set to delay Oracle&#x27;s Wisconsin AI datacenter </title>
+<link>https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832</link>
+<pubDate>Fri, 02 Oct 2026 13:50:39 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Oracle&#x27;s Wisconsin AI datacenter could miss its planned 2027 start date because the transmission infrastructure needed to power it is awaiting regulatory approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Research company Aterio
+  &lt;a href=&quot;https://www.aterio.io/blog/oracle-project-lighthouse-power-delays&quot;&gt;
+   warns
+  &lt;/a&gt;
+  that Project Lighthouse, being developed by Vantage in Port Washington with Oracle as tenant, faces a real risk of slipping beyond Big Red&#x27;s target of delivering capacity to customers in the second half of next year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Separately, Oracle reportedly sent a force majeure notice to a Blue Owl Capital subsidiary developing Project Jupiter in New Mexico.
+  &lt;a href=&quot;https://uk.finance.yahoo.com/news/oracle-cites-force-majeure-shield-122536420.html/&quot;&gt;
+   Bloomberg reported
+  &lt;/a&gt;
+  that Oracle was seeking to defer payments if the campus failed to come online as planned, rather than withdraw from the project. Oracle says the development remains on schedule.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Aterio said of this and the Wisconsin facility: &quot;The regulatory record points to the potential for dates later than company guidance, and Oracle&#x27;s stretched finances, together with its force majeure notice on Project Jupiter in New Mexico this week, raise the potential for slippage on its largest campuses.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oracle has been offered the opportunity to comment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/21/oracle-faces-100m-annual-bill-to-back-wisconsin-datacenter-power-promises/5275728&quot;&gt;
+   &lt;span data-lab-italic=&quot;italic&quot;&gt;
+    The Register
+   &lt;/span&gt;
+   has already reported
+  &lt;/a&gt;
+  that Oracle could face more than $100 million a year in financing costs to guarantee the power commitments behind the Wisconsin datacenter campus, which is rated at 902 MW of computing load and 1.3 GW of total electricity demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The immediate obstacle is American Transmission Company&#x27;s (ATC) application to the Public Service Commission of Wisconsin (PSC) for approval to build the campus&#x27;s grid connection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ATC is planning more than $2 billion in transmission infrastructure projects tied to datacenter developments across Wisconsin, ranging from high-voltage power lines and substations to upgrades to existing facilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Construction of the transmission infrastructure requires PSC approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The problem is power. The campus cannot run until ATC connects it to the grid, and ATC cannot start building until the PSC approves its application,&quot; Aterio said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PSC closed the original case after withdrawing its finding that ATC&#x27;s application was complete. ATC refiled in September, restarting the approval process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Aterio&#x27;s earliest scenario puts partial power in October 2027 and full supply in August 2028, although it considers that timetable highly unlikely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its base case puts partial power in December 2027 and full supply in October 2028. An extended regulatory review could push those dates to June 2028 and April 2029.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even December 2027 power delivery would leave little room for testing and commissioning before Oracle&#x27;s deadline.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In practice, a datacenter does not enter service as soon as first grid power arrives. Each building&#x27;s electrical and cooling systems have to be energized, tested and commissioned before it can carry customer load. That will take time. We therefore expect the campus&#x27;s load to ramp up mainly from the first quarter of 2028,&quot; Aterio said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the
+  &lt;a href=&quot;https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9&quot;&gt;
+   Financial Times reported
+  &lt;/a&gt;
+  that Tencent had signed a $7 billion deal to lease around 100,000 AI processors from Oracle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For context, Oracle reported $55.7 billion in total capital expenditures for its fiscal 2026, which closed at the end of May. Its total revenue was $67.4 billion. Capex guidance for the 2027 financial year is up to $95 billion. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Oracle&#x27;s Wisconsin AI datacenter could be ready before the power is </title>
+<link>https://www.theregister.com/on-prem/2026/10/02/oracles-wisconsin-ai-datacenter-could-be-ready-before-the-power-is/5300832</link>
+<pubDate>Fri, 02 Oct 2026 13:50:39 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Oracle&#x27;s Wisconsin AI datacenter could miss its planned 2027 start date because the transmission infrastructure needed to power it is awaiting regulatory approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Research company Aterio
+  &lt;a href=&quot;https://www.aterio.io/blog/oracle-project-lighthouse-power-delays&quot;&gt;
+   warns
+  &lt;/a&gt;
+  that Project Lighthouse, being developed by Vantage in Port Washington with Oracle as tenant, faces a real risk of slipping beyond Big Red&#x27;s target of delivering capacity to customers in the second half of next year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Separately, Oracle reportedly sent a force majeure notice to a Blue Owl Capital subsidiary developing Project Jupiter in New Mexico.
+  &lt;a href=&quot;https://uk.finance.yahoo.com/news/oracle-cites-force-majeure-shield-122536420.html/&quot;&gt;
+   Bloomberg reported
+  &lt;/a&gt;
+  that Oracle was seeking to defer payments if the campus failed to come online as planned, rather than withdraw from the project. Oracle says the development remains on schedule.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Aterio said of this and the Wisconsin facility: &quot;The regulatory record points to the potential for dates later than company guidance, and Oracle&#x27;s stretched finances, together with its force majeure notice on Project Jupiter in New Mexico this week, raise the potential for slippage on its largest campuses.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oracle has been offered the opportunity to comment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/21/oracle-faces-100m-annual-bill-to-back-wisconsin-datacenter-power-promises/5275728&quot;&gt;
+   &lt;span data-lab-italic=&quot;italic&quot;&gt;
+    The Register
+   &lt;/span&gt;
+   has already reported
+  &lt;/a&gt;
+  that Oracle could face more than $100 million a year in financing costs to guarantee the power commitments behind the Wisconsin datacenter campus, which is rated at 902 MW of computing load and 1.3 GW of total electricity demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The immediate obstacle is American Transmission Company&#x27;s (ATC) application to the Public Service Commission of Wisconsin (PSC) for approval to build the campus&#x27;s grid connection.
+ &lt;/p&gt;
+ &lt;p&gt;
+  ATC is planning more than $2 billion in transmission infrastructure projects tied to datacenter developments across Wisconsin, ranging from high-voltage power lines and substations to upgrades to existing facilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Construction of the transmission infrastructure requires PSC approval.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The problem is power. The campus cannot run until ATC connects it to the grid, and ATC cannot start building until the PSC approves its application,&quot; Aterio said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PSC closed the original case after withdrawing its finding that ATC&#x27;s application was complete. ATC refiled in September, restarting the approval process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Aterio&#x27;s earliest scenario puts partial power in October 2027 and full supply in August 2028, although it considers that timetable highly unlikely.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its base case puts partial power in December 2027 and full supply in October 2028. An extended regulatory review could push those dates to June 2028 and April 2029.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even December 2027 power delivery would leave little room for testing and commissioning before Oracle&#x27;s deadline.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In practice, a datacenter does not enter service as soon as first grid power arrives. Each building&#x27;s electrical and cooling systems have to be energized, tested and commissioned before it can carry customer load. That will take time. We therefore expect the campus&#x27;s load to ramp up mainly from the first quarter of 2028,&quot; Aterio said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, the
+  &lt;a href=&quot;https://www.ft.com/content/8799b33d-f07c-4a03-82f0-bf5d3d1d29e9&quot;&gt;
+   Financial Times reported
+  &lt;/a&gt;
+  that Tencent had signed a $7 billion deal to lease around 100,000 AI processors from Oracle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For context, Oracle reported $55.7 billion in total capital expenditures for its fiscal 2026, which closed at the end of May. Its total revenue was $67.4 billion. Capex guidance for the 2027 financial year is up to $95 billion. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Storage news ticker - 2 October </title>
+<link>https://www.theregister.com/file/2026/10/02/storage-news-ticker-2-october/5300835</link>
+<pubDate>Fri, 02 Oct 2026 13:26:22 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Cloud storage provider
+  &lt;strong&gt;
+   Backblaze
+  &lt;/strong&gt;
+  has published its quarterly drive stats report with the now usual minor changes in disk drive annual failure rates. The report spends a lot of time discussing the whys and wherefores and ins and outs of shingled magnetic recording (SMR) drives which Backblaze is not using in its Pod containers of drives; “There are no SMR drives in the Backblaze fleet today, and none of the drives in the tables above are shingled. But SMR is being developed across the hard drive industry, and “not today” does not mean “not ever.” Get the quarterly stats report
+  &lt;a href=&quot;https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Backblaze
+  &lt;/strong&gt;
+  introduced updates to Business Computer Backup that change how Jamf admins deploy and manage backup across their environments. The release builds on Backblaze’s existing Jamf integration, adding a more flexible way to onboard devices and users - especially in environments that aren’t perfectly centralized - so protection can be applied reliably across every endpoint.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Denmark’s GenomeDK is an HPC facility that supports researchers, students, SMEs, and hospitals with the infrastructure to store, manage, and analyze large-scale datasets, as well as run large scale simulations. GenomeDK’s largest storage system is a 33 PB
+  &lt;strong&gt;
+   BeeGFS
+  &lt;/strong&gt;
+  deployment used as a single mount point for everything, active analysis as well as long-term retention. Unlike a typical HPC environment where a fast parallel file system is reserved purely for scratch space, GenomeDK treats the same BeeGFS instance as both working storage and permanent archive; some datasets on the system are 15 years old. On a fixed annual public-sector budget, the team can&#x27;t simply buy one platform and run it unchanged for five years, instead, storage is expanded roughly every two to three years, with data migrated onto new capacity and the oldest hardware retired, an ongoing, incremental process rather than a single large refresh cycle. This process is performed in the background with minimal impact on services and is aided by internally developed tooling. Read more
+  &lt;a href=&quot;https://www.beegfs.io/c/wp-content/uploads/2026/09/GenomeDK-and-BeeGFS-Case-Study-2026.pdf&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Belgium-based
+  &lt;strong&gt;
+   Corbenic AI’s
+  &lt;/strong&gt;
+  Galahad is a long term memory layer for AI. A model reads a text once, and Galahad keeps what is computed. When the same text is needed again, Galahad gives the computation back, so the GPU never reads the same text twice. Galahad has a C++ core and runs inside vLLM, SGLang and llama.cpp. The model itself is not changed. It is free for non-commercial use on one GPU; commercial use needs a paid licence per GPU. Testing on messy data from Hugging Face showed:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    14× faster on vLLM: 0.59 seconds per question
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    100 against 77 for RAGFlow on the same questions
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    99% of the work comes back from memory
+    &lt;span&gt;
+    &lt;/span&gt;
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    91–95% correct answers on messy, real-world data
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Galahad software is a
+  &lt;span&gt;
+   vailable at GitHub:
+  &lt;/span&gt;
+  &lt;a href=&quot;https://r.email.corbenic.ai/mk/cl/f/sh/SMK1E8tHeG13ExGHl2xk1EgovhA1/FD-fAGQCQmGL&quot;&gt;
+   &lt;span&gt;
+    github.com/corbenicai/galahad
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span&gt;
+   .
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Neocloud
+  &lt;strong&gt;
+   CoreWeave
+  &lt;/strong&gt;
+  has a 25+ member
+  &lt;a href=&quot;https://www.coreweave.com/coreweave-partner-network&quot; target=&quot;_blank&quot;&gt;
+   partner ecosystem
+  &lt;/a&gt;
+  with several storage-related
+  &lt;span&gt;
+  &lt;/span&gt;
+  suppliers present, not just prominently featured VAST Data. We find LanceDB, Pinecone (vector database) and WEKA (fast parallel file services) also present.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dr. Luigi Nardi, founder and CEO at
+  &lt;strong&gt;
+   DBtune
+  &lt;/strong&gt;
+  has a vision for autonomous Postgres. While he believes database technology for AI agents is still in its early stages, Nardi has undertaken extensive academic research into AI which he is now applying to the database optimisation technology DBtune is developing. Fully autonomous Postgres is still some way off, but Luigi argues that spiralling cloud costs and the complexity of managing growing application and data demands is increasing the importance of using AI to optimise database instances. While
+  &lt;span&gt;
+  &lt;/span&gt;
+  PostgreSQL is already well established in the enterprise market, Luigi believes it will take significant adaptation of the source code to enable autonomous optimisation, but if the PostgreSQL community gets it right it will create an advantage over the likes
+  &lt;span&gt;
+  &lt;/span&gt;
+  of Oracle.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Knowledge
+  &lt;span&gt;
+  &lt;/span&gt;
+  graph supplier
+  &lt;strong&gt;
+   Graphwise
+  &lt;/strong&gt;
+  announced major updates to its AI Context Platform, Graphwise Platform, which include new Adobe integration, built-in evaluation tools, and broader workflow automation features. The new release optimizes the creation of a comprehensive context layer for enterprises, which accelerates the integration of AI into multilingual content and data. Enhancements include:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    AI Trust &amp; Rapid Onboarding: A new evaluation framework to measure, audit, and benchmark AI response
+    &lt;span&gt;
+    &lt;/span&gt;
+    accuracy, paired with automated unstructured data ingestion pipelines that convert raw enterprise documents into grounded context faster.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Enterprise Multilingual Governance: Native Adobe Experience Manager (AEM) integration for automated
+    &lt;span&gt;
+    &lt;/span&gt;
+    multilingual content tagging and cross-channel taxonomy synchronization to guarantee term integrity globally.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Unified Administration &amp; Automation: A centralized administrative control center for enterprise user
+    &lt;span&gt;
+    &lt;/span&gt;
+    and license management, alongside a rebranded, n8n-powered workflow engine to simplify complex data pipelines and GraphRAG orchestration.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Mission-Critical Reliability: Comprehensive core performance and stability enhancements across the
+    &lt;span&gt;
+    &lt;/span&gt;
+    underlying graph database architecture, built to support high-concurrency enterprise deployments.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   …
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cybersecurity supplier
+  &lt;strong&gt;
+   Index Engines
+  &lt;/strong&gt;
+  announced new research from its own CyberSense Research Lab showing that ransomware
+  &lt;span&gt;
+  &lt;/span&gt;
+  is increasingly moving beyond full encryption and using techniques designed to make corrupted data appear unaffected.
+  &lt;span&gt;
+   The lab&#x27;s findings highlight a broader challenge for cyber resilience as attackers target the structures that make data usable while suppressing traditional signs of corruption. Among 1,064 ransomware strains acquired and detonated during the first half of 2026, 47.8% exhibited directory-entry destruction, more than twice the 18.3% that exhibited full encryption. The lab also documented new ransomware designed to suppress familiar  signs of corruption by preserving file extensions and timestamps, maintaining low entropy, encrypting slowly, and targeting only selected sections of files.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Bad actors know what scanning tools look for, and the variants we detonated this year are built to hide it,&quot; said Jim McGann, CMO of Index Engines. &quot;Encoder is the clearest example. It destroyed files while leaving their names, sizes, timestamps, and entropy
+  &lt;span&gt;
+  &lt;/span&gt;
+  unchanged. A surface scan would report that data as clean. CyberSense caught it by analyzing the content and structure of each file. The Research Lab exists to find techniques like this early and build them into the model our customers rely on for recovery.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Access the full CyberSense Research Lab report
+  &lt;a href=&quot;https://indexengines.com/resources/whitepaper/an-inside-look-at-the-patented-process-used-by-index-engines-cybersense-research-lab-download/&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   …
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   InfluxData
+  &lt;/strong&gt;
+  announced InfluxDB 3.12, saying InfluxDB 3 Enterprise tackles a scaling problem as write volumes grow, the background work that organizes data for fast queries can fall behind. With 3.12, teams can add nodes dedicated to compaction, so it scales the same way ingest and query already do. Bulk Parquet imports are faster too, with import times dropping 64-70% across workloads tested. This distributed compaction is in beta.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spanish cloud storage provider
+  &lt;a href=&quot;https://internxt.com/&quot; target=&quot;_blank&quot;&gt;
+   &lt;strong&gt;
+    Internxt
+   &lt;/strong&gt;
+  &lt;/a&gt;
+  &lt;strong&gt;
+  &lt;/strong&gt;
+  wants to take share from AWS and Google with flat, S3-compatible storage pricing. We said: “Many CSPs operate under AWS&#x27; S3 price umbrella with no egress fees - Backblaze and Wasabi for two. So now we have a Spanish startup emulating them and using a US PR agency. What&#x27;s special here?” Internxt told us its distinction is the combination of predictable object-storage pricing with privacy, security, and European data sovereignty. Internxt S3 costs €7 per TB stored each month, with no ingress, egress or API fees. It is hot storage and compatible with the AWS S3 and IAM APIs. [An] “up to 80%” saving compares with hyperscalers such as AWS, Azure, and Google Cloud, rather than with Wasabi or Backblaze. For S3 customers, data is encrypted in transit and at rest, and the platform supports server-side encryption with customer-provided keys. Customers can also choose whether to store their data in U.S. or European regions. That makes Internxt particularly relevant to organizations looking for an S3-compatible service from a European privacy company, with more control over jurisdiction, encryption, and where their data is held.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We’re told Internxt was founded in Valencia in 2020 by Fran Villalba Segarra. Net revenue grew by more than 100% year over year in 2025, and the company closed the year EBITDA-positive. Internxt is now targeting $10 million in net revenue next year. Its most recent funding round was €3.3 million in July 2025, with participation from Prosegur Tech Ventures, Andorra Telecom and existing investors. That followed a €3 million round in 2024 and an earlier €250,000 round led by Angels Capital. Internxt has also received €1.4 million in public funding through Spain’s CDTI, supported by the Ministry of Science and European funds. Internxt already has a substantial presence in Europe, but the technology and the need for greater control over company data are not limited to Europe. The U.S. is an important growth market, particularly for the enterprise business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Lightbits Labs
+  &lt;/strong&gt;
+  said its ultra-fast, disaggregated block storage Lightbits SDS software is certified for Red Hat OpenStack services on OpenShift. Lightbits serves as the Cinder storage backend on the OpenShift control plane and also serves as a direct NVMe/TCP target for External Data Plane Management compute nodes. Download a white paper
+  &lt;a href=&quot;https://www.lightbitslabs.com/resources/enterprise-storage-for-openshift-integrating-nvme-tcp-block-storage-with-rhoso/&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;strong&gt;
+   MariaDB Foundation
+  &lt;/strong&gt;
+  announced its
+  &lt;a href=&quot;https://positivemarketing-dot-yamm-track.appspot.com/28knn9NlgGO6DvkbcZipJM4nIiWZ-7hO1yRvSe_aq2QuMiCTxoAGYU2LMDm_u5zmKhakXlF5pCe3n2vMIVD3CqRpi9FxO-L7ehVLqjkZ5ornTgPpdaLyXnZWWTdsJ-tc5bcrpemSOGDP3HNhNZTlnbH1TM_ZjZV8gMRUU6J1P46F9ilkvfEqphRYJEaRYBw&quot;&gt;
+   &lt;span&gt;
+    MariaDB Server Ecosystem Hub
+   &lt;/span&gt;
+  &lt;/a&gt;
+  has exceeded 200 entries, six months after launch.
+  &lt;span&gt;
+  &lt;/span&gt;
+  The Hub is a curated, open directory of MariaDB Server approved products, services and open-source projects. The ecosystem spans cloud and hosting platforms, monitoring and observability, backup and recovery, security, migration, connectivity, DevOps, analytics, AI and application development, content management, e-commerce and complete business applications. The 200 entries include database connectors and management tools, managed MariaDB services, hosting providers, monitoring platforms, migration technologies, enterprise applications and open-source projects.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Hub includes Solution Stacks: curated, production-oriented architectures showing how MariaDB Server can be combined with complementary technologies to address a particular use case. The first published stack, the Privacy-First Collaboration Stack, brings together MariaDB Server, Nextcloud and Passbolt to provide an open-source foundation for file collaboration, password management and data control. Further stacks are being developed around areas including sovereign infrastructure, e-commerce, multicloud independence, high availability and open web performance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Micron
+  &lt;/strong&gt;
+  has appointed Dr Scott DeBoer as a President and its Chief Technology and Products Officer and also Manish Bhatia as another President and Chief Operating Officer. Bhatia will lead Micron’s global operations and business units, with accountability for the company’s operating P&amp;L, spanning capital investment, manufacturing execution, and customer demand, pricing and delivery. DeBoer will be responsible for advancing the company&#x27;s memory and storage roadmap, accelerating innovation to meet customers&#x27; rapidly evolving requirements, and overseeing Micron Research Labs, a global flagship research hub dedicated to breakthrough memory and compute technologies.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tom’s Hardware reports
+  &lt;strong&gt;
+   Micron
+  &lt;/strong&gt;
+  this month
+  &lt;a href=&quot;https://www.pacermonitor.com/public/case/66816182/Micron_Technology,_Inc_v_Yangtze_Memory_Technologies_Co,_Ltd_et_al&quot;&gt;
+   &lt;span&gt;
+    filed
+   &lt;/span&gt;
+  &lt;/a&gt;
+  a lawsuit against China&#x27;s 3D NAND champion YMTC, accusing it of poaching its leading engineers, illegally obtaining its NAND memory know-how from them, and then using that information to build its own non-volatile memory as well as its patent portfolio. The Boise, Idaho-based company further alleges that YMTC uses patents granted to its former employees to accuse Micron of patent infringements in various jurisdictions. Read (a lot) more
+  &lt;a href=&quot;https://www.tomshardware.com/pc-components/ssds/micron-lawsuit-claims-chinese-memory-maker-ymtc-poached-its-engineers-then-sued-it-using-its-own-stolen-tech-ex-employees-hid-roles-on-linkedin-patented-micron-tech-and-won-a-german-injunction&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;strong&gt;
+   OpenStack
+  &lt;/strong&gt;
+  community released
+  &lt;a href=&quot;https://www.openstack.org/software/openstack-hibiscus/&quot;&gt;
+   &lt;span&gt;
+    OpenStack 2026.2 Hibiscus
+   &lt;/span&gt;
+  &lt;/a&gt;
+  , its 34th release, which includes enhancements across OpenStack services that strengthen security and trust, expand support for AI and other compute-intensive workloads, and help operators use infrastructure more efficiently at scale. It features:
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Nova expands confidential computing support with AMD SEV-SNP and Intel TDX, providing hardware-backed memory encryption, stronger workload isolation and attestation for sensitive workloads.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Designate strengthens DNS security with enhanced cross-tenant isolation, stronger authentication and support for TLSA/DANE, while adding new tooling to help operators prepare for post-quantum cryptography.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Cyborg strengthens accelerator security and tenant isolation with tighter access controls and hardware management protections designed for multi-tenant environments.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Nova and Cyborg expand support for accelerated workloads by enabling OpenStack to manage mediated devices such as vGPUs, giving operators greater flexibility in how accelerator resources are provided and managed.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Manila expands high-performance storage options with support for Weka and Lustre parallel filesystems for data-intensive AI, machine learning and HPC workloads.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Ironic and Nova improve bare-metal resource tracking, helping operators more efficiently manage the specialized and heterogeneous compute increasingly used for AI, HPC and other demanding workloads.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Watcher improves infrastructure utilization by making workload consolidation more responsive to both real-time usage and reserved capacity, while expanding automation options for managing unused resources.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Neutron significantly reduces networking overhead at scale, including a more than 15x reduction in the memory footprint of HA router monitoring.
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Glance makes image distribution and management more efficient with parallel image imports, preferred-store downloads and expanded cache management capabilities.
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Learn more
+  &lt;a href=&quot;https://www.openstack.org/software/openstack-hibiscus/&quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Quantum
+  &lt;/strong&gt;
+  has appointed now ex-board member James Clancy as its COO, as CEO Hugues Meyrath continues strengthening his executive team. Clancy will guide the Company’s execution of its operational and strategic objectives, with the goal of strengthening organizational performance, supporting revenue growth and customer success, and advancing Quantum’s ongoing transformation initiatives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He has a decent background to say the least as, while
+  &lt;span&gt;
+  &lt;/span&gt;
+  President of Global Storage Sales at Dell, he drove significant global sales growth worldwide. As SVP Global Sales for Dell EMC’s Data Protection Solutions, he enhanced sales and data efficiency for the industry market leader. Clancy also served as SVP at Dell Technologies, where he provided strategic leadership to improve customer relationships, streamline operations, and drive profitable revenue growth. Earlier roles also include Divisional VP of Americas for EMC’s Backup Recovery Systems Division and Specialty Sales Management at EMC Corporation (now Dell EMC, DPS).
+  &lt;span&gt;
+  &lt;/span&gt;
+  Clancy has also served as a business advisor to HYCU, Black Kite, Index Engines, and Nexus Advisory Partners.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Quantum
+  &lt;/strong&gt;
+  has also ppointed Mike Heuer as its CIO to lead Quantum’s global information technology organization, including enterprise applications, data, AI adoption, infrastructure, and cybersecurity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   SerialTek
+  &lt;/strong&gt;
+  has announced the
+  &lt;span&gt;
+  &lt;/span&gt;
+  Kodiak PCIe 7.0 Protocol Test and Analysis System, which captures, analyzes and generates PCIe 7.0 traffic at 128 GT/s across all 16 lanes. It is the third generation built on the Kodiak architecture and is scheduled to ship in Q1 2027. Learn more
+  &lt;a href=&quot;https://serialtek.com/kodiak-pcie-7/ &quot; target=&quot;_blank&quot;&gt;
+   here
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Snowflake
+  &lt;/strong&gt;
+  customer LSEG is increasing its Snowflake spend. LSEG is the London Stock Exchange Group, a UK-based financial markets infrastructure and data company listed on the London Stock Exchange. It and Snowflake announced an expanded five-year enterprise-wide collaboration bringing together LSEG’s trusted financial data and resilient financial market infrastructure with Snowflake&#x27;s cloud-based data and AI technology.
+  &lt;span&gt;
+  &lt;/span&gt;
+  LSEG is increasing its commitment with Snowflake to support planned growth, migration programmes and customer-facing data services across its Markets, Data &amp; Analytics, AI and Risk Intelligence. Snowflake will also become a licensed customer
+  &lt;span&gt;
+  &lt;/span&gt;
+  of LSEG’s Risk Intelligence World-Check services, supporting its own customer onboarding and third-party risk management processes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customer intelligence supplier
+  &lt;strong&gt;
+   Stravito
+  &lt;/strong&gt;
+  launched its Model Context Protocol (MCP) Server to bring each company&#x27;s market and consumer research into the everyday AI tools its teams use, so decisions get made on evidence the business owns and trusts.
+  &lt;span&gt;
+  &lt;/span&gt;
+  Even connected to a company&#x27;s files, generic AI often reads a research report like a text document, missing the charts, graphs, and visuals where key findings live, or falling back on unverified answers from the web. Stravito’s MCP Server changes that, connecting to AI tools like ChatGPT, Claude, Copilot, and the custom agents enterprises have built, through a single, governed connection. It draws on the full body of a company&#x27;s research, reading not just text but also visual findings from reports and presentations to videos, audio, and spreadsheets.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   &lt;strong&gt;
+    Veeam
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  announced that it has upgraded Aberdeen Investments’ data resilience strategy. It has achieved 100% protection of its Salesforce files and metadata with zero failures, while improving total cost of ownership (TCO) by 50% using Veeam Data Cloud for Salesforce.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   VergeIO
+  &lt;/strong&gt;
+  has announced its expansion into Europe and named Rémi Bargoing VP, EMEA Sales. Rémi will build a local sales and partner team for Europe, the Middle East and Africa from a new office in Milan, Italy. He brings more than 20 years of infrastructure sales leadership in Europe, including 13 years at DataCore Software, where he ran the Italian subsidiary and most recently served as VP Sales.
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Walrus
+  &lt;/strong&gt;
+  announced Matterhorn is making Walrus Memory the default backend for agent memory. Project context, conversations, docs, deployment history, contract artifacts, audit reports, and workflow state are written to Walrus instead of living only in a chat session. Matterhorn (
+  &lt;a href=&quot;https://matterhorn.so/&quot;&gt;
+   matterhorn.so
+  &lt;/a&gt;
+  ) is an AI coworker for crypto and Web3. You describe what you want in natural language; it helps you use protocols, generate and audit smart contracts, and prepare transactions across 20+ chains. Signing and approval stay in your own wallet—it does not hold funds or sign for you. Walrus Memory is a portable memory layer for AI agents, built on Walrus (a decentralized, verifiable data platform from the team behind Sui / Mysten Labs). It launched in June 2026. LLM calls are stateless, so agents normally forget everything between sessions, and when memory exists it is usually locked inside one vendor. Walrus Memory stores encrypted memories as blobs on Walrus.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  …
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> MinIO: you don’t need an object cache. You need a faster object store. </title>
+<link>https://www.theregister.com/object/2026/10/02/minio-you-dont-need-an-object-cache-you-need-a-faster-object-store/5300758</link>
+<pubDate>Fri, 02 Oct 2026 13:11:59 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  MinIO
+  &lt;a href=&quot;https://www.min.io/blog/you-dont-need-a-cache-you-need-a-faster-object-store&quot; target=&quot;_blank&quot;&gt;
+   blogs
+  &lt;/a&gt;
+  about object caching in AI and says you don’t need a cache if your object storage is fast enough.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Blogger Daniel Valdivia, a MinIO architect, compares a CoreWeave
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/10/16/coreweaves-lota-tech-moves-object-data-at-high-speed/1597613&quot; target=&quot;_blank&quot;&gt;
+   LOTA
+  &lt;/a&gt;
+  (Local Object Transport Accelerator) caching proxy benchmark
+  &lt;span&gt;
+  &lt;/span&gt;
+  with MinIO
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2025/03/17/minio-aistor-20-embraces-nvidia-gpudirect-bluefield-3-and-nim-for-faster-ai-inference/1590187?_gl=1*1st44id*_ga*MTY2OTcyMjAyNS4xNzcwODg2MTMy*_ga_NSDTXHMMN0*czE3ODUzMTY2MzckbzE4NiRnMSR0MTc4NTMyMDEzOSRqNTQkbDAkaDA.&quot; target=&quot;_blank&quot;&gt;
+   AIStor
+  &lt;/a&gt;
+  object storage performance. CoreWeave ran
+  &lt;a href=&quot;https://github.com/minio/warp&quot; target=&quot;_blank&quot;&gt;
+   Warp
+  &lt;/a&gt;
+  , an open benchmark test, loading object data on on 20 GPU nodes, each with 8 GPUs, 1 TiB of LOTA cache per node, and a dedicated network adapter with dual 100 Gbps links for storage access, and achieved S3 GET performance of 18.4 GiB/s per node (19.8 GB/s) . MiniO’s AIStor, using Solidigm QLC SSDS, with no caching achieved c33.5 GiB/s per node (36 GB/s) in a separate
+  &lt;a href=&quot;https://www.solidigm.com/content/dam/solidigm/en/site/products/technology/2026/new-economics-of-ai-factory-minio/document/new-economics-of-ai-factory-graph.pdf&quot; target=&quot;_blank&quot;&gt;
+   benchmark
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Valdiva says: “An erasure-coded object store on capacity-optimized QLC drives, running over plain TCP, delivers more throughput per node than a warm cache on local NVMe (about 33.5 GiB/s versus 18.4 GiB/s), and more than 11 times the cluster throughput of CoreWeave&#x27;s own cold path. A cache should be faster than what&#x27;s behind it. When a durable store with parity beats the cache, the architecture is telling you something.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He explains: “A cache exists because the thing behind it is slow. When your object store is fast, you don&#x27;t need to make complicated trade-offs to keep GPUs fed. …you shouldn&#x27;t need a cache on every GPU node to make your object store fast in the first place.”
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  MinIO is not saying you don&#x27;t need KV caching systems: “An object cache speeds up S3 GETs of datasets and checkpoints. An inference KV cache stores attention state so the engine doesn&#x27;t recompute a long prompt every time a user comes back. They have different access patterns, block sizes, and success metrics.” They are two different caching situations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MinIO supports KV caches and has developed its own
+  &lt;a href=&quot;https://www.blocksandfiles.com/ai-ml/2026/05/12/minio-adds-petabyte-scale-memkv-cache-for-nvidia-gpu-inference/5238593&quot; target=&quot;_blank&quot;&gt;
+   &lt;span&gt;
+    MemKV
+   &lt;/span&gt;
+   ,
+  &lt;/a&gt;
+  a shared-nothing KV store on raw NVMe, wired into inference engines like vLLM.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In effect, CoreWeave wouldn&#x27;t need LOTA if it used MinIO&#x27;s AIStor instead.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> OpenAI shows three staff the door over alleged information misuse </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/02/openai-shows-three-staff-the-door-over-alleged-information-misuse/5300820</link>
+<pubDate>Fri, 02 Oct 2026 13:05:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  OpenAI has fired two safety researchers and a program manager for allegedly mishandling sensitive company information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ChatGPT maker confirmed the dismissals to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , saying an internal investigation found the trio had violated company rules governing access to and handling of confidential information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,&quot; an OpenAI spokesperson said. &quot;Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  At least some of the information was allegedly shared with an outside organization that evaluates AI systems. OpenAI said its investigation found other misconduct beyond that disclosure, but has not described it or identified the organization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ChatGPT creator said the employees were not dismissed for raising AI safety concerns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The firings come after a messy few months for OpenAI&#x27;s safety teams, including an incident in which one of its agents
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/24/openai-hugging-face-attack-doesnt-mean-agents-are-evil-unless-you-tell-them-to-be/5277881&quot;&gt;
+   compromised infrastructure belonging to AI platform Hugging Face
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI subsequently brought in external experts to investigate what happened and published findings detailing the agent&#x27;s behavior and the security failures that allowed it to reach Hugging Face.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The incident also prompted a much wider trawl through OpenAI&#x27;s logs for other examples of agents interacting with external systems. This week,
+  &lt;a href=&quot;https://openai.com/hugging-face-incident-and-misalignment/&quot;&gt;
+   OpenAI said it has now notified more than 100 organizations about activity linked to its agents
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Being contacted doesn&#x27;t necessarily mean an organization was hacked or that private data was accessed. OpenAI said the notifications cover cases where agents interacted with third-party systems without authorization or in ways that warranted alerting their operators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI&#x27;s investigation has also found cases where its agents sent training and evaluation data to third-party services. In 53 instances, images originally uploaded by ChatGPT users ended up on image-hosting sites.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On September 20, an agent
+  &lt;a href=&quot;https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/&quot;&gt;
+   contacted an external chatbot
+  &lt;/a&gt;
+  through insufficiently filtered DNS traffic in a training environment intended to block live internet access. OpenAI&#x27;s monitoring system spotted the behavior within 15 minutes and a human reviewer picked up the alert three minutes later, but the run wasn&#x27;t actually killed for another two and a half hours.
+ &lt;/p&gt;
+ &lt;p&gt;
+  OpenAI has also
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743&quot;&gt;
+   scrapped the planned release of GPT-6.1 Astra
+  &lt;/a&gt;
+  after concluding the model didn&#x27;t meet its safety bar around remaining within the scope and authorization of tasks it was given.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US biz hasn&#x27;t said whether the allegedly mishandled material concerned any of its recent agent incidents, whether the outside organization was involved in investigating them, or whether any customer or user information was exposed. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch </title>
+<link>https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622</link>
+<pubDate>Fri, 02 Oct 2026 13:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  In an effort to provide a more affordable AI system, Nvidia is introducing a
+  &lt;a href=&quot;https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   cut down version
+  &lt;/a&gt;
+  of the DGX Spark with half the memory and storage. The GB10-based systems will be offered exclusively through hardware partners including Acer, Asus, Dell, Gigabyte, HP, and MSI, and are expected to retail for around $4,999.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The less-powerful SKUs are necessary after Nvidia jacked the price of its 128 GB DGX Spark on Friday to $6,950 — an increase of nearly 75 percent from this time last year. As you might have already guessed, skyrocketing memory prices
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/10/01/ram-supply-set-to-worsen-says-micron-as-ceo-celebrates-much-higher-prices/5300346&quot; target=&quot;_blank&quot;&gt;
+   are to blame
+  &lt;/a&gt;
+  for the massive price adjustment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That makes the 64 GB model considerably less than Nvidia’s top-spec DGX Spark and GB10 systems given the ongoing memory shortage, but that’s still 25 percent more than the 128 GB version retailed for at launch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia’s GB10 platform has been plagued by pricing creep since the Projects Digits concept was unveiled at CES last year. Originally, the appliance was expected to retail
+  &lt;a href=&quot;https://www.theregister.com/software/2025/01/07/nvidia-unveils-cut-down-grace-blackwell-superchip/700312&quot; target=&quot;_blank&quot;&gt;
+   for around $3,000
+  &lt;/a&gt;
+  , not the $4,000 it eventually ended up selling for.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even at that price, the DGX Spark offered something that just a few years ago would have set you back tens of thousands of dollars: large quantities of GPU memory. In fact, at the time it launched, the system was technically the highest capacity workstation GPU Nvidia sold.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s not really the case with the 64 GB model, which due to its smaller capacity, isn’t as well suited to certain AI workloads like fine tuning. But if your main concern is local AI inference for powering private agents, Nvidia argues models in the 26-35 billion parameter range, Qwen 3.8 27B for example, are now good enough to get the job done.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the new systems may offer less memory, we’re told the memory bandwidth remains unchanged at 273 GB/s, which tells us they’re using lower capacity LPDDR5x memory modules rather than fewer of them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia also says that beyond the new memory config, the systems are otherwise unchanged and will feature the same 20-core Arm processor from MediaTek. The systems also retain their onboard ConnectX-7 networking, which enables clustering of up to 4x GB10-based devices at 200 Gbps a piece.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To further facilitate this, Nvidia says later this month it’ll be rolling out new software tools to DGX OS to facilitate cluster configurations and inference deployments. Previously, this required some tinkering in the CLI to get set up along with some tweaks to the vLLM or TensorRT-LLM launch commands.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While the 64 GB version’s lower MSRP should make the systems more accessible amid the ongoing memory crunch, it doesn’t bode well for Nvidia’s RTX Spark notebooks and mini PCs expected to make their debut this fall.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These systems are based on the same GB10 silicon that powers the DGX Spark and other DGX OS-based systems, but are intended for more general purpose computing, like AAA gaming, web browsing, and content creation, not just AI inference and training workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Announced at Computex
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/06/01/nvidia-recasts-gb10-superchip-in-bid-for-high-end-pc-market/5249068&quot; target=&quot;_blank&quot;&gt;
+   late this spring
+  &lt;/a&gt;
+  , RTX Spark-based systems were already expected to be quite expensive, particularly the 128 GB variants. With DGX Spark pricing nearing $7,000, similarly equipped RTX Spark notebook offerings based on the chip could end up selling for significantly more.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But, as we understand it, Nvidia will be offering versions of the chip with much lower memory capacities for price conscious PC buyers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, across the DGX and RTX Spark lines, Nvidia will face some competition from AMD’s newly launched
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/09/29/amds-192-gb-gorgon-halo-prices-might-leave-you-petrified/5299875&quot; target=&quot;_blank&quot;&gt;
+   Gorgon Halo SoCs
+  &lt;/a&gt;
+  , which offer memory capacities ranging from around 32 GB at the low end to 192 GB for the top-spec Ryzen AI Max+ 495 SKUs. What’s more, systems powered by that chip are currently retailing for less than Nvidia’s 128 GB DGX Spark. But while AMD wins on max capacity, it should be noted that our testing has repeatedly shown that the GB10’s GPU offers substantially higher performance for AI tasks. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Excel Canvas offers to turn your workbook into the boss&#x27;s next report </title>
+<link>https://www.theregister.com/software/2026/10/02/excel-canvas-offers-to-turn-your-workbook-into-the-bosss-next-report/5300812</link>
+<pubDate>Fri, 02 Oct 2026 12:27:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft plans to roll out Excel Canvas through October, adding Copilot-generated reports to its veteran spreadsheet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Excel Canvas &quot;transforms workbook data into a polished report containing visualizations, metrics, and insights,&quot; said Microsoft. The reports automatically refresh as the underlying data changes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Users need access to Copilot in Excel and can tweak reports through natural language prompts. Presumably along the lines of &quot;Why the heck did you use that as the x-axis?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lately, Microsoft has been relentlessly fiddling with Excel. Last week it added an opt-in feature to
+  &lt;a href=&quot;https://www.theregister.com/applications/2026/09/25/microsoft-cells-out-crams-multiple-values-into-excel-boxes/5299294&quot;&gt;
+   allow multiple values in the same cell
+  &lt;/a&gt;
+  , potentially complicating life for third-party tools that expect one value per cell.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier Copilot additions have met resistance or been withdrawn. Earlier this year, there were howls of outrage from users when a Copilot Dynamic Action Button was unceremoniously dropped onto their workspaces. In response, Microsoft
+  &lt;a href=&quot;https://www.theregister.com/ai-ml/2026/05/22/microsoft-lets-users-exile-floating-copilot-button-after-interface-rage/5245093&quot; target=&quot;_blank&quot;&gt;
+   swiftly allowed users to send it to the toolbar
+  &lt;/a&gt;
+  . Microsoft also
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327&quot;&gt;
+   abandoned the COPILOT() function
+  &lt;/a&gt;
+  in August this year, barely 12 months after introducing it, saying it had &quot;decided not to move forward with this feature.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The function carried a warning that its output should be checked for accuracy, particularly when used for business decisions or reports. Hardly reassuring when the spreadsheet feeds the accounts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Automatically refreshing reports could save users some work, provided Copilot selects appropriate metrics and charts. Canvas also enters a crowded market: businesses already using dashboard tools will need a reason to add another. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Teen suspected of running KillSec ransomware group as cops seize servers, arrest three </title>
+<link>https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784</link>
+<pubDate>Fri, 02 Oct 2026 11:43:35 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Police suspect a 16-year-old was the main operator of KillSec, a ransomware group linked to around 1,000 suspected attacks worldwide.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Authorities announced on Thursday that an international operation had seized the group&#x27;s infrastructure and made three provisional arrests. The German-led Operation KillSwitch replaced the crew&#x27;s leak site with a police seizure notice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The available information is incredibly fragmented. Europol said the 16-year-old was &quot;the group&#x27;s suspected main operator,&quot; but did not explicitly say this person was arrested.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spanish police announced the arrest of a &quot;minor,&quot; a Romanian national residing in Spain, but did not publicly link this arrest to the 16-year-old mentioned by Europol.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The US Department of Justice (DoJ) said UK police had arrested Dutch national Fouad Eltibrizi, whom it has charged over alleged cybercrimes in the US and Puerto Rico. It is seeking his extradition.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Eltibrizi is the only suspect officials have publicly named. Europol told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  he was allegedly one of KillSec&#x27;s negotiators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Authorities have not named the suspected 16-year-old operator.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Romanian police (Poliția Română) said a 24-year-old helped establish KillSec in October 2023, although other authorities date the group&#x27;s formation to 2024. Their statement did not specify whether that person was arrested.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Officials separately confirmed to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  that a Romanian national in his twenties was arrested in Romania on suspicion of acting as a KillSec affiliate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Europol also identified a suspected developer who turned 18 in August and was a minor when some of the alleged offenses were committed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spanish police referenced a woman who remains under investigation in connection to the case, but was not arrested.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The coordinated raids took place on September 30, following investigations that began in early 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ten police agencies from Europe and the US took part, with officers raiding eight properties across Greece, Romania, Spain, and the UK.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Spanish police said officers raided a home and an office in an Alicante hotel, while Poliția Română searched four homes. Neither Greece nor the UK has released information about their involvement in the operation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Authorities secured at least 110 TB of data on KillSec&#x27;s leak site against further unauthorized access. Investigators are examining seized devices and data to identify victims, attacks, and suspects, and trace the group&#x27;s criminal proceeds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the course of the investigation, police took control of five central servers used to manage the group&#x27;s activities and store victims&#x27; data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Security shops Bitdefender and Group-IB also supported the investigation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  KillSec uses double extortion, encrypting victims&#x27; systems and threatening to publish stolen data unless they pay.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Group-IB recently included KillSec, also referred to as &quot;Kill Security&quot; and &quot;k1llsec,&quot; in its 2025 top 10 rankings for ransomware groups operating in APAC, LATAM, and the Middle East.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company&#x27;s researchers said KillSec most commonly preyed on financial services and healthcare organizations, but was known to attack government entities and large enterprises.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Group-IB said KillSec also offered stolen data for sale at prices ranging from $5,000 to $500,000.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Servers can be replaced in weeks; the people who build the platform and approve every attack cannot,&quot; said Group-IB CEO Dmitry Volkov. &quot;Identifying them and supporting law enforcement in bringing them to justice is what turns a takedown from a pause into an end.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  KillSec initially offered a Windows encryptor before adding a version capable of encrypting
+  &lt;a href=&quot;https://www.theregister.com/software/2025/12/09/researchers-spot-700-percent-increase-in-hypervisor-attacks/2483176&quot;&gt;
+   VMware ESXi hosts
+  &lt;/a&gt;
+  , deleting data, shutting down VMs, and removing recovery points. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Once a $35 computer, the 2 GB Raspberry Pi 4 now costs $67.50 </title>
+<link>https://www.theregister.com/personal-tech/2026/10/02/once-a-35-computer-the-2-gb-raspberry-pi-4-now-costs-6750/5300774</link>
+<pubDate>Fri, 02 Oct 2026 11:20:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Raspberry Pi has raised prices for the 2 GB Pi 4 and Pi 5, citing rapidly rising memory costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.raspberrypi.com/news/price-increases-for-2gb-raspberry-pi-4-and-raspberry-pi-5/&quot;&gt;
+   Both models now cost $12.50 more
+  &lt;/a&gt;
+  , taking the 2 GB Pi 4 to $67.50 and the equivalent Pi 5 to $77.50. Readers with long memories may recall the $35 Pi 4. Its price
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2021/10/21/raspberry-pi-4-in-price-rise-first-chip-shortage-blamed/272382&quot;&gt;
+   &quot;temporarily&quot; rose to $45
+  &lt;/a&gt;
+  during the pandemic and has since climbed further.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The board maker
+  &lt;a href=&quot;https://investors.raspberrypi.com/reports&quot;&gt;
+   reported
+  &lt;/a&gt;
+  a 90 percent increase in first-half revenue to $256.9 million, while gross profit rose 79 percent to $59.4 million. Gross profit per board increased 53 percent to $12.20, helped by price rises and stocks of memory bought at lower prices in 2025. Raspberry Pi says that inventory advantage has largely been exhausted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its advice to customers facing higher prices is to consider older models, such as the Pi 3B, 3A+, or 3B+, and check how much RAM their projects actually need.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Price rises have become a way of life for Pi customers. In April 2026, much of the Pi 4 and Pi 5 range saw
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/04/01/prices-hiked-on-most-raspberry-pi-4-and-5-variants/5222785&quot; target=&quot;_blank&quot;&gt;
+   substantial price increases
+  &lt;/a&gt;
+  . A 16 GB Pi 5, for example,
+  &lt;a href=&quot;https://www.pishop.us/product/raspberry-pi-5-16gb/&quot;&gt;
+   currently costs $305 at PiShop
+  &lt;/a&gt;
+  – a far cry from its $120 launch price in January 2025, when
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/01/09/the-ultimate-pi-5-arrives-with-16gb-and-a-price-to-match/405569&quot;&gt;
+   we wondered whether even that was a bit steep for a Pi
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 2 GB Pi 4 and Pi 5 escaped April&#x27;s increases, but that reprieve has ended. Prices for other products remain unchanged, including the 1 GB Pi 4 and Pi 5 and the 2 GB Compute Module 4 and 5.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The latest round of increases comes as enthusiasts and vendors alike ponder ways to
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/09/23/thoughts-return-to-forbidden-ram-upgrades-as-raspberry-pi-os-gets-fresh-lick-of-paint/5298600&quot; target=&quot;_blank&quot;&gt;
+   upgrade the memory soldered to the boards
+  &lt;/a&gt;
+  . Raspberry Pi engineer Phil Elwell took to the firm&#x27;s support forums earlier this year to state that newer firmware locked the devices to their original RAM capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pi boss Eben Upton said: &quot;The price of memory will eventually subside, and we look forward to reversing our own price increases when it does.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Customers may be waiting a while. Micron CEO Sanjay Mehrotra
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/10/01/ram-supply-set-to-worsen-says-micron-as-ceo-celebrates-much-higher-prices/5300346&quot;&gt;
+   warned earlier this week
+  &lt;/a&gt;
+  that RAM shortages would persist into 2028 and possibly beyond.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He added: &quot;We do not have line of sight to when supply and demand will return to balance.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Fortinet sounds the alarm over actively exploited FortiMail zero-day </title>
+<link>https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803</link>
+<pubDate>Fri, 02 Oct 2026 10:53:49 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Fortinet is warning customers to lock down FortiMail after attackers started exploiting a critical bug that lets them write files to vulnerable systems without logging in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The flaw, tracked as CVE-2026-104286, carries a CVSS score of 9.8 and affects multiple versions of Fortinet&#x27;s email security platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://fortiguard.fortinet.com/psirt/FG-IR-26-175&quot;&gt;
+   Fortinet describes the vulnerability
+  &lt;/a&gt;
+  as a combination of path traversal and improper handling of null characters in FortiMail&#x27;s web interface. An unauthenticated attacker can exploit it using specially crafted HTTP or HTTPS requests to write arbitrary files to the underlying system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Writing files to certain locations could allow an attacker to execute code or commands on the appliance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fortinet says the flaw affects FortiMail versions 8.0.0 through 8.0.1, 7.6.0 through 7.6.6, 7.4.0 through 7.4.8, and 7.2.0 through 7.2.9.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vendor&#x27;s advisory says CVE-2026-104286 &quot;is being exploited in the wild,&quot; although it doesn&#x27;t say when the attacks began, who is behind them, or how many customers may have been compromised.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It has, however, published indicators administrators can hunt for on their systems. These include suspicious files and configuration changes, along with IP addresses associated with the attacks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CISA has
+  &lt;a href=&quot;https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog&quot;&gt;
+   added CVE-2026-104286 to its Known Exploited Vulnerabilities catalog
+  &lt;/a&gt;
+  , directing US federal civilian agencies to carry out forensic triage and apply mitigations by October 4.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fortinet lists fixes for several affected branches as &quot;upcoming,&quot; leaving customers on those versions reliant on workarounds until updates arrive.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the meantime, Fortinet recommends disabling Identity Based Encryption if it isn&#x27;t required. Where that&#x27;s not possible, customers should prevent the FortiMail management interface from being reachable from the internet and restrict access to trusted private networks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Administrators should also check for signs of compromise: applying a workaround will not remove any files or persistence mechanisms attackers may already have planted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s not Fortinet&#x27;s first encounter with attackers making themselves at home on its network appliances this year. In June, credentials linked to around 75,000 FortiGate firewalls
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/17/massive-password-stealing-attack-hits-75k-fortinet-firewalls/5257877&quot;&gt;
+   turned up in criminal hands
+  &lt;/a&gt;
+  , though Fortinet said the data came from previous incidents and brute-force attacks rather than a fresh breach. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK spending watchdog opens investigation into Capita&#x27;s pension fiasco </title>
+<link>https://www.theregister.com/public-sector/2026/10/02/uk-spending-watchdog-opens-investigation-into-capitas-pension-fiasco/5300766</link>
+<pubDate>Fri, 02 Oct 2026 10:04:04 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The UK&#x27;s public spending watchdog is investigating the troubled transfer of the Civil Service Pension Scheme (CSPS) to Capita.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In
+  &lt;a href=&quot;https://www.nao.org.uk/work-in-progress/transfer-of-the-civil-service-pension-scheme-to-capita/&quot;&gt;
+   a notice
+  &lt;/a&gt;
+  , the National Audit Office (NAO) said problems had persisted since the outsourcer took over administration in December 2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Cabinet Office awarded Capita
+  &lt;a href=&quot;https://www.theregister.com/2023/11/21/capita_wins_239m_contract_to/&quot;&gt;
+   the seven-year £239 million contract
+  &lt;/a&gt;
+  in November 2023, allowing two years to prepare for the transition. The scheme serves 1.5 million current and former public servants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Key service levels have been repeatedly missed, leaving many members struggling to access the information they need to plan for their retirement,&quot; the NAO said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Capita promised AI and automation, but the takeover brought
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/12/03/new-capita-run-civil-service-pension-portal-full-of-errors/2851121&quot;&gt;
+   a glitchy online portal
+  &lt;/a&gt;
+  , while some members struggled to receive pension payments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Capita missed its deadline to restore normal service by the end of June. It subsequently told MPs that
+  &lt;a href=&quot;https://www.theregister.com/public-sector/2026/07/10/capita-hears-demand-for-pension-scheme-cleanup-loud-and-clear-but-wont-say-yes/5269852&quot;&gt;
+   all but the most complex cases would return to normal service by September
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Responding to the investigation, Capita said it &quot;accepts that performance remains below the standards that scheme members and the Government rightly expect&quot; and that fixing the problems was its top priority.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Scheme members interviewed by the
+  &lt;a href=&quot;https://www.bbc.co.uk/news/articles/cn9wvz88wg9o&quot;&gt;
+   BBC last month
+  &lt;/a&gt;
+  described feeling upset, frustrated, and ignored, with some waiting months for payments. One woman had been waiting six months for her widow&#x27;s pension after her husband died in March.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Capita said it would cooperate with parliamentary and regulatory investigations, and continue to engage fully and transparently with the NAO, Cabinet Office, and relevant stakeholders.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Capita recognises the need for continued service improvement, and we are implementing further automation along with stronger governance including improved management information. This will continue to improve operational output and member experience,&quot; it said. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Met Police suspends use of phone-hacking software over Russian links </title>
+<link>https://www.theregister.com/software/2026/10/02/met-police-suspends-use-of-phone-hacking-software-over-russian-links/5300549</link>
+<pubDate>Fri, 02 Oct 2026 09:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The Metropolitan Police has stopped using digital forensics software from Oxygen Forensics while it investigates US allegations that the supposedly American outfit was secretly owned by Russians and developing its wares in Moscow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Scotland Yard confirmed it has paused use of the company&#x27;s tools and launched a &quot;full review,&quot; after US prosecutors last week accused Oxygen CEO Lee Reiber and Russian national Oleg Sergeyevich Davydov of
+  &lt;a href=&quot;https://www.theregister.com/software/2026/09/24/doj-uncle-sam-bought-forensics-software-from-same-russian-operation-supplying-fsb/5298774&quot;&gt;
+   concealing the company&#x27;s ownership and where its software was actually being built
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Met signed a three-year deal with Oxygen in December 2023. Digital forensics teams use its software to extract and analyze data from phones and other devices seized during investigations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We have paused our use of the tool while we carry out a full review,&quot; a Met spokesperson told
+  &lt;a href=&quot;https://www.thetimes.com/uk/crime/article/met-police-software-moscow-spy-links-m8vfwz3bz&quot;&gt;
+   The Times
+  &lt;/a&gt;
+  . &quot;At this time, we believe any impact to ongoing investigations will be extremely limited. The Met does not share any data obtained from investigations with Oxygen Forensics Inc.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The force said Oxygen&#x27;s software runs on a closed IT system that isn&#x27;t connected to the internet and was used in less than 0.2 percent of the more than 23,000 actions carried out by its digital forensics team over the past year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The pause comes after the US Department of Justice alleged that Oxygen, which is based in Alexandria, Virginia, presented itself to US government customers as an independent American company despite being owned and controlled by five Russian nationals through a Cyprus-based holding company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prosecutors claim the same five Russians also owned Moscow-based MKO Systems, previously known as Oxygen Software, where developers actually wrote Oxygen&#x27;s software.
+ &lt;/p&gt;
+ &lt;p&gt;
+  MKO, meanwhile, sold the technology in Russia under different product names to customers reportedly including the Federal Security Service, better known as the FSB, as well as the Russian Investigative Committee and Ministry of Internal Affairs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oxygen&#x27;s US customers weren&#x27;t exactly small fry. US defense and homeland security agencies bought its software, including Homeland Security Investigations, the DHS Office of Inspector General, and the Secret Service&#x27;s National Computer Forensics Institute.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The DoJ isn&#x27;t alleging that Oxygen&#x27;s software contained malicious code or was used to gain unauthorized access to customer systems or data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Davydov, 52, was arrested at London&#x27;s Heathrow Airport last month while preparing to fly to Turkey and appeared at Westminster Magistrates&#x27; Court on Tuesday as the US seeks his extradition.
+ &lt;/p&gt;
+ &lt;p&gt;
+  District Judge Anthony Calloway declined to grant bail, according to The Times, citing Davydov&#x27;s Russian citizenship and residence and the risk that he could flee.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A clerk at Westminster Magistrates&#x27; Court told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  that Davydov, was refused bail because it &quot;hadn’t had enough time to gather important information.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The fallout isn&#x27;t limited to Scotland Yard. The National Police Chiefs&#x27; Council said other UK forces also use Oxygen products and have been encouraged to carry out their own assessments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We are aware of the allegations made by US authorities regarding Oxygen Forensics,&quot; an NPCC spokesperson said. &quot;These remain allegations at this stage and we note that US authorities have stated they are not alleging the software contained malicious code or that customer data was accessed without authorisation.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Forces that use Oxygen products have also been encouraged to undertake proportionate local assessments and activity to understand and contain any issues that are identified,&quot; the spokesperson added.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The allegations are causing headaches elsewhere in Europe too. Romanian authorities have begun terminating their use of Oxygen products, while Latvia&#x27;s State Police has suspended the software pending an assessment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  contacted The Met, NPCC and Oxygen Forensics for comment. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Flight delayed? So are these codec updates </title>
+<link>https://www.theregister.com/offbeat/2026/10/02/flight-delayed-so-are-these-codec-updates/5300405</link>
+<pubDate>Fri, 02 Oct 2026 08:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  There are few things less likely to reassure a nervous passenger awaiting a delayed flight than the Windows desktop putting in an unexpected appearance and demanding an update.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Take this display at Alcantarí International Airport, which serves Sucre, Bolivia&#x27;s constitutional and judicial capital. Eagle-eyed
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Register
+  &lt;/span&gt;
+  reader Phil Pearce spotted the Windows 11 desktop and its update prompt while waiting for a delayed Boliviana de Aviación (BoA) flight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The prompt comes from K-Lite Codec Pack, a collection of components that enables Windows to play various audio and video formats. Its presence suggests the passenger display is powered by a fairly ordinary Windows installation rather than some mysterious specialist signage system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whoever configured the display does not appear to have disabled K-Lite&#x27;s update notifications or arranged for them to run silently. In this instance, it appears the updater spotted newer versions and lumbered to the foreground with an update prompt – useful on a PC with a keyboard and mouse, but less so on a passenger-facing display beyond anyone&#x27;s reach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The exposed desktop also displays the Microsoft Store, Outlook, a weather widget, and several shortcuts – more than one might expect a departure board to require. Why airport signage needs Outlook is anyone&#x27;s guess, although Microsoft has not been shy about preinstalling it. The app even surfaced during NASA&#x27;s recent Artemis mission and
+  &lt;a href=&quot;https://www.theregister.com/software/2026/04/02/nasa-sends-outlook-around-moon-immediately-needs-it-help/5226004&quot;&gt;
+   promptly required technical support
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Our reader could not dismiss the prompt or update the codecs, but at least the wayward desktop gave delayed passengers something else to watch while wondering what had happened to their flight. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Techie was stung by a wasp, held overnight by Chinese police, then trapped in a 13-hour meeting </title>
+<link>https://www.theregister.com/software/2026/10/02/techie-was-stung-by-a-wasp-held-overnight-by-chinese-police-then-trapped-in-a-13-hour-meeting/5300368</link>
+<pubDate>Fri, 02 Oct 2026 08:01:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;425970a9-8cc4-45c2-8794-e40ea66a55a0&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Welcome to another installment of On Call,
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &#x27;s Friday column that shares your tech support stories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week we&#x27;re taking a detour into tech sales, courtesy of a reader we&#x27;ll Regomize as &quot;Carson,&quot; whose employer sent him to China without first securing a visa.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The adventure began when a colleague called with a fateful question: &quot;Can you travel to China tomorrow to attend a sales meeting about our short messaging and notification products?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  UK-based Carson was available, but doubted his employer could obtain the necessary visa in time. &quot;I was told not to worry; the company would arrange it,&quot; he told On Call. So he agreed to go.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I was up bright and early the next morning when I felt a sharp pain,&quot; he wrote. &quot;There was a wasp in the leg of my jeans which had stung me three times. That did not bode well.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nor did the prospect of spending the 12-hour flight to Hong Kong in economy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Normally I would have been in business class for a flight of that length but there were no seats left at such short notice,&quot; he wrote. &quot;It was not pleasant with a swollen and throbbing thigh.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the transfer desk in Hong Kong, Carson explained that he still lacked a visa for mainland China, but that his employer was trying to secure one. After making a flurry of calls, airline staff issued him a boarding pass and told him to hurry or he would miss the flight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And then his employer called with instructions not to board until told to do so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carson became that passenger holding up the flight until his phone rang again and a colleague assured him that someone would meet him in Shanghai.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I was, indeed, met at Shanghai Airport, airside,&quot; Carson told On Call. &quot;My colleague informed me that I was to be denied entry to China because I lacked a visa. A couple of large policemen took possession of my passport and escorted me through baggage claim and into a smoke-filled room.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The local police told Carson he would have to pay a fine, but that they would not accept a credit card.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I had no Chinese money because it was illegal to import or export it. So I was marched to a bureau de change that exchanged every banknote I had on me – $250 – for Chinese banknotes.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carson&#x27;s fine was the equivalent of $247.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I was told I would be placed in a hotel overnight, under guard, and deported in the morning,&quot; Carson wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  His employer intervened and arranged a better hotel, sparing Carson a night sharing a room with Chinese police.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carson might reasonably have expected to sleep after that ordeal. Instead, colleagues piled into his hotel room to work on the sales presentation they still hoped to deliver.
+ &lt;/p&gt;
+ &lt;p&gt;
+  His police guards stayed to watch as the preparations stretched through the evening and finally ended at 3am.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carson finally caught three hours of shuteye before the police woke him, escorted him to breakfast, and then to the airport.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I had to buy a ticket back to Hong Kong and oddly, only first class was available. The police took me to the first-class lounge then to my comfortable seat. Only when sitting down with my seatbelt fastened did I get my passport back.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  While Carson was being expelled, his visa finally came through. He was therefore soon aboard another flight to Shanghai, where he arrived at night and met a waiting taxi driver... who delivered the news that the bid team was now 300 km away in another city.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carson got in the cab and arrived at midnight.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The meeting was with a team representing a state organization. It started at 9am and ended at about 10pm,&quot; he told On Call. &quot;I gave a 15-minute presentation but most of the meeting was conducted in Mandarin&quot; – a language Carson does not speak.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;After helping to tidy the meeting room and grabbing a quick beer with a Hong Kong-based colleague, I went to bed at about midnight before getting up at 6am for my taxi to the airport.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Carson eventually made it home and, in his email to On Call, rated the adventure: &quot;Not my best trip.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  What&#x27;s the worst business trip technology has inflicted on you? The first step of your journey to an appearance in On Call involves
+  &lt;a href=&quot;mailto:oncall@theregister.com&quot;&gt;
+   clicking here
+  &lt;/a&gt;
+  to email us your story! ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Pi coding agent pulls a 180 and adds MCP support </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678</link>
+<pubDate>Fri, 02 Oct 2026 07:01:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The Pi coding agent reached its 1.0 milestone on Thursday while being treated for whiplash.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the core new inclusions is support for Model Context Protocol (MCP), which Pi creator Mario Zechner once
+  &lt;a href=&quot;https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   dismissed
+  &lt;/a&gt;
+  as unnecessary.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://earendil.com&quot; target=&quot;_blank&quot;&gt;
+   Earendil
+  &lt;/a&gt;
+  , the company formed by Armin Ronacher and Colin Daymond Hanna that acquired Pi in April 2026, explained the about-face by noting that things change.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Not only has MCP improved, the biz
+  &lt;a href=&quot;https://earendil.com/posts/you-said-no-mcp/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   said
+  &lt;/a&gt;
+  , but changes the Pi devs implemented in MCP have made integrating other capabilities easier.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;For example, the changes we have made to MCP also enable the use of Jev more easily within Pi,&quot; the company said, in reference to the widely noted Jev decision model that has already elicited
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649&quot; target=&quot;_blank&quot;&gt;
+   imitations
+  &lt;/a&gt;
+  . &quot;Ultimately what Pi needs is quite similar to what MCP needs: a sandbox to play with in the form of an interpreter.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earendil describes
+  &lt;a href=&quot;https://pi.dev&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Pi
+  &lt;/a&gt;
+  as &quot;a hardened, minimal, extensible agent harness that you can make your own.&quot; If Pi were a Python web framework, it would be Flask rather than Django.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, Pi has gained some features. These include
+  &lt;a href=&quot;https://pi.dev/docs/latest/codemode&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Codemode
+  &lt;/a&gt;
+  , a harness-side sandbox that helps agents issue tool calls, with support for MCP, decision models, and image models; extension support for
+  &lt;a href=&quot;https://pi.dev/docs/latest/virtual-models&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   virtual models
+  &lt;/a&gt;
+  ; deferred tool loading;
+  &lt;a href=&quot;https://pi.dev/docs/latest/settings#model-and-thinking&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   cache warming
+  &lt;/a&gt;
+  for Anthropic models; mid-conversation system messages; a new TUI theme; and full-screen mode by default.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alongside these features, Earendil has built Pi Durable, described as &quot;a new substrate for building long-running agentic applications.&quot; It&#x27;s a distinct component from Pi, the company explained, in order to preserve Pi&#x27;s minimalist design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Pi agent connects the underlying model to tools to manage conversation; Pi Durable represents the layer that orchestrates multiple conversations and handles the storage backend, via SQLite and JSONL.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Pi Durable is that harness,&quot; the company explains. &quot;It does not replace the Pi coding agent. It is a framework for building any agentic application, coding agents included. It shares not only code with the Pi coding agent, like pi-ai, but also its principles: minimalism and malleability.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AWS turns its best practice framework into an agent that recommends cloudy reconfigs </title>
+<link>https://www.theregister.com/off-prem/2026/10/02/aws-turns-its-best-practice-framework-into-an-agent-that-recommends-cloudy-reconfigs/5300730</link>
+<pubDate>Fri, 02 Oct 2026 05:10:09 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Amazon Web Services has debuted an agent that it says will evaluate your cloudy environment “as an experienced cloud architect would” and recommend useful changes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The cloud colossus named its bot the “AWS Well-Architected Agent,” a nod to the Well-Architected Framework that outlines best practices for using the Amazonian cloud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon’s
+  &lt;a href=&quot;https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  says the agentic incarnation of the Framework analyzes AWS environments “against Well-Architected best practices across 65+ AWS services” and then delivers “targeted, contextual recommendations for improving your applications’ cost, security, performance, and resilience.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It generates recommendations aligned to your declared business goals, delivers implementation packages with every finding, and surfaces cross-pillar trade-offs making it simpler to remediate the findings,” we’re told.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agent also delivers “ready-to-implement fixes” and “provides individual resource findings with specific dollar impact (where applicable) and step-by-step remediation, consolidated findings across multiple resources scoped to your application, and broad architectural patterns and designs with Infrastructure as Code (IaC) code changes needed to align with Well-Architected best practices.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS offers myriad services —  some of them with overlapping features and functions. Customers often find themselves using more services than they intended, or using services that aren’t quite right for their intended use. AWS is generally happy if customers change to more appropriate services, even when that sees them spend less, and offers assistance from its own staff or channel partners to make it happen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This agent may make some of that human assistance less necessary.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS is far from alone in suggesting agents should take on some of the chores that human IT professionals perform today - an approach that’s come to be known as AIOps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When your correspondent chats to IT pros about AIOps, they express distrust on grounds that they cannot be sure agents make valid suggestions and feel following bad advice offered by a machine would indefensible if things go pear-shaped. Vendors I’ve spoken to believe IT pros will first cautiously verify recommendations from AIOps systems, and if they see good results allow agents to take more actions without human oversight - but always with the ability to quickly roll back changes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS seems to recognize that users won’t go all-in immediately and therefore offers several manual means to apply recommendations the agent suggests, including the command line interface.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For now, the agent is available in the US East (N. Virginia), US East (Ohio), and US West (Oregon) regions, but can handle workloads from any AWS commercial Region. It’s only available for users with an
+  &lt;a href=&quot;https://aws.amazon.com/premiumsupport/plans/?trk=d8ec3b19-0f37-4f8c-8c12-189f913e205c&amp;sc_channel=el&quot;&gt;
+  &lt;/a&gt;
+  AWS support plan. ®
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &lt;br/&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google launches first datacenter satellite and research that finds orbiting bit barns can work </title>
+<link>https://www.theregister.com/systems/2026/10/02/google-launches-first-datacenter-satellite-and-research-that-finds-orbiting-bit-barns-can-work/5300721</link>
+<pubDate>Fri, 02 Oct 2026 02:08:45 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Google’s first “Suncatcher” datacenter satellite has made it into space, but the company has cast doubt on whether its orbital ambitions can scale.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/09/24/googles-tpus-to-catch-some-rays-in-orbit-next-week/5298990&quot;&gt;
+   reported last week
+  &lt;/a&gt;
+  , Project Suncatcher aims to test whether Google’s tensor processing units (TPUs) can survive a launch and the harsh environment of space. The Big G hopes to validate theories that the limitless supply of solar energy available in space makes the cost of putting servers into orbit sensible.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its
+  &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  of a successful Suncatcher launch, Google linked to its own
+  &lt;a href=&quot;cell.com/joule/fulltext/S2542-4351(26)00362-4?__cf_chl_tk=OL7X2TJbBcFUKnUHsDPc2tVZ4yDBJapXJUYrEznK608-1790901723-1.0.1.1-yS2gf1vtVBBJ4HuiOTJHFWy4IkUnYOcG1jMiWGVb67s&quot;&gt;
+   peer-reviewed researc
+  &lt;/a&gt;
+  h about the endeavor – which outlines many thorny challenges that must be met to make orbital datacenters fly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The paper, titled “Toward a future space-based, highly scalable AI infrastructure system design,” notes that SpaceX and others have suggested that orbital datacenters become viable when launch costs fall to $200/kg.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google’s researchers also note that SpaceX has managed to reduce the cost to launch a kilogram into orbit by 20 percent after every doubling of the cumulative mass it launched. If SpaceX can keep that up, which will mean launching 370,000 t additional cumulative mass, the equivalent of around 1,800 successful launches of its giant Starship rocket, and re-using components 100 times, Google thinks $200/kg is “plausible under reasonable assumptions.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google doesn’t know the mass of its future datacenter satellites, but points to Starlink’s second-gen sats weighing 575kg and then compares the cost of sending a satellite into space with the price to power servers on Earth.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If launch costs reach ≲$200/kg, annualized cost per unit of power in space could be approximately comparable to terrestrial spend,” is Google’s conclusion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The paper’s calculations on future launch costs use data from SpaceX and other rocket operators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other technologies needed to make datacenters in space remain largely theoretical. For example, the paper notes that existing network technologies probably aren’t suitable to link multiple satellites into functioning clusters. The need for rapid comms between satellites means Google’s plans require a design “significantly larger and entail much closer formation flight … than any previous or current satellite constellations.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google also thinks that satellite design will need to evolve.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Our system design work to this point assumes a relatively conventional, discrete compute payload, satellite bus, thermal radiator, and solar panel design,” the paper states. “However, as has been seen in other industries (such as smartphones), massively scaled production motivates highly integrated designs (such as the system on chip, or SoC). Eventually, scaled space-based computing would similarly involve an integrated compute, radiator, and power design based on next-generation architectures, such as computational substrates based on neural cellular automata.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google’s researchers also found “robust optical satellite-ground communications will also be critical for scaled operation but will necessitate overcoming challenges including atmospheric turbulence, high-speed relative motion errors, and precision beam tracking.” NASA’s TeraByte Infrared Delivery (TBIRD) mission, which has demonstrated 200 Gbps ground-low-earth-orbit comms, is cited as a promising approach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google’s researchers therefore concluded that realizing its space datacenter ambitions “will require sustained research, iterative refinement of our design, and the achievement of several critical future milestones.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Micron’s Numbers Show Why HBM4 Memory Is Worth 15X Its Weight In Gold </title>
+<link>https://www.theregister.com/store/2026/10/02/microns-numbers-show-why-hbm4-memory-is-worth-15x-its-weight-in-gold/5300701</link>
+<pubDate>Fri, 02 Oct 2026 00:37:58 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  It may turn out that HBM stacked DRAM is the most profitable product in the six decade history of commercial information technology. IBM’s mainframe engines in the 1970s might be in the same zone, depending on how you allocate costs and revenues. But my gut says in terms of driving revenues and profits, HBM stacked DRAM packaging beats the monolithic systems technology (MST) packaging of the System/370s in the 1970s and the thermal conduction module (TCM) packaging of the System/3081 in the 1980s.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It just goes to show you how valuable advanced packaging has been in the past and how it still matters here in the future.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And no matter what, the growth of the HBM market, and the revenues of Micron Technology, Samsung, and SK Hynix are skyrocketing much faster than the IBM mainframe ever did. This is a thing to behold, and it underpins the growth of Nvidia and AMD. Not to put too fine a point on it, but without the high bandwidth stacked DRAM these companies make, the GenAI revolution would not – and could not – have happened.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I have been covering Micron’s financials since this boom started, and I will be adding Samsung and SK Hynix in the next round of numbers to complete the set. But for now, let’s go over the results from Micron in its fiscal 2026 ended on September 3. The numbers are downright agog.  (
+  &lt;em&gt;
+   Or maybe they are upright gog. . . .
+  &lt;/em&gt;
+  )
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the quarter, Micron’s revenues went skyward, up 4.8X year on year to $54.23 billion. Operating income was up nearly 12X from the year ago period, to $43.75 billion, and net income also rose by 12X to $37.7 billion. Micron is bringing 69.5 percent of revenue to the bottom line, and it is not even a little tempted to try to build its memory and flash foundries any faster than its already ambitious plan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Micron has enough cash on hand to build about nearly four fabs, at $73.45 billion, up by 7.6X from a year ago, but it only spent $10.77 billion on capital expenses because building foundries is like having a baby. You can’t have nine women split the work up in parallel and do it within a month. You have to go from conception to birth, serially. Moreover, all of the memory makers are pretty sure that the AI bubble will hold through 2028 at the very least and probably into 2030, and none of them are in any hurry to create a bust cycle where there is a massive boom.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They’re learning, like OPEC nations with oil.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The memory business has always been plagued by boom-bust cycles, and none of the DRAM and flash vendors wants to create an oversupply situation. Not when insane demand and supply shortages are driving up prices – and profits – sky high. Even if Micron, Samsung, and SK Hynix could build and ramp a foundry in a year, they might choose not to because memory prices per unit capacity just keep rising. They are all trying to do the least work for the maximum revenue and the lowest possible cost, and there has never been such a shiny golden hour in the history of IT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The DRAM business, which includes various kinds of memory chips including low-power LPDDR that is being increasingly used in some AI server systems, high capacity server memory based on regular DRAM, and “normal” DRAM for PCs, tablets, and smartphones. The DRAM business rose by 4.4X to $39.77 billion in the quarter, and despite HBM’s best intentions with rising prices, DRAM was not Micron’s fastest growing product line. Flash non-volatile storage was, with sales up 6.2X to $14.1 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If capacity were not a constraint – meaning, if Micron could drop in working foundries in a few quarters rather than several years – it would still take many years for the flash business to catch up to the DRAM business. That said, for a dollar of capex, NAND flash memory foundries are easier and cheaper to add than DRAM foundries, and given the demand, I expect for Micron to build out this business as fast as is practical. The difficulty of bringing clean room DRAM foundries online – and the higher expense – is why we expect Micron to move slower here in terms of bits shipped.
+ &lt;/p&gt;
+ &lt;p&gt;
+  No matter what, Micron’s chief technology officer, Scott DeBoer, told Wall Street analysts that the company is two generations ahead of ChangXin Memory Technologies (CXMT), China’s up and coming indigenous memory maker, and you can bet that it will make sure it stays two generations ahead to keep its customers from moving to Chinese memory. CXMT just went public on the Shanghai Stock Exchange in July, raising $8.6 billion. Which is a pittance compared to the kind of profits its rivals are now enjoying. But you can bet that China is dead serious about supplying its own memory and trying to sell it globally. It is only a matter of time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But for now, Micron is rolling in it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Cloud Memory business unit, which is dominated by HBM memory, is not as large or as profitable as the Core Datacenter business unit, which is where regular DRAM and flash are stashed. But make no mistake. At this point, both are growing crazy fast and are incredibly profitable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In fiscal Q4, the Cloud Memory business had sales of $16.28 billion, up 3.6X year on year and up 18.3 percent sequentially. Gross income was 83 percent of sales ($13.52 billion) and operating income was 76 percent of sales ($12.38 billion). Gross income grew by 5X and net income grew by 4.7X year on year. To say that Micron has extraordinary pricing power is a massive understatement. We would love to know how much of this growth is higher pricing for HBM and high-end DRAM and how much is increased capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mark Murphy, Micron’s chief financial officer, said on the call that DRAM bits shipped rose by a single digit percentage in Q4 and that prices increased in the “high teens percentage range.” With flash, bits shipped rose by 10 percent year on year and prices increased by 30 percent. But again, these are across all products. I think the price increases for HBM, LPDDR, and high-end DRAM for servers were higher than that average and that shipments were also a lot higher than the average. There is no other way to get the kinds of numbers the Micron datacenter business has.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Core Datacenter business was up 11X year on year to a tad over $18 billion, a testament to how DRAM and flash are core components in AI clusters, whether they are for training, inference, or AI sandboxes executing agentic AI code and tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Add them together, and Micron’s datacenter revenue rose by 5.6X to $34.29 billion, which was 35.6 percent sequential growth. The company’s datacenter product operating income rose by 10.7X to $27.68 billion, and represented 81 percent of revenues for the datacenter products as a whole.
+  &lt;em&gt;
+   Amazing.
+  &lt;/em&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Excepting that Micron gets revenues and profits that are even higher in its mobile, client, auto, and embedded segments, and that has helped pay for development of the datacenter stuff, I really don’t care much about these. But the data is in the table above for you to peruse.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Basically, as a best friend’s mom used to say when someone was fortunate, Micron has “sat in a tub of butter.” It can do no wrong at the moment, and is just raking in the money with a combine a half acre wide.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Micron no longer gives us data, or even just good hints, about how the HBM, high-end server DRAM, and LPDDR segments of the DRAM space are doing. But I take the data we get and what I see going on in the industry and take a stab at predicting how these key three product segments do in terms of driving sales for Micron. Take a gander:
+ &lt;/p&gt;
+ &lt;p&gt;
+  My best guess has HBM memory driving $14.33 billion in fiscal Q4, up 7.6X year on year, with high capacity server DIMMs and LPDDR memory together driving $8.05 billion in sales, up 6.1X compared to Q4 F2025. The rest of the DRAM sold by Micron I estimate to be $17.39 billion, growing at 3.1X year on year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Going forward in 2027, Micron is going to hike the price of its HBM memory to get its profit profile in line with regular DRAM. Sanjay Mehrotra, Micron’s chief executive officer, said on the call that Micron has &quot;completed agreements for the vast majority of our calendar 2027 HBM bit supply with significant price increases year over year, narrowing the gross margin gap with conventional DRAM.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The HBM4 ramp, Mehrotra added, is proceeding apace and the company has a “strong roadmap for future HBM products,” calling out the work the company is doing with Nvidia for the industry’s first custom-HBM4E implementation, NVHBM, which will be adopted in next generation of GPUs and NVLink Fusion platforms from Big Green.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In general, Mehrotra said that memory and flash will be under tighter constraints in calendar 2027 and 2028 than they were in calendar 2026 – sorry, folks, move along, nothing to see here. This calendar year, Micron is growing DRAM bits shipped by the mid-20s percent range, and in calendar 2027 and 2028, it will only grow in the low 20s percent. With flash, it flips, just as we hinted at above. Flash capacity shipped in calendar 2026 was in the low 20s percent range, and in calendar 2027 and 2028, it will be in the mid-20s percent range. Again, it is easier and cheaper to expand flash manufacturing than it is to expand DRAM capacity, and expanding HBM capacity is harder and harder because increasingly taller DRAM stacks running at higher speeds have a higher chance of being a manufacturing dud.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Micron did say it would expand its capex in fiscal 2027, and that this extra spending would aim to increase DRAM output. It will have to do that as it moves into HBM4E and HBM5, which are going to burn through DRAM because of dud stacks faster than HBM4 and HBM3E did. (With higher DRAM speeds and higher stacks, the yields necessarily go down. And will keep getting worse.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  And just for fun, here is the Micron HBM market forecast from June, which was not updated in the September quarter:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Crazy, isn’t it?
+  &lt;/em&gt;
+  Micron wanted to get rich, like all companies want to, but this GenAI boom has made all the memory and flash makers richer than they ever imagined.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To secure supplies of memory and flash, Micron’s customers have shelled out $32 billion on prepayments, which is why that cash pile is so high. The company has inked 26 supplier agreements that cover around 35 percent of its revenues between now and fiscal 2030, and Mehrotra said that it will eventually have agreements that represent around half of sales. Micron has $150 billion in remaining performance obligations – what is colloquially called revenue backlog – and this only represents deals with fixed price floors and committed volumes. There are presumably customers who have deals without fixed pricing and without committed volumes, but it is hard to imagine why given this environment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for guidance, Micron only talked about Q1 F2027, and said sales were expected to be $61.5 billion, plus or minus $1.5 billion. That is 13 percent sequential growth, which is not huge by comparisons to other quarters. But it is huge year on year, up 4.5X compared to the $13.64 billion Micron brought in for Q1 F2025.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which brings me to my final point: A twelve-high HBM stack probably weighs somewhere around a quarter gram and costs maybe $500 to $600, depending on the customer and the volumes. At that weight, you need about 125 stacks to get a troy ounce of HBM4. That is a cost of $62,500 to $75,000 per troy ounce. Gold is trading at $4,176 per troy ounce as this story goes to press, which makes an HBM4 stack worth 15X to 18X that of gold.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   Strange new world.
+  &lt;/em&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
