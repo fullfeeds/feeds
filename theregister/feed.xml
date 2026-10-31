@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 31 Oct 2026 20:51:20 -0000</lastBuildDate>
+<item>
+<title> HTTP/3 is faster with some work and help from Cloudflare </title>
+<link>https://www.theregister.com/devops/2026/10/31/http/3-is-faster-with-some-work-and-help-from-cloudflare/5306786</link>
+<pubDate>Sat, 31 Oct 2026 20:03:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;1d24771b-f8e2-4b5e-8f10-78fbd30c7436&quot;&gt;
+ &lt;p&gt;
+  When you&#x27;re ordering food from your phone, even time spent navigating the app is time wasted. At the P99 2026
+  &lt;a href=&quot;https://p99conf.io/session/http-3-in-production-what-the-numbers-actually-say/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   virtual conference
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.linkedin.com/in/elvischidera/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Elvis Chidera
+  &lt;/a&gt;
+  , a staff engineer at Germany-based global delivery service
+  &lt;a href=&quot;https://www.deliveryhero.com/about/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Delivery Hero
+  &lt;/a&gt;
+  , explained how the company moved most of its user base to HTTP/3, and consequently cut its apps’ total end-to-end response time of the home screen by 17 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chidera, who managed the project, explained that, as promised on the tin, HTTP/3 delivers the web faster than HTTP/2, though it has slow bits that need to be adjusted to work properly.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Uber eats Delivery Hero
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Delivery Hero is all but unknown in the US, which is dominated by Uber Eats and DoorDash. But it is a company with global reach outside the US, with an
+  &lt;a href=&quot;https://www.deliveryhero.com/newsroom/15-years-delivering-to-you/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   estimated
+  &lt;/a&gt;
+  user base of 60 million across Europe, Latin America, Africa, the Middle East, and Asia. Uber is
+  &lt;a href=&quot;https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   currently acquiring
+  &lt;/a&gt;
+  &lt;a href=&quot;https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx&quot;&gt;
+  &lt;/a&gt;
+  Delivery Hero for $14.8 billion, with plans to unite the company with Uber Eats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With this purchase, Uber would expand the number of markets where it offers both ride-hailing and delivery services, though not necessarily under the Uber Eats nameplate. Delivery Hero centrally manages separate apps for different regions, all of which it built or acquired. Asians can order poke bowls and sundries through
+  &lt;a href=&quot;https://www.foodpanda.com/about-foodpanda/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Foodpanda
+  &lt;/a&gt;
+  . Turks can order kebabs through
+  &lt;a href=&quot;https://www.yemeksepeti.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Yemeksepeti
+  &lt;/a&gt;
+  . Throughout Spain, Italy, Poland, Romania, Ukraine, and much of Africa, the
+  &lt;a href=&quot;https://careers.glovoapp.com/tech-glovo/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Glovo
+  &lt;/a&gt;
+  app is where to ring up the late-night deliveries. And in Latin America, users dial in to
+  &lt;a href=&quot;https://www.pedidosya.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   PedidosYa
+  &lt;/a&gt;
+  to get what they need from nearby farmacias, restaurantes, and mercados.
+ &lt;/p&gt;
+ &lt;p&gt;
+  All these regions have widely varying network connectivity, a problem Delivery Hero wanted to minimize.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Last mile networking was most often the bottleneck. Apps in Pakistan, for instance, could take nearly a second (at p90) to establish a secure handshake with a server. The engineering team looked at HTTP/3 as a way to lower, even eliminate, that latency.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A QUIC-er HTTP
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The Internet Engineering Task Force (IETF)
+  &lt;a href=&quot;https://www.ietf.org/blog/http-updates/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   formally introduced
+  &lt;/a&gt;
+  the third version of the internet’s Hypertext Transfer Protocol in 2022. HTTP is the application layer protocol that connects browsers and other resources connected to servers over the Internet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The previous versions of
+  &lt;a href=&quot;https://www.rfc-editor.org/rfc/rfc9110.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   HTTP
+  &lt;/a&gt;
+  were built on the Transmission Control Protocol (TCP), which offered guaranteed delivery and flow control. In conjunction with the Internet Protocol (IP), TCP/IP built the modern internet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HTTP/3 replaced TCP with Quick UDP Internet Connection (QUIC),
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/07/08/media-over-quic-can-scale-real-time-streaming-and-carry-the-worlds-vids/5268101&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   developed by Google
+  &lt;/a&gt;
+  , to address some of TCP’s
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629&quot;&gt;
+   p
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   erceived sluggishness
+  &lt;/a&gt;
+  as a transfer protocol.
+ &lt;/p&gt;
+ &lt;p&gt;
+  UDP stands for User Datagram Protocol and, unlike TCP, it does not guarantee packet delivery or flow control. UDP is faster because it doesn’t wait around for a signature (QUIC adds in its own flow control on top of UDP).
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the UDP-based HTTP/3 reduces, and sometimes eliminates, the round trips needed to secure connections. The app can cache a session ticket and, on a later connection, use QUIC&#x27;s 0-RTT capability to start sending eligible application data while the handshake is still underway, rather than waiting for it to finish.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Essentially, you can eliminate that one second” of latency that plagued slower networks, Chidera said. “You don&#x27;t want to pay the cost of two round trips just to exchange data, if you could do it faster.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And unlike HTTP/2, HTTP/3 doesn’t get hung up when packets are lost or delayed. There’s no head-of-line blocking because packets are sent in multiple streams, not just the single string that HTTP/2 offers.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Multitask during initialization
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Setting up HTTP/3 turned out to be surprisingly easy, Chidera found. Delivery Hero used Cloudflare’s content delivery network to serve its global user base, so moving to HTTP/3 involved
+  &lt;a href=&quot;https://developers.cloudflare.com/speed/optimization/protocol/http3/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   a simple reconfiguration
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Adding HTTP/3 support to the clients, mostly mobile, proved almost as straightforward. Apple has supported HTTP/3 since iOS 15 and most native browsers
+  &lt;a href=&quot;https://caniuse.com/?search=http%2F3&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   already support HTTP/3
+  &lt;/a&gt;
+  out of the box.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Android proved a bit trickier. The engineers used Google’s
+  &lt;a href=&quot;https://developer.android.com/develop/connectivity/cronet&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cronet library
+  &lt;/a&gt;
+  for the networking stack, initially wired into their Android apps with the
+  &lt;a href=&quot;https://github.com/google/cronet-transport-for-okhttp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cronet Transport for OkHttp
+  &lt;/a&gt;
+  wrapper to minimize rewriting their existing code, originally written for the
+  &lt;a href=&quot;https://github.com/lysine-dev/okhttp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   OkHttp HTTP client
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Out of the box, Cronet helped support the HTTP/3 rollout, which reduced network-level request failures. But it also came with a significant catch: the engine took approximately 800 milliseconds to initialize at P90, eating into some of HTTP/3&#x27;s 0-RTT speed benefits. So the team forked the code into their own bridge using a library called
+  &lt;a href=&quot;https://github.com/limuyang2/okcronet&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   OKCronet
+  &lt;/a&gt;
+  . They also did some additional engineering work, which involved overlapping Cronet initialization with other background tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Overall, they slashed the P95 latency time from 1.2 seconds to 120 milliseconds, achieving a 10x improvement in read latency.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Choose your congestion control algo wisely
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Overall, the engineering team moved 95 percent of the users over to HTTP/3. Those devices that couldn’t use the protocol (largely due to networks blocking UDP traffic) automatically fell back to HTTP/2. Handshake latency between the apps and the server was cut by 51 percent. Pakistan’s response time was cut in half.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One hurdle remained, however. Secondary screens on some of the apps (pages/screens that aren’t the home page) experienced latency issues. These issues only happened in certain markets that were known to be prone to packet loss, such as Pakistan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delivery Hero’s engineers attributed the issue to Cloudflare’s choice of the congestion control algorithm for HTTP/3,
+  &lt;a href=&quot;https://www.rfc-editor.org/info/rfc8312/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cubic
+  &lt;/a&gt;
+  , which historically has
+  &lt;a href=&quot;https://www.forasoft.com/learn/video-streaming/articles-streaming/congestion-control-bbr-cubic-copa&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   not handled packet loss well
+  &lt;/a&gt;
+  . The engineering team tested some of its traffic with Google HTTP/3-aware servers, which use another congestion protocol, Bottleneck Bandwidth and Round-trip propagation time (
+  &lt;a href=&quot;https://www.emergentmind.com/topics/bottleneck-bandwidth-and-round-trip-propagation-time-bbr&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   BBR
+  &lt;/a&gt;
+  ), and did not get hung up on the packet loss.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delivery Hero is currently working with Cloudflare to resolve this specific congestion algorithm issue, Chidera said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sometimes that fresh, delicious
+  &lt;a href=&quot;https://turkishdishes.net/practical-turkish-lahmacun-recipe/&quot;&gt;
+   lahmacun
+  &lt;/a&gt;
+  just won’t get to your door as fast as it possibly can, despite all best efforts.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google&#x27;s AI satellite sends a very expensive haiku to Earth </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/31/googles-ai-satellite-sends-a-very-expensive-haiku-to-earth/5306818</link>
+<pubDate>Sat, 31 Oct 2026 15:36:14 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Google on Friday celebrated receiving a poem from its first experimental orbital AI datacenter satellite.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company&#x27;s Suncatcher satellite,
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/10/02/google-launches-first-datacenter-satellite-and-research-that-finds-orbiting-bit-barns-can-work/5300721&quot;&gt;
+   launched at the start of the month
+  &lt;/a&gt;
+  and put into low Earth orbit, has responded to a ground station prompt to &quot;Write a haiku from the perspective of a TPU orbiting Earth, with the wonderful world spinning beneath you.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Travis Beals, senior director of Google&#x27;s interdisciplinary
+  &lt;a href=&quot;https://github.com/paradigms-of-intelligence&quot;&gt;
+   Paradigms of Intelligence
+  &lt;/a&gt;
+  research team, said that with Suncatcher&#x27;s host and TPU trays powered up and machine learning tests completed, the onboard Gemma 4 model achieved its &quot;Hello World&quot; milestone by sending an inference response from orbit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;During a ground-station pass, we uplinked our first prompt to our onboard Gemma 4 open model, asking it to generate a haiku about being in space,&quot; wrote Beals in a
+  &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  And as the satellite passed over Svalbard, Norway, the orbiting AI model responded over the downlink:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   Blue marble below,
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   Data streams in silent grace,
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   Starlight feeds my core.
+  &lt;/span&gt;
+  ✨
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those roughly 20 tokens would cost about $0.000012 if generated through the Google Cloud API, based on Gemma 4 26B&#x27;s
+  &lt;a href=&quot;https://cloud.google.com/model-garden/pricing?hl=en#gemma&quot;&gt;
+   pricing
+  &lt;/a&gt;
+  of $0.15 per million input tokens and $0.60 per million output tokens, excluding input costs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Add in a satellite weighing perhaps 500 kg, based on the mass of SpaceX&#x27;s Starlink satellites, and a retail launch price of around $7,000 per kg, and you have a very expensive haiku.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to
+  &lt;a href=&quot;https://arxiv.org/pdf/2511.19468&quot;&gt;
+   Google&#x27;s calculations
+  &lt;/a&gt;
+  , if the cost of getting a satellite into low Earth orbit can be brought down to $200/kg, the launch cost amortized over the satellite&#x27;s useful life (~$810–7,500/kW/year) could be comparable to current electricity spending for terrestrial datacenters in the US (~$570–3,000/kW/year).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google predicts that SpaceX could achieve that by 2035, more or less, and considers it strategically beneficial to prototype well in advance of that actually happening.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After the haiku, Beals said, &quot;we tested space-themed limericks and telemetry prompts reporting the technical status of the payload systems.&quot; Next up: tests for evaluating how TPUs perform under thermal stress and radiation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google has already done some laboratory testing of its Trillium Cloud TPU and AMD host server to see how well they can withstand a 67 MeV proton beam.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The system&#x27;s high-bandwidth memory shows the most sensitivity in terms of the total ionizing dose – it exhibits irregularities after a cumulative dose of 2 krad(Si), which is about 3× Google&#x27;s minimum requirement for TID survival of 750 rad(Si).
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;For typical transformer workloads, the observed SDC [silent data corruption] rate of approximately one event/17 rad, at an estimated orbital dose of 150 rad(Si)/year, translates to a very low failure probability on the order of 1 per 3 million inferences, assuming 1 inference per second,&quot; Google researchers said in
+  &lt;a href=&quot;https://www.cell.com/joule/fulltext/S2542-4351(26)00362-4&quot;&gt;
+   a paper
+  &lt;/a&gt;
+  published earlier this month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;While this error rate is likely acceptable for inference, the impact of SEEs on training jobs, and the efficacy of system-level mitigations, requires further study.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Indeed, the study will continue. Next year, the plan is to test a pair of interconnected satellites. Rather than lofting large satellites into orbit, Google anticipates sending a constellation of many smaller satellites that communicate with one another. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Goth aesthetic gone wild: a user&#x27;s self-inflicted black screen of non-death in Windows 3.1’s </title>
+<link>https://www.theregister.com/offbeat/2026/10/31/goth-aesthetic-gone-wild-a-users-self-inflicted-black-screen-of-non-death-in-windows-31s/5306592</link>
+<pubDate>Sat, 31 Oct 2026 12:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft senior software engineer Raymond Chen has explained what Windows is doing when you hold down the power button, and shared a story about the time a customer accidentally created a Goth Mode for Windows 3.1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There&#x27;s a section in
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Hitchhiker&#x27;s Guide to the Galaxy
+  &lt;/span&gt;
+  (actually, page 116 of this writer&#x27;s dog-eared copy of
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Restaurant at the End of the Universe
+  &lt;/span&gt;
+  ) in which Zaphod Beeblebrox observes of a ship&#x27;s interior: &quot;Every time you operate one of these weird black controls that are labeled in black on black background, a little black light lights up black to let you know you&#x27;ve done it.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The same turned out to be true of a user who called Microsoft customer support to complain that after Windows 3.1 booted up, all that remained after the product logo disappeared was a blank screen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It turned out the customer liked black a little too much and,
+  &lt;a href=&quot;https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   according
+  &lt;/a&gt;
+  to Chen, made themself a Goth theme.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The customer support engineer on Microsoft&#x27;s end pieced it together. The customer had, according to Chen, &quot;set the wallpaper color to black. They set the title bar color to black. They set the button color to black. They set the window background color to black. They set the window text color to black.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Every possible color you could pick in the Colors control panel was set to black.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  We suspect the mouse pointer, at least, would have stuck around, unless the customer had also managed to change some settings around this. And then there are the icons… However, Windows 3.1 was a long time ago, and this writer&#x27;s attempts at theming then were the consequences of growing up in the &#x27;70s and &#x27;80s, which resulted in some interesting neon, orange, and brown combinations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As for Goth mode, Chen said, &quot;Once you get yourself into this situation, it’s hard to get out because you can&#x27;t see anything.&quot; One solution he suggested was deleting the
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   [colors]
+  &lt;/span&gt;
+  section from the
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   win.ini
+  &lt;/span&gt;
+  file.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chen told the anecdote as a coda to the question – what exactly is modern Windows doing when you hold down the power button on a PC? According to Chen, after eight seconds of holding the power button, the Windows kernel realizes a forced power-off is happening and tries to take a kernel dump for diagnostics.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He explained that the kernel dumps were classified by Microsoft as &quot;long power button hold&quot; (LPBH) failures, with one of the bits of information captured indicating if all the pixels on the screen were black. The video driver might therefore be the culprit. Or whatever was responsible for drawing to the screen.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Today&#x27;s Windows struggles with dark mode. But in the dim, distant past, every pixel being black might mean the user was either
+  &lt;a href=&quot;https://hitchhikers.fandom.com/wiki/Hotblack_Desiato&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Hotblack Desiato
+  &lt;/a&gt;
+  or had done something very silly indeed. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Amazon sends chills through its workforce with mixed message memo about AI use - Corey Quinn </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804</link>
+<pubDate>Sat, 31 Oct 2026 11:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  There&#x27;s a ridiculously simple test you can use to figure out whether AI mandates at a given company are well-considered, or are being shoved out the door by out-of-touch buffoons: What happens when an engineer documents that AI made a task
+  &lt;span&gt;
+   worse?
+  &lt;/span&gt;
+  Are they taken seriously, or are they marginalized and eventually managed out?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Conveniently, this week Amazon published a
+  &lt;a href=&quot;https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   treatise
+  &lt;/a&gt;
+  by Terk Terkowitz, a VP/Distinguished Engineer/Final Boss of Their Independent Contributor Technical Career Track, on the role of the developer in the age of AI. It was originally an internal missive sent to their software engineers and their managers back in September, which is an interesting lag for a document that sounds this confident. It also maps exceedingly well to what other organizations are struggling with.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I think it&#x27;s a good document, but I can&#x27;t help but view it with a somewhat cynical eye. I see it as an attempt to make the future of the profession of software engineering feel less bleak. And it&#x27;s feeling mighty bleak for a lot of folks right now.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  What&#x27;s the context?
+ &lt;/h3&gt;
+ &lt;p&gt;
+  This treatise comes at a time of dramatic upheaval. Tech as an industry is no stranger to change (usually at 3AM, heralded by the pager), but something about the current AI-ification of the world strikes many of us as fundamentally dissimilar from previous revolutions. Folks are scared about their career prospects. &quot;Should I give up tech and get into farming?&quot; is a sincere question multiple people have asked me. I don&#x27;t know! Tech is already a goat rodeo, so you&#x27;ve got a leg up if you do?
+  &lt;br/&gt;
+  &lt;br/&gt;
+  This anxiety isn&#x27;t theoretical. In May, Amazon wisely shut down KiroRank, an employee-built cash incineration leaderboard that ranked people by token usage, after the obvious thing happened: people spun up junk tasks to climb the ranks. This is now called &quot;tokenmaxxing,&quot; and the Terkowitz treatise specifically calls it out as being at odds with &quot;frugality.&quot; Meta did the same thing with &quot;
+  &lt;a href=&quot;https://www.reddit.com/r/Futurology/comments/1sv7kse/inside_metas_ai_token_leaderboard_60_trillion/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Claudenomics
+  &lt;/a&gt;
+  &quot; and 85K employees that same week. And Amazon reportedly announced another 250 job cuts this week. I can&#x27;t tell you that these things are related. But I can tell you that every engineer who read the memo assumes that they are.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  What&#x27;s the thing say?
+ &lt;/h3&gt;
+ &lt;p&gt;
+  This document contains a lot of great stuff. I have a tremendous level of respect, both personal and professional, for Amazon&#x27;s Principal Engineering community; I&#x27;m led to understand that that respect may not be reciprocated, but that&#x27;s okay. I am, by their standards, a lapsed engineer who ran away to join the circus as one of its lesser clowns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Terkowitz&#x27;s memo emphasizes customer outcomes and engineering judgement, two things I would absolutely not delegate to AI any time soon. (Note: I am writing this in October of 2026, with the full understanding that previous comments on the capabilities where AI falls short tend to age like fine milk.) It documents work that (today) AI tools aren&#x27;t improving. That&#x27;s way better than assuming that every objection to AI inherently comes from some self-interested Luddite who&#x27;s scared of being replaced. It also says something smart about measurement: look at the 90th percentile of AI adoption, at those teams burning the most tokens, and check whether their delivery actually went up commensurately. This is great! Shout it from the rooftops; we should all be doing such things.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But still, I wonder.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The memo says “If your work does not benefit from current AI tooling, that is a finding, not a failing.” Document it, bring it to your manager, work through the problem. I agree with every word of that! The question is whether anyone&#x27;s promo doc is gonna survive citing it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here&#x27;s what happens next. The memo concedes that input metrics are &quot;deeply flawed,&quot; but then in the next paragraph says to go ahead and use them anyway, carefully. It then warns that non-adopters are falling behind. Those are three different positions within three sentences and they&#x27;re not at all aligned with one another.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That&#x27;s not muddled; I think it&#x27;s cover. A manager can cite &quot;a finding, not a failing&quot; when a strong engineer skips the AI tool, and then cite &quot;falling behind&quot; when it&#x27;s time to PIP someone. Both are congruent with their stated policy; you get to decide which interpretation you want to go with in a given situation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  How will managers handle justified AI non-use? Are promotion and performance decisions being made in a way that rewards these long term outcomes? Or are they instead taking the easy weasel way out, optimizing for what&#x27;s cheap to measure, and rewarding tool activity? Because if you give me a metric, I will turn it into a target. So will an overwhelming majority of employees. When that happens, everyone loses — it&#x27;s how KiroRank happened in the first place.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Everyone&#x27;s selling tokens — including Amazon
+ &lt;/h3&gt;
+ &lt;p&gt;
+  I write this after two days of attending GitHub Universe, where they talked about how agents start roughly 40% of PRs now. And yet, Jay Parikh’s keynote argument was that useful output wasn&#x27;t &quot;more code,&quot; but rather completed outcomes: features shipped, bugs fixed, security issues addressed, loudmouth columnists silenced, etc. The problem here is that their entire business model cuts against that; they&#x27;re billing in a model that charges customers on a consumption basis, not an output basis. There&#x27;s nothing, today, that ties &quot;AI spend&quot; to &quot;output that was worth the effort.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which brings us back to Amazon. The memo says tokenmaxxing is at odds with frugality, and for Amazon’s internal cost line, it is. Meanwhile AWS bills Bedrock and Kiro customers by the token. Inside the building, tokenmaxxing is a problem to be stamped out. Outside it, it’s the revenue plan. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Chocolate Caterpillar or Chocolate Teapot? Top up the disk space for Windows 10 to find out </title>
+<link>https://www.theregister.com/offbeat/2026/10/31/chocolate-caterpillar-or-chocolate-teapot-top-up-the-disk-space-for-windows-10-to-find-out/5306103</link>
+<pubDate>Sat, 31 Oct 2026 09:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;p&gt;
+  Today&#x27;s bit of signage silage is either Windows 10 protesting that it is not part of London&#x27;s Oxford Street pedestrianization, or someone failing to heed an alert before the public is made all too aware that things aren&#x27;t going well…
+ &lt;/p&gt;
+ &lt;p&gt;
+  Eagle-eyed
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   Register
+  &lt;/span&gt;
+  reader Aaron Colwill spotted the sign outside the food hall entrance of a Marks &amp; Spencer store on London&#x27;s Oxford Street. It usually entices passersby through the doors with promises of treats inside, but today it appears to require a different kind of feeding. Disk space is running low.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Marks and Spencer (also known as M&amp;S and Marks and Sparks) is no stranger to
+  &lt;a href=&quot;https://www.theregister.com/security/2025/05/13/ms-admits-cybercrooks-made-off-with-customer-info/1507185&quot; target=&quot;_blank&quot;&gt;
+   cyber whoopsies
+  &lt;/a&gt;
+  , having been the victim of an attack in 2025 in which crooks made off with customer data. Later that year, it
+  &lt;a href=&quot;https://www.theregister.com/security/2025/11/05/ms-pegs-cyber-cleanup-costs-at-136m-profits-tumble/325250&quot; target=&quot;_blank&quot;&gt;
+   reckoned
+  &lt;/a&gt;
+  cleanup costs would be about £136 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That&#x27;s quite a lot, but not enough to buy a bigger hard disk for Windows 10, it seems. Storage prices have increased over the years, but surely not that much?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Colwill reckoned that Windows 10 21H2 LTSC was behind the problems. It could well be. While support for 21H2 ended for many users in 2023, Windows 10 LTSC 2021 will carry on until Jan 12, 2027, meaning engineers might have an exciting festive period ahead of them. Windows 10 IoT Enterprise LTSC 2021 will receive extended support until Jan 13, 2032.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Either way, using Windows to advertise the Food Hall&#x27;s wares seems slightly overkill. Simple posters, for example, never run out of disk space or attract the bork fairy&#x27;s attention.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Perhaps they might use something that lacks the voracious appetite for storage that Microsoft&#x27;s finest demands. According to the Windows biz, installing Windows 10 requires at least 32 GB of disk space, ideally more. It all seems a bit excessive for a
+  &lt;a href=&quot;https://www.marksandspencer.com/food/l/food-brands/colin-the-caterpillar&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   cake-based caterpillar
+  &lt;/a&gt;
+  advert. Then again, when your operating system tends to have the resilience of a chocolate teapot, using it to advertise a chocolate insect might not be such a bad idea after all. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Backbone of a beast – charting Nvidia&#x27;s rise to networking titan </title>
+<link>https://www.theregister.com/networks/2026/10/31/backbone-of-a-beast-charting-nvidias-rise-to-networking-titan/5306499</link>
+<pubDate>Sat, 31 Oct 2026 08:03:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Nvidia is more than just a leader in graphics and AI hardware. It has also become a titan of the networking industry with bigger datacenter Ethernet sales than any other vendor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In Q2, Nvidia&#x27;s networking revenues
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/08/31/nvidia-is-building-an-ip-licensing-empire-on-the-back-of-nvlink/5293530&quot; target=&quot;_blank&quot;&gt;
+   topped
+  &lt;/a&gt;
+  $17.5 billion. To put that in perspective, Cisco&#x27;s revenue during that same period, across all products, was $17.3 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GPUzilla&#x27;s arrival as a networking power feels sudden, yet Jensen Huang started working towards this status in 2019 with the $6.9 billion
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2020/05/05/nvidias-multi-billion-dollar-buying-spree-continues-as-it-slurps-up-cumulus-soon-after-swallowing-mellanox/1216486&quot; target=&quot;_blank&quot;&gt;
+   acquisition
+  &lt;/a&gt;
+  of long-time networking partner Mellanox .
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the time, Mellanox wasn&#x27;t a big name in Ethernet switching. The company was mostly known for its ConnectX NICs and InfiniBand switches. Outside of high-performance computing (HPC) and supercomputing clusters, and a big deployment at Microsoft, InfiniBand wasn&#x27;t widely deployed in hyperscale datacenters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Buying Mellanox allowed Nvidia to reposition itself as a system builder, which means something different in the context of distributed compute. Nvidia understood its datacenter customers weren&#x27;t interested in buying GPUs or even servers; they wanted clusters of systems. For that, Nvidia needed interconnect and Mellanox&#x27;s InfiniBand fit the bill.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Relentless co-design
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Over the years, Huang has talked about co-design – designing components and software to work together for specific set of jobs rather than to be the best GPU, switch, or NIC. Its work with Mellanox is a prime example of that approach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Dell&#x27;Oro Group analyst Sameh Boujelbene, Nvidia&#x27;s decision to integrate compute and networking became key to the company&#x27;s success.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Customers choose Nvidia for its tightly integrated compute and networking architecture, optimized for AI workloads,&quot; she told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . That integration makes deployments easier and speeds time to market.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ben Mabey, CTO of pioneering AI and machine learning company Recursion, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  &lt;span&gt;
+   Nvidia&#x27;s integration schemes won him over.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Founded in 2013, nearly a decade before ChatGPT made AI the subject of dinner-table discussion, Recursion sought to apply machine learning running atop GPUs to the problem of drug discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This work involved churning through massive datasets which, Mabey tells us, now total more than 50 petabytes in size.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;When you think about our workloads, it makes LLMs workload training seem easy compared to the amount of data that has to be moved around,&quot; he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In the biological space and sciences in general, it&#x27;s not well appreciated just how big the data actually is,&quot; he added. &quot;The internet&#x27;s big, but in the grand scheme of things, the text that people are training on is actually pretty small, versus the petabytes of data that we have of these images.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Recursion&#x27;s first cluster was a system called BioHive Zero which it cobbled together from GTX 1080 graphics cards originally intended for gaming systems. It used Ethernet to connect GPUs and ran into the limits of conventional networking.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So, for its second cluster, an A100-based machine with around 300 accelerators, Recursion went with Nvidia&#x27;s Quantum InfiniBand switches and ConnectX NICs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As Mabey explains it, buying its compute and interconnects from the same vendor vastly simplified optimization and troubleshooting. When Recursion reached out to Nvidia for help tuning the system, they were able to consider it as a single system, rather than discrete compute and networking resources. This level of integration had only previously been offered by boutique supercomputer builders like Cray or Atos (Eviden/Bull/whatever it gets renamed next).
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A wider Spectrum
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Nvidia hasn&#x27;t always listed networking revenue as a single line item in its financials. However, based on CFO commentary and a little back of the napkin math we can fill in the blanks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia&#x27;s networking revenues have grown steadily since the Mellanox acquisition. At two moments, its revenue shot up suddenly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The first came in the 2023 calendar year (FY24) after OpenAI kicked off the AI gold rush with the launch of ChatGPT.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The second spread across 2024 and 2025, when Nvidia started selling Blackwell-generation GPUs and then started to ship them in large quantities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I see two major inflection points, both coinciding with the Blackwell platform ramp: the introduction of NVLink switches and the accelerating adoption of Spectrum-X Ethernet switches for AI back-end networks, driven by growing deployments of Nvidia GPU clusters and increased attach rates of Nvidia switches, NICs, optics, and cables,&quot; Boujelbene said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It was around this time that users started deploy to Ethernet switches in large volume across Nvidia clusters. Elon Musk&#x27;s Colossus supercomputer was one of the earliest examples.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/10/29/xais-100000-h100-colossus-is-glued-together-using-ethernet/418032&quot; target=&quot;_blank&quot;&gt;
+   reported
+  &lt;/a&gt;
+  at the time, the first half of the 200,000-chip H100 and H200-based cluster came online in 2024 and, at the time, was among the largest ever clusters deployed using Nvidia&#x27;s Spectrum-X Ethernet switches.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meta has also made extensive use of Nvidia&#x27;s Spectrum switches in its own training clusters, including at its million-GPU Prometheus site in New Albany, Ohio.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are a couple reasons Nvidia&#x27;s Spectrum-X offering is doing so well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  First, through a combination of Spectrum Ethernet switches, superNICs, and some clever software optimizations, Nvidia was able to replicate many of the qualities that made InfiniBand so attractive while also benefiting from significantly higher radix and interoperability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ethernet switches, including Nvidia&#x27;s own, have historically offered more ports. The higher the radix, the fewer switches are necessary to support a cluster at a given port speed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This often gets misconstrued to mean that InfiniBand can&#x27;t scale beyond clusters of a certain size, which isn&#x27;t necessarily the case. But for clusters exceeding a certain number of GPUs, Ethernet is often more economical because it requires less equipment while achieving similar utilization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, Nvidia&#x27;s Spectrum-X isn&#x27;t exactly unique. Broadcom, Cisco, AMD and others have managed to
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/05/31/broadcom-says-nvidias-spectrum-x-isnt-that-special/1364562&quot; target=&quot;_blank&quot;&gt;
+   achieve
+  &lt;/a&gt;
+  utilization similar to InfiniBand through various investments in smartNICs and switches.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia&#x27;s main differentiator, as Mabey and Boujelbene noted earlier, is the level of integration between the compute and networking.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  The next frontier
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Then Blackwell hit the market, enabling much greater scale and creating a surge in Nvidia&#x27;s networking revenue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Prior to Blackwell, Nvidia&#x27;s NVLink and NVSwitch interconnect tech had largely been limited to single systems with up to eight GPUs. With the launch of the GB200 NVL72, these NVSwitches were broken out into dedicated appliances. (And yes, we remember GH200 NVL256 and NVL32, but from what we can tell these were never shipped in any meaningful volume, if at all.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  For every
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2024/03/21/a-closer-look-at-nvidias-120kw-dgx-gb200-nvl72-rack-system/912087&quot; target=&quot;_blank&quot;&gt;
+   NVL72 rack
+  &lt;/a&gt;
+  system sold, Nvidia also sold nine NVSwitch trays, which enabled the system&#x27;s six dozen GPUs to function as a single enormous GPU. This effectively guaranteed steady networking revenue growth: even if customers didn&#x27;t buy Nvidia&#x27;s scale-out switches, if they wanted NVL72 racks, they were automatically buying NVSwitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We estimate that NVSwitch now accounts for roughly one-third of Nvidia’s networking revenue, up from virtually zero less than two years ago,&quot; Boujelbene told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   El Reg
+  &lt;/span&gt;
+  . &quot;This underscores how quickly NVLink switching has become a major growth engine for Nvidia’s networking business.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia is now moving to grow its networking business even further with a new licensing program.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Until recently, Nvidia&#x27;s NVSwitch tech was limited to its own accelerators. However, with the introduction of NVLink Fusion early last year, Nvidia opened the interconnect tech up to
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/08/31/nvidia-is-building-an-ip-licensing-empire-on-the-back-of-nvlink/5293530&quot; target=&quot;_blank&quot;&gt;
+   third parties to license
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Many chip designers, including Marvell, Qualcomm, Arm, Fujitsu, MediaTek, and d-Matrix, have announced plans to develop CPUs and XPUs using NVLink Fusion. The adoption of the interconnect opens the door to additional NVSwitch sales, as the chips using NVLink Fusion still rely on them for chip-to-chip communications, and there&#x27;s no other place to get them, as Nvidia has yet to license out NVSwitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;NVLink Fusion allows Nvidia to extend its networking footprint beyond its own GPUs into the rapidly growing custom accelerator market. I see it as a strategic move to capture a larger share of AI networking spending, even in clusters that do not use Nvidia GPUs,&quot; Boujelbene said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia&#x27;s networking ambitions don&#x27;t stop there.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Nvidia continues to pursue opportunities in emerging networking domains as network requirements evolve to keep pace with increasingly demanding AI workloads,&quot; Boujelbene added. &quot;The latest example is scale-in networking, designed to address the new requirements of agentic AI, while innovations such as CPO will help overcome growing bandwidth, power, and scalability challenges.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Darkbloom, which allowed Mac users to rent out their GPUs for AI inference, warns of low payouts </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/30/darkbloom-which-allowed-mac-users-to-rent-out-their-gpus-for-ai-inference-warns-of-low-payouts/5306782</link>
+<pubDate>Fri, 30 Oct 2026 20:32:32 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Declining token prices have prompted Darkbloom, a distributed inference network, to reassess its business plans.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.darkbloom.ai&quot;&gt;
+   Darkbloom
+  &lt;/a&gt;
+  , a project from Seattle-based tech biz Eigen Labs, has developed software that allows anyone with a sufficiently capable macOS device
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/08/24/conjure-cash-with-old-macs-by-linking-them-to-ai-inference-borg/5292002&quot;&gt;
+   to rent their GPU
+  &lt;/a&gt;
+  through the Darkbloom network for interference jobs. In return, they get paid.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Through this network, 800 or so participants – including as of two days ago this reporter – have been able to collect a few cents to a few dollars per day by having their hardware handle AI model prompts submitted
+  &lt;a href=&quot;https://openrouter.ai/provider/darkbloom&quot;&gt;
+   through OpenRouter
+  &lt;/a&gt;
+  , an AI model gateway.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In theory, someone running one of Apple&#x27;s recently released Mac minis with an M5 Pro chip and 64 GB of RAM could earn as much as $192 per month handling incoming inference jobs, per the company&#x27;s estimate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That assumes full 24/7 utilization during this period on a sought-after model like Qwen3.6 35B A3B, which sells for $0.065/M input tokens, $0.75/M output tokens. But not every network participant has fully surrendered their Mac hardware to the network.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The median earnings of the 50 people on the leaderboard amount to about $5.26 per day, $159.86 per month, or $1,918.50 per year. So the best case estimate presented by Darkbloom looks plausible. But it may not be sustainable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The price of tokens – the unit of AI work – has declined, reportedly
+  &lt;a href=&quot;https://www.axios.com/2026/10/22/ai-token-prices-demand&quot;&gt;
+   down 54 percent since May
+  &lt;/a&gt;
+  . Ramp&#x27;s
+  &lt;a href=&quot;https://ramp.com/data/ai-index?metric=token-price&amp;detail=blended&quot;&gt;
+   AI Token Price Index
+  &lt;/a&gt;
+  , which tracks the price of tokens from Anthropic and OpenAI, shows similar slippage. For Anthropic, the price per million tokens went from $2.65 on May 1, 2026 to $0.62 on October 22, 2026, a decline of 77 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a message shared with Darkbloom participants on the company&#x27;s Slack channel, Kydo, one of the Eigen Labs researchers working on the distributed inference network, celebrated the network&#x27;s processing of its trillionth token while attempting to moderate expectations about the project&#x27;s viability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Earnings have been low,&quot; said Kydo. &quot;For most providers, I don&#x27;t expect that it is going to recover soon.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Pointing to the computational prowess of DeekSeek&#x27;s
+  &lt;a href=&quot;https://x.com/0xkydo/status/2114114594058707002&quot;&gt;
+   DeepInfer framework
+  &lt;/a&gt;
+  , he explained that structural changes in the inference market have affected the supply of tokens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Data centers have become cheaper,&quot; he said. &quot;Output per NVIDIA cluster is up ~20x this year, and their margins are wide enough to cut prices 90 percent and still profit at 50 percent.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The flood of tokens in turn has washed away the price advantage Darkbloom had previously. &quot;The market caught up to our price,&quot; Kydo explained. &quot;We could go lower, but then most of you would earn even less nothing.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, he said, the inference routing market is changing, with OpenRouter moving away from price-based routing and putting more emphasis on decode speed, quantization, and prefill speed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For network participants with older or less powerful Mac hardware – those without top of the line Max or Ultra Apple Silicon – &quot;inference won&#x27;t be worth running,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kydo went on to outline how Darkbloom aims to adapt to the commoditized token market. This involves analyzing model demand to steer participants toward more sought-after models, and looking at ways to provide other kinds of compute work, like distributed CI/CD jobs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Mac hardware, the focus now appears to be on clusters of high-end Mac Studios (now available with up to 512 GB of RAM), using Apple&#x27;s Remote Direct Memory Access (
+  &lt;a href=&quot;https://developer.apple.com/documentation/technotes/tn3205-low-latency-communication-with-rdma-over-thunderbolt&quot;&gt;
+   RDMA
+  &lt;/a&gt;
+  ) over Thunderbolt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CI/CD work, based on the observation that AI agents now make pull requests faster than CI/CD pipelines can handle them, will require sandboxing — something the biz expects to begin testing soon. And Darkbloom also aims to improve the performance of its network (in terms of time to first token) and to look for other token buyers beyond OpenRouter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The next stretch will be a fight, and I expect many machines will leave and Slack will get quieter,&quot; Kydo concluded. &quot;But those who stay will be first in line when new earning opportunities come along. We are a driven team and well capitalized. We will not give up.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> HTTP/3 is faster with some work and help from Cloudflare </title>
+<link>https://www.theregister.com/devops/2026/10/30/http/3-is-faster-with-some-work-and-help-from-cloudflare/5306767</link>
+<pubDate>Fri, 30 Oct 2026 20:00:29 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  When you&#x27;re ordering food from your phone, even time spent navigating the app is time wasted. At the P99 2026
+  &lt;a href=&quot;https://p99conf.io/session/http-3-in-production-what-the-numbers-actually-say/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   virtual conference
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.linkedin.com/in/elvischidera/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Elvis Chidera
+  &lt;/a&gt;
+  , a staff engineer at Germany-based global delivery service
+  &lt;a href=&quot;https://www.deliveryhero.com/about/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Delivery Hero
+  &lt;/a&gt;
+  , explained how the company moved most of its user base to HTTP/3, and consequently cut its apps’ total end-to-end response time of the home screen by 17 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chidera, who managed the project, explained that, as promised on the tin, HTTP/3 delivers the web faster than HTTP/2, though it has slow bits that need to be adjusted to work properly.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Uber eats Delivery Hero
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Delivery Hero is all but unknown in the US, which is dominated by Uber Eats and DoorDash. But it is a company with global reach outside the US, with an
+  &lt;a href=&quot;https://www.deliveryhero.com/newsroom/15-years-delivering-to-you/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   estimated
+  &lt;/a&gt;
+  user base of 60 million across Europe, Latin America, Africa, the Middle East, and Asia. Uber is
+  &lt;a href=&quot;https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   currently acquiring
+  &lt;/a&gt;
+  &lt;a href=&quot;https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx&quot;&gt;
+  &lt;/a&gt;
+  Delivery Hero for $14.8 billion, with plans to unite the company with Uber Eats.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With this purchase, Uber would expand the number of markets where it offers both ride-hailing and delivery services, though not necessarily under the Uber Eats nameplate. Delivery Hero centrally manages separate apps for different regions, all of which it built or acquired. Asians can order poke bowls and sundries through
+  &lt;a href=&quot;https://www.foodpanda.com/about-foodpanda/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Foodpanda
+  &lt;/a&gt;
+  . Turks can order kebabs through
+  &lt;a href=&quot;https://www.yemeksepeti.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Yemeksepeti
+  &lt;/a&gt;
+  . Throughout Spain, Italy, Poland, Romania, Ukraine, and much of Africa, the
+  &lt;a href=&quot;https://careers.glovoapp.com/tech-glovo/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Glovo
+  &lt;/a&gt;
+  app is where to ring up the late-night deliveries. And in Latin America, users dial in to
+  &lt;a href=&quot;https://www.pedidosya.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   PedidosYa
+  &lt;/a&gt;
+  to get what they need from nearby farmacias, restaurantes, and mercados.
+ &lt;/p&gt;
+ &lt;p&gt;
+  All these regions have widely varying network connectivity, a problem Delivery Hero wanted to minimize.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Last mile networking was most often the bottleneck. Apps in Pakistan, for instance, could take nearly a second (at p90) to establish a secure handshake with a server. The engineering team looked at HTTP/3 as a way to lower, even eliminate, that latency.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A QUIC-er HTTP
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The Internet Engineering Task Force (IETF)
+  &lt;a href=&quot;https://www.ietf.org/blog/http-updates/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   formally introduced
+  &lt;/a&gt;
+  the third version of the internet’s Hypertext Transfer Protocol in 2022. HTTP is the application layer protocol that connects browsers and other resources connected to servers over the Internet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The previous versions of
+  &lt;a href=&quot;https://www.rfc-editor.org/rfc/rfc9110.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   HTTP
+  &lt;/a&gt;
+  were built on the Transmission Control Protocol (TCP), which offered guaranteed delivery and flow control. In conjunction with the Internet Protocol (IP), TCP/IP built the modern internet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  HTTP/3 replaced TCP with Quick UDP Internet Connection (QUIC),
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/07/08/media-over-quic-can-scale-real-time-streaming-and-carry-the-worlds-vids/5268101&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   developed by Google
+  &lt;/a&gt;
+  , to address some of TCP’s
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629&quot;&gt;
+   p
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   erceived sluggishness
+  &lt;/a&gt;
+  as a transfer protocol.
+ &lt;/p&gt;
+ &lt;p&gt;
+  UDP stands for User Datagram Protocol and, unlike TCP, it does not guarantee packet delivery or flow control. UDP is faster because it doesn’t wait around for a signature (QUIC adds in its own flow control on top of UDP).
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the UDP-based HTTP/3 reduces, and sometimes eliminates, the round trips needed to secure connections. The app can cache a session ticket and, on a later connection, use QUIC&#x27;s 0-RTT capability to start sending eligible application data while the handshake is still underway, rather than waiting for it to finish.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Essentially, you can eliminate that one second” of latency that plagued slower networks, Chidera said. “You don&#x27;t want to pay the cost of two round trips just to exchange data, if you could do it faster.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And unlike HTTP/2, HTTP/3 doesn’t get hung up when packets are lost or delayed. There’s no head-of-line blocking because packets are sent in multiple streams, not just the single string that HTTP/2 offers.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Multitask during initialization
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Setting up HTTP/3 turned out to be surprisingly easy, Chidera found. Delivery Hero used Cloudflare’s content delivery network to serve its global user base, so moving to HTTP/3 involved
+  &lt;a href=&quot;https://developers.cloudflare.com/speed/optimization/protocol/http3/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   a simple reconfiguration
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Adding HTTP/3 support to the clients, mostly mobile, proved almost as straightforward. Apple has supported HTTP/3 since iOS 15 and most native browsers
+  &lt;a href=&quot;https://caniuse.com/?search=http%2F3&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   already support HTTP/3
+  &lt;/a&gt;
+  out of the box.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Android proved a bit trickier. The engineers used Google’s
+  &lt;a href=&quot;https://developer.android.com/develop/connectivity/cronet&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cronet library
+  &lt;/a&gt;
+  for the networking stack, initially wired into their Android apps with the
+  &lt;a href=&quot;https://github.com/google/cronet-transport-for-okhttp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cronet Transport for OkHttp
+  &lt;/a&gt;
+  wrapper to minimize rewriting their existing code, originally written for the
+  &lt;a href=&quot;https://github.com/lysine-dev/okhttp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   OkHttp HTTP client
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Out of the box, Cronet helped support the HTTP/3 rollout, which reduced network-level request failures. But it also came with a significant catch: the engine took approximately 800 milliseconds to initialize at P90, eating into some of HTTP/3&#x27;s 0-RTT speed benefits. So the team forked the code into their own bridge using a library called
+  &lt;a href=&quot;https://github.com/limuyang2/okcronet&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   OKCronet
+  &lt;/a&gt;
+  . They also did some additional engineering work, which involved overlapping Cronet initialization with other background tasks.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Overall, they slashed the P95 latency time from 1.2 seconds to 120 milliseconds, achieving a 10x improvement in read latency.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Choose your congestion control algo wisely
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Overall, the engineering team moved 95 percent of the users over to HTTP/3. Those devices that couldn’t use the protocol (largely due to networks blocking UDP traffic) automatically fell back to HTTP/2. Handshake latency between the apps and the server was cut by 51 percent. Pakistan’s response time was cut in half.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One hurdle remained, however. Secondary screens on some of the apps (pages/screens that aren’t the home page) experienced latency issues. These issues only happened in certain markets that were known to be prone to packet loss, such as Pakistan.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delivery Hero’s engineers attributed the issue to Cloudflare’s choice of the congestion control algorithm for HTTP/3,
+  &lt;a href=&quot;https://www.rfc-editor.org/info/rfc8312/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cubic
+  &lt;/a&gt;
+  , which historically has
+  &lt;a href=&quot;https://www.forasoft.com/learn/video-streaming/articles-streaming/congestion-control-bbr-cubic-copa&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   not handled packet loss well
+  &lt;/a&gt;
+  . The engineering team tested some of its traffic with Google HTTP/3-aware servers, which use another congestion protocol, Bottleneck Bandwidth and Round-trip propagation time (
+  &lt;a href=&quot;https://www.emergentmind.com/topics/bottleneck-bandwidth-and-round-trip-propagation-time-bbr&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   BBR
+  &lt;/a&gt;
+  ), and did not get hung up on the packet loss.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Delivery Hero is currently working with Cloudflare to resolve this specific congestion algorithm issue, Chidera said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sometimes that fresh, delicious
+  &lt;a href=&quot;https://turkishdishes.net/practical-turkish-lahmacun-recipe/&quot;&gt;
+   lahmacun
+  &lt;/a&gt;
+  just won’t get to your door as fast as it possibly can, despite all best efforts. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see </title>
+<link>https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754</link>
+<pubDate>Fri, 30 Oct 2026 19:37:12 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A n0n ransomware operator tried to break into 23 organizations across 14 countries, but couldn&#x27;t secure its own front door, leaving its server exposed with all of its methods on view.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The criminals used a mix of new (AI) and old (stolen credentials) tooling during their data-theft spree, and in some cases not only stole and encrypted files, but also deleted data and backups, eliminating victims’ ability to recover their information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And despite the
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936&quot;&gt;
+   fear
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/10/27/cisa-confirms-php2shell-under-attack-as-researchers-clock-successful-exploits/5305681&quot;&gt;
+   hype
+  &lt;/a&gt;
+  around the
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/29/suspected-chinese-attackers-built-a-custom-php2shell-exploit-and-rooted-25-servers/5306456&quot;&gt;
+   breachpocalypse
+  &lt;/a&gt;
+  , with
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/26/we-shouldnt-be-surprised-about-the-phpocalypse-as-the-internet-is-built-on-sticks-and-glue/5305186&quot;&gt;
+   AI finding and developing exploits
+  &lt;/a&gt;
+  for
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/26/microsoft-releases-emergency-net-security-fixes-for-google-brotli-bug/5305515&quot;&gt;
+   critical vulnerabilities
+  &lt;/a&gt;
+  affecting
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749&quot;&gt;
+   most organizations across the globe
+  &lt;/a&gt;
+  , these crooks did not exploit a single bug to gain entry into any of their victims’ IT environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In every
+  &lt;a href=&quot;https://socradar.io/blog/n0n-ransomware-ai-assisted-extortion/&quot; rel=&quot;nofollow&quot;&gt;
+   documented compromise
+  &lt;/a&gt;
+  in this investigation, access relied on weak or stolen credentials,” said Ensar Seker, chief information security officer of threat intelligence firm SOCRadar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “What stands out is the combination of AI-assisted development and very conventional entry points,” Seker told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “We found no evidence of vulnerability exploitation in the cases examined.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The gang breaks into organizations at scale using widespread Remote Desktop Protocol (RDP) scanning and automated FortiGate SSL-VPN credential stuffing. To access US-based IT managed services provider ChiBiTek, the crew used a 15-thread residential SOCKS5 proxy pool to test credentials (ip:port:user:password) against FortiGate portals (GET /remote/login).
+ &lt;/p&gt;
+ &lt;p&gt;
+  The operators also gained entry using exposed cloud credentials and reused hosting portal sessions. In one case linked to e-commerce site
+  &lt;a href=&quot;https://x.com/DailyDarkWeb/status/2101668219886919773&quot;&gt;
+   Fanatics
+  &lt;/a&gt;
+  , SOCRadar found that n0n used an exposed AWS access key with permissions to list, read, and delete objects in S3 buckets. The criminals then used this key to pull data from 40 S3 buckets, with up to 110 GB per bucket, and ultimately deleted data, including bank-transaction archives, and purged keys across 12 sensitive buckets.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  AI-assisted extortion
+ &lt;/h3&gt;
+ &lt;p&gt;
+  While the threat hunters didn’t find any evidence of a fully autonomous attack system, the ransomware operator did use AI to assist with these intrusions, incurring more than $7,216 in AI usage costs by October 22.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Specifically: the criminal or criminals used OpenCode, an open-source AI coding agent, configured with 154 model entries across seven providers. Models included Gemini, Mistral, Nemotron, Llama, Claude, GPT-5.x, Grok, Kimi, GLM, DeepSeek, MiniMax, Qwen, and many, many others, some with safety training removed and others marketed as “uncensored” models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The operator used AI to write and debug hundreds of scripts. That shows how AI can help an attacker turn basic access into a broader, tailored operation,” Seker said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The destructive behavior is equally significant,” he added. “The operator did more than steal and encrypt files: in some cases, it deleted data and backups, and in one case changed firewall policies to block traffic. That creates a recovery problem that a decryption key alone cannot solve.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  SOCRadar’s threat hunters found the operator’s workspace - a publicly accessible Python HTTP file server hosted in Sweden at 185.157.161[.]148 on port 8877 - last month, and documented the exposed directory in snapshots on September 25 and 26.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Across those snapshots, we identified 1,719 files, including attack scripts, ransomware source code, extortion infrastructure, and an AI coding agent environment,” Seker said. “This gave us visibility into the operation behind the victim listings, including how the operator prepared attacks and handled stolen data.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Meet n0n
+ &lt;/h3&gt;
+ &lt;p&gt;
+  It also provided a close look at
+  &lt;a href=&quot;https://socradar.io/free-tools/ransomware-intelligence/groups/n0n&quot; rel=&quot;nofollow&quot;&gt;
+   n0n
+  &lt;/a&gt;
+  , a newcomer to the data-theft and extortion game that has claimed 108 victims since it emerged last month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On October 12, the group added
+  &lt;a href=&quot;https://socradar.io/blog/n0n-group-global-ports-shipping-leak/&quot; rel=&quot;nofollow&quot;&gt;
+   38 maritime, port and logistics organizations
+  &lt;/a&gt;
+  across 18 countries to its leak site in a single batch.
+  &lt;a href=&quot;https://cydome.io/n0n-cyber-extortion-incident-involving-38-maritime-companies-likely-traces-back-to-a-single-vendor/&quot; rel=&quot;nofollow&quot;&gt;
+   Researchers
+  &lt;/a&gt;
+  have linked at least 21 of them to customers of South Korean maritime software provider CyberLogitec, although the software provider has not confirmed an intrusion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The crooks set an October 19 deadline for the maritime firms, with ransom demands ranging from $400,000 to $28 million, payable in Bitcoin. After the deadline, however, none of the 38 listings were marked “settled” and none of their payment addresses showed any transaction. All affected organizations’ stolen data was published.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While a handful of the gang’s claimed victims have been marked “honored - data destroyed” on n0n’s leak site, indicating the victim orgs paid the ransom demand, SOCRadar hasn’t validated any transactions on-chain. In its profile details, the security shop rates the gang a 10 out of 10 for &quot;aggressiveness&quot; and a zero out of 10 for “lethality.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The group is believed to be based in Russia, although the server uncovered by SOCRadar, which it attributed to a single operator or small team, didn’t provide any definitive geographic or national attribution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Every case that the exposed server documented followed the same lifecycle, moving from initial access to establishing persistence and credential collection via hidden admin accounts disguised as services, covert proxies, credential and session-token theft, mailboxes and emailed multi-factor authentication codes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The crooks then collected sensitive data and sent everything to the operator’s central storage with the attack impact shifting between data-theft, encryption, destruction, and network disruption, depending on the targeted organization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  After breaking into Transcom, a Netherlands-based financial services provider, the crims sent a secondary ransom alert directly to PayPal&#x27;s security team, even though the compromised data was only on Transcom&#x27;s network.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Stupid mistakes and n0n security basics
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Finally, the crims send ransom notes, post a countdown clock on the leak site, establish negotiation rooms and emails for victims - and then leak the stolen files or destroy backups when the organizations don’t pay up. In some cases, and to apply increased pressure on victimized companies, n0n also broadcasts automated countdown warnings to businesses’ service providers, clients, and media outlets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite its aggressive tactics, the operator in this case - as with other stupid criminals
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  has
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/25/fake-google-security-team-ad-says-no-script-reading-in-voice-phishing-then-prints-the-script/5299264&quot;&gt;
+   gleefully
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/06/02/dumbass-criminal-breaks-the-first-rule-of-ransomware-club/5250380&quot;&gt;
+   documented
+  &lt;/a&gt;
+  in
+  &lt;a href=&quot;https://www.theregister.com/security/2026/01/05/resecurity-traps-cybercrim-in-honeypot/1947976&quot;&gt;
+   earlier stories
+  &lt;/a&gt;
+  - still
+  &lt;a href=&quot;https://www.theregister.com/security/2025/10/10/hacktivists-deactivate-after-falling-into-researchers-trap/597895&quot;&gt;
+   struggles
+  &lt;/a&gt;
+  with
+  &lt;a href=&quot;https://www.theregister.com/security/2025/07/01/opsec-oversights-how-cybercrooks-get-themselves-caught/101659&quot;&gt;
+   basic security hygiene
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There is a striking gap between operational ambition and security discipline,” Seker said. “The operator invested thousands of dollars in AI services while leaving its own workspace exposed. The locker also contained hardcoded encryption keys, with evidence suggesting reuse across victims. An operation can have serious destructive capability while still making fundamental mistakes.”®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Topcoat enables Rust to render server-side web apps </title>
+<link>https://www.theregister.com/devops/2026/10/30/topcoat-enables-rust-to-render-server-side-web-apps/5306490</link>
+<pubDate>Fri, 30 Oct 2026 19:28:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;1d24771b-f8e2-4b5e-8f10-78fbd30c7436&quot;&gt;
+ &lt;p&gt;
+  Popular for other uses, Rust isn&#x27;t typically deployed for web development. That could change, however.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With AI here to do the heavy lifting, coders may want to consider the programming language, given its runtime performance and safety guarantees, suggested
+  &lt;a href=&quot;https://github.com/carllerche&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Carl Lerche
+  &lt;/a&gt;
+  , an Amazon Web Services principal engineer, speaking at ScyllaDB’s
+  &lt;a href=&quot;https://p99conf.io/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   2026 P99
+  &lt;/a&gt;
+  virtual conference last week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lerche was there to
+  &lt;a href=&quot;https://p99conf.io/session/the-age-of-slow-apps-is-over-topcoat-brings-rust-to-web-apps/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   demonstrate
+  &lt;/a&gt;
+  his latest project,
+  &lt;a href=&quot;https://github.com/tokio-rs/topcoat&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Topcoat
+  &lt;/a&gt;
+  , a framework for running web applications written in Rust.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lerche is perhaps best known for creating
+  &lt;a href=&quot;https://tokio.rs/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Tokio
+  &lt;/a&gt;
+  , which is
+  &lt;a href=&quot;https://lib.rs/crates/tokio&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   the most popular
+  &lt;/a&gt;
+  asynchronous Rust runtime in that ecosystem.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Three years ago, had [I] gone out and said that Rust could be the best language for building web apps, you probably would have called me crazy,” he told the virtual audience.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Web developers gravitate towards the languages they find most familiar. These days, that means JavaScript, or possibly Ruby.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A number of web frameworks already use Rust. Both
+  &lt;a href=&quot;https://www.leptos.dev/&quot;&gt;
+   Leptos
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://dioxuslabs.com/&quot;&gt;
+   Dioxus
+  &lt;/a&gt;
+  compile Rust into WebAssembly, which most browsers run. This approach is great for heavy computational jobs, though the upfront loading time can be a real drag.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Topcoat compiles your Rust code into more web-friendly JavaScript. For Lerche, JavaScript remains the best way to interact with the browser&#x27;s Document Object Model (DOM).
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Generally, the approach taken by any Rust framework can be traced back to another ecosystem, usually a very popular one. You can&#x27;t really point to a single existing framework as [Topcoat’s] main source of inspiration,” noted frontend developer Ken Kohlman,
+  &lt;a href=&quot;https://www.youtube.com/watch?v=LVRM3skRBBE&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   in a summary video
+  &lt;/a&gt;
+  on his “Code to the Moon” YouTube channel.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Walk on the server side
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Lerche admitted that
+  &lt;a href=&quot;https://www.youtube.com/watch?v=VCgUmW6WzsI&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Topcoat
+  &lt;/a&gt;
+  isn’t for building complex applications, on the scale of, say, Figma, but it can easily be used for the run-of-the-mill, browser-based, database-driven applications, which is to say 90 percent of the web today.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unlike most
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/10/28/how-google-fumbled-the-frontend-with-angular-2/5306030&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   present-day JavaScript frameworks
+  &lt;/a&gt;
+  , Topcoat eschews the current definition of being reactive, where the program logic is dumped onto the browser when the session begins. Instead, most of the logic executes on the server, with only the results delivered to the browser (Developers can still write client-side logic using a subset of Rust, which Topcoat automatically compiles into JavaScript for the browser).
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s an old idea recast with better tech. Server-side rendering predates reactive programming (see Apache’s
+  &lt;a href=&quot;https://httpd.apache.org/docs/current/howto/ssi.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   server-side includes
+  &lt;/a&gt;
+  ). With server-side rendering, Lerche admitted, “It might sound like we&#x27;re going back to the old days of full page refreshes for every click [but] you can actually get almost all of what you think of as reactive with server-side rendering.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  But server-side programming has been making a comeback lately, especially for those devs disgruntled with React and other frameworks.
+  &lt;a href=&quot;https://htmx.org/docs/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   HTMX
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://data-star.dev/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Datastar
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://github.com/phoenixframework/phoenix_live_view&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Phoenix LiveView
+  &lt;/a&gt;
+  all render web pages on the server, sending them back to the browser nearly completed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Topcoat is just tweaking their ideas to fit well with Rust, Lerche said. When a user smashes a button on a web page, the whole page isn’t refreshed. Just the HTML snippet for that component is returned and refreshed by the server.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  JavaScript in the front, Rust in the back
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Topcoat saves load times by rendering all the components at once, rather than one by one. Also, data loading does not block the loading of the page. The server can send back a web page with placeholders into which the data will stream.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One big dollop of secret sauce that Topcoat has is that it provides a way for the component, which is already on the server, to speak directly to the database, thanks to an earlier project from Lerche called
+  &lt;a href=&quot;https://github.com/tokio-rs/toasty&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Toasty
+  &lt;/a&gt;
+  , a Rust-based asynchronous database object-relational mapper (which he
+  &lt;a href=&quot;https://www.youtube.com/watch?v=nDuBhkzJJfM&amp;t=366s&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   spoke about
+  &lt;/a&gt;
+  at P99 2024).
+ &lt;/p&gt;
+ &lt;p&gt;
+  “You can do your rendering right with the data immediately, so you don&#x27;t have to figure out how to serialize it, send it to the client, deserialize it,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  By pushing data loading deep down into the page render, the server can send the head of the HTML template to the client immediately, allowing the browser to start preloading assets (like CSS or images) while the server renders the rest of the page.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The simplicity is incredible, and it is something that we have been sorely missing in this space. I feel like someone who doesn&#x27;t really know Rust could get off the ground pretty quickly with this thing,” Kohlman said. He did agree with Lerche that Topcoat is best for smaller web projects, given that Topcoat only uses a subset of the Rust syntax.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There&#x27;s something to be said for having the full Rust syntax at your disposal,” he said.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI Arms Race Puts Sovereign Supply Chains in the Spotlight </title>
+<link>https://www.theregister.com/ai/2026/10/30/ai-arms-race-puts-sovereign-supply-chains-in-the-spotlight/5306758</link>
+<pubDate>Fri, 30 Oct 2026 19:08:51 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  During the Cold War, developing the atomic bomb was the first step toward building even more powerful nuclear weapons. That same logic now applies to the AI arms race. For nations like South Korea in particular, having the most powerful AI accelerator is secondary to having one that is domestically sourced or manufactured and eliminating its dependency on the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And, yes, as a longtime ally of the United States, South Korea can import as many GPUs from Nvidia or AMD as it pleases. But just because it can doesn&#x27;t mean the nation is okay relying on America&#x27;s often capricious government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As we&#x27;ve seen repeatedly over the last few years, what Uncle Sam giveth can be taken away with little or no warning, and South Korea seems to be well aware of this fact.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The nation as it were is in a unique position to blaze its own AI infrastructure trail. The country is home to two of the world&#x27;s largest memory vendors, SK Hynix and Samsung, giving domestic chip designers an advantage in securing HBM capacity. Samsung Electronics also happens to be the second largest leading edge wafer fab in the world, while Taiwan Semiconductor Manufacturing Co and Japan&#x27;s Rapidus are just a short hop away.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As such, we&#x27;ve seen a handful of credible South Korean chip startups come and go since the start of the AI boom. FuriosaAI and Rebellions are the two frontrunners. There was also Sapeon for a hot minute, but its IP and talent were rolled into Rebellions back in late 2024.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both companies have produced working silicon, which is more than a lot of chip startups can say, though their latest releases aren&#x27;t exactly the most sophisticated.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rebellions&#x27; Rebel100 accelerator, for example, first turned up
+  &lt;a href=&quot;https://www.nextplatform.com/compute/2025/12/23/rebellions-ai-puts-together-an-hbm-and-arm-alliance-to-take-on-nvidia/1703789&quot;&gt;
+   in late 2025
+  &lt;/a&gt;
+  , is roughly on par with Nvidia&#x27;s three-year-old H200. Meanwhile, Furiosa&#x27;s RNGD accelerator, which we looked at back in mid-2025, isn&#x27;t even that powerful, delivering about
+  &lt;a href=&quot;https://www.theregister.com/software/2025/07/22/how-ai-chip-upstart-furiosaai-won-over-lg/778112&quot;&gt;
+   2.25x
+  &lt;/a&gt;
+  the performance per watt of Nvidia&#x27;s now six-year-old A100 in the tested workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But as we&#x27;ve seen with China&#x27;s domestic AI infrastructure push, the chips don&#x27;t need to be that fast if you&#x27;ve got enough of them. Having proven their designs, Rebellions and Furiosa are now working to advance new systems and next-gen chips.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, Furiosa announced a $620 million
+  &lt;a href=&quot;https://furiosa.ai/blog/furiosaai-620-million-series-d&quot;&gt;
+   Series D funding round
+  &lt;/a&gt;
+  to scale production of its RNGD accelerators and continue development of its third-gen accelerators, which it&#x27;s building in collaboration with Broadcom.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Furiosa expects to produce around 20,000 RNGD accelerators this year and roughly double that in 2027. To no one&#x27;s surprise, Samsung and LG Electronics are among the company&#x27;s biggest patrons.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We don&#x27;t have a lot of info on Furiosa&#x27;s next accelerator, but we do know it&#x27;ll be fabbed on a 2 nm process (presumably TSMC&#x27;s), use a multi-die chiplet architecture, and incorporate HBM4 or HBM4e depending on timing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Broadcom&#x27;s involvement in the chip&#x27;s development points to a rack-scale architecture using something like Tomahawk 6 or Tomahawk Ultra and/or 3.5D XDSiP for package design.
+ &lt;/p&gt;
+ &lt;p&gt;
+  3.5D XDSiP is an advanced packaging
+  &lt;a href=&quot;https://www.theregister.com/special-features/2025/06/27/how-broadcom-is-quietly-invading-ai-infrastructure/459998&quot;&gt;
+   reference architecture
+  &lt;/a&gt;
+  designed by Broadcom as a shortcut for XPU designers to bring AMD Instinct-style accelerators to the market faster. From what we can tell, Meta and OpenAI have notably adopted the tech for their respective XPU platforms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We don&#x27;t know for sure that&#x27;s what Furiosa is doing, but from what it has disclosed previously, it sure looks like a combination of the two. In any case, the move to a 2 nm process and HBM4 or 4e points to a significantly more potent accelerator.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The desire for sovereign AI — that is, AI trained and run on accelerators you own in datacenters within your nation&#x27;s borders — isn&#x27;t a phenomenon unique to South Korea. Neither is the desire to diversify supply chains on the off chance the arms race turns into a second cold war and Washington and Beijing start gatekeeping their best hardware.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We&#x27;ve already seen the mess the Trump administration caused trying to cut off China&#x27;s access to Nvidia&#x27;s H20 accelerators last year. That decision was quickly reversed, but not before Beijing got the message that US chip designers couldn&#x27;t be counted on any longer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As such, we&#x27;ve seen growing interest in alternative accelerators across EMEA and the Asia-Pacific regions. Japanese neocloud ai&amp;, for example, recently
+  &lt;a href=&quot;https://rebellions.ai/newsroom/rebellions-and-ai-partner-to-bring-energy-efficient-ai-inference-infrastructure-to-japan/&quot;&gt;
+   announced
+  &lt;/a&gt;
+  plans to deploy up to 100 of Rebellions&#x27; RebelRack systems to support its GPU-based compute offering. For reference, that works out to 3,200 Rebel100 accelerators. It&#x27;s not a huge win compared to the volumes of Blackwell or Instinct accelerators Nvidia and AMD ship each quarter, but it&#x27;s something.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, Furiosa is cashing in on the dearth of competent European AI accelerators. This summer, the chip biz landed a
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/07/south-korean-chip-startup-furiosaai-invades-european-datacenters/5267884&quot;&gt;
+   deal with Equinix
+  &lt;/a&gt;
+  to field its RNGD accelerators at the colo&#x27;s LS2 facility in Lisbon.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Rebellions and Furiosa may not have the most potent chips, but the simple fact that they&#x27;re not American is enough to make them attractive for those looking to insulate their AI investments against supply chain disruptions.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Sandisk’s flash revenue rocket accelerates some more </title>
+<link>https://www.theregister.com/flash/2026/10/30/sandisks-flash-revenue-rocket-accelerates-some-more/5306734</link>
+<pubDate>Fri, 30 Oct 2026 17:24:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245&quot; target=&quot;_blank&quot;&gt;
+   Sandisk’s
+  &lt;/a&gt;
+  business execs saw SSD revenues rise steeply, up 378 percent Y/Y, to a record $11 billion, beating last quarter’s record $9 billion, which beat the previous quarter’s record $6 billion and this repeated record-breaking is set to continue with a $12 billion+ forecast fir the ext quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There was
+  &lt;span&gt;
+  &lt;/span&gt;
+  $8.1 billion in GAAP net income, up - wait for it - 7,133 percent. The cash flow numbers are ridiculous. There was $6.4 billion in operating cash flow, vs $488 million a year ago and $5.7 billion free cash flow compared to $448 million a year ago. UK businesses, even high tech ones, and even EU businesses, think such numbers are unreachable fantasies. These Sandisk numbers are no flash in the pan, with all the NAND and DRAM/HBM vendors reporting sustained high growth, with long-term customer supply and buying agreements out to 2028 and. sometimes beyond, giving them confidence in demand durability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO and Chairman David Goeckeler said: “We have started fiscal year 2027 with another quarter of strong performance, with robust and growing demand for our products driving outpaced growth in our data center business We are executing on the strategy that we outlined at Investor Day, delivering growing and durable free cash flow through our technology leadership, deep customer partnerships, and disciplined financial management.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cast your mind back to the dark days when corporate raider
+  &lt;a href=&quot;https://www.blocksandfiles.com/disk/2023/10/30/western-digital-spinning-out-flash-business/1596082&quot; target=&quot;_blank&quot;&gt;
+   Elliott Management
+  &lt;/a&gt;
+  was working to get Western Digital (disk + flash) split into WD (disk) and Sandisk (flash) to enhance shareholder value, and we realize that, because of the, at the time unexpected, AI boom, Elliott’s strategy has worked marvellously well. WD recently reported
+  &lt;a href=&quot;https://www.blocksandfiles.com/disk/2026/10/23/wd-knocks-earnings-out-of-the-park-again/5304988&quot; target=&quot;_blank&quot;&gt;
+   $4.4 billion
+  &lt;/a&gt;
+  in quarterly revenues, with Sandisk growing much, much faster. AI needs SSDs more than HDDs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Can this continue? Sandisk’s future expectations are, it says,”reinforced by a structural, AI-driven increase in NAND demand and NBM (new business model) customer signals extending beyond fiscal 2030.” NBMs are long-term supply and purchasing agreements with large customers. It says: ”Customer signals extend beyond fiscal year 2030 through our NBM partnerships; recent engagements with leading AI companies indicate further demand upside.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  And this: “NBM pipeline exceeds our supply through the end of the decade.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI inferencing should provide sustained demand, Sandisk saying: “We expect KV cache to be ~one-third of the AI datacenter flash market by decade-end, with the AI datacenter opportunity approaching the size of today’s NAND industry.” In its view, “TLC serves latency-sensitive KV cache and active datasets; QLC adds density for data lakes, vector databases that power AI search, and retrieval repositories.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandisk has three market sectors; datacenter, edge and consumer, and their results were:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Datacenter - $4.8 billion, up 1,682 percent Y/Y
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Edge - $5.8 billion, 320 percent higher Y/T
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Consumer: $397 million; down 39 percent Y/Y “as the market adjusts to higher pricing”
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  Sandisk reckons “Edge is a large and strategically important market, spanning smartphones, PCs, automotive, tablets, and an expanding range of physical AI applications. Deepening engagements with leading customers reinforce our confidence that Automotive can become one of our largest markets within Edge over time.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  It views the consumer market as “a differentiated strategic asset” which “provides a durable foundation for our business. … Its direct connection to the market informs product development and provides early insight into shifts in end-user demand.” You might think this is just rationalizing remaining in a weakening business as the consumer business represents just 3.7 percent of Sandisk’s overall business. Why bother? Surely it can sell consumer NAND bits for more money to datacenter and edge customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Remember when USB sticks were handed out a supplier events pretty much like confetti? No more. Prices are so high now that the market may never return to those heady days.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  &lt;strong&gt;
+   Sandisk and Kioxia
+  &lt;/strong&gt;
+ &lt;/h5&gt;
+ &lt;p&gt;
+  Compared to NAND fab join-venture partner
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/10/21/hpe-and-kioxia-ssds-are-going-to-the-moon/5304395&quot; target=&quot;_blank&quot;&gt;
+   Kioxia
+  &lt;/a&gt;
+  , which has a strong datacenter market presence, Sandisk revenues are falling behind, held back by slower growing but historically dominant edge (client) revenues and a declining consumer segment. Goeckeler is rebalancing these three market sectors with a stronger data center component; now the fastest-growing sector. It could overtake the edge market sector in the next quarter or two, with PC sales held back by high memory prices.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The share price has grown so strongly that Sandisk announced an eight-for-one forward stock split, effective November 19, 2026, to make stock more accessible, including to employees through its employee stock purchase plan. Kioxia is also having a stock split for the same reasons.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company is making a bet with SK Hynix that it can expand the AI NAND market with
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/02/16/sk-hynix-proposes-hbm-and-hbf-hybrid-for-llm-inference/4091326&quot; target=&quot;_blank&quot;&gt;
+   high-bandwidth flash
+  &lt;/a&gt;
+  (HBF), that stacks layers of 3D-NAND dies with through silicon vias (TSV) connections like HBM to a base logic die and then a high-bandwidth connection to a GPU to beat NVMe SSD bandwidth limitations and latency. So far no GPU supplier has committed to HBF technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandisk said: “HBF reached a milestone in FQ1 with tape-out of our first HBF memory die; samples of our first HBF-based products remain on track for next calendar year.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sandisk thinks there will be a strong market in calendar year 2027, with datacenter expected again to be the engine of growth, representing over 55 percent of the market in 2027. Datacenter bit demand is expected to grow about 40 percent Y/Y in calendar year 2027, enabled by higher AI-driven capital spending, after more than doubling in 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It expects Q2 fy2027 revenues to be $12.4 billion ± $200 million, a 310 percent Y/Y rise at the mid-point.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> GM cracks the petty cash box for multistate driver tracking settlement </title>
+<link>https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721</link>
+<pubDate>Fri, 30 Oct 2026 16:48:37 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  General Motors is taking what looks like a light slap on the wrist from a coalition of 35 states and the District of Columbia after agreeing to settle allegations that it collected drivers&#x27; data without proper consent and sold it to data brokers that supplied insurance companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Washington state AG&#x27;s office
+  &lt;a href=&quot;https://www.atg.wa.gov/news/news-releases/gm-pay-220m-sharing-drivers-private-data-case-co-led-washington&quot;&gt;
+   said
+  &lt;/a&gt;
+  on Thursday that GM had reached a $220 million settlement with 36 attorneys general over the automaker&#x27;s collection and sharing of driving data, including precise location information, speed, seatbelt use, and other metrics. According to investigators, GM sold that data to brokers, which in turn supplied it to insurance companies that could use it to set customers&#x27; premiums, without drivers&#x27; informed consent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For reference, the $220 million settlement, which will be distributed among the participating jurisdictions, equates to less than 7 percent of GM&#x27;s $3.3 billion in net income attributable to stockholders for its
+  &lt;a href=&quot;https://investor.gm.com/news-releases/news-release-details/gm-releases-2026-third-quarter-results-and-updates-full-year&quot;&gt;
+   third quarter
+  &lt;/a&gt;
+  , which ended on September 30, 2026. Don&#x27;t spend it all in one place, y&#x27;all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The settlement comes more than two years after a 2024 New York Times
+  &lt;a href=&quot;https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html&quot;&gt;
+   investigation
+  &lt;/a&gt;
+  found that GM had been selling the data collected from vehicle owners through its Smart Driver program. That program, part of GM subsidiary OnStar’s offering, collected the aforementioned data and handed it back to vehicle owners in reports designed to inform better driving habits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unbeknownst to Smart Driver subscribers, their data was also being forked over to data brokers despite GM telling customers it wouldn&#x27;t share that information with insurers without their express consent. The insurers ultimately obtained the data by purchasing it from brokers with which GM had struck deals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To make matters worse, the Washington AG&#x27;s office said GM incentivized dealerships to enroll customers in Smart Driver, with employees in some cases accepting terms and conditions on customers&#x27; behalf without their knowledge or consent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GM also failed to notify many drivers that their information was being collected and shared. Its OnStar app incorrectly told more than 370,000 drivers they were not enrolled in Smart Driver, even as GM continued collecting and selling their data, according to investigators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The data GM sold was personal, identifiable, and specific,” the AG’s office said. GM canned the Smart Driver program in April 2024, just over a month after the New York Times exposed its data-sharing practices,
+  &lt;a href=&quot;https://news.gm.com/home.detail.html/Pages/news/us/en/2024/apr/0424-driver.html&quot;&gt;
+   citing
+  &lt;/a&gt;
+  customer feedback.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition to the monetary pittance it’s handing over to the states, GM also agreed with the 36 AGs to limit the driving data it collects, better protect customer PII, and establish a &quot;comprehensive data privacy program.” The Washington AG’s office described its settlement as “significantly stronger than any other resolution reached with GM for this conduct.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking of those other terms, GM
+  &lt;a href=&quot;https://www.theregister.com/security/2026/01/15/us-regulator-tells-gm-to-hit-the-brakes-on-customer-tracking/4130097&quot;&gt;
+   finalized
+  &lt;/a&gt;
+  its
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/01/17/gm-settles-charges-it-shared-driver-location-data/381136&quot;&gt;
+   settlement
+  &lt;/a&gt;
+  of the same allegations with the Federal Trade Commission in January 2026. The FTC order required GM to obtain drivers&#x27; express consent before collecting, using, or sharing covered driving data, subject to certain exceptions. It also required the company to offer a simple way for drivers to request a copy of their data, request its deletion, and disable precise geolocation data collection where their vehicles support it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The state of California separately reached a $12.75 million
+  &lt;a href=&quot;https://oag.ca.gov/news/press-releases/when-it-comes-data-privacy-consumers-must-be-driver%E2%80%99s-seat-attorney-general&quot;&gt;
+   settlement
+  &lt;/a&gt;
+  with GM in the matter in May; a separate case in Texas is ongoing.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This agreement … reinforces steps we’ve taken to strengthen our privacy practices,” a GM spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , though the company noted that it still stands by driver data collection as a best practice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Safer, more helpful and personalized experiences are enabled by connected vehicle data, and GM is committed to being clear about what information is used, how it’s protected, and the choices customers have about what they share,” the spokesperson added. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Anthropic: That Claude Code extension compromise… couldn&#x27;t be us </title>
+<link>https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682</link>
+<pubDate>Fri, 30 Oct 2026 16:27:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Anthropic has denied allegations that a malicious version of the official Claude Code extension published to Cursor’s marketplace was linked to any kind of compromise of its own systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company was forced to issue a statement after prominent figures in the cybersecurity industry alleged that the extension, which infected up to 5,000 developers, was uploaded to Cursor’s marketplace following a breach at Claudemaker Towers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Felix Rieseberg, a member of Anthropic’s technical staff,
+  &lt;a href=&quot;https://x.com/felixrieseberg/status/2116170451466543578&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Xeeted
+  &lt;/a&gt;
+  today: &quot;We&#x27;re working with Cursor on this incident, but it wasn’t a compromise of Anthropic&#x27;s systems or employee laptops.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;A malicious actor used access to Cursor&#x27;s marketplace to publish a tampered copy of the Claude Code extension, which we didn&#x27;t build or publish. The versions on our official channels are not affected, and this only impacts Cursor users.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  First spotted by EDR vendor
+  &lt;a href=&quot;https://phorion.io/blog/offical-claude-code-vsx-compromise/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Phorion
+  &lt;/a&gt;
+  , an unknown party pushed an update to Cursor&#x27;s official Claude Code extension for
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/05/20/github-says-internal-repos-exfiltrated-after-poisoned-vs-code-extension-attack/5243206&quot; target=&quot;_blank&quot;&gt;
+   Visual Studio Code
+  &lt;/a&gt;
+  that contained a persistent SSH backdoor written for Windows, macOS, and Linux.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Cursor, the extension – version 2.1.313 – was available to download for around 11 hours between 0227 and 1335 PT (0927 and 2035 UTC) on Thursday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The vendors&#x27; analyses of the implant revealed that it collected information about the host machine and user, including usernames, configured
+  &lt;a href=&quot;https://www.theregister.com/devops/2026/08/24/how-cursor-beat-gits-scalability-shortcomings/5291479&quot; target=&quot;_blank&quot;&gt;
+   Git
+  &lt;/a&gt;
+  emails, and public IP addresses, as well as attempting to open a reverse SSH tunnel.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Crucially, Cursor echoed Phorion&#x27;s assessment that the package contained a critical flaw.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The script responsible for opening the SSH tunnel required admin rights on macOS and Windows to do so, and in the vast majority of cases it did not have these, resulting in failure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Regardless, the extension still forwards the collected host and user data to the attacker, as well as dropping the attacker&#x27;s SSH key and installing the persistence mechanism, so developers must go threat hunting in case their instance allows for the SSH tunnel to be created successfully.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Simply installing the latest version of the extension is not enough to clear the persistence mechanism, either.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The full details of how to remediate the issue, and links to download scripts to wipe the infection, are laid out in
+  &lt;a href=&quot;https://cursor.com/blog/claude-code-extension-security-notice&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Cursor&#x27;s account of the situation
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Aside from Rieseberg&#x27;s statement today, neither Cursor nor Anthropic have commented on how the malicious package made its way to the official marketplace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic&#x27;s position is that a malicious actor uploaded the tampered copy to
+  &lt;a href=&quot;https://www.theregister.com/software/2026/01/22/cursor-shows-ai-agents-capable-of-shoddy-code-at-scale/4941616&quot; target=&quot;_blank&quot;&gt;
+   Cursor
+  &lt;/a&gt;
+  , but the latter has not outlined how it reached the marketpplace.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;[We] removed the malicious version from the marketplace immediately upon detection and blocked further distribution,&quot; Cursor said in the advisory. &quot;We followed with a full shutdown of the VSCode Marketplace out of an abundance of caution.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also ran checks to confirm no other extensions were compromised in the same way, rotated its own keys before restoring the marketplace, and worked with a cloud hosting provider to block the connection to the attacker&#x27;s server, it said. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Voyager 1 gives controllers the silent treatment </title>
+<link>https://www.theregister.com/science/2026/10/30/voyager-1-gives-controllers-the-silent-treatment/5306637</link>
+<pubDate>Fri, 30 Oct 2026 15:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Voyager 1 gave controllers the silent treatment for a few days this month before resuming communication weeks before the spacecraft reaches the one-light-day milestone.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://science.nasa.gov/blogs/voyager/2026/10/29/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   incident
+  &lt;/a&gt;
+  happened on October 18: NASA&#x27;s Deep Space Network (DSN) couldn&#x27;t detect a signal from the probe. On October 19, on the next scheduled communication attempt, there was still nothing. Was this it? Had the decades-long galactic venture finally ended?
+ &lt;/p&gt;
+ &lt;p&gt;
+  Things are operating on a knife&#x27;s edge for the two veteran spacecraft, which will reach their half-century next year.
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2023/07/31/nasa-mistakenly-severs-communication-to-voyager-2/772623&quot; target=&quot;_blank&quot;&gt;
+   Voyager 2 suffered an antenna pointing issue
+  &lt;/a&gt;
+  in 2023, and a low power condition caused Voyager 1 to
+  &lt;a href=&quot;https://science.nasa.gov/blogs/voyager/2024/10/28/after-pause-nasas-voyager-1-communicating-with-mission-team/&quot; target=&quot;_blank&quot;&gt;
+   unexpectedly turn off
+  &lt;/a&gt;
+  one of its two radio transmitters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The good news is that on October 20, the signal reappeared, leaving engineers wondering why Voyager 1 temporarily went silent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thus far, it seems a group of thrusters went offline and their backups were turned on. This could indicate onboard computers detected a problem and put the spacecraft into a safe mode.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kareem Badaruddin, Voyager mission manager at NASA&#x27;s Jet Propulsion Laboratory, said: &quot;This is the first time we&#x27;ve seen the spacecraft do something like this, but we are also at a point in the mission where we have to expect the unexpected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We&#x27;re relieved to be back in contact with Voyager 1 and are eager to understand what happened.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2024/11/28/whats-it-like-to-be-an-engineer-on-the-voyager-project/727819&quot; target=&quot;_blank&quot;&gt;
+   spoke to Badaruddin in 2024
+  &lt;/a&gt;
+  , where he described the challenges of working with the veteran spacecraft, but he reckoned the work was the &quot;best job at JPL.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The twin Voyager spacecraft have recently been through a procedure dubbed the &quot;Big Bang,&quot; where controllers turned off onboard devices and switched to lower power alternatives. The result will extend the lifetime of the spacecraft by a few more years and postpone further instrument deactivation. It was completed first on Voyager 2, and then Voyager 1, six weeks later in September.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the brief lapse in communication highlights that despite the ingenuity of the team that keep the spacecraft running, the project must eventually come to an end. In 2026, Suzanne Dodd, Project Manager for the Voyager project, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.theregister.com/science/2026/08/12/how-voyager-engineers-found-two-more-years-in-a-50-year-old-power-budget/5284906&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   what the end would look like
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  She said, &quot;We&#x27;re just going to one day not hear the signal from the DSN, and we&#x27;re going to rush around and make sure that it&#x27;s not something on the ground.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Months of listening will follow, before engineers throw in the towel and declare the mission over. And then? Maybe a farewell message sent to the last known location.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thankfully, in this case, the signal returned, so no need for a goodbye transmission just yet.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a few weeks, Voyager 1 will be so far away that it will take a full 24 hours for commands to reach it and another 24 hours for a response to reach Earth.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Communications blip notwithstanding, there is every chance both Voyager spacecraft will still be operational as they pass their half-century milestone next year and, technology and funding permitting, continue sending data to Earth for a good few years yet. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Samsung memory virtually printing money </title>
+<link>https://www.theregister.com/flash/2026/10/30/samsung-memory-virtually-printing-money/5306688</link>
+<pubDate>Fri, 30 Oct 2026 15:18:20 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/07/31/for-samsung-hbm-is-the-gift-that-keeps-on-giving/5281709&quot; target=&quot;_blank&quot;&gt;
+   Samsung
+  &lt;/a&gt;
+  almost reported its first-ever ₩200 trillion quarterly revenues in its third 2026 quarter
+  &lt;span&gt;
+  &lt;/span&gt;
+  as soaring AI demand for HBM, DRAM and NAND enabled high prices for its semiconductor technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Revenues of ₩195.3 trillion ($145.5 billion) rose 121.8 percent Y/Y and there was an operating profit of ₩107.4 trillion ($80 billion); amazing numbers - but now the new normal. The operating profit number made Samsung Electronics the world’s first tech company to exceed ₩100 trillion ($74.5 billion) in quarterly operating profit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its DS (Device Solutions) semiconductor business accounted for 72 percent of Samsung Electronics’ revenues in the quarter; ₩147 trillion ($109.6 billion) up 15 percent Q/Q. Within that memory, at
+  &lt;span&gt;
+  &lt;/span&gt;
+  ₩140.7 trillion ($104.8 billion), accounted for the vast bulk of it, 95.7 percent, achieved by ramping up HBM4 sales and meeting demand for server SSDs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Competitor
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/10/28/sk-hynix-what-shall-we-do-with-all-the-cash/5306038&quot; target=&quot;_blank&quot;&gt;
+   SK hynix
+  &lt;/a&gt;
+  reported revenues of ₩104 trillion ($78.9 billion) in its third 2026 quarter, with a ₩39.8 trillion (c$30 billion) profit; less revenue and profit than the directly comparable Samsung DS division.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other Samsung divisions brought in much less money than the DS unit;
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    DX mobile/TV/home appliances - ₩52.1trillion ($38 billion), up 8 percent Q/Q, with an operating loss of ₩0.8 triilion ($600 million),
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    SDC - display - ₩8 trillion ($6 billion), up,14 percent Q/Q,
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    Harman - automotive/lifestyle - ₩4.3 trillion ($3.2 billion), up,14 percent Q/Q
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  For Harman, quarterly revenues of $3.2 billion is magnificent for audio products, dwarfing
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2025/01/14/sonos-ceo-steps-down-after-app-upgrade-debacle/1387830&quot; target=&quot;_blank&quot;&gt;
+   Sonos
+  &lt;/a&gt;
+  ’ $375 million for its latest quarter. Yet, it is just 2.2 percent of DS business unit revenues; rounding error territory.
+  &lt;span&gt;
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oligopolies under-supplying high-demand memory products into rampant growth markets with a $30 million-per fab cost of entry can make a lot of money. And they certainly are. Samsung said strong demand momentum for servers led to higher market prices across all applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s not easy technology to manufacture; this being very high technology indeed. But it’s certainly bringing in the money. Samsung noted its Foundry Business experienced a notable revenue and earnings improvement on HBM base-die sales growth and expanded advanced-node sales, as well as continued order wins centered on 2nm HPC customers, including major hyperscalers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung expects semiconductor demand is set to remain robust. Next quarter, its Memory Business expects industry-wide competition for AI leadership to drive continued AI infrastructure investment. Memory demand growth is projected to revolve around new CPU and GPU platform-related products, while surging QLC SSD demand will be linked to the expansion of personal AI agent services. It intends to further increase HBM, server DRAM, and SSD sales, and specifically increase the supply of high-speed server DDR5 product and QLC SSDs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its outlook is, frankly astonishing, as it expects AI infrastructure capital expenditure to reach a historic level in 2027, greater than this year, as the AI ecosystem expands. In fact, “AI-driven demand will far exceed the industry supply in comparison with 2026.” Note that “far exceeed.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Samsung says investments are planned for new fabs and other infrastructure to meet strong AI and HPC demand. It’s also returning wads of cash to shareholders via dividends and share repurchases.
+ &lt;/p&gt;
+ &lt;h5&gt;
+  Comment
+ &lt;/h5&gt;
+ &lt;p&gt;
+  Rich VCs and private equity firms might be looking at the memory semiconductor industry&#x27;s ability to make gargantuan revenues and profits from vastly undersupplied products to a high-demand market and assessing if this is a short-term boom that will start running out of steam by, say 2031, or the new long-term normal with a reliable revenue earning trend at this level out to 2040 and 2050. If the latter then why not buy into a memory market bit player and fund major league expansion to supply product into the market currently dominated by Samsung, SK hynix/Solidigm, Micron, Kioxia and Sandisk?
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/09/08/sk-hynix-on-solidigm-pre-ipo-rumors-no-matters-have-been-determined/5294842&quot; target=&quot;_blank&quot;&gt;
+   Bain
+  &lt;/a&gt;
+  , having successfully taken Kioxia out of Toshiba, is surely having analysts run the numbers for such a venture.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another point. The previous relatively balanced Samsung business division organization now looks thoroughly out of balance with a dominant DS business unit towering over the others in revenue terms. This could prompt significant divisional level reorganization in Samsung. And the same applies to the SK Group where SK Hynix revenues are going sky-high in a similar fashion.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AlpineBSD announced – an AI-free FOSS OS </title>
+<link>https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589</link>
+<pubDate>Fri, 30 Oct 2026 14:45:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Just days after Daemonarchy, there&#x27;s another new OS in the BSD family – and one that is heading determinedly in almost the opposite direction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://wiki.alpinebsd.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   AlpineBSD
+  &lt;/a&gt;
+  is so new that it barely exists yet. There are no installation media available, though it&#x27;s possible to
+  &lt;a href=&quot;https://wiki.alpinebsd.org/installation/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   manually bootstrap an installation
+  &lt;/a&gt;
+  . What AlpineBSD does already have is an
+  &lt;a href=&quot;https://wiki.alpinebsd.org/ai-policy&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   AI policy,
+  &lt;/a&gt;
+  and the plan is to avoid &quot;the output of generative AI models (e.g. LLMs)&quot; as far as possible:
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Any software whose code, documentation, binaries, or other assets include, in any part, the output of a generative AI tool such as an LLM, is considered &#x27;tainted&#x27; for our purposes.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The core idea is to combine the kernel of NetBSD with &quot;a userspace inspired by Alpine Linux and the objective of making it possible to use as little AI-generated software as possible.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.theregister.com/software/2024/05/18/gentoo-and-netbsd-ban-ai-code-but-debian-doesnt-yet/1434665&quot; target=&quot;_blank&quot;&gt;
+   Back in 2024
+  &lt;/a&gt;
+  , the NetBSD project made its position on AI plain. Its
+  &lt;a href=&quot;https://www.netbsd.org/developers/commit-guidelines.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   commit guidelines
+  &lt;/a&gt;
+  say that &quot;code generated by a Large Language Model […] is presumed to be tainted code.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Back in July, Linus Torvalds stated that
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/07/15/linus-torvalds-tells-ai-haters-to-fork-off/5271894&quot; target=&quot;_blank&quot;&gt;
+   &quot;Linux is not one of those anti-AI projects
+  &lt;/a&gt;
+  &quot;. Since then, NetBSD has seen a
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/10/13/netbsd-may-have-found-a-new-role-the-ai-free-foss-os/5302818&quot; target=&quot;_blank&quot;&gt;
+   spike in donations and interest
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  For someone mainly used to Linux, trying to install NetBSD is a little like hopping in a time machine to 30 years ago, and we speak from personal experience of Linux in the mid-1990s. As we mentioned when
+  &lt;a href=&quot;https://www.theregister.com/software/2023/07/20/slackware-turns-30/453790&quot; target=&quot;_blank&quot;&gt;
+   Slackware turned 30
+  &lt;/a&gt;
+  a few years ago, back in 1996, this vulture tried Slackware 3.0 on his own hardware, and we never did manage to install it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/08/20/netbsd-11-lands-with-risc-v-support-and-lightning-fast-vm-boots/5289713&quot; target=&quot;_blank&quot;&gt;
+   tried NetBSD 11 a couple of months ago
+  &lt;/a&gt;
+  , and despite considerable help from the folks on the NetBSD-users mailing list, we failed to get the CDE desktop to start.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As an example, installing software on NetBSD is not the easy, comfortable task it is on Linux. It does
+  &lt;em&gt;
+   have
+  &lt;/em&gt;
+  a package manager for handling binary packages: it&#x27;s called
+  &lt;a href=&quot;https://pkgin.net/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+    pkgin
+   &lt;/span&gt;
+  &lt;/a&gt;
+  , but as the
+  &lt;a href=&quot;https://www.netbsd.org/docs/misc/index.html#pkgin&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   NetBSD FAQ mentions
+  &lt;/a&gt;
+  , it&#x27;s an optional extra. You must manually tick a box in the setup program to install pkgin with the rest of the OS, and when we
+  &lt;a href=&quot;https://www.theregister.com/software/2022/08/10/netbsd-93-keeps-it-hardcore-old-school/343707&quot; target=&quot;_blank&quot;&gt;
+   tried NetBSD 9.3 four years ago
+  &lt;/a&gt;
+  , we didn&#x27;t know that, overlooked that checkbox, and had to find a way to add pkgin later. (It is quite tricky to install a package manager when you don&#x27;t have a package manager to install it with.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  This time around, we discovered that
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   pkgin
+  &lt;/span&gt;
+  sometimes doesn&#x27;t complete the installation process for you – it just leaves a text file in a destination directory somewhere, and you&#x27;re expected to know that, go there, read it, and do any further steps yourself.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The NetBSD community has been quietly going its own way since 1993. It has its own ideas about what is normal, and its users expect that. Some folks on the mailing list told us that they never use binary packages anyway – they compile what they need from source code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AlpineBSD&#x27;s
+  &lt;a href=&quot;https://git.sr.ht/~sircmpwn/absd-ports&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   ports repository
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://sr.ht/~sircmpwn/alpinebsd/sources&quot;&gt;
+   source code
+  &lt;/a&gt;
+  are hosted on Sourcehut, under the account of
+  &lt;a href=&quot;https://sr.ht/~sircmpwn/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   sircmpwn
+  &lt;/a&gt;
+  , better known as
+  &lt;a href=&quot;https://drewdevault.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Drew DeVault
+  &lt;/a&gt;
+  . We have quoted DeVault a few times over the years: we&#x27;ve often found that his views align with our own in various ways… such as about
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2021/11/26/thinkpad-modder-crowdfunding-new-motherboard-for-t60/t61/316433&quot;&gt;
+   t
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2021/11/26/thinkpad-modder-crowdfunding-new-motherboard-for-t60/t61/316433&quot; target=&quot;_blank&quot;&gt;
+   he best laptops ever made
+  &lt;/a&gt;
+  , and on
+  &lt;a href=&quot;https://www.theregister.com/software/2025/01/14/absolute-linux-has-reached-the-end-where-next/894846&quot; target=&quot;_blank&quot;&gt;
+   simplicity in Linux distro design
+  &lt;/a&gt;
+  , or even on
+  &lt;a href=&quot;https://www.theregister.com/software/2025/02/06/agent-p-waxes-lyrical-about-14-years-of-systemd/1270567&quot; target=&quot;_blank&quot;&gt;
+   dot-com billionaires at FOSDEM
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alpine&#x27;s tools are quite well-suited to being adapted to other systems. We have previously mentioned the use of its packaging tool, APK, in the
+  &lt;a href=&quot;https://www.theregister.com/software/2023/02/13/chimera-a-linux-that-isnt-gnu/linux/1362994&quot; target=&quot;_blank&quot;&gt;
+   GNU-free Chimera Linux
+  &lt;/a&gt;
+  , which uses much of the FreeBSD userland, and also in
+  &lt;a href=&quot;https://www.theregister.com/software/2024/12/20/adelie-linux-10-small-fast-but-not-quite-grown-up/443336&quot; target=&quot;_blank&quot;&gt;
+   Adélie Linux
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  We will follow AlpineBSD with interest. There&#x27;s strong appeal in the plan of combining perhaps the best-known, longest-established AI-free Unix-like kernel with the user-facing parts of pretty much the smallest and cleanest Linux distro there is. The AI advocates often warn LLM skeptics that they risk being left behind. Well, here&#x27;s an OS for those who don&#x27;t want to surf the AI wave. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NASA ponders a Hubble servicing mission or a controlled deorbit </title>
+<link>https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622</link>
+<pubDate>Fri, 30 Oct 2026 14:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  NASA has posted a contract opportunity notice, also known as a request for information, from commercial  space orgs who can service the Hubble Space Telescope.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Hubble was always looked after by NASA astronauts flying on the Space Shuttle, yet the
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2024/05/14/it-is-15-years-since-the-last-hubble-servicing-mission/1403259&quot; target=&quot;_blank&quot;&gt;
+   last Hubble Space Telescope (HST) servicing mission
+  &lt;/a&gt;
+  was the STS-125 Space Shuttle flight, launched on May 11, 2009. At the time, scientists hoped the mission would add another five years of operational life to the venerable spacecraft. Almost 17 years on, the HST (aka Hubble) is still delivering science.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, time is running out for the observatory. NASA reckons there is a 10 percent chance it could reenter the Earth&#x27;s atmosphere by September 2032, rising to 50 percent by December 2033.
+  &lt;a href=&quot;https://www.theregister.com/science/2026/10/26/swift-operations-end-2004-spacecraft-headed-for-fiery-reentry/5305346&quot; target=&quot;_blank&quot;&gt;
+   As the end of the Swift mission
+  &lt;/a&gt;
+  showed,  increased solar activity can cause greater-than-anticipated atmospheric drag.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Also, like Swift, Hubble has no propulsion system, and so when it reenters (as it will, without intervention), the reentry will be uncontrolled. Hubble is sufficiently massive that there is a remote chance somebody on the ground could have a very bad day when that happens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As such, one mission option suggested by NASA is a vehicle to grapple the observatory and perform a controlled reentry and disposal.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, there are other options. Something to boost the telescope&#x27;s orbit up to at least 600 km, or another to &quot;enhance its ongoing performance and increase its resilience and expected on-orbit lifetime.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both are intriguing options, and important since, as NASA acknowledges, no replacement for Hubble is expected before the 2040s, when the Habitable Worlds Observatory (HWO) could become operational. Despite the James Webb Space Telescope (JWST) and the Nancy Roman Space Telescope, Hubble remains in high demand, with NASA reporting a 7:1 oversubscription.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before becoming NASA Administrator, Jared Isaacman
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2022/09/30/nasa-spacex-study-how-to-boost-hubble-to-higher-orbit/1235860&quot; target=&quot;_blank&quot;&gt;
+   advocated
+  &lt;/a&gt;
+  a SpaceX mission to boost the Hubble, but the idea was ultimately rejected. Similar plans could now be dusted off. NASA&#x27;s requirement is for a mission to occur by 2032, and not harm the Hubble.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A soft-capture mechanism was fitted to Hubble during the STS-125 mission, which will mean docking with the spacecraft will be easier than the grappling planned for Swift. Then, the question is what to do with it. A controlled reentry is one option. The other options – boosting to a higher altitude or &quot;enhance its ongoing performance and increase its resilience&quot; are intriguing.
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2019/10/09/mission-extension-vehicle-1-launches-to-save-space-from-zombie-satellites/691459&quot; target=&quot;_blank&quot;&gt;
+   Northrop Grumman&#x27;s Mission Extension Vehicle (MEV)
+  &lt;/a&gt;
+  , for example, is capable of on-orbit servicing and extending the lifetime of satellites. The Hubble is an order of magnitude more challenging, but the technological hurdles can be overcome with time and funding.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Last year,
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2025/07/21/nasa-veteran-warns-hubble-faces-death-by-a-hundred-cuts/1311407&quot; target=&quot;_blank&quot;&gt;
+   spoke
+  &lt;/a&gt;
+  with Dr John Grunsfeld, one of the astronauts (now retired) who worked on Hubble during the STS-125 mission. Grunsfeld told us that the veteran spacecraft faced death by a thousand cuts as its budget was whittled away. The observatory itself
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2024/06/05/official-hubble-telescope-to-transition-to-single-gyro-mode/1056157&quot; target=&quot;_blank&quot;&gt;
+   recently switched
+  &lt;/a&gt;
+  from three to one gyro mode (the telescope uses gyros to control where it is pointed) to eke out a few more years of operational life.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At this point,
+  &lt;a href=&quot;https://sam.gov/workspace/contract/opp/2ecd9dbf4a3946b4968cc0ebaa75d0b3/view&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   NASA is looking for information and comment
+  &lt;/a&gt;
+  – this isn&#x27;t a request for proposals. There is no indication of how much the agency expects to pay. However, the timescale is immutable. Without intervention, Hubble will make an uncontrolled reentry in the coming years. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI projects not paying off? Keep at it, says Uni Productivity Institute </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/30/ai-projects-not-paying-off-keep-at-it-says-uni-productivity-institute/5306581</link>
+<pubDate>Fri, 30 Oct 2026 13:15:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The University of Manchester is scrutinizing why growing adoption of AI tools has so far failed to translate into the forecast productivity gains, however, researchers are struggling to give easy answers to close the &quot;AI ambition gap.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  In a report, also called “
+  &lt;a href=&quot;https://aiambitiongap.bytes.co.uk/download/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   The AI Ambition Gap
+  &lt;/a&gt;
+  ,” the UK university’s Productivity Institute mulls over the advances that have been made in AI and the expanding adoption of it, and sets out what business leaders and policymakers can do to realize the potential benefits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report was commissioned by IT services biz
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2025/07/02/microsoft-enterprise-account-renewals-move-hurts-resellers/477522&quot; target=&quot;_blank&quot;&gt;
+   Bytes Technology Group
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  One reason for the lack of results is that organizations have invested heavily up front on retraining staff, reorganizing the way they work and other adjustments. Those costs show up straight away, yet the payback doesn’t come until later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another reason, the report suggests, is that AI tools can raise productivity at the level of individual tasks, but these gains do not automatically translate into greater productivity across a worker’s whole role or the entire organization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It cites the example of software developers using GitHub Copilot who completed around 26 percent more tasks, and professionals using ChatGPT for routine writing and analysis that reduced task completion time by 40 percent while improving the quality of the output by 18 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, a study of AI dev tools found these have increased coding activity by approximately 240 percent, while the number of actual software releases has only grown by about 30 percent. The gap is due to humans still needing to check and test their work before release.
+ &lt;/p&gt;
+ &lt;p&gt;
+  High task exposure to AI does not automatically make a worker more productive, the researchers say. Jobs typically combine automatable activities with tasks that require judgement, coordination, client interaction and critical thinking. As AI removes or accelerates some activities, those complementary human tasks become the constraint on time saving and the translation of task-level gains into greater productivity
+ &lt;/p&gt;
+ &lt;p&gt;
+  Job outcomes therefore depend on task composition and complementary human expertise, the report continues. It suggests AI may in part displace labor from existing tasks, while also creating new tasks in which workers retain a comparative advantage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This could be good news for the UK, the researchers state.  Compared with five other nations (US, Brazil, Colombia, India and South Africa), Blighty has the highest share of workers in occupations with both high exposure to AI and &quot;high complementarity,&quot; it claims. This is in part related to the country’s large financial and professional business service sectors, which are characterized by a high share of cognitive occupations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is just as well, as the government is pinning its hopes on
+  &lt;a href=&quot;https://www.theregister.com/software/2025/01/13/uk-unveils-plans-to-mainline-ai-into-the-veins-of-the-nation/1234495&quot; target=&quot;_blank&quot;&gt;
+   using AI to drive economic recovery
+  &lt;/a&gt;
+  in a strategy outlined at the start of last year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Britain&#x27;s AI sector is relatively large by European standards, and the report cites recent OECD estimates that high-exposure economies such as the UK and the US could see annual labor productivity gains of between 0.4 and 1.3 percentage points.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Even an annual uplift of around 0.5 to 0.7 percentage points would represent a significant step change relative to the UK’s stalled productivity performance over the past decade, it says, if this effect is sustained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Productivity Institute lists several &quot;mutually reinforcing enablers&quot; to help organizations close the ambition gap it identifies. None is particularly surprising, especially if you have read other reports advising on corporate success with AI adoption.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One is management setting strategic direction for the organization, another is strengthening worker capabilities through greater knowledge and data literacy to help organizations turn individual insight into shared learning. Others include implementing AI governance and focusing on applications that can create new products, improve core processes or solve previously intractable problems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;AI&#x27;s productivity potential becomes real when faster tasks lead to better performance across the business,&quot; said Bart van Ark, professor at The Productivity Institute and lead author on the report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The ambition gap lies between those individual efficiencies and sustained business results. Closing it requires firms to invest in management, skills and the redesign of workflows alongside the technology.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The conclusion is that companies must have faith and keep investing in AI, and eventually the benefits will come if you are doing the right things. These include focusing on high-value use cases linked to strategy, customer value and operational bottlenecks, plus treating AI as a workplace redesign.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Policymakers could help out businesses here by assisting identifying relevant opportunities, the report says, to reduce adoption risks and uncertainty.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Other reports published this week were more defined in their message: Gartner said
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/27/a-whopping-3-of-boardroom-execs-spy-productivity-and-costs-savings-from-ai/5305675&quot; target=&quot;_blank&quot;&gt;
+   75 percent of corporate board members
+  &lt;/a&gt;
+  have yet to see any productivity gains or reduce costs from AI use, and private equity biz Apollo Global Management reckons
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/26/private-equity-giant-ai-payoff-strictly-limited-to-big-tech/5305358&quot; target=&quot;_blank&quot;&gt;
+   only the biggest tech vendors
+  &lt;/a&gt;
+  are enjoying some sort of AI payoff. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NHS quango warns of risk to GP patient data after website vendor collapse </title>
+<link>https://www.theregister.com/public-sector/2026/10/30/nhs-quango-warns-of-risk-to-gp-patient-data-after-website-vendor-collapse/5306647</link>
+<pubDate>Fri, 30 Oct 2026 12:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The UK&#x27;s top health quango has called on family doctors to figure out how to preserve health information and get in touch with patients after a website provider collapsed earlier this month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NHS England has taken the unusual step of writing to GPs, warning them of the risks to patient information and continuity of service following the disruption to potentially hundreds of practices around the UK.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Silicon Practice Digital Health Solutions — owned by Schappit Ltd — has gone into
+  &lt;a href=&quot;https://caseboard.io/cases/5ec898d3-58a6-4809-aa17-502f7be9cd4c&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   administration
+  &lt;/a&gt;
+  . Reports suggest some GP websites have gone offline completely. Practice managers fear the extra workload and are struggling to stand up alternative forms of communication since the switch to digital channels.
+ &lt;/p&gt;
+ &lt;p&gt;
+  NHS England is the government unit which runs the health service in England, but it is not directly responsible for GP practices, the vast majority of which are independent contractors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, the quango’s CTO, Kevin Humphries, wrote to practices and NHS organizations this week outlining his priorities in mitigating the impact of tech service collapse.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They include finding ways of preserving any historical patient information, particularly where it has not been moved to clinical systems, managing the online consultation backlog to make sure no additional requests are added, and identifying channels for patient access until new online systems are available.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Practices should also consider whether they have a legal obligation to tell the Information Commissioner&#x27;s Office if the &quot;availability, integrity, confidentiality or recoverability of personal data&quot; is affected, according to the communication seen by
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  NHS management bodies called Integrated Care Boards are responsible for GP IT service arrangements, making sure they include &quot;clinical safety, data security, cyber security and business continuity assurance across the GP IT supply chain,&quot; Humphries said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They need to find someone to lead their recovery plan and contact affected practices and trusts. They should also &quot;work with practices and other impacted organizations to support them in revisiting and assessing whether to enact business continuity and disaster recovery plans,&quot; Humphries said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Questions over how an urgent NHS-wide response is required for the collapse of a relatively small supplier may come later. Among them will be the due diligence conducted before Schappit Ltd was added to a government framework
+  &lt;a href=&quot;https://www.find-tender.service.gov.uk/Notice/070505-2026&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   in July
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  GP and open-source tech campaigner Marcus Baw has published a free, open source template for an alternative website should practices want to bring systems in-house. He said
+  &lt;a href=&quot;https://github.com/pacharanero/open-gp-practice-website&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   the template
+  &lt;/a&gt;
+  is based on accessible NHS web standards, and has the same look-and-feel of common NHS websites. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> British intelligence agency misplaced &#x27;thousands&#x27; of storage devices, years later still can&#x27;t say how many </title>
+<link>https://www.theregister.com/security/2026/10/30/british-intelligence-agency-misplaced-thousands-of-storage-devices-years-later-still-cant-say-how-many/5306605</link>
+<pubDate>Fri, 30 Oct 2026 11:45:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Thousands of
+  &lt;em&gt;
+  &lt;/em&gt;
+  GCHQ storage drives containing sensitive data have been lost for years, and the British signals intelligence agency still cannot explain where they are.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the Investigatory Powers Commissioner’s Office’s (IPCO)
+  &lt;a href=&quot;https://www.ipco.org.uk/news/publication-of-investigatory-powers-commissioners-2025-annual-report/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   annual report
+  &lt;/a&gt;
+  , the missing storage drives have been known to officials for years, and may contain data related to the
+  &lt;a href=&quot;https://www.theregister.com/security/2025/12/18/uk-surveillance-law-still-full-of-holes-watchdog-warns/1916754&quot; target=&quot;_blank&quot;&gt;
+   Investigatory Powers Act (IPA)
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I remain concerned that GCHQ has not yet established a sufficiently clear understanding of the scale, location, and recoverability of lost removable media that may contain IPA-related data, notwithstanding that the underlying issues were first drawn to my attention several years ago,&quot; wrote investigatory powers commissioner Lord Brian Leveson.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;While I recognize the technical and practical challenges involved, the passage of time without a comprehensive account heightens the importance of sustained senior focus and assured remediation. Given the potential sensitivity of the material involved, I will continue to monitor progress closely.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Described as &quot;a very significant number,&quot; the report notes that GCHQ has scoped the maximum number of potentially lost drives, but is unaware of the exact scale of the issue.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agency has embarked on &quot;a program of further work&quot; to locate as many of the lost devices as possible, which includes implementing an automated asset-tracking system by the end of the year. After this is up and running, it said it will be able to provide a more precise number of lost drives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A GCHQ spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  : &quot;As IPCO have reported, our management system for removable media was previously not sufficiently robust to effectively track the items that were registered for use. IPCO are right to note the flaws in the data the system produced, and we have taken action against all their recommendations.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We recognize the importance of security of removable media in our systems, and have a range of measures to mitigate the risks posed by these items. The findings in the report have been addressed comprehensively, and all necessary steps to correct this issue have been taken.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Losing important devices is not an achievement that&#x27;s exclusive to GCHQ. Myriad stories like this have emerged from all corners of the public sector over the years, such as the
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2008/07/18/mod-we-lost-87-classified-usb-sticks-since-2003/720365&quot; target=&quot;_blank&quot;&gt;
+   British Minidstry of Defence misplacing USB drives
+  &lt;/a&gt;
+  containing secret information in the mid-noughties, civil servants
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2011/11/02/civil-servants-cough-up-more-lost-blackberrys/851435&quot; target=&quot;_blank&quot;&gt;
+   routinely losing their BlackBerry handsets
+  &lt;/a&gt;
+  , and UK police
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2019/12/20/uk-cops-lost-nearly-twice-as-much-of-their-own-tech-kit-this-year-says-thinktank/1380655&quot; target=&quot;_blank&quot;&gt;
+   losing thousands of devices
+  &lt;/a&gt;
+  , too.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The missing storage drives comprise just one of the agency&#x27;s various transgressions highlighted by IPCO in its report.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are also &quot;significant concerns&quot; over the lax safeguards used to restrict the UK&#x27;s overseas partners when accessing
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2023/01/31/uk-spy-agency-guilty-of-unlawful-data-retention/619083&quot; target=&quot;_blank&quot;&gt;
+   bulk-intercepted data
+  &lt;/a&gt;
+  collected by GCHQ.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IPCO was satisfied at how GCHQ ensured its own analysts remained compliant with safeguards around accessing confidential material related to journalism, journalistic sources,  and privileged legal information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, there were concerns around how these same safeguards were applied to its international partners, which have access to its so-called bulk data interception &quot;product.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report notes that most partners were properly restricted from accessing such material, although an internal probe found that there were inadequate arrangements in respect to one partner and their access to journalistic material.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both GCHQ and the overseas agency committed to rectifying the situation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GCHQ was also questioned after a software bug in a web app &quot;used by a relatively small section of the public&quot; misidentified individuals thought to be participating in terrorist activities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The agency identified and reported the flaw in the software, which it used for &quot;target discovery work,&quot; and although it only affected a small number of individuals, the errors led to five port stops made under the Terrorism Act and caused &quot;serious prejudice&quot; to the victims.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A port stop, for the uninitiated, involves law enforcement detaining a suspect at a UK port, airport, train station, or within one mile of the Northern Ireland border, and can be carried out without suspicion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once detained, individuals have a legal responsibility to provide passwords to their electronic devices, which can be seized for up to seven days, and in some cases have their biometric markers taken.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Failure to comply can lead to a three-month prison term.
+ &lt;/p&gt;
+ &lt;p&gt;
+  IPCO ruled, however, that there was ultimately no error made as defined by the IPA.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This is because the activity was lawfully authorised under an interception warrant and the adoption of an unintentionally and unforeseeably imperfect target discovery methodology did not constitute such an error,” the report stated.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite the agency’s vast technical expertise, IPCO said that the issue affecting the software was not foreseeable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  GCHQ was not the only offender among the UK intelligence community (UKIC), with MI5&#x27;s mishandling of the
+  &lt;a href=&quot;https://www.mi5.gov.uk/director-general-mi5-statement-0&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   infamous Agent X case
+  &lt;/a&gt;
+  taking center stage in the report. Agent X was an anonymous MI5 informant whose real identity has never been publicly released.
+  &lt;br/&gt;
+  &lt;br/&gt;
+  A secret inquiry by IPCO as well as the report revealed that MI5 managed Agent X despite knowing he was a violent misogynist obsessed with extreme violence.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lord Leveson said &quot;the case of Agent X is as serious as anything I have dealt with as Commissioner,&quot; after MI5 gave false evidence to the High Court and
+  &lt;a href=&quot;https://www.theregister.com/security/2025/04/07/uk-loses-plea-to-keep-apple-backdoor-case-secret/634777&quot;&gt;
+   Investigatory Powers Tribunal
+  &lt;/a&gt;
+  to protect a foreign neo-Nazi informant who was under police investigation for abusing his partner, referred to publicly as &quot;Beth.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Accenture AI agents are sifting through applicants </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460</link>
+<pubDate>Fri, 30 Oct 2026 11:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Accenture is using AI across its recruiting process, although it maintains that final hiring decisions remain in human hands.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking to at its recent investor day, the global tech consultancy and outsourcing biz said it was using AI agents to sift through resumes (or CVs if you’re in the UK) and schedule interviews.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Kate Clifford, global chief leadership and HR, said it was helping clients adopt a similar application of the nascent technology.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We call it frictionless recruiting, which is really our agentic recruiting solution. We put in an agentic recruiting solution where agents now do all the interview scheduling. Agents can screen a resume. We have assessments that deeply understand the skills of the candidates to help that process move much, much faster. Now a human always makes a hiring decision,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Clifford said the agent technology was used to help recruitment staff get through their work more quickly. &quot;Our recruiters needed to spend time with candidates. They needed to spend time sourcing, but where they were actually spending their time was scheduling interviews, where they were actually spending their time was typing information into a system,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The executive claimed the agentic process reduced the time taken to hire for roles by 28 percent and improved candidate quality by 30 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI agents also help new recruits get up to speed. Whereas it once took six months for an entry-level hire to become productive, the time has been cut to six weeks using AI agents, Clifford claimed, allowing them to produce billable work more rapidly.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Accenture claims to serve around 9,000 clients — including some of the world’s largest businesses and government departments — with tech advice and services. For example, it
+  &lt;a href=&quot;https://www.verdict.co.uk/accenture-wins-us-government-contract/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   won a contract with the US Internal Revenue Services worth $2.6 billion in 2023
+  &lt;/a&gt;
+  . Any tech pro looking for a job with the company is likely being screened by AI as part of the process.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company also
+  &lt;a href=&quot;https://www.theregister.com/software/2026/02/20/accenture-tells-staffers-if-you-want-a-promotion-use-ai/4311545&quot; target=&quot;_blank&quot;&gt;
+   expects internal staff to get on the AI bandwagon.
+  &lt;/a&gt;
+  A memo sent to senior staff in February informed them that promotions to top roles at the corporation would necessitate &quot;regular adoption&quot; of AI tooling, and it is tracking usage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But not everyone is convinced by the value of AI in recruitment. A study published in 2022 found the idea that AI-powered recruitment software creates a fairer process was unfounded. A paper published in the journal Philosophy and Technology demonstrated that the software is little more than
+  &lt;a href=&quot;https://www.theregister.com/software/2022/10/13/ai-recruitment-software-is-automated-pseudoscience/468451&quot; target=&quot;_blank&quot;&gt;
+   &quot;automated pseudoscience.&quot;
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tech job-hunters applying for a lucrative role at Accenture will be hoping the technology has moved on since then. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Domestic droid gone amok? Don&#x27;t worry, you&#x27;re covered </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/30/domestic-droid-gone-amok-dont-worry-youre-covered/5306396</link>
+<pubDate>Fri, 30 Oct 2026 10:14:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Two insurers are teaming up to launch what every high-tech homeowner may soon need: household insurance for robotic mishaps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Humanoid robots are tipped by some to be the next big technology trend, with industry figures like
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/21/jensen-huang-sends-in-the-robot-ducks-to-sell-nvidias-ai-everywhere-vision/5304472&quot; target=&quot;_blank&quot;&gt;
+   Nvidia&#x27;s Jensen Huang
+  &lt;/a&gt;
+  predicting they&#x27;ll be everywhere from factories to the home.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But as with anything AI-driven, things can go horribly wrong, especially when automatons are roaming a home carrying out tasks. They have even been labelled as potential &quot;
+  &lt;a href=&quot;https://www.theregister.com/security/2025/12/09/botnets-in-physical-form-are-top-humanoid-robot-risk/2766970&quot; target=&quot;_blank&quot;&gt;
+   botnets in physical form
+  &lt;/a&gt;
+  .&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The timing may be apt, then, for the UK&#x27;s first domestic humanoid robot insurance policy. Specialist insurer Adrian Flux is offering to cover British customers as part of its home insurance range, underwritten by Texas-based Tokio Marine HCC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The two firms say the product is meant to get ahead of an emerging market, with domestic robots expected to appear in UK homes from 2027. Demand has already appeared in the US, where robotics and AI companies have launched
+  &lt;a href=&quot;https://www.1x.tech/neo&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   humanoid robots for the home
+  &lt;/a&gt;
+  , with early models costing around $20,000.
+ &lt;/p&gt;
+ &lt;p&gt;
+  These are less like the near-human elderly care robot in the BBC comedy series
+  &lt;a href=&quot;https://www.imdb.com/title/tt37788031/fullcredits/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   &lt;em&gt;
+    Ann Droid
+   &lt;/em&gt;
+  &lt;/a&gt;
+  , and more like vaguely human-shaped machines.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The policy covers damage to, and theft of, the robot itself, plus any damage it causes to the home or belongings. It also includes personal liability if the android injures someone or damages their property, and emergency recovery or safe disablement of the humanoid after a sudden or unforeseen malfunction, such as - perhaps - attempting to
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/22/backdoored-robot-tries-its-hand-at-finger-chopping-and-cat-cooking/5304870&quot; target=&quot;_blank&quot;&gt;
+   chop off your fingers or put your cat on the stove
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As robots start to arrive in people&#x27;s homes, we wanted to provide clarity on who is responsible if something goes wrong,&quot;  says Gerry Bucke, general manager for the insurance biz Adrian Flux. &quot;Like the driverless car policy we launched in 2016, it will be updated as the technology and the risks evolve.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond the home, investment is pouring into humanoids across a range of applications. Chinese carmaker Chery using them as
+  &lt;a href=&quot;https://www.theregister.com/software/2025/04/30/chinese-carmaker-chery-using-humanoid-robots-as-salespeople/321203&quot; target=&quot;_blank&quot;&gt;
+   showroom sales staff
+  &lt;/a&gt;
+  , while another firm has demonstrated them in
+  &lt;a href=&quot;https://www.theregister.com/software/2026/03/30/humanoid-tests-humanoid-robot-for-automotive-logistics/5227474&quot; target=&quot;_blank&quot;&gt;
+   automotive manufacturing
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Elon Musk famously predicted thousands of Optimus robots in Tesla factories by the end of 2025, but still believes its humanoid robot
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/07/23/tesla-burns-through-a-billion-as-musk-bets-the-farm-on-chips-and-bots/5276944&quot; target=&quot;_blank&quot;&gt;
+   will be the company’s biggest product
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK Shelly reseller warns payment data stolen after malware found on website </title>
+<link>https://www.theregister.com/cyber-crime/2026/10/30/uk-shelly-reseller-warns-payment-data-stolen-after-malware-found-on-website/5306250</link>
+<pubDate>Fri, 30 Oct 2026 09:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A UK-based reseller of Shelly smart home equipment has warned customers that their payment data may be compromised after “unauthorized software” was found on its website.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “After receiving a warning from our payment provider, Stripe, we investigated and found unauthorized software on our website and server,” the email from Shelly Store UK, seen by
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , stated.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We removed the identified malicious software, strengthened access security, applied security updates and introduced ongoing monitoring. We have also reported the incident to the
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/01/uk-privacy-watchdog-starts-over-with-new-board-and-manchester-hq/5300439&quot;&gt;
+   Information Commissioner’s Office
+  &lt;/a&gt;
+  .”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shelly Store UK informed customers it was unable to determine whether their data was accessed or copied, although all customers who made orders during an unspecified window are being contacted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One punter told us that hours before they received the email from Shelly Store UK,  they began a payment dispute with their card provider after a £221.28 transaction, dated October 26, was made in Australia using their details.
+ &lt;/p&gt;
+ &lt;p&gt;
+  They suspect their full card details were swiped at some point between October 12, when they made their first and only order with the company, and October 27, when they received the breach notification.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shelly Store UK did not immediately respond to our request for more details.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its notification email stated the internal investigation remains ongoing, and in addition to payment card details, customers may have had their names, billing addresses, and contact details compromised.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shelly Store UK recommended that customers contact their card issuer for guidance on whether they will need a replacement card, and to scour their transaction histories and report any suspicious entries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It also urged caution in receiving communications asking for data such as payment details and security codes, and recommended
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/16/user-refused-to-change-her-password-because-everyone-already-knew-it/5301864&quot;&gt;
+   a password reset
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We’re sorry for the concern and inconvenience this may cause,” the company said. “We are taking this seriously and will contact you if our investigation identifies further information relevant to you.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Shelly Store UK is an authorized reseller of Shelly smart home products and is wholly independent of the main Shelly company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Shelly Store is a reseller of Shelly and is not part of, owned by, or directly affiliated with Shelly Group,” a Shelly spokesperson said. “We do not manage the Shelly Store website, its business operations, and we do not direct our customers from any of our websites to Shelly Store UK.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Google&#x27;s search revenue Ferrari hits an AI-powered speed bump </title>
+<link>https://www.theregister.com/ai-and-ml/2026/10/30/googles-search-revenue-ferrari-hits-an-ai-powered-speed-bump/5306520</link>
+<pubDate>Fri, 30 Oct 2026 07:33:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Google is paying a higher price for its bet on AI than even Alphabet&#x27;s $51.4 billion in Q3 capital expenditures suggest.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The biz appears to have traded its high-performing search advertising business for the mediocre monetization of AI Overviews and AI Mode, a misstep that contributed to investor concerns as Alphabet lost roughly $500 billion in market value despite management&#x27;s attempts to reassure Wall Street.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google&#x27;s year-over-year search revenue growth slowed from 17 percent in Q2 to 12 percent
+  &lt;a href=&quot;https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181&quot; target=&quot;_blank&quot;&gt;
+   in Q3
+  &lt;/a&gt;
+  . It&#x27;s still headed in the right direction, but at a slower rate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  During Alphabet&#x27;s
+  &lt;a href=&quot;https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   conference call
+  &lt;/a&gt;
+  for investors, Douglas Anmuth from JPMorgan Chase &amp; Co asked whether that&#x27;s because Google is showing fewer ads in AI Overviews and AI Mode than it shows in its traditional search results.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chief business officer Philipp Schindler cited several reasons for that: foreign exchange rates, Europe&#x27;s elimination of its customs-duty exemption, and &quot;the lower monetization we were seeing in AI Mode.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  To compensate, Google
+  &lt;a href=&quot;https://blog.google/products/ads-commerce/ads-in-ai-mode-global/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   said
+  &lt;/a&gt;
+  it is expanding the distribution of AI Overview ads and adding multiturn ads in the US for AI Mode queries.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But some Google Ads customers appear to be more concerned about quality than quantity. In a social media
+  &lt;a href=&quot;https://x.com/maxanderson/status/2080229375773941871&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   post
+  &lt;/a&gt;
+  , Max Anderson, CEO of OnlyFinder, complained that Google has responded to declining search volumes by attempting to manufacture revenue growth through &quot;short-sighted, highly extractive, customer-hostile tactics,&quot; such as charging advertisers more for lower-quality clicks, including clicks on search terms they had not agreed to target.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Eric Seufert, an analyst with Mobile Dev Memo, dismissed the doomsayers in a
+  &lt;a href=&quot;https://mdm.co/alphabet-q3-2026-earnings-ai-modes-monetization-penalty/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It’s tempting to look at the successive deceleration in Search revenue growth from Q1 2026 as a response to pressure from other chatbots and to assume that Search query volume is migrating elsewhere,&quot; he wrote. &quot;But the earnings release notes that the &#x27;year-over-year Search query growth rate [was] the highest it has been in the last five years&#x27; in Q3, so it&#x27;s clear that Search
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   usage
+  &lt;/span&gt;
+  isn&#x27;t declining.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  So people are still searching, and the business is still growing, but less convincingly, thanks to the lower monetization of AI Overviews and AI Mode. And Google&#x27;s answer involves more ads in AI interactions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nate Elliott, principal analyst for AI at Emarketer, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  in an email that AI represents a double-edged sword for Google&#x27;s ad business.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;On the one hand, Google owns the thing that people use AI for most: search,&quot; Elliott wrote. &quot;Our surveys say that by far the top reason people use AI is to look for facts and information. Luckily for Google, people also tell us they haven&#x27;t stopped using search engines – they&#x27;ve simply added AI as a new behavior on top of search. That means people spend more time than ever looking for information, and most of those people don&#x27;t even think twice before doing their searches on Google. If Google figures out how to effectively monetize those users, that&#x27;s great news for them.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  But, said Elliott, people may find tools they like better than Google Search as they become accustomed to AI-based discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;If ChatGPT or Claude or Muse is better at helping them find what they&#x27;re looking for, people&#x27;s search habits might change for the first time in a generation,&quot; he said. &quot;That&#x27;s potentially catastrophic for Google&#x27;s ad business. The same is true if they maintain their market share but simply can&#x27;t figure out how to make money from this new kind of discovery.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The problem is, Google isn&#x27;t giving us very much information about what the specific impact is of AI on their business right now, so everyone&#x27;s reading into the tiny scraps of information they are releasing.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Elliott said it&#x27;s remarkable that Google has managed to keep the largest and most mature digital ad business growing at a double-digit rate every quarter in recent years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;But it appears that most folks disagree, and instead are concerned that the advertising business &#x27;only&#x27; grew by 10 percent,&quot; he said. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Farm PC &#x27;maintained&#x27; by a 14-year-old dumped support chap in a steaming pile of tech mess </title>
+<link>https://www.theregister.com/systems/2026/10/30/farm-pc-maintained-by-a-14-year-old-dumped-support-chap-in-a-steaming-pile-of-tech-mess/5306217</link>
+<pubDate>Fri, 30 Oct 2026 06:33:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;425970a9-8cc4-45c2-8794-e40ea66a55a0&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Welcome to another instalment of On Call, the reader-contributed column
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  publishes each Friday as a cathartic service for readers who know that dealing with tech support BS can be a cow of a job.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, meet a reader we&#x27;ll Regomize as &quot;Jason&quot; who told us he had helped an agricultural equipment dealer with his computer issues for about 20 years.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;br/&gt;
+  &quot;One day this guy called me to ask if I could help at a farm in Yorkshire, where he&#x27;d arranged the supply and installation of a fairly substantial system that used a computer to do effectively everything for a few hundred cattle,&quot; he told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;That meant individually feeding them, measuring milk yields, planning pregnancies, and periodically submitting all the data to the government.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jason said other tech support folk had tried, and failed, to fix the system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;This had somewhat soured the relationship between the agricultural equipment dealer and the farmer,&quot; he punned in his email to On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Well punned, Jason.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But we digress.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Despite not being fond of wading around in cow shit at four in the morning, I agreed to take a look at the system,&quot; Jason told us. By this time he had learned that the farm produced many tons of milk each week, so assumed he would find serious industrial-scale tech once he reached the farm.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That assumption was wrong.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;When I arrived, the first thing that I found to worry about was that the whole thing was controlled by proprietary software on a single PC running Windows XP – just after Microsoft ended mainstream support.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The other things to worry about were all acts of omission: the farm had no backups, no spare PC, and nobody on site to maintain the PC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jason asked if anyone was responsible for keeping the computer up to date with the security patches and was told the farmer&#x27;s 14-year-old grandson had done some computer studies at school, so he got the job.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That lad had either not discovered, or deleted, the many rather racy videos Jason found on the PC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;When the farmer&#x27;s wife learned of this, there was what can best be described as a hullabaloo,&quot; Jason told On Call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As he dug into the mess, Jason found that the computer was sending milk production data to Her Majesty&#x27;s Government. He also found that neither the government, nor the farm management software vendor, had bothered to require installation of a firewall.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jason says he installed one, made a few other tweaks, and got the system working.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Everyone seemed pleased, or at least they did until they got my bill,&quot; he wrote. &quot;And to be fair, they did pay it promptly.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jason never heard from the farm again.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I don&#x27;t know if that&#x27;s because it&#x27;s still working OK, or if they&#x27;re just too embarrassed to see me again, or they found someone cheaper who could cope with my recommendations,&quot; he wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  What&#x27;s the strangest or dirtiest place you&#x27;ve been asked to deliver tech support? Don&#x27;t cheese us off by holding back!
+  &lt;a href=&quot;mailto:oncall@theregister.com&quot;&gt;
+   Click here
+  &lt;/a&gt;
+  to send us your story so we can milk it for all it&#x27;s worth in a future instalment of On Call. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AWS installs an AI accelerator every 14 seconds and eyes $1 trillion annual revenue </title>
+<link>https://www.theregister.com/off-prem/2026/10/30/aws-installs-an-ai-accelerator-every-14-seconds-and-eyes-1-trillion-annual-revenue/5306547</link>
+<pubDate>Fri, 30 Oct 2026 05:42:24 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Amazon Web Services will become a trillion-dollar business in five to ten years, and thanks to the AI boom Amazon CEO Andy Jassy thinks it should be able to grow by 40 percent or more in 2027 or 2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The cloud giant is already on track to generate $184 billion annual revenue this financial year, helped by 39.3 percent year-over-year growth that propelled Q3 revenue to a whisker short of $46 billion.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It’s important to remember that the vast majority of global IT spend, about 85 percent, is still on premises, and we’re in a 10- to 20-year cycle where that equation will flip to the cloud,” he said on Amazon&#x27;s Q3 earnings call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Conventional wisdom has been that linchpin workloads like mainframes or storage area networks would never move to the cloud,” he observed, before triumphantly noting “these workloads are moving.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He thinks AI will help, too.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jassy said the cloudy concern installs a new AI accelerator “about every 14 seconds, and almost as fast as we install capacity, customers are gobbling it up.” The outfit’s Bedrock AI services is already the fastest growing multi-billion dollar service in its history, Jassy said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Core compute and storage services are also soaring: the CEO said revenue from both “grew at their fastest rates in several years.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Jassy thinks the performance of Bedrock and core services are intertwined, because when users select AWS for AI workloads they want their cloudy inferencing rigs to be “near the rest of their data and apps.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CEO said AI workloads therefore “can’t help but drive core AWS demand because AI uses core for work like reinforcement learning, post-training, and tool usage, which can’t help but drive reinvestment back into our broader AWS functionality.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He thinks this scheme is already working because margins for AI services are already “well ahead” of the figures AWS was able to achieve for its core services at a similar time in their evolution.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company expects to make $220 billion of capital expenditure in 2026 and already spent $75.9 billion last quarter alone, most of that on AWS. Jassy said the cloud colossus is finding ways to more quickly pay for its infrastructure investments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CEO said it’s not easy to do that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I think what we’re seeing with AI, it’s the biggest transformation in our lifetime,” he said. “Would it be more convenient if this type of acceleration and opportunity happened over 25 years and you could spread the CapEx over 25 years? Yeah, it might be more convenient, but that’s not the world that we live in, and that’s not the opportunity.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We can fund this plan. I think it will forever change the size of Amazon. It will forever change our revenue, it will forever change our free cash flow, and we’re going to invest, and we’re going to pursue it to continue to be the significant leader like we are today.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon needs AWS to land this plane, because the cloudy concern is growing much faster than the company’s retail and operations, which saw revenue rise six percent on far slimmer margins. Jassy could at least point to Prime Video becoming “a significant business with a revenue run rate in the tens of billions of dollars, [and is] now profitable in its own right.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Overall revenue was $180.17 bilion for the quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So if the respective growth rates of AWS and the rest of Amazon continue, in a few years we could be talking about a cloud company with a retail side hustle. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security </title>
+<link>https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539</link>
+<pubDate>Fri, 30 Oct 2026 04:22:12 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Crypto exchange Binance has paused trading after discovering unknown parties cracked one of its workers’ laptops and used it to make massive trades
+ &lt;/p&gt;
+ &lt;p&gt;
+  Late on Thursday, US time, the company used its social media feeds to
+  &lt;a href=&quot;https://x.com/binance/status/2115918888429133902&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   report
+  &lt;/a&gt;
+  “Our teams are aware of reports of a potential security issue and are actively investigating.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The exchange insisted “User funds are completely safe” and warned its customers “should remain cautious of scams and should not trust unofficial links, messages, or requests for account information.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company soon froze $2.5 billion worth of assets and warned that the figure could go higher “as our teams work closely with law enforcement, issuers, blockchain intelligence firms and industry partners to trace and freeze additional assets.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  To prevent the matter worsening, Binance halted all trading, deposits, and withdrawals. It also promised to cover any losses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  About an hour ago at the time of writing, Binance posted an
+  &lt;a href=&quot;https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   update
+  &lt;/a&gt;
+  on the incident that explains what it thinks went wrong.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Binance&#x27;s initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions,” the post states.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company also hiked the amount it thinks is at risk to $6.3 billion and repeated its promise to cover any customer losses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The update also says Binance found no evidence of any wallet private key leak, suggesting that customers’ holdings remain secure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When they can use them again, as Binance is yet to resume trading.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Binance hasn’t explained how attackers gained access to the engineer’s laptop. The scant details provided make it hard to rule out a successful phishing attack, or perhaps a supply chain attack on a package the developer used.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Binance says it will spill once it knows exactly what happened.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cryptocurrency outfits have a long and inglorious history of falling victim to cyberattacks, perhaps starting with the
+  &lt;a href=&quot;https://www.theregister.com/security/2011/06/19/bitcoin-collapses-on-malicious-trade/1013301&quot; target=&quot;_blank&quot;&gt;
+   2011 raid on Mt Gox
+  &lt;/a&gt;
+  , to incidents allegedly perpetrated by
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/26/bybit-declares-war-on-lazarus-crew-to-regain-stolen-15b/486722&quot; target=&quot;_blank&quot;&gt;
+   nation-states
+  &lt;/a&gt;
+  , and, just last week, another situation possibly
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215&quot; target=&quot;_blank&quot;&gt;
+   involving an AI-powered attacker
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PC chip plunge wipes out a quarter of Intel’s value </title>
+<link>https://www.theregister.com/systems/2026/10/30/pc-chip-plunge-wipes-out-a-quarter-of-intels-value/5306531</link>
+<pubDate>Fri, 30 Oct 2026 02:42:58 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Intel’s share price sank by almost a quarter on Thursday after the company revealed a deep dip in sales of PC processors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The rout began after the silicon-slinger
+  &lt;a href=&quot;https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   posted
+  &lt;/a&gt;
+  Q3 results that included some nice numbers, such as a 21 percent year on year revenue jump to $16.5 billion, helped by 78 percent growth for datacenter and AI products, and gross margins of 43 percent. The revenue number was at the high end of Intel’s revenue guidance of $15.8-16.8 billion, and the gross margin beat its predictions by two points.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Outweighing those upsides was a decline in revenue for client computing and physical AI products, which saw incoming cash reach $8.1 billion but fall five percent year-over-year and nine percent decline from last quarter.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In
+  &lt;a href=&quot;https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   prepared remarks
+  &lt;/a&gt;
+  [PDF] published to coincide with Intel’s earnings announcement, CEO Lip Bu Tan said “In recent weeks, our customers began signaling a PC slowdown based on memory prices and availability. Year-to-date system end-point prices have increased significantly placing additional pressure on already limited IT budgets.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The pace of the PC correction has accelerated over the last two months, as our OEM partners are aggressively managing inventory to match the softer sell through,” he added, before predicting that the market for PC chips will shrink by 12 percent next year and remain tough “until memory availability and prices begin to normalize.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Which may not be for years, given Korean memory-maker SK Hynix this week
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887&quot; target=&quot;_blank&quot;&gt;
+   predicted
+  &lt;/a&gt;
+  that memory shortages will persist until the year 2030. Intel’s biggest business is therefore in trouble.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  AI and Xeons riding to a rocky rescue
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Tan tried to give investors reasons to be cheerful, by saying Intel sees a “resurgence in demand for CPU” sparked by customers’ desire for computing systems that consume less energy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Increasingly, energy efficiency is becoming the most important metric for the AI infrastructure build-out,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That matters, Tan argued, because “While GPUs are great at ‘thinking tasks,’ deterministic CPUs are far more efficient at ‘finding’ tasks. While a GPU reasoning query can run as high as multiple watt-hours of energy, a single CPU-based query could cost only joules of energy.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The CEO reasoned that lower energy consumption is important in the context of agentic AI – the idea that we will all soon run many autonomous agents to handle personal and professional scutwork.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Applying even conservative estimates to the total number of digital agents, and agents serviced per CPU, it is easy to anticipate a massive dollar and unit TAM [total addressable market] for CPUs over the coming five years,” Tan said. “By our estimates, server CPU TAM, largely driven by agentic workloads, could increase as much as 5X from where it is today, from $40B to more than $200B over five years.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  But during its earnings call, Intel execs admitted it may struggle to cash in on that boom in the short and longer term as the company struggles to source key supplies like silicon wafers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Asked if Intel can meet demand for server CPUs and if investors should therefore expect further growth in datacenter product sales early in Intel’s next financial year, chief financial officer Dave Zinsner declined to offer any guidance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There is going to be a strong driver of demand for CPUs,” he demurred. “We see that continuing all through next year. We are working on the supply side of the equation to make sure that we can meet what customers need. We will likely not fully meet what they require, but I think we are going to be in a more challenging situation in the first half of the year than we are in the second half.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Intel is trying to shift production around its fleet of fabs so it can crank out as much silicon as possible and will even devote some PC chip production capacity to datacenter products. But overall, Chipzilla is clearly in a spot of bother.
+ &lt;/p&gt;
+ &lt;p&gt;
+  CEO Lip Bu Tan said his plan to “rebuild” Intel will be “a multiyear journey” and insisted “We have made enormous strides in these 18 months, including a dramatic re-sizing of our workforce, eliminating middle management and bureaucracy, streamlining our executive ranks and establishing an almost entirely new leadership team.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  He pointed to strong progress on Intel’s manufacturing processes that will bring it closer to parity with TSMC, meaning its own products will become more potent while the company’s foundry business also becomes more attractive.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And he said that Intel has restored an “engineering-centric culture” that will help the company to improve.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the CEO also admitted “I am disappointed that we were not able to meet strong customer demand in this quarter.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We face near term challenges, including manufacturing supply shortages, the unprecedented memory crunch, and the resulting softness in PC demand. But I remain confident in our path forward.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Investors did not share that confidence. Intel’s shares started the day at $92.96 apiece. Immediately after the company announced its results, shares sank to $73. At the time of writing, after-hours trading has seen the price reach $70.87, a 23.7 percent slump. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched </title>
+<link>https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508</link>
+<pubDate>Thu, 29 Oct 2026 23:12:26 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Multiple vulnerabilities in five popular AI developer tools could allow attackers to execute code on a host machine, read and steal files, or spoof browser address bars. Researchers say flaws in OpenAI&#x27;s Codex and Microsoft&#x27;s VS Code remain unpatched, potentially putting developers who use affected configurations at risk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI security startup Forever Security discovered vulnerabilities in Cursor, GitHub Copilot, Anthropic&#x27;s Claude Desktop, VS Code, and Codex, and disclosed four of the flaws to the affected vendors. GitHub independently fixed the Copilot vulnerability without receiving a report from Forever Security. All five share a common security weakness: embedded browsers granted capabilities beyond those available to conventional browsers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Each tool “enriched its embedded browser beyond what a normal browser allows, and those enrichments undermined the traditional threat model - as agent input, as the authority on a tab’s own address, or as reach onto the host,” Forever researcher Gal Weizman wrote in a Thursday
+  &lt;a href=&quot;https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers-technical&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   report
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Forever dubbed this class of vulnerability “Embrace,” short for EMbedded BRowser, and said the flaws led to code execution in Cursor, data theft in Claude Desktop, Codex, and VS Code, and address bar spoofing in GitHub Copilot.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here’s what each of these looks like, starting with Cursor.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Cursor: arbitrary code execution
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Typical web pages can’t run commands on the host computer because a web page’s JavaScript cannot talk to local apps.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cursor’s integrated browser, however, allows a page to call the agent’s composer. The agent reads this as instructions and follows them, but the instructions remain hidden from human users. This opens the coding agent up to prompt injection attacks that could allow an attacker to execute commands on the host machine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers disclosed the vulnerability to Cursor on September 10, and the vendor silently patched the flaw on October 1. According to Forever, Cursor did not publish a security advisory about the issue or respond to the researchers&#x27; disclosure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cursor also did not reply to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  ’s request for comment.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  GitHub Copilot: address bar spoofing
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Under normal browser operations, a webpage cannot change the content of the address bar.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Copilot’s browser preview works differently,” Weizman wrote. “Some pages change their address without loading a new page, and the app cannot always see that. So Copilot let the page tell the app its own address.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The app checked only whether the text looked like a web address, starting with http, https or file, but it didn’t check where the tab really pointed to. This can be abused to trick the embedded browser into displaying a spoofed URL - such as
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   github.com/login
+  &lt;/span&gt;
+  - in the address bar, while loading a fraudulent website - like a phishing page - underneath.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The researchers found the address-bar spoofing flaw in GitHub Copilot 1.1.27 on September 26. GitHub independently fixed the flaw in a later Copilot build (1.1.29) on October 13 without receiving a vulnerability report from Forever.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We reached out to GitHub and did not receive a response.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Claude Desktop, Codex, and VS Code: arbitrary file read
+ &lt;/h3&gt;
+ &lt;p&gt;
+  All three of these vendors’ coding assistants allow local HTML files opened in the built-in browser to escape its boundaries and access other files.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both Claude Desktop and VS Code allow local pages access to their respective project folders, but the researchers found that these restrictions did not apply to web workers – a browser feature that allows JavaScript to run in a background thread, separate from the page&#x27;s main thread.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This means a local page can start a worker, and the worker can bypass restrictions to reach any file on the machine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Codex, however, didn’t have this same restriction, meaning a local page could read any file directly without a worker.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Weizman said his team disclosed the issue to Anthropic on July 23, and the AI vendor declined the Claude Desktop bug report as invalid for a “workspace trust” gated security boundary. A day later, however, Noma Security reported the same flaw, according to Weizman, and Anthropic accepted the report as valid.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Anthropic did not respond to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  ’s questions about either bug report or Forever’s timeline of events.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Forever disclosed the Codex bug to OpenAI on July 27 and didn’t get a response. The security team says it’s still unpatched. OpenAI did not respond to our inquiries, including if it planned to fix the flaw.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On September 10, Forever disclosed the VS Code vulnerability to Microsoft and says the vendor also labeled it as an invalid workspace trust gated security boundary issue. The researchers claim it remains unpatched. Microsoft did not respond to our request for comment.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
