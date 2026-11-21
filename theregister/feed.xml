@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel><title>The Register</title>
+<lastBuildDate>Sat, 21 Nov 2026 16:43:17 -0000</lastBuildDate>
+<item>
+<title> AWS got hit by an outage too. Here&#x27;s why you didn&#x27;t hear about it </title>
+<link>https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511</link>
+<pubDate>Sat, 21 Nov 2026 14:35:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  My editor asked me this week &quot;why is everything except AWS breaking?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s a great question! They haven&#x27;t been in the headlines! In fact, as they are wont to do, AWS spokesperson Patrick Neighorn g
+  &lt;a href=&quot;https://www.nytimes.com/2026/11/19/technology/downdetector-tech-outages-microsoft-chase-apple.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   ot salty to a reporter
+  &lt;/a&gt;
+  about how unreliable Downdetector is when it started showing them as impacted.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you&#x27;ll permit me a small digression, this stems from a misunderstanding of what Downdetector is for. Historically the AWS status site was so hilariously slow to reflect the lived customer experience that some jackass (me) built a rewriter that sits at
+  &lt;a href=&quot;https://stop.lying.cloud&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   stop.lying.cloud
+  &lt;/a&gt;
+  to make it a smidgen more realistic. As a result, the question people are really trying to answer when they visit Downdetector is &quot;my app just broke; is it my crappy code or is there a global event going on?&quot; There are mitigations for both, but they look nothing alike.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS view crowdsourced reports of the form &quot;the internet is broken, must be AWS&quot; as a stain upon their honor. In fact, it&#x27;s a badge of their own success, as &quot;the internet&quot; and &quot;AWS&quot; have become inextricably linked in people&#x27;s minds.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But back to my editor&#x27;s question, &quot;why didn&#x27;t AWS go down?&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Easy: it did.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Everything breaks, all the time, including the narrative
+ &lt;/h3&gt;
+ &lt;p&gt;
+  AWS now has 34 generally available commercial regions, of which two are currently smoking craters due to the Iran conflict. Each of these has hundreds of services that AWS offers to customers, of which a dozen or so are high quality, if I&#x27;m being characteristically uncharitable. They experience degradation in various ways, and they go largely unnoticed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But on November 15, AWS
+  &lt;a href=&quot;https://gbhackers.com/aws-confirms-major-us-east-1-outage/)&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   confirmed an incident
+  &lt;/a&gt;
+  that disrupted 11 of those ~12 good services in their oldest and most important region, us-east-1.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At 3:05 AM PST, they stated that they started seeing sign-up errors, authentication issues, and connectivity issues. Five minutes later engineers were engaged. Not to be outdone, their status page swung into action after a leisurely coffee, and posted its first indication of an incident 93 minutes later. (See previous comments on
+  &lt;a href=&quot;https://stop.lying.cloud&quot;&gt;
+   stop.lying.cloud
+  &lt;/a&gt;
+  ). The all-clear showed up at 6:53 AM.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Every site has downtime. Sometimes it blows up publicly, other times nobody seems to notice. Heck, AWS said in September that it had experienced
+  &lt;a href=&quot;https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   permanent data loss
+  &lt;/a&gt;
+  in its two smoking craters, but after that news cycle passed I haven&#x27;t heard a thing about it. I do think it&#x27;s patently unreasonable to blame them for this specific problem; &quot;acts of war&quot; are kinda hard to predict from the corporate planning meeting.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A few things combined to help AWS out on November 15. First, it was pre-dawn Pacific time on Sunday. Most of us slept through it; my kids aren&#x27;t even up that early.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Further, the services that were most impacted (IAM Identity Center) were for engineers signing in to AWS accounts, not consumers staring at an app that stopped working.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Plus, the competition sucked all the oxygen out of the room: a day-plus Microsoft
+  &lt;span data-lab-strikethrough=&quot;strikethrough&quot;&gt;
+   365
+  &lt;/span&gt;
+  364
+  &lt;a href=&quot;https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805&quot;&gt;
+   outage
+  &lt;/a&gt;
+  and a four-hour nationwide
+  &lt;a href=&quot;https://www.theregister.com/offbeat/2026/11/13/faa-blames-ground-stop-on-faulty-copper-wiring/5309912&quot;&gt;
+   air traffic ground stop
+  &lt;/a&gt;
+  had done a great job of level-setting what kind of outage was going to get attention, and &quot;us-east-1 being weird but the apps still work&quot; doesn&#x27;t cut it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Downdetector – which is
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/03/03/accenture-acquires-downdetector-as-part-of-12-billion-deal/4946159&quot; target=&quot;_blank&quot;&gt;
+   owned by Accenture
+  &lt;/a&gt;
+  , so it&#x27;s not like AWS doesn&#x27;t have
+  &lt;a href=&quot;https://aws.amazon.com/accentureaws/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   a throat to choke
+  &lt;/a&gt;
+  if they want to stop picking on reporters – measures consumer screaming. Originally, it was largely Twitter semantic analytics. This isn&#x27;t a bad thing! As I said, I want to know if the internet is breaking. We can sort out exactly what part later.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The November 15 outage didn&#x27;t produce that kind of screaming. Ironically, the tool that AWS is complaining about in the newspaper is the reason they skated by without notice on this outage.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Counterintuitively, Downdetector reports that
+  &lt;a href=&quot;https://ca.news.yahoo.com/whole-internet-screams-once-downdetector-221702494.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   outages have decreased
+  &lt;/a&gt;
+  since about 2022. Instead, what we&#x27;re seeing is large-scale centralization.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Our companies don&#x27;t run email systems internally anymore; we outsource to large technology companies who are almost universally better at fixing and resolving large-scale issues than we will be internally. And it feels unkind to dunk on those hard-working folks for their outages; would we want them to dunk on us for ours?
+ &lt;/p&gt;
+ &lt;p&gt;
+  (&quot;Wait, don&#x27;t you own
+  &lt;a href=&quot;https://stop.lying.cloud&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   stop.lying.cloud
+  &lt;/a&gt;
+  ?&quot; &quot;Do as I say, not as I do.&quot;)
+ &lt;/p&gt;
+ &lt;p&gt;
+  But whether anyone notices depends upon what layer broke, and when. If my company&#x27;s email system broke on Monday, and your company&#x27;s email system broke on Tuesday, the story would stop at &quot;computers suck.&quot; But when everyone&#x27;s email system goes down at once, the world takes notice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft had to tell the whole world about a bug it mostly sat on since July.  AWS hasn&#x27;t had to tell anyone anything. My editor runs a tech publication that covers this stuff for a living and didn&#x27;t know. You can&#x27;t buy PR like this, and AWS didn&#x27;t have to.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If I were AWS, I&#x27;d stop complaining about Downdetector and send it a fruit basket. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> ChatGPT shrunk down to run on a Super Nintendo </title>
+<link>https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418</link>
+<pubDate>Sat, 21 Nov 2026 11:46:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  If you’ve ever wondered how small an instance of ChatGPT could get, wonder no longer. Someone has actually rigged up a tiny version of the chatbot to run on a Super Nintendo cartridge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tech journalist and retro tech enthusiast Benj Edwards is responsible for
+  &lt;a href=&quot;https://www.bxfoundry.com/chatgpt_snes/&quot;&gt;
+   ChatGPT for SNES
+  &lt;/a&gt;
+  . He&#x27;s published it online running in an emulator, complete with SNES-era music and sound effects, and for download as an SNES ROM, too.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s not a big model, mind you, and performance is thus pretty limited: According to the website, it’s a 2.2 million-parameter offshoot of OpenAI’s GPT-OSS-120b, which was used to develop its training conversations – so in that sense it truly is a ChatGPT that runs on an SNES cartridge. Edwards described it to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  as a distilled version of the aforementioned open-weight model.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are two options built into ChatGPT for SNES: One that’s purely the model, with every word generated coming right from its tiny little silicon brain, and another that includes a fact book culled from the opening sentences of around 150,000 simple English Wikipedia articles. If you opt to run both versions and ask it the same questions, you’ll notice a massive difference.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Given some of the other responses we got while testing, there’s really no good reason to run the base model – memory isn’t really an issue given the basic build is about 4MB and the factbook build is just 19MB.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Edwards admits that it’s not the most helpful AI model, either – this is just an experiment after all.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “It is not a useful assistant: the model is millions of times smaller than the models behind ChatGPT, knows about 8,000 words, and often gets things wrong, sometimes confidently,” Edwards noted in his writeup. In that sense, it really is vintage AI on vintage hardware. “The fact book can carry mistakes too.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you have an SNES lying around (lucky you),
+  &lt;a href=&quot;https://www.bxfoundry.com/chatgpt_snes/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   you can download the ROM from this link.
+  &lt;/a&gt;
+  If you want to get it running on an SNES you’ll need a cartridge that allows running of custom ROMs, and that supports Nintendo’s Super FX graphics coprocessor. Cartridges like the FXPak Pro and SD2SNES support it. The factbook version also requires support for the aftermarket Media Streaming Unit 1 (MSU-1), which adds CD-ROM like features to the SNES. MSU-1 is available in both of the flash carts mentioned above.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you have some real hardware skills, however, you could technically make your own ChatGPT cartridge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The ‘pure’ version, which generates all responses from the AI language model, could run from a real custom SNES cart,” Edwards told us – it doesn’t even actually need the Super FX chip. “I do have a version of ChatGPT for SNES that can run without the Super FX chip, but without the extra processing power the answers are not as good.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, Edwards believes its absolutely crazy and nonsensical answers are part of the fun.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “ChatGPT for SNES can definitely make mistakes too, but it&#x27;s almost cute when it does it because of its limited knowledge and its playful interface,” Edwards told us.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While a human may have designed the experiment, the coding work was done by AI, Edwards told us – he’s been interested in it since the 1990s and is pursuing more experiments with tiny AI models using the help of the bigger ones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I&#x27;ve been theorizing about what I call ‘tiny talking machines’ … over the past year,” Edwards told us, and he’s been able to use coding agents to turn those ideas into actual software. ChatGPT for SNES is one example, and he also created an NES ROM called
+  &lt;a href=&quot;https://www.bxfoundry.com/seance_nes/&quot;&gt;
+   Séance
+  &lt;/a&gt;
+  that uses an even smaller AI model able to run on an original Nintendo Entertainment System that simulates talking to a ghost in a haunted game cartridge.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “I designed the scope of what the software should be, how it should work broadly, what chip it should use, how the interface should look and work, and the sounds it makes when it types responses,” Edwards told us. He added that he sees the project as an AI/human collaboration, which is where he believes AI works best.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “The AI agents who did the coding for this project currently advise that we&#x27;ve hit the limit of how good the AI model can be on the limited hardware,” Edwards said - he’s not taking their word for it, though. “It&#x27;s up to human creativity to transcend those assumptions. I have already come up with new ideas that I believe can make a tiny model like ChatGPT for SNES even more coherent, and I&#x27;m working on them now.” ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> NASA Mars rover and orbiter suffer glitches </title>
+<link>https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360</link>
+<pubDate>Sat, 21 Nov 2026 07:47:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  It&#x27;s been a bad few weeks for technology on and off the planet, as NASA reported problems with its Perseverance Mars rover and Odyssey orbiter this week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Perseverance, the
+  &lt;a href=&quot;https://science.nasa.gov/blogs/mars/2026/11/19/nasas-perseverance-odyssey-teams-investigate-technical-issues/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   problem
+  &lt;/a&gt;
+  seems to be a relatively straightforward communications issue that has paused science operations because of low data rates. The Odyssey orbiter, however, is facing an issue that could end the mission.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The 2001 Mars Odyssey reached orbit around Mars in October 2001 to search for evidence of water and ice on the surface. The mission was supposed to last two and a half years, but the spacecraft&#x27;s operations have been extended for a quarter of a century.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In that time, it has had its fair share of ups and downs, including the failure of one of its four reaction wheels in 2013. Three reaction wheels are needed to orient the spacecraft; otherwise, it must fall back to its hydrazine thrusters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier in November, between the 4th and 6th, Odyssey dropped into safe mode, which engineers determined was caused by one of the remaining reaction wheels stopping spinning. Science data stopped flowing as the team worked to recover the component; the good news was that the wheel moved when commanded. The bad news is that if the thrusters need to be used, only a few months of fuel remain.
+ &lt;/p&gt;
+ &lt;p&gt;
+  More bad news is that the spacecraft is part of NASA&#x27;s Mars Relay Network, and was responsible for sending back the first post-landing images from the Phoenix lander and the Spirit, Opportunity, and Curiosity rovers. Its loss (should it come to that) would therefore be keenly felt.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the event the orbiter is indeed approaching the end of the road, the European Space Agency&#x27;s Mars Express (MEX) and Trace Gas Orbiter (TGO) could pick up some of the load although, as a former ESA insider put it: &quot;MEX is a science mission that can do relay where TGO is a relay mission that also does science.&quot;
+  &lt;a href=&quot;https://science.nasa.gov/mars/mars-relay-network/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   According
+  &lt;/a&gt;
+  to NASA, TGO already sends the most relay data from Mars to Earth.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The challenge facing the Perseverance trundlebot is one of communication. On October 30, the rover&#x27;s main computer detected problems with the primary radio (a series of &quot;heartbeats&quot; from the device did not arrive as expected) and automatically switched to a redundant backup, placing itself in a protective safe mode.
+ &lt;/p&gt;
+ &lt;p&gt;
+  So far, so expected. Engineers brought the rover back from safe mode, analyzed the data, and made an unpleasant discovery. The backup radio was not performing as it should – it was operating at approximately half of its expected power output.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Both radios were therefore deemed inoperable – at least until the team has got to the bottom of the issues – and the rover has used X-band communications over its high-gain antenna to talk to Earth ever since. The problem here is that the connection provides a significantly lower data rate, meaning science and instrument operations are on hold.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Engineers are working first to return the backup radio to operational status, then to address the primary. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Amazon&#x27;s split personality: AWS embraces bot commerce while main site enforces bans </title>
+<link>https://www.theregister.com/ai-and-ml/2026/11/20/amazons-split-personality-aws-embraces-bot-commerce-while-main-site-enforces-bans/5311493</link>
+<pubDate>Fri, 20 Nov 2026 23:41:14 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Amazon is of two minds when it comes to automated purchasing. The ecommerce giant has been busy banning AI shopping agents from accessing its website. Meanwhile, AWS Marketplace has opened its door to bot-based buying.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Buying software and data through AWS Marketplace just got easier, for you and for the AI agents working alongside you,&quot; said Mya Papolu, product marketing manager for AWS Marketplace and Partner Services at Amazon Web Services, in a
+  &lt;a href=&quot;https://aws.amazon.com/marketplace/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  this week. &quot;For re:Invent 2026, we’re launching capabilities designed to reduce friction across the buying journey.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  For a company that has blocked bots from Google, Meta, and OpenAI, and sued Perplexity to keep its AI-encumbered Comet browser away, the openness of AWS Marketplace to agentic commerce invites questions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We asked Amazon to explain but we&#x27;ve not heard back.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS Marketplace is allowing AI agents to scour its site and buy some cloud software products using the
+  &lt;a href=&quot;https://x402.org&quot;&gt;
+   x402 agentic payment protocol
+  &lt;/a&gt;
+  , which is supported by Amazon Bedrock AgentCore payments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Introduced by
+  &lt;a href=&quot;https://blog.cloudflare.com/x402/&quot;&gt;
+   Coinbase and Cloudflare
+  &lt;/a&gt;
+  , x402 got handed over
+  &lt;a href=&quot;https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol&quot;&gt;
+   to the Linux Foundation
+  &lt;/a&gt;
+  earlier this year, and now has support from a variety of tech platforms, including AWS, Google, Stripe, and various blockchain networks. About a week ago, Brave Software
+  &lt;a href=&quot;https://brave.com/blog/search-api-agentic-payments/&quot;&gt;
+   announced
+  &lt;/a&gt;
+  support for x402 payments through its search API.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AWS requires sellers to register with AWS Marketplace and to integrate the AWS Marketplace x402 SDK to enable agentic product purchases. Transactions settle in USD through AWS billing so existing spending controls can be applied.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And now, customers in the US can buy some AWS Marketplace software without an AWS account; instead they&#x27;re asked to provide an email or social media login, and a credit card.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While AWS Marketplace today lists mainly familiar software categories (Business Applications, Data &amp; Analytics, DevOps, Infrastructure Software, and so on), AWS has a broader product inventory in mind. Beyond software and APIs, the biz sees a future in selling content and data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Papolu announced that AWS is now selling &quot;
+  &lt;a href=&quot;https://aws.amazon.com/marketplace/solutions/data-as-a-service/&quot;&gt;
+   data as a service
+  &lt;/a&gt;
+  .&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Data providers can list their offerings in AWS Marketplace, making commercial data accessible to both human teams and the agents working alongside them via the AWS Marketplace website, APIs, and MCP server,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This includes services like Moody&#x27;s Credit MCP server for financial research; Reuters Geopolitical News for AI-structured reporting; US Building Permits, Contractors &amp; Residents Data from Shovels; and US-EN Multi-Speaker Conversational Acoustic Corpus from Uber AI Solutions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In canned remarks provided to AWS, Nandhan Puppala, general manager at Uber AI Solutions, said that data quality and readiness can help advance AI products.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://aws.amazon.com/marketplace/agentmode&quot;&gt;
+   Agent mode
+  &lt;/a&gt;
+  for AWS Marketplace has been available for about a year as a way to query the market via prompt. That&#x27;s being
+  &lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion/&quot;&gt;
+   expanded
+  &lt;/a&gt;
+  to allow deeper queries about seller security and project requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Science fiction writer William Gibson&#x27;s
+  &lt;a href=&quot;https://interactions.acm.org/archive/view/march-april-2017/the-future-is-already-here&quot;&gt;
+   oft-cited line
+  &lt;/a&gt;
+  , &quot;The future is already here – it&#x27;s just not very evenly distributed&quot; appears to apply to Amazon. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> PHP 8.6: Things are gonna get a lot more strict around here </title>
+<link>https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486</link>
+<pubDate>Fri, 20 Nov 2026 23:28:47 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  On Thursday,  PHP
+  &lt;a href=&quot;https://www.php.net/releases/8.6/en.php&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   version 8.6
+  &lt;/a&gt;
+  was released on its usual yearly schedule, popping up as if the web scripting language hadn’t been under intense scrutiny this past month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For those who missed it: a
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   swarm
+  &lt;/a&gt;
+  of
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   unearthed vulnerabilities
+  &lt;/a&gt;
+  has
+  &lt;a href=&quot;https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   plagued
+  &lt;/a&gt;
+  PHP since October, allowing unauthenticated attackers to crash PHP workers or execute arbitrary code on the server. Users of every PHP-based application, including WordPress, Laravel, and Symfony, had to scramble to update their PHP instances.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PHP core development community, along with the
+  &lt;a href=&quot;https://thephp.foundation/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   PHP Foundation
+  &lt;/a&gt;
+  , responded with a coordinated release of patched versions of PHP (
+  &lt;a href=&quot;https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   8.5.13, 8.4.28, 8.3.37, 8.2.36
+  &lt;/a&gt;
+  and the new 8.6) that
+  &lt;a href=&quot;https://cybersecuritynews.com/php-8-released/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   closed
+  &lt;/a&gt;
+  seven critical remote code execution (RCE) flaws in one sweep.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In addition to patching specific exploitable holes in the PHP engine, the new version of PHP also tamps down some of PHP’s historically liberal configuration settings.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Lucky for PHP, and for the rest of us, core developer Jörg Sowa called out these lax settings in June, when he posted a
+  &lt;a href=&quot;https://wiki.php.net/rfc/session_security_defaults&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   proposal
+  &lt;/a&gt;
+  to set more security-friendly defaults.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sowa saw that three configuration settings of PHP’s session extension – Strict Mode, HttpOnly, and SameSite – were designed to boost security but shipped “with defaults that leave applications unnecessarily exposed.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  No cookies for impostors
+ &lt;/h3&gt;
+ &lt;p&gt;
+  In a
+  &lt;a href=&quot;https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   retrospective
+  &lt;/a&gt;
+  posted last month, the PHP Foundation admitted that consensus-driven gridlock had stalled complex fixes for months and vowed to get patches out the door sooner, should the vulnerabilities
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/22/php-blames-supply-chain-security-biz-chainguard-for-putting-huge-chunks-of-the-web-at-risk/5304611&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   leak ahead
+  &lt;/a&gt;
+  of the
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/10/22/hackers-pile-on-php2shell-as-aws-reveals-attacks-began-before-disclosure/5304749&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   agreed-upon deadline
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Code-wise, Sowa’s proposal to harden PHP settings was accepted for PHP 8.6. These changes won’t stop the flood of AI-generated CVEs, but at least these holes will be more difficult to exploit.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Strict Mode, PHP will no longer accept uninitialized session IDs that it didn’t create itself. Before, an attacker could just plant a made-up session ID on the victim to gain entry. “The built-in files handler checks whether a session file for that ID exists on disk; because an attacker-planted ID has no corresponding file, a fresh random ID is generated instead,” Sowa wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Furthermore, PHP will now, by default, add the
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   HttpOnly
+  &lt;/span&gt;
+  flag to its session Set-Cookie header, blocking client-side JavaScript from reading the session ID, which could otherwise be stolen to masquerade as the user. Believe it or not, any script on the page could read it before.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Finally, the server will withhold session cookies on cross-site POST requests, as well as for subrequests and iframes. “Without it, a forged form or link on an attacker-controlled site can trigger authenticated requests using the victim’s session,” Sowa wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Going forward, cookies will only be sent on same-site requests and top-level GET navigations, such as clicking a normal link.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Collectively, these changes should thwart session hijacking and cross-site request forgeries. They won’t stop remote code execution hacks, though they will make it a lot more difficult for attackers to gain entry.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new release brings some other security-minded changes as well.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PHP engine will be a lot stricter when it encounters strings with null values (“\0”). In many cases, it will now throw an error rather than silently letting it pass. Null values are a favored trick for triggering RCEs. A C function will treat the null value as the end of the string, processing everything before the null byte and ignoring everything after, much to an
+  &lt;a href=&quot;https://cwe.mitre.org/data/definitions/158.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   attacker’s delight
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Continuing in this spirit of “if you see something, say something,” a number of other PHP functions will also no longer remain silent when things go awry. Operations for closing a file or copying data, for instance, will explicitly return a false value when terminating prematurely or failing, an alert developers could use to minimize data integrity bugs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond security, PHP 8.6 also comes with a number of new goodies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  PHPers are abuzz over Partial Function Application (PFA), which will let them pre-fill some of a function’s arguments to generate a reusable closure on the fly — leapfrogging JavaScript in this ability.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The new edition also gets a native polling API, which will be handy for event-driven networking; a stopwatch-like Duration class that can track elapsed time across more than 250 years; and a
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   clamp()
+  &lt;/span&gt;
+  function to ensure a given value stays within an acceptable range.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Another tricky day for PHP devs
+ &lt;/h3&gt;
+ &lt;p&gt;
+  For administrators, this PHP update round may be a bit of a shambles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  As backend software engineer Rajekevin Dourepoulle notes
+  &lt;a href=&quot;https://rajekevin.fr/blog/php-8-6-sessions-securisees-par-defaut&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   in a blog post
+  &lt;/a&gt;
+  , these changes will take effect post-installation only if the configurations aren’t specified elsewhere, such as in an application, framework, or even another php.ini file – all of which can override the PHP settings themselves.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “In practice: if your deployment reuses the old php.ini (an Ansible template, a COPY php.ini in a Dockerfile, a file copied from server to server), you move to 8.6 and gain nothing, because the explicit
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   session.use_strict_mode = 0
+  &lt;/span&gt;
+  line overrides the new default,” he wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Despite all these heroic efforts, PHP remains the
+  &lt;a href=&quot;https://websitewithoutphp.com/en-us/php-errors/white-screen/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   champion of inscrutability
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers </title>
+<link>https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478</link>
+<pubDate>Fri, 20 Nov 2026 21:27:56 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Visa and Mastercard customer info leaked by the data thieves and extortionists who claim to have stolen it from the financial giants doesn’t include card numbers, passwords, or home addresses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On Thursday, Visa, Mastercard, and JPMorgan Chase confirmed to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  that they are
+  &lt;a href=&quot;https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175&quot;&gt;
+   investigating third-party breaches
+  &lt;/a&gt;
+  that may involve customer information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ransomware and extortion crew n0n claimed to be responsible for all three, and on Thursday published samples of the stolen files – data-theft groups typically leak some of the compromised data ahead of the official extortion deadline in an effort to put more pressure on victim companies to pay the ransom demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Researchers at SOCRadar, a threat-intelligence firm that has been
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754&quot;&gt;
+   tracking n0n
+  &lt;/a&gt;
+  since it emerged in September, have parsed all 14 files in the n0n’s published Visa and Mastercard archives, and told us that the files don’t contain any financial details belonging to banking customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We found no card numbers, expiry dates, CVVs, passwords, dates of birth, or home addresses in any file,” Ensar Seker, SOCRadar chief information security officer, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . “Visa&#x27;s statement that no card numbers were affected matches our scan.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mastercard previously said that stolen data included a “limited amount of email addresses – non-payments information” from a subset of cardholders in a benefits program.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to SOCRadar’s analysis, the leaked files do contain mobile numbers, Bank Identification Number (BIN) prefixes, and dated airline, hotel, and restaurant bookings. So while the data doesn’t include card or account numbers that crooks could use to drain customers&#x27; bank accounts or rack up massive credit card bills, “that detail is what a fraudster needs to pose as a concierge desk or a bank,” in an email or voice-phishing social engineering attack, Seker said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s also worth noting that the published files only represent about 0.4 percent of the data n0n claims to have hoovered up in the breach: about 4.3 GB and 1.9 million marketing events. “So a further release is possible,” according to Seker.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Plus, both datasets come from the same upstream provider, we’re told. They use the same 27-column booking layout, placeholder text,  and CRM ID format, Seker said, noting that the most recent record in each stops 69 seconds apart on Oct 26.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “This looks like two card programs run on one provider&#x27;s platform,” he said. “The pattern looks like a batch copy from a marketing and reporting store.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  Customer data has left the building
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The security shop hasn’t analyzed the Chase customer data that n0n also claimed to have published.
+ &lt;/p&gt;
+ &lt;p&gt;
+  All three financial firms attributed the compromises to a third-party provider, and while nothing in the stolen files name the vendor, the timing matches up with a
+  &lt;a href=&quot;https://www.theregister.com/security/2026/11/09/attackers-backdoor-trusted-aws-integrations-to-steal-secrets/5308553&quot;&gt;
+   Qubole supply-chain campaign
+  &lt;/a&gt;
+  disclosed earlier this month by Wiz, working with Google&#x27;s Mandiant incident responders and AI data security company Sentra.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In that attack, which the threat hunters said began on October 14, cybercrims used compromised identity and access management (IAM) credentials associated with Qubole&#x27;s AWS account to access dozens of downstream-customers’ environments, stealing secrets and other sensitive data from S3 buckets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  N0n also claimed to have carried out this attack. “The timing fits the Qubole supply-chain campaign,” Seker said, adding that this is his company’s assessment, not a confirmed finding. &quot;If it&#x27;s right, Qubole would be the access path rather than the holder of the data, and the files point to a concierge-services operator behind the brands.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Qubole’s parent company Idera did not respond to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  ’s inquiries. The financial institutions declined to answer our questions about which provider(s) was compromised in the breach, and whether Qubole was the access path by which their customers’ data was exposed.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Signal slams door on prying AI agents to protect privacy </title>
+<link>https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466</link>
+<pubDate>Fri, 20 Nov 2026 20:42:04 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Signal, the encrypted messaging app, has barred Google Gemini, Apple Siri, and other AI agents from accessing messages unless the user has explicitly granted permission, based on privacy concerns.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Citing the screenshot blocking implemented last year to defend against Microsoft Recall, Signal CEO Meredith Whittaker said similar measures have become necessary to prevent agentic software available in iOS and Android from gaining access to communication that&#x27;s intended to be private.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Google and Apple are integrating agentic capabilities like
+  &lt;a href=&quot;https://support.google.com/gemini/answer/15850607?hl=en&quot;&gt;
+   Gemini Intelligence
+  &lt;/a&gt;
+  with Google Gemini and
+  &lt;a href=&quot;https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/&quot;&gt;
+   Onscreen Awareness
+  &lt;/a&gt;
+  with Siri AI deep into their operating systems,&quot; wrote Whittaker in a
+  &lt;a href=&quot;https://signal.org/blog/protecting-your-privacy/&quot;&gt;
+   blog post
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;In order to gain access to information about you, these OS AI agents &#x27;scan&#x27; the information that’s on your screen. In doing so, your Signal data is captured, then made available to these agentic systems in order to allow them to answer your questions and do your bidding.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The result is that private messages ingested by these agentic systems may end up on someone else&#x27;s server where they&#x27;re no longer private.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Updates to Signal&#x27;s iOS and Android apps now include controls that by default block Siri on iOS and Gemini and other agents on Android from taking screenshots, which AI agents process using optical character recognition to extract text.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Whittaker says that those who wish to take screenshots of their messages can disable this protection via Signal&#x27;s settings menu, but warns doing so risks exposing your Signal content (and that sent by your contacts) to AI agents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Screenshot blocking, Whittaker concedes, is only a partial solution since AI agents may have other ways to access application data through the device file system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We want to be very clear: it is a serious problem that Signal – and application developers beyond – lack robust tools to prevent AI agents from undermining application-level privacy,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Even where we are able to detect and block AI data access, Google, Apple, Microsoft, and others do not provide ways for developers to easily restrict such AI data access without making drastic compromises to the core user experience. This is also the reason we are currently unable to implement these protections on macOS.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple is taking some action to implement protection from AI agents on macOS, though it appears to be doing so largely to defend against third-party access to data rather than to limit its own Siri service. Siri can be turned off separately.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://developer.apple.com/news/?id=oqng0zjk&quot;&gt;
+   With macOS 27.3
+  &lt;/a&gt;
+  , currently in public beta testing, Apple&#x27;s desktop operating system will get more granular controls on two APIs: Device Control and Data Access, and Full Disk Access. The result will be more permission prompts for users of macOS apps that seek access to user data, and the inconvenience of applying for an entitlement from Apple to obtain Full Disk Access for backup software and assistive technologies that use Accessibility APIs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially,&quot; Apple
+  &lt;a href=&quot;https://developer.apple.com/news/?id=p6zjojqw&quot;&gt;
+   said
+  &lt;/a&gt;
+  when it introduced the Full Disk Access change. &quot;We are committed to ensuring users clearly understand these risks before granting such access, so they can make informed decisions about their own data and privacy.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple is also
+  &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding&quot;&gt;
+   reportedly
+  &lt;/a&gt;
+  working on its own AI agent in a bid to compete with Anthropic and OpenAI. It remains to be seen whether Apple will use its operating system ownership as competitive leverage against AI firms that threaten its gatekeeping power,
+  &lt;a href=&quot;https://www.theregister.com/software/2026/06/17/apples-webkit-performance-tax-leaves-ios-browsers-stuck-in-the-slow-lane-says-microsoft/5257384&quot;&gt;
+   as it has done with web browsers
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;h3&gt;
+  First the flood, then the dams
+ &lt;/h3&gt;
+ &lt;p&gt;
+  While Apple casts itself as an ally that&#x27;s helping to defend device customers against prying AI agents, Signal&#x27;s decision to block Siri shows that AI agents have complicated trust decisions and the competitive landscape. AI agents are supposed to serve the user but when they spirit data away to the cloud and come between customers and merchants, they wear out their welcome.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI agents also threaten the business relationship between consumers and merchants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon has blocked shopping agents like
+  &lt;a href=&quot;https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/&quot;&gt;
+   Meta Muse
+  &lt;/a&gt;
+  from its e-commerce site (though
+  &lt;a href=&quot;https://aws.amazon.com/blogs/awsmarketplace/aws-marketplace-helps-humans-and-agents-buy-deploy-and-transact/&quot;&gt;
+   not AWS Marketplace
+  &lt;/a&gt;
+  ) while Walmart has
+  &lt;a href=&quot;https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers&quot;&gt;
+   invited third-party agents
+  &lt;/a&gt;
+  to interact through its AI Gateway. Anthropic has blocked subscription customers
+  &lt;a href=&quot;https://www.theregister.com/software/2026/02/20/anthropic-clarifies-ban-on-third-party-tool-access-to-claude/5014546&quot;&gt;
+   from using third-party harnesses
+  &lt;/a&gt;
+  . United Airlines has
+  &lt;a href=&quot;https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html&quot;&gt;
+   banned
+  &lt;/a&gt;
+  transactions from unauthorized AI bots. Similar barriers or limitations related to third-party AI agents have been erected by Target, Home Depot, Etsy, eBay, JPMorgan Chase, Charles Schwab, Citigroup, and Wells Fargo, among others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, there&#x27;s a burgeoning industry in bot detection and mitigation, led by the likes of Cloudflare, Akamai, and DataDome, to name a few.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The web browser is sometimes referred to as a user agent, based on the idealistic notion that it serves its user. That vision has been muddied by online advertising and data collection, and default settings that often serve the interests of browser makers instead of promoting privacy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now AI agents face the same scrutiny as people wonder whether their agents really serve them or someone else. After a year or two of agent vendors arguing for access to all digital data for the sake of personalization and context, the backlash has arrived. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nvidia’s journey to forge the one CPU SKU to rule them all </title>
+<link>https://www.theregister.com/systems/2026/11/20/nvidias-journey-to-forge-the-one-cpu-sku-to-rule-them-all/5311438</link>
+<pubDate>Fri, 20 Nov 2026 18:45:50 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Each generation of Intel Xeons or AMD Epycs brings dozens of new SKUs: high-core count parts tuned for throughput, high-frequency ones optimized for latency, low-power chips designed for the edge, and everything in between.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But if you ask Ian Finder, who heads development of Nvidia’s datacenter CPUs, for the vast majority of use cases, all those SKUs are overkill. “There was sort of an overskewing, for many years on the other vendors side of things,” he told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   El Reg
+  &lt;/span&gt;
+  on the sidelines of Supercomputing 2026 this week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nvidia is a relative newcomer to the datacenter CPU space. The company’s first part, called Grace, launched in 2023, but didn’t see widespread deployment outside AI headnodes, high-end NICs, and a handful of standalone CPU deployments by hyperscalers like Meta.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056&quot;&gt;
+   explored
+  &lt;/a&gt;
+  the chip in greater detail earlier this year, but the GPU slinger’s latest CPU, Vera, is a different beast. In addition to showing up as part of Nvidia’s Vera-Rubin superchips, the CPU will also be offered in standalone CPU racks, storage, and context memory systems. Just this week, Nvidia announced a
+  &lt;a href=&quot;https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery&quot;&gt;
+   new rack
+  &lt;/a&gt;
+  with 192 Vera CPUs aimed at high-performance computing (HPC) workloads, which don’t translate well to GPUs. And at least on paper, a single SKU with 88 cores clocking to 3.3 GHz powers all of them.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Historically, CPUs with different combinations of cores, clocks, I/O, and power have been used in these roles.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Finder, most datacenter CPUs haven’t been loaded that heavily, and as a result unloaded latency has been the optimization point. As a consequence, CPUs that rely on high core counts to boost throughput often suffer from elevated loaded latencies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On the flip side, chipmakers can optimize for loaded latency, but this usually comes at the expense of throughput. We see this pretty clearly across AMD’s last few generations of Epycs, where it designed both space-efficient Zen-C cores that prioritize throughput and fatter frequency-optimized versions that prioritize latency.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “As more cores are up and running, your latency to memory gets higher because you have to deal with congestion on the connectivity buses,” More than Moore analyst Ian Cutress tells
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Reg
+  &lt;/span&gt;
+  . “What Nvidia is saying is right. Sometimes, you do have to pick between core count and core latency.”
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A balanced architecture
+ &lt;/h3&gt;
+ &lt;p&gt;
+  With Vera, Nvidia sought to thread that needle to design a balanced architecture that maintains low latencies and high throughput even when all 88 cores are loaded. This does mean making some compromises – in particular, the CPU&#x27;s vector unit isn’t the beefiest. But if you’ve got GPUs capable of running vectorized code, that compromise starts to make a lot more sense – and if you’re buying Vera you almost certainly do.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “If you do a few things like that, you can actually get a part that, for the workloads people care about — knowledge agents for CI/CD, for software engineering, or databases and analytics — you can build a part that gets you the same performance per core as the frequency-optimized x86 parts at the same throughput per watt as the density-optimized parts,” Finder argued.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We should note that Nvidia isn’t unique in this line of thinking. Cloud providers have long passed on the highest core-count parts in Intel or AMD’s lineup in favor of parts they feel deliver the right mix of throughput, latency, memory bandwidth, and capacity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The reason, in part, is that cloud providers don’t know exactly what their customers will actually be doing with those cores, and so it’s better to offer something that’s well-rounded than one that has the highest clocks or lowest latency. This same logic works pretty well for agent sandboxes.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Nvidia is confident that it understands the market well enough that one chip will cover most use cases,” Cutress said. “You could argue that Nvidia just wants to corner that bulk market.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Having said that, there are plenty of reasons to have multiple SKUs or product lines. Throughout much of AMD’s latest launch cycle, the House of Zen has argued
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/09/23/an-epyc-trip-to-venice-everything-we-do-and-dont-know-about-amds-256-core-monster-chip/5298614&quot;&gt;
+   its chips
+  &lt;/a&gt;
+  make for better agentic CPUs because agents aren’t one workload but many. Some may benefit from higher core counts while others may benefit from higher frequency, and AMD’s more diverse portfolio offers choice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  To that point, Vera does have one trick up its sleeve: a split personality. The processor is one of the few Arm chips that supports simultaneous multithreading (SMT), but the way it works differs wildly from what Intel would call Hyperthreading.
+ &lt;/p&gt;
+ &lt;p&gt;
+  When enabled, SMT effectively bifurcates Vera’s Olympus cores. Eighty-eight cores turns into something that functionally looks more like 176 narrower cores. So if you need more throughput than 88 cores afford, or your workload doesn’t benefit materially from a wider core, Vera does offer some flexibility.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A broader SKU stack also helps with binning. Chip manufacturing isn’t a perfect process, and you’re going to run into defective cores from time to time. Binning allows chipmakers to sell these defective chips at a discount.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cutress suspects that Nvidia is probably doing this for its customers and it’s just not advertising them as different SKUs the way Intel and AMD have the past few decades.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For instance, a hyperscaler might be happy to take a 72-core variant of Vera that clocks a little higher or delivers more memory bandwidth per core for the same amount of power.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But for now we have just the one, for the green lord on their green throne in the land of AI where the bots lie. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server </title>
+<link>https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382</link>
+<pubDate>Fri, 20 Nov 2026 17:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Suspected Chinese spies deployed AI agents which worked autonomously to find a zero-day in an open source application and then abuse the flaw to break into university networks, gaining full control of a server, according to Amazon CISO CJ Moses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The China-linked attacker used Cairn, an open source, penetration-testing framework that has become increasingly popular with cybercriminals who use the AI tool to carry out multi-stage intrusions
+  &lt;a href=&quot;https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926&quot; target=&quot;_blank&quot;&gt;
+   with no human assistance
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  In this case, the agents found and exploited a zero-day
+  &lt;a href=&quot;https://github.com/Project-MONAI/MONAILabel&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   MONAI Label,
+  &lt;/a&gt;
+  an open-source medical imaging AI application. Amazon notified the project&#x27;s maintainers of the vulnerability, and they released a
+  &lt;a href=&quot;https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   fix and a security advisory
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  On September 10, Amazon&#x27;s Threat Intelligence Team found a server with a publicly hosted instance of Cairn that provided visibility into the campaign targeting universities in East Asia, outside Mainland China, Moses said in a Friday report shared with
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  The campaign occurred over a period of 48 hours beginning on September 8, and the prompts were written in Simplified Chinese, with timestamps in executed scripts configured to China Standard Time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Before the AI agents found and exploited the zero day, however, they tried to break into another university’s Redis server over about 16 hours and 148 sequential actions, including abusing Redis&#x27;s replication feature to load unauthorized code, escaping its scripting sandbox, writing to its configuration files, and corrupting its memory.
+ &lt;/p&gt;
+ &lt;p&gt;
+  None of these were successful, and when those actions failed, the agents also attempted a
+  &lt;a href=&quot;https://www.theregister.com/security/2023/12/11/one-in-four-apps-remain-exposed-to-log4shell/1227099&quot;&gt;
+   Log4Shell injection
+  &lt;/a&gt;
+  against a different service, a server-side request forgery (SSRF) attack against a vulnerability in a co-located Qdrant instance, and several credential sprays against PostgreSQL, SSH, and other tools.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Meanwhile, a separate operation running for more than 6 hours targeted a university GPU server with another credential-spray attack, compiling a list of 80 real user names found across the school’s public websites, academic papers and other documents.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Neither operation succeeded, yet together they show that the agents kept adapting for nearly a full day without human direction,&quot; Moses wrote.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then the AI agents found the zero-day path traversal vulnerability in MONAI Label, and this time they were able to gain access to the server.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The agents identified the application&#x27;s framework, mapped its API endpoints, and found an upload endpoint with a filename parameter,&quot; Moses wrote. They tested that parameter for path traversal, and the parameter was vulnerable. In about 11 minutes, the agents went from mapping the application’s API to arbitrarily writing files on the server.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Later, the agents abused the same flaw to execute a Python reverse shell running as root.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In another session, after the agents discovered the zero-day, the human operator provided them with a proxy that tunneled into a second university network, and connected to a server running the same vulnerable code.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Amazon&#x27;s discovery follows an earlier report by Gambit Security&#x27;s threat intelligence team that also documented a
+  &lt;a href=&quot;https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012&quot;&gt;
+   Chinese operator using Cairn
+  &lt;/a&gt;
+  to carry out at least 105 attacks, and managing to compromise, &quot;to varying degrees,&quot; at least 27 companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This campaign also occurred in September. In addition to Cairn, the attacker used two other open source AI harnesses to steal credit card records and other sensitive data from a Fortune 500 hospitality company, a major US airline, a large private US industrial supplies distributor, and a US online fashion retailer, and other companies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Together, these cases show that this autonomous AI agent framework is being adopted in both espionage and criminal operations,&quot; Moses wrote. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Dutch data watchdog highlights safety issues with AI glasses </title>
+<link>https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345</link>
+<pubDate>Fri, 20 Nov 2026 16:44:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The Dutch Data Protection Authority (AP) has officially advised consumers against buying AI-powered smart glasses after safety tests revealed concerning behaviors beyond their controversial recording capabilities.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AP recently tested six different models of smart glasses and found glaring issues, including a willingness to display dating advice to an adult glasses-wearer who expressed an interest in a minor.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In another case involving a cardiopulmonary resuscitation (CPR) simulation, testers noted that one pair of glasses informed the wearer that emergency services had been called and were scheduled to arrive at the scene, despite no one having made the call.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Some glasses did not properly process safety warnings on children’s toys, others made mistakes when reading medication leaflets, and some misinterpreted warnings for extreme weather events.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AP did not specify the models it tested, saying only that they tested six models ranging from under €100 ($110) to over €500 ($550), including two that &quot;were extensively tested in simulated real-life situations where human safety played a key role.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  A spokesperson also declined to match any specific behavior to a model by price point (minor dating advice linked to a €354 pair of glasses, for example), adding that the research was intended to highlight the risks of AI glasses in a broader sense.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Glasses that film you unnoticed are already concerning. Glasses that also give you incorrect advice when someone&#x27;s life is at stake go a step too far,&quot;
+  &lt;a href=&quot;https://autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   said
+  &lt;/a&gt;
+  Monique Verdier, vice chair at the AP.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;AI offers many opportunities, but we must be able to trust that technology. With the camera glasses examined, that trust cannot currently be justified.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The warning issued this week follows the regulator&#x27;s previous work on smart glasses. The AP reminded the public in September that everyone has the right to privacy and encouraged organizations to ban them where necessary.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The same warning mentioned the potential risks regarding data processing under the GDPR, as well as those related to the training of AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AP doubled down on these earlier criticisms, saying the latest tests showed that the AI functions rely on processing data using servers mostly located outside of the European Union. Relatedly, it found that users were not given sufficient information about how the AI was processing the data they captured.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On a cybersecurity note, the tests threw up a range of issues, including the ability for people nearby the glasses-wearer to connect to the device without permission, view recordings, and in some cases operate the camera.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Further, the regulator echoed the pre-existing concerns about smart specs - those that helped give them their colloquial name “pervert glasses.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its tests found that with &quot;virtually all of the camera glasses examined,&quot; the recording lights that are supposed to clearly show when a user is recording were dim and easily coverable.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AP said that models could also be wangled into recording even when that light indicator was covered, which goes against what manufacturers so often claim.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;As a result, bystanders can barely see whether they are being filmed,&quot; it said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The technology has a number of beneficial use cases, such as assisting the visually impaired, those with lower literacy levels, or for any number of other scenarios where people need help understanding the world around them
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, the watchdog&#x27;s official stance on the technology, as it is today, deems smart glasses &quot;unsafe… due to the risks to users and bystanders.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Verdier said politicians in the Netherlands and across Europe should take note of the results when developing AI policy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It is important that we, as a society, learn to deal with these types of high-risk AI products,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Simply banning everything provides some leeway in the beginning, but we cannot sustain that indefinitely. It is important that we collectively work on awareness, resilience, and ethical conscience.&quot;
+ &lt;/p&gt;
+ &lt;h2&gt;
+  Smart specs can&#x27;t shake the hate
+ &lt;/h2&gt;
+ &lt;p&gt;
+  When DEF CON
+  &lt;a href=&quot;https://www.theregister.com/security/2026/07/28/def-con-bans-meta-style-pervert-glasses/5279763&quot; target=&quot;_blank&quot;&gt;
+   announced a no pervert glasses policy
+  &lt;/a&gt;
+  ahead of its event in August, the move was broadly welcomed by attendees.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Love to see a ‘no pervert glasses’ policy at DEF CON,&quot; said Eva Galperin, EFF director of cybersecurity, at the time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Several other organizations have implemented similar restrictions, including Monopoly Events, which manages UK Comic Cons, national treasure pub chain
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/08/10/wetherspoons-bars-smart-glasses-from-filming-customers/5285357&quot; target=&quot;_blank&quot;&gt;
+   Wetherspoons
+  &lt;/a&gt;
+  , and even
+  &lt;a href=&quot;https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826&quot; target=&quot;_blank&quot;&gt;
+   Immigration and Customs Enforcement
+  &lt;/a&gt;
+  (ICE).
+ &lt;/p&gt;
+ &lt;p&gt;
+  Most members of the general public will have at least come to terms with the fact that the smartphone generation, and their willingness to snap shots anywhere and everywhere, means there is no enshrined human right to privacy in public spaces.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Public video recording once carried an air of expectation or consideration for bystanders’ personal privacy, although smartphone users have slowly eradicated that over time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Like it or not, it&#x27;s generally understood that a smartphone is usually recording something - or someone - at any given time, especially in urban areas.
+ &lt;/p&gt;
+ &lt;p&gt;
+  On paper, the fact that smart glasses can record in public spaces isn’t wildly different from what’s already come to be expected from smartphones.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, given how similar they appear to analog glasses and the ability to cover the recording light, it makes the act of public recording via glasses far more surreptitious, and thus concerning.
+ &lt;/p&gt;
+ &lt;p&gt;
+  With smartphones, it&#x27;s easy to see from the user&#x27;s body language - holding the phone out in front of them - that they are recording. There are no overt signals displayed by wearers of smart glasses during image or video capture, which fuels a sense of unease about the technology in general.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A quick search online for &quot;smart glasses privacy violation&quot; yields a slew of complaints about the technology, often regarding behavior toward women and children.
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are also worries about how easily the devices can get past security checks, potentially providing opportunities to those who wish to cause greater harm than a mere blight on personal privacy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A joint investigation by
+  &lt;a href=&quot;https://observer.co.uk/news/national/article/parliaments-scanners-failed-to-spot-security-risk-smart-glasses&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   The Observer and BBC Radio 4
+  &lt;/a&gt;
+  recently revealed how AI-enabled glasses went undetected through the airport-style security scanners used in the UK parliament.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The two news outlets found that a £60 ($78) pair of Chinese-made glasses bypassed the scanners and could be used to read upside-down documents on MPs&#x27; desks, recording data such as phone numbers and addresses to be accessed at a later point. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI boom threatens circuit board crunch to rival pandemic-era chip shortage </title>
+<link>https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335</link>
+<pubDate>Fri, 20 Nov 2026 16:01:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The electronics industry faces a printed circuit board (PCB) shortage that could rival the pandemic-era chip crunch – with AI once again accused of hogging supplies.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Global Electronics Association says demand is arriving &quot;at a scale the supply chain was not built for,&quot; straining everything from glass fabric and resin to finished boards.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its report, &quot;
+  &lt;a href=&quot;https://www.electronics.org/pcb-global-advisory-explanatory-note&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   The PCB Squeeze: A Wake-Up Call for Global Electronics
+  &lt;/a&gt;
+  ,&quot; says AI servers need increasingly complex boards. While a typical PC board has about 12 layers of tracks, AI server boards can have 40 to 60 layers or more, and each additional layer requires more resin, copper foil, and laminate.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The supply of materials is set to be constrained through at least the first half of 2027, the report says, with meaningful relief unlikely before mid-2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Programs to deliver PCBs for automotive, industrial, medical and even the defense industries are being crowded out as AI soaks up scarce capacity, it claims.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The association&#x27;s North American figures show orders growing much faster than deliveries. PCB bookings rose 56.1 percent in the first nine months of 2026 compared with the same period last year, while PCB shipments increased 13.3 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Fabrication capacity is expanding, aimed at meeting the increased demand from the AI infrastructure sector, especially in Asia, where more than 90 percent of the world&#x27;s boards are made. The report says that $10 billion has gone toward new PCB plants in Southeast Asia, and at least as much has been invested in China over the past three years, but the raw materials are themselves constrained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It warns of lengthening lead times for those raw materials. Standard FR-4 laminate now takes six to eight weeks to ship, up from two to three weeks a year ago, while advanced low-loss laminates now take 14 to 18 weeks for delivery, for example.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Tightening supplies usually lead to price increases, and the report says that suppliers raised laminate costs by 30 percent in September, and that the price tag of some types of E-glass cloth for circuit boards has risen by 300 percent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report also puts copper prices up 37 percent over the past year.
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2026/01/09/copper-supplies-set-to-peak-just-as-tech-needs-more/4533504&quot; target=&quot;_blank&quot;&gt;
+   Concerns have been raised about copper supplies
+  &lt;/a&gt;
+  before, as
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  has reported multiple times.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The association compares the risk with the
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2022/01/28/idc-chip-shortages-due-to-lack-of-investment-in-right-fabs/1448511&quot;&gt;
+   2021 chip shortage
+  &lt;/a&gt;
+  , when disrupted supplies left manufacturers unable to secure even relatively mundane components.
+ &lt;/p&gt;
+ &lt;p&gt;
+  New capacity is coming, but it is late and comes in dribs and drabs, according to the report, while AI demand just keeps on absorbing it as soon as it arrives.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The association&#x27;s advice is for buyers to plan early, and to share realistic forecasts with suppliers rather than double-booking. Board makers should qualify alternative suppliers of materials such as laminate and copper foil before shortages bite, but it warns against stockpiling beyond real need, which adds to forward-buying pressure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But it would like governments to step in, of course, by tracking board and material lead times with industry and offering tax incentives for investment in advanced PCB and substrate manufacturing equipment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The wish list also includes state investment in research and development plus qualification of new alternative materials. It would like to see loan guarantees and grants to protect critical programs and small fabricators, structured so as to sustain new capacity if forward buying unravels and demand corrects in 2027. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Casing The HPC And AI-Sci Market With Hyperion Research </title>
+<link>https://www.theregister.com/hpc/2026/11/20/casing-the-hpc-and-ai-sci-market-with-hyperion-research/5311388</link>
+<pubDate>Fri, 20 Nov 2026 15:49:32 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;86720497-874a-49b4-bbf7-aac9cb0f7dbc&quot;&gt;
+ &lt;p&gt;
+  When you go to the Super Computing conference in America or the International Super Computing conference in Europe, one of the hardest things to do is get up early on a Tuesday morning and hustle on over to the IDC and now Hyperion Research breakfast to get a good greasy breakfast and some strong coffee. But you do it so you can be alert for an update on the state of the HPC and now AI for Science markets, and because this breakfast usually follows a very social evening on Monday, if you catch my drift.
+ &lt;/p&gt;
+ &lt;p&gt;
+  If you can make it to that breakfast, you will make it through the week.
+ &lt;/p&gt;
+ &lt;p&gt;
+  I was not able to attend ISC26 or SC26 this year for medical reasons, but I did get my hands on the presentation put together by Earl Joseph, Bob Sorensen, and Mark Nossokoff for the SC26 breakfast, which gives us a sense of how the first half of 2026 turned out in HPC and AI-Sci Land and also gave out forecasts for spending for on premises gear and for capacity on the clouds aimed at simulation, modeling, and AI for science workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The revenues in the chart above for on premises HPC and AI-Sci systems are in millions of dollars, and as you can see, the spending from January through June was up 19.9 percent to $16.48 billion. (It would be helpful to put the dollar signs in the chart so people know what the numerical units are for each category.) While revenue was up smartly, worldwide unit shipments of on premises HPC and AI-Sci systems only increased by 4.4 percent compared to the first half of 2025. The gap between the two come from having more nodes per system, slightly higher numbers of CPUs per system, and price increases for CPUs, GPUs, DRAM, and flash.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Frankly, we are surprised the increased pricing for components is not more of the gap, and that might be an expression that HPC centers are being more conservative and hanging back one or two generations on CPUs and GPUs so they can get a lower capital outlay than it would take to buy a current system.
+  &lt;a href=&quot;https://www.nextplatform.com/hpc/2026/11/16/supercomputer-installs-take-a-dive-in-the-second-half-of-2026/5310221&quot;&gt;
+   We do see a lot of Grace-Hopper systems or Intel Xeon-Hopper systems being added in the current Top500 supercomputer rankings
+  &lt;/a&gt;
+  and for the prior couple of lists, even though Grace-Blackwell systems have been available for two years now. More current GPUs are too scarce and too expensive for most HPC centers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While Hewlett Packard Enterprise has been the leading in HPC and AI-Sci on premises installs for many years, since acquiring SGI and Cray, in the first half of 2026 Dell has emerged as the revenue leader.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Again, this table is in dollars, not unit shipments. Dell’s HPC and AI-Sci system sales were up 67.7 percent in the first half of 2026 to $3.93 billion, while HPE only grew its on premises technical computing revenues by 1.1 percent to $3.44 billion. It is hard to say if this is driven by allocations of GPUs by Nvidia or AMD – Dell has been getting preferential treatment in the past two years from Nvidia for AI systems in general. (It was a billionaire thing between Michael Dell and Jensen Huang, the latter of which no longer runs Nvidia.) It would be interesting to see how many aggregate FP64 flops HPE and Dell sold against those revenues. For all we know, HPE is still winning in the flops race against Dell in the HPC and AI-Sci space.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The revenues per vendor drop off pretty fast below Dell and HPE, as you can see, with dozens of system builders – both OEMs and ODMs – accounting for $9.12 billion in sales for the first half of 2026, up 13.8 percent compared to 19.9 percent for the market at large. Dell’s growth and its size are lifting the class average bigtime. It is too early to tell if Dell will retain its position for the second half of 2026, and we won’t know that until the ISC27 Hyperion Research breakfast next year in Hamburg next June.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It could turn out that HPE is selling a lot more CPU-only machines for traditional HPC ModSim workloads, and Dell is getting more GPU allocations and is selling more machines with accelerators – and not just for GenAI workloads.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We don’t have any numbers for 2026 as yet, which is still not finished, but Joseph flashed up this interesting chart showing how the installed base of GPUs in the HPC and AI-Sci market have changed between 2017 and 2025:
+ &lt;/p&gt;
+ &lt;p&gt;
+  To my eyes, we keep going at the same pace as between 2024 and 2025 this year, and that means 2026 should end with about 1.2 million GPU accelerators installed worldwide in HPC and AI-Sci systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This may sound like a lot, but you always need a compared-to-what context to put things into perspective. Doing some back of the envelope math, There is an installed base of somewhere between 18 million and 20 million GPUs – and that means everything that has shipped in the past six or seven years that is still in the field because no one is unplugging a GPU that isn’t reused somewhere immediately. There is probably another 13 million to 17 million custom AI XPUs in the fleet as well, with Google having the lion’s share with its TPUs (somewhere between 9 million and 11 million). Amazon might have 3 million Trainiums and maybe 1 million to 2 million Inferentia chips. Microsoft and Meta Platforms have hundreds of thousands of Maia and MTIA accelerators, respectively. The Chinese custom XPUs are noise in this data, and China hates that this is true.  So that 1.2 million GPUs for HPC and AI-Sci represents somewhere between 3 percent and 4 percent of the total worldwide fleet of 31 million to 37 million GPUs and XPUs that are up and running in the world. (The lower percent is against the higher GPU and XPU installed base, obviously.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  For further perspective, HPC and AI-Sci spending is on the order of several tens of billions per year, including power and datacenter construction, while AI proper with training and inference together is between two and three orders of magnitude larger.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The AI tail that used to be on the HPC dog a decade and a half ago has been cloned and is now dozens of sled teams of dogs that are larger in size than the original parent dog. Which has got to be very weird for the HPC crowd that has spent decades at the bleeding edge of systems architecture and high performance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Now, I have a DGX Spark baby supercomputer – and that is what it is – under my desk, which I will be using for some AI model experimentation. If I could send this baby supercomputer back in time to 1979 and land it on Seymour Cray’s desk, he would have wept with joy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We truly do live in the future. . . .
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking of the future, let’s look at some Hyperion Research forecasts, starting with the forecast for on premises HPC and AI-Sci servers:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Basically, this market will triple in a decade ending in 2030, which is decent growth even if it is not exponential like the GenAI boom has been for the past four years. As you can see, the bulk of the sales of on premises HPC and AI-Sci gear is for larger-scale supercomputers, but divisional, departmental, and workgroup systems are still selling at roughly the same proportion today as they were five years ago and moreover are expected to sell at about the same rate four years from now as the decade comes to a close.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Joseph says that the broader HPC and AI-Sci market, including storage, middleware, applications, services, and cloud compute, networking, and storage capacity, will exceed $100 billion in 2030 against $54 billion in on premises system sales.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Of course, HPC centers rent clusters as well as buying them, and you have to count that, too:
+ &lt;/p&gt;
+ &lt;p&gt;
+  As you might expect, there is more spending on the cloud for HPC and AI-Sci applications in North America than in the EMEA and Asia/Pacific regions even though the European and Asia economies as two groups are formidable economic regions in their own right.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Over the forecast period from 2022 through 2030, spending on cloud capacity for HPC and AI-Sci applications will grow by nearly 5X by 2030 to around $30 billion. (Why this forecast didn’t have 2021 as the baseline year like the on premises chart did is unclear.)
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just to make it simple and readily apparent, Hyperion Research put the on premises acquisitions and cloud rental spending for infrastructure for HPC and AI-Sci workloads into a single chart:
+ &lt;/p&gt;
+ &lt;p&gt;
+  Back in 2022, the combined infrastructure spending was just north of $40 billion, and it will grow by 3.4X or so to $135 billion in 2030.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It may look like cloud spending is a lot lower, but you have to remember that the on premises spending is for five years. If you add up five years of cloud spending and compare it to the on premises spending for a particular year, the amount of money being spent for a given number of compute-hours over time is a lot closer than it looks. On premises spending is probably a little larger than cloud spending when looked at this way. And remember: Both on premises revenues and cloud rentals include price increases driven by higher component costs that are definitely being passed on to the end user customers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The issue is whether the amount of HPC and AI-Sci work is cheaper to be done on premises than on the cloud, and there are a lot of ways to argue about that. What is clear is that many HPC centers are doing both and are expected to continue in this practice.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> &#x27;Critical&#x27; 1970s-era Fujitsu UK police system could remain unsupported for three years </title>
+<link>https://www.theregister.com/public-sector/2026/11/20/critical-1970s-era-fujitsu-uk-police-system-could-remain-unsupported-for-three-years/5311322</link>
+<pubDate>Fri, 20 Nov 2026 15:12:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The UK&#x27;s Home Office faces running the Police National Computer (PNC) without vendor support for three years or more as it misses another deadline to decommission the ageing crime-fighting system first introduced in 1974.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PNC was first launched in 1974, when Tom Baker began his iconic role playing Doctor Who, and has seen the tenure of 26 UK Home Secretaries, surviving multiple efforts to replace it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.gov.uk/government/publications/home-office-major-programmes-accounting-officer-assessments/5-december-2024-law-enforcement-data-service-programme-accounting-officer-assessment&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   A notice in December 2024
+  &lt;/a&gt;
+  said that the Home Office was &quot;focused on the development and adoption of the Law Enforcement Data Service (LEDS) products to replace existing PNC capability across all police forces and other non-policing PNC consumers, enabling the retirement by March 2026 (the point at which PNC support will expire).&quot;
+  &lt;br/&gt;
+  &lt;br/&gt;
+  We understand that PNC support refers to the Fujitsu support contract for the mainframe, which is housed in north London. Support for the Software AG database on the mainframe OS (BS2000) ran out at the end of 2024. So the database holding the crucial police data remains out of
+  &lt;a href=&quot;https://documentation.softwareag.com/prd/8.6.1/en/webhelp/prd-webhelp/rnotes/strategy.htm&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   standard support
+  &lt;/a&gt;
+  and potentially will stay that way until 2027.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The decommissioning date for the PNC had already been pushed back by the need to delay and &quot;reset&quot; the LEDS in 2020. The Home Office launched its successor, National Law Enforcement Data Service, in 2016, and planned to finish the new system by 2020 at a cost of £671 million.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Home Office told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  this week that it needed more time, and it aimed to begin decommissioning the system from March 2027, raising questions over how it would be supported.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A Home Office spokesperson said: &quot;We are modernizing policing systems to adapt to evolving challenges, including rolling out the LEDS to replace the Police National Computer.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;While LEDS is already operational, we are continuing to run the legacy Police National Computer system to support the operational needs of all UK police,&quot; they said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Officials said the PNC would remain available throughout the transition and would only be disconnected when police forces have confirmed that they no longer need it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier this month, in a written response in the House of Lords, Lord Hanson of Flint, a junior minister, said the PNC might be required until early 2028. Some LEDS services were already live and the program was &quot;targeting completion of the remaining development, adoption and readiness activity in early 2027 as we prepare for our final stages for LEDS deployment before retiring the PNC,&quot; he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Once the transition of all police users to the LEDS has been completed and policing has confirmed that the PNC is no longer required, the system will be disconnected and decommissioned. The decommissioning process is expected to take place between late 2027 and early 2028,&quot;
+  &lt;a href=&quot;https://questions-statements.parliament.uk/written-questions/detail/2026-10-19/HL4218&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   he said
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to the National Audit Office (NAO), the PNC is the most important national policing information system in the UK. It serves front-line officers from all 45 local police forces, as well as by 127 other organisations that need to access its data. In 2019-20, the police searched or updated the PNC 133 million times.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ongoing delay to the decommissioning of the PNC raises questions about how — and whether — it is being adequately supported.
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The PNC is sited at a datacenter in Hendon, North London, and is based on a Fujitsu BS2000/OSD SE700-30 mainframe, but this is technology originally developed by German engineering outfit Siemens inherited by Fujitsu when it acquired the data processing division of that company.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It was the
+  &lt;a href=&quot;https://www.theregister.com/2021/05/26/home_office_slams_pnc_tech/&quot; target=&quot;_blank&quot;&gt;
+   subject of controversy in 2021
+  &lt;/a&gt;
+  when an error led to the accidental loss of 413,000 records of police evidence from the system, the result of a scripting error in code designed to weed out records targeted for deletion, although the lost data was eventually recovered.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In 2022, Fujitsu — the Japanese company at the center of the Post Office Horizon scandal —
+  &lt;a href=&quot;https://www.theregister.com/on-prem/2022/08/23/police-national-computer-to-be-supported-by-fujitsu-to-2026/426153&quot; target=&quot;_blank&quot;&gt;
+   was awarded
+  &lt;/a&gt;
+  a £48 million ($56.6 million) renewed contract for support and maintenance of the PNC after no other companies tendered for the work. The contract was set to expire in March 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its 2021 report, NAO said the Fujitsu mainframe computer used by the PNC would reach the end of its supported life by 31 December 2021.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;The Software AG database used by the PNC is only supported on the Fujitsu mainframe until 31 December 2023. The Department has an option to extend the contract for this support for a further 12 months but it has not yet agreed this with the supplier. If [the replacement system] is not ready, the PNC will need to be moved off the mainframe onto a supported operating system from 2025 or run unsupported,&quot; the report said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  However, at the time, the Home Office told the NAO it had decided to accept the risk of running the PNC without support for the database for 12 months after December 2024. &quot;This would leave the PNC at higher risk of disruption for at least a year, although the Department&#x27;s view is that the actual risk profile is low because of the mitigation actions put in place,&quot;
+  &lt;a href=&quot;https://www.nao.org.uk/wp-content/uploads/2021/09/The-National-Law-Enforcement-Data-Programme.pdf&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   the report said [PDF]
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  It added that moving the PNC to a new operating system could take three years and Home Office estimated that it will cost at least £30 million, including the cost of rewriting code for the new OS.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://committees.parliament.uk/publications/8125/documents/83326/default/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   A report from the Public Accounts Committee
+  &lt;/a&gt;
+  later in November 2021 said: &quot;The team that maintains the PNC is under-resourced and several staff are nearing retirement… The Department currently plans to run this piece of critical national infrastructure without full manufacturer support for the database after 2024, meaning it will not have that support for at least a year, though the Department plans to provide in-house support instead.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unless the Home Office has come up with another plan in the meantime, it is set to extend that out-of-support period to around three years. It has been offered the opportunity to provide additional comment. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft&#x27;s last non-security preview of 2026 packs a punch </title>
+<link>https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300</link>
+<pubDate>Fri, 20 Nov 2026 14:28:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Microsoft has delivered its final scheduled non-security preview update of 2026 for Windows 11 25H2 and 26H2, with an updated Windows Search experience and a brighter Windows Hello for users who prefer darker rooms.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The optional
+  &lt;a href=&quot;https://support.microsoft.com/en-gb/servicing/os/windows-11/2026/11/kb5132057-windows-11-25h2-26h2-update&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   KB5132057
+  &lt;/a&gt;
+  update arrived on November 19, after this month&#x27;s Patch Tuesday. Microsoft is skipping December&#x27;s non-security preview because of reduced holiday operations, though that doesn&#x27;t cancel the monthly security release. This last preview is quite a doozy.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The big-ticket item is the &quot;new Windows Search Experience.&quot; We saw a
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/10/08/windows-search-learns-to-take-orders/5301902&quot; target=&quot;_blank&quot;&gt;
+   preview
+  &lt;/a&gt;
+  of this last month, and Microsoft has gone well beyond the &quot;just make it work&quot; request of many Windows users. Results appear faster with less clutter, the tool uses memory better, and files can be previewed directly in Windows Search.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We&#x27;re less convinced by inline actions, which let users perform common tasks directly through Windows Search without opening Settings. In our testing, &quot;turn on dark mode&quot; worked, but &quot;switch on dark mode&quot; did not, thus highlighting the limitations of the tool. In addition, we remain unconvinced that Windows Search is the place to run actions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That said, anything that makes Windows Search less of a punchline for unkind jokes about performance and accuracy is welcome, as are other features, including an optional screen-brightening feature for Windows Hello facial recognition in dim rooms, and the PowerToys-esque Run dialog, which users can enable in Settings.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While some of the new features won&#x27;t be enabled immediately, Microsoft has included fixes that will be available right away. One addresses an issue where Windows Fax and Scan could fail to connect to a fax server. Handy for those occasions
+  &lt;a href=&quot;https://www.theregister.com/saas/2026/11/12/microsoft-struggling-to-fix-massive-cloud-outage-thats-taken-down-email-and-intune/5309531&quot; target=&quot;_blank&quot;&gt;
+   when email falls over into a heap
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  There are also fixes for Windows IoT Enterprise LTSC activation failures and the misleading
+  &lt;a href=&quot;https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263&quot;&gt;
+   &quot;Something went wrong&quot; message
+  &lt;/a&gt;
+  shown on Android devices during cross-device passkey authentication. At the time of writing, Microsoft still lists the problem as something for which &quot;we are working on a resolution to be released in a future Windows update.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Sadly, not everything has been pushed off the naughty step. SQL Server queries using OLE DB providers can still leave connections to external databases open after they&#x27;ve finished. Microsoft is working on that one and &quot;will provide an update in an upcoming release.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Microsoft suggests Registry hack to work around hotpatch woes </title>
+<link>https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279</link>
+<pubDate>Fri, 20 Nov 2026 13:39:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Some Windows 11 applications might fail to install or launch after Microsoft&#x27;s November hotpatch, but not to worry: there&#x27;s a Registry tweak to work around it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has confirmed it isn&#x27;t administrators&#x27; imaginations. The November hotpatch is causing application errors, including in little-used and obscure apps such as Outlook.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Affected applications may fail during installation, launch, or use, displaying errors such as &quot;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   ERROR_ALLOTTED_SPACE_EXCEEDED (0xC0000099)
+  &lt;/span&gt;
+  .&quot; Microsoft&#x27;s investigation points to applications that load the 32-bit Windows Installer DLL, msi.dll. The problem is more common with 32-bit software, but can also affect 64-bit applications &quot;under certain circumstances.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The workaround involves fiddling with the Registry on affected devices, so is not for the faint of heart and a backup is a good idea before diving in. Microsoft says the key &quot;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   HotPatchTableSize
+  &lt;/span&gt;
+  &quot; in the folder &quot;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
+  &lt;/span&gt;
+  &quot; needs to be set to &quot;
+  &lt;span data-lab-fontface=&quot;RobotoMono&quot;&gt;
+   2000
+  &lt;/span&gt;
+  &quot; followed by a restart.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Just the thing to round out the week for administrators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The issue affects the November hotpatch, not the standard monthly cumulative security update. &quot;Devices which installed the November 2026 Windows monthly security update are not expected to be affected by this issue,&quot; Microsoft said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Windows hotpatches are security updates that don&#x27;t require a device restart (unless, as in this instance, administrators have to do so to address errors after a hotpatch is installed). Windows 11 hotpatching requires version 24H2 or later, an eligible subscription, and the necessary management and security configuration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Hotpatch update package size is significantly smaller than the standard cumulative updates,&quot; Microsoft said, and the goal is to &quot;streamline the installation process and enhance compliance efficiency.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   &lt;strong&gt;
+    The offending hotpatch,
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  &lt;a href=&quot;https://support.microsoft.com/en-gb/servicing/os/hotpatch/windows-11/2026/november-kb5132043-windows-11-24h2-25h2-26h2-security-update&quot;&gt;
+   &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+    &lt;strong&gt;
+     KB5132043
+    &lt;/strong&gt;
+   &lt;/span&gt;
+  &lt;/a&gt;
+  &lt;span data-lab-font_weight=&quot;font-weight-light&quot;&gt;
+   &lt;strong&gt;
+    , was released on November 10.
+   &lt;/strong&gt;
+  &lt;/span&gt;
+  It followed the
+  &lt;a href=&quot;https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   October 13 baseline
+  &lt;/a&gt;
+  , which was a prerequisite.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft made hotpatching the default in Windows Autopatch earlier this year. At the time, we asked: &quot;
+  &lt;a href=&quot;https://www.theregister.com/software/2026/03/11/hotpatching-goes-default-in-windows-autopatch/5223168&quot; target=&quot;_blank&quot;&gt;
+   What could possibly go wrong?
+  &lt;/a&gt;
+  &quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thanks to November&#x27;s hotpatch, we have our answer. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> AI could open wallets where ERP upgrade pitches can&#x27;t, says PwC </title>
+<link>https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221</link>
+<pubDate>Fri, 20 Nov 2026 12:47:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Global consultancy PwC says IT departments struggling to secure funding for ERP upgrades should make the expected benefits of AI part of their pitch.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Oracle and SAP mega-partner told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   El Reg
+  &lt;/span&gt;
+  that a &quot;clean core&quot; – modern enterprise applications with fewer customizations embedded in the underlying system – makes deploying AI agents easier. Selling that prospect, rather than incremental improvements to existing processes, could help IT leaders justify a migration.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Oracle and SAP are both trying to persuade customers to move from established ERP systems to newer platforms. For SAP, that means S/4HANA, preferably in the cloud. For Oracle, it means Fusion Cloud Applications. Moving from ECC or E-Business Suite, respectively, can involve root-and-branch changes to technology and business processes, rather than a straightforward software upgrade.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Thousands of organizations still rely on these aging, often heavily customized systems. IT leaders struggle to justify a costly, time-consuming migration when the reward appears to be doing the same meat-and-veg business processes slightly better. For example,
+  &lt;a href=&quot;https://www.theregister.com/software/2025/10/17/sap-users-still-wrestling-with-business-case-for-s/4hana/408268&quot; target=&quot;_blank&quot;&gt;
+   a survey of SAP users last year
+  &lt;/a&gt;
+  found that 95 percent said building a positive case for migration required substantial effort or was genuinely challenging.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Speaking to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , Jennifer Colapietro, PwC digital core modernization platform leader, said: &quot;You&#x27;re seeing it a lot more as part of the rationale for the business case for why they should upgrade, answering the question: &#x27;Why now? What should we prioritize?&#x27; Certainly, AI and getting the value of AI, a key business case justification for that.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Folks have budgets for ERP, but now [funding for transformation is] being split because they also have budgets for AI. But there&#x27;s synergies across them. If you look at moving to a clean digital core ERP, that will help them to realize the AI value faster... be able to turn on AI and be able to start to automate a lot of the processes and implement the agents. That helps to build the business case.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  SAP recently introduced
+  &lt;a href=&quot;https://www.theregister.com/saas/2026/05/19/saps-ai-strategy-come-for-the-openness-stay-because-you-have-to/5241109&quot; target=&quot;_blank&quot;&gt;
+   Joule 2.0
+  &lt;/a&gt;
+  while Oracle has announced
+  &lt;a href=&quot;https://www.oracle.com/news/announcement/oracle-extends-fusion-agentic-applications-with-introduction-of-fusion-claw-2026-09-29/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Fusion Claw
+  &lt;/a&gt;
+  . With both of these new technologies, the vendors are promising customers they can build AI agents to automate business processes and perform some work that was previously done by humans. Colapietro argued that moving to more modern platforms makes deploying AI agents easier and more effective than adding AI capabilities around legacy systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It is more challenging to apply AI to the older systems. We focus on the importance of a clean digital core as the foundation for getting the value and effectiveness out of AI and scaling AI responsibly. I think that&#x27;s given,&quot; she said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An ERP replacement isn&#x27;t the only route to AI, however. European home improvement retailer Kingfisher – which owns the B&amp;Q brand in the UK – eschewed SAP&#x27;s overtures to upgrade its ECC system, despite encroaching deadlines. Mainstream maintenance for supported ECC 6.0 versions ends in December 2027, with optional extended maintenance through 2030 at a premium of two percentage points on the existing maintenance base.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.theregister.com/software/2025/11/12/retail-giant-kingfisher-rejects-sap-erp-upgrade-plan/2062201&quot; target=&quot;_blank&quot;&gt;
+   Kingfisher opted instead for third-party support from Rimini Street
+  &lt;/a&gt;
+  , building an AI strategy around its existing ERP system using a combination of technology from Databricks and Google.
+ &lt;/p&gt;
+ &lt;p&gt;
+  AI might help sell an ERP migration to the board. It doesn&#x27;t make replacing the ERP system a prerequisite. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Unsiloed AI brings OCR into modern age </title>
+<link>https://www.theregister.com/ai-ml/2026/11/20/unsiloed-ai-brings-ocr-into-modern-age/5311273</link>
+<pubDate>Fri, 20 Nov 2026 12:36:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  Startup
+  &lt;a href=&quot;https://www.unsiloed.ai/&quot; target=&quot;_blank&quot;&gt;
+   Unsiloed AI
+  &lt;/a&gt;
+  is bringing document scanning into the AI era by updating optical character recognition (OCR) to free digital and analogue scanned paper documents from their format lock-in.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It has raised $7.5 million in seed funding to turn restricted format files such as
+  &lt;span&gt;
+   PDFs, scanned forms, presentations, Word docs and images into structured Markdown or JSON, with applications doing this through Unsiloed API calls. It says financial statements, insurance claims, contracts, clinical records and operational forms carry information critical to everyday business. This information is not just text. Which number belongs to which row, which heading governs a clause, and which axis defines a chart all determine what a document means. Converting a file into a plain-text dump loses that context.
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Co-Founder and CEO Aman Mishra said: &quot;We believe AI agents will eventually read and write more documents than humans. Those agents do not just need better OCR. They need a dynamic interface to read, update and act on unstructured data. We are building that interface so documents can become as computable as databases.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unsoloed’s AI-driven code, with a dual-stream vision architecture, parses these files, processing content and visual structure together so developers can extract fields against custom schemas, classify and split documents, and update text or images while preserving document formatting. Confidence scores and source citations help teams validate extracted information and route uncertain results for review.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s not done with 100 percent accuracy but it’s darn close. Co-Founder and CTO Adnan Abbas said: “We combine deterministic computer vision algorithms with dual-stream vision models to build the interface that ranked first among 19 systems on olmOCR-Bench for AI agents to interact with unstructured data.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unsiloed&#x27;s parser ranked No. 1 among 19 systems in the company&#x27;s published olmOCR-Bench comparison, scoring 88.0 using Allen AI&#x27;s unmodified deterministic scorer. The benchmark evaluates document-parsing challenges including complex tables, mathematical expressions, multi-column reading order and scanned pages.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s product supports private-cloud, on-premises and air-gapped deployments, enabling customers to process sensitive documents within their own infrastructure.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Unsiloed AI was started up by by Aman Mishra and Adnan Abbas in the 2024-2025 period, and joined
+  &lt;a href=&quot;https://www.ycombinator.com/&quot; target=&quot;_blank&quot;&gt;
+   Y Combinator&#x27;s
+  &lt;/a&gt;
+  Fall 2025 batch of startups. The seed funding was led by Felicis. Participants include Y Combinator, Orange Collective, Uncorrelated Ventures, Aarthi Ramamurthy,
+  &lt;span&gt;
+  &lt;/span&gt;
+  Beth Turner, and others.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The funding cash will be used to develop Unsiloed&#x27;s document models, grow its engineering team, and expand cloud and on-premises deployments for enterprise customers
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;strong&gt;
+   Bootnote
+  &lt;/strong&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;span&gt;
+   The Unsiloed AI
+  &lt;/span&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://arxiv.org/abs/2502.18443&quot; target=&quot;_blank&quot;&gt;
+   olmOCR-Bench
+  &lt;/a&gt;
+  suite was created by the Allen Institute for AI (Ai2) to evaluate how well vision-language models (VLMs) and OCR systems convert PDF page images into structured text. It consists of roughly 1,400 PDF pages and over 7,000 binary unit tests that check layout, reading order, math rendering, and table structure.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Flash prices start to fall </title>
+<link>https://www.theregister.com/flash/2026/11/20/flash-prices-start-to-fall/5311258</link>
+<pubDate>Fri, 20 Nov 2026 12:31:11 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;9369f84e-ac70-4058-b7a8-0e29469e3db3&quot;&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://www.blocksandfiles.com/flash/2026/10/27/vdura-ceos-long-live-the-short-king-blog/5305718&quot; target=&quot;_blank&quot;&gt;
+   VDURA
+  &lt;/a&gt;
+  is seeing the NAND price decline that is being forecast by TrendForce
+ &lt;/p&gt;
+ &lt;p&gt;
+  High-performance file system supplier VDURA , which
+  &lt;a href=&quot;https://www.vdura.com/flash-volatility-index-and-storage-economics-optimizer-tool/&quot; target=&quot;_blank&quot;&gt;
+   watches SSD and HDD pricing
+  &lt;/a&gt;
+  ,
+  &lt;span&gt;
+  &lt;/span&gt;
+  says SSD prices are down 5 to 15 percent across the board. This is the first substantial reduction since the summer of last year.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VDURA tracks commodity pricing of 30 TB TLC and QLC SSDs and 30 TB disk drives. A quarterly chart shows how prices have moved since the third 2025 quarter. SSD prices peaked in this year’s third quarter and have since declined while HDD price rises continued , with a levelling out forecast.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Research house TrendForce says “overall NAND Flash contract prices will begin declining in the first quarter of 2027, with quarterly price drops potentially widening as the year progresses.” VDURA says it is already seeing what TrendForce has forecast.
+ &lt;/p&gt;
+ &lt;p&gt;
+  TrendForce suggests that two main trends are causing this. One is increased supply from NAND fabs and the other is decreased demand from Chinese cloud service providers (CSPs): “Chinese CSPs, however, are facing challenges including GPU shortages, elevated inventory levels, and intensifying competition over token pricing. As a result, they have reduced their total enterprise SSD orders for 2027.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  These two factors will move the NAND market from under-supply, meaning price rises, to over-supply, meaning price drops. This is despite U.S.-based CSPs having recently raised their 2027 demand forecasts again, supported by AI agent and general-purpose server projects already under construction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  TrendForce notes that Chinese CSPs “have reduced their total enterprise SSD orders for 2027 by an amount that exceeds the additional demand from U.S.-based CSPs.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  As a result: “NAND Flash prices [are] forecast to fall 0–5 percent QoQ in 1Q27, with all product categories entering a downward cycle from 2Q27.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Consumer market demand for flash is expected to fall as “brands seeking to control bill-of-materials (BOM) costs will need to reduce storage capacity specifications, resulting in a significant decline in average capacity per device and further widening the demand shortfall.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Its total NAND contract price forecast is:
+ &lt;/p&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    4th 2026 quarter: up 8 ~13 percent
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    1st 2027 quarter: down 0 ~ 5 percent
+   &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;
+    2nd 2027 quarter: down 0 ~ 5 percent
+   &lt;/p&gt;
+  &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;p&gt;
+  It notes that: “continued downward revisions to global consumer electronics shipments, along with reduced enterprise SSD orders in China, have already begun to weigh on NAND Flash contract prices in the fourth quarter of 2026.” That agrees with VDURA’s findings.
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Spy court blasts UK secrecy, forces government to admit Apple ‘backdoor’ demand </title>
+<link>https://www.theregister.com/security/2026/11/20/spy-court-blasts-uk-secrecy-forces-government-to-admit-apple-backdoor-demand/5311292</link>
+<pubDate>Fri, 20 Nov 2026 12:18:19 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://investigatorypowerstribunal.org.uk/judgement/1-mr-vincent-kearney-2-british-broadcasting-corporation-v-1-chief-constable-of-the-police-service-of-northern-ireland-2-chief-constable-of-durham-constabulary-3-security-service-4-governme/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Investigatory Powers Tribunal
+  &lt;/a&gt;
+  (IPT) has confirmed that the UK government served Apple with a secret Technical Capability Notice (TCN), rejecting the Home Office&#x27;s argument that acknowledging its existence would damage national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The order has been widely reported as demanding access to end-to-end encrypted iCloud data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The three judges pointed to extensive public reporting, statements by US officials, and media briefings they concluded had been authorized by the UK government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Home Office had previously adopted its &quot;neither confirm nor deny&quot; (NCND) policy, as is standard when discussing national security matters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The story broke in February 2025, when The Washington Post reported that
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/07/uk-home-office-stays-shtum-on-alleged-apple-backdoor-order/1394179&quot; target=&quot;_blank&quot;&gt;
+   the Home Office had demanded an iCloud backdoor
+  &lt;/a&gt;
+  the previous month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A TCN is a notice issued under the Investigatory Powers Act 2016, which compels recipients, such as tech companies, to implement technical changes that facilitate the UK government&#x27;s legal surveillance powers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Apple, a company that has long made privacy central to its marketing, and famously
+  &lt;a href=&quot;https://www.theregister.com/security/2020/01/14/apple-calls-bs-on-fbi-ag-were-totally-not-dragging-our-feet-in-murder-probe-iphone-decryption-ps-no-backdoors/271787&quot; target=&quot;_blank&quot;&gt;
+   rejected an FBI order to break open an iPhone
+  &lt;/a&gt;
+  to assist a terror probe, being served the TCN meant it either had to somehow defy a legal order issued by the UK, or undermine the encryption technology that customers expected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While it remained officially unconfirmed at the time,
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/24/apple-ends-icloud-advanced-data-protection-for-uk-customers/588745&quot; target=&quot;_blank&quot;&gt;
+   Apple&#x27;s decision to revoke Advanced Data Protection (ADP) for UK users
+  &lt;/a&gt;
+  in February 2025 was widely interpreted as indirect confirmation of the demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the same time, US policymakers urged then-director of national intelligence Tulsi Gabbard
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/13/us-lawmakers-fight-uks-apple-icloud-backdoor/329288&quot; target=&quot;_blank&quot;&gt;
+   to oppose the UK&#x27;s demands
+  &lt;/a&gt;
+  under the assumption that they also sought to backdoor Apple&#x27;s data in a way that would affect US citizens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In August 2025, Gabbard announced that the UK had agreed to drop its demand for access to Americans&#x27; encrypted data. ADP is still available to users in the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple&#x27;s ADP extends end-to-end encryption to additional categories of iCloud data, including backups, photos, and notes. Only trusted devices retain access to the relevant encryption keys, leaving Apple unable to decrypt that protected content for investigators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Without ADP, those additional categories revert to standard protection: the data remains encrypted, but Apple holds the keys and can disclose content in response to valid legal demands. Some categories remain end-to-end encrypted regardless.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple has
+  &lt;a href=&quot;https://support.apple.com/en-gb/102651&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   an explainer
+  &lt;/a&gt;
+  on what data types remain end-to-end encrypted, even without ADP enabled, and those that are not.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  What the judgment does not confirm
+ &lt;/h3&gt;
+ &lt;p&gt;
+  While the IPT&#x27;s judgment confirms that the Home Office served Apple with a TCN, judges have yet to decide whether key details about the case can be made public.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Although there has been extensive media coverage and public statements about the existence of a technical capability notice, there has been no publication of its precise content,&quot; the judgment stated. &quot;All parties recognize that there may be matters of detail that must be kept secret in order to preserve national security and the public interest.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We agree that it would be damaging to national security if all of the material (including the content of the technical capability evidence, and the evidence of Apple and the respondent) were publicly disclosed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;That does not mean every detail must be kept secret in order to preserve national security. There may be some information that could be disclosed publicly without damaging national security. It is not, however, practical to determine the precise boundaries now.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The parties are working toward a substantive hearing in the first half of 2027. Apple&#x27;s first challenge was dismissed following a &quot;change in circumstances,&quot; and it filed a second claim in July 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.ft.com/content/d101fd62-14f9-4f51-beff-ea41e8794265&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Financial Times reported in October 2025
+  &lt;/a&gt;
+  that the UK had replaced its original notice with a new order focused on British users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The proceedings also include a separate challenge to the TCN regime brought by
+  &lt;a href=&quot;https://www.libertyhumanrights.org.uk/issue/liberty-legal-challenge-forces-government-to-reveal-secret-encryption-order-that-could-affect-millions-of-apple-users/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Liberty
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://privacyinternational.org/long-read/5547/about-our-challenge-against-uks-secret-powers-qa-tcns-and-apple/&quot;&gt;
+   Privacy International
+  &lt;/a&gt;
+  , and two individuals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A government spokesperson said: &quot;Terrorists, child abusers and organized crime groups cannot be allowed to operate beyond the reach of the law. The right to privacy is crucial but it should not come at the expense of the safety of the British public.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;A judge can authorize access to a criminal&#x27;s home, a parcel they&#x27;ve sent, or a car they drive. The online world is no different. These powers are subject to strict safeguards and the government never has direct access to a company&#x27;s communications systems or data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Apple has been helping the police and intelligence agencies pursue criminals and bring them to justice for several years, in accordance with the law. This Technical Capability Notice simply requires that they maintain the ability to do so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Decisions affecting the safety of the British public must be made by democratically elected governments and independent judges, not in the boardrooms of technology companies.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple did not immediately respond to our request for comment. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> UK government can&#x27;t keep its encryption-busting order to Apple a secret, tribunal rules </title>
+<link>https://www.theregister.com/security/2026/11/20/uk-government-cant-keep-its-encryption-busting-order-to-apple-a-secret-tribunal-rules/5311292</link>
+<pubDate>Fri, 20 Nov 2026 12:18:19 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://investigatorypowerstribunal.org.uk/judgement/1-mr-vincent-kearney-2-british-broadcasting-corporation-v-1-chief-constable-of-the-police-service-of-northern-ireland-2-chief-constable-of-durham-constabulary-3-security-service-4-governme/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Investigatory Powers Tribunal
+  &lt;/a&gt;
+  (IPT) has confirmed that the UK government served Apple with a secret Technical Capability Notice (TCN), rejecting the Home Office&#x27;s argument that acknowledging its existence would damage national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The order has been widely reported as demanding access to end-to-end encrypted iCloud data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The three judges pointed to extensive public reporting, statements by US officials, and media briefings they concluded had been authorized by the UK government.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The Home Office had previously adopted its &quot;neither confirm nor deny&quot; (NCND) policy, as is standard when discussing national security matters.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The story broke in February 2025, when The Washington Post reported that
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/07/uk-home-office-stays-shtum-on-alleged-apple-backdoor-order/1394179&quot; target=&quot;_blank&quot;&gt;
+   the Home Office had demanded an iCloud backdoor
+  &lt;/a&gt;
+  the previous month.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A TCN is a notice issued under the Investigatory Powers Act 2016, which compels recipients, such as tech companies, to implement technical changes that facilitate the UK government&#x27;s legal surveillance powers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  For Apple, a company that has long made privacy central to its marketing, and famously
+  &lt;a href=&quot;https://www.theregister.com/security/2020/01/14/apple-calls-bs-on-fbi-ag-were-totally-not-dragging-our-feet-in-murder-probe-iphone-decryption-ps-no-backdoors/271787&quot; target=&quot;_blank&quot;&gt;
+   rejected an FBI order to break open an iPhone
+  &lt;/a&gt;
+  to assist a terror probe, being served the TCN meant it either had to somehow defy a legal order issued by the UK, or undermine the encryption technology that customers expected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While it remained officially unconfirmed at the time,
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/24/apple-ends-icloud-advanced-data-protection-for-uk-customers/588745&quot; target=&quot;_blank&quot;&gt;
+   Apple&#x27;s decision to revoke Advanced Data Protection (ADP) for UK users
+  &lt;/a&gt;
+  in February 2025 was widely interpreted as indirect confirmation of the demand.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At the same time, US policymakers urged then-director of national intelligence Tulsi Gabbard
+  &lt;a href=&quot;https://www.theregister.com/security/2025/02/13/us-lawmakers-fight-uks-apple-icloud-backdoor/329288&quot; target=&quot;_blank&quot;&gt;
+   to oppose the UK&#x27;s demands
+  &lt;/a&gt;
+  under the assumption that they also sought to backdoor Apple&#x27;s data in a way that would affect US citizens.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In August 2025, Gabbard announced that the UK had agreed to drop its demand for access to Americans&#x27; encrypted data. ADP is still available to users in the US.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple&#x27;s ADP extends end-to-end encryption to additional categories of iCloud data, including backups, photos, and notes. Only trusted devices retain access to the relevant encryption keys, leaving Apple unable to decrypt that protected content for investigators.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Without ADP, those additional categories revert to standard protection: the data remains encrypted, but Apple holds the keys and can disclose content in response to valid legal demands. Some categories remain end-to-end encrypted regardless.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple has
+  &lt;a href=&quot;https://support.apple.com/en-gb/102651&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   an explainer
+  &lt;/a&gt;
+  on what data types remain end-to-end encrypted, even without ADP enabled, and those that are not.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  What the judgment does not confirm
+ &lt;/h3&gt;
+ &lt;p&gt;
+  While the IPT&#x27;s judgment confirms that the Home Office served Apple with a TCN, judges have yet to decide whether key details about the case can be made public.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Although there has been extensive media coverage and public statements about the existence of a technical capability notice, there has been no publication of its precise content,&quot; the judgment stated. &quot;All parties recognize that there may be matters of detail that must be kept secret in order to preserve national security and the public interest.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We agree that it would be damaging to national security if all of the material (including the content of the technical capability evidence, and the evidence of Apple and the respondent) were publicly disclosed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;That does not mean every detail must be kept secret in order to preserve national security. There may be some information that could be disclosed publicly without damaging national security. It is not, however, practical to determine the precise boundaries now.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The parties are working toward a substantive hearing in the first half of 2027. Apple&#x27;s first challenge was dismissed following a &quot;change in circumstances,&quot; and it filed a second claim in July 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.ft.com/content/d101fd62-14f9-4f51-beff-ea41e8794265&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Financial Times reported in October 2025
+  &lt;/a&gt;
+  that the UK had replaced its original notice with a new order focused on British users.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The proceedings also include a separate challenge to the TCN regime brought by
+  &lt;a href=&quot;https://www.libertyhumanrights.org.uk/issue/liberty-legal-challenge-forces-government-to-reveal-secret-encryption-order-that-could-affect-millions-of-apple-users/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Liberty
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://privacyinternational.org/long-read/5547/about-our-challenge-against-uks-secret-powers-qa-tcns-and-apple/&quot;&gt;
+   Privacy International
+  &lt;/a&gt;
+  , and two individuals.
+ &lt;/p&gt;
+ &lt;p&gt;
+  A government spokesperson said: &quot;Terrorists, child abusers and organized crime groups cannot be allowed to operate beyond the reach of the law. The right to privacy is crucial but it should not come at the expense of the safety of the British public.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;A judge can authorize access to a criminal&#x27;s home, a parcel they&#x27;ve sent, or a car they drive. The online world is no different. These powers are subject to strict safeguards and the government never has direct access to a company&#x27;s communications systems or data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Apple has been helping the police and intelligence agencies pursue criminals and bring them to justice for several years, in accordance with the law. This Technical Capability Notice simply requires that they maintain the ability to do so.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Decisions affecting the safety of the British public must be made by democratically elected governments and independent judges, not in the boardrooms of technology companies.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple did not immediately respond to our request for comment. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Windows 11 passkey bug cries failure after successful sign-in </title>
+<link>https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263</link>
+<pubDate>Fri, 20 Nov 2026 11:09:44 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  A Windows 11 passkey bug can leave Android phones announcing that authentication failed even when it succeeded. Microsoft has now released a fix for versions 25H2 and 26H2.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The problem occurs when users sign in on a Windows 11 PC using a
+  &lt;a href=&quot;https://learn.microsoft.com/en-us/windows/security/identity-protection/passkeys/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   passkey
+  &lt;/a&gt;
+  stored on an Android phone. Scan the QR code, and the Android device might display the message: &quot;Something went wrong. Restart the process on your other device and try again.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Except it might not have gone wrong at all. Microsoft&#x27;s guidance explains: &quot;In cases where authentication completes successfully on the Windows device, the error message on the Android device is not supposed to appear and can be safely ignored.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cross-device authentication lets users sign in on one device using a passkey held on another, without typing a password or copying a verification code. Microsoft says the issue affects operations using Microsoft Authenticator and Google Password Manager, and can occur in Edge or Chrome – not just when signing in through Microsoft Entra ID.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Cross-device passkey operations with an iPhone aren&#x27;t affected.
+ &lt;/p&gt;
+ &lt;p&gt;
+  An authentication system that cries failure after a successful sign-in isn&#x27;t doing much for user confidence. Nor will it endear itself to support teams fielding the resulting tickets.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Microsoft has included a fix in
+  &lt;a href=&quot;https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132057-windows-11-25h2-26h2-update&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   KB5132057
+  &lt;/a&gt;
+  , the optional non-security preview update released on November 19 for Windows 11 25H2 and 26H2. Until affected devices are patched, users can ignore the Android error if authentication has completed successfully on the PC. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Ubuntu Core Desktop targets 28.04 debut, with default status in its sights </title>
+<link>https://www.theregister.com/os-platforms/2026/11/20/ubuntu-core-desktop-targets-2804-debut-with-default-status-in-its-sights/5310837</link>
+<pubDate>Fri, 20 Nov 2026 09:29:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Canonical is targeting Ubuntu 28.04 LTS for the release of its immutable Core Desktop, with a stretch goal of making it the default download for Ubuntu 30.04.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Canonical&#x27;s VP of engineering, Jon Seager, set out the timetable in his opening keynote at Ubuntu Summit 26.10. Yes, we know, we have heard this before: we
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/10/29/ubuntu-2704-may-bring-a-preview-of-the-long-awaited-core-desktop/5306426&quot; target=&quot;_blank&quot;&gt;
+   reported on his plans last month
+  &lt;/a&gt;
+  . But this time, there&#x27;s the beginning of a release schedule.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Seager said that Ubuntu Core is already out there in tens of thousands of IoT devices – which seems like a modest estimate to us, and to him too, as he quickly added &quot;maybe more.&quot; Despite some noise a few years ago, though, what&#x27;s still missing is the desktop version.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Seager&#x27;s slides listed three bullet points: that Core Desktop will be &quot;immutable,&quot; &quot;composable,&quot; and &quot;attestable.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  As he put it, they are &quot;taking the whole of the Linux operating system, and cramming the whole thing into snaps.&quot; Acknowledging that this is going to be wildly controversial, he said: &quot;This is one for the Redditors.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  He&#x27;s right. There is a lot of resistance to snap, and in direct response, advocacy of the Red Hat-backed Flatpak instead – but we have seen almost none that is based on either system&#x27;s technical merits. Much of that opposition concerns claims of
+  &lt;a href=&quot;https://www.theregister.com/software/2023/11/10/canonical-documents-how-to-use-snaps-without-the-snap-store/1185526&quot; target=&quot;_blank&quot;&gt;
+   one being more open
+  &lt;/a&gt;
+  than the other. We&#x27;ve looked at how both systems work, and our impression is that the implementation of snap is cleaner, simpler, easier to use, and more comprehensible. Snap does depend on systemd, which Flatpak does not – but only for now.
+  &lt;a href=&quot;https://www.theregister.com/software/2026/06/15/flatpak-ng-sounds-like-bad-news-for-systemd-refuseniks/5254885&quot; target=&quot;_blank&quot;&gt;
+   Flatpak NG is in development
+  &lt;/a&gt;
+  and will also need everyone&#x27;s favorite init system.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Ubuntu Core&#x27;s immutability is not new technology: even Core 16 is now a decade old. It has supported
+  &lt;a href=&quot;https://www.theregister.com/software/2022/06/17/ubuntu-releases-core-22-its-iot-and-edge-distro/976327&quot; target=&quot;_blank&quot;&gt;
+   in-place version upgrades since Core 22.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  We have reported before that Canonical remains
+  &lt;a href=&quot;https://www.theregister.com/software/2022/11/09/strong-support-for-snap-ubuntu-core-at-canonical-conference/1209637&quot; target=&quot;_blank&quot;&gt;
+   strongly committed
+  &lt;/a&gt;
+  to its packaging format, and that commitment seems stronger than ever. Seager continued: &quot;Never has a model like snap confinement been more relevant… we&#x27;re finally in a position where we can bring this to the desktop.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The core idea of an immutable OS is that &quot;much more of the system is not writable at runtime,&quot; meaning that it &quot;can&#x27;t be messed with once the system has booted.&quot; He talked about the same three use cases we discussed last month. The &quot;browser-centric machine&quot; is the company&#x27;s analog to Google ChromeOS, and he said that it&#x27;s essentially ready now, suggesting that everyone listening probably has a family member whose computer is basically just a way to use a web browser.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The second was the dedicated games machine, which we interpret as a response to Valve&#x27;s SteamOS. This edition, he said, would &quot;boot straight to Steam,&quot; with &quot;just enough of a shell to launch games.&quot; There&#x27;s also an immutable &quot;development workstation,&quot; and here, he offered the example of developers who need to work on some long-unsupported hardware or software, for whom an immutable OS means that you &quot;can&#x27;t brick your system by installing some weird old dependencies, unmaintained for 20 years.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Another important benefit is &quot;atomic, transactional updates,&quot; which he said &quot;brings enormous stability.&quot; The terminology comes from the
+  &lt;a href=&quot;https://database.guide/what-is-acid-in-databases/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   database world
+  &lt;/a&gt;
+  : an atomic operation succeeds as a whole or is not applied. The aim is to avoid leaving the system stranded between incompatible package versions, with rollback providing a route back if an update causes trouble.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The &quot;composable&quot; part means assembling the OS from separately packaged components, from desktop environments to underlying services such as PipeWire and fingerprint-reader support.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Here, Seager used an example that spoke to us. He asked: &quot;Ever installed something and watch as it spewed stuff all over your system?&quot; Yes, we have, many, many times. You install one innocent-seeming little component, and it brings in a database, three new server components, and about half of a different desktop environment. We mentioned an example when we described
+  &lt;a href=&quot;https://www.theregister.com/software/2026/09/13/how-to-make-xfce-look-like-almost-any-desktop-you-want/5295775&quot; target=&quot;_blank&quot;&gt;
+   how to customize Xfce
+  &lt;/a&gt;
+  a couple of months ago. That time around, in Debian, we found it was safe to install all packages starting with &quot;xfce4-&quot; except &quot;xfce4-dev-tools.&quot; Most are tiny panel controls taking just hundreds of kilobytes, but the &quot;dev-tools&quot; package also pulls in several hundred megabytes of compilers, linkers, and other programming tools, totally unrelated to desktop layouts – and once installed, they&#x27;re surprisingly tricky to remove again.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is part of the appeal of a composable immutable OS: adding a component need not mean tangling its dependencies into the base system. But easier housekeeping isn&#x27;t the only attraction. Canonical kept snap packages from its
+  &lt;a href=&quot;https://www.theregister.com/software/2017/04/05/ubuntu-unity-is-gnome-more-one-linux-dream-of-phone-slab-desktop-ui-axed/941776&quot; target=&quot;_blank&quot;&gt;
+   cancelled phone and tablet OS
+  &lt;/a&gt;
+  because snaps enable it to maintain a single package of, for instance, Firefox, which will work on all of its different OS versions that are still getting updates. Moving such important external dependencies into isolated snap packages makes it easier and safer to upgrade from one version of the OS to another. Complex sets of dependencies are the main point of failure of OS upgrades, especially when the OS has been used for a while.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This is very much not a solved problem. For instance, Debian version upgrades can be fraught – especially when the installation has
+  &lt;a href=&quot;https://www.theregister.com/software/2022/07/25/upgrading-probably-the-worlds-oldest-running-linux-install/410480&quot; target=&quot;_blank&quot;&gt;
+   decades of history behind it
+  &lt;/a&gt;
+  . Debian does at least support version-to-version upgrades. For many years and versions, RHEL did not – which is why we
+  &lt;a href=&quot;https://www.theregister.com/software/2022/02/28/almalinuxs-powerpc-version-is-live/412289&quot; target=&quot;_blank&quot;&gt;
+   highlighted AlmaLinux&#x27;s tooling for the task
+  &lt;/a&gt;
+  . Zorin OS added
+  &lt;a href=&quot;https://www.theregister.com/software/2023/08/09/ubuntu-mint-and-zorin-all-get-freshened-up/1516331&quot; target=&quot;_blank&quot;&gt;
+   version-to-version upgrades in 16.3
+  &lt;/a&gt;
+  just a few years ago. Linux Mint introduced its own upgrade tooling a few years earlier, although it still
+  &lt;a href=&quot;https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade.html&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   imposes restrictions
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  It&#x27;s a tough issue to crack. Major enterprise vendors discourage it, and phone OSes are all immutable. Helping with this problem is one of the main reasons snap packaging exists, while Flatpak is almost entirely irrelevant to it.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Seager also stated that Core Desktop would support &quot;multiple desktops from the start.&quot; This will not be a GNOME-only project. Indeed, he specifically mentioned a KDE Plasma version, saying: &quot;Plasma is great. People love it. We will have a KDE edition, with rolling Plasma. We will deliver upstream Plasma, as fast as we can.&quot; That sounds like a very welcome counterpoint to the LTS version of Plasma 6.6 in Kubuntu 26.04 whose
+  &lt;a href=&quot;https://www.theregister.com/software/2026/08/18/sponsor-gives-kde-plasma-66-the-lts-treatment/5288531&quot; target=&quot;_blank&quot;&gt;
+   announcement we covered back in August.
+  &lt;/a&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+  For the &quot;attestable&quot; line of the slide, he claimed that Core Desktop was &quot;evolving the way we think about &#x27;trust&#x27; on a machine. We have TPM, secure boot, TPM-backed Full Disk Encryption… but they&#x27;re all bolt-ons.&quot; Core Desktop, he added, could &quot;tie this into a hardware root of trust,&quot; delivering &quot;verified system integrity.&quot; Canonical revived its TPM-backed full-disk encryption system
+  &lt;a href=&quot;https://www.theregister.com/software/2025/07/31/canonical-dusts-off-tpm-encryption-for-ubuntu-2510/1133942&quot; target=&quot;_blank&quot;&gt;
+   back in 2025
+  &lt;/a&gt;
+  , and it arrived in Ubuntu 26.04. Back in January,
+  &lt;a href=&quot;https://www.theregister.com/software/2026/01/29/systemd-daddy-departs-microsoft-for-linux-startup/4437009&quot; target=&quot;_blank&quot;&gt;
+   systemd creator Lennart Poettering launched his startup Amutable,
+  &lt;/a&gt;
+  and earlier this month published a
+  &lt;a href=&quot;https://amutable.com/blog/amutable-foundations-technical-overview&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   technical overview of its new immutable Linux
+  &lt;/a&gt;
+  . We suspect Canonical is watching closely, and that this is a hint in that direction.
+ &lt;/p&gt;
+ &lt;p&gt;
+  We were also amused by Seager&#x27;s mention of another rather niche distro: he said that Core Desktop would deliver &quot;all of the joy that people derive from NixOS, for those with that perverse habit – but for everybody.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Daily preview installation images of Core Desktop will, apparently, be available very soon, in both GNOME and KDE flavors, and he warned that &quot;there be dragons.&quot; (That may be a veiled nod to one of
+  &lt;a href=&quot;https://privateedition.co.za/here-be-dragons-a-mark-shuttleworth-enterprise/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   founder Mark Shuttleworth&#x27;s other companies
+  &lt;/a&gt;
+  .)
+ &lt;/p&gt;
+ &lt;p&gt;
+  After the
+  &lt;a href=&quot;https://www.theregister.com/software/2023/06/06/oh-snap-desktop-ubuntu-core-to-arrive-in-2024/1173569&quot; target=&quot;_blank&quot;&gt;
+   promises made in 2023
+  &lt;/a&gt;
+  , we&#x27;ll be watching that timetable closely. &quot;I believe this is the future of Linux,&quot; Seager said, promising &quot;a final version by 28.04, released alongside Ubuntu,&quot; adding that a &quot;very stretchy stretch goal was by default for 30.04: download from ubuntu.com and you get Core Desktop – unless you ask for the other thing.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  For those alarmed by that prospect, he had reassurance: &quot;Ubuntu as you know it today is not going anywhere. There are no plans for the existing distro to go away.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Core Desktop wasn&#x27;t even the main subject of his keynote. They followed a lengthy excursion into formal logic: definitions, proofs, invariants, and designing software whose behavior can be checked against precisely stated rules. The accompanying slides showed the logos of organizations working in this area, such as
+  &lt;a href=&quot;https://hegel.dev/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Hegel
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://antithesis.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Antithesis
+  &lt;/a&gt;
+  , and the
+  &lt;a href=&quot;https://lean-lang.org/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Lean programming language
+  &lt;/a&gt;
+  . For now, an entire OS is much too big to formally verify, but subcomponents may be doable – and Canonical is starting with snapd.
+ &lt;/p&gt;
+ &lt;p&gt;
+  He also expressed his satisfaction with the Stonking release, highlighting that it advanced Canonical&#x27;s move toward Rust-based components, including
+  &lt;a href=&quot;https://github.com/rustls/rustls&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Rustls
+  &lt;/a&gt;
+  and
+  &lt;a href=&quot;https://docs.rs/upki/latest/upki/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   upki
+  &lt;/a&gt;
+  – noting that this proved very timely in the light of
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312&quot; target=&quot;_blank&quot;&gt;
+   recent events
+  &lt;/a&gt;
+  . The release also delivered the newest available kernel,
+  &lt;a href=&quot;https://openssl-library.org/post/2026-04-14-openssl-40-final-release/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   OpenSSL 4
+  &lt;/a&gt;
+  – which he called a &quot;huge change&quot; – and official RISC-V images. He also called out the
+  &lt;a href=&quot;https://www.theregister.com/os-platforms/2026/06/18/canonical-unveils-myna-speech-to-text-app-for-ubuntu-2610/5258376&quot; target=&quot;_blank&quot;&gt;
+   Myna speech-recognition feature
+  &lt;/a&gt;
+  , saying that it was all in-house, designed and shipped in six months by a team of &quot;about two and a half people.&quot; It will form part of the company&#x27;s plans for what it calls a
+  &lt;a href=&quot;https://wiki.ubuntu.com/Context_aware&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   context-aware desktop
+  &lt;/a&gt;
+  . ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Support tech fixed malware by charging client less for their services </title>
+<link>https://www.theregister.com/personal-tech/2026/11/20/support-tech-fixed-malware-by-charging-client-less-for-their-services/5310959</link>
+<pubDate>Fri, 20 Nov 2026 06:29:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;425970a9-8cc4-45c2-8794-e40ea66a55a0&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Welcome to Friday and therefore to another edition of
+  &lt;a href=&quot;https://www.theregister.com/tag/on%20call/&quot; target=&quot;_blank&quot;&gt;
+   On Call
+  &lt;/a&gt;
+  ,
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  &#x27;s reader-contributed tech support column in which we share your tales of cleaning up messes made by clients and colleagues.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This week, meet a reader we&#x27;ll Regomize as &quot;Dennis&quot; who told us he once ran a tech support business in a major US city.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I got a call from a very well-known lawyer&#x27;s office,&quot; he told On Call. &quot;Over the two decades I spent supporting his office, this attorney and I became close friends.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The attorney was also a good client because Dennis found himself billing a three-figure sum every month for malware removal that resulted from the lawyer’s – ahem – personal browsing habits.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dennis eventually tired of malware removal and told his client to expect a substantial bill for the iMac he was about to buy as a replacement for his PC.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I told him this would pay for itself in 18 months,&quot; Dennis wrote, because he figured it wouldn&#x27;t get malware all the time.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;He actually said, with genuine concern: &#x27;If you do that, you will make less money&#x27;.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dennis replied that he aimed to give his clients the best advice, and that on this occasion his counsel was to pay Apple instead of himself!
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;It took him about five years to stumble across
+  &lt;em&gt;
+   anything
+  &lt;/em&gt;
+  that could harm that iMac,&quot; Dennis wrote. &quot;When he did, I had no idea what to do: I had never
+  &lt;em&gt;
+   seen
+  &lt;/em&gt;
+  an infected Apple product.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  So he did what all tech support people do: reinstalled the OS and crossed his fingers.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Dennis was rewarded when the machine came back to life, with all data and settings intact.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I had given up at least $6,000 in support revenue by solving his problem and I&#x27;d do it again,&quot; he wrote, before winding up his story by letting us know &quot;I retired five years ago. It’s
+  &lt;em&gt;
+   still
+  &lt;/em&gt;
+  on his desk!&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Have you done less tech support to deliver more value? If so,
+  &lt;a href=&quot;mailto:oncall@theregister.com&quot; target=&quot;_blank&quot;&gt;
+   click here
+  &lt;/a&gt;
+  to send On Call an email and charge us with the responsibility of telling your story on a future Friday. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Big Tech&#x27;s compliance with EU market rules is performative, consumer group says </title>
+<link>https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066</link>
+<pubDate>Fri, 20 Nov 2026 04:30:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Big Tech has earned a finger-wagging from the European Consumer Organisation (BEUC), which says the industry&#x27;s compliance with the EU&#x27;s Digital Markets Act (DMA) still leaves consumers short of meaningful choice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  BEUC
+  &lt;a href=&quot;https://www.beuc.eu/press-releases/big-tech-must-give-consumers-real-choice-complying-fully-eu-digital-markets-act&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   said
+  &lt;/a&gt;
+  : &quot;Big Tech companies Alphabet, Amazon, Apple, ByteDance, Meta and Microsoft (so-called &#x27;gatekeepers&#x27;) still likely breach the EU&#x27;s Digital Markets Act (DMA) far too often for consumers to reap the full benefits of real choice over their digital services and products.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The European Commission
+  &lt;a href=&quot;https://digital-markets-act.ec.europa.eu/gatekeepers-portal_en&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   designated the six companies as gatekeepers in 2023
+  &lt;/a&gt;
+  , imposing obligations on specified core platform services such as search engines, messaging services, and app stores. The DMA aims to make digital markets fairer and more open to competition.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The devil is in the details. In the years since, the EC
+  &lt;a href=&quot;https://www.theregister.com/legal/2026/06/25/european-commission-lines-up-amazon-and-microsoft-for-cloud-gatekeeper-status/5262127&quot; target=&quot;_blank&quot;&gt;
+   has lined up
+  &lt;/a&gt;
+  Amazon and Microsoft&#x27;s cloud businesses for gatekeeper status. In March 2025, the Commission issued preliminary findings against Alphabet over Search and Google Play, while separately specifying measures Apple had to take to meet its interoperability obligations. In 2024, Microsoft&#x27;s browser rivals
+  &lt;a href=&quot;https://www.theregister.com/software/2024/10/07/eu-should-designate-edge-a-gatekeeper-say-browser-rivals/1482144&quot; target=&quot;_blank&quot;&gt;
+   argued
+  &lt;/a&gt;
+  that Edge should also be covered by the DMA&#x27;s gatekeeper obligations, and so on.
+ &lt;/p&gt;
+ &lt;p&gt;
+  BEUC is a fan of the act – it published a report on its consumer benefits in 2025 – but is less impressed with industry&#x27;s implementation. Its latest analysis draws together evidence of potential breaches submitted to the Commission between June 2025 and June 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In the case of Microsoft, BEUC stated that the company used &quot;behavioural techniques&quot; and &quot;non-neutral interfaces&quot; to elicit consent from users for data sharing across services – emphasizing benefits, while not explaining why a user might want to decline. The Windows behemoth is also accused of making it tricky to change defaults and stop behavior such as apps opening links in Edge or using Bing as a search engine.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Microsoft also regularly prompts users who have selected an alternative browser or search engine to switch to Edge or Bing using increasingly subliminal techniques, such as prompts coming from the device manufacturer, which undermine effective compliance with the DMA,&quot; BEUC said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Then there&#x27;s Google, which was
+  &lt;a href=&quot;https://www.theregister.com/legal/2026/07/24/google-breaks-alibabas-record-for-europes-largest-dma-fine/5278017&quot;&gt;
+   fined €890 million in July
+  &lt;/a&gt;
+  for favoring its own services in Search and restricting developers&#x27; ability to direct Play Store users to alternative purchasing channels. As with Microsoft, BEUC expressed concerns about the non-neutral language Google used to obtain user consent, as well as how it allegedly made it difficult to change default settings or uninstall gatekeeper applications.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The alleged behavior of Apple, ByteDance, Amazon, and Meta was also highlighted, with examples including Apple&#x27;s restrictions on alternative app distribution and Amazon using interface design techniques to nudge users into handing over their data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Apple
+  &lt;a href=&quot;https://www.theregister.com/personal-tech/2026/08/19/epic-games-dismisses-apples-simplified-eu-app-store-fees-as-junk/5289794&quot; target=&quot;_blank&quot;&gt;
+   announced
+  &lt;/a&gt;
+  new terms for developers earlier this year in response to its App Store dispute with the European Commission, but BEUC said it was &quot;concerned that the new terms do not resolve fundamental non-compliance issues.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Google did not respond to requests for comment from
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  . A Microsoft spokesperson told us: &quot;We are continuing to engage with the Commission and industry at large to ensure Microsoft&#x27;s designated platforms comply fully with the DMA.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  An Amazon spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  “Our consent experience is clear and gives customers informed choice about how their personal information is used across Amazon services. We see that in practice.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “A seller that uses Amazon Stores in the EU can offer the same products on any third-party online marketplace or its own direct to customer website at any price, without affecting their eligibility to be highlighted as the Featured Offer. This is set out clearly in our DMA Compliance Report.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  BEUC director general Agustín Reyna said: &quot;The era of cosmetic compliance must end. It is high time the Commission holds gatekeepers to account and imposes dissuasive penalties in all cases where they bypass the DMA&#x27;s rules.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The report has been shared with the Commission. Whether BEUC&#x27;s allegations lead to further findings of non-compliance or penalties is now a matter for the regulator. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> US let Nvidia and AMD sell bucketloads of chips to military-linked Chinese companies </title>
+<link>https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200</link>
+<pubDate>Fri, 20 Nov 2026 04:04:56 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The US Commerce Department’s Bureau of Industry and Security (BIS) allowed Nvidia and AMD to sell hundreds of thousands of advanced GPUs to entities that the Department of War classifies as “Chinese military companies” that help Beijing to build its military.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That news comes courtesy of Brian Mast, chair of the House Foreign Affairs Committee, who asked BIS to provide information about NVIDIA’s and AMD’s applications for the export licenses required to sell advanced AI chips to China.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The congressman on Thursday
+  &lt;a href=&quot;https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   revealed
+  &lt;/a&gt;
+  requests to sell 3.4 million AI chips to China, and that BIS approved the sale of 879,000 items.
+ &lt;/p&gt;
+ &lt;p&gt;
+  BIS refused to authorize some giant deals for Nvidia, which applied to sell 610,000 chips to Alibaba and 508,000 to TikTok owner Bytedance.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But the agency allowed many other sales, including to Alibaba and Tencent.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mast points out that both of those companies are on the Department of War’s
+  &lt;a href=&quot;https://www.war.gov/News/Releases/Release/Article/4511232/dow-releases-list-of-chinese-military-companies-in-accordance-with-section-1260/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   List of Chinese Military Companies
+  &lt;/a&gt;
+  , the designation it uses for entities deemed to be a “military-civil fusion contributor to the Chinese defense industrial base.” That’s a polite way of saying that Washington thinks China relies on these companies to operate and improve its military, and therefore to challenge America’s national security.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Advanced chips are essential when designing nuclear weapons, stealthy submarines, or advanced aircraft.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Those applications are the core reason the US bans exports of advanced GPUs to China, so that the People’s Liberation Army can’t develop advanced weapons.
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A diverting drama
+ &lt;/h3&gt;
+ &lt;p&gt;
+  The congressman also claims that some of Nvidia’s applications were attempts to sell its wares to “chip-smuggling fronts to facilitate their sales of advanced AI chips to Chinese companies.” The New York Times
+  &lt;a href=&quot;https://www.nytimes.com/2026/11/19/business/economy/nvidia-chips-commerce-china-huang.html?unlocked_article_code=1.R1E.WQ4k.w7m7JgVhbV0h&amp;smid=url-share&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   reports
+  &lt;/a&gt;
+  that some of those front entities are linked to Megaspeed, the outfit fronted by suspected Chinese intelligence asset Alice Huang, whose intimate relationship with former Nvidia CEO Jensen Huang was a key factor in his resignation.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Megaspeed is accused of what the US calls “diversion” – claiming to buy chips for one reason while intending to either ship them to China or rent them exclusively to Chinese companies in ways that breach the spirit of export restrictions if not the letter of the law.
+ &lt;/p&gt;
+ &lt;p&gt;
+  One of the documents Mast shared says “Every Nvidia and AMD application stated that the proposed transfer posed a ‘low’ risk of diversion.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mast’s point therefore appears to be that the BIS has authorized sales that go against the clear intent of established policy, and the national interest, and that Nvidia and AMD may have been a little too optimistic in their assessment of diversion risk.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Earlier this week, Washington adopted
+  &lt;a href=&quot;https://www.theregister.com/off-prem/2026/11/17/us-extends-chip-sale-restrictions-to-more-asian-countries-to-reduce-risk-of-diversion-to-china/5310307&quot; target=&quot;_blank&quot;&gt;
+   a new policy
+  &lt;/a&gt;
+  that outlaws allowing remote access to advanced AI chips, in the hope it would stop diversion and dent China’s AI ambitions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Two Chinese tech giants, Tencent and Alibaba, have signaled the policy had immediate impact.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Chinese web giant Tencent on Wednesday
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/11/19/chinese-web-giant-tencent-says-new-us-gpu-ban-sets-everyone-back-in-china/5310927&quot;&gt;
+   said
+  &lt;/a&gt;
+  that new ban will reduce the quantity of advanced compute capacity available to the company and mean its efforts to train models will slow.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alibaba offered similar sentiments on Thursday. Speaking on the company’s earnings call, CEO Eddie Wu said the new policy “will definitely have some impact on the long-term construction of Alibaba Cloud&#x27;s data centers both domestically and globally.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Based on our initial assessment, the long-term target of 20 gigawatts may be lowered, which will also lead to a reduction in our overall capital expenditure plan,” he said.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But both Tencent and Alibaba don’t see the new policy as creating long-term problems, because both companies believe Chinese chipmakers will be making advanced AI hardware at scale in 2027 or 2028.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Alibaba’s Wu predicted his company “will go through a phase of the largest investment in AI infrastructure” once Chinese chipmakers get up to speed.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Once that happens, Nvidia and AMD may not even be able to sell chips to China through backdoors.
+ &lt;/p&gt;
+ &lt;p&gt;
+  And for what it’s worth, even after the two sultans of silicon went through the front door by asking BIS for permission, many of the approved orders never resulted in shipments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  That’s likely because Beijing needs to approve imports and chose not to do so while its own chipmakers develop improved products. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Flaws in VMware and KVM need attention, if you have time while fixing Java, PHP, and everything else </title>
+<link>https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193</link>
+<pubDate>Fri, 20 Nov 2026 00:57:45 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  If you’ve got a moment to spare in between sorting out emergency patches for
+  &lt;a href=&quot;https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   PHP
+  &lt;/a&gt;
+  ,
+  &lt;a href=&quot;https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661&quot; target=&quot;_blank&quot;&gt;
+   Java
+  &lt;/a&gt;
+  , and
+  &lt;a href=&quot;https://www.theregister.com/databases/2026/11/17/postgresql-patches-52-security-holes-sends-version-14-into-retirement/5310108&quot; target=&quot;_blank&quot;&gt;
+   PostgreSQL
+  &lt;/a&gt;
+  , VMware has just bid for any remaining space on your schedule by publishing two critical-rated security advisories.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;a href=&quot;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   VMSA-2026-0009
+  &lt;/a&gt;
+  addresses
+  &lt;a href=&quot;https://www.tenable.com/cve/CVE-2026-123890&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   CVE-2026-123890
+  &lt;/a&gt;
+  , a 9.8-rated flaw that VMware says means a malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system. vCenter is the tool admins use to manage fleets of virtual machines. The flaw is present in VMware’s flagship Cloud Foundation suite. VMSA-2026-0009 also details four more CVEs, some of them high-severity.
+ &lt;/p&gt;
+ &lt;p&gt;
+  VMware’s second advisory,
+  &lt;a href=&quot;https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39625&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   VMSA-2026-0010
+  &lt;/a&gt;
+  , warns that Cloud Foundation, Aria Operations, and VCF Operations HCX products all use Apache – which has a 9.8-rated remote code execution vulnerability (CVE-2026-119618).
+ &lt;/p&gt;
+ &lt;h3&gt;
+  A KVM curiosity
+ &lt;/h3&gt;
+ &lt;p&gt;
+  Admins who oversee virtual infrastructure also need to pay attention to Linux KVM, the subject of a curious incident over the last 24 hours.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This mess started with the November 18 disclosure of
+  &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/cve-2026-99312&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   CVE-2026-99312
+  &lt;/a&gt;
+  , a bug which allows an attacker to use a guest virtual machine to inflict Denial of Service (DoS) or memory corruption attacks on the host.
+ &lt;/p&gt;
+ &lt;p&gt;
+  It’s bad news whenever someone with access to a guest VM can attack the host, because it means gaining access to a single tenant can potentially harm all the other guest VMs or peer into the memory a guest uses.
+ &lt;/p&gt;
+ &lt;p&gt;
+  This flaw, however, isn’t a worst-case scenario guest-host escape, because it only impacts users of AMD processors who employ nested virtualization – the practice of running a hypervisor inside a virtual machine. Nested virtualization isn’t commonly used in the enterprise, but clouds employ it to do things like powering OS emulators. The bug’s CVSSv3 score is therefore a modest 5.5.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Security researcher Oren Tomtov of Accomplish.ai
+  &lt;a href=&quot;https://www.linkedin.com/feed/update/urn:li:activity:7529270965147705345/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   says
+  &lt;/a&gt;
+  the flaw meant he could access 127 GB of host RAM on a Digital Ocean “Droplet” – the junior cloud’s name for its cloudy VMs.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yomtov says he told Digital Ocean and the Linux kernel security team about the flaw in October. Maintainers got busy and delivered a fix to the mainline kernel on November 2, full fixes landed on the 17
+  &lt;sup&gt;
+   th
+  &lt;/sup&gt;
+  . The CVE then appeared on November 18.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Yomtov and Terra Security quickly posted their analysis of the flaw – but then took the posts down within hours.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &lt;em&gt;
+   The Register
+  &lt;/em&gt;
+  understands that Digital Ocean asked for the posts to come down because it needed more time to update its Linux implementations. The company has not responded to multiple requests for comment.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Terra’s
+  &lt;a href=&quot;https://www.terra.security/blog/kvm-guest-to-host-escape&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   analysis
+  &lt;/a&gt;
+  of the flaw asserts that it was introduced to KVM in 2022, when developers wrote a fix for
+  &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2022-3344&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   CVE-2022-3344
+  &lt;/a&gt;
+  . The company believes 3.2 percent of CVEs in the Linux kernel were introduced by the fix for another CVE.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The good news about
+  &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/cve-2026-99312&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   CVE-2026-99312
+  &lt;/a&gt;
+  is it’s easy to defeat without an update, by disabling nested virtualization in KVM. ®
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+ &lt;p&gt;
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Germ Network infects Android, but in a good way </title>
+<link>https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186</link>
+<pubDate>Fri, 20 Nov 2026 00:06:35 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  The Germ Network encrypted messaging client, known as Germ DM, became available for Android on Wednesday, and made a bigger splash than its iOS touchdown back in 2023.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Our usage took a 20x jump yesterday from
+  &lt;a href=&quot;https://www.germnetwork.com/blog/android-is-live&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   our Android launch
+  &lt;/a&gt;
+  ,&quot; co-founder Tessa Brown, a communications scholar and former Stanford lecturer, told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  in an interview. &quot;Android has been really exciting for us because not only is it 70 percent of the global mobile market, but we rolled out
+  &lt;a href=&quot;https://apps.apple.com/us/app/germ-dm/id6446882771&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   on iOS
+  &lt;/a&gt;
+  first. People were so excited to use Germ for their end-to-end encrypted Bluesky DMs, but half of their friends couldn&#x27;t talk to them.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Building a new messaging platform isn&#x27;t easy, much less one with credible end-to-end encryption. Co-founder Mark Xue hails from Apple, where he worked as a privacy engineer on systems like iMessage and FaceTime.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;At the core level, the end-to-end encryption is built on a standardized encryption and Messaging Layer Security,&quot; Xue said. &quot;The premise of
+  &lt;a href=&quot;https://messaginglayersecurity.rocks&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   Messaging Layer Security
+  &lt;/a&gt;
+  was to be as good as Signal and deployable by many, many different parties in different applications, which we&#x27;re taking advantage of to extend the reach of that encryption.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Xue said the app is built with its own transport protocol to minimize the amount of message metadata, adding that while the team hasn&#x27;t gotten around to a formal security audit, it&#x27;s a step they&#x27;re considering.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Germ Network&#x27;s goal, said Brown, is to give people more confidence when they communicate. &quot;We do that by giving you more tools to protect your identity, to control what you&#x27;re sharing with whom,&quot; she explained.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Instead of using a person&#x27;s phone number as an identity key, Germ allows users to create cards which represent distinct identities on the network.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Instead of sharing your number, you share a card,&quot; Brown explained. &quot;You can build multiple cards; they&#x27;re not mutually discoverable. And our vision for the product that will continue shipping over the coming years is that these cards become a more intelligent way to manage your social life, even your work life.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  At some point, AI might play a role in that, but both Xue and Brown expressed reservations about the current state of play.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Citing concerns Signal has raised about the integration of AI and messaging, Xue said, &quot;The products today that I might characterize as technology demos, they&#x27;re most powerful when they run on someone else&#x27;s computer. So you end up with these systems where you upload all your messages or you give another entity the power to observe your computing, and that&#x27;s extremely dangerous for what we protect as private content.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Xue noted rapid progress toward addressing information exposure concerns and therefore plans to explore the kinds of smart tooling that users want while also meeting security and privacy requirements.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;I think a lot of the AI conversation sometimes is a hammer in search of a nail,&quot; said Brown. &quot;But people do want more tools to make sense of their busy lives and following our consumers, our users, and what they want, we do want to give them smart tooling that will help them organize threads, stay in touch, find the right people to talk to in groups, in a private way that&#x27;s using a lot of the intelligence that&#x27;s already on their device.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  If Germ DM were simply trying to win people away from widely adopted services like Instagram or respected encryption apps like Signal, it would be difficult to see a path to success.
+ &lt;/p&gt;
+ &lt;p&gt;
+  But Germ DM may be able to reach a point of sustainability by standing on the shoulders of Bluesky.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bluesky
+  &lt;a href=&quot;https://bsky.social/about/blog/05-22-2024-direct-messages&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   launched Direct Messages
+  &lt;/a&gt;
+  in 2024 but
+  &lt;a href=&quot;https://www.germnetwork.com/blog/germ-is-a-social-media-messenger&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   chose to focus its development resources elsewhere
+  &lt;/a&gt;
+  and left E2E DMs to Germ Network. Germ DM, which
+  &lt;a href=&quot;https://www.germnetwork.com/blog/integrating-germ-atproto&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   supports
+  &lt;/a&gt;
+  Bluesky&#x27;s
+  &lt;a href=&quot;https://atproto.com&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   AT Protocol
+  &lt;/a&gt;
+  (ATproto), fills that gap and even has Bluesky
+  &lt;a href=&quot;https://bsky.app/profile/bsky.app/post/3n2m24be4e223&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;
+   promoting the app for that purpose
+  &lt;/a&gt;
+  .
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;On a business strategic level, it&#x27;s been a really wonderful move for us,&quot; said Brown. &quot;So we&#x27;re natively a multi-identity messenger. And you can say that ATproto is the first external identity that we brought into the app, after we first shipped local identities that you just build in our app.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;And so the way that we&#x27;re marketing and growing right now is [by offering] end-to-end encrypted messages for Bluesky users. You log in with your handle into our app. We pull your friend graph so you can see your mutuals that already have Germ in the app.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Bluesky assists further with marketing by allowing Germ DM users to add a Germ messaging button to their Bluesky profiles. So anyone interested in encrypted DMs in Bluesky may end up seeing that option.
+ &lt;/p&gt;
+ &lt;p&gt;
+  At some point, expect paid, premium features but at the moment, Germ Network is focused on spreading the encrypted word. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers&#x27; info </title>
+<link>https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175</link>
+<pubDate>Thu, 19 Nov 2026 21:12:33 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  JPMorgan Chase, Visa, and Mastercard have all confirmed that they are investigating third-party breaches that may involve customer information after a data-theft-and-extortion gang claimed to have compromised the financial giants.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “Visa is aware of these claims,” a spokesperson told
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &lt;span&gt;
+   on Thursday
+  &lt;/span&gt;
+  . “They are associated with an incident involving a third-party service provider in Asia Pacific. Visa’s systems were not involved and were not impacted. No payments data such as card numbers were affected. This is unrelated to any of the system disruptions across different industries this past week.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  Mastercard also cited a third-party provider in an email sent to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  following our questions about the alleged breach.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We were recently informed of an incident at a third-party provider that resulted in the exposure of a limited amount of email addresses - non-payments information - from a small subset of cardholders enrolled in a specific benefit program,” Mastercard SVP Seth Eisen said. “There is no impact to the Mastercard payment network or the ability for people to use their cards. At this time, the exposure has been contained and our teams are working with the provider to support the impacted cardholders as needed.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  JPMorgan Chase did not respond to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  ’s request for comment, but confirmed it was investigating a cyberattack on social media.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “We have learned that third parties who provide services to the firm were the target of a cyber attack,” America’s largest bank
+  &lt;a href=&quot;https://x.com/jpmorgan/status/2123408240104853510&quot; rel=&quot;nofollow&quot;&gt;
+   posted
+  &lt;/a&gt;
+  on X. “Based on our investigation so far, we believe the attackers accessed certain marketing data held by those vendors, which may include some customer names and email addresses.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to Chase, the third-party breach didn’t disrupt any of its services, and it’s not connected to the outages earlier in the week attributed to a software bug in on-premise hardware systems.
+ &lt;/p&gt;
+ &lt;p&gt;
+  “There is no connection to service disruption some customers experienced earlier this week,” the bank said on Thursday.
+ &lt;/p&gt;
+ &lt;p&gt;
+  None of the three financial firms would comment on who the third-party providers are, when the breaches occurred, and what specific data was stolen.
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  will update this story as we learn more details about the intrusions.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Extortion crew n0n
+  &lt;a href=&quot;https://x.com/Ransom_DB/status/2122304089409151291&quot; rel=&quot;nofollow&quot;&gt;
+   claimed
+  &lt;/a&gt;
+  responsibility for all three alleged hacks, posting the financial giants to its data-leak site on Monday. The group, believed to be based in Russia, emerged in September and
+  &lt;a href=&quot;https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754&quot;&gt;
+   posted 108 victims
+  &lt;/a&gt;
+  over its first month in operations. ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Palo Alto Networks opens wallet for open-weight training biz </title>
+<link>https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168</link>
+<pubDate>Thu, 19 Nov 2026 20:00:00 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  As AI has become a thorn in the side of the security industry, Palo Alto Networks (PAN) has reached an agreement to acquire Applied Compute, an AI model training platform.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We believe many of the major disruptions of the last few weeks, including outages across major enterprises and governments, were partially due to unintended consequences of patching and configuration changes, as IT teams simply cannot patch these vulnerabilities fast enough without compromising their production environments,&quot;
+  &lt;a href=&quot;https://finance.yahoo.com/quote/PANW/earnings/PANW-Q1-2027-earnings_call-742340.html&quot;&gt;
+   said
+  &lt;/a&gt;
+  Nikesh Arora, chairman and CEO of PAN, during the company&#x27;s
+  &lt;a href=&quot;https://finance.yahoo.com/quote/PANW/earnings/PANW-Q1-2027-earnings_call-742340.html&quot;&gt;
+   fiscal Q1 2027 earnings call
+  &lt;/a&gt;
+  on Wednesday. &quot;The second effect is the rise of AI-assisted cyberattacks.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  So in the spirit of &quot;hair of the dog that bit me,&quot; PAN is ingesting Applied Compute to make open-weight AI more secure for corporate customers. The answer to insecurity brought on by AI is buying security with AI.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In its
+  &lt;a href=&quot;https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open&quot;&gt;
+   announcement
+  &lt;/a&gt;
+  of the tie-up, PAN declares &quot;the future of enterprise AI is hybrid, and that a large share of enterprises will run on open-source and open-weight models tuned to their own data, cost, and control needs.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  That view has been clouded a bit by Nvidia co-founder Jensen Huang&#x27;s fall from grace: Back in July, he came to the defense of open-weight models as a defense against the hegemony of purveyors of closed-weight commercial models like Anthropic, Google, Microsoft, and OpenAI. His resignation as CEO of Nvidia has led to worries that the open-weight ecosystem has lost some lobbying power at a time when the US is wary about the uptake of models made in China.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Nonetheless, PAN clearly sees a future for open-weight models.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;Every enterprise is going to run a mix of open and closed models, and every one of those models needs to be secured,&quot; said Nikesh Arora, chairman and CEO of PAN, in a statement. &quot;Applied Compute has built the best post-training and inference platform we&#x27;ve seen, and its research team is exceptional.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The company expects the $4.5 billion all-stock transaction to add more than $1 billion to the company&#x27;s Next Generation Security business by FY 2029.
+ &lt;/p&gt;
+ &lt;p&gt;
+  Arora, on the company&#x27;s earnings call, explained the pricey bet as recognition of the corporate desire to avoid vendor lock-in and to retain control of data.
+ &lt;/p&gt;
+ &lt;p&gt;
+  &quot;We&#x27;re already seeing the desire for sovereignty and control compel enterprises to adopt open-weight and open-source models,&quot; he said. &quot;Early signs of that shift are clear, with open-weight models growing from under 5 percent of token traffic to more than 60 percent over the past year.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  Beyond the sticker price, PAN is ready to up its infrastructure ante. Arora said the biz expects to build infrastructure supporting more than 100 megawatts of inference capacity, a project that will take &quot;a modest CapEx commitment of less than $3 billion through fiscal 2030.&quot; ®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+<item>
+<title> Nvidia adds possible hack to list of very bad things under investigation </title>
+<link>https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153</link>
+<pubDate>Thu, 19 Nov 2026 18:52:53 -0000</pubDate>
+<description>
+&lt;div data-element-guid=&quot;4c9dc5d9-c886-4348-bf4a-01d0dc71377d&quot;&gt;
+ &lt;!-- placeholder(#1) --&gt;
+ &lt;p&gt;
+  Finding a new CEO is just one of their problems. Nvidia is reportedly investigating an alleged breach following claims by ransomware group The Gentlemen&#x27;s affiliates that they hacked the AI giant and stole sensitive information.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The
+  &lt;a href=&quot;https://www.theregister.com/systems/2026/11/18/business-as-usual-but-huang-aint-coming-back-says-nvidia/5310772&quot;&gt;
+   embattled chipmaker
+  &lt;/a&gt;
+  did not respond to
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  &#x27;s inquiries, but told other
+  &lt;a href=&quot;https://www.newsweek.com/hacking-gentlemen-breach-nvidia-12734362&quot;&gt;
+   media
+  &lt;/a&gt;
+  &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/&quot;&gt;
+   outlets
+  &lt;/a&gt;
+  that it was investigating a possible third-party data breach. “We have found no indication that Nvidia systems or networks were affected,” a spokesperson reportedly said. “We continue to monitor the situation.&quot;
+ &lt;/p&gt;
+ &lt;p&gt;
+  The ransomware gang’s data-leak site,
+  &lt;a href=&quot;https://x.com/IntCyberDigest/status/2123027818162344194&quot;&gt;
+   shared on social media
+  &lt;/a&gt;
+  and seen by
+  &lt;span data-lab-italic=&quot;italic&quot;&gt;
+   The Register
+  &lt;/span&gt;
+  , doesn’t show any stolen files or indicate what information the group claims to have stolen. Nvidia first appeared on the criminals’ blog on Wednesday, with The Gentlemen promising “DATA INFO - SOON.”
+ &lt;/p&gt;
+ &lt;p&gt;
+  The post also included a countdown, ending November 28.
+ &lt;/p&gt;
+ &lt;p&gt;
+  While we can’t verify the criminals’ claims, the group, which
+  &lt;a href=&quot;https://www.theregister.com/cyber-crime/2026/09/01/the-gentlemen-come-calling-as-nutex-confirms-sensitive-data-theft/5293642&quot;&gt;
+   emerged in mid-2025
+  &lt;/a&gt;
+  , is one of the most prolific ransomware-as-a-service operations. Its affiliates claimed more than 320 victims as of April, with the majority of these alleged ransomware infections (240) occurring in the first half of 2026.
+ &lt;/p&gt;
+ &lt;p&gt;
+  The actual count, however, is likely much higher. Check Point researchers accessed an affiliate’s live command-and-control server during an incident response case earlier this year. The server contained victim telemetry that revealed
+  &lt;a href=&quot;https://research.checkpoint.com/2026/dfir-report-the-gentlemen/&quot; rel=&quot;nofollow&quot;&gt;
+   more than 1,570 victims
+  &lt;/a&gt;
+  , mostly located in the US, and primarily corporate and organizational environments.
+ &lt;/p&gt;
+ &lt;p&gt;
+  According to an operational technology (OT) threat report from Trellix published on Wednesday, industrial
+  &lt;a href=&quot;https://www.trellix.com/advanced-research-center/threat-reports/ot-threat-report-nov-2026/&quot; rel=&quot;nofollow&quot;&gt;
+   ransomware claims jumped nearly 51 percent
+  &lt;/a&gt;
+  - to about 1,500 posts- compared to last quarter, and The Gentlemen’s affiliates were the most prolific claim posters during this time period. They accounted for about 16 percent of all posts.
+ &lt;/p&gt;
+ &lt;p&gt;
+  In February 2022, an
+  &lt;a href=&quot;https://www.theregister.com/security/2022/02/26/data-stolen-from-nvidia-hardware-files-leak-threatened/1310566&quot;&gt;
+   Nvidia data breach
+  &lt;/a&gt;
+  exposed employees’ credentials and proprietary code. Extortion crew
+  &lt;a href=&quot;https://www.theregister.com/security/2025/08/12/three-notorious-cybercrime-gangs-appear-to-be-collaborating/393646&quot;&gt;
+   Lapsus$ claimed
+  &lt;/a&gt;
+  to be responsible for that intrusion and data theft.®
+ &lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+</item>
+</channel>
+</rss>
